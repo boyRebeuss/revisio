@@ -17,3 +17,9 @@ export function h(tag, attrs = {}, ...enfants) {
   }
   return el;
 }
+
+// Remplace le contenu d'un élément en ignorant les valeurs absentes (null, false) :
+// replaceChildren(null) écrirait littéralement « null » à l'écran.
+export function remplacer(el, ...enfants) {
+  el.replaceChildren(...enfants.flat().filter((e) => e != null && e !== false));
+}

@@ -1,5 +1,5 @@
 import { NIVEAUX, matiere as trouverMatiere } from "../content/catalogue.js";
-import { h } from "./dom.js";
+import { h, remplacer } from "./dom.js";
 import { bloc } from "./md.js";
 import * as S from "./store.js";
 import * as IA from "./gemini.js";
@@ -40,7 +40,7 @@ function entete({ titre, retour, couleur, droite }) {
 }
 
 function page(...enfants) {
-  app.replaceChildren(...enfants);
+  remplacer(app, ...enfants);
   window.scrollTo(0, 0);
 }
 

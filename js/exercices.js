@@ -1,5 +1,5 @@
 // Affichage et correction des exercices (qcm, vf, saisie, redaction).
-import { h } from "./dom.js";
+import { h, remplacer } from "./dom.js";
 import { bloc, inline } from "./md.js";
 import * as IA from "./gemini.js";
 import { reponseJuste } from "./correcteur.js";
@@ -54,7 +54,7 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
     fini = true;
     carte.classList.remove("deja-ok", "deja-ko");
     carte.classList.add(ok ? "ok" : "ko");
-    retour.replaceChildren(
+    remplacer(retour,
       h("div", { class: "verdict" }, ok ? "✅ Bravo !" : "❌ Pas tout à fait."),
       detail || null,
       e.explication ? h("div", { class: "explication", html: bloc(e.explication) }) : null,
@@ -124,8 +124,8 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
         corrige.replaceChildren(h("h4", {}, "Corrigé"), h("div", { html: bloc(e.corrige) }));
         actions.replaceChildren(
           h("span", { class: "question-auto" }, "As-tu réussi ?"),
-          h("button", { class: "btn vert", onclick: () => terminer(true) }, "Oui ✓"),
-          h("button", { class: "btn rouge", onclick: () => terminer(false) }, "Pas encore ✗")
+          h("button", { class: "btn vert", onclick: () => { actions.replaceChildren(); terminer(true); } }, "Oui ✓"),
+          h("button", { class: "btn rouge", onclick: () => { actions.replaceChildren(); terminer(false); } }, "Pas encore ✗")
         );
       };
       const boutonIA = IA.disponible()
