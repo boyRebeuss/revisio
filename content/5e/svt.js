@@ -166,7 +166,7 @@ Depuis environ 150 ans (fin du XIXe siècle), la température moyenne à la surf
       exercices: [
         { type: "vf", question: "« Demain, il pleuvra à Lyon » est une information sur le climat.", reponse: false, explication: "C'est une prévision **météorologique** : elle concerne un lieu et un moment précis. Le climat est une moyenne sur au moins 30 ans." },
         { type: "qcm", question: "Quel instrument mesure la quantité de pluie tombée ?", choix: ["Le baromètre", "L'anémomètre", "L'hygromètre", "Le pluviomètre"], reponse: 3, explication: "Le **pluviomètre** mesure les précipitations en mm. Le baromètre mesure la pression, l'anémomètre la vitesse du vent, l'hygromètre l'humidité." },
-        { type: "saisie", question: "Sur combien d'années au minimum calcule-t-on les moyennes qui définissent un climat ? (nombre)", reponses: ["30 ans", "trente", "trente ans"], explication: "Le climat est défini par des moyennes calculées sur au moins **30 ans**." },
+        { type: "saisie", question: "Sur combien d'années au minimum calcule-t-on les moyennes qui définissent un climat ? (nombre)", reponses: ["30 ans", "trente", "trente ans", "au moins 30 ans"], explication: "Le climat est défini par des moyennes calculées sur au moins **30 ans**." },
         { type: "qcm", question: "Un pluviomètre indique 12 mm de pluie. Quel volume d'eau est tombé sur 1 m² ?", choix: ["1,2 L", "12 L", "120 L", "0,12 L"], reponse: 1, explication: "1 mm de pluie correspond à 1 L par m². Donc 12 mm correspondent à **12 L** par m²." },
         { type: "vf", question: "L'air chaud a tendance à monter.", reponse: true, explication: "L'air chaud est moins dense que l'air froid : il **monte**. Ces mouvements sont à l'origine des vents et de la formation de nombreux nuages." },
         { type: "qcm", question: "Quelle est la principale cause du réchauffement climatique actuel ?", choix: ["Les rejets de gaz à effet de serre par les activités humaines", "Le rapprochement de la Terre et du Soleil", "Les éruptions volcaniques", "La diminution du nombre de nuages"], reponse: 0, explication: "La combustion du charbon, du pétrole et du gaz rejette du **dioxyde de carbone**, un gaz à effet de serre qui renforce l'effet de serre et réchauffe la planète." },
@@ -301,7 +301,7 @@ Les êtres vivants partagent des caractères communs parce qu'ils ont des **anc�
       exercices: [
         { type: "vf", question: "Une bactérie est un être vivant unicellulaire.", reponse: true, explication: "Une bactérie est formée d'**une seule cellule** : c'est un être unicellulaire." },
         { type: "qcm", question: "Quel élément trouve-t-on dans une cellule végétale mais pas dans une cellule animale ?", choix: ["La paroi", "La membrane", "Le noyau", "Le cytoplasme"], reponse: 0, explication: "La **paroi** (ainsi que les chloroplastes et la grande vacuole) est propre aux cellules végétales. Noyau, membrane et cytoplasme existent dans les deux." },
-        { type: "saisie", question: "Un microscope a un oculaire ×10 et un objectif ×40. Quel est le grossissement total ? (nombre)", reponses: ["400", "x400", "×400"], explication: "Grossissement = 10 × 40 = **400**." },
+        { type: "saisie", question: "Un microscope a un oculaire ×10 et un objectif ×40. Quel est le grossissement total ? (nombre)", reponses: ["400", "x400", "×400", "400 fois"], explication: "Grossissement = 10 × 40 = **400**." },
         { type: "qcm", question: "La chauve-souris possède des poils et des mamelles. Dans quel groupe la classe-t-on ?", choix: ["Les oiseaux", "Les poissons", "Les insectes", "Les mammifères"], reponse: 3, explication: "On classe selon les caractères partagés : poils et mamelles → **mammifères**. Le fait de voler n'est pas un critère de classification." },
         { type: "vf", question: "On peut regrouper le requin et la baleine car ils vivent tous les deux dans la mer.", reponse: false, explication: "Le lieu de vie n'est pas un critère de classification. La baleine (poils à la naissance, mamelles) est un mammifère ; le requin n'en est pas un." },
         { type: "saisie", question: "Quel élément de la cellule contient l'information génétique ?", reponses: ["noyau", "le noyau"], explication: "Le **noyau** contient l'ADN, support de l'information génétique." },
@@ -513,7 +513,7 @@ Les aliments apportent la **matière** pour construire et réparer le corps, et 
 | Fruits et légumes | vitamines, fibres, minéraux | au moins 5 par jour |
 | Féculents (pain, pâtes, riz) | énergie (glucides) | à chaque repas |
 | Produits laitiers | calcium (os) | 2 par jour |
-| Viandes, poissons, œufs, légumineuses | protéines (construction) | 1 à 2 fois par jour |
+| Viandes, poissons, œufs, légumineuses | protéines (construction) | en alternant : poisson 2 fois par semaine, légumes secs (lentilles, pois chiches) au moins 2 fois par semaine, viande rouge et charcuterie à limiter |
 | Matières grasses | lipides (énergie) | à limiter |
 | Produits sucrés | énergie rapide | à limiter |
 | Eau | hydratation | seule boisson indispensable |
@@ -566,7 +566,7 @@ Après l'effort, les besoins des muscles diminuent : c'est la **récupération**
 ## La reproduction sexuée
 La **reproduction sexuée** fait intervenir **deux parents** (un mâle et une femelle). Chacun produit des cellules reproductrices, les **gamètes** :
 - gamète mâle : le **spermatozoïde** (chez les animaux) ; le noyau contenu dans le **grain de pollen** (chez les plantes à fleurs) ;
-- gamète femelle : l'**ovule** (chez les animaux, on parle aussi d'ovocyte) ; l'ovule situé dans le **pistil** (chez les plantes).
+- gamète femelle : l'**ovule** (chez les animaux, on parle aussi d'ovocyte) ; chez les plantes à fleurs, une cellule reproductrice femelle (l'**oosphère**) contenue dans chaque **ovule** du **pistil**.
 
 La **fécondation** est la rencontre et la fusion d'un gamète mâle et d'un gamète femelle. Elle donne une **cellule-œuf**, qui se développe en **embryon**.
 
@@ -810,7 +810,7 @@ Les **micro-organismes** (ou microbes) sont des êtres vivants trop petits pour 
 |---|---|---|
 | **Bactéries** | quelques micromètres (µm), soit quelques millièmes de mm | bactéries du yaourt, salmonelle (intoxications alimentaires) |
 | **Champignons microscopiques** | quelques µm | levure du pain, champignon responsable d'une mycose |
-| **Virus** | environ 100 fois plus petits (quelques dizaines à quelques centaines de nanomètres) : visibles seulement au microscope électronique | virus de la grippe, du rhume, de la varicelle |
+| **Virus** | environ 10 à 100 fois plus petits (quelques dizaines à quelques centaines de nanomètres) : visibles seulement au microscope électronique | virus de la grippe, du rhume, de la varicelle |
 
 Les bactéries et les levures sont des êtres **unicellulaires**. Quand les conditions sont favorables (chaleur, humidité, nourriture), elles se **multiplient** très vite en se divisant en deux : dans les meilleures conditions, certaines bactéries se divisent toutes les **20 minutes** environ. Un **virus**, lui, n'est pas une cellule : il ne peut se multiplier qu'**à l'intérieur des cellules** qu'il infecte.
 

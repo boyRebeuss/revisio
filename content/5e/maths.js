@@ -153,7 +153,7 @@ B = (−12) + (+10)
       theme: "Nombres et calculs",
       cours: `
 ## Définition
-Si a et b sont deux nombres (b ≠ 0), la **fraction** a/b est le nombre qui, multiplié par b, donne a. C'est aussi le **quotient** a ÷ b.
+Si a et b sont deux nombres **entiers** (b ≠ 0), la **fraction** a/b est le nombre qui, multiplié par b, donne a. C'est aussi le **quotient** a ÷ b. (Quand a et b sont des nombres quelconques, par exemple 2,5/4, on parle plus généralement de **quotient**.)
 - a est le **numérateur**, b le **dénominateur**.
 - 3/4 = 3 ÷ 4 = 0,75.
 
@@ -185,6 +185,11 @@ Utilise les critères de divisibilité (par 2, 3, 5, 9, 10) pour trouver les div
 
 >! **Exemple** : 5/6 − 1/3. Comme 6 = 3 × 2 : 1/3 = 2/6.
 >! 5/6 − 2/6 = 3/6 = 1/2.
+
+- **Dénominateurs quelconques** : on cherche un **multiple commun** aux deux dénominateurs (le produit des deux dénominateurs convient toujours) et on transforme les **deux** fractions.
+
+>! **Exemple** : 2/5 + 1/4. Un multiple commun de 5 et 4 est 20.
+>! 2/5 = 8/20 et 1/4 = 5/20, donc 2/5 + 1/4 = 8/20 + 5/20 = 13/20.
 
 Attention : on n'additionne **jamais** les dénominateurs ! 1/2 + 1/2 = 2/2 = 1, et non 2/4.
 
@@ -423,7 +428,7 @@ Exemple : 47 = 6 × 7 + 5 (quotient 7, reste 5). 47 n'est pas divisible par 6.
 | 10 | son chiffre des unités est 0 | 1 230 |
 | 3 | la somme de ses chiffres est divisible par 3 | 315 : 3 + 1 + 5 = 9 |
 | 9 | la somme de ses chiffres est divisible par 9 | 7 281 : 7 + 2 + 8 + 1 = 18 |
-| 4 | le nombre formé par ses deux derniers chiffres est divisible par 4 | 1 324 (24) |
+| 4 (pour aller plus loin) | le nombre formé par ses deux derniers chiffres est divisible par 4 | 1 324 (24) |
 
 ## Liste des diviseurs
 Pour trouver tous les diviseurs d'un nombre, on teste 1, 2, 3… et on les trouve **par paires**.
@@ -454,8 +459,8 @@ En décomposant numérateur et dénominateur, on voit les facteurs communs.
 > **À retenir**
 > - a divisible par b ⟺ le reste de la division de a par b est 0.
 > - Critères : 2, 5, 10 (dernier chiffre) ; 3 et 9 (somme des chiffres).
-> - Premier = exactement deux diviseurs (1 et lui-même). 1 n'est pas premier.
-> - La décomposition en facteurs premiers permet de simplifier les fractions.
+> - Pour simplifier une fraction, on divise le haut et le bas par un diviseur commun (repéré grâce aux critères).
+> - Pour aller plus loin : premier = exactement deux diviseurs (1 et lui-même) ; 1 n'est pas premier.
 `,
       exercices: [
         {
@@ -467,26 +472,26 @@ En décomposant numérateur et dénominateur, on voit les facteurs communs.
         },
         {
           type: "vf",
-          question: "1 est un nombre premier.",
+          question: "(Pour aller plus loin) 1 est un nombre premier.",
           reponse: false,
           explication: "Faux : un nombre premier a exactement deux diviseurs distincts. 1 n'en a qu'un (lui-même).",
         },
         {
           type: "saisie",
-          question: "Combien y a-t-il de nombres premiers inférieurs à 20 ?",
+          question: "(Pour aller plus loin) Combien y a-t-il de nombres premiers inférieurs à 20 ?",
           reponses: ["8", "huit"],
           explication: "Ce sont 2, 3, 5, 7, 11, 13, 17 et 19 : il y en a 8.",
         },
         {
           type: "qcm",
-          question: "Quelle est la décomposition de 60 en produit de facteurs premiers ?",
+          question: "(Pour aller plus loin) Quelle est la décomposition de 60 en produit de facteurs premiers ?",
           choix: ["4 × 15", "2² × 3 × 5", "2 × 3 × 10", "6 × 10"],
           reponse: 1,
           explication: "60 = 2 × 2 × 3 × 5 = 2² × 3 × 5. Les autres écritures sont justes mais contiennent des facteurs non premiers (4, 15, 10, 6).",
         },
         {
           type: "vf",
-          question: "91 est un nombre premier.",
+          question: "(Pour aller plus loin) 91 est un nombre premier.",
           reponse: false,
           explication: "Faux : 91 = 7 × 13. Il a donc d'autres diviseurs que 1 et 91.",
         },
@@ -500,7 +505,7 @@ En décomposant numérateur et dénominateur, on voit les facteurs communs.
           type: "saisie",
           question: "Écris 84/126 sous forme irréductible.",
           reponses: ["2/3"],
-          explication: "84 = 2² × 3 × 7 et 126 = 2 × 3² × 7. Facteur commun : 2 × 3 × 7 = 42. 84 ÷ 42 = 2 et 126 ÷ 42 = 3, donc 84/126 = 2/3.",
+          explication: "Avec les critères de divisibilité, on simplifie par étapes : 84 et 126 sont pairs, 84/126 = 42/63 ; 4 + 2 = 6 et 6 + 3 = 9, donc divisibles par 3 : 42/63 = 14/21 ; enfin 14 = 7 × 2 et 21 = 7 × 3 : 14/21 = 2/3. (Pour aller plus loin : 84 = 2² × 3 × 7 et 126 = 2 × 3² × 7, on simplifie directement par 2 × 3 × 7 = 42.)",
         },
         {
           type: "qcm",
@@ -516,8 +521,10 @@ En décomposant numérateur et dénominateur, on voit les facteurs communs.
 - 84 = 7 × 12 et 126 = 7 × 18 : **oui**, 7 bouquets sont possibles (12 roses et 18 tulipes chacun).
 - 126 ÷ 12 = 10,5 n'est pas entier : **non**, 12 bouquets sont impossibles.
 
-2) On décompose : 84 = 2² × 3 × 7 et 126 = 2 × 3² × 7.
-Le plus grand diviseur commun est 2 × 3 × 7 = **42**.
+2) On cherche le plus grand diviseur commun de 84 et de 126.
+Diviseurs de 84 : 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84.
+Parmi eux, ceux qui divisent aussi 126 : 1, 2, 3, 6, 7, 14, 21, 42. Le plus grand est **42**.
+(Pour aller plus loin : avec 84 = 2² × 3 × 7 et 126 = 2 × 3² × 7, on retrouve 2 × 3 × 7 = 42.)
 Il peut faire au maximum **42 bouquets**, chacun composé de 84 ÷ 42 = **2 roses** et 126 ÷ 42 = **3 tulipes**.`,
         },
       ],
@@ -527,7 +534,7 @@ Il peut faire au maximum **42 bouquets**, chacun composé de 84 ÷ 42 = **2 rose
     {
       id: "proportionnalite",
       titre: "Proportionnalité, pourcentages et échelles",
-      theme: "Nombres et calculs",
+      theme: "Proportionnalité, fonctions",
       cours: `
 ## Reconnaître une situation de proportionnalité
 Deux grandeurs sont **proportionnelles** si on passe de l'une à l'autre en **multipliant toujours par le même nombre**, appelé **coefficient de proportionnalité**.
@@ -706,7 +713,7 @@ Formule B : 14 ÷ 1 = 14 mais 16 ÷ 2 = 8 : **pas de proportionnalité**. Ses po
     {
       id: "statistiques",
       titre: "Statistiques",
-      theme: "Organisation et gestion de données",
+      theme: "Organisation et gestion de données et probabilités",
       cours: `
 ## Vocabulaire
 - La **population** est l'ensemble étudié (les élèves d'une classe…).
@@ -737,7 +744,7 @@ Avec le tableau ci-dessus : (0 × 5 + 1 × 9 + 2 × 4 + 3 × 2) ÷ 20 = 23 ÷ 20
 **Comment évolue la moyenne ?** Si on ajoute le même nombre à toutes les valeurs, la moyenne augmente de ce nombre ; si on multiplie toutes les valeurs par un même nombre, la moyenne est multipliée par ce nombre.
 Exemple : si chaque note de la série ci-dessus gagne 2 points, la nouvelle moyenne est 12 + 2 = 14.
 
-La moyenne est toujours comprise entre la plus petite et la plus grande valeur. L'**étendue** (plus grande valeur − plus petite) mesure la dispersion : ici 15 − 8 = 7.
+La moyenne est toujours comprise entre la plus petite et la plus grande valeur. Pour aller plus loin (notion de 4e) : l'**étendue** (plus grande valeur − plus petite) mesure la dispersion : ici 15 − 8 = 7.
 
 ## Représentations graphiques
 - **Diagramme en bâtons** : la hauteur de chaque bâton est proportionnelle à l'effectif.
@@ -755,7 +762,7 @@ Avant de calculer, lis bien : le titre, les axes, les unités, l'effectif total.
 > **À retenir**
 > - Fréquence = effectif ÷ effectif total (somme des fréquences = 1).
 > - Moyenne = somme des valeurs ÷ effectif total.
-> - Moyenne pondérée : somme des (valeur × effectif) ÷ effectif total.
+> - Pour aller plus loin : moyenne pondérée = somme des (valeur × effectif) ÷ effectif total.
 > - Diagramme circulaire : angle = fréquence × 360°.
 `,
       exercices: [
@@ -774,7 +781,7 @@ Avant de calculer, lis bien : le titre, les axes, les unités, l'effectif total.
         },
         {
           type: "saisie",
-          question: "Tableau : 0 frère/sœur : 5 élèves ; 1 : 9 élèves ; 2 : 4 élèves ; 3 : 2 élèves. Calcule le nombre moyen de frères et sœurs.",
+          question: "(Pour aller plus loin) Tableau : 0 frère/sœur : 5 élèves ; 1 : 9 élèves ; 2 : 4 élèves ; 3 : 2 élèves. Calcule le nombre moyen de frères et sœurs.",
           reponses: ["1,15", "1.15"],
           explication: "(0 × 5 + 1 × 9 + 2 × 4 + 3 × 2) ÷ 20 = (0 + 9 + 8 + 6) ÷ 20 = 23 ÷ 20 = 1,15.",
         },
@@ -792,7 +799,7 @@ Avant de calculer, lis bien : le titre, les axes, les unités, l'effectif total.
         },
         {
           type: "qcm",
-          question: "Quelle est l'étendue de la série 12 ; 8 ; 15 ; 10 ; 15 ; 9 ; 14 ; 13 ?",
+          question: "(Pour aller plus loin) Quelle est l'étendue de la série 12 ; 8 ; 15 ; 10 ; 15 ; 9 ; 14 ; 13 ?",
           choix: ["7", "12", "15", "8"],
           reponse: 0,
           explication: "Étendue = plus grande valeur − plus petite valeur = 15 − 8 = 7.",
@@ -866,7 +873,7 @@ Fréquence : **3/7** ≈ 0,4286, soit environ **43 %**.
     {
       id: "probabilites",
       titre: "Probabilités",
-      theme: "Organisation et gestion de données",
+      theme: "Organisation et gestion de données et probabilités",
       cours: `
 ## Vocabulaire
 - Une **expérience aléatoire** est une expérience dont on connaît les résultats possibles, mais dont on ne peut pas prévoir le résultat à l'avance (lancer un dé, tirer une carte…).
@@ -966,15 +973,15 @@ Attention : le hasard n'a pas de mémoire. Après trois « pile », la probabili
         },
         {
           type: "redaction",
-          question: "Une roue de loterie est partagée en 8 secteurs identiques numérotés de 1 à 8. On la fait tourner et on note le numéro obtenu.\n1) Pourquoi est-ce une situation d'équiprobabilité ?\n2) Calcule la probabilité des événements A : « obtenir un nombre premier » ; B : « obtenir un multiple de 4 » ; C : « obtenir un nombre strictement supérieur à 6 ».\n3) Calcule la probabilité de « obtenir un nombre premier et pair ».",
+          question: "Une roue de loterie est partagée en 8 secteurs identiques numérotés de 1 à 8. On la fait tourner et on note le numéro obtenu.\n1) Pourquoi est-ce une situation d'équiprobabilité ?\n2) Calcule la probabilité des événements A : « obtenir un nombre pair » ; B : « obtenir un multiple de 4 » ; C : « obtenir un nombre strictement supérieur à 6 ».\n3) Calcule la probabilité de « obtenir un nombre pair et multiple de 3 ».",
           corrige: `1) Les 8 secteurs sont identiques : chaque numéro a la même chance de sortir. Chaque issue a pour probabilité 1/8.
 
 2)
-- A : nombres premiers entre 1 et 8 : 2, 3, 5, 7. P(A) = 4/8 = **1/2**.
+- A : nombres pairs entre 1 et 8 : 2, 4, 6, 8. P(A) = 4/8 = **1/2**.
 - B : multiples de 4 : 4 et 8. P(B) = 2/8 = **1/4**.
 - C : strictement supérieur à 6 : 7 et 8. P(C) = 2/8 = **1/4**.
 
-3) Le seul nombre premier pair est 2. La probabilité est **1/8**.`,
+3) Entre 1 et 8, le seul nombre à la fois pair et multiple de 3 est 6. La probabilité est **1/8**.`,
         },
         {
           type: "vf",
@@ -1115,6 +1122,12 @@ Contraposée utile : si les angles alternes-internes ne sont **pas** égaux, les
 **Dans un triangle, la somme des mesures des trois angles est égale à 180°.**
 
 >! **Exemple** : dans ABC, Â = 48° et B̂ = 67°. Alors Ĉ = 180° − (48° + 67°) = 180° − 115° = **65°**.
+
+>! **Démonstration** (à savoir refaire) : dans le triangle ABC, on trace la droite (d) passant par A et parallèle à (BC).
+>! - Avec la sécante (AB), l'angle formé en A entre (d) et [AB] et l'angle B̂ sont **alternes-internes** ; comme (d) // (BC), ils sont égaux.
+>! - De même, avec la sécante (AC), l'angle formé en A entre (d) et [AC] est égal à Ĉ.
+>! - En A, ces deux angles et l'angle Â forment ensemble un **angle plat** : leur somme vaut 180°.
+>! - Donc Â + B̂ + Ĉ = 180°.
 
 Conséquences :
 - **Triangle équilatéral** : ses trois angles mesurent 60°.
@@ -1477,7 +1490,7 @@ Un point O est **centre de symétrie** d'une figure si le symétrique de la figu
     {
       id: "aires-perimetres",
       titre: "Aires et périmètres",
-      theme: "Grandeurs et mesures",
+      theme: "Espace et géométrie",
       cours: `
 ## Périmètre et aire : ne pas confondre
 - Le **périmètre** est la longueur du contour d'une figure (en cm, m…).
@@ -1547,7 +1560,7 @@ On découpe la figure en figures simples, on calcule chaque aire, puis on **addi
         {
           type: "saisie",
           question: "Donne la valeur exacte de l'aire (en cm²) d'un disque de rayon 3 cm.",
-          reponses: ["9π", "9 π", "9pi", "9 pi", "9×π", "9 × π", "π×9", "9π cm²", "9π cm2"],
+          reponses: ["9π", "9 π", "9pi", "9 pi", "9×π", "9 × π", "π×9", "9π cm²", "9π cm2", "9pi cm²", "9pi cm2", "9 π cm²"],
           explication: "A = π × r² = π × 3² = 9π cm² (≈ 28,3 cm²).",
         },
         {
@@ -1595,7 +1608,7 @@ Périmètre : **26 + 3π cm ≈ 35,4 cm**.`,
     {
       id: "volumes",
       titre: "Prismes droits, cylindres et volumes",
-      theme: "Grandeurs et mesures",
+      theme: "Espace et géométrie",
       cours: `
 ## Le prisme droit
 Un **prisme droit** est un solide formé de :
@@ -1704,7 +1717,7 @@ Comme 1 000 cm³ = 1 dm³ = 1 L : V = **72 L**.
     {
       id: "grandeurs-conversions",
       titre: "Grandeurs, unités et conversions",
-      theme: "Grandeurs et mesures",
+      theme: "Nombres et calculs",
       cours: `
 ## Longueurs, masses, contenances
 Pour ces grandeurs, on passe d'une unité à la suivante en multipliant ou divisant par **10**.
@@ -1808,7 +1821,7 @@ v = d ÷ t = 217 ÷ (155/60) = 217 × 60 ÷ 155 = 13 020 ÷ 155 = **84 km/h**.
     {
       id: "algorithmique-scratch",
       titre: "Algorithmique et programmation (Scratch)",
-      theme: "Algorithmique et programmation",
+      theme: "La pensée informatique",
       cours: `
 ## Algorithme et programme
 Un **algorithme** est une suite finie d'instructions permettant de résoudre un problème. Un **programme** est la traduction d'un algorithme dans un langage compris par l'ordinateur. En 5e, tu utilises **Scratch** : on assemble des **blocs**.
@@ -1830,6 +1843,8 @@ Un programme reçoit des **entrées** (les données : un nombre demandé avec «
 >! **Exemple** : « demander Choisis un nombre et attendre » ; « dire (réponse × 3) + 4 ». Entrée : le nombre choisi ; sortie : le triple du nombre augmenté de 4. Si on tape 5, le lutin dit 19.
 
 ## Variables
+*En 5e, tu utilises surtout une variable en lecture (par exemple « réponse », la donnée saisie). Modifier soi-même une variable (« mettre … à », « ajouter … à ») sera approfondi en 4e : les exercices correspondants sont marqués « pour aller plus loin ».*
+
 Une **variable** est une « boîte » qui porte un nom et contient une valeur qui **peut changer** au cours du programme.
 
 >! **Exemple** : « mettre n à 1 », puis « répéter 5 fois : mettre n à n × 2 ».
@@ -1837,10 +1852,9 @@ Une **variable** est une « boîte » qui porte un nom et contient une valeur qu
 
 ## Boucles
 - **répéter N fois** : on connaît le nombre de répétitions.
-- **répéter jusqu'à** (condition) : on répète tant que la condition n'est pas vraie.
-- **répéter indéfiniment**.
+- Pour aller plus loin : **répéter jusqu'à** (condition), on répète tant que la condition n'est pas vraie ; **répéter indéfiniment**.
 
-## Instructions conditionnelles
+## Instructions conditionnelles (pour aller plus loin : notion de 4e)
 « **si** condition **alors** … **sinon** … » : le programme fait un choix. Ce n'est **pas** une boucle.
 
 >! **Exemple** : « si (réponse modulo 2) = 0 alors dire Pair sinon dire Impair ».
@@ -1884,7 +1898,7 @@ La scène est un repère : x va de −240 à 240, y de −180 à 180. Le centre 
         },
         {
           type: "saisie",
-          question: "Script : « mettre x à 3 » puis « répéter 4 fois : ajouter 2 à x ». Quelle est la valeur finale de x ?",
+          question: "(Pour aller plus loin) Script : « mettre x à 3 » puis « répéter 4 fois : ajouter 2 à x ». Quelle est la valeur finale de x ?",
           reponses: ["11"],
           explication: "x vaut 3, puis 5, 7, 9, 11. Valeur finale : 3 + 4 × 2 = 11.",
         },
@@ -1903,26 +1917,26 @@ La scène est un repère : x va de −240 à 240, y de −180 à 180. Le centre 
         },
         {
           type: "vf",
-          question: "Le bloc « si … alors … sinon » est une boucle.",
+          question: "(Pour aller plus loin) Le bloc « si … alors … sinon » est une boucle.",
           reponse: false,
           explication: "Faux : c'est une instruction conditionnelle (un test). Une boucle répète des instructions (« répéter », « répéter jusqu'à »).",
         },
         {
           type: "saisie",
-          question: "Script : « mettre n à 1 » puis « répéter 5 fois : mettre n à n × 2 ». Quelle est la valeur finale de n ?",
+          question: "(Pour aller plus loin) Script : « mettre n à 1 » puis « répéter 5 fois : mettre n à n × 2 ». Quelle est la valeur finale de n ?",
           reponses: ["32"],
           explication: "n prend les valeurs 1, 2, 4, 8, 16, 32. Après 5 doublements : 2⁵ = 32.",
         },
         {
           type: "qcm",
-          question: "Un script demande un nombre puis exécute « si (réponse modulo 2) = 0 alors dire Pair sinon dire Impair ». Que dit le lutin si on tape 17 ?",
+          question: "(Pour aller plus loin) Un script demande un nombre puis exécute « si (réponse modulo 2) = 0 alors dire Pair sinon dire Impair ». Que dit le lutin si on tape 17 ?",
           choix: ["Pair", "Rien", "Impair", "8"],
           reponse: 2,
           explication: "17 modulo 2 est le reste de la division de 17 par 2 : 17 = 2 × 8 + 1, le reste vaut 1 ≠ 0. Le lutin dit « Impair ».",
         },
         {
           type: "redaction",
-          question: "1) Écris un script Scratch qui trace un pentagone régulier de côté 80 pas, en commençant par le drapeau vert. Justifie l'angle choisi.\n2) On ajoute une variable « périmètre ». Comment la calculer dans le script ? Quelle valeur contient-elle à la fin ?\n3) Comment modifier le script pour tracer un polygone régulier dont le nombre de côtés est demandé à l'utilisateur ?",
+          question: "1) Écris un script Scratch qui trace un pentagone régulier de côté 80 pas, en commençant par le drapeau vert. Justifie l'angle choisi.\n2) (Pour aller plus loin) On ajoute une variable « périmètre ». Comment la calculer dans le script ? Quelle valeur contient-elle à la fin ?\n3) Comment modifier le script pour tracer un polygone régulier dont le nombre de côtés est demandé à l'utilisateur ?",
           corrige: `1) Script :
 - quand drapeau vert cliqué
 - effacer tout ; aller à x : 0 y : 0 ; s'orienter à 90

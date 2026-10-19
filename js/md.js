@@ -15,6 +15,8 @@ export function inline(s) {
   return esc(s)
     // Espaces insécables dans les nombres (« 8 000 ») pour ne pas les couper
     .replace(/(\d) (?=\d{3}(?!\d))/g, "$1&nbsp;")
+    // Grec (dont polytonique) dans une police qui affiche bien esprits et accents
+    .replace(/[\u0370-\u03FF\u1F00-\u1FFF][\u0370-\u03FF\u1F00-\u1FFF\u0300-\u036f\s’',.;·]*[\u0370-\u03FF\u1F00-\u1FFF\u0300-\u036f]|[\u0370-\u03FF\u1F00-\u1FFF]/g, (m) => `<span class="grc">${m}</span>`)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, "$1<em>$2</em>");
 }
@@ -73,12 +75,15 @@ export function bloc(src) {
       const rows = [];
       while (debut(/^\s*\|.*\|\s*$/)) rows.push(lignes[i++].trim());
       const cells = (r) => r.slice(1, -1).split("|").map((c) => c.trim());
-      const corps = rows.filter((r) => !/^\|[\s:|-]+\|$/.test(r));
-      const [tete, ...reste] = corps;
+      // Ligne de séparation « |---|---| » (au moins un tiret) ; « | | | » est un en-tête vide
+      const corps = rows.filter((r) => !/^\|[\s:|]*-[\s:|-]*\|$/.test(r));
+      let [tete, ...reste] = corps;
+      // En-tête vide (« | | | ») : tableau sans ligne d'en-tête
+      const sansTete = cells(tete).every((c) => !c);
       out.push(
-        '<div class="table"><table><thead><tr>' +
-          cells(tete).map((c) => `<th>${inline(c)}</th>`).join("") +
-          "</tr></thead><tbody>" +
+        '<div class="table"><table>' +
+          (sansTete ? "" : "<thead><tr>" + cells(tete).map((c) => `<th>${inline(c)}</th>`).join("") + "</tr></thead>") +
+          "<tbody>" +
           reste.map((r) => "<tr>" + cells(r).map((c) => `<td>${inline(c)}</td>`).join("") + "</tr>").join("") +
           "</tbody></table></div>"
       );

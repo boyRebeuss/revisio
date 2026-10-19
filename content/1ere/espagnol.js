@@ -97,7 +97,7 @@ Action passée dans une **période qui n'est pas terminée** ou qui a un **lien 
 - *¿Has estado alguna vez en Cuba?*
 - *Todavía no ha llegado.*
 
->! **Comparer** : *Esta mañana he visto a Ana* (la matinée fait partie d'aujourd'hui) / *Ayer vi a Ana* (période révolue → indefinido). En Amérique latine et en Galice, on utilise beaucoup plus l'indefinido.
+>! **Comparer** : *Esta mañana he visto a Ana* (la matinée fait partie d'aujourd'hui) / *Ayer vi a Ana* (période révolue → indefinido). Dans une grande partie de l'Amérique latine, aux Canaries et dans le nord-ouest de l'Espagne (Galice, Asturies), on utilise beaucoup plus l'indefinido.
 
 ## Le pluscuamperfecto
 Action **antérieure** à une autre action passée :
@@ -225,7 +225,7 @@ On part de la **1re personne du présent de l'indicatif**, on enlève le *-o* et
         { type: "saisie", question: "Complète : « Cuando (tú, llegar) a Madrid, llámame. »", reponses: ["llegues"], explication: "*cuando* + futur → subjonctif présent ; *g → gu* devant e : **llegues**." },
         { type: "qcm", question: "« No creo que ... razón. »", choix: ["tienes", "tuviste", "tendrás", "tengas"], reponse: 3, explication: "Opinion niée → subjonctif : **tengas**." },
         { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Creo que sea importante.", "Quiero que voy contigo.", "Es importante que participes.", "Ojalá vienes mañana."], reponse: 2, explication: "Jugement impersonnel → subjonctif : *es importante que participes*. Les autres : *creo que es*, *quiero ir contigo*, *ojalá vengas*." },
-        { type: "redaction", question: "Tu écris à un élu de ta ville. Formule 6 demandes ou souhaits pour améliorer la vie des jeunes en utilisant le subjonctif (quiero que, es necesario que, ojalá, para que, pido que, cuando).", corrige: "Modèle :\n\n*Señor alcalde:*\n*Le escribo porque quiero que la ciudad sea más agradable para los jóvenes. Es necesario que haya más carriles bici y que los autobuses pasen más a menudo. Le pido que abra la biblioteca los domingos para que podamos estudiar. Ojalá construyan un espacio cultural en el centro. Cuando tenga tiempo, me gustaría participar en el consejo de jóvenes.*\n*Atentamente,*\n\nSubjonctifs : *sea, haya, pasen, abra, podamos, construyan, tenga*. On vouvoie l'élu (*le escribo, le pido*, 3e personne)." }
+        { type: "redaction", question: "Tu écris à un élu de ta ville. Formule 6 demandes ou souhaits pour améliorer la vie des jeunes en utilisant le subjonctif (quiero que, es necesario que, ojalá, para que, pido que, cuando).", corrige: "Modèle :\n\n*Señor alcalde:*\n*Le escribo porque quiero que la ciudad sea más agradable para los jóvenes. Es necesario que haya más carriles bici y que los autobuses pasen más a menudo. Le pido que abra la biblioteca los domingos para que podamos estudiar. Ojalá construyan un espacio cultural en el centro. Cuando abran el nuevo centro juvenil, participaré en sus actividades.*\n*Atentamente,*\n\nSubjonctifs : *sea, haya, pasen, abra, podamos, construyan, abran* (cuando + futur → subjonctif présent, puis futur dans la principale : *participaré*). On vouvoie l'élu (*le escribo, le pido*, 3e personne)." }
       ]
     },
     {
@@ -445,7 +445,7 @@ Comme *gustar*, de nombreux verbes ont pour sujet la chose qui provoque le senti
       exercices: [
         { type: "saisie", question: "Complète : « A los jóvenes les ... (preocupar) los problemas del planeta. »", reponses: ["preocupan"], explication: "Sujet pluriel (*los problemas*) → **preocupan**." },
         { type: "saisie", question: "Complète avec le pronom : « A mi abuela ... dan miedo los aviones. »", reponses: ["le"], explication: "*a mi abuela* = a ella → **le**." },
-        { type: "saisie", question: "Traduis : « Ça m'est égal. »", reponses: ["Me da igual", "Me es igual"], explication: "*dar igual* : **me da igual**." },
+        { type: "saisie", question: "Traduis : « Ça m'est égal. »", reponses: ["Me da igual", "Me es igual", "Me da lo mismo", "A mí me da igual", "A mí me da lo mismo"], explication: "*dar igual* : **me da igual**." },
         { type: "saisie", question: "Complète : « Me molesta que la gente no (respetar) las normas. »", reponses: ["respete"], explication: "Tournure affective + *que* → subjonctif : **respete**." },
         { type: "qcm", question: "« Il faut lutter contre les inégalités » (en général) :", choix: ["Tiene que luchar contra las desigualdades", "Hay que lucha contra las desigualdades", "Hay que luchar contra las desigualdades", "Es que luchar contra las desigualdades"], reponse: 2, explication: "Obligation impersonnelle : **hay que** + infinitif." },
         { type: "qcm", question: "« Je dois rentrer avant minuit » (obligation personnelle) :", choix: ["Tengo que volver antes de medianoche", "Hay que volver antes de medianoche", "Hace falta volver yo antes de medianoche", "Tengo de volver antes de medianoche"], reponse: 0, explication: "Obligation personnelle : **tener que** + infinitif." },
@@ -494,7 +494,7 @@ Attention : avec *se*, le verbe s'accorde avec le nom : *Se vende piso / Se vend
       exercices: [
         { type: "saisie", question: "Traduis avec *se* : « On vend des maisons. »", reponses: ["Se venden casas"], explication: "*se* + verbe accordé avec le nom pluriel : **Se venden casas**." },
         { type: "qcm", question: "« On s'habitue à tout » :", choix: ["Se se acostumbra a todo", "Acostumbra a todo", "Se acostumbran a todo", "Uno se acostumbra a todo"], reponse: 3, explication: "Verbe pronominal → **uno** : *Uno se acostumbra a todo*." },
-        { type: "saisie", question: "Traduis : « Il est devenu tout rouge. » (passager)", reponses: ["Se puso rojo", "Se puso muy rojo", "Se puso todo rojo"], explication: "Changement passager → **ponerse** : *Se puso rojo*." },
+        { type: "saisie", question: "Traduis : « Il est devenu tout rouge. » (passager)", reponses: ["Se puso rojo", "Se puso muy rojo", "Se puso todo rojo", "Se puso colorado", "Se puso todo colorado", "Se puso muy colorado"], explication: "Changement passager → **ponerse** : *Se puso rojo*." },
         { type: "saisie", question: "Complète : « Frida Kahlo ... en un icono mundial. »", reponses: ["se convirtió", "se ha convertido"], explication: "*devenir* + nom, transformation → **convertirse en**." },
         { type: "qcm", question: "« Après des années d'efforts, elle est devenue ministre » :", choix: ["Se puso ministra", "Se volvió ministra", "Llegó a ser ministra", "Se quedó ministra"], reponse: 2, explication: "Aboutissement d'un effort → **llegar a ser**." },
         { type: "qcm", question: "« Il est devenu aveugle après l'accident » :", choix: ["Se quedó ciego", "Se puso ciego", "Se hizo ciego", "Llegó a ser ciego"], reponse: 0, explication: "Résultat d'un événement, perte → **quedarse**." },
@@ -542,7 +542,7 @@ Le monde hispanique est marqué par des **mouvements de population** dans les de
 `,
       exercices: [
         { type: "qcm", question: "Comment appelle-t-on l'exode des républicains espagnols vers la France en 1939 ?", choix: ["la Reconquista", "la Retirada", "la Movida", "la Transición"], reponse: 1, explication: "**La Retirada** : environ 450 000 personnes passent la frontière en quelques semaines." },
-        { type: "saisie", question: "Comment appelle-t-on les petites embarcations utilisées par les migrants pour traverser le détroit de Gibraltar ?", reponses: ["pateras", "patera", "las pateras", "cayucos"], explication: "**las pateras** (et les *cayucos*, plus grands, vers les Canaries)." },
+        { type: "saisie", question: "Comment appelle-t-on les petites embarcations utilisées par les migrants pour traverser le détroit de Gibraltar ?", reponses: ["pateras", "patera", "las pateras", "cayucos", "cayuco"], explication: "**las pateras** (et les *cayucos*, plus grands, vers les Canaries)." },
         { type: "saisie", question: "Comment appelle-t-on les Mexicains-Américains qui revendiquent leur double culture ?", reponses: ["chicanos", "los chicanos"], explication: "Les **Chicanos**, notamment en Californie et au Texas." },
         { type: "qcm", question: "Dans quel pays le guaraní est-il langue officielle ?", choix: ["Pérou", "Mexique", "Paraguay", "Chili"], reponse: 2, explication: "Au **Paraguay**, le guaraní est co-officiel avec l'espagnol et parlé par une grande majorité de la population." },
         { type: "vf", question: "Rigoberta Menchú a reçu le prix Nobel de la paix pour son engagement en faveur des peuples indigènes.", reponse: true, explication: "En **1992**, l'année du 500e anniversaire de l'arrivée de Colomb en Amérique." },
@@ -557,10 +557,12 @@ Le monde hispanique est marqué par des **mouvements de population** dans les de
       titre: "Territoire et mémoire ; Espace privé et espace public",
       theme: "Axes culturels",
       cours: `
+>! **Programme** : dans le programme en vigueur (rentrée 2026), « Territoire et mémoire » et « Espace privé et espace public » sont des axes de **terminale**. Ce chapitre est donc **pour aller plus loin** en 1re ; ses repères historiques restent très utiles pour l'axe « Art et pouvoir » (Guernica, censure, chanson engagée) et pour comprendre de nombreux documents.
+
 ## La guerre civile espagnole (1936-1939)
 - La **IIe République** est proclamée en **1931**. En février 1936, le Frente Popular (gauche) gagne les élections.
-- Le **18 juillet 1936**, une partie de l'armée, menée notamment par le général **Francisco Franco**, se soulève (*golpe de Estado*). L'Espagne se divise entre **républicains** et **nationalistes** (*sublevados*).
-- Le **26 avril 1937**, la ville basque de **Guernica** est bombardée par la Légion Condor allemande, alliée de Franco. Picasso peint *Guernica* la même année.
+- Les **17 et 18 juillet 1936**, une partie de l'armée se soulève (*golpe de Estado*) : le coup d'État est préparé par le général Mola ; le général **Francisco Franco**, qui prend la tête de l'armée d'Afrique, devient en octobre 1936 le chef du camp nationaliste. L'Espagne se divise entre **républicains** et **nationalistes** (*sublevados*).
+- Le **26 avril 1937**, la ville basque de **Guernica** est bombardée par la Légion Condor allemande, avec l'appui de l'aviation italienne, alliées de Franco. Picasso peint *Guernica* la même année.
 - Le poète **Federico García Lorca** est assassiné en 1936 près de Grenade.
 - La guerre se termine le **1er avril 1939** par la victoire de Franco.
 
@@ -619,7 +621,7 @@ Après la **Révolution mexicaine** (1910-1920), le ministre de l'Éducation **J
 ### Frida Kahlo (1907-1954)
 Peintre mexicaine, épouse de Diego Rivera. Victime d'un grave accident de bus en 1925, elle peint de nombreux **autoportraits** (*Las dos Fridas*, 1939 ; *La columna rota*, 1944) où se mêlent douleur, identité mexicaine (vêtements tehuanas) et engagement politique. Sa maison, la **Casa Azul** à Coyoacán, est devenue un musée. Elle est aujourd'hui une icône du féminisme.
 
-## Axe « Fictions et réalités »
+## Pour aller plus loin : « Fictions et réalités » (axe de terminale)
 - **Don Quijote** (Cervantes, 1605 et 1615) : un hidalgo qui confond les romans de chevalerie avec la réalité (les moulins à vent pris pour des géants). Premier roman moderne.
 - **Le réalisme magique** : l'extraordinaire est raconté comme s'il était naturel. **Gabriel García Márquez** (Colombie), *Cien años de soledad* (1967), le village imaginaire de **Macondo**, prix Nobel 1982 ; **Juan Rulfo**, *Pedro Páramo* (1955) ; **Isabel Allende**, *La casa de los espíritus* (1982). Alejo Carpentier parle de « lo real maravilloso americano ».
 - **Jorge Luis Borges** (Argentine) : labyrinthes, miroirs, frontière entre rêve et réalité.
@@ -629,7 +631,7 @@ Peintre mexicaine, épouse de Diego Rivera. Victime d'un grave accident de bus e
 `,
       exercices: [
         { type: "qcm", question: "Quel événement Goya représente-t-il dans *El 3 de mayo de 1808* ?", choix: ["l'exécution de civils par les soldats de Napoléon", "le bombardement de Guernica", "la mort de Philippe IV", "la Révolution mexicaine"], reponse: 0, explication: "Les fusillades de Madrilènes par les troupes napoléoniennes après le soulèvement du 2 mai 1808." },
-        { type: "saisie", question: "Dans quel musée madrilène se trouve *Guernica* ?", reponses: ["Reina Sofía", "el Reina Sofía", "Museo Reina Sofía", "el Museo Reina Sofía", "Museo Nacional Centro de Arte Reina Sofía"], explication: "Au **Museo Reina Sofía** (depuis 1992 ; il était au Prado de 1981 à 1992)." },
+        { type: "saisie", question: "Dans quel musée madrilène se trouve *Guernica* ?", reponses: ["Reina Sofía", "el Reina Sofía", "Museo Reina Sofía", "el Museo Reina Sofía", "Museo Nacional Centro de Arte Reina Sofía"], explication: "Au **Museo Reina Sofía** (depuis 1992 ; de 1981 à 1992, il était exposé au Casón del Buen Retiro, annexe du Prado)." },
         { type: "qcm", question: "Lequel de ces artistes n'est PAS un muraliste mexicain ?", choix: ["Diego Rivera", "José Clemente Orozco", "David Alfaro Siqueiros", "Pablo Picasso"], reponse: 3, explication: "Picasso est un peintre espagnol ; les trois autres sont les grands muralistes mexicains." },
         { type: "vf", question: "Le muralisme mexicain voulait rendre l'art accessible à tout le peuple, même à ceux qui ne savaient pas lire.", reponse: true, explication: "Des fresques sur les murs publics pour éduquer et exalter l'histoire nationale." },
         { type: "saisie", question: "Comment s'appelle la maison-musée de Frida Kahlo à Coyoacán ?", reponses: ["la Casa Azul", "Casa Azul"], explication: "**La Casa Azul** (la maison bleue)." },
@@ -644,7 +646,7 @@ Peintre mexicaine, épouse de Diego Rivera. Victime d'un grave accident de bus e
       titre: "Citoyenneté et mondes virtuels ; Innovations scientifiques et responsabilité",
       theme: "Axes culturels",
       cours: `
-## Axe « Citoyenneté et mondes virtuels »
+## Pour aller plus loin : « Citoyenneté et mondes virtuels » (axe de terminale)
 - **Les réseaux sociaux et la mobilisation** : le mouvement du **15-M** (15 mai 2011), ou mouvement des **Indignados**, occupe la Puerta del Sol à Madrid et s'organise sur Internet contre la crise, le chômage des jeunes et la corruption (« No nos representan »).
 - Au Chili, l'**estallido social** (2019) et les grandes manifestations ont été amplifiés par les réseaux, et ont mené à un processus constituant.
 - Les dangers : les **bulos** (fausses nouvelles), le **ciberacoso** (cyberharcèlement), l'addiction aux écrans, la protection des **datos personales**.
@@ -698,8 +700,12 @@ Peintre mexicaine, épouse de Diego Rivera. Victime d'un grave accident de bus e
       titre: "Méthodologie : compréhension et expression écrite",
       theme: "Méthode",
       cours: `
-## Les évaluations en LVB (niveau visé A2-B1 en 1re, B1 en fin de terminale)
-Les épreuves évaluent quatre activités : **compréhension de l'écrit**, **compréhension de l'oral**, **expression écrite** et **expression orale**. Les documents sont liés à un **axe culturel** du programme.
+## Les évaluations en LVB (niveau visé : B1 en fin de 1re et en fin de terminale)
+Le programme d'espagnol en vigueur en 1re depuis la rentrée 2026 (BO n° 22 du 29 mai 2025) compte six axes : *Identités et échanges* ; *Diversité et inclusion* ; *Art et pouvoir* ; *Innovations scientifiques et responsabilité* ; *L'être humain et la nature* ; *L'espace andin, la colonne vertébrale de l'Amérique du Sud*. Cinq sont étudiés dans l'année, dont **obligatoirement l'axe 6** (l'espace andin).
+
+- **Contrôle continu** : il n'y a pas d'épreuve finale de LVB. Ta note au baccalauréat est calculée à partir des **moyennes de tes bulletins** de 1re et de terminale : chaque devoir compte.
+- En fin de terminale, une évaluation organisée par tes professeurs permet de délivrer l'**attestation de langues vivantes**, qui indique ton niveau du CECRL dans chaque activité.
+- Les évaluations portent sur la **compréhension de l'écrit**, la **compréhension de l'oral**, l'**expression écrite** et l'**expression orale** (en continu et en interaction) ; le programme insiste aussi sur la **médiation** (reformuler, expliquer à quelqu'un le contenu d'un document). Les documents sont liés à un **axe culturel** du programme.
 
 ## La compréhension (écrit ou oral)
 1. **Lire le paratexte** : titre, source, date, auteur, image. Il donne le thème et le contexte.
@@ -707,7 +713,7 @@ Les épreuves évaluent quatre activités : **compréhension de l'écrit**, **co
 3. **Identifier le type de document** : article de presse, extrait de roman, interview, témoignage, publicité...
 4. **Repérer la structure** : les étapes du récit ou de l'argumentation, grâce aux connecteurs.
 5. **Rédiger le compte rendu en français** (souvent demandé) : phrases complètes, sans traduire mot à mot, en allant du général au particulier. Ne pas inventer : seulement ce qui est dans le document.
-6. À l'oral : on écoute trois fois ; à la 1re écoute, la situation générale ; ensuite, les détails (noms, chiffres, opinions).
+6. À l'oral : en évaluation, le document est en général écouté trois fois ; à la 1re écoute, la situation générale ; ensuite, les détails (noms, chiffres, opinions).
 
 >! **Important** : cette appli entraîne la compréhension de l'écrit et l'expression écrite, mais **pas la compréhension de l'oral** ni l'expression orale, qui comptent pourtant dans ta note. Écoute régulièrement des documents authentiques courts (journaux radio ou télévisés espagnols, podcasts, bandes-annonces, chansons), d'abord sans texte, puis note en français qui / quoi / où / quand / pourquoi, et entraîne-toi à parler deux minutes à voix haute sur chaque axe du programme.
 
@@ -788,7 +794,7 @@ Deux grands types de sujets : **récit / lettre / dialogue** (imaginer, continue
 | **estar a punto de** + inf. | être sur le point de | *Estaba a punto de salir.* |
 | **ir a** + inf. | futur proche | *Voy a votar.* |
 
-- *soler* ne s'emploie qu'au présent et à l'imparfait : *De niño, solía jugar en la calle.*
+- *soler* s'emploie surtout au présent et à l'imparfait : *De niño, solía jugar en la calle.*
 - « en » + participe présent se traduit par le **gérondif seul**, sans préposition : « en marchant » = *andando* ; « Il est parti en courant » = *Se fue corriendo*.
 
 > **À retenir** : -ando / -iendo (-yendo après voyelle) ; estar (en cours), seguir (continuer), llevar + durée (depuis), ir (progression) + gérondif ; acabar de (venir de), volver a (de nouveau), dejar de (arrêter), soler (habitude) + infinitif.

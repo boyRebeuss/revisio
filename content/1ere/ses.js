@@ -6,7 +6,9 @@ export default {
       theme: "Science économique",
       cours: `
 ## Le marché, lieu de rencontre de l'offre et de la demande
-Un **marché** est le lieu, réel ou fictif, où se rencontrent l'**offre** (les vendeurs) et la **demande** (les acheteurs) d'un bien ou d'un service. De cette rencontre naît un **prix** qui sert de signal aux agents économiques. Le marché suppose des **institutions** : droits de propriété, règles juridiques, monnaie, normes de qualité, confiance.
+Un **marché** est le lieu, réel ou fictif, où se rencontrent l'**offre** (les vendeurs) et la **demande** (les acheteurs) d'un bien ou d'un service. De cette rencontre naît un **prix** qui sert de signal aux agents économiques. Le marché suppose des **institutions** : droits de propriété, règles juridiques, monnaie, normes de qualité, confiance. Le marché est donc lui-même une **institution** : il est organisé par des règles.
+
+On distingue les marchés selon leur **degré de concurrence** : de la **concurrence parfaite** (très nombreux vendeurs) à l'**oligopole** (quelques vendeurs) et au **monopole** (un seul vendeur), en passant par la concurrence monopolistique (produits différenciés).
 
 ## Le modèle de concurrence parfaite
 Le modèle de **concurrence pure et parfaite** est une construction théorique (un modèle simplifié de la réalité) fondée sur des hypothèses :
@@ -23,6 +25,8 @@ La **courbe de demande** relie le prix à la quantité que les acheteurs souhait
 
 ## L'offre
 La **courbe d'offre** relie le prix à la quantité que les producteurs souhaitent vendre. Elle est en général **croissante** : un prix plus élevé rend la production plus rentable. Le producteur produit tant que le prix couvre au moins son **coût marginal** (le coût de la dernière unité produite). Comme le coût marginal est croissant, le producteur qui maximise son profit produit la quantité pour laquelle **coût marginal = prix** : la courbe d'offre se déduit ainsi de la courbe de coût marginal.
+
+>! **Exemple chiffré** : le coût marginal d'un maraîcher est de 10 € pour la 1re caisse, 14 € pour la 2e, 18 € pour la 3e, 22 € pour la 4e. Au prix de 20 €, il produit **3 caisses** : la 3e rapporte 20 € et coûte 18 € (profit + 2 €), la 4e coûterait 22 € pour 20 € de recette (profit − 2 €). Si le prix monte à 22 €, il produit 4 caisses : plus le prix est élevé, plus la quantité offerte est grande.
 - Une baisse des coûts de production (progrès technique, baisse du prix des matières premières) déplace la courbe d'offre vers la droite.
 
 ## L'équilibre et le prix d'équilibre
@@ -127,9 +131,14 @@ Un **monopole** est un marché où un seul vendeur fait face à de nombreux ache
 - **économiques** (coûts fixes énormes, économies d'échelle) ;
 - **stratégiques** (contrôle d'une ressource rare, réseau).
 
-Le **monopole naturel** apparaît quand les coûts fixes sont si élevés qu'une seule entreprise produit à moindre coût que plusieurs (réseau ferré, distribution d'eau).
+On distingue trois types de monopoles :
+- le **monopole naturel** : les coûts fixes sont si élevés qu'une seule entreprise produit à moindre coût que plusieurs (réseau ferré, distribution d'eau) ;
+- le **monopole institutionnel** (ou légal) : la loi réserve l'activité à une seule entreprise (par exemple la Française des jeux pour les jeux de loterie) ;
+- le **monopole d'innovation** : l'entreprise qui innove est temporairement seule sur son marché, souvent protégée par un brevet.
 
-Le monopole **maximise son profit** en produisant une quantité **plus faible** et en fixant un **prix plus élevé** qu'en concurrence. Résultat : le surplus du consommateur diminue, une partie est captée par le monopole, et il y a une **perte sèche** pour la collectivité.
+Le monopole est **faiseur de prix**. Il **maximise son profit** en produisant une quantité **plus faible** et en fixant un **prix plus élevé** qu'en concurrence. Résultat : le surplus du consommateur diminue, une partie est captée par le monopole, et il y a une **perte sèche** pour la collectivité : l'équilibre du monopole **n'est pas efficace**.
+
+>! **Exemple chiffré** : la demande est Q = 100 − P et chaque unité coûte 20 € à produire (coût marginal constant). En concurrence, P = 20 € et Q = 80. Le monopole compare ses profits, égaux à (prix − 20) × quantité, le prix étant lu sur la demande (P = 100 − Q) : pour Q = 20, P = 80 et le profit vaut (80 − 20) × 20 = 1 200 € ; pour Q = 40, P = 60 et (60 − 20) × 40 = **1 600 €** ; pour Q = 60, P = 40 et (40 − 20) × 60 = 1 200 €. Il choisit Q = 40 et P = 60 €. Le surplus total passe de 3 200 (80 × 80 / 2) à 2 400 (surplus du consommateur 800 + profit 1 600) : la **perte sèche** vaut 800.
 
 >! **Exemple** : un laboratoire titulaire d'un brevet sur un médicament fixe un prix bien supérieur à son coût de production pendant la durée du brevet.
 
@@ -199,7 +208,9 @@ Le pouvoir de marché n'est pas toujours condamné : le **brevet** donne un mono
 | Année | Autorité | Marché concerné | Amende |
 |---|---|---|---|
 | 2005 | Conseil de la concurrence (France) | téléphonie mobile (Orange, SFR, Bouygues Telecom) | 534 millions d'euros |
-| 2016 | Commission européenne | camions (grands constructeurs européens) | environ 2,9 milliards d'euros |`, corrige: `**Introduction**
+| 2016 | Commission européenne | camions (grands constructeurs européens) | environ 2,9 milliards d'euros |
+
+Sources : Conseil de la concurrence, décision du 30 novembre 2005 ; Commission européenne, décision du 19 juillet 2016.`, corrige: `**Introduction**
 - *Définitions* : un **oligopole** est un marché dominé par un petit nombre d'offreurs ; une **entente** (cartel) est un accord entre concurrents pour fixer les prix ou se partager le marché ; la **politique de la concurrence** regroupe les règles et institutions qui protègent la concurrence.
 - *Annonce* : l'interdépendance stratégique pousse les firmes à s'entendre (I), ce qui nuit aux consommateurs et justifie la politique de la concurrence (II).
 
@@ -299,11 +310,13 @@ Pour corriger les défaillances, les pouvoirs publics disposent de plusieurs out
 |---|---|---|---|
 | 7 | 22 | 44,6 | 44,6 (gel de la hausse prévue) |
 
+Source : lois de finances (ministère de l'Économie).
+
 **Document 2 – Le marché européen des quotas d'émission (SEQE-UE)**
-Les grandes installations industrielles et les centrales électriques de l'Union européenne doivent détenir un quota pour chaque tonne de CO₂ émise. Le nombre total de quotas est plafonné et diminue chaque année ; les quotas s'échangent sur un marché. Le prix de la tonne était inférieur à 10 € en 2017 ; il a dépassé 80 € en 2023.
+Les grandes installations industrielles et les centrales électriques de l'Union européenne doivent détenir un quota pour chaque tonne de CO₂ émise. Le nombre total de quotas est plafonné et diminue chaque année ; les quotas s'échangent sur un marché. Le prix de la tonne était inférieur à 10 € en 2017 ; il a dépassé 80 € en 2023 (ordres de grandeur, source : Commission européenne).
 
 **Document 3 – Une norme européenne**
-L'Union européenne a adopté en 2023 une règle selon laquelle, à partir de 2035, les voitures neuves vendues ne devront plus émettre de CO₂.`, corrige: `**Introduction**
+L'Union européenne a adopté en 2023 une règle selon laquelle, à partir de 2035, les voitures neuves vendues ne devront plus émettre de CO₂. En décembre 2025, la Commission européenne a proposé d'assouplir cet objectif (réduction de 90 % des émissions au lieu de 100 %).`, corrige: `**Introduction**
 - *Définitions* : la pollution est une **externalité négative** : le pollueur impose un coût à d'autres agents sans contrepartie monétaire. Le marché, qui ignore ce coût social, conduit à **trop** produire et polluer : c'est une défaillance du marché.
 - *Annonce* : les pouvoirs publics peuvent agir par la taxation (I), par un marché de quotas (II) et par la réglementation (III).
 
@@ -320,7 +333,7 @@ L'Union européenne a adopté en 2023 une règle selon laquelle, à partir de 20
 **III. Réglementer : normes et interdictions**
 - *Mécanisme* : la norme impose directement un comportement (seuils d'émission, interdictions).
 - *Illustration* : la fin de la vente des voitures neuves émettant du CO₂ dans l'UE en 2035 (document 3).
-- *Limite* : la norme est simple et sûre, mais rigide : elle n'incite pas à aller au-delà du seuil et impose le même effort à tous, quel que soit son coût.
+- *Limite* : la norme est simple et sûre, mais rigide et parfois contestée : la proposition de 2025 de ramener l'objectif à 90 % de réduction montre son coût pour les industriels (document 3). Elle n'incite pas à aller au-delà du seuil et impose le même effort à tous, quel que soit son coût.
 
 **Conclusion** : les trois instruments sont complémentaires : la taxe agit sur le prix, le marché de quotas sur la quantité, la norme sur le comportement. Leur efficacité dépend aussi de leur acceptabilité sociale.` },
         { type: "redaction", question: `**Dissertation s'appuyant sur un dossier documentaire** : Dans quelle mesure le marché permet-il une allocation efficace des ressources ?
@@ -388,10 +401,15 @@ Depuis 1992, en France, toute voiture de plus de quatre ans doit passer un contr
 - Un agent dégage une **capacité de financement** lorsque son épargne dépasse ses dépenses d'investissement (en général les **ménages**).
 - Il a un **besoin de financement** dans le cas inverse (en général les **entreprises** et les **administrations publiques**).
 
-Le système financier met en relation les agents à capacité et les agents à besoin de financement.
+Le système financier met en relation les agents à capacité et les agents à besoin de financement : le **financement** consiste à couvrir les besoins de financement des uns par les capacités de financement des autres.
+
+### Le revenu disponible des ménages
+Le **revenu disponible** des ménages (revenus d'activité et du patrimoine + prestations sociales − impôts directs et cotisations sociales) se répartit entre **consommation** et **épargne**. Taux d'épargne = épargne / revenu disponible × 100. Un ménage qui épargne plus qu'il n'investit (achat de logement) dégage une capacité de financement ; un ménage qui achète un logement à crédit a un besoin de financement.
 
 ## L'autofinancement
-L'**autofinancement** consiste pour une entreprise à financer ses investissements avec ses **propres ressources**, issues de ses profits non distribués (épargne brute).
+L'**excédent brut d'exploitation** (**EBE**) est ce qui reste à l'entreprise de sa valeur ajoutée après avoir payé les salaires, les cotisations sociales et les impôts sur la production (et perçu les subventions d'exploitation) : EBE = VA − rémunération des salariés − impôts sur la production + subventions d'exploitation. C'est le profit brut tiré de la production.
+
+L'**autofinancement** consiste pour une entreprise à financer ses investissements avec ses **propres ressources** : la part de l'EBE qui reste après paiement des intérêts, des impôts sur les bénéfices et des dividendes (épargne brute, profits non distribués).
 - Avantages : indépendance, pas d'intérêts à payer.
 - Limite : souvent insuffisant pour de gros investissements.
 
@@ -425,17 +443,23 @@ Le **taux d'intérêt** est le prix de l'argent emprunté, la rémunération du 
 **Taux d'intérêt réel ≈ taux nominal − taux d'inflation**. Un taux nominal de 5 % avec 2 % d'inflation donne un taux réel d'environ 3 %.
 
 ## Le financement de l'État
-Le **budget de l'État** retrace ses **recettes** (impôts : TVA, impôt sur le revenu, impôt sur les sociétés…) et ses **dépenses** (fonctionnement, investissement, intérêts de la dette, transferts).
+Le **budget de l'État** retrace ses **recettes** — **fiscales** (impôts : TVA, impôt sur le revenu, impôt sur les sociétés…) et **non fiscales** (dividendes des entreprises publiques, revenus du domaine, amendes) — et ses **dépenses** (fonctionnement, investissement, intérêts de la dette, transferts).
 - **Solde budgétaire** = recettes − dépenses. S'il est négatif : **déficit public**.
 - Le déficit est financé par l'**emprunt**, principalement par l'émission de titres (obligations assimilables du Trésor).
 - La **dette publique** est le **stock** de tout ce que les administrations publiques doivent ; le déficit est un **flux** annuel qui vient l'alimenter.
 
 Le déficit et la dette sont souvent rapportés au **PIB** (critères européens de référence : déficit de 3 %, dette de 60 % du PIB).
 
+### Les effets contradictoires des dépenses publiques
+- **Effet de relance** : une hausse des dépenses publiques augmente la demande (commandes publiques, revenus distribués), donc la production et l'emploi, surtout quand l'activité est faible.
+- **Effet d'éviction** : financées par l'emprunt, ces dépenses accroissent la demande de fonds prêtables, ce qui peut faire monter le taux d'intérêt et décourager l'investissement privé ; l'effet sur l'activité est alors réduit.
+
 > **À retenir** :
 > - Autofinancement, financement externe indirect (crédit bancaire) ou direct (actions, obligations).
 > - Le taux d'intérêt est le prix du crédit ; il intègre durée, risque, inflation.
 > - Déficit = flux annuel ; dette = stock accumulé.
+> - EBE = VA − rémunération des salariés − impôts sur la production + subventions.
+> - Dépenses publiques : effet de relance de la demande, mais risque d'effet d'éviction.
 `,
       exercices: [
         { type: "qcm", question: "Une entreprise qui finance une nouvelle machine grâce à ses bénéfices non distribués pratique :", choix: ["le financement direct", "le financement intermédié", "l'autofinancement", "l'émission d'obligations"], reponse: 2,
@@ -528,11 +552,14 @@ La monnaie a perdu toute valeur intrinsèque (monnaie-marchandise → monnaie de
 - Le **remboursement** du crédit **détruit** la monnaie.
 - La masse monétaire augmente quand les nouveaux crédits dépassent les remboursements.
 
->! **Exemple** : la banque B accorde un prêt de 20 000 € à Léa. Au bilan : à l'actif, une créance de 20 000 € sur Léa ; au passif, un dépôt de 20 000 € sur le compte de Léa. 20 000 € de monnaie sont créés.
+>! **Exemple** : la banque B accorde un prêt de 20 000 € à l'entreprise E.
+>! Bilan de la banque : à l'actif, une créance de 20 000 € sur E ; au passif, un dépôt de 20 000 € sur le compte de E.
+>! Bilan de l'entreprise : à l'actif, 20 000 € de dépôt bancaire (de la monnaie qu'elle peut dépenser) ; au passif, une dette de 20 000 € envers la banque.
+>! 20 000 € de monnaie sont créés.
 
 ## Les limites à la création monétaire
 - La **demande de crédit** des agents (et leur solvabilité).
-- Le besoin de **monnaie centrale** : les banques doivent disposer de liquidités pour faire face aux retraits en billets, aux paiements vers les autres banques et aux **réserves obligatoires**. Elles se procurent cette monnaie auprès de la **banque centrale** ou sur le **marché interbancaire**.
+- Le besoin de **monnaie centrale** : les banques doivent disposer de liquidités pour faire face aux retraits en billets, aux paiements vers les autres banques et aux **réserves obligatoires**. Elles se procurent cette monnaie auprès de la **banque centrale** ou auprès des autres banques sur le **marché monétaire** (marché interbancaire), où se forme le taux d'intérêt à court terme.
 - La **réglementation prudentielle** (ratios de fonds propres).
 
 ## Le rôle de la banque centrale
@@ -543,7 +570,7 @@ Dans la zone euro, c'est la **Banque centrale européenne (BCE)**, indépendante
 - conduit la **politique monétaire** ; son objectif principal est la **stabilité des prix** (inflation proche de 2 % à moyen terme).
 
 ## La politique monétaire
-- **Instrument principal** : les **taux directeurs**, taux auxquels la BCE prête aux banques ou rémunère les dépôts qu'elles placent chez elle (depuis 2024, la BCE pilote surtout via le taux de la **facilité de dépôt**).
+- **Instrument principal** : les **taux directeurs**, taux auxquels la BCE prête aux banques ou rémunère les dépôts qu'elles placent chez elle (depuis 2024, la BCE pilote surtout via le taux de la **facilité de dépôt**). Ils lui permettent de **piloter le taux d'intérêt à court terme sur le marché monétaire**, qui se répercute sur les taux des crédits, puis sur la demande, l'activité et le niveau des prix.
 - **Politique expansive** (baisse des taux) : le crédit devient moins cher, l'investissement et la consommation sont stimulés, mais risque d'inflation.
 - **Politique restrictive** (hausse des taux) : le crédit devient plus cher, la demande ralentit, l'inflation recule. Exemple : hausse des taux de la BCE en 2022-2023 face à la forte inflation.
 - **Politiques non conventionnelles** : rachats massifs de titres (*quantitative easing*).
@@ -562,7 +589,7 @@ Dans la zone euro, c'est la **Banque centrale européenne (BCE)**, indépendante
           explication: "« Les crédits font les dépôts » : la banque crédite le compte du client par un jeu d'écriture et **crée** de la monnaie." },
         { type: "vf", question: "Le remboursement d'un crédit détruit de la monnaie.", reponse: true,
           explication: "Le remboursement annule la créance et le dépôt correspondant : la monnaie créée disparaît." },
-        { type: "saisie", question: "Quel est le nom de la banque centrale de la zone euro ? (sigle)", reponses: ["BCE", "Banque centrale européenne", "la BCE"],
+        { type: "saisie", question: "Quel est le nom de la banque centrale de la zone euro ? (sigle)", reponses: ["BCE", "Banque centrale européenne", "la BCE", "Banque centrale européenne (BCE)", "BCE (Banque centrale européenne)", "la Banque centrale européenne"],
           explication: "La **BCE** (Banque centrale européenne), dont le siège est à Francfort." },
         { type: "qcm", question: "Face à une forte inflation, la banque centrale mène plutôt :", choix: ["une hausse des taux directeurs", "une baisse des taux directeurs", "une hausse des impôts", "une dévaluation"], reponse: 0,
           explication: "Une **hausse des taux directeurs** renchérit le crédit, freine la demande et donc la hausse des prix (politique restrictive)." },
@@ -585,6 +612,8 @@ Dans la zone euro, c'est la **Banque centrale européenne (BCE)**, indépendante
 | De septembre 2019 à juillet 2022 | Septembre 2023 | Juin 2025 |
 |---|---|---|
 | −0,50 % | 4,00 % | 2,00 % |
+
+Source : BCE.
 
 **Document 2 – Le crédit aux entreprises dans la zone euro**
 La croissance sur un an des crédits accordés par les banques aux entreprises de la zone euro dépassait 8 % à l'automne 2022 ; elle était proche de 0 % fin 2023 (ordres de grandeur, BCE).
@@ -631,7 +660,7 @@ Pour **Émile Durkheim**, l'éducation est une « socialisation méthodique de l
 
 ## Socialisation primaire et secondaire
 - La **socialisation primaire** se déroule pendant l'enfance et l'adolescence. Elle est fondamentale et durable (langage, habitudes alimentaires, goûts).
-- La **socialisation secondaire** a lieu à l'âge adulte (travail, couple, engagement associatif ou politique). Elle peut prolonger ou transformer la socialisation primaire (Peter Berger et Thomas Luckmann).
+- Les **socialisations secondaires** ont lieu à l'âge adulte : socialisation **professionnelle** (apprendre un métier, ses normes), **conjugale** (la vie en couple transforme les habitudes), **politique** (engagement associatif, syndical, partisan). Elles peuvent prolonger ou transformer la socialisation primaire (Peter Berger et Thomas Luckmann).
 
 ## Les instances de socialisation
 - La **famille** : instance première, elle transmet langage, valeurs, pratiques, une vision du monde.
@@ -641,6 +670,13 @@ Pour **Émile Durkheim**, l'éducation est une « socialisation méthodique de l
 - Plus tard : le monde du travail, les associations, les partis, les institutions religieuses.
 
 Ces instances peuvent être **cohérentes** ou **concurrentes** (pluralité des influences).
+
+## La diversité des configurations familiales
+Les familles sont de plus en plus diverses : familles « traditionnelles » (un couple et ses enfants, environ deux tiers des familles avec enfants mineurs), **monoparentales** (20 à 25 %, le plus souvent une mère et ses enfants), **recomposées** (8 à 10 %), homoparentales (ordres de grandeur, Insee). Ces **configurations familiales** modifient les conditions de la socialisation :
+- ressources disponibles : les familles monoparentales sont plus souvent pauvres et mal logées, ce qui réduit le temps, l'argent et l'aide scolaire disponibles ;
+- enfants en résidence alternée ou dans une famille recomposée : ils sont socialisés dans deux foyers aux normes parfois différentes ;
+- **taille et rang dans la fratrie** : les aînés et les enfants de petites fratries bénéficient en moyenne d'un investissement parental plus important ;
+- trajectoire migratoire des parents, statut conjugal, milieu social et genre se combinent avec ces configurations.
 
 ## Socialisation différenciée selon le milieu social
 Les individus ne sont pas socialisés de la même façon selon leur milieu social.
@@ -658,8 +694,9 @@ Le **genre** désigne les différences entre hommes et femmes **construites soci
 
 > **À retenir** :
 > - Socialisation = intériorisation des normes et valeurs.
-> - Primaire (enfance) / secondaire (âge adulte).
+> - Primaire (enfance) / secondaires (professionnelle, conjugale, politique).
 > - Instances : famille, école, pairs, médias…
+> - Les configurations familiales (monoparentale, recomposée, fratrie) modifient les conditions de la socialisation.
 > - Socialisation différenciée selon le milieu social (habitus, Bourdieu) et le genre.
 > - Pluralité des influences (Lahire).
 `,
@@ -802,6 +839,15 @@ Un **groupe social** est un ensemble d'individus ayant des **interactions**, une
 - **Groupe primaire** : restreint, relations directes et affectives (famille, amis).
 - **Groupe secondaire** : plus large, relations plus formelles et fonctionnelles (entreprise, association, parti).
 
+## Les professions et catégories socioprofessionnelles (PCS)
+La nomenclature des **PCS** de l'Insee (rénovée en 2020) classe la population selon la **profession**. Pour les actifs, elle combine plusieurs **critères** :
+- le **statut** : indépendant (à son compte) ou salarié ;
+- le **niveau de qualification** et la **position hiérarchique** (ouvrier non qualifié, technicien, cadre…) ;
+- la **taille de l'entreprise** pour les indépendants (un chef d'entreprise de 10 salariés ou plus n'est pas classé comme un artisan) ;
+- le **secteur d'activité** et la nature de l'employeur (public ou privé).
+
+Six groupes d'actifs : agriculteurs exploitants ; artisans, commerçants et chefs d'entreprise ; cadres et professions intellectuelles supérieures ; professions intermédiaires ; employés ; ouvriers. Les retraités et les autres inactifs sont classés à part. Certaines catégories correspondent à de vrais groupes sociaux (les ouvriers, les agriculteurs), d'autres restent surtout des catégories statistiques (les professions intermédiaires).
+
 ## Les réseaux sociaux
 Un **réseau social** est un ensemble de **relations** entre individus (ou organisations). On l'analyse par les **liens** qui unissent les membres.
 - **Mark Granovetter** distingue les **liens forts** (famille, amis proches) et les **liens faibles** (connaissances). Il montre la « **force des liens faibles** » : ils permettent d'accéder à des informations nouvelles, par exemple pour trouver un emploi.
@@ -813,6 +859,8 @@ Dans *De la division du travail social* (1893), **Émile Durkheim** se demande c
 - **Solidarité mécanique** (sociétés traditionnelles) : les individus se ressemblent, partagent les mêmes croyances. La **conscience collective** est forte. Le droit est surtout **répressif**.
 - **Solidarité organique** (sociétés modernes) : les individus sont **différents** et **complémentaires** grâce à la **division du travail**, comme les organes d'un corps. Montée de l'**individualisme**. Le droit est surtout **restitutif** (réparer).
 
+Ce passage traduit un **processus d'individualisation** : les individus sont moins enfermés dans des appartenances imposées (village, religion, famille élargie) et choisissent davantage leurs liens (conjoint, amis, associations). L'individualisation ne fait pas disparaître le lien social : elle en transforme les formes.
+
 ## Les liens sociaux selon Serge Paugam
 Serge Paugam distingue quatre types de liens qui apportent **protection** et **reconnaissance** :
 - le **lien de filiation** (parents-enfants) ;
@@ -823,6 +871,7 @@ Serge Paugam distingue quatre types de liens qui apportent **protection** et **r
 ## La fragilisation des liens sociaux
 - **Chômage et précarité** fragilisent le lien de participation organique.
 - **Isolement** et ruptures familiales (divorces, personnes âgées seules).
+- **Ségrégations** (spatiale, scolaire) : la concentration des ménages pauvres dans certains quartiers réduit les contacts avec les autres groupes sociaux et les liens faibles utiles pour trouver un emploi.
 - **Exclusion** : cumul de ruptures conduisant à la « **désaffiliation** » (Robert Castel) ou à la « **disqualification sociale** » (Paugam).
 - Durkheim parle d'**anomie** : affaiblissement des normes qui régulent les comportements.
 
@@ -830,6 +879,7 @@ Mais de nouvelles formes de liens apparaissent : engagement associatif, réseaux
 
 > **À retenir** :
 > - Groupe social ≠ catégorie statistique.
+> - PCS : statut, qualification, position hiérarchique, taille de l'entreprise, secteur.
 > - Liens forts / liens faibles (Granovetter).
 > - Solidarité mécanique (similitude) / organique (complémentarité, division du travail) : Durkheim.
 > - Quatre types de liens (Paugam) ; fragilisation par le chômage, l'isolement, l'exclusion.
@@ -923,7 +973,8 @@ Les **sous-cultures déviantes** : la déviance s'apprend au contact d'un groupe
 **Howard Becker**, *Outsiders* (1963) :
 - « Le déviant est celui auquel l'étiquette de déviant a été appliquée avec succès. » La déviance n'est pas une qualité de l'acte mais le résultat d'une **interaction** entre celui qui transgresse et ceux qui le désignent.
 - Les **entrepreneurs de morale** créent les normes (créateurs) et les font appliquer (police, juges).
-- La **carrière déviante** : l'étiquetage pousse l'individu à adopter une identité déviante et à rejoindre un groupe déviant (exemple des fumeurs de marijuana, des musiciens de jazz).
+- La **stigmatisation** : Erving **Goffman** (*Stigmate*, 1963) montre qu'un attribut jugé négatif (casier judiciaire, handicap, maladie) discrédite l'individu aux yeux des autres et réduit son identité à ce « stigmate ».
+- La **carrière déviante** : l'étiquetage et la stigmatisation poussent l'individu à adopter une identité déviante et à rejoindre un groupe déviant (exemple des fumeurs de marijuana, des musiciens de jazz).
 
 ## Mesurer la délinquance
 - **Statistiques administratives** (police, gendarmerie, justice) : ne recensent que les faits connus et enregistrés ; elles dépendent de l'activité des services et de la propension des victimes à porter plainte (« chiffre noir »).
@@ -932,7 +983,7 @@ Les **sous-cultures déviantes** : la déviance s'apprend au contact d'un groupe
 > **À retenir** :
 > - Déviance (norme sociale) ⊃ délinquance (norme juridique).
 > - Contrôle social formel / informel.
-> - Explications : anomie (Durkheim, Merton), apprentissage, étiquetage (Becker).
+> - Processus : étiquetage (Becker), stigmatisation (Goffman), carrière déviante ; autres explications : anomie (Durkheim, Merton), apprentissage.
 > - Statistiques administratives et enquêtes de victimation sont complémentaires.
 `,
       exercices: [
@@ -940,7 +991,7 @@ Les **sous-cultures déviantes** : la déviance s'apprend au contact d'un groupe
           explication: "La délinquance est la transgression d'une norme **juridique**, cas particulier de la déviance qui concerne toutes les normes sociales." },
         { type: "qcm", question: "Un élève moqué par ses camarades pour sa tenue subit :", choix: ["un contrôle social informel", "un contrôle social formel", "une sanction pénale", "un étiquetage judiciaire"], reponse: 0,
           explication: "La sanction vient de l'entourage, elle n'est pas codifiée : **contrôle social informel**." },
-        { type: "saisie", question: "Quel sociologue est l'auteur de *Outsiders* et de la théorie de l'étiquetage ?", reponses: ["Becker", "Howard Becker", "H. Becker"],
+        { type: "saisie", question: "Quel sociologue est l'auteur de *Outsiders* et de la théorie de l'étiquetage ?", reponses: ["Becker", "Howard Becker", "H. Becker", "Howard S. Becker", "Howard Saul Becker"],
           explication: "Howard **Becker**, *Outsiders* (1963)." },
         { type: "qcm", question: "Chez Becker, les « entrepreneurs de morale » sont :", choix: ["les déviants eux-mêmes", "les chefs d'entreprise", "ceux qui créent les normes et les font appliquer", "les victimes"], reponse: 2,
           explication: "Les entrepreneurs de morale sont les **créateurs** de normes (groupes militants, législateurs) et ceux qui les **font appliquer** (police, juges)." },
@@ -1029,7 +1080,7 @@ Becker montre qu'on apprend, au contact de fumeurs expérimentés, la technique 
       theme: "Sociologie et science politique",
       cours: `
 ## Qu'est-ce que l'opinion publique ?
-L'**opinion publique** désigne l'ensemble des jugements, attitudes et croyances partagés par une partie importante d'une population sur des questions d'intérêt général. Elle s'est affirmée au XVIIIe siècle avec l'essor de la presse, des salons et des cafés (Jürgen Habermas parle de « **sphère publique** »). Elle est aujourd'hui un acteur central des démocraties : les gouvernants cherchent à la connaître et à l'influencer.
+L'**opinion publique** désigne l'ensemble des jugements, attitudes et croyances partagés par une partie importante d'une population sur des questions d'intérêt général. Elle s'est affirmée au XVIIIe siècle avec l'essor de la presse, des salons et des cafés (Jürgen Habermas parle de « **sphère publique** »). Son émergence est **indissociable de l'avènement de la démocratie** : d'abord **monopole des catégories « éclairées »** (élites cultivées, bourgeoisie lettrée), l'opinion publique est désormais entendue comme celle du **plus grand nombre**, avec le suffrage universel, l'école et la presse de masse. Elle est aujourd'hui un acteur central des démocraties : les gouvernants cherchent à la connaître et à l'influencer.
 
 Elle s'exprime par le **vote**, les **manifestations**, les **pétitions**, la **presse**, les **réseaux sociaux** et les **sondages**.
 
@@ -1043,6 +1094,7 @@ Un **sondage** est une enquête statistique réalisée auprès d'un **échantill
 ## Les sondages, outils de la démocratie
 - Ils permettent de connaître l'avis des citoyens entre deux élections.
 - Ils informent les gouvernants et les partis, éclairent les débats.
+- Leur usage fréquent transforme la vie politique : on parle de **démocratie d'opinion**. Les sondages servent au **contrôle des gouvernants** (cotes de popularité), pèsent sur la **participation électorale** (mobilisation ou démobilisation selon les pronostics) et orientent la **communication politique** (choix des thèmes, des candidats, des slogans).
 
 ## Les critiques des sondages
 **Pierre Bourdieu**, « *L'opinion publique n'existe pas* » (1973), formule trois critiques :
@@ -1066,6 +1118,7 @@ D'autres critiques :
 > - Sondage = échantillon représentatif (quotas) avec marge d'erreur.
 > - Bourdieu : « L'opinion publique n'existe pas » (3 postulats contestés).
 > - Lazarsfeld : influence limitée des médias, leaders d'opinion.
+> - L'opinion publique, d'abord celle des élites « éclairées », est devenue celle du plus grand nombre ; les sondages installent une démocratie d'opinion.
 `,
       exercices: [
         { type: "qcm", question: "La méthode des quotas consiste à :", choix: ["interroger toute la population", "tirer au sort les personnes interrogées", "construire un échantillon qui reproduit la structure de la population selon certains critères", "interroger uniquement des volontaires sur internet"], reponse: 2,
@@ -1103,7 +1156,7 @@ D'autres critiques :
 | 25 % | 12 % | 6 % |
 
 **Document 2 – Un résultat inattendu**
-Au premier tour de l'élection présidentielle d'avril 2002, les derniers sondages publiés donnaient Jean-Marie Le Pen autour de 14 % des voix. Il obtient 16,9 % et se qualifie pour le second tour, devant Lionel Jospin (16,2 %).
+Au premier tour de l'élection présidentielle d'avril 2002, les derniers sondages publiés donnaient Jean-Marie Le Pen autour de 14 % des voix. Il obtient 16,9 % et se qualifie pour le second tour, devant Lionel Jospin (16,2 %) (résultats : Conseil constitutionnel).
 
 **Document 3 – Deux formulations d'une même question (données fictives)**
 « Faut-il augmenter les impôts pour financer les hôpitaux ? » : 35 % de oui. « Faut-il donner plus de moyens aux hôpitaux, même si cela coûte plus cher ? » : 60 % de oui.`, corrige: `**Introduction**
@@ -1135,7 +1188,8 @@ Le vote est un acte **individuel** (vote secret, avec isoloir et enveloppe oblig
 ## La participation électorale et l'abstention
 - Le **taux de participation** = votants / inscrits × 100.
 - Le **taux d'abstention** = abstentionnistes / inscrits × 100 = 100 − taux de participation.
-- Ne pas confondre avec la **non-inscription** (environ 5 % à 10 % des personnes en âge de voter) et la **mal-inscription** (inscrit ailleurs que là où l'on vit).
+- Le **taux d'inscription** = inscrits sur les listes électorales / personnes en droit de voter (majeurs de nationalité française) × 100.
+- Ne pas confondre l'abstention avec la **non-inscription** (environ 5 % à 10 % des personnes en âge de voter) et la **mal-inscription** (inscrit ailleurs que là où l'on vit).
 - Les **votes blancs et nuls** sont comptés parmi les votants mais pas parmi les suffrages exprimés.
 
 ### Les facteurs de la participation
@@ -1158,7 +1212,7 @@ L'abstention progresse depuis les années 1980 et devient plus **intermittente**
 
 ### Le vote, une affaire individuelle
 - Le modèle de l'**électeur rationnel** (ou stratège) : l'électeur compare les offres politiques et vote selon ses intérêts et les **enjeux** (chômage, sécurité, environnement).
-- **Volatilité électorale** : changement de vote d'une élection à l'autre (entre partis, ou entre vote et abstention).
+- **Volatilité électorale** : elle prend des formes variées : **intermittence** du vote (voter à certaines élections et pas à d'autres) et **changement de préférences** (voter pour des partis différents). Elle reflète l'affaiblissement ou la recomposition du poids de certaines variables sociales, le **déclin de l'identification politique** (moins d'électeurs se reconnaissent durablement dans la gauche ou la droite) et le poids croissant des **variables contextuelles** (enjeux, candidats, campagne).
 - Rôle de l'**offre politique** et de la conjoncture : personnalité des candidats, campagne, médias.
 - **Vote stratégique** (« vote utile ») ou **vote sur enjeux**.
 
@@ -1303,7 +1357,7 @@ Présidentielle 2022 : 26,3 % ; européennes 2024 : 48,5 %.`, corrige: `**Introd
     },
     {
       id: "risques-protection-sociale",
-      titre: "Comment l'assurance et la protection sociale contribuent-elles à la gestion des risques ?",
+      titre: "Comment l'assurance et la protection sociale contribuent-elles à la gestion des risques dans les sociétés développées ?",
       theme: "Regards croisés",
       cours: `
 ## Les risques dans les sociétés développées
@@ -1313,11 +1367,21 @@ Un **risque** est un événement **probable** (dont on peut estimer la probabili
 
 Face au risque, les agents ont des **comportements différents** : certains sont **averses au risque** (ils préfèrent payer une prime pour s'en protéger), d'autres l'acceptent ou le recherchent.
 
-## Les moyens de se protéger
+L'**exposition** au risque et l'**attitude** face au risque (perception du risque, aversion, conduites à risque) varient selon les individus, les **groupes sociaux** et les **sociétés** : les ouvriers sont bien plus exposés aux accidents du travail que les cadres ; les jeunes hommes ont davantage de conduites à risque sur la route ; la perception d'un même risque (nucléaire, vaccin) diffère d'un pays à l'autre.
+
+## Les principes de la gestion des risques
 - **Prévention** : réduire la probabilité ou la gravité du risque (vaccination, ceinture de sécurité, normes).
-- **Épargne de précaution** : mettre de l'argent de côté.
-- **Solidarité familiale** ou de proximité.
-- **Assurance** (privée) et **protection sociale** (publique).
+- **Mutualisation** : répartir le coût des sinistres sur un grand nombre de personnes (voir ci-dessous).
+- **Diversification** : ne pas dépendre d'une seule source de revenu ou d'un seul placement (« ne pas mettre tous ses œufs dans le même panier ») : un agriculteur pratique plusieurs cultures, un épargnant répartit son épargne entre plusieurs placements, une entreprise vend plusieurs produits.
+
+Ces principes sont mis en œuvre par plusieurs **institutions** :
+- la **famille** (solidarité familiale, épargne de précaution) ;
+- les **sociétés d'assurance** (à but lucratif) et les **mutuelles** (sans but lucratif, « une personne, une voix ») ;
+- les **pouvoirs publics** : protection sociale, assurances obligatoires, normes de prévention.
+
+## Les effets du partage des risques
+- **Effets positifs** : le partage des risques accroît le **bien-être** (sécurité, tranquillité) et favorise la **prise de risque** et l'**innovation** : un entrepreneur assuré ose davantage investir.
+- **Effet négatif** : l'**aléa moral** ; l'assuré, protégé, peut devenir moins prudent.
 
 ## Le principe de l'assurance : la mutualisation
 L'**assurance** repose sur la **mutualisation des risques** : de nombreux assurés versent une **prime** (cotisation) qui alimente un fonds servant à indemniser ceux qui subissent un sinistre. Grâce à la **loi des grands nombres**, l'assureur peut prévoir le coût total des sinistres même s'il ne sait pas qui sera touché.
@@ -1344,6 +1408,7 @@ Le système français, créé en 1945, est **mixte** : d'origine bismarckienne, 
 
 > **À retenir** :
 > - Risque = événement probable mais incertain.
+> - Trois principes : prévention, mutualisation, diversification ; institutions : famille, assurances et mutuelles, pouvoirs publics.
 > - Assurance = mutualisation des risques grâce à la loi des grands nombres.
 > - Sélection adverse et aléa moral perturbent l'assurance (franchise, bonus-malus).
 > - Protection sociale : logique d'assurance (Bismarck, cotisations) et d'assistance (Beveridge, impôt).
@@ -1380,7 +1445,7 @@ Le système français, créé en 1945, est **mixte** : d'origine bismarckienne, 
 **Document 1 – La mutualisation (données fictives)**
 Un assureur couvre 10 000 logements. Chaque logement a 1 % de probabilité de subir dans l'année un dégât des eaux, dont le coût moyen est de 3 000 €.
 
-**Document 2 – Répartition des prestations de protection sociale par risque en France (ordres de grandeur arrondis, début des années 2020)**
+**Document 2 – Répartition des prestations de protection sociale par risque en France (ordres de grandeur arrondis, début des années 2020 ; source : Drees, comptes de la protection sociale)**
 
 | Vieillesse-survie | Santé | Famille | Emploi (chômage, insertion) | Logement, pauvreté-exclusion |
 |---|---|---|---|---|
@@ -1417,6 +1482,16 @@ On les classe selon :
 - le **secteur d'activité** (primaire, secondaire, tertiaire) ;
 - le **statut juridique** : entreprise individuelle, sociétés (SARL, SA, SAS), entreprises publiques, entreprises de l'**économie sociale et solidaire** (coopératives, mutuelles, associations) qui suivent le principe « une personne, une voix ».
 
+## Le cycle de vie d'une entreprise
+- **Création** : plus d'un million d'entreprises sont créées chaque année en France depuis 2022, en majorité sous le régime du micro-entrepreneur (Insee).
+- **Croissance** : interne (nouvelles usines, embauches) ou externe (rachat d'autres entreprises, fusions).
+- **Changement de statut juridique** : une entreprise individuelle qui grandit devient souvent une société (SARL, SAS), puis parfois une SA cotée en Bourse pour lever des capitaux.
+- **Disparition** : cessation d'activité, rachat par une autre entreprise, ou défaillance (liquidation judiciaire).
+
+## Les figures de l'entrepreneur
+- Selon le **statut juridique** : l'**entrepreneur individuel** (il exerce en son nom propre), le **micro-entrepreneur** (régime simplifié de l'entrepreneur individuel, réservé aux petits chiffres d'affaires), le **chef d'entreprise** qui dirige une société.
+- Selon la **fonction économique** : l'**entrepreneur-innovateur** (Schumpeter), le **manager** (dirigeant salarié), l'**actionnaire** (apporteur de capitaux).
+
 ## L'entreprise, une organisation productive
 - La **valeur ajoutée** = chiffre d'affaires − consommations intermédiaires. Elle mesure la richesse créée par l'entreprise.
 - Elle est **répartie** entre salaires, impôts, intérêts, dividendes et autofinancement.
@@ -1432,6 +1507,8 @@ On les classe selon :
 
 ## La gouvernance d'entreprise
 La **gouvernance** désigne l'ensemble des règles et mécanismes qui organisent le **pouvoir** de décision et le **contrôle** des dirigeants.
+- L'**autorité** est un pouvoir reconnu comme **légitime** : le salarié obéit à son supérieur parce qu'il reconnaît son droit à donner des ordres (contrat de travail, compétence, position hiérarchique).
+- Les décisions peuvent être **centralisées** (prises au sommet, par la direction générale : cohérence, rapidité de la stratégie) ou **décentralisées** (déléguées aux filiales, aux établissements, aux équipes : réactivité, motivation, adaptation au terrain).
 - Dans les grandes sociétés, **séparation entre propriété et contrôle** (Berle et Means, 1932) : les actionnaires possèdent, les **managers** dirigent.
 - Relation **mandant-mandataire** (relation d'agence) : les dirigeants peuvent poursuivre leurs propres intérêts. Pour aligner leurs intérêts sur ceux des actionnaires : rémunérations indexées sur la valeur boursière (stock-options), contrôle par le conseil d'administration.
 - Débat : gouvernance **actionnariale** (création de valeur pour les actionnaires) ou **partenariale** (prise en compte de toutes les parties prenantes). La **loi PACTE (2019)** permet aux entreprises de se doter d'une **raison d'être** et du statut d'**entreprise à mission** ; la responsabilité sociale des entreprises (**RSE**) va dans ce sens.
@@ -1443,8 +1520,11 @@ La **gouvernance** désigne l'ensemble des règles et mécanismes qui organisent
 - Le **dialogue social** et les conflits (grève) font évoluer les règles.
 
 > **À retenir** :
+> - Cycle de vie : création, croissance, changement de statut, disparition.
+> - Figures de l'entrepreneur : entrepreneur individuel, micro-entrepreneur, chef d'entreprise ; innovateur, manager, actionnaire.
 > - Valeur ajoutée = chiffre d'affaires − consommations intermédiaires.
 > - Acteurs : dirigeants, actionnaires, salariés, parties prenantes.
+> - Autorité = pouvoir légitime ; décisions centralisées ou décentralisées.
 > - Gouvernance : séparation propriété/contrôle, conflits d'intérêts actionnaires/managers.
 > - Gouvernance actionnariale vs partenariale ; coopération et conflits.
 `,
@@ -1535,6 +1615,8 @@ Le **coefficient multiplicateur** CM = VA / VD.
 >! +20 % puis −20 % : 1,2 × 0,8 = 0,96 → baisse de **4 %** (et non 0 %).
 >! +10 % deux années de suite : 1,1 × 1,1 = 1,21 → hausse de **21 %**.
 
+Le **taux de variation cumulé** est le taux de variation global sur plusieurs périodes : taux cumulé = (produit des CM − 1) × 100. Dans l'exemple ci-dessus, il vaut 21 %.
+
 ## Indice simple
 Un **indice** compare une valeur à une valeur de référence (année de base) fixée à **100** :
 > Indice = valeur de l'année / valeur de l'année de base × 100
@@ -1542,6 +1624,17 @@ Un **indice** compare une valeur à une valeur de référence (année de base) f
 >! Prix en 2015 (base) : 80 € ; en 2024 : 92 €. Indice 2024 = 92 / 80 × 100 = **115**. Lecture : « Entre 2015 et 2024, le prix a augmenté de 15 % ».
 
 Attention : la différence entre deux indices n'est un pourcentage que si l'on part de l'année de base. Entre un indice 120 et un indice 150 : (150 − 120) / 120 × 100 = **+25 %** (et non 30 %).
+
+## Indice synthétique
+Un **indice synthétique** résume en un seul nombre l'évolution de **plusieurs** grandeurs, en pondérant chacune par son importance. Exemple : l'**indice des prix à la consommation** (IPC) de l'Insee mesure l'évolution moyenne des prix de milliers de biens et services, chacun pondéré par sa part dans les dépenses des ménages. Il se lit comme un indice simple : un IPC de 120 (base 100 en 2015) signifie que les prix ont augmenté en moyenne de 20 % depuis 2015.
+
+## Valeur nominale et valeur réelle
+- La **valeur nominale** est exprimée en euros courants (de l'année considérée).
+- La **valeur réelle** (en euros constants) élimine l'effet de la hausse des prix : valeur réelle = valeur nominale / indice des prix × 100.
+
+>! Un salaire de 2 000 € en 2024, avec un IPC de 120 (base 100 en 2015), vaut 2 000 / 120 × 100 ≈ **1 667 €** de 2015 : c'est son pouvoir d'achat mesuré aux prix de 2015.
+
+De même, **taux d'intérêt réel ≈ taux nominal − taux d'inflation** (exactement : CM réel = CM nominal / CM des prix).
 
 ## Moyenne arithmétique et moyenne pondérée
 - **Moyenne simple** : somme des valeurs / nombre de valeurs.
@@ -1559,6 +1652,11 @@ Il croise deux variables. Il faut repérer **ce qui fait 100 %** (le total en li
 - Si les lignes font 100 % : « Parmi les ouvriers, X % … ».
 - Si les colonnes font 100 % : « Parmi les votants de tel parti, X % sont ouvriers ».
 
+## Représentations graphiques
+- **Diagramme de répartition** (diagramme circulaire, barres empilées à 100 %) : il montre les parts d'un ensemble ; la somme fait 100 %.
+- **Série chronologique** (courbe ou histogramme dans le temps) : elle montre une évolution. Repère l'unité, la période, l'origine de l'axe vertical (une échelle qui ne part pas de 0 grossit les variations) et distingue niveau (valeur) et évolution (pente).
+- **Courbes d'offre, de demande, de coût** : lis la **pente** (sens de variation) et distingue déplacement **sur** la courbe (variation du prix) et déplacement **de** la courbe (autre facteur).
+
 ## Point de pourcentage
 Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de pourcentage**.
 
@@ -1574,7 +1672,8 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
 > **À retenir** :
 > - Taux de variation = (VA − VD) / VD × 100 ; CM = VA / VD.
 > - Variations successives : on multiplie les CM.
-> - Indice = valeur / valeur de base × 100.
+> - Indice = valeur / valeur de base × 100 ; l'IPC est un indice synthétique.
+> - Valeur réelle = valeur nominale / indice des prix × 100.
 > - Écart entre deux pourcentages = points de pourcentage.
 > - Médiane ≠ moyenne ; corrélation ≠ causalité.
 `,
@@ -1597,7 +1696,7 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
           explication: "Corrélation ≠ causalité : un troisième facteur peut expliquer les deux, ou la relation peut être fortuite, ou la causalité inverse." },
         { type: "saisie", question: "Un coefficient multiplicateur vaut 0,85. Quel est le taux de variation correspondant (en %) ?", reponses: ["-15", "−15", "-15 %", "−15 %", "baisse de 15 %"],
           explication: "(0,85 − 1) × 100 = **−15 %**." },
-        { type: "redaction", question: "**Étude de document (EC2)** : Le prix d'un panier de biens vaut 200 € en 2015, 210 € en 2020 et 240 € en 2024. 1) Calcule les indices base 100 en 2015. 2) Calcule le taux de variation entre 2020 et 2024, et rédige une phrase de lecture. 3) Calcule le coefficient multiplicateur entre 2015 et 2024.", corrige: `**1) Indices base 100 en 2015**
+        { type: "redaction", question: "**Exercice de calcul (préparation à l'EC2)** : Le prix d'un panier de biens vaut 200 € en 2015, 210 € en 2020 et 240 € en 2024. 1) Calcule les indices base 100 en 2015. 2) Calcule le taux de variation entre 2020 et 2024, et rédige une phrase de lecture. 3) Calcule le coefficient multiplicateur entre 2015 et 2024.", corrige: `**1) Indices base 100 en 2015**
 - 2015 : 100.
 - 2020 : 210 / 200 × 100 = **105**.
 - 2024 : 240 / 200 × 100 = **120**.
@@ -1613,7 +1712,7 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
 >! **Piège** : ne pas écrire que le prix a augmenté de 15 % entre 2020 et 2024 en soustrayant les indices (120 − 105) : ce serait 15 points d'indice, pas 15 %.` },
         { type: "saisie", question: "Sur 200 cadres, 150 ont un enfant bachelier ; sur 300 ouvriers, 60. Quelle est la part (en %) des ouvriers ayant un enfant bachelier ? (tableau de profils en ligne)", reponses: ["20", "20 %", "20%"],
           explication: "Profil en ligne : on rapporte à l'effectif de la ligne. 60 / 300 × 100 = **20 %** (contre 150 / 200 = 75 % chez les cadres). Attention : « parmi les ouvriers, 20 %… » est différent de « parmi les bacheliers, X % sont enfants d'ouvriers » (60 / 210 ≈ 28,6 %)." },
-        { type: "saisie", question: "Ton salaire augmente de 3 % pendant que les prix augmentent de 5 %. De combien (en %, arrondi au dixième) varie ton pouvoir d'achat ?", reponses: ["-1,9", "−1,9", "-1,9 %", "−1,9 %", "baisse de 1,9 %"],
+        { type: "saisie", question: "Ton salaire augmente de 3 % pendant que les prix augmentent de 5 %. De combien (en %, arrondi au dixième) varie ton pouvoir d'achat ?", reponses: ["-1,9", "−1,9", "-1,9 %", "−1,9 %", "baisse de 1,9 %", "environ -1,9", "environ -1,9 %", "environ −1,9 %", "≈ -1,9", "≈ −1,9 %", "-1,9 % environ"],
           explication: "Pouvoir d'achat (valeur réelle) : CM = 1,03 / 1,05 ≈ 0,981, soit **−1,9 %**. L'approximation « 3 − 5 = −2 % » donne un ordre de grandeur, mais le calcul exact passe par le rapport des coefficients multiplicateurs." },
       ],
     },
@@ -1626,7 +1725,7 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
 - **Si tu abandonnes la SES à la fin de la 1re** : il n'y a **pas d'épreuve finale**. La note retenue au bac est la **moyenne annuelle de tes bulletins de 1re** (contrôle continu), avec un **coefficient 8**. Chaque devoir sur table compte donc ! Tes professeurs te donnent des sujets du même type que ceux du bac (questions de cours, étude de document, raisonnement sur dossier, parfois une dissertation), souvent sur une durée plus courte.
 - **Si tu gardes la SES en terminale** : épreuve écrite de **4 heures** en fin de terminale (coefficient 16), sur le programme de terminale. Tu choisis entre une **dissertation** et une **épreuve composée**. Le grand oral peut aussi porter sur la SES.
 
-Dans les deux cas, les méthodes ci-dessous s'apprennent dès la 1re. Le barème indiqué est celui de l'épreuve de terminale à partir de la session 2027 (note de service du 11 septembre 2026, publiée au Bulletin officiel spécial n° 4 du 17 septembre 2026), qui réserve **2 points sur 20 à la maîtrise des normes orthographiques et syntaxiques**. La qualité de l'expression (organisation du raisonnement, vocabulaire précis) compte en plus dans l'évaluation de chaque partie. Les notions de 1re doivent rester connues et mobilisables en terminale. En 1re, ton professeur peut utiliser un barème adapté : renseigne-toi auprès de lui.
+Dans les deux cas, les méthodes ci-dessous s'apprennent dès la 1re. Le programme fixe comme attendus de **fin de 1re** la mobilisation des connaissances, les calculs simples, l'analyse de documents et la construction d'un raisonnement rigoureux (c'est l'épreuve composée) ; la **construction d'une problématique** et la **dissertation** sont des attendus de **fin de terminale** : en 1re, les dissertations proposées ici sont un entraînement. Le barème indiqué est celui de l'épreuve de terminale à partir de la session 2027 (note de service du 11 septembre 2026, publiée au Bulletin officiel spécial n° 4 du 17 septembre 2026), qui réserve **2 points sur 20 à la maîtrise des normes orthographiques et syntaxiques**. La qualité de l'expression (organisation du raisonnement, vocabulaire précis) compte en plus dans l'évaluation de chaque partie. Les notions de 1re doivent rester connues et mobilisables en terminale. En 1re, ton professeur peut utiliser un barème adapté : renseigne-toi auprès de lui.
 
 ## L'épreuve composée
 Elle comporte **trois parties** indépendantes.
@@ -1653,7 +1752,7 @@ Tu dois **utiliser les documents** (citer des données précises) **et** tes **c
 
 Les trois parties portent sur trois questions différentes du programme et sur au moins deux champs (science économique ; sociologie et science politique ; regards croisés).
 
->! **Pour t'entraîner** : chaque chapitre se termine par un sujet d'EC3 avec son dossier documentaire ; des EC2 chiffrées figurent dans les chapitres de sociologie, et trois dissertations sont corrigées (chapitres « défaillances du marché », « socialisation » et « vote »). Dans ces sujets, les données marquées « fictives » servent seulement à l'entraînement.
+>! **Pour t'entraîner** : chaque chapitre du programme comporte un sujet d'EC3 avec son dossier documentaire ; des EC2 chiffrées figurent dans les chapitres « socialisation », « déviance » et « vote », et trois dissertations sont corrigées (chapitres « défaillances du marché », « socialisation » et « vote »). Dans ces sujets, les données marquées « fictives » servent seulement à l'entraînement.
 
 ## La dissertation
 Un sujet sous forme de question et un dossier de **3 ou 4 documents** factuels (surtout statistiques). Elle se note sur 20 (dont 2 points de maîtrise de la langue). Tu dois mobiliser les documents **et** tes connaissances ; elle demande une vraie problématique et un plan en parties.
@@ -1698,7 +1797,7 @@ Un sujet sous forme de question et un dossier de **3 ou 4 documents** factuels (
           explication: "« Dans quelle mesure » invite à évaluer l'**ampleur** et les **limites** : un plan du type « oui… mais… »." },
         { type: "qcm", question: "Dans une introduction de dissertation, on trouve :", choix: ["uniquement la réponse finale", "accroche, définitions, problématique et annonce du plan", "les exemples détaillés de chaque partie", "une liste des documents"], reponse: 1,
           explication: "L'introduction comporte **accroche**, **définition** des termes, **problématique** et **annonce du plan**." },
-        { type: "redaction", question: "**Raisonnement s'appuyant sur un dossier (EC3)** : À l'aide de tes connaissances, montre que les défaillances du marché justifient l'intervention des pouvoirs publics. Rédige une introduction et le plan détaillé de ton raisonnement.", corrige: `**Introduction**
+        { type: "redaction", question: "**Entraînement au raisonnement (type EC3, sans dossier documentaire)** : À l'aide de tes connaissances, montre que les défaillances du marché justifient l'intervention des pouvoirs publics. Rédige une introduction et le plan détaillé de ton raisonnement.", corrige: `**Introduction**
 - *Accroche* : selon Santé publique France (2021), près de 40 000 décès par an en France sont attribuables aux particules fines, sans que les pollueurs en paient le coût.
 - *Définitions* : une **défaillance du marché** est une situation où le marché ne conduit pas à une allocation efficace des ressources ; l'**intervention publique** regroupe les actions de l'État (réglementation, taxes, subventions, production).
 - *Annonce* : nous verrons que les externalités (I), les biens collectifs et communs (II) et les asymétries d'information (III) justifient une intervention publique.

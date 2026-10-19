@@ -377,8 +377,8 @@ Sur 12 mois, le **contrat A** est le plus avantageux (environ 274 € de plus). 
       titre: "Nombre dérivé et tangente",
       theme: "Analyse",
       cours: `
-## Taux d'accroissement
-Soit f une fonction définie sur un intervalle I, a ∈ I et h ≠ 0 tel que a + h ∈ I. Le **taux d'accroissement** de f entre a et a + h est :
+## Taux de variation (ou taux d'accroissement)
+Soit f une fonction définie sur un intervalle I, a ∈ I et h ≠ 0 tel que a + h ∈ I. Le **taux de variation** (on dit aussi taux d'accroissement) de f entre a et a + h est :
 **τ(h) = (f(a + h) − f(a))/h**.
 C'est le **coefficient directeur de la sécante** passant par les points A(a ; f(a)) et M(a + h ; f(a + h)).
 
@@ -522,15 +522,17 @@ u et v sont deux fonctions dérivables sur I, k un réel.
 | u × v | **u′v + uv′** |
 | 1/v (v ≠ 0) | **−v′/v²** |
 | u/v (v ≠ 0) | **(u′v − uv′)/v²** |
-| x ↦ g(ax + b) | x ↦ **a × g′(ax + b)** |
+| x ↦ g(ax + b) (pour aller plus loin) | x ↦ **a × g′(ax + b)** |
 
 >! **Exemples**
 >! - f(x) = 3x² − 5x + 2 : f′(x) = 6x − 5.
 >! - f(x) = (2x + 1)(x − 3) : u = 2x + 1, u′ = 2 ; v = x − 3, v′ = 1. f′(x) = 2(x − 3) + (2x + 1) × 1 = 4x − 5.
 >! - f(x) = (3x − 1)/(x + 2) : f′(x) = [3(x + 2) − (3x − 1) × 1]/(x + 2)² = 7/(x + 2)².
 >! - f(x) = 1/(x² + 1) : v = x² + 1, v′ = 2x. f′(x) = −2x/(x² + 1)².
->! - f(x) = √(2x + 1) avec g = √, a = 2 : f′(x) = 2 × 1/(2√(2x + 1)) = 1/√(2x + 1).
->! - f(x) = (2x − 1)⁴ : f′(x) = 2 × 4(2x − 1)³ = 8(2x − 1)³.
+>! - Pour aller plus loin : f(x) = √(2x + 1) avec g = √, a = 2 : f′(x) = 2 × 1/(2√(2x + 1)) = 1/√(2x + 1).
+>! - Pour aller plus loin : f(x) = (2x − 1)⁴ : f′(x) = 2 × 4(2x − 1)³ = 8(2x − 1)³.
+
+*La formule de dérivation de x ↦ g(ax + b) ne figure plus dans le programme de 1re en vigueur à la rentrée 2026 (seul le cas de t ↦ eᵃᵗ est au programme, voir le chapitre sur l'exponentielle). Elle reste utile pour aller plus loin.*
 
 ## Conseils de rédaction
 1. Préciser l'intervalle où la fonction est dérivable.
@@ -541,7 +543,7 @@ u et v sont deux fonctions dérivables sur I, k un réel.
 > **À retenir**
 > - (xⁿ)′ = nxⁿ⁻¹ ; (1/x)′ = −1/x² ; (√x)′ = 1/(2√x).
 > - (uv)′ = u′v + uv′ ; (u/v)′ = (u′v − uv′)/v².
-> - (g(ax + b))′ = a g′(ax + b).
+> - Pour aller plus loin : (g(ax + b))′ = a g′(ax + b).
 > - √ n'est pas dérivable en 0.
 `,
       exercices: [
@@ -585,7 +587,7 @@ u et v sont deux fonctions dérivables sur I, k un réel.
         },
         {
           type: "qcm",
-          question: "Quelle est la dérivée de f(x) = (2x − 1)⁴ ?",
+          question: "(Pour aller plus loin) Quelle est la dérivée de f(x) = (2x − 1)⁴ ?",
           choix: ["4(2x − 1)³", "8(2x − 1)³", "8x(2x − 1)³", "2(2x − 1)⁴"],
           reponse: 1,
           explication: "f(x) = g(2x − 1) avec g(X) = X⁴, g′(X) = 4X³. f′(x) = 2 × 4(2x − 1)³ = 8(2x − 1)³. Ne pas oublier le facteur a = 2.",
@@ -598,7 +600,7 @@ u et v sont deux fonctions dérivables sur I, k un réel.
         },
         {
           type: "redaction",
-          question: "Calcule la dérivée de chacune des fonctions suivantes en précisant l'intervalle de dérivabilité :\n1) f(x) = x³ − 4x² + 7x − 1 sur ℝ ;\n2) g(x) = x√x sur ]0 ; +∞[ ;\n3) h(x) = (x² + 1)/(x − 1) sur ]1 ; +∞[ ;\n4) k(x) = √(4x + 2) sur ]−1/2 ; +∞[.",
+          question: "Calcule la dérivée de chacune des fonctions suivantes en précisant l'intervalle de dérivabilité :\n1) f(x) = x³ − 4x² + 7x − 1 sur ℝ ;\n2) g(x) = x√x sur ]0 ; +∞[ ;\n3) h(x) = (x² + 1)/(x − 1) sur ]1 ; +∞[ ;\n4) (pour aller plus loin) k(x) = √(4x + 2) sur ]−1/2 ; +∞[.",
           corrige: `1) f est un polynôme, dérivable sur ℝ : **f′(x) = 3x² − 8x + 7**.
 
 2) g = u × v avec u(x) = x (u′ = 1) et v(x) = √x (v′ = 1/(2√x)), dérivables sur ]0 ; +∞[.
@@ -731,7 +733,7 @@ Valeurs : f(−2) = −16 − 12 + 24 + 5 = 1 ; f(−1) = −2 − 3 + 12 + 5 = 
           corrige: `1) Le fond est un carré de côté 12 − 2x, qui doit être strictement positif : x < 6. Et x > 0. La hauteur de la boîte est x.
 V(x) = aire du fond × hauteur = **(12 − 2x)² × x**.
 
-2) V = u × v avec u(x) = x (u′ = 1) et v(x) = (12 − 2x)² (v′(x) = −2 × 2(12 − 2x) = −4(12 − 2x)).
+2) V = u × v avec u(x) = x (u′ = 1) et v(x) = (12 − 2x)² = (12 − 2x)(12 − 2x). Par la dérivée d'un produit : v′(x) = (−2)(12 − 2x) + (12 − 2x)(−2) = −4(12 − 2x).
 V′(x) = (12 − 2x)² − 4x(12 − 2x) = (12 − 2x)[(12 − 2x) − 4x] = **(12 − 2x)(12 − 6x)**.
 
 3) Sur ]0 ; 6[, 12 − 2x > 0, donc V′(x) est du signe de 12 − 6x : positif si x < 2, négatif si x > 2.
@@ -777,8 +779,9 @@ La stricte croissance donne, pour tous réels a et b :
 >! - eˣ ≤ 1 ⟺ eˣ ≤ e⁰ ⟺ x ≤ 0. S = ]−∞ ; 0].
 >! - e^(x²) = e^(4x − 3) ⟺ x² − 4x + 3 = 0 ⟺ x = 1 ou x = 3.
 
-## Dérivée de x ↦ e^(ax + b)
-**(e^(ax + b))′ = a e^(ax + b)**. Par exemple (e³ˣ)′ = 3e³ˣ et (e⁻ˣ)′ = −e⁻ˣ.
+## Dérivée de t ↦ eᵃᵗ
+Pour tout réel a, **(eᵃᵗ)′ = a eᵃᵗ**. Par exemple (e³ᵗ)′ = 3e³ᵗ et (e⁻ᵗ)′ = −e⁻ᵗ.
+Comme e^(at + b) = eᵇ × eᵃᵗ (eᵇ est une constante), on en déduit aussi (e^(at + b))′ = a e^(at + b).
 
 >! **Étudier une fonction du type (ax + b)eˣ**
 >! f(x) = (x − 1)eˣ : f′(x) = 1 × eˣ + (x − 1)eˣ = x eˣ.
@@ -889,7 +892,7 @@ x (rad) = x (degrés) × π/180.
 Dans un repère orthonormé, le **cercle trigonométrique** est le cercle de centre O et de rayon 1, orienté dans le **sens direct** (inverse des aiguilles d'une montre).
 À tout réel x, on associe un unique point M du cercle (en « enroulant » la droite des réels). Les réels x, x + 2π, x − 2π… (x + 2kπ, k entier) sont associés au **même point**.
 
-La **mesure principale** d'un angle est l'unique mesure dans ]−π ; π]. Exemple : 17π/3 = 6π − π/3, donc sa mesure principale est −π/3.
+Pour aller plus loin : la **mesure principale** d'un angle est l'unique mesure dans ]−π ; π]. Exemple : 17π/3 = 6π − π/3, donc sa mesure principale est −π/3.
 
 ## Cosinus et sinus
 Si M est le point associé à x : **cos x** est l'abscisse de M et **sin x** est son ordonnée.
@@ -915,11 +918,12 @@ Si M est le point associé à x : **cos x** est l'abscisse de M et **sin x** est
 
 ## Équations cos x = a, sin x = a
 >! **Méthode** : trouver une solution de référence, puis lire les points symétriques sur le cercle.
->! - cos x = cos α ⟺ x = α + 2kπ ou x = −α + 2kπ.
+>! - Pour aller plus loin (formules générales) : cos x = cos α ⟺ x = α + 2kπ ou x = −α + 2kπ.
 >! - sin x = sin α ⟺ x = α + 2kπ ou x = π − α + 2kπ.
 >! Ex. : cos x = 1/2 dans ]−π ; π] : x = π/3 ou x = −π/3.
 
-## Fonctions cosinus et sinus
+## Fonctions cosinus et sinus (pour aller plus loin)
+*L'étude des fonctions cosinus et sinus (courbes, parité, périodicité) ne figure plus dans le programme de 1re en vigueur à la rentrée 2026 ; elle est donnée ici pour aller plus loin.*
 - Définies sur ℝ, **périodiques de période 2π** : on les étudie sur un intervalle de longueur 2π.
 - **cos est paire** (courbe symétrique par rapport à l'axe des ordonnées) ; **sin est impaire** (courbe symétrique par rapport à O).
 - Sur [0 ; π] : cos décroît de 1 à −1 ; sin croît de 0 à 1 sur [0 ; π/2] puis décroît jusqu'à 0.
@@ -928,7 +932,7 @@ Si M est le point associé à x : **cos x** est l'abscisse de M et **sin x** est
 > - π rad = 180°.
 > - cos x = abscisse, sin x = ordonnée du point M ; cos²x + sin²x = 1.
 > - Valeurs remarquables : 1/2, √2/2, √3/2.
-> - cos paire, sin impaire, toutes deux 2π-périodiques.
+> - cos(−x) = cos x, sin(−x) = −sin x ; cos(x + 2π) = cos x, sin(x + 2π) = sin x.
 `,
       exercices: [
         {
@@ -972,13 +976,13 @@ Si M est le point associé à x : **cos x** est l'abscisse de M et **sin x** est
         },
         {
           type: "saisie",
-          question: "Donne la mesure principale (dans ]−π ; π]) de l'angle de mesure 17π/3.",
+          question: "(Pour aller plus loin) Donne la mesure principale (dans ]−π ; π]) de l'angle de mesure 17π/3.",
           reponses: ["-π/3", "−π/3", "-pi/3", "−pi/3"],
           explication: "17π/3 = 18π/3 − π/3 = 6π − π/3. On retire 3 tours (6π) : la mesure principale est −π/3.",
         },
         {
           type: "vf",
-          question: "La fonction cosinus est paire.",
+          question: "(Pour aller plus loin) La fonction cosinus est paire.",
           reponse: true,
           explication: "Vrai : cos(−x) = cos x pour tout x. Sa courbe est symétrique par rapport à l'axe des ordonnées.",
         },
@@ -1422,7 +1426,7 @@ Pour tous réels a et b :
 - **V(aX + b) = a²V(X)** ;
 - **σ(aX + b) = |a| σ(X)**.
 Ajouter une constante ne change pas la dispersion.
-*Ces formules de transformation affine (en particulier celle de la variance) relèvent plutôt de la terminale, où elles sont justifiées ; en 1re, tu peux toujours retrouver le résultat en écrivant la loi de aX + b et en refaisant le calcul.*
+*La linéarité de l'espérance et la formule de König-Huygens sont au programme de 1re (rentrée 2026). Les formules pour V(aX + b) et σ(aX + b) relèvent de la terminale (pour aller plus loin) ; en 1re, tu peux toujours retrouver le résultat en écrivant la loi de aX + b et en refaisant le calcul.*
 
 ## Méthode
 >! 1. Déterminer les valeurs possibles de X (ne pas en oublier).
@@ -1433,7 +1437,7 @@ Ajouter une constante ne change pas la dispersion.
 > **À retenir**
 > - Σ pᵢ = 1.
 > - E(X) = Σ pᵢxᵢ ; V(X) = E(X²) − E(X)² ; σ = √V.
-> - E(aX + b) = aE(X) + b ; V(aX + b) = a²V(X).
+> - E(aX + b) = aE(X) + b ; pour aller plus loin : V(aX + b) = a²V(X).
 > - Jeu équitable ⟺ espérance du gain nulle.
 `,
       exercices: [
@@ -1470,7 +1474,7 @@ Ajouter une constante ne change pas la dispersion.
         },
         {
           type: "qcm",
-          question: "Si V(X) = 5, que vaut V(2X + 3) ?",
+          question: "(Pour aller plus loin) Si V(X) = 5, que vaut V(2X + 3) ?",
           choix: ["13", "10", "20", "23"],
           reponse: 2,
           explication: "V(aX + b) = a²V(X) = 4 × 5 = 20. La constante 3 ne modifie pas la variance.",
@@ -2039,21 +2043,24 @@ x₂ = 7/4 − (49/16 − 3)/(7/2) = 7/4 − (1/16) × (2/7) = 7/4 − 1/56 = 98
       theme: "Automatismes",
       cours: `
 ## L'épreuve anticipée de mathématiques
-Depuis juin 2026, les élèves de 1re passent en fin d'année (en juin) une **épreuve anticipée de mathématiques** du baccalauréat. Pour toi qui suis la spécialité, le sujet porte sur le **programme de spécialité de 1re**. Modalités fixées par les textes officiels (note de service du BO n° 24 du 12 juin 2025, puis note de service du BO spécial n° 4 du 17 septembre 2026 pour l'année 2026-2027, session 2028 ; à vérifier chaque année avec ton professeur) :
+Depuis juin 2026, les élèves de 1re passent en fin d'année (en juin) une **épreuve anticipée de mathématiques** du baccalauréat. Pour toi qui suis la spécialité, le sujet porte sur le **programme de spécialité de 1re**. Pour l'année 2026-2027 (épreuve de juin 2027, comptant pour la session 2028 du bac), les modalités sont fixées par la **note de service du 11 septembre 2026** (BO spécial n° 4 du 17 septembre 2026), qui **remplace** celle du 10 juin 2025 :
 - durée **2 heures**, coefficient 2, **calculatrice interdite pendant toute l'épreuve** ;
-- **partie 1 : automatismes** (6 points), sous forme de **QCM** ;
-- **partie 2** (14 points) : deux ou trois exercices indépendants sur le programme.
+- **partie 1 : automatismes** (6 points), sous la forme d'une **liste de questions à réponses courtes** (en juin 2026, c'était un QCM) ;
+- **partie 2** (14 points) : deux ou trois exercices indépendants sur le programme ;
+- la **maîtrise de la langue** compte pour **2 points sur 20** (orthographe, syntaxe, vocabulaire juste, raisonnement bien formulé) : soigne la rédaction de la partie 2 ;
+- en cas d'oral de contrôle (second groupe) : 20 minutes de préparation, 20 minutes d'entretien, sans calculatrice.
 
 Les automatismes sont des réflexes de calcul à travailler **régulièrement**, sans calculatrice. Ce chapitre et le suivant (« Automatismes (2) ») en rassemblent les principaux.
 
-## La liste officielle des automatismes
-Les automatismes évaluables sont fixés par une liste publiée au Bulletin officiel (pour 2025-2026 : annexe de la note de service du 10 juin 2025 ; une liste est publiée pour chaque année scolaire, vérifie celle de ton année). La liste 2025-2026 est organisée en six rubriques :
-- **Calcul numérique et algébrique** : comparer deux nombres (par leur différence, ou par leur quotient s'ils sont positifs) ; fractions simples ; puissances ; passer d'une écriture à une autre (décimale, fraction, pourcentage) ; ordre de grandeur et vraisemblance d'un résultat ; **conversions d'unités** (longueurs, aires, volumes, contenances, durées, vitesses, masses) ; calcul littéral élémentaire (−(a − b) = b − a, a/(b/c) = ac/b…) ; développer, factoriser (identités remarquables, ax² + bx) ; résoudre x² = a, ax + b = cx + d, a/x = b, une inéquation du 1er degré ; **isoler une variable** dans une formule ; application numérique d'une formule ; équation produit nul ; **signe** d'une expression du 1er degré ou d'un produit de facteurs du 1er degré.
-- **Proportions et pourcentages** : calculer une proportion sous différentes formes ; calculer une partie connaissant le tout, ou **le tout connaissant une partie**.
-- **Évolutions et variations** : passer de « augmenter de 5 % » à « multiplier par 1,05 » ; valeur finale ou initiale ; **calculer un taux d'évolution** ; évolutions successives ; taux réciproque.
-- **Fonctions et représentations** : images et antécédents lus sur un graphique ; un point appartient-il à une courbe ? ; fonctions linéaires et affines ; résolution graphique de f(x) = k, f(x) < k ; signe et variations lus sur un graphique ; tracer et lire l'équation réduite d'une droite ; coefficient directeur à partir de deux points.
-- **Statistiques** : lire des diagrammes (barres, circulaire, courbe, nuage de points, histogramme, boîte à moustaches) ; moyenne, **médiane, quartiles** ; comparer des séries avec des boîtes à moustaches.
-- **Probabilités** : une probabilité est entre 0 et 1 ; événement contraire ; somme des probabilités des issues ; équiprobabilité ; **probabilités conditionnelles dans un tableau croisé ou un arbre** ; distinguer P(A ∩ B), P_A(B) et P_B(A).
+## Les automatismes du programme
+Depuis la rentrée 2026, les automatismes figurent **dans le programme de spécialité de 1re** (partie transversale « Automatismes ») ; s'y ajoutent les automatismes de seconde, qui doivent être entretenus. Le programme les organise en cinq rubriques :
+- **Évolutions et variations** : appliquer un taux d'évolution pour calculer une valeur finale ou initiale ; **calculer un taux d'évolution** et l'exprimer en pourcentage ; taux équivalent à plusieurs évolutions successives ; taux réciproque.
+- **Calcul numérique et algébrique** : solutions d'une **équation produit nul** ; **signe** d'une expression du 1er degré, d'une expression factorisée du second degré ; développer, factoriser, réduire une expression algébrique simple.
+- **Fonctions et représentations** : résoudre graphiquement f(x) = k, f(x) < k… ; signe ou tableau de variations lus sur un graphique ; tracer une droite (équation réduite, ou point et coefficient directeur) ; lire l'équation réduite d'une droite ; coefficient directeur à partir de deux points.
+- **Statistiques** : lire un graphique, un histogramme, un diagramme en barres ou circulaire, une boîte à moustaches (origine, unités, échelles) ; passer du graphique aux données et inversement ; calculer et interpréter des indicateurs (moyenne, **médiane, quartiles**…).
+- **Probabilités** : probabilités conditionnelles à partir d'un **tableau croisé d'effectifs** ou d'un **arbre pondéré** ; distinguer P(A ∩ B), P_A(B) et P_B(A).
+
+Automatismes de seconde à entretenir, par exemple : fractions, puissances, racines carrées, pourcentages et proportions (partie, tout), **conversions d'unités**, ordres de grandeur, **isoler une variable** dans une formule, équations x² = a, a/x = b, inéquations du 1er degré, images et antécédents… Les nouvelles notions de 1re (second degré, dérivées, suites, exponentielle) peuvent aussi être interrogées sous forme d'automatismes.
 
 >! **Dans cette appli** : les exercices dont l'énoncé commence par « (Calculatrice) » demandent une valeur approchée qu'on ne peut pas raisonnablement obtenir à la main ; ils ne sont pas au format de l'épreuve anticipée. Tous les autres se font sans calculatrice : entraîne-toi à les faire de tête ou au brouillon.
 
@@ -2084,7 +2091,8 @@ Les automatismes évaluables sont fixés par une liste publiée au Bulletin offi
 - Moyenne, médiane, fréquences ; probabilité d'un événement contraire ; lecture d'un arbre ou d'un tableau croisé.
 
 >! **Conseils pour la partie automatismes**
->! - Lis toutes les propositions d'un QCM et élimine celles qui sont absurdes (ordre de grandeur, signe).
+>! - Réponds directement et donne un résultat **simplifié** (fraction irréductible, forme réduite) : aucune justification n'est attendue, mais la réponse doit être exacte.
+>! - Contrôle l'ordre de grandeur et le signe de ton résultat (dans un QCM, élimine les propositions absurdes).
 >! - Vérifie par un calcul inverse (développer pour contrôler une factorisation, remplacer x par la solution trouvée).
 >! - Ne reste pas bloqué : passe et reviens à la fin.
 
@@ -2187,7 +2195,7 @@ Un produit est nul si et seulement si l'un des facteurs est nul : x − 3 = 0 ou
       theme: "Automatismes",
       cours: `
 ## Objectif
-Ce chapitre complète le précédent avec les automatismes de la liste officielle qui y étaient peu travaillés : **taux d'évolution**, **tout connaissant une partie**, **conversions**, **isoler une variable**, **équations x² = a et a/x = b**, **signe d'une expression**, **lecture de tableaux de variations**, **médiane et quartiles**, **tableaux croisés**. Tous les exercices se font **sans calculatrice**, comme dans la partie 1 de l'épreuve anticipée (QCM).
+Ce chapitre complète le précédent avec les automatismes du programme (1re et seconde) qui y étaient peu travaillés : **taux d'évolution**, **tout connaissant une partie**, **conversions**, **isoler une variable**, **équations x² = a et a/x = b**, **signe d'une expression**, **lecture de tableaux de variations**, **médiane et quartiles**, **tableaux croisés**. Tous les exercices se font **sans calculatrice**, comme dans la partie 1 de l'épreuve anticipée (questions à réponses courtes).
 
 ## Évolutions
 - **Taux d'évolution** de V₀ à V₁ : **t = (V₁ − V₀)/V₀**, à écrire en pourcentage. De 80 € à 100 € : t = 20/80 = 0,25 = **+25 %**.

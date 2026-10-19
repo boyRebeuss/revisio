@@ -254,7 +254,7 @@ Elle comprend surtout des **masculins en -ος** et des **neutres en -ον**.
         {
           type: "saisie",
           question: "Traduis en français : **τὰ δῶρα**",
-          reponses: ["les cadeaux", "les dons", "les présents", "cadeaux", "dons", "présents"],
+          reponses: ["les cadeaux", "les dons", "les présents", "cadeaux", "dons", "présents", "les offrandes", "offrandes"],
           explication: "τά est l'article neutre pluriel (nominatif ou accusatif) ; δῶρα est le pluriel neutre de δῶρον. **Les cadeaux** (ou les dons, les présents).",
         },
         {
@@ -648,10 +648,11 @@ Ses formes ressemblent à celles de l'article, mais avec un **esprit rude et un 
           explication: "ἡμεῖς = nous ; ὑμεῖς = vous (attention à l'esprit et à la voyelle initiale : ἡ / ὑ). ἐγώ = je, σύ = tu.",
         },
         {
-          type: "saisie",
-          question: "Donne la forme **tonique** du datif de σύ (« à toi »).",
-          reponses: ["σοί", "σοι"],
-          explication: "Datif de σύ : forme tonique **σοί**, forme enclitique σοι.",
+          type: "qcm",
+          question: "Quelle est la forme **tonique** (accentuée) du datif de σύ (« à toi ») ?",
+          choix: ["σοί", "σοι", "σέ", "σοῦ"],
+          reponse: 0,
+          explication: "Datif de σύ : forme tonique **σοί** (avec accent : insistance, après préposition), forme enclitique σοι (sans accent propre). σέ est l'accusatif tonique, σοῦ le génitif tonique.",
         },
         {
           type: "qcm",
@@ -1133,7 +1134,7 @@ Emplois :
         {
           type: "saisie",
           question: "Traduis en français : **οἱ φεύγοντες**",
-          reponses: ["ceux qui fuient", "les fuyards", "ceux qui s'enfuient"],
+          reponses: ["ceux qui fuient", "les fuyards", "ceux qui s'enfuient", "ceux qui prennent la fuite", "les fugitifs"],
           explication: "Article + participe présent de φεύγω : participe substantivé, « **ceux qui fuient** », « les fuyards ».",
         },
         {
@@ -1397,7 +1398,7 @@ Après le point en haut : γάρ (en 2e position) se traduit en tête, « en eff
         },
         {
           type: "redaction",
-          question: "Traduis et commente grammaticalement ce vers de Sophocle (*Antigone*, v. 332-333, premier stasimon, chant du chœur) : **Πολλὰ τὰ δεινὰ κοὐδὲν ἀνθρώπου δεινότερον πέλει.** (δεινός : redoutable, étonnant, prodigieux ; κοὐδέν = καὶ οὐδέν, crase ; δεινότερον : comparatif neutre ; πέλει : forme poétique pour ἐστί)",
+          question: "Traduis et commente grammaticalement ces vers de Sophocle (*Antigone*, v. 332-333, premier stasimon, chant du chœur) : **Πολλὰ τὰ δεινὰ κοὐδὲν ἀνθρώπου δεινότερον πέλει.** (δεινός : redoutable, étonnant, prodigieux ; κοὐδέν = καὶ οὐδέν, crase ; δεινότερον : comparatif neutre ; πέλει : forme poétique pour ἐστί)",
           corrige: `
 **Analyse.**
 - Première proposition : **Πολλὰ τὰ δεινά**. Pas de verbe : il faut sous-entendre ἐστί (neutre pluriel + verbe au singulier). πολλά est hors du groupe τὰ δεινά : **position prédicative**, c'est l'attribut. Mot à mot : « les choses prodigieuses sont nombreuses ».
@@ -1567,7 +1568,7 @@ Les sciences forgent leurs mots sur le grec : **dinosaure** (δεινός, terri
         {
           type: "saisie",
           question: "Donne le sens littéral de **philanthrope** (φίλος + ἄνθρωπος).",
-          reponses: ["qui aime les hommes", "ami des hommes", "celui qui aime les hommes", "qui aime l'humanité", "ami du genre humain", "qui aime les êtres humains", "ami des humains", "qui aime les humains", "ami de l'humanité"],
+          reponses: ["qui aime les hommes", "ami des hommes", "celui qui aime les hommes", "qui aime l'humanité", "ami du genre humain", "qui aime les êtres humains", "ami des humains", "qui aime les humains", "ami de l'humanité", "qui aime l'homme", "ami de l'homme", "qui aime l'être humain"],
           explication: "φίλος (ami, qui aime) + ἄνθρωπος (l'être humain) : « **qui aime les hommes** ». Son contraire est le misanthrope (μισέω, haïr).",
         },
         {
@@ -1705,7 +1706,7 @@ Hadès règne sur les Enfers et ne vit pas sur l'Olympe. Le poète **Hésiode** 
         {
           type: "saisie",
           question: "Traduis en français le premier mot de l'Iliade : **μῆνιν** (accusatif de ἡ μῆνις)",
-          reponses: ["la colère", "colère"],
+          reponses: ["la colère", "colère", "le courroux", "courroux"],
           explication: "ἡ μῆνις désigne la **colère**, une colère durable et terrible, presque divine : c'est le thème annoncé dès le premier mot du poème.",
         },
         {
@@ -1729,7 +1730,7 @@ Conclusion : en deux vers, Homère fixe le sujet, le héros et la tonalité trag
     {
       id: "cite-democratie-histoire",
       titre: "La cité athénienne, la démocratie et l'histoire",
-      theme: "Culture et textes",
+      theme: "Objet d'étude : Vivre dans la cité",
       cours: `
 ## La cité (ἡ πόλις)
 La **πόλις** est une communauté politique indépendante : une ville, son territoire (pour Athènes, l'**Attique**) et surtout ses **citoyens** (οἱ πολῖται). Elle a ses lois, ses dieux, son armée. Aristote définit l'homme comme un être fait pour vivre dans la cité : ὁ ἄνθρωπος φύσει πολιτικὸν ζῷον, « l'homme est par nature un animal politique » (*Politique*, I).
@@ -1819,7 +1820,7 @@ La **πόλις** est une communauté politique indépendante : une ville, son t
         {
           type: "saisie",
           question: "Donne le sens étymologique de **δημοκρατία**.",
-          reponses: ["pouvoir du peuple", "le pouvoir du peuple", "gouvernement du peuple", "le gouvernement du peuple", "pouvoir au peuple", "force du peuple", "puissance du peuple", "souveraineté du peuple"],
+          reponses: ["pouvoir du peuple", "le pouvoir du peuple", "gouvernement du peuple", "le gouvernement du peuple", "pouvoir au peuple", "gouvernement par le peuple", "pouvoir par le peuple", "force du peuple", "puissance du peuple", "souveraineté du peuple"],
           explication: "ὁ δῆμος (le peuple) + τὸ κράτος (le pouvoir, la force) : le **pouvoir du peuple**.",
         },
         {
@@ -1973,7 +1974,7 @@ La comédie ancienne a pour grand auteur **Aristophane** (vers 445-385). Elle se
     {
       id: "masculin-feminin",
       titre: "Masculin, féminin : hommes et femmes en Grèce",
-      theme: "Culture et textes",
+      theme: "Objet d'étude : Masculin, féminin",
       cours: `
 ## Les mots pour le dire
 | Mot grec | Sens | Déclinaison | Dérivés français |
@@ -2064,7 +2065,7 @@ Un vers résume l'idéal masculin de la femme silencieuse : γύναι, γυνα
         {
           type: "saisie",
           question: "Donne le sens littéral de **misogyne** (μισέω, haïr + γυνή).",
-          reponses: ["qui hait les femmes", "qui déteste les femmes", "celui qui hait les femmes", "haine des femmes", "qui a de la haine pour les femmes"],
+          reponses: ["qui hait les femmes", "qui déteste les femmes", "celui qui hait les femmes", "haine des femmes", "qui a de la haine pour les femmes", "qui hait la femme", "qui déteste la femme"],
           explication: "μισέω (haïr) + γυνή (la femme) : « **qui hait les femmes** ». Même premier élément dans misanthrope.",
         },
         {
@@ -2093,7 +2094,7 @@ Un vers résume l'idéal masculin de la femme silencieuse : γύναι, γυνα
     {
       id: "mediterranee-echanges",
       titre: "Méditerranée : conflits, influences et échanges",
-      theme: "Culture et textes",
+      theme: "Objet d'étude : Méditerranée",
       cours: `
 ## Les Grecs autour de la mer
 Les Grecs vivent, selon le mot de Platon, autour de la mer « comme des fourmis ou des grenouilles autour d'une mare » (*Phédon*, 109b). Ils ne forment jamais un État unique : des centaines de cités indépendantes, souvent rivales.
@@ -2198,7 +2199,7 @@ Le sud de l'Italie et la Sicile forment la **Grande-Grèce**. Des Grecs s'instal
 
 **Commentaire.**
 1. **Une inscription funéraire** : le distique élégiaque (un hexamètre et un pentamètre) est gravé, dit Hérodote, sur une stèle à l'endroit même où les morts sont ensevelis. Les morts eux-mêmes parlent (κείμεθα) et s'adressent au passant, chargé de porter le message : la mémoire du sacrifice passe par la parole des vivants.
-2. **L'idéal spartiate** : la sobriété du texte (deux vers, aucune plainte) reflète la « laconie » des Spartiates. Mourir n'est pas présenté comme une défaite mais comme une **obéissance** à la loi de la cité (τοῖς κείνων ῥήμασι πειθόμενοι) : ne pas reculer.
+2. **L'idéal spartiate** : la sobriété du texte (deux vers, aucune plainte) reflète le « laconisme » des Spartiates (de Λάκων, le Laconien). Mourir n'est pas présenté comme une défaite mais comme une **obéissance** à la loi de la cité (τοῖς κείνων ῥήμασι πειθόμενοι) : ne pas reculer.
 3. **Un symbole méditerranéen** : dans les guerres médiques, ce sacrifice devient l'emblème de la liberté grecque face à l'Empire perse. Hérodote, en recopiant l'épitaphe, en fait un monument de son « enquête » contre l'oubli.
 `,
         },
@@ -2402,7 +2403,9 @@ Beaucoup de verbes très courants ont un radical terminé par une voyelle **α**
 
 - Le dictionnaire donne la **forme non contractée** : tu cherches ποιεῖ à **ποιέω** (le Bailly écrit « ποιέω-ῶ »).
 - La contraction ne concerne **que le thème du présent** : au futur et à l'aoriste, la voyelle s'allonge devant le σ (voir plus bas).
-- **Accent** : si l'accent portait sur la première des deux voyelles, la contraction porte un **circonflexe** (τιμά-ω → τιμῶ) ; si aucune des deux n'était accentuée, la voyelle contractée n'a pas d'accent (ἐτίμα-ον → ἐτίμων).
+- **Accent** : si l'accent portait sur la première des deux voyelles, la contraction porte un **circonflexe** (τιμά-ω → τιμῶ) ; s'il portait sur la seconde, il reste un **aigu** (τιμα-όντων → τιμώντων) ; si aucune des deux n'était accentuée, la voyelle contractée n'a pas d'accent (ἐτίμα-ον → ἐτίμων).
+
+> **Repère de programme** : en 1re, sont exigibles les verbes en **-έω** au présent et à l'imparfait actifs (ποιέω, φιλέω, αἰτέω…). Les verbes en -άω et en -όω, très fréquents dans les textes (ὁράω, νικάω, δηλόω), sont présentés ici **pour aller plus loin**, ainsi que le futur et l'aoriste des contractes, étudiés en terminale.
 
 ## Les règles de contraction
 ### Verbes en -άω

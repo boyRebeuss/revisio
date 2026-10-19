@@ -333,7 +333,7 @@ The story of **Henrietta Lacks**, an African American woman whose cancer cells w
 England adopted an **opt-out system** in May 2020 (everybody is considered a potential donor unless they register a refusal); Wales had done so in 2015.
 
 ### End of life
-**Assisted dying** is legal in some US states, such as Oregon (since 1997). In the UK, it is a highly sensitive debate: in 2025, MPs in the House of Commons voted in favour of a bill to legalise assisted dying for terminally ill adults in England and Wales (the *Terminally Ill Adults (End of Life) Bill*); it then went to the House of Lords, where peers tabled more than 1,000 amendments. The bill ran out of time and fell when the parliamentary session ended in April 2026, so assisted dying remains illegal in England and Wales. In Scotland, a similar bill was rejected by the Scottish Parliament in March 2026 (69 votes to 57). The debate is not over: campaigners want a new bill. Check the latest news before quoting the situation.
+**Assisted dying** is legal in some US states, such as Oregon (since 1997). In the UK, it is a highly sensitive debate: in 2025, MPs in the House of Commons voted in favour of a bill to legalise assisted dying for terminally ill adults in England and Wales (the *Terminally Ill Adults (End of Life) Bill*); it then went to the House of Lords, where peers tabled more than 1,000 amendments. The bill ran out of time and fell when the parliamentary session ended in April 2026. A new bill was introduced in the next session, but on 11 September 2026 MPs rejected it at second reading (286 votes to 270), so assisted dying remains illegal in England and Wales. In Scotland, a similar bill was rejected by the Scottish Parliament in March 2026 (69 votes to 57). The debate is not over. Check the latest news before quoting the situation.
 
 ### Trust in science
 Vaccines are one of medicine's greatest successes, but **anti-vaccine** movements spread doubts. A 1998 article by Andrew Wakefield falsely linking the MMR vaccine to autism was retracted by *The Lancet* in 2010, but it still fuels misinformation.
@@ -431,11 +431,13 @@ To conclude, science needs freedom to progress, but also ethics to remain human:
     },
     {
       id: "arts-debats-idees",
-      titre: "Arts and debates of ideas: street art, Hollywood and soft power",
+      titre: "Art and the debate of ideas (cross-cutting): street art, Hollywood and soft power",
       theme: "Savoirs, création, innovation",
       cours: `
 ## Art as a tool for debate
-Art does not only entertain: it can **denounce**, provoke, unite or divide. This axis studies how artists take part in public debates, and how art itself becomes the object of controversy (censorship, monuments, "culture wars").
+Art does not only entertain: it can **denounce**, provoke, unite or divide. This chapter studies how artists take part in public debates, and how art itself becomes the object of controversy (censorship, monuments, "culture wars").
+
+>! **Note (FR)** : « Arts et débats d'idées » n'est pas un axe officiel du programme de 1re AMC. Ce chapitre est transversal : il fournit des exemples pour les axes « Faire entendre sa voix : représentation et participation » (chansons engagées, statues), « Représenter le monde et se représenter » (Hollywood, soft power) et « Informer et s'informer » (censure, liberté d'expression).
 
 ## Street art: vandalism or art?
 ### Banksy
@@ -468,7 +470,7 @@ The political scientist **Joseph Nye** coined the term **soft power** around 199
 
 ### Hollywood and controversy
 - **1934-1968**: the **Hays Code** imposes strict moral rules on films (no explicit sex, crime must be punished...). It was replaced by a rating system in 1968.
-- **1947**: the House Un-American Activities Committee (HUAC) investigates Hollywood; the *Hollywood Ten* are jailed for refusing to answer its questions and a **blacklist** of people suspected of communist sympathies is drawn up.
+- **1947**: the House Un-American Activities Committee (HUAC) investigates Hollywood; the *Hollywood Ten* are cited for contempt of Congress for refusing to answer its questions (they were jailed in 1950) and a **blacklist** of people suspected of communist sympathies is drawn up.
 - **2015**: the hashtag **#OscarsSoWhite**, launched by April Reign, denounces the lack of diversity among Oscar nominees.
 - **2017**: *Moonlight*, a film about a gay Black man, wins the Oscar for Best Picture.
 - **2018**: *Black Panther* is celebrated for its largely Black cast and its positive vision of Africa.
@@ -557,7 +559,7 @@ L'art participe au débat d'idées : le street art (Banksy, Keith Haring, Shepar
         },
         {
           type: "redaction",
-          question: "Essay (about 250 words): **Should street art be considered as art or as vandalism?** Refer to Banksy and to at least one other example.",
+          question: "Essay (about 250 words): **Should street art be considered art or vandalism?** Refer to Banksy and to at least one other example.",
           corrige: `**Model answer**
 
 Every morning, city councils around the world clean walls covered with tags, while collectors pay millions for works by Banksy. This paradox raises a question: is street art a genuine art form or simply vandalism?
@@ -852,11 +854,11 @@ In conclusion, social media offer an unprecedented opportunity to represent ones
     },
     {
       id: "participation-politique",
-      titre: "Political representation and participation: from suffragettes to Black Lives Matter",
+      titre: "Making your voice heard: representation and participation, from suffragettes to Black Lives Matter",
       theme: "Représentations",
       cours: `
 ## Who has a voice?
-Democracy relies on **representation** (citizens elect representatives) and **participation** (voting, protesting, signing petitions, joining parties or associations). In the English-speaking world, the right to vote was won step by step, often through long struggles.
+Democracy relies on **representation** (citizens elect representatives) and **participation** (voting, protesting, signing petitions, joining parties or associations). In the English-speaking world, the right to vote was won step by step, often through long struggles. The official title of this axis is « Faire entendre sa voix : représentation et participation » (*making your voice heard*).
 
 ## Women's suffrage
 ### In the UK
@@ -896,7 +898,7 @@ Democracy relies on **representation** (citizens elect representatives) and **pa
 
 ## Current debates
 - **Turnout**: the UK general election of July 2024 had a turnout of around 60%, one of the lowest since 1918. In the US, turnout in the 2020 presidential election, about two thirds of eligible voters, was the highest in over a century.
-- **Voting age**: lowered to 18 in the UK (1969 Act) and in the US (26th Amendment, 1971). 16- and 17-year-olds can vote in Scottish and Welsh devolved elections; in July 2025, the UK government announced plans to lower the voting age to 16 for all UK elections, including general elections, and in February 2026 it introduced the *Representation of the People Bill* to do so (check whether it has become law).
+- **Voting age**: lowered to 18 in the UK (1969 Act) and in the US (26th Amendment, 1971). 16- and 17-year-olds can vote in Scottish and Welsh devolved elections; in July 2025, the UK government announced plans to lower the voting age to 16 for all UK elections, including general elections, and in February 2026 it introduced the *Representation of the People Bill* to do so. MPs approved it in September 2026 and it then went to the House of Lords (check whether it has become law).
 - **Access to the vote**: in the US, critics denounce *voter suppression* and *gerrymandering* (drawing electoral boundaries to favour a party). In Great Britain, voters must now show photo ID at polling stations (first required in England's local elections in 2023, then in the 2024 general election); Northern Ireland has required it since 2003.
 - **Diversity of representatives**: Kamala Harris became the first woman Vice President in 2021; Rishi Sunak became the first British Asian Prime Minister in 2022.
 
@@ -1004,7 +1006,7 @@ In conclusion, direct action can awaken public opinion, but lasting change usual
 The UK is a **constitutional monarchy** and a **parliamentary democracy**, often called the **Westminster system**.
 - **The monarch** is head of state but has a mainly ceremonial role: "the King reigns but does not rule". **Charles III** became King on 8 September 2022, after the death of Elizabeth II.
 - **No codified constitution**: the British constitution is made of Acts of Parliament, conventions and historical documents (such as Magna Carta, 1215).
-- **Parliament** has two chambers: the **House of Commons**, with 650 elected **MPs** (Members of Parliament), and the **House of Lords**, whose members are not elected (mainly life peers appointed for life, and 26 bishops of the Church of England; the last 92 hereditary peers were removed in April 2026 under the House of Lords (Hereditary Peers) Act 2026, a promise of the Labour government elected in 2024); the Lords can revise and delay laws, but not block them indefinitely.
+- **Parliament** has two chambers: the **House of Commons**, with 650 elected **MPs** (Members of Parliament), and the **House of Lords**, whose members are not elected (mainly life peers appointed for life, and 26 bishops of the Church of England; the remaining hereditary peers lost their seats in April 2026 under the House of Lords (Hereditary Peers) Act 2026, a promise of the Labour government elected in 2024; those who also held a life peerage stayed); the Lords can revise and delay laws, but not block them indefinitely.
 - **The Prime Minister** is the leader of the party that can command a majority in the Commons. He or she lives at **10 Downing Street** and chooses the **Cabinet**. The second largest party forms the **Official Opposition**.
 - **Elections**: MPs are elected in **constituencies** using **first-past-the-post** (FPTP): the candidate with the most votes wins, even without an absolute majority. A general election must be held at least every five years.
 - **Devolution** (1998-1999): Scotland has its own Parliament, Wales its Senedd and Northern Ireland its Assembly, with powers over areas such as education and health.
@@ -1018,7 +1020,7 @@ The UK is a **constitutional monarchy** and a **parliamentary democracy**, often
 - **Green Party**
 
 ### FPTP and its effects
-In the general election of 4 July 2024, **Labour**, led by **Keir Starmer**, won 411 of the 650 seats with about a third of the votes, while Reform UK won about 14% of the votes but only 5 seats. FPTP produces strong majorities but is criticised as **disproportionate**. In 2011, a referendum to replace it with the Alternative Vote was rejected.
+In the general election of 4 July 2024, **Labour**, led by **Keir Starmer**, won 411 of the 650 seats with about a third of the votes, while Reform UK won about 14% of the votes but only 5 seats. FPTP produces strong majorities but is criticised as **disproportionate**. A Prime Minister can change without a general election: when Starmer resigned as party leader in June 2026, Labour chose **Andy Burnham**, who became Prime Minister on 20 July 2026. In 2011, a referendum to replace it with the Alternative Vote was rejected.
 
 ## Brexit
 | Date | Event |
@@ -1248,7 +1250,7 @@ La synthèse consiste à répondre en anglais à une question à partir d'un dos
           question: "Which sentence is the best way to present the dossier in an introduction?",
           choix: ["Doc 1 is an article. Doc 2 is a picture. Doc 3 is a chart.", "I think AI is very dangerous.", "The dossier, made up of two press articles, a cartoon and a chart published between 2022 and 2024, focuses on the impact of AI on work.", "Here are the documents."],
           reponse: 2,
-          explication: "The correct answer **groups** the documents, gives their nature and dates and announces the common topic. The first is a list, the second a personal opinion, the last says nothing."
+          explication: "The correct answer **groups** the documents, gives their nature and dates and announces the common topic. The sentence *Doc 1 is an article...* is a mere list, *I think AI is very dangerous* is a personal opinion, and *Here are the documents* says nothing."
         },
         {
           type: "saisie",
@@ -1856,7 +1858,7 @@ English words have one **stressed syllable**. A wrong stress can make a word inc
         },
         {
           type: "redaction",
-          question: "Prepare the oral presentation (about 150 words, as you would say it) of this document: a photo of the statue of Edward Colston being thrown into Bristol harbour by Black Lives Matter protesters on 7 June 2020. Link it to the axis \"Representation and political participation\".",
+          question: "Prepare the oral presentation (about 150 words, as you would say it) of this document: a photo of the statue of Edward Colston being thrown into Bristol harbour by Black Lives Matter protesters on 7 June 2020. Link it to the axis \"Making your voice heard: representation and participation\".",
           corrige: `**Model answer (spoken style)**
 
 The document I am going to present is a photograph taken in Bristol, in the south-west of England, on 7 June 2020. It shows protesters throwing the statue of Edward Colston into the harbour.
@@ -1865,7 +1867,7 @@ In the foreground, we can see a group of people, most of them young, pushing the
 
 To understand this image, you have to know that Colston was a seventeenth-century slave trader. The protest took place a few days after the murder of George Floyd in Minneapolis, which caused demonstrations all over the world.
 
-This photo illustrates the axis "Representation and political participation" because it shows citizens taking direct action when they feel that institutions have ignored their demands for years.
+This photo illustrates the axis "Making your voice heard: representation and participation" because it shows citizens taking direct action when they feel that institutions have ignored their demands for years.
 
 Personally, I find this image very powerful, but it raises a question: is it legitimate to remove a statue without a democratic decision? That is what makes it so controversial.
 
@@ -2063,7 +2065,7 @@ AMC is a *spécialité* (4 hours a week in première, 6 hours in terminale). The
 The exam has a **written part** and an **oral part**, each marked out of 20 and each counting for **half** of the final mark. The final mark has a coefficient of 16.
 
 ### The written part (3 hours 30, marked out of 20)
-- A **synthesis in English** (16 points) of a dossier of 3 or 4 documents linked to one of the terminale themes (in AMC, always at least one press article), guided by two or three questions or instructions, in about **500 words**. It may be completed by a short argumentative piece, the whole not exceeding 500 words.
+- A **synthesis in English** (16 points) of a dossier of 3 or 4 documents linked to one of the terminale themes (in AMC, always at least one press article), guided by two or three questions or instructions, in about **500 words**. The texts of the dossier total 4,000 to 5,000 characters. It may be completed by a short argumentative piece, the whole not exceeding 500 words.
 - A **translation into French** of a passage of about 500 characters taken from one of the texts, or a **transposition** into French of the main ideas of one of the texts (4 points).
 - An English-English dictionary (*dictionnaire unilingue*) is allowed. You choose between two subjects. Level expected: **C1**.
 
@@ -2180,7 +2182,7 @@ En première, il n'y a pas d'épreuve nationale d'AMC : si tu abandonnes la spé
           question: "You are preparing your personal dossier for the terminale oral. Which dossier respects the rules?",
           choix: ["Three photos and one press article", "Three extracts from novels and one cartoon", "Two press articles, an extract from a novel and two cartoons", "Seven press articles"],
           reponse: 2,
-          explication: "The dossier contains **4 to 6 documents**, with **at least one press article**, at most two other texts and at most two images. The first has three images, the second has no press article, the last has too many documents."
+          explication: "The dossier contains **4 to 6 documents**, with **at least one press article**, at most two other texts and at most two images. Three photos and one article: too many images (three). Three novel extracts and a cartoon: no press article and too many other texts. Seven articles: too many documents."
         }
       ]
     },

@@ -3,7 +3,7 @@ export default {
     {
       id: "byzance-carolingiens",
       titre: "Byzance et l'Europe carolingienne",
-      theme: "Histoire – Chrétientés et islam (VIe-XIIIe siècles)",
+      theme: "Histoire – Chrétientés et islam (VIe-XIIIe siècles), des mondes en contact",
       cours: `
 ## Introduction
 Après la chute de l'Empire romain d'Occident (476), deux mondes chrétiens se développent : à l'est, l'**Empire byzantin**, héritier direct de Rome ; à l'ouest, l'**Empire carolingien** de Charlemagne. Ils partagent la même religion, mais s'éloignent peu à peu.
@@ -29,7 +29,7 @@ Après la chute de l'Empire romain d'Occident (476), deux mondes chrétiens se d
 | Chef religieux | patriarche de Constantinople | pape (Rome) |
 | Langue | grec | latin |
 | Pouvoir | l'empereur domine l'Église | le pape revendique son autorité |
-En **1054**, le **schisme** sépare définitivement l'Église **orthodoxe** (Orient) et l'Église **catholique** (Occident).
+En **1054**, le légat du pape et le patriarche de Constantinople s'excommunient mutuellement : c'est le **schisme**, qui sépare durablement l'Église **orthodoxe** (Orient) et l'Église **catholique** (Occident) ; la rupture devient irrémédiable après le sac de Constantinople par les croisés (1204).
 
 Constantinople est prise par les Turcs ottomans en **1453** : c'est la fin de l'Empire byzantin.
 
@@ -44,7 +44,7 @@ Constantinople est prise par les Turcs ottomans en **1453** : c'est la fin de l'
         { type: "saisie", question: "En quelle année Charlemagne est-il couronné empereur ?", reponses: ["800", "en 800"], explication: "Charlemagne est couronné empereur à Rome par le pape Léon III le 25 décembre 800." },
         { type: "vf", question: "Le basileus est le chef religieux de l'Église d'Occident.", reponse: false, explication: "Le basileus est l'**empereur byzantin**. Le chef de l'Église d'Occident est le **pape**." },
         { type: "qcm", question: "Comment s'appellent les envoyés de Charlemagne chargés de contrôler les comtes ?", choix: ["Les missi dominici", "Les capitulaires", "Les vassaux", "Les patriarches"], reponse: 0, explication: "Les missi dominici (« envoyés du maître ») vont deux par deux contrôler les comtes. Les capitulaires sont les lois écrites de Charlemagne." },
-        { type: "saisie", question: "Quel mot désigne la séparation de 1054 entre l'Église d'Orient et l'Église d'Occident ?", reponses: ["schisme", "le schisme", "grand schisme"], explication: "Le schisme de 1054 sépare l'Église orthodoxe et l'Église catholique." },
+        { type: "saisie", question: "Quel mot désigne la séparation de 1054 entre l'Église d'Orient et l'Église d'Occident ?", reponses: ["schisme", "le schisme", "grand schisme", "schisme d'Orient", "le schisme d'Orient", "schisme de 1054", "le grand schisme"], explication: "Le schisme de 1054 (excommunications réciproques du légat du pape et du patriarche) sépare l'Église orthodoxe et l'Église catholique." },
         { type: "qcm", question: "Quel empereur byzantin fait construire Sainte-Sophie ?", choix: ["Constantin", "Charlemagne", "Léon III", "Justinien"], reponse: 3, explication: "Justinien (527-565) fait construire Sainte-Sophie, consacrée en 537. Constantin a fondé Constantinople ; Léon III est un pape." },
         { type: "vf", question: "Au traité de Verdun (843), l'empire de Charlemagne est partagé entre ses trois petits-fils.", reponse: true, explication: "Lothaire, Louis le Germanique et Charles le Chauve se partagent l'empire en 843." },
         { type: "redaction", question: "**Développement construit** : montre comment Charlemagne gouverne son empire et quels liens il entretient avec l'Église (une quinzaine de lignes).", corrige: `**Introduction** : Charlemagne, roi des Francs depuis 768, se fait couronner empereur à Rome le 25 décembre 800 par le pape Léon III. Il gouverne un immense empire chrétien.
@@ -72,7 +72,7 @@ Constantinople est prise par les Turcs ottomans en **1453** : c'est la fin de l'
     {
       id: "naissance-islam",
       titre: "De la naissance de l'islam à la prise de Bagdad par les Mongols",
-      theme: "Histoire – Chrétientés et islam (VIe-XIIIe siècles)",
+      theme: "Histoire – Chrétientés et islam (VIe-XIIIe siècles), des mondes en contact",
       cours: `
 ## 1. La naissance de l'islam
 - Au VIe siècle, l'Arabie est peuplée de tribus, souvent nomades et **polythéistes** (elles croient en plusieurs dieux). **La Mecque** est une ville marchande et un lieu de pèlerinage (la Kaaba).
@@ -130,7 +130,7 @@ Le lieu de prière est la **mosquée** ; le muezzin appelle à la prière du hau
     {
       id: "croisades-contacts",
       titre: "Croisades et contacts entre chrétientés et islam",
-      theme: "Histoire – Chrétientés et islam (VIe-XIIIe siècles)",
+      theme: "Histoire – Chrétientés et islam (VIe-XIIIe siècles), des mondes en contact",
       cours: `
 ## 1. Les croisades (1095-1291)
 - En **1095**, au concile de **Clermont**, le pape **Urbain II** appelle les chrétiens d'Occident à aller délivrer **Jérusalem** et le tombeau du Christ (le Saint-Sépulcre), contrôlés par les musulmans, et à aider les Byzantins menacés par les Turcs.
@@ -190,7 +190,7 @@ Le lieu de prière est la **mosquée** ; le muezzin appelle à la prière du hau
     {
       id: "ordre-seigneurial",
       titre: "L'ordre seigneurial : la formation et la domination des campagnes",
-      theme: "Histoire – Société, Église et pouvoir dans l'Occident féodal (XIe-XVe siècles)",
+      theme: "Histoire – Société, Église et pouvoir politique dans l'Occident féodal (XIe-XVe siècles)",
       cours: `
 ## 1. Une société d'ordres
 Vers **1030**, l'évêque **Adalbéron de Laon** décrit une société divisée en **trois ordres** voulus par Dieu :
@@ -245,7 +245,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
     {
       id: "societe-urbaine",
       titre: "L'émergence d'une nouvelle société urbaine",
-      theme: "Histoire – Société, Église et pouvoir dans l'Occident féodal (XIe-XVe siècles)",
+      theme: "Histoire – Société, Église et pouvoir politique dans l'Occident féodal (XIe-XVe siècles)",
       cours: `
 ## 1. L'essor des villes (XIe-XIIIe siècles)
 - Grâce à l'essor agricole, les campagnes produisent plus : les surplus sont vendus en ville, et des paysans s'y installent.
@@ -306,7 +306,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
     {
       id: "etat-monarchique",
       titre: "L'affirmation de l'État monarchique : Capétiens et Valois",
-      theme: "Histoire – Société, Église et pouvoir dans l'Occident féodal (XIe-XVe siècles)",
+      theme: "Histoire – Société, Église et pouvoir politique dans l'Occident féodal (XIe-XVe siècles)",
       cours: `
 ## 1. Des débuts fragiles (987-1180)
 - En **987**, **Hugues Capet** est élu roi des Francs : il fonde la dynastie des **Capétiens**. Son pouvoir réel est faible : il ne contrôle qu'un petit **domaine royal** autour de Paris et d'Orléans ; les grands seigneurs (ducs, comtes) sont parfois plus puissants que lui.
@@ -370,7 +370,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
     {
       id: "charles-quint-soliman",
       titre: "Le monde au temps de Charles Quint et Soliman le Magnifique",
-      theme: "Histoire – Transformations de l'Europe et ouverture sur le monde (XVIe-XVIIe siècles)",
+      theme: "Histoire – Transformations de l'Europe et ouverture sur le monde aux XVIe et XVIIe siècles",
       cours: `
 ## 1. Les grandes découvertes
 À la fin du XVe siècle, les Européens cherchent une route maritime vers les épices et l'or d'Asie, sans passer par les intermédiaires musulmans et italiens. De nouveaux navires (la **caravelle**) et instruments (**boussole**, **astrolabe**) le permettent.
@@ -425,7 +425,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
     {
       id: "humanisme-reformes",
       titre: "Humanisme, réformes et conflits religieux",
-      theme: "Histoire – Transformations de l'Europe et ouverture sur le monde (XVIe-XVIIe siècles)",
+      theme: "Histoire – Transformations de l'Europe et ouverture sur le monde aux XVIe et XVIIe siècles",
       cours: `
 ## 1. L'humanisme
 - Vers **1450**, **Gutenberg** met au point à Mayence l'**imprimerie** à caractères mobiles métalliques. Les livres deviennent moins chers et plus nombreux : les idées circulent plus vite (Bible de Gutenberg vers 1455).
@@ -494,7 +494,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
     {
       id: "prince-roi-absolu",
       titre: "Du Prince de la Renaissance au roi absolu",
-      theme: "Histoire – Transformations de l'Europe et ouverture sur le monde (XVIe-XVIIe siècles)",
+      theme: "Histoire – Transformations de l'Europe et ouverture sur le monde aux XVIe et XVIIe siècles",
       cours: `
 ## 1. François Ier, un prince de la Renaissance (1515-1547)
 - **François Ier** devient roi en **1515** et remporte la même année la bataille de **Marignan** en Italie. Il rivalise toute sa vie avec Charles Quint.
@@ -646,7 +646,7 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
         { type: "qcm", question: "Que désigne le stress hydrique ?", choix: ["Une inondation", "Une situation où la demande en eau dépasse les ressources disponibles", "La pollution des océans", "La fonte des glaciers"], reponse: 1, explication: "Le stress hydrique touche notamment le Moyen-Orient et l'Afrique du Nord." },
         { type: "qcm", question: "Quels sont les trois piliers du développement durable ?", choix: ["Économique, social, environnemental", "Politique, militaire, religieux", "Agricole, industriel, touristique", "Local, national, mondial"], reponse: 0, explication: "Le développement durable doit être économiquement viable, socialement équitable et respectueux de l'environnement." },
         { type: "vf", question: "Le dessalement de l'eau de mer est une solution peu coûteuse en énergie.", reponse: false, explication: "Le dessalement consomme beaucoup d'énergie et coûte cher ; il est surtout utilisé par des pays riches et arides (pays du Golfe, Israël)." },
-        { type: "saisie", question: "Quelle source fournit environ deux tiers de l'électricité produite en France ?", reponses: ["nucleaire", "le nucleaire", "energie nucleaire", "l'energie nucleaire"], explication: "Le parc de centrales nucléaires produit la majorité de l'électricité française." },
+        { type: "saisie", question: "Quelle source fournit environ deux tiers de l'électricité produite en France ?", reponses: ["nucleaire", "le nucleaire", "energie nucleaire", "l'energie nucleaire", "centrales nucleaires", "les centrales nucleaires"], explication: "Le parc de centrales nucléaires produit la majorité de l'électricité française." },
         { type: "redaction", question: "**Paragraphe argumenté** : explique pourquoi l'eau est une ressource inégalement répartie et comment on peut mieux la gérer.", corrige: `L'eau est une ressource vitale mais **limitée** : 97,5 % de l'eau sur Terre est salée et l'eau douce est en grande partie bloquée dans les glaciers. Elle est **inégalement répartie** : certaines régions sont très arrosées (Amazonie, Asie des moussons) tandis que d'autres sont arides (Sahara, Moyen-Orient) et souffrent de **stress hydrique**. L'accès à l'eau dépend aussi du **développement** : plus de **2 milliards** de personnes n'ont pas accès à une eau potable sûre, surtout dans les pays pauvres. Le partage des fleuves crée des **tensions**, comme sur le Nil entre l'Égypte et l'Éthiopie. Pour mieux gérer cette ressource, on peut économiser l'eau d'irrigation (l'agriculture utilise environ 70 % des prélèvements) grâce au **goutte-à-goutte**, recycler les eaux usées, réparer les fuites, ou **dessaler** l'eau de mer, une solution efficace mais coûteuse. Il s'agit de gérer l'eau de façon **durable**.` },
       ],
     },
@@ -685,7 +685,7 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
       exercices: [
         { type: "qcm", question: "Combien de personnes environ souffrent de sous-alimentation dans le monde ?", choix: ["7 millions", "70 millions", "700 millions", "7 milliards"], reponse: 2, explication: "Selon la FAO, environ 700 millions de personnes ne mangent pas à leur faim (673 millions estimés en 2024), soit environ une personne sur 12." },
         { type: "vf", question: "La sous-alimentation s'explique surtout par une production agricole mondiale insuffisante.", reponse: false, explication: "La production suffirait en théorie ; la faim s'explique surtout par la **pauvreté**, les **guerres** et les catastrophes, qui empêchent l'accès à la nourriture." },
-        { type: "saisie", question: "Comment appelle-t-on l'agriculture qui sert d'abord à nourrir la famille du paysan ?", reponses: ["vivriere", "agriculture vivriere", "l'agriculture vivriere"], explication: "L'agriculture vivrière est pratiquée par des centaines de millions de petits paysans." },
+        { type: "saisie", question: "Comment appelle-t-on l'agriculture qui sert d'abord à nourrir la famille du paysan ?", reponses: ["vivriere", "agriculture vivriere", "l'agriculture vivriere", "agriculture de subsistance", "l'agriculture de subsistance"], explication: "L'agriculture vivrière est pratiquée par des centaines de millions de petits paysans." },
         { type: "qcm", question: "Quelle est la différence entre sous-alimentation et malnutrition ?", choix: ["Aucune, ce sont des synonymes", "La sous-alimentation : pas assez de calories ; la malnutrition : alimentation déséquilibrée", "La malnutrition ne touche que les pays riches", "La sous-alimentation concerne seulement les enfants"], reponse: 1, explication: "On peut manger assez de calories mais souffrir de carences (malnutrition) ; l'obésité est aussi une forme de malnutrition." },
         { type: "qcm", question: "La révolution verte des années 1960 a permis à l'Inde…", choix: ["d'abandonner l'agriculture", "de devenir autosuffisante en céréales", "de supprimer l'irrigation", "d'interdire les engrais"], reponse: 1, explication: "Semences sélectionnées, engrais et irrigation ont fait augmenter les rendements, avec des effets négatifs sur l'environnement." },
         { type: "vf", question: "Les circuits courts réduisent le nombre d'intermédiaires entre le producteur et le consommateur.", reponse: true, explication: "Exemple : vente à la ferme, AMAP, marchés de producteurs." },

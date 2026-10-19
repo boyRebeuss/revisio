@@ -25,6 +25,7 @@ Le centre d'examen te propose l'une ou l'autre : le **format est le même** (mê
 - **Sur papier** : tu reportes tes réponses au crayon sur une feuille de réponses (*answer sheet*), sans temps supplémentaire en Reading and Writing. Résultats en général **4 à 6 semaines** après l'examen.
 - **Sur ordinateur** : tu tapes tes réponses directement (attention à l'orthographe au clavier !). Résultats en **5 à 10 jours ouvrés**.
 - Dans les deux cas, le **Speaking** se passe **en face à face** avec les examinateurs.
+- Attention à ne pas confondre : la version papier de l'A2 Key « adultes » disparaît après la session de décembre 2026, mais l'**A2 Key for Schools** reste proposé **sur papier et sur ordinateur**.
 
 ## Le détail de Reading and Writing
 | Partie | Questions | Type de tâche |
@@ -70,7 +71,7 @@ Le détail par compétence te montre où tu es fort et où tu dois progresser.
 >! **Exemple de planning de révision** : chaque semaine, une partie de Reading, une rédaction (Part 6 ou 7), 15 minutes d'écoute en anglais (vidéos, podcasts pour ados) et 5 minutes à parler à voix haute de toi.
 `,
       exercices: [
-        { type: "qcm", question: "Which level does the A2 Key for Schools exam test?", choix: ["A1", "A2", "B2", "C1"], reponse: 1, explication: "Le nom le dit : **A2** Key. C'est le niveau « élémentaire » du CECRL, celui qu'on vise en fin de collège ou un peu avant." },
+        { type: "qcm", question: "Which level does the A2 Key for Schools exam test?", choix: ["A1", "A2", "B2", "C1"], reponse: 1, explication: "Le nom le dit : **A2** Key. C'est le niveau « élémentaire » du CECRL : le programme de collège le fixe comme objectif en **fin de 5e** pour la première langue (LVA), avant A2+ en 4e et B1 en 3e." },
         { type: "vf", question: "L'épreuve de Speaking se passe en général à deux candidats.", reponse: true, explication: "En général, deux candidats passent ensemble devant deux examinateurs : l'un pose les questions, l'autre écoute et note. Dans la Part 2, tu discutes avec ton partenaire." },
         { type: "saisie", question: "Combien de parties (*parts*) compte l'épreuve Reading and Writing ? (écris un nombre)", reponses: ["7", "seven", "sept"], explication: "**7 parties** : Parts 1 à 5 pour la lecture, Parts 6 et 7 pour l'écriture." },
         { type: "qcm", question: "In Writing Part 6, how many words must you write?", choix: ["10 words or more", "100 words or more", "25 words or more", "exactly 50 words"], reponse: 2, explication: "Le message ou l'e-mail de la Part 6 doit faire **25 mots ou plus**. L'histoire de la Part 7 en demande **35 ou plus**." },
@@ -769,7 +770,7 @@ Write a short dialogue (6 to 8 lines) between you (A) and your partner (B). Give
       theme: "Vocabulaire",
       cours: `
 ## Pourquoi apprendre par thèmes ?
-Cambridge publie une **liste de vocabulaire officielle** pour l'A2 Key (*A2 Key Vocabulary List*), classée par ordre alphabétique et par thèmes. Les auteurs des sujets s'appuient sur cette liste (mise à jour chaque année) : la quasi-totalité des mots de l'examen en fait partie. Apprends les mots **en groupes** et **en phrases**, pas isolés.
+Cambridge publie une **liste de vocabulaire officielle** pour l'A2 Key (*A2 Key Vocabulary List*), classée par ordre alphabétique et par thèmes. Les auteurs des sujets s'appuient sur cette liste (mise à jour régulièrement) : la quasi-totalité des mots de l'examen en fait partie. Apprends les mots **en groupes** et **en phrases**, pas isolés.
 
 ## La vie quotidienne
 | Thème | Mots essentiels |
@@ -1019,7 +1020,7 @@ En Reading Part 5 et en Listening (notes), **l'orthographe doit être juste**. V
         { type: "qcm", question: "Choose the correct sentence.", choix: ["It depends of you.", "It depends from you.", "It depends on you.", "It depends to you."], reponse: 2, explication: "*Depend* **on** : *It depends on you* (ça dépend de toi)." },
         { type: "saisie", question: "Correct the sentence: *She didn't went to school.*", reponses: ["She didn't go to school", "She did not go to school", "didn't go", "did not go"], explication: "Après *didn't*, le verbe est à la **base** : *She didn't **go** to school.* Le passé est déjà porté par *did*." },
         { type: "qcm", question: "*The match was very long and I was ___.*", choix: ["boring", "boredom", "bore", "bored"], reponse: 3, explication: "Pour dire ce qu'on **ressent** : adjectif en **-ed** (*bored* = je m'ennuyais). *I was boring* voudrait dire « j'étais ennuyeux »." },
-        { type: "saisie", question: "Translate into English: « J'habite ici depuis deux ans. »", reponses: ["I've lived here for two years", "I have lived here for two years", "I've been living here for two years", "I have been living here for two years", "I've lived here for 2 years", "I have lived here for 2 years"], explication: "« Depuis » + durée, action qui continue → **present perfect + for** : *I've lived here for two years.* Jamais *I live here since two years*." },
+        { type: "saisie", question: "Translate into English: « J'habite ici depuis deux ans. »", reponses: ["I've lived here for two years", "I have lived here for two years", "I've been living here for two years", "I have been living here for two years", "I've lived here for 2 years", "I have lived here for 2 years", "I've been living here for 2 years", "I have been living here for 2 years"], explication: "« Depuis » + durée, action qui continue → **present perfect + for** : *I've lived here for two years.* Jamais *I live here since two years*." },
         { type: "qcm", question: "*We took the ___ to the airport. It was a big bus with fifty seats.*", choix: ["coach", "car", "cave", "carriage"], reponse: 0, explication: "Un car = **a coach**. *A car* est une voiture, *a cave* une grotte." },
         { type: "redaction", question: `This e-mail has **six mistakes** made by a French student. Find them and correct them.
 *Hi Alex, I am agree with you, the film was very boring. I was boring too! Next week I go to the library to buy a new book. My sister has 15 years and she is teacher of dance. See you soon!*`, corrige: `**Corrections**

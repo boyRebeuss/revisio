@@ -17,7 +17,7 @@ La matière qui nous entoure peut exister sous trois **états physiques** : **so
 >! **Attention** : la vapeur d'eau est **invisible**. Le « nuage » blanc au-dessus d'une casserole n'est pas de la vapeur, mais de minuscules **gouttelettes d'eau liquide** formées quand la vapeur se refroidit.
 
 ## Le modèle particulaire
-Pour expliquer ces propriétés, les scientifiques utilisent un **modèle** : la matière est faite de minuscules **particules** (molécules), invisibles même au microscope.
+Pour expliquer ces propriétés, les scientifiques utilisent un **modèle** : la matière est faite de minuscules **particules** (molécules), invisibles même au microscope optique.
 
 | État | Disposition des particules | Mouvement |
 |---|---|---|
@@ -28,7 +28,7 @@ Pour expliquer ces propriétés, les scientifiques utilisent un **modèle** : la
 Ce modèle explique pourquoi un gaz est compressible : il y a beaucoup d'espace vide entre ses particules, on peut les rapprocher. Un liquide, lui, est presque incompressible.
 
 ## L'air, un mélange de gaz
-L'**air** est un gaz (un mélange de gaz) : environ **78 % de diazote** et **21 % de dioxygène**, plus 1 % d'autres gaz (argon, dioxyde de carbone...). L'air a une **masse** : 1 L d'air pèse environ 1,2 g.
+L'**air** est un gaz (un mélange de gaz) : environ **78 % de diazote** et **21 % de dioxygène**, plus 1 % d'autres gaz (argon, dioxyde de carbone...). L'air a une **masse** : 1 L d'air a une masse d'environ 1,2 g (à 20 °C).
 
 > **À retenir** :
 > - Solide : forme propre ; liquide : surface libre plane et horizontale ; gaz : occupe tout l'espace, compressible.
@@ -43,7 +43,7 @@ L'**air** est un gaz (un mélange de gaz) : environ **78 % de diazote** et **21 
         { type: "qcm", question: "Dans le modèle particulaire, les particules d'un liquide sont :", choix: ["ordonnées et collées", "désordonnées et très éloignées", "désordonnées et proches", "ordonnées et éloignées"], reponse: 2, explication: "Dans un liquide, les particules sont **désordonnées** (elles glissent les unes sur les autres) mais **proches** (en contact)." },
         { type: "saisie", question: "Quel gaz est le plus abondant dans l'air ?", reponses: ["diazote", "le diazote", "azote", "l'azote", "N2", "N₂"], explication: "Le **diazote** représente environ 78 % de l'air. Le dioxygène en représente environ 21 %." },
         { type: "qcm", question: "On bouche une seringue remplie d'air et on appuie sur le piston : il s'enfonce. Cela montre que l'air est :", choix: ["incompressible", "compressible", "solide", "sans masse"], reponse: 1, explication: "Un gaz est **compressible** : ses particules sont éloignées, on peut les rapprocher en diminuant le volume." },
-        { type: "saisie", question: "Combien pèsent environ 10 L d'air, sachant que 1 L d'air pèse environ 1,2 g ? (en g)", reponses: ["12 g"], explication: "10 × 1,2 = **12 g**. L'air, comme tout gaz, a une masse." },
+        { type: "saisie", question: "Quelle est la masse de 10 L d'air, sachant que 1 L d'air a une masse d'environ 1,2 g ? (en g)", reponses: ["12 g", "12 grammes"], explication: "10 × 1,2 = **12 g**. L'air, comme tout gaz, a une masse." },
         { type: "redaction", question: "On remplit une seringue d'eau, on bouche l'extrémité et on essaie d'enfoncer le piston : c'est impossible. Avec de l'air, le piston s'enfonce. Explique ces observations à l'aide du modèle particulaire.", corrige: `**Observation** : l'air se laisse comprimer, l'eau liquide non.
 
 **Explication avec le modèle particulaire** :
@@ -102,7 +102,7 @@ L'eau est présente sur Terre sous ses trois états : glaciers et banquise (soli
         { type: "qcm", question: "On fait geler 250 g d'eau liquide. Quelle est la masse de glace obtenue ?", choix: ["moins de 250 g", "250 g", "plus de 250 g", "cela dépend du congélateur"], reponse: 1, explication: "La **masse se conserve** lors d'un changement d'état : on obtient **250 g** de glace (c'est le volume qui augmente)." },
         { type: "vf", question: "Le volume de l'eau diminue quand elle se transforme en glace.", reponse: false, explication: "C'est l'inverse : le volume de l'eau **augmente** d'environ 9 % quand elle gèle. C'est pour cela qu'une bouteille pleine éclate au congélateur." },
         { type: "qcm", question: "Une courbe de refroidissement ne présente aucun palier. On peut en conclure que le liquide est :", choix: ["de l'eau pure", "un corps pur", "un mélange", "un gaz"], reponse: 2, explication: "L'absence de palier montre que le liquide n'est pas un corps pur : c'est un **mélange** (par exemple de l'eau salée)." },
-        { type: "saisie", question: "À quelle température bout l'eau pure à la pression atmosphérique normale ? (en °C)", reponses: ["100 °C", "100°C", "100 degrés"], explication: "L'eau pure bout à **100 °C** sous la pression atmosphérique normale." },
+        { type: "saisie", question: "À quelle température bout l'eau pure à la pression atmosphérique normale ? (en °C)", reponses: ["100 °C", "100°C", "100 degrés", "100 °", "100°"], explication: "L'eau pure bout à **100 °C** sous la pression atmosphérique normale." },
         { type: "qcm", question: "La neige carbonique (dioxyde de carbone solide) passe directement à l'état gazeux. C'est :", choix: ["une condensation", "une évaporation", "une fusion", "une sublimation"], reponse: 3, explication: "Le passage direct de l'état solide à l'état gazeux est une **sublimation**." },
         { type: "redaction", question: "On chauffe de la glace sortie du congélateur. On relève la température : −10 °C à 0 min, −5 °C à 1 min, 0 °C à 2 min, 0 °C à 3, 4 et 5 min, 5 °C à 6 min, 10 °C à 7 min. Décris le graphique que l'on obtient, interprète-le et indique l'état de l'eau à chaque étape.", corrige: `**Description** : on trace la température (en °C) en fonction du temps (en min).
 - De 0 à 2 min, la température **augmente** de −10 °C à 0 °C.
@@ -123,7 +123,7 @@ L'eau est présente sur Terre sous ses trois états : glaciers et banquise (soli
       theme: "Organisation et transformations de la matière",
       cours: `
 ## La masse
-La **masse** représente la quantité de matière d'un objet. Elle se mesure avec une **balance**. Son unité est le **kilogramme (kg)** ; on utilise aussi le gramme (g) et la tonne (t).
+La **masse** est une grandeur qui caractérise un objet : elle ne dépend ni du lieu ni de la forme de l'objet (attention, en chimie, l'expression « quantité de matière » désigne une autre grandeur, vue au lycée). Elle se mesure avec une **balance**. Son unité est le **kilogramme (kg)** ; on utilise aussi le gramme (g) et la tonne (t).
 - 1 kg = 1 000 g ; 1 g = 1 000 mg ; 1 t = 1 000 kg.
 
 >! **Méthode avec la balance** : on pose le récipient vide, on appuie sur « tare » (la balance affiche 0), puis on ajoute la substance : on lit directement sa masse.
@@ -154,7 +154,7 @@ Un litre d'huile et un litre d'eau n'ont pas la même masse. Pour comparer les m
 | Aluminium | 2,7 g/cm³ |
 | Fer | environ 7,9 g/cm³ |
 
-Un objet (ou un liquide) **flotte** sur l'eau si sa masse volumique est **plus petite** que celle de l'eau : la glace et l'huile flottent, le fer coule.
+Un objet **plein** (sans cavité remplie d'air) ou un liquide **flotte** sur l'eau si sa masse volumique est **plus petite** que celle de l'eau : la glace et l'huile flottent, le fer coule.
 
 >! **Exemple résolu** : un objet a une masse de 54 g et un volume de 20 cm³. ρ = 54 ÷ 20 = 2,7 g/cm³ : il est sans doute en aluminium, et il coule dans l'eau.
 
@@ -171,7 +171,7 @@ Un objet (ou un liquide) **flotte** sur l'eau si sa masse volumique est **plus p
         { type: "saisie", question: "Une éprouvette contient 50 mL d'eau. On y plonge un caillou : le niveau monte à 62 mL. Quel est le volume du caillou ? (en cm³)", reponses: ["12 cm³", "12 cm3", "12 mL"], explication: "V = 62 − 50 = **12 mL**, soit 12 cm³." },
         { type: "qcm", question: "Un objet a une masse de 39,5 g et un volume de 5 cm³. Sa masse volumique est :", choix: ["7,9 g/cm³", "197,5 g/cm³", "0,13 g/cm³", "44,5 g/cm³"], reponse: 0, explication: "ρ = m / V = 39,5 ÷ 5 = **7,9 g/cm³** (c'est la masse volumique du fer)." },
         { type: "vf", question: "Un glaçon flotte sur l'eau car la masse volumique de la glace est plus petite que celle de l'eau liquide.", reponse: true, explication: "La glace (environ 0,92 g/cm³) est moins dense que l'eau liquide (1 g/cm³) : elle **flotte**." },
-        { type: "saisie", question: "Quelle est la masse de 3 L d'eau liquide ? (en kg)", reponses: ["3 kg"], explication: "La masse volumique de l'eau est 1 kg/L, donc m = 1 × 3 = **3 kg**." },
+        { type: "saisie", question: "Quelle est la masse de 3 L d'eau liquide ? (en kg)", reponses: ["3 kg", "3 kilogrammes", "3000 g", "3 000 g"], explication: "La masse volumique de l'eau est 1 kg/L, donc m = 1 × 3 = **3 kg**." },
         { type: "qcm", question: "Quel est l'instrument qui mesure une masse ?", choix: ["L'éprouvette graduée", "Le thermomètre", "Le bécher", "La balance"], reponse: 3, explication: "La masse se mesure avec une **balance**. L'éprouvette graduée mesure un volume." },
         { type: "redaction", question: "Tom a deux cubes de même volume, 10 cm³ chacun. Le cube A a une masse de 27 g, le cube B une masse de 6 g. Calcule la masse volumique de chaque cube et prévois s'il flotte ou coule dans l'eau. Justifie.", corrige: `On utilise la formule **ρ = m / V**.
 
@@ -491,12 +491,12 @@ Pour protéger ton audition : limiter le volume et la durée d'écoute au casque
       exercices: [
         { type: "vf", question: "Le son peut se propager dans le vide.", reponse: false, explication: "Le son a besoin d'un **milieu matériel** (air, eau, solide) : il ne se propage pas dans le vide." },
         { type: "qcm", question: "Quelle est la vitesse approximative du son dans l'air ?", choix: ["300 000 km/s", "34 m/s", "340 m/s", "3 400 km/s"], reponse: 2, explication: "Le son se propage à environ **340 m/s** dans l'air. 300 000 km/s est la vitesse de la lumière." },
-        { type: "saisie", question: "On entend le tonnerre 5 s après avoir vu l'éclair. À quelle distance est l'orage ? (en m, avec v = 340 m/s)", reponses: ["1700 m", "1 700 m"], explication: "d = v × t = 340 × 5 = **1 700 m** (environ 1,7 km)." },
+        { type: "saisie", question: "On entend le tonnerre 5 s après avoir vu l'éclair. À quelle distance est l'orage ? (en m, avec v = 340 m/s)", reponses: ["1700 m", "1 700 m", "1700 mètres", "1 700 mètres", "1,7 km"], explication: "d = v × t = 340 × 5 = **1 700 m** (environ 1,7 km)." },
         { type: "qcm", question: "Dans quel milieu le son se propage-t-il le plus vite ?", choix: ["L'air", "L'eau", "L'acier", "Le vide"], reponse: 2, explication: "Le son va plus vite dans les solides : environ 5 000 à 6 000 m/s dans l'**acier**, 1 500 m/s dans l'eau, 340 m/s dans l'air. Il ne se propage pas dans le vide." },
         { type: "saisie", question: "Quelle est l'unité de la fréquence ? (nom)", reponses: ["hertz", "le hertz", "hz", "hertz (Hz)"], explication: "La fréquence se mesure en **hertz** (Hz) : nombre de vibrations par seconde." },
         { type: "vf", question: "Un son de 25 000 Hz est audible par l'oreille humaine.", reponse: false, explication: "L'oreille humaine perçoit les sons d'environ 20 Hz à 20 000 Hz. Un son de 25 000 Hz est un **ultrason**." },
         { type: "qcm", question: "À partir de quel niveau sonore environ une exposition prolongée devient-elle dangereuse pour l'audition ?", choix: ["85 dB", "20 dB", "40 dB", "200 dB"], reponse: 0, explication: "Le **seuil de danger** est d'environ **85 dB** ; le seuil de douleur est de 120 dB." },
-        { type: "saisie", question: "Un randonneur crie face à une falaise et entend l'écho 4 s plus tard. À quelle distance est la falaise ? (en m, avec v = 340 m/s)", reponses: ["680 m"], explication: "Le son fait l'aller-retour : 340 × 4 = 1 360 m. La falaise est à 1 360 ÷ 2 = **680 m**." },
+        { type: "saisie", question: "Un randonneur crie face à une falaise et entend l'écho 4 s plus tard. À quelle distance est la falaise ? (en m, avec v = 340 m/s)", reponses: ["680 m", "680 mètres"], explication: "Le son fait l'aller-retour : 340 × 4 = 1 360 m. La falaise est à 1 360 ÷ 2 = **680 m**." },
         { type: "redaction", question: "On place un réveil qui sonne sous une cloche en verre reliée à une pompe à vide. Au fur et à mesure qu'on retire l'air, on entend de moins en moins le réveil, puis plus du tout, alors qu'on voit toujours le marteau s'agiter. Interprète cette expérience. Que peut-on en conclure sur la lumière et sur le son ?", corrige: `**Observation** : quand l'air est retiré, le son diminue puis disparaît, mais le réveil continue de **vibrer** (le marteau bouge) et on continue de le **voir**.
 
 **Interprétation** : le son est produit par la vibration du réveil. Pour arriver à nos oreilles, cette vibration doit être transmise de proche en proche par les particules de l'**air**. Quand on retire l'air, il n'y a presque plus de particules pour transmettre la vibration : le son ne se propage plus.
@@ -627,14 +627,14 @@ Les objets du système solaire restent en orbite autour du Soleil grâce à la *
         { type: "saisie", question: "Comment s'appelle la galaxie dont fait partie le système solaire ?", reponses: ["Voie lactée", "la Voie lactée", "voie lactee"], explication: "Notre galaxie est la **Voie lactée**, qui compte plus de 100 milliards d'étoiles." },
         { type: "qcm", question: "La Lune est :", choix: ["une étoile", "le satellite naturel de la Terre", "une planète du système solaire", "une galaxie"], reponse: 1, explication: "La Lune tourne autour de la Terre : c'est son **satellite naturel**." },
         { type: "qcm", question: "Quelle est la planète la plus proche du Soleil ?", choix: ["Vénus", "Mars", "Mercure", "Neptune"], reponse: 2, explication: "L'ordre à partir du Soleil est : **Mercure**, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune." },
-        { type: "saisie", question: "Proxima du Centaure est à environ 4,2 années-lumière. Combien d'années sa lumière met-elle pour nous parvenir ?", reponses: ["4,2 ans"], explication: "Par définition, la lumière parcourt 1 al en 1 an. Pour 4,2 al, il lui faut **4,2 ans**." },
+        { type: "saisie", question: "Proxima du Centaure est à environ 4,2 années-lumière. Combien d'années sa lumière met-elle pour nous parvenir ?", reponses: ["4,2 ans", "4,2 années"], explication: "Par définition, la lumière parcourt 1 al en 1 an. Pour 4,2 al, il lui faut **4,2 ans**." },
         { type: "vf", question: "C'est la gravitation qui maintient la Terre en orbite autour du Soleil.", reponse: true, explication: "Le Soleil et la Terre s'attirent par **gravitation** : c'est ce qui maintient la Terre sur son orbite." },
         { type: "redaction", question: "La lumière se propage à 300 000 km/s. Calcule le temps mis par la lumière du Soleil (à 150 millions de km) pour atteindre la Terre, en secondes puis en minutes et secondes. Explique pourquoi on dit que « voir loin, c'est voir dans le passé ».", corrige: `**Calcul** : on utilise t = d / v.
 - d = 150 000 000 km ; v = 300 000 km/s.
 - t = 150 000 000 ÷ 300 000 = **500 s**.
 - 500 s = 8 × 60 s + 20 s = **8 min 20 s**.
 
-**Voir dans le passé** : quand tu regardes le Soleil (avec des lunettes adaptées !), la lumière qui entre dans ton œil est partie du Soleil il y a 8 min 20 s. Tu vois donc le Soleil tel qu'il était **il y a 8 min 20 s**. Pour une étoile située à 100 années-lumière, la lumière a voyagé pendant 100 ans : on la voit telle qu'elle était il y a 100 ans. Plus un objet est loin, plus l'image qu'on en reçoit est ancienne.` },
+**Voir dans le passé** : quand tu observes le Soleil (jamais à l'œil nu, ni avec des lunettes de soleil ordinaires : uniquement avec des lunettes spéciales d'observation solaire), la lumière qui entre dans ton œil est partie du Soleil il y a 8 min 20 s. Tu vois donc le Soleil tel qu'il était **il y a 8 min 20 s**. Pour une étoile située à 100 années-lumière, la lumière a voyagé pendant 100 ans : on la voit telle qu'elle était il y a 100 ans. Plus un objet est loin, plus l'image qu'on en reçoit est ancienne.` },
       ],
     },
     {
@@ -737,7 +737,7 @@ Pour qu'il y ait un feu, il faut **trois éléments** (le **triangle du feu**) :
 | Combustion | Bilan |
 |---|---|
 | du carbone (charbon de bois) | carbone + dioxygène → dioxyde de carbone |
-| du méthane (gaz de ville) ou du butane | méthane + dioxygène → dioxyde de carbone + eau |
+| du méthane (gaz naturel) ou du butane | méthane + dioxygène → dioxyde de carbone + eau |
 | d'une bougie (paraffine) | paraffine + dioxygène → dioxyde de carbone + eau |
 
 ## Identifier les produits
@@ -830,7 +830,7 @@ Si le dioxygène manque (appareil de chauffage mal réglé, pièce non aérée),
         { type: "vf", question: "Un voltmètre se branche en série dans le circuit.", reponse: false, explication: "Le voltmètre se branche **en dérivation**, c'est-à-dire aux bornes du dipôle étudié. C'est l'ampèremètre qui se branche en série." },
         { type: "saisie", question: "Convertis 250 mA en ampères.", reponses: ["0,25 A", "0,25 ampère"], explication: "1 A = 1 000 mA, donc 250 mA = 250 ÷ 1 000 = **0,25 A**." },
         { type: "qcm", question: "Dans un circuit en série, l'ampèremètre indique 0,20 A entre la pile et la lampe L1. Que mesure-t-il si on le place entre L1 et L2 ?", choix: ["0,10 A", "0,40 A", "0,20 A", "0 A"], reponse: 2, explication: "Dans un circuit en série, l'intensité est **la même en tout point** : 0,20 A. Le courant n'est pas « consommé » par la lampe." },
-        { type: "saisie", question: "Une pile de 4,5 V alimente deux lampes en série. La tension aux bornes de L1 vaut 2,5 V. Quelle est la tension aux bornes de L2 ? (en V)", reponses: ["2 V", "2 volts"], explication: "Loi d'additivité en série : U(pile) = U(L1) + U(L2), donc U(L2) = 4,5 − 2,5 = **2 V**." },
+        { type: "saisie", question: "Une pile de 4,5 V alimente deux lampes en série. La tension aux bornes de L1 vaut 2,5 V. Quelle est la tension aux bornes de L2 ? (en V)", reponses: ["2 V", "2 volts", "2,0 V"], explication: "Loi d'additivité en série : U(pile) = U(L1) + U(L2), donc U(L2) = 4,5 − 2,5 = **2 V**." },
         { type: "vf", question: "La tension aux bornes d'un interrupteur fermé est pratiquement nulle.", reponse: true, explication: "Un interrupteur fermé se comporte comme un fil : la tension à ses bornes est pratiquement **0 V**. Ouvert, il a à ses bornes la tension du générateur." },
         { type: "qcm", question: "On mesure une tension avec un multimètre. Sur quelles bornes branche-t-on les fils ?", choix: ["COM et A", "A et mA", "COM et V", "V et A"], reponse: 2, explication: "En voltmètre, on utilise les bornes **COM** et **V**. Les bornes A ou mA servent à mesurer une intensité." },
         { type: "redaction", question: "Un circuit en série comporte une pile de 6 V, un interrupteur fermé, une lampe L1 et un moteur M. 1) Explique comment mesurer l'intensité du courant qui traverse le moteur (appareil, bornes, branchement). 2) On mesure 0,30 A entre la pile et la lampe. Quelle intensité traverse le moteur ? Justifie. 3) La tension aux bornes de la lampe vaut 3,8 V. Calcule la tension aux bornes du moteur. 4) Quelle tension mesure-t-on aux bornes de l'interrupteur fermé ? Et s'il est ouvert ?", corrige: `1) On utilise un **multimètre en ampèremètre** (bornes **COM** et **A**, en commençant par le plus grand calibre). On **ouvre le circuit** à côté du moteur et on y insère l'ampèremètre **en série**, le courant entrant par la borne A.

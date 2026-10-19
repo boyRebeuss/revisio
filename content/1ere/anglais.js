@@ -3,7 +3,7 @@ export default {
     {
       id: "identites-echanges",
       titre: "Axe 1 : Identités et échanges",
-      theme: "Axes culturels",
+      theme: "Axes culturels de 1re",
       cours: `
 ## De quoi parle cet axe ?
 L'axe **Identités et échanges** interroge la manière dont les individus et les nations construisent leur identité au contact des autres : migrations, mondialisation, mobilité étudiante, langues. Problématiques possibles :
@@ -66,9 +66,11 @@ Méthode :
     },
     {
       id: "espace-prive-public",
-      titre: "Axe 2 : Espace privé et espace public",
-      theme: "Axes culturels",
+      titre: "Espace privé et espace public (axe de terminale)",
+      theme: "Axes de terminale (pour aller plus loin)",
       cours: `
+> **Pour aller plus loin** : depuis la rentrée 2026 (programme publié au BO n° 22 du 29 mai 2025), « Espace privé et espace public » est un axe du programme de **terminale**. En 1re, ce chapitre te sert à anticiper l'année prochaine et à enrichir tes exemples ; les axes de 1re sont présentés dans le chapitre « Méthodologie des évaluations ».
+
 ## De quoi parle cet axe ?
 L'axe **Espace privé et espace public** étudie la frontière entre ce qui relève de l'intime (la maison, la famille, le corps, les données personnelles) et ce qui relève de la société (la rue, la politique, les réseaux sociaux). Problématiques :
 - *Is privacy dead in the age of social media?*
@@ -131,7 +133,7 @@ Méthode :
     {
       id: "art-pouvoir",
       titre: "Axe 3 : Art et pouvoir",
-      theme: "Axes culturels",
+      theme: "Axes culturels de 1re",
       cours: `
 ## De quoi parle cet axe ?
 L'art peut **servir** le pouvoir (propagande, portraits officiels, soft power) ou le **contester** (art engagé, satire, protest songs, street art). Problématiques :
@@ -195,9 +197,11 @@ Méthode :
     },
     {
       id: "citoyennete-mondes-virtuels",
-      titre: "Axe 4 : Citoyenneté et mondes virtuels",
-      theme: "Axes culturels",
+      titre: "Citoyenneté et mondes virtuels (axe de terminale)",
+      theme: "Axes de terminale (pour aller plus loin)",
       cours: `
+> **Pour aller plus loin** : depuis la rentrée 2026 (programme publié au BO n° 22 du 29 mai 2025), « Citoyenneté et mondes virtuels » est un axe du programme de **terminale**. En 1re, ce chapitre te sert à anticiper l'année prochaine et à enrichir tes exemples ; les axes de 1re sont présentés dans le chapitre « Méthodologie des évaluations ».
+
 ## De quoi parle cet axe ?
 Le numérique transforme la façon d'être citoyen : s'informer, débattre, militer, voter. Il ouvre de nouvelles libertés mais crée aussi des dangers (désinformation, harcèlement, manipulation). Problématiques :
 - *Are social networks a threat or an opportunity for democracy?*
@@ -257,9 +261,11 @@ Méthode :
     },
     {
       id: "fictions-realites",
-      titre: "Axe 5 : Fictions et réalités",
-      theme: "Axes culturels",
+      titre: "Fictions et réalités (axe de terminale)",
+      theme: "Axes de terminale (pour aller plus loin)",
       cours: `
+> **Pour aller plus loin** : depuis la rentrée 2026 (programme publié au BO n° 22 du 29 mai 2025), « Fictions et réalités » est un axe du programme de **terminale**. En 1re, ce chapitre te sert à anticiper l'année prochaine et à enrichir tes exemples ; les axes de 1re sont présentés dans le chapitre « Méthodologie des évaluations ».
+
 ## De quoi parle cet axe ?
 La fiction invente des mondes, mais elle parle toujours du réel : elle peut l'imiter, le critiquer, l'anticiper ou le déformer. Inversement, la réalité peut être mise en scène (téléréalité, *fake news*). Problématiques :
 - *Can fiction help us understand reality better?*
@@ -320,8 +326,8 @@ Méthode :
     },
     {
       id: "innovations-responsabilite",
-      titre: "Axe 6 : Innovations scientifiques et responsabilité",
-      theme: "Axes culturels",
+      titre: "Axe 4 : Innovations scientifiques et responsabilité",
+      theme: "Axes culturels de 1re",
       cours: `
 ## De quoi parle cet axe ?
 Le progrès scientifique améliore nos vies (médecine, communication, énergie), mais il pose des **questions éthiques** : jusqu'où peut-on aller ? Qui est responsable des conséquences ? Problématiques :
@@ -383,8 +389,8 @@ Méthode :
     },
     {
       id: "diversite-inclusion",
-      titre: "Axe 7 : Diversité et inclusion",
-      theme: "Axes culturels",
+      titre: "Axe 2 : Diversité et inclusion",
+      theme: "Axes culturels de 1re",
       cours: `
 ## De quoi parle cet axe ?
 Les sociétés anglophones sont marquées par une grande diversité (origines, religions, genres, handicaps) et par une longue histoire de discriminations et de luttes pour l'égalité. Problématiques :
@@ -451,9 +457,11 @@ Méthode :
     },
     {
       id: "territoire-memoire",
-      titre: "Axe 8 : Territoire et mémoire",
-      theme: "Axes culturels",
+      titre: "Territoire et mémoire (axe de terminale)",
+      theme: "Axes de terminale (pour aller plus loin)",
       cours: `
+> **Pour aller plus loin** : depuis la rentrée 2026 (programme publié au BO n° 22 du 29 mai 2025), « Territoire et mémoire » est un axe du programme de **terminale**. En 1re, ce chapitre te sert à anticiper l'année prochaine et à enrichir tes exemples ; les axes de 1re sont présentés dans le chapitre « Méthodologie des évaluations ».
+
 ## De quoi parle cet axe ?
 Un territoire est façonné par son histoire, et les sociétés choisissent ce dont elles se souviennent (ou ce qu'elles oublient) : monuments, commémorations, récits nationaux. Problématiques :
 - *Why is it important to remember the past?*
@@ -766,7 +774,7 @@ Les repères changent aussi : *now → then, today → that day, tomorrow → th
         { type: "qcm", question: "« On m'a offert un livre. »", choix: ["I was given a book.", "A book gave me.", "I gave a book.", "I have given a book."], reponse: 0, explication: "Avec les verbes à deux compléments, l'anglais met volontiers la personne en sujet : **I was given a book.**" },
         { type: "saisie", question: "Passe au discours indirect : *\"I am tired,\" she said.* → *She said (that) ___.*", reponses: ["she was tired", "that she was tired"], explication: "Verbe introducteur au passé → le présent devient **prétérit** : *she was tired*." },
         { type: "saisie", question: "Passe au discours indirect : *\"Where do you live?\" he asked me.* → *He asked me ___.*", reponses: ["where I lived", "where I was living"], explication: "Question indirecte : **mot interrogatif + sujet + verbe**, sans *do*, et concordance des temps : *where I lived*." },
-        { type: "saisie", question: "Passe au discours indirect : *\"I will call you tomorrow,\" he said.* → *He said (that) he ___.*", reponses: ["would call me the next day", "would call me the following day", "would call me the day after"], explication: "*Will → would*, *you → me*, *tomorrow → the next day / the following day*." },
+        { type: "saisie", question: "Passe au discours indirect : *\"I will call you tomorrow,\" he said.* → *He said (that) he ___.*", reponses: ["would call me the next day", "would call me the following day", "would call me the day after", "would phone me the next day", "would phone me the following day"], explication: "*Will → would*, *you → me*, *tomorrow → the next day / the following day*." },
         { type: "qcm", question: "*\"Don't touch anything!\" the guide said to us.* Au discours indirect :", choix: ["The guide said us don't touch anything.", "The guide told us not to touch anything.", "The guide told us to not touched anything.", "The guide asked if we touched anything."], reponse: 1, explication: "Ordre négatif → **tell someone not to + base verbale**. *Say* ne prend pas de complément de personne direct." },
         { type: "vf", question: "*I had my car repaired* signifie « J'ai réparé ma voiture moi-même ».", reponse: false, explication: "**Have something done** = faire faire : « J'ai fait réparer ma voiture » (par un garagiste)." },
         { type: "redaction", question: "Article (160 mots environ) : un journaliste rend compte d'une interview avec une jeune militante écologiste. Rapporte ses propos au discours indirect (affirmations, questions, conseils) et utilise au moins trois formes passives.", corrige: `Modèle de réponse :
@@ -837,7 +845,7 @@ Dans une relative déterminative, on peut omettre le relatif **complément** : *
       exercices: [
         { type: "qcm", question: "*The writer ___ novel won the prize is only 25.*", choix: ["who", "which", "whose", "that"], reponse: 2, explication: "Relation de possession (le roman de l'écrivain) → **whose** : « l'écrivain dont le roman a gagné le prix »." },
         { type: "qcm", question: "Quelle phrase est incorrecte ?", choix: ["My sister, who lives in Leeds, is a nurse.", "The man that I met was friendly.", "London, that is a huge city, attracts tourists.", "The house where I was born has been sold."], reponse: 2, explication: "Dans une relative **explicative** (entre virgules), on ne peut pas utiliser *that* : *London, which is a huge city, ...*" },
-        { type: "saisie", question: "Traduis : « Ce dont j'ai besoin, c'est de temps. »", reponses: ["What I need is time"], explication: "« Ce que / ce dont » sans antécédent = **what** : *What I need is time.*" },
+        { type: "saisie", question: "Traduis : « Ce dont j'ai besoin, c'est de temps. »", reponses: ["What I need is time", "What I need is some time", "What I need is more time"], explication: "« Ce que / ce dont » sans antécédent = **what** : *What I need is time.*" },
         { type: "saisie", question: "Complète avec la forme correcte du verbe : *I'm looking forward to ___ (meet) you.*", reponses: ["meeting"], explication: "Dans *look forward to*, *to* est une **préposition** : elle est suivie de V-ing : *meeting*." },
         { type: "saisie", question: "Complète : *She managed ___ (finish) the essay on time.*", reponses: ["to finish"], explication: "*Manage* est suivi de **to + base verbale**." },
         { type: "saisie", question: "Complète : *Would you mind ___ (open) the window?*", reponses: ["opening"], explication: "*Mind* est suivi de **V-ing** : *Would you mind opening...?*" },
@@ -942,7 +950,18 @@ Points lexicaux :
       theme: "Méthodologie",
       cours: `
 ## Les évaluations en 1re (LVA)
-En 1re, les langues vivantes sont évaluées en **contrôle continu** (moyennes de l'année). Les évaluations portent sur les cinq activités langagières, en lien avec les **axes du programme**. Le niveau visé en fin de 1re est **B1-B2**.
+En 1re, les langues vivantes sont évaluées en **contrôle continu** : la moyenne annuelle de 1re compte pour le baccalauréat avec un **coefficient 3** (de même en terminale). Les évaluations portent sur toutes les activités langagières (compréhension de l'oral et de l'écrit, expression écrite et orale, interaction, médiation), en lien avec les **axes du programme**. En LVA, le niveau visé est **B1+** en fin de 1re et **B2** en fin de terminale.
+
+### Les axes du programme de 1re (rentrée 2026)
+Le programme publié au BO n° 22 du 29 mai 2025 fixe six axes pour la classe de 1re ; cinq sont traités dans l'année, dont **obligatoirement l'axe 6** :
+1. Identités et échanges ;
+2. Diversité et inclusion ;
+3. Art et pouvoir ;
+4. Innovations scientifiques et responsabilité ;
+5. L'être humain et la nature ;
+6. Les aires anglophones américaines.
+
+Les axes « Espace privé et espace public », « Territoire et mémoire », « Fictions et réalités » et « Citoyenneté et mondes virtuels » relèvent désormais de la **terminale**.
 
 ## Compréhension de l'oral et de l'écrit
 On te demande en général de rendre compte en **français** (ou en anglais selon la consigne) de ce que tu as compris.
@@ -998,7 +1017,7 @@ Attention : **despite / in spite of** sont suivis d'un nom ou d'un V-ing (*Despi
         { type: "saisie", question: "Traduis le connecteur « de plus » (registre soutenu, un seul mot).", reponses: ["moreover", "furthermore", "besides", "additionally"], explication: "**Moreover / Furthermore** : connecteurs d'addition typiques de l'essay." },
         { type: "qcm", question: "Lors d'une compréhension de l'écrit, que faut-il faire en premier ?", choix: ["Traduire le texte phrase par phrase", "Observer le paratexte (titre, source, date) et formuler des hypothèses", "Chercher les mots inconnus dans le dictionnaire", "Rédiger directement le compte rendu"], reponse: 1, explication: "Le **paratexte** permet d'anticiper le thème et le point de vue ; la lecture devient alors plus efficace." },
         { type: "qcm", question: "En interaction orale, quelle formule permet de nuancer poliment ?", choix: ["You're wrong.", "I see your point, but I think...", "No way!", "Whatever."], reponse: 1, explication: "**I see your point, but...** reconnaît l'argument de l'autre avant d'exprimer une opinion différente : c'est l'attitude valorisée à l'examen." },
-        { type: "saisie", question: "Corrige l'erreur : *Despite it was late, they went on talking.*", reponses: ["Although it was late, they went on talking", "Even though it was late, they went on talking", "Despite the late hour, they went on talking", "Though it was late, they went on talking"], explication: "*Despite* ne peut pas être suivi d'une proposition : **Although it was late** (ou *Despite the late hour*)." },
+        { type: "saisie", question: "Corrige l'erreur : *Despite it was late, they went on talking.*", reponses: ["Although it was late, they went on talking", "Even though it was late, they went on talking", "Despite the late hour, they went on talking", "Though it was late, they went on talking", "In spite of the late hour, they went on talking", "Despite the fact that it was late, they went on talking", "In spite of the fact that it was late, they went on talking"], explication: "*Despite* ne peut pas être suivi d'une proposition : **Although it was late** (ou *Despite the late hour*)." },
         { type: "redaction", question: "Sujet type contrôle continu (axe « Innovations scientifiques et responsabilité ») : *Artificial intelligence: should we be afraid of it?* Rédige un essay de 200 à 250 mots, avec introduction, deux parties argumentées et conclusion.", corrige: `Modèle de réponse :
 
 *Nowadays, artificial intelligence is everywhere: it recommends films, translates texts, drives cars and even writes essays. While some people see it as a revolution that will improve our lives, others fear that it might escape human control. This raises the question of whether we should be afraid of AI.*
@@ -1116,7 +1135,7 @@ Plus tu donnes d'informations exactes et bien reliées entre elles, plus tu mont
 - oublier qui dit quoi : *Leah pense que...*, *selon le directeur...*
 
 ## Le texte d'entraînement
-*Article de presse fictif, rédigé pour l'entraînement et inspiré de débats réels au Royaume-Uni. Axe : Citoyenneté et mondes virtuels.*
+*Article de presse fictif, rédigé pour l'entraînement et inspiré de débats réels au Royaume-Uni. Axe : Citoyenneté et mondes virtuels (axe de terminale).*
 
 ### Phone-free and proud? One school's experiment
 
@@ -1187,7 +1206,7 @@ Faire de la **médiation**, c'est **transmettre** à quelqu'un le contenu d'un d
 1. **Présenter** : nature, auteur, source, date, thème. *This document is a cartoon by... It was published in... in 2023. It deals with...*
 2. **Décrire / résumer** : ce qu'on voit ou ce que dit le texte, du général au particulier. *In the foreground, we can see... The article explains that...*
 3. **Analyser** : le message, le point de vue, les procédés (symboles, contrastes, humour, ironie, chiffres). *The artist uses irony to... The contrast between... shows that...*
-4. **Relier à l'axe** et à tes connaissances : *This document illustrates the axis "Citizenship and virtual worlds". It reminds me of...*
+4. **Relier à l'axe** et à tes connaissances : *This document illustrates the axis "Identities and exchanges". It reminds me of...*
 5. **Conclure** et donner ton avis nuancé : *To conclude, ... In my opinion, ... although...*
 
 Annonce ton plan dès le début : *First, I'll present the document. Then, I'll describe it. Finally, I'll explain its message and give my opinion.*
@@ -1229,7 +1248,7 @@ Annonce ton plan dès le début : *First, I'll present the document. Then, I'll 
         { type: "saisie", question: "Traduis : « D'après l'auteur, les réseaux sociaux sont dangereux. »", reponses: ["According to the author, social networks are dangerous", "According to the author, social media are dangerous", "According to the author, social media is dangerous", "According to the writer, social networks are dangerous", "According to the writer, social media are dangerous", "According to the writer, social media is dangerous"], explication: "**According to** + la personne citée. Attention : pour ton propre avis, on dit *In my opinion*, jamais *According to me*." },
         { type: "redaction", question: "Préparation d'oral : on te donne un dessin humoristique (*cartoon*) publié dans un journal britannique en 2023. Au premier plan, une famille est assise à table pour le dîner ; chacun regarde son téléphone. À l'arrière-plan, par la fenêtre, on voit un magnifique coucher de soleil que personne ne remarque. Légende : *\"Family time.\"* Rédige en anglais le plan détaillé de ta présentation (5 étapes, avec les phrases-clés que tu prononcerais).", corrige: `Modèle de plan détaillé :
 
-1. **Presentation** : *This document is a cartoon published in a British newspaper in 2023. It deals with the place of smartphones in family life, and it is linked to the axis "Citizenship and virtual worlds" (or "Private and public spheres").*
+1. **Presentation** : *This document is a cartoon published in a British newspaper in 2023. It deals with the place of smartphones in family life, and it can be linked to the axis "Scientific innovations and responsibility" (and, next year, to "Citizenship and virtual worlds").*
 
 2. **Description** : *In the foreground, we can see a family sitting at the dinner table. All of them, parents and children, are looking at their phones; nobody is talking. In the background, through the window, there is a beautiful sunset, but nobody notices it. The caption says "Family time."*
 

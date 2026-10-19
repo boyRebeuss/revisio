@@ -34,6 +34,10 @@ Entre 1789 et 1815, la France passe de la monarchie absolue de droit divin à un
 ### Les femmes et la Révolution
 Les femmes participent aux journées révolutionnaires (marche sur Versailles, octobre 1789) mais restent exclues de la citoyenneté politique. **Olympe de Gouges** publie en 1791 la *Déclaration des droits de la femme et de la citoyenne* ; elle est guillotinée en 1793. Le divorce est autorisé en 1792.
 
+>! **Point de passage – Madame Roland, une femme en révolution** : Manon Roland (1754-1793) tient un salon politique où se réunissent les députés girondins et inspire la politique de son mari, ministre de l'Intérieur en 1792. Sans droits politiques, elle agit par l'écrit et l'influence. Arrêtée après la chute des Girondins (juin 1793), elle rédige ses *Mémoires* en prison et est guillotinée le 8 novembre 1793 (« Ô Liberté, que de crimes on commet en ton nom ! »).
+
+>! **Point de passage – Procès et mort de Louis XVI (décembre 1792 - janvier 1793)** : après la découverte de l'« armoire de fer », la Convention juge le roi ; reconnu coupable de conspiration, il est condamné à mort à une courte majorité et guillotiné le 21 janvier 1793. La nation souveraine juge son ancien souverain.
+
 ## 4. Napoléon Bonaparte : héritier et fossoyeur de la Révolution
 - **Coup d'État du 18 brumaire an VIII (9 novembre 1799)** : Bonaparte devient Premier consul (Consulat), puis consul à vie (1802).
 - Il crée des **« masses de granit »** : préfets (1800), Banque de France (1800), Concordat avec le pape (1801), Légion d'honneur et lycées (1802), franc germinal (1803), **Code civil (21 mars 1804)** qui consacre l'égalité civile et la propriété mais place la femme mariée sous l'autorité de son mari.
@@ -119,7 +123,7 @@ Après la chute de Napoléon, les souverains européens veulent effacer l'hérit
 ## 2. Libéralisme et nationalisme : deux forces contestataires
 - **Libéralisme** : défense des libertés individuelles (expression, presse, culte), d'une constitution et d'un parlement élu. Les libéraux sont surtout des bourgeois, attachés au suffrage censitaire.
 - **Nationalisme** (au sens du XIXe siècle) : volonté des peuples d'obtenir un État indépendant ou unifié (**principe des nationalités**). Exemples : Grecs, Polonais, Italiens, Allemands, Hongrois.
-- Le **romantisme** accompagne ces aspirations : Byron meurt en Grèce en 1824, Delacroix peint *Scènes des massacres de Scio* (1824) et *La Liberté guidant le peuple* (1830), Victor Hugo écrit *L'Enfant* sur les massacres de Chio.
+- Le **romantisme** accompagne ces aspirations : Byron meurt en Grèce en 1824, Delacroix peint *Scènes des massacres de Scio* (1824) et *La Liberté guidant le peuple* (1830), Victor Hugo écrit *L'Enfant* sur le **massacre de Chios (1822)**, où les troupes ottomanes tuent ou réduisent en esclavage une grande partie de la population grecque de l'île : l'émotion qu'il suscite en Europe (philhellénisme) pousse les puissances à intervenir.
 
 ## 3. Les révolutions des années 1820-1830
 - **Indépendance grecque** : soulèvement contre l'Empire ottoman en 1821 ; l'intervention du Royaume-Uni, de la France et de la Russie (bataille de Navarin, 1827) aboutit à la reconnaissance de l'indépendance en 1830 (protocole de Londres).
@@ -201,6 +205,8 @@ La révolution de février 1848 fonde la **Deuxième République**, qui instaure
 - **27 avril 1848** : décret d'**abolition de l'esclavage** dans les colonies, préparé par **Victor Schœlcher**. Les esclaves libérés deviennent citoyens.
 - Autres mesures : liberté de la presse et de réunion, abolition de la peine de mort en matière politique, création des **Ateliers nationaux** pour donner du travail aux chômeurs, réduction de la durée du travail.
 - Les femmes restent exclues du vote, malgré les revendications de clubs féminins (Jeanne Deroin).
+
+>! **Points de passage** : **Alphonse de Lamartine en 1848**, poète devenu ministre des Affaires étrangères du gouvernement provisoire, défend le drapeau tricolore contre le drapeau rouge (25 février) puis est sévèrement battu à l'élection présidentielle de décembre (moins de 1 % des voix). **George Sand, femme de lettres engagée en politique** : elle rédige des *Bulletins de la République* pour le ministre Ledru-Rollin et fonde un journal, mais refuse en avril 1848 la candidature que des militantes lui proposent, jugeant que les femmes doivent d'abord obtenir l'égalité civile. **Louis-Napoléon Bonaparte, premier président de la République** élu au suffrage universel (décembre 1848).
 
 ## 2. Les fractures de la République
 - **23 avril 1848** : les premières élections au suffrage universel donnent une Assemblée constituante majoritairement modérée et conservatrice ; le vote rural pèse lourd.
@@ -442,6 +448,8 @@ Proclamée le 4 septembre 1870, la **Troisième République** n'est d'abord pas 
 - **Crise du 16 mai 1877** : le président monarchiste **Mac Mahon** renvoie le président du Conseil républicain Jules Simon et dissout la Chambre ; les républicains gagnent les élections. Gambetta lance : « se soumettre ou se démettre ». Mac Mahon démissionne en **1879**. Le droit de dissolution n'est plus utilisé : la République devient **parlementaire**.
 - **Symboles** : *La Marseillaise* hymne national (1879), le **14 juillet** fête nationale (1880), devise « Liberté, Égalité, Fraternité » sur les édifices publics, bustes de **Marianne** dans les mairies.
 
+>! **Points de passage** : **Louise Michel pendant la Commune (1871)** : institutrice, combattante, elle est condamnée à la déportation en Nouvelle-Calédonie et devient une figure du courant révolutionnaire hostile à la République conservatrice. **Les funérailles nationales de Victor Hugo (1er juin 1885)** : plus d'un million de personnes suivent le cercueil de l'Arc de triomphe au Panthéon, rendu à cette occasion à sa fonction de temple laïque des « grands hommes » : la République se donne un héros républicain.
+
 ## 2. Les grandes lois républicaines (années 1880)
 - **Lois Jules Ferry** : **gratuité** de l'école primaire publique (16 juin 1881), **obligation** de l'instruction de 6 à 13 ans et **laïcité** des programmes (28 mars 1882). La loi Goblet (1886) laïcise le personnel enseignant. Les instituteurs, « hussards noirs de la République », diffusent les valeurs républicaines et le patriotisme.
 - **Loi Camille Sée (1880)** : création des lycées publics de jeunes filles.
@@ -546,7 +554,7 @@ Entre 1870 et 1914, la société française change profondément : seconde indus
 
 ## 5. Les mutations de la vie politique et des opinions
 - Naissance de partis organisés : Parti radical (1901), SFIO (1905).
-- Le **nationalisme** évolue vers la droite : **Action française** (Charles Maurras, 1899), antiparlementaire et antisémite. Le pacifisme socialiste (Jaurès) s'oppose au nationalisme ; Jaurès est assassiné le **31 juillet 1914**.
+- Le **nationalisme** évolue vers la droite : **Action française** (fondée en 1899, dont Charles Maurras devient le principal théoricien), antiparlementaire et antisémite. Le pacifisme socialiste (Jaurès) s'oppose au nationalisme ; Jaurès est assassiné le **31 juillet 1914**.
 
 > **À retenir** : avant 1914, la société française se modernise (industrie, villes, instruction, culture de masse, organisation ouvrière, premières lois sociales) tout en conservant de fortes permanences : poids des campagnes, faible natalité, inégalités entre hommes et femmes. La République intègre progressivement les ouvriers, mais les tensions sociales restent vives.
 
@@ -615,10 +623,12 @@ La Troisième République bâtit le **deuxième empire colonial du monde** aprè
 
 ## 3. Le fonctionnement des sociétés coloniales
 - **Colonies de peuplement** (Algérie, où vit une importante population européenne) et **colonies d'exploitation** (Afrique noire, Indochine) où les Européens sont peu nombreux.
-- **Inégalité juridique** : les colonisés sont des **sujets**. Le **Code de l'indigénat** (adopté en Algérie en 1881, étendu ensuite à d'autres colonies) leur impose des sanctions spécifiques sans jugement, des travaux forcés, des impôts. Le **décret Crémieux (1870)** naturalise les Juifs d'Algérie, mais les musulmans restent sujets.
+- **Inégalité juridique** : les colonisés sont des **sujets**. Le **Code de l'indigénat** (adopté en Algérie en 1881, généralisé à l'ensemble des colonies françaises à partir de 1887) leur impose des sanctions spécifiques sans jugement, des travaux forcés, des impôts. Le **décret Crémieux (1870)** naturalise les Juifs d'Algérie, mais les musulmans restent sujets.
 - **Exploitation économique** : cultures d'exportation (arachide, café, hévéa), mines, travail forcé, expropriation des terres.
 - **Mise en valeur** inégale : routes, chemins de fer, ports, écoles et hôpitaux, surtout au profit des colons et des villes.
 - Rencontres et métissages, mais aussi ségrégation spatiale (quartiers européens et « indigènes »).
+
+>! **Point de passage – Saïgon, ville coloniale** : capitale de la Cochinchine (colonie française depuis 1862), Saïgon est rebâtie selon un plan en damier ; le quartier européen concentre les édifices du pouvoir et de la présence française (palais du gouverneur, cathédrale Notre-Dame achevée en 1880, poste centrale), tandis que la population vietnamienne et chinoise vit surtout à l'écart, notamment à Cholon. La ville illustre à la fois la mise en valeur coloniale (port, commerce du riz) et la ségrégation.
 
 ## 4. L'empire dans la métropole
 - Les **expositions** universelles (1889, 1900, avec leurs pavillons et « villages indigènes ») puis coloniales (Marseille, 1906 et 1922 ; Paris, 1931), les manuels scolaires, les affiches publicitaires (Banania, à partir de 1915) diffusent une vision exotique et hiérarchisée des peuples.
@@ -630,6 +640,7 @@ La Troisième République bâtit le **deuxième empire colonial du monde** aprè
 |---|---|
 | 1830 | Début de la conquête de l'Algérie |
 | 1881 | Protectorat sur la Tunisie ; Code de l'indigénat en Algérie |
+| 1887 | Code de l'indigénat généralisé à toutes les colonies |
 | 1884-1885 | Conférence de Berlin |
 | 1885 | Discours de Jules Ferry |
 | 1887 | Union indochinoise |
@@ -1116,7 +1127,7 @@ On te donne un ou deux documents et une consigne.
 5. Un schéma simplifie l'espace (formes géométriques) mais garde la même logique.
 
 ## 4. Les repères
-Le programme fixe des **repères** à connaître : dates, acteurs, lieux. Exemples incontournables en 1re :
+Le programme demande de « se repérer » (dates, acteurs, lieux) et indique pour chaque chapitre deux à quatre **points de passage et d'ouverture**, souvent utilisés comme supports de devoirs. Exemples de repères incontournables en 1re :
 
 | Repère | Date |
 |---|---|
@@ -1392,6 +1403,8 @@ La Grande Guerre est une **guerre totale** : elle ne concerne pas que les soldat
 - **Bombardements** : raids de zeppelins et d'avions sur Paris et Londres ; en 1918, le canon allemand à longue portée (la « Pariser Kanone », surnommée « grosse Bertha » par les Parisiens) frappe Paris (église Saint-Gervais, 91 morts le 29 mars 1918).
 - **Réfugiés** : des centaines de milliers de Belges et de Français du Nord fuient vers l'intérieur ; en Serbie, la retraite de l'hiver 1915 est meurtrière.
 - **Le génocide des Arméniens** (1915-1916) : le gouvernement jeune-turc accuse les Arméniens de complicité avec la Russie ; il fait arrêter les élites arméniennes de Constantinople (**24 avril 1915**), puis organise massacres et déportations vers les déserts de Syrie. Environ **1,2 à 1,5 million** d'Arméniens périssent. C'est le premier génocide du XXe siècle ; la France l'a reconnu par une loi en 2001.
+
+>! **Point de passage – 24 mai 1915** : la France, le Royaume-Uni et la Russie dénoncent publiquement des « **crimes contre l'humanité et la civilisation** » commis contre les Arméniens et annoncent qu'ils tiendront pour personnellement responsables les membres du gouvernement ottoman : c'est l'une des premières apparitions de l'expression « crimes contre l'humanité ». Les massacres des années 1894-1896 sous le sultan Abdülhamid II avaient déjà fait des dizaines, voire des centaines de milliers de victimes selon les estimations.
 - **Les blocus et les pénuries** : en Allemagne, le blocus britannique provoque la faim (l'« hiver des rutabagas » 1916-1917) et des centaines de milliers de morts de malnutrition.
 
 ## 4. Tenir ou refuser la guerre ?
@@ -1448,7 +1461,7 @@ La Grande Guerre est une **guerre totale** : elle ne concerne pas que les soldat
     },
     {
       id: "sortir-de-la-guerre",
-      titre: "Sortir de la guerre : la tentative de construction d'une paix durable",
+      titre: "Sortir de la guerre : la tentative de construction d'un ordre des nations démocratiques",
       theme: "Histoire – La Première Guerre mondiale",
       cours: `
 ## Introduction
@@ -1480,6 +1493,7 @@ Signé dans la **galerie des Glaces**, là même où l'Empire allemand avait ét
 - **Faiblesses** : les **États-Unis** n'y entrent pas (le Sénat refuse de ratifier le traité) ; l'Allemagne vaincue et la Russie soviétique en sont d'abord exclues ; elle n'a pas d'armée.
 - **Les années 1920 et l'« esprit de Genève »** : accords de **Locarno** (1925, l'Allemagne reconnaît ses frontières occidentales), entrée de l'Allemagne à la SDN (1926), pacte **Briand-Kellogg** (1928) qui « met la guerre hors la loi ». Le Français Aristide **Briand** et l'Allemand Gustav **Stresemann** reçoivent le prix Nobel de la paix (1926).
 - Une organisation sociale naît aussi : l'**Organisation internationale du travail** (OIT, 1919), dont le premier directeur est Albert Thomas.
+- **Point de passage – 1922, le passeport Nansen** : le haut-commissaire de la SDN pour les réfugiés, le Norvégien Fridtjof **Nansen**, crée un titre d'identité et de voyage pour les réfugiés russes privés de nationalité (**apatrides**), étendu aux Arméniens en 1924. Les nouvelles frontières et les révolutions ont en effet jeté sur les routes plus d'un million de réfugiés russes ; Nansen reçoit le prix Nobel de la paix en 1922.
 
 ## 5. Sortir de la guerre dans les sociétés
 - **Bilan humain** : environ 10 millions de soldats morts, dont environ **1,4 million de Français** ; en France, environ 600 000 veuves et près d'un million d'orphelins (« **pupilles de la Nation** », loi de 1917), des millions de blessés, dont les « **gueules cassées** » (blessés au visage).
@@ -1498,7 +1512,7 @@ Signé dans la **galerie des Glaces**, là même où l'Empire allemand avait ét
         { type: "saisie", question: "Sous quelle forme la SDN confie-t-elle les colonies allemandes et les territoires arabes de l'Empire ottoman aux puissances victorieuses ?", reponses: ["mandats", "des mandats", "mandat", "les mandats"], explication: "Les **mandats** : la France reçoit la Syrie et le Liban, le Royaume-Uni l'Irak, la Palestine et la Transjordanie ; ils sont censés préparer ces territoires à l'indépendance." },
         { type: "vf", question: "La paix revient partout en Europe dès le 11 novembre 1918.", reponse: false, explication: "Faux : la guerre civile russe, la guerre polono-soviétique, la guerre gréco-turque et des affrontements révolutionnaires (Allemagne, Hongrie) prolongent les violences jusqu'au début des années 1920." },
         { type: "qcm", question: "Quel symbole national est inhumé sous l'Arc de triomphe le 28 janvier 1921 ?", choix: ["Le maréchal Foch", "Le Soldat inconnu", "Georges Clemenceau", "Jean Jaurès"], reponse: 1, explication: "Le **Soldat inconnu** représente tous les morts de la guerre ; la flamme est ravivée chaque soir depuis 1923. Jaurès est entré au Panthéon en 1924." },
-        { type: "redaction", question: "Composition : *Sortir de la guerre : la tentative de construction d'une paix durable (1918-1923)*.", corrige: `**Problématique** : comment les vainqueurs tentent-ils de construire une paix durable après 1918, et pourquoi cette paix reste-t-elle fragile ?
+        { type: "redaction", question: "Composition : *Sortir de la guerre : la tentative de construction d'un ordre des nations démocratiques (1918-1923)*.", corrige: `**Problématique** : comment les vainqueurs tentent-ils de construire une paix durable après 1918, et pourquoi cette paix reste-t-elle fragile ?
 
 **Introduction** : l'armistice du 11 novembre 1918 met fin aux combats sur le front occidental, mais l'Europe est ruinée, endeuillée et les empires se sont effondrés. Il faut redessiner la carte et inventer une sécurité nouvelle (bornes : 1918, armistice ; 1923, traité de Lausanne).
 

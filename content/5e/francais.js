@@ -3,10 +3,10 @@ export default {
     {
       id: "voyage-aventure",
       titre: "Le voyage et l'aventure : pourquoi aller vers l'inconnu ?",
-      theme: "Se chercher, se construire",
+      theme: "Devenir héroïne/héros : destins romanesques",
       cours: `
 ## Ce que dit le programme
-Le questionnement « Se chercher, se construire » invite à lire des **récits de voyage** et des **récits d'aventure**. La question centrale est : *pourquoi partir vers l'inconnu ?* Le voyage transforme celui qui part : il découvre d'autres peuples, d'autres paysages, et surtout il se découvre lui-même.
+Depuis la rentrée 2026, le programme de 5e est organisé autour de la perspective « Éprouver, expérimenter : la découverte de soi, d'autrui et du monde ». Les **récits d'aventure** se rattachent à l'entrée « Devenir héroïne/héros : destins romanesques » ; le voyage est aussi au cœur de l'entrée poétique « Voyager en poésie : “Du monde entier au cœur du monde” ». Ce chapitre t'apprend à lire des **récits de voyage** et des **récits d'aventure**. La question centrale est : *pourquoi partir vers l'inconnu ?* Le voyage transforme celui qui part : il découvre d'autres peuples, d'autres paysages, et surtout il se découvre lui-même.
 
 ## Deux genres à distinguer
 | Genre | Définition | Exemples repères |
@@ -63,7 +63,7 @@ Le questionnement « Se chercher, se construire » invite à lire des **récits 
         { type: "saisie", question: "Quelle est la principale qualité d'Ulysse, qui lui permet par exemple d'échapper au Cyclope ? (un mot)", reponses: ["la ruse", "ruse", "l'intelligence", "intelligence", "la mètis", "mètis", "métis", "metis"], explication: "Ulysse est le héros de la **ruse** (la *mètis* en grec) : il se fait appeler « Personne » et aveugle Polyphème, puis s'échappe caché sous un bélier." },
         { type: "qcm", question: "Dans le schéma narratif, l'événement qui déclenche l'aventure s'appelle :", choix: ["la situation initiale", "la péripétie", "l'élément perturbateur", "la situation finale"], reponse: 2, explication: "L'élément perturbateur rompt l'équilibre de départ et lance l'action. Il est souvent introduit par un indice de temps comme « soudain » ou « un jour »." },
         { type: "vf", question: "Un parcours initiatique est un voyage au terme duquel le héros n'a pas du tout changé.", reponse: false, explication: "C'est l'inverse : le parcours initiatique transforme le héros, qui en sort plus mûr, plus savant ou plus sage." },
-        { type: "qcm", question: "Pourquoi Phileas Fogg entreprend-il le tour du monde chez Jules Verne ?", choix: ["Pour fuir la police", "Pour retrouver un trésor", "Pour faire du commerce", "Pour gagner un pari"], reponse: 3, explication: "Phileas Fogg parie avec ses collègues du Reform Club qu'il peut faire le tour du monde en 80 jours. Il gagne d'ailleurs son pari grâce au décalage horaire." },
+        { type: "qcm", question: "Pourquoi Phileas Fogg entreprend-il le tour du monde chez Jules Verne ?", choix: ["Pour fuir la police", "Pour retrouver un trésor", "Pour faire du commerce", "Pour gagner un pari"], reponse: 3, explication: "Phileas Fogg parie avec ses collègues du Reform Club qu'il peut faire le tour du monde en 80 jours. Il gagne d'ailleurs son pari de justesse : en faisant le tour du monde vers l'est, il a « gagné » une journée sans s'en apercevoir." },
         { type: "saisie", question: "Quel nom commun, tiré du titre de l'épopée d'Homère, désigne un long voyage plein d'aventures ?", reponses: ["odyssée", "odyssee"], explication: "Le mot **odyssée** vient du titre *L'Odyssée* (le poème d'Ulysse, « Odusseus » en grec). Un nom propre devenu nom commun : c'est une antonomase." },
         { type: "redaction", question: "**Sujet de rédaction (type contrôle)** : Tu as embarqué sur un navire qui fait naufrage. Raconte en une vingtaine de lignes ton arrivée sur une île inconnue et ta première découverte. Respecte le schéma narratif, écris à la 1re personne, au passé simple et à l'imparfait, et fais ressentir tes émotions.", corrige: `**Ce qui est attendu**
 - un narrateur-personnage (« je ») ;
@@ -83,10 +83,10 @@ Quand je repris mes esprits, le soleil brûlait déjà. Devant moi s'étendait u
     {
       id: "avec-autrui",
       titre: "Avec autrui : familles, amis, réseaux",
-      theme: "Vivre en société, participer à la société",
+      theme: "Expérimenter et jouer au théâtre : la société sens dessus dessous",
       cours: `
 ## Ce que dit le programme
-Le questionnement « Vivre en société, participer à la société » propose de réfléchir à nos **relations avec les autres** : la famille, les amis, les réseaux. Les textes montrent des liens d'amour, d'amitié, de solidarité, mais aussi des **conflits** (entre parents et enfants, entre maîtres et valets) et des **tromperies**. On lit surtout des **comédies** (Molière) et des **récits** (fabliaux, nouvelles, romans).
+L'entrée « Expérimenter et jouer au théâtre : la société sens dessus dessous » (programme de 5e en vigueur depuis la rentrée 2026) fait lire et jouer des comédies où l'ordre établi est renversé : valets plus malins que leurs maîtres, enfants qui déjouent l'autorité des pères. Ce chapitre t'invite aussi à réfléchir à nos **relations avec les autres** : la famille, les amis, les réseaux. Les textes montrent des liens d'amour, d'amitié, de solidarité, mais aussi des **conflits** (entre parents et enfants, entre maîtres et valets) et des **tromperies**. On lit surtout des **comédies** (Molière) et des **récits** (fabliaux, nouvelles, romans).
 
 ## Molière, le grand auteur comique
 Molière (de son vrai nom Jean-Baptiste Poquelin, 1622-1673) est auteur, acteur et chef de troupe sous Louis XIV. Il veut « corriger les mœurs par le rire » : il se moque des défauts humains (avarice, hypocrisie, autorité excessive des pères).
@@ -151,10 +151,10 @@ Dans les comédies de Molière, le valet est souvent plus intelligent que son ma
     {
       id: "univers-nouveaux",
       titre: "Imaginer des univers nouveaux",
-      theme: "Regarder le monde, inventer des mondes",
+      theme: "Pour aller plus loin",
       cours: `
 ## Ce que dit le programme
-« Regarder le monde, inventer des mondes » : en 5e, on étudie des textes qui **inventent des mondes imaginaires** — merveilleux, utopiques, de science-fiction. La question : *comment et pourquoi la littérature crée-t-elle des univers qui n'existent pas ?* Ces mondes nous font rêver, mais ils sont aussi un **miroir** de notre propre monde.
+Dans le programme en vigueur depuis la rentrée 2026, le **merveilleux** des contes relève en 5e de l'entrée « Imaginer, sentir, raisonner : des histoires pour plaire et instruire » ; l'utopie, la contre-utopie et la science-fiction seront surtout étudiées en 4e (« Sonder, explorer, anticiper : la fiction aux limites de notre monde »). Ce chapitre est donc un chapitre d'approfondissement sur les textes qui **inventent des mondes imaginaires** — merveilleux, utopiques, de science-fiction. La question : *comment et pourquoi la littérature crée-t-elle des univers qui n'existent pas ?* Ces mondes nous font rêver, mais ils sont aussi un **miroir** de notre propre monde.
 
 ## Les grands types de mondes imaginaires
 | Type | Définition | Exemples repères |
@@ -218,10 +218,10 @@ Au loin, au sommet d'une colline violette, s'élevait une ville entièrement fai
     {
       id: "heros-heroismes",
       titre: "Héros et héroïsmes : chevaliers et héros d'hier et d'aujourd'hui",
-      theme: "Agir sur le monde",
+      theme: "Devenir héroïne/héros : destins romanesques",
       cours: `
 ## Ce que dit le programme
-Le questionnement « Agir sur le monde » s'intéresse aux **héros** et à l'**héroïsme**. On lit des textes du **Moyen Âge** (chansons de geste, romans de chevalerie) et des textes plus modernes. Question : *qu'est-ce qu'un héros ? Ses valeurs sont-elles encore les nôtres ?*
+L'entrée « Devenir héroïne/héros : destins romanesques » (programme de 5e en vigueur depuis la rentrée 2026) s'intéresse aux **héroïnes**, aux **héros** et à l'**héroïsme**, des récits mythologiques jusqu'aux super-héros d'aujourd'hui. Ce chapitre fait lire des textes du **Moyen Âge** (chansons de geste, romans de chevalerie) et des textes plus modernes. Question : *qu'est-ce qu'un héros ? Ses valeurs sont-elles encore les nôtres ?*
 
 ## La société médiévale en bref
 Au Moyen Âge (Ve - XVe siècle), la société est divisée en trois ordres : ceux qui prient (le **clergé**), ceux qui combattent (la **noblesse**, dont les **chevaliers**), ceux qui travaillent (les paysans). Le chevalier est lié à son seigneur par un serment de **fidélité** (le lien vassalique). Il est fait chevalier lors de la cérémonie de l'**adoubement**.
@@ -229,7 +229,7 @@ Au Moyen Âge (Ve - XVe siècle), la société est divisée en trois ordres : ce
 ## La chanson de geste : le héros épique
 La **chanson de geste** (du latin *gesta*, « exploits ») est un long poème chanté par les **jongleurs**, qui raconte les exploits guerriers de chevaliers. Elle est écrite en **laisses** (strophes de longueur variable sur une même assonance), en vers de dix syllabes (**décasyllabes**).
 
->! **Exemple** : *La Chanson de Roland* (vers 1100) raconte la bataille de **Roncevaux** (778) : Roland, neveu de Charlemagne, commande l'arrière-garde attaquée par les Sarrasins. Par **orgueil**, il refuse d'abord de sonner de son cor (l'olifant) pour appeler l'armée. Il meurt en héros, face à l'Espagne, en tendant son gant vers Dieu. Son épée s'appelle **Durendal** ; son ami sage est **Olivier** : « Roland est preux et Olivier est sage. »
+>! **Exemple** : *La Chanson de Roland* (vers 1100) raconte la bataille de **Roncevaux** (778) : Roland, neveu de Charlemagne, commande l'arrière-garde attaquée par les Sarrasins (dans la réalité historique, ce sont des Vascons, ancêtres des Basques, qui ont attaqué). Par **orgueil**, il refuse d'abord de sonner de son cor (l'olifant) pour appeler l'armée. Il meurt en héros, face à l'Espagne, en tendant son gant vers Dieu. Son épée s'appelle **Durendal** ; son ami sage est **Olivier** : « Roland est preux et Olivier est sage. »
 
 Le héros épique est **plus grand que nature** : force surhumaine, courage absolu, combat pour Dieu et pour son roi. Le texte utilise l'**hyperbole** (exagération) et les **répétitions**.
 
@@ -285,10 +285,10 @@ Les chevaliers des chansons de geste et des romans du Moyen Âge sont des modèl
     {
       id: "homme-nature",
       titre: "L'être humain est-il maître de la nature ?",
-      theme: "Questionnement complémentaire",
+      theme: "Pour aller plus loin",
       cours: `
 ## Ce que dit le programme
-Le questionnement complémentaire de 5e pose la question : *l'être humain est-il maître de la nature ?* Les textes montrent l'homme qui **domine** la nature (il défriche, construit, invente des machines), mais aussi la **force** de la nature qui le dépasse (tempêtes, catastrophes), et la nécessité de la **protéger**.
+Cette question, *l'être humain est-il maître de la nature ?*, appartenait à l'ancien programme de 5e ; elle n'est plus une entrée du programme en vigueur depuis la rentrée 2026, mais elle reste un bon sujet de réflexion (et la fable de La Fontaine relève de l'entrée « Imaginer, sentir, raisonner : des histoires pour plaire et instruire »). Les textes montrent l'homme qui **domine** la nature (il défriche, construit, invente des machines), mais aussi la **force** de la nature qui le dépasse (tempêtes, catastrophes), et la nécessité de la **protéger**.
 
 ## Trois rapports à la nature
 | Rapport | Idée | Exemples repères |
@@ -385,11 +385,11 @@ Depuis toujours, les hommes cherchent à transformer leur environnement. Mais so
 |---|---|---|
 | **adverbe** | modifie le sens d'un verbe, d'un adjectif, d'un autre adverbe ou de la phrase | vite, très, hier, ne... pas, lentement, souvent |
 | **préposition** | introduit un complément | à, de, pour, par, avec, sans, dans, sur, sous, chez, vers, en |
-| **conjonction de coordination** | relie deux éléments de même fonction | mais, ou, et, donc, or, ni, car |
+| **conjonction de coordination** | relie deux éléments de même fonction | mais, ou, et, or, ni, car |
 | **conjonction de subordination** | introduit une proposition subordonnée | que, quand, si, comme, lorsque, puisque, parce que, bien que |
 | **interjection** | exprime une émotion, un bruit | oh ! hélas ! aïe ! chut ! |
 
->! **Astuce** : pour retenir les conjonctions de coordination : « Mais où est donc Ornicar ? » (mais, ou, et, donc, or, ni, car).
+>! **Astuce** : pour retenir les conjonctions de coordination : « Mais où est donc Ornicar ? » (mais, ou, et, donc, or, ni, car). Attention : la grammaire officielle actuelle range **donc** parmi les **adverbes** (comme *pourtant*, *cependant*) ; il reste donc **six** conjonctions de coordination : mais, ou, et, or, ni, car.
 
 ## Comment trouver la classe d'un mot ?
 1. Peut-on mettre un déterminant devant ? → c'est un **nom**.
@@ -408,7 +408,7 @@ Ils se forment souvent sur le féminin de l'adjectif : *lent → lente → lente
       exercices: [
         { type: "qcm", question: "Quelle est la classe du mot « rapidement » ?", choix: ["Adjectif", "Adverbe", "Nom", "Préposition"], reponse: 1, explication: "« Rapidement » est un adverbe (invariable) formé sur l'adjectif « rapide » + -ment." },
         { type: "qcm", question: "Dans « Je **les** regarde », quelle est la classe de « les » ?", choix: ["Déterminant article défini", "Préposition", "Pronom personnel", "Adverbe"], reponse: 2, explication: "« les » est placé devant un verbe et remplace un groupe nominal : c'est un pronom personnel (COD). Devant un nom, il serait déterminant." },
-        { type: "saisie", question: "Cite la conjonction de coordination qui exprime la cause (3 lettres).", reponses: ["car"], explication: "**Car** introduit une cause : « Je reste, car il pleut. » Les sept conjonctions de coordination : mais, ou, et, donc, or, ni, car." },
+        { type: "saisie", question: "Cite la conjonction de coordination qui exprime la cause (3 lettres).", reponses: ["car"], explication: "**Car** introduit une cause : « Je reste, car il pleut. » Les six conjonctions de coordination : mais, ou, et, or, ni, car (« donc » est aujourd'hui classé parmi les adverbes)." },
         { type: "vf", question: "« Leur » dans « Je leur ai écrit » peut s'écrire « leurs » s'il désigne plusieurs personnes.", reponse: false, explication: "Placé devant un verbe, « leur » est un **pronom personnel** : il est **toujours invariable**. Seul le déterminant possessif s'accorde (« leurs livres »)." },
         { type: "qcm", question: "Dans « Il boit **du** lait », « du » est :", choix: ["un article partitif", "une préposition", "un pronom", "un article défini contracté"], reponse: 0, explication: "« du lait » désigne une quantité non comptable de lait : c'est un article partitif. Dans « il revient du marché », « du » serait l'article défini contracté (de + le)." },
         { type: "saisie", question: "Quelle est la classe (nature) du mot « dont » dans « Le livre dont je parle » ? (deux mots)", reponses: ["pronom relatif", "un pronom relatif"], explication: "« dont » est un **pronom relatif** : il reprend « livre » (son antécédent) et introduit la proposition subordonnée relative « dont je parle »." },
@@ -510,16 +510,15 @@ Remarque : « vers la colline » peut aussi être analysé comme complément ess
       theme: "Étude de la langue",
       cours: `
 ## Les types de phrases
-Toute phrase a un **type** (et un seul) :
+Toute phrase a un **type** (et un seul). Le programme et la grammaire officielle en distinguent **trois** : déclaratif, interrogatif, impératif. L'**exclamation** n'est pas un type : c'est une **forme** qui s'ajoute à l'un des trois types (« Quel navire magnifique ! » est une phrase déclarative de forme exclamative).
 | Type | But | Ponctuation | Exemple |
 |---|---|---|---|
 | **déclaratif** | donner une information | point | Le navire arrive. |
 | **interrogatif** | poser une question | ? | Le navire arrive-t-il ? |
 | **impératif** (injonctif) | donner un ordre, un conseil | point ou ! | Arrête le navire. |
-| **exclamatif** | exprimer une émotion | ! | Quel navire magnifique ! |
 
 ## Les formes de phrases
-Une phrase est à la forme **affirmative** ou **négative** : « Il ne vient **pas**. » La négation se fait avec **ne** + un second mot : *pas, plus, jamais, rien, personne, guère, aucun, ni... ni*.
+Une phrase est à la forme **affirmative** ou **négative** : « Il ne vient **pas**. » Elle peut aussi être à la forme **exclamative** (elle exprime alors une émotion et se termine par un point d'exclamation) : « Comme il fait froid ! » La négation se fait avec **ne** + un second mot : *pas, plus, jamais, rien, personne, guère, aucun, ni... ni*.
 
 >! **Piège** : à l'écrit, n'oublie jamais le « ne » : « On **n'**a rien vu » (et non « On a rien vu »). Astuce : remplace « on » par « il » → « Il n'a rien vu ».
 
@@ -537,10 +536,10 @@ Une **proposition** est un groupe de mots organisé autour d'un **verbe conjugu�
 | Liaison | Comment | Exemple |
 |---|---|---|
 | **juxtaposition** | par un signe de ponctuation (virgule, point-virgule, deux-points) | Il pleuvait, nous sommes rentrés. |
-| **coordination** | par une conjonction de coordination ou un adverbe de liaison (puis, ensuite, alors) | Il pleuvait, **donc** nous sommes rentrés. |
+| **coordination** | par une conjonction de coordination (mais, ou, et, or, ni, car) ou un adverbe de liaison (puis, ensuite, alors, donc) | Il pleuvait, **donc** nous sommes rentrés. |
 | **subordination** | une proposition **subordonnée** dépend d'une proposition **principale** ; elle est introduite par un mot subordonnant | Nous sommes rentrés **parce qu'il pleuvait**. |
 
-## Deux subordonnées à connaître en 5e
+## Pour aller plus loin : deux sortes de subordonnées (étudiées surtout en 4e)
 - La **subordonnée relative** : introduite par un **pronom relatif** (qui, que, dont, où...), elle complète un nom, son **antécédent** : « Le château **que tu vois** appartient au roi. »
 - La **subordonnée conjonctive** : introduite par une **conjonction de subordination** :
   - complétive, souvent COD du verbe : « Je sais **que tu viendras**. »
@@ -551,14 +550,14 @@ Une **proposition** est un groupe de mots organisé autour d'un **verbe conjugu�
 >! Principale : « la foule se tut ». Subordonnée conjonctive circonstancielle de temps : « quand le jongleur chanta ». Subordonnée relative : « qui l'écoutait » (antécédent : « la foule »).
 
 > **À retenir**
-> 4 types (déclaratif, interrogatif, impératif, exclamatif) ; 2 formes (affirmative, négative).
+> 3 types (déclaratif, interrogatif, impératif) ; formes affirmative ou négative, et forme exclamative.
 > Une proposition = un verbe conjugué. Phrase simple = 1 proposition ; complexe = plusieurs.
 > Juxtaposition (ponctuation), coordination (conjonction), subordination (subordonnant).
 `,
       exercices: [
         { type: "qcm", question: "Quel est le type de la phrase « Ferme la porte » ?", choix: ["Déclaratif", "Impératif (injonctif)", "Exclamatif", "Interrogatif"], reponse: 1, explication: "Elle donne un ordre, avec un verbe à l'impératif : type impératif (ou injonctif)." },
         { type: "saisie", question: "Combien de propositions contient la phrase : « Le loup qui avait faim sortit du bois et il aperçut l'agneau » ? (en chiffres)", reponses: ["3", "trois"], explication: "Trois verbes conjugués : avait, sortit, aperçut → 3 propositions (dont une relative « qui avait faim »)." },
-        { type: "vf", question: "« Quelle belle journée ! » est une phrase non verbale.", reponse: true, explication: "Elle ne contient aucun verbe conjugué : c'est une phrase non verbale, de type exclamatif." },
+        { type: "vf", question: "« Quelle belle journée ! » est une phrase non verbale.", reponse: true, explication: "Elle ne contient aucun verbe conjugué : c'est une phrase non verbale, de forme exclamative." },
         { type: "qcm", question: "Dans « Il pleuvait ; nous restâmes à l'abri », les propositions sont :", choix: ["coordonnées", "subordonnées", "juxtaposées", "relatives"], reponse: 2, explication: "Elles sont reliées par un signe de ponctuation (le point-virgule), sans mot de liaison : elles sont juxtaposées." },
         { type: "qcm", question: "Dans « La cape que porte le roi est rouge », la proposition « que porte le roi » est :", choix: ["une subordonnée relative", "une subordonnée conjonctive complétive", "une principale", "une proposition coordonnée"], reponse: 0, explication: "« que » est ici un pronom relatif qui reprend « la cape » (antécédent) : c'est une subordonnée relative." },
         { type: "saisie", question: "Corrige la phrase pour qu'elle soit correcte à l'écrit : « On a jamais vu ça. »", reponses: ["On n'a jamais vu ça", "On n'a jamais vu cela"], explication: "La négation complète est **ne... jamais** : « On **n'**a jamais vu ça. » Astuce : « Il **n'**a jamais vu ça. »" },
@@ -571,7 +570,7 @@ Trois verbes conjugués (se coucha, étaient, dressèrent) → trois proposition
 
 **2) Transformations (exemples)**
 - Juxtaposition : « Le marin est courageux : il affronte la tempête. »
-- Coordination : « Le marin est courageux, **donc** il affronte la tempête. » (ou « Le marin est courageux **et** il affronte la tempête. »)
+- Coordination : « Le marin est courageux **et** il affronte la tempête. » (ou, avec l'adverbe de liaison « donc » : « Le marin est courageux, **donc** il affronte la tempête. »)
 - Subordination : « Le marin, **qui est courageux**, affronte la tempête. » (relative) ou « **Comme** il est courageux, le marin affronte la tempête. » (conjonctive de cause)` }
       ]
     },
@@ -667,10 +666,9 @@ Le **plus-que-parfait** exprime une action **antérieure** à une autre action p
       cours: `
 ## Les modes du verbe
 Le **mode** indique la manière dont celui qui parle présente l'action :
-- **indicatif** : action réelle, présentée comme certaine (présent, imparfait, passé simple, futur...) ;
+- **indicatif** : action réelle, présentée comme certaine (présent, imparfait, passé simple, futur...) ; le programme et la grammaire officielle y rangent aussi le **conditionnel**, temps de l'indicatif qui présente une action possible, soumise à une condition, ou imaginée ;
 - **impératif** : ordre, conseil, défense ;
-- **subjonctif** : action envisagée, souhaitée, doutée ;
-- **conditionnel** : action possible, soumise à une condition, ou imaginée. (Les grammaires récentes rangent le conditionnel parmi les temps de l'indicatif ; retiens surtout ses emplois.)
+- **subjonctif** : action envisagée, souhaitée, doutée (mode étudié surtout en 4e et en 3e : en 5e, une simple initiation).
 
 ## L'impératif présent
 Il n'a que **trois personnes** et **pas de sujet exprimé** : 2e du singulier, 1re et 2e du pluriel.
@@ -685,7 +683,7 @@ Il n'a que **trois personnes** et **pas de sujet exprimé** : 2e du singulier, 1
 
 Autres formes : savoir → sache, sachons, sachez ; vouloir → veuillez (formule de politesse).
 
-## Le subjonctif présent (initiation)
+## Pour aller plus loin : le subjonctif présent (programme de 4e-3e)
 Il s'emploie surtout après **que** dans des propositions qui expriment la **volonté**, le **souhait**, la **nécessité**, le **doute** ou un sentiment : *il faut que, je veux que, je souhaite que, bien que, pour que, avant que*.
 
 **Formation** : radical de la 3e personne du pluriel du présent (ils finiss-ent) + **-e, -es, -e, -ions, -iez, -ent**. Avec « nous » et « vous », certains verbes reprennent le radical de l'imparfait : que nous **pren**ions, que vous **ven**iez.
@@ -851,6 +849,8 @@ Des **homophones** se prononcent de la même façon mais s'écrivent différemme
 
 >! **Exemple résolu** : « Il ... perdu ... clé. » → « Il a perdu sa clé » (a = avait ; sa = ma, déterminant possessif).
 
+>! **Bon à savoir** : l'orthographe enseignée a pour référence les **rectifications de 1990**. Les deux graphies sont acceptées : *connaître* ou *connaitre*, *il paraît* ou *il parait*, *événement* ou *évènement*.
+
 ## Orthographe lexicale : quelques règles utiles
 - **m devant m, b, p** : emporter, ombre, emmener (exceptions : bonbon, bonbonne, néanmoins, embonpoint).
 - **Le son [s]** : s, ss entre deux voyelles (poisson ≠ poison), c devant e, i, y (cerise), ç devant a, o, u (garçon, reçu), t devant i (attention, nation).
@@ -957,7 +957,7 @@ La plupart des mots français viennent du **latin**. Beaucoup de mots savants vi
 |---|---|---|
 | familier | à l'oral, entre amis | J'ai la trouille. / Une bagnole |
 | courant | dans la plupart des situations | J'ai peur. / Une voiture |
-| soutenu | à l'écrit, littérature, discours officiel | Je suis effrayé. / Un véhicule |
+| soutenu | à l'écrit, littérature, discours officiel | Je suis saisi d'effroi. / Une automobile |
 
 > **À retenir**
 > Préfixe avant le radical, suffixe après. Dérivation = ajout d'affixes ; composition = assemblage de mots.

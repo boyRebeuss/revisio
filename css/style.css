@@ -223,3 +223,6 @@ pre.code { background: #1e2330; color: #e8ebf2; border-radius: 10px; padding: 12
   .onglets a { padding: 8px 4px; font-size: 0.85rem; }
 }
 .btn.contester { margin-left: 10px; font-size: 0.9rem; }
+
+/* Grec ancien : polices avec esprits et accents bien dessinés */
+.grc { font-family: "Gentium Plus", "GFS Didot", Palatino, "Palatino Linotype", "Times New Roman", "Noto Serif", serif; font-size: 1.08em; }

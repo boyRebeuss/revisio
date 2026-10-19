@@ -757,7 +757,7 @@ Pour montrer que l'auteur ou le personnage prend position, relève : pronoms per
       theme: "Méthodes de l'écrit",
       cours: `
 ## L'exercice
-Le **commentaire** porte sur un texte littéraire que tu ne connais généralement pas, qui relève de l'un des objets d'étude du programme. Tu dois proposer une **lecture organisée et argumentée** : montrer **comment** le texte produit du sens. Ce n'est ni un résumé, ni une paraphrase, ni une explication ligne à ligne.
+Le **commentaire** porte sur un texte littéraire que tu ne connais généralement pas, en lien avec l'un des objets d'étude du programme ; le texte officiel précise qu'il n'est **jamais extrait d'une des œuvres au programme**. Tu dois proposer une **lecture organisée et argumentée** : montrer **comment** le texte produit du sens. Ce n'est ni un résumé, ni une paraphrase, ni une explication ligne à ligne.
 
 ## Étape 1 : la lecture et l'analyse au brouillon (environ 1 h 30)
 1. **Lis** le texte plusieurs fois, ainsi que le paratexte (auteur, titre, date, présentation).
@@ -848,7 +848,7 @@ Orthographe, accords, citations exactes, titres d'œuvres soulignés (à la main
       theme: "Méthodes de l'écrit",
       cours: `
 ## L'exercice
-La **dissertation** porte sur une **œuvre au programme** et son **parcours** associé. Plusieurs sujets sont proposés, chacun lié à une œuvre : tu choisis celui qui correspond à l'œuvre étudiée en classe. Tu dois **répondre à une question** de façon argumentée, organisée, en t'appuyant sur l'œuvre (d'abord), sur les textes du parcours et sur ta culture littéraire.
+La **dissertation** porte sur une **œuvre au programme** et son **parcours** associé. **Trois sujets** sont proposés, chacun en rapport avec l'une des œuvres du programme et son parcours : tu choisis celui qui correspond à l'œuvre étudiée en classe. Tu dois **répondre à une question** de façon argumentée, organisée, en t'appuyant sur l'œuvre (d'abord), sur les textes du parcours et sur ta culture littéraire.
 
 ## Étape 1 : analyser le sujet (environ 30 minutes)
 1. **Souligne les mots-clés** et définis-les (sens précis, connotations).
@@ -969,7 +969,7 @@ Tu expliques le texte **dans l'ordre**, du début à la fin, **mouvement par mou
 ## La lecture expressive
 Elle est **notée** (environ 2 points). Lis **lentement**, **à voix haute et claire**, en respectant la ponctuation et, en poésie, les **e muets** qui se prononcent devant consonne, les **liaisons** et les **diérèses**. Montre que tu comprends le texte : ton adapté (lyrique, ironique, tragique), sans surjouer.
 
-## L'explication (environ 8 à 10 minutes)
+## L'explication (environ 7 à 8 minutes)
 Pour chaque mouvement :
 - annonce le mouvement et son idée principale ;
 - avance **phrase par phrase** ou **vers par vers**, en **citant** et en **analysant** : lexique, figures, syntaxe, temps verbaux, rythme, sonorités, énonciation ;
@@ -1036,7 +1036,7 @@ Formule utile : « Au vers 5, l'image paradoxale “les yeux fixés sur mes pens
       theme: "Grammaire du bac",
       cours: `
 ## La question de grammaire à l'oral
-Elle porte sur une **phrase ou un court passage** du texte que tu expliques. Elle vaut **2 points**. Tu dois **identifier**, **analyser** avec un vocabulaire précis, et parfois **interpréter** l'effet. Les notions du programme de 1re : l'**interrogation**, la **négation**, les **subordonnées** (relatives, conjonctives complétives et circonstancielles) ; les notions de 2de (accords, relations dans la phrase complexe...) peuvent être mobilisées.
+Elle porte sur une **phrase ou un court passage** du texte que tu expliques. Elle vaut **2 points**. Tu dois **identifier**, **analyser** avec un vocabulaire précis, et parfois **interpréter** l'effet. Le texte officiel précise qu'elle vise l'**analyse syntaxique d'une courte phrase ou d'une partie de phrase**. Les notions du programme de 1re : l'**interrogation**, la **négation**, les **subordonnées conjonctives circonstancielles** ; les notions de 2de (accords, valeurs des temps et des modes, relations au sein de la phrase complexe : relatives, complétives...) peuvent aussi être mobilisées.
 
 ## L'interrogation
 ### Interrogation totale ou partielle

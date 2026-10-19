@@ -3,7 +3,7 @@ export default {
     {
       id: "respect-autrui",
       titre: "Le respect d'autrui et des différences",
-      theme: "La sensibilité : soi et les autres",
+      theme: "Égalité, fraternité et solidarité – Agir pour l'égalité femmes-hommes et lutter contre les discriminations",
       cours: `
 ## 1. Respecter autrui : qu'est-ce que c'est ?
 - **Autrui**, ce sont les autres personnes, toutes différentes de toi. Respecter autrui, c'est reconnaître que chaque personne a la **même dignité** que toi, quelles que soient ses différences (apparence, origine, religion, handicap, goûts, opinions…).
@@ -47,7 +47,7 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
     {
       id: "discriminations",
       titre: "Lutter contre les discriminations",
-      theme: "Le droit et la règle",
+      theme: "Égalité, fraternité et solidarité – Agir pour l'égalité femmes-hommes et lutter contre les discriminations",
       cours: `
 ## 1. Qu'est-ce qu'une discrimination ?
 - Une **discrimination** est le fait de **traiter une personne de manière défavorable** (refuser un emploi, un logement, l'entrée d'un lieu, un service…) en raison d'un **critère interdit par la loi**.
@@ -81,7 +81,7 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
       exercices: [
         { type: "qcm", question: "Qu'est-ce qu'une discrimination ?", choix: ["Une simple opinion sur quelqu'un", "Une punition donnée par un professeur", "Une dispute entre amis", "Un traitement défavorable d'une personne en raison d'un critère interdit par la loi"], reponse: 3, explication: "La discrimination est un **acte** (refus, traitement inégal) fondé sur un critère interdit, comme l'origine ou le handicap." },
         { type: "vf", question: "Refuser de louer un appartement à quelqu'un à cause de son origine est une discrimination punie par la loi.", reponse: true, explication: "L'origine fait partie des critères interdits par le Code pénal." },
-        { type: "saisie", question: "Quelle autorité indépendante, en place depuis 2011, aide gratuitement les victimes de discrimination ?", reponses: ["Defenseur des droits", "le Defenseur des droits"], explication: "Le Défenseur des droits peut être saisi gratuitement, y compris par un mineur." },
+        { type: "saisie", question: "Quelle autorité indépendante, en place depuis 2011, aide gratuitement les victimes de discrimination ?", reponses: ["Defenseur des droits", "le Defenseur des droits", "Defenseure des droits", "la Defenseure des droits"], explication: "Le Défenseur des droits peut être saisi gratuitement, y compris par un mineur." },
         { type: "qcm", question: "Comment appelle-t-on la haine ou le rejet des juifs ?", choix: ["Le sexisme", "L'homophobie", "Le validisme", "L'antisémitisme"], reponse: 3, explication: "L'antisémitisme est puni par la loi, comme toutes les formes de racisme." },
         { type: "qcm", question: "Quelle peine maximale prévoit la loi pour une discrimination ?", choix: ["3 ans de prison et 45 000 € d'amende", "Une simple amende de 38 €", "10 ans de prison", "Aucune peine"], reponse: 0, explication: "Le Code pénal punit la discrimination de 3 ans d'emprisonnement et 45 000 € d'amende." },
         { type: "vf", question: "Un préjugé et une discrimination sont exactement la même chose.", reponse: false, explication: "Le préjugé est une **idée** ; la discrimination est un **acte** qui défavorise quelqu'un. Le premier peut mener à la seconde." },
@@ -101,7 +101,7 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
     {
       id: "egalite-filles-garcons",
       titre: "L'égalité entre les filles et les garçons",
-      theme: "Le droit et la règle",
+      theme: "Égalité, fraternité et solidarité – Agir pour l'égalité femmes-hommes et lutter contre les discriminations",
       cours: `
 ## 1. Un principe inscrit dans la loi
 - Le **Préambule de la Constitution de 1946** affirme : « La loi garantit à la femme, dans tous les domaines, des droits égaux à ceux de l'homme. »
@@ -112,7 +112,9 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
 | 1965 | une femme mariée peut travailler et ouvrir un compte bancaire sans l'autorisation de son mari |
 | 1972 | loi sur l'égalité de rémunération entre femmes et hommes |
 | 1975 | loi Veil autorisant l'interruption volontaire de grossesse (IVG) |
+| 1987 | autorité parentale exercée conjointement par le père et la mère |
 | 2000 | loi sur la **parité** en politique (autant de candidates que de candidats) |
+| 2024 | la liberté de recourir à l'IVG est inscrite dans la **Constitution** (article 34) |
 
 ## 2. Des inégalités qui persistent
 - **Salaires** : les femmes gagnent encore en moyenne moins que les hommes, même à temps de travail égal (dans le secteur privé, écart d'environ 14 % selon l'Insee en 2023 ; il reste environ 4 % à poste et temps de travail identiques), et occupent plus souvent des emplois à temps partiel.
@@ -167,7 +169,7 @@ Un **stéréotype de genre** attribue des qualités ou des rôles à une personn
     {
       id: "valeurs-symboles-republique",
       titre: "Les valeurs et les symboles de la République",
-      theme: "Le jugement : penser par soi-même et avec les autres",
+      theme: "Rappels et approfondissements (programmes de 6e, 4e et 3e)",
       cours: `
 ## 1. La République française
 - La France est une **République** depuis 1870 (IIIe République), et notre régime actuel est la **Ve République**, fondée par la **Constitution du 4 octobre 1958**.
@@ -203,7 +205,7 @@ La France fait partie de l'**Union européenne**, dont les symboles sont le drap
 > - Vocabulaire : République, démocratie, citoyen, Constitution, devise, symbole.
 `,
       exercices: [
-        { type: "saisie", question: "Quelle est la devise de la République française ?", reponses: ["Liberte, Egalite, Fraternite", "Liberte Egalite Fraternite", "liberte egalite fraternite"], explication: "La devise Liberté, Égalité, Fraternité est officielle depuis 1848." },
+        { type: "saisie", question: "Quelle est la devise de la République française ?", reponses: ["Liberte, Egalite, Fraternite", "Liberte Egalite Fraternite", "liberte egalite fraternite", "Liberte, Egalite et Fraternite", "liberte egalite et fraternite"], explication: "La devise Liberté, Égalité, Fraternité est officielle depuis 1848." },
         { type: "qcm", question: "Qui a écrit La Marseillaise en 1792 ?", choix: ["Victor Hugo", "Jules Ferry", "Napoléon Bonaparte", "Rouget de Lisle"], reponse: 3, explication: "Claude Joseph Rouget de Lisle compose ce chant de guerre à Strasbourg en 1792 ; il est popularisé par les soldats marseillais." },
         { type: "vf", question: "Marianne porte un bonnet phrygien, symbole de la liberté.", reponse: true, explication: "Le bonnet phrygien, porté par les révolutionnaires, symbolise la liberté." },
         { type: "qcm", question: "Selon l'article 1er de la Constitution, la France est une République…", choix: ["royale, chrétienne, unie et riche", "fédérale, religieuse, démocratique et libérale", "indivisible, laïque, démocratique et sociale", "européenne, laïque, militaire et sociale"], reponse: 2, explication: "« La France est une République indivisible, laïque, démocratique et sociale. »" },
@@ -216,7 +218,7 @@ La France fait partie de l'**Union européenne**, dont les symboles sont le drap
     {
       id: "laicite",
       titre: "La laïcité",
-      theme: "Le jugement : penser par soi-même et avec les autres",
+      theme: "Rappels et approfondissements (programmes de 6e, 4e et 3e)",
       cours: `
 ## 1. Définition
 La **laïcité** est un principe qui repose sur :
@@ -224,6 +226,8 @@ La **laïcité** est un principe qui repose sur :
 - la **neutralité** de l'État et des services publics vis-à-vis des religions ;
 - la **liberté de conscience** : chacun est libre de croire, de ne pas croire ou de changer de religion, et de pratiquer son culte dans le respect de l'ordre public ;
 - l'**égalité** de tous les citoyens, quelles que soient leurs convictions.
+
+Exception : en **Alsace-Moselle**, allemande en 1905, la loi de séparation ne s'applique pas ; l'ancien régime du Concordat y est maintenu.
 
 ## 2. Une histoire
 - **1789** : la DDHC affirme (article 10) que « nul ne doit être inquiété pour ses opinions, même religieuses ».
@@ -261,7 +265,7 @@ Le **9 décembre** est la journée de la laïcité.
     {
       id: "droits-devoirs-justice",
       titre: "Droits et devoirs, règles et justice des mineurs",
-      theme: "Le droit et la règle",
+      theme: "Rappels et approfondissements (programmes de 6e, 4e et 3e)",
       cours: `
 ## 1. Pourquoi des règles et des lois ?
 - Les **règles** permettent de vivre ensemble, de protéger chacun et de résoudre les conflits sans violence. Au collège, c'est le **règlement intérieur** ; dans la société, ce sont les **lois**.
@@ -310,7 +314,7 @@ Une **infraction** est un acte interdit par la loi et puni d'une peine.
     {
       id: "engagement",
       titre: "S'engager : délégués, associations, citoyenneté",
-      theme: "L'engagement : agir individuellement et collectivement",
+      theme: "Rappels et approfondissements (programmes de 6e, 4e et 3e)",
       cours: `
 ## 1. S'engager, c'est quoi ?
 **S'engager**, c'est agir volontairement pour une cause, pour les autres ou pour l'intérêt général. On peut s'engager au collège, dans sa commune, dans une association, en politique.
@@ -353,7 +357,7 @@ S'engager permet de défendre ses idées, d'aider les autres, de faire progresse
     {
       id: "internet-reseaux",
       titre: "Un usage responsable d'internet et des réseaux sociaux",
-      theme: "Le jugement : penser par soi-même et avec les autres",
+      theme: "Rappels et approfondissements (programmes de 6e, 4e et 3e)",
       cours: `
 ## 1. Internet, un espace de liberté… encadré par la loi
 - Internet permet de s'informer, de communiquer, de créer. Mais **la loi s'applique aussi en ligne** : injurier, menacer, harceler, diffuser des propos racistes ou publier des contenus illégaux est puni comme dans la vie réelle.
@@ -391,14 +395,14 @@ S'engager permet de défendre ses idées, d'aider les autres, de faire progresse
         { type: "qcm", question: "Tu veux publier une photo de groupe prise à une fête. Que dois-tu faire ?", choix: ["La publier sans rien demander", "Demander l'accord des personnes qui y figurent", "La publier en floutant seulement ton visage", "La publier la nuit pour que personne ne la voie"], reponse: 1, explication: "Chacun a droit à son image : il faut l'accord des personnes (et des parents pour un mineur)." },
         { type: "qcm", question: "Quel est le premier réflexe pour vérifier une information trouvée en ligne ?", choix: ["Compter le nombre de « j'aime »", "Identifier la source : qui l'a publiée ?", "La partager pour demander l'avis des autres", "Regarder si elle est en majuscules"], reponse: 1, explication: "Une information très partagée n'est pas forcément vraie ; il faut vérifier sa source et la croiser avec d'autres." },
         { type: "vf", question: "Les algorithmes des réseaux sociaux peuvent t'enfermer dans une « bulle de filtres » en te montrant surtout ce que tu aimes déjà.", reponse: true, explication: "Les algorithmes cherchent à te garder connecté en te proposant des contenus similaires." },
-        { type: "saisie", question: "Comment appelle-t-on l'ensemble des traces que tu laisses sur internet (publications, photos, commentaires) ?", reponses: ["identite numerique", "l'identite numerique", "e-reputation", "ereputation"], explication: "Ton identité numérique peut être consultée longtemps, par exemple par un futur employeur." },
+        { type: "saisie", question: "Comment appelle-t-on l'ensemble des traces que tu laisses sur internet (publications, photos, commentaires) ?", reponses: ["identite numerique", "l'identite numerique", "e-reputation", "ereputation", "empreinte numerique", "l'empreinte numerique"], explication: "Ton identité numérique peut être consultée longtemps, par exemple par un futur employeur." },
         { type: "redaction", question: "**Paragraphe argumenté** : rédige des conseils pour un élève de 6e qui vient de créer son premier compte sur un réseau social. Justifie chaque conseil.", corrige: `D'abord, **mets ton compte en privé** et n'accepte que des personnes que tu connais vraiment : ainsi, des inconnus ne pourront pas voir tes publications ni te contacter. Ensuite, **protège tes données personnelles** : ne donne jamais ton adresse, ton numéro de téléphone ni le nom de ton collège, et choisis un **mot de passe** solide que tu ne communiques à personne, car ces informations peuvent être utilisées contre toi. **Réfléchis avant de publier** : ce que tu postes forme ton **identité numérique** et peut rester en ligne très longtemps, même supprimé. **Respecte le droit à l'image** : ne publie pas la photo d'un camarade sans son accord. Rappelle-toi que **la loi s'applique en ligne** : une insulte ou une moquerie, même sous pseudo, peut être punie. **Vérifie les informations** avant de les partager pour ne pas diffuser de fausses nouvelles. Enfin, si quelque chose te choque ou si l'on te harcèle, **parles-en** à un adulte de confiance ou appelle le **3018**.` },
       ],
     },
     {
       id: "harcelement",
       titre: "Le harcèlement et le cyberharcèlement",
-      theme: "La sensibilité : soi et les autres",
+      theme: "Égalité, fraternité et solidarité – Agir pour l'égalité femmes-hommes et lutter contre les discriminations",
       cours: `
 ## 1. Qu'est-ce que le harcèlement ?
 Le **harcèlement** est une **violence répétée**, physique ou verbale, exercée par une ou plusieurs personnes contre une victime qui ne peut pas se défendre. On le reconnaît à trois caractéristiques :
@@ -462,7 +466,7 @@ Une dispute ou une bagarre ponctuelle entre deux élèves de même force n'est p
     {
       id: "solidarite",
       titre: "La solidarité",
-      theme: "L'engagement : agir individuellement et collectivement",
+      theme: "Égalité, fraternité et solidarité – La solidarité et ses échelles",
       cours: `
 ## 1. Qu'est-ce que la solidarité ?
 - La **solidarité** est le lien qui unit les membres d'un groupe et les pousse à **s'entraider**, en particulier envers les plus fragiles (malades, personnes âgées, pauvres, personnes en situation de handicap, victimes de catastrophes).
@@ -476,7 +480,7 @@ Une dispute ou une bagarre ponctuelle entre deux élèves de même force n'est p
 - C'est la **redistribution** : une partie des richesses est prélevée (impôts) puis redonnée sous forme d'aides et de services publics.
 
 ## 3. La solidarité des citoyens et des associations
-- De nombreuses **associations** agissent : **Croix-Rouge** (fondée en **1863** à l'initiative d'Henry Dunant), **Emmaüs** (fondée par l'**abbé Pierre**, célèbre pour son appel de l'hiver **1954**), **Restos du cœur** (créés par **Coluche** en **1985**), Secours populaire, Secours catholique…
+- De nombreuses **associations** agissent : **Croix-Rouge** (fondée en **1863** à l'initiative d'Henry Dunant), **Emmaüs** (mouvement fondé en **1949** par l'abbé Pierre), **Restos du cœur** (créés par **Coluche** en **1985**), Secours populaire, Secours catholique…
 - Les citoyens peuvent être **bénévoles**, faire des **dons** (argent, nourriture, vêtements, sang), participer à des collectes.
 - Au collège : tutorat entre élèves, collecte pour une association, aide à un camarade en situation de handicap.
 
@@ -506,7 +510,7 @@ Une dispute ou une bagarre ponctuelle entre deux élèves de même force n'est p
 - Ces aides sont financées par les **impôts** et les **cotisations** : c'est la **redistribution**. L'école et l'hôpital publics en font aussi partie.
 
 **2. Une solidarité pratiquée par les citoyens**
-- Des **associations** : Croix-Rouge (1863), Emmaüs (abbé Pierre), Restos du cœur (Coluche, 1985).
+- Des **associations** : Croix-Rouge (1863), Emmaüs (1949), Restos du cœur (Coluche, 1985).
 - Les citoyens sont **bénévoles**, font des **dons** (argent, sang, nourriture).
 - Au collège : tutorat, collectes, aide à un camarade.
 
@@ -519,7 +523,7 @@ Une dispute ou une bagarre ponctuelle entre deux élèves de même force n'est p
     {
       id: "solidarite-echelles",
       titre: "La solidarité et ses échelles : face aux risques sociaux et environnementaux",
-      theme: "Égalité, fraternité et solidarité (programme 2024)",
+      theme: "Égalité, fraternité et solidarité – La solidarité et ses échelles",
       cours: `
 ## 1. Le principe de solidarité
 - Le principe de **solidarité** signifie que la **Nation** protège chacun de ses membres, libres et égaux en droits, contre les difficultés de la vie. Il découle de l'idéal de **fraternité**.

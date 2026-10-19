@@ -3,7 +3,7 @@ export default {
     {
       id: "lien-social-cohesion",
       titre: "La société, les liens sociaux et les fondements de la cohésion sociale",
-      theme: "Fondements et fragilités du lien social",
+      theme: "Cohésion et diversité – Les valeurs et les principes de la République à l'épreuve de la cohésion sociale",
       cours: `
 ## Introduction
 Qu'est-ce qui fait qu'une société « tient ensemble » malgré la diversité de ses membres ? C'est la question de la **cohésion sociale**. Elle repose sur des **liens sociaux** multiples (famille, travail, amis, citoyenneté) et sur des institutions qui garantissent des droits et une solidarité entre tous.
@@ -80,7 +80,7 @@ Le sociologue **Serge Paugam** distingue quatre types de liens, qui apportent ch
     {
       id: "fraternite-solidarite",
       titre: "La recomposition du lien social : fraternité et solidarité",
-      theme: "Fondements et fragilités du lien social",
+      theme: "Cohésion et diversité – Les valeurs et les principes de la République à l'épreuve de la cohésion sociale",
       cours: `
 ## Introduction
 La **fraternité** est le troisième terme de la devise républicaine. Longtemps considérée comme une simple valeur morale, elle a été reconnue en **2018** comme un principe à valeur constitutionnelle. Elle se traduit concrètement par la **solidarité**, organisée par l'État (protection sociale) et vécue par les citoyens (associations, bénévolat).
@@ -151,7 +151,7 @@ La **fraternité** est le troisième terme de la devise républicaine. Longtemps
     {
       id: "engagement-politique-social",
       titre: "Les formes de l'engagement politique et social",
-      theme: "S'engager dans la société",
+      theme: "Approfondissements (programmes de 2nde et de terminale)",
       cours: `
 ## Introduction
 Être citoyen, ce n'est pas seulement voter : c'est aussi **s'engager**, c'est-à-dire consacrer du temps et de l'énergie à une cause collective. L'engagement prend des formes très variées, anciennes (partis, syndicats) ou nouvelles (pétitions en ligne, mobilisations ponctuelles, engagement associatif).
@@ -222,7 +222,7 @@ La **fraternité** est le troisième terme de la devise républicaine. Longtemps
     {
       id: "democratie-representative-participative",
       titre: "La démocratie représentative et la démocratie participative",
-      theme: "S'engager dans la société",
+      theme: "Approfondissements (programmes de 2nde et de terminale)",
       cours: `
 ## Introduction
 En France, le peuple exerce sa souveraineté surtout par ses **représentants** élus. Mais la crise de la représentation (abstention, défiance) pousse à développer des formes de **démocratie participative**, qui associent davantage les citoyens aux décisions.
@@ -295,7 +295,7 @@ En France, le peuple exerce sa souveraineté surtout par ses **représentants** 
     {
       id: "societe-information",
       titre: "Les enjeux moraux et civiques de la société de l'information",
-      theme: "Les défis de la société contemporaine",
+      theme: "Approfondissements (programmes de 2nde et de terminale)",
       cours: `
 ## Introduction
 Internet et les réseaux sociaux ont transformé notre rapport à l'information : chacun peut s'informer, publier et partager instantanément. Cette **société de l'information** élargit la liberté d'expression, mais elle pose des questions morales et civiques : désinformation, haine en ligne, protection de la vie privée, pouvoir des grandes plateformes.
@@ -373,7 +373,7 @@ Internet et les réseaux sociaux ont transformé notre rapport à l'information 
     {
       id: "laicite-evolutions",
       titre: "La laïcité et ses évolutions",
-      theme: "Les défis de la société contemporaine",
+      theme: "Cohésion et diversité – Les valeurs et les principes de la République à l'épreuve de la cohésion sociale",
       cours: `
 ## Introduction
 La **laïcité** est un principe fondamental de la République française. Elle garantit la **liberté de conscience**, la **neutralité de l'État** à l'égard des religions et l'**égalité** de tous les citoyens quelles que soient leurs convictions. Issue d'une longue histoire, elle continue d'évoluer face aux questions nouvelles.
@@ -452,7 +452,7 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
     {
       id: "egalite-discriminations",
       titre: "L'égalité et les discriminations",
-      theme: "Les défis de la société contemporaine",
+      theme: "Cohésion et diversité – Les valeurs et les principes de la République à l'épreuve de la cohésion sociale",
       cours: `
 ## Introduction
 « Les hommes naissent et demeurent libres et égaux en droits » (article 1 de la DDHC). L'**égalité** est un principe fondateur de la République. Pourtant, des **discriminations** persistent, liées à l'origine, au sexe, au handicap, à l'orientation sexuelle, à l'âge, au lieu de résidence... Le droit les interdit et des politiques cherchent à les combattre.
@@ -473,7 +473,7 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
 - **Défenseur des droits**, autorité indépendante créée par la révision constitutionnelle de 2008 et installée en 2011 ; il a succédé notamment à la HALDE (2004-2011). On peut le saisir gratuitement.
 
 ## 3. L'égalité entre les femmes et les hommes
-- Étapes : droit de vote (1944), autorisation d'exercer une profession sans l'accord du mari (1965), loi Veil sur l'IVG (1975), égalité salariale inscrite dans la loi (1972, loi Roudy de 1983 sur l'égalité professionnelle).
+- Étapes : droit de vote (1944), autorisation d'exercer une profession sans l'accord du mari (1965), loi Veil sur l'IVG (1975), égalité salariale inscrite dans la loi (1972, loi Roudy de 1983 sur l'égalité professionnelle), autorité parentale conjointe (1987), inscription dans la Constitution de la liberté garantie à la femme de recourir à l'IVG (loi constitutionnelle du 8 mars 2024, article 34).
 - **Parité** : la révision constitutionnelle de 1999 et la loi du **6 juin 2000** favorisent l'égal accès des femmes et des hommes aux mandats électoraux.
 - **Index de l'égalité professionnelle** (2018) dans les entreprises d'au moins 50 salariés.
 - Persistances : écarts de salaire, « plafond de verre », violences sexistes et sexuelles, répartition inégale des tâches domestiques.
@@ -619,7 +619,7 @@ L'EMC est évaluée en **contrôle continu**. Les exercices attendus sont : l'**
     {
       id: "republique-indivisible-decentralisee",
       titre: "Une République indivisible dont l'organisation est décentralisée",
-      theme: "La République et la Nation (programme 2024)",
+      theme: "Cohésion et diversité – La République et la Nation",
       cours: `
 ## Introduction
 Le nouveau programme d'EMC de 1re (en vigueur depuis la rentrée 2025) s'intitule « **Cohésion et diversité dans une société démocratique** ». Sa deuxième partie, « **La République et la Nation** », part de l'article 1er de la Constitution : « La France est une République **indivisible**, laïque, démocratique et sociale. [...] Son organisation est **décentralisée**. » Comment une République **une** peut-elle laisser une large place aux **territoires** et à leur diversité ?
@@ -691,7 +691,7 @@ Les **intercommunalités** (communautés de communes, d'agglomération, métropo
     {
       id: "nation-nationalite-citoyennete",
       titre: "La communauté nationale : nationalité, citoyenneté et mémoires",
-      theme: "La République et la Nation (programme 2024)",
+      theme: "Cohésion et diversité – La République et la Nation",
       cours: `
 ## Introduction
 Qu'est-ce qui fait qu'on appartient à la **Nation** française ? Le droit répond par la **nationalité** ; la vie politique par la **citoyenneté** ; l'histoire par des **mémoires** partagées et des **commémorations**. La communauté nationale française se veut une communauté **ouverte**, fondée sur l'adhésion à des valeurs plutôt que sur l'origine.
@@ -757,14 +757,14 @@ Qu'est-ce qui fait qu'on appartient à la **Nation** française ? Le droit répo
     {
       id: "defense-securite-nationale",
       titre: "Défendre la Nation : défense, sécurité nationale et résilience",
-      theme: "La République et la Nation (programme 2024)",
+      theme: "Cohésion et diversité – La République et la Nation",
       cours: `
 ## Introduction
 Une démocratie doit pouvoir **se défendre** pour protéger ses citoyens, son territoire et ses valeurs. Aujourd'hui, les menaces ne sont plus seulement militaires : terrorisme, cyberattaques, manipulations de l'information, crises sanitaires ou climatiques. On parle donc de **sécurité nationale**, qui associe l'État, les armées et chaque citoyen.
 
 ## 1. Définitions
 - **Défense** : ensemble des moyens destinés à protéger le territoire, la population et les intérêts d'un pays contre une agression armée.
-- **Sécurité nationale** (Code de la défense) : identifier l'ensemble des menaces et des risques qui peuvent affecter la vie de la Nation et y répondre ; elle inclut la défense, la sécurité intérieure, la sécurité civile, la sécurité économique et numérique.
+- **Sécurité nationale** (notion introduite par le **Livre blanc sur la défense et la sécurité nationale de 2008**, puis inscrite dans le Code de la défense) : identifier l'ensemble des menaces et des risques qui peuvent affecter la vie de la Nation et y répondre ; elle inclut la défense, la sécurité intérieure, la sécurité civile, la sécurité économique et numérique.
 - **Souveraineté nationale** : capacité d'un peuple à décider librement de son destin, sans subir la volonté d'une puissance étrangère.
 - **Ingérence** : intervention d'un État étranger dans les affaires intérieures d'un autre pour l'influencer ou le déstabiliser.
 - **Résilience** : capacité d'une société à résister à un choc (attentat, catastrophe, cyberattaque, pandémie) et à retrouver un fonctionnement normal.
@@ -773,7 +773,7 @@ Une démocratie doit pouvoir **se défendre** pour protéger ses citoyens, son t
 - **Le président de la République** est « le **chef des armées** » (article 15) et le garant de « l'indépendance nationale, de l'intégrité du territoire » (article 5) ; il décide de l'emploi de la **dissuasion nucléaire**.
 - **Le Premier ministre** est « responsable de la défense nationale » (article 21) ; le gouvernement « dispose de la force armée » (article 20).
 - **Le Parlement** autorise la déclaration de guerre (article 35) ; il est informé des interventions extérieures dans les 3 jours et doit autoriser leur prolongation au-delà de 4 mois ; il vote les **lois de programmation militaire** (LPM 2024-2030 : 413 milliards d'euros).
-- **Une armée professionnelle** depuis la suspension du service militaire obligatoire (loi de 1997, derniers appelés en 2001). Les citoyens restent concernés : **recensement** à 16 ans, **Journée défense et citoyenneté** (JDC), **réserve** opérationnelle et citoyenne (Garde nationale, 2016), sapeurs-pompiers volontaires, service national universel (SNU, expérimenté à partir de 2019).
+- **Une armée professionnelle** depuis la suspension du service militaire obligatoire (loi de 1997, derniers appelés en 2001). Les citoyens restent concernés : **recensement** à 16 ans, **Journée défense et citoyenneté** (JDC), **réserve** opérationnelle et citoyenne (Garde nationale, 2016), sapeurs-pompiers volontaires, service national universel (SNU, expérimenté de 2019 à 2025, puis abandonné) ; depuis la fin d'août 2026, un nouveau **service national** militaire et volontaire de dix mois accueille des jeunes de 18 à 25 ans.
 - **Alliances** : la France est membre de l'**OTAN** (1949 ; retour dans le commandement intégré en 2009) et de l'**Union européenne**, dont l'article 42-7 du traité prévoit une clause d'**assistance mutuelle**, invoquée pour la première fois par la France après les attentats du 13 novembre 2015.
 
 ## 3. Des menaces multiples et « hybrides »
@@ -813,7 +813,7 @@ Une démocratie doit pouvoir **se défendre** pour protéger ses citoyens, son t
 - Ingérences informationnelles et guerres hybrides : Viginum, loi de 2024 ; elles visent l'opinion publique elle-même.
 
 **III. La sécurité nationale, l'affaire de tous les citoyens**
-- Parcours de citoyenneté : recensement, JDC, réserve, pompiers volontaires, engagement associatif de secours.
+- Parcours de citoyenneté : recensement, JDC, réserve, nouveau service national volontaire (2026), pompiers volontaires, engagement associatif de secours.
 - **Résilience** : gestes qui sauvent, connaissance des consignes, esprit critique face à la désinformation.
 - **Patriotisme constitutionnel** : défendre la Nation, c'est défendre les principes démocratiques.
 

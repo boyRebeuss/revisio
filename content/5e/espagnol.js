@@ -23,10 +23,10 @@ L'alphabet espagnol compte **27 lettres** : les 26 lettres du français plus la 
 | z | zeta | *zapato* |
 
 ## Les sons à connaître
-- Toutes les lettres se prononcent : *e* ne se tait jamais (*noche* se dit « notché »).
+- Presque toutes les lettres se prononcent (sauf le **h** et le *u* de *que, qui, gue, gui*) : *e* ne se tait jamais (*noche* se dit « notché »).
 - **u** se prononce « ou » : *luna* → « louna ».
 - **h** est toujours muette : *hola* → « ola ».
-- **j** et **g** devant *e, i* : son raclé de la gorge (comme le « ch » allemand) : *jefe*, *gente*, *jirafa*.
+- **j** (toujours) et **g** devant *e, i* : son raclé de la gorge (comme le « ch » allemand) : *jamón*, *jefe*, *gente*, *jirafa*. Devant *a, o, u*, le **g** est dur : *gato*.
 - **c** devant *e, i* et **z** : son proche du « th » anglais en Espagne : *cine*, *zapato*. En Amérique latine, on prononce « s » (c'est le *seseo*).
 - **ch** se dit « tch » : *chico*.
 - **ll** et **y** : son « y » : *llamo*, *yo*.
@@ -319,7 +319,7 @@ Autres 1res personnes irrégulières : *conocer* → **conozco**, *saber* → **
         { type: "qcm", question: "Quelle forme est correcte pour *pedir*, ellos ?", choix: ["peden", "pieden", "piden", "pedimos"], reponse: 2, explication: "e → i : *piden*." },
         { type: "qcm", question: "« Je sors avec mes amis » :", choix: ["Salgo con mis amigos", "Salo con mis amigos", "Sale con mis amigos", "Salgo con mi amigos"], reponse: 0, explication: "*salir* → **salgo**, et *mis* au pluriel." },
         { type: "vf", question: "*Empezar* donne *empiezamos* à la 1re personne du pluriel.", reponse: false, explication: "Nosotros ne diphtongue pas : *empezamos*." },
-        { type: "redaction", question: "Écris 5 phrases sur ton week-end avec au moins 5 verbes irréguliers différents (diphtongue, -go, ir).", corrige: "Modèle :\n\n*El sábado me despierto tarde. Hago los deberes por la mañana. Por la tarde, juego al baloncesto con mis amigos y después salgo al cine. El domingo voy a casa de mis abuelos y vuelvo a las siete. No puedo acostarme tarde porque el lunes empiezo las clases a las ocho.*\n\nVerbes : despertarse (e → ie), hacer (hago), jugar (juego), salir (salgo), ir (voy), volver (vuelvo), poder (puedo), empezar (empiezo)." }
+        { type: "redaction", question: "Écris 5 phrases sur ton week-end avec au moins 5 verbes irréguliers différents (diphtongue, -go, ir).", corrige: "Modèle :\n\n*El sábado me despierto tarde. Hago los deberes por la mañana. Por la tarde, juego al baloncesto con mis amigos y después salgo con ellos. El domingo voy a casa de mis abuelos y vuelvo a las siete. No puedo acostarme tarde porque el lunes empiezo las clases a las ocho.*\n\nVerbes : despertarse (e → ie), hacer (hago), jugar (juego), salir (salgo), ir (voy), volver (vuelvo), poder (puedo), empezar (empiezo)." }
       ]
     },
     {
@@ -570,7 +570,7 @@ Les meubles : *la cama, la mesa, la silla, el armario, la estantería, el sofá,
 > **À retenir** : hay pour dire ce qu'il y a, estar pour situer ; este / ese / aquel selon la distance ; aquí, ahí, allí.
 `,
       exercices: [
-        { type: "saisie", question: "Traduis : « la chambre »", reponses: ["el dormitorio", "la habitación", "dormitorio", "habitación"], explication: "**el dormitorio** ou **la habitación**." },
+        { type: "saisie", question: "Traduis : « la chambre »", reponses: ["el dormitorio", "la habitación", "dormitorio", "habitación", "el cuarto", "cuarto"], explication: "**el dormitorio** ou **la habitación**." },
         { type: "saisie", question: "Traduis : « la cuisine »", reponses: ["la cocina", "cocina"], explication: "**la cocina** (*cocinar* = cuisiner)." },
         { type: "qcm", question: "« Le chat est sous la table » :", choix: ["El gato está encima de la mesa", "El gato es debajo de la mesa", "El gato está debajo de la mesa", "Hay el gato debajo de la mesa"], reponse: 2, explication: "*debajo de* = sous ; on situe avec **estar**." },
         { type: "saisie", question: "Complète avec un démonstratif (objet près de moi) : « ... silla es cómoda. »", reponses: ["esta"], explication: "Près de moi, féminin singulier : **esta**." },
@@ -693,7 +693,7 @@ Attention : *jugar a* (sport, jeu) ≠ *tocar* (instrument).
       theme: "Culture",
       cours: `
 ## Où parle-t-on espagnol ?
-L'espagnol est parlé par environ **500 millions** de personnes comme langue maternelle. On compte **21 pays** hispanophones : l'Espagne, la Guinée équatoriale (en Afrique) et 19 pays et territoires d'Amérique (Mexique, Cuba, République dominicaine, Porto Rico (territoire associé aux États-Unis), Guatemala, Honduras, Salvador, Nicaragua, Costa Rica, Panama, Colombie, Venezuela, Équateur, Pérou, Bolivie, Chili, Argentine, Uruguay, Paraguay). Il est aussi très parlé aux États-Unis.
+L'espagnol est parlé par environ **500 millions** de personnes comme langue maternelle. Il est langue officielle dans **20 pays et à Porto Rico**, soit **21 pays et territoires** : l'Espagne, la Guinée équatoriale (en Afrique) et 19 pays et territoires d'Amérique (Mexique, Cuba, République dominicaine, Porto Rico (État libre associé aux États-Unis), Guatemala, Honduras, Salvador, Nicaragua, Costa Rica, Panama, Colombie, Venezuela, Équateur, Pérou, Bolivie, Chili, Argentine, Uruguay, Paraguay). Il est aussi très parlé aux États-Unis. Le **Mexique** est le pays qui compte le plus d'hispanophones (plus de 120 millions).
 
 | Pays | Capitale | Nationalité |
 |---|---|---|
@@ -725,7 +725,7 @@ L'espagnol est parlé par environ **500 millions** de personnes comme langue mat
 - **Nochevieja** (31 décembre) : on mange **12 grains de raisin** aux 12 coups de minuit.
 - **los Reyes Magos** (6 janvier) : les Rois mages apportent les cadeaux aux enfants.
 
-> **À retenir** : 21 pays hispanophones ; Madrid au centre de l'Espagne, pays aux plusieurs langues ; Aztèques, Mayas, Incas ; Día de Muertos, Reyes Magos, 12 uvas.
+> **À retenir** : 21 pays et territoires hispanophones (20 pays + Porto Rico), le Mexique en tête ; Madrid au centre de l'Espagne, pays aux plusieurs langues ; Aztèques, Mayas, Incas ; Día de Muertos, Reyes Magos, 12 uvas.
 `,
       exercices: [
         { type: "saisie", question: "Quelle est la capitale de l'Argentine ?", reponses: ["Buenos Aires"], explication: "**Buenos Aires**." },
@@ -853,7 +853,7 @@ On vouvoie un inconnu : *Perdone* (usted) ; à un jeune de ton âge : *Perdona* 
         { type: "qcm", question: "« La *librería* » désigne :", choix: ["la librairie", "la bibliothèque", "la papeterie", "la liberté"], reponse: 0, explication: "Faux ami : *la librería* = la librairie, où l'on achète des livres. La bibliothèque se dit *la biblioteca*." },
         { type: "qcm", question: "Complète : « Perdone, ¿... una farmacia por aquí? »", choix: ["está", "es", "hay", "tiene"], reponse: 2, explication: "Avec un article indéfini (*una farmacia*), on demande si le lieu existe → **hay**." },
         { type: "saisie", question: "Complète : « Perdone, ¿dónde ... la estación? »", reponses: ["está"], explication: "Avec un article défini (*la estación*), on situe → **está**." },
-        { type: "saisie", question: "Traduis : « Tourne à droite. » (tú)", reponses: ["Gira a la derecha", "Tuerce a la derecha", "Giras a la derecha"], explication: "**Gira a la derecha** (ou *tuerce a la derecha*). *La derecha* = la droite, *la izquierda* = la gauche." },
+        { type: "saisie", question: "Traduis : « Tourne à droite. » (tú)", reponses: ["Gira a la derecha", "Tuerce a la derecha", "Giras a la derecha", "Dobla a la derecha"], explication: "**Gira a la derecha** (ou *tuerce a la derecha* ; en Amérique latine, *dobla a la derecha*). *La derecha* = la droite, *la izquierda* = la gauche." },
         { type: "qcm", question: "« Continue tout droit » se dit :", choix: ["Gira todo recto", "Sigue a la derecha", "Toma la izquierda", "Sigue todo recto"], reponse: 3, explication: "*todo recto* = tout droit ; *seguir* = continuer → **Sigue todo recto**." },
         { type: "saisie", question: "Complète avec l'ordinal : « Vivo en el ... piso. » (1er étage)", reponses: ["primer"], explication: "Devant un nom masculin singulier, *primero* devient **primer** : *el primer piso*." },
         { type: "vf", question: "« Voy al colegio en pie » est correct.", reponse: false, explication: "On dit **a pie** (à pied). *En* s'emploie avec un véhicule : *en autobús, en metro, en bici*." },

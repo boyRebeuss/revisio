@@ -3,7 +3,7 @@ export default {
     {
       id: "besoin-objet-technique",
       titre: "Besoin, fonction d'usage et cahier des charges",
-      theme: "Design, innovation et créativité",
+      theme: "Les objets et les systèmes techniques : leurs usages et leurs interactions à découvrir et à analyser",
       cours: `
 ## L'objet technique répond à un besoin
 Un **objet technique** est un objet fabriqué par l'être humain pour répondre à un **besoin**. Une pierre ramassée par terre n'est pas un objet technique ; un marteau, oui.
@@ -65,7 +65,7 @@ Pour exprimer le besoin, on se pose trois questions :
     {
       id: "fonctions-solutions-techniques",
       titre: "Fonctions techniques et solutions techniques",
-      theme: "Design, innovation et créativité",
+      theme: "Structure, fonctionnement, comportement : des objets et des systèmes techniques à comprendre",
       cours: `
 ## De la fonction d'usage aux fonctions techniques
 Pour remplir sa fonction d'usage, un objet doit accomplir plusieurs actions internes : ce sont ses **fonctions techniques**. Elles s'expriment aussi avec un verbe à l'infinitif.
@@ -116,7 +116,7 @@ Les solutions techniques assemblent des pièces. On distingue :
     {
       id: "materiaux",
       titre: "Les familles de matériaux et leurs propriétés",
-      theme: "Matériaux",
+      theme: "Structure, fonctionnement, comportement : des objets et des systèmes techniques à comprendre",
       cours: `
 ## Les familles de matériaux
 Les objets sont fabriqués à partir de **matériaux**, classés en grandes familles :
@@ -171,14 +171,14 @@ On peut réaliser des tests simples : test de rayure (dureté), test de flexion 
     {
       id: "energie-objets",
       titre: "L'énergie dans les objets : sources et chaîne d'énergie",
-      theme: "Énergie et objets techniques",
+      theme: "Structure, fonctionnement, comportement : des objets et des systèmes techniques à comprendre",
       cours: `
 ## Sources et formes d'énergie
 Un objet technique a besoin d'**énergie** pour fonctionner. On distingue :
 - les **sources d'énergie renouvelables** (qui se renouvellent rapidement à l'échelle humaine) : soleil, vent, eau (hydraulique), biomasse (bois), géothermie, marées ;
 - les **sources non renouvelables** (stocks limités) : pétrole, gaz naturel, charbon (énergies fossiles), uranium (nucléaire).
 
-Les principales **formes** d'énergie : électrique, mécanique (mouvement), thermique (chaleur), lumineuse (rayonnement), chimique (piles, carburant), nucléaire.
+Les principales **formes** d'énergie : électrique, mécanique (énergie **cinétique** d'un objet en mouvement, énergie **potentielle** d'un objet en hauteur), thermique (chaleur), lumineuse (rayonnement), chimique (piles, carburant), nucléaire.
 
 ## Convertir l'énergie
 Un **convertisseur** transforme une forme d'énergie en une autre :
@@ -226,7 +226,7 @@ La **puissance** P se mesure en **watts (W)**. L'énergie consommée dépend de 
     {
       id: "chaine-information",
       titre: "La chaîne d'information : capteurs et actionneurs",
-      theme: "Énergie et objets techniques",
+      theme: "Structure, fonctionnement, comportement : des objets et des systèmes techniques à comprendre",
       cours: `
 ## Les objets qui « réagissent »
 Beaucoup d'objets modernes réagissent à leur environnement : un éclairage qui s'allume quand il fait nuit, une porte qui s'ouvre quand on approche. Ils possèdent une **chaîne d'information**.
@@ -273,7 +273,7 @@ Un **actionneur** agit sur l'environnement en convertissant de l'énergie : mote
     {
       id: "evolution-objets",
       titre: "L'évolution des objets techniques",
-      theme: "Les objets techniques, les services et les changements induits dans la société",
+      theme: "Les objets et les systèmes techniques : leurs usages et leurs interactions à découvrir et à analyser",
       cours: `
 ## Pourquoi les objets évoluent
 Les objets techniques changent au cours du temps grâce :
@@ -283,12 +283,14 @@ Les objets techniques changent au cours du temps grâce :
 - à l'évolution des **besoins** et des **modes de vie** ;
 - aux exigences **environnementales** et de **sécurité**.
 
-## Lignée d'objets
-Une **lignée** (ou famille) d'objets regroupe des objets qui ont la **même fonction d'usage** à différentes époques.
+## Famille et lignée d'objets
+- Une **famille** d'objets regroupe des objets qui ont la **même fonction d'usage** (ils répondent au même besoin), quel que soit leur principe de fonctionnement : bougie, lampe à pétrole et lampe à DEL appartiennent à la famille des objets d'éclairage.
+- Une **lignée** d'objets regroupe, à l'intérieur d'une famille, des objets qui ont la même fonction d'usage **et le même principe technique**, et qui se sont perfectionnés au fil du temps : la lignée des lampes électriques à filament (ampoule à incandescence, puis lampe halogène).
+- Une famille contient donc plusieurs lignées ; on passe d'une lignée à l'autre lors d'une **rupture technologique**.
 
->! Exemple (s'éclairer) : torche et lampe à huile (Antiquité) → bougie → lampe à pétrole (XIXe siècle) → ampoule à incandescence (Edison, 1879) → tube fluorescent → lampe fluocompacte → lampe à DEL (années 2010).
+>! Exemple (famille des objets d'éclairage) : torche et lampe à huile (Antiquité) → bougie → lampe à pétrole (XIXe siècle) [lignée des éclairages à flamme] ; ampoule à incandescence (Edison, 1879) → lampe halogène [lignée des lampes à filament] ; tube fluorescent → lampe fluocompacte [lignée des lampes à décharge] ; lampe à DEL (années 2010).
 
->! Exemple (écouter de la musique) : phonographe (fin XIXe) → disque vinyle et électrophone → cassette audio et baladeur (1979) → CD (1982) → lecteur MP3 → streaming sur smartphone.
+>! Exemple (famille des objets pour écouter de la musique) : phonographe (fin XIXe) → disque vinyle et électrophone [lignée de l'enregistrement mécanique] ; cassette audio et baladeur (1979) [enregistrement magnétique] ; CD (1982) → lecteur MP3 → streaming sur smartphone [enregistrement numérique].
 
 ## Rupture et innovation
 - Une **évolution** améliore l'objet sans changer son principe (vélo avec dérailleur, meilleurs freins).
@@ -307,23 +309,23 @@ Les objets modifient nos modes de vie : le téléphone portable change la commun
 | XXe siècle | électricité dans les foyers, automobile, avion, radio, télévision, ordinateur |
 | XXIe siècle | smartphone, objets connectés, impression 3D, voitures électriques |
 
-> **À retenir** : une **lignée** regroupe des objets de même fonction d'usage à différentes époques. Les objets évoluent grâce aux progrès techniques, aux matériaux, aux énergies et aux besoins. Une **innovation** est une invention adoptée par la société ; une **rupture** change le principe de fonctionnement.
+> **À retenir** : une **famille** regroupe des objets de même fonction d'usage ; une **lignée** regroupe, dans une famille, des objets de même principe technique qui se perfectionnent au fil du temps. Les objets évoluent grâce aux progrès techniques, aux matériaux, aux énergies et aux besoins. Une **innovation** est une invention adoptée par la société ; une **rupture** change le principe de fonctionnement.
 `,
       exercices: [
-        { type: "qcm", question: "Quel objet est le plus récent dans la lignée des objets d'éclairage ?", choix: ["La lampe à pétrole", "L'ampoule à incandescence", "La lampe à DEL", "La bougie"], reponse: 2, explication: "Ordre : bougie → lampe à pétrole → ampoule à incandescence → lampe à DEL (la plus récente)." },
-        { type: "vf", question: "Les objets d'une même lignée ont la même fonction d'usage.", reponse: true, explication: "C'est la définition : ils répondent au même besoin, à des époques différentes." },
+        { type: "qcm", question: "Quel objet est le plus récent dans la famille des objets d'éclairage ?", choix: ["La lampe à pétrole", "L'ampoule à incandescence", "La lampe à DEL", "La bougie"], reponse: 2, explication: "Ordre : bougie → lampe à pétrole → ampoule à incandescence → lampe à DEL (la plus récente)." },
+        { type: "vf", question: "Les objets d'une même lignée ont la même fonction d'usage.", reponse: true, explication: "Oui : une lignée est une partie d'une famille d'objets (même fonction d'usage). Les objets d'une lignée partagent en plus le même principe technique et se perfectionnent au fil du temps." },
         { type: "qcm", question: "Le passage de la photographie argentique (pellicule) à la photographie numérique est :", choix: ["une simple évolution esthétique", "un changement de fonction d'usage", "un retour en arrière", "une rupture technologique"], reponse: 3, explication: "Le principe change complètement (capteur électronique au lieu d'une pellicule chimique) : c'est une rupture technologique. La fonction d'usage (prendre des photos) reste la même." },
         { type: "saisie", question: "Comment appelle-t-on une invention qui a été commercialisée et adoptée par les utilisateurs ?", reponses: ["innovation", "une innovation"], explication: "Une **innovation** est une invention qui rencontre son public sur le marché." },
         { type: "qcm", question: "Quel événement a marqué les XVIIIe et XIXe siècles ?", choix: ["L'invention du smartphone", "La révolution industrielle et la machine à vapeur", "L'invention de la roue", "L'impression 3D"], reponse: 1, explication: "La machine à vapeur a lancé la révolution industrielle (usines, train)." },
         { type: "vf", question: "L'évolution des objets n'a aucune conséquence sur l'environnement.", reponse: false, explication: "Au contraire : fabrication, utilisation et fin de vie des objets consomment des ressources et produisent des déchets et des pollutions." },
         { type: "qcm", question: "Lequel de ces facteurs n'explique PAS directement l'évolution des objets ?", choix: ["L'apparition de nouveaux matériaux", "Les nouveaux besoins des utilisateurs", "Les progrès de l'électronique", "La couleur du ciel"], reponse: 3, explication: "La couleur du ciel n'a rien à voir. Les matériaux, les besoins et les progrès techniques font évoluer les objets." },
-        { type: "redaction", question: "Étudie la lignée des objets permettant de communiquer à distance : lettre portée par messager, télégraphe, téléphone fixe, téléphone portable, smartphone. 1) Range-les dans l'ordre chronologique et donne une date ou une période approximative pour chacun. 2) Identifie une rupture technologique et justifie. 3) Cite deux conséquences (une positive, une négative) du smartphone sur la société ou l'environnement.", corrige: "1) **Ordre chronologique** :\n- Lettre portée par messager : depuis l'Antiquité ;\n- Télégraphe : XIXe siècle (télégraphe électrique, Morse, années 1840) ;\n- Téléphone fixe : fin du XIXe siècle (Bell, 1876) ;\n- Téléphone portable : années 1980–1990 ;\n- Smartphone : années 2000 (succès massif à partir de 2007).\n\n2) **Rupture** : le passage du messager au télégraphe électrique. Le message n'est plus transporté physiquement mais transmis par un signal électrique, presque instantanément. (On peut aussi citer le passage du fixe filaire au portable, qui utilise les ondes radio.)\n\n3) **Conséquences** :\n- Positive : on peut communiquer partout, instantanément, accéder à l'information et appeler les secours.\n- Négative : fabrication gourmande en métaux rares et en énergie, déchets électroniques difficiles à recycler ; risques de dépendance aux écrans." },
+        { type: "redaction", question: "Étudie la famille des objets permettant de communiquer à distance : lettre portée par messager, télégraphe, téléphone fixe, téléphone portable, smartphone. 1) Range-les dans l'ordre chronologique et donne une date ou une période approximative pour chacun. 2) Identifie une rupture technologique et justifie. 3) Cite deux conséquences (une positive, une négative) du smartphone sur la société ou l'environnement.", corrige: "1) **Ordre chronologique** :\n- Lettre portée par messager : depuis l'Antiquité ;\n- Télégraphe : XIXe siècle (télégraphe électrique, Morse, années 1840) ;\n- Téléphone fixe : fin du XIXe siècle (Bell, 1876) ;\n- Téléphone portable : années 1980–1990 ;\n- Smartphone : années 2000 (succès massif à partir de 2007).\n\n2) **Rupture** : le passage du messager au télégraphe électrique. Le message n'est plus transporté physiquement mais transmis par un signal électrique, presque instantanément. (On peut aussi citer le passage du fixe filaire au portable, qui utilise les ondes radio.)\n\n3) **Conséquences** :\n- Positive : on peut communiquer partout, instantanément, accéder à l'information et appeler les secours.\n- Négative : fabrication gourmande en métaux rares et en énergie, déchets électroniques difficiles à recycler ; risques de dépendance aux écrans." },
       ],
     },
     {
       id: "croquis-representation",
       titre: "Croquis, schémas et modélisation 3D",
-      theme: "Modélisation et simulation des objets techniques",
+      theme: "Création, conception, réalisation, innovations : des objets à concevoir et à réaliser",
       cours: `
 ## Pourquoi représenter un objet ?
 Pour **imaginer**, **communiquer** et **fabriquer** un objet, on le représente. Chaque représentation a son usage.
@@ -403,7 +405,7 @@ Le modèle 3D peut ensuite être envoyé à une **imprimante 3D** (fabrication p
     {
       id: "programmation-blocs",
       titre: "Algorithmes et programmation par blocs",
-      theme: "Informatique et programmation",
+      theme: "Création, conception, réalisation, innovations : des objets à concevoir et à réaliser",
       cours: `
 ## Algorithme et programme
 Un **algorithme** est une suite finie d'instructions ordonnées permettant de résoudre un problème. Une recette de cuisine est un algorithme.
@@ -447,7 +449,7 @@ Un **bug** est une erreur dans un programme. On le cherche en testant, en exécu
 `,
       exercices: [
         { type: "qcm", question: "Quelle structure permet de répéter des instructions ?", choix: ["La condition", "La boucle", "La variable", "L'événement"], reponse: 1, explication: "La boucle (répéter n fois, jusqu'à, indéfiniment) répète un bloc d'instructions." },
-        { type: "saisie", question: "Pour tracer un hexagone régulier (6 côtés) avec un lutin, de combien de degrés doit-il tourner après chaque côté ? (nombre seul)", reponses: ["60 degrés"], explication: "360 ÷ 6 = **60 degrés**." },
+        { type: "saisie", question: "Pour tracer un hexagone régulier (6 côtés) avec un lutin, de combien de degrés doit-il tourner après chaque côté ? (nombre seul)", reponses: ["60 degrés", "60°", "60 °"], explication: "360 ÷ 6 = **60 degrés**." },
         { type: "vf", question: "« Quand le drapeau vert est cliqué » est un bloc d'événement.", reponse: true, explication: "Ce bloc déclenche le script lorsqu'un événement se produit (le clic sur le drapeau)." },
         { type: "saisie", question: "score = 5. Le programme exécute : répéter 4 fois « ajouter 3 à score ». Quelle est la valeur finale de score ?", reponses: ["17"], explication: "5 + 4 × 3 = 5 + 12 = **17**." },
         { type: "qcm", question: "Un robot doit s'arrêter quand il détecte un obstacle à moins de 10 cm. Quelle boucle est la plus adaptée ?", choix: ["répéter 10 fois", "répéter 0 fois", "aucune boucle", "répéter jusqu'à distance inférieure à 10"], reponse: 3, explication: "On ne sait pas combien de fois avancer : on répète **jusqu'à** ce que la condition (obstacle proche) soit vraie." },
@@ -460,7 +462,7 @@ Un **bug** est une erreur dans un programme. On le cherche en testant, en exécu
     {
       id: "reseaux-internet",
       titre: "Réseaux informatiques et internet",
-      theme: "Informatique et programmation",
+      theme: "Structure, fonctionnement, comportement : des objets et des systèmes techniques à comprendre",
       cours: `
 ## Qu'est-ce qu'un réseau ?
 Un **réseau informatique** est un ensemble d'appareils (ordinateurs, tablettes, imprimantes, objets connectés) reliés entre eux pour **échanger des informations** et **partager des ressources** (imprimante, fichiers, connexion internet).
@@ -517,7 +519,7 @@ Le **débit** mesure la quantité de données transmises par seconde (en bits pa
     {
       id: "projet-developpement-durable",
       titre: "Démarche de projet et développement durable",
-      theme: "Design, innovation et créativité",
+      theme: "Création, conception, réalisation, innovations : des objets à concevoir et à réaliser",
       cours: `
 ## La démarche de projet
 En technologie, on conçoit et réalise des objets **en équipe**, en suivant une démarche de projet :
@@ -576,7 +578,7 @@ L'**écoconception** consiste à réduire l'impact environnemental dès la conce
     {
       id: "programmer-objet",
       titre: "Programmer un objet : carte programmable, capteurs et actionneurs",
-      theme: "Informatique et programmation",
+      theme: "Structure, fonctionnement, comportement : des objets et des systèmes techniques à comprendre",
       cours: `
 ## La carte programmable
 Une **carte programmable** (micro:bit, Arduino...) contient un **microcontrôleur** : un petit ordinateur qui exécute un programme. On écrit le programme par blocs sur l'ordinateur, puis on le **téléverse** (on le transfère) dans la carte, par câble USB.
