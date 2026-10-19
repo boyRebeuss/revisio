@@ -1,5 +1,5 @@
 // Réseau d'abord (contenu toujours à jour), cache en secours hors connexion.
-const CACHE = "revisio-v1";
+const CACHE = "revisio-v2";
 const SOCLE = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
   "js/app.js", "js/dom.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js",
@@ -22,7 +22,7 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
   e.respondWith(
-    fetch(e.request)
+    fetch(e.request, { cache: "no-cache" })
       .then((r) => {
         if (r.ok) {
           const copie = r.clone();
