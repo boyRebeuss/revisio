@@ -155,6 +155,7 @@ En Autriche et en Bavière, on dit souvent **Grüß Gott!** (bonjour) et **Servu
         { type: "qcm", question: "Quelle salutation entend-on surtout en Suisse alémanique ?", choix: ["Grüezi!", "Servus!", "Moin!", "Grüß Gott!"], reponse: 0, explication: "**Grüezi!** est le « bonjour » suisse alémanique. *Grüß Gott* et *Servus* sont typiques de l'Autriche et de la Bavière ; *Moin* du nord de l'Allemagne." },
         { type: "saisie", question: "Traduis poliment : « Comment allez-vous ? »", reponses: ["Wie geht es Ihnen?", "Wie geht es Ihnen", "Wie geht's Ihnen?", "Wie geht's Ihnen"], explication: "**Wie geht es Ihnen?** est la forme polie (*Ihnen* = à vous, avec majuscule). À un ami : *Wie geht es dir?* ou *Wie geht's?*" },
         { type: "redaction", question: "Écris un petit texte de présentation (5 à 6 phrases) pour ton correspondant allemand : salue-le, donne ton nom, ton âge, ton pays, ta ville, les langues que tu parles, puis demande-lui comment il s'appelle et quel âge il a.", corrige: "**Modèle :**\n\n*Hallo! Ich heiße Inès. Ich bin zwölf Jahre alt. Ich komme aus Frankreich und ich wohne in Toulouse. Ich spreche Französisch, Englisch und ein bisschen Deutsch. Und du? Wie heißt du und wie alt bist du? Tschüs!*\n\nPoints à vérifier :\n- **Ich heiße** + prénom ; **Ich bin** + âge (pas *ich habe*) ;\n- **aus** + pays (*aus Frankreich*), **in** + ville (*in Toulouse*) ;\n- les noms de langues ont une majuscule (*Französisch*, *Deutsch*) ;\n- les questions commencent par le mot interrogatif suivi du verbe : *Wie heißt du?* *Wie alt bist du?*" },
+        { type: "qcm", question: "**Compréhension.** Lis le texte : « *Hallo! Ich heiße Jonas. Ich bin dreizehn Jahre alt. Ich komme aus Österreich, aber ich wohne jetzt in München. Ich spreche Deutsch, Englisch und ein bisschen Französisch.* » Quelle affirmation est vraie ?", choix: ["Jonas a 30 ans et vient d'Allemagne.", "Jonas a 13 ans et habite à Munich.", "Jonas habite en Autriche et parle très bien français.", "Jonas a 12 ans et vient de Munich."], reponse: 1, explication: "*dreizehn* = 13 (et non *dreißig*, 30) ; *Ich komme aus Österreich* = il **vient** d'Autriche, *ich wohne jetzt in München* = il **habite** maintenant à Munich ; *ein bisschen Französisch* = **un peu** de français." },
       ],
     },
     {
@@ -297,6 +298,7 @@ Familier : *Papa*, *Mama*. Familles modernes : *der Stiefvater* (beau-père), *d
         { type: "saisie", question: "Traduis : « Je suis enfant unique. »", reponses: ["Ich bin Einzelkind.", "Ich bin Einzelkind", "Ich bin ein Einzelkind", "Ich bin ein Einzelkind."], explication: "**Ich bin Einzelkind** (on peut aussi dire *ein Einzelkind*). *das Einzelkind* = l'enfant unique." },
         { type: "qcm", question: "Quel est l'article de *Pferd* (cheval) ?", choix: ["der", "die", "das", "den"], reponse: 2, explication: "**das Pferd** est neutre ; pronom : *es*. Pluriel : *die Pferde*." },
         { type: "redaction", question: "Présente ta famille en 6 phrases (réelle ou imaginaire) : combien de frères et sœurs, leurs prénoms et âges, le prénom de tes parents, et ton animal (ou celui que tu aimerais).", corrige: "**Modèle :**\n\n*Ich heiße Hugo. In meiner Familie sind wir fünf. Ich habe einen Bruder und eine Schwester. Mein Bruder heißt Tom, er ist sechzehn Jahre alt. Meine Schwester heißt Jade, sie ist neun. Meine Eltern heißen Paul und Claire. Wir haben eine Katze. Sie heißt Mimi und sie ist grau. Mein Lieblingstier ist aber das Pferd.*\n\nPoints à vérifier :\n- **einen Bruder**, **eine Schwester**, **ein Pferd** après *haben* ;\n- **mein** Bruder / **meine** Schwester / **meine** Eltern ;\n- les pronoms : *Bruder* → **er**, *Schwester* / *Katze* → **sie** ;\n- l'âge avec **sein** : *er ist sechzehn*." },
+        { type: "saisie", question: "**Compréhension.** Lis le texte : « *Das ist Mia. Sie ist zwölf. Sie hat einen Bruder, Leon, und zwei Schwestern, Emma und Lina. Ihre Eltern heißen Jan und Sara. Die Familie hat einen Hund und zwei Katzen.* » Combien Mia a-t-elle de frères et sœurs ? (écris le nombre en chiffres)", reponses: ["3", "drei"], explication: "*einen Bruder* (1 frère) + *zwei Schwestern* (2 sœurs) = **3** frères et sœurs (*Geschwister*). *Jan* et *Sara* sont ses parents (*Ihre Eltern*), et la famille a 1 chien et 2 chats." },
       ],
     },
     {
@@ -571,6 +573,7 @@ Les noms de matières s'emploient **sans article** : *Ich habe Mathe.* *Ich mag 
         { type: "saisie", question: "Complète : « Mein ___ ist Musik. » (Ma matière préférée est la musique.)", reponses: ["Lieblingsfach"], explication: "**das Lieblingsfach** = la matière préférée (*Liebling* = préféré + *das Fach* = la matière)." },
         { type: "saisie", question: "Traduis « la récréation » (avec l'article).", reponses: ["die Pause"], explication: "**die Pause** = la récréation (ou la pause). *In der Pause spielen wir Fußball.*" },
         { type: "redaction", question: "Décris ta journée du mardi au collège en 6 phrases : heure de début et de fin, les matières dans l'ordre (*in der ersten / zweiten Stunde…*), ce que tu fais à la récréation, et ton avis sur deux matières.", corrige: "**Modèle :**\n\n*Am Dienstag beginnt die Schule um acht Uhr. In der ersten Stunde habe ich Französisch und in der zweiten Stunde habe ich Mathe. Dann ist Pause. Ich spiele mit meinen Freunden. Danach habe ich zwei Stunden Sport. Ich finde Sport super, aber Mathe finde ich schwer. Am Nachmittag habe ich Deutsch und Geschichte, und die Schule endet um siebzehn Uhr.*\n\nPoints à vérifier :\n- l'inversion après *Am Dienstag*, *In der ersten Stunde*, *Dann*, *Danach* (verbe en 2e position) ;\n- les matières sans article ;\n- *um* + heure ;\n- *Ich finde … super / schwer*." },
+        { type: "vf", question: "**Compréhension.** Lis le dialogue : « *Lena: Wann hast du Mathe? – Tim: Am Montag und am Donnerstag. Mathe finde ich toll! – Lena: Und Deutsch? – Tim: Deutsch habe ich am Dienstag. Das finde ich langweilig.* » Vrai ou faux : Tim aime l'allemand.", reponse: false, explication: "Tim trouve l'allemand **langweilig** (ennuyeux). Ce qu'il trouve génial (*toll*), ce sont les maths, qu'il a le lundi et le jeudi ; l'allemand, il l'a le mardi (*am Dienstag*)." },
       ],
     },
     {
@@ -642,6 +645,7 @@ Négation : *Ich mag **keine** Tomaten.* (devant un nom sans article) – *Ich m
         { type: "qcm", question: "Quelle phrase utilise correctement l'inversion ?", choix: ["Am liebsten ich spiele Gitarre.", "Am liebsten spiele ich Gitarre.", "Am liebsten spiele Gitarre ich.", "Ich am liebsten spiele Gitarre."], reponse: 1, explication: "*Am liebsten* (1) **spiele** (2) **ich** (3) *Gitarre* : verbe en 2e position, sujet juste après." },
         { type: "saisie", question: "Traduis « faire du vélo » (2 mots, verbe à l'infinitif).", reponses: ["Rad fahren", "Fahrrad fahren"], explication: "**Rad fahren** (ou *Fahrrad fahren*) : *Ich fahre gern Rad.* *fahren* : du fährst, er fährt." },
         { type: "redaction", question: "Parle de tes loisirs en 6 à 7 phrases : ce que tu aimes faire (*gern*), ce que tu préfères (*lieber*), ton activité favorite (*am liebsten*), ce que tu n'aimes pas faire, une chose que tu aimes avec *mögen*, et ton avis (*Ich finde…*). Ajoute une fréquence (*oft, manchmal…*).", corrige: "**Modèle :**\n\n*In meiner Freizeit spiele ich gern Basketball. Ich höre auch gern Musik. Aber ich lese lieber Mangas. Am liebsten tanze ich. Ich tanze dreimal pro Woche. Ich schwimme nicht gern, das finde ich langweilig. Ich mag Hip-Hop und ich finde Tanzen super, das macht Spaß! Am Wochenende treffe ich oft meine Freunde.*\n\nPoints à vérifier :\n- **gern / lieber / am liebsten** après le verbe (ou *Am liebsten* en tête avec inversion : *Am liebsten tanze ich*) ;\n- **nicht gern** pour ce qu'on n'aime pas ;\n- **mögen** + nom (*Ich mag Hip-Hop*) ;\n- inversion après *In meiner Freizeit*, *Am Wochenende*." },
+        { type: "qcm", question: "**Compréhension.** Lis le texte : « *Ich heiße Paula. In meiner Freizeit spiele ich gern Tennis, aber ich schwimme lieber. Am liebsten reite ich: ich habe ein Pferd! Ich lese nicht gern.* » Quelle est l'activité **préférée** de Paula ?", choix: ["le tennis", "la natation", "l'équitation", "la lecture"], reponse: 2, explication: "**Am liebsten reite ich** = ce qu'elle aime le plus, c'est monter à cheval. Gradation : *gern* (tennis) → *lieber* (natation) → **am liebsten** (équitation). Elle n'aime pas lire (*nicht gern*)." },
       ],
     },
     {
@@ -917,6 +921,7 @@ Ajoute *bitte* pour être poli : *Komm bitte!* *Öffnen Sie bitte das Fenster!* 
         { type: "qcm", question: "Comment dis-tu poliment à un adulte « Allez tout droit » ?", choix: ["Geh geradeaus!", "Gehen Sie geradeaus!", "Geht geradeaus!", "Sie gehen geradeaus!"], reponse: 1, explication: "Impératif de politesse : **verbe + Sie** : *Gehen Sie geradeaus!* (*Geh!* = du, *Geht!* = ihr.)" },
         { type: "vf", question: "« Sei leise! » est l'impératif de *sein* à la 2e personne du singulier.", reponse: true, explication: "*sein* est irrégulier : **Sei!** (du), **Seid!** (ihr), **Seien Sie!** (Sie). *Sei leise!* = Sois silencieux !" },
         { type: "redaction", question: "Un touriste te demande, devant ton collège : « Entschuldigung, wie komme ich zum Bahnhof? ». Écris le dialogue (6 à 8 répliques) : il demande, tu indiques le chemin en le vouvoyant (impératif avec *Sie* : tout droit, au feu à droite, 2e rue à gauche…), tu précises que ce n'est pas loin et qu'il peut prendre le bus.", corrige: "**Modèle :**\n\n- *Tourist : Entschuldigung, wie komme ich zum Bahnhof?*\n- *Ich : Gehen Sie hier geradeaus bis zur Ampel.*\n- *Ich : An der Ampel gehen Sie nach rechts.*\n- *Ich : Nehmen Sie dann die zweite Straße links.*\n- *Ich : Der Bahnhof ist auf der rechten Seite, gegenüber vom Park.*\n- *Tourist : Ist das weit?*\n- *Ich : Nein, das ist nicht weit, nur zehn Minuten zu Fuß. Sie können auch mit dem Bus fahren, die Haltestelle ist dort.*\n- *Tourist : Vielen Dank! – Ich : Bitte schön! Auf Wiedersehen!*\n\nPoints à vérifier : impératif de politesse **verbe + Sie** (*Gehen Sie*, *Nehmen Sie*) ; *zum Bahnhof* (masc.) ; *geradeaus, rechts, links* ; *mit dem Bus* ; modal + infinitif (*Sie können … fahren*)." },
+        { type: "qcm", question: "**Compréhension.** Une passante t'explique : « *Gehen Sie geradeaus bis zur Ampel. An der Ampel gehen Sie nach links. Dann nehmen Sie die erste Straße rechts. Das Kino ist auf der linken Seite.* » Quel est le bon trajet ?", choix: ["À gauche jusqu'au feu, puis tout droit ; le cinéma est à droite.", "Tout droit jusqu'au feu, à gauche au feu, puis la 1re rue à droite ; le cinéma est à gauche.", "Tout droit jusqu'au feu, à droite au feu, puis la 1re rue à gauche ; le cinéma est à gauche.", "Tout droit jusqu'au pont, à gauche, puis la 2e rue à droite ; le cinéma est à droite."], reponse: 1, explication: "*geradeaus bis zur Ampel* = tout droit jusqu'au feu ; *nach links* = à gauche ; *die erste Straße rechts* = la 1re rue à droite ; *auf der linken Seite* = sur le côté gauche. Attention à ne pas inverser *links* et *rechts*." },
       ],
     },
     {
@@ -1038,6 +1043,128 @@ Beaucoup de verbes allemands commencent par une petite **particule** (*auf, an, 
         { type: "qcm", question: "Mets à l'impératif (*du*) : *aufräumen* + *dein Zimmer*.", choix: ["Aufräum dein Zimmer!", "Räum dein Zimmer auf!", "Räumst dein Zimmer auf!", "Du räumst auf dein Zimmer!"], reponse: 1, explication: "Impératif *du* : radical sans *-st* en 1re position, particule à la fin : **Räum dein Zimmer auf!**" },
         { type: "saisie", question: "Transforme en question fermée : « Du kommst mit. »", reponses: ["Kommst du mit?", "Kommst du mit"], explication: "Question oui/non : le verbe conjugué en 1re position, la particule toujours à la fin : **Kommst du mit?**" },
         { type: "redaction", question: "Raconte ta journée d'école en 7 phrases, dans l'ordre, avec les heures. Utilise au moins 3 verbes à particule séparable (*aufstehen, fernsehen, aufräumen, anrufen…*) et les mots *zuerst, dann, danach*.", corrige: "**Modèle :**\n\n*Ich stehe um sieben Uhr auf. Zuerst frühstücke ich: ich esse ein Brötchen und trinke Kakao. Dann gehe ich zu Fuß zur Schule. Die Schule beginnt um acht Uhr. Mittags esse ich in der Kantine. Danach mache ich meine Hausaufgaben und ich räume mein Zimmer auf. Am Abend sehe ich ein bisschen fern und um neun Uhr gehe ich ins Bett.*\n\nPoints à vérifier :\n- verbe conjugué en 2e position, **particule à la fin** (*stehe … auf*, *räume … auf*, *sehe … fern*) ;\n- **inversion** après *Zuerst, Dann, Danach, Mittags, Am Abend* ;\n- *frühstücken* n'est pas séparable ;\n- **um** + heure." },
+        { type: "qcm", question: "**Compréhension.** Lis le texte : « *Ich heiße Max. Ich stehe um halb sieben auf. Zuerst frühstücke ich, dann gehe ich zu Fuß zur Schule. Die Schule beginnt um acht Uhr. Am Nachmittag mache ich meine Hausaufgaben und am Abend sehe ich fern. Um neun Uhr gehe ich ins Bett.* » À quelle heure Max se lève-t-il ?", choix: ["à 7 h 30", "à 6 h", "à 8 h", "à 6 h 30"], reponse: 3, explication: "*Ich stehe um **halb sieben** auf* : *halb sieben* = la moitié du chemin vers 7 heures, donc **6 h 30** (piège : pas 7 h 30). 8 h est l'heure du début des cours." },
+        { type: "vf", question: "**Compréhension** (même texte) : « *… Am Nachmittag mache ich meine Hausaufgaben und am Abend sehe ich fern. Um neun Uhr gehe ich ins Bett.* » Vrai ou faux : Max regarde la télévision l'après-midi.", reponse: false, explication: "L'après-midi (*am Nachmittag*), Max fait ses **devoirs** ; il regarde la télé (*sehe … fern*, verbe *fernsehen*) **le soir** (*am Abend*), avant de se coucher à 21 h." },
+      ],
+    },
+    {
+      id: "vetements-couleurs-meteo",
+      titre: "Les vêtements, les couleurs et la météo",
+      theme: "Mon quotidien",
+      cours: `
+## Les couleurs (die Farben)
+| Allemand | Français | Allemand | Français |
+|---|---|---|---|
+| rot | rouge | weiß | blanc |
+| blau | bleu | braun | marron, brun |
+| grün | vert | grau | gris |
+| gelb | jaune | rosa | rose |
+| schwarz | noir | lila | violet |
+| orange | orange | bunt | multicolore |
+
+- **hell-** (clair) et **dunkel-** (foncé) se collent devant la couleur, en un seul mot : *hellblau* (bleu clair), *dunkelgrün* (vert foncé), *hellgrau*, *dunkelrot*.
+- *Welche Farbe hat dein Rucksack?* (De quelle couleur est ton sac à dos ?) → *Er ist schwarz.*
+- Employée comme **nom**, la couleur est neutre et prend une **majuscule** : *Meine Lieblingsfarbe ist Grün.* – *Haben Sie die Jacke auch in Rot?*
+
+## Les vêtements (die Kleidung)
+Comme toujours, apprends chaque nom avec son **article** et son **pluriel**.
+| Masculin (der) | Féminin (die) | Neutre (das) |
+|---|---|---|
+| der Pullover / der Pulli – die Pullover / die Pullis (pull) | die Hose – die Hosen (pantalon) | das T-Shirt – die T-Shirts |
+| der Rock – die Röcke (jupe) | die Jeans – die Jeans (jean) | das Kleid – die Kleider (robe) |
+| der Mantel – die Mäntel (manteau) | die Jacke – die Jacken (veste, blouson) | das Hemd – die Hemden (chemise) |
+| der Schal – die Schals (écharpe) | die Bluse – die Blusen (chemisier) | |
+| der Schuh – die Schuhe (chaussure) | die Mütze – die Mützen (bonnet) | |
+| der Turnschuh – die Turnschuhe (basket) | die Socke – die Socken (chaussette) | |
+| der Stiefel – die Stiefel (botte) | | |
+| der Handschuh – die Handschuhe (gant) | | |
+
+Rappel : *die Brille* (les lunettes) est un **singulier** en allemand : *Er trägt eine Brille.* À l'inverse, *die Shorts* (le short) s'emploie le plus souvent au **pluriel** : *Die Shorts sind grau.*
+
+## Porter et mettre : tragen, anziehen
+- **tragen** (porter) est un **verbe fort** (a → ä), comme *fahren* : ich trage, du **trägst**, er/sie/es **trägt**, wir tragen, ihr tragt, sie/Sie tragen.
+- **anziehen** (mettre un vêtement) est **séparable** : *Ich **ziehe** meinen Mantel **an**.* – *Es ist kalt, **zieh** deine Mütze **an**!* Son contraire : **ausziehen** (enlever) : *Ich ziehe die Schuhe aus.*
+- Le vêtement est un COD : il se met à l'**accusatif** (seul le masculin change) : *Ich trage **einen** Rock, **eine** Bluse und **ein** T-Shirt.*
+
+>! **Was trägst du heute?** (Qu'est-ce que tu portes aujourd'hui ?)
+>! *Heute trage ich eine Jeans, einen Pullover und Turnschuhe. Die Jeans ist dunkelblau, der Pullover ist grün und die Turnschuhe sind weiß.*
+>! Pour reprendre le vêtement, le pronom suit son genre : *der Pullover* → **er**, *die Hose* → **sie**, *das Kleid* → **es**, *die Schuhe* → **sie**.
+
+## La couleur après sein : l'adjectif reste invariable
+Comme pour décrire quelqu'un (*Sie ist groß*), l'adjectif **attribut** (après *sein*) ne s'accorde **jamais** :
+- *Die Hose ist blau.* – *Der Mantel ist schwarz.* – *Das Kleid ist rosa.* – *Die Schuhe sind braun.*
+- Seul le verbe change au pluriel : *ist* → **sind**.
+
+>! **Pour aller plus loin** : placé **devant** le nom, l'adjectif prend une terminaison (*ein roter Pullover, eine blaue Hose, ein grünes T-Shirt*). Ce n'est pas au programme de cette année : utilise plutôt la construction avec *sein* : *Ich trage einen Pullover. Er ist rot.* (Tu connais déjà le cas simple *Er hat blaue Augen*.) Les couleurs *rosa*, *lila* et *orange* ne prennent jamais de terminaison.
+
+## Dire qu'un vêtement plaît : gefallen
+*gefallen* (plaire) se construit **comme en français** : la chose qui plaît est le **sujet**, et la personne est *mir* (à moi), *dir* (à toi), *Ihnen* (à vous, poli).
+- *Die Jacke **gefällt** mir.* (La veste me plaît.) – *Der Rock gefällt mir nicht.*
+- Au pluriel : *Die Schuhe **gefallen** mir.* (Les chaussures me plaisent.)
+- *Gefällt dir das Kleid?* – *Ja, es gefällt mir sehr!* / *Nein, es gefällt mir nicht.*
+
+C'est un verbe fort (a → ä) : *es gefällt*, mais *sie gefallen*.
+
+## La météo (das Wetter)
+- *Wie ist das Wetter heute?* (Quel temps fait-il aujourd'hui ?)
+| Allemand | Français |
+|---|---|
+| Die Sonne scheint. / Es ist sonnig. | Le soleil brille. / Il fait beau. |
+| Es regnet. (der Regen) | Il pleut. (la pluie) |
+| Es schneit. (der Schnee) | Il neige. (la neige) |
+| Es ist windig. (der Wind) | Il y a du vent. |
+| Es ist bewölkt. (die Wolke, die Wolken) | C'est nuageux. |
+| Es ist neblig. (der Nebel) | Il y a du brouillard. |
+| Es gibt ein Gewitter. | Il y a un orage. |
+| Es ist kalt / kühl / warm / heiß. | Il fait froid / frais / chaud / très chaud. |
+| Das Wetter ist schön / schlecht. | Il fait beau / mauvais. |
+
+- La température : *Es ist zwanzig Grad.* ou *Es sind zwanzig Grad.* (20 °C) – *Es ist minus fünf Grad.* (−5 °C) – *null Grad* (0 °C). Question : *Wie warm ist es?*
+- *es* reste le sujet : avec l'inversion, il passe après le verbe : ***Heute regnet es.*** – *Im Winter **schneit es** oft.* – *Morgen **ist es** warm.*
+- *der Regenschirm* = le parapluie : *Es regnet, nimm deinen Regenschirm!*
+
+## Les saisons et les mois
+Tu les as vus dans le chapitre « Les nombres, la date et l'heure » : *der Frühling, der Sommer, der Herbst, der Winter* ; **im** + saison ou mois.
+- *Im Sommer ist es heiß. Ich trage ein T-Shirt und Shorts.*
+- *Im Winter ist es kalt und es schneit. Ich ziehe einen Mantel, eine Mütze und Handschuhe an.*
+- *Im April regnet es oft.* – *Im Herbst ist es windig.*
+
+## Dans un magasin de vêtements (im Geschäft)
+- *Verkäuferin : Guten Tag! Kann ich Ihnen helfen?* (Je peux vous aider ?)
+- *Kunde : Ja, ich suche einen Pullover.* (Je cherche un pull.)
+- *Verkäuferin : Welche Größe? Und welche Farbe?* (Quelle taille ? Et quelle couleur ?)
+- *Kunde : Größe M, bitte. Haben Sie den Pullover in Blau?*
+- *Verkäuferin : Ja, hier bitte.*
+- *Kunde : Kann ich ihn anprobieren?* (Je peux l'essayer ?)
+- *Kunde : Er gefällt mir. Was kostet er?*
+- *Verkäuferin : Er kostet neunundzwanzig Euro.* (29 €)
+- *Kunde : Das ist nicht teuer. Ich nehme ihn.* (Je le prends.)
+
+Au pluriel : *Was **kosten** die Schuhe? – Sie **kosten** sechzig Euro.* Avis sur le prix : *teuer* (cher), *zu teuer* (trop cher), *billig* (bon marché). Tu réutilises ici *Was kostet das?*, le modal + infinitif à la fin (*Kann ich ihn anprobieren?*) et l'accusatif (*einen Pullover*, *ihn*).
+
+> **À retenir** : couleurs *rot, blau, grün, gelb, schwarz, weiß, braun, grau, rosa, lila, orange* ; *hellblau, dunkelgrün*. Vêtements avec article et pluriel (*der Rock – die Röcke*). *tragen* : du **trägst**, er **trägt** ; *anziehen* séparable : *Ich ziehe die Jacke an.* Attribut invariable : *Die Hose ist blau.* *Die Jacke gefällt mir / Die Schuhe gefallen mir.* Météo : *Es regnet, es schneit, die Sonne scheint, es ist kalt, es sind 20 Grad.* *Was kostet…? – Das kostet 20 Euro.*
+
+### Erreurs fréquentes
+- *Die Hose ist blaue* → *Die Hose ist **blau*** (attribut invariable).
+- *er tragt* → *er **trägt*** (verbe fort).
+- *Ich anziehe meine Jacke* → *Ich **ziehe** meine Jacke **an***.
+- *Ich gefalle die Jacke* → *Die Jacke **gefällt mir*** (la chose est le sujet).
+- *Heute es regnet* → *Heute **regnet es***.
+- *Ich trage ein Pullover* → *Ich trage **einen** Pullover* (accusatif masculin).
+`,
+      exercices: [
+        { type: "qcm", question: "Que signifie la couleur *gelb* ?", choix: ["vert", "gris", "jaune", "bleu"], reponse: 2, explication: "**gelb** = jaune. Vert = *grün*, gris = *grau*, bleu = *blau*." },
+        { type: "saisie", question: "Écris le pluriel de *der Rock* (la jupe), avec l'article.", reponses: ["die Röcke", "die Roecke"], explication: "*der Rock* → **die Röcke** : pluriel en **-e** avec Umlaut (o → ö), comme *der Stuhl → die Stühle*. L'article pluriel est toujours *die*." },
+        { type: "qcm", question: "Complète : « Mein Vater ___ heute einen Mantel. » (*tragen*)", choix: ["tragt", "trägt", "trägst", "tragen"], reponse: 1, explication: "*tragen* est un verbe fort (a → ä) avec *du* et *er/sie/es* : **er trägt** (*Mein Vater* = er). *du trägst*, *ihr tragt*, *sie tragen*." },
+        { type: "vf", question: "*Die Hose ist blaue.* est une phrase correcte.", reponse: false, explication: "Après *sein*, l'adjectif attribut est **invariable** : *Die Hose ist **blau**.* Au pluriel aussi : *Die Schuhe sind blau.*" },
+        { type: "saisie", question: "Complète avec la particule : « Es ist kalt. Ich ziehe meinen Mantel ___. » (*anziehen*)", reponses: ["an"], explication: "*an|ziehen* est séparable : le verbe conjugué *ziehe* est en 2e position et la particule **an** va à la fin : *Ich ziehe meinen Mantel an.*" },
+        { type: "qcm", question: "Complète : « Die Schuhe ___ mir. » (Les chaussures me plaisent.)", choix: ["gefallen", "gefällt", "gefällst", "gefalle"], reponse: 0, explication: "Avec *gefallen*, la chose qui plaît est le **sujet** : *die Schuhe* est pluriel → **gefallen**. Au singulier : *Die Jacke gefällt mir.*" },
+        { type: "qcm", question: "Il fait −5 °C et des flocons tombent. Quelle phrase décrit le temps ?", choix: ["Es ist heiß und die Sonne scheint.", "Es regnet und es ist warm.", "Es ist windig und es ist warm.", "Es schneit und es ist kalt."], reponse: 3, explication: "**Es schneit** = il neige, **es ist kalt** = il fait froid. *heiß* = très chaud, *es regnet* = il pleut, *windig* = venteux." },
+        { type: "saisie", question: "Traduis : « Aujourd'hui, il pleut. » (commence par *Heute*)", reponses: ["Heute regnet es.", "Heute regnet es"], explication: "*Heute* (1) **regnet** (2) **es** (3) : après *Heute*, le sujet *es* passe derrière le verbe (inversion). *Heute es regnet* est faux." },
+        { type: "saisie", question: "Dans un magasin, demande : « Combien coûte le pantalon ? »", reponses: ["Was kostet die Hose?", "Was kostet die Hose", "Wie viel kostet die Hose?", "Wie viel kostet die Hose"], explication: "**Was kostet die Hose?** (*die Hose* est féminin et singulier). Réponse : *Sie kostet 35 Euro.* Au pluriel : *Was kosten die Schuhe?*" },
+        { type: "redaction", question: "Écris un message de 7 à 8 phrases à ton correspondant : dis quel temps il fait chez toi aujourd'hui (avec la température) et quelle est la saison, décris ce que tu portes (au moins 3 vêtements, avec *tragen* et la couleur après *sein*), dis ce que tu mets quand il fait froid (*anziehen*), parle d'un vêtement qui te plaît (*gefallen*), puis pose-lui la question *Was trägst du heute?*", corrige: "**Modèle :**\n\n*Hallo Jonas!*\n\n*Hier in Lille ist das Wetter heute schlecht: es regnet und es ist windig. Es sind nur acht Grad. Es ist Herbst, und im November regnet es oft. Heute trage ich eine Jeans, einen Pullover und Turnschuhe. Der Pullover ist dunkelgrün und die Turnschuhe sind weiß. Morgen ist es kalt, dann ziehe ich meinen Mantel und meine Mütze an. Meine Jacke gefällt mir sehr: sie ist rot und warm. Und du? Wie ist das Wetter bei dir? Was trägst du heute?*\n\n*Viele Grüße!*\n*Léa*\n\nPoints à vérifier :\n- météo avec **es** : *es regnet, es ist windig, es sind acht Grad* ; inversion : *Heute ist…*, *im November regnet es* ;\n- **tragen** + accusatif : *einen Pullover* (masc.), *eine Jeans*, *Turnschuhe* (pluriel sans article) ;\n- couleur **invariable** après *sein* : *Der Pullover ist dunkelgrün*, *die Turnschuhe sind weiß* ;\n- **anziehen** séparable : *ich ziehe … an* (particule à la fin) ;\n- **gefallen** : *Meine Jacke gefällt mir* (la chose est le sujet)." },
+        { type: "qcm", question: "**Compréhension.** Lis le message : « *Hallo Tom! Hier in Hamburg ist das Wetter heute schlecht: es regnet und es ist kalt, nur fünf Grad. Ich trage einen Mantel, eine Mütze und Stiefel. Meine Mütze ist rot und meine Stiefel sind schwarz. Morgen scheint die Sonne. Viele Grüße, Anna* » Quel temps fait-il aujourd'hui à Hambourg ?", choix: ["Il fait beau et chaud.", "Il neige et il fait −5 °C.", "Il pleut et il fait froid : 5 °C.", "Il y a du vent et du soleil."], reponse: 2, explication: "*es regnet* = il pleut, *es ist kalt* = il fait froid, *nur fünf Grad* = seulement 5 °C. Le soleil (*die Sonne scheint*), c'est pour **demain** (*morgen*)." },
+        { type: "saisie", question: "**Compréhension** (même message) : « *Ich trage einen Mantel, eine Mütze und Stiefel. Meine Mütze ist rot und meine Stiefel sind schwarz.* » De quelle couleur est le bonnet d'Anna ? Réponds en allemand, en un mot.", reponses: ["rot"], explication: "*die Mütze* = le bonnet ; *Meine Mütze ist **rot*** = rouge. Après *sein*, la couleur reste invariable (pas *rote*). Les bottes (*die Stiefel*) sont noires (*schwarz*)." },
       ],
     },
   ],

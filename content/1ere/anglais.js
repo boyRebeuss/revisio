@@ -908,7 +908,7 @@ Place du complément : *Turn off the light* ou *Turn the light off* ; mais avec 
 | a location | un emplacement | une location = *a rental* |
 | to injure | blesser | injurier = *to insult* |
 | fabric | le tissu | une fabrique = *a factory* |
-| a grape | un grain de raisin (frais) | *a raisin* = un raisin sec |
+| a raisin | un raisin sec | du raisin (frais) = *grapes* (un grain : *a grape*) |
 | achievement | une réussite | achèvement = *completion* |
 
 > **À retenir** : phrasal verb + pronom : *pick it up, turn it down*. Faux-amis à connaître absolument : *actually, eventually, sensible, library, attend, pretend, realise, lecture, deception*.
@@ -1087,6 +1087,178 @@ Les 8 corrections :
 8. *everybody have to check them* → **everybody has to check it** : *everybody* est singulier, et *it* reprend *information*.
 
 Conseil : au moment de te relire, vérifie systématiquement les articles devant les noms abstraits (*society, freedom, people, technology*) et les indénombrables.` },
+      ],
+    },
+    {
+      id: "entrainement-comprehension-ecrit",
+      titre: "Entraînement : comprendre un texte long et en rendre compte en français",
+      theme: "Méthodologie",
+      cours: `
+## Ce qu'on attend d'un compte rendu en français
+En compréhension de l'écrit, la consigne la plus fréquente est : *« Rendez compte en français de ce que vous avez compris du document. »* Le correcteur vérifie que tu as compris :
+1. **la nature et le thème** du document (article, extrait de roman, interview... ; de quoi il parle) ;
+2. **les idées principales**, dans un ordre logique ;
+3. **les détails importants** : personnes, chiffres, lieux, exemples ;
+4. **les points de vue** des différents acteurs et celui de l'auteur, ainsi que le **ton** (neutre, ironique, critique...).
+
+Plus tu donnes d'informations exactes et bien reliées entre elles, plus tu montres un niveau élevé (B1 : idées principales ; B2 : idées principales, détails, nuances et points de vue).
+
+### Méthode
+- 1re lecture : titre, source, paragraphes : qui ? quoi ? où ? quand ? pourquoi ?
+- 2e lecture : souligne les chiffres, les noms, les connecteurs (*however, but, although*) qui signalent un changement de point de vue.
+- Fais un plan rapide (une ligne par idée), puis **rédige en français correct**, avec tes propres mots.
+
+### Les erreurs à éviter
+- traduire le texte phrase par phrase (ce n'est pas une traduction !) ;
+- recopier des passages en anglais ;
+- donner ton avis personnel si la consigne ne le demande pas ;
+- inventer ou extrapoler : chaque information doit être dans le texte ;
+- oublier qui dit quoi : *Leah pense que...*, *selon le directeur...*
+
+## Le texte d'entraînement
+*Article de presse fictif, rédigé pour l'entraînement et inspiré de débats réels au Royaume-Uni. Axe : Citoyenneté et mondes virtuels.*
+
+### Phone-free and proud? One school's experiment
+
+**[1]** *When the bell rings at Hollins Park Academy, a secondary school in the north of England, nobody reaches for a phone. Since September, its 1,100 students have had to lock their phones in small pouches when they arrive in the morning, and they only get them back at 3.15 pm. "At first I felt naked," admits Leah, 16. "Now I actually talk to people at lunch."*
+
+**[2]** *The head teacher, Mark Doyle, decided to act after a survey revealed that two thirds of his students checked their phones during lessons and that one in four had been the victim of online bullying. "We were losing the battle for their attention," he explains. In 2024, the government in England published guidance encouraging schools to ban phones during the school day, but it left each head teacher free to decide how.*
+
+**[3]** *Six months later, the results seem encouraging. Teachers report calmer classrooms, and the number of incidents of bullying has fallen by 40%. The library, which used to be almost empty at break time, is now full. Some parents, however, remain unconvinced. "What if there's an emergency?" asks Sarah Khan, whose son has asthma. The school replies that the office phone is available at all times.*
+
+**[4]** *Not all students are converts either. Josh, 17, thinks the ban treats teenagers like children. "In two years, I'll be at university. How am I supposed to learn to manage my screen time if adults always decide for me?" he asks. Others point out that phones can be useful learning tools, for research or for language apps.*
+
+**[5]** *Experts are divided. Some researchers argue that the evidence linking smartphones and poor mental health is still limited, and that bans may simply move the problem outside the school gates. Others believe that schools have a duty to protect young people from addictive technology designed to capture their attention.*
+
+**[6]** *For Mr Doyle, the debate is not about technology itself. "We are not against phones," he insists. "We want our students to be in control of their phones, not the other way round."*
+
+### Vocabulaire utile
+| Anglais | Français |
+|---|---|
+| to reach for | tendre la main vers, attraper |
+| a pouch | une pochette, un étui |
+| a survey | une enquête, un sondage |
+| guidance | des recommandations, des consignes |
+| unconvinced | sceptique, pas convaincu |
+| a convert | un converti, un adepte |
+| the other way round | l'inverse |
+
+> **À retenir** : un compte rendu en français présente le document, hiérarchise les idées principales, donne les détails exacts (chiffres, noms) et distingue les points de vue (*selon..., d'après..., en revanche...*). On ne traduit pas, on ne recopie pas, on n'invente rien.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel est le thème principal du texte ?", choix: ["L'utilisation des téléphones portables pour apprendre les langues", "L'interdiction des téléphones dans un établissement anglais et le débat qu'elle suscite", "Une loi britannique qui interdit les téléphones aux moins de 16 ans", "Le harcèlement en ligne dans les universités britanniques"], reponse: 1, explication: "Le texte présente l'expérience de **Hollins Park Academy** (téléphones enfermés pendant la journée), ses résultats et les avis pour et contre. Il ne s'agit pas d'une loi : le gouvernement a publié des **recommandations** (*guidance*) et laisse chaque chef d'établissement décider." },
+        { type: "vf", question: "Les élèves de Hollins Park récupèrent leur téléphone à la pause déjeuner.", reponse: false, explication: "Paragraphe 1 : ils les enferment le matin et ne les récupèrent qu'à **15 h 15** (*they only get them back at 3.15 pm*). Leah dit justement qu'elle parle aux autres pendant le déjeuner." },
+        { type: "saisie", question: "D'après l'enquête du paragraphe 2, quelle proportion d'élèves regardaient leur téléphone pendant les cours ? (fraction ou pourcentage)", reponses: ["2/3", "deux tiers", "two thirds", "66 %", "67 %", "66,7 %"], explication: "*Two thirds of his students checked their phones during lessons* : **les deux tiers** des élèves (environ 67 %). Attention à ne pas confondre avec *one in four* (un sur quatre), qui concerne le harcèlement en ligne." },
+        { type: "saisie", question: "De combien le nombre d'incidents de harcèlement a-t-il baissé ? (en %)", reponses: ["40 %", "40", "40 percent", "forty per cent"], explication: "Paragraphe 3 : *the number of incidents of bullying has fallen by 40%* : une **baisse de 40 %**." },
+        { type: "qcm", question: "Pourquoi Sarah Khan n'est-elle pas convaincue ?", choix: ["Elle trouve que son fils passe trop de temps sur son téléphone.", "Elle pense que les téléphones sont utiles pour faire des recherches.", "Elle craint de ne pas pouvoir être jointe en cas d'urgence, car son fils est asthmatique.", "Elle trouve que la bibliothèque est trop fréquentée."], reponse: 2, explication: "*What if there's an emergency?* ... *whose son has asthma* : elle s'inquiète pour son fils **asthmatique** en cas d'urgence. Le lycée répond que le téléphone du secrétariat est toujours disponible." },
+        { type: "qcm", question: "Quel est l'argument de Josh contre l'interdiction ?", choix: ["Elle infantilise les adolescents et ne leur apprend pas à gérer eux-mêmes leur temps d'écran.", "Elle augmente le harcèlement en dehors du lycée.", "Elle l'empêche de rester en contact avec ses parents.", "Elle est contraire à la loi britannique."], reponse: 0, explication: "Josh pense que l'interdiction *treats teenagers like children* et demande comment apprendre à **gérer son temps d'écran** si les adultes décident toujours à sa place. L'idée que le problème se déplace hors du lycée vient des chercheurs (paragraphe 5)." },
+        { type: "vf", question: "Selon le texte, les experts s'accordent à dire que les smartphones nuisent à la santé mentale des jeunes.", reponse: false, explication: "Paragraphe 5 : *Experts are divided.* Certains chercheurs estiment que les preuves d'un lien sont **encore limitées** ; d'autres pensent que l'école doit protéger les jeunes d'une technologie addictive." },
+        { type: "qcm", question: "Dans *Now I actually talk to people at lunch*, que signifie *actually* ?", choix: ["actuellement", "en fait, vraiment", "éventuellement", "rarement"], reponse: 1, explication: "Faux-ami : *actually* = **en fait, vraiment, réellement**. Leah veut dire qu'elle parle vraiment aux autres maintenant, alors qu'avant elle regardait son téléphone." },
+        { type: "saisie", question: "Relève l'expression anglaise du dernier paragraphe qui signifie « et non l'inverse ».", reponses: ["not the other way round", "the other way round", "not the other way around", "the other way around"], explication: "*We want our students to be in control of their phones, **not the other way round*** : le directeur veut que les élèves maîtrisent leur téléphone, et non que le téléphone les maîtrise." },
+        { type: "redaction", question: "Rends compte en français, en 120 à 150 mots, de ce que tu as compris du texte *Phone-free and proud? One school's experiment*.", corrige: `Modèle de compte rendu :
+
+Ce document est un article de presse qui présente l'expérience d'un lycée du nord de l'Angleterre, Hollins Park Academy, où les téléphones portables sont interdits pendant la journée depuis septembre : les 1 100 élèves les enferment dans des pochettes le matin et les récupèrent à 15 h 15.
+
+Le directeur, Mark Doyle, a pris cette décision après une enquête : deux tiers des élèves regardaient leur téléphone en cours et un sur quatre avait été victime de harcèlement en ligne. Le gouvernement anglais encourage ce type de mesure depuis 2024, sans l'imposer.
+
+Six mois plus tard, le bilan semble positif : classes plus calmes, harcèlement en baisse de 40 %, bibliothèque pleine. Cependant, certains parents craignent de ne pas être joints en cas d'urgence, et certains élèves, comme Josh, jugent la mesure infantilisante. Les experts sont partagés. Pour le directeur, l'objectif est que les élèves maîtrisent leur téléphone, et non l'inverse.
+
+(environ 150 mots)
+
+Ce qui est valorisé :
+- présentation du document (nature, lieu, thème) dès la première phrase ;
+- idées principales dans un ordre logique : la mesure, ses causes, ses résultats, les critiques, la conclusion du directeur ;
+- détails exacts : 1 100 élèves, 15 h 15, deux tiers, un sur quatre, 40 % ;
+- points de vue distingués et attribués (directeur, parents, Josh, experts) avec des connecteurs (*cependant, pour le directeur*) ;
+- aucune traduction mot à mot, aucun avis personnel, aucune information inventée.` },
+      ],
+    },
+    {
+      id: "mediation-oral-presenter-document",
+      titre: "Médiation et oral : présenter un document",
+      theme: "Méthodologie",
+      cours: `
+## Qu'est-ce que la médiation ?
+Faire de la **médiation**, c'est **transmettre** à quelqu'un le contenu d'un document qu'il ne peut pas comprendre seul, en l'**adaptant** à ce destinataire : expliquer à un correspondant anglais un document en français, résumer pour un camarade un article anglais, présenter un document à un jury. On ne traduit pas mot à mot : on **sélectionne** l'essentiel, on **reformule** et on **explique** ce qui pourrait être obscur (sigles, références culturelles).
+
+>! Exemple : pour expliquer le « bac » à un Britannique, on ne garde pas le mot seul : *the baccalauréat, the French equivalent of A levels, the exam students take at the end of secondary school*.
+
+## Présenter un document à l'oral : un plan en 5 étapes
+1. **Présenter** : nature, auteur, source, date, thème. *This document is a cartoon by... It was published in... in 2023. It deals with...*
+2. **Décrire / résumer** : ce qu'on voit ou ce que dit le texte, du général au particulier. *In the foreground, we can see... The article explains that...*
+3. **Analyser** : le message, le point de vue, les procédés (symboles, contrastes, humour, ironie, chiffres). *The artist uses irony to... The contrast between... shows that...*
+4. **Relier à l'axe** et à tes connaissances : *This document illustrates the axis "Citizenship and virtual worlds". It reminds me of...*
+5. **Conclure** et donner ton avis nuancé : *To conclude, ... In my opinion, ... although...*
+
+Annonce ton plan dès le début : *First, I'll present the document. Then, I'll describe it. Finally, I'll explain its message and give my opinion.*
+
+## Décrire une image
+| Anglais | Français |
+|---|---|
+| in the foreground / in the background | au premier plan / à l'arrière-plan |
+| in the middle / in the centre | au milieu, au centre |
+| on the left / on the right | à gauche / à droite |
+| in the top left-hand corner | en haut à gauche |
+| at the bottom of the picture | en bas de l'image |
+| a caption / a speech bubble | une légende / une bulle |
+| a cartoon / a comic strip | un dessin humoristique / une bande dessinée |
+| it seems that... / it looks like... | on dirait que... |
+
+## Phrases utiles et pièges
+- « Ce document parle de... » = *This document **deals with / is about / focuses on**...* (et non *speaks about*).
+- « Il s'agit de... » = *It is about...*
+- « D'après l'auteur... » = *According to the author...* (et non *According to me* : on dit *In my opinion*).
+- Interaction avec l'examinateur : *Could you repeat the question, please? What do you mean by...? That's an interesting point. Let me think...*
+
+## Conseils pour l'oral
+- Parle à partir de **mots-clés** notés, pas d'un texte rédigé que tu lirais.
+- Vise 2 à 5 minutes en continu ; regarde ton auditoire.
+- Utilise des connecteurs pour rendre ton plan audible : *first, then, moreover, however, finally*.
+- Soigne l'accentuation des mots transparents : *'document, 'politics, e'conomy, tech'nology*.
+
+> **À retenir** : médiation = transmettre l'essentiel d'un document à un destinataire en l'adaptant (sélectionner, reformuler, expliquer). Présentation orale : **présenter → décrire → analyser → relier à l'axe → conclure**, plan annoncé. *This document deals with...* ; *in the foreground / background*.
+`,
+      exercices: [
+        { type: "qcm", question: "Par quoi commence une bonne présentation orale de document ?", choix: ["Par ton opinion personnelle", "Par la nature du document, sa source, sa date et son thème", "Par la description de chaque détail de l'image", "Par la lecture de ton texte rédigé à l'avance"], reponse: 1, explication: "On **présente d'abord le document** (nature, auteur, source, date, thème), puis on le décrit, on l'analyse, on le relie à l'axe, et on termine par son avis." },
+        { type: "saisie", question: "Traduis : « au premier plan »", reponses: ["in the foreground", "the foreground", "foreground"], explication: "**In the foreground** ; à l'arrière-plan = *in the background*." },
+        { type: "saisie", question: "Traduis : « à l'arrière-plan »", reponses: ["in the background", "the background", "background"], explication: "**In the background** ; au premier plan = *in the foreground*." },
+        { type: "qcm", question: "Quelle phrase introduit correctement un document ?", choix: ["This document speaks about online bullying.", "This document deals with online bullying.", "This document is talking of online bullying.", "In this document, we see about online bullying."], reponse: 1, explication: "« Ce document parle de » = **This document deals with** (ou *is about, focuses on*). *Speaks about* est un calque du français." },
+        { type: "vf", question: "En médiation, il faut traduire le document mot à mot pour ne rien oublier.", reponse: false, explication: "La médiation consiste à **sélectionner l'essentiel**, à **reformuler** et à **adapter** au destinataire (expliquer les références culturelles), et non à traduire mot à mot." },
+        { type: "saisie", question: "Complète l'annonce de plan : *First, I'll present the document; ___, I'll analyse its message; finally, I'll give my opinion.*", reponses: ["then", "next", "secondly", "second", "after that"], explication: "Connecteur d'ordre : **then** (ou *next, secondly, after that*) entre *first* et *finally*." },
+        { type: "qcm", question: "Tu n'as pas compris la question de l'examinateur. Que dis-tu ?", choix: ["What?", "Repeat.", "Could you repeat the question, please?", "I don't care."], reponse: 2, explication: "**Could you repeat the question, please?** est la formule polie attendue. Demander de répéter n'est pas pénalisé, rester silencieux l'est davantage." },
+        { type: "saisie", question: "Traduis : « D'après l'auteur, les réseaux sociaux sont dangereux. »", reponses: ["According to the author, social networks are dangerous", "According to the author, social media are dangerous", "According to the author, social media is dangerous", "According to the writer, social networks are dangerous", "According to the writer, social media are dangerous", "According to the writer, social media is dangerous"], explication: "**According to** + la personne citée. Attention : pour ton propre avis, on dit *In my opinion*, jamais *According to me*." },
+        { type: "redaction", question: "Préparation d'oral : on te donne un dessin humoristique (*cartoon*) publié dans un journal britannique en 2023. Au premier plan, une famille est assise à table pour le dîner ; chacun regarde son téléphone. À l'arrière-plan, par la fenêtre, on voit un magnifique coucher de soleil que personne ne remarque. Légende : *\"Family time.\"* Rédige en anglais le plan détaillé de ta présentation (5 étapes, avec les phrases-clés que tu prononcerais).", corrige: `Modèle de plan détaillé :
+
+1. **Presentation** : *This document is a cartoon published in a British newspaper in 2023. It deals with the place of smartphones in family life, and it is linked to the axis "Citizenship and virtual worlds" (or "Private and public spheres").*
+
+2. **Description** : *In the foreground, we can see a family sitting at the dinner table. All of them, parents and children, are looking at their phones; nobody is talking. In the background, through the window, there is a beautiful sunset, but nobody notices it. The caption says "Family time."*
+
+3. **Analysis** : *The cartoonist uses irony: the caption "Family time" contradicts the picture, because the family members are together but isolated. The contrast between the dark, silent room and the colourful sunset suggests that screens make us miss real life. The message is a criticism of screen addiction.*
+
+4. **Link with the axis and other references** : *This reminds me of the debate about phone bans in schools, and of the Black Mirror series, which shows the dangers of technology in our daily lives.*
+
+5. **Conclusion and opinion** : *To conclude, this cartoon makes us think about our own habits. In my opinion, phones are useful, but we should set rules, for example no phones at meals, in order to keep real contact with the people we love.*
+
+Ce qui est valorisé :
+- plan annoncé et respecté, connecteurs clairs ;
+- vocabulaire de la description : *in the foreground, in the background, caption* ;
+- analyse du procédé (ironie de la légende, contraste) et du message, pas seulement une description ;
+- lien avec un axe et une référence culturelle ;
+- avis personnel nuancé avec *In my opinion*.` },
+        { type: "redaction", question: "Médiation (100 mots environ, en anglais) : ton correspondant britannique, Tom, vient passer un week-end chez toi et ne lit pas le français. Il te montre cette affiche : *« Ville de Saint-Martin. À partir du 1er mai, le centre-ville sera fermé aux voitures tous les dimanches de 10 h à 18 h. Les bus seront gratuits ce jour-là. Objectif : réduire la pollution et rendre les rues aux piétons et aux cyclistes. Un marché bio s'installera place de la Mairie. »* Écris-lui un message pour lui expliquer ce que dit l'affiche et ce que cela change pour votre programme de dimanche.", corrige: `Modèle de réponse :
+
+*Hi Tom,*
+
+*The poster you saw is from the town council. It says that from 1st May, the town centre will be closed to cars every Sunday from 10 am to 6 pm. The idea is to reduce pollution and to give the streets back to pedestrians and cyclists. On Sundays, buses will be free, so we can take the bus into town without paying! There will also be an organic market on the square in front of the town hall ("place de la Mairie"). So on Sunday, let's leave the car at home, take the bus and have lunch at the market!*
+
+*See you soon,*
+*Léa*
+
+Ce qui est valorisé :
+- toutes les informations essentielles transmises : date, horaires, bus gratuits, objectif, marché ;
+- adaptation au destinataire : registre amical, explication du nom français (*the square in front of the town hall*), conséquence concrète pour le programme ;
+- reformulation, et non traduction mot à mot : *to give the streets back to pedestrians* ;
+- formats anglais : *1st May, 10 am to 6 pm* (et non « 10 h – 18 h »).` },
       ],
     },
   ],

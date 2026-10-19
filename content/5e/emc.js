@@ -59,16 +59,18 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
 ## 2. Les formes de discrimination
 - **Le racisme** : croire qu'il existe des « races » humaines hiérarchisées et rejeter des personnes pour leur origine. Les « races » humaines n'existent pas scientifiquement.
 - **L'antisémitisme** : la haine des juifs. **La haine anti-musulmans**, anti-chrétiens… : rejet lié à la religion.
+- **La xénophobie** : le rejet des étrangers. **L'antitsiganisme** : l'hostilité envers les Roms et les « gens du voyage ».
 - **Le sexisme** : discriminer en raison du sexe (souvent les femmes).
-- **L'homophobie** : rejet des personnes homosexuelles.
+- **L'homophobie** (et plus largement la **haine anti-LGBT**) : rejet des personnes homosexuelles, bisexuelles ou transgenres.
 - **Le validisme** : rejet ou exclusion des personnes en situation de **handicap**.
 
 ## 3. Les moyens de lutter
 - **La loi** : la Constitution de **1958** (article 1er) affirme que la République « assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion ».
-- **Le Défenseur des droits**, autorité indépendante créée en **2011**, aide gratuitement les victimes de discriminations.
+- **Le Défenseur des droits**, autorité indépendante inscrite dans la Constitution en **2008** et en place depuis **2011**, aide gratuitement les victimes de discriminations (on peut le saisir en ligne, par courrier ou auprès de ses délégués, y compris quand on est mineur).
 - **Les associations** (SOS Racisme, LICRA, etc.) informent, accompagnent les victimes, peuvent aller en justice.
 - **L'école** éduque à l'égalité et sanctionne les propos discriminatoires. Des aménagements (rampes, AESH qui accompagnent des élèves en situation de handicap) favorisent l'**inclusion**.
 - **Chacun** peut agir : ne pas rire d'une blague raciste, soutenir la victime, témoigner, alerter un adulte.
+- **En ligne** : les propos racistes, antisémites, sexistes ou homophobes sont punis comme ailleurs. On peut les **signaler** au réseau social et sur la plateforme **Pharos** de la police nationale.
 
 > **À retenir** :
 > - Discriminer = traiter quelqu'un défavorablement en raison d'un critère interdit (origine, sexe, religion, handicap…).
@@ -79,12 +81,21 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
       exercices: [
         { type: "qcm", question: "Qu'est-ce qu'une discrimination ?", choix: ["Une simple opinion sur quelqu'un", "Une punition donnée par un professeur", "Une dispute entre amis", "Un traitement défavorable d'une personne en raison d'un critère interdit par la loi"], reponse: 3, explication: "La discrimination est un **acte** (refus, traitement inégal) fondé sur un critère interdit, comme l'origine ou le handicap." },
         { type: "vf", question: "Refuser de louer un appartement à quelqu'un à cause de son origine est une discrimination punie par la loi.", reponse: true, explication: "L'origine fait partie des critères interdits par le Code pénal." },
-        { type: "saisie", question: "Quelle autorité indépendante, créée en 2011, aide gratuitement les victimes de discrimination ?", reponses: ["Defenseur des droits", "le Defenseur des droits"], explication: "Le Défenseur des droits peut être saisi gratuitement, y compris par un mineur." },
+        { type: "saisie", question: "Quelle autorité indépendante, en place depuis 2011, aide gratuitement les victimes de discrimination ?", reponses: ["Defenseur des droits", "le Defenseur des droits"], explication: "Le Défenseur des droits peut être saisi gratuitement, y compris par un mineur." },
         { type: "qcm", question: "Comment appelle-t-on la haine ou le rejet des juifs ?", choix: ["Le sexisme", "L'homophobie", "Le validisme", "L'antisémitisme"], reponse: 3, explication: "L'antisémitisme est puni par la loi, comme toutes les formes de racisme." },
         { type: "qcm", question: "Quelle peine maximale prévoit la loi pour une discrimination ?", choix: ["3 ans de prison et 45 000 € d'amende", "Une simple amende de 38 €", "10 ans de prison", "Aucune peine"], reponse: 0, explication: "Le Code pénal punit la discrimination de 3 ans d'emprisonnement et 45 000 € d'amende." },
         { type: "vf", question: "Un préjugé et une discrimination sont exactement la même chose.", reponse: false, explication: "Le préjugé est une **idée** ; la discrimination est un **acte** qui défavorise quelqu'un. Le premier peut mener à la seconde." },
         { type: "vf", question: "Selon la science, il n'existe pas de « races » humaines.", reponse: true, explication: "L'espèce humaine est une : les différences visibles (couleur de peau…) ne permettent pas de définir des races." },
         { type: "redaction", question: "**Paragraphe argumenté** : un employeur refuse d'embaucher une candidate parce qu'elle est en fauteuil roulant, alors que le poste est adapté. Explique de quoi il s'agit et quels recours elle a.", corrige: `Il s'agit d'une **discrimination** : l'employeur traite la candidate de façon défavorable (refus d'embauche) en raison de son **handicap**, qui est un **critère interdit** par le Code pénal (article 225-1). C'est un **délit**, puni jusqu'à **3 ans d'emprisonnement et 45 000 € d'amende**. Cette décision est contraire au principe d'**égalité** affirmé par la DDHC de 1789 et par la Constitution de 1958. La candidate peut d'abord rassembler des **preuves** (courriels, témoignages). Elle peut saisir gratuitement le **Défenseur des droits**, se faire aider par une **association** de défense des personnes handicapées, et **porter plainte** auprès de la police, de la gendarmerie ou du procureur. La justice pourra sanctionner l'employeur.` },
+        { type: "qcm", question: "Comment appelle-t-on l'hostilité envers les Roms et les « gens du voyage » ?", choix: ["La xénophobie", "L'antitsiganisme", "Le validisme", "Le sexisme"], reponse: 1, explication: "L'**antitsiganisme** vise les Roms et les gens du voyage. La **xénophobie** est le rejet des étrangers en général ; le validisme vise les personnes handicapées." },
+        { type: "vf", question: "Un message raciste publié sur un réseau social peut être signalé sur la plateforme Pharos et puni par la loi.", reponse: true, explication: "La loi s'applique aussi en ligne. **Pharos** est la plateforme de signalement des contenus illicites de la police nationale." },
+        { type: "redaction", question: "**Analyse de document** : « Article 225-1 du Code pénal : Constitue une discrimination toute distinction opérée entre les personnes physiques sur le fondement de leur origine, de leur sexe, de leur situation de famille, de leur grossesse, de leur apparence physique, [...] de leur handicap, [...] de leur orientation sexuelle, de leur identité de genre, de leur âge, de leurs opinions politiques, [...] de leur appartenance ou de leur non-appartenance, vraie ou supposée, à une ethnie, une Nation, une prétendue race ou une religion déterminée. » 1. Présente le document. 2. Relève quatre critères de discrimination interdits. 3. Pourquoi le texte écrit-il « une prétendue race » ? 4. Donne un exemple concret de discrimination et indique ce que peut faire la victime.", corrige: `**1. Présentation** : c'est un **extrait de loi**, l'article 225-1 du **Code pénal**, le recueil des lois qui définissent les infractions et leurs peines. Il donne la définition juridique de la discrimination ; il s'applique à tous, partout en France.
+
+**2. Quatre critères** (au choix) : l'**origine**, le **sexe**, la **grossesse**, l'**apparence physique**, le **handicap**, l'**orientation sexuelle**, l'**âge**, les **opinions politiques**, la **religion**…
+
+**3. « Une prétendue race »** : le mot « prétendue » signifie que les « races » humaines **n'existent pas** scientifiquement : l'espèce humaine est une seule espèce. La loi ne reconnaît donc pas les races, mais elle punit ceux qui traitent les gens différemment en croyant qu'elles existent : c'est le **racisme**.
+
+**4. Exemple** : un propriétaire refuse de louer un appartement à une famille à cause de son nom d'origine étrangère. C'est un **délit**, puni jusqu'à 3 ans de prison et 45 000 € d'amende. La victime peut rassembler des preuves, saisir gratuitement le **Défenseur des droits**, se faire aider par une **association** (SOS Racisme, LICRA…) et **porter plainte**.` },
       ],
     },
     {
@@ -149,6 +160,8 @@ Un **stéréotype de genre** attribue des qualités ou des rôles à une personn
 - Lutter contre les stéréotypes à l'école, sanctionner les inégalités salariales, aider les victimes (3919).
 
 **Conclusion** : l'égalité est acquise dans le droit, mais pas encore complètement dans les faits ; chacun peut y contribuer au quotidien.` },
+        { type: "saisie", question: "Quel est le numéro d'écoute national, gratuit et anonyme, pour les femmes victimes de violences ?", reponses: ["3919", "le 3919"], explication: "Le **3919** (Violences Femmes Info) écoute, informe et oriente les victimes et les témoins. En cas de danger immédiat, on appelle le **17** (police) ou on envoie un SMS au **114**." },
+        { type: "vf", question: "Siffler une fille dans la rue ou lui adresser des remarques sexistes répétées peut être puni par la loi.", reponse: true, explication: "L'**outrage sexiste** (propos ou comportements à connotation sexuelle ou sexiste qui humilient ou intimident) est puni d'une amende ; le **harcèlement sexuel** est un délit." },
       ],
     },
     {
@@ -501,6 +514,161 @@ Une dispute ou une bagarre ponctuelle entre deux élèves de même force n'est p
 - ONG (Médecins sans frontières), aide de l'Union européenne et de l'ONU lors des catastrophes.
 
 **Conclusion** : la solidarité repose à la fois sur l'État et sur l'engagement de chacun ; elle permet de faire vivre la fraternité.` },
+      ],
+    },
+    {
+      id: "solidarite-echelles",
+      titre: "La solidarité et ses échelles : face aux risques sociaux et environnementaux",
+      theme: "Égalité, fraternité et solidarité (programme 2024)",
+      cours: `
+## 1. Le principe de solidarité
+- Le principe de **solidarité** signifie que la **Nation** protège chacun de ses membres, libres et égaux en droits, contre les difficultés de la vie. Il découle de l'idéal de **fraternité**.
+- Le **Préambule de la Constitution de 1946** l'affirme : « La Nation proclame la solidarité et l'égalité de tous les Français devant les charges qui résultent des calamités nationales. » Il garantit aussi à tous « la protection de la santé, la sécurité matérielle, le repos et les loisirs ».
+- L'**État**, les **collectivités territoriales** (communes, départements, régions) et la **société civile** (associations, citoyens) unissent leurs forces pour **réduire les inégalités** et **protéger** contre les risques.
+
+## 2. Se protéger contre les risques sociaux
+Un **risque social** est un événement qui peut empêcher une personne de subvenir seule à ses besoins : **maladie**, **accident**, **handicap**, **perte d'emploi**, **vieillesse** et perte d'autonomie, charges d'une **famille**.
+
+| Branche de la Sécurité sociale | Ce qu'elle fait |
+|---|---|
+| Maladie | rembourse les soins, verse des indemnités en cas d'arrêt de travail |
+| Accidents du travail et maladies professionnelles | soigne et indemnise les victimes |
+| Famille | verse les allocations familiales, aide à la garde des enfants |
+| Retraite (vieillesse) | verse les pensions de retraite |
+| Autonomie (depuis 2021) | aide les personnes âgées dépendantes et les personnes handicapées |
+
+- La **Sécurité sociale** a été créée par les ordonnances d'**octobre 1945**, d'après le programme du **Conseil national de la Résistance**. Principe : chacun **cotise selon ses moyens** et **reçoit selon ses besoins**.
+- L'**assurance chômage** indemnise ceux qui ont perdu leur emploi ; le **RSA** (revenu de solidarité active) aide les personnes aux très faibles ressources.
+
+## 3. L'impôt, une participation de chacun à la solidarité
+- Les **impôts** et les **cotisations sociales** financent la solidarité nationale et les services publics (école, hôpital, police, routes…).
+- **Impôts directs** : payés directement par la personne concernée, selon ses revenus ou ses biens (impôt sur le revenu, taxe foncière). L'**impôt sur le revenu** est **progressif** : plus on gagne, plus le taux est élevé.
+- **Impôts indirects** : inclus dans le prix de ce que l'on achète ; tout le monde les paie, même un enfant qui achète un livre. La **TVA** (taxe sur la valeur ajoutée, 20 % au taux normal) est la première recette de l'État.
+- Payer l'impôt est un **devoir** du citoyen : l'article 13 de la DDHC (1789) prévoit une contribution commune « également répartie entre tous les citoyens, en raison de leurs facultés ».
+
+## 4. Être solidaire face aux risques environnementaux
+- Inondations, tempêtes, incendies de forêt, sécheresses, cyclones : avec le **changement climatique**, ces risques augmentent.
+- **Prévenir** : plans de prévention des risques, alertes météo (vigilance orange ou rouge), exercices au collège (**PPMS**).
+- **Secourir** : la **sécurité civile**, les **sapeurs-pompiers** (dont près de 8 sur 10 sont des **volontaires**), les associations de secouristes (Croix-Rouge, Protection civile).
+- **Réparer** : le régime des **catastrophes naturelles** (créé en **1982**) permet d'indemniser les victimes grâce à une petite somme prélevée sur tous les contrats d'assurance : c'est une **solidarité nationale**. Exemples : la tempête Alex dans la vallée de la Roya (2020), le cyclone **Chido** à **Mayotte** (décembre 2024).
+
+## 5. Les échelles de la solidarité
+| Échelle | Acteurs et exemples |
+|---|---|
+| Locale | la **commune** (centre communal d'action sociale, cantine à tarif réduit), le **département** (RSA, aide aux personnes âgées, aide sociale à l'enfance), les associations de quartier |
+| Nationale | l'**État** et la **Sécurité sociale** (protection sociale, bourses, aide aux sinistrés) |
+| Européenne | l'**Union européenne** : Fonds de solidarité de l'UE après une catastrophe, mécanisme européen de protection civile (envoi de pompiers et d'avions entre pays) |
+| Mondiale | l'**ONU** (UNICEF, Programme alimentaire mondial, Organisation mondiale de la santé), les **ONG** (Médecins sans frontières), l'**aide publique au développement** ; les 17 **objectifs de développement durable** (2015), dont l'ODD 3 « bonne santé et bien-être » |
+
+>! **Méthode** : pour un sujet sur la solidarité, demande-toi toujours **qui** est solidaire (État, collectivités, associations, citoyens), **envers qui** (les plus fragiles, les victimes), **comment** (argent, services, bénévolat) et **à quelle échelle** (locale, nationale, européenne, mondiale).
+
+> **À retenir** :
+> - La solidarité, liée à la fraternité, protège chacun contre les risques sociaux (maladie, chômage, vieillesse, handicap) et environnementaux (inondations, tempêtes).
+> - La Sécurité sociale (1945) repose sur les cotisations ; les impôts directs (impôt sur le revenu) et indirects (TVA) financent les services publics.
+> - La solidarité s'exerce à toutes les échelles : commune, département, État, Union européenne, monde (ONU, ONG).
+> - Vocabulaire : solidarité, risque social, cotisation, impôt direct / indirect, impôt progressif, sécurité civile, ONG.
+`,
+      exercices: [
+        { type: "qcm", question: "Lequel de ces événements est un risque social ?", choix: ["Gagner un concours", "Perdre son emploi", "Déménager dans une autre ville", "Partir en vacances"], reponse: 1, explication: "Un **risque social** empêche de subvenir seul à ses besoins : chômage, maladie, accident, handicap, vieillesse." },
+        { type: "vf", question: "La TVA est un impôt indirect : elle est incluse dans le prix des produits que l'on achète.", reponse: true, explication: "Tout consommateur paie la **TVA** en achetant ; c'est la première recette de l'État. L'impôt sur le revenu, lui, est un impôt **direct**." },
+        { type: "qcm", question: "Que signifie « l'impôt sur le revenu est progressif » ?", choix: ["Tout le monde paie la même somme", "Son taux augmente quand les revenus augmentent", "Il augmente chaque année", "Seuls les jeunes le paient"], reponse: 1, explication: "Plus on gagne, plus la part de revenu prélevée est grande : l'impôt progressif réduit les inégalités." },
+        { type: "saisie", question: "Comment s'appelle l'organisme créé en 1945 qui protège contre la maladie, les accidents du travail, la vieillesse et aide les familles ?", reponses: ["Sécurité sociale", "la Sécurité sociale", "secu", "la secu"], explication: "La **Sécurité sociale** a été créée par les ordonnances d'octobre 1945." },
+        { type: "qcm", question: "Quelle collectivité verse le RSA et s'occupe de l'aide sociale à l'enfance ?", choix: ["La commune", "La région", "Le département", "L'Union européenne"], reponse: 2, explication: "Le **département** est la collectivité de l'action sociale (RSA, personnes âgées, protection de l'enfance). La région s'occupe notamment des lycées et des transports régionaux." },
+        { type: "vf", question: "La plupart des sapeurs-pompiers en France sont des volontaires.", reponse: true, explication: "Près de 8 pompiers sur 10 sont des **volontaires** qui exercent un autre métier : c'est une forme d'engagement au service de la solidarité." },
+        { type: "qcm", question: "Après une catastrophe naturelle dans un pays européen, quel dispositif permet à d'autres pays d'envoyer des pompiers ou des avions bombardiers d'eau ?", choix: ["Le mécanisme européen de protection civile", "L'Organisation mondiale du commerce", "Le Conseil constitutionnel", "La Sécurité sociale"], reponse: 0, explication: "Le **mécanisme européen de protection civile** organise l'entraide entre pays européens ; le Fonds de solidarité de l'UE aide ensuite à reconstruire." },
+        { type: "saisie", question: "Comment appelle-t-on une association indépendante des États qui agit dans l'humanitaire, comme Médecins sans frontières ? (sigle)", reponses: ["ONG", "une ONG"], explication: "**ONG** : organisation non gouvernementale." },
+        { type: "redaction", question: "**Développement construit** : à partir de l'exemple d'une inondation qui touche ta commune, montre que la solidarité s'exerce à plusieurs échelles.", corrige: `**Introduction** : la **solidarité**, liée à la fraternité, consiste à protéger les plus fragiles. Face à une catastrophe comme une inondation, elle s'exerce à plusieurs échelles.
+
+**1. À l'échelle locale**
+- Les **sapeurs-pompiers**, souvent volontaires, secourent les habitants ; la **mairie** ouvre un gymnase pour héberger les sinistrés, le centre communal d'action sociale distribue des aides.
+- Les **associations** (Croix-Rouge, Secours populaire) et les **voisins** apportent repas, vêtements, aide au nettoyage.
+
+**2. À l'échelle nationale**
+- L'**État** envoie des renforts de sécurité civile et reconnaît l'état de **catastrophe naturelle** : les victimes sont indemnisées grâce à une somme prélevée sur tous les contrats d'assurance.
+- Les **impôts** de tous financent les services publics qui reconstruisent routes et écoles.
+
+**3. Aux échelles européenne et mondiale**
+- L'**Union européenne** peut verser une aide du Fonds de solidarité et envoyer des secours d'autres pays.
+- Pour les catastrophes les plus graves dans le monde, l'**ONU** et les **ONG** interviennent.
+
+**Conclusion** : la solidarité unit l'État, les collectivités, les associations et chaque citoyen, du quartier jusqu'au monde ; elle fait vivre la fraternité.` },
+      ],
+    },
+    {
+      id: "methode-emc-5e",
+      titre: "Méthode en EMC : débattre, analyser un document, argumenter",
+      theme: "Méthodes",
+      cours: `
+## 1. Ce qu'on attend de toi en EMC
+En EMC, il ne suffit pas de donner son avis : il faut **connaître** les règles et les valeurs de la République, **comprendre** un document, **argumenter** avec des exemples et **respecter** ceux qui ne pensent pas comme toi. Au brevet, l'EMC fait partie de l'épreuve d'histoire-géographie-EMC : tu travailleras à partir de documents et tu rédigeras une réponse argumentée.
+
+>! **Le programme de 5e (depuis la rentrée 2024)** a pour thème « Égalité, fraternité et solidarité », en deux parties : « Agir pour l'égalité femmes-hommes et lutter contre les discriminations » (chapitres sur l'égalité filles-garçons, les discriminations, le respect d'autrui, le harcèlement) et « La solidarité et ses échelles » (chapitres sur la solidarité). Les autres chapitres (valeurs de la République, laïcité, justice, engagement, internet) révisent les notions vues en 6e et préparent la 4e et la 3e.
+
+## 2. Distinguer un fait, une opinion et une valeur
+| | Définition | Exemple |
+|---|---|---|
+| Fait | ce qui est vrai et vérifiable | « La loi de 1905 sépare les Églises et l'État. » |
+| Opinion | ce qu'une personne pense, qui se discute | « Je trouve que le collège devrait commencer plus tard. » |
+| Valeur | un idéal qui guide les actions | la liberté, l'égalité, la fraternité, la justice |
+Un bon argument s'appuie sur des **faits** et des **valeurs**, pas seulement sur une opinion.
+
+## 3. Analyser un document en EMC
+1. **Présenter** : nature (texte de loi, article de presse, affiche, dessin de presse, graphique, témoignage), auteur, date, source, sujet.
+2. **Comprendre** : relever les informations utiles, citer le document entre guillemets, expliquer les mots difficiles.
+3. **Relier au cours** : quelle notion le document illustre-t-il (égalité, discrimination, solidarité, laïcité…) ? quelle loi s'applique ?
+4. **Prendre du recul** : qui parle ? dans quel but (informer, convaincre, vendre, dénoncer) ? le document est-il complet ?
+
+>! **Exemple** : une affiche du ministère contre le harcèlement → nature : affiche de campagne ; auteur : le ministère de l'Éducation nationale ; but : alerter les témoins et faire connaître le **3018** ; notion : harcèlement, rôle des témoins.
+
+## 4. Argumenter : l'idée, l'exemple, l'explication
+Un argument se construit en trois temps :
+1. **L'idée** : « La laïcité protège la liberté de chacun. »
+2. **L'exemple** précis (loi, date, situation) : « La loi de 1905 garantit le libre exercice des cultes. »
+3. **L'explication** : « Ainsi, chacun peut croire ou ne pas croire sans que l'État lui impose une religion. »
+Utilise des **connecteurs** : d'abord, ensuite, de plus, en effet, car, donc, ainsi, cependant, enfin.
+
+## 5. Le débat réglé
+- Un **débat réglé** est une discussion organisée où chacun défend des arguments en respectant des **règles** fixées à l'avance.
+- **Les rôles** : un **président de séance** (donne la parole, fait respecter le temps), des **débatteurs**, un **secrétaire** (note les arguments), des **observateurs** (évaluent le respect des règles).
+- **Les règles** : lever la main et attendre la parole ; écouter sans couper ; **reformuler** l'argument de l'autre avant de répondre (« Si je comprends bien, tu penses que… ») ; critiquer les **idées**, jamais les personnes ; pas d'insulte ni de moquerie.
+- **Préparer** : chercher des arguments pour **et** contre, avec des exemples tirés du cours et de sources fiables.
+- **Conclure** : faire la **synthèse** des arguments ; on peut changer d'avis, c'est la preuve qu'on a écouté.
+
+## 6. Le dilemme moral
+Un **dilemme moral** est une situation où il faut choisir entre deux actions qui s'appuient chacune sur une valeur. Exemple : ton meilleur ami harcèle un élève ; le dénoncer, c'est trahir l'amitié ; se taire, c'est laisser souffrir la victime. Pour réfléchir : repérer les valeurs en jeu (amitié, justice, respect, solidarité), imaginer les conséquences de chaque choix, puis justifier sa décision. Ici, protéger la victime et alerter un adulte est la réponse attendue : la dignité de la victime passe avant la loyauté envers un ami qui fait le mal.
+
+> **À retenir** :
+> - Fait (vérifiable), opinion (se discute), valeur (idéal).
+> - Un document se présente, se comprend, se relie au cours et se critique.
+> - Un argument = une idée + un exemple précis + une explication.
+> - Dans un débat réglé : demander la parole, écouter, reformuler, respecter les personnes.
+`,
+      exercices: [
+        { type: "qcm", question: "Laquelle de ces phrases est un fait ?", choix: ["« La laïcité, c'est la meilleure idée du monde. »", "« Je pense que les cours devraient durer 45 minutes. »", "« La Sécurité sociale a été créée en 1945. »", "« Le foot est plus intéressant que le basket. »"], reponse: 2, explication: "Un **fait** se vérifie (ici, par une date historique). Les autres phrases sont des **opinions**, qui se discutent." },
+        { type: "vf", question: "Dans un débat réglé, on peut couper la parole si l'on n'est pas d'accord.", reponse: false, explication: "On **demande la parole** et on **écoute** jusqu'au bout ; le président de séance la distribue." },
+        { type: "qcm", question: "Quel est le rôle du président de séance dans un débat réglé ?", choix: ["Il donne la bonne réponse", "Il distribue la parole et fait respecter les règles et le temps", "Il note les élèves", "Il défend son opinion plus longtemps que les autres"], reponse: 1, explication: "Le **président de séance** organise le débat ; le **secrétaire** note les arguments ; les **observateurs** évaluent le respect des règles." },
+        { type: "saisie", question: "Comment appelle-t-on le fait de répéter avec ses propres mots l'argument de l'autre avant de lui répondre ?", reponses: ["reformuler", "la reformulation", "reformulation"], explication: "**Reformuler** montre qu'on a écouté et évite les malentendus." },
+        { type: "qcm", question: "Quels sont les trois éléments d'un argument bien construit ?", choix: ["Une idée, un exemple précis, une explication", "Une opinion, une insulte, une conclusion", "Un titre, une image, une date", "Une question, une réponse, une note"], reponse: 0, explication: "L'idée seule ne convainc pas : il faut un **exemple précis** (loi, date, situation) et une **explication** qui relie l'exemple à l'idée." },
+        { type: "vf", question: "Dans un débat, critiquer les idées de quelqu'un est permis, mais pas se moquer de la personne.", reponse: true, explication: "On débat des **idées** ; le respect des **personnes** est une règle absolue." },
+        { type: "qcm", question: "Une affiche d'une association appelle à donner son sang. Quel est son but principal ?", choix: ["Informer de façon neutre", "Vendre un produit", "Convaincre les gens d'agir par solidarité", "Raconter un événement historique"], reponse: 2, explication: "Une affiche de campagne cherche à **convaincre** et à faire **agir** ; il faut toujours se demander qui parle et dans quel but." },
+        { type: "redaction", question: "**Débat** : prépare le débat « Faut-il interdire les téléphones portables au collège ? ». Donne deux arguments pour, deux arguments contre (avec exemples), puis ta position justifiée.", corrige: `**Rappel** : depuis la loi du 3 août 2018, l'usage du téléphone portable est déjà **interdit** dans les écoles et les collèges (sauf usage pédagogique ou exceptions prévues par le règlement intérieur). Le débat porte donc sur la manière d'appliquer cette règle (par exemple, déposer les téléphones à l'entrée).
+
+**Arguments pour l'interdiction**
+- **Protéger l'attention et le travail** : un téléphone qui vibre ou des réseaux sociaux pendant la récréation détournent des apprentissages et des échanges entre élèves.
+- **Lutter contre le harcèlement** : sans téléphone, moins de photos prises sans accord et de messages humiliants diffusés pendant la journée (droit à l'image, cyberharcèlement).
+
+**Arguments contre (ou pour assouplir)**
+- **Sécurité et lien avec la famille** : certains parents veulent pouvoir joindre leur enfant sur le trajet.
+- **Apprendre un usage responsable** : le téléphone peut servir en classe (recherche, application de langues) si le professeur l'encadre ; l'interdire totalement n'apprend pas à bien s'en servir.
+
+**Ma position** (exemple) : je suis plutôt favorable à l'interdiction pendant les heures de cours et la récréation, car elle protège la concentration et limite le cyberharcèlement, à condition d'autoriser des usages pédagogiques encadrés et de garder le téléphone éteint dans le sac pour le trajet.
+
+**Règles respectées** : chaque argument a un exemple ; on reformule les arguments adverses ; on respecte ceux qui pensent différemment.` },
+        { type: "redaction", question: "**Analyse de document** : « La Nation proclame la solidarité et l'égalité de tous les Français devant les charges qui résultent des calamités nationales. » (Préambule de la Constitution de 1946, alinéa 12). 1. Présente ce document. 2. Explique la phrase avec tes mots. 3. Donne un exemple actuel de cette solidarité.", corrige: `**1. Présentation** : c'est un extrait du **Préambule de la Constitution de 1946**, texte rédigé à la Libération, après la Seconde Guerre mondiale. Il fait toujours partie de notre Constitution (la Constitution de 1958 y renvoie) : il a donc une valeur juridique très forte.
+
+**2. Explication** : une « **calamité nationale** » est une catastrophe qui frappe une partie du pays (inondation, tempête, cyclone, épidémie). La phrase signifie que **toute la Nation** doit aider les victimes, et que les charges (les coûts) sont **partagées entre tous**, de façon égale, et pas laissées aux seules personnes touchées. C'est l'application de la **fraternité** et de la **solidarité**.
+
+**3. Exemple** : après le cyclone **Chido** à **Mayotte** (décembre 2024), l'État a envoyé des secours (sécurité civile, militaires), les victimes ont été aidées et indemnisées grâce au régime des **catastrophes naturelles**, financé par une somme prélevée sur tous les contrats d'assurance ; des associations et des citoyens ont fait des dons.` },
       ],
     },
   ],

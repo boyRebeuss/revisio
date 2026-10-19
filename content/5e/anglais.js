@@ -940,7 +940,7 @@ On les utilise pour les dates et les étages : *on the second floor* (au 2e éta
 
 - **past** = après l'heure (jusqu'à la demie) ; **to** = avant l'heure suivante.
 - **a.m.** = le matin (de minuit à midi) ; **p.m.** = l'après-midi et le soir : *3 p.m.* = 15 h. Au Royaume-Uni et aux États-Unis, on utilise peu l'horaire sur 24 heures à l'oral.
-- Piège : *half past seven* = 7 h 30 (et non 6 h 30 comme l'allemand *halb sieben*).
+- Piège : *half past seven* = 7 h 30 (« la demie après sept heures »). Si tu fais de l'allemand, attention : *halb sieben* veut dire 6 h 30.
 
 ## Les prix
 *£3.50* se lit *three pounds fifty* ; *$10.99* = *ten dollars ninety-nine* ; *50p* = *fifty pence* (ou *fifty p*). *How much is it? — It's five pounds.*
@@ -968,6 +968,65 @@ Points vérifiés :
 - date avec ordinal et majuscules : *Tuesday, the 14th of October* ;
 - prix : *one euro twenty* ;
 - présent simple pour les habitudes, avec *at* + heure.` },
+      ],
+    },
+    {
+      id: "past-continuous",
+      titre: "Le passé en be + -ing (past continuous)",
+      theme: "Grammaire",
+      cours: `
+## À quoi sert le past continuous ?
+Le **past continuous** (prétérit en be + -ing) décrit une action **en cours à un moment du passé**. Il correspond souvent à l'**imparfait** français (« j'étais en train de... »).
+
+>! *At 8 o'clock last night, I was watching TV.* = Hier soir à 8 h, je regardais la télé (j'étais en train de la regarder).
+
+## La forme : was / were + verbe-ing
+| Affirmation | Négation | Question |
+|---|---|---|
+| I / he / she / it **was** playing | I **wasn't** playing (was not) | **Was** he playing? |
+| you / we / they **were** playing | they **weren't** playing (were not) | **Were** you playing? |
+
+- Réponses courtes : *Were you sleeping? — Yes, I was. / No, I wasn't.*
+- Orthographe du -ing, comme au présent : *write → writing, swim → swimming, run → running*.
+- Les verbes d'état (*know, like, want, understand*) restent au prétérit simple : *I knew the answer* (jamais *I was knowing*).
+
+## Les trois grands emplois
+1. **Une action en cours à un moment précis du passé** : *What were you doing at 9 p.m.? — I was reading.*
+2. **Le décor d'un récit** (ce qui se passait) : *It was raining and the wind was blowing. People were walking quickly.*
+3. **Une action interrompue** par une action courte au prétérit simple :
+- *I was having a shower **when** the phone **rang**.* (la douche est en cours ; le téléphone sonne : action courte)
+- ***While** I was walking home, I **met** my teacher.*
+
+Deux actions longues en même temps : *While my dad was cooking, I was doing my homework.*
+
+## Prétérit simple ou past continuous ?
+| Prétérit simple | Past continuous |
+|---|---|
+| action terminée, courte, ou une suite d'actions | action en cours, en train de se dérouler |
+| *I watched a film last night.* (je l'ai vu en entier) | *I was watching a film when you called.* (j'étais en train de le regarder) |
+| après **when** (l'action qui interrompt) | souvent après **while** (pendant que) |
+
+> **À retenir** : past continuous = **was / were + V-ing** (*I / he / she / it was ; you / we / they were*). Il décrit une action **en cours** dans le passé ou le **décor** d'un récit. *I was reading* (action longue) **when** *the phone rang* (action courte, prétérit simple). **While** + action longue.
+`,
+      exercices: [
+        { type: "saisie", question: "Complète au past continuous : *At 8 o'clock last night, I ___ (watch) TV.*", reponses: ["was watching"], explication: "Action en cours à un moment précis du passé, avec *I* → **was + V-ing** : *I was watching TV.*" },
+        { type: "saisie", question: "Complète au past continuous : *They ___ (play) football when it started to rain.*", reponses: ["were playing"], explication: "Avec *they*, on utilise **were** : *They were playing* (action longue interrompue par *it started to rain*)." },
+        { type: "qcm", question: "*While she ___ dinner, the lights went out.*", choix: ["cooked", "was cooking", "were cooking", "is cooking"], reponse: 1, explication: "Après **while**, l'action longue en cours se met au past continuous. Avec *she* → **was cooking**. *Were* va avec *you, we, they*." },
+        { type: "vf", question: "La phrase *I was knowing the answer.* est correcte.", reponse: false, explication: "*Know* est un verbe d'état : il ne se met pas en -ing, même au passé. On dit **I knew the answer.**" },
+        { type: "saisie", question: "Mets à la forme négative : *We were sleeping.*", reponses: ["We weren't sleeping", "We were not sleeping"], explication: "On ajoute **not** après *were* : *We weren't (were not) sleeping.*" },
+        { type: "qcm", question: "Choisis la bonne combinaison : *I ___ a shower when the phone ___.*", choix: ["was having / rang", "had / was ringing", "was having / was ringing", "have / rang"], reponse: 0, explication: "La douche est l'action **longue, en cours** → *was having* ; le téléphone qui sonne est l'action **courte qui l'interrompt** → prétérit simple *rang* (*ring – rang – rung*)." },
+        { type: "saisie", question: "Pose la question au past continuous : *What / you / do / when I phoned you?*", reponses: ["What were you doing when I phoned you", "What were you doing when I called you"], explication: "Question : mot interrogatif + **were** + sujet + V-ing : *What were you doing...?* Avec *you*, toujours **were**." },
+        { type: "saisie", question: "Complète la réponse courte : *Were your friends waiting for you?* — *Yes, they ___.*", reponses: ["were"], explication: "On reprend l'auxiliaire de la question : *Yes, they were. / No, they weren't.*" },
+        { type: "saisie", question: "Traduis : « Il pleuvait quand je suis sorti. »", reponses: ["It was raining when I went out", "It was raining when I left", "It was raining when I went outside", "It was raining when I got out"], explication: "« Il pleuvait » = décor, action en cours → **It was raining** ; « je suis sorti » = action courte → prétérit simple **went out**." },
+        { type: "redaction", question: "Écris le début d'une histoire (6 à 8 phrases) qui commence par *Last Saturday evening...* : décris le décor avec au moins trois verbes au past continuous, puis raconte un événement soudain avec *when* et au moins trois verbes au prétérit simple.", corrige: `Exemple de réponse :
+
+*Last Saturday evening, it was very cold and it was snowing. My parents were watching a film in the living room and my little brother was sleeping upstairs. I was reading a book in my bedroom. Suddenly, when the clock struck nine, all the lights went out! I heard a strange noise in the garden. I looked out of the window and I saw a big shadow near the trees...*
+
+Points vérifiés :
+- décor au past continuous : *it was snowing, my parents were watching, my brother was sleeping, I was reading* ;
+- **was** avec I / he / it, **were** avec they ;
+- événement soudain au prétérit simple : *the lights went out, I heard, I looked, I saw* ;
+- connecteurs du récit : *Suddenly, when*.` },
       ],
     },
   ],

@@ -333,7 +333,7 @@ The story of **Henrietta Lacks**, an African American woman whose cancer cells w
 England adopted an **opt-out system** in May 2020 (everybody is considered a potential donor unless they register a refusal); Wales had done so in 2015.
 
 ### End of life
-**Assisted dying** is legal in some US states, such as Oregon (since 1997). In the UK, it is a highly sensitive debate: in 2025, MPs in the House of Commons voted in favour of a bill to legalise assisted dying for terminally ill adults in England and Wales (the *Terminally Ill Adults (End of Life) Bill*); it then went to the House of Lords, where it faced long and difficult scrutiny. Scotland is debating its own bill. Check the latest news before quoting the outcome.
+**Assisted dying** is legal in some US states, such as Oregon (since 1997). In the UK, it is a highly sensitive debate: in 2025, MPs in the House of Commons voted in favour of a bill to legalise assisted dying for terminally ill adults in England and Wales (the *Terminally Ill Adults (End of Life) Bill*); it then went to the House of Lords, where peers tabled more than 1,000 amendments. The bill ran out of time and fell when the parliamentary session ended in April 2026, so assisted dying remains illegal in England and Wales. In Scotland, a similar bill was rejected by the Scottish Parliament in March 2026 (69 votes to 57). The debate is not over: campaigners want a new bill. Check the latest news before quoting the situation.
 
 ### Trust in science
 Vaccines are one of medicine's greatest successes, but **anti-vaccine** movements spread doubts. A 1998 article by Andrew Wakefield falsely linking the MMR vaccine to autism was retracted by *The Lancet* in 2010, but it still fuels misinformation.
@@ -603,7 +603,7 @@ In the English-speaking world, the press is often called the **Fourth Estate**: 
 | US newspapers | *The New York Times*, *The Washington Post*, *The Wall Street Journal* |
 | US cable news | CNN (1980), Fox News (1996, conservative), MSNBC (1996, liberal; renamed MS NOW in 2025) |
 
-The BBC's mission, defined by its first director-general **John Reith**, is to "**inform, educate and entertain**". It must remain *impartial*. In November 2025, the BBC's director-general resigned after criticism of the way a speech by Donald Trump had been edited in a documentary: a reminder that its impartiality is closely scrutinised. In the US, there is no public broadcaster of comparable weight (PBS and NPR are much smaller, and in 2025 Congress cancelled the federal funding of public broadcasting), and many news channels are openly partisan.
+The BBC's mission, defined by its first director-general **John Reith**, is to "**inform, educate and entertain**". It must remain *impartial*. In November 2025, the BBC's director-general resigned after criticism of the way a speech by Donald Trump had been edited in a documentary: a reminder that its impartiality is closely scrutinised. In the US, there is no public broadcaster of comparable weight (PBS and NPR are much smaller; in July 2025, Congress withdrew about 1.1 billion dollars of federal funding already planned for public broadcasting, and the Corporation for Public Broadcasting, which distributed this money to local stations, announced that it would close), and many news channels are openly partisan.
 
 ## Fake news and the post-truth era
 ### Key words
@@ -896,7 +896,7 @@ Democracy relies on **representation** (citizens elect representatives) and **pa
 
 ## Current debates
 - **Turnout**: the UK general election of July 2024 had a turnout of around 60%, one of the lowest since 1918. In the US, turnout in the 2020 presidential election, about two thirds of eligible voters, was the highest in over a century.
-- **Voting age**: lowered to 18 in the UK (1969 Act) and in the US (26th Amendment, 1971). 16- and 17-year-olds can vote in Scottish and Welsh devolved elections; in July 2025, the UK government announced plans to lower the voting age to 16 for all UK elections.
+- **Voting age**: lowered to 18 in the UK (1969 Act) and in the US (26th Amendment, 1971). 16- and 17-year-olds can vote in Scottish and Welsh devolved elections; in July 2025, the UK government announced plans to lower the voting age to 16 for all UK elections, including general elections, and in February 2026 it introduced the *Representation of the People Bill* to do so (check whether it has become law).
 - **Access to the vote**: in the US, critics denounce *voter suppression* and *gerrymandering* (drawing electoral boundaries to favour a party). In Great Britain, voters must now show photo ID at polling stations (first required in England's local elections in 2023, then in the 2024 general election); Northern Ireland has required it since 2003.
 - **Diversity of representatives**: Kamala Harris became the first woman Vice President in 2021; Rishi Sunak became the first British Asian Prime Minister in 2022.
 
@@ -1004,7 +1004,7 @@ In conclusion, direct action can awaken public opinion, but lasting change usual
 The UK is a **constitutional monarchy** and a **parliamentary democracy**, often called the **Westminster system**.
 - **The monarch** is head of state but has a mainly ceremonial role: "the King reigns but does not rule". **Charles III** became King on 8 September 2022, after the death of Elizabeth II.
 - **No codified constitution**: the British constitution is made of Acts of Parliament, conventions and historical documents (such as Magna Carta, 1215).
-- **Parliament** has two chambers: the **House of Commons**, with 650 elected **MPs** (Members of Parliament), and the **House of Lords**, whose members are not elected (life peers, bishops and a small number of hereditary peers, 92 at most, whom the Labour government elected in 2024 introduced a bill to remove); the Lords can revise and delay laws, but not block them indefinitely.
+- **Parliament** has two chambers: the **House of Commons**, with 650 elected **MPs** (Members of Parliament), and the **House of Lords**, whose members are not elected (mainly life peers appointed for life, and 26 bishops of the Church of England; the last 92 hereditary peers were removed in April 2026 under the House of Lords (Hereditary Peers) Act 2026, a promise of the Labour government elected in 2024); the Lords can revise and delay laws, but not block them indefinitely.
 - **The Prime Minister** is the leader of the party that can command a majority in the Commons. He or she lives at **10 Downing Street** and chooses the **Cabinet**. The second largest party forms the **Official Opposition**.
 - **Elections**: MPs are elected in **constituencies** using **first-past-the-post** (FPTP): the candidate with the most votes wins, even without an absolute majority. A general election must be held at least every five years.
 - **Devolution** (1998-1999): Scotland has its own Parliament, Wales its Senedd and Northern Ireland its Assembly, with powers over areas such as education and health.
@@ -1158,7 +1158,7 @@ In conclusion, both systems are democratic but imperfectly representative. Refor
       theme: "Méthodologie",
       cours: `
 ## What is a synthesis?
-In AMC, you are given a **dossier** of several documents (articles, extracts from novels, cartoons, photos, charts...) and a **question** that links them. You must write, in English, an organised answer that **confronts** the documents. In première, class tests usually ask for around 300 words; at the terminale exam, the synthesis is about 500 words. Always respect the length indicated in the instructions.
+In AMC, you are given a **dossier** of several documents (articles, extracts from novels, cartoons, photos, charts...) and a **question** that links them. You must write, in English, an organised answer that **confronts** the documents. In première, class tests usually ask for around 300 words; at the terminale exam, the dossier contains 3 or 4 documents (always including a press article in AMC), the synthesis is guided by **two or three questions or instructions** and is about 500 words in total. Always respect the length indicated in the instructions.
 
 > **A synthesis is NOT:**
 > a summary of each document one after the other;
@@ -1714,7 +1714,7 @@ Admittedly, young people are less likely to vote than older generations, and tur
 
 In fact, young people are deeply involved in politics, but in different ways. In 2018, American students organised the March for Our Lives against gun violence, one of the largest youth protests in recent US history. Movements such as Black Lives Matter, launched on social media in 2013, have mobilised millions of young people against racism and police brutality. Young people sign petitions, campaign online and boycott companies whose values they reject.
 
-Rather than blaming us, politicians should listen to our concerns, such as climate change, housing and education, and give us more opportunities to participate. Lowering the voting age to 16, as the UK government announced in 2025, could be a first step.
+Rather than blaming us, politicians should listen to our concerns, such as climate change, housing and education, and give us more opportunities to participate. Lowering the voting age to 16, as the UK government proposed in 2025, could be a first step.
 
 Yours faithfully,
 
@@ -1753,6 +1753,8 @@ Together, we can make our school a place where truth matters. Thank you.
 - **Answering questions** and **interacting** with the examiner: explaining, justifying, nuancing.
 - **Debating** with classmates on a topic of the programme.
 Speaking well is not reading a text: you must **communicate** with a listener.
+
+>! **Looking ahead to terminale**: the oral exam (20 minutes, no preparation time) is based on a **personal dossier** of 4 to 6 documents that you choose and that your teacher checks (at least one press article, at most two other texts, at most two images). You present it for 10 minutes at most, explaining your choices and the link between the documents, then talk with the examiner for 10 minutes at most. Start collecting documents you like in première!
 
 ## Presenting a document: a structure
 1. **Introduction**: "*The document I am going to present is a cartoon by..., published in... in 2023. It deals with...*"
@@ -2058,9 +2060,19 @@ AMC is a *spécialité* (4 hours a week in première, 6 hours in terminale). The
 | knowledge tests | vocabulary, dates and key facts from the axes |
 
 ## In terminale: the final exam (if you keep AMC)
-- A **written part** (3 hours 30): a **synthesis in English** of a dossier of documents (about 500 words), and a **translation into French** of a passage, or a **transposition** (mediation) into French.
-- An **oral part** (20 minutes): you present documents linked to the programme and talk with the examiner.
-- The written part is marked out of 16 and the oral out of 4; the final mark (out of 20) has a coefficient of 16. Rules can change: check the official instructions with your teacher every year.
+The exam has a **written part** and an **oral part**, each marked out of 20 and each counting for **half** of the final mark. The final mark has a coefficient of 16.
+
+### The written part (3 hours 30, marked out of 20)
+- A **synthesis in English** (16 points) of a dossier of 3 or 4 documents linked to one of the terminale themes (in AMC, always at least one press article), guided by two or three questions or instructions, in about **500 words**. It may be completed by a short argumentative piece, the whole not exceeding 500 words.
+- A **translation into French** of a passage of about 500 characters taken from one of the texts, or a **transposition** into French of the main ideas of one of the texts (4 points).
+- An English-English dictionary (*dictionnaire unilingue*) is allowed. You choose between two subjects. Level expected: **C1**.
+
+### The oral part (20 minutes, no preparation time, marked out of 20)
+- You bring a **personal dossier** of **4 to 6 documents** (studied in class or not) linked to one or several themes of première and terminale, checked by your terminale teacher: at least **one press article**, at most two other texts and at most two images.
+- You **present** your dossier in English for **10 minutes at most**, explaining your choices and its internal logic, then you **interact** with the examiner for **10 minutes at most**.
+- The dossier itself is not marked: your speaking is. Without a dossier, the examiner gives you three documents to comment on.
+
+Rules can change: check the official instructions (note de service on éduscol) with your teacher every year.
 
 ## How your work is marked
 | Criterion | Questions the marker asks |
@@ -2080,14 +2092,14 @@ AMC is a *spécialité* (4 hours a week in première, 6 hours in terminale). The
 
 > **Key points**
 > Première: no national exam; if you drop AMC, your annual average counts for the bac (coefficient 8).
-> Terminale: written part (3 h 30: synthesis of about 500 words + translation or transposition into French) and oral part (20 minutes); coefficient 16.
+> Terminale: written part (3 h 30, out of 20: synthesis of about 500 words on 16 points + translation or transposition into French on 4 points) and oral part (20 minutes without preparation, on a personal dossier of 4 to 6 documents, out of 20); each part counts for half; coefficient 16.
 > Targets: B2 at the end of première, C1 at the end of terminale.
 > Markers assess understanding, relevance, structure, language and culture.
 
 >! **Method**: keep a notebook of precise examples (name, date, one sentence) for each axis. In every test, an accurate example is worth more than a vague general idea.
 
 ## En bref (FR)
-En première, il n'y a pas d'épreuve nationale d'AMC : si tu abandonnes la spécialité en fin de première, c'est ta moyenne annuelle des bulletins qui compte pour le bac (contrôle continu, coefficient 8). Les devoirs reprennent les exercices de l'épreuve : synthèse (environ 300 mots), traduction ou médiation, expression écrite, analyse d'image ou de données, oral. Si tu gardes AMC en terminale, l'épreuve comprend un écrit de 3 h 30 (synthèse d'environ 500 mots et traduction ou transposition en français) et un oral de 20 minutes (coefficient 16). Les modalités peuvent évoluer : vérifie-les auprès de ton professeur. Niveau visé : B2 en fin de première, C1 en fin de terminale.
+En première, il n'y a pas d'épreuve nationale d'AMC : si tu abandonnes la spécialité en fin de première, c'est ta moyenne annuelle des bulletins qui compte pour le bac (contrôle continu, coefficient 8). Les devoirs reprennent les exercices de l'épreuve : synthèse (environ 300 mots), traduction ou médiation, expression écrite, analyse d'image ou de données, oral. Si tu gardes AMC en terminale, l'épreuve (coefficient 16) comprend un écrit de 3 h 30 noté sur 20 (synthèse d'environ 500 mots sur 16 points, traduction ou transposition en français sur 4 points) et un oral de 20 minutes sans préparation noté sur 20, à partir d'un dossier personnel de 4 à 6 documents (10 minutes de présentation au plus, puis 10 minutes d'échange au plus) ; l'écrit et l'oral comptent chacun pour moitié. Les modalités peuvent évoluer : vérifie-les auprès de ton professeur. Niveau visé : B2 en fin de première, C1 en fin de terminale.
 `,
       exercices: [
         {
@@ -2113,7 +2125,7 @@ En première, il n'y a pas d'épreuve nationale d'AMC : si tu abandonnes la spé
         {
           type: "saisie",
           question: "In the written exam of terminale, the synthesis must be about how many words? (number only)",
-          reponses: ["500"],
+          reponses: ["500", "about 500", "around 500", "500 words"],
           explication: "About **500 words** in terminale. In première class tests, about 300 words is usual: always follow the instructions."
         },
         {
@@ -2149,6 +2161,137 @@ En première, il n'y a pas d'épreuve nationale d'AMC : si tu abandonnes la spé
 6. **Oral** : présenter un document en 3 minutes en m'enregistrant.
 
 **Note (FR)** : un bon plan de révision couvre les quatre dimensions évaluées (culture, langue, méthode de l'écrit, oral) et prévoit de l'entraînement actif, pas seulement de la relecture.`
+        },
+        {
+          type: "qcm",
+          question: "In the terminale exam, how do the written and oral parts count in the final mark?",
+          choix: ["The written part counts for 16 points and the oral for 4", "Each part is marked out of 20 and counts for half of the final mark", "Only the written part counts; the oral is a bonus", "The oral counts for three quarters of the final mark"],
+          reponse: 1,
+          explication: "The written part (out of 20) and the oral part (out of 20) **each count for half**. The 16/4 split concerns the written part only: synthesis on 16 points, translation or transposition on 4 points."
+        },
+        {
+          type: "vf",
+          question: "At the terminale oral exam, you get 20 minutes of preparation before speaking.",
+          reponse: false,
+          explication: "False: the oral lasts 20 minutes **without preparation time**. You come with your personal dossier, present it (10 minutes at most), then talk with the examiner (10 minutes at most)."
+        },
+        {
+          type: "qcm",
+          question: "You are preparing your personal dossier for the terminale oral. Which dossier respects the rules?",
+          choix: ["Three photos and one press article", "Three extracts from novels and one cartoon", "Two press articles, an extract from a novel and two cartoons", "Seven press articles"],
+          reponse: 2,
+          explication: "The dossier contains **4 to 6 documents**, with **at least one press article**, at most two other texts and at most two images. The first has three images, the second has no press article, the last has too many documents."
+        }
+      ]
+    },
+    {
+      id: "comprehension-documents",
+      titre: "Reading comprehension: understanding short documents",
+      theme: "Méthodologie",
+      cours: `
+## Why practise comprehension?
+Every AMC task starts with **understanding documents**: the synthesis, the translation, the oral. Understanding means more than translating words: you must grasp the **main idea**, the **point of view**, the **tone** and what is **implied**.
+
+## A method in four steps
+1. **Identify** the document: nature (article, letter, blog post, speech), author, date, audience.
+2. **Skim**: read quickly once to get the general idea. Who? What? Where? When? Why?
+3. **Scan**: look for precise information (names, figures, key words) to answer a question.
+4. **Read between the lines**: what does the author suggest without saying it? Is the tone neutral, ironic, critical, enthusiastic?
+
+## Clues to the point of view
+| Clue | Examples |
+|---|---|
+| evaluative adjectives | *a bold reform, a reckless decision* |
+| modal verbs | *should, must, might* |
+| contrast words | *but, yet, however*: the key idea often comes after them |
+| quotations | who is quoted, and who is not? |
+| irony | the words say the opposite of what the author means |
+
+>! **Method**: to justify an answer, always go back to the text and find the **exact words** that prove it. In a test, a short quotation in inverted commas is the best evidence.
+
+> **Key points**
+> Identify, skim, scan, read between the lines.
+> The point of view shows in adjectives, modals, contrasts and the choice of quotations.
+> Irony: the literal meaning is not the real meaning.
+> Always justify with the exact words of the text.
+
+## En bref (FR)
+Comprendre un document, c'est saisir l'idée principale, le point de vue, le ton et l'implicite. Méthode : identifier le document, le lire rapidement (skimming), chercher les informations précises (scanning), puis lire entre les lignes. Les adjectifs, les modaux, les connecteurs d'opposition et le choix des citations révèlent le point de vue. Justifie toujours par les mots exacts du texte. Les documents des exercices ci-dessous ont été écrits pour l'appli : les personnes et les lieux sont inventés.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "**Document 1** (invented article, written for the app): *When Hollowbrook Academy, a secondary school in the north of England, locked pupils' phones in pouches last September, many parents predicted a rebellion. Six months later, the head teacher, Ms Okafor, says the corridors are \"noisier, in a good way\": pupils talk to each other at break time instead of scrolling. Not everyone is convinced. Some parents argue that teenagers must learn to manage their screen time themselves, rather than have adults decide for them. \"We are not banning technology,\" Ms Okafor insists. \"We are giving pupils seven hours a day without it.\"*\n\nWhat does the head teacher mean by \"noisier, in a good way\"?",
+          choix: ["Pupils protest loudly against the new rule", "Pupils talk to each other more instead of looking at their phones", "The school has become more difficult to manage", "Phones keep ringing in the pouches"],
+          reponse: 1,
+          explication: "The text explains it right after: pupils \"**talk to each other at break time instead of scrolling**\". The noise is a sign of social life, which is why it is \"good\"."
+        },
+        {
+          type: "vf",
+          question: "Document 1 (see the previous question): all the parents support the school's phone policy.",
+          reponse: false,
+          explication: "False: \"**Not everyone is convinced.** Some parents argue that teenagers must learn to manage their screen time themselves.\""
+        },
+        {
+          type: "saisie",
+          question: "Document 1: find the word in the text meaning \"small bags\" in which the phones are locked.",
+          reponses: ["pouches", "pouch"],
+          explication: "**Pouches** (des pochettes): \"locked pupils' phones in pouches\"."
+        },
+        {
+          type: "qcm",
+          question: "Document 1: which phrase best describes the journalist's approach?",
+          choix: ["Openly hostile to the head teacher", "A list of figures without opinions", "Balanced: the policy, its results and its critics are all presented", "A personal story told by a pupil"],
+          reponse: 2,
+          explication: "The journalist gives the context, the head teacher's view **and** the parents' objection (\"Not everyone is convinced\"): a **balanced** article, even if the head teacher has the last word."
+        },
+        {
+          type: "qcm",
+          question: "**Document 2** (invented blog post by a sixth-form student, written for the app): *Last week my history essay got a B. My friend's got an A. He spent ten minutes on it; I spent ten hours. The difference? He asked a chatbot, and I asked the library. I am told this is progress. Perhaps it is. But if machines write our essays, mark our essays and soon read our essays, I wonder who exactly is being educated.*\n\nWhat is the tone of this text?",
+          choix: ["Enthusiastic", "Neutral and scientific", "Ironic and bitter", "Angry and violent"],
+          reponse: 2,
+          explication: "\"I am told this is progress\" and the final question are **ironic**: the writer pretends to accept the idea but suggests the opposite. The comparison of the marks shows his **bitterness**. The tone is not violent: he stays calm."
+        },
+        {
+          type: "qcm",
+          question: "Document 2: what does \"I asked the library\" imply?",
+          choix: ["He did the research himself, using books", "He asked a librarian to write the essay", "He used the library's computers to ask a chatbot", "He did not do the essay"],
+          reponse: 0,
+          explication: "The sentence is built in parallel with \"He asked a chatbot\": the writer **did the research himself** in books, which explains the ten hours of work."
+        },
+        {
+          type: "vf",
+          question: "Document 2: the writer is totally and clearly opposed to all technological progress.",
+          reponse: false,
+          explication: "False: \"**Perhaps it is**\" shows hesitation. His real question is about **education**: if machines do everything, who learns? Be careful not to make the author's view more extreme than it is."
+        },
+        {
+          type: "qcm",
+          question: "**Document 3** (invented letter to the editor, written for the app): *Sir, your correspondent calls for the statue of Lord Ashworth to be removed from our market square. I disagree, but not for the reasons she imagines. Ashworth made his fortune from plantations worked by enslaved people; that is precisely why he should stay, with a new plaque telling the whole truth. Remove him, and in fifty years nobody will remember what he did. Yours faithfully, J. Patel, Kingsport.*\n\nWhat does the writer propose?",
+          choix: ["To pull down the statue at once", "To keep the statue and add a plaque explaining how Ashworth made his fortune", "To move the statue to a museum", "To build a statue of a different person"],
+          reponse: 1,
+          explication: "\"He should stay, **with a new plaque telling the whole truth**.\" The writer keeps the statue in order to remember the crimes, not to honour the man."
+        },
+        {
+          type: "vf",
+          question: "Document 3: the writer wants to keep the statue because he admires Lord Ashworth.",
+          reponse: false,
+          explication: "False: \"I disagree, but **not for the reasons she imagines**.\" He wants to keep it as a reminder of slavery: \"Remove him, and in fifty years nobody will remember what he did.\""
+        },
+        {
+          type: "redaction",
+          question: "Synthesis practice (about 120 words, in English): using Documents 1 and 2 above, answer the question: **How do the documents question the place of technology in education?**",
+          corrige: `**Model answer**
+
+Both documents question the growing place of digital technology in young people's education, but from different angles.
+
+Document 1, an article about a school in the north of England, focuses on smartphones as a distraction: locking them away seems to restore face-to-face relationships, since pupils now "talk to each other at break time". However, the journalist also reports the parents' objection that teenagers should learn to manage screens themselves.
+
+Document 2, a student's blog post, deals with artificial intelligence. With bitter irony, the writer suggests that chatbots reward shortcuts rather than effort, and wonders "who exactly is being educated".
+
+All in all, neither document rejects technology completely: both ask whether it serves learning or replaces it.
+
+**Note (FR)** : les deux documents sont confrontés (but from different angles, However, All in all), leur nature est identifiée, de courtes citations servent de preuves, et la conclusion répond à la question sans avis personnel.`
         }
       ]
     },

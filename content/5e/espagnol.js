@@ -47,6 +47,8 @@ Les questions et les exclamations s'ouvrent avec un signe à l'envers : **¿** .
 - *¿Cómo te llamas?*
 - *¡Hola, amigos!*
 
+>! **Entraîne ton oreille** : cette appli ne fait pas travailler la compréhension de l'oral ni la prononciation. Écoute de l'espagnol chaque semaine (les audios de ton manuel, des chansons, des dessins animés ou des vidéos courtes en espagnol avec sous-titres espagnols) et répète à voix haute les mots du cours.
+
 > **À retenir** : 27 lettres (avec le ñ) ; h muette ; u = « ou » ; j = son raclé ; ll = « y » ; ñ = « gn » ; on ouvre les questions par ¿ et les exclamations par ¡.
 `,
       exercices: [
@@ -784,7 +786,7 @@ Comparatifs irréguliers : **mejor** (meilleur, mieux), **peor** (pire), **mayor
 `,
       exercices: [
         { type: "saisie", question: "Traduis : « Il fait froid. »", reponses: ["Hace frío"], explication: "Météo avec un nom → **hace** : *hace frío*." },
-        { type: "qcm", question: "« Il pleut » se dit :", choix: ["Hace lluvia", "Está lloviendo mucho calor", "Llueve", "Es lluvia"], reponse: 2, explication: "*llover* (o → ue) : **llueve**. On peut aussi dire *está lloviendo* (en ce moment)." },
+        { type: "qcm", question: "« Il pleut » se dit :", choix: ["Hace lluvia", "Hace llover", "Llueve", "Es lluvia"], reponse: 2, explication: "*llover* (o → ue) : **llueve**. On peut aussi dire *está lloviendo* (en ce moment)." },
         { type: "qcm", question: "Complète : « Hoy hace ... calor. »", choix: ["mucho", "muy", "muchos", "tan"], reponse: 0, explication: "*calor* est un nom → **mucho** : *hace mucho calor*. *Muy* s'emploie devant un adjectif." },
         { type: "saisie", question: "Accorde la couleur : « unas camisetas (blanco) »", reponses: ["blancas"], explication: "Féminin pluriel : **blancas**." },
         { type: "saisie", question: "Conjugue *llevar* : « Hoy (yo) ... una falda verde. »", reponses: ["llevo"], explication: "*llevar* = porter un vêtement : **llevo**." },
@@ -792,6 +794,71 @@ Comparatifs irréguliers : **mejor** (meilleur, mieux), **peor** (pire), **mayor
         { type: "saisie", question: "Traduis : « Le jean est plus cher que le pull. »", reponses: ["Los vaqueros son más caros que el jersey", "El vaquero es más caro que el jersey", "Los vaqueros son más caros que la sudadera", "Los pantalones vaqueros son más caros que el jersey", "Los jeans son más caros que el jersey"], explication: "**más** + adjectif + **que** ; *los vaqueros* est pluriel en espagnol, d'où *son más caros*." },
         { type: "qcm", question: "« Ce sweat est meilleur que l'autre » :", choix: ["Esta sudadera es más buena que la otra", "Esta sudadera es tan mejor que la otra", "Esta sudadera es mejor como la otra", "Esta sudadera es mejor que la otra"], reponse: 3, explication: "Comparatif irrégulier de *bueno* : **mejor** ... *que*." },
         { type: "redaction", question: "Tu pars une semaine à Burgos en hiver. Écris 6 phrases : le temps qu'il fait là-bas, les vêtements que tu emportes et une comparaison avec le temps chez toi.", corrige: "Modèle :\n\n*En invierno, en Burgos hace mucho frío y a veces nieva. Por la mañana, estamos a cero grados y está nublado. Por eso voy a llevar un abrigo negro, una bufanda roja y un gorro. También me pongo unas zapatillas cómodas para caminar. En mi ciudad, en Marsella, hace más calor y hace más sol que en Burgos. ¡Burgos es tan bonito como Marsella, pero menos caluroso!*\n\nVérifie : *hace* + nom (*frío, sol*), *mucho* devant un nom, couleurs accordées (*negro, roja*), *más ... que*, *tan ... como*." }
+      ]
+    },
+    {
+      id: "ciudad-orientarse",
+      titre: "La ville et s'orienter",
+      theme: "Communiquer",
+      cours: `
+## Les lieux de la ville
+| Espagnol | Français |
+|---|---|
+| la calle, la avenida, la plaza | la rue, l'avenue, la place |
+| el ayuntamiento | la mairie |
+| la estación (de tren), la parada de autobús | la gare, l'arrêt de bus |
+| el hospital, la farmacia | l'hôpital, la pharmacie |
+| el supermercado, la tienda, el mercado | le supermarché, le magasin, le marché |
+| la panadería, la librería | la boulangerie, la librairie |
+| el museo, el cine, el parque, la piscina | le musée, le cinéma, le parc, la piscine |
+| la iglesia, el puente, el semáforo | l'église, le pont, le feu (tricolore) |
+
+Attention aux faux amis : *la librería* = la librairie (*la biblioteca* = la bibliothèque) ; *la carta* = la lettre, mais *el mapa* / *el plano* = la carte / le plan.
+
+## Demander son chemin
+- *Perdone, ¿dónde está la estación?* (avec un article défini → **estar**)
+- *¿Hay una farmacia por aquí?* (avec un article indéfini → **hay**)
+- *¿Para ir al museo, por favor?* / *¿Cómo puedo ir al centro?*
+- *¿Está lejos? — No, está cerca, a cinco minutos (a pie).*
+
+On vouvoie un inconnu : *Perdone* (usted) ; à un jeune de ton âge : *Perdona* (tú).
+
+## Indiquer le chemin
+| Espagnol | Français |
+|---|---|
+| sigue todo recto | continue tout droit |
+| gira / tuerce a la derecha | tourne à droite |
+| gira a la izquierda | tourne à gauche |
+| toma la primera calle | prends la première rue |
+| cruza la plaza | traverse la place |
+| al final de la calle | au bout de la rue |
+| en la esquina | au coin de la rue |
+
+- Ces formes (*sigue, gira, toma, cruza*) sont l'**impératif** à *tú* : pour les verbes réguliers, c'est la même forme que la 3e personne du présent (*él toma* → *¡toma!*).
+- On peut aussi utiliser le présent : *Sigues todo recto y giras a la derecha.*
+- Avec *usted*, on dit : *siga, gire, tome, cruce* (tu les étudieras plus tard).
+
+## Les ordinaux
+*primero, segundo, tercero, cuarto, quinto*. Devant un nom masculin singulier, **primero → primer** et **tercero → tercer** : *el primer piso*, *la tercera calle*.
+
+## Les moyens de transport
+**en** + véhicule : *en autobús, en metro, en tren, en coche, en bici* ; mais **a pie** (à pied) et *a caballo*.
+
+>! **Exemple** : *— Perdone, ¿dónde está el museo? — Está bastante cerca. Sigue todo recto, toma la segunda calle a la izquierda y cruza la plaza. El museo está al lado del ayuntamiento.*
+
+> **À retenir** : ¿Dónde está + el/la...? mais ¿Hay un/una...? ; sigue todo recto, gira a la derecha / a la izquierda, toma la primera calle, cruza ; primer, tercer devant un nom masculin ; en autobús mais a pie.
+`,
+      exercices: [
+        { type: "saisie", question: "Traduis : « la mairie »", reponses: ["el ayuntamiento", "ayuntamiento", "la alcaldía", "alcaldía"], explication: "**el ayuntamiento** (on dit aussi *la alcaldía* en Amérique latine)." },
+        { type: "qcm", question: "« La *librería* » désigne :", choix: ["la librairie", "la bibliothèque", "la papeterie", "la liberté"], reponse: 0, explication: "Faux ami : *la librería* = la librairie, où l'on achète des livres. La bibliothèque se dit *la biblioteca*." },
+        { type: "qcm", question: "Complète : « Perdone, ¿... una farmacia por aquí? »", choix: ["está", "es", "hay", "tiene"], reponse: 2, explication: "Avec un article indéfini (*una farmacia*), on demande si le lieu existe → **hay**." },
+        { type: "saisie", question: "Complète : « Perdone, ¿dónde ... la estación? »", reponses: ["está"], explication: "Avec un article défini (*la estación*), on situe → **está**." },
+        { type: "saisie", question: "Traduis : « Tourne à droite. » (tú)", reponses: ["Gira a la derecha", "Tuerce a la derecha", "Giras a la derecha"], explication: "**Gira a la derecha** (ou *tuerce a la derecha*). *La derecha* = la droite, *la izquierda* = la gauche." },
+        { type: "qcm", question: "« Continue tout droit » se dit :", choix: ["Gira todo recto", "Sigue a la derecha", "Toma la izquierda", "Sigue todo recto"], reponse: 3, explication: "*todo recto* = tout droit ; *seguir* = continuer → **Sigue todo recto**." },
+        { type: "saisie", question: "Complète avec l'ordinal : « Vivo en el ... piso. » (1er étage)", reponses: ["primer"], explication: "Devant un nom masculin singulier, *primero* devient **primer** : *el primer piso*." },
+        { type: "vf", question: "« Voy al colegio en pie » est correct.", reponse: false, explication: "On dit **a pie** (à pied). *En* s'emploie avec un véhicule : *en autobús, en metro, en bici*." },
+        { type: "qcm", question: "Tu demandes ton chemin à une dame âgée. Tu dis :", choix: ["Oye, ¿dónde está la plaza?", "Perdone, ¿dónde está la plaza?", "Perdona, ¿dónde estás la plaza?", "Perdone, ¿dónde hay la plaza?"], reponse: 1, explication: "On vouvoie une personne inconnue et âgée : **Perdone** (usted). *Oye* est familier, *estás* ne convient pas (c'est la plaza qui est située), et *hay* ne s'emploie pas avec *la*." },
+        { type: "redaction", question: "Un touriste espagnol est devant ton collège et te demande le chemin de la gare. Écris le dialogue (5 ou 6 répliques) : salutation, question, indications (au moins trois), distance, remerciements.", corrige: "Modèle :\n\n- *Turista: ¡Hola! Perdona, ¿dónde está la estación de tren?*\n- *Yo: ¡Hola! Está un poco lejos, a quince minutos a pie.*\n- *Turista: ¿Cómo puedo ir?*\n- *Yo: Sigue todo recto hasta el semáforo. Luego gira a la izquierda y toma la primera calle a la derecha. Cruza la plaza: la estación está enfrente del supermercado. También puedes ir en autobús: la parada está en la esquina.*\n- *Turista: ¡Muchas gracias!*\n- *Yo: De nada. ¡Adiós!*\n\nPoints vérifiés : *¿dónde está la...?* ; impératifs à *tú* (*sigue, gira, toma, cruza*) ; prépositions de lieu (*enfrente de, en la esquina*) ; *a pie* / *en autobús* ; politesse (*perdona, gracias, de nada*)." }
       ]
     }
   ]

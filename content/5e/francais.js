@@ -1145,5 +1145,98 @@ Le combat fut terrible. Mais au moment de frapper le loup blessé, Gauvain aper�
 De retour au château, il raconta tout à son seigneur. Celui-ci sourit : « Le courage frappe, mais la sagesse sait épargner. Tu es digne d'être chevalier. » Le dimanche suivant, Gauvain fut adoubé.` }
       ]
     },
+    {
+      id: "paroles-rapportees",
+      titre: "Les paroles rapportées : discours direct et discours indirect",
+      theme: "Étude de la langue",
+      cours: `
+## Deux façons de rapporter des paroles
+Dans un récit, le narrateur peut rapporter les paroles d'un personnage de deux manières principales.
+
+| | Discours direct | Discours indirect |
+|---|---|---|
+| Principe | les paroles sont **citées telles quelles** | les paroles sont **intégrées** à la phrase du narrateur |
+| Ponctuation | deux-points, **guillemets**, tirets dans un dialogue | **pas** de guillemets ni de deux-points |
+| Construction | verbe de parole avant, ou **incise** (*dit-il*) | verbe de parole + **subordonnée** (*que*, *si*...) ou **de + infinitif** |
+| Exemple | Le roi déclara : « Je pars demain. » | Le roi déclara **qu'il partait le lendemain**. |
+
+**Les verbes de parole** (verbes introducteurs) : dire, déclarer, annoncer, demander, répondre, répliquer, s'écrier, murmurer, chuchoter, ordonner, supplier... Choisis le plus précis !
+
+## Passer du discours direct au discours indirect
+Il faut faire **quatre transformations**.
+
+**1. Les personnes** : on adopte le point de vue du narrateur.
+- « **Je** suis prêt », dit Paul. → Paul dit qu'**il** est prêt.
+- « **Nous** avons gagné », crièrent les enfants. → Les enfants crièrent qu'**ils** avaient gagné.
+
+**2. Le type de phrase** : le mot qui introduit les paroles change.
+| Paroles au discours direct | Au discours indirect | Exemple |
+|---|---|---|
+| phrase déclarative | **que** | Il affirme **qu'il** viendra. |
+| question totale (réponse oui / non) | **si** | Elle demande **s'il** viendra. |
+| question partielle | le mot interrogatif (**où, quand, comment, pourquoi, qui**) | Elle demande **où** il va. |
+| « qu'est-ce que... ? » | **ce que** | Elle demande **ce qu'**il veut. |
+| ordre (impératif) | **de** + infinitif | Il lui ordonne **de** partir. |
+
+Au discours indirect, la question perd son point d'interrogation et l'**inversion du sujet** : « Où vas-tu ? » → Il me demande **où je vais** (et non « où vais-je » ni « où est-ce que je vais »).
+
+**3. Les temps**, quand le verbe de parole est **au passé** :
+| Au discours direct | Au discours indirect (verbe introducteur au passé) |
+|---|---|
+| présent : « Je **suis** fatigué. » | imparfait : il dit qu'il **était** fatigué |
+| passé composé : « J'**ai perdu** ma clé. » | plus-que-parfait : il dit qu'il **avait perdu** sa clé |
+| futur : « Je **viendrai**. » | conditionnel présent : il dit qu'il **viendrait** |
+
+Si le verbe de parole est au **présent** (« il dit »), les temps ne changent pas : « Je suis fatigué », dit-il. → Il dit qu'il **est** fatigué.
+
+**4. Les indications de temps et de lieu**, quand le verbe de parole est au passé :
+| Discours direct | Discours indirect |
+|---|---|
+| aujourd'hui, maintenant | ce jour-là, alors |
+| hier | la veille |
+| demain | le lendemain |
+| ici | là |
+
+>! **Exemple complet** : Le chevalier a déclaré : « Je partirai demain et je reviendrai ici. »
+>! → Le chevalier a déclaré **qu'il partirait le lendemain et qu'il reviendrait là**.
+>! Personne : je → il ; type : phrase déclarative → que ; temps : futur → conditionnel ; indicateurs : demain → le lendemain, ici → là.
+
+## Le discours narrativisé et le discours indirect libre
+- **Discours narrativisé** : le narrateur résume les paroles sans les citer : *Il lui raconta toute son aventure.*
+- **Discours indirect libre** (tu l'étudieras surtout en 4e) : les paroles ou les pensées sont rapportées sans verbe de parole ni guillemets, aux temps du récit : *Il hésitait. Partirait-il demain ? Personne ne l'attendait plus.*
+
+## Pourquoi choisir l'un ou l'autre ?
+- Le **discours direct** rend la scène **vivante** : on entend la voix du personnage, ses émotions, son niveau de langue.
+- Le **discours indirect** est plus **rapide** et permet au narrateur de garder le fil du récit.
+
+> **À retenir**
+> Discours direct : paroles citées, guillemets et tirets, incise inversée (dit-il).
+> Discours indirect : verbe de parole + que / si / mot interrogatif / ce que / de + infinitif ; pas de guillemets.
+> Avec un verbe de parole au passé : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel ; demain → le lendemain, hier → la veille, ici → là.
+`,
+      exercices: [
+        { type: "qcm", question: "Dans quelle phrase les paroles sont-elles rapportées au **discours direct** ?", choix: ["Le marin annonça qu'une tempête approchait.", "Le marin annonça : « Une tempête approche ! »", "Le marin raconta la tempête.", "Le marin demanda si la tempête approchait."], reponse: 1, explication: "Les paroles sont citées telles quelles, après deux-points et entre guillemets : discours direct. Les phrases 1 et 4 sont au discours indirect, la phrase 3 résume les paroles (discours narrativisé)." },
+        { type: "vf", question: "Au discours indirect, les paroles rapportées sont placées entre guillemets.", reponse: false, explication: "Au discours indirect, les paroles sont intégrées à la phrase du narrateur par un verbe de parole et une subordonnée : il n'y a ni guillemets ni deux-points." },
+        { type: "saisie", question: "Complète au discours indirect : « Je suis fatigué », a dit le chevalier. → Le chevalier a dit qu'il ... fatigué. (un seul mot)", reponses: ["était", "qu'il était", "il était"], explication: "Le verbe de parole est au passé (« a dit ») : le présent « suis » devient l'imparfait **était** ; « je » devient « il »." },
+        { type: "qcm", question: "Quelle est la bonne transformation au discours indirect de : Elle m'a demandé : « Où vas-tu ? »", choix: ["Elle m'a demandé où vas-tu.", "Elle m'a demandé où est-ce que j'allais.", "Elle m'a demandé où j'allais.", "Elle m'a demandé si où j'allais."], reponse: 2, explication: "Au discours indirect, la question partielle garde le mot interrogatif « où », mais perd l'inversion, « est-ce que » et le point d'interrogation ; le présent devient imparfait (verbe introducteur au passé) : « où j'allais »." },
+        { type: "saisie", question: "Complète : Il a déclaré : « Je partirai demain. » → Il a déclaré qu'il partirait ... (indicateur de temps)", reponses: ["le lendemain", "lendemain"], explication: "Le verbe de parole est au passé : « demain » devient **le lendemain** (et le futur « partirai » devient le conditionnel « partirait »)." },
+        { type: "qcm", question: "« Viendras-tu au tournoi ? » demanda Perceval à son ami. Au discours indirect, on écrit : Perceval demanda à son ami ...", choix: ["que viendrait-il au tournoi.", "s'il viendrait au tournoi.", "si viendras-tu au tournoi.", "qu'il viendra au tournoi."], reponse: 1, explication: "C'est une question totale (réponse oui / non) : elle est introduite par **si** (s'il). Le futur « viendras » devient le conditionnel « viendrait » car « demanda » est au passé, et « tu » devient « il »." },
+        { type: "saisie", question: "Complète au discours indirect : « Ferme la porte ! » m'a dit ma mère. → Ma mère m'a dit ... la porte. (deux mots)", reponses: ["de fermer"], explication: "Un ordre à l'impératif devient **de + infinitif** au discours indirect : Ma mère m'a dit **de fermer** la porte." },
+        { type: "vf", question: "Dans « Il dit qu'il est prêt », le verbe de parole est au présent, donc le temps des paroles ne change pas.", reponse: true, explication: "« Je suis prêt », dit-il → Il dit qu'il **est** prêt. Les temps ne changent que si le verbe de parole est au passé : Il a dit qu'il **était** prêt." },
+        { type: "redaction", question: "**Exercice type contrôle** : 1) Réécris ce dialogue au discours indirect, en commençant par « Le vieil homme demanda au voyageur... » : « D'où venez-vous ? demanda le vieil homme au voyageur. — Je viens de la montagne, répondit celui-ci. J'ai marché toute la nuit et je repartirai demain. » 2) Réécris au discours direct, avec une incise : « La reine ordonna aux gardes de fermer les portes du château. »", corrige: `**1) Au discours indirect**
+« Le vieil homme demanda au voyageur **d'où il venait**. Celui-ci répondit **qu'il venait de la montagne**, **qu'il avait marché toute la nuit** et **qu'il repartirait le lendemain**. »
+
+**Les transformations à justifier**
+- **Personnes** : « vous » / « je » → « il » (le voyageur).
+- **Types de phrases** : la question partielle garde le mot interrogatif « d'où », sans inversion ni point d'interrogation ; les phrases déclaratives sont introduites par « que » (répété devant chaque proposition).
+- **Temps** (verbes de parole au passé simple) : présent « venez », « viens » → imparfait « venait » ; passé composé « ai marché » → plus-que-parfait « avait marché » ; futur « repartirai » → conditionnel « repartirait ».
+- **Indicateur de temps** : « demain » → « le lendemain ».
+
+**2) Au discours direct**
+« Fermez les portes du château ! » ordonna la reine aux gardes.
+- L'ordre retrouve l'**impératif** (« Fermez »), la 2e personne du pluriel (la reine parle aux gardes) et le point d'exclamation.
+- L'**incise** « ordonna la reine » est inversée (verbe + sujet) ; après un point d'exclamation, elle commence par une minuscule.` }
+      ]
+    },
   ],
 };

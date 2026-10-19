@@ -223,8 +223,8 @@ Prendre a/b d'une quantité, c'est **multiplier** cette quantité par a/b :
         {
           type: "saisie",
           question: "Calcule 5/6 − 1/3 et donne le résultat sous forme irréductible.",
-          reponses: ["1/2", "0,5", "0.5"],
-          explication: "1/3 = 2/6, donc 5/6 − 2/6 = 3/6 = 1/2 (on simplifie par 3).",
+          reponses: ["1/2"],
+          explication: "1/3 = 2/6, donc 5/6 − 2/6 = 3/6 = 1/2 (on simplifie par 3 ; 3/6 n'est pas irréductible).",
         },
         {
           type: "qcm",
@@ -681,6 +681,25 @@ Formule B : 14 ÷ 1 = 14 mais 16 ÷ 2 = 8 : **pas de proportionnalité**. Ses po
 
 3) Pour 6 entrées, les deux formules coûtent 24 €. Pour 7 entrées : A coûte 28 € et B coûte 12 + 14 = 26 €. La formule B est plus avantageuse **à partir de 7 entrées**.`,
         },
+        {
+          type: "saisie",
+          question: "Tableau de valeurs : 2 cahiers coûtent 3 € ; 5 cahiers coûtent 7,50 € ; 8 cahiers coûtent 12 €. C'est une situation de proportionnalité. Quel est le prix de 6 cahiers (en €) ?",
+          reponses: ["9", "9 €", "9€", "9 euros"],
+          explication: "Coefficient : 3 ÷ 2 = 7,50 ÷ 5 = 12 ÷ 8 = 1,5 € par cahier. Pour 6 cahiers : 6 × 1,5 = 9 €. (Ou par linéarité : 6 = 3 × 2, donc 3 × 3 € = 9 €.)",
+        },
+        {
+          type: "qcm",
+          question: "Sur un graphique, le prix (en €) en fonction de la masse (en kg) est représenté par une droite qui passe par l'origine et par le point (4 ; 10). Quel est le prix de 6 kg ?",
+          choix: ["12 €", "15 €", "24 €", "60 €"],
+          reponse: 1,
+          explication: "La droite passe par l'origine : c'est une situation de proportionnalité. 4 kg coûtent 10 €, donc 1 kg coûte 10 ÷ 4 = 2,50 € et 6 kg coûtent 6 × 2,50 = 15 €.",
+        },
+        {
+          type: "vf",
+          question: "On complète le tableau de valeurs de P(n) = 3 × n + 2 : n = 0 → 2 ; n = 1 → 5 ; n = 2 → 8. Ce tableau est un tableau de proportionnalité.",
+          reponse: false,
+          explication: "Faux : 5 ÷ 1 = 5 mais 8 ÷ 2 = 4, il n'y a pas de coefficient constant. D'ailleurs P(0) = 2 ≠ 0 : sur un graphique, la droite ne passerait pas par l'origine.",
+        },
       ],
     },
     // ───────────────────────── 6. Statistiques
@@ -807,6 +826,38 @@ Fréquence : **3/7** ≈ 0,4286, soit environ **43 %**.
           choix: ["Un diagramme circulaire", "Un graphique cartésien", "Un tableau de proportionnalité", "Une droite graduée"],
           reponse: 0,
           explication: "Un diagramme circulaire met en avant la part de chaque catégorie dans le total (le disque entier). Un graphique cartésien sert plutôt à suivre une évolution.",
+        },
+        {
+          type: "saisie",
+          question: "Un graphique cartésien montre la température au cours d'une journée. Les points relevés sont : 0 h → 4 °C ; 4 h → 2 °C ; 8 h → 6 °C ; 12 h → 13 °C ; 16 h → 15 °C ; 20 h → 9 °C ; 24 h → 5 °C (reliés par des segments). Quelle est la température maximale relevée (en °C) ?",
+          reponses: ["15", "15 °C", "15°C", "15°"],
+          explication: "On cherche le point le plus haut du graphique : 15 °C, atteint à 16 h. Attention à ne pas confondre l'heure (axe horizontal) et la température (axe vertical).",
+        },
+        {
+          type: "qcm",
+          question: "Même graphique (0 h → 4 °C ; 4 h → 2 °C ; 8 h → 6 °C ; 12 h → 13 °C ; 16 h → 15 °C ; 20 h → 9 °C ; 24 h → 5 °C). Sur quelles périodes la température a-t-elle baissé ?",
+          choix: ["De 4 h à 16 h", "De 0 h à 4 h et de 16 h à 24 h", "Seulement de 20 h à 24 h", "De 0 h à 8 h"],
+          reponse: 1,
+          explication: "La courbe « descend » quand la température diminue : de 0 h à 4 h (4 → 2 °C) et de 16 h à 24 h (15 → 9 → 5 °C). De 4 h à 16 h, elle monte.",
+        },
+        {
+          type: "saisie",
+          question: "Un diagramme en bâtons donne les notes d'une classe : note 8 → bâton de hauteur 3 ; note 10 → 5 ; note 12 → 8 ; note 14 → 4. Combien d'élèves ont obtenu au moins 12 ?",
+          reponses: ["12", "12 élèves"],
+          explication: "« Au moins 12 » signifie 12 ou plus : 8 élèves ont 12 et 4 élèves ont 14, soit 8 + 4 = 12 élèves (sur 3 + 5 + 8 + 4 = 20).",
+        },
+        {
+          type: "redaction",
+          question: "Voici les précipitations relevées dans une ville : janvier 60 mm ; février 45 mm ; mars 50 mm ; avril 65 mm ; mai 80 mm.\n1) Quel mois a été le plus sec ? le plus pluvieux ?\n2) Calcule la moyenne mensuelle des précipitations sur ces cinq mois.\n3) Quels mois sont au-dessus de la moyenne ?\n4) De combien de millimètres les précipitations ont-elles augmenté de février à mai ?\n5) Quel type de graphique choisirais-tu pour montrer l'évolution mois après mois ? Décris-le (axes).",
+          corrige: `1) Le plus sec : **février** (45 mm). Le plus pluvieux : **mai** (80 mm).
+
+2) Somme : 60 + 45 + 50 + 65 + 80 = 300 mm. Moyenne : 300 ÷ 5 = **60 mm**.
+
+3) Au-dessus de 60 mm : **avril** (65 mm) et **mai** (80 mm). (Janvier est égal à la moyenne.)
+
+4) 80 − 45 = **35 mm** de plus.
+
+5) Pour une évolution dans le temps, un **graphique cartésien** : les mois sur l'axe horizontal, les précipitations (en mm) sur l'axe vertical ; on place un point par mois et on peut les relier. (Un diagramme en bâtons convient aussi pour comparer les mois.)`,
         },
       ],
     },
@@ -1143,7 +1194,7 @@ Les trois médiatrices d'un triangle sont concourantes en un point O, **centre d
             "La bissectrice d'un angle",
           ],
           reponse: 2,
-          explication: "La hauteur passe par un sommet et est perpendiculaire au côté opposé. La première proposition est une médiane, la deuxième une médiatrice.",
+          explication: "La hauteur passe par un sommet et est perpendiculaire au côté opposé. La droite qui passe par un sommet et le milieu du côté opposé est une médiane ; la droite perpendiculaire à un côté en son milieu est une médiatrice.",
         },
         {
           type: "vf",
@@ -1477,13 +1528,13 @@ On découpe la figure en figures simples, on calcule chaque aire, puis on **addi
         {
           type: "saisie",
           question: "Calcule l'aire (en cm²) d'un triangle de base 8 cm et de hauteur associée 5 cm.",
-          reponses: ["20", "20 cm²", "20cm²"],
+          reponses: ["20", "20 cm²", "20cm²", "20 cm2", "20cm2"],
           explication: "A = b × h ÷ 2 = 8 × 5 ÷ 2 = 40 ÷ 2 = 20 cm².",
         },
         {
           type: "saisie",
           question: "Calcule l'aire (en cm²) d'un parallélogramme de base 9 cm et de hauteur associée 4 cm.",
-          reponses: ["36", "36 cm²", "36cm²"],
+          reponses: ["36", "36 cm²", "36cm²", "36 cm2", "36cm2"],
           explication: "A = b × h = 9 × 4 = 36 cm². (On ne divise pas par 2 pour un parallélogramme.)",
         },
         {
@@ -1496,7 +1547,7 @@ On découpe la figure en figures simples, on calcule chaque aire, puis on **addi
         {
           type: "saisie",
           question: "Donne la valeur exacte de l'aire (en cm²) d'un disque de rayon 3 cm.",
-          reponses: ["9π", "9 π", "9pi", "9 pi", "9×π", "9 × π", "π×9", "9π cm²"],
+          reponses: ["9π", "9 π", "9pi", "9 pi", "9×π", "9 × π", "π×9", "9π cm²", "9π cm2"],
           explication: "A = π × r² = π × 3² = 9π cm² (≈ 28,3 cm²).",
         },
         {
@@ -1515,7 +1566,7 @@ On découpe la figure en figures simples, on calcule chaque aire, puis on **addi
         {
           type: "saisie",
           question: "Calcule l'aire d'un disque de rayon 4 cm, arrondie au dixième de cm².",
-          reponses: ["50,3", "50.3", "50,3 cm²"],
+          reponses: ["50,3", "50.3", "50,3 cm²", "50,3 cm2"],
           explication: "A = π × 4² = 16π ≈ 50,265… ≈ 50,3 cm².",
         },
         {
@@ -1595,13 +1646,13 @@ L'aire latérale d'un prisme droit = **périmètre de la base × hauteur** (les 
         {
           type: "saisie",
           question: "Quel est le volume (en cm³) d'un cube d'arête 3 cm ?",
-          reponses: ["27", "27 cm³", "27cm³"],
+          reponses: ["27", "27 cm³", "27cm³", "27 cm3", "27cm3"],
           explication: "V = 3 × 3 × 3 = 27 cm³.",
         },
         {
           type: "saisie",
           question: "Un prisme droit a pour base un triangle rectangle dont les côtés de l'angle droit mesurent 3 cm et 4 cm. Sa hauteur est 10 cm. Calcule son volume en cm³.",
-          reponses: ["60", "60 cm³", "60cm³"],
+          reponses: ["60", "60 cm³", "60cm³", "60 cm3", "60cm3"],
           explication: "Aire de la base : 3 × 4 ÷ 2 = 6 cm². V = 6 × 10 = 60 cm³.",
         },
         {
@@ -1633,7 +1684,7 @@ L'aire latérale d'un prisme droit = **périmètre de la base × hauteur** (les 
         {
           type: "saisie",
           question: "Un verre cylindrique a un rayon de 3 cm et une hauteur de 10 cm. Calcule son volume arrondi au cm³.",
-          reponses: ["283", "283 cm³", "283cm³"],
+          reponses: ["283", "283 cm³", "283cm³", "283 cm3", "283cm3"],
           explication: "V = π × 3² × 10 = 90π ≈ 282,7 cm³, soit environ 283 cm³ (environ 28 cL).",
         },
         {

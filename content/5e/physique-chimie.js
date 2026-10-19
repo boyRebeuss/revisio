@@ -43,7 +43,7 @@ L'**air** est un gaz (un mélange de gaz) : environ **78 % de diazote** et **21 
         { type: "qcm", question: "Dans le modèle particulaire, les particules d'un liquide sont :", choix: ["ordonnées et collées", "désordonnées et très éloignées", "désordonnées et proches", "ordonnées et éloignées"], reponse: 2, explication: "Dans un liquide, les particules sont **désordonnées** (elles glissent les unes sur les autres) mais **proches** (en contact)." },
         { type: "saisie", question: "Quel gaz est le plus abondant dans l'air ?", reponses: ["diazote", "le diazote", "azote", "l'azote", "N2", "N₂"], explication: "Le **diazote** représente environ 78 % de l'air. Le dioxygène en représente environ 21 %." },
         { type: "qcm", question: "On bouche une seringue remplie d'air et on appuie sur le piston : il s'enfonce. Cela montre que l'air est :", choix: ["incompressible", "compressible", "solide", "sans masse"], reponse: 1, explication: "Un gaz est **compressible** : ses particules sont éloignées, on peut les rapprocher en diminuant le volume." },
-        { type: "saisie", question: "Combien pèsent environ 10 L d'air, sachant que 1 L d'air pèse environ 1,2 g ? (en g)", reponses: ["12", "12 g"], explication: "10 × 1,2 = **12 g**. L'air, comme tout gaz, a une masse." },
+        { type: "saisie", question: "Combien pèsent environ 10 L d'air, sachant que 1 L d'air pèse environ 1,2 g ? (en g)", reponses: ["12 g"], explication: "10 × 1,2 = **12 g**. L'air, comme tout gaz, a une masse." },
         { type: "redaction", question: "On remplit une seringue d'eau, on bouche l'extrémité et on essaie d'enfoncer le piston : c'est impossible. Avec de l'air, le piston s'enfonce. Explique ces observations à l'aide du modèle particulaire.", corrige: `**Observation** : l'air se laisse comprimer, l'eau liquide non.
 
 **Explication avec le modèle particulaire** :
@@ -102,7 +102,7 @@ L'eau est présente sur Terre sous ses trois états : glaciers et banquise (soli
         { type: "qcm", question: "On fait geler 250 g d'eau liquide. Quelle est la masse de glace obtenue ?", choix: ["moins de 250 g", "250 g", "plus de 250 g", "cela dépend du congélateur"], reponse: 1, explication: "La **masse se conserve** lors d'un changement d'état : on obtient **250 g** de glace (c'est le volume qui augmente)." },
         { type: "vf", question: "Le volume de l'eau diminue quand elle se transforme en glace.", reponse: false, explication: "C'est l'inverse : le volume de l'eau **augmente** d'environ 9 % quand elle gèle. C'est pour cela qu'une bouteille pleine éclate au congélateur." },
         { type: "qcm", question: "Une courbe de refroidissement ne présente aucun palier. On peut en conclure que le liquide est :", choix: ["de l'eau pure", "un corps pur", "un mélange", "un gaz"], reponse: 2, explication: "L'absence de palier montre que le liquide n'est pas un corps pur : c'est un **mélange** (par exemple de l'eau salée)." },
-        { type: "saisie", question: "À quelle température bout l'eau pure à la pression atmosphérique normale ? (en °C)", reponses: ["100", "100 °C", "100°C", "100 degrés"], explication: "L'eau pure bout à **100 °C** sous la pression atmosphérique normale." },
+        { type: "saisie", question: "À quelle température bout l'eau pure à la pression atmosphérique normale ? (en °C)", reponses: ["100 °C", "100°C", "100 degrés"], explication: "L'eau pure bout à **100 °C** sous la pression atmosphérique normale." },
         { type: "qcm", question: "La neige carbonique (dioxyde de carbone solide) passe directement à l'état gazeux. C'est :", choix: ["une condensation", "une évaporation", "une fusion", "une sublimation"], reponse: 3, explication: "Le passage direct de l'état solide à l'état gazeux est une **sublimation**." },
         { type: "redaction", question: "On chauffe de la glace sortie du congélateur. On relève la température : −10 °C à 0 min, −5 °C à 1 min, 0 °C à 2 min, 0 °C à 3, 4 et 5 min, 5 °C à 6 min, 10 °C à 7 min. Décris le graphique que l'on obtient, interprète-le et indique l'état de l'eau à chaque étape.", corrige: `**Description** : on trace la température (en °C) en fonction du temps (en min).
 - De 0 à 2 min, la température **augmente** de −10 °C à 0 °C.
@@ -165,13 +165,13 @@ Un objet (ou un liquide) **flotte** sur l'eau si sa masse volumique est **plus p
 > - Ce qui a une masse volumique plus petite que l'eau flotte.
 `,
       exercices: [
-        { type: "saisie", question: "Convertis 2,5 L en mL.", reponses: ["2500", "2 500", "2500 mL", "2 500 mL"], explication: "1 L = 1 000 mL, donc 2,5 L = 2,5 × 1 000 = **2 500 mL**." },
+        { type: "saisie", question: "Convertis 2,5 L en mL.", reponses: ["2500 mL", "2 500 mL"], explication: "1 L = 1 000 mL, donc 2,5 L = 2,5 × 1 000 = **2 500 mL**." },
         { type: "qcm", question: "1 cm³ est égal à :", choix: ["1 L", "1 dL", "1 mL", "10 mL"], reponse: 2, explication: "**1 cm³ = 1 mL**, et 1 dm³ = 1 L." },
         { type: "vf", question: "On lit le volume d'un liquide dans une éprouvette au bas du ménisque, l'œil à la hauteur du liquide.", reponse: true, explication: "C'est la bonne méthode : regarder d'au-dessus ou d'en dessous fausse la lecture." },
-        { type: "saisie", question: "Une éprouvette contient 50 mL d'eau. On y plonge un caillou : le niveau monte à 62 mL. Quel est le volume du caillou ? (en cm³)", reponses: ["12", "12 cm³", "12 cm3", "12 mL"], explication: "V = 62 − 50 = **12 mL**, soit 12 cm³." },
+        { type: "saisie", question: "Une éprouvette contient 50 mL d'eau. On y plonge un caillou : le niveau monte à 62 mL. Quel est le volume du caillou ? (en cm³)", reponses: ["12 cm³", "12 cm3", "12 mL"], explication: "V = 62 − 50 = **12 mL**, soit 12 cm³." },
         { type: "qcm", question: "Un objet a une masse de 39,5 g et un volume de 5 cm³. Sa masse volumique est :", choix: ["7,9 g/cm³", "197,5 g/cm³", "0,13 g/cm³", "44,5 g/cm³"], reponse: 0, explication: "ρ = m / V = 39,5 ÷ 5 = **7,9 g/cm³** (c'est la masse volumique du fer)." },
         { type: "vf", question: "Un glaçon flotte sur l'eau car la masse volumique de la glace est plus petite que celle de l'eau liquide.", reponse: true, explication: "La glace (environ 0,92 g/cm³) est moins dense que l'eau liquide (1 g/cm³) : elle **flotte**." },
-        { type: "saisie", question: "Quelle est la masse de 3 L d'eau liquide ? (en kg)", reponses: ["3", "3 kg"], explication: "La masse volumique de l'eau est 1 kg/L, donc m = 1 × 3 = **3 kg**." },
+        { type: "saisie", question: "Quelle est la masse de 3 L d'eau liquide ? (en kg)", reponses: ["3 kg"], explication: "La masse volumique de l'eau est 1 kg/L, donc m = 1 × 3 = **3 kg**." },
         { type: "qcm", question: "Quel est l'instrument qui mesure une masse ?", choix: ["L'éprouvette graduée", "Le thermomètre", "Le bécher", "La balance"], reponse: 3, explication: "La masse se mesure avec une **balance**. L'éprouvette graduée mesure un volume." },
         { type: "redaction", question: "Tom a deux cubes de même volume, 10 cm³ chacun. Le cube A a une masse de 27 g, le cube B une masse de 6 g. Calcule la masse volumique de chaque cube et prévois s'il flotte ou coule dans l'eau. Justifie.", corrige: `On utilise la formule **ρ = m / V**.
 
@@ -235,7 +235,7 @@ Attention : la filtration ne sépare **pas** un soluté dissous : l'eau salée f
         { type: "qcm", question: "Lequel de ces liquides est un corps pur ?", choix: ["L'eau minérale", "L'eau distillée", "Le jus d'orange", "L'eau de mer"], reponse: 1, explication: "L'**eau distillée** ne contient que de l'eau. L'eau minérale contient des sels minéraux dissous : c'est un mélange." },
         { type: "vf", question: "L'eau salée est un mélange homogène.", reponse: true, explication: "On ne distingue qu'une seule phase : l'eau salée est un **mélange homogène**." },
         { type: "saisie", question: "Dans l'eau sucrée, comment appelle-t-on le sucre ?", reponses: ["soluté", "le soluté", "un soluté"], explication: "Le sucre est le **soluté** ; l'eau est le **solvant** ; l'eau sucrée est la **solution**." },
-        { type: "saisie", question: "On dissout 15 g de sel dans 250 g d'eau. Quelle est la masse de l'eau salée obtenue ? (en g)", reponses: ["265", "265 g"], explication: "La masse se conserve : 250 + 15 = **265 g**." },
+        { type: "saisie", question: "On dissout 15 g de sel dans 250 g d'eau. Quelle est la masse de l'eau salée obtenue ? (en g)", reponses: ["265 g"], explication: "La masse se conserve : 250 + 15 = **265 g**." },
         { type: "qcm", question: "L'eau et l'huile forment un mélange hétérogène. On dit que ces liquides sont :", choix: ["miscibles", "solubles", "non miscibles", "purs"], reponse: 2, explication: "Deux liquides qui ne se mélangent pas (deux phases visibles) sont **non miscibles**." },
         { type: "vf", question: "En filtrant de l'eau salée, on récupère de l'eau pure.", reponse: false, explication: "Le sel est **dissous** : ses particules traversent le filtre. Le filtrat reste salé. Pour récupérer l'eau pure, il faut une **distillation**." },
         { type: "qcm", question: "La solubilité du sel est d'environ 360 g/L à 20 °C. Combien de sel peut-on dissoudre au maximum dans 0,5 L d'eau à 20 °C ?", choix: ["720 g", "360 g", "36 g", "180 g"], reponse: 3, explication: "Dans un demi-litre, on peut dissoudre la moitié : 360 ÷ 2 = **180 g**." },
@@ -298,11 +298,11 @@ Attention aux durées : 30 min = 0,5 h ; 15 min = 0,25 h ; 1 h 30 min = 1,5 h.
       exercices: [
         { type: "qcm", question: "La trajectoire de la pointe d'une aiguille de montre est :", choix: ["rectiligne", "circulaire", "curviligne quelconque", "immobile"], reponse: 1, explication: "La pointe de l'aiguille décrit un **cercle** autour du centre du cadran : la trajectoire est **circulaire**." },
         { type: "vf", question: "Un passager assis dans un bus qui roule est immobile par rapport au bus.", reponse: true, explication: "Sa position ne change pas **par rapport au bus**. En revanche, il est en mouvement par rapport au trottoir." },
-        { type: "saisie", question: "Un coureur parcourt 100 m en 10 s. Quelle est sa vitesse moyenne en m/s ?", reponses: ["10", "10 m/s"], explication: "v = d / t = 100 ÷ 10 = **10 m/s**." },
+        { type: "saisie", question: "Un coureur parcourt 100 m en 10 s. Quelle est sa vitesse moyenne en m/s ?", reponses: ["10 m/s", "10 m.s-1", "10 m·s⁻¹"], explication: "v = d / t = 100 ÷ 10 = **10 m/s**." },
         { type: "qcm", question: "Sur une chronophotographie, les points s'écartent de plus en plus. Le mouvement est :", choix: ["uniforme", "ralenti", "accéléré", "circulaire"], reponse: 2, explication: "L'objet parcourt des distances de plus en plus grandes pendant des durées égales : sa vitesse augmente, le mouvement est **accéléré**." },
-        { type: "saisie", question: "Convertis 20 m/s en km/h.", reponses: ["72", "72 km/h"], explication: "20 × 3,6 = **72 km/h**." },
+        { type: "saisie", question: "Convertis 20 m/s en km/h.", reponses: ["72 km/h"], explication: "20 × 3,6 = **72 km/h**." },
         { type: "qcm", question: "Une voiture roule à 90 km/h pendant 30 minutes. Quelle distance parcourt-elle ?", choix: ["2 700 km", "3 km", "180 km", "45 km"], reponse: 3, explication: "30 min = 0,5 h. d = v × t = 90 × 0,5 = **45 km**." },
-        { type: "saisie", question: "Un cycliste parcourt 60 km à la vitesse moyenne de 20 km/h. Combien de temps dure son trajet ? (en heures)", reponses: ["3", "3 h", "3 heures"], explication: "t = d / v = 60 ÷ 20 = **3 h**." },
+        { type: "saisie", question: "Un cycliste parcourt 60 km à la vitesse moyenne de 20 km/h. Combien de temps dure son trajet ? (en heures)", reponses: ["3 h", "3 heures"], explication: "t = d / v = 60 ÷ 20 = **3 h**." },
         { type: "vf", question: "Un objet dont la trajectoire est rectiligne a forcément une vitesse constante.", reponse: false, explication: "La trajectoire et la vitesse sont deux choses différentes. Une voiture qui démarre en ligne droite a une trajectoire **rectiligne** et un mouvement **accéléré**." },
         { type: "redaction", question: "Inès va au collège à vélo. Elle parcourt 3 km en 12 minutes. Calcule sa vitesse moyenne en km/h, puis en m/s (arrondie au dixième). Le panneau à l'entrée du collège limite la vitesse des véhicules à 30 km/h : la respecte-t-elle ?", corrige: `**Conversion de la durée** : 12 min = 12 ÷ 60 h = **0,2 h**.
 
@@ -432,7 +432,7 @@ L'ombre s'explique par la propagation rectiligne : la lumière ne peut pas « co
         { type: "saisie", question: "Comment appelle-t-on la zone sombre qui se forme sur un écran derrière un objet opaque éclairé ?", reponses: ["ombre portée", "l'ombre portée", "une ombre portée"], explication: "C'est l'**ombre portée**. La partie non éclairée de l'objet lui-même est l'**ombre propre**." },
         { type: "qcm", question: "Le papier calque laisse passer la lumière mais on ne voit pas nettement à travers. Il est :", choix: ["transparent", "opaque", "translucide", "diffusant primaire"], reponse: 2, explication: "Un matériau qui laisse passer la lumière sans permettre de voir nettement est **translucide**." },
         { type: "vf", question: "On voit un objet parce que notre œil envoie de la lumière vers lui.", reponse: false, explication: "C'est l'inverse : on voit un objet quand de la **lumière venant de l'objet entre dans l'œil**." },
-        { type: "saisie", question: "La Lune est à environ 384 000 km de la Terre. Combien de temps met la lumière pour venir de la Lune à la Terre ? (en secondes, arrondi au dixième)", reponses: ["1,3", "1,3 s", "1.3", "1,28", "1,28 s"], explication: "t = d / v = 384 000 ÷ 300 000 = 1,28 s, soit environ **1,3 s**." },
+        { type: "saisie", question: "La Lune est à environ 384 000 km de la Terre. Combien de temps met la lumière pour venir de la Lune à la Terre ? (en secondes, arrondi au dixième)", reponses: ["1,3 s", "1,28 s"], explication: "t = d / v = 384 000 ÷ 300 000 = 1,28 s, soit environ **1,3 s**." },
         { type: "qcm", question: "Lors d'une éclipse de Soleil :", choix: ["la Terre est entre le Soleil et la Lune", "le Soleil est entre la Terre et la Lune", "la Lune s'éteint", "la Lune est entre le Soleil et la Terre"], reponse: 3, explication: "La **Lune passe entre le Soleil et la Terre** : son ombre portée atteint une région de la Terre." },
         { type: "redaction", question: "Lors d'une expérience, on éclaire une balle opaque avec une lampe et on observe l'ombre sur un écran. On rapproche ensuite la balle de la lampe. Décris ce que l'on observe sur la balle et sur l'écran, puis explique comment évolue la taille de l'ombre portée. Tu peux t'aider d'un schéma décrit.", corrige: `**Observations** :
 - Sur la balle, la face tournée vers la lampe est éclairée ; la face opposée est sombre : c'est l'**ombre propre**.
@@ -491,12 +491,12 @@ Pour protéger ton audition : limiter le volume et la durée d'écoute au casque
       exercices: [
         { type: "vf", question: "Le son peut se propager dans le vide.", reponse: false, explication: "Le son a besoin d'un **milieu matériel** (air, eau, solide) : il ne se propage pas dans le vide." },
         { type: "qcm", question: "Quelle est la vitesse approximative du son dans l'air ?", choix: ["300 000 km/s", "34 m/s", "340 m/s", "3 400 km/s"], reponse: 2, explication: "Le son se propage à environ **340 m/s** dans l'air. 300 000 km/s est la vitesse de la lumière." },
-        { type: "saisie", question: "On entend le tonnerre 5 s après avoir vu l'éclair. À quelle distance est l'orage ? (en m, avec v = 340 m/s)", reponses: ["1700", "1 700", "1700 m", "1 700 m"], explication: "d = v × t = 340 × 5 = **1 700 m** (environ 1,7 km)." },
+        { type: "saisie", question: "On entend le tonnerre 5 s après avoir vu l'éclair. À quelle distance est l'orage ? (en m, avec v = 340 m/s)", reponses: ["1700 m", "1 700 m"], explication: "d = v × t = 340 × 5 = **1 700 m** (environ 1,7 km)." },
         { type: "qcm", question: "Dans quel milieu le son se propage-t-il le plus vite ?", choix: ["L'air", "L'eau", "L'acier", "Le vide"], reponse: 2, explication: "Le son va plus vite dans les solides : environ 5 000 à 6 000 m/s dans l'**acier**, 1 500 m/s dans l'eau, 340 m/s dans l'air. Il ne se propage pas dans le vide." },
         { type: "saisie", question: "Quelle est l'unité de la fréquence ? (nom)", reponses: ["hertz", "le hertz", "hz", "hertz (Hz)"], explication: "La fréquence se mesure en **hertz** (Hz) : nombre de vibrations par seconde." },
         { type: "vf", question: "Un son de 25 000 Hz est audible par l'oreille humaine.", reponse: false, explication: "L'oreille humaine perçoit les sons d'environ 20 Hz à 20 000 Hz. Un son de 25 000 Hz est un **ultrason**." },
         { type: "qcm", question: "À partir de quel niveau sonore environ une exposition prolongée devient-elle dangereuse pour l'audition ?", choix: ["85 dB", "20 dB", "40 dB", "200 dB"], reponse: 0, explication: "Le **seuil de danger** est d'environ **85 dB** ; le seuil de douleur est de 120 dB." },
-        { type: "saisie", question: "Un randonneur crie face à une falaise et entend l'écho 4 s plus tard. À quelle distance est la falaise ? (en m, avec v = 340 m/s)", reponses: ["680", "680 m"], explication: "Le son fait l'aller-retour : 340 × 4 = 1 360 m. La falaise est à 1 360 ÷ 2 = **680 m**." },
+        { type: "saisie", question: "Un randonneur crie face à une falaise et entend l'écho 4 s plus tard. À quelle distance est la falaise ? (en m, avec v = 340 m/s)", reponses: ["680 m"], explication: "Le son fait l'aller-retour : 340 × 4 = 1 360 m. La falaise est à 1 360 ÷ 2 = **680 m**." },
         { type: "redaction", question: "On place un réveil qui sonne sous une cloche en verre reliée à une pompe à vide. Au fur et à mesure qu'on retire l'air, on entend de moins en moins le réveil, puis plus du tout, alors qu'on voit toujours le marteau s'agiter. Interprète cette expérience. Que peut-on en conclure sur la lumière et sur le son ?", corrige: `**Observation** : quand l'air est retiré, le son diminue puis disparaît, mais le réveil continue de **vibrer** (le marteau bouge) et on continue de le **voir**.
 
 **Interprétation** : le son est produit par la vibration du réveil. Pour arriver à nos oreilles, cette vibration doit être transmise de proche en proche par les particules de l'**air**. Quand on retire l'air, il n'y a presque plus de particules pour transmettre la vibration : le son ne se propage plus.
@@ -567,7 +567,7 @@ Un **court-circuit** se produit quand deux bornes d'un dipôle sont reliées par
         { type: "saisie", question: "Comment appelle-t-on un composant électrique qui possède deux bornes ?", reponses: ["dipôle", "un dipôle", "dipole"], explication: "Un composant à deux bornes est un **dipôle** : pile, lampe, moteur, interrupteur, diode..." },
         { type: "vf", question: "Une diode laisse passer le courant dans les deux sens.", reponse: false, explication: "Une diode ne laisse passer le courant que dans **un seul sens**, le sens passant." },
         { type: "qcm", question: "On relie les deux bornes d'une pile directement par un fil. C'est :", choix: ["un circuit en dérivation", "un court-circuit dangereux", "un circuit ouvert", "un montage sans risque"], reponse: 1, explication: "C'est un **court-circuit du générateur** : le courant devient très intense, le fil et la pile chauffent, avec un risque d'incendie." },
-        { type: "saisie", question: "Quelle est la tension du secteur en France ? (en volts)", reponses: ["230", "230 V", "230 volts", "230v"], explication: "La tension du secteur est de **230 V** : elle est dangereuse, voire mortelle." },
+        { type: "saisie", question: "Quelle est la tension du secteur en France ? (en volts)", reponses: ["230 V", "230 volts", "230v"], explication: "La tension du secteur est de **230 V** : elle est dangereuse, voire mortelle." },
         { type: "qcm", question: "Quel est le symbole normalisé d'une lampe ?", choix: ["Un cercle contenant la lettre M", "Un triangle pointant vers une barre", "Deux traits parallèles", "Un cercle contenant une croix"], reponse: 3, explication: "La lampe est représentée par **un cercle contenant une croix**. Le cercle avec M est un moteur, le triangle et la barre une diode, les deux traits une pile." },
         { type: "redaction", question: "Un circuit comporte une pile, un interrupteur fermé et deux lampes L1 et L2 en série. On relie les deux bornes de L1 par un fil. Qu'observe-t-on pour L1 et L2 ? Explique. Ce montage est-il dangereux ? Que se passerait-il si on reliait les deux bornes de la pile ?", corrige: `**Observation** : **L1 s'éteint** et **L2 reste allumée** (elle brille même un peu plus fort).
 
@@ -627,7 +627,7 @@ Les objets du système solaire restent en orbite autour du Soleil grâce à la *
         { type: "saisie", question: "Comment s'appelle la galaxie dont fait partie le système solaire ?", reponses: ["Voie lactée", "la Voie lactée", "voie lactee"], explication: "Notre galaxie est la **Voie lactée**, qui compte plus de 100 milliards d'étoiles." },
         { type: "qcm", question: "La Lune est :", choix: ["une étoile", "le satellite naturel de la Terre", "une planète du système solaire", "une galaxie"], reponse: 1, explication: "La Lune tourne autour de la Terre : c'est son **satellite naturel**." },
         { type: "qcm", question: "Quelle est la planète la plus proche du Soleil ?", choix: ["Vénus", "Mars", "Mercure", "Neptune"], reponse: 2, explication: "L'ordre à partir du Soleil est : **Mercure**, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune." },
-        { type: "saisie", question: "Proxima du Centaure est à environ 4,2 années-lumière. Combien d'années sa lumière met-elle pour nous parvenir ?", reponses: ["4,2", "4,2 ans", "4.2"], explication: "Par définition, la lumière parcourt 1 al en 1 an. Pour 4,2 al, il lui faut **4,2 ans**." },
+        { type: "saisie", question: "Proxima du Centaure est à environ 4,2 années-lumière. Combien d'années sa lumière met-elle pour nous parvenir ?", reponses: ["4,2 ans"], explication: "Par définition, la lumière parcourt 1 al en 1 an. Pour 4,2 al, il lui faut **4,2 ans**." },
         { type: "vf", question: "C'est la gravitation qui maintient la Terre en orbite autour du Soleil.", reponse: true, explication: "Le Soleil et la Terre s'attirent par **gravitation** : c'est ce qui maintient la Terre sur son orbite." },
         { type: "redaction", question: "La lumière se propage à 300 000 km/s. Calcule le temps mis par la lumière du Soleil (à 150 millions de km) pour atteindre la Terre, en secondes puis en minutes et secondes. Explique pourquoi on dit que « voir loin, c'est voir dans le passé ».", corrige: `**Calcul** : on utilise t = d / v.
 - d = 150 000 000 km ; v = 300 000 km/s.
@@ -767,7 +767,7 @@ Si le dioxygène manque (appareil de chauffage mal réglé, pièce non aérée),
         { type: "vf", question: "Lors d'une transformation chimique, les réactifs sont les espèces chimiques qui apparaissent.", reponse: false, explication: "C'est l'inverse : les **réactifs** sont **consommés** (ils disparaissent) ; les **produits** sont **formés** (ils apparaissent)." },
         { type: "saisie", question: "Quel liquide se trouble en présence de dioxyde de carbone ?", reponses: ["eau de chaux", "l'eau de chaux", "de l'eau de chaux"], explication: "L'**eau de chaux** se trouble (devient blanche et laiteuse) en présence de dioxyde de carbone." },
         { type: "qcm", question: "Dans la combustion du carbone, quel est le comburant ?", choix: ["Le carbone", "Le dioxyde de carbone", "L'eau", "Le dioxygène"], reponse: 3, explication: "Le **dioxygène** est le comburant : il permet la combustion. Le carbone est le combustible, le dioxyde de carbone est le produit." },
-        { type: "saisie", question: "On fait brûler 6 g de carbone : ils réagissent avec 16 g de dioxygène. Quelle masse de dioxyde de carbone obtient-on ? (en g)", reponses: ["22", "22 g"], explication: "La masse se conserve : 6 + 16 = **22 g** de dioxyde de carbone." },
+        { type: "saisie", question: "On fait brûler 6 g de carbone : ils réagissent avec 16 g de dioxygène. Quelle masse de dioxyde de carbone obtient-on ? (en g)", reponses: ["22 g"], explication: "La masse se conserve : 6 + 16 = **22 g** de dioxyde de carbone." },
         { type: "qcm", question: "Pour éteindre une casserole d'huile qui a pris feu, on pose un couvercle dessus. Quel élément du triangle du feu supprime-t-on ?", choix: ["Le combustible", "Le comburant (dioxygène)", "La chaleur", "Aucun"], reponse: 1, explication: "Le couvercle empêche l'air d'arriver : on supprime le **comburant** (dioxygène). Ne jamais jeter d'eau sur de l'huile enflammée : l'eau se vaporise brutalement et projette l'huile en feu." },
         { type: "vf", question: "Le monoxyde de carbone est dangereux, mais on le repère facilement grâce à son odeur.", reponse: false, explication: "Le monoxyde de carbone est **invisible et sans odeur** : on ne le détecte pas avec nos sens. C'est pour cela qu'il est si dangereux et qu'on installe des détecteurs." },
         { type: "qcm", question: "On place un bocal sec au-dessus d'une bougie : de la buée apparaît. Quel test permet de montrer que cette buée est de l'eau ?", choix: ["Le sulfate de cuivre anhydre qui bleuit", "L'eau de chaux qui se trouble", "La bûchette incandescente qui se rallume", "L'eau iodée qui devient bleu-noir"], reponse: 0, explication: "Le **sulfate de cuivre anhydre** (blanc) devient **bleu** au contact de l'eau. L'eau de chaux détecte le dioxyde de carbone, la bûchette le dioxygène, l'eau iodée l'amidon." },
@@ -782,6 +782,124 @@ Si le dioxygène manque (appareil de chauffage mal réglé, pièce non aérée),
 4) **Sécurité** : porter des lunettes et une blouse, attacher ses cheveux, tenir le charbon incandescent avec une pince (un têt à combustion), garder les produits inflammables loin de la flamme, travailler dans une salle aérée.
 
 > Méthode : réactifs à gauche de la flèche, produits à droite ; on identifie chaque produit par un test.` },
+      ],
+    },
+    {
+      id: "tension-intensite",
+      titre: "Pour aller plus loin : mesurer la tension et l'intensité",
+      theme: "L'énergie et ses conversions",
+      cours: `
+>! **Pour aller plus loin** : ces mesures font partie du programme de cycle 4 (5e-4e-3e). Selon les collèges, elles sont vues en 5e ou en 4e ; le projet de nouveau programme de cycle 4 (soumis à consultation en 2026, pas encore publié au Bulletin officiel) les place dès la 5e.
+
+## Deux grandeurs électriques
+| Grandeur | Symbole | Unité | Appareil de mesure | Branchement |
+|---|---|---|---|---|
+| **Intensité** du courant | I | **ampère (A)** | **ampèremètre** | **en série** (on ouvre le circuit pour l'insérer) |
+| **Tension** électrique | U | **volt (V)** | **voltmètre** | **en dérivation** (aux bornes du dipôle) |
+
+- L'**intensité** indique « la quantité de courant » qui traverse un dipôle. On utilise souvent le milliampère : **1 A = 1 000 mA**.
+- La **tension** existe entre les deux bornes d'un dipôle. Une pile de 4,5 V a une tension de 4,5 V entre ses bornes, même si elle n'est branchée à rien.
+
+>! **Utiliser un multimètre** : en ampèremètre, on branche les fils sur la borne **COM** et la borne **A** (ou mA), le courant devant **entrer par A** ; en voltmètre, sur **COM** et **V**. On commence par le **plus grand calibre**, puis on le diminue pour gagner en précision. Si la valeur affichée est négative, l'appareil est branché à l'envers.
+
+## Ce que l'on observe
+- La tension aux bornes d'un **fil** ou d'un **interrupteur fermé** est pratiquement **nulle** (0 V).
+- La tension aux bornes d'un **interrupteur ouvert** est égale à celle du générateur.
+- Dans un circuit **en série**, l'intensité est **la même en tout point** du circuit (loi d'unicité).
+- Dans un circuit **en série**, la tension du générateur se **partage** entre les récepteurs : U(générateur) = U(L1) + U(L2) (loi d'additivité).
+- Dans un circuit **en dérivation**, chaque branche a **la même tension** que le générateur.
+
+>! **Exemple résolu** : une pile de 6 V alimente deux lampes en série. On mesure 3,5 V aux bornes de L1. Aux bornes de L2 : U = 6 − 3,5 = **2,5 V**.
+
+## Conversions
+| mA | A |
+|---|---|
+| 1 000 mA | 1 A |
+| 250 mA | 0,25 A |
+| 50 mA | 0,05 A |
+
+> **À retenir** :
+> - Intensité I en **ampères (A)**, mesurée par un **ampèremètre branché en série** ; 1 A = 1 000 mA.
+> - Tension U en **volts (V)**, mesurée par un **voltmètre branché en dérivation**.
+> - En série : même intensité partout ; les tensions des récepteurs s'additionnent pour donner celle du générateur.
+> - Tension d'un fil ou d'un interrupteur fermé : 0 V.
+`,
+      exercices: [
+        { type: "qcm", question: "Comment branche-t-on un ampèremètre pour mesurer l'intensité qui traverse une lampe ?", choix: ["En dérivation, aux bornes de la lampe", "En série avec la lampe", "Directement aux bornes de la pile, sans rien d'autre", "On ne peut pas mesurer l'intensité"], reponse: 1, explication: "L'ampèremètre se branche **en série** : on ouvre le circuit et on l'insère pour que le courant le traverse. C'est le voltmètre qui se branche en dérivation. Brancher un ampèremètre seul aux bornes d'une pile la mettrait en court-circuit." },
+        { type: "saisie", question: "Quelle est l'unité de l'intensité du courant électrique ? (nom)", reponses: ["ampère", "l'ampère", "ampères", "ampere", "A"], explication: "L'intensité se mesure en **ampères** (symbole A). Le volt (V) est l'unité de la tension." },
+        { type: "vf", question: "Un voltmètre se branche en série dans le circuit.", reponse: false, explication: "Le voltmètre se branche **en dérivation**, c'est-à-dire aux bornes du dipôle étudié. C'est l'ampèremètre qui se branche en série." },
+        { type: "saisie", question: "Convertis 250 mA en ampères.", reponses: ["0,25 A", "0,25 ampère"], explication: "1 A = 1 000 mA, donc 250 mA = 250 ÷ 1 000 = **0,25 A**." },
+        { type: "qcm", question: "Dans un circuit en série, l'ampèremètre indique 0,20 A entre la pile et la lampe L1. Que mesure-t-il si on le place entre L1 et L2 ?", choix: ["0,10 A", "0,40 A", "0,20 A", "0 A"], reponse: 2, explication: "Dans un circuit en série, l'intensité est **la même en tout point** : 0,20 A. Le courant n'est pas « consommé » par la lampe." },
+        { type: "saisie", question: "Une pile de 4,5 V alimente deux lampes en série. La tension aux bornes de L1 vaut 2,5 V. Quelle est la tension aux bornes de L2 ? (en V)", reponses: ["2 V", "2 volts"], explication: "Loi d'additivité en série : U(pile) = U(L1) + U(L2), donc U(L2) = 4,5 − 2,5 = **2 V**." },
+        { type: "vf", question: "La tension aux bornes d'un interrupteur fermé est pratiquement nulle.", reponse: true, explication: "Un interrupteur fermé se comporte comme un fil : la tension à ses bornes est pratiquement **0 V**. Ouvert, il a à ses bornes la tension du générateur." },
+        { type: "qcm", question: "On mesure une tension avec un multimètre. Sur quelles bornes branche-t-on les fils ?", choix: ["COM et A", "A et mA", "COM et V", "V et A"], reponse: 2, explication: "En voltmètre, on utilise les bornes **COM** et **V**. Les bornes A ou mA servent à mesurer une intensité." },
+        { type: "redaction", question: "Un circuit en série comporte une pile de 6 V, un interrupteur fermé, une lampe L1 et un moteur M. 1) Explique comment mesurer l'intensité du courant qui traverse le moteur (appareil, bornes, branchement). 2) On mesure 0,30 A entre la pile et la lampe. Quelle intensité traverse le moteur ? Justifie. 3) La tension aux bornes de la lampe vaut 3,8 V. Calcule la tension aux bornes du moteur. 4) Quelle tension mesure-t-on aux bornes de l'interrupteur fermé ? Et s'il est ouvert ?", corrige: `1) On utilise un **multimètre en ampèremètre** (bornes **COM** et **A**, en commençant par le plus grand calibre). On **ouvre le circuit** à côté du moteur et on y insère l'ampèremètre **en série**, le courant entrant par la borne A.
+
+2) Le circuit est **en série** : l'intensité est **la même en tout point**. Le moteur est donc traversé par **0,30 A**.
+
+3) **Loi d'additivité des tensions** en série : U(pile) = U(lampe) + U(moteur) (la tension de l'interrupteur fermé est nulle). U(moteur) = 6 − 3,8 = **2,2 V**.
+
+4) Interrupteur **fermé** : tension pratiquement **0 V** (il se comporte comme un fil). Interrupteur **ouvert** : le courant ne circule plus, et on mesure à ses bornes la tension de la pile, **6 V**.
+
+> Méthode : ampèremètre en **série**, voltmètre en **dérivation** ; en série, une seule intensité, et les tensions s'additionnent.` },
+      ],
+    },
+    {
+      id: "actions-forces-aimants",
+      titre: "Pour aller plus loin : actions mécaniques, forces et aimants",
+      theme: "Mouvement et interactions",
+      cours: `
+>! **Pour aller plus loin** : les actions mécaniques et les forces font partie du programme de cycle 4 et sont souvent étudiées en 4e ou en 3e. Le projet de nouveau programme de cycle 4 (consultation de 2026, pas encore publié au Bulletin officiel) prévoit une première approche des forces et du magnétisme dès la 5e.
+
+## Les actions mécaniques
+Un objet (l'**acteur**) exerce une **action mécanique** sur un autre objet (le **receveur**) quand il peut :
+- le **mettre en mouvement** ou modifier son mouvement (accélérer, ralentir, changer sa trajectoire) ;
+- le **déformer**.
+
+| Type d'action | Exemple |
+|---|---|
+| **de contact** (les objets se touchent) | le pied qui frappe le ballon, la main qui pousse une porte, le sol qui soutient un livre |
+| **à distance** (sans se toucher) | la Terre qui attire une pomme (poids), un aimant qui attire un clou |
+
+Une action est toujours **réciproque** : si A agit sur B, B agit sur A. Le nageur pousse l'eau vers l'arrière, l'eau le pousse vers l'avant : c'est une **interaction**.
+
+## Modéliser une action par une force
+On représente une action mécanique par une **force**, dessinée par une **flèche** (un vecteur) qui précise :
+1. le **point d'application** (là où l'action s'exerce) ;
+2. la **direction** (la droite selon laquelle elle agit) ;
+3. le **sens** (vers où elle agit) ;
+4. la **valeur**, en **newtons (N)**, mesurée avec un **dynamomètre**.
+
+>! **Exemple** : le **poids** d'une pomme est l'action à distance de la Terre sur la pomme. Direction : **verticale** ; sens : **vers le bas** (vers le centre de la Terre) ; point d'application : le centre de la pomme. Pour une masse de 100 g, il vaut environ 1 N sur Terre.
+
+## Les aimants
+- Un aimant possède deux **pôles** : un pôle **nord** et un pôle **sud**.
+- Deux pôles **de même nom** se **repoussent** ; deux pôles **de noms contraires** s'**attirent**.
+- Un aimant attire le **fer**, l'**acier**, le **nickel** et le **cobalt**, mais pas le cuivre, l'aluminium, le bois ou le plastique.
+- L'action d'un aimant est une action **à distance**, qui diminue quand on s'éloigne.
+- Une **boussole** contient une petite aiguille aimantée : loin de tout aimant, elle s'oriente dans la direction **nord-sud** ; son pôle nord indique le nord géographique.
+
+> **À retenir** :
+> - Une action mécanique peut mettre en mouvement, modifier un mouvement ou déformer ; elle est de contact ou à distance, et toujours réciproque.
+> - Une force se représente par une flèche : point d'application, direction, sens, valeur en **newtons (N)** (dynamomètre).
+> - Le poids est une action à distance, verticale, vers le bas.
+> - Aimants : pôles de même nom se repoussent, pôles contraires s'attirent ; ils attirent le fer, l'acier, le nickel, le cobalt.
+`,
+      exercices: [
+        { type: "qcm", question: "Laquelle de ces actions est une action à distance ?", choix: ["Le pied qui frappe un ballon", "La main qui pousse une porte", "Un aimant qui attire un trombone sans le toucher", "La raquette qui renvoie la balle"], reponse: 2, explication: "L'aimant agit **sans contact** sur le trombone en acier. Les trois autres actions supposent que les objets se touchent : ce sont des actions de contact." },
+        { type: "saisie", question: "Quelle est l'unité de la valeur d'une force ? (nom)", reponses: ["newton", "le newton", "newtons", "N"], explication: "La valeur d'une force s'exprime en **newtons** (symbole N) et se mesure avec un **dynamomètre**." },
+        { type: "vf", question: "Deux aimants approchés par leurs pôles nord se repoussent.", reponse: true, explication: "Deux pôles **de même nom** (nord-nord ou sud-sud) se **repoussent** ; deux pôles de noms contraires s'attirent." },
+        { type: "qcm", question: "Lequel de ces objets n'est pas attiré par un aimant ?", choix: ["Un clou en fer", "Une canette en aluminium", "Une pièce en acier", "Une rondelle en nickel"], reponse: 1, explication: "L'**aluminium** n'est pas attiré par un aimant. Le fer, l'acier (qui contient du fer) et le nickel le sont. C'est ainsi que les centres de tri séparent les canettes en acier des canettes en aluminium." },
+        { type: "qcm", question: "Quelles sont la direction et le sens du poids d'un objet ?", choix: ["Horizontale, vers la droite", "Verticale, vers le haut", "Verticale, vers le bas", "Cela dépend de la forme de l'objet"], reponse: 2, explication: "Le poids est l'action à distance de la Terre : il est **vertical** et dirigé **vers le bas** (vers le centre de la Terre)." },
+        { type: "vf", question: "Une action mécanique peut seulement mettre un objet en mouvement.", reponse: false, explication: "Une action mécanique peut aussi **modifier** un mouvement (accélérer, freiner, dévier) ou **déformer** l'objet (une balle de tennis écrasée par la raquette)." },
+        { type: "qcm", question: "Une skateuse pousse un mur avec ses mains et recule. Comment l'expliquer ?", choix: ["Le mur exerce lui aussi une action sur elle (interaction)", "Le mur est en mouvement", "Son poids la pousse en arrière", "C'est une action à distance du mur"], reponse: 0, explication: "Les actions sont **réciproques** : la skateuse pousse le mur, le mur pousse la skateuse en sens inverse. Comme ses roulettes lui permettent de bouger, elle recule." },
+        { type: "redaction", question: "Un footballeur frappe un ballon posé sur le sol ; le ballon s'élève puis retombe. 1) Identifie l'acteur, le receveur et le type de l'action quand le pied frappe le ballon. Quels sont ses effets ? 2) Pendant le vol, quelle action s'exerce sur le ballon (en négligeant l'air) ? Est-ce une action de contact ou à distance ? 3) Décris la force qui modélise cette action (point d'application, direction, sens, unité de la valeur).", corrige: `1) **Acteur** : le pied ; **receveur** : le ballon. C'est une action **de contact**. Effets : elle **met le ballon en mouvement** et le **déforme** un court instant (le ballon s'écrase contre le pied).
+
+2) Pendant le vol, seule la **Terre** agit sur le ballon (si l'on néglige l'air) : c'est le **poids**, une action **à distance**. C'est elle qui courbe la trajectoire et fait retomber le ballon.
+
+3) **Force poids** : point d'application au **centre du ballon** ; direction **verticale** ; sens **vers le bas** ; valeur en **newtons (N)**, mesurable avec un dynamomètre.
+
+> Méthode : pour chaque action, nommer acteur et receveur, dire si elle est de contact ou à distance, puis décrire la force par ses quatre caractéristiques.` },
       ],
     },
   ],

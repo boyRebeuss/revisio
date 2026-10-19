@@ -1196,5 +1196,328 @@ Le programme fixe des **repères** à connaître : dates, acteurs, lieux. Exempl
 **Conseils** : une légende en parties titrées qui suit un raisonnement (du centre de gravité littoral vers les marges), des couleurs graduées (rouge → orange → jaune), une nomenclature lisible (Pékin, Shanghai, Hong Kong, Chongqing, Tibet, Xinjiang, mer de Chine).` },
       ],
     },
+    {
+      id: "second-empire",
+      titre: "Le Second Empire (1852-1870) : un régime autoritaire qui se libéralise",
+      theme: "Histoire – La France dans l'Europe des nationalités (1848-1871)",
+      cours: `
+## Introduction
+Le programme associe la Deuxième République et le Second Empire dans « la difficile entrée dans l'âge démocratique ». Né d'un coup d'État, le Second Empire conserve pourtant le **suffrage universel masculin** et s'en sert pour se légitimer : c'est un **césarisme démocratique**. Autoritaire jusqu'en 1860, il se **libéralise** ensuite, modernise profondément le pays, puis s'effondre en 1870 dans la défaite face à la Prusse. Ce chapitre complète « Le Second Empire et l'Europe des nationalités », consacré surtout à la politique extérieure.
+
+## 1. Naissance d'un régime : du coup d'État à l'Empire
+- **2 décembre 1851** : coup d'État de Louis-Napoléon Bonaparte. La résistance républicaine (Paris, Centre, Sud-Est) est écrasée : environ **27 000 arrestations**, près de 10 000 déportés en Algérie, quelques centaines au bagne de Guyane ; des républicains partent en exil (**Victor Hugo**).
+- **Plébiscite des 20-21 décembre 1851** : environ 7,4 millions de « oui » contre 640 000 « non ».
+- **Constitution du 14 janvier 1852** : un président élu pour dix ans, qui a seul l'initiative des lois.
+- **Discours de Bordeaux** (octobre 1852) : « L'Empire, c'est la paix ». Après un nouveau plébiscite (environ 7,8 millions de « oui »), l'Empire est proclamé le **2 décembre 1852** : Louis-Napoléon devient **Napoléon III**.
+
+## 2. L'Empire autoritaire (1852-1860)
+| Institution | Rôle |
+|---|---|
+| L'empereur | nomme les ministres, responsables devant lui seul ; seul à proposer les lois ; commande l'armée ; peut recourir au plébiscite |
+| Le Conseil d'État | rédige les projets de lois (membres nommés) |
+| Le Corps législatif | élu au **suffrage universel masculin** ; vote les lois et le budget, sans pouvoir les amender librement ni interpeller les ministres |
+| Le Sénat | membres nommés à vie ; gardien de la Constitution, il la modifie par sénatus-consulte |
+- **Contrôle de la vie politique** : **candidatures officielles** soutenues par les préfets, découpage électoral favorable, presse soumise à autorisation et aux « avertissements », réunions surveillées.
+- **Répression des opposants** : après l'attentat d'**Orsini** contre l'empereur (janvier 1858), la **loi de sûreté générale** permet d'interner ou d'exiler sans jugement d'anciens opposants.
+- **Les soutiens du régime** : les **paysans** (attachés au nom de Bonaparte et à l'ordre), l'**Église** catholique (au début), l'**armée**, la **bourgeoisie d'affaires** qui profite de la prospérité.
+- **Les opposants** : les républicains en exil ou réduits au silence (Hugo publie *Les Châtiments* en 1853 et refuse l'amnistie de 1859 : « Quand la liberté rentrera, je rentrerai »), les monarchistes légitimistes et orléanistes, une partie des ouvriers.
+
+## 3. Un régime modernisateur
+- Napoléon III, influencé par les idées **saint-simoniennes** (le progrès par l'industrie et le crédit), a écrit en 1844 *L'Extinction du paupérisme* : il veut le progrès économique et l'amélioration du sort des ouvriers.
+- **Économie** : essor des chemins de fer (environ 3 500 km de lignes en 1851, plus de 17 000 en 1870), banques (Crédit mobilier, Crédit foncier en 1852), libre-échange (1860), loi de 1867 facilitant la création de sociétés anonymes, Expositions universelles (1855, 1867), percement du **canal de Suez** par Ferdinand de Lesseps (inauguré en 1869).
+- **Villes** : Paris transformé par le préfet **Haussmann** (boulevards, égouts, parcs, gares) ; mais les ouvriers sont repoussés vers la périphérie.
+- **Politique sociale** : sociétés de secours mutuels encouragées (1852), droit de **grève** reconnu de fait (1864) ; le **livret ouvrier** reste obligatoire.
+- **Instruction** : le ministre **Victor Duruy** (1863-1869) développe l'enseignement primaire (loi de 1867 : école de filles obligatoire dans les communes de plus de 500 habitants) et crée des cours secondaires pour les jeunes filles.
+- **Expansion coloniale** : Nouvelle-Calédonie (1853), essor du Sénégal sous le gouverneur **Faidherbe** (fondation de Dakar, 1857), Cochinchine (1862), protectorat sur le Cambodge (1863).
+
+## 4. L'Empire libéral (1860-1870)
+- **Pourquoi se libéraliser ?** L'intervention en Italie (1859) inquiète les catholiques, qui craignent pour le pape ; le traité de libre-échange (1860) mécontente une partie des industriels : l'empereur cherche de nouveaux soutiens.
+- **Étapes** : droit d'adresse du Corps législatif et publication des débats (**1860**) ; droit de grève (**1864**) ; droit d'interpellation des ministres (**1867**) ; lois libérales sur la presse et les réunions (**1868**).
+- **Une opposition qui progresse** : aux élections de 1863, une trentaine d'opposants sont élus (l'« Union libérale », dont Adolphe **Thiers**) ; en 1869, l'opposition rassemble plus de 40 % des voix ; le jeune avocat **Léon Gambetta** est élu à Paris sur le **programme de Belleville** (libertés, suffrage universel, séparation des Églises et de l'État). Les grèves se multiplient (Le Creusot, 1870).
+- **1870** : **Émile Ollivier**, ancien républicain, forme un gouvernement responsable devant le Corps législatif ; le régime devient presque **parlementaire**. Le **plébiscite du 8 mai 1870** approuve les réformes par environ **7,4 millions de « oui »** contre près de 1,6 million de « non » : l'Empire semble consolidé.
+
+## 5. Les échecs extérieurs et la chute
+- **Succès** : guerre de **Crimée** (1853-1856) et **congrès de Paris** (1856), qui rendent à la France son prestige ; unité italienne et rattachement de Nice et de la Savoie (1860).
+- **Échecs** : l'**expédition du Mexique** (1861-1867) se termine par le retrait des troupes françaises et l'exécution de l'empereur Maximilien, placé sur le trône par la France ; la France reste spectatrice de la victoire prussienne de **Sadowa** (1866).
+- **1870** : après la **dépêche d'Ems**, la France déclare la guerre à la Prusse (19 juillet) ; mal préparée, l'armée est battue. **Sedan (2 septembre 1870)** : Napoléon III est fait prisonnier. Le **4 septembre**, la République est proclamée à Paris, sans résistance : l'Empire s'effondre avec la défaite.
+
+> **À retenir** : le Second Empire est un régime **autoritaire** fondé sur le suffrage universel masculin et les **plébiscites** (césarisme démocratique). Il modernise la France (chemins de fer, banques, Paris d'Haussmann, empire colonial) et se **libéralise** à partir de 1860 sous la pression d'une opposition grandissante. Il tombe non pas sous les coups de l'opinion (plébiscite de mai 1870), mais à cause de la défaite de **Sedan** (2 septembre 1870). Les Français ont appris à voter : la République du 4 septembre héritera de cette pratique du suffrage universel.
+
+## Notions
+- **Césarisme démocratique** : pouvoir personnel et autoritaire qui se légitime par le suffrage universel et l'appel direct au peuple (plébiscite).
+- **Candidature officielle** : candidat soutenu par l'administration (préfets, maires) lors des élections au Corps législatif.
+- **Empire libéral** : phase (1860-1870) pendant laquelle l'empereur accorde des libertés et des pouvoirs accrus au Corps législatif.
+
+| Date | Événement |
+|---|---|
+| 2 décembre 1851 | Coup d'État |
+| 14 janvier 1852 | Constitution |
+| 2 décembre 1852 | Proclamation du Second Empire |
+| 1853-1856 | Guerre de Crimée |
+| 1860 | Début de l'Empire libéral ; traité de libre-échange |
+| 1864 | Droit de grève |
+| 1869 | Programme de Belleville (Gambetta) ; inauguration du canal de Suez |
+| 8 mai 1870 | Plébiscite approuvant l'Empire libéral |
+| 2 et 4 septembre 1870 | Sedan ; proclamation de la République |
+`,
+      exercices: [
+        { type: "qcm", question: "Comment qualifie-t-on un régime autoritaire qui se légitime par le suffrage universel et les plébiscites, comme le Second Empire ?", choix: ["Une monarchie constitutionnelle", "Un césarisme démocratique", "Une république parlementaire", "Une monarchie absolue de droit divin"], reponse: 1, explication: "Le **césarisme démocratique** associe pouvoir personnel et appel direct au peuple. Napoléon III conserve le suffrage universel masculin mais en contrôle l'usage (candidatures officielles)." },
+        { type: "vf", question: "Sous l'Empire autoritaire, les ministres sont responsables devant le Corps législatif, qui peut les renverser.", reponse: false, explication: "Faux : les ministres ne sont responsables que devant l'**empereur**. Il faut attendre 1870 et le gouvernement Ollivier pour une évolution vers la responsabilité parlementaire." },
+        { type: "saisie", question: "Comment appelle-t-on les candidats soutenus par les préfets lors des élections au Corps législatif sous le Second Empire ?", reponses: ["candidatures officielles", "candidats officiels", "candidature officielle", "candidat officiel", "les candidats officiels"], explication: "Les **candidatures officielles** permettent au régime d'obtenir une large majorité malgré le suffrage universel." },
+        { type: "qcm", question: "Quel texte, publié par Victor Hugo en exil en 1853, attaque violemment Napoléon III ?", choix: ["Les Misérables", "Les Châtiments", "Notre-Dame de Paris", "Hernani"], reponse: 1, explication: "*Les Châtiments* (1853) dénoncent « Napoléon le Petit ». *Les Misérables* paraissent en 1862 ; *Notre-Dame de Paris* (1831) et *Hernani* (1830) sont antérieurs." },
+        { type: "qcm", question: "Laquelle de ces mesures appartient à l'Empire libéral ?", choix: ["La loi de sûreté générale (1858)", "Le droit d'interpellation des ministres (1867)", "Les candidatures officielles", "La Constitution de 1852"], reponse: 1, explication: "Le **droit d'interpellation** (1867) permet aux députés de questionner les ministres ; la loi de sûreté générale (1858) est au contraire une mesure de répression." },
+        { type: "saisie", question: "Quel républicain est élu député de Paris en 1869 sur le « programme de Belleville » ?", reponses: ["Gambetta", "Léon Gambetta", "Leon Gambetta"], explication: "**Léon Gambetta** y réclame les libertés, l'instruction gratuite et obligatoire et la séparation des Églises et de l'État : un programme repris par les républicains de la IIIe République." },
+        { type: "vf", question: "Le plébiscite du 8 mai 1870 montre que l'Empire était alors rejeté par la majorité des Français.", reponse: false, explication: "Faux : environ **7,4 millions de « oui »** contre près de 1,6 million de « non ». C'est la défaite militaire de **Sedan**, quatre mois plus tard, qui fait tomber le régime." },
+        { type: "qcm", question: "Quelle expédition militaire du Second Empire se solde par un échec et l'exécution de l'empereur Maximilien (1867) ?", choix: ["La guerre de Crimée", "La campagne d'Italie", "L'expédition du Mexique", "La conquête de la Cochinchine"], reponse: 2, explication: "L'**expédition du Mexique** (1861-1867) visait à créer un empire catholique allié de la France ; elle affaiblit le prestige du régime." },
+        { type: "redaction", question: "Composition : *Le Second Empire, un régime autoritaire qui se libéralise (1852-1870)*.", corrige: `**Problématique** : comment un régime né d'un coup d'État parvient-il à se maintenir près de vingt ans grâce au suffrage universel, et pourquoi se libéralise-t-il avant de s'effondrer ?
+
+**Introduction** : le 2 décembre 1851, Louis-Napoléon Bonaparte renverse la République dont il était le président ; un an plus tard, il devient Napoléon III. Le régime conserve le suffrage universel masculin conquis en 1848 : c'est l'une des originalités de ce **césarisme démocratique**.
+
+**I. Un régime autoritaire fondé sur le suffrage universel (1851-1860)**
+- Coup d'État, répression (environ 27 000 arrestations, exil de Victor Hugo), plébiscites de 1851 et 1852.
+- Constitution de 1852 : l'empereur concentre le pouvoir ; Corps législatif élu mais faible ; candidatures officielles, presse contrôlée, loi de sûreté générale (1858).
+- Soutiens : paysans, Église, armée, milieux d'affaires.
+
+**II. Un régime modernisateur**
+- Essor économique : chemins de fer, banques (Crédit mobilier), libre-échange (1860), Expositions universelles, canal de Suez (1869).
+- Paris d'Haussmann ; politique sociale (secours mutuels, droit de grève en 1864) ; écoles (Duruy).
+- Prestige extérieur et colonial : Crimée (1856), Italie, Nice et Savoie (1860), Sénégal, Cochinchine.
+
+**III. Libéralisation, opposition et chute (1860-1870)**
+- Étapes : 1860, 1864, 1867, 1868 ; gouvernement Ollivier (1870).
+- Montée de l'opposition : élections de 1863 et 1869, programme de Belleville (Gambetta), grèves.
+- Plébiscite de mai 1870 favorable, mais échecs extérieurs (Mexique, Sadowa) puis défaite de Sedan (2 septembre 1870) ; République proclamée le 4 septembre.
+
+**Conclusion** : le Second Empire a modernisé la France et habitué les Français au vote ; sa libéralisation montre que l'aspiration aux libertés progressait. Mais, régime d'un homme, il ne survit pas à la défaite : la IIIe République reprendra le suffrage universel en y ajoutant les libertés.` },
+      ],
+    },
+    {
+      id: "guerre-embrasement-mondial",
+      titre: "1914-1918 : un embrasement mondial et ses grandes étapes",
+      theme: "Histoire – La Première Guerre mondiale",
+      cours: `
+## Introduction
+Le programme découpe le thème de la Grande Guerre en trois chapitres : **un embrasement mondial et ses grandes étapes**, **les sociétés en guerre** et **sortir de la guerre**. Ce chapitre-ci approfondit le premier (le chapitre « La Première Guerre mondiale : le suicide de l'Europe » en donne la vue d'ensemble). Née d'une crise dans les Balkans, la guerre devient **mondiale** : par le nombre de belligérants, par la multiplication des fronts et par la mobilisation des empires coloniaux.
+
+## 1. De la crise européenne à la guerre mondiale (1914)
+- **Juillet 1914** : après l'attentat de **Sarajevo** (28 juin), l'Autriche-Hongrie, soutenue par l'Allemagne, déclare la guerre à la Serbie (28 juillet) ; la Russie mobilise pour soutenir la Serbie ; l'Allemagne déclare la guerre à la Russie (1er août) puis à la France (3 août) et envahit la **Belgique** neutre, ce qui fait entrer le Royaume-Uni en guerre (4 août).
+- **La guerre s'étend dès 1914** : le **Japon**, allié du Royaume-Uni, déclare la guerre à l'Allemagne (août 1914) et s'empare de sa base chinoise de **Tsingtao** et de ses îles du Pacifique ; l'**Empire ottoman** entre en guerre aux côtés de l'Allemagne (octobre-novembre 1914).
+- **Les empires coloniaux** sont mobilisés : les colonies allemandes d'Afrique (Togo, Cameroun, Sud-Ouest africain) sont conquises par les Alliés, sauf l'Afrique orientale où le général allemand von Lettow-Vorbeck résiste jusqu'en novembre 1918.
+
+## 2. Les grandes étapes militaires
+| Période | Caractéristiques | Événements clés |
+|---|---|---|
+| Août-novembre 1914 | **guerre de mouvement** | plan Schlieffen, invasion de la Belgique ; victoire allemande de **Tannenberg** sur les Russes (fin août) ; victoire franco-britannique de la **Marne** (septembre) ; « course à la mer » |
+| 1915-1917 | **guerre de position** (tranchées) à l'ouest | offensives coûteuses et vaines ; **Verdun** et la **Somme** (1916) ; échec du **Chemin des Dames** et mutineries (1917) |
+| 1917 | **année tournant** | guerre sous-marine à outrance (février), entrée en guerre des **États-Unis** (6 avril), révolutions russes ; défaite italienne de **Caporetto** (octobre) |
+| 1918 | **retour au mouvement** | paix de Brest-Litovsk (mars) ; offensives allemandes du printemps ; **Foch** commandant en chef des armées alliées (avril) ; seconde bataille de la Marne (juillet) ; contre-offensives alliées (août) ; armistices en chaîne |
+
+- **Les armistices** : Bulgarie (29 septembre), Empire ottoman (30 octobre, Moudros), Autriche-Hongrie (3 novembre, Villa Giusti), Allemagne (**11 novembre 1918**, Rethondes).
+
+## 3. Une guerre sur de multiples fronts
+- **Front occidental** (de la mer du Nord à la Suisse) : le front décisif, où s'affrontent principalement Allemands, Français et Britanniques.
+- **Front oriental** : Allemands et Austro-Hongrois contre Russes, une guerre plus mobile.
+- **Front italien** (à partir de mai 1915, quand l'Italie rejoint l'Entente) dans les Alpes et sur l'Isonzo.
+- **Front des Balkans** : la Serbie est envahie (1915) ; les Alliés ouvrent le front d'**Orient** à **Salonique** (Grèce), d'où part l'offensive victorieuse de septembre 1918.
+- **Dardanelles** (1915) : les Alliés tentent de forcer les détroits pour atteindre Constantinople ; le débarquement de **Gallipoli** (25 avril 1915), auquel participent les soldats australiens et néo-zélandais (ANZAC), est un échec sanglant ; retrait en janvier 1916.
+- **Proche-Orient** : les Britanniques combattent les Ottomans en Mésopotamie et en Palestine ; ils soutiennent la **révolte arabe** (1916, avec l'officier T. E. Lawrence) en promettant un royaume arabe, tout en se partageant secrètement la région avec la France (**accords Sykes-Picot**, 1916) et en promettant un « foyer national juif » en Palestine (**déclaration Balfour**, 1917).
+- **Sur les mers** : blocus britannique de l'Allemagne ; guerre sous-marine allemande (torpillage du paquebot **Lusitania**, mai 1915, près de 1 200 morts dont 128 Américains) ; bataille navale du **Jutland** (1916), qui confirme la domination britannique sur les mers.
+
+## 4. Une mobilisation mondiale des hommes
+- **Plus de 60 millions** de soldats mobilisés au total.
+- **Empires coloniaux** : la France fait venir environ **600 000** soldats coloniaux (tirailleurs « sénégalais » d'Afrique occidentale, Maghrébins, Malgaches, Indochinois) et des travailleurs coloniaux ; l'Empire britannique mobilise plus d'un million d'Indiens ainsi que des Canadiens, Australiens, Néo-Zélandais, Sud-Africains.
+- **Travailleurs chinois** : environ 140 000 travaillent en France pour les Britanniques et les Français.
+- **Les États-Unis** envoient environ **2 millions** de soldats en France en 1918 (général Pershing).
+- **L'entrée en guerre** d'autres pays (Italie 1915, Bulgarie 1915 aux côtés des empires centraux, Roumanie 1916, Grèce, Chine et Brésil 1917) achève de rendre le conflit mondial.
+
+>! **Méthode – croquis ou schéma** : pour représenter la mondialisation de la guerre, distingue en légende (1) les deux camps (Alliés / empires centraux, avec les dates d'entrée en guerre), (2) les principaux fronts (occidental, oriental, italien, balkanique, Dardanelles, Proche-Orient), (3) les flux d'hommes venus des empires coloniaux et des États-Unis, (4) la guerre sur mer (blocus, guerre sous-marine).
+
+> **À retenir** : née d'une crise balkanique, la guerre devient mondiale dès 1914 (Japon, Empire ottoman, colonies) et s'étend jusqu'en 1918. Elle passe par quatre étapes : guerre de mouvement (1914), guerre de position (1915-1917), tournant de 1917 (États-Unis, révolutions russes), retour au mouvement et victoire alliée (1918). Elle se joue sur de multiples fronts (occidental, oriental, italien, balkanique, Dardanelles, Proche-Orient, mers) et mobilise les hommes des empires coloniaux et des États-Unis.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel pays d'Asie entre en guerre contre l'Allemagne dès août 1914 et s'empare de ses possessions en Chine et dans le Pacifique ?", choix: ["La Chine", "Le Japon", "L'Inde", "Le Siam"], reponse: 1, explication: "Allié du Royaume-Uni, le **Japon** prend Tsingtao et les îles allemandes du Pacifique. La Chine n'entre en guerre qu'en 1917 ; l'Inde est une colonie britannique." },
+        { type: "vf", question: "La bataille de la Marne (septembre 1914) marque la fin de la guerre de mouvement à l'ouest et la mise en place du front de tranchées.", reponse: true, explication: "Vrai : l'offensive allemande est arrêtée ; après la « course à la mer », le front se fige jusqu'en 1918." },
+        { type: "qcm", question: "Quelle opération alliée de 1915 vise à forcer les détroits pour atteindre Constantinople ?", choix: ["La bataille de la Somme", "L'expédition des Dardanelles", "La bataille du Jutland", "L'offensive Nivelle"], reponse: 1, explication: "L'**expédition des Dardanelles** et le débarquement de **Gallipoli** (avril 1915) échouent face aux Ottomans ; les Alliés se retirent en janvier 1916." },
+        { type: "saisie", question: "Comment s'appellent les accords secrets de 1916 par lesquels la France et le Royaume-Uni se partagent le Proche-Orient ottoman ?", reponses: ["Sykes-Picot", "accords Sykes-Picot", "les accords Sykes-Picot", "Sykes Picot", "accords de Sykes-Picot"], explication: "Les **accords Sykes-Picot** (mai 1916) contredisent les promesses faites aux Arabes ; ils préparent les mandats français (Syrie, Liban) et britanniques (Irak, Palestine)." },
+        { type: "qcm", question: "Quel événement de 1915 contribue à retourner l'opinion américaine contre l'Allemagne ?", choix: ["Le torpillage du Lusitania", "La bataille de Verdun", "La révolution russe", "Le traité de Brest-Litovsk"], reponse: 0, explication: "Le **Lusitania**, paquebot britannique, est coulé par un sous-marin allemand le 7 mai 1915 (près de 1 200 morts, dont 128 Américains). Les États-Unis n'entreront toutefois en guerre qu'en avril 1917." },
+        { type: "vf", question: "L'Allemagne signe l'armistice avant ses alliés bulgare, ottoman et austro-hongrois.", reponse: false, explication: "Faux : la **Bulgarie** (29 septembre), l'**Empire ottoman** (30 octobre) et l'**Autriche-Hongrie** (3 novembre) cessent le combat avant l'**Allemagne** (11 novembre 1918)." },
+        { type: "saisie", question: "Combien de soldats coloniaux environ la France fait-elle venir de son empire pendant la guerre ?", reponses: ["600 000", "600000", "environ 600 000", "600 mille", "0,6 million"], explication: "Environ **600 000** soldats coloniaux (dont près de 200 000 tirailleurs d'Afrique subsaharienne), auxquels s'ajoutent des travailleurs venus des colonies et de Chine." },
+        { type: "qcm", question: "Quel général français devient commandant en chef des armées alliées en avril 1918 ?", choix: ["Joffre", "Nivelle", "Pétain", "Foch"], reponse: 3, explication: "**Foch** coordonne les armées alliées face aux offensives allemandes de 1918, puis dirige les contre-offensives victorieuses. Joffre commandait en 1914, Nivelle en 1917 ; Pétain a dirigé l'armée française après les mutineries." },
+        { type: "redaction", question: "Composition : *1914-1918, un embrasement mondial*.", corrige: `**Problématique** : comment un conflit né d'une crise européenne devient-il une guerre mondiale, et par quelles grandes étapes passe-t-il ?
+
+**Introduction** : le 28 juin 1914, l'assassinat de l'archiduc François-Ferdinand à Sarajevo déclenche une crise qui, par le jeu des alliances, entraîne l'Europe dans la guerre en quelques jours. Quatre ans plus tard, plus de 60 millions de soldats venus du monde entier ont été mobilisés.
+
+**I. Une guerre européenne qui devient mondiale dès 1914**
+- Engrenage des alliances (28 juillet - 4 août 1914), invasion de la Belgique.
+- Entrée en guerre du Japon (août) et de l'Empire ottoman (automne) ; conquête des colonies allemandes.
+- Mobilisation des empires coloniaux (600 000 soldats coloniaux pour la France, plus d'un million d'Indiens pour le Royaume-Uni).
+
+**II. Une guerre aux fronts multiples**
+- Front occidental, décisif ; front oriental ; front italien (1915) ; Balkans et Salonique.
+- Dardanelles (1915), Proche-Orient (révolte arabe, Sykes-Picot, Balfour).
+- Guerre sur mer : blocus, guerre sous-marine (Lusitania, 1915), Jutland (1916).
+
+**III. Les grandes étapes jusqu'à la victoire alliée**
+- 1914 : guerre de mouvement (Marne, Tannenberg) ; 1915-1917 : guerre de position (Verdun, Somme).
+- 1917, année tournant : entrée en guerre des États-Unis, révolutions russes.
+- 1918 : retour au mouvement, Foch, arrivée de 2 millions d'Américains, armistices en chaîne jusqu'au 11 novembre.
+
+**Conclusion** : la guerre est mondiale par ses acteurs, ses fronts et ses hommes ; l'intervention des États-Unis et la mobilisation des empires annoncent un monde où l'Europe n'est plus seule à décider.` },
+      ],
+    },
+    {
+      id: "guerre-societes",
+      titre: "Les sociétés en guerre : des civils acteurs et victimes de la guerre",
+      theme: "Histoire – La Première Guerre mondiale",
+      cours: `
+## Introduction
+La Grande Guerre est une **guerre totale** : elle ne concerne pas que les soldats. Les **civils** y participent comme **acteurs** (travail, financement, soutien moral) et en sont aussi les **victimes** (occupations, violences, déportations, génocide). Comment les sociétés tiennent-elles pendant plus de quatre ans ?
+
+## 1. Mobiliser les sociétés : « l'arrière » au service du front
+- **L'Union sacrée** : en France, le président **Poincaré** appelle le 4 août 1914 à l'union de tous les partis ; les socialistes entrent au gouvernement. En Allemagne, c'est la « paix civile » (*Burgfrieden*).
+- **L'économie de guerre** : l'État dirige l'économie. En France, le socialiste **Albert Thomas**, sous-secrétaire d'État puis ministre de l'Armement (1915-1917), organise la production d'obus et de canons avec les industriels (Renault, Citroën, Schneider). Réquisitions, contrôle des prix, rationnement de certains produits.
+- **Le financement** : impôts nouveaux (l'impôt sur le revenu, voté en 1914, est appliqué à partir de 1916), **emprunts de la Défense nationale** auprès de la population (affiches « Pour la France, versez votre or »), emprunts aux États-Unis et au Royaume-Uni.
+- **La mobilisation des esprits** : **propagande** (affiches, presse, cinéma, école, cartes postales) et **censure** (« Anastasie ») ; le « **bourrage de crâne** » présente une guerre héroïque et minimise les pertes. *Le Canard enchaîné*, fondé en 1915, s'en moque.
+- **Le soutien aux soldats** : colis, lettres, **marraines de guerre**, œuvres de charité.
+
+## 2. Les femmes dans la guerre
+- Dès août 1914, le président du Conseil René **Viviani** appelle les paysannes à remplacer les hommes aux champs : elles font les moissons et les vendanges.
+- En ville, les femmes deviennent **munitionnettes** dans les usines d'armement (plus de 400 000 en France en 1917-1918), conductrices de tramway, employées, factrices.
+- **Infirmières** (souvent bénévoles de la Croix-Rouge) ; **Marie Curie** organise des voitures radiologiques (les « petites Curies »).
+- Mais l'**émancipation** reste limitée : après la guerre, les femmes sont souvent renvoyées vers le foyer ; elles n'obtiennent pas le droit de vote en France (contrairement au Royaume-Uni en 1918 et à l'Allemagne en 1918-1919).
+
+## 3. Les civils, victimes de la guerre
+- **Violences de l'invasion** : en août 1914, l'armée allemande, persuadée d'affronter des francs-tireurs, exécute environ **6 500 civils** en Belgique et dans le nord de la France (massacre de **Dinant**, incendie de la bibliothèque de **Louvain**).
+- **Occupation** : le nord-est de la France (environ 2 millions d'habitants) et presque toute la Belgique vivent sous occupation : réquisitions, travail forcé, couvre-feu, otages ; à Pâques 1916, environ 20 000 habitants de Lille, Roubaix et Tourcoing, surtout des jeunes femmes, sont déportés pour travailler dans les campagnes.
+- **Bombardements** : raids de zeppelins et d'avions sur Paris et Londres ; en 1918, le canon allemand à longue portée (la « Pariser Kanone », surnommée « grosse Bertha » par les Parisiens) frappe Paris (église Saint-Gervais, 91 morts le 29 mars 1918).
+- **Réfugiés** : des centaines de milliers de Belges et de Français du Nord fuient vers l'intérieur ; en Serbie, la retraite de l'hiver 1915 est meurtrière.
+- **Le génocide des Arméniens** (1915-1916) : le gouvernement jeune-turc accuse les Arméniens de complicité avec la Russie ; il fait arrêter les élites arméniennes de Constantinople (**24 avril 1915**), puis organise massacres et déportations vers les déserts de Syrie. Environ **1,2 à 1,5 million** d'Arméniens périssent. C'est le premier génocide du XXe siècle ; la France l'a reconnu par une loi en 2001.
+- **Les blocus et les pénuries** : en Allemagne, le blocus britannique provoque la faim (l'« hiver des rutabagas » 1916-1917) et des centaines de milliers de morts de malnutrition.
+
+## 4. Tenir ou refuser la guerre ?
+- **Consentement** : la plupart des soldats et des civils acceptent la guerre par patriotisme, solidarité, sentiment de défendre leur pays envahi.
+- **Contrainte** : justice militaire (environ 600 soldats français fusillés pour l'exemple sur toute la guerre), surveillance, censure.
+- **Lassitude et refus en 1917** : **mutineries** après le Chemin des Dames (refus de monter à l'assaut, pas de la défense) ; grèves des « **midinettes** » parisiennes (couturières, mai 1917) et dans les usines d'armement ; en Russie, la lassitude conduit aux **révolutions** ; en Allemagne, grèves et mutineries des marins (Kiel, novembre 1918) précèdent la chute de l'empereur.
+- **Clemenceau**, président du Conseil à partir de novembre 1917, incarne la volonté de « faire la guerre » jusqu'à la victoire : il pourchasse les « défaitistes ».
+
+> **À retenir** : la guerre totale mobilise toute la société : économie dirigée par l'État, financement par l'emprunt, propagande et censure, travail des femmes. Les civils sont aussi des victimes : massacres de l'invasion de 1914, occupation et déportations, bombardements, faim, et surtout le **génocide des Arméniens** (1915-1916). Si les sociétés « tiennent », c'est par consentement autant que par contrainte ; mais la lassitude éclate en 1917 (mutineries, grèves, révolutions russes).
+`,
+      exercices: [
+        { type: "saisie", question: "Comment appelle-t-on les ouvrières qui fabriquent des obus dans les usines d'armement pendant la guerre ?", reponses: ["munitionnettes", "les munitionnettes", "munitionnette"], explication: "Plus de 400 000 **munitionnettes** travaillent en France en 1917-1918, souvent dans des conditions dangereuses." },
+        { type: "qcm", question: "Quel ministre socialiste organise la production d'armement en France de 1915 à 1917 ?", choix: ["Jean Jaurès", "Albert Thomas", "Georges Clemenceau", "Léon Blum"], reponse: 1, explication: "**Albert Thomas**, sous-secrétaire d'État puis ministre de l'Armement, illustre l'Union sacrée et l'économie de guerre. Jaurès a été assassiné le 31 juillet 1914." },
+        { type: "vf", question: "Le « bourrage de crâne » désigne la propagande qui présente une image héroïque et rassurante de la guerre.", reponse: true, explication: "Vrai : presse et affiches minimisent les pertes et exaltent l'héroïsme ; les soldats s'en moquent dans leurs journaux de tranchées." },
+        { type: "qcm", question: "Quelle date marque le début du génocide des Arméniens, avec l'arrestation des élites arméniennes de Constantinople ?", choix: ["28 juin 1914", "24 avril 1915", "6 avril 1917", "11 novembre 1918"], reponse: 1, explication: "Le **24 avril 1915** est la date de commémoration du génocide ; environ 1,2 à 1,5 million d'Arméniens périssent dans les massacres et les déportations." },
+        { type: "vf", question: "Pendant la guerre, les civils des régions occupées du nord de la France peuvent être soumis au travail forcé et déportés.", reponse: true, explication: "Vrai : à Pâques 1916, environ 20 000 habitants de Lille, Roubaix et Tourcoing sont déportés pour travailler dans les campagnes." },
+        { type: "qcm", question: "Lequel de ces moyens n'a PAS servi à financer la guerre en France ?", choix: ["Les emprunts de la Défense nationale", "Les prêts des États-Unis et du Royaume-Uni", "Les nouveaux impôts", "Les réparations versées par l'Allemagne"], reponse: 3, explication: "Les **réparations** sont fixées après la guerre, par le traité de Versailles (1919) et la conférence de Londres (1921). Pendant la guerre, la France s'endette (emprunts intérieurs et extérieurs) et crée de nouveaux impôts." },
+        { type: "saisie", question: "En quelle année éclatent les mutineries dans l'armée française, après l'échec de l'offensive du Chemin des Dames ?", reponses: ["1917"], explication: "Au printemps **1917** ; les mutins refusent les offensives inutiles, pas la défense du pays. Pétain rétablit l'ordre en mêlant répression et amélioration des conditions de vie (permissions)." },
+        { type: "redaction", question: "**Analyse de document** : « Debout, femmes françaises, jeunes enfants, filles et fils de la patrie ! Remplacez sur le champ du travail ceux qui sont sur le champ de bataille. [...] Il n'y a pas, dans ces heures graves, de labeur infime. Tout est grand qui sert le pays. Debout ! À l'action ! À l'œuvre ! Il y aura demain de la gloire pour tout le monde. » (Appel aux femmes françaises du président du Conseil René Viviani, 7 août 1914). *Consigne* : présente le document, explique ce qu'il demande aux femmes et pourquoi, puis montre, à l'aide de tes connaissances, comment les femmes ont participé à la guerre et quelles en ont été les limites.", corrige: `**Présentation** : ce document est un **appel officiel**, affiché dans les communes, lancé le **7 août 1914** par **René Viviani**, président du Conseil (chef du gouvernement), quelques jours après l'entrée en guerre. Il s'adresse aux **paysannes** et aux enfants des campagnes, au moment où les hommes viennent d'être mobilisés et où les moissons ne sont pas terminées.
+
+**I. Ce que demande le texte**
+- « Remplacez sur le champ du **travail** ceux qui sont sur le champ de **bataille** » : les femmes doivent faire les moissons, les vendanges, les travaux des champs.
+- Le ton est celui de la **mobilisation patriotique** : impératifs (« Debout ! À l'action ! »), valorisation du travail (« Tout est grand qui sert le pays »), promesse de « gloire ».
+- Le but : nourrir l'armée et le pays dans une guerre que l'on croit courte ; c'est le début de la **guerre totale**, qui mobilise l'**arrière**.
+
+**II. Les femmes, actrices de la guerre**
+- Aux champs, elles dirigent les exploitations ; en ville, elles deviennent **munitionnettes** (plus de 400 000), conductrices de tramway, employées.
+- Elles soignent (infirmières, « petites Curies » de Marie Curie), soutiennent les soldats (colis, lettres, marraines de guerre).
+
+**III. Les limites**
+- Conditions de travail dures et salaires inférieurs à ceux des hommes ; grèves des midinettes et des munitionnettes en 1917.
+- Après la guerre, beaucoup sont renvoyées au foyer ; les Françaises n'obtiennent **pas** le droit de vote (contrairement aux Britanniques en 1918) ; le deuil frappe des centaines de milliers de veuves.
+
+**Conclusion** : l'appel de Viviani montre que la guerre totale a besoin des femmes ; leur rôle a été immense, mais leur émancipation est restée limitée et provisoire.` },
+        { type: "redaction", question: "Composition : *Les sociétés en guerre : des civils acteurs et victimes de la guerre (1914-1918)*.", corrige: `**Problématique** : comment les civils participent-ils à une guerre totale qui fait d'eux, en même temps, des cibles et des victimes ?
+
+**I. Des civils mobilisés : l'arrière au service du front**
+- Union sacrée (Poincaré, 4 août 1914) ; économie de guerre dirigée par l'État (Albert Thomas).
+- Financement : emprunts de la Défense nationale, impôts, prêts étrangers.
+- Propagande, censure, « bourrage de crâne » ; femmes aux champs et dans les usines (munitionnettes).
+
+**II. Des civils victimes**
+- Violences de l'invasion (environ 6 500 civils exécutés en 1914, Dinant, Louvain).
+- Occupation du Nord et de la Belgique : réquisitions, travail forcé, déportations (Lille, 1916) ; bombardements de Paris.
+- Génocide des Arméniens (1915-1916, 1,2 à 1,5 million de morts) ; famine en Allemagne due au blocus.
+
+**III. Tenir, jusqu'à quand ?**
+- Consentement patriotique et contrainte (justice militaire, censure).
+- 1917 : mutineries, grèves, révolutions russes.
+- Clemenceau et la volonté de vaincre ; 1918 : effondrement de l'arrière allemand (grèves, mutineries de Kiel).
+
+**Conclusion** : la Grande Guerre efface la frontière entre front et arrière ; elle annonce les guerres du XXe siècle, où les civils seront plus encore des cibles.` },
+      ],
+    },
+    {
+      id: "sortir-de-la-guerre",
+      titre: "Sortir de la guerre : la tentative de construction d'une paix durable",
+      theme: "Histoire – La Première Guerre mondiale",
+      cours: `
+## Introduction
+L'armistice du **11 novembre 1918** arrête les combats, mais il faut encore **faire la paix** et **sortir de la guerre** : redessiner les frontières, organiser la sécurité collective, démobiliser les soldats, soigner les blessés, faire le deuil. Les vainqueurs veulent une paix **durable** ; mais les traités sont contestés et les violences continuent dans une partie de l'Europe.
+
+## 1. La conférence de la paix (1919-1920)
+- Elle s'ouvre à **Paris** en **janvier 1919**. Les vaincus n'y sont **pas invités** ; la Russie bolchevique non plus.
+- Les décisions sont prises par les « **Quatre** » : **Wilson** (États-Unis), **Clemenceau** (France), **Lloyd George** (Royaume-Uni), **Orlando** (Italie).
+- Des objectifs différents : Wilson défend ses **Quatorze points** (droit des peuples à disposer d'eux-mêmes, Société des nations) ; Clemenceau veut la **sécurité** de la France et des **réparations** ; Lloyd George veut éviter d'affaiblir trop l'Allemagne ; l'Italie réclame les territoires promis en 1915.
+
+## 2. Le traité de Versailles (28 juin 1919)
+Signé dans la **galerie des Glaces**, là même où l'Empire allemand avait été proclamé en 1871.
+| Domaine | Clauses |
+|---|---|
+| Territoires | **Alsace-Moselle** rendue à la France ; territoires à l'est cédés à la **Pologne** (« corridor » qui sépare la Prusse-Orientale du reste de l'Allemagne) ; **Dantzig** ville libre ; **Sarre** sous administration de la SDN pendant 15 ans (ses mines de charbon à la France) |
+| Militaire | armée limitée à **100 000 hommes**, pas d'aviation militaire ni de chars, flotte réduite ; **Rhénanie démilitarisée** et occupée par les Alliés pendant 15 ans |
+| Colonies | colonies allemandes confiées aux vainqueurs sous forme de **mandats** de la SDN |
+| Responsabilité et réparations | article 231 : l'Allemagne et ses alliés responsables des dommages de la guerre ; **réparations**, fixées en 1921 à 132 milliards de marks-or |
+- Les Allemands le dénoncent comme un **Diktat** (paix imposée) ; il nourrit un puissant désir de revanche, exploité plus tard par les nationalistes et les nazis.
+
+## 3. Une nouvelle carte de l'Europe et du Proche-Orient
+- **Autres traités** : Saint-Germain-en-Laye avec l'Autriche (1919), Neuilly avec la Bulgarie (1919), **Trianon** avec la Hongrie (1920, qui perd les deux tiers de son territoire), Sèvres avec l'Empire ottoman (1920), remplacé après la victoire de Mustafa Kemal par le traité de **Lausanne** (1923).
+- **Naissance d'États-nations** : Pologne, Tchécoslovaquie, royaume des Serbes, Croates et Slovènes (Yougoslavie), États baltes, Finlande ; l'Autriche et la Hongrie deviennent de petits États.
+- **Le principe des nationalités appliqué imparfaitement** : il reste de nombreuses **minorités** (Allemands des Sudètes en Tchécoslovaquie, Hongrois en Roumanie et en Tchécoslovaquie, Ukrainiens en Pologne) ; l'Italie se sent lésée (« victoire mutilée »).
+- **Proche-Orient** : l'Empire ottoman disparaît ; la SDN confie des **mandats** à la France (Syrie, Liban) et au Royaume-Uni (Irak, Palestine, Transjordanie), au mépris des promesses faites aux Arabes.
+
+## 4. La Société des nations et l'espoir de la sécurité collective
+- Créée par le traité de Versailles (le **Pacte** de la SDN), installée à **Genève** (1920) : elle doit régler les conflits par l'**arbitrage** et le désarmement, et sanctionner les agresseurs.
+- **Faiblesses** : les **États-Unis** n'y entrent pas (le Sénat refuse de ratifier le traité) ; l'Allemagne vaincue et la Russie soviétique en sont d'abord exclues ; elle n'a pas d'armée.
+- **Les années 1920 et l'« esprit de Genève »** : accords de **Locarno** (1925, l'Allemagne reconnaît ses frontières occidentales), entrée de l'Allemagne à la SDN (1926), pacte **Briand-Kellogg** (1928) qui « met la guerre hors la loi ». Le Français Aristide **Briand** et l'Allemand Gustav **Stresemann** reçoivent le prix Nobel de la paix (1926).
+- Une organisation sociale naît aussi : l'**Organisation internationale du travail** (OIT, 1919), dont le premier directeur est Albert Thomas.
+
+## 5. Sortir de la guerre dans les sociétés
+- **Bilan humain** : environ 10 millions de soldats morts, dont environ **1,4 million de Français** ; en France, environ 600 000 veuves et près d'un million d'orphelins (« **pupilles de la Nation** », loi de 1917), des millions de blessés, dont les « **gueules cassées** » (blessés au visage).
+- **Démobilisation** lente (jusqu'en 1919-1920) ; reconstruction des régions dévastées du Nord-Est.
+- **Deuil et mémoire** : plus de 35 000 **monuments aux morts** dans les communes ; le **Soldat inconnu** est inhumé sous l'Arc de triomphe (28 janvier 1921), la flamme est ravivée chaque soir depuis 1923 ; le **11 novembre** devient jour férié (1922). Les anciens combattants, très nombreux, deviennent souvent **pacifistes** (« plus jamais ça »).
+- **Des violences qui continuent** : guerre civile russe (1918-1921), guerre polono-soviétique (1920), guerre gréco-turque (1919-1922), affrontements révolutionnaires en Allemagne (révolte spartakiste écrasée en janvier 1919 par les corps francs, assassinat de Rosa Luxemburg) et en Hongrie. Certains historiens parlent d'une **brutalisation** des sociétés (George Mosse) : la violence de guerre s'installe dans la vie politique.
+
+> **À retenir** : la paix est élaborée à Paris par les vainqueurs (les Quatre) ; le traité de Versailles (28 juin 1919), jugé comme un Diktat par l'Allemagne, et les autres traités redessinent l'Europe selon un principe des nationalités appliqué imparfaitement. La SDN (1920) incarne l'espoir d'une sécurité collective, affaiblie par l'absence des États-Unis. Les sociétés sortent lentement de la guerre : deuil de masse, monuments aux morts, pacifisme, mais aussi violences persistantes et rancœurs qui préparent de nouveaux conflits.
+`,
+      exercices: [
+        { type: "qcm", question: "Quels dirigeants forment le groupe des « Quatre » à la conférence de la paix de 1919 ?", choix: ["Wilson, Clemenceau, Lloyd George, Orlando", "Wilson, Guillaume II, Clemenceau, Lénine", "Poincaré, Foch, Pétain, Clemenceau", "Lloyd George, Churchill, Roosevelt, Staline"], reponse: 0, explication: "Les présidents ou chefs de gouvernement des **États-Unis**, de la **France**, du **Royaume-Uni** et de l'**Italie** décident ; les vaincus ne sont pas invités." },
+        { type: "saisie", question: "Comment les Allemands qualifient-ils le traité de Versailles, qu'ils jugent imposé sans négociation ?", reponses: ["Diktat", "un diktat", "le diktat"], explication: "Le **Diktat** : l'Allemagne n'a pas participé aux négociations et doit signer sous la menace d'une reprise de la guerre." },
+        { type: "vf", question: "Le traité de Versailles limite l'armée allemande à 100 000 hommes et démilitarise la Rhénanie.", reponse: true, explication: "Vrai : il interdit aussi l'aviation militaire et les chars ; la Rhénanie est occupée par les Alliés pendant 15 ans." },
+        { type: "qcm", question: "Pourquoi la SDN est-elle affaiblie dès sa création ?", choix: ["Parce que son siège est à Genève", "Parce que les États-Unis n'en font pas partie", "Parce que la France la refuse", "Parce qu'elle possède une armée trop puissante"], reponse: 1, explication: "Le Sénat américain refuse de ratifier le traité de Versailles : les **États-Unis**, dont le président Wilson avait voulu la SDN, n'y entrent pas. Elle n'a pas non plus d'armée." },
+        { type: "qcm", question: "Quel traité de 1920 réduit la Hongrie à environ un tiers de son territoire d'avant-guerre ?", choix: ["Le traité de Sèvres", "Le traité de Trianon", "Le traité de Neuilly", "Le traité de Saint-Germain-en-Laye"], reponse: 1, explication: "Le traité de **Trianon** (4 juin 1920) ; des millions de Hongrois se retrouvent en Roumanie, en Tchécoslovaquie ou en Yougoslavie, source de revendications." },
+        { type: "saisie", question: "Sous quelle forme la SDN confie-t-elle les colonies allemandes et les territoires arabes de l'Empire ottoman aux puissances victorieuses ?", reponses: ["mandats", "des mandats", "mandat", "les mandats"], explication: "Les **mandats** : la France reçoit la Syrie et le Liban, le Royaume-Uni l'Irak, la Palestine et la Transjordanie ; ils sont censés préparer ces territoires à l'indépendance." },
+        { type: "vf", question: "La paix revient partout en Europe dès le 11 novembre 1918.", reponse: false, explication: "Faux : la guerre civile russe, la guerre polono-soviétique, la guerre gréco-turque et des affrontements révolutionnaires (Allemagne, Hongrie) prolongent les violences jusqu'au début des années 1920." },
+        { type: "qcm", question: "Quel symbole national est inhumé sous l'Arc de triomphe le 28 janvier 1921 ?", choix: ["Le maréchal Foch", "Le Soldat inconnu", "Georges Clemenceau", "Jean Jaurès"], reponse: 1, explication: "Le **Soldat inconnu** représente tous les morts de la guerre ; la flamme est ravivée chaque soir depuis 1923. Jaurès est entré au Panthéon en 1924." },
+        { type: "redaction", question: "Composition : *Sortir de la guerre : la tentative de construction d'une paix durable (1918-1923)*.", corrige: `**Problématique** : comment les vainqueurs tentent-ils de construire une paix durable après 1918, et pourquoi cette paix reste-t-elle fragile ?
+
+**Introduction** : l'armistice du 11 novembre 1918 met fin aux combats sur le front occidental, mais l'Europe est ruinée, endeuillée et les empires se sont effondrés. Il faut redessiner la carte et inventer une sécurité nouvelle (bornes : 1918, armistice ; 1923, traité de Lausanne).
+
+**I. Une paix des vainqueurs**
+- Conférence de Paris (janvier 1919), les Quatre ; objectifs divergents (Quatorze points de Wilson, sécurité et réparations pour Clemenceau).
+- Traité de Versailles (28 juin 1919) : Alsace-Moselle, corridor polonais, armée de 100 000 hommes, Rhénanie démilitarisée, article 231, réparations ; un Diktat pour les Allemands.
+- Autres traités : Saint-Germain, Neuilly, Trianon, Sèvres puis Lausanne (1923).
+
+**II. Une nouvelle Europe et l'espoir de la sécurité collective**
+- Naissance d'États-nations (Pologne, Tchécoslovaquie, Yougoslavie, États baltes) ; mandats au Proche-Orient.
+- Société des nations (Genève, 1920), OIT (1919) ; puis esprit de Genève (Locarno 1925, Briand-Kellogg 1928).
+
+**III. Une paix fragile et des sociétés meurtries**
+- Minorités nationales, « victoire mutilée » italienne, rancœur allemande ; SDN sans les États-Unis.
+- Violences prolongées (guerre civile russe, guerre gréco-turque, spartakistes) : brutalisation.
+- Deuil de masse (1,4 million de morts français, veuves, orphelins, gueules cassées), monuments aux morts, Soldat inconnu, pacifisme des anciens combattants.
+
+**Conclusion** : les vainqueurs ont voulu bâtir une paix fondée sur le droit des peuples et la sécurité collective ; mais une paix imposée, incomplète et privée des États-Unis laisse subsister des frustrations que les crises des années 1930 transformeront en nouvelle guerre.` },
+      ],
+    },
   ],
 };

@@ -686,10 +686,11 @@ Ses formes ressemblent à celles de l'article, mais avec un **esprit rude et un 
           explication: "ὅν est l'accusatif masculin singulier du relatif : masculin singulier comme son antécédent ὁ ἀνήρ, accusatif car il est COD de ὁρᾷς (« que tu vois »).",
         },
         {
-          type: "saisie",
-          question: "Donne le pronom relatif au **datif féminin singulier**.",
-          reponses: ["ᾗ", "η"],
-          explication: "Datif féminin singulier : **ᾗ** (esprit rude, circonflexe, iota souscrit), comme l'article τῇ mais sans τ.",
+          type: "qcm",
+          question: "Quelle est la forme du pronom relatif au **datif féminin singulier** ?",
+          choix: ["ἥ", "ἧς", "ᾗ", "ᾧ"],
+          reponse: 2,
+          explication: "Datif féminin singulier : **ᾗ** (esprit rude, circonflexe, iota souscrit), comme l'article τῇ mais sans τ. ἥ est le nominatif féminin, ἧς le génitif féminin, ᾧ le datif masculin ou neutre.",
         },
         {
           type: "redaction",
@@ -1396,7 +1397,7 @@ Après le point en haut : γάρ (en 2e position) se traduit en tête, « en eff
         },
         {
           type: "redaction",
-          question: "Traduis et commente grammaticalement ce vers de Sophocle (*Antigone*, v. 332-333, premier chœur) : **Πολλὰ τὰ δεινὰ κοὐδὲν ἀνθρώπου δεινότερον πέλει.** (δεινός : redoutable, étonnant, prodigieux ; κοὐδέν = καὶ οὐδέν, crase ; δεινότερον : comparatif neutre ; πέλει : forme poétique pour ἐστί)",
+          question: "Traduis et commente grammaticalement ce vers de Sophocle (*Antigone*, v. 332-333, premier stasimon, chant du chœur) : **Πολλὰ τὰ δεινὰ κοὐδὲν ἀνθρώπου δεινότερον πέλει.** (δεινός : redoutable, étonnant, prodigieux ; κοὐδέν = καὶ οὐδέν, crase ; δεινότερον : comparatif neutre ; πέλει : forme poétique pour ἐστί)",
           corrige: `
 **Analyse.**
 - Première proposition : **Πολλὰ τὰ δεινά**. Pas de verbe : il faut sous-entendre ἐστί (neutre pluriel + verbe au singulier). πολλά est hors du groupe τὰ δεινά : **position prédicative**, c'est l'attribut. Mot à mot : « les choses prodigieuses sont nombreuses ».
@@ -1408,6 +1409,32 @@ Après le point en haut : γάρ (en 2e position) se traduit en tête, « en eff
 **Traduction.** « Nombreuses sont les merveilles (du monde), et rien n'est plus prodigieux que l'homme. »
 
 **Commentaire.** L'adjectif δεινός est ambigu : il signifie à la fois « admirable » et « redoutable ». Le chœur célèbre l'ingéniosité humaine (navigation, agriculture, chasse, langage, cités), mais suggère aussi son danger : l'homme peut se tourner vers le bien ou vers le mal, ce que la pièce illustre avec Créon et Antigone. Une bonne traduction peut garder cette ambiguïté (« merveilles », « prodiges »).
+`,
+        },
+        {
+          type: "redaction",
+          question: "**Entraînement à l'évaluation (traduction et commentaire, sur 20).** Traduis puis réponds aux questions sur ce début de l'*Anabase* de Xénophon (I, 1, 1), texte authentique : **Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο, πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος· ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου, ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι.** (Δαρεῖος : Darius II, roi des Perses ; ἡ Παρύσατις, -ιδος : Parysatis, son épouse ; γίγνομαι : naître ; πρεσβύτερος : plus âgé, aîné ; νεώτερος : plus jeune, cadet ; ἐπεί : quand, comme ; ἀσθενέω : être malade ; ὑποπτεύω : soupçonner, pressentir ; ἡ τελευτή : la fin ; τὼ παῖδε ἀμφοτέρω : « les deux enfants », accusatif **duel** ; πάρειμι : être présent, être auprès). Questions : 1) Traduis le texte (12 points). 2) Analyse ἠσθένει et ἐβούλετο, puis la construction de παρεῖναι (4 points). 3) Commentaire : que nous apprend ce début sur le sujet du récit et sur la manière de Xénophon ? (4 points)",
+          corrige: `
+**1) Traduction (12 points).**
+« De Darius et de Parysatis naissent deux enfants, l'aîné Artaxerxès, le cadet Cyrus. Comme Darius était malade et pressentait la fin de sa vie, il voulait que ses deux enfants fussent auprès de lui. »
+(On accepte : « Darius et Parysatis eurent deux fils » ; « soupçonnait que sa vie touchait à sa fin » ; « il voulait avoir ses deux fils auprès de lui ».)
+
+Barème indicatif de la traduction :
+- Première phrase (4 points) : génitif d'origine Δαρείου καὶ Παρυσάτιδος (1), présent de narration γίγνονται, rendu par un présent ou un passé simple (1), opposition μέν… δέ entre l'aîné et le cadet (2).
+- Subordonnée en ἐπεί (4 points) : valeur de cause ou de temps (1), deux imparfaits ἠσθένει et ὑπώπτευε coordonnés par καί (2), τελευτὴν τοῦ βίου, COD avec son complément du nom (1).
+- Principale (4 points) : ἐβούλετο à l'imparfait (1), proposition infinitive τὼ παῖδε ἀμφοτέρω παρεῖναι correctement rendue (2), français correct et fluide (1).
+- Pénalités : contresens sur le sujet d'un verbe (−2), oubli d'un mot (−0,5), faute de français (−0,5).
+
+**2) Analyse (4 points).**
+- **ἠσθένει** : imparfait de ἀσθενέω, 3e sg. : augment temporel α → η, puis contraction ε + ε → ει (ἠσθένε-ε → ἠσθένει) (1,5 point).
+- **ἐβούλετο** : imparfait du déponent βούλομαι, 3e sg., forme moyenne à sens actif (1 point).
+- **παρεῖναι** : infinitif présent de πάρειμι (παρά + εἰμί), noyau d'une **proposition infinitive** complément de ἐβούλετο, dont le sujet à l'accusatif est τὼ παῖδε ἀμφοτέρω (1,5 point). Le **duel** (-ω, -ε) désigne une paire : les deux fils.
+
+**3) Commentaire (4 points).**
+- **Un début de récit historique** (2 points) : en une phrase, Xénophon pose les personnages et le ressort du drame. L'opposition πρεσβύτερος μέν / νεώτερος δέ annonce la rivalité des deux frères : à la mort de Darius, l'aîné Artaxerxès devient roi, et le cadet Cyrus lèvera une armée pour lui prendre le trône (401 av. J.-C.). L'*Anabase* (« la montée » de la côte vers l'intérieur de l'Asie) raconte cette expédition, la mort de Cyrus à Counaxa et la retraite des Dix Mille mercenaires grecs jusqu'à la mer Noire.
+- **La manière de Xénophon** (2 points) : style simple et clair, phrases courtes, présent de narration qui rend le récit vivant. Xénophon, Athénien et disciple de Socrate, a lui-même participé à l'expédition : il est à la fois témoin, acteur et historien. Le texte montre les liens étroits entre Grecs et Perses dans le monde méditerranéen (des Grecs servent un prince perse).
+
+>! Méthode pour l'épreuve : lis tout le texte et le vocabulaire donné ; repère les verbes conjugués (γίγνονται, ἠσθένει, ὑπώπτευε, ἐβούλετο) et les mots de liaison (μέν… δέ, ἐπεί, καί) ; traduis proposition par proposition ; relis ta traduction en français. Dans le commentaire, appuie chaque idée sur un mot grec cité.
 `,
         },
       ],
@@ -1985,12 +2012,12 @@ Le Parthénon est le temple d'**Athéna Parthénos**, « Athéna la Vierge ». L
 - **Andromaque** : dans l'*Iliade* (chant VI), Hector la renvoie à ses travaux de femme (le métier à tisser, la quenouille) et conclut : πόλεμος δ’ ἄνδρεσσι μελήσει, « la guerre sera l'affaire des hommes » (v. 492 ; ἄνδρεσσι est un datif pluriel homérique de ἀνήρ).
 - **Pénélope**, l'épouse fidèle de l'*Odyssée*, est aussi rusée qu'Ulysse : elle défait la nuit la toile qu'elle tisse le jour pour retarder son remariage.
 - **Antigone** désobéit au roi Créon pour ensevelir son frère, au nom des lois divines.
-- **Médée**, chez Euripide (431), dénonce la condition des femmes : elle préférerait trois fois combattre au premier rang plutôt qu'accoucher une seule fois.
+- **Médée**, chez Euripide (431), dénonce la condition des femmes : elle préférerait se tenir trois fois dans la ligne de bataille, le bouclier au bras, plutôt qu'accoucher une seule fois (v. 250-251).
 - **Lysistrata** (Aristophane, 411) imagine, pour rire, des femmes qui imposent la paix aux hommes par une grève.
 - **Sappho** de Lesbos (vers 600 av. J.-C.), poétesse lyrique, chante l'amour : Platon l'aurait appelée « la dixième Muse ».
 - Le mythe imagine aussi un monde inversé : les **Amazones**, peuple de femmes guerrières.
 
-Un vers résume l'idéal masculin de la femme silencieuse : γύναι, γυναιξὶ κόσμον ἡ σιγὴ φέρει, « femme, aux femmes le silence est une parure » (Sophocle, *Ajax*, v. 293 : Ajax fait taire Tecmesse). Mais le théâtre, écrit et joué par des hommes, donne la parole à des héroïnes qui contestent cet ordre.
+Un vers résume l'idéal masculin de la femme silencieuse : γύναι, γυναιξὶ κόσμον ἡ σιγὴ φέρει, « femme, aux femmes le silence est une parure » (Sophocle, *Ajax*, v. 293 : Tecmesse rapporte la phrase, « toujours répétée », par laquelle Ajax l'a fait taire). Mais le théâtre, écrit et joué par des hommes, donne la parole à des héroïnes qui contestent cet ordre.
 
 > **À retenir** : ἀνήρ (le mâle, le mari) ≠ ἄνθρωπος (l'être humain) ; γυνή, γυναικός ; à Athènes, la femme de citoyen n'a pas de droits politiques et vit sous l'autorité d'un κύριος ; elle gère l'οἶκος et joue un rôle religieux important ; figures : Andromaque, Pénélope, Antigone, Médée, Lysistrata, Sappho.
 `,
@@ -2079,7 +2106,7 @@ Pour trouver des terres ou des comptoirs, des cités (les **métropoles**, de μ
 | Colonie | Nom grec | Métropole | Date (av. J.-C.) |
 |---|---|---|---|
 | Syracuse (Sicile) | Συράκουσαι | Corinthe | vers 733 |
-| Naples | Νεάπολις (« ville nouvelle ») | Cumes | VIe-Ve siècle |
+| Naples | Νεάπολις (« ville nouvelle ») | Cumes | Ve siècle |
 | Byzance | Βυζάντιον | Mégare | vers 660 |
 | Marseille | Μασσαλία | Phocée (Asie Mineure) | vers 600 |
 | Nice, Antibes | Νίκαια, Ἀντίπολις | Marseille | plus tard |
@@ -2087,11 +2114,11 @@ Pour trouver des terres ou des comptoirs, des cités (les **métropoles**, de μ
 Le sud de l'Italie et la Sicile forment la **Grande-Grèce**. Des Grecs s'installent aussi en mer Noire, en Libye (Cyrène) et en Égypte (le comptoir de Naucratis).
 
 ## Les conflits
-- **Les guerres médiques** opposent les Grecs à l'Empire perse : Marathon (490), les Thermopyles où meurent Léonidas et ses Spartiates, puis la victoire navale de **Salamine** (480), et Platées (479). Elles deviennent pour les Grecs le symbole de la liberté face au despotisme.
+- **Les guerres médiques** opposent les Grecs à l'Empire perse : Marathon (490), les Thermopyles (480) où meurent Léonidas et ses Spartiates, puis la victoire navale de **Salamine** (480), et Platées (479). Elles deviennent pour les Grecs le symbole de la liberté face au despotisme.
 - Athènes construit ensuite une **thalassocratie** (θάλαττα + κράτος, la domination sur la mer) : la flotte de **trières** (ἡ τριήρης) et le port du **Pirée**.
 - **La guerre du Péloponnèse** (431-404) oppose Athènes à Sparte et ruine la Grèce.
 
->! **Texte authentique** : l'épitaphe des Spartiates morts aux Thermopyles, attribuée au poète Simonide et citée par Hérodote (VII, 228) :
+>! **Texte authentique** : l'épitaphe des Spartiates morts aux Thermopyles, citée par Hérodote (VII, 228) et attribuée par la tradition au poète Simonide :
 >! Ὦ ξεῖν’, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε
 >! κείμεθα, τοῖς κείνων ῥήμασι πειθόμενοι.
 >! « Étranger, va dire aux Lacédémoniens qu'ici nous gisons, obéissant à leurs ordres. »
@@ -2151,7 +2178,7 @@ Le sud de l'Italie et la Sicile forment la **Grande-Grèce**. Des Grecs s'instal
         {
           type: "saisie",
           question: "Dans l'épitaphe des Thermopyles, **Ὦ ξεῖν’, ἀγγέλλειν Λακεδαιμονίοις…**, quel est le mode de ἀγγέλλειν ? (un mot)",
-          reponses: ["infinitif", "l'infinitif"],
+          reponses: ["infinitif", "l'infinitif", "infinitif présent", "l'infinitif présent"],
           explication: "ἀγγέλλειν est un **infinitif** présent ; il a ici la valeur d'un impératif (« va annoncer »), emploi poétique et archaïque.",
         },
         {
@@ -2167,12 +2194,403 @@ Le sud de l'Italie et la Sicile forment la **Grande-Grèce**. Des Grecs s'instal
           corrige: `
 **Analyse.** Ὦ ξεῖν’ (ξεῖνε élidé) : vocatif, apostrophe au passant. ἀγγέλλειν : infinitif employé comme un impératif. Λακεδαιμονίοις : datif, complément d'attribution (« aux Lacédémoniens »). ὅτι introduit une complétive : κείμεθα, 1re pl. du présent de κεῖμαι (forme moyenne). τῇδε : adverbe de lieu. πειθόμενοι : participe présent moyen, nominatif masculin pluriel, accordé au sujet « nous » ; il gouverne le datif τοῖς κείνων ῥήμασι (κείνων, génitif pluriel du démonstratif, désigne les Lacédémoniens).
 
-**Traduction.** « Étranger, va dire aux Lacédémoniens qu'ici nous gisons, pour avoir obéi à leurs ordres. »
+**Traduction.** « Étranger, va dire aux Lacédémoniens qu'ici nous gisons, obéissant à leurs ordres. » (On accepte : « fidèles à leurs ordres », « pour avoir obéi à leurs lois ».)
 
 **Commentaire.**
-1. **Une inscription funéraire** : le distique élégiaque (un hexamètre et un pentamètre) est gravé sur une pierre au bord de la route. Les morts eux-mêmes parlent (κείμεθα) et s'adressent au passant, chargé de porter le message : la mémoire du sacrifice passe par la parole des vivants.
+1. **Une inscription funéraire** : le distique élégiaque (un hexamètre et un pentamètre) est gravé, dit Hérodote, sur une stèle à l'endroit même où les morts sont ensevelis. Les morts eux-mêmes parlent (κείμεθα) et s'adressent au passant, chargé de porter le message : la mémoire du sacrifice passe par la parole des vivants.
 2. **L'idéal spartiate** : la sobriété du texte (deux vers, aucune plainte) reflète la « laconie » des Spartiates. Mourir n'est pas présenté comme une défaite mais comme une **obéissance** à la loi de la cité (τοῖς κείνων ῥήμασι πειθόμενοι) : ne pas reculer.
 3. **Un symbole méditerranéen** : dans les guerres médiques, ce sacrifice devient l'emblème de la liberté grecque face à l'Empire perse. Hérodote, en recopiant l'épitaphe, en fait un monument de son « enquête » contre l'oubli.
+`,
+        },
+      ],
+    },
+    {
+      id: "participes-genitif-absolu",
+      titre: "Le participe et le génitif absolu",
+      theme: "Langue : le verbe",
+      cours: `
+## Le participe, un adjectif verbal
+Le participe est à la fois un **verbe** (il a un temps, une voix, il peut avoir des compléments) et un **adjectif** (il se décline et s'accorde en genre, en nombre et en cas avec le mot auquel il se rapporte). C'est l'une des formes les plus fréquentes des textes grecs : savoir le reconnaître et le traduire est indispensable.
+
+## La formation
+Le participe se forme sur le **thème** du temps, **sans augment** (l'augment n'existe qu'à l'indicatif).
+
+| Temps et voix | Marque | Masculin | Féminin | Neutre |
+|---|---|---|---|---|
+| Présent actif | -οντ- | λύων (λύοντος) | λύουσα (λυούσης) | λῦον (λύοντος) |
+| Futur actif | -σοντ- | λύσων | λύσουσα | λῦσον |
+| Aoriste actif | -σαντ- | λύσας (λύσαντος) | λύσασα (λυσάσης) | λῦσαν (λύσαντος) |
+| Présent moyen | -ομεν- | λυόμενος | λυομένη | λυόμενον |
+| Futur moyen | -σομεν- | λυσόμενος | λυσομένη | λυσόμενον |
+| Aoriste moyen | -σαμεν- | λυσάμενος | λυσαμένη | λυσάμενον |
+| εἰμί (présent) | ὀντ- | ὤν (ὄντος) | οὖσα (οὔσης) | ὄν (ὄντος) |
+
+- Le participe présent moyen sert aussi de **passif** : λυόμενος, « qui est délié ».
+- Les participes en **-μενος, -μένη, -μενον** se déclinent comme ἀγαθός, ἀγαθή, ἀγαθόν.
+- Les **aoristes thématiques** ont un participe accentué sur la finale : λιπών, λιποῦσα, λιπόν (de ἔλιπον) ; de même **εἰπών** (λέγω), **ἰδών** (ὁράω), **ἐλθών** (ἔρχομαι), **λαβών** (λαμβάνω) ; au moyen, l'accent est sur la pénultième : **γενόμενος** (γίγνομαι).
+- Ne confonds pas λύσας (participe, sans augment) et ἔλυσας (indicatif aoriste, 2e sg., « tu délias »).
+
+## La déclinaison de λύων, λύουσα, λῦον
+Le masculin et le neutre suivent la **3e déclinaison** (thème λυοντ-), le féminin suit la **1re déclinaison**.
+
+| Cas | Masculin | Féminin | Neutre |
+|---|---|---|---|
+| Nominatif sg. | λύων | λύουσα | λῦον |
+| Accusatif sg. | λύοντα | λύουσαν | λῦον |
+| Génitif sg. | λύοντος | λυούσης | λύοντος |
+| Datif sg. | λύοντι | λυούσῃ | λύοντι |
+| Nominatif pl. | λύοντες | λύουσαι | λύοντα |
+| Accusatif pl. | λύοντας | λυούσας | λύοντα |
+| Génitif pl. | λυόντων | λυουσῶν | λυόντων |
+| Datif pl. | λύουσι(ν) | λυούσαις | λύουσι(ν) |
+
+- Le participe de **εἰμί** se décline de la même façon : ὤν, ὄντα, ὄντος, ὄντι ; ὄντες, ὄντας, ὄντων, οὖσι(ν) ; féminin οὖσα, οὖσαν, οὔσης, οὔσῃ…
+- L'aoriste λύσας se décline sur le thème λυσαντ- : λύσαντα, λύσαντος, λύσαντι ; λύσαντες, λύσαντας, λυσάντων, λύσασι(ν) ; féminin λύσασα, λυσάσης.
+- Piège : le **datif pluriel** λύουσι(ν) a la même forme que la **3e pl. de l'indicatif présent** (« ils délient ») ; seul le contexte tranche.
+
+## La valeur temporelle : un temps relatif
+Le temps du participe situe l'action **par rapport au verbe principal** :
+- **présent** → action **simultanée** : γράφων, « en écrivant, tandis qu'il écrit » ;
+- **aoriste** → action en général **antérieure** : λύσας, « après avoir délié, ayant délié » ;
+- **futur** → action **postérieure**, d'où la valeur de **but** : λύσων, « pour délier ».
+
+## Les emplois du participe
+### 1. Épithète ou substantivé : avec l'article
+Précédé de l'article, le participe fonctionne comme un adjectif épithète ou comme un nom. On le traduit par une **relative** ou par un **nom**.
+- ὁ λέγων ἀνήρ ou ὁ ἀνὴρ ὁ λέγων : l'homme **qui parle** ;
+- **ὁ λέγων** : **celui qui parle**, l'orateur ;
+- οἱ παρόντες (de πάρειμι, être présent) : ceux qui sont là, les personnes présentes ;
+- τὰ ὄντα : les choses qui sont, la réalité.
+
+### 2. Apposé : une valeur circonstancielle
+Sans article, accordé à un nom ou à un pronom de la phrase (souvent le sujet), le participe équivaut à une **subordonnée circonstancielle**. Le contexte et parfois un **mot d'appui** indiquent la nuance.
+
+| Valeur | Indice | Exemple (phrases d'entraînement) | Traduction |
+|---|---|---|---|
+| Temps | ordre des actions | ταῦτα εἰπὼν ἀπῆλθεν. | Après avoir dit cela, il s'en alla. |
+| Cause | ἅτε (cause réelle), ὡς (cause alléguée) | ὁ παῖς, ἅτε νέος ὤν, οὐκ ἐθέλει μάχεσθαι. | L'enfant, parce qu'il est jeune, ne veut pas combattre. |
+| Concession | καίπερ | καίπερ πλούσιος ὤν, οὐκ ἦν εὐδαίμων. | Bien qu'il fût riche, il n'était pas heureux. |
+| Condition | négation μή | μὴ μανθάνων οὐκ ἔσῃ σοφός. | Si tu n'apprends pas, tu ne seras pas savant. |
+| But | participe **futur** (souvent avec ὡς) | ὁ ἱερεὺς ἦλθε λυσόμενος τὴν θυγατέρα. | Le prêtre vint pour racheter sa fille. |
+| Manière | sens du verbe | οἱ παῖδες γράφοντες μανθάνουσιν. | Les enfants apprennent en écrivant. |
+
+### 3. Complétif : après les verbes de perception et de connaissance
+Après **ὁρῶ** (je vois), **ἀκούω** (j'entends), **αἰσθάνομαι** (je perçois), **οἶδα** (je sais), **γιγνώσκω** (je reconnais), **ἀγγέλλω** (j'annonce), le participe remplace une proposition complétive. On le traduit par un **infinitif**, une **relative** ou une complétive en « que ».
+- ὁρῶ τὸν ἵππον τρέχοντα : je vois le cheval **courir** (qui court) ;
+- ἀκούω τοῦ Σωκράτους λέγοντος : j'entends Socrate **parler** (ἀκούω + génitif de la personne qu'on entend) ;
+- ἀγγέλλει τοὺς πολεμίους φεύγοντας : il annonce **que les ennemis fuient** ;
+- οἶδα θνητὸς ὤν : je sais **que je suis** mortel (le participe est au **nominatif** quand son sujet est celui du verbe principal).
+
+## Le génitif absolu
+Le **génitif absolu** est un groupe formé d'un **nom ou pronom au génitif** et d'un **participe au génitif** accordé avec lui. Ce nom est le sujet du participe ; le groupe ne dépend d'aucun autre mot de la phrase et désigne en principe un être **différent** du sujet du verbe principal. Il équivaut à une **subordonnée circonstancielle** (temps, cause, concession, condition).
+
+>! **Comment le reconnaître ?**
+>! 1. Tu trouves un participe au génitif accordé avec un nom au génitif.
+>! 2. Ce génitif n'est ni complément du nom, ni complément d'un verbe ou d'une préposition.
+>! 3. Le groupe est souvent en tête de phrase, isolé par une virgule.
+
+Traduis-le par une **subordonnée** (quand, comme, alors que, parce que, bien que, si) ou par une tournure française équivalente :
+- νυκτὸς γενομένης : **la nuit venue**, quand la nuit fut tombée (γενομένης : participe aoriste de γίγνομαι) ;
+- Κύρου βασιλεύοντος : **sous le règne de Cyrus**, alors que Cyrus régnait ;
+- τοῦ στρατηγοῦ κελεύοντος : **sur l'ordre du général**, parce que le général l'ordonnait.
+
+>! **Exemple résolu** (phrase d'entraînement) : τῶν πολεμίων φευγόντων, ὁ στρατηγὸς τοὺς στρατιώτας ἐκέλευσε τὴν πόλιν φυλάττειν.
+>! Verbe principal : ἐκέλευσε (aoriste de κελεύω), sujet ὁ στρατηγός. τῶν πολεμίων φευγόντων : nom + participe présent au génitif pluriel, qui ne dépendent de rien : **génitif absolu**, action simultanée.
+>! Traduction : **Comme les ennemis fuyaient, le général ordonna aux soldats de garder la cité.**
+
+>! **Exemple authentique** (Thucydide, I, 1) : Θουκυδίδης Ἀθηναῖος ξυνέγραψε τὸν πόλεμον…, ἀρξάμενος εὐθὺς καθισταμένου καὶ ἐλπίσας μέγαν τε ἔσεσθαι καὶ ἀξιολογώτατον τῶν προγεγενημένων.
+>! ἀρξάμενος (aoriste moyen de ἄρχομαι, commencer) et ἐλπίσας (aoriste actif de ἐλπίζω, s'attendre à) sont **apposés** au sujet Θουκυδίδης ; καθισταμένου (participe présent moyen de καθίσταμαι, « s'établir, éclater ») s'analyse comme un **génitif absolu** dont le sujet, τοῦ πολέμου (ou αὐτοῦ), est sous-entendu.
+>! Traduction : **Thucydide d'Athènes a raconté la guerre…, s'étant mis au travail dès qu'elle éclata, parce qu'il s'attendait à ce qu'elle soit importante et plus mémorable que toutes celles qui l'avaient précédée.**
+
+## Méthode : traduire un participe
+1. **Repère** le participe : -ων / -ουσα / -ον et le thème -οντ-, -σας / -σαντ-, -μενος ; pas d'augment.
+2. **Identifie** son temps et sa voix, puis son **cas, genre et nombre**.
+3. Cherche le mot avec lequel il **s'accorde** : sujet, complément… ou nom au génitif sans fonction (→ génitif absolu).
+4. Regarde s'il a l'**article** (→ relative, « celui qui ») ou non (→ valeur circonstancielle ou complétive).
+5. Choisis la **nuance** grâce au sens, aux mots d'appui (ἅτε, ὡς, καίπερ) et à la négation (μή → condition).
+6. **Traduis** par une relative, une subordonnée, un gérondif (« en… »), « après avoir… », un infinitif ou un nom, en respectant le rapport de temps.
+
+> **À retenir** : λύων, λύουσα, λῦον (λύοντος, λυούσης) ; λύσας, λύσασα, λῦσαν (λύσαντος) ; λυόμενος, λυσάμενος ; ὤν, οὖσα, ὄν (ὄντος) ; pas d'augment ; présent = simultané, aoriste = antérieur, futur = but ; ὁ λέγων = celui qui parle ; καίπερ = bien que, ἅτε = parce que ; après ὁρῶ, ἀκούω, οἶδα, le participe est complément ; génitif absolu = nom + participe au génitif sans fonction dans la phrase → subordonnée.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Identifie la forme **λύσαντος**.",
+          choix: ["Participe présent actif, génitif masculin singulier", "Indicatif aoriste, 3e pers. du singulier", "Participe aoriste actif, génitif masculin ou neutre singulier", "Participe futur actif, nominatif masculin singulier"],
+          reponse: 2,
+          explication: "Thème λυ- + **-σαντ-** (aoriste) + désinence **-ος** du génitif de la 3e déclinaison : participe aoriste actif, génitif masculin ou neutre singulier. Le présent serait λύοντος, l'indicatif aoriste ἔλυσε(ν), le futur λύσων.",
+        },
+        {
+          type: "saisie",
+          question: "Donne le **nominatif féminin singulier** du participe présent actif de λύω.",
+          reponses: ["λύουσα", "λυουσα"],
+          explication: "λύων, **λύουσα**, λῦον. Le féminin se décline sur la 1re déclinaison : λύουσα, λύουσαν, λυούσης, λυούσῃ.",
+        },
+        {
+          type: "vf",
+          question: "Le participe aoriste actif de λύω porte l'augment : ἐλύσας.",
+          reponse: false,
+          explication: "Faux : l'augment n'existe qu'à l'**indicatif**. Le participe aoriste est **λύσας**, λύσασα, λῦσαν. La forme ἔλυσας est l'indicatif aoriste, 2e sg. (« tu délias »).",
+        },
+        {
+          type: "saisie",
+          question: "Donne le **génitif masculin pluriel** du participe présent actif de λύω.",
+          reponses: ["λυόντων", "λυοντων"],
+          explication: "Thème λυοντ- + désinence -ων : **λυόντων**. L'accent passe sur la pénultième parce que la finale -ων est longue.",
+        },
+        {
+          type: "qcm",
+          question: "Comment traduire le participe substantivé **ὁ λέγων** ?",
+          choix: ["Il parle", "Le discours", "Dire", "Celui qui parle"],
+          reponse: 3,
+          explication: "Article + participe présent de λέγω : participe substantivé, « **celui qui parle** », l'orateur. « Il parle » serait λέγει, « dire » λέγειν, « le discours » ὁ λόγος.",
+        },
+        {
+          type: "saisie",
+          question: "Donne le **nominatif masculin pluriel** du participe présent de εἰμί.",
+          reponses: ["ὄντες", "οντες"],
+          explication: "ὤν, ὄντος ; pluriel **ὄντες**, ὄντας, ὄντων, οὖσι(ν). Ex. : σοφοὶ ὄντες, « étant savants, parce qu'ils sont savants ».",
+        },
+        {
+          type: "qcm",
+          question: "Dans **καίπερ πλούσιος ὤν, οὐκ ἦν εὐδαίμων** (phrase d'entraînement), quelle valeur prend le participe ὤν ?",
+          choix: ["Le but", "La concession", "La condition", "La cause"],
+          reponse: 1,
+          explication: "**καίπερ** + participe exprime la **concession** : « bien qu'il fût riche, il n'était pas heureux ». La cause serait marquée par ἅτε ou ὡς, la condition par la négation μή, le but par un participe futur.",
+        },
+        {
+          type: "saisie",
+          question: "À quel **temps** est le participe qui exprime le **but** (souvent précédé de ὡς) ?",
+          reponses: ["futur", "participe futur", "au futur"],
+          explication: "Le participe **futur** exprime une action postérieure, donc souvent le but : ἦλθε λυσόμενος τὴν θυγατέρα, « il vint **pour racheter** sa fille ».",
+        },
+        {
+          type: "qcm",
+          question: "Traduis la phrase d'entraînement : **τοῦ βασιλέως κελεύοντος, οἱ στρατιῶται τὴν πόλιν ἐφύλαττον.**",
+          choix: ["Sur l'ordre du roi, les soldats gardaient la cité.", "Les soldats du roi qui commandait gardaient la cité.", "Les soldats ordonnaient au roi de garder la cité.", "Le roi ordonnait de garder la cité des soldats."],
+          reponse: 0,
+          explication: "τοῦ βασιλέως κελεύοντος : nom + participe présent au génitif, sans fonction dans la phrase : **génitif absolu**, « le roi l'ordonnant », d'où « sur l'ordre du roi ». Sujet du verbe principal ἐφύλαττον (imparfait) : οἱ στρατιῶται ; COD : τὴν πόλιν. τοῦ βασιλέως n'est pas complément de οἱ στρατιῶται : le génitif absolu ne dépend d'aucun mot.",
+        },
+        {
+          type: "redaction",
+          question: "Analyse les participes puis traduis ces phrases d'entraînement : 1) **ὁ στρατηγὸς ταῦτα εἰπὼν ἀπῆλθεν.** 2) **νυκτὸς γενομένης, οἱ πολέμιοι ἔφυγον.** 3) **οἱ Ἀθηναῖοι πρέσβεις ἔπεμψαν τοὺς αἰχμαλώτους λυσομένους.** 4) **ὁρῶ τοὺς παῖδας ἐν τῷ ἀγρῷ τρέχοντας.** (ταῦτα : cela ; ἀπέρχομαι, aor. ἀπῆλθον : s'en aller ; ἡ νύξ, νυκτός : la nuit ; γίγνομαι, aor. ἐγενόμην : devenir, survenir ; οἱ πρέσβεις : les ambassadeurs ; ὁ αἰχμάλωτος : le prisonnier ; ὁρῶ : je vois ; τρέχω : courir)",
+          corrige: `
+**1)** εἰπών : participe **aoriste** actif de λέγω (aoriste thématique εἶπον), nominatif masculin singulier, **apposé** au sujet ὁ στρατηγός ; ταῦτα est son COD. L'aoriste marque l'**antériorité** : valeur temporelle. ἀπῆλθεν : aoriste de ἀπέρχομαι, 3e sg.
+Traduction : **Après avoir dit cela, le général s'en alla** (ou : ayant dit cela, le général partit).
+
+**2)** γενομένης : participe aoriste de γίγνομαι, génitif féminin singulier, accordé avec νυκτός (génitif de ἡ νύξ). Ce groupe ne dépend d'aucun mot de la phrase : c'est un **génitif absolu**, à valeur temporelle. Verbe principal : ἔφυγον (aoriste thématique de φεύγω), sujet οἱ πολέμιοι.
+Traduction : **La nuit venue, les ennemis s'enfuirent** (ou : quand la nuit fut tombée, les ennemis prirent la fuite).
+
+**3)** λυσομένους : participe **futur moyen** de λύω, accusatif masculin pluriel, accordé avec πρέσβεις (COD de ἔπεμψαν, aoriste de πέμπω). Le futur exprime le **but** ; le moyen, l'intérêt du sujet : « délier pour soi », c'est **racheter**. τοὺς αἰχμαλώτους est le COD du participe.
+Traduction : **Les Athéniens envoyèrent des ambassadeurs pour racheter les prisonniers.**
+
+**4)** τρέχοντας : participe présent actif de τρέχω, accusatif masculin pluriel, accordé avec τοὺς παῖδας. Après le verbe de perception ὁρῶ, c'est un participe **complétif** : on le traduit par un infinitif ou une relative.
+Traduction : **Je vois les enfants courir dans le champ** (ou : je vois les enfants qui courent dans le champ).
+
+>! Méthode : pour chaque participe, cherche le mot avec lequel il s'accorde. S'il s'accorde avec un sujet ou un complément, c'est un participe apposé ou complétif ; s'il forme avec un nom un groupe au génitif sans fonction, c'est un génitif absolu. Puis respecte le rapport de temps : présent = simultané, aoriste = antérieur, futur = but.
+`,
+        },
+      ],
+    },
+    {
+      id: "verbes-contractes",
+      titre: "Les verbes contractes",
+      theme: "Langue : le verbe",
+      cours: `
+## Le principe de la contraction
+Beaucoup de verbes très courants ont un radical terminé par une voyelle **α**, **ε** ou **ο** : τιμά-ω (honorer), ποιέ-ω (faire), δηλό-ω (montrer). Au **thème du présent** (présent, imparfait, infinitif et participe présents), cette voyelle se **contracte** avec la voyelle de la désinence : τιμά-ω → **τιμῶ**, ποιέ-ει → **ποιεῖ**, δηλό-ομεν → **δηλοῦμεν**.
+
+- Le dictionnaire donne la **forme non contractée** : tu cherches ποιεῖ à **ποιέω** (le Bailly écrit « ποιέω-ῶ »).
+- La contraction ne concerne **que le thème du présent** : au futur et à l'aoriste, la voyelle s'allonge devant le σ (voir plus bas).
+- **Accent** : si l'accent portait sur la première des deux voyelles, la contraction porte un **circonflexe** (τιμά-ω → τιμῶ) ; si aucune des deux n'était accentuée, la voyelle contractée n'a pas d'accent (ἐτίμα-ον → ἐτίμων).
+
+## Les règles de contraction
+### Verbes en -άω
+| Rencontre | Résultat | Exemple |
+|---|---|---|
+| α + ε, α + η | ᾱ (long) | τιμά-ετε → τιμᾶτε |
+| α + ει, α + ῃ | ᾳ | τιμά-εις → τιμᾷς ; τιμά-ει → τιμᾷ |
+| α + ο, α + ω, α + ου | ω | τιμά-ομεν → τιμῶμεν ; τιμά-ουσι → τιμῶσι |
+| α + οι | ῳ | (formes hors de l'indicatif) |
+
+Retiens : α + un son **e** → α ; α + un son **o** → ω ; le iota d'une diphtongue se retrouve **souscrit**.
+
+### Verbes en -έω
+| Rencontre | Résultat | Exemple |
+|---|---|---|
+| ε + ε | ει | ποιέ-ετε → ποιεῖτε |
+| ε + ο | ου | ποιέ-ομεν → ποιοῦμεν |
+| ε + voyelle longue ou diphtongue | ε disparaît | ποιέ-ω → ποιῶ ; ποιέ-εις → ποιεῖς ; ποιέ-ουσι → ποιοῦσι |
+
+### Verbes en -όω
+| Rencontre | Résultat | Exemple |
+|---|---|---|
+| ο + ε, ο + ο, ο + ου | ου | δηλό-ετε → δηλοῦτε ; δηλό-ομεν → δηλοῦμεν ; δηλό-ουσι → δηλοῦσι |
+| ο + ει, ο + οι, ο + ῃ | οι | δηλό-εις → δηλοῖς ; δηλό-ει → δηλοῖ |
+| ο + η, ο + ω | ω | δηλό-ω → δηλῶ |
+
+**Exception des infinitifs** : τιμᾶν, ποιεῖν, δηλοῦν (sans iota souscrit pour τιμᾶν, et οῦ et non οῖ pour δηλοῦν), car la désinence -ειν vient d'un ancien -εεν.
+
+## Le présent de l'indicatif actif
+| Personne | τιμάω (honorer) | ποιέω (faire) | δηλόω (montrer) |
+|---|---|---|---|
+| 1re sg. | τιμῶ | ποιῶ | δηλῶ |
+| 2e sg. | τιμᾷς | ποιεῖς | δηλοῖς |
+| 3e sg. | τιμᾷ | ποιεῖ | δηλοῖ |
+| 1re pl. | τιμῶμεν | ποιοῦμεν | δηλοῦμεν |
+| 2e pl. | τιμᾶτε | ποιεῖτε | δηλοῦτε |
+| 3e pl. | τιμῶσι(ν) | ποιοῦσι(ν) | δηλοῦσι(ν) |
+| Infinitif | τιμᾶν | ποιεῖν | δηλοῦν |
+| Participe | τιμῶν, τιμῶσα, τιμῶν | ποιῶν, ποιοῦσα, ποιοῦν | δηλῶν, δηλοῦσα, δηλοῦν |
+
+Les participes se déclinent comme λύων : génitif τιμῶντος, ποιοῦντος, δηλοῦντος.
+
+## L'imparfait de l'indicatif actif
+| Personne | τιμάω | ποιέω | δηλόω |
+|---|---|---|---|
+| 1re sg. | ἐτίμων | ἐποίουν | ἐδήλουν |
+| 2e sg. | ἐτίμας | ἐποίεις | ἐδήλους |
+| 3e sg. | ἐτίμα | ἐποίει | ἐδήλου |
+| 1re pl. | ἐτιμῶμεν | ἐποιοῦμεν | ἐδηλοῦμεν |
+| 2e pl. | ἐτιμᾶτε | ἐποιεῖτε | ἐδηλοῦτε |
+| 3e pl. | ἐτίμων | ἐποίουν | ἐδήλουν |
+
+Comme pour ἔλυον, la **1re sg.** et la **3e pl.** sont identiques (ἐτίμων, ἐποίουν, ἐδήλουν). Les règles de l'augment s'appliquent normalement : αἰτέω → **ᾔτουν** ; οἰκέω → **ᾤκουν** ; ἐρωτάω → **ἠρώτων**.
+
+Au moyen, les mêmes règles valent : ποιέ-ομαι → ποιοῦμαι, ποιέ-εται → ποιεῖται, ποιέ-εσθαι → ποιεῖσθαι ; de même ἡγοῦμαι (je pense, je conduis), φοβοῦμαι (je crains), τιμᾶται (il est honoré).
+
+## Des formes très fréquentes
+| Forme | Analyse | Traduction |
+|---|---|---|
+| ὁρῶ, ὁρᾷς, ὁρᾷ | ὁράω, présent, 1re, 2e, 3e sg. | je vois, tu vois, il voit |
+| ἑώρων | ὁράω, imparfait (double augment), 1re sg. ou 3e pl. | je voyais, ils voyaient |
+| ποιεῖ, ποιοῦσι(ν) | ποιέω, présent, 3e sg., 3e pl. | il fait, ils font |
+| ᾔτουν | αἰτέω, imparfait (αι → ῃ), 1re sg. ou 3e pl. | je demandais, ils demandaient |
+| ἐνίκων | νικάω, imparfait, 1re sg. ou 3e pl. | je vainquais, ils étaient vainqueurs |
+| φιλεῖ, καλεῖ | φιλέω, καλέω, présent, 3e sg. | il aime, il appelle |
+| δοκεῖ | δοκέω, présent, 3e sg. | il semble ; il semble bon, on décide |
+
+Cas particulier : **ζάω** (vivre) contracte α + ε en **η** : ζῶ, ζῇς, ζῇ, ζῶμεν, ζῆτε, ζῶσι(ν) ; infinitif **ζῆν**.
+
+## Le futur et l'aoriste : l'allongement
+Hors du thème du présent, il n'y a **pas de contraction** : la voyelle du radical **s'allonge** devant le σ.
+- α → **η** (mais **ᾱ** après ε, ι, ρ : θεάομαι → θεάσομαι ; δράω → δράσω) ;
+- ε → **η** ;
+- ο → **ω**.
+
+| Présent | Futur | Aoriste | Infinitif aoriste |
+|---|---|---|---|
+| τιμάω | τιμήσω | ἐτίμησα | τιμῆσαι |
+| νικάω | νικήσω | ἐνίκησα | νικῆσαι |
+| ποιέω | ποιήσω | ἐποίησα | ποιῆσαι |
+| αἰτέω | αἰτήσω | ᾔτησα | αἰτῆσαι |
+| δηλόω | δηλώσω | ἐδήλωσα | δηλῶσαι |
+| ἐλευθερόω | ἐλευθερώσω | ἠλευθέρωσα | ἐλευθερῶσαι |
+
+Ces formes se conjuguent ensuite exactement comme λύσω et ἔλυσα. Quelques verbes n'allongent pas : καλέω (aoriste ἐκάλεσα, futur attique καλῶ), τελέω (ἐτέλεσα).
+
+## Repérer un verbe contracte et le chercher au dictionnaire
+- **Indices** : un **circonflexe** sur la terminaison (ποιεῖ, τιμῶσι, δηλοῦμεν, à comparer avec λύει, λύουσι, λύομεν), des finales inhabituelles (-ᾷς, -οῖ, -οῦτε), un imparfait en -ων ou -ουν.
+- **Retrouver l'entrée** : remplace la terminaison contractée par -άω, -έω ou -όω.
+
+| Terminaison contractée | Verbe en |
+|---|---|
+| -ᾷς, -ᾷ, -ᾶτε, -ῶμεν, -ῶσι, -ᾶν ; imparfait -ων, -ας, -α | -άω |
+| -εῖς, -εῖ, -εῖτε, -εῖν ; imparfait -εις, -ει | -έω |
+| -οῖς, -οῖ, -οῦτε, infinitif -οῦν ; imparfait -ους, -ου | -όω |
+| -οῦμεν, -οῦσι ; imparfait -ουν | -έω ou -όω : essaie les deux |
+| -ῶ | -άω, -έω ou -όω : essaie les trois |
+| futur ou aoriste en -ησ- / -ωσ- | -άω ou -έω / -όω |
+
+>! **Exemple résolu** : ἐποιοῦμεν.
+>! Augment ἐ- → passé ; terminaison -οῦμεν → verbe en -έω ou -όω. Le dictionnaire donne ποιέω (ποιόω n'existe pas). ποιέ-ομεν → ποιοῦμεν : **imparfait, 1re pl.**, « nous faisions ».
+
+>! **Exemple résolu** : ἐνίκησαν.
+>! Augment ἐ- + νικ- + η allongé + σα + ν : aoriste, 3e pl. ; η devant σ vient de α ou ε : on trouve **νικάω** (vaincre). « Ils vainquirent, ils ont remporté la victoire. »
+
+## Vocabulaire
+τιμάω : honorer · νικάω : vaincre · ὁράω : voir · ἐρωτάω : interroger · τολμάω : oser · ποιέω : faire · φιλέω : aimer · καλέω : appeler · οἰκέω : habiter · ζητέω : chercher · αἰτέω : demander · ἀδικέω : commettre une injustice · δηλόω : montrer · ἀξιόω : juger digne · ἐλευθερόω : libérer · δουλόω : asservir.
+
+> **À retenir** : contraction au thème du présent seulement ; α + e → α, α + o → ω ; ε + ε → ει, ε + ο → ου ; ο + ε/ο → ου, ο + ει → οι ; τιμῶ, τιμᾷς, τιμᾷ, τιμῶμεν, τιμᾶτε, τιμῶσι ; ποιῶ, ποιεῖς, ποιεῖ, ποιοῦμεν, ποιεῖτε, ποιοῦσι ; δηλῶ, δηλοῖς, δηλοῖ, δηλοῦμεν, δηλοῦτε, δηλοῦσι ; infinitifs τιμᾶν, ποιεῖν, δηλοῦν ; futur et aoriste avec allongement : τιμήσω, ἐποίησα, ἐδήλωσα ; au dictionnaire, forme non contractée (ποιέω).
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Dans un verbe en -άω, que donne la rencontre **α + ει** ?",
+          choix: ["α", "ει", "ᾳ", "η"],
+          reponse: 2,
+          explication: "α + ει → **ᾳ** (le iota se retrouve souscrit) : τιμά-εις → τιμᾷς, τιμά-ει → τιμᾷ. Seul l'infinitif fait exception : τιμᾶν, sans iota.",
+        },
+        {
+          type: "saisie",
+          question: "Donne la **3e personne du singulier** du présent de l'indicatif actif de ποιέω.",
+          reponses: ["ποιεῖ", "ποιει"],
+          explication: "ποιέ-ει → **ποιεῖ**, « il fait » : ε + ει → ει, avec un circonflexe car l'accent portait sur le ε.",
+        },
+        {
+          type: "saisie",
+          question: "Donne la **2e personne du singulier** du présent de l'indicatif actif de ὁράω (voir).",
+          reponses: ["ὁρᾷς", "ορας"],
+          explication: "ὁρά-εις → **ὁρᾷς**, « tu vois » : α + ει → ᾳ. N'oublie pas le iota souscrit.",
+        },
+        {
+          type: "vf",
+          question: "Pour comprendre la forme ποιεῖ, on cherche dans le dictionnaire l'entrée ποιῶ.",
+          reponse: false,
+          explication: "Faux : le dictionnaire donne la **forme non contractée**, **ποιέω** (le Bailly écrit « ποιέω-ῶ » pour signaler la contraction).",
+        },
+        {
+          type: "qcm",
+          question: "Identifie la forme **ᾔτουν**.",
+          choix: ["Présent de αἰτέω, 1re pers. du singulier", "Aoriste de αἰτέω, 3e pers. du pluriel", "Imparfait de ἀτιμάω, 3e pers. du pluriel", "Imparfait de αἰτέω, 1re pers. du sing. ou 3e pers. du pluriel"],
+          reponse: 3,
+          explication: "Augment temporel αι → ῃ, puis ε + ο → ου : ᾔτε-ον → **ᾔτουν**, imparfait de αἰτέω (demander), « je demandais » ou « ils demandaient ». Le présent est αἰτῶ, l'aoriste ᾔτησαν (avec allongement et σ).",
+        },
+        {
+          type: "saisie",
+          question: "Donne l'**infinitif présent actif** de τιμάω.",
+          reponses: ["τιμᾶν", "τιμαν"],
+          explication: "**τιμᾶν** : c'est l'exception des infinitifs. La désinence -ειν vient d'un ancien -εεν, d'où α + ε → ᾱ, **sans iota souscrit**.",
+        },
+        {
+          type: "saisie",
+          question: "Donne la **1re personne du singulier du futur** de ποιέω.",
+          reponses: ["ποιήσω", "ποιησω"],
+          explication: "Pas de contraction au futur : le ε s'allonge en η devant le σ : **ποιήσω**, « je ferai ». Aoriste : ἐποίησα.",
+        },
+        {
+          type: "qcm",
+          question: "Identifie la forme **ἐδήλου**.",
+          choix: ["Imparfait de δηλόω, 3e pers. du singulier", "Présent de δηλόω, 3e pers. du singulier", "Imparfait de δηλόω, 1re pers. du singulier", "Aoriste de δηλόω, 3e pers. du singulier"],
+          reponse: 0,
+          explication: "Augment ἐ- + δηλο- + -ε : ο + ε → ου, donc **ἐδήλου**, « il montrait ». Le présent serait δηλοῖ, la 1re sg. de l'imparfait ἐδήλουν, l'aoriste ἐδήλωσε(ν).",
+        },
+        {
+          type: "saisie",
+          question: "Sous quelle forme cherches-tu **νικῶσι** dans le dictionnaire ?",
+          reponses: ["νικάω", "νικαω"],
+          explication: "La terminaison -ῶσι vient de α + ουσι (un verbe en -έω donnerait -οῦσι) : l'entrée est **νικάω**, « vaincre ». νικῶσι = « ils vainquent ».",
+        },
+        {
+          type: "redaction",
+          question: "Analyse les verbes puis traduis ces phrases d'entraînement : 1) **οἱ Ἀθηναῖοι τοὺς θεοὺς τιμῶσιν.** 2) **τί ποιεῖς, ὦ παῖ;** 3) **οἱ στρατιῶται τὸν στρατηγὸν χρήματα ᾔτουν.** 4) **ὁ ἄγγελος τὴν νίκην ἐδήλου.** 5) **οἱ Ἕλληνες τοὺς Πέρσας ἐνίκησαν.** (τί : quoi ? ; τὰ χρήματα : l'argent ; αἰτέω + deux accusatifs : demander quelque chose à quelqu'un ; ὁ ἄγγελος : le messager ; ἡ νίκη : la victoire ; οἱ Πέρσαι : les Perses)",
+          corrige: `
+**1)** τιμῶσιν : terminaison -ῶσι → verbe en -άω : **τιμάω**, présent, 3e pl. (τιμά-ουσι → τιμῶσι, α + ου → ω). Sujet οἱ Ἀθηναῖοι, COD τοὺς θεούς.
+Traduction : **Les Athéniens honorent les dieux.**
+
+**2)** ποιεῖς : terminaison -εῖς → verbe en -έω : **ποιέω**, présent, 2e sg. (ποιέ-εις → ποιεῖς). ὦ παῖ : vocatif de ὁ παῖς ; τί : pronom interrogatif, COD ; « ; » est le point d'interrogation grec.
+Traduction : **Que fais-tu, enfant ?**
+
+**3)** ᾔτουν : augment αι → ῃ, ε + ο → ου : imparfait de **αἰτέω**. Le sujet pluriel οἱ στρατιῶται impose la 3e pl. (et non la 1re sg.). Les deux accusatifs : τὸν στρατηγόν (la personne à qui l'on demande) et χρήματα (la chose demandée).
+Traduction : **Les soldats demandaient de l'argent au général.**
+
+**4)** ἐδήλου : augment ἐ-, ο + ε → ου : imparfait de **δηλόω**, 3e sg. Sujet ὁ ἄγγελος, COD τὴν νίκην.
+Traduction : **Le messager annonçait (faisait connaître) la victoire.**
+
+**5)** ἐνίκησαν : augment ἐ- + νικ- + **η** (α allongé devant σ) + -σαν : **aoriste** de νικάω, 3e pl. Pas de contraction hors du thème du présent. Sujet οἱ Ἕλληνες, COD τοὺς Πέρσας.
+Traduction : **Les Grecs vainquirent (ont vaincu) les Perses.**
+
+>! Méthode : un circonflexe ou une finale inhabituelle sur la terminaison signale un verbe contracte. Décontracte (ποιεῖς → ποιέ-εις), retrouve l'entrée du dictionnaire (ποιέω), puis analyse comme pour λύω. Au futur et à l'aoriste, cherche la voyelle longue (η, ω) devant le σ.
 `,
         },
       ],

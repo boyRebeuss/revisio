@@ -77,6 +77,40 @@ Le **prix d'équilibre** est le prix pour lequel la quantité offerte est égale
 **Conclusion** : en concurrence parfaite, le surplus total est maximal à l'équilibre ; toute intervention qui éloigne le prix de l'équilibre (taxe, prix plafond) crée une perte sèche.` },
         { type: "saisie", question: "La demande devient Qd = 140 − 2P (hausse des revenus) ; l'offre reste Qo = 2P − 20. Quel est le nouveau prix d'équilibre ?", reponses: ["35", "35 €", "p = 35", "35 euros"],
           explication: "140 − 2P = 2P − 20 ⇔ 160 = 4P ⇔ P = **35**. La quantité d'équilibre passe à 140 − 70 = 50 : le déplacement de la courbe de demande vers la droite fait monter le prix (de 30 à 35) et la quantité (de 40 à 50)." },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez qu'une taxe modifie l'équilibre d'un marché concurrentiel.
+
+**Document 1 – Un marché avant et après une taxe (données fictives)**
+Demande : Qd = 100 − 2P. Offre sans taxe : Qo = 2P − 20. On instaure une taxe de 4 € par unité vendue, payée par les vendeurs.
+
+| | Sans taxe | Avec la taxe de 4 € |
+|---|---|---|
+| Prix payé par l'acheteur | 30 € | 32 € |
+| Prix net reçu par le vendeur | 30 € | 28 € |
+| Quantité échangée | 40 | 36 |
+| Surplus des consommateurs | 400 | 324 |
+| Surplus des producteurs | 400 | 324 |
+| Recettes fiscales | 0 | 144 |
+| Surplus total (recettes comprises) | 800 | 792 |
+
+**Document 2 – La « taxe soda » en France**
+Depuis 2012, les boissons sucrées sont soumises en France à une contribution spécifique. Depuis 2018, son montant augmente avec la teneur en sucre de la boisson : l'objectif est d'inciter les industriels à réduire le sucre de leurs recettes et les consommateurs à en boire moins, pour des raisons de santé publique.`, corrige: `**Introduction**
+- *Accroche* : depuis 2012, la France taxe les boissons sucrées pour en réduire la consommation (document 2).
+- *Définitions* : un **marché concurrentiel** confronte de nombreux offreurs et demandeurs preneurs de prix ; l'**équilibre** est le prix pour lequel quantité offerte = quantité demandée. Une **taxe** est un prélèvement obligatoire ; ici, un montant fixe par unité vendue.
+- *Annonce* : la taxe déplace l'équilibre (I) et modifie la répartition des gains à l'échange en créant une perte sèche (II).
+
+**I. La taxe déplace l'équilibre du marché**
+- *Affirmer* : la taxe augmente le prix payé et réduit la quantité échangée.
+- *Expliquer* : pour les vendeurs, chaque unité coûte 4 € de plus ; à chaque prix, ils offrent moins : la courbe d'offre se déplace vers la gauche (vers le haut de 4 €). La nouvelle offre est Qo = 2(P − 4) − 20 = 2P − 28 ; l'équilibre 100 − 2P = 2P − 28 donne P = 32 €.
+- *Illustrer* : selon le document 1, le prix payé passe de 30 à 32 € et la quantité de 40 à 36, soit une baisse de (36 − 40) / 40 × 100 = **−10 %**. C'est l'effet recherché par la taxe soda (document 2) : moins de consommation d'un bien jugé nocif pour la santé.
+
+**II. La taxe modifie la répartition des gains et réduit le surplus total**
+- *La charge est partagée* : l'acheteur paie 2 € de plus (32 au lieu de 30) et le vendeur reçoit 2 € de moins (28 au lieu de 30). Le partage est égal ici car offre et demande réagissent autant au prix ; en général, la charge pèse davantage sur le côté du marché le moins sensible au prix.
+- *Une perte sèche apparaît* : les surplus des consommateurs et des producteurs passent de 400 à 324 ; l'État perçoit 4 × 36 = 144. Le surplus total tombe de 800 à 792 : la **perte sèche** de 8 correspond aux échanges mutuellement avantageux qui n'ont plus lieu (4 × 4 / 2 = 8).
+- *Nuance* : cette perte est le coût de la taxe ; elle peut se justifier si la taxe corrige un problème que le marché ignore (coûts de santé liés au sucre) ou finance des dépenses utiles.
+
+**Conclusion** : la taxe élève le prix payé, abaisse le prix reçu et la quantité échangée, et réduit le surplus total. C'est un instrument d'incitation efficace, dont le coût (perte sèche) doit être comparé aux bénéfices attendus.
+
+>! **Barème implicite (9 points)** : introduction avec définitions et annonce ; mécanismes expliqués (déplacement de l'offre, partage de la charge, perte sèche) ; données des deux documents exploitées avec au moins un calcul ; connaissances personnelles ; conclusion qui répond au sujet. **Erreur fréquente** : décrire le tableau ligne par ligne sans expliquer le mécanisme.` },
       ],
     },
     {
@@ -151,6 +185,37 @@ Le pouvoir de marché n'est pas toujours condamné : le **brevet** donne un mono
 - Elle encadre les **aides d'État** qui fausseraient la concurrence.
 
 **Idée 3 – Elle favorise ainsi des prix plus bas, plus de choix et d'innovation**, tout en tolérant certains pouvoirs de marché temporaires utiles (brevets qui récompensent l'innovation).` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que les entreprises en oligopole sont tentées de s'entendre et que la politique de la concurrence cherche à l'empêcher.
+
+**Document 1 – Les profits de deux entreprises en duopole selon leur stratégie de prix (en millions d'euros, données fictives)**
+
+| | B maintient un prix élevé | B baisse son prix |
+|---|---|---|
+| A maintient un prix élevé | A : 10 ; B : 10 | A : 3 ; B : 14 |
+| A baisse son prix | A : 14 ; B : 3 | A : 6 ; B : 6 |
+
+**Document 2 – Deux ententes sanctionnées**
+
+| Année | Autorité | Marché concerné | Amende |
+|---|---|---|---|
+| 2005 | Conseil de la concurrence (France) | téléphonie mobile (Orange, SFR, Bouygues Telecom) | 534 millions d'euros |
+| 2016 | Commission européenne | camions (grands constructeurs européens) | environ 2,9 milliards d'euros |`, corrige: `**Introduction**
+- *Définitions* : un **oligopole** est un marché dominé par un petit nombre d'offreurs ; une **entente** (cartel) est un accord entre concurrents pour fixer les prix ou se partager le marché ; la **politique de la concurrence** regroupe les règles et institutions qui protègent la concurrence.
+- *Annonce* : l'interdépendance stratégique pousse les firmes à s'entendre (I), ce qui nuit aux consommateurs et justifie la politique de la concurrence (II).
+
+**I. L'interdépendance stratégique incite à l'entente**
+- *Affirmer* : en oligopole, le profit de chaque firme dépend de la stratégie de l'autre.
+- *Expliquer* : c'est le **dilemme du prisonnier**. Quelle que soit la stratégie de B, A gagne plus à baisser son prix (14 > 10 si B maintient ; 6 > 3 si B baisse). B raisonne de même : les deux baissent leurs prix et obtiennent 6 chacune, alors qu'elles gagneraient 10 chacune en maintenant des prix élevés (document 1).
+- *Conséquence* : les deux firmes ont intérêt à **s'entendre** pour maintenir des prix élevés (20 millions de profits cumulés au lieu de 12). Mais l'entente est fragile : chacune reste tentée de tricher (14 > 10).
+
+**II. Les ententes nuisent aux consommateurs, d'où la politique de la concurrence**
+- *Effets* : une entente fixe un prix supérieur au prix concurrentiel ; les quantités baissent, le surplus du consommateur diminue et une perte sèche apparaît.
+- *Sanctions* : les autorités infligent de lourdes amendes, par exemple 534 millions d'euros aux trois opérateurs de téléphonie mobile en France en 2005, ou environ 2,9 milliards d'euros aux constructeurs de camions par la Commission européenne en 2016 (document 2). L'amende doit être assez élevée pour rendre l'entente non rentable.
+- *Autres outils* : la **procédure de clémence** (une entreprise qui dénonce l'entente peut échapper à l'amende), qui exploite la fragilité du cartel ; le contrôle des concentrations, qui empêche de réduire encore le nombre de concurrents.
+
+**Conclusion** : la logique stratégique de l'oligopole rend l'entente tentante ; la politique de la concurrence la rend risquée et coûteuse, dans l'intérêt des consommateurs.
+
+>! **Barème implicite (9 points)** : lecture juste de la matrice (raisonnement « quelle que soit la stratégie de l'autre ») ; lien entre entente, prix élevé et perte de surplus ; exploitation du document 2 ; connaissance des outils de la politique de la concurrence.` },
       ],
     },
     {
@@ -226,6 +291,92 @@ Pour corriger les défaillances, les pouvoirs publics disposent de plusieurs out
 **Autre effet : l'aléa moral** (après le contrat), par exemple un assuré moins prudent.
 
 **Conclusion** : le marché n'assure plus des échanges efficaces ; d'où des réponses comme la garantie, le contrôle technique obligatoire, les labels ou la franchise en assurance.` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que les pouvoirs publics disposent de plusieurs instruments pour lutter contre la pollution.
+
+**Document 1 – La composante carbone des taxes sur l'énergie en France (en euros par tonne de CO₂)**
+
+| 2014 | 2016 | 2018 | depuis 2019 |
+|---|---|---|---|
+| 7 | 22 | 44,6 | 44,6 (gel de la hausse prévue) |
+
+**Document 2 – Le marché européen des quotas d'émission (SEQE-UE)**
+Les grandes installations industrielles et les centrales électriques de l'Union européenne doivent détenir un quota pour chaque tonne de CO₂ émise. Le nombre total de quotas est plafonné et diminue chaque année ; les quotas s'échangent sur un marché. Le prix de la tonne était inférieur à 10 € en 2017 ; il a dépassé 80 € en 2023.
+
+**Document 3 – Une norme européenne**
+L'Union européenne a adopté en 2023 une règle selon laquelle, à partir de 2035, les voitures neuves vendues ne devront plus émettre de CO₂.`, corrige: `**Introduction**
+- *Définitions* : la pollution est une **externalité négative** : le pollueur impose un coût à d'autres agents sans contrepartie monétaire. Le marché, qui ignore ce coût social, conduit à **trop** produire et polluer : c'est une défaillance du marché.
+- *Annonce* : les pouvoirs publics peuvent agir par la taxation (I), par un marché de quotas (II) et par la réglementation (III).
+
+**I. Taxer la pollution : le signal-prix**
+- *Mécanisme* : une **taxe pigouvienne** fait payer au pollueur le coût de l'externalité (principe pollueur-payeur) ; elle *internalise* l'externalité et incite à réduire les émissions.
+- *Illustration* : en France, la composante carbone est passée de 7 € la tonne en 2014 à 44,6 € en 2018, soit un montant multiplié par 6,4 environ (document 1).
+- *Limite* : l'acceptabilité sociale ; la hausse a été gelée depuis 2019 après le mouvement des « gilets jaunes », car la taxe pèse relativement plus sur les ménages modestes et ruraux.
+
+**II. Créer un marché de quotas : fixer la quantité**
+- *Mécanisme* : l'État fixe un **plafond** d'émissions et distribue ou vend des quotas échangeables ; l'entreprise qui réduit ses émissions à faible coût revend ses quotas, celle pour qui c'est coûteux en achète. L'objectif de quantité est atteint au moindre coût.
+- *Illustration* : la baisse du plafond a fait passer le prix de la tonne de moins de 10 € (2017) à plus de 80 € (2023), ce qui rend la pollution plus coûteuse (document 2).
+- *Limite* : un prix longtemps trop bas quand les quotas étaient trop nombreux.
+
+**III. Réglementer : normes et interdictions**
+- *Mécanisme* : la norme impose directement un comportement (seuils d'émission, interdictions).
+- *Illustration* : la fin de la vente des voitures neuves émettant du CO₂ dans l'UE en 2035 (document 3).
+- *Limite* : la norme est simple et sûre, mais rigide : elle n'incite pas à aller au-delà du seuil et impose le même effort à tous, quel que soit son coût.
+
+**Conclusion** : les trois instruments sont complémentaires : la taxe agit sur le prix, le marché de quotas sur la quantité, la norme sur le comportement. Leur efficacité dépend aussi de leur acceptabilité sociale.` },
+        { type: "redaction", question: `**Dissertation s'appuyant sur un dossier documentaire** : Dans quelle mesure le marché permet-il une allocation efficace des ressources ?
+
+**Document 1 – Un marché concurrentiel avec et sans prix plafond (données fictives)**
+Demande : Qd = 100 − 2P ; offre : Qo = 2P − 20.
+
+| | Équilibre de marché | Prix plafond fixé à 25 € |
+|---|---|---|
+| Prix | 30 € | 25 € |
+| Quantité demandée | 40 | 50 |
+| Quantité offerte | 40 | 30 |
+| Quantité échangée | 40 | 30 |
+| Surplus total | 800 | 750 |
+
+**Document 2 – Pollution de l'air**
+Selon Santé publique France (estimation publiée en 2021), près de 40 000 décès par an en France sont attribuables à l'exposition aux particules fines.
+
+**Document 3 – Le contrôle technique**
+Depuis 1992, en France, toute voiture de plus de quatre ans doit passer un contrôle technique ; le vendeur d'une voiture d'occasion doit remettre à l'acheteur un procès-verbal de contrôle récent.`, corrige: `**Introduction**
+- *Accroche* : chaque année, la pollution de l'air serait responsable de près de 40 000 décès en France (document 2), alors que les pollueurs n'en paient pas le coût.
+- *Définitions* : le **marché** est le lieu de rencontre de l'offre et de la demande où se forme un prix ; l'**allocation des ressources** est la façon dont les ressources rares sont réparties entre les usages ; elle est **efficace** quand on ne peut pas augmenter le bien-être de certains sans réduire celui d'autres (surplus total maximal).
+- *Problématique* : le libre jeu de l'offre et de la demande suffit-il à utiliser au mieux les ressources, ou faut-il une intervention publique ?
+- *Annonce* : le marché concurrentiel est un mécanisme efficace d'allocation (I), mais il connaît des défaillances qui justifient l'intervention publique (II).
+
+**I. Le marché concurrentiel permet une allocation efficace des ressources**
+
+*A. Le prix est un signal qui coordonne les décisions*
+- Excès de demande → hausse du prix ; excès d'offre → baisse : le prix converge vers l'équilibre, sans planification centrale.
+- Le prix informe sur la rareté : un prix élevé incite à produire plus et à consommer moins.
+
+*B. À l'équilibre, le surplus total est maximal*
+- Tous les échanges mutuellement avantageux ont lieu : surplus total de 800 dans le document 1.
+- Une intervention qui fixe le prix hors de l'équilibre réduit l'efficacité : avec un prix plafond à 25 €, la quantité offerte tombe à 30 alors que 50 sont demandées (pénurie de 20) ; le surplus total baisse à 750, soit une **perte sèche** de 50 (document 1).
+
+*Transition* : cette efficacité suppose des hypothèses (concurrence, information, absence d'effets externes) rarement toutes réunies.
+
+**II. Mais le marché connaît des défaillances qui justifient une intervention publique**
+
+*A. Les externalités*
+- Le marché ne tient pas compte des coûts imposés aux autres : il produit trop de biens polluants (document 2) et trop peu de biens à externalités positives (vaccination, recherche).
+- Réponses : taxe pigouvienne, marché de quotas, normes, subventions.
+
+*B. Les biens collectifs et les biens communs*
+- Bien collectif (non rival, non excluable) : comportement de passager clandestin, le marché ne le produit pas → production publique financée par l'impôt.
+- Bien commun : surexploitation (tragédie des communs) → quotas de pêche, règles collectives (Ostrom).
+
+*C. Les asymétries d'information et le pouvoir de marché*
+- Sélection adverse (Akerlof) : le marché des voitures d'occasion peut disparaître ; l'obligation de contrôle technique réduit l'asymétrie (document 3). Aléa moral en assurance.
+- Monopoles et ententes fixent des prix trop élevés : politique de la concurrence.
+
+**Conclusion**
+- *Bilan* : le marché concurrentiel est efficace quand ses hypothèses sont réunies, mais ses défaillances (externalités, biens collectifs et communs, asymétries d'information, pouvoir de marché) empêchent souvent une allocation optimale ; l'intervention publique peut alors améliorer la situation.
+- *Ouverture* : l'État peut lui aussi mal intervenir (prix plafond du document 1) : il s'agit de bien choisir ses instruments.
+
+>! **Barème implicite (sur 20, dont 2 de maîtrise de la langue)** : problématique explicite ; plan en deux parties équilibrées avec sous-parties ; chaque sous-partie argumentée (mécanisme + exemple) ; les trois documents exploités avec des données précises, sans paraphrase ; connaissances personnelles (Akerlof, Ostrom, Pigou) ; transitions ; conclusion qui répond à la question « dans quelle mesure ».` },
       ],
     },
     {
@@ -316,6 +467,41 @@ Le déficit et la dette sont souvent rapportés au **PIB** (critères européens
 - Par **émission d'obligations** : emprunt directement auprès des épargnants, remboursable à l'échéance avec intérêts.
 
 **Conclusion** : le choix dépend de la taille de l'entreprise, du coût du crédit (niveau des taux d'intérêt) et de la volonté de garder le contrôle du capital.` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que les entreprises peuvent financer leurs investissements de différentes manières.
+
+**Document 1 – Le financement des investissements de deux entreprises en 2024 (en millions d'euros, données fictives)**
+
+| | Entreprise A (PME) | Entreprise B (grande entreprise cotée) |
+|---|---|---|
+| Investissement (FBCF) | 5 | 600 |
+| Épargne brute (profits non distribués) | 4 | 300 |
+| Crédit bancaire | 1 | 0 |
+| Émission d'obligations | 0 | 200 |
+| Émission d'actions | 0 | 100 |
+
+**Document 2 – Taux d'intérêt moyen des nouveaux crédits aux entreprises (données fictives arrondies)**
+1,5 % en 2021 ; 4,5 % en 2023.`, corrige: `**Introduction**
+- *Définitions* : **investir**, c'est acquérir des biens de production durables (machines, bâtiments, logiciels) : c'est la **FBCF**. Le **financement** désigne les ressources mobilisées pour payer cet investissement.
+- *Annonce* : les entreprises recourent d'abord à leurs ressources propres (I), puis à des financements externes, intermédiés ou directs (II).
+
+**I. Le financement interne : l'autofinancement**
+- *Mécanisme* : l'entreprise utilise ses profits non distribués (épargne brute).
+- *Données* : taux d'autofinancement = épargne brute / FBCF × 100 ; 4 / 5 × 100 = **80 %** pour A, 300 / 600 × 100 = **50 %** pour B (document 1).
+- *Avantages et limites* : indépendance, pas d'intérêts à payer ; mais les ressources sont limitées, surtout pour de gros investissements.
+
+**II. Le financement externe**
+
+*A. Le financement indirect (intermédié) : le crédit bancaire*
+- La banque prête à l'entreprise et facture des intérêts ; c'est la principale source externe des PME, qui n'ont pas accès aux marchés financiers (entreprise A : 1 million emprunté).
+- Son coût dépend du taux d'intérêt : un emprunt de 1 million d'euros coûte 15 000 € d'intérêts par an à 1,5 %, mais 45 000 € à 4,5 % (document 2). La hausse des taux de 2021 à 2023 rend l'investissement moins rentable.
+
+*B. Le financement direct sur les marchés financiers*
+- **Obligations** (titres de créance) : l'entreprise B emprunte 200 millions directement auprès des épargnants ; elle verse des intérêts et rembourse à l'échéance.
+- **Actions** (titres de propriété) : 100 millions de fonds propres pour B, sans remboursement ni intérêts, mais avec des dividendes à verser et une dilution du pouvoir des anciens actionnaires.
+
+**Conclusion** : le choix dépend de la taille de l'entreprise (accès ou non aux marchés financiers), de sa rentabilité, du niveau des taux d'intérêt et de la volonté des propriétaires de garder le contrôle.
+
+>! **Barème implicite (9 points)** : calcul des deux taux d'autofinancement ; distinction claire interne / externe, intermédié / direct, action / obligation ; usage du taux d'intérêt (document 2) ; connaissances (fonds propres, dividendes, dilution).` },
       ],
     },
     {
@@ -331,7 +517,7 @@ La **monnaie** est un actif accepté par tous comme moyen de paiement. Elle remp
 
 ## Les formes de la monnaie
 - **Monnaie fiduciaire** : billets et pièces (fondée sur la confiance, *fiducia*).
-- **Monnaie scripturale** : soldes créditeurs des comptes bancaires (dépôts à vue), qui circulent par chèque, carte, virement. C'est aujourd'hui l'essentiel de la masse monétaire (environ 90 % dans la zone euro).
+- **Monnaie scripturale** : soldes créditeurs des comptes bancaires (dépôts à vue), qui circulent par chèque, carte, virement. C'est aujourd'hui l'essentiel de la masse monétaire : dans la zone euro, les billets et pièces ne représentent qu'environ 15 % de l'agrégat M1 (dépôts à vue + billets et pièces) et moins de 10 % de l'agrégat large M3.
 - **Monnaie électronique** : unités stockées sur un support (carte prépayée).
 
 La monnaie a perdu toute valeur intrinsèque (monnaie-marchandise → monnaie de papier → monnaie scripturale) : elle repose sur la **confiance**. Les crypto-actifs (bitcoin) ne remplissent qu'imparfaitement les fonctions de la monnaie (forte volatilité).
@@ -371,7 +557,7 @@ Dans la zone euro, c'est la **Banque centrale européenne (BCE)**, indépendante
         { type: "qcm", question: "Quand tu indiques qu'un livre « vaut 20 € », la monnaie remplit sa fonction :", choix: ["de réserve de valeur", "d'intermédiaire des échanges", "d'unité de compte", "de création monétaire"], reponse: 2,
           explication: "Exprimer la valeur d'un bien en euros correspond à la fonction d'**unité de compte**." },
         { type: "vf", question: "Les billets et les pièces représentent la plus grande partie de la masse monétaire dans la zone euro.", reponse: false,
-          explication: "La **monnaie scripturale** (dépôts bancaires) est largement majoritaire, autour de 90 %." },
+          explication: "La **monnaie scripturale** (dépôts bancaires) est largement majoritaire : les billets et pièces ne font qu'environ 15 % de M1 et moins de 10 % de M3." },
         { type: "qcm", question: "Lorsqu'une banque accorde un crédit de 10 000 € à un client :", choix: ["elle prête l'argent déposé par d'autres clients, sans création monétaire", "elle crée 10 000 € de monnaie scripturale", "la BCE imprime 10 000 € de billets", "la masse monétaire baisse"], reponse: 1,
           explication: "« Les crédits font les dépôts » : la banque crédite le compte du client par un jeu d'écriture et **crée** de la monnaie." },
         { type: "vf", question: "Le remboursement d'un crédit détruit de la monnaie.", reponse: true,
@@ -392,6 +578,43 @@ Dans la zone euro, c'est la **Banque centrale européenne (BCE)**, indépendante
 - Par le besoin de **monnaie centrale** : les banques doivent obtenir des liquidités auprès de la banque centrale (retraits de billets, réserves obligatoires, paiements interbancaires).
 - Par la **politique monétaire** : en relevant ses taux directeurs, la BCE renchérit le refinancement des banques, qui augmentent leurs propres taux, ce qui freine le crédit.
 - Par la **réglementation prudentielle** (fonds propres minimaux).` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que la banque centrale peut influencer la création monétaire des banques.
+
+**Document 1 – Le taux de la facilité de dépôt de la BCE (taux directeur de référence)**
+
+| De septembre 2019 à juillet 2022 | Septembre 2023 | Juin 2025 |
+|---|---|---|
+| −0,50 % | 4,00 % | 2,00 % |
+
+**Document 2 – Le crédit aux entreprises dans la zone euro**
+La croissance sur un an des crédits accordés par les banques aux entreprises de la zone euro dépassait 8 % à l'automne 2022 ; elle était proche de 0 % fin 2023 (ordres de grandeur, BCE).
+
+**Document 3 – Bilan simplifié d'une banque qui accorde un crédit de 50 000 €**
+
+| Actif | Passif |
+|---|---|
+| Créance sur le client : +50 000 € | Dépôt sur le compte du client : +50 000 € |`, corrige: `**Introduction**
+- *Définitions* : la **création monétaire** est l'augmentation de la masse monétaire ; elle résulte surtout des crédits accordés par les banques. La **banque centrale** (BCE dans la zone euro) émet la monnaie centrale et conduit la politique monétaire.
+- *Annonce* : les banques créent la monnaie en accordant des crédits (I), mais la banque centrale influence cette création, notamment par ses taux directeurs (II).
+
+**I. Les banques créent la monnaie scripturale**
+- *Mécanisme* : « les crédits font les dépôts » : en accordant un crédit de 50 000 €, la banque inscrit une créance à son actif et crédite le compte du client de 50 000 € à son passif (document 3) : 50 000 € de monnaie sont créés par un jeu d'écriture.
+- *Limites propres* : la demande de crédit des agents, leur solvabilité, la réglementation prudentielle (fonds propres).
+
+**II. La banque centrale influence cette création**
+
+*A. Les banques ont besoin de monnaie centrale*
+- Retraits de billets, paiements entre banques, réserves obligatoires : les banques doivent se refinancer auprès de la banque centrale, qui fixe le prix de cette monnaie centrale.
+
+*B. Les taux directeurs agissent sur le coût du crédit*
+- Quand la BCE relève ses taux, les banques se refinancent plus cher et augmentent leurs propres taux : la demande de crédit diminue.
+- *Illustration* : face à la forte inflation, la BCE a fait passer le taux de la facilité de dépôt de −0,50 % à 4 % entre juillet 2022 et septembre 2023, soit une hausse de 4,5 points (document 1). Dans le même temps, la croissance des crédits aux entreprises est passée de plus de 8 % à près de 0 % (document 2).
+- *Nuance* : cette évolution n'est pas due qu'aux taux (incertitude, ralentissement de l'activité) : corrélation n'est pas causalité. La baisse des taux à partir de 2024 (2 % en juin 2025) vise au contraire à soutenir le crédit.
+
+*C. D'autres instruments*
+- Réserves obligatoires, rachats de titres (*quantitative easing*), rôle de prêteur en dernier ressort.
+
+**Conclusion** : la banque centrale ne crée pas elle-même l'essentiel de la monnaie, mais elle oriente la création monétaire des banques en agissant sur le coût et la disponibilité de la monnaie centrale.` },
       ],
     },
     {
@@ -464,6 +687,109 @@ Le **genre** désigne les différences entre hommes et femmes **construites soci
 - Les pairs sanctionnent les comportements jugés non conformes à son genre (moqueries).
 
 **Idée 3 – Conséquences** : choix professionnels, pratiques sportives et culturelles différents à l'âge adulte. Cette socialisation n'est cependant pas un destin : la socialisation secondaire et la pluralité des influences peuvent la transformer.` },
+        { type: "redaction", question: `**Étude d'un document (EC2)**
+
+**Document – Part des 11-17 ans pratiquant certaines activités en club, selon le sexe, en % (données fictives)**
+
+| Activité | Filles | Garçons |
+|---|---|---|
+| Football | 8 | 40 |
+| Danse | 30 | 4 |
+| Équitation | 12 | 3 |
+
+1) À l'aide d'un calcul, comparez la pratique du football chez les filles et chez les garçons.
+2) À l'aide du document et de vos connaissances, montrez que ces écarts s'expliquent par une socialisation différenciée selon le genre.`, corrige: `**1) Lecture et calcul**
+- « Selon ces données, 40 % des garçons de 11 à 17 ans pratiquent le football en club, contre 8 % des filles. »
+- Écart : 40 − 8 = **32 points** de pourcentage ; rapport : 40 / 8 = **5** : les garçons sont proportionnellement 5 fois plus nombreux à jouer au football en club.
+- Remarque : un même jeune peut pratiquer plusieurs activités, donc les pourcentages d'une colonne ne s'additionnent pas.
+
+**2) Explication par la socialisation de genre**
+- *Définition* : le **genre** désigne les différences entre hommes et femmes construites socialement ; la **socialisation différenciée** transmet des normes et des goûts différents selon le sexe.
+- *Famille* : dès la petite enfance, jouets, vêtements et encouragements diffèrent ; on valorise chez les garçons la force et la compétition, chez les filles la grâce et le soin. Les goûts sportifs en découlent : la danse est pratiquée par 30 % des filles contre 4 % des garçons (7,5 fois plus).
+- *Pairs et médias* : les pairs sanctionnent les pratiques jugées « non conformes » (moqueries envers un garçon qui danse) ; les médias montrent surtout le football masculin.
+- *Nuance* : 8 % des filles jouent au football : la socialisation n'est pas un destin, et ces normes évoluent (essor du football féminin).
+
+>! **Barème implicite** : Q1 : donnée lue avec unité et population (« 11-17 ans », « en club »), écart en **points** et rapport justes. Q2 : définition du genre, mécanismes de socialisation (famille, pairs, médias), au moins une donnée du document mobilisée, nuance. **Erreur fréquente** : écrire « 32 % de garçons en plus ».` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que la socialisation varie selon le milieu social.
+
+**Document 1 – Pratiques culturelles des 15-19 ans selon la catégorie socioprofessionnelle des parents, en % (données fictives)**
+
+| | Cadres | Professions intermédiaires | Employés | Ouvriers |
+|---|---|---|---|---|
+| Lit au moins un livre par mois (hors école) | 60 | 45 | 35 | 30 |
+| Est allé au musée dans l'année | 70 | 50 | 35 | 30 |
+| Joue d'un instrument de musique | 35 | 20 | 12 | 10 |
+
+**Document 2 – Récit de vie (texte fictif)**
+Samia, fille d'un ouvrier et d'une aide-soignante, est la première de sa famille à faire des études supérieures. Elle raconte que sa grande sœur lui prêtait des livres et qu'une professeure de collège l'a encouragée à viser une classe préparatoire.`, corrige: `**Introduction**
+- *Définitions* : la **socialisation** est le processus par lequel l'individu intériorise les normes et les valeurs de la société et de ses groupes d'appartenance ; le **milieu social** se repère ici par la catégorie socioprofessionnelle des parents.
+- *Annonce* : chaque milieu transmet des manières d'être et des pratiques différentes (I), mais cette socialisation n'est pas un destin (II).
+
+**I. Une socialisation différenciée selon le milieu social**
+- *Affirmer* : les pratiques culturelles des jeunes varient fortement selon le milieu.
+- *Expliquer* : la famille transmet un **habitus** (Bourdieu), système de dispositions durables, et un **capital culturel** plus ou moins proche de la culture scolaire ; elle transmet aussi par l'exemple (parents lecteurs) et par les ressources (cours de musique payants).
+- *Illustrer* : 60 % des enfants de cadres lisent au moins un livre par mois, contre 30 % des enfants d'ouvriers, soit deux fois plus ; l'écart atteint 40 points pour la visite de musée (70 % contre 30 %) (document 1).
+- *Autres instances* : l'école valorise ces pratiques, ce qui renforce l'avantage des enfants déjà familiarisés.
+
+**II. Une socialisation qui n'est pas mécanique**
+- *Pluralité des instances* : Bernard Lahire montre que l'individu est un « homme pluriel », socialisé par plusieurs instances parfois contradictoires. Samia a reçu de sa sœur et d'une professeure des incitations différentes de celles de son milieu d'origine (document 2) : c'est une **trajectoire improbable**.
+- *Variations à l'intérieur d'un milieu* : 30 % des enfants d'ouvriers lisent chaque mois (document 1) ; le milieu donne des probabilités, pas des certitudes.
+- *Socialisation secondaire* : études, travail, conjoint peuvent transformer les goûts acquis.
+
+**Conclusion** : la socialisation varie selon le milieu social, ce qui explique des différences de pratiques et de réussite scolaire ; mais la pluralité des influences laisse place à des parcours différents.` },
+        { type: "redaction", question: `**Dissertation s'appuyant sur un dossier documentaire** : Dans quelle mesure la socialisation explique-t-elle les différences de comportement des individus ?
+
+**Document 1 – Part des filles parmi les élèves de première générale suivant certaines spécialités, en % (données fictives arrondies)**
+
+| Numérique et sciences informatiques | Sciences économiques et sociales | Humanités, littérature et philosophie |
+|---|---|---|
+| 15 | 55 | 80 |
+
+**Document 2 – Pratiques culturelles des 15-19 ans selon la catégorie socioprofessionnelle des parents, en % (données fictives)**
+
+| | Cadres | Ouvriers |
+|---|---|---|
+| Lit au moins un livre par mois (hors école) | 60 | 30 |
+| Est allé au musée dans l'année | 70 | 30 |
+
+**Document 3 – Temps moyen consacré chaque jour aux tâches domestiques par les adultes vivant en couple (données fictives arrondies)**
+Femmes : 3 h 30 ; hommes : 2 h.`, corrige: `**Introduction**
+- *Accroche* : en première, les filles sont très majoritaires en humanités, littérature et philosophie (80 %) et très minoritaires en numérique et sciences informatiques (15 %) (document 1) : ces choix ne relèvent pas seulement de goûts personnels.
+- *Définitions* : la **socialisation** est le processus d'intériorisation des normes et des valeurs ; les **comportements** désignent les manières d'agir, de penser et de choisir (orientation, loisirs, consommation, partage des tâches).
+- *Problématique* : nos comportements sont-ils le simple produit de ce que la société nous a transmis, ou laissent-ils une place à d'autres facteurs et à des parcours singuliers ?
+- *Annonce* : la socialisation explique en grande partie les différences de comportement (I), mais elle ne les explique ni entièrement ni mécaniquement (II).
+
+**I. La socialisation explique largement les différences de comportement**
+
+*A. Une socialisation différenciée selon le milieu social*
+- Habitus et capital culturel (Bourdieu) : les enfants de cadres sont deux fois plus nombreux que les enfants d'ouvriers à lire chaque mois (60 % contre 30 %) et l'écart est de 40 points pour le musée (document 2).
+- Ces dispositions orientent ensuite le rapport à l'école et les choix d'études.
+
+*B. Une socialisation différenciée selon le genre*
+- Jouets, attentes des parents et des enseignants, pairs : les filles sont orientées vers le soin et les lettres, les garçons vers la technique et le numérique (document 1).
+- À l'âge adulte, les femmes en couple consacrent en moyenne 1 h 30 de plus par jour que les hommes aux tâches domestiques (3 h 30 contre 2 h, document 3) : la répartition observée dans l'enfance est reproduite.
+
+*Transition* : ces régularités statistiques n'empêchent pas une grande diversité de comportements individuels.
+
+**II. Mais la socialisation n'explique pas tout, ni de façon mécanique**
+
+*A. Une socialisation plurielle et parfois contradictoire*
+- Lahire, « l'homme pluriel » : famille, école, pairs, médias transmettent des normes différentes ; d'où des trajectoires improbables (réussite scolaire en milieu populaire).
+- Les régularités sont des probabilités : 30 % des enfants d'ouvriers lisent chaque mois et 15 % des élèves de NSI sont des filles.
+
+*B. Une socialisation qui se poursuit et se transforme*
+- La socialisation secondaire (études, travail, couple, engagement) peut modifier les dispositions acquises (Berger et Luckmann).
+- Les normes de genre évoluent : le partage des tâches domestiques reste inégal mais se rééquilibre lentement.
+
+*C. D'autres facteurs comptent*
+- Les contraintes économiques (revenus, prix, offre culturelle près de chez soi) et les situations : on ne va pas au musée s'il n'y en a pas à proximité.
+- Les individus font aussi des choix, réfléchissent à leurs expériences et peuvent s'écarter des normes transmises.
+
+**Conclusion**
+- *Bilan* : la socialisation est un facteur majeur des différences de comportement, notamment selon le milieu social et le genre ; mais, plurielle et continue, elle laisse place à la diversité des parcours et se combine à d'autres facteurs.
+- *Ouverture* : ces différences de socialisation contribuent à expliquer les inégalités de réussite scolaire, que l'école cherche à réduire.
+
+>! **Barème implicite (sur 20, dont 2 de maîtrise de la langue)** : problématique ; plan « oui… mais… » cohérent avec « dans quelle mesure » ; chaque argument mécanisme + donnée ; les trois documents utilisés (calculs d'écarts en points ou de rapports) ; auteurs (Bourdieu, Lahire, Berger et Luckmann) ; conclusion qui nuance.` },
       ],
     },
     {
@@ -536,6 +862,31 @@ Mais de nouvelles formes de liens apparaissent : engagement associatif, réseaux
 - le droit est surtout **restitutif** : il vise à réparer, rétablir l'état antérieur.
 
 **Conclusion** : le passage de l'une à l'autre ne signifie pas la fin du lien social mais sa transformation ; Durkheim souligne toutefois le risque d'**anomie** quand les normes ne régulent plus suffisamment les comportements.` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que le chômage peut fragiliser les liens sociaux.
+
+**Document 1 – Liens sociaux selon la situation sur le marché du travail, en % (données fictives)**
+
+| | En emploi | Au chômage |
+|---|---|---|
+| Personnes en situation d'isolement relationnel (au plus un contact par mois) | 9 | 18 |
+| Personnes membres d'une association | 40 | 25 |
+
+**Document 2 – La disqualification sociale (d'après Serge Paugam)**
+Serge Paugam décrit un processus en trois étapes : la **fragilité** (perte d'emploi, revenus irréguliers, sentiment de déclassement), la **dépendance** envers les services sociaux, puis la **rupture** des liens sociaux, qui peut conduire à la grande pauvreté.`, corrige: `**Introduction**
+- *Définitions* : les **liens sociaux** sont les relations qui unissent les individus et assurent leur intégration ; le **chômage** est la situation d'une personne sans emploi qui en recherche un.
+- *Annonce* : le travail est une source essentielle de liens (I) ; sa perte peut entraîner l'affaiblissement de plusieurs liens à la fois (II).
+
+**I. Le travail, source de protection et de reconnaissance**
+- Serge Paugam distingue quatre liens (filiation, participation élective, participation organique, citoyenneté) ; le travail fonde le lien de **participation organique**.
+- Il apporte une **protection** (revenu, droits sociaux) et une **reconnaissance** (utilité sociale, statut, identité professionnelle) ; il est aussi un lieu de sociabilité (collègues).
+
+**II. Le chômage peut fragiliser l'ensemble des liens sociaux**
+- *Perte du lien organique* : le chômeur perd revenus, collègues et statut.
+- *Effets en chaîne* : les personnes au chômage sont deux fois plus souvent en situation d'isolement relationnel que les personnes en emploi (18 % contre 9 %, soit 9 points d'écart) et moins souvent membres d'une association (25 % contre 40 %, soit 15 points de moins) (document 1) : le lien électif s'affaiblit aussi (manque d'argent, honte, perte des occasions de rencontre).
+- *Processus cumulatif* : la **disqualification sociale** mène de la fragilité à la dépendance puis à la rupture (document 2) ; Robert Castel parle de **désaffiliation** quand la perte de travail se cumule avec l'isolement relationnel.
+- *Nuance* : la famille, les amis ou des associations de chômeurs peuvent amortir ces effets ; tous les chômeurs ne sont pas isolés (82 % ne le sont pas, d'après le document 1).
+
+**Conclusion** : le travail étant un pilier de l'intégration, le chômage, surtout de longue durée, peut entraîner un affaiblissement cumulatif des liens sociaux ; d'où l'importance des politiques d'emploi et d'accompagnement.` },
       ],
     },
     {
@@ -611,6 +962,65 @@ Les **sous-cultures déviantes** : la déviance s'apprend au contact d'un groupe
 - *Exemple* : les fumeurs de marijuana étudiés par Becker, qui apprennent les techniques et les justifications au sein d'un groupe.
 
 **Conclusion** : la déviance n'est donc pas seulement un acte individuel mais le résultat d'un processus social.` },
+        { type: "redaction", question: `**Étude d'un document (EC2)**
+
+**Document – Victimes estimées par une enquête de victimation et plaintes déposées, en France sur une année (données fictives arrondies)**
+
+| Type d'atteinte | Victimes estimées (enquête) | Victimes ayant porté plainte |
+|---|---|---|
+| Vol de voiture | 100 000 | 75 000 |
+| Cambriolage | 400 000 | 200 000 |
+| Violences physiques (hors ménage) | 600 000 | 120 000 |
+| Violences sexuelles | 250 000 | 25 000 |
+
+1) Calculez le taux de plainte pour les cambriolages et pour les violences sexuelles, et rédigez une phrase de lecture pour l'un d'eux.
+2) À l'aide du document et de vos connaissances, expliquez pourquoi les statistiques de la police et de la gendarmerie ne mesurent qu'imparfaitement la délinquance.`, corrige: `**1) Calculs et lecture**
+- Taux de plainte = victimes ayant porté plainte / victimes estimées × 100.
+- Cambriolage : 200 000 / 400 000 × 100 = **50 %** ; violences sexuelles : 25 000 / 250 000 × 100 = **10 %**.
+- *Phrase* : « D'après ces données, sur une année en France, seule une victime de violences sexuelles sur dix a porté plainte. »
+
+**2) Les limites des statistiques administratives**
+- *Définition* : les statistiques de police et de gendarmerie recensent les faits **enregistrés** (plaintes, constatations des services).
+- *Le chiffre noir* : les faits non déclarés échappent à ces statistiques ; le document montre que la part déclarée varie de 75 % (vols de voiture) à 10 % (violences sexuelles).
+- *Pourquoi ces écarts ?* L'assurance exige souvent un dépôt de plainte pour indemniser un vol de voiture ; à l'inverse, pour les violences, les victimes peuvent avoir peur, honte, connaître l'auteur ou douter de l'utilité de la plainte.
+- *L'activité des services* : les chiffres dépendent aussi des priorités de la police (contrôles routiers, stupéfiants) : une hausse des faits constatés peut traduire une hausse de l'activité policière plutôt que de la délinquance.
+- *Complémentarité* : les **enquêtes de victimation** éclairent le chiffre noir, mais dépendent de la mémoire et de la sincérité des répondants et ne couvrent pas toutes les infractions (délits sans victime directe).
+
+>! **Barème implicite** : Q1 : formule, deux taux justes en %, phrase avec lieu, période et unité. Q2 : notion de chiffre noir, raisons de la non-déclaration, rôle de l'activité policière, intérêt et limites des enquêtes de victimation.` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que la déviance peut s'expliquer par plusieurs processus sociaux.
+
+**Document 1 – Les modes d'adaptation individuelle selon Robert K. Merton (1938)**
+
+| Mode d'adaptation | Buts valorisés (réussite) | Moyens légitimes |
+|---|---|---|
+| Conformisme | acceptés | acceptés |
+| Innovation | acceptés | rejetés |
+| Ritualisme | rejetés | acceptés |
+| Évasion (retrait) | rejetés | rejetés |
+| Rébellion | rejetés et remplacés | rejetés et remplacés |
+
+**Document 2 – Part des adolescents déclarant avoir commis un vol dans l'année, selon le comportement de leurs amis (données fictives)**
+Amis ne commettant pas de vols : 5 % ; amis commettant des vols : 35 %.
+
+**Document 3 – Devenir fumeur de marijuana (d'après Howard Becker, *Outsiders*, 1963)**
+Becker montre qu'on apprend, au contact de fumeurs expérimentés, la technique pour fumer, la manière de percevoir les effets de la drogue et le fait de les trouver agréables. Une fois désigné comme « drogué », l'individu se rapproche d'un groupe qui partage ces pratiques.`, corrige: `**Introduction**
+- *Définitions* : la **déviance** est la transgression d'une norme sociale, qui suscite réprobation et sanctions ; elle est **relative** (époque, lieu, groupe).
+- *Annonce* : la déviance peut naître d'un défaut de régulation (I), s'apprendre au contact d'un groupe (II) et résulter d'un processus d'étiquetage (III).
+
+**I. La déviance comme produit de l'anomie**
+- Pour **Durkheim**, l'anomie (affaiblissement des normes) favorise la déviance.
+- Pour **Merton**, elle naît d'un décalage entre les **buts** valorisés (réussite matérielle) et l'accès aux **moyens légitimes** : celui qui accepte les buts mais n'a pas accès aux moyens peut « innover » par des moyens illégitimes (vol, fraude) (document 1).
+
+**II. La déviance comme apprentissage**
+- Selon **Sutherland** (association différentielle), la déviance s'apprend dans des interactions avec des proches qui la valorisent.
+- *Illustration* : les adolescents dont les amis volent sont 7 fois plus nombreux à déclarer un vol (35 % contre 5 %, soit 30 points d'écart, document 2). Nuance : corrélation ne vaut pas causalité, des jeunes déjà tentés peuvent aussi choisir ces amis.
+- Becker montre que l'usage de marijuana s'apprend : techniques, perception et appréciation des effets (document 3).
+
+**III. La déviance comme résultat d'un étiquetage**
+- Pour **Becker**, « le déviant est celui auquel l'étiquette a été appliquée avec succès » : la déviance résulte d'une **interaction** entre celui qui transgresse et les **entrepreneurs de morale**.
+- La désignation publique enclenche une **carrière déviante** : l'individu, rejeté, rejoint un groupe déviant (document 3).
+
+**Conclusion** : plusieurs processus sociaux se combinent : défaut de régulation, apprentissage et étiquetage ; la déviance n'est donc pas qu'un choix individuel.` },
       ],
     },
     {
@@ -684,6 +1094,34 @@ D'autres critiques :
 
 **Limite 3 – Les effets sur les comportements.**
 - Effets bandwagon et underdog, vote stratégique : les sondages peuvent influencer le résultat d'une élection. C'est pourquoi leur publication et leur diffusion sont interdites la veille et le jour du scrutin.` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que les sondages ne mesurent qu'imparfaitement l'opinion publique.
+
+**Document 1 – Part des « sans opinion » à une question sur la politique monétaire européenne, selon le diplôme (données fictives)**
+
+| Sans diplôme | Baccalauréat | Bac + 3 et plus |
+|---|---|---|
+| 25 % | 12 % | 6 % |
+
+**Document 2 – Un résultat inattendu**
+Au premier tour de l'élection présidentielle d'avril 2002, les derniers sondages publiés donnaient Jean-Marie Le Pen autour de 14 % des voix. Il obtient 16,9 % et se qualifie pour le second tour, devant Lionel Jospin (16,2 %).
+
+**Document 3 – Deux formulations d'une même question (données fictives)**
+« Faut-il augmenter les impôts pour financer les hôpitaux ? » : 35 % de oui. « Faut-il donner plus de moyens aux hôpitaux, même si cela coûte plus cher ? » : 60 % de oui.`, corrige: `**Introduction**
+- *Définitions* : l'**opinion publique** est l'ensemble des jugements partagés par une partie importante de la population sur des questions d'intérêt général ; un **sondage** interroge un échantillon représentatif pour l'estimer.
+- *Annonce* : les sondages connaissent des limites techniques (I) et, plus profondément, ils construisent en partie l'opinion qu'ils prétendent mesurer (II).
+
+**I. Des limites techniques**
+- *Marge d'erreur* : pour 1 000 personnes, environ ±3 points autour de 50 % ; le score réel n'est connu que dans une fourchette.
+- *Erreurs de prévision* : en 2002, l'écart entre les sondages (environ 14 %) et le résultat de Jean-Marie Le Pen (16,9 %) est de près de 3 points, alors que seuls 0,7 point le séparait de Lionel Jospin : le sondage n'a pas vu la qualification (document 2). Explications : vote caché, indécis, abstention mal anticipée, quotas imparfaits.
+- *Formulation des questions* : selon le vocabulaire employé, la même préoccupation recueille 35 % ou 60 % d'avis favorables, soit 25 points d'écart (document 3).
+
+**II. Une opinion en partie construite par le sondage (Bourdieu)**
+- Pour Pierre **Bourdieu** (« L'opinion publique n'existe pas », 1973), tout le monde n'a pas une opinion sur tout : les « sans opinion » sont 4 fois plus nombreux chez les sans-diplôme que chez les bac + 3 et plus (25 % contre 6 %, document 1) ; la compétence politique est inégalement répartie.
+- Toutes les opinions n'ont pas le même poids : on additionne avis réfléchis et réponses improvisées.
+- Le sondeur **impose sa problématique** : il suppose que la question mérite d'être posée.
+- Effets en retour : les sondages publiés peuvent modifier les votes (effets *bandwagon* et *underdog*, vote stratégique).
+
+**Conclusion** : les sondages restent utiles pour connaître l'avis des citoyens entre deux élections, mais ils doivent être lus avec prudence : marge d'erreur, formulation, non-réponses.` },
       ],
     },
     {
@@ -701,7 +1139,7 @@ Le vote est un acte **individuel** (vote secret, avec isoloir et enveloppe oblig
 - Les **votes blancs et nuls** sont comptés parmi les votants mais pas parmi les suffrages exprimés.
 
 ### Les facteurs de la participation
-- **Intégration sociale** : l'âge (les jeunes et les plus âgés votent moins), le diplôme, l'emploi stable, la vie en couple, l'ancienneté de résidence augmentent la participation.
+- **Intégration sociale** : l'âge (les jeunes et les très âgés votent moins), le diplôme, l'emploi stable, la vie en couple, l'ancienneté de résidence augmentent la participation.
 - **Intérêt pour la politique** et sentiment de **compétence politique**.
 - **Enjeu perçu** de l'élection : la présidentielle mobilise plus que les européennes.
 
@@ -716,7 +1154,7 @@ L'abstention progresse depuis les années 1980 et devient plus **intermittente**
 - **Variable lourde** en France : la **pratique religieuse** (les catholiques pratiquants votent davantage à droite).
 - **Variables sociologiques** : la PCS, le patrimoine (plus on a de patrimoine, plus on vote à droite), le diplôme, l'âge, le sexe, le territoire.
 - Le **vote de classe** (ouvriers à gauche) a reculé depuis les années 1980 : une partie des ouvriers vote pour l'extrême droite ou s'abstient.
-- L'**identification partisane** et la **socialisation politique** familiale (environ deux tiers des jeunes se situent comme leurs parents sur l'axe gauche-droite).
+- L'**identification partisane** et la **socialisation politique** familiale (une majorité de jeunes se situent comme leurs parents sur l'axe gauche-droite, surtout quand les deux parents partagent la même orientation).
 
 ### Le vote, une affaire individuelle
 - Le modèle de l'**électeur rationnel** (ou stratège) : l'électeur compare les offres politiques et vote selon ses intérêts et les **enjeux** (chômage, sécurité, environnement).
@@ -763,6 +1201,104 @@ La volatilité ne signifie pas la disparition des déterminants sociaux : ils re
 **Nuance** : la volatilité électorale et le vote sur enjeux montrent que ces déterminants n'expliquent pas tout.` },
         { type: "saisie", question: "50 millions d'inscrits, 37,5 millions de votants dont 1,5 million de votes blancs et nuls. Quel est le taux de participation (en %) ?", reponses: ["75", "75 %", "75%"],
           explication: "Taux de participation = votants / inscrits × 100 = 37,5 / 50 × 100 = **75 %** (abstention : 25 %). Les blancs et nuls font partie des votants ; les suffrages exprimés sont 37,5 − 1,5 = 36 millions." },
+        { type: "redaction", question: `**Étude d'un document (EC2)**
+
+**Document – Taux d'abstention au premier tour de différentes élections en France (tour unique pour les européennes), en % des inscrits (source : ministère de l'Intérieur)**
+
+| Présidentielle 2022 | Législatives 2022 | Européennes 2024 | Régionales 2021 |
+|---|---|---|---|
+| 26,3 | 52,5 | 48,5 | 66,7 |
+
+1) Comparez, à l'aide d'un calcul, l'abstention aux régionales de 2021 et à la présidentielle de 2022.
+2) À l'aide du document et de vos connaissances, expliquez pourquoi le niveau de l'abstention varie selon le type d'élection.`, corrige: `**1) Lecture et calcul**
+- « Selon le ministère de l'Intérieur, au premier tour des régionales de 2021 en France, 66,7 % des inscrits se sont abstenus, contre 26,3 % au premier tour de la présidentielle de 2022. »
+- Écart : 66,7 − 26,3 = **40,4 points** de pourcentage ; rapport : 66,7 / 26,3 ≈ **2,5** : l'abstention a été environ 2,5 fois plus forte aux régionales.
+
+**2) Explication**
+- *Enjeu perçu* : la présidentielle désigne le chef de l'État, élection jugée décisive et très médiatisée ; les régionales portent sur une collectivité moins connue, dont les compétences sont mal identifiées.
+- *Abstention intermittente* : beaucoup d'électeurs votent à certaines élections et pas à d'autres ; c'est l'abstention « dans le jeu » (Jaffré et Muxel), choix d'électeurs qui jugent l'enjeu faible ou veulent exprimer un mécontentement.
+- *Calendrier* : les législatives suivent de peu la présidentielle et paraissent jouées d'avance (52,5 %).
+- *Abstention « hors du jeu »* : une partie des abstentionnistes, moins intégrée socialement (jeunes, peu diplômés, précaires), s'abstient quelle que soit l'élection.
+- *Contexte* : les régionales de 2021 ont eu lieu pendant la crise sanitaire.
+
+>! **Barème implicite** : Q1 : phrase avec source, lieu, date, unité (« % des inscrits ») ; écart en points et rapport. Q2 : au moins deux explications (enjeu perçu, intermittence, intégration sociale) reliées aux chiffres. **Erreur fréquente** : calculer l'abstention en % des votants.` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que la participation électorale dépend de l'intégration sociale.
+
+**Document 1 – Part des inscrits ayant voté à tous les tours d'une année électorale, selon l'âge et le diplôme, en % (données fictives)**
+
+| 18-24 ans | 40-59 ans | 60-74 ans | Sans diplôme | Diplôme du supérieur |
+|---|---|---|---|---|
+| 20 | 40 | 55 | 30 | 45 |
+
+**Document 2 – Deux formes d'abstention (d'après Jérôme Jaffré et Anne Muxel)**
+Les abstentionnistes « hors du jeu » politique sont peu intégrés socialement et s'abstiennent régulièrement ; les abstentionnistes « dans le jeu » s'intéressent à la politique et sont souvent diplômés, mais choisissent de ne pas voter à certaines élections.`, corrige: `**Introduction**
+- *Définitions* : la **participation électorale** mesure la part des inscrits qui votent (votants / inscrits × 100) ; l'**intégration sociale** désigne l'insertion de l'individu dans des groupes et des liens sociaux (famille, travail, école, voisinage).
+- *Annonce* : les plus intégrés votent davantage (I), même si une partie de l'abstention n'a rien à voir avec un défaut d'intégration (II).
+
+**I. Plus on est intégré, plus on vote**
+- *Mécanisme* : le vote suppose de se sentir concerné et compétent, d'être inscrit au bon endroit, d'être entouré de personnes qui votent ; l'emploi stable, la vie en couple, l'ancienneté de résidence et le diplôme favorisent tout cela.
+- *Âge* : 20 % des 18-24 ans ont voté à tous les tours, contre 55 % des 60-74 ans (document 1) : les jeunes, plus mobiles et moins insérés professionnellement, votent moins.
+- *Diplôme* : 45 % des diplômés du supérieur votent à tous les tours, contre 30 % des sans-diplôme, soit 15 points d'écart (document 1) ; le diplôme renforce le sentiment de **compétence politique**.
+- *Abstention « hors du jeu »* : elle concerne les personnes peu intégrées (document 2).
+
+**II. Mais l'intégration n'explique pas toute l'abstention**
+- *Abstention « dans le jeu »* : des électeurs intégrés et diplômés s'abstiennent par choix, pour protester ou parce qu'ils jugent l'enjeu faible (document 2).
+- *Intermittence* : la plupart des abstentionnistes votent à certaines élections ; l'enjeu perçu (présidentielle) et l'offre politique comptent aussi.
+- Même chez les diplômés, plus de la moitié ne votent pas à tous les tours (document 1).
+
+**Conclusion** : l'intégration sociale est un déterminant majeur de la participation, mais l'abstention a aussi une dimension politique et stratégique.` },
+        { type: "redaction", question: `**Dissertation s'appuyant sur un dossier documentaire** : Voter : une affaire individuelle ou collective ?
+
+**Document 1 – Vote au second tour d'une élection présidentielle selon la pratique religieuse, en % des suffrages exprimés (données fictives)**
+
+| | Catholiques pratiquants réguliers | Sans religion |
+|---|---|---|
+| Candidat de droite | 70 | 35 |
+| Candidat de gauche | 30 | 65 |
+
+**Document 2 – Part des électeurs ayant voté pour des partis différents au premier tour de deux élections présidentielles successives (données fictives)**
+Années 1990 : 25 % ; années 2020 : 40 %.
+
+**Document 3 – Abstention au premier tour (tour unique pour les européennes), en % des inscrits (ministère de l'Intérieur)**
+Présidentielle 2022 : 26,3 % ; européennes 2024 : 48,5 %.`, corrige: `**Introduction**
+- *Accroche* : depuis la loi de 1913, l'électeur vote seul dans l'isoloir ; pourtant, les catholiques pratiquants votent deux fois plus à droite que les sans-religion (70 % contre 35 %, document 1).
+- *Définitions* : le **vote** est l'acte par lequel un citoyen exprime un choix lors d'une élection ; il est **individuel** s'il résulte d'un calcul personnel (intérêts, enjeux), **collectif** s'il dépend des groupes d'appartenance et de la socialisation.
+- *Problématique* : l'acte apparemment le plus personnel du citoyen est-il le produit de choix individuels ou de déterminants sociaux ?
+- *Annonce* : le vote est largement une affaire collective (I), mais il s'individualise (II).
+
+**I. Le vote, une affaire collective**
+
+*A. Des déterminants sociaux puissants*
+- Lazarsfeld (*The People's Choice*, 1944) : « une personne pense politiquement comme elle est socialement ».
+- La religion reste une **variable lourde** : 70 % des catholiques pratiquants votent pour le candidat de droite, contre 35 % des sans-religion, soit 35 points d'écart (document 1). Le patrimoine, la PCS, le diplôme, l'âge et le territoire structurent aussi les votes.
+
+*B. La socialisation politique et l'identification partisane*
+- La famille transmet des préférences : une majorité de jeunes se situent comme leurs parents sur l'axe gauche-droite ; le milieu professionnel et les syndicats renforcent ces orientations.
+
+*C. La participation elle-même est sociale*
+- Les plus intégrés (diplôme, emploi stable) votent davantage ; l'abstention « hors du jeu » touche les moins intégrés.
+
+*Transition* : ces régularités s'affaiblissent depuis les années 1980.
+
+**II. Un vote qui s'individualise**
+
+*A. Un électeur plus stratège*
+- Modèle de l'**électeur rationnel** : il compare les offres selon les **enjeux** (pouvoir d'achat, sécurité, environnement) ; vote utile ou stratégique.
+- Recul du vote de classe : une partie des ouvriers vote à l'extrême droite ou s'abstient.
+
+*B. Une volatilité croissante*
+- La part des électeurs changeant de parti d'une présidentielle à l'autre passerait de 25 % à 40 % (+15 points, document 2) : la fidélité partisane recule.
+- L'abstention intermittente montre un choix au cas par cas : 26,3 % d'abstention à la présidentielle 2022 contre 48,5 % aux européennes 2024 (document 3) selon l'enjeu perçu.
+
+*C. Le rôle de l'offre politique et de la campagne*
+- Personnalité des candidats, médias, événements de campagne pèsent sur les choix.
+- Mais ces choix individuels restent socialement situés : la volatilité est plus forte chez certains groupes (jeunes, diplômés peu politisés).
+
+**Conclusion**
+- *Bilan* : le vote est à la fois collectif (déterminants sociaux, socialisation) et individuel (enjeux, stratégie, volatilité) ; la dimension individuelle progresse sans faire disparaître les déterminants sociaux.
+- *Ouverture* : la montée de l'abstention pose la question de la représentativité des élus.
+
+>! **Barème implicite (sur 20, dont 2 de maîtrise de la langue)** : sujet à deux termes traité dans ses deux dimensions ; problématique ; auteurs et notions (Lazarsfeld, variable lourde, électeur rationnel, volatilité) ; documents exploités avec calculs d'écarts en points ; transitions ; conclusion qui articule les deux dimensions.` },
       ],
     },
     {
@@ -839,6 +1375,33 @@ Le système français, créé en 1945, est **mixte** : d'origine bismarckienne, 
 - Prestations versées sous **condition de ressources** (RSA, minimum vieillesse) ou de façon **universelle** (allocations familiales, protection universelle maladie).
 
 **Conclusion** : le système français est **mixte** ; d'origine bismarckienne (1945), il a intégré des éléments beveridgiens pour couvrir l'ensemble de la population.` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que l'assurance et la protection sociale permettent de faire face aux risques.
+
+**Document 1 – La mutualisation (données fictives)**
+Un assureur couvre 10 000 logements. Chaque logement a 1 % de probabilité de subir dans l'année un dégât des eaux, dont le coût moyen est de 3 000 €.
+
+**Document 2 – Répartition des prestations de protection sociale par risque en France (ordres de grandeur arrondis, début des années 2020)**
+
+| Vieillesse-survie | Santé | Famille | Emploi (chômage, insertion) | Logement, pauvreté-exclusion |
+|---|---|---|---|---|
+| environ 45 % | environ 35 % | environ 7 % | environ 6 % | environ 6 % |
+
+**Document 3 – Le bonus-malus en assurance automobile**
+Chaque année sans accident responsable, le coefficient appliqué à la prime de l'assuré est multiplié par 0,95 (bonus de 5 %) ; chaque accident responsable le multiplie par 1,25 (malus de 25 %).`, corrige: `**Introduction**
+- *Définitions* : un **risque** est un événement probable mais incertain qui entraîne un dommage ; l'**assurance** (privée) et la **protection sociale** (publique) sont des mécanismes de couverture collective.
+- *Annonce* : l'assurance repose sur la mutualisation (I) ; la protection sociale couvre les risques sociaux selon des logiques d'assurance et d'assistance (II).
+
+**I. L'assurance : mutualiser les risques**
+- *Mécanisme* : grâce à la **loi des grands nombres**, l'assureur prévoit le coût total des sinistres : 10 000 × 0,01 = 100 dégâts des eaux attendus, soit 100 × 3 000 = 300 000 € ; la prime pure est de 300 000 / 10 000 = **30 €** par logement (document 1). Chacun paie 30 € pour ne pas risquer de payer 3 000 €.
+- *Limites* : l'**aléa moral** (l'assuré moins prudent) et la **sélection adverse**. Le bonus-malus y répond : un accident responsable augmente la prime de 25 %, une année sans accident la réduit de 5 % (document 3), ce qui incite à la prudence.
+
+**II. La protection sociale : couvrir les risques sociaux**
+- *Les risques couverts* : vieillesse-survie (environ 45 % des prestations) et santé (environ 35 %) représentent ensemble environ 80 % des prestations (document 2) ; viennent ensuite la famille, l'emploi, le logement et la pauvreté.
+- *Logique d'assurance* (bismarckienne) : cotisations sur les salaires, prestations liées aux cotisations (retraites, allocations chômage).
+- *Logique d'assistance* (beveridgienne) : financement par l'impôt, prestations sous condition de ressources (RSA) ou universelles (protection universelle maladie).
+- *Une solidarité plus large que l'assurance privée* : la protection sociale ne tarifie pas selon le risque individuel ; elle organise une solidarité entre bien-portants et malades, actifs et retraités, et réduit les inégalités.
+
+**Conclusion** : assurance et protection sociale permettent de faire face aux risques en les mutualisant ; la protection sociale va plus loin en couvrant aussi ceux que le marché de l'assurance exclurait.` },
       ],
     },
     {
@@ -850,7 +1413,7 @@ Le système français, créé en 1945, est **mixte** : d'origine bismarckienne, 
 Une **entreprise** est une organisation qui **produit des biens ou des services marchands** en combinant des facteurs de production (travail, capital), en vue de les vendre, généralement pour réaliser un **profit**.
 
 On les classe selon :
-- la **taille** : micro-entreprises (moins de 10 salariés), PME (moins de 250), ETI (250 à 4 999), grandes entreprises (5 000 et plus) ;
+- la **taille** : micro-entreprises (moins de 10 salariés), PME (moins de 250), ETI (250 à 4 999), grandes entreprises (5 000 et plus) ; la définition officielle combine l'effectif avec des seuils de chiffre d'affaires ou de total de bilan ;
 - le **secteur d'activité** (primaire, secondaire, tertiaire) ;
 - le **statut juridique** : entreprise individuelle, sociétés (SARL, SA, SAS), entreprises publiques, entreprises de l'**économie sociale et solidaire** (coopératives, mutuelles, associations) qui suivent le principe « une personne, une voix ».
 
@@ -911,6 +1474,37 @@ La **gouvernance** désigne l'ensemble des règles et mécanismes qui organisent
 - Conflits d'intérêts entre actionnaires et dirigeants (relation d'agence) dans les grandes sociétés.
 
 **Conclusion** : coopération et conflits coexistent ; le conflit peut aboutir à de nouvelles règles et donc à une forme de coopération renouvelée.` },
+        { type: "redaction", question: `**Raisonnement s'appuyant sur un dossier documentaire (EC3)** : À l'aide du dossier documentaire et de vos connaissances, vous montrerez que la gouvernance des entreprises cherche à concilier des intérêts différents.
+
+**Document 1 – Répartition de la valeur ajoutée d'une entreprise en 2024 (en millions d'euros, données fictives)**
+
+| Salaires et cotisations sociales | Impôts sur la production | Intérêts versés | Dividendes | Autofinancement |
+|---|---|---|---|---|
+| 6,5 | 0,8 | 0,4 | 1,0 | 1,3 |
+
+**Document 2 – La loi PACTE (2019)**
+La loi PACTE permet à une société d'inscrire dans ses statuts une **raison d'être** et de devenir **société à mission**, en se fixant des objectifs sociaux et environnementaux contrôlés par un comité. En 2020, Danone est devenue la première société du CAC 40 à adopter ce statut.
+
+**Document 3 – La rémunération d'un dirigeant (données fictives)**
+Le PDG d'une grande société cotée perçoit un salaire fixe de 1 million d'euros et une part variable pouvant atteindre 1,5 million, liée surtout à l'évolution du cours de l'action.`, corrige: `**Introduction**
+- *Définitions* : la **gouvernance** désigne les règles et mécanismes qui organisent le pouvoir de décision et le contrôle des dirigeants ; les **parties prenantes** sont tous les acteurs concernés par l'activité de l'entreprise (actionnaires, salariés, clients, fournisseurs, État, riverains).
+- *Annonce* : les acteurs de l'entreprise ont des intérêts en partie divergents (I) ; la gouvernance cherche à les concilier, selon une logique actionnariale ou partenariale (II).
+
+**I. Des intérêts divergents**
+- *Partage de la valeur ajoutée* : sur 10 millions d'euros de valeur ajoutée (6,5 + 0,8 + 0,4 + 1,0 + 1,3), 65 % vont aux salariés, 10 % aux actionnaires et 13 % à l'autofinancement (document 1) : plus de salaires, c'est moins de profits à distribuer ou à investir.
+- *Actionnaires et dirigeants* : avec la **séparation entre propriété et contrôle** (Berle et Means, 1932), les managers peuvent poursuivre leurs propres objectifs (prestige, taille, rémunération) : c'est la relation **d'agence**.
+
+**II. Des mécanismes de gouvernance pour les concilier**
+
+*A. La gouvernance actionnariale*
+- Le conseil d'administration, élu par l'assemblée générale, contrôle les dirigeants.
+- Indexer la rémunération sur le cours de l'action aligne les intérêts du dirigeant sur ceux des actionnaires : la part variable (jusqu'à 1,5 million) peut dépasser le fixe (1 million) (document 3). Risque : privilégier la valeur boursière à court terme au détriment des salariés ou de l'investissement.
+
+*B. La gouvernance partenariale*
+- La loi PACTE permet de se doter d'une raison d'être et du statut de société à mission (Danone en 2020, document 2) : l'entreprise intègre des objectifs sociaux et environnementaux.
+- Représentation des salariés (CSE, administrateurs salariés dans les grandes entreprises), négociation collective, responsabilité sociale des entreprises (RSE).
+
+**Conclusion** : la gouvernance arbitre entre les intérêts des actionnaires, des dirigeants et des autres parties prenantes ; le débat porte sur la place à donner à chacun.` },
       ],
     },
     {
@@ -995,7 +1589,7 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
           explication: "(150 − 120) / 120 × 100 = **25 %**. On ne soustrait directement les indices que lorsque l'on part de l'année de base (indice 100)." },
         { type: "saisie", question: "Le taux de chômage passe de 8 % à 10 %. De combien de points de pourcentage a-t-il augmenté ?", reponses: ["2", "2 points", "+2", "2 points de pourcentage"],
           explication: "10 − 8 = **2 points** de pourcentage (ce qui correspond à une hausse de 25 % du taux)." },
-        { type: "saisie", question: "Calcule la moyenne pondérée : 14 (coef. 4), 10 (coef. 2), 12 (coef. 2).", reponses: ["12,5", "12.5"],
+        { type: "saisie", question: "Calcule la moyenne pondérée : 14 (coef. 4), 10 (coef. 2), 12 (coef. 2).", reponses: ["12,5", "12.5", "12,5/20"],
           explication: "(56 + 20 + 24) / (4 + 2 + 2) = 100 / 8 = **12,5**." },
         { type: "qcm", question: "Salaires de 5 salariés : 1 500, 1 700, 1 800, 2 100, 4 000 €. Quelle affirmation est juste ?", choix: ["Médiane 1 800 € et moyenne 2 220 €", "Médiane 2 220 € et moyenne 1 800 €", "Médiane et moyenne valent 1 800 €", "Médiane 2 100 € et moyenne 2 220 €"], reponse: 0,
           explication: "La valeur centrale est **1 800 €** ; la moyenne vaut 11 100 / 5 = **2 220 €**, tirée vers le haut par le haut salaire." },
@@ -1032,7 +1626,7 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
 - **Si tu abandonnes la SES à la fin de la 1re** : il n'y a **pas d'épreuve finale**. La note retenue au bac est la **moyenne annuelle de tes bulletins de 1re** (contrôle continu), avec un **coefficient 8**. Chaque devoir sur table compte donc ! Tes professeurs te donnent des sujets du même type que ceux du bac (questions de cours, étude de document, raisonnement sur dossier, parfois une dissertation), souvent sur une durée plus courte.
 - **Si tu gardes la SES en terminale** : épreuve écrite de **4 heures** en fin de terminale (coefficient 16), sur le programme de terminale. Tu choisis entre une **dissertation** et une **épreuve composée**. Le grand oral peut aussi porter sur la SES.
 
-Dans les deux cas, les méthodes ci-dessous s'apprennent dès la 1re. Le barème indiqué est celui de l'épreuve de terminale à partir de la session 2027 (note de service du 11 septembre 2026), qui réserve **2 points sur 20 à la maîtrise de la langue** (orthographe, syntaxe).
+Dans les deux cas, les méthodes ci-dessous s'apprennent dès la 1re. Le barème indiqué est celui de l'épreuve de terminale à partir de la session 2027 (note de service du 11 septembre 2026, publiée au Bulletin officiel spécial n° 4 du 17 septembre 2026), qui réserve **2 points sur 20 à la maîtrise des normes orthographiques et syntaxiques**. La qualité de l'expression (organisation du raisonnement, vocabulaire précis) compte en plus dans l'évaluation de chaque partie. Les notions de 1re doivent rester connues et mobilisables en terminale. En 1re, ton professeur peut utiliser un barème adapté : renseigne-toi auprès de lui.
 
 ## L'épreuve composée
 Elle comporte **trois parties** indépendantes.
@@ -1044,7 +1638,7 @@ Une question de cours (« Montrez que… », « Distinguez… », « Présentez�
 - Pas d'introduction ni de conclusion longues ; environ 15 à 20 lignes.
 
 ### Partie 2 – Étude d'un document (EC2, 5,5 points)
-Un document statistique (tableau, graphique) et en général deux questions :
+Un document statistique (tableau, graphique, carte…) et **deux questions** :
 - une question de **lecture / calcul** : présente les données avec une phrase complète et rigoureuse (source, date, unité, lieu) ;
 - une question d'**analyse** reliant le document à tes connaissances.
 
@@ -1056,6 +1650,10 @@ Un sujet et 2 ou 3 documents de natures différentes (texte, tableau, graphique)
 - un développement en **parties** ou **paragraphes argumentés** (AEI : **A**ffirmer une idée, l'**E**xpliquer par un mécanisme, l'**I**llustrer par un exemple ou une donnée du dossier) ;
 - une **courte conclusion**.
 Tu dois **utiliser les documents** (citer des données précises) **et** tes **connaissances personnelles**.
+
+Les trois parties portent sur trois questions différentes du programme et sur au moins deux champs (science économique ; sociologie et science politique ; regards croisés).
+
+>! **Pour t'entraîner** : chaque chapitre se termine par un sujet d'EC3 avec son dossier documentaire ; des EC2 chiffrées figurent dans les chapitres de sociologie, et trois dissertations sont corrigées (chapitres « défaillances du marché », « socialisation » et « vote »). Dans ces sujets, les données marquées « fictives » servent seulement à l'entraînement.
 
 ## La dissertation
 Un sujet sous forme de question et un dossier de **3 ou 4 documents** factuels (surtout statistiques). Elle se note sur 20 (dont 2 points de maîtrise de la langue). Tu dois mobiliser les documents **et** tes connaissances ; elle demande une vraie problématique et un plan en parties.
@@ -1101,7 +1699,7 @@ Un sujet sous forme de question et un dossier de **3 ou 4 documents** factuels (
         { type: "qcm", question: "Dans une introduction de dissertation, on trouve :", choix: ["uniquement la réponse finale", "accroche, définitions, problématique et annonce du plan", "les exemples détaillés de chaque partie", "une liste des documents"], reponse: 1,
           explication: "L'introduction comporte **accroche**, **définition** des termes, **problématique** et **annonce du plan**." },
         { type: "redaction", question: "**Raisonnement s'appuyant sur un dossier (EC3)** : À l'aide de tes connaissances, montre que les défaillances du marché justifient l'intervention des pouvoirs publics. Rédige une introduction et le plan détaillé de ton raisonnement.", corrige: `**Introduction**
-- *Accroche* : chaque année, la pollution de l'air coûte des dizaines de milliers de vies en France sans que les pollueurs en paient le coût.
+- *Accroche* : selon Santé publique France (2021), près de 40 000 décès par an en France sont attribuables aux particules fines, sans que les pollueurs en paient le coût.
 - *Définitions* : une **défaillance du marché** est une situation où le marché ne conduit pas à une allocation efficace des ressources ; l'**intervention publique** regroupe les actions de l'État (réglementation, taxes, subventions, production).
 - *Annonce* : nous verrons que les externalités (I), les biens collectifs et communs (II) et les asymétries d'information (III) justifient une intervention publique.
 

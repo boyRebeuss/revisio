@@ -484,6 +484,16 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
 - **Origine** : discriminations à l'embauche et au logement mises en évidence par le **testing** (envoi de CV identiques ne différant que par le nom ou l'adresse) ; le testing est reconnu comme preuve en justice.
 - **Discrimination positive** (ou action positive) : mesures temporaires en faveur de groupes défavorisés (conventions d'éducation prioritaire de Sciences Po depuis 2001, réseaux d'éducation prioritaire).
 
+## 5. Haines et rejets : nommer pour combattre
+Le nouveau programme demande de distinguer précisément :
+- **Racisme** : idéologie qui hiérarchise de prétendues « races » humaines, et comportements de rejet qui en découlent ;
+- **Antisémitisme** : hostilité envers les Juifs (des préjugés antijudaïques médiévaux au génocide nazi, jusqu'aux actes antisémites actuels) ;
+- **Antitsiganisme** : hostilité envers les Roms, Manouches, Gitans et « gens du voyage » ;
+- **Xénophobie** : rejet des étrangers ;
+- **Haine anti-LGBT** : rejet des personnes lesbiennes, gays, bisexuelles et transgenres ;
+- **Harcèlement** : agissements répétés qui dégradent les conditions de vie d'une personne ; le harcèlement scolaire est un délit spécifique depuis la loi du 2 mars 2022.
+Acteurs de la lutte : le **Défenseur des droits**, la **DILCRAH** (Délégation interministérielle à la lutte contre le racisme, l'antisémitisme et la haine anti-LGBT), les associations (LICRA, SOS Racisme, SOS Homophobie…), la plateforme **Pharos** pour les contenus haineux en ligne. Le caractère raciste, antisémite, sexiste ou homophobe d'un crime ou d'un délit est une **circonstance aggravante** qui alourdit la peine.
+
 >! **Exemple** : refuser un logement à quelqu'un en raison de son nom à consonance étrangère est une discrimination punie par la loi ; la victime peut saisir le Défenseur des droits ou porter plainte.
 
 > **À retenir** : l'égalité en droits est garantie par la DDHC, le Préambule de 1946 et la Constitution de 1958. Le Code pénal (article 225-1) interdit les discriminations fondées sur plus de vingt critères. Malgré des progrès (parité, mariage pour tous, loi handicap de 2005), les inégalités et discriminations persistent ; leur réduction passe par le droit, des politiques publiques et l'évolution des mentalités.
@@ -522,6 +532,9 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
 - Débat : risque de stigmatiser ou de remettre en cause l'égalité formelle.
 
 **Conclusion** : l'égalité en droits est une condition nécessaire mais non suffisante ; l'égalité réelle exige des politiques actives et un changement des mentalités.` },
+        { type: "qcm", question: "Quel organisme interministériel coordonne la lutte contre le racisme, l'antisémitisme et la haine anti-LGBT ?", choix: ["La CNIL", "La DILCRAH", "L'Arcom", "Le Conseil d'État"], reponse: 1, explication: "La **DILCRAH** pilote les plans nationaux de lutte contre le racisme, l'antisémitisme et la haine anti-LGBT ; elle finance aussi des actions éducatives." },
+        { type: "vf", question: "Lorsqu'un délit est commis en raison de l'origine ou de l'orientation sexuelle de la victime, la peine encourue est plus lourde.", reponse: true, explication: "Vrai : le mobile raciste, antisémite, sexiste ou homophobe est une **circonstance aggravante** prévue par le Code pénal." },
+        { type: "saisie", question: "Comment appelle-t-on l'hostilité envers les Roms et les gens du voyage ?", reponses: ["antitsiganisme", "l'antitsiganisme", "anti-tsiganisme", "antitziganisme", "l'antitziganisme"], explication: "L'**antitsiganisme** est explicitement nommé par le nouveau programme, à côté du racisme, de l'antisémitisme, de la xénophobie et de la haine anti-LGBT." },
       ],
     },
     {
@@ -531,6 +544,8 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
       cours: `
 ## L'évaluation en EMC
 L'EMC est évaluée en **contrôle continu**. Les exercices attendus sont : l'**analyse de document(s)**, la **question argumentée** (ou réflexion argumentée), la participation à un **débat argumenté** et parfois un **projet d'engagement** (exposé, dossier). On évalue ta maîtrise des notions, ta capacité à argumenter et ton esprit critique.
+
+>! **Le programme de 1re (en vigueur depuis la rentrée 2025)** s'intitule « Cohésion et diversité dans une société démocratique ». Partie I, « Les valeurs et les principes de la République à l'épreuve de la cohésion sociale » : fraternité et solidarité, égalité femmes-hommes, discriminations et haines (racisme, antisémitisme, antitsiganisme, xénophobie, haine anti-LGBT, harcèlement), laïcité. Partie II, « La République et la Nation » : République indivisible et décentralisée, nationalité, citoyenneté et mémoires, défense et sécurité nationale. Les chapitres sur l'engagement, la démocratie participative et la société de l'information restent utiles pour argumenter.
 
 ## 1. La question argumentée
 1. **Analyser la question** : repère les notions (égalité, laïcité, engagement...) et définis-les.
@@ -599,6 +614,210 @@ L'EMC est évaluée en **contrôle continu**. Les exercices attendus sont : l'**
 - Plutôt que l'obligation, on peut reconnaître le vote blanc dans les suffrages exprimés, faciliter le vote (procuration, inscription automatique), développer la démocratie participative et l'éducation civique.
 
 **Règles du débat** : écouter, reformuler, s'appuyer sur des exemples, respecter les opinions contraires.` },
+      ],
+    },
+    {
+      id: "republique-indivisible-decentralisee",
+      titre: "Une République indivisible dont l'organisation est décentralisée",
+      theme: "La République et la Nation (programme 2024)",
+      cours: `
+## Introduction
+Le nouveau programme d'EMC de 1re (en vigueur depuis la rentrée 2025) s'intitule « **Cohésion et diversité dans une société démocratique** ». Sa deuxième partie, « **La République et la Nation** », part de l'article 1er de la Constitution : « La France est une République **indivisible**, laïque, démocratique et sociale. [...] Son organisation est **décentralisée**. » Comment une République **une** peut-elle laisser une large place aux **territoires** et à leur diversité ?
+
+## 1. Le principe d'indivisibilité
+- **Indivisibilité** : la souveraineté appartient au **peuple français** tout entier ; aucune partie du peuple ni aucun territoire ne peut se l'attribuer. La **loi** est la même pour tous sur tout le territoire, et les citoyens sont **égaux** devant elle « sans distinction d'origine, de race ou de religion ».
+- Héritage révolutionnaire : la République « une et indivisible » (1792), la création des **départements** (1790) pour remplacer les provinces aux privilèges différents.
+- Conséquences juridiques :
+  - **une seule langue officielle** : « La langue de la République est le français » (article 2, depuis 1992) ;
+  - **pas de reconnaissance de « peuples » ou de communautés** au sein du peuple français : en 1991, le Conseil constitutionnel censure l'expression « **peuple corse** » ; en 1999, il juge contraire à la Constitution la Charte européenne des langues régionales, que la France a signée mais pas ratifiée.
+- Mais l'indivisibilité n'est pas l'uniformité : depuis 2008, « les **langues régionales** appartiennent au patrimoine de la France » (article 75-1). La **loi Molac** (21 mai 2021) protège et promeut les langues régionales (breton, basque, occitan, alsacien, corse, créoles…) ; le Conseil constitutionnel a toutefois censuré l'enseignement « immersif » dans ces langues à l'école publique.
+
+## 2. La décentralisation : transférer des compétences aux collectivités
+- **Décentralisation** : transfert de compétences et de moyens de l'**État** vers des **collectivités territoriales** élues, qui s'administrent librement (article 72 de la Constitution). À distinguer de la **déconcentration** : l'État délègue des pouvoirs à ses propres agents sur le territoire (le **préfet**, représentant de l'État dans le département et la région).
+- **Acte I** : les **lois Defferre** (à partir du 2 mars **1982**) suppriment la tutelle a priori du préfet (remplacée par un **contrôle de légalité** a posteriori) et font de la région une collectivité élue (premières élections régionales en 1986).
+- **Acte II** : la **révision constitutionnelle du 28 mars 2003** inscrit dans l'article 1er que l'organisation de la République est **décentralisée** ; elle crée le référendum local décisionnel.
+- **Acte III** : lois **MAPTAM** (2014, métropoles) et **NOTRe** (2015) ; 13 régions métropolitaines depuis le 1er janvier 2016.
+
+| Collectivité | Élus | Principales compétences |
+|---|---|---|
+| Commune (environ 35 000) | conseil municipal, maire | état civil, écoles maternelles et élémentaires, urbanisme (plan local d'urbanisme), action sociale de proximité |
+| Département (101) | conseil départemental | action sociale (RSA, personnes âgées, handicap, aide sociale à l'enfance), collèges, routes départementales |
+| Région (18, dont 13 en métropole) | conseil régional | lycées, transports régionaux (TER), développement économique, formation professionnelle |
+Les **intercommunalités** (communautés de communes, d'agglomération, métropoles) regroupent des communes pour gérer ensemble transports, déchets, eau ou développement économique.
+
+## 3. Des statuts adaptés à la diversité des territoires
+- **Outre-mer** :
+  - **départements et régions d'outre-mer** (article 73 : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte depuis 2011) : les lois s'y appliquent de plein droit, avec des adaptations possibles ;
+  - **collectivités d'outre-mer** (article 74 : Polynésie française, Wallis-et-Futuna, Saint-Pierre-et-Miquelon, Saint-Barthélemy, Saint-Martin) : statut d'autonomie plus ou moins large ;
+  - la **Nouvelle-Calédonie** (titre XIII de la Constitution) dispose d'un statut unique issu des accords de **Matignon (1988)** et de **Nouméa (1998)** ; trois référendums sur l'indépendance (2018, 2020, 2021) ont donné une majorité au « non », mais le troisième a été boycotté par les indépendantistes et l'avenir institutionnel reste en discussion.
+- **Corse** : collectivité à statut particulier, la **Collectivité de Corse** (depuis 2018).
+- Ces statuts montrent que l'unité de la République se concilie avec la **reconnaissance de la diversité** des territoires.
+
+## 4. Des débats
+- La décentralisation rapproche les décisions des citoyens, mais rend l'organisation complexe (le « millefeuille territorial ») et peut accroître les **inégalités entre territoires** riches et pauvres : l'État pratique donc une **péréquation** (redistribution de ressources entre collectivités).
+- Jusqu'où aller dans l'autonomie (Corse, Nouvelle-Calédonie) ou la promotion des langues régionales sans remettre en cause l'**égalité** des citoyens et l'**unité** de la Nation ?
+
+> **À retenir** : la République est **indivisible** (un seul peuple, une même loi, une langue officielle) mais son organisation est **décentralisée** depuis 1982, inscrit dans la Constitution en 2003 : communes, départements et régions s'administrent librement, sous le contrôle de légalité du préfet. Des statuts particuliers (outre-mer, Corse, Nouvelle-Calédonie) et la reconnaissance des langues régionales (2008, loi Molac 2021) concilient unité et diversité.
+`,
+      exercices: [
+        { type: "saisie", question: "Complète l'article 1er de la Constitution : « La France est une République ..., laïque, démocratique et sociale. »", reponses: ["indivisible"], explication: "« La France est une République **indivisible**, laïque, démocratique et sociale. » Depuis 2003, l'article précise : « Son organisation est décentralisée. »" },
+        { type: "qcm", question: "Quelles lois lancent la décentralisation en France à partir de 1982 ?", choix: ["Les lois Ferry", "Les lois Defferre", "Les lois Auroux", "La loi NOTRe"], reponse: 1, explication: "Les **lois Defferre** (1982-1983) suppriment la tutelle préfectorale a priori et font de la région une collectivité territoriale. La loi NOTRe date de 2015." },
+        { type: "vf", question: "La déconcentration et la décentralisation désignent la même chose.", reponse: false, explication: "Faux : la **décentralisation** transfère des compétences à des collectivités **élues** ; la **déconcentration** délègue des pouvoirs aux **agents de l'État** sur le territoire (préfets)." },
+        { type: "qcm", question: "Quelle collectivité territoriale est chargée des lycées ?", choix: ["La commune", "Le département", "La région", "L'intercommunalité"], reponse: 2, explication: "La **région** construit et entretient les lycées ; le **département** s'occupe des collèges, la **commune** des écoles maternelles et élémentaires." },
+        { type: "vf", question: "Depuis 2008, la Constitution affirme que les langues régionales appartiennent au patrimoine de la France.", reponse: true, explication: "Vrai : article **75-1**. Le français reste la seule langue officielle (article 2)." },
+        { type: "qcm", question: "Pourquoi le Conseil constitutionnel a-t-il censuré en 1991 l'expression « peuple corse » ?", choix: ["Parce que la Corse n'est pas française", "Parce que la Constitution ne connaît que le peuple français, composé de tous les citoyens sans distinction", "Parce que la Corse est un département d'outre-mer", "Parce que le mot « peuple » est interdit"], reponse: 1, explication: "Le principe d'**indivisibilité** interdit de reconnaître des composantes du peuple français ; la Corse a cependant obtenu un **statut particulier**." },
+        { type: "saisie", question: "Comment appelle-t-on le représentant de l'État dans le département, qui exerce le contrôle de légalité sur les actes des collectivités ?", reponses: ["préfet", "le préfet", "prefet"], explication: "Le **préfet** (créé en 1800) représente l'État ; depuis 1982, il contrôle a posteriori la légalité des actes des collectivités et peut saisir le juge administratif." },
+        { type: "qcm", question: "Lequel de ces territoires est un département et région d'outre-mer (article 73) ?", choix: ["La Polynésie française", "La Nouvelle-Calédonie", "La Réunion", "Wallis-et-Futuna"], reponse: 2, explication: "**La Réunion** est un DROM, comme la Guadeloupe, la Martinique, la Guyane et Mayotte. La Polynésie et Wallis-et-Futuna sont des collectivités d'outre-mer ; la Nouvelle-Calédonie a un statut à part." },
+        { type: "redaction", question: "Question argumentée : *La décentralisation remet-elle en cause l'unité de la République ?*", corrige: `**Problématique** : comment la République peut-elle rester **une et indivisible** tout en confiant de larges pouvoirs à ses territoires ?
+
+**I. Une République une et indivisible**
+- Article 1er de la Constitution : République indivisible ; égalité de tous devant la loi.
+- Un seul peuple (censure du « peuple corse », 1991), une langue officielle (article 2).
+- L'État garde la souveraineté : la loi, la justice, la défense, la police restent nationales ; le **préfet** exerce le contrôle de légalité.
+
+**II. Une organisation décentralisée qui rapproche les décisions des citoyens**
+- Lois Defferre (1982), révision de 2003 (« organisation décentralisée »), MAPTAM et NOTRe (2014-2015).
+- Communes, départements, régions s'administrent librement (article 72) : écoles, collèges, lycées, action sociale, transports.
+- Des statuts adaptés : DROM et COM, Nouvelle-Calédonie, Collectivité de Corse ; langues régionales reconnues (article 75-1, loi Molac 2021).
+
+**III. Des tensions réelles mais encadrées**
+- Inégalités de ressources entre territoires, corrigées par la péréquation.
+- Revendications d'autonomie (Corse, Nouvelle-Calédonie) et débats sur les langues régionales (censure de l'enseignement immersif en 2021).
+- Le Conseil constitutionnel veille à ce que la diversité ne remette pas en cause l'égalité des citoyens.
+
+**Conclusion** : la décentralisation ne remet pas en cause l'unité de la République ; elle en est une **modalité**, tant que la souveraineté reste au peuple français tout entier et que l'égalité des droits est garantie partout.` },
+      ],
+    },
+    {
+      id: "nation-nationalite-citoyennete",
+      titre: "La communauté nationale : nationalité, citoyenneté et mémoires",
+      theme: "La République et la Nation (programme 2024)",
+      cours: `
+## Introduction
+Qu'est-ce qui fait qu'on appartient à la **Nation** française ? Le droit répond par la **nationalité** ; la vie politique par la **citoyenneté** ; l'histoire par des **mémoires** partagées et des **commémorations**. La communauté nationale française se veut une communauté **ouverte**, fondée sur l'adhésion à des valeurs plutôt que sur l'origine.
+
+## 1. Deux conceptions de la nation
+- **Conception « élective »** (ou contractuelle), dominante en France : la nation repose sur la **volonté de vivre ensemble**. Ernest **Renan**, *Qu'est-ce qu'une nation ?* (1882) : « L'existence d'une nation est [...] un **plébiscite de tous les jours** » ; la nation, c'est « avoir fait de grandes choses ensemble, vouloir en faire encore ».
+- **Conception « ethnique »** (ou culturelle), associée au romantisme allemand (Herder, Fichte) : la nation repose sur la langue, la culture, l'origine communes.
+- Ces deux conceptions sont des modèles : en pratique, tous les pays les combinent.
+
+## 2. La nationalité française
+- **Nationalité** : lien juridique entre une personne et un État ; elle donne des droits (protection, droit de vote pour les majeurs) et des devoirs (respect des lois, défense nationale).
+- **Attribution à la naissance** :
+  - **droit du sang** : est français l'enfant dont au moins un parent est français, où qu'il naisse ;
+  - **double droit du sol** : est français l'enfant né en France d'un parent lui-même né en France.
+- **Acquisition** au cours de la vie :
+  - **droit du sol « différé »** : un enfant né en France de parents étrangers devient français à **18 ans** s'il réside en France et y a vécu au moins cinq ans depuis l'âge de 11 ans (il peut le demander dès 13 ans avec ses parents, ou seul dès 16 ans) ; des règles plus restrictives s'appliquent à Mayotte ;
+  - **par mariage** avec un Français, par déclaration après **4 ans** de mariage ;
+  - **par naturalisation** : décision de l'État (décret) après au moins 5 ans de résidence en général, avec des conditions d'**assimilation** (connaissance de la langue française, de l'histoire et de la culture françaises, adhésion aux principes et valeurs de la République). Une **cérémonie d'accueil dans la citoyenneté française** est organisée en préfecture.
+- La France accepte la **double nationalité**.
+
+## 3. Nationalité et citoyenneté
+- **Citoyenneté** : participation à la vie politique (voter, être élu) et ensemble de droits et de devoirs civiques. En France, être citoyen suppose d'être **français et majeur** (18 ans).
+- **Citoyenneté européenne** (traité de **Maastricht**, 1992) : tout national d'un État membre est citoyen de l'Union. Il peut circuler et s'installer librement dans l'UE, **voter et être élu aux élections municipales et européennes** dans l'État où il réside, bénéficier de la protection consulaire de tout État membre, adresser une pétition au Parlement européen ou soutenir une **initiative citoyenne européenne** (un million de signatures dans au moins 7 pays). Elle **complète** la citoyenneté nationale sans la remplacer.
+
+## 4. Une Nation, une histoire, des mémoires
+- **Histoire** et **mémoire** sont différentes : l'histoire est un savoir critique construit par les historiens ; la mémoire est le souvenir, souvent affectif et sélectif, qu'un groupe garde du passé. Il existe **des** mémoires, parfois concurrentes (mémoires de la guerre d'Algérie, de l'esclavage…).
+- **Reconnaissances officielles** : discours du président **Jacques Chirac** reconnaissant la responsabilité de l'État dans la déportation des Juifs (rafle du Vél d'Hiv, **16 juillet 1995**) ; **loi Taubira** (21 mai **2001**) qualifiant la traite et l'esclavage de **crime contre l'humanité** ; loi reconnaissant le génocide arménien (2001).
+- **Commémorations** : fête nationale (**14 juillet**), victoire de 1945 (**8 mai**), armistice de 1918 (**11 novembre**, devenu en 2012 l'hommage à tous les morts pour la France), journée des mémoires de la traite, de l'esclavage et de leurs abolitions (**10 mai**, depuis 2006), journée de la mémoire des génocides (**27 janvier**, dans les établissements scolaires).
+- **Le Panthéon** (« Aux grands hommes la patrie reconnaissante ») honore des figures qui incarnent les valeurs de la Nation : Victor Hugo, Jean Jaurès, Jean Moulin, Marie Curie, **Simone Veil** (2018), **Joséphine Baker** (2021), **Missak et Mélinée Manouchian** (2024), **Robert Badinter** (2025). Les débats sur les entrées au Panthéon (place des femmes, des étrangers morts pour la France) disent quelle Nation on veut célébrer.
+
+>! **Méthode – analyser une commémoration** : qui l'organise (État, commune, association) ? quel événement ou quelle personne est honoré(e) ? quels symboles (drapeau, Marseillaise, discours) ? quel message est adressé aux citoyens d'aujourd'hui ? quelles mémoires sont mises en avant, lesquelles sont absentes ?
+
+> **À retenir** : la Nation française se conçoit comme une communauté **ouverte**, fondée sur la volonté de vivre ensemble (Renan). La nationalité s'attribue par le droit du sang et le double droit du sol, s'acquiert par le droit du sol différé, le mariage ou la naturalisation. La citoyenneté européenne (1992) complète la citoyenneté nationale. Commémorations, lois mémorielles et Panthéon entretiennent une mémoire nationale, plurielle et parfois débattue.
+`,
+      exercices: [
+        { type: "qcm", question: "Selon Ernest Renan (1882), qu'est-ce qui fonde avant tout une nation ?", choix: ["La race", "La langue uniquement", "La volonté de vivre ensemble, « un plébiscite de tous les jours »", "La religion commune"], reponse: 2, explication: "Renan défend une conception **élective** : la nation repose sur un passé partagé et le **consentement** présent de ses membres." },
+        { type: "vf", question: "Un enfant né à l'étranger d'un père ou d'une mère française est français dès sa naissance.", reponse: true, explication: "Vrai : c'est le **droit du sang** (article 18 du Code civil)." },
+        { type: "qcm", question: "Un enfant né en France de parents étrangers nés à l'étranger devient français…", choix: ["automatiquement à sa naissance", "jamais, sauf naturalisation", "à 18 ans, s'il réside en France et y a vécu au moins 5 ans depuis l'âge de 11 ans", "seulement s'il se marie avec un Français"], reponse: 2, explication: "C'est le **droit du sol différé** ; il peut l'anticiper dès 13 ans (avec ses parents) ou 16 ans (seul). Le **double droit du sol** ne s'applique que si l'un des parents est lui-même né en France." },
+        { type: "saisie", question: "Comment appelle-t-on la décision de l'État (par décret) qui accorde la nationalité française à un étranger qui en fait la demande ?", reponses: ["naturalisation", "la naturalisation"], explication: "La **naturalisation** suppose en général 5 ans de résidence et des conditions d'assimilation (langue, connaissance de la société française, adhésion aux valeurs de la République)." },
+        { type: "qcm", question: "Quel droit la citoyenneté européenne donne-t-elle à un Espagnol qui habite à Lyon ?", choix: ["Voter à l'élection présidentielle française", "Voter et être candidat aux élections municipales et européennes", "Devenir automatiquement français", "Voter aux élections législatives"], reponse: 1, explication: "Depuis le traité de **Maastricht** (1992), un citoyen européen vote aux **municipales** et aux **européennes** dans son pays de résidence ; les élections nationales restent réservées aux nationaux." },
+        { type: "vf", question: "L'histoire et la mémoire sont deux mots qui désignent exactement la même chose.", reponse: false, explication: "Faux : l'**histoire** est un savoir critique et vérifiable ; la **mémoire** est un souvenir vivant, affectif et sélectif, propre à un groupe." },
+        { type: "qcm", question: "Quelle loi de 2001 reconnaît la traite et l'esclavage comme crime contre l'humanité ?", choix: ["La loi Gayssot", "La loi Taubira", "La loi Pleven", "La loi Veil"], reponse: 1, explication: "La **loi Taubira** du 21 mai 2001 ; depuis 2006, le **10 mai** est la journée des mémoires de la traite, de l'esclavage et de leurs abolitions." },
+        { type: "saisie", question: "En quelle année Jacques Chirac reconnaît-il la responsabilité de l'État français dans la déportation des Juifs, lors de la commémoration de la rafle du Vél d'Hiv ?", reponses: ["1995"], explication: "Le **16 juillet 1995** : « la France, ce jour-là, accomplissait l'irréparable »." },
+        { type: "redaction", question: "**Analyse de document** : « Une nation est une âme, un principe spirituel. [...] L'une est la possession en commun d'un riche legs de souvenirs ; l'autre est le consentement actuel, le désir de vivre ensemble, la volonté de continuer à faire valoir l'héritage qu'on a reçu indivis. [...] L'existence d'une nation est (pardonnez-moi cette métaphore) un plébiscite de tous les jours. » (Ernest Renan, *Qu'est-ce qu'une nation ?*, conférence à la Sorbonne, 11 mars 1882). *Consigne* : présente le document, explique la conception de la nation qu'il défend et montre en quoi elle éclaire le droit français de la nationalité.", corrige: `**Présentation** : extrait d'une **conférence** prononcée à la Sorbonne le **11 mars 1882** par **Ernest Renan**, historien et philosophe. Le contexte est celui de l'après-1871 : l'Alsace-Moselle a été annexée par l'Allemagne, qui justifie cette annexion par la langue et la culture germaniques de ses habitants. Renan répond à cette conception.
+
+**I. Une nation fondée sur un héritage et une volonté**
+- Deux éléments : le passé (« un riche **legs de souvenirs** ») et le présent (« le **consentement actuel**, le désir de vivre ensemble »).
+- La nation n'est pas définie par la race, la langue ou la religion, mais par un « principe **spirituel** ».
+- La métaphore du « **plébiscite de tous les jours** » : la nation existe parce que ses membres choisissent sans cesse d'y appartenir. C'est la conception **élective**, opposée à la conception **ethnique** (Fichte) ; elle permet de dire que les Alsaciens, qui veulent rester français, sont français.
+
+**II. Une conception qui éclaire le droit français**
+- La nationalité française n'est pas réservée aux descendants de Français (**droit du sang**) : le **droit du sol** (double ou différé) intègre les enfants nés et élevés en France.
+- La **naturalisation** suppose l'adhésion aux principes et valeurs de la République et la connaissance de la langue et de l'histoire : on demande une **volonté** d'appartenir à la communauté nationale, et une cérémonie marque cet accueil.
+- Les **commémorations** et le **Panthéon** entretiennent le « legs de souvenirs » commun.
+
+**III. Limites et débats**
+- Renan reste un homme de son temps (il défend aussi la colonisation, en contradiction avec l'idée de consentement).
+- Le droit de la nationalité fait l'objet de débats (restrictions à Mayotte, conditions de naturalisation).
+
+**Conclusion** : ce texte fonde une conception **ouverte** de la nation, au cœur de l'identité républicaine : on appartient à la Nation française par l'adhésion à ses valeurs et à son histoire, et non par l'origine.` },
+      ],
+    },
+    {
+      id: "defense-securite-nationale",
+      titre: "Défendre la Nation : défense, sécurité nationale et résilience",
+      theme: "La République et la Nation (programme 2024)",
+      cours: `
+## Introduction
+Une démocratie doit pouvoir **se défendre** pour protéger ses citoyens, son territoire et ses valeurs. Aujourd'hui, les menaces ne sont plus seulement militaires : terrorisme, cyberattaques, manipulations de l'information, crises sanitaires ou climatiques. On parle donc de **sécurité nationale**, qui associe l'État, les armées et chaque citoyen.
+
+## 1. Définitions
+- **Défense** : ensemble des moyens destinés à protéger le territoire, la population et les intérêts d'un pays contre une agression armée.
+- **Sécurité nationale** (Code de la défense) : identifier l'ensemble des menaces et des risques qui peuvent affecter la vie de la Nation et y répondre ; elle inclut la défense, la sécurité intérieure, la sécurité civile, la sécurité économique et numérique.
+- **Souveraineté nationale** : capacité d'un peuple à décider librement de son destin, sans subir la volonté d'une puissance étrangère.
+- **Ingérence** : intervention d'un État étranger dans les affaires intérieures d'un autre pour l'influencer ou le déstabiliser.
+- **Résilience** : capacité d'une société à résister à un choc (attentat, catastrophe, cyberattaque, pandémie) et à retrouver un fonctionnement normal.
+
+## 2. L'organisation de la défense en France
+- **Le président de la République** est « le **chef des armées** » (article 15) et le garant de « l'indépendance nationale, de l'intégrité du territoire » (article 5) ; il décide de l'emploi de la **dissuasion nucléaire**.
+- **Le Premier ministre** est « responsable de la défense nationale » (article 21) ; le gouvernement « dispose de la force armée » (article 20).
+- **Le Parlement** autorise la déclaration de guerre (article 35) ; il est informé des interventions extérieures dans les 3 jours et doit autoriser leur prolongation au-delà de 4 mois ; il vote les **lois de programmation militaire** (LPM 2024-2030 : 413 milliards d'euros).
+- **Une armée professionnelle** depuis la suspension du service militaire obligatoire (loi de 1997, derniers appelés en 2001). Les citoyens restent concernés : **recensement** à 16 ans, **Journée défense et citoyenneté** (JDC), **réserve** opérationnelle et citoyenne (Garde nationale, 2016), sapeurs-pompiers volontaires, service national universel (SNU, expérimenté à partir de 2019).
+- **Alliances** : la France est membre de l'**OTAN** (1949 ; retour dans le commandement intégré en 2009) et de l'**Union européenne**, dont l'article 42-7 du traité prévoit une clause d'**assistance mutuelle**, invoquée pour la première fois par la France après les attentats du 13 novembre 2015.
+
+## 3. Des menaces multiples et « hybrides »
+- **Le retour de la guerre en Europe** : invasion de l'**Ukraine** par la Russie (24 février 2022) ; la Revue nationale stratégique (2022, actualisée en 2025) prévient d'un risque de guerre de haute intensité.
+- **Le terrorisme** : attentats de janvier 2015 (*Charlie Hebdo*, Hyper Cacher) et du **13 novembre 2015** (130 morts à Paris et Saint-Denis), Nice (14 juillet 2016). Réponses : plan **Vigipirate**, opération **Sentinelle** (militaires déployés sur le territoire depuis janvier 2015), renseignement.
+- **Les cybermenaces** : attaques contre des hôpitaux, des entreprises, des collectivités ; l'**ANSSI** (créée en 2009) protège les systèmes d'information de l'État et des opérateurs vitaux.
+- **Les guerres hybrides** : mélange d'actions militaires, cyber, économiques et informationnelles, souvent sans déclaration de guerre. Exemple : les **ingérences informationnelles** (faux sites imitant des médias, campagnes de comptes automatisés sur les réseaux sociaux, deepfakes) visant à diviser l'opinion ou à peser sur les élections. Le service **Viginum** (créé en 2021) détecte ces manipulations venues de l'étranger ; une loi de juillet 2024 renforce la prévention des ingérences étrangères.
+
+## 4. La résilience : l'affaire de tous
+- La sécurité nationale ne repose pas seulement sur les armées : services publics, entreprises, collectivités et citoyens doivent pouvoir faire face à une crise.
+- Chacun peut y contribuer : se former aux **gestes qui sauvent**, connaître les consignes en cas d'alerte, s'engager (réserve, pompiers volontaires, associations de secours), vérifier une information avant de la partager pour ne pas relayer une manipulation.
+- **Patriotisme constitutionnel** : notion popularisée par le philosophe allemand Jürgen **Habermas** ; l'attachement des citoyens ne porte pas sur une origine ou une culture, mais sur les **principes** de la Constitution démocratique (droits de l'homme, État de droit). Défendre la Nation, c'est d'abord défendre ces principes.
+
+>! **Exemple – une ingérence informationnelle** : en juin 2023, Viginum a révélé la campagne russe « RRN » (ou « Doppelgänger ») : de faux sites reproduisaient l'apparence de grands médias français (*Le Monde*, *Le Figaro*, *20 Minutes*…) pour diffuser de fausses informations sur la guerre en Ukraine. Réflexes du citoyen : vérifier l'adresse du site, la source, croiser avec des médias fiables, signaler.
+
+> **À retenir** : la défense de la Nation relève du président (chef des armées, dissuasion), du gouvernement et du Parlement (article 35, lois de programmation militaire). Les menaces sont désormais **hybrides** (guerre en Europe, terrorisme, cyberattaques, ingérences informationnelles). La **sécurité nationale** et la **résilience** reposent aussi sur l'engagement des citoyens (JDC, réserve, esprit critique), attachés aux principes de la Constitution (patriotisme constitutionnel).
+`,
+      exercices: [
+        { type: "qcm", question: "Selon l'article 15 de la Constitution, qui est le chef des armées ?", choix: ["Le Premier ministre", "Le ministre des Armées", "Le président de la République", "Le chef d'état-major"], reponse: 2, explication: "Le **président de la République** est le chef des armées ; le **Premier ministre** est responsable de la défense nationale (article 21)." },
+        { type: "vf", question: "En France, le service militaire obligatoire existe toujours pour tous les jeunes de 18 ans.", reponse: false, explication: "Faux : il est **suspendu** depuis la loi de 1997 (derniers appelés en 2001). Restent obligatoires le **recensement** à 16 ans et la **Journée défense et citoyenneté**." },
+        { type: "saisie", question: "Comment appelle-t-on la capacité d'une société à résister à un choc et à retrouver un fonctionnement normal ?", reponses: ["résilience", "la résilience", "resilience"], explication: "La **résilience** concerne l'État, les services publics, les entreprises et les citoyens." },
+        { type: "qcm", question: "Quel service français est chargé de détecter les ingérences numériques étrangères (manipulations de l'information) ?", choix: ["La CNIL", "Viginum", "L'Arcom", "Le CESE"], reponse: 1, explication: "**Viginum** (2021) détecte les campagnes de manipulation venues de l'étranger. La CNIL protège les données personnelles ; l'Arcom régule l'audiovisuel et le numérique." },
+        { type: "qcm", question: "Qu'est-ce qu'une guerre « hybride » ?", choix: ["Une guerre entre deux alliances", "Une guerre qui combine moyens militaires, cyberattaques, pressions économiques et manipulation de l'information, souvent sans déclaration de guerre", "Une guerre uniquement navale", "Une guerre civile"], reponse: 1, explication: "La guerre hybride brouille la frontière entre paix et guerre : elle vise à **déstabiliser** une société de l'intérieur." },
+        { type: "vf", question: "L'opération Sentinelle déploie des militaires sur le territoire national pour protéger la population contre le terrorisme.", reponse: true, explication: "Vrai : elle a été lancée en **janvier 2015**, après les attentats contre *Charlie Hebdo* et l'Hyper Cacher." },
+        { type: "saisie", question: "Quel article de la Constitution prévoit que la déclaration de guerre est autorisée par le Parlement ? (donne le numéro)", reponses: ["35", "article 35", "l'article 35", "art. 35", "art 35"], explication: "L'**article 35** ; depuis 2008, le Parlement est aussi informé des interventions extérieures et doit autoriser leur prolongation au-delà de quatre mois." },
+        { type: "qcm", question: "Que désigne le « patriotisme constitutionnel » (Habermas) ?", choix: ["L'attachement à une origine ethnique commune", "L'attachement des citoyens aux principes démocratiques de leur Constitution", "L'obligation de servir dans l'armée", "La fierté d'avoir une armée puissante"], reponse: 1, explication: "On est attaché à la communauté politique parce qu'elle garantit des **droits** et des **principes** (État de droit, libertés), non pour une identité d'origine." },
+        { type: "redaction", question: "Question argumentée : *La défense de la Nation est-elle seulement l'affaire des militaires ?*", corrige: `**Problématique** : face à des menaces de plus en plus diverses, la défense peut-elle reposer sur les seules armées, ou exige-t-elle l'engagement de toute la société ?
+
+**I. La défense militaire reste essentielle**
+- Institutions : le président, chef des armées (article 15) et garant de l'indépendance nationale (article 5), décide de la dissuasion nucléaire ; le Parlement autorise la guerre (article 35) et vote la LPM 2024-2030.
+- Une armée professionnelle, intégrée à des alliances (OTAN, clause d'assistance mutuelle de l'UE).
+- Le retour de la guerre en Europe (Ukraine, 2022) rappelle l'importance des moyens militaires.
+
+**II. Mais les menaces dépassent le champ militaire**
+- Terrorisme (13 novembre 2015) : police, renseignement, opération Sentinelle.
+- Cyberattaques contre des hôpitaux ou des collectivités : rôle de l'ANSSI.
+- Ingérences informationnelles et guerres hybrides : Viginum, loi de 2024 ; elles visent l'opinion publique elle-même.
+
+**III. La sécurité nationale, l'affaire de tous les citoyens**
+- Parcours de citoyenneté : recensement, JDC, réserve, pompiers volontaires, engagement associatif de secours.
+- **Résilience** : gestes qui sauvent, connaissance des consignes, esprit critique face à la désinformation.
+- **Patriotisme constitutionnel** : défendre la Nation, c'est défendre les principes démocratiques.
+
+**Conclusion** : la défense reste d'abord la mission des armées, mais la **sécurité nationale** est devenue l'affaire de tous : une démocratie résiste d'autant mieux que ses citoyens sont informés, engagés et attachés à ses valeurs.` },
       ],
     },
   ],

@@ -21,7 +21,7 @@ Tu passes le bac de français à la fin de la 1re. Il compte deux épreuves, cha
 3. **Le roman et le récit du Moyen Âge au XXIe siècle**
 4. **Le théâtre du XVIIe au XXIe siècle**
 
-Pour chaque objet d'étude, le programme national propose plusieurs **œuvres intégrales** (trois en voie générale), chacune associée à un **parcours** (un thème qui relie l'œuvre à d'autres textes) ; ton professeur en étudie une avec ta classe. Ce programme est **renouvelé régulièrement** : la liste officielle de ton année est publiée au Bulletin officiel ; **vérifie-la sur eduscol**. Pour l'année 2026-2027 (bac 2027), les douze œuvres et leurs parcours sont présentés dans le dernier chapitre, « Les œuvres au programme 2026-2027 ». Dans ce cours, les œuvres citées sont des **exemples classiques**, utiles quelle que soit l'année.
+Pour chaque objet d'étude, le programme national propose plusieurs **œuvres intégrales** (trois en voie générale), chacune associée à un **parcours** (un thème qui relie l'œuvre à d'autres textes) ; ton professeur en étudie une avec ta classe. Ce programme est **renouvelé régulièrement** : la liste officielle de ton année est publiée au Bulletin officiel ; **vérifie-la sur eduscol**. Pour l'année 2026-2027 (épreuves de juin 2027), les douze œuvres et leurs parcours sont présentés dans le dernier chapitre, « Les œuvres au programme 2026-2027 ». Dans ce cours, les œuvres citées sont des **exemples classiques**, utiles quelle que soit l'année.
 
 ## Ce que l'on attend de toi
 - **connaître** les œuvres étudiées en classe (intrigue, personnages, structure, enjeux) ;
@@ -34,6 +34,17 @@ Pour chaque objet d'étude, le programme national propose plusieurs **œuvres in
 ## Le récapitulatif pour l'oral
 Ton professeur établit un **récapitulatif** (descriptif) des textes et œuvres étudiés pendant l'année. L'examinateur y choisit **le texte** que tu expliques. Tu dois donc préparer **tous** les textes de la liste : relire, revoir l'explication, s'entraîner à la lecture à voix haute.
 
+>! **Ce que fixe le texte officiel** (note de service du 11 septembre 2026, BO spécial n° 4 du 17 septembre 2026, en vigueur dès l'année 2026-2027) :
+>! - en voie générale, chaque objet d'étude compte **au moins quatre textes** sur lesquels tu peux être interrogé : au moins **deux extraits de l'œuvre** et au moins **un extrait du parcours** ;
+>! - si le texte est long, l'examinateur choisit un passage d'**une vingtaine de lignes** à expliquer ;
+>! - la question de grammaire porte sur ce passage : **analyse syntaxique** d'une courte phrase ou d'une partie de phrase ;
+>! - pour la 2e partie, tu choisis une œuvre **étudiée en classe** ou proposée par ton professeur au titre des **lectures cursives obligatoires** ; ton exemplaire peut porter des passages surlignés et quelques annotations non rédigées (pour la 1re partie, les textes doivent être vierges de toute annotation).
+
+## La maîtrise de la langue
+À l'écrit, l'orthographe, la syntaxe, la précision du vocabulaire et la clarté de l'expression comptent dans la note : **une copie défaillante sur l'ensemble des aspects de la maîtrise de la langue ne peut pas avoir la moyenne**. Garde toujours 15 à 20 minutes pour te relire.
+
+>! **Vocabulaire officiel** : les épreuves que tu passes en juin 2027 sont dites « anticipées » ; les textes officiels les rattachent à la **session 2028** du baccalauréat (celle de ton année de terminale). On parle pourtant couramment du « bac de français 2027 ».
+
 ## Planifier ses révisions
 1. **Dès le début de l'année** : fiches par œuvre (résumé, personnages, thèmes, citations clés).
 2. **Chaque semaine** : une méthode (une introduction de commentaire, un plan de dissertation).
@@ -43,6 +54,7 @@ Ton professeur établit un **récapitulatif** (descriptif) des textes et œuvres
 > Écrit (4 h, coeff. 5) : commentaire OU dissertation. Pas de contraction de texte en voie générale.
 > Oral (20 min + 30 min de préparation, coeff. 5) : explication linéaire + grammaire (12 pts), puis œuvre choisie + entretien (8 pts).
 > Quatre objets d'étude ; les œuvres au programme changent : vérifie la liste officielle sur eduscol.
+> Récapitulatif (voie générale) : au moins 4 textes par objet d'étude (2 extraits de l'œuvre, 1 du parcours, au minimum).
 `,
       exercices: [
         { type: "qcm", question: "En voie générale, quels exercices sont proposés à l'écrit du bac de français ?", choix: ["La contraction de texte et l'essai", "Le commentaire ou la dissertation", "Le commentaire et la contraction", "La dissertation uniquement"], reponse: 1, explication: "En voie générale, l'élève choisit entre un **commentaire** et une **dissertation**. La contraction de texte suivie d'un essai est propre à la voie technologique." },
@@ -65,7 +77,9 @@ Je reprends le récapitulatif des textes de l'oral et la liste des œuvres au pr
 Je choisis l'œuvre que je présenterai, je prépare les raisons de mon choix, deux ou trois passages marquants et des liens avec d'autres œuvres.
 
 **4. Dernière semaine**
-Révision légère : relecture des fiches, une dernière simulation d'oral, repos et sommeil réguliers.` }
+Révision légère : relecture des fiches, une dernière simulation d'oral, repos et sommeil réguliers.` },
+        { type: "qcm", question: "En voie générale, combien de textes chaque objet d'étude du récapitulatif doit-il compter au minimum (note de service de septembre 2026) ?", choix: ["Deux", "Quatre", "Six", "Dix"], reponse: 1, explication: "Au moins **quatre** textes par objet d'étude : au minimum deux extraits de l'œuvre et un extrait du parcours. Ton professeur peut en prévoir davantage : il faut alors tous les préparer." },
+        { type: "vf", question: "Une copie très faible en orthographe et en syntaxe peut quand même obtenir la moyenne si les idées sont bonnes.", reponse: false, explication: "Le texte officiel est clair : une copie défaillante sur l'ensemble des aspects de la maîtrise de la langue **ne peut pas avoir la moyenne**. Le fond et la forme ne se séparent pas." }
       ]
     },
     {
@@ -219,7 +233,7 @@ La **césure** est une pause à l'intérieur du vers ; elle partage l'alexandrin
         { type: "redaction", question: "**Exercice d'analyse (type commentaire)** : Analyse la versification de cette strophe de Verlaine et montre ce qu'elle apporte au sens : « Les sanglots longs / Des violons / De l'automne / Blessent mon cœur / D'une langueur / Monotone. » (« Chanson d'automne », *Poèmes saturniens*, 1866).", corrige: `**Relevé formel**
 - Strophe de **six vers** (sizain) très courts : 4 / 4 / 3 / 4 / 4 / 3 syllabes (Les-san-glots-longs / Des-vi-o-lons (diérèse sur « vi-o-lons ») / De-l'au-tom-n(e) / Bles-sent-mon-cœur / D'u-ne-lan-gueur / Mo-no-to-n(e)).
 - Rimes **AAB CCB** : longs / violons, cœur / langueur (suivies), automne / monotone (qui encadrent la structure).
-- Sons : **assonances** en [on] et [an] (sanglots, longs, violons, langueur, monotone) ; allitération en [l] (les, longs, violons, l'automne, langueur).
+- Sons : **assonances** des voyelles nasales [on] et [an] (sanglots, longs, violons, langueur) et du son [o] (sanglots, automne, monotone) ; allitération en [l] (les, longs, violons, l'automne, langueur).
 
 **Interprétation**
 - La brièveté des vers et leur mètre court et impair créent une musique fragile, comme une chanson : c'est l'idéal de Verlaine (« De la musique avant toute chose »).
@@ -407,7 +421,7 @@ Le mot **roman** désigne d'abord, au Moyen Âge, un texte écrit en **langue ro
 
 | Époque | Tendances | Repères |
 |---|---|---|
-| **Moyen Âge** | romans de chevalerie en vers, merveilleux, quête, amour courtois | Chrétien de Troyes, *Yvain*, *Perceval* (XIIe s.) ; *Tristan et Iseut* |
+| **Moyen Âge** | romans de chevalerie en vers, merveilleux, quête, amour courtois | Chrétien de Troyes, *Lancelot ou le Chevalier de la charrette*, *Yvain*, *Perceval* (XIIe s.) ; *Tristan et Iseut* |
 | **XVIe** | récit humaniste et comique | Rabelais, *Gargantua* (1534) |
 | **XVIIe** | roman précieux, roman comique, **roman d'analyse** (psychologie, passion contre devoir) | Mme de La Fayette, *La Princesse de Clèves* (1678) |
 | **XVIIIe** | roman **épistolaire**, roman-mémoires, roman libertin, conte philosophique | Prévost, *Manon Lescaut* (1731) ; Rousseau, *La Nouvelle Héloïse* (1761) ; Laclos, *Les Liaisons dangereuses* (1782) |
@@ -809,7 +823,7 @@ Orthographe, accords, citations exactes, titres d'œuvres soulignés (à la main
         { type: "qcm", question: "Laquelle de ces problématiques est la mieux formulée pour un commentaire ?", choix: ["Qui est Rimbaud ?", "Que raconte ce poème ?", "Comment le poète transforme-t-il un paysage paisible en dénonciation de la guerre ?", "Ce poème est-il beau ?"], reponse: 2, explication: "Une bonne problématique interroge le fonctionnement du texte (« comment ») et sa visée (dénonciation)." },
         { type: "redaction", question: "**Sujet type bac (commentaire)** : Rédige l'introduction et le plan détaillé du commentaire du sonnet « Le Dormeur du val » de Rimbaud (1870) : « C'est un trou de verdure où chante une rivière / Accrochant follement aux herbes des haillons / D'argent ; où le soleil, de la montagne fière, / Luit : c'est un petit val qui mousse de rayons. // Un soldat jeune, bouche ouverte, tête nue, / Et la nuque baignant dans le frais cresson bleu, / Dort ; il est étendu dans l'herbe, sous la nue, / Pâle dans son lit vert où la lumière pleut. // Les pieds dans les glaïeuls, il dort. Souriant comme / Sourirait un enfant malade, il fait un somme : / Nature, berce-le chaudement : il a froid. // Les parfums ne font pas frissonner sa narine ; / Il dort dans le soleil, la main sur sa poitrine / Tranquille. Il a deux trous rouges au côté droit. »", corrige: `**Introduction**
 *Amorce* : En 1870, la guerre franco-prussienne bouleverse la France ; le jeune Arthur Rimbaud, à peine âgé de seize ans, compose alors plusieurs poèmes de révolte.
-*Présentation* : « Le Dormeur du val », sonnet en alexandrins écrit en octobre 1870 et recueilli dans les *Cahiers de Douai*, semble décrire un jeune soldat endormi dans un paysage paisible ; mais le dernier vers révèle qu'il est mort.
+*Présentation* : « Le Dormeur du val », sonnet en alexandrins écrit en octobre 1870 et recueilli dans le *Cahier de Douai*, semble décrire un jeune soldat endormi dans un paysage paisible ; mais le dernier vers révèle qu'il est mort.
 *Problématique* : Comment Rimbaud transforme-t-il le tableau d'un paysage harmonieux en une dénonciation saisissante de la guerre ?
 *Annonce du plan* : Nous étudierons d'abord le tableau idyllique d'une nature vivante et protectrice, puis nous montrerons comment le poème construit une révélation tragique qui accuse la guerre.
 
@@ -1186,7 +1200,7 @@ Verbe au participe avec son **propre sujet**, sans subordonnant ; fonction de co
       theme: "Méthodes de l'oral",
       cours: `
 ## La seconde partie de l'oral (8 points, environ 8 minutes)
-Après l'explication et la question de grammaire, tu **présentes une œuvre que tu as choisie** parmi celles étudiées en classe ou lues en lecture cursive pendant l'année (elle figure sur ton récapitulatif). L'examinateur engage ensuite un **entretien** avec toi.
+Après l'explication et la question de grammaire, tu **présentes une œuvre que tu as choisie** parmi celles étudiées en classe ou proposées par ton professeur au titre des lectures cursives obligatoires (elle figure dans la partie individuelle de ton récapitulatif). Tu as ton exemplaire avec toi : des passages surlignés et quelques annotations non rédigées sont tolérés. L'examinateur engage ensuite un **entretien** avec toi.
 
 Ce n'est **pas** une nouvelle explication de texte : on évalue ta capacité à **rendre compte d'une lecture personnelle**, à **justifier tes choix** et à **dialoguer**.
 
@@ -1257,14 +1271,14 @@ L'examinateur te pose des questions pour **approfondir** : pourquoi ce choix ? Q
       theme: "Préparer le bac",
       cours: `
 ## Le programme national de l'année
-Pour l'année 2026-2027 (bac 2027), la note de service publiée au Bulletin officiel n° 30 du 24 juillet 2025 fixe **douze œuvres** pour la voie générale, trois par objet d'étude. Ton professeur en choisit **une par objet d'étude** (soit quatre œuvres dans l'année), avec son **parcours**. Par rapport à l'année précédente, seul l'objet d'étude **roman et récit** change.
+Pour l'année 2026-2027 (épreuves anticipées de juin 2027, rattachées par les textes officiels à la session 2028 du bac), la note de service du 4 juillet 2025, publiée au Bulletin officiel n° 30 du 24 juillet 2025, fixe **douze œuvres** pour la voie générale, trois par objet d'étude. Ton professeur en choisit **une par objet d'étude** (soit quatre œuvres dans l'année), avec son **parcours**. Le programme est renouvelé par quart chaque année : par rapport à 2025-2026, seul l'objet d'étude **roman et récit** change ; les neuf autres œuvres sont maintenues.
 
 | Objet d'étude | Œuvre | Parcours |
 |---|---|---|
 | Poésie | Rimbaud, *Cahier de Douai* | Émancipations créatrices |
 | Poésie | Ponge, *La rage de l'expression* | Dans l'atelier du poète |
 | Poésie | Hélène Dorion, *Mes forêts* | La poésie, la nature, l'intime |
-| Littérature d'idées | La Boétie, *Discours de la servitude volontaire* | Défendre et entretenir la liberté |
+| Littérature d'idées | La Boétie, *Discours de la servitude volontaire* | « Défendre » et « entretenir » la liberté |
 | Littérature d'idées | Fontenelle, *Entretiens sur la pluralité des mondes* | Le goût de la science |
 | Littérature d'idées | Françoise de Graffigny, *Lettres d'une Péruvienne* | « Un nouvel univers s'est offert à mes yeux » |
 | Roman et récit | Chrétien de Troyes, *Le Chevalier de la charrette* | Le roman et l'invention de l'amour |
@@ -1274,11 +1288,18 @@ Pour l'année 2026-2027 (bac 2027), la note de service publiée au Bulletin offi
 | Théâtre | Musset, *On ne badine pas avec l'amour* | Les jeux du cœur et de la parole |
 | Théâtre | Nathalie Sarraute, *Pour un oui ou pour un non* | Théâtre et dispute |
 
+## Les précisions du Bulletin officiel (voie générale)
+- **Rimbaud** : le *Cahier de Douai* (aussi appelé *Cahiers de Douai*, « Recueil Demeny » ou *Recueil de Douai*) : les **22 poèmes**, de « Première soirée » à « Ma Bohème (Fantaisie) ».
+- **Graffigny** : on étudie aussi des éléments de la **seconde édition augmentée de 1752** : l'« Introduction historique » et les lettres **XXVIII, XXIX, XXX et XXXIV**.
+- **Chrétien de Troyes** : le roman est lu en **édition bilingue** (ancien français et traduction en regard).
+- **Ponge** et **Fontenelle** : en voie générale, l'œuvre est au programme **en entier**. Les limites que tu peux lire ailleurs (pour Ponge, de « Berges de la Loire » à « Le mimosa » inclus ; pour Fontenelle, les trois premiers soirs) concernent **seulement la voie technologique**.
+- La voie technologique a les mêmes œuvres, sauf en roman : *Thérèse Raquin* de Zola (parcours « anatomie des passions ») y remplace *Pot-Bouille*, et le parcours du *Chevalier de la charrette* y est « héroïsme et amour ».
+
 >! **Attention** : à l'écrit, le sujet de **dissertation** porte sur l'une de ces œuvres et son parcours. Le **commentaire**, lui, porte sur un texte que tu ne connais pas. À l'oral, l'explication porte sur un texte de ton récapitulatif. Vérifie toujours auprès de ton professeur les œuvres retenues pour ta classe.
 
 ## Poésie du XIXe au XXIe siècle
 - **Rimbaud, *Cahier de Douai*** (1870) : vingt-deux poèmes que Rimbaud, âgé de seize ans, recopie à Douai à l'automne 1870 et confie au poète Paul Demeny. Fugues et liberté (« Ma Bohème », « Sensation »), éveil de la sensualité, adolescence (« Roman » : « On n'est pas sérieux, quand on a dix-sept ans. »), révolte contre la guerre (« Le Dormeur du val », « Le Mal ») et contre Napoléon III (« Rages de Césars »), satire des bourgeois (« À la musique »). *Émancipations créatrices* : le jeune poète s'affranchit de sa famille, de l'école, des conventions, et bouscule le sonnet de l'intérieur (rejets, mots familiers, ironie).
-- **Ponge, *La rage de l'expression*** (1952) : textes écrits entre 1938 et 1944 (« Berges de la Loire », « La guêpe », « Notes prises pour un oiseau », « L'œillet », « Le carnet du bois de pins », « Le mimosa »...). Ponge publie ses **brouillons**, ses notes datées, ses essais successifs : le poème se montre **en train de se faire**. *Dans l'atelier du poète* : la poésie comme travail, recherche obstinée du mot juste pour dire l'objet.
+- **Ponge, *La rage de l'expression*** (1952) : sept textes écrits entre 1938 et 1944, dans cet ordre : « Berges de la Loire », « La guêpe », « Notes prises pour un oiseau », « L'œillet », « Le mimosa », « Le carnet du bois de pins », « La Mounine ». Ponge publie ses **brouillons**, ses notes datées, ses essais successifs : le poème se montre **en train de se faire**. *Dans l'atelier du poète* : la poésie comme travail, recherche obstinée du mot juste pour dire l'objet.
 - **Hélène Dorion, *Mes forêts*** (2021) : recueil de la poétesse québécoise. La forêt y est à la fois un paysage réel, menacé, et un miroir de l'intime : mémoire, corps, temps qui passe, fragilité du vivant. *La poésie, la nature, l'intime* : le poème relie le moi et le monde naturel (on peut le rapprocher du romantisme, mais aussi de la conscience écologique contemporaine).
 
 ## Littérature d'idées du XVIe au XVIIIe siècle
@@ -1332,7 +1353,105 @@ Pour l'année 2026-2027 (bac 2027), la note de service publiée au Bulletin offi
 2. Le spectateur accepte d'être trompé : le théâtre est une illusion consentie (lien avec le parcours « Mensonge et comédie »).
 3. Ouverture du parcours : d'autres comédies où le mensonge mène l'action (les fourberies de Scapin chez Molière, les ruses de Dubois dans *Les Fausses Confidences* de Marivaux).
 
-**Conclusion** : Corneille ne se contente pas de condamner le mensonge ; il le met en scène avec une telle virtuosité qu'il en fait un éloge paradoxal de l'invention et du théâtre. Ouverture : *L'Illusion comique* (1636), où Corneille faisait déjà l'éloge du théâtre comme illusion.` }
+**Conclusion** : Corneille ne se contente pas de condamner le mensonge ; il le met en scène avec une telle virtuosité qu'il en fait un éloge paradoxal de l'invention et du théâtre. Ouverture : *L'Illusion comique* (1636), où Corneille faisait déjà l'éloge du théâtre comme illusion.` },
+        { type: "qcm", question: "En voie générale, quelle partie de *La rage de l'expression* de Ponge est au programme ?", choix: ["Seulement de « Berges de la Loire » à « Le mimosa »", "Seulement « Le carnet du bois de pins »", "L'œuvre entière", "Seulement les textes sur les animaux"], reponse: 2, explication: "En voie générale, l'œuvre est au programme **en entier**. La limite « de “Berges de la Loire” à “Le mimosa” inclus » ne concerne que la voie technologique (de même que les trois premiers soirs pour Fontenelle)." },
+        { type: "vf", question: "Pour les *Lettres d'une Péruvienne*, le programme inclut aussi des éléments de l'édition augmentée de 1752.", reponse: true, explication: "Le BO ajoute l'« Introduction historique » et les lettres XXVIII, XXIX, XXX et XXXIV de la seconde édition (1752)." },
+        { type: "redaction", question: "**Dissertation (sujet type bac, poésie)** : Rimbaud, *Cahier de Douai*, parcours « Émancipations créatrices ». « Le *Cahier de Douai* n'est-il que l'œuvre d'un adolescent révolté ? » Rédige l'introduction, le plan détaillé et la conclusion.", corrige: `**Introduction**
+*Amorce* : À l'automne 1870, en pleine guerre franco-prussienne, Arthur Rimbaud, seize ans, fugue de Charleville ; à Douai, il recopie vingt-deux poèmes qu'il confie au poète Paul Demeny.
+*Analyse du sujet* : l'« adolescent révolté » renvoie à l'image d'un poète qui refuse sa famille, sa ville, l'école, l'Empire et la religion ; « n'... que » invite à se demander si l'œuvre se réduit à ce refus, ou si la révolte devient autre chose : une joie de la liberté et une invention poétique.
+*Problématique* : dans le *Cahier de Douai*, la révolte n'est-elle qu'un refus, ou devient-elle le moteur d'une émancipation heureuse et d'une création poétique nouvelle ?
+*Annonce du plan* : nous verrons d'abord que le recueil est bien celui d'un adolescent en révolte, puis qu'il chante aussi la liberté conquise, enfin que cette émancipation est avant tout celle d'un poète qui invente sa propre voix.
+
+**I. Une poésie de la révolte adolescente**
+1. Contre la société bourgeoise : « À la musique » fait la satire des bourgeois de Charleville réunis sur la place de la Gare, pendant que le jeune poète suit des yeux les jeunes filles.
+2. Contre la guerre et l'Empire : « Le Dormeur du val » cache jusqu'au dernier vers la mort d'un jeune soldat ; « Rages de Césars » montre Napoléon III vaincu ; « Le Mal » montre des bataillons entiers qui s'écroulent dans le feu sous les railleries du « Roi ».
+3. Contre la religion : dans « Le Mal », Dieu « rit aux nappes damassées / Des autels » et ne se réveille que lorsque des mères en pleurs lui donnent « un gros sou » ; « Le Châtiment de Tartufe » dénonce l'hypocrite dévot.
+
+**II. Mais la révolte se transforme en joie de la liberté**
+1. La fugue et la bohème : « Ma Bohème » (« Je m'en allais, les poings dans mes poches crevées ») ; « Au Cabaret-Vert » célèbre le plaisir simple d'une halte après la marche.
+2. L'éveil des sens et de l'amour : « Sensation » (« Par les soirs bleus d'été, j'irai dans les sentiers »), « Première soirée », « Roman » (« On n'est pas sérieux, quand on a dix-sept ans »), avec humour et tendresse.
+3. Une communion avec la nature : le poète va « Par la Nature, — heureux comme avec une femme » (« Sensation ») ; « Soleil et Chair » rêve d'un monde païen et libre.
+
+**III. Surtout, une émancipation créatrice : le poète invente sa voix**
+1. Rimbaud reprend les formes héritées (sonnet, alexandrin) pour les bousculer : rejets inattendus (« Dort », « Tranquille » dans « Le Dormeur du val »), mots familiers et prosaïques.
+2. Il parodie les modèles : « Vénus Anadyomène » renverse le mythe de la beauté née des eaux en un corps laid et vulgaire ; dans « Ma Bohème », la lyre du poète devient les « élastiques / De [ses] souliers blessés » : l'ironie désacralise le poète inspiré.
+3. Le mélange des registres (lyrique, satirique, comique, pathétique) annonce la lettre « du Voyant » (1871) : il faut « trouver une langue ».
+
+**Conclusion**
+*Bilan* : le *Cahier de Douai* est bien le livre d'un adolescent en révolte, mais ce refus est le point de départ d'une liberté joyeuse et, surtout, d'une émancipation poétique : Rimbaud s'y libère des règles autant que de sa famille.
+*Ouverture* : cette émancipation se radicalise dans *Une saison en enfer* (1873) et les *Illuminations*, où Rimbaud abandonne le vers régulier.` },
+        { type: "redaction", question: "**Dissertation (sujet type bac, littérature d'idées)** : La Boétie, *Discours de la servitude volontaire*, parcours « “Défendre” et “entretenir” la liberté ». « Le *Discours de la servitude volontaire* désespère-t-il de la liberté ? » Rédige l'introduction, le plan détaillé et la conclusion.", corrige: `**Introduction**
+*Amorce* : Vers 1548, un jeune humaniste d'à peine dix-huit ans, Étienne de La Boétie, pose une question qui traversera les siècles : pourquoi des millions d'hommes obéissent-ils à un seul ?
+*Analyse du sujet* : « désespérer de la liberté », c'est penser que les hommes ne pourront jamais être libres. Le constat de La Boétie est sombre (la servitude est générale, et voulue) ; mais un texte qui explique la servitude peut aussi chercher à la combattre.
+*Problématique* : en montrant que la servitude est volontaire, La Boétie condamne-t-il les hommes à l'obéissance, ou leur montre-t-il au contraire que la liberté est à portée de main, à condition de la défendre et de l'entretenir ?
+*Annonce du plan* : nous verrons que le constat est d'abord accablant, puis que la liberté reste naturelle et accessible, enfin que le *Discours* invite à la préserver par la lucidité et l'amitié.
+
+**I. Un constat accablant : les hommes consentent à leur servitude**
+1. Le paradoxe central : un tyran seul n'a de puissance que celle qu'on lui donne ; pourtant les peuples le servent, et même avec zèle.
+2. La force de la **coutume** : ceux qui naissent serfs ne connaissent pas la liberté et ne la regrettent pas ; c'est la première raison de la servitude volontaire.
+3. Les **divertissements** et la **chaîne des complices** : jeux, spectacles et festins sont « les appâts de la servitude » (exemple de Cyrus, qui affaiblit les Lydiens par les tavernes et les jeux) ; autour du tyran, quelques favoris en tiennent des centaines, qui en tiennent des milliers, tous intéressés à la tyrannie.
+
+**II. Mais la liberté est naturelle, et donc toujours possible**
+1. La nature a fait les hommes égaux et « compagnons » ; même les bêtes résistent à la captivité.
+2. Le remède est simple et sans violence : « Soyez résolus de ne servir plus, et vous voilà libres. » Il suffit de cesser de soutenir le tyran pour qu'il s'effondre, comme un colosse dont on a retiré la base.
+3. Le registre oratoire (apostrophes au peuple, questions rhétoriques, indignation) ne se contente pas de constater : il cherche à réveiller le lecteur.
+
+**III. Le *Discours* appelle à défendre et à entretenir la liberté**
+1. La liberté se garde par l'esprit : certains hommes, nourris par l'étude et la mémoire du passé, n'oublient jamais ce qu'est la liberté.
+2. Elle se garde par l'**amitié**, qui n'existe qu'entre égaux : autour du tyran, il n'y a que des complices qui se craignent, non des amis. L'amitié de Montaigne et de La Boétie en est le modèle.
+3. Un texte qui continue d'agir : Rousseau (« L'homme est né libre, et partout il est dans les fers », *Du contrat social*, 1762), puis les écrivains engagés (Éluard, « Liberté », 1942) reprennent ce combat (lien avec le parcours).
+
+**Conclusion**
+*Bilan* : le constat de La Boétie est sombre, mais ce n'est pas un texte du désespoir : en révélant que la servitude est voulue, il montre qu'elle peut être défaite, et que la liberté exige une vigilance de chaque instant.
+*Ouverture* : la question reste actuelle : la servitude volontaire peut aussi prendre la forme de la passivité face aux puissances de l'argent ou des écrans.` },
+        { type: "redaction", question: "**Dissertation (sujet type bac, roman)** : Chrétien de Troyes, *Le Chevalier de la charrette*, parcours « Le roman et l'invention de l'amour ». « Dans *Le Chevalier de la charrette*, l'amour grandit-il le chevalier ou l'humilie-t-il ? » Rédige l'introduction, le plan détaillé et la conclusion.", corrige: `**Introduction**
+*Amorce* : Vers 1177-1181, à la demande de Marie de Champagne, Chrétien de Troyes compose un roman en octosyllabes dont le héros, Lancelot, accepte de monter dans une charrette réservée aux criminels pour retrouver la reine Guenièvre.
+*Analyse du sujet* : « grandir », c'est rendre plus fort, plus héroïque ; « humilier », c'est abaisser, couvrir de honte. Le sujet oppose deux effets de l'amour sur le héros.
+*Problématique* : l'amour de Lancelot pour la reine est-il la source de sa grandeur héroïque, ou le soumet-il à des épreuves humiliantes, et que nous dit cette tension de l'amour inventé par le roman médiéval ?
+*Annonce du plan* : nous verrons que l'amour rend Lancelot capable d'exploits surhumains, qu'il l'expose pourtant à la honte et à la soumission, et que cette contradiction définit un idéal amoureux nouveau.
+
+**I. L'amour, source d'exploits héroïques**
+1. Pour délivrer la reine enlevée par Méléagant, Lancelot affronte les épreuves les plus terribles : il traverse le **pont de l'épée**, se blessant aux mains et aux pieds.
+2. Il triomphe dans les combats, notamment contre Méléagant : l'amour décuple sa force ; la seule pensée de la reine le rend invincible.
+3. L'amour l'élève au-dessus des autres chevaliers : Gauvain choisit le pont sous l'eau, qui semble moins dangereux, et manque de s'y noyer.
+
+**II. Mais l'amour l'expose à l'humiliation et à la soumission**
+1. La **charrette d'infamie** : Lancelot y monte après une courte hésitation entre Raison et Amour ; tous se moquent de lui ensuite.
+2. La reine lui fait payer cette hésitation par un accueil glacial : l'amant doit obéir sans réfléchir.
+3. Au tournoi, sur l'ordre de Guenièvre, il accepte de se battre « au pire », passant pour un lâche, avant qu'elle ne l'autorise à combattre « au mieux » ; l'extase devant un peigne où restent des cheveux de la reine le rend presque ridicule.
+
+**III. Une contradiction qui invente un nouvel idéal amoureux**
+1. Dans la *fin'amor* (amour courtois), l'humilité du chevalier devant sa dame est une forme de grandeur : servir, c'est mériter.
+2. L'amour devient une sorte de religion : Lancelot vénère la reine comme une sainte ; c'est l'amour qui donne sens à la prouesse, non l'inverse.
+3. Ce modèle traverse la littérature (lien avec le parcours) : *Tristan et Iseut*, mais aussi, par contraste, *La Princesse de Clèves* (1678), où l'héroïne renonce à la passion.
+
+**Conclusion**
+*Bilan* : l'amour humilie Lancelot aux yeux du monde, mais c'est cette humiliation acceptée qui fait sa grandeur : le roman de Chrétien invente un héros dont la valeur se mesure à la force de son amour.
+*Ouverture* : on peut confronter ce modèle aux romans de chevalerie parodiés par Cervantès dans *Don Quichotte* (1605-1615).` },
+        { type: "redaction", question: "**Dissertation (sujet type bac, roman)** : Zola, *Pot-Bouille*, parcours « Dévoiler les rouages de la société ». « *Pot-Bouille* n'est-il qu'une satire de la bourgeoisie ? » Rédige l'introduction, le plan détaillé et la conclusion.", corrige: `**Introduction**
+*Amorce* : En 1882, avec *Pot-Bouille*, dixième roman des *Rougon-Macquart*, Zola fait entrer le lecteur dans un immeuble bourgeois de la rue de Choiseul, à Paris, sous le Second Empire.
+*Analyse du sujet* : la « satire » est une critique moqueuse ; « n'... que » invite à se demander si le roman se limite à ridiculiser les bourgeois, ou s'il démonte aussi, avec la méthode naturaliste, les mécanismes d'une société.
+*Problématique* : le roman de Zola se contente-t-il de se moquer de la bourgeoisie, ou en révèle-t-il les rouages cachés pour en faire une critique plus profonde ?
+*Annonce du plan* : nous verrons que le roman est une satire féroce, puis qu'il dévoile en réalité les mécanismes de cette société, enfin qu'il atteint une portée plus large, entre comédie noire et vérité humaine.
+
+**I. Une satire féroce de la bourgeoisie**
+1. La façade et l'envers : l'immeuble « respectable », son grand escalier et son concierge, M. Gourd, gardien des apparences, cachent adultères, mesquineries et hypocrisie.
+2. Les mariages d'argent : Mme Josserand pousse sans relâche ses filles à trouver un mari riche ; Berthe épouse Auguste Vabre.
+3. Des personnages ridicules ou odieux : querelle sordide d'héritage chez les Vabre, Duveyrier, magistrat austère qui entretient une maîtresse.
+
+**II. Mais le roman démonte les rouages d'une société**
+1. L'argent gouverne tout : dots, héritages, ambitions ; Octave Mouret, venu de Plassans, se sert des femmes pour réussir.
+2. Les domestiques révèlent l'envers du décor : dans la cour de service, les bonnes échangent les secrets de leurs maîtres ; leur exploitation (Adèle, qui accouche seule dans sa chambre de bonne) montre la violence sociale cachée.
+3. Les institutions complices : la religion (l'abbé Mauduit étouffe les scandales) et la morale bourgeoise servent surtout à sauver les apparences. L'immeuble devient le **microcosme** d'une société entière, observée avec la méthode naturaliste.
+
+**III. Une portée plus large : comédie noire et vérité humaine**
+1. Le comique : le roman emprunte au vaudeville (adultère découvert, duel qui n'a jamais lieu) ; le rire rend la critique plus mordante.
+2. Le titre : la « pot-bouille », c'est la cuisine ordinaire, le quotidien médiocre du ménage ; le roman montre la banalité du mal social.
+3. Rien ne change à la fin : le cycle des apparences recommence ; Octave réussit en épousant Mme Hédouin (suite dans *Au Bonheur des Dames*, 1883). La critique dépasse la bourgeoisie du Second Empire et vise toute société de façade (lien avec le parcours : Balzac, *Le Père Goriot* ; Maupassant, *Bel-Ami*).
+
+**Conclusion**
+*Bilan* : *Pot-Bouille* est bien une satire, mais une satire qui démonte méthodiquement les mécanismes de l'argent, du mariage et de l'hypocrisie : le rire y sert le dévoilement naturaliste.
+*Ouverture* : au cinéma, Julien Duvivier a adapté le roman en 1957, avec Gérard Philipe dans le rôle d'Octave.` }
       ]
     },
   ],

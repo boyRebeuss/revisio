@@ -261,7 +261,9 @@ async function vueChapitre(idM, idC, onglet = "cours") {
   const c = data.chapitres[idx];
   if (!c) return rediriger(`#/m/${idM}`);
   const cle = `${p.niveau}/${idM}/${c.id}`;
-  const ctx = { niveau: NIVEAUX[p.niveau].long, matiere: m.nom, langue: idM === "francais" ? "fr" : idM === "allemand" ? "de" : false };
+  // Accents significatifs en français et en espagnol (está ≠ esta), umlauts en allemand
+  const langue = idM === "francais" || idM === "espagnol" ? "fr" : idM === "allemand" ? "de" : false;
+  const ctx = { niveau: NIVEAUX[p.niveau].long, matiere: m.nom, langue };
   const suivant = data.chapitres[idx + 1];
 
   const onglets = [

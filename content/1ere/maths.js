@@ -342,7 +342,7 @@ Somme de termes consécutifs : S = premier terme × (1 − q^(nombre de termes))
         },
         {
           type: "saisie",
-          question: "Un salaire de 2 000 € augmente de 2 % par an. Quel est le salaire au bout de 3 ans (arrondi au centime, en €) ?",
+          question: "(Calculatrice) Un salaire de 2 000 € augmente de 2 % par an. Quel est le salaire au bout de 3 ans (arrondi au centime, en €) ?",
           reponses: ["2122,42", "2122.42", "2 122,42", "2122,42 €"],
           explication: "Augmenter de 2 %, c'est multiplier par 1,02. s₃ = 2 000 × 1,02³ = 2 000 × 1,061208 = 2 122,416 ≈ 2 122,42 €.",
         },
@@ -354,7 +354,7 @@ Somme de termes consécutifs : S = premier terme × (1 − q^(nombre de termes))
         },
         {
           type: "redaction",
-          question: "On propose à Inès deux contrats pour un emploi de 12 mois.\n• Contrat A : 1 000 € le premier mois, puis une augmentation de 50 € chaque mois.\n• Contrat B : 1 000 € le premier mois, puis une augmentation de 4 % chaque mois.\nOn note aₙ et bₙ les salaires du n-ième mois (a₁ = b₁ = 1 000).\n1) Précise la nature des suites (aₙ) et (bₙ) et exprime aₙ et bₙ en fonction de n.\n2) Calcule le salaire du 12e mois dans chaque cas (arrondi à l'euro).\n3) Quel contrat rapporte le plus sur les 12 mois ? Justifie par des calculs de sommes.",
+          question: "(Calculatrice) On propose à Inès deux contrats pour un emploi de 12 mois.\n• Contrat A : 1 000 € le premier mois, puis une augmentation de 50 € chaque mois.\n• Contrat B : 1 000 € le premier mois, puis une augmentation de 4 % chaque mois.\nOn note aₙ et bₙ les salaires du n-ième mois (a₁ = b₁ = 1 000).\n1) Précise la nature des suites (aₙ) et (bₙ) et exprime aₙ et bₙ en fonction de n.\n2) Calcule le salaire du 12e mois dans chaque cas (arrondi à l'euro).\n3) Quel contrat rapporte le plus sur les 12 mois ? Justifie par des calculs de sommes.",
           corrige: `1) Chaque mois on ajoute 50 € : (aₙ) est **arithmétique** de raison 50, aₙ = 1 000 + 50(n − 1).
 Chaque mois on multiplie par 1,04 : (bₙ) est **géométrique** de raison 1,04, bₙ = 1 000 × 1,04ⁿ⁻¹.
 
@@ -851,7 +851,7 @@ Les fonctions x ↦ e^(kx) modélisent des phénomènes à croissance (k > 0) ou
         },
         {
           type: "redaction",
-          question: "Soit f la fonction définie sur ℝ par f(x) = (2x − 3)eˣ.\n1) Montre que f′(x) = (2x − 1)eˣ.\n2) Étudie le signe de f′(x) et dresse le tableau de variations de f.\n3) Donne la valeur exacte du minimum de f, puis une valeur approchée au centième.\n4) Résous l'équation f(x) = 0.",
+          question: "(Calculatrice pour la valeur approchée du 3)) Soit f la fonction définie sur ℝ par f(x) = (2x − 3)eˣ.\n1) Montre que f′(x) = (2x − 1)eˣ.\n2) Étudie le signe de f′(x) et dresse le tableau de variations de f.\n3) Donne la valeur exacte du minimum de f, puis une valeur approchée au centième.\n4) Résous l'équation f(x) = 0.",
           corrige: `1) f = u × v avec u(x) = 2x − 3 (u′ = 2) et v(x) = eˣ (v′ = eˣ).
 f′(x) = 2eˣ + (2x − 3)eˣ = (2 + 2x − 3)eˣ = **(2x − 1)eˣ**.
 
@@ -1115,7 +1115,7 @@ Donc **BAC = 45°** (ce qui est cohérent avec un triangle rectangle isocèle).`
         },
         {
           type: "redaction",
-          question: "Un triangle a des côtés de longueurs 4 cm, 5 cm et 6 cm. Calcule la mesure, arrondie au dixième de degré, de son plus grand angle.",
+          question: "(Calculatrice) Un triangle a des côtés de longueurs 4 cm, 5 cm et 6 cm. Calcule la mesure, arrondie au dixième de degré, de son plus grand angle.",
           corrige: `Le plus grand angle est opposé au plus grand côté (6 cm). Notons a = 6, b = 4, c = 5 et Â l'angle opposé à a.
 
 Al-Kashi : a² = b² + c² − 2bc cos Â, donc
@@ -1313,7 +1313,7 @@ Pour la répétition de plusieurs épreuves à deux issues (épreuves de Bernoul
           question: "Si P(A) ≠ 0, la probabilité de B sachant A est :",
           choix: ["P(A) × P(B)", "P(A ∩ B)/P(A)", "P(A ∩ B)/P(B)", "P(A) + P(B)"],
           reponse: 1,
-          explication: "Par définition, P_A(B) = P(A ∩ B)/P(A). La troisième proposition est P_B(A).",
+          explication: "Par définition, P_A(B) = P(A ∩ B)/P(A). P(A ∩ B)/P(B) correspond à P_B(A), et P(A) × P(B) n'est égal à P(A ∩ B) que si A et B sont indépendants.",
         },
         {
           type: "saisie",
@@ -1354,7 +1354,7 @@ Pour la répétition de plusieurs épreuves à deux issues (épreuves de Bernoul
         },
         {
           type: "redaction",
-          question: "Une maladie touche 2 % d'une population. Un test de dépistage donne :\n• un résultat positif pour 95 % des personnes malades ;\n• un résultat positif pour 3 % des personnes non malades.\nOn choisit une personne au hasard. On note M : « la personne est malade » et T : « le test est positif ».\n1) Construis un arbre pondéré.\n2) Calcule P(M ∩ T) puis P(T).\n3) Le test d'une personne est positif. Quelle est la probabilité qu'elle soit malade ? (arrondi au millième) Commente.",
+          question: "(Calculatrice pour le 3)) Une maladie touche 2 % d'une population. Un test de dépistage donne :\n• un résultat positif pour 95 % des personnes malades ;\n• un résultat positif pour 3 % des personnes non malades.\nOn choisit une personne au hasard. On note M : « la personne est malade » et T : « le test est positif ».\n1) Construis un arbre pondéré.\n2) Calcule P(M ∩ T) puis P(T).\n3) Le test d'une personne est positif. Quelle est la probabilité qu'elle soit malade ? (arrondi au millième) Commente.",
           corrige: `1) Arbre :
 - Premier niveau : P(M) = 0,02 et P(M̄) = 0,98.
 - Après M : P_M(T) = 0,95 et P_M(T̄) = 0,05.
@@ -1422,6 +1422,7 @@ Pour tous réels a et b :
 - **V(aX + b) = a²V(X)** ;
 - **σ(aX + b) = |a| σ(X)**.
 Ajouter une constante ne change pas la dispersion.
+*Ces formules de transformation affine (en particulier celle de la variance) relèvent plutôt de la terminale, où elles sont justifiées ; en 1re, tu peux toujours retrouver le résultat en écrivant la loi de aX + b et en refaisant le calcul.*
 
 ## Méthode
 >! 1. Déterminer les valeurs possibles de X (ne pas en oublier).
@@ -1482,7 +1483,7 @@ Ajouter une constante ne change pas la dispersion.
         },
         {
           type: "redaction",
-          question: "Un jeu coûte 2 € la partie. On lance un dé équilibré à 6 faces : si on obtient 6, on reçoit 10 € ; si on obtient 4 ou 5, on reçoit 2 € ; sinon on ne reçoit rien. On note G le gain net (gain reçu moins mise).\n1) Donne la loi de G.\n2) Calcule E(G) et interprète.\n3) Calcule V(G) et σ(G) (arrondi au centième).\n4) Quelle mise m faudrait-il demander pour que le jeu soit équitable ?",
+          question: "(Calculatrice pour σ au 3)) Un jeu coûte 2 € la partie. On lance un dé équilibré à 6 faces : si on obtient 6, on reçoit 10 € ; si on obtient 4 ou 5, on reçoit 2 € ; sinon on ne reçoit rien. On note G le gain net (gain reçu moins mise).\n1) Donne la loi de G.\n2) Calcule E(G) et interprète.\n3) Calcule V(G) et σ(G) (arrondi au centième).\n4) Quelle mise m faudrait-il demander pour que le jeu soit équitable ?",
           corrige: `1) Valeurs de G : 10 − 2 = 8 ; 2 − 2 = 0 ; 0 − 2 = −2.
 
 | gᵢ | 8 | 0 | −2 |
@@ -1619,7 +1620,7 @@ if random() < 0.3:
         },
         {
           type: "saisie",
-          question: "Fonction seuil : u = 100, n = 0, puis « while u < 200: » avec dans la boucle « u = 1.1 * u » et « n = n + 1 ». Quelle valeur de n est renvoyée ?",
+          question: "(Calculatrice) Fonction seuil : u = 100, n = 0, puis « while u < 200: » avec dans la boucle « u = 1.1 * u » et « n = n + 1 ». Quelle valeur de n est renvoyée ?",
           reponses: ["8"],
           explication: "On cherche le premier n tel que 100 × 1,1ⁿ ≥ 200. 100 × 1,1⁷ ≈ 194,87 < 200 et 100 × 1,1⁸ ≈ 214,36 ≥ 200. Donc n = 8.",
         },
@@ -1650,7 +1651,7 @@ if random() < 0.3:
         },
         {
           type: "redaction",
-          question: "On considère la suite (uₙ) définie par u₀ = 50 et uₙ₊₁ = 0,8uₙ + 3.\n1) Calcule u₁ et u₂.\n2) On admet que (uₙ) est décroissante et que tous ses termes sont supérieurs à 15. Écris une fonction Python seuil() qui renvoie le plus petit entier n tel que uₙ < 16.\n3) On pose vₙ = uₙ − 15. Montre que (vₙ) est géométrique, puis retrouve par le calcul la valeur renvoyée par la fonction.",
+          question: "(Calculatrice pour le 3)) On considère la suite (uₙ) définie par u₀ = 50 et uₙ₊₁ = 0,8uₙ + 3.\n1) Calcule u₁ et u₂.\n2) On admet que (uₙ) est décroissante et que tous ses termes sont supérieurs à 15. Écris une fonction Python seuil() qui renvoie le plus petit entier n tel que uₙ < 16.\n3) On pose vₙ = uₙ − 15. Montre que (vₙ) est géométrique, puis retrouve par le calcul la valeur renvoyée par la fonction.",
           corrige: `1) u₁ = 0,8 × 50 + 3 = **43** ; u₂ = 0,8 × 43 + 3 = 34,4 + 3 = **37,4**.
 
 2)
@@ -1844,7 +1845,7 @@ P(X = 1) = 4 × 27/256 = 108/256 = **27/64** ≈ 0,422.
         },
         {
           type: "redaction",
-          question: "On veut tester un dé à 6 faces. On note X la variable qui vaut 1 si le dé donne 6 et 0 sinon ; si le dé est équilibré, p = 1/6.\n1) Calcule E(X) et σ(X) (valeurs exactes, puis σ arrondi au centième).\n2) Pour des échantillons de 100 lancers, calcule 2σ/√n (arrondi au millième) et donne l'intervalle [p − 2σ/√n ; p + 2σ/√n] (bornes arrondies au centième).\n3) Sur 100 lancers, Inès obtient 30 fois le 6. Que peut-on penser ? Explique ce que signifie « environ 95 % » dans ce contexte.",
+          question: "(Calculatrice) On veut tester un dé à 6 faces. On note X la variable qui vaut 1 si le dé donne 6 et 0 sinon ; si le dé est équilibré, p = 1/6.\n1) Calcule E(X) et σ(X) (valeurs exactes, puis σ arrondi au centième).\n2) Pour des échantillons de 100 lancers, calcule 2σ/√n (arrondi au millième) et donne l'intervalle [p − 2σ/√n ; p + 2σ/√n] (bornes arrondies au centième).\n3) Sur 100 lancers, Inès obtient 30 fois le 6. Que peut-on penser ? Explique ce que signifie « environ 95 % » dans ce contexte.",
           corrige: `1) X suit une loi de Bernoulli de paramètre p = 1/6.
 **E(X) = 1/6** ; V(X) = p(1 − p) = 1/6 × 5/6 = 5/36, donc **σ(X) = √5/6 ≈ 0,37**.
 
@@ -2012,7 +2013,7 @@ euler(0.25, 4) renvoie [1, 1.25, 1.5625, 1.953125, 2.44140625].`,
         },
         {
           type: "redaction",
-          question: "On cherche une valeur approchée de √3, solution positive de l'équation x² − 3 = 0, par la méthode de Newton.\n1) On pose f(x) = x² − 3. Montre que la relation de Newton s'écrit xₙ₊₁ = xₙ − (xₙ² − 3)/(2xₙ).\n2) Avec x₀ = 2, calcule x₁ puis x₂ (fractions irréductibles), puis donne une valeur approchée de x₂ à 10⁻⁴ près.\n3) Écris une fonction Python newton(n) qui renvoie xₙ.",
+          question: "(Calculatrice pour la valeur approchée du 2)) On cherche une valeur approchée de √3, solution positive de l'équation x² − 3 = 0, par la méthode de Newton.\n1) On pose f(x) = x² − 3. Montre que la relation de Newton s'écrit xₙ₊₁ = xₙ − (xₙ² − 3)/(2xₙ).\n2) Avec x₀ = 2, calcule x₁ puis x₂ (fractions irréductibles), puis donne une valeur approchée de x₂ à 10⁻⁴ près.\n3) Écris une fonction Python newton(n) qui renvoie xₙ.",
           corrige: `1) f est dérivable sur ℝ et f′(x) = 2x. La relation xₙ₊₁ = xₙ − f(xₙ)/f′(xₙ) donne **xₙ₊₁ = xₙ − (xₙ² − 3)/(2xₙ)** (valable car xₙ ≠ 0).
 
 2) x₁ = 2 − (4 − 3)/4 = 2 − 1/4 = **7/4** = 1,75.
@@ -2038,12 +2039,23 @@ x₂ = 7/4 − (49/16 − 3)/(7/2) = 7/4 − (1/16) × (2/7) = 7/4 − 1/56 = 98
       theme: "Automatismes",
       cours: `
 ## L'épreuve anticipée de mathématiques
-Depuis juin 2026, les élèves de 1re passent en fin d'année (en juin) une **épreuve anticipée de mathématiques** du baccalauréat. Pour toi qui suis la spécialité, le sujet porte sur le **programme de spécialité de 1re**. Modalités fixées par les textes officiels (à vérifier chaque année avec ton professeur) :
-- durée **2 heures**, coefficient 2, **calculatrice interdite** ;
-- **partie 1 : automatismes** (6 points) : questions courtes, calculs et QCM ;
+Depuis juin 2026, les élèves de 1re passent en fin d'année (en juin) une **épreuve anticipée de mathématiques** du baccalauréat. Pour toi qui suis la spécialité, le sujet porte sur le **programme de spécialité de 1re**. Modalités fixées par les textes officiels (note de service du BO n° 24 du 12 juin 2025, puis note de service du BO spécial n° 4 du 17 septembre 2026 pour l'année 2026-2027, session 2028 ; à vérifier chaque année avec ton professeur) :
+- durée **2 heures**, coefficient 2, **calculatrice interdite pendant toute l'épreuve** ;
+- **partie 1 : automatismes** (6 points), sous forme de **QCM** ;
 - **partie 2** (14 points) : deux ou trois exercices indépendants sur le programme.
 
-Les automatismes sont des réflexes de calcul à travailler **régulièrement**, sans calculatrice. Ce chapitre en rassemble les principaux.
+Les automatismes sont des réflexes de calcul à travailler **régulièrement**, sans calculatrice. Ce chapitre et le suivant (« Automatismes (2) ») en rassemblent les principaux.
+
+## La liste officielle des automatismes
+Les automatismes évaluables sont fixés par une liste publiée au Bulletin officiel (pour 2025-2026 : annexe de la note de service du 10 juin 2025 ; une liste est publiée pour chaque année scolaire, vérifie celle de ton année). La liste 2025-2026 est organisée en six rubriques :
+- **Calcul numérique et algébrique** : comparer deux nombres (par leur différence, ou par leur quotient s'ils sont positifs) ; fractions simples ; puissances ; passer d'une écriture à une autre (décimale, fraction, pourcentage) ; ordre de grandeur et vraisemblance d'un résultat ; **conversions d'unités** (longueurs, aires, volumes, contenances, durées, vitesses, masses) ; calcul littéral élémentaire (−(a − b) = b − a, a/(b/c) = ac/b…) ; développer, factoriser (identités remarquables, ax² + bx) ; résoudre x² = a, ax + b = cx + d, a/x = b, une inéquation du 1er degré ; **isoler une variable** dans une formule ; application numérique d'une formule ; équation produit nul ; **signe** d'une expression du 1er degré ou d'un produit de facteurs du 1er degré.
+- **Proportions et pourcentages** : calculer une proportion sous différentes formes ; calculer une partie connaissant le tout, ou **le tout connaissant une partie**.
+- **Évolutions et variations** : passer de « augmenter de 5 % » à « multiplier par 1,05 » ; valeur finale ou initiale ; **calculer un taux d'évolution** ; évolutions successives ; taux réciproque.
+- **Fonctions et représentations** : images et antécédents lus sur un graphique ; un point appartient-il à une courbe ? ; fonctions linéaires et affines ; résolution graphique de f(x) = k, f(x) < k ; signe et variations lus sur un graphique ; tracer et lire l'équation réduite d'une droite ; coefficient directeur à partir de deux points.
+- **Statistiques** : lire des diagrammes (barres, circulaire, courbe, nuage de points, histogramme, boîte à moustaches) ; moyenne, **médiane, quartiles** ; comparer des séries avec des boîtes à moustaches.
+- **Probabilités** : une probabilité est entre 0 et 1 ; événement contraire ; somme des probabilités des issues ; équiprobabilité ; **probabilités conditionnelles dans un tableau croisé ou un arbre** ; distinguer P(A ∩ B), P_A(B) et P_B(A).
+
+>! **Dans cette appli** : les exercices dont l'énoncé commence par « (Calculatrice) » demandent une valeur approchée qu'on ne peut pas raisonnablement obtenir à la main ; ils ne sont pas au format de l'épreuve anticipée. Tous les autres se font sans calculatrice : entraîne-toi à les faire de tête ou au brouillon.
 
 ## Proportions et pourcentages
 - Prendre t % d'une quantité : multiplier par t/100. 30 % de 40 % = 0,3 × 0,4 = 0,12 = 12 %.
@@ -2099,8 +2111,8 @@ Les automatismes sont des réflexes de calcul à travailler **régulièrement**,
         {
           type: "saisie",
           question: "Calcule 2/3 + 5/6 (fraction irréductible).",
-          reponses: ["3/2", "1,5", "1.5"],
-          explication: "2/3 = 4/6, donc 2/3 + 5/6 = 4/6 + 5/6 = 9/6 = 3/2.",
+          reponses: ["3/2"],
+          explication: "2/3 = 4/6, donc 2/3 + 5/6 = 4/6 + 5/6 = 9/6 = 3/2 (on simplifie par 3 ; 9/6 n'est pas irréductible).",
         },
         {
           type: "saisie",
@@ -2149,9 +2161,9 @@ Les automatismes sont des réflexes de calcul à travailler **régulièrement**,
         },
         {
           type: "saisie",
-          question: "Donne l'écriture scientifique de 0,00042 (forme a × 10^n).",
-          reponses: ["4,2×10^-4", "4,2 × 10^-4", "4,2×10⁻⁴", "4,2 × 10⁻⁴", "4.2×10^-4", "4,2*10^-4", "4,2 x 10^-4", "4,2x10^-4", "4,2 × 10^(-4)", "4,2×10^(-4)"],
-          explication: "On place la virgule après le premier chiffre non nul : 4,2. On l'a déplacée de 4 rangs vers la droite, donc 0,00042 = 4,2 × 10⁻⁴.",
+          question: "L'écriture scientifique de 0,00042 est de la forme 4,2 × 10ⁿ. Quelle est la valeur de l'exposant n ?",
+          reponses: ["-4", "−4", "n=-4", "n = −4"],
+          explication: "On place la virgule après le premier chiffre non nul : 4,2. On l'a déplacée de 4 rangs vers la droite, donc 0,00042 = 4,2 × 10⁻⁴ : n = −4. (Rappel : en écriture scientifique a × 10ⁿ, on a 1 ≤ a < 10 ; 42 × 10⁻⁵ est égal mais n'est pas l'écriture scientifique.)",
         },
         {
           type: "redaction",
@@ -2164,6 +2176,236 @@ Un produit est nul si et seulement si l'un des facteurs est nul : x − 3 = 0 ou
 3) f(x) = mx + p avec p = f(0) = 3. m = (f(2) − f(0))/(2 − 0) = (−1 − 3)/2 = −2. **f(x) = −2x + 3**. Vérification : f(2) = −4 + 3 = −1.
 
 4) Dénominateur commun 12 : 3/4 = 9/12 et 1/6 = 2/12. 3/4 − 1/6 = **7/12**.`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 17. Automatismes (2) : entraînement sans calculatrice
+    {
+      id: "automatismes-2",
+      titre: "Automatismes (2) : entraînement sans calculatrice",
+      theme: "Automatismes",
+      cours: `
+## Objectif
+Ce chapitre complète le précédent avec les automatismes de la liste officielle qui y étaient peu travaillés : **taux d'évolution**, **tout connaissant une partie**, **conversions**, **isoler une variable**, **équations x² = a et a/x = b**, **signe d'une expression**, **lecture de tableaux de variations**, **médiane et quartiles**, **tableaux croisés**. Tous les exercices se font **sans calculatrice**, comme dans la partie 1 de l'épreuve anticipée (QCM).
+
+## Évolutions
+- **Taux d'évolution** de V₀ à V₁ : **t = (V₁ − V₀)/V₀**, à écrire en pourcentage. De 80 € à 100 € : t = 20/80 = 0,25 = **+25 %**.
+- Coefficient multiplicateur : CM = V₁/V₀ = 1 + t. Évolutions successives : on multiplie les CM.
+
+## Proportions
+- Partie = proportion × tout ; donc **tout = partie ÷ proportion**. Si 12 élèves représentent 30 % d'une classe : 12 ÷ 0,3 = **40 élèves**.
+
+## Conversions utiles
+- 1 m² = 10 000 cm² ; 1 m³ = 1 000 L ; 1 L = 1 dm³ = 1 000 cm³.
+- Vitesses : 1 m/s = 3,6 km/h, donc **km/h → m/s : ÷ 3,6** (72 km/h = 20 m/s).
+- Durées : 0,1 h = 6 min ; 1,5 h = 1 h 30 min.
+
+## Isoler une variable, équations simples
+- v = d/t ⟺ d = v × t ⟺ t = d/v.
+- **x² = a** : si a > 0, deux solutions −√a et √a ; si a = 0, une seule (0) ; si a < 0, aucune.
+- **a/x = b** (x ≠ 0, b ≠ 0) : x = a/b. Exemple : 6/x = 3/4 ⟺ 3x = 24 ⟺ x = 8.
+- −(a − b) = b − a.
+
+## Signe d'une expression
+- **ax + b** (a ≠ 0) s'annule en −b/a ; il est **du signe de a à droite** de −b/a, du signe contraire à gauche.
+- Pour un **produit** de facteurs du 1er degré, on fait un **tableau de signes** (règle des signes ligne par ligne).
+
+>! **Exemple** : (x − 1)(x + 2). x − 1 s'annule en 1, x + 2 en −2.
+>! Le produit est positif sur ]−∞ ; −2[ et ]1 ; +∞[, **négatif sur ]−2 ; 1[**.
+
+## Lire un tableau de variations
+Pour compter les solutions de f(x) = k, on regarde sur chaque intervalle où f est strictement monotone si k est compris entre les valeurs extrêmes : chaque « flèche » qui traverse la valeur k donne une solution.
+
+## Médiane et quartiles
+Série rangée dans l'ordre croissant, d'effectif n :
+- **médiane** : partage la série en deux moitiés ;
+- **Q1** : plus petite valeur telle qu'au moins 25 % des valeurs lui sont inférieures ou égales (rang : n/4, arrondi à l'entier supérieur s'il n'est pas entier) ;
+- **Q3** : même chose avec 75 % (rang : 3n/4, arrondi de la même façon) ;
+- **écart interquartile** : Q3 − Q1.
+
+>! **Exemple** : 3 ; 5 ; 7 ; 8 ; 10 ; 12 ; 15 (n = 7). Médiane : 4e valeur = 8. n/4 = 1,75 → 2e valeur : Q1 = 5. 3n/4 = 5,25 → 6e valeur : Q3 = 12. Écart interquartile : 7.
+
+## Tableau croisé et probabilités conditionnelles
+Sur 200 élèves : 120 filles dont 45 suivent la spécialité maths, 80 garçons dont 35 la suivent (80 élèves en maths au total).
+- P(F ∩ M) = 45/200 (on divise par **l'effectif total**) ;
+- P_F(M) = 45/120 = 3/8 (on divise par **l'effectif des filles**) ;
+- P_M(F) = 45/80 = 9/16 (on divise par **l'effectif des élèves de maths**).
+
+> **À retenir**
+> - Taux d'évolution = (V₁ − V₀)/V₀ ; tout = partie ÷ proportion.
+> - km/h ÷ 3,6 = m/s.
+> - x² = a : deux solutions si a > 0, aucune si a < 0.
+> - ax + b est du signe de a à droite de sa racine.
+> - « Parmi les … » : on divise par l'effectif de ce groupe (probabilité conditionnelle).
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Le prix d'un article passe de 80 € à 100 €. Quel est le taux d'évolution ?",
+          choix: ["+20 %", "+25 %", "+80 %", "+2,5 %"],
+          reponse: 1,
+          explication: "t = (100 − 80)/80 = 20/80 = 1/4 = 0,25, soit +25 %. On divise toujours par la valeur de **départ** (diviser par 100 donnerait 20 %, ce qui est faux).",
+        },
+        {
+          type: "saisie",
+          question: "Dans une classe, 12 élèves représentent 30 % de l'effectif. Combien d'élèves compte la classe ?",
+          reponses: ["40", "40 élèves"],
+          explication: "Tout = partie ÷ proportion = 12 ÷ 0,3 = 120 ÷ 3 = 40 élèves. Vérification : 30 % de 40 = 12.",
+        },
+        {
+          type: "qcm",
+          question: "Combien vaut 72 km/h en m/s ?",
+          choix: ["7,2 m/s", "259,2 m/s", "20 m/s", "2 m/s"],
+          reponse: 2,
+          explication: "72 km/h = 72 000 m en 3 600 s, soit 72 000 ÷ 3 600 = 20 m/s (on divise par 3,6). 259,2 vient d'une multiplication par 3,6 au lieu d'une division.",
+        },
+        {
+          type: "saisie",
+          question: "Convertis 0,35 m² en cm².",
+          reponses: ["3500", "3 500", "3500 cm²", "3 500 cm²", "3500 cm2", "3 500 cm2"],
+          explication: "1 m² = 100 dm² = 10 000 cm², donc 0,35 m² = 0,35 × 10 000 = 3 500 cm².",
+        },
+        {
+          type: "qcm",
+          question: "On a v = d/t (vitesse, distance, durée). Laquelle de ces égalités est juste ?",
+          choix: ["t = v × d", "t = v/d", "t = d − v", "t = d/v"],
+          reponse: 3,
+          explication: "v = d/t ⟺ v × t = d ⟺ t = d/v. Vérification : 150 km à 75 km/h prennent 150/75 = 2 h.",
+        },
+        {
+          type: "qcm",
+          question: "Le périmètre d'un rectangle est P = 2(L + l). Exprime l en fonction de P et L.",
+          choix: ["l = P/2 − L", "l = P − 2L", "l = (P − L)/2", "l = 2P − L"],
+          reponse: 0,
+          explication: "P = 2(L + l) ⟺ P/2 = L + l ⟺ l = P/2 − L. Vérification : L = 7, l = 3, P = 20 : 20/2 − 7 = 3.",
+        },
+        {
+          type: "qcm",
+          question: "Quelles sont les solutions de l'équation x² = 49 ?",
+          choix: ["7 seulement", "−7 et 7", "49/2", "Aucune solution"],
+          reponse: 1,
+          explication: "x² = 49 ⟺ x = 7 ou x = −7, car 7² = 49 et (−7)² = 49. Ne pas oublier la solution négative.",
+        },
+        {
+          type: "vf",
+          question: "L'équation x² = −4 a deux solutions : −2 et 2.",
+          reponse: false,
+          explication: "Faux : un carré est toujours positif ou nul, donc x² = −4 n'a aucune solution réelle. (2² = 4 et (−2)² = 4, pas −4.)",
+        },
+        {
+          type: "saisie",
+          question: "Résous l'équation 6/x = 3/4 (x ≠ 0).",
+          reponses: ["8", "x=8", "x = 8"],
+          explication: "Produit en croix : 3x = 6 × 4 = 24, donc x = 8. Vérification : 6/8 = 3/4.",
+        },
+        {
+          type: "qcm",
+          question: "Quel est le plus grand de ces nombres ?",
+          choix: ["0,4", "5/12", "3/7", "2/5"],
+          reponse: 2,
+          explication: "2/5 = 0,4. 5/12 = 0,41… (car 5 × 5 = 25 > 24 = 12 × 2, donc 5/12 > 2/5). 3/7 = 0,428… ; et 3/7 > 5/12 car 3 × 12 = 36 > 35 = 5 × 7. Le plus grand est 3/7.",
+        },
+        {
+          type: "qcm",
+          question: "Quel est l'ordre de grandeur de 0,49 × 2 012 ?",
+          choix: ["10", "100", "1 000", "10 000"],
+          reponse: 2,
+          explication: "0,49 ≈ 0,5 et 2 012 ≈ 2 000 : 0,5 × 2 000 = 1 000. (La valeur exacte est 985,88.)",
+        },
+        {
+          type: "qcm",
+          question: "−(3 − x) est égal à :",
+          choix: ["−3 − x", "3 + x", "x − 3", "−3x"],
+          reponse: 2,
+          explication: "Le signe − devant la parenthèse change tous les signes : −(3 − x) = −3 + x = x − 3.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule 10⁵ × 10⁻² / 10⁴ (écriture décimale).",
+          reponses: ["0,1", "0.1", "1/10", "10^-1", "10⁻¹"],
+          explication: "10⁵ × 10⁻² = 10³, puis 10³/10⁴ = 10³⁻⁴ = 10⁻¹ = 0,1.",
+        },
+        {
+          type: "qcm",
+          question: "Un prix baisse de 25 %, puis augmente de 20 %. Globalement :",
+          choix: ["il baisse de 5 %", "il baisse de 10 %", "il ne change pas", "il augmente de 5 %"],
+          reponse: 1,
+          explication: "On multiplie les coefficients : 0,75 × 1,2 = 0,9 = 1 − 0,1. Le prix baisse de 10 % (on n'additionne pas −25 % et +20 %).",
+        },
+        {
+          type: "qcm",
+          question: "Pour quelles valeurs de x a-t-on −2x + 6 ≥ 0 ?",
+          choix: ["x ≥ 3", "x ≥ −3", "x ≤ −3", "x ≤ 3"],
+          reponse: 3,
+          explication: "−2x + 6 ≥ 0 ⟺ −2x ≥ −6 ⟺ x ≤ 3 (on divise par −2 < 0 : le sens change). Autre méthode : −2x + 6 s'annule en 3 et est du signe de a = −2 (négatif) à droite de 3.",
+        },
+        {
+          type: "qcm",
+          question: "Sur quel ensemble l'expression (x − 1)(x + 2) est-elle strictement négative ?",
+          choix: ["]−2 ; 1[", "]−∞ ; −2[ ∪ ]1 ; +∞[", "]−1 ; 2[", "]1 ; +∞["],
+          reponse: 0,
+          explication: "Les facteurs s'annulent en 1 et −2. Entre −2 et 1, x − 1 < 0 et x + 2 > 0 : le produit est négatif. À l'extérieur, les deux facteurs ont le même signe : le produit est positif. Attention au signe des racines : ce sont 1 et −2, pas −1 et 2.",
+        },
+        {
+          type: "qcm",
+          question: "Une fonction f est définie sur [−3 ; 4]. Son tableau de variations indique : f(−3) = 2, f est croissante sur [−3 ; 1] avec f(1) = 5, puis décroissante sur [1 ; 4] avec f(4) = −1. Combien l'équation f(x) = 3 a-t-elle de solutions ?",
+          choix: ["0", "1", "2", "3"],
+          reponse: 2,
+          explication: "Sur [−3 ; 1], f croît de 2 à 5 : elle prend une fois la valeur 3. Sur [1 ; 4], f décroît de 5 à −1 : elle prend encore une fois la valeur 3. Il y a donc 2 solutions.",
+        },
+        {
+          type: "vf",
+          question: "Le point A(2 ; 7) appartient à la courbe d'équation y = x² + 3x − 3.",
+          reponse: true,
+          explication: "Vrai : pour x = 2, x² + 3x − 3 = 4 + 6 − 3 = 7, qui est bien l'ordonnée de A.",
+        },
+        {
+          type: "qcm",
+          question: "Série rangée : 3 ; 5 ; 7 ; 8 ; 10 ; 12 ; 15. Quels sont le premier et le troisième quartile ?",
+          choix: ["Q1 = 4 et Q3 = 13,5", "Q1 = 3 et Q3 = 15", "Q1 = 7 et Q3 = 10", "Q1 = 5 et Q3 = 12"],
+          reponse: 3,
+          explication: "n = 7. n/4 = 1,75 : Q1 est la 2e valeur, 5. 3n/4 = 5,25 : Q3 est la 6e valeur, 12. (La médiane est la 4e valeur, 8.)",
+        },
+        {
+          type: "saisie",
+          question: "Une boîte à moustaches indique : minimum 2, Q1 = 8, médiane 11, Q3 = 13, maximum 18. Quel est l'écart interquartile ?",
+          reponses: ["5"],
+          explication: "Écart interquartile = Q3 − Q1 = 13 − 8 = 5. (L'étendue, elle, vaut 18 − 2 = 16.)",
+        },
+        {
+          type: "qcm",
+          question: "Dans un lycée, sur 200 élèves, 120 sont des filles, dont 45 suivent la spécialité maths ; 35 garçons la suivent aussi. On choisit au hasard un élève **parmi ceux qui suivent la spécialité maths**. Quelle est la probabilité que ce soit une fille ?",
+          choix: ["45/200", "45/120", "45/80", "80/200"],
+          reponse: 2,
+          explication: "45 + 35 = 80 élèves suivent la spécialité. On se restreint à eux : P_M(F) = 45/80 = 9/16. 45/200 est P(F ∩ M) et 45/120 est P_F(M).",
+        },
+        {
+          type: "vf",
+          question: "Dans l'énoncé « 30 % des filles font du sport », le nombre 0,3 est la probabilité P(F ∩ S).",
+          reponse: false,
+          explication: "Faux : « parmi les filles » signale une probabilité conditionnelle. 0,3 = P_F(S). P(F ∩ S) se calculerait par P(F) × P_F(S).",
+        },
+        {
+          type: "redaction",
+          question: "Sans calculatrice.\n1) Un abonnement passe de 40 € à 46 €. Calcule le taux d'évolution en pourcentage.\n2) Le nouveau prix baisse ensuite de 10 %. Calcule le prix obtenu, puis le taux d'évolution global depuis 40 €.\n3) Résous l'inéquation 3x − 5 ≤ 7x + 3.\n4) Étudie le signe de (2x − 4)(−x + 3) à l'aide d'un tableau de signes.",
+          corrige: `1) t = (46 − 40)/40 = 6/40 = 0,15 : **hausse de 15 %**.
+
+2) Baisse de 10 % : × 0,9. 46 × 0,9 = 46 − 4,6 = **41,40 €**.
+Coefficient global : 1,15 × 0,9 = 1,035, soit une **hausse globale de 3,5 %** (vérification : 40 × 1,035 = 41,40).
+
+3) 3x − 5 ≤ 7x + 3 ⟺ 3x − 7x ≤ 3 + 5 ⟺ −4x ≤ 8 ⟺ x ≥ −2 (on divise par −4 < 0, le sens change).
+**S = [−2 ; +∞[**.
+
+4) 2x − 4 s'annule en 2 et est positif pour x > 2 (coefficient 2 > 0). −x + 3 s'annule en 3 et est positif pour x < 3 (coefficient −1 < 0).
+
+| x | −∞ … 2 | 2 … 3 | 3 … +∞ |
+|---|---|---|---|
+| 2x − 4 | − | + | + |
+| −x + 3 | + | + | − |
+| produit | − | + | − |
+
+Le produit est **positif sur [2 ; 3]**, nul en 2 et en 3, **négatif sur ]−∞ ; 2[ et sur ]3 ; +∞[**.`,
         },
       ],
     },

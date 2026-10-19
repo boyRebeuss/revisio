@@ -709,6 +709,8 @@ Les épreuves évaluent quatre activités : **compréhension de l'écrit**, **co
 5. **Rédiger le compte rendu en français** (souvent demandé) : phrases complètes, sans traduire mot à mot, en allant du général au particulier. Ne pas inventer : seulement ce qui est dans le document.
 6. À l'oral : on écoute trois fois ; à la 1re écoute, la situation générale ; ensuite, les détails (noms, chiffres, opinions).
 
+>! **Important** : cette appli entraîne la compréhension de l'écrit et l'expression écrite, mais **pas la compréhension de l'oral** ni l'expression orale, qui comptent pourtant dans ta note. Écoute régulièrement des documents authentiques courts (journaux radio ou télévisés espagnols, podcasts, bandes-annonces, chansons), d'abord sans texte, puis note en français qui / quoi / où / quand / pourquoi, et entraîne-toi à parler deux minutes à voix haute sur chaque axe du programme.
+
 >! **Astuce** : appuie-toi sur les mots transparents (*la democracia, el conflicto, la memoria*), les noms propres, les chiffres et les indices de temps.
 
 ## L'expression écrite
@@ -798,10 +800,86 @@ Deux grands types de sujets : **récit / lettre / dialogue** (imaginer, continue
         { type: "qcm", question: "« Les jeunes continuent à manifester » :", choix: ["Los jóvenes siguen a manifestarse", "Los jóvenes continúan a manifestarse", "Los jóvenes siguen manifestándose", "Los jóvenes siguen manifestado"], reponse: 2, explication: "*seguir* (ou *continuar*) + **gérondif** : *siguen manifestándose* (enclise avec accent écrit)." },
         { type: "saisie", question: "Traduis la périphrase : « Je viens d'arriver. »", reponses: ["Acabo de llegar", "Yo acabo de llegar"], explication: "venir de + infinitif = **acabar de** + infinitif." },
         { type: "saisie", question: "Complète : « Mi abuelo dejó ... fumar hace diez años. »", reponses: ["de"], explication: "arrêter de = **dejar de** + infinitif." },
-        { type: "qcm", question: "« Il a écrit à nouveau à sa famille » :", choix: ["Volvió a escribir a su familia", "Volvió escribiendo a su familia", "Acabó de escribir a su familia", "Dejó de escribir a su familia"], reponse: 0, explication: "Répétition : **volver a** + infinitif. *Acabó de escribir* = il venait de finir d'écrire ; *dejó de* = il a arrêté." },
+        { type: "qcm", question: "« Il a écrit à nouveau à sa famille » :", choix: ["Volvió a escribir a su familia", "Volvió escribiendo a su familia", "Acabó de escribir a su familia", "Dejó de escribir a su familia"], reponse: 0, explication: "Répétition : **volver a** + infinitif. *Acabó de escribir* = il a fini d'écrire (et *acababa de escribir* = il venait d'écrire) ; *dejó de* = il a arrêté." },
         { type: "vf", question: "« Se fue corriendo » signifie « Il est parti en courant ».", reponse: true, explication: "Le « en + participe présent » français se traduit par le **gérondif** seul : *corriendo*." },
         { type: "saisie", question: "Traduis avec *llevar* : « Ça fait trois mois qu'ils vivent à Madrid. »", reponses: ["Llevan tres meses viviendo en Madrid", "Llevan 3 meses viviendo en Madrid"], explication: "**llevar** conjugué + durée + gérondif : *Llevan tres meses viviendo en Madrid*." },
         { type: "redaction", question: "Un migrant arrivé en Espagne il y a deux ans raconte sa situation actuelle (6 phrases) en utilisant au moins cinq périphrases différentes (llevar, seguir, acabar de, volver a, dejar de, soler, ir + gérondif).", corrige: "Modèle :\n\n*Llevo dos años viviendo en Valencia. Al principio, no hablaba bien español, pero mi nivel va mejorando poco a poco. Suelo trabajar por la mañana en un mercado y por la tarde estudio. Acabo de conseguir mis papeles: ¡por fin! Sin embargo, sigo echando de menos a mi familia y todavía no he vuelto a verla. Nunca voy a dejar de luchar por mi futuro.*\n\nPériphrases : *llevo ... viviendo* (durée), *va mejorando* (progression), *suelo trabajar* (habitude), *acabo de conseguir* (passé récent), *sigo echando de menos* (continuité), *no he vuelto a verla* (répétition), *dejar de luchar* (arrêt)." }
+      ]
+    },
+    {
+      id: "relativos-estilo-indirecto",
+      titre: "Les relatifs et le discours indirect au passé",
+      theme: "Grammaire",
+      cours: `
+## Les pronoms relatifs
+| Relatif | Emploi | Exemple |
+|---|---|---|
+| **que** | le plus courant : sujet ou COD, personne ou chose | *El libro que leo es de Lorca. La chica que habla es mi prima.* |
+| **quien / quienes** | personne seulement, surtout après une préposition | *El hombre con quien hablé era periodista.* |
+| **el que, la que, los que, las que** | après une préposition ; « celui qui, ceux qui » | *La casa en la que vivo. Los que luchan nunca olvidan.* |
+| **el cual, la cual...** | registre soutenu, après une préposition | *La razón por la cual se fue.* |
+| **lo que** | « ce qui, ce que » (idée neutre) | *Lo que dices es verdad. No entiendo lo que pasa.* |
+| **cuyo, cuya, cuyos, cuyas** | « dont » de possession ; s'accorde avec ce qui est **possédé** | *Un escritor cuyas novelas son famosas.* |
+| **donde** | lieu | *El pueblo donde nací.* |
+
+## Traduire « dont »
+- Possession (« dont le / la / les + nom ») → **cuyo** accordé avec le nom qui suit, **sans article** : *la mujer dont le fils a disparu* = *la mujer cuyo hijo desapareció*.
+- Complément d'un verbe construit avec *de* → **del que / de la que / de quien** : *el libro dont je parle* = *el libro del que hablo* ; *la persona dont je me souviens* = *la persona de la que (de quien) me acuerdo*.
+- « ce dont » → **lo que** ou **de lo que** selon le verbe : *Es lo que necesito* (ce dont j'ai besoin) ; *Es de lo que te hablé* (ce dont je t'ai parlé).
+
+## La mise en relief : « c'est ... qui / que »
+On emploie **ser** au même temps que le verbe et le relatif adapté :
+- personne → **quien** (ou *el que*) : *Fue Picasso quien pintó el Guernica.*
+- temps → **cuando** : *Fue en 1975 cuando murió Franco.*
+- lieu → **donde** : *Es en Madrid donde vivo.*
+- manière → **como** : *Es así como se hace.*
+
+>! **Erreur fréquente** : *C'est en 1939 que la guerre s'est terminée* ne se dit pas « Es en 1939 que... » mais **Fue en 1939 cuando terminó la guerra** (ser au passé, *cuando* pour le temps).
+
+## Le discours indirect au passé
+Quand le verbe introducteur est au passé (*dijo que, explicó que, contó que, preguntó si*), les temps reculent d'un cran :
+
+| Discours direct | Discours indirect (verbe introducteur au passé) |
+|---|---|
+| présent : *«Tengo miedo»* | imparfait : *Dijo que tenía miedo.* |
+| pretérito perfecto ou indefinido : *«He perdido / Perdí mi casa»* | plus-que-parfait : *Dijo que había perdido su casa.* |
+| futur : *«Volveré»* | conditionnel : *Dijo que volvería.* |
+| impératif : *«¡Cállate!»* | **que + subjonctif imparfait** : *Le ordenó que se callara.* |
+| subjonctif présent : *«Quiero que vengas»* | subjonctif imparfait : *Dijo que quería que viniera.* |
+| imparfait, plus-que-parfait, conditionnel | inchangés |
+
+- Avec l'indefinido, on peut aussi le garder s'il y a une date : *Dijo que nació en 1950.*
+- Les **pronoms et possessifs** changent : *«Mi hijo»* → *su hijo* ; *«Te llamo»* → *Me dijo que me llamaba*.
+- Les **repères de temps et de lieu** changent :
+
+| Direct | Indirect |
+|---|---|
+| hoy | aquel día |
+| ayer | el día anterior |
+| mañana | al día siguiente |
+| ahora | entonces |
+| aquí | allí |
+| este | aquel |
+
+### Les questions et les ordres
+- Question fermée → **si** : *«¿Tienes hambre?»* → *Me preguntó si tenía hambre.*
+- Question ouverte → le mot interrogatif **garde son accent** : *«¿Dónde vives?»* → *Me preguntó dónde vivía.*
+- Ordre, demande → *pedir / ordenar / decir* **que + subjonctif** (imparfait après un passé) : *Les dijo que se fueran.*
+
+> **À retenir** : que (général), quien (personne), lo que (ce que), cuyo accordé avec le possédé (dont + possession), donde (lieu) ; « c'est ... que » = ser + quien / cuando / donde ; discours indirect au passé : présent → imparfait, passé → plus-que-parfait, futur → conditionnel, impératif → que + subjonctif imparfait ; hoy → aquel día, mañana → al día siguiente.
+`,
+      exercices: [
+        { type: "saisie", question: "Complète avec *cuyo* accordé : « Es un pintor ... cuadros están en el Prado. »", reponses: ["cuyos"], explication: "*cuyo* s'accorde avec ce qui est possédé : *cuadros* (masculin pluriel) → **cuyos**." },
+        { type: "saisie", question: "Complète avec *cuyo* accordé : « Las Abuelas buscan a los niños ... madres desaparecieron. »", reponses: ["cuyas"], explication: "Accord avec *madres* (féminin pluriel) → **cuyas**, même si l'antécédent *niños* est masculin." },
+        { type: "qcm", question: "« Je ne comprends pas ce que tu dis » :", choix: ["No entiendo el que dices", "No entiendo lo que dices", "No entiendo que dices", "No entiendo cual dices"], reponse: 1, explication: "« ce que » (idée neutre) = **lo que** : *No entiendo lo que dices*." },
+        { type: "qcm", question: "« C'est en 1975 que Franco est mort » :", choix: ["Es en 1975 que murió Franco", "Fue en 1975 que murió Franco", "Fue en 1975 cuando murió Franco", "Era en 1975 donde murió Franco"], reponse: 2, explication: "Mise en relief : *ser* au passé (comme *murió*) + **cuando** pour une date : *Fue en 1975 cuando murió Franco*." },
+        { type: "saisie", question: "Traduis : « le livre dont je parle »", reponses: ["el libro del que hablo", "el libro del cual hablo", "libro del que hablo", "libro del cual hablo"], explication: "*hablar de* → **del que** (ou *del cual*). *Cuyo* ne s'emploie que pour la possession." },
+        { type: "saisie", question: "Discours indirect : « Estoy cansado. » → « Dijo que ... cansado. »", reponses: ["estaba"], explication: "Présent → **imparfait** après un verbe introducteur au passé : *Dijo que estaba cansado*." },
+        { type: "saisie", question: "Discours indirect : « Volveré pronto. » → « Prometió que ... pronto. »", reponses: ["volvería"], explication: "Futur → **conditionnel** : *Prometió que volvería pronto*." },
+        { type: "saisie", question: "Discours indirect : « He perdido mis papeles. » → « Explicó que ... sus papeles. »", reponses: ["había perdido"], explication: "Pretérito perfecto → **plus-que-parfait** : *había perdido* ; *mis* devient *sus*." },
+        { type: "qcm", question: "« ¡Salid de aquí! », gritó el policía. → El policía les gritó que ...", choix: ["salieran de allí", "salían de aquí", "salgan de allí", "saldrían de aquí"], reponse: 0, explication: "Impératif → **que + subjonctif imparfait** après un passé (*salieran*) ; *aquí* devient **allí**." },
+        { type: "vf", question: "« ¿Dónde vives? » → « Me preguntó donde vivía. » est correctement écrit.", reponse: false, explication: "Dans une interrogation indirecte, le mot interrogatif **garde son accent** : *Me preguntó dónde vivía*." },
+        { type: "redaction", question: "Transpose ce témoignage au discours indirect en commençant par « La abuela contó que... » : « Me llamo Rosa. En 1939 crucé la frontera con mi madre. Hoy vivo en Toulouse y nunca olvidaré aquel viaje. Escuchad bien mi historia. »", corrige: "*La abuela contó que se llamaba Rosa. Explicó que en 1939 había cruzado (ou cruzó) la frontera con su madre. Dijo que entonces (en aquel momento) vivía en Toulouse y que nunca olvidaría aquel viaje. Nos pidió que escucháramos bien su historia.*\n\nTransformations :\n- *me llamo* → *se llamaba* : présent → imparfait, 1re → 3e personne ;\n- *crucé* → *había cruzado* : passé → plus-que-parfait (l'indefinido *cruzó* est accepté car l'action est datée) ;\n- *hoy vivo* → *entonces vivía* ou *en aquel momento vivía* : repère temporel et présent → imparfait ;\n- *olvidaré* → *olvidaría* : futur → conditionnel ;\n- *escuchad* → *nos pidió que escucháramos* : impératif → que + subjonctif imparfait ;\n- *mi madre, mi historia* → *su madre, su historia*.\n\nCe témoignage renvoie à l'axe « Territoire et mémoire » (la Retirada)." }
       ]
     }
   ]

@@ -148,8 +148,14 @@ Le **cycle de l'eau** : l'eau des océans s'**évapore** grâce à l'énergie so
 
 Un **climatogramme** est un graphique qui montre, pour chaque mois, les **précipitations** (en barres, en mm) et la **température moyenne** (en courbe, en °C).
 
+>! **Méthode : lire un climatogramme (ou un tableau de données climatiques)**
+>! 1. Repère le lieu, les unités et les deux axes (températures à gauche, précipitations à droite en général).
+>! 2. **Températures** : relève le mois le plus chaud et le mois le plus froid, puis calcule l'**amplitude thermique annuelle** = température du mois le plus chaud − température du mois le plus froid. Exemple : 24 °C en juillet et 7 °C en janvier → 24 − 7 = **17 °C**.
+>! 3. **Précipitations** : additionne les 12 mois pour obtenir le **total annuel** (en mm) ; repère les mois secs et les mois très pluvieux (saison des pluies ?).
+>! 4. Conclus en nommant la zone climatique, en citant toujours des **valeurs chiffrées**.
+
 ## Le changement climatique
-Depuis environ 150 ans, la température moyenne de la Terre augmente (environ +1,2 °C). Cause principale : les activités humaines qui rejettent des **gaz à effet de serre** (dioxyde de carbone, méthane) en brûlant du charbon, du pétrole et du gaz. Conséquences : fonte des glaciers, montée du niveau des mers, événements extrêmes plus fréquents.
+Depuis environ 150 ans (fin du XIXe siècle), la température moyenne à la surface de la Terre augmente : environ **+1,2 à +1,3 °C** en moyenne sur les dix dernières années, et l'année 2024 a même dépassé pour la première fois +1,5 °C. Ce réchauffement est très rapide à l'échelle de l'histoire de la Terre. Cause principale : les activités humaines qui rejettent des **gaz à effet de serre** (dioxyde de carbone, méthane) en brûlant du charbon, du pétrole et du gaz. Conséquences : fonte des glaciers, montée du niveau des mers, événements extrêmes plus fréquents.
 
 > **À retenir** :
 > - Météo = temps à court terme ; climat = moyenne sur au moins 30 ans.
@@ -160,7 +166,7 @@ Depuis environ 150 ans, la température moyenne de la Terre augmente (environ +1
       exercices: [
         { type: "vf", question: "« Demain, il pleuvra à Lyon » est une information sur le climat.", reponse: false, explication: "C'est une prévision **météorologique** : elle concerne un lieu et un moment précis. Le climat est une moyenne sur au moins 30 ans." },
         { type: "qcm", question: "Quel instrument mesure la quantité de pluie tombée ?", choix: ["Le baromètre", "L'anémomètre", "L'hygromètre", "Le pluviomètre"], reponse: 3, explication: "Le **pluviomètre** mesure les précipitations en mm. Le baromètre mesure la pression, l'anémomètre la vitesse du vent, l'hygromètre l'humidité." },
-        { type: "saisie", question: "Sur combien d'années au minimum calcule-t-on les moyennes qui définissent un climat ? (nombre)", reponses: ["30", "trente", "30 ans"], explication: "Le climat est défini par des moyennes calculées sur au moins **30 ans**." },
+        { type: "saisie", question: "Sur combien d'années au minimum calcule-t-on les moyennes qui définissent un climat ? (nombre)", reponses: ["30 ans", "trente", "trente ans"], explication: "Le climat est défini par des moyennes calculées sur au moins **30 ans**." },
         { type: "qcm", question: "Un pluviomètre indique 12 mm de pluie. Quel volume d'eau est tombé sur 1 m² ?", choix: ["1,2 L", "12 L", "120 L", "0,12 L"], reponse: 1, explication: "1 mm de pluie correspond à 1 L par m². Donc 12 mm correspondent à **12 L** par m²." },
         { type: "vf", question: "L'air chaud a tendance à monter.", reponse: true, explication: "L'air chaud est moins dense que l'air froid : il **monte**. Ces mouvements sont à l'origine des vents et de la formation de nombreux nuages." },
         { type: "qcm", question: "Quelle est la principale cause du réchauffement climatique actuel ?", choix: ["Les rejets de gaz à effet de serre par les activités humaines", "Le rapprochement de la Terre et du Soleil", "Les éruptions volcaniques", "La diminution du nombre de nuages"], reponse: 0, explication: "La combustion du charbon, du pétrole et du gaz rejette du **dioxyde de carbone**, un gaz à effet de serre qui renforce l'effet de serre et réchauffe la planète." },
@@ -173,6 +179,20 @@ Depuis environ 150 ans, la température moyenne de la Terre augmente (environ +1
 **Conclusion** : Brest a un climat **océanique** (doux et humide, faibles écarts de température), Marseille un climat **méditerranéen** (été chaud et sec).
 
 **Explication** : Brest est au bord de l'océan Atlantique, d'où arrivent des vents chargés d'humidité ; l'océan adoucit les températures. Marseille est plus au sud et, en été, protégée par des anticyclones qui apportent du beau temps sec.` },
+        { type: "saisie", question: "Sur le climatogramme d'une ville, la température moyenne de janvier (mois le plus froid) est 2 °C et celle de juillet (mois le plus chaud) est 20 °C. Calcule l'amplitude thermique annuelle, en °C.", reponses: ["18 °C", "18 degrés"], explication: "Amplitude thermique annuelle = température du mois le plus chaud − température du mois le plus froid = 20 − 2 = **18 °C**." },
+        { type: "saisie", question: "Les précipitations mensuelles d'une ville, de janvier à décembre, sont (en mm) : 60, 50, 55, 50, 70, 60, 55, 60, 55, 70, 65, 70. Calcule le total annuel des précipitations, en mm.", reponses: ["720 mm", "720 millimètres"], explication: "On additionne les 12 mois : 60 + 50 + 55 + 50 + 70 + 60 + 55 + 60 + 55 + 70 + 65 + 70 = **720 mm**. Les pluies sont réparties toute l'année (pas de mois sec)." },
+        { type: "qcm", question: "Sur un climatogramme, la courbe des températures reste entre 26 et 28 °C tous les mois, et chaque barre de précipitations dépasse 150 mm. De quel climat s'agit-il ?", choix: ["Polaire", "Tempéré océanique", "Tropical", "Équatorial"], reponse: 3, explication: "Chaud **toute l'année** (26 à 28 °C, très faible amplitude) et pluvieux **tous les mois** : c'est le climat **équatorial**. Le climat tropical est chaud aussi, mais il a une saison sèche." },
+        { type: "vf", question: "Sur un climatogramme, les précipitations sont représentées par une courbe et les températures par des barres.", reponse: false, explication: "C'est l'inverse : les **précipitations** sont représentées par des **barres** (en mm) et les **températures** par une **courbe** (en °C)." },
+        { type: "qcm", question: "Une ville a 10 °C en janvier avec 80 mm de pluie, et 25 °C en juillet avec seulement 10 mm de pluie. Son climat est plutôt :", choix: ["océanique : doux et humide toute l'année", "méditerranéen : été chaud et sec, hiver doux", "polaire : très froid toute l'année", "équatorial : chaud et humide toute l'année"], reponse: 1, explication: "Un **été chaud et sec** (25 °C, 10 mm en juillet) et un hiver doux et plus pluvieux : ce sont les caractéristiques du climat **méditerranéen**." },
+        { type: "redaction", question: "Voici les données climatiques (valeurs arrondies) d'une ville B d'Afrique de l'Ouest, de janvier à décembre. Températures moyennes (°C) : 25, 26, 28, 30, 31, 28, 27, 27, 28, 28, 27, 25. Précipitations (mm) : 0, 0, 0, 0, 5, 90, 200, 250, 150, 40, 5, 0. 1) Relève le mois le plus chaud et calcule l'amplitude thermique annuelle. 2) Calcule le total annuel des précipitations et décris leur répartition dans l'année. 3) Déduis-en le type de climat de la ville B en justifiant.", corrige: `1) **Températures** : le mois le plus chaud est **mai** (31 °C) ; les mois les plus froids sont janvier et décembre (25 °C).
+
+Amplitude thermique annuelle = 31 − 25 = **6 °C** : il fait chaud toute l'année et la température varie peu.
+
+2) **Précipitations** : total = 0 + 0 + 0 + 0 + 5 + 90 + 200 + 250 + 150 + 40 + 5 + 0 = **740 mm**.
+
+Elles sont très mal réparties : presque toute la pluie tombe de **juin à septembre** (90 + 200 + 250 + 150 = 690 mm, soit plus de 9/10 du total), avec un maximum en août (250 mm). De novembre à avril, il ne pleut presque pas : c'est la **saison sèche**.
+
+3) La ville B a un climat **tropical** : chaud toute l'année (25 à 31 °C) avec une **saison des pluies** (juin à septembre) et une longue **saison sèche**. Ce n'est pas un climat équatorial, car il ne pleut pas tous les mois.` },
       ],
     },
     {
@@ -353,9 +373,18 @@ Pour décrire une courbe, on indique les valeurs de départ et d'arrivée, on re
 
 **Interprétation** : seul le paramètre **température** est différent (même arrosage, même plante, même durée). La différence de croissance est donc due à la température : dans ces conditions, une température de 25 °C favorise la croissance de cette plante par rapport à 10 °C.
 
-**Témoin** : il n'y a pas ici de « témoin » au sens strict ; les deux plantes se servent mutuellement de comparaison. On peut choisir comme témoin la plante placée dans les conditions habituelles de culture (ici 25 °C, température d'une pièce chauffée). L'important est qu'**un seul paramètre** (la température) varie entre les deux lots.
+**Témoin** : il n'y a pas ici de « témoin » au sens strict ; les deux plantes se servent mutuellement de comparaison. On peut choisir comme témoin la plante placée dans les conditions les plus proches des conditions habituelles de culture (ici 25 °C, plus proche de la température d'une serre ou d'une pièce chauffée que 10 °C). L'important est qu'**un seul paramètre** (la température) varie entre les deux lots.
 
 **Fiabilité** : avec une seule plante par lot, le résultat est peu fiable (une plante peut être malade). Il faudrait **répéter** l'expérience avec plusieurs plantes par lot, et vérifier que la lumière reçue est identique.` },
+        { type: "saisie", question: "On place 50 graines de haricot à 20 °C, avec de l'eau. Au bout d'une semaine, 40 graines ont germé. Quel est le pourcentage de graines germées ?", reponses: ["80 %", "80", "80 pour cent"], explication: "Pourcentage = nombre de graines germées ÷ nombre total × 100 = 40 ÷ 50 × 100 = **80 %**." },
+        { type: "redaction", question: "Pour étudier l'influence de la température sur la germination, on place des lots de 50 graines de blé, avec la même quantité d'eau et à l'obscurité, à différentes températures. Résultats après 7 jours (pourcentage de graines germées) : à 5 °C : 0 % ; à 10 °C : 30 % ; à 20 °C : 80 % ; à 30 °C : 90 % ; à 40 °C : 10 %. 1) Quel est le paramètre testé ? Cite deux paramètres maintenus identiques. 2) Décris les résultats en citant des valeurs. 3) Conclus.", corrige: `1) Le **paramètre testé** est la **température** (5, 10, 20, 30 et 40 °C). Les autres paramètres sont identiques pour tous les lots : le **nombre de graines** (50), l'**espèce** (blé), la **quantité d'eau**, l'**obscurité**, la **durée** (7 jours).
+
+2) **Description** :
+- à 5 °C, aucune graine ne germe (0 %) ;
+- de 5 °C à 30 °C, le pourcentage de germination **augmente** : 30 % à 10 °C, 80 % à 20 °C, jusqu'à un **maximum de 90 % à 30 °C** ;
+- au-delà, il **diminue** fortement : seulement 10 % à 40 °C.
+
+3) **Conclusion** : la température influence la germination du blé. Parmi les températures testées, la germination est la meilleure à **30 °C** (température la plus favorable) ; elle est impossible à 5 °C et très faible à 40 °C. Pour connaître plus précisément la température idéale, il faudrait tester d'autres valeurs entre 20 et 40 °C et **répéter** l'expérience.` },
       ],
     },
     {
@@ -762,11 +791,94 @@ Toute la matière des animaux provient, directement ou non, de la matière fabri
 - masse gagnée par le saule : 76,7 − 2,3 = **74,4 kg** ;
 - masse perdue par la terre : 90 − 89,94 = **0,06 kg**, soit 60 g.
 
-2) La terre n'a perdu que 60 g alors que le saule a gagné 74,4 kg, plus de 1 000 fois plus. La plante **ne s'est donc pas nourrie de terre**. (Les 60 g perdus correspondent aux sels minéraux prélevés par les racines.)
+2) La terre n'a perdu que 60 g alors que le saule a gagné 74,4 kg, plus de 1 000 fois plus. La plante **ne s'est donc pas nourrie de terre**. (Les 60 g perdus correspondent en partie aux sels minéraux prélevés par les racines ; une partie peut aussi venir des imprécisions de la pesée.)
 
 3) La plante verte fabrique sa matière par **photosynthèse**, dans ses feuilles éclairées, à partir de l'**eau** (prélevée par les racines) et du **dioxyde de carbone de l'air** (prélevé par les stomates), grâce à l'énergie de la **lumière** captée par la **chlorophylle**. Les **sels minéraux** du sol, en petite quantité, sont aussi nécessaires. Van Helmont pensait que tout venait de l'eau : il ignorait le rôle du CO₂ de l'air, découvert plus tard.
 
 > Conclusion : la matière d'une plante verte vient surtout de l'air (CO₂) et de l'eau, transformés grâce à la lumière.` },
+      ],
+    },
+    {
+      id: "micro-organismes-hygiene",
+      titre: "Micro-organismes, microbiote et hygiène",
+      theme: "Le corps humain et la santé",
+      cours: `
+## Le monde microbien
+Les **micro-organismes** (ou microbes) sont des êtres vivants trop petits pour être vus à l'œil nu : on les observe au **microscope**. Il y en a partout : dans l'air, l'eau, le sol, sur les objets, sur ta peau et à l'intérieur de ton corps.
+
+| Microbe | Taille | Exemples |
+|---|---|---|
+| **Bactéries** | quelques micromètres (µm), soit quelques millièmes de mm | bactéries du yaourt, salmonelle (intoxications alimentaires) |
+| **Champignons microscopiques** | quelques µm | levure du pain, champignon responsable d'une mycose |
+| **Virus** | environ 100 fois plus petits (quelques dizaines à quelques centaines de nanomètres) : visibles seulement au microscope électronique | virus de la grippe, du rhume, de la varicelle |
+
+Les bactéries et les levures sont des êtres **unicellulaires**. Quand les conditions sont favorables (chaleur, humidité, nourriture), elles se **multiplient** très vite en se divisant en deux : dans les meilleures conditions, certaines bactéries se divisent toutes les **20 minutes** environ. Un **virus**, lui, n'est pas une cellule : il ne peut se multiplier qu'**à l'intérieur des cellules** qu'il infecte.
+
+>! **Calcul : la multiplication des bactéries.** Une bactérie se divise toutes les 20 min. Après 20 min : 2 bactéries ; après 40 min : 4 ; après 1 h : 8. En 2 h, il y a 6 divisions : 2 × 2 × 2 × 2 × 2 × 2 = 2⁶ = **64 bactéries**. Le nombre **double** à chaque division : c'est pour cela qu'un aliment mal conservé devient vite dangereux.
+
+## Le microbiote : des microbes utiles
+La plupart des micro-organismes ne sont **pas dangereux**, et beaucoup nous sont utiles. Ton corps héberge en permanence un nombre immense de bactéries, surtout dans l'**intestin**, mais aussi sur la **peau** et dans la **bouche** : c'est le **microbiote**. Ton intestin contient à lui seul environ autant de bactéries que ton corps compte de cellules (plusieurs dizaines de milliers de milliards).
+
+Le **microbiote intestinal** :
+- participe à la **digestion** de certains aliments (les fibres des fruits et légumes) que nos propres enzymes ne savent pas digérer, et fabrique certaines **vitamines** ;
+- nous **protège** contre les microbes dangereux : il occupe la place et consomme la nourriture dont ceux-ci auraient besoin.
+
+Une alimentation variée, riche en fibres, favorise un microbiote diversifié. À l'inverse, les **antibiotiques** détruisent aussi une partie des bactéries utiles du microbiote.
+
+## Contamination et infection
+Certains micro-organismes sont **pathogènes** : ils provoquent des maladies.
+- La **contamination** est l'entrée des microbes dans l'organisme : par l'**air** (gouttelettes de toux ou d'éternuement), par **contact** (mains sales, objets), par les **aliments** ou l'eau, par une **plaie**, par le sang ou une piqûre d'insecte.
+- L'**infection** commence quand les microbes se **multiplient** dans l'organisme. Des symptômes peuvent apparaître (fièvre, fatigue, toux...).
+
+## Les défenses de l'organisme
+1. **Les barrières naturelles** empêchent la plupart des microbes d'entrer : la **peau** (épaisse et imperméable quand elle n'est pas blessée), les **muqueuses** (nez, bouche...) couvertes de **mucus** qui piège les microbes, les larmes et la salive, l'acidité de l'estomac, et le microbiote.
+2. **Une réaction rapide** : si des microbes franchissent ces barrières (par une plaie par exemple), une **inflammation** apparaît : rougeur, chaleur, gonflement, douleur. Des **globules blancs** arrivent par le sang, englobent les microbes et les détruisent : c'est la **phagocytose**. Le **pus** contient des globules blancs et des microbes morts.
+3. Si cela ne suffit pas, d'autres globules blancs fabriquent des **anticorps** dirigés précisément contre ce microbe. Tu étudieras ces défenses plus en détail plus tard au collège.
+
+## Se protéger : hygiène et prévention
+| Mesure | Principe | Exemples |
+|---|---|---|
+| **Hygiène** | limiter la contamination | se laver les mains au savon (environ 30 secondes), tousser dans son coude, bien cuire la viande |
+| **Asepsie** | empêcher les microbes d'arriver | **stérilisation** des instruments chirurgicaux par la chaleur, gants, masques |
+| **Antisepsie** | détruire les microbes sur la peau ou sur une plaie | nettoyer une plaie à l'eau et au savon, puis appliquer un **antiseptique** |
+| **Conservation des aliments** | le froid **ralentit** la multiplication des microbes ; une forte chaleur en détruit la plupart | réfrigérateur (vers 4 °C), congélateur (−18 °C), pasteurisation, conserves |
+| **Antibiotiques** | médicaments qui détruisent les **bactéries** (inefficaces contre les virus) | prescrits par un médecin, pour une infection bactérienne |
+| **Vaccination** | préparer l'organisme à se défendre très vite contre un microbe précis | vaccins contre la rougeole, le tétanos |
+
+>! **Attention à une erreur fréquente** : les antibiotiques ne soignent **pas** les maladies dues à des **virus** (rhume, grippe, la plupart des angines des enfants). Les utiliser sans raison est inutile et favorise l'apparition de **bactéries résistantes**, contre lesquelles les antibiotiques ne marchent plus.
+
+>! **Histoire des sciences** : en 1847, à Vienne, le médecin **Ignace Semmelweis** remarque que beaucoup plus de jeunes mères meurent de fièvre après l'accouchement quand elles sont soignées par des médecins venant de faire des autopsies. Il impose le **lavage des mains** avec une solution désinfectante : la mortalité dans ce service chute d'environ 10 % à environ 1 à 2 %. On ne connaissait pas encore les microbes : c'est notamment **Louis Pasteur** qui montrera leur rôle dans les maladies, dans les années 1860 à 1880.
+
+L'hygiène vise les microbes **pathogènes** : il ne s'agit pas de supprimer tous les microbes. Un équilibre est nécessaire entre une bonne hygiène et le maintien d'un microbiote en bonne santé.
+
+> **À retenir** :
+> - Bactéries, champignons microscopiques et virus sont des micro-organismes ; le virus n'est pas une cellule et ne se multiplie que dans des cellules.
+> - La plupart des microbes sont inoffensifs ; le **microbiote** (intestin, peau, bouche) aide à la digestion et protège contre les microbes pathogènes.
+> - Contamination = entrée des microbes ; infection = leur multiplication dans l'organisme.
+> - Défenses : barrières naturelles (peau, muqueuses), puis inflammation et phagocytose par les globules blancs.
+> - Prévention : hygiène, asepsie (empêcher l'arrivée des microbes), antisepsie (les détruire sur une plaie), conservation au froid, vaccination ; les antibiotiques agissent seulement contre les bactéries.
+`,
+      exercices: [
+        { type: "vf", question: "La plupart des bactéries sont dangereuses pour l'être humain.", reponse: false, explication: "La **plupart** des bactéries sont inoffensives, et beaucoup sont utiles : par exemple celles du **microbiote** intestinal, ou celles qui fabriquent le yaourt. Seules certaines sont **pathogènes**." },
+        { type: "qcm", question: "Lequel de ces micro-organismes n'est pas une cellule et ne peut se multiplier qu'à l'intérieur d'autres cellules ?", choix: ["Une bactérie", "Une levure", "Un virus", "Une paramécie"], reponse: 2, explication: "Le **virus** n'est pas une cellule : il doit entrer dans une cellule pour se multiplier. Bactéries, levures et paramécies sont des êtres unicellulaires." },
+        { type: "saisie", question: "Comment appelle-t-on l'ensemble des bactéries et autres micro-organismes qui vivent normalement dans notre intestin ?", reponses: ["microbiote", "le microbiote", "microbiote intestinal", "le microbiote intestinal", "flore intestinale", "la flore intestinale"], explication: "C'est le **microbiote intestinal** (on disait autrefois « flore intestinale »). Il aide à digérer les fibres et protège contre les microbes pathogènes." },
+        { type: "qcm", question: "Contre quels micro-organismes les antibiotiques sont-ils efficaces ?", choix: ["Contre les virus", "Contre les bactéries", "Contre tous les microbes", "Contre aucun microbe"], reponse: 1, explication: "Les antibiotiques détruisent les **bactéries** ou bloquent leur multiplication. Ils sont **inefficaces contre les virus** (grippe, rhume)." },
+        { type: "vf", question: "Il faut prendre des antibiotiques pour guérir plus vite d'une grippe.", reponse: false, explication: "La grippe est due à un **virus** : les antibiotiques n'ont aucun effet sur elle. Les prendre sans raison favorise l'apparition de bactéries résistantes et abîme le microbiote." },
+        { type: "saisie", question: "Comment appelle-t-on l'ensemble des méthodes qui détruisent les microbes présents sur la peau ou sur une plaie (par exemple avec un produit désinfectant) ?", reponses: ["antisepsie", "l'antisepsie"], explication: "C'est l'**antisepsie** (avec un **antiseptique**). L'**asepsie**, elle, consiste à empêcher les microbes d'arriver (instruments stérilisés, gants)." },
+        { type: "saisie", question: "Une bactérie se divise en deux toutes les 20 minutes. Combien de bactéries obtient-on, à partir d'une seule, au bout de 2 heures ?", reponses: ["64", "64 bactéries", "soixante-quatre", "2^6", "2⁶"], explication: "En 2 h, il y a 120 ÷ 20 = 6 divisions. Le nombre double à chaque fois : 1 → 2 → 4 → 8 → 16 → 32 → **64** (2⁶ = 64)." },
+        { type: "qcm", question: "Pourquoi conserve-t-on les aliments au réfrigérateur ?", choix: ["Parce que le froid tue tous les microbes", "Parce que le froid ralentit la multiplication des microbes", "Parce que le froid rend les aliments stériles", "Parce que les microbes ne supportent pas l'obscurité"], reponse: 1, explication: "Le froid **ralentit** la multiplication des microbes, mais il ne les tue pas tous : quand l'aliment se réchauffe, ils peuvent recommencer à se multiplier. Il faut donc respecter les dates de consommation." },
+        { type: "redaction", question: "Tom s'enfonce une écharde sale dans le doigt. Le lendemain, la zone autour de l'écharde est rouge, chaude, gonflée et douloureuse, et un peu de pus apparaît. 1) Explique comment les microbes sont entrés dans son organisme. 2) Explique ce qui se passe dans son doigt. 3) Indique les bons gestes à faire.", corrige: `1) **Contamination** : la peau est normalement une barrière efficace contre les microbes. L'écharde sale a **percé la peau** et a fait entrer des microbes (bactéries) sous la peau.
+
+2) **Infection et réaction de l'organisme** : les bactéries se sont **multipliées** dans le doigt (infection). L'organisme réagit rapidement : c'est l'**inflammation**, avec ses quatre signes (rougeur, chaleur, gonflement, douleur). Des **globules blancs** arrivent par le sang et détruisent les bactéries en les englobant : c'est la **phagocytose**. Le **pus** est formé de globules blancs et de bactéries morts.
+
+3) **Bons gestes** : se laver les mains, retirer l'écharde avec une pince propre, **nettoyer** la plaie à l'eau et au savon, puis appliquer un **antiseptique** (antisepsie) et protéger avec un pansement propre. Si la rougeur s'étend, si la fièvre apparaît ou si cela ne guérit pas, il faut consulter un médecin. Il faut aussi vérifier que la **vaccination contre le tétanos** est à jour.` },
+        { type: "redaction", question: "Document : en 1846, dans un hôpital de Vienne, le service A (accouchements réalisés par des médecins qui pratiquent aussi des autopsies) a une mortalité des jeunes mères d'environ 11 %, alors que le service B (accouchements réalisés par des sages-femmes, qui ne font pas d'autopsies) a une mortalité d'environ 3 %. En 1847, le médecin Semmelweis oblige les médecins du service A à se laver les mains avec une solution désinfectante avant chaque accouchement. En 1848, la mortalité du service A tombe à environ 1,3 %. 1) Compare la mortalité des deux services en 1846. 2) Quelle hypothèse Semmelweis a-t-il pu formuler ? 3) Le résultat de 1848 confirme-t-il cette hypothèse ? Calcule par combien la mortalité du service A a été divisée. 4) Quel geste d'hygiène actuel découle de cette découverte ?", corrige: `1) **Comparaison** : en 1846, la mortalité est d'environ 11 % dans le service A contre 3 % dans le service B, soit presque **4 fois plus** (11 ÷ 3 ≈ 3,7). La différence entre les deux services est que les médecins du service A font aussi des autopsies.
+
+2) **Hypothèse** : les médecins transportent sur leurs **mains**, depuis la salle d'autopsie, quelque chose (on sait aujourd'hui que ce sont des **microbes**) qui contamine les jeunes mères et provoque la maladie.
+
+3) Après le **lavage des mains** obligatoire, la mortalité du service A passe de 11 % à 1,3 % : elle est divisée par environ 11 ÷ 1,3 ≈ **8**. Le seul changement est le lavage des mains : le résultat **confirme l'hypothèse**. Les mains des médecins transmettaient la maladie.
+
+4) Aujourd'hui, le **lavage des mains** (au savon ou avec une solution hydroalcoolique) est un geste d'hygiène essentiel, à l'hôpital comme dans la vie de tous les jours : il limite la **contamination**. À l'hôpital, on utilise aussi l'**asepsie** (instruments stérilisés, gants).` },
       ],
     },
   ],

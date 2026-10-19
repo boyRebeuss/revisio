@@ -45,7 +45,13 @@ export function bloc(src) {
       const methode = /^>!/.test(t);
       const re = methode ? /^\s*>!/ : /^\s*>(?!!)/;
       const contenu = [];
-      while (debut(re)) contenu.push(lignes[i++].replace(re, "").replace(/^ /, ""));
+      while (debut(re)) {
+        contenu.push(lignes[i++].replace(re, "").replace(/^ /, ""));
+        // Ligne de texte collée sous l'encadré sans « > » : elle en fait partie (comme en Markdown)
+        while (i < lignes.length && lignes[i].trim() && !/^\s*(>|#{2,4}\s|[-*]\s|\d+[.)]\s|\||~~~)/.test(lignes[i])) {
+          contenu.push(lignes[i++].trim());
+        }
+      }
       out.push(`<div class="${methode ? "methode" : "retenir"}">${bloc(contenu.join("\n"))}</div>`);
     } else if (/^[-*]\s+/.test(t)) {
       // Une puce décalée de 2 espaces ou plus est une sous-puce de la précédente

@@ -7,8 +7,8 @@ cat > "$tmp/t.mjs" <<JS
 import { reponseJuste } from '${PWD}/js/correcteur.js';
 import cas from '${PWD}/tools/cas-correcteur.mjs';
 let ko = 0;
-for (const [s, r, acc, att] of cas) {
-  const res = reponseJuste(s, r, acc);
+for (const [s, r, acc, att, enonce] of cas) {
+  const res = reponseJuste(s, r, acc, enonce || "");
   if (res !== att) { ko++; print("ÉCHEC : " + JSON.stringify(s) + " vs " + JSON.stringify(r) + (acc ? " (" + acc + ")" : "") + " → " + res + ", attendu " + att); }
 }
 print(ko ? ko + " échec(s) sur " + cas.length : "OK : " + cas.length + " cas");

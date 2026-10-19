@@ -99,7 +99,7 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
       const valider = () => {
         if (fini || !champ.value.trim()) return;
         champ.disabled = true;
-        const ok = reponseJuste(champ.value, e.reponses, ctx?.langue || false);
+        const ok = reponseJuste(champ.value, e.reponses, ctx?.langue || false, e.question);
         terminer(ok, ok ? null : h("p", { class: "attendu" },
           "Réponse attendue : ", h("strong", {}, e.reponses[0]),
           // Le correcteur ne connaît pas toutes les écritures possibles : l'élève peut le corriger
@@ -159,7 +159,8 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
             },
           }, "✨ Faire corriger par l'IA")
         : null;
-      actions.append(h("button", { class: "btn", onclick: afficherCorrige }, "Voir le corrigé"), boutonIA);
+      actions.append(h("button", { class: "btn", onclick: afficherCorrige }, "Voir le corrigé"));
+      if (boutonIA) actions.append(boutonIA);
       zone.append(texte, actions, corrige);
     }
   }
