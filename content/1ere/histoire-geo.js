@@ -155,7 +155,7 @@ Après la chute de Napoléon, les souverains européens veulent effacer l'hérit
           explication: "**Metternich**, chancelier autrichien, domine le congrès de Vienne. Bismarck et Cavour agissent plus tard (unités allemande et italienne) ; Mazzini est un révolutionnaire." },
         { type: "vf", question: "Le congrès de Vienne redessine les frontières de l'Europe en respectant le principe des nationalités.", reponse: false,
           explication: "Faux : les frontières sont fixées selon la **légitimité** dynastique et l'équilibre des puissances, sans consulter les peuples (Pologne partagée, Italie divisée)." },
-        { type: "saisie", question: "Quel nom donne-t-on aux journées révolutionnaires parisiennes des 27, 28 et 29 juillet 1830 ?", reponses: ["Les Trois Glorieuses", "Trois Glorieuses"],
+        { type: "saisie", question: "Quel nom donne-t-on aux journées révolutionnaires parisiennes des 27, 28 et 29 juillet 1830 ?", reponses: ["Les Trois Glorieuses", "Trois Glorieuses", "révolution de Juillet"],
           explication: "Les **Trois Glorieuses** renversent Charles X ; Louis-Philippe devient roi des Français (monarchie de Juillet)." },
         { type: "qcm", question: "Quel peuple obtient son indépendance en 1830 après une guerre contre l'Empire ottoman ?", choix: ["Les Polonais", "Les Grecs", "Les Hongrois", "Les Italiens"], reponse: 1,
           explication: "Les **Grecs** se soulèvent en 1821 et obtiennent l'indépendance en 1830 grâce à l'intervention des puissances. Les Polonais sont écrasés en 1831, les Hongrois en 1849." },
@@ -724,7 +724,7 @@ De 1914 à 1918, l'Europe se déchire dans une guerre d'une violence inédite, q
       exercices: [
         { type: "qcm", question: "Quel événement déclenche la crise de l'été 1914 ?", choix: ["L'invasion de la Belgique", "L'assassinat de François-Ferdinand à Sarajevo", "La bataille de la Marne", "La révolution russe"], reponse: 1,
           explication: "L'attentat de **Sarajevo** (28 juin 1914) entraîne l'ultimatum autrichien à la Serbie puis l'engrenage des alliances." },
-        { type: "saisie", question: "Quelle bataille de 1916, symbole de la guerre pour les Français, commence le 21 février ?", reponses: ["Verdun", "la bataille de Verdun"],
+        { type: "saisie", question: "Quelle bataille de 1916, symbole de la guerre pour les Français, commence le 21 février ?", reponses: ["Verdun", "la bataille de Verdun", "bataille de Verdun"],
           explication: "**Verdun** dure de février à décembre 1916 ; la quasi-totalité de l'armée française y passe par rotation." },
         { type: "vf", question: "Le génocide des Arméniens est commis par le gouvernement de l'Empire ottoman pendant la guerre.", reponse: true,
           explication: "Vrai : à partir d'avril 1915, le gouvernement jeune-turc organise déportations et massacres ; environ 1,2 à 1,5 million d'Arméniens périssent." },

@@ -26,6 +26,11 @@ function aller(hash) {
   location.hash = hash;
 }
 
+// Redirection (lien périmé, matière inconnue) : remplace l'entrée d'historique
+function rediriger(hash) {
+  location.replace(hash);
+}
+
 function entete({ titre, retour, couleur, droite }) {
   return h("header", { class: "barre", style: couleur ? { "--c": couleur } : null },
     retour ? h("a", { class: "retour-btn", href: retour, "aria-label": "Retour" }, "‹") : h("span", { class: "logo" }, "🎓"),
@@ -100,10 +105,11 @@ function vueProfils() {
   );
 }
 
-function formulaireProfil(existant) {
+function formulaireProfil(existant, { depuisReglages = false } = {}) {
   let avatar = existant?.avatar || S.AVATARS[Math.floor(Math.random() * S.AVATARS.length)];
   const prenom = h("input", { class: "champ", type: "text", maxlength: 20, placeholder: "Prénom", value: existant?.prenom || "" });
   const niveau = h("select", { class: "champ" },
+    existant ? null : h("option", { value: "", selected: true, disabled: true }, "Choisis la classe…"),
     Object.entries(NIVEAUX).map(([id, n]) => h("option", { value: id, selected: existant?.niveau === id }, `${n.nom} — ${n.long}`))
   );
   const avatars = h("div", { class: "avatars" },
@@ -126,9 +132,10 @@ function formulaireProfil(existant) {
       ev.preventDefault();
       const p = prenom.value.trim();
       if (!p) { msg.textContent = "Écris un prénom."; return; }
+      if (!niveau.value) { msg.textContent = "Choisis la classe."; return; }
       if (existant) S.modifierProfil(existant.id, { prenom: p, niveau: niveau.value, avatar });
-      else S.ajouterProfil(p, niveau.value, avatar);
-      aller(existant ? "#/reglages" : "#/");
+      else S.ajouterProfil(p, niveau.value, avatar, !depuisReglages);
+      aller(existant || depuisReglages ? "#/reglages" : "#/");
     },
   },
     h("h2", {}, existant ? "Modifier le profil" : "Nouveau profil"),
@@ -139,19 +146,21 @@ function formulaireProfil(existant) {
 
 // ---------- Accueil ----------
 
-function statsMatiere(prog, id) {
+function statsMatiere(prog, niveau, id) {
   let vus = 0, faits = 0, reussis = 0;
   for (const [cle, c] of Object.entries(prog)) {
-    if (!cle.startsWith(id + "/")) continue;
+    if (!cle.startsWith(`${niveau}/${id}/`)) continue;
     if (c.vu) vus++;
     for (const r of Object.values(c.ex || {})) { faits++; if (r.ok) reussis++; }
   }
   return { vus, faits, reussis };
 }
 
-function aRevoir(prog) {
+function aRevoir(prog, niveau) {
   const out = [];
   for (const [cle, c] of Object.entries(prog)) {
+    const [n, idM] = cle.split("/");
+    if (n !== niveau || !trouverMatiere(niveau, idM)) continue;
     const rates = Object.values(c.ex || {}).filter((r) => !r.ok).length;
     if (rates) out.push({ cle, titre: c.titre, rates });
   }
@@ -163,7 +172,7 @@ function vueAccueil() {
   if (!p) return vueProfils();
   const niv = NIVEAUX[p.niveau];
   const prog = S.progression(p.id);
-  const revoir = aRevoir(prog);
+  const revoir = aRevoir(prog, p.niveau);
   page(
     entete({
       titre: "Révisio",
@@ -181,12 +190,14 @@ function vueAccueil() {
       ) : null,
       h("div", { class: "grille" },
         niv.matieres.map((m) => {
-          const st = statsMatiere(prog, m.id);
+          const st = statsMatiere(prog, p.niveau, m.id);
           return h("a", { class: "matiere", href: `#/m/${m.id}`, style: { "--c": m.couleur } },
             h("span", { class: "m-icone" }, m.icone),
             h("span", { class: "m-nom" }, m.nom),
             h("span", { class: "m-stat" },
-              st.faits ? `${st.reussis}/${st.faits} réussis` : st.vus ? `${st.vus} chapitre(s) lus` : "À découvrir")
+              st.faits
+                ? `✓ ${st.reussis} réussi${st.reussis > 1 ? "s" : ""}` + (st.faits > st.reussis ? ` · ${st.faits - st.reussis} à revoir` : "")
+                : st.vus ? `${st.vus} chapitre${st.vus > 1 ? "s" : ""} lu${st.vus > 1 ? "s" : ""}` : "À découvrir")
           );
         })
       )
@@ -200,7 +211,7 @@ async function vueMatiere(id) {
   const p = S.profilActif();
   if (!p) return vueProfils();
   const m = trouverMatiere(p.niveau, id);
-  if (!m) return aller("#/");
+  if (!m) return rediriger("#/");
   chargement();
   let data;
   try { data = await charger(p.niveau, id); } catch { return erreur("Cette matière n'est pas encore disponible ou la connexion a échoué."); }
@@ -218,7 +229,7 @@ async function vueMatiere(id) {
         g.theme ? h("h2", { class: "theme" }, g.theme) : null,
         h("div", { class: "chapitres" },
           g.chapitres.map((c) => {
-            const r = S.resumeChapitre(prog, `${id}/${c.id}`, c.exercices.length);
+            const r = S.resumeChapitre(prog, `${p.niveau}/${id}/${c.id}`, c.exercices.length);
             const pct = r.total ? Math.round((100 * r.reussis) / r.total) : 0;
             return h("a", { class: "chapitre", href: `#/c/${id}/${c.id}` },
               h("span", { class: "c-titre" }, c.titre),
@@ -239,22 +250,22 @@ async function vueChapitre(idM, idC, onglet = "cours") {
   const p = S.profilActif();
   if (!p) return vueProfils();
   const m = trouverMatiere(p.niveau, idM);
-  if (!m) return aller("#/");
+  if (!m) return rediriger("#/");
   chargement();
   let data;
   try { data = await charger(p.niveau, idM); } catch { return erreur("Impossible de charger ce chapitre."); }
   const idx = data.chapitres.findIndex((c) => c.id === idC);
   const c = data.chapitres[idx];
-  if (!c) return aller(`#/m/${idM}`);
-  const cle = `${idM}/${c.id}`;
+  if (!c) return rediriger(`#/m/${idM}`);
+  const cle = `${p.niveau}/${idM}/${c.id}`;
   const ctx = { niveau: NIVEAUX[p.niveau].long, matiere: m.nom, accents: idM === "francais" };
   const suivant = data.chapitres[idx + 1];
 
   const onglets = [
     ["cours", "📘 Cours"],
-    ["exercices", "✏️ Exercices"],
+    ["exercices", "✏️ Exos"],
     ["revoir", "🔁 À revoir"],
-    ["ia", "✨ Demander"],
+    ["ia", "✨ IA"],
   ];
   const nav = h("nav", { class: "onglets" },
     onglets.map(([o, lib]) => h("a", { class: o === onglet ? "actif" : "", href: `#/c/${idM}/${idC}/${o}` }, lib))
@@ -277,8 +288,8 @@ async function vueChapitre(idM, idC, onglet = "cours") {
   }
 
   page(
-    entete({ titre: c.titre, retour: `#/m/${idM}`, couleur: m.couleur }),
-    h("main", { style: { "--c": m.couleur } }, nav, corps)
+    entete({ titre: `${m.icone} ${m.nom}`, retour: `#/m/${idM}`, couleur: m.couleur }),
+    h("main", { style: { "--c": m.couleur } }, h("h2", { class: "titre-chap" }, c.titre), nav, corps)
   );
 }
 
@@ -394,14 +405,14 @@ function vueRevoir() {
   const p = S.profilActif();
   if (!p) return vueProfils();
   const prog = S.progression(p.id);
-  const liste = aRevoir(prog);
+  const liste = aRevoir(prog, p.niveau);
   page(
     entete({ titre: "🔁 À revoir", retour: "#/" }),
     h("main", {},
       liste.length
         ? h("div", { class: "chapitres" },
             liste.map((r) => {
-              const [idM, idC] = r.cle.split("/");
+              const [, idM, idC] = r.cle.split("/");
               const m = trouverMatiere(p.niveau, idM);
               if (!m) return null;
               return h("a", { class: "chapitre", href: `#/c/${idM}/${idC}/revoir`, style: { "--c": m.couleur } },
@@ -424,6 +435,7 @@ function vueReglages() {
   const sauver = async () => {
     // Retire espaces, retours à la ligne et caractères invisibles ajoutés par le copier-coller
     const k = cle.value.replace(/[\s\u200B-\u200D\u2060\uFEFF]/g, "").replace(/^["'«»]+|["'«»]+$/g, "");
+    if (!k) { msg.className = "erreur"; msg.textContent = "Colle d'abord la clé dans le champ."; return; }
     if (!/^[\x21-\x7E]{20,300}$/.test(k)) { msg.className = "erreur"; msg.textContent = "Colle la clé complète, sans autre texte autour."; return; }
     S.reglages.setCleGemini(k);
     IA.oublierModeles();
@@ -464,7 +476,7 @@ function vueReglages() {
             )
           )
         ),
-        h("a", { class: "btn", href: "#/profils" }, "+ Ajouter un élève")
+        h("a", { class: "btn", href: "#/nouveau" }, "+ Ajouter un élève")
       ),
       h("section", { class: "carte" },
         h("h2", {}, "✨ Intelligence artificielle (facultatif)"),
@@ -498,6 +510,10 @@ function vueReglages() {
   );
 }
 
+function vueNouveauProfil() {
+  page(entete({ titre: "Nouvel élève", retour: "#/reglages" }), h("main", {}, formulaireProfil(null, { depuisReglages: true })));
+}
+
 function vueModifierProfil(id) {
   const p = S.profils().find((x) => x.id === id);
   if (!p) return aller("#/reglages");
@@ -514,6 +530,7 @@ function router() {
     case undefined: return vueAccueil();
     case "profils": return vueProfils();
     case "profil": return vueModifierProfil(a);
+    case "nouveau": return vueNouveauProfil();
     case "m": return vueMatiere(a);
     case "c": return vueChapitre(a, b, ["cours", "exercices", "revoir", "ia"].includes(c) ? c : "cours");
     case "revoir": return vueRevoir();

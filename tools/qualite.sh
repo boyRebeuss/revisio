@@ -9,7 +9,7 @@ tmp=$(mktemp -d)
 for f in $files; do
   { print -r "import data from '${f:A}';"
     print -r "import { bloc } from '${PWD}/js/md.js';"
-    print -r "import { normaliser } from '${PWD}/tools/_norm.mjs';"
+    print -r "import { normaliser } from '${PWD}/js/correcteur.js';"
     cat <<'JS'
 const pos = {}; let alertes = [];
 const verif = (ou, s) => {

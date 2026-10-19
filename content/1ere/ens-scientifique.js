@@ -267,9 +267,9 @@ Plus le corps est **chaud**, plus λmax est **petite** (décalage vers le bleu).
 ## La puissance solaire reçue par la Terre
 La puissance du Soleil se répartit sur une sphère de rayon d (distance Soleil–Terre, d = 1,50 × 10¹¹ m). La puissance reçue par m², perpendiculairement aux rayons, au sommet de l'atmosphère est la **constante solaire** :
 
-C = P / (4π d²) ≈ **1 361 W/m²** (on arrondit souvent à 1 360 W/m²).
+C = P / (4π d²) = 3,8 × 10²⁶ / (4π × (1,50 × 10¹¹)²) ≈ **1 344 W/m²**, soit environ 1 340 W/m² avec ces valeurs arrondies. La **valeur mesurée** par satellite est **1 361 W/m²** (on arrondit souvent à 1 360 W/m²) : c'est elle qu'on utilise ensuite.
 
-La Terre intercepte le rayonnement sur un disque de rayon R = 6 371 km : puissance totale reçue ≈ C × πR² ≈ **1,74 × 10¹⁷ W**.
+La Terre intercepte le rayonnement sur un disque de rayon R = 6 371 km : puissance totale reçue ≈ 1 361 × πR² ≈ **1,74 × 10¹⁷ W**.
 
 Comme la surface de la Terre (4πR²) est 4 fois plus grande que ce disque, la puissance **moyenne** reçue par m² de surface terrestre vaut **C/4 ≈ 340 W/m²**.
 
@@ -475,7 +475,7 @@ Sur un cercle de rayon R, un arc d'angle au centre α (en degrés) a pour longue
 
 >! Exemple : la longueur du parallèle 60° N vaut 2π × 6 371 × cos 60° ≈ 20 000 km, la moitié de l'équateur.
 
-Le **plus court chemin** entre deux points de la sphère est un arc de **grand cercle** (cercle centré sur le centre de la Terre), par exemple un méridien. C'est pourquoi les avions qui vont de Paris à Tokyo passent près du pôle Nord.
+Le **plus court chemin** entre deux points de la sphère est un arc de **grand cercle** (cercle centré sur le centre de la Terre), par exemple un méridien. C'est pourquoi la route la plus courte de Paris à Tokyo passe très au nord, au-dessus de la Sibérie occidentale (jusque vers 69° N), alors que les deux villes sont à 49° N et 36° N.
 
 ## La triangulation et la définition du mètre
 Pour mesurer précisément un long arc de méridien, on utilise la **triangulation** : on mesure avec soin une seule longueur (la **base**), puis on ne mesure que des **angles** entre des points visibles de loin (clochers, sommets). Les longueurs se calculent avec la **loi des sinus** : dans un triangle ABC, a / sin A = b / sin B = c / sin C.
@@ -705,7 +705,7 @@ En enchaînant **12 quintes**, on espère retomber sur la note de départ, **7 o
 Les deux ne sont pas égaux : l'écart, le **comma pythagoricien**, vaut 129,75 / 128 ≈ **1,0136**. Mathématiquement, aucune puissance de 3/2 n'est égale à une puissance de 2 (3ⁿ est impair, 2ᵐ est pair). Le cycle des quintes ne se referme **jamais** : il faut faire un compromis, ce qui gêne pour **transposer** un morceau dans une autre tonalité.
 
 ## La gamme tempérée
-Au XVIIe–XVIIIe siècle (Bach, « Le Clavier bien tempéré »), le **tempérament égal** s'impose : l'octave est divisée en **12 demi-tons égaux**. Le rapport d'un demi-ton est le nombre q tel que q¹² = 2 :
+Au début du XVIIIe siècle, les tempéraments « bien tempérés » (Bach, « Le Clavier bien tempéré », 1722) permettent déjà de jouer dans toutes les tonalités, avec des demi-tons encore légèrement inégaux. Le **tempérament égal** s'impose ensuite progressivement aux XVIIIe–XIXe siècles : l'octave est divisée en **12 demi-tons égaux**. Le rapport d'un demi-ton est le nombre q tel que q¹² = 2 :
 
 **q = 2^(1/12) ≈ 1,0595**
 
@@ -827,7 +827,7 @@ Protections : bouchons d'oreille, s'éloigner des enceintes (doubler la distance
 `,
       exercices: [
         { type: "qcm", question: "Quelle structure transforme la vibration sonore en message nerveux ?", choix: ["Le tympan", "Les osselets", "Les cellules ciliées de la cochlée", "Le pavillon"], reponse: 2, explication: "Les cellules ciliées de la cochlée réalisent cette transformation. Le tympan et les osselets transmettent la vibration." },
-        { type: "saisie", question: "Comment s'appellent les trois osselets de l'oreille moyenne ? (ordre du tympan vers l'oreille interne, séparés par des virgules)", reponses: ["marteau, enclume, étrier", "marteau, enclume, etrier", "marteau enclume étrier"], explication: "**Marteau**, **enclume**, **étrier** : ils transmettent et amplifient la vibration du tympan jusqu'à la fenêtre ovale." },
+        { type: "saisie", question: "Comment s'appellent les trois osselets de l'oreille moyenne ? (ordre du tympan vers l'oreille interne, séparés par des virgules)", reponses: ["marteau, enclume, étrier", "marteau, enclume, etrier", "marteau enclume étrier", "marteau, enclume et étrier", "le marteau, l'enclume et l'étrier", "le marteau, l'enclume, l'étrier"], explication: "**Marteau**, **enclume**, **étrier** : ils transmettent et amplifient la vibration du tympan jusqu'à la fenêtre ovale." },
         { type: "vf", question: "Chez l'être humain, les cellules ciliées détruites par un bruit trop fort se régénèrent en quelques semaines.", reponse: false, explication: "Elles ne se régénèrent pas : la perte auditive est **définitive**." },
         { type: "qcm", question: "La base de la cochlée est sensible aux sons :", choix: ["aigus", "graves", "de toutes fréquences de la même façon", "inaudibles uniquement"], reponse: 0, explication: "La base détecte les aigus, le sommet les graves : chaque fréquence stimule une zone précise." },
         { type: "qcm", question: "Où le message nerveux auditif est-il interprété ?", choix: ["Dans la cochlée", "Dans le tympan", "Dans le cortex auditif du cerveau", "Dans le conduit auditif"], reponse: 2, explication: "Le nerf auditif conduit le message au cortex auditif (lobe temporal), où le son est perçu et interprété." },

@@ -28,10 +28,10 @@ export function choisirProfil(id) {
   ecrire("actif", id);
 }
 
-export function ajouterProfil(prenom, niveau, avatar) {
+export function ajouterProfil(prenom, niveau, avatar, activer = true) {
   const p = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), prenom, niveau, avatar };
   ecrire("profils", [...profils(), p]);
-  ecrire("actif", p.id);
+  if (activer) ecrire("actif", p.id);
   return p;
 }
 
@@ -45,9 +45,23 @@ export function supprimerProfil(id) {
   if (lire("actif", null) === id) localStorage.removeItem(P + "actif");
 }
 
-// Progression : { "<matiere>/<chapitre>": { titre, vu, ex: { "<n>": { ok, d } } } }
+// Progression : { "<niveau>/<matiere>/<chapitre>": { titre, vu, ex: { "<n>": { ok, d } } } }
+// (le niveau est dans la clé : changer de classe ne mélange pas les résultats)
 export function progression(profilId) {
-  return lire("prog." + profilId, {});
+  const prog = lire("prog." + profilId, {});
+  // Anciennes clés « matiere/chapitre » : rattachées au niveau actuel du profil
+  const anciennes = Object.keys(prog).filter((k) => k.split("/").length === 2);
+  if (anciennes.length) {
+    const niveau = profils().find((p) => p.id === profilId)?.niveau;
+    if (niveau) {
+      for (const k of anciennes) {
+        prog[`${niveau}/${k}`] = prog[`${niveau}/${k}`] || prog[k];
+        delete prog[k];
+      }
+      ecrire("prog." + profilId, prog);
+    }
+  }
+  return prog;
 }
 
 function majChapitre(profilId, cle, f) {

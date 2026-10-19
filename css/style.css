@@ -48,10 +48,10 @@ h2 { font-size: 1.2rem; margin: 0 0 12px; }
 }
 .barre h1 { flex: 1; min-width: 0; font-size: 1.1rem; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .barre .logo { font-size: 1.4rem; }
-.retour-btn { color: #fff; text-decoration: none; font-size: 2rem; line-height: 1; padding: 0 8px 4px 0; }
+.retour-btn { color: #fff; text-decoration: none; font-size: 2rem; line-height: 1; display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; margin: -6px 0 -6px -10px; padding-bottom: 4px; }
 .droite { display: flex; gap: 8px; align-items: center; }
 .chip { color: #fff; text-decoration: none; background: rgb(255 255 255 / 0.2); padding: 4px 12px; border-radius: 99px; font-size: 0.95rem; }
-.icone-btn { color: #fff; text-decoration: none; font-size: 1.4rem; padding: 0 4px; }
+.icone-btn { color: #fff; text-decoration: none; font-size: 1.4rem; display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; margin: -6px -8px -6px 0; }
 
 /* Boutons et champs */
 .btn {
@@ -134,7 +134,7 @@ section:first-child > .theme { margin-top: 4px; }
 /* Chapitre */
 .onglets { display: flex; gap: 4px; overflow-x: auto; margin: -4px 0 16px; padding-bottom: 2px; }
 .onglets a {
-  flex: 1; text-align: center; white-space: nowrap; padding: 9px 12px; border-radius: 10px;
+  flex: 1 1 0; min-width: 0; text-align: center; white-space: nowrap; padding: 9px 12px; border-radius: 10px;
   text-decoration: none; color: var(--doux); background: var(--carte); border: 1px solid var(--bord); font-weight: 600; font-size: 0.95rem;
 }
 .onglets a.actif { background: var(--c); color: #fff; border-color: transparent; }
@@ -216,3 +216,10 @@ form.carte { display: grid; gap: 10px; }
 pre.code { background: #1e2330; color: #e8ebf2; border-radius: 10px; padding: 12px 14px; overflow-x: auto; font: 0.9rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; margin: 10px 0; }
 .ia-code { border-left: 5px solid var(--ia); text-align: left; }
 .carte .ia-code { border: none; padding: 0; margin: 12px 0; }
+
+.titre-chap { font-size: 1.25rem; margin: 0 0 12px; line-height: 1.3; }
+@media (max-width: 420px) {
+  .onglets { gap: 3px; }
+  .onglets a { padding: 8px 4px; font-size: 0.85rem; }
+}
+.btn.contester { margin-left: 10px; font-size: 0.9rem; }

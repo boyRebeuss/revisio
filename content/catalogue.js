@@ -18,7 +18,7 @@ export const NIVEAUX = {
   },
   "1ere": {
     nom: "1re",
-    long: "Première générale — spécialités AMC, SES, Maths",
+    long: "Première générale",
     matieres: [
       { id: "francais", nom: "Français (bac)", icone: "📖", couleur: "#e2574c" },
       { id: "maths", nom: "Spé Mathématiques", icone: "📐", couleur: "#3b7dd8" },

@@ -2,36 +2,9 @@
 import { h } from "./dom.js";
 import { bloc, inline } from "./md.js";
 import * as IA from "./gemini.js";
+import { reponseJuste } from "./correcteur.js";
 
-// accents = true : les accents comptent (orthographe en français)
-export function normaliser(s, accents = false) {
-  let t = String(s ?? "").normalize("NFD");
-  if (!accents) t = t.replace(/[̀-ͯ]/g, "");
-  t = t
-    .toLowerCase()
-    .replace(/[’‘`´]/g, "'")
-    .replace(/[−–—]/g, "-")
-    .replace(/(\d),(\d)/g, "$1.$2")
-    .replace(/\s+/g, " ")
-    .trim();
-  // La ponctuation d'ouverture/fermeture est ignorée, sauf si elle est la réponse
-  const nu = t.replace(/^[¿¡]+/, "").replace(/[\s.!?;:]+$/, "");
-  return nu || t;
-}
-
-// accents = true (français) : si la réponse attendue porte des accents, ils comptent.
-export function reponseJuste(saisie, attendues, accents = false) {
-  const nombre = (x) => (/^-?\d+(\.\d+)?$/.test(x) ? parseFloat(x) : NaN);
-  return attendues.some((r) => {
-    const strict = accents && /[\u0300-\u036f]/.test(String(r).normalize("NFD"));
-    const a = normaliser(saisie, strict);
-    if (!a) return false;
-    const b = normaliser(r, strict);
-    if (a === b || a.replace(/ /g, "") === b.replace(/ /g, "")) return true;
-    const na = nombre(a.replace(/ /g, "")), nb = nombre(b.replace(/ /g, ""));
-    return !isNaN(na) && !isNaN(nb) && Math.abs(na - nb) < 1e-9;
-  });
-}
+export { normaliser, reponseJuste } from "./correcteur.js";
 
 // Vérifie un exercice (utile pour ceux produits par l'IA).
 export function exerciceValide(e) {
@@ -127,7 +100,19 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
         if (fini || !champ.value.trim()) return;
         champ.disabled = true;
         const ok = reponseJuste(champ.value, e.reponses, !!ctx?.accents);
-        terminer(ok, ok ? null : h("p", { class: "attendu" }, "Réponse attendue : ", h("strong", {}, e.reponses[0])));
+        terminer(ok, ok ? null : h("p", { class: "attendu" },
+          "Réponse attendue : ", h("strong", {}, e.reponses[0]),
+          // Le correcteur ne connaît pas toutes les écritures possibles : l'élève peut le corriger
+          h("button", {
+            class: "btn petit contester",
+            onclick: (ev) => {
+              carte.classList.replace("ko", "ok");
+              retour.querySelector(".verdict").textContent = "✅ D'accord, ta réponse est comptée juste.";
+              ev.currentTarget.remove();
+              onResultat?.(true);
+            },
+          }, "Ma réponse était juste")
+        ));
       };
       champ.addEventListener("keydown", (ev) => ev.key === "Enter" && valider());
       zone.append(h("div", { class: "saisie" }, champ, h("button", { class: "btn", onclick: valider }, "Valider")));

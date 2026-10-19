@@ -14,7 +14,7 @@ In the English-speaking world, knowledge is produced and shared by many actors: 
 - The **Ivy League** is a group of eight private universities in the north-east of the US: Brown, Columbia, Cornell, Dartmouth, Harvard, the University of Pennsylvania, Princeton and Yale. The name first referred to an athletic conference, formally created in 1954, but today it symbolises academic excellence and prestige.
 
 ### Debates about elitism
-- **Cost**: in the US, tuition fees at private universities are very high and many graduates carry heavy *student debt*. In England, tuition fees were introduced in 1998, and the cap was raised to 9,000 pounds a year in 2012, which caused large student protests.
+- **Cost**: in the US, tuition fees at private universities are very high and many graduates carry heavy *student debt*. In England, tuition fees were introduced in 1998, and in 2010, amid large student protests, Parliament voted to raise the cap to 9,000 pounds a year (applied from 2012).
 - **Admissions**: *legacy admissions* (favouring the children of former students) are criticised as unfair. In June 2023, in *Students for Fair Admissions v. Harvard*, the US Supreme Court ruled that race-conscious admissions (*affirmative action*) were unconstitutional.
 - **Social mobility**: are elite universities engines of mobility or machines that reproduce privilege? Both views are defended.
 
@@ -1330,7 +1330,7 @@ The documents first highlight the considerable financial burden of elite educati
 | a journey | un voyage, un trajet | une journée (= a day) |
 | to pretend | faire semblant | prétendre (= to claim) |
 | a lecture | un cours magistral, une conférence | une lecture (= reading) |
-| to control | contrôler, maîtriser | contrôler (= to check) |
+| to control | maîtriser, diriger, contenir | contrôler, vérifier (= to check) |
 | a conference | un colloque | une conférence (= a talk) |
 
 ### Tenses
@@ -1692,7 +1692,7 @@ L'expression écrite argumentée exige une réponse claire, structurée et illus
         {
           type: "saisie",
           question: "Correct this sentence (rewrite it): \"Social medias has change the way people gets informed.\"",
-          reponses: ["Social media have changed the way people get informed", "Social media has changed the way people get informed"],
+          reponses: ["Social media have changed the way people get informed", "Social media has changed the way people get informed", "Social media have changed how people get informed", "Social media has changed how people get informed"],
           explication: "*Media* is already a plural (no -s); the participle is **changed**; *people* is plural, so **get**. *Social media* is used with a plural or, increasingly, a singular verb."
         },
         {

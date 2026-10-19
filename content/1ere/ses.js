@@ -132,7 +132,7 @@ Le pouvoir de marché n'est pas toujours condamné : le **brevet** donne un mono
           explication: "Pour maximiser son profit, le monopole restreint la production afin de vendre plus cher : le surplus du consommateur baisse et une perte sèche apparaît." },
         { type: "qcm", question: "Lequel de ces éléments est une barrière à l'entrée légale ?", choix: ["Des économies d'échelle", "Un brevet", "Une forte image de marque", "Des coûts fixes élevés"], reponse: 1,
           explication: "Le **brevet** est un droit accordé par la loi. Les économies d'échelle et les coûts fixes sont des barrières économiques ; l'image de marque une barrière stratégique." },
-        { type: "saisie", question: "Comment appelle-t-on l'accord entre entreprises d'un même marché pour fixer ensemble leurs prix ? (un mot)", reponses: ["entente", "cartel", "une entente", "un cartel"],
+        { type: "saisie", question: "Comment appelle-t-on l'accord entre entreprises d'un même marché pour fixer ensemble leurs prix ? (un mot)", reponses: ["entente", "cartel", "une entente", "un cartel", "collusion"],
           explication: "Une **entente** (ou cartel) est une pratique anticoncurrentielle sanctionnée par l'Autorité de la concurrence." },
         { type: "qcm", question: "Quelle institution sanctionne en France les pratiques anticoncurrentielles ?", choix: ["La Banque de France", "Le Conseil constitutionnel", "La Cour des comptes", "L'Autorité de la concurrence"], reponse: 3,
           explication: "L'**Autorité de la concurrence** (et au niveau européen la Commission) sanctionne ententes et abus de position dominante." },
@@ -205,7 +205,7 @@ Pour corriger les défaillances, les pouvoirs publics disposent de plusieurs out
           explication: "Le **bien collectif** (éclairage public, phare) est à la fois non rival et non excluable." },
         { type: "vf", question: "Les stocks de poissons en haute mer sont un bien commun : rivaux mais non excluables.", reponse: true,
           explication: "Un poisson pêché ne peut l'être par un autre (rivalité) et il est difficile d'interdire l'accès à la haute mer (non-excluabilité) : risque de surexploitation." },
-        { type: "saisie", question: "Quel économiste a illustré la sélection adverse par le marché des voitures d'occasion ?", reponses: ["Akerlof", "George Akerlof", "G. Akerlof"],
+        { type: "saisie", question: "Quel économiste a illustré la sélection adverse par le marché des voitures d'occasion ?", reponses: ["Akerlof", "George Akerlof", "G. Akerlof", "Georges Akerlof"],
           explication: "George **Akerlof**, « The Market for Lemons » (1970), prix Nobel 2001." },
         { type: "qcm", question: "Un automobiliste bien assuré qui devient moins prudent illustre :", choix: ["la sélection adverse", "l'aléa moral", "le passager clandestin", "une externalité positive"], reponse: 1,
           explication: "Le changement de comportement **après** la signature du contrat, non observable par l'assureur, est un **aléa moral**." },
@@ -354,7 +354,7 @@ Dans la zone euro, c'est la **Banque centrale européenne (BCE)**, indépendante
 - conduit la **politique monétaire** ; son objectif principal est la **stabilité des prix** (inflation proche de 2 % à moyen terme).
 
 ## La politique monétaire
-- **Instrument principal** : les **taux directeurs**, taux auxquels la BCE prête aux banques.
+- **Instrument principal** : les **taux directeurs**, taux auxquels la BCE prête aux banques ou rémunère les dépôts qu'elles placent chez elle (depuis 2024, la BCE pilote surtout via le taux de la **facilité de dépôt**).
 - **Politique expansive** (baisse des taux) : le crédit devient moins cher, l'investissement et la consommation sont stimulés, mais risque d'inflation.
 - **Politique restrictive** (hausse des taux) : le crédit devient plus cher, la demande ralentit, l'inflation recule. Exemple : hausse des taux de la BCE en 2022-2023 face à la forte inflation.
 - **Politiques non conventionnelles** : rachats massifs de titres (*quantitative easing*).
@@ -438,7 +438,7 @@ Le **genre** désigne les différences entre hommes et femmes **construites soci
 > - Pluralité des influences (Lahire).
 `,
       exercices: [
-        { type: "qcm", question: "« Il faut respecter autrui » est plutôt :", choix: ["une norme", "une valeur", "une sanction", "un rôle"], reponse: 1,
+        { type: "qcm", question: "« Le respect d'autrui » est plutôt :", choix: ["une norme", "une valeur", "une sanction", "un rôle"], reponse: 1,
           explication: "C'est un idéal, un principe jugé désirable : une **valeur**. Une norme est une règle de conduite concrète (dire bonjour, ne pas couper la parole)." },
         { type: "vf", question: "La socialisation secondaire se déroule principalement pendant l'enfance.", reponse: false,
           explication: "C'est la socialisation **primaire** qui a lieu pendant l'enfance ; la socialisation secondaire concerne l'âge adulte." },
@@ -625,7 +625,7 @@ Un **sondage** est une enquête statistique réalisée auprès d'un **échantill
 - **Méthode des quotas** (la plus utilisée en France) : l'échantillon reproduit la structure de la population selon quelques critères (sexe, âge, PCS, région, taille d'agglomération).
 - **Méthode aléatoire** : les individus sont tirés au sort.
 - Tout sondage comporte une **marge d'erreur** : pour un échantillon de 1 000 personnes, environ ±3 points pour un résultat proche de 50 %.
-- En France, la **Commission des sondages** contrôle les sondages électoraux, interdits la veille et le jour du scrutin.
+- En France, la **Commission des sondages** contrôle les sondages électoraux, dont la **publication** et la diffusion sont interdites la veille et le jour du scrutin.
 
 ## Les sondages, outils de la démocratie
 - Ils permettent de connaître l'avis des citoyens entre deux élections.
@@ -680,7 +680,7 @@ D'autres critiques :
 - Le sondeur impose sa problématique : le sondage **construit** l'opinion qu'il prétend mesurer.
 
 **Limite 3 – Les effets sur les comportements.**
-- Effets bandwagon et underdog, vote stratégique : les sondages peuvent influencer le résultat d'une élection. C'est pourquoi ils sont interdits la veille et le jour du scrutin.` },
+- Effets bandwagon et underdog, vote stratégique : les sondages peuvent influencer le résultat d'une élection. C'est pourquoi leur publication et leur diffusion sont interdites la veille et le jour du scrutin.` },
       ],
     },
     {
@@ -689,7 +689,7 @@ D'autres critiques :
       theme: "Sociologie et science politique",
       cours: `
 ## Le vote, un droit et un geste individuel
-Le vote est un acte **individuel** (isoloir, secret du vote depuis 1913) mais il est aussi **collectif** : il est le produit de **déterminants sociaux** et il est construit par des institutions, des partis, des campagnes.
+Le vote est un acte **individuel** (vote secret, avec isoloir et enveloppe obligatoires depuis 1913) mais il est aussi **collectif** : il est le produit de **déterminants sociaux** et il est construit par des institutions, des partis, des campagnes.
 
 ## La participation électorale et l'abstention
 - Le **taux de participation** = votants / inscrits × 100.

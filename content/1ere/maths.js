@@ -458,7 +458,7 @@ Son équation est : **y = f′(a)(x − a) + f(a)**.
         {
           type: "saisie",
           question: "On sait que f(2) = 3 et f′(2) = −1. Donne l'équation réduite de la tangente au point d'abscisse 2 (forme y = mx + p).",
-          reponses: ["y=-x+5", "y = -x + 5", "y=−x+5", "y = −x + 5", "y=5-x", "y = 5 - x", "y = 5 − x", "y=-1x+5"],
+          reponses: ["y=-x+5", "y = -x + 5", "y=−x+5", "y = −x + 5", "y=5-x", "y = 5 - x", "y = 5 − x", "y=-1x+5", "-x+5", "5-x"],
           explication: "y = f′(2)(x − 2) + f(2) = −(x − 2) + 3 = −x + 2 + 3 = −x + 5.",
         },
         {
@@ -580,7 +580,7 @@ u et v sont deux fonctions dérivables sur I, k un réel.
         {
           type: "saisie",
           question: "Soit f(x) = (3x − 1)/(x + 2) sur ]−2 ; +∞[. Donne f′(x).",
-          reponses: ["7/(x+2)²", "7/(x + 2)²", "7/(x+2)^2", "7/(x + 2)^2"],
+          reponses: ["7/(x+2)²", "7/(x + 2)²", "7/(x+2)^2", "7/(x + 2)^2", "7/((x+2)^2)"],
           explication: "u = 3x − 1 (u′ = 3), v = x + 2 (v′ = 1). f′ = (u′v − uv′)/v² = (3(x + 2) − (3x − 1))/(x + 2)² = (3x + 6 − 3x + 1)/(x + 2)² = 7/(x + 2)².",
         },
         {
@@ -1184,7 +1184,7 @@ Les **points d'intersection avec l'axe des abscisses** ont pour abscisses les ra
         {
           type: "saisie",
           question: "Donne une équation cartésienne de la droite passant par A(1 ; 2) et de vecteur normal n(3 ; −1) (forme ax + by + c = 0).",
-          reponses: ["3x-y-1=0", "3x - y - 1 = 0", "3x − y − 1 = 0", "-3x+y+1=0", "−3x + y + 1 = 0", "-3x + y + 1 = 0"],
+          reponses: ["3x-y-1=0", "3x - y - 1 = 0", "3x − y − 1 = 0", "-3x+y+1=0", "−3x + y + 1 = 0", "-3x + y + 1 = 0", "3x-y=1", "y=3x-1", "3x - y = 1"],
           explication: "M(x ; y) ∈ d ⟺ AM · n = 0 ⟺ 3(x − 1) + (−1)(y − 2) = 0 ⟺ 3x − 3 − y + 2 = 0 ⟺ 3x − y − 1 = 0. Vérification avec A : 3 − 2 − 1 = 0.",
         },
         {
@@ -1559,6 +1559,13 @@ Comparaisons : == (égal), != (différent), <, <=, >, >=.
 
 ## Simulation
 Le module random permet de simuler le hasard : random() renvoie un réel au hasard dans [0 ; 1[, randint(1, 6) un entier entre 1 et 6. Simuler un événement de probabilité p : if random() < p: …
+
+~~~
+from random import random, randint
+de = randint(1, 6)
+if random() < 0.3:
+    print("succès")
+~~~
 
 > **À retenir**
 > - range(n) : 0 à n − 1 ; range(a, b) : a à b − 1.
