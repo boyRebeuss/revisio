@@ -385,7 +385,7 @@ function vueReglages() {
   const msg = h("p", {});
   const sauver = async () => {
     // Retire espaces, retours à la ligne et caractères invisibles ajoutés par le copier-coller
-    const k = cle.value.replace(/[\s​-‍⁠﻿]/g, "").replace(/^["'«»]+|["'«»]+$/g, "");
+    const k = cle.value.replace(/[\s\u200B-\u200D\u2060\uFEFF]/g, "").replace(/^["'«»]+|["'«»]+$/g, "");
     if (!/^[\x21-\x7E]{20,300}$/.test(k)) { msg.className = "erreur"; msg.textContent = "Colle la clé complète, sans autre texte autour."; return; }
     S.reglages.setCleGemini(k);
     IA.oublierModeles();
