@@ -384,8 +384,9 @@ function vueReglages() {
   const cle = h("input", { class: "champ", type: "password", autocomplete: "off", placeholder: S.reglages.cleGemini() ? "•••••••• (clé enregistrée)" : "Colle ta clé (commence par AIza…)" });
   const msg = h("p", {});
   const sauver = async () => {
-    const k = cle.value.trim();
-    if (!/^[A-Za-z0-9_-]{30,60}$/.test(k)) { msg.className = "erreur"; msg.textContent = "Cette clé ne semble pas valide."; return; }
+    // Retire espaces, retours à la ligne et caractères invisibles ajoutés par le copier-coller
+    const k = cle.value.replace(/[\s​-‍⁠﻿]/g, "").replace(/^["'«»]+|["'«»]+$/g, "");
+    if (!/^[\x21-\x7E]{20,300}$/.test(k)) { msg.className = "erreur"; msg.textContent = "Colle la clé complète, sans autre texte autour."; return; }
     S.reglages.setCleGemini(k);
     IA.oublierModeles();
     cle.value = "";
