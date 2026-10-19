@@ -173,7 +173,7 @@ In conclusion, knowledge is more accessible than ever, but access does not guara
 - **Data and privacy**: the **Cambridge Analytica** scandal (revealed in 2018) showed that the data of millions of Facebook users had been harvested for political advertising. The sociologist Shoshana Zuboff calls this model *surveillance capitalism* (2019).
 - **Surveillance**: in 2013, **Edward Snowden** revealed mass surveillance programmes run by the US National Security Agency.
 - **Working conditions**: the *gig economy* (Uber, delivery apps) offers flexibility but little security.
-- **Mental health**: debates about screen time and social media among teenagers. In 2024, Australia passed a law banning social media accounts for children under 16.
+- **Mental health**: debates about screen time and social media among teenagers. In 2024, Australia passed a law banning social media accounts for children under 16; it came into force in December 2025.
 - **Diversity**: the tech industry is criticised for the under-representation of women and minorities.
 - **Inequality**: soaring housing prices and homelessness in San Francisco.
 
@@ -270,7 +270,7 @@ La Silicon Valley (Californie) incarne l'innovation et le rêve américain : sta
         {
           type: "saisie",
           question: "Give the word: a fake video or audio recording, created with AI, that makes a real person appear to say or do something they never said or did.",
-          reponses: ["deepfake", "a deepfake", "deep fake", "a deep fake"],
+          reponses: ["deepfake", "a deepfake", "deep fake", "a deep fake", "deepfakes", "deep fakes"],
           explication: "A **deepfake** combines *deep learning* and *fake*. It is a major tool of disinformation."
         },
         {
@@ -333,7 +333,7 @@ The story of **Henrietta Lacks**, an African American woman whose cancer cells w
 England adopted an **opt-out system** in May 2020 (everybody is considered a potential donor unless they register a refusal); Wales had done so in 2015.
 
 ### End of life
-**Assisted dying** is legal in some US states, such as Oregon (since 1997). In the UK, it is a highly sensitive debate: in 2025, MPs in the House of Commons voted in favour of a bill to legalise assisted dying for terminally ill adults in England and Wales, which then went to the House of Lords.
+**Assisted dying** is legal in some US states, such as Oregon (since 1997). In the UK, it is a highly sensitive debate: in 2025, MPs in the House of Commons voted in favour of a bill to legalise assisted dying for terminally ill adults in England and Wales (the *Terminally Ill Adults (End of Life) Bill*); it then went to the House of Lords, where it faced long and difficult scrutiny. Scotland is debating its own bill. Check the latest news before quoting the outcome.
 
 ### Trust in science
 Vaccines are one of medicine's greatest successes, but **anti-vaccine** movements spread doubts. A 1998 article by Andrew Wakefield falsely linking the MMR vaccine to autism was retracted by *The Lancet* in 2010, but it still fuels misinformation.
@@ -439,7 +439,7 @@ Art does not only entertain: it can **denounce**, provoke, unite or divide. This
 
 ## Street art: vandalism or art?
 ### Banksy
-**Banksy** is an anonymous artist from Bristol, England, famous for his stencils with satirical messages against war, consumerism and authority.
+**Banksy** is an anonymous artist, generally believed to come from Bristol, England, famous for his stencils with satirical messages against war, consumerism and authority.
 - **2015**: *Dismaland*, a dark parody of Disneyland, in Weston-super-Mare.
 - **2017**: the *Walled Off Hotel* in Bethlehem, facing the Israeli separation wall.
 - **October 2018**: just after *Girl with Balloon* was sold at auction at Sotheby's in London, a shredder hidden in the frame partly destroyed it. The work was renamed *Love is in the Bin*. The stunt mocked the art market... and increased the work's value.
@@ -601,9 +601,9 @@ In the English-speaking world, the press is often called the **Fourth Estate**: 
 | UK tabloids (popular press) | *The Sun*, *Daily Mail*, *Daily Mirror* |
 | UK public service broadcaster | the **BBC** (founded in 1922, funded by the *licence fee*) |
 | US newspapers | *The New York Times*, *The Washington Post*, *The Wall Street Journal* |
-| US cable news | CNN (1980), Fox News (1996, conservative), MSNBC (liberal) |
+| US cable news | CNN (1980), Fox News (1996, conservative), MSNBC (1996, liberal; renamed MS NOW in 2025) |
 
-The BBC's mission, defined by its first director-general **John Reith**, is to "**inform, educate and entertain**". It must remain *impartial*. In the US, there is no public broadcaster of comparable weight, and many news channels are openly partisan.
+The BBC's mission, defined by its first director-general **John Reith**, is to "**inform, educate and entertain**". It must remain *impartial*. In November 2025, the BBC's director-general resigned after criticism of the way a speech by Donald Trump had been edited in a documentary: a reminder that its impartiality is closely scrutinised. In the US, there is no public broadcaster of comparable weight (PBS and NPR are much smaller, and in 2025 Congress cancelled the federal funding of public broadcasting), and many news channels are openly partisan.
 
 ## Fake news and the post-truth era
 ### Key words
@@ -735,7 +735,7 @@ A **representation** is an image of reality: a map, a photograph, a novel, a fil
 ### Iconic photographs
 - **1936**: *Migrant Mother* by **Dorothea Lange**: a poor mother during the Great Depression, a symbol of the suffering of rural America.
 - **1968**: *Earthrise*, taken by the astronaut William Anders during the **Apollo 8** mission: the Earth rising above the Moon.
-- **1972**: *The Blue Marble*, taken by the crew of **Apollo 17**: the first photo of the fully lit Earth, which became a symbol of the environmental movement.
+- **1972**: *The Blue Marble*, taken by the crew of **Apollo 17**: one of the first photos of the fully lit Earth taken by a human, which became a symbol of the environmental movement.
 - **1990**: *Pale Blue Dot*, taken by the Voyager 1 probe at the request of the astronomer Carl Sagan: the Earth as a tiny dot in space.
 
 ### Representing "the other"
@@ -897,7 +897,7 @@ Democracy relies on **representation** (citizens elect representatives) and **pa
 ## Current debates
 - **Turnout**: the UK general election of July 2024 had a turnout of around 60%, one of the lowest since 1918. In the US, turnout in the 2020 presidential election, about two thirds of eligible voters, was the highest in over a century.
 - **Voting age**: lowered to 18 in the UK (1969 Act) and in the US (26th Amendment, 1971). 16- and 17-year-olds can vote in Scottish and Welsh devolved elections; in July 2025, the UK government announced plans to lower the voting age to 16 for all UK elections.
-- **Access to the vote**: in the US, critics denounce *voter suppression* and *gerrymandering* (drawing electoral boundaries to favour a party). In England, photo ID has been required to vote at polling stations since 2023.
+- **Access to the vote**: in the US, critics denounce *voter suppression* and *gerrymandering* (drawing electoral boundaries to favour a party). In Great Britain, voters must now show photo ID at polling stations (first required in England's local elections in 2023, then in the 2024 general election); Northern Ireland has required it since 2003.
 - **Diversity of representatives**: Kamala Harris became the first woman Vice President in 2021; Rishi Sunak became the first British Asian Prime Minister in 2022.
 
 ## Key vocabulary
@@ -1004,7 +1004,7 @@ In conclusion, direct action can awaken public opinion, but lasting change usual
 The UK is a **constitutional monarchy** and a **parliamentary democracy**, often called the **Westminster system**.
 - **The monarch** is head of state but has a mainly ceremonial role: "the King reigns but does not rule". **Charles III** became King on 8 September 2022, after the death of Elizabeth II.
 - **No codified constitution**: the British constitution is made of Acts of Parliament, conventions and historical documents (such as Magna Carta, 1215).
-- **Parliament** has two chambers: the **House of Commons**, with 650 elected **MPs** (Members of Parliament), and the **House of Lords**, whose members are not elected (life peers, some hereditary peers and bishops); the Lords can revise and delay laws.
+- **Parliament** has two chambers: the **House of Commons**, with 650 elected **MPs** (Members of Parliament), and the **House of Lords**, whose members are not elected (life peers, bishops and a small number of hereditary peers, 92 at most, whom the Labour government elected in 2024 introduced a bill to remove); the Lords can revise and delay laws, but not block them indefinitely.
 - **The Prime Minister** is the leader of the party that can command a majority in the Commons. He or she lives at **10 Downing Street** and chooses the **Cabinet**. The second largest party forms the **Official Opposition**.
 - **Elections**: MPs are elected in **constituencies** using **first-past-the-post** (FPTP): the candidate with the most votes wins, even without an absolute majority. A general election must be held at least every five years.
 - **Devolution** (1998-1999): Scotland has its own Parliament, Wales its Senedd and Northern Ireland its Assembly, with powers over areas such as education and health.
@@ -1097,7 +1097,7 @@ Le Royaume-Uni est une monarchie constitutionnelle parlementaire sans constituti
         {
           type: "saisie",
           question: "Give the name of the British voting system in which the candidate with the most votes in a constituency wins (four words joined by hyphens, or its abbreviation).",
-          reponses: ["first-past-the-post", "first past the post", "FPTP"],
+          reponses: ["first-past-the-post", "first past the post", "FPTP", "first-past-the-post system", "first past the post system", "FPTP system"],
           explication: "**First-past-the-post** favours big parties and produces strong majorities, but it is criticised as disproportionate (Labour won 411 seats with about a third of the votes in 2024)."
         },
         {
@@ -1158,7 +1158,7 @@ In conclusion, both systems are democratic but imperfectly representative. Refor
       theme: "Méthodologie",
       cours: `
 ## What is a synthesis?
-In AMC, you are given a **dossier** of several documents (articles, extracts from novels, cartoons, photos, charts...) and a **question** that links them. You must write, in English, an organised answer that **confronts** the documents. In première, the expected length is usually around 300 words (about 500 in terminale): always respect the length indicated in the instructions.
+In AMC, you are given a **dossier** of several documents (articles, extracts from novels, cartoons, photos, charts...) and a **question** that links them. You must write, in English, an organised answer that **confronts** the documents. In première, class tests usually ask for around 300 words; at the terminale exam, the synthesis is about 500 words. Always respect the length indicated in the instructions.
 
 > **A synthesis is NOT:**
 > a summary of each document one after the other;
@@ -1692,7 +1692,7 @@ L'expression écrite argumentée exige une réponse claire, structurée et illus
         {
           type: "saisie",
           question: "Correct this sentence (rewrite it): \"Social medias has change the way people gets informed.\"",
-          reponses: ["Social media have changed the way people get informed", "Social media has changed the way people get informed", "Social media have changed how people get informed", "Social media has changed how people get informed"],
+          reponses: ["Social media have changed the way people get informed", "Social media has changed the way people get informed", "Social media have changed how people get informed", "Social media has changed how people get informed", "Social media have changed the way that people get informed", "Social media has changed the way that people get informed", "Social media have changed the way in which people get informed", "Social media has changed the way in which people get informed"],
           explication: "*Media* is already a plural (no -s); the participle is **changed**; *people* is plural, so **get**. *Social media* is used with a plural or, increasingly, a singular verb."
         },
         {
@@ -2028,9 +2028,127 @@ Ce chapitre rassemble les outils de langue de l'AMC : connecteurs logiques (atte
           question: "Write a paragraph (about 100 words) describing these invented figures, using varied trend vocabulary and at least one hedging expression. **Share of US adults who say they trust newspapers \"a great deal\" (invented data)**: 1990: 30%; 2000: 28%; 2010: 22%; 2015: 20%; 2020: 16%; 2024: 16%.",
           corrige: `**Model answer**
 
-According to these figures, trust in newspapers among American adults has declined significantly over the last three decades. In 1990, almost a third of adults (30%) said they trusted newspapers a great deal. This share fell slightly to 28% in 2000, before dropping more sharply to 22% in 2010. It then continued to decrease steadily, reaching 16% in 2020, and levelled off at that level until 2024. Overall, the share was almost halved between 1990 and 2024, a fall of 14 percentage points. This decline may be partly explained by the rise of social media and the growing polarisation of American politics.
+According to these figures, trust in newspapers among American adults has declined significantly over the last three decades. In 1990, almost a third of adults (30%) said they trusted newspapers a great deal. This share fell slightly to 28% in 2000, before dropping more sharply to 22% in 2010. It then continued to decrease steadily, reaching 16% in 2020, and then levelled off until 2024. Overall, the share was almost halved between 1990 and 2024, a fall of 14 percentage points. This decline may be partly explained by the rise of social media and the growing polarisation of American politics.
 
 **Note (FR)** : variété lexicale (declined, fell slightly, dropping more sharply, decrease steadily, levelled off), prépositions (fell to, a fall of), fraction (almost halved), hedging final (may be partly explained).`
+        }
+      ]
+    },
+    {
+      id: "evaluation-amc",
+      titre: "Assessment in AMC: tests in première, the exam in terminale",
+      theme: "Méthodologie",
+      cours: `
+## How AMC is assessed
+AMC is a *spécialité* (4 hours a week in première, 6 hours in terminale). The programme aims at level **B2** of the CEFR (CECRL) at the end of première and **C1** at the end of terminale. What you are assessed on is always the same: **understanding documents**, **writing** and **speaking** in correct and rich English, and **cultural knowledge** of the English-speaking world.
+
+## In première: continuous assessment
+- There is **no national exam** in AMC at the end of première.
+- If you **drop AMC** at the end of première, your mark for the bac is the **average of your report cards** (bulletins) in AMC for the year, as part of *contrôle continu* (coefficient 8). Every test of the year counts!
+- If you **keep AMC** in terminale, your première year prepares you for the final exam: the skills are the same.
+
+### Typical class tests in première
+| Task | What is expected |
+|---|---|
+| synthesis of documents | a structured answer in English (about 300 words) confronting 2 to 4 documents |
+| translation / mediation | a short passage translated into French, or the content of a document explained in French for a given reader |
+| written expression | an essay, article, letter or speech (about 200-300 words) |
+| image or data analysis | describe, analyse and interpret a cartoon, a photo or a chart |
+| oral | present a document or a dossier, then answer questions |
+| knowledge tests | vocabulary, dates and key facts from the axes |
+
+## In terminale: the final exam (if you keep AMC)
+- A **written part** (3 hours 30): a **synthesis in English** of a dossier of documents (about 500 words), and a **translation into French** of a passage, or a **transposition** (mediation) into French.
+- An **oral part** (20 minutes): you present documents linked to the programme and talk with the examiner.
+- The written part is marked out of 16 and the oral out of 4; the final mark (out of 20) has a coefficient of 16. Rules can change: check the official instructions with your teacher every year.
+
+## How your work is marked
+| Criterion | Questions the marker asks |
+|---|---|
+| understanding | Have you understood the documents and their point of view? |
+| relevance | Do you answer the question asked, using all the documents? |
+| structure | Introduction, organised parts, conclusion, connectors? |
+| language | Accurate grammar, varied vocabulary, correct register? |
+| culture | Precise, accurate references (names, dates, events)? |
+
+## Managing your time (written test of 2 hours, for example)
+1. Read the instructions and the question: 5 minutes.
+2. Read and annotate the documents, fill in your grid: 25 minutes.
+3. Plan: 15 minutes.
+4. Write directly on your answer sheet: 60 minutes (draft only the introduction and the plan, never the whole text).
+5. Reread for grammar (third person -s, tenses, plurals, spelling): 15 minutes.
+
+> **Key points**
+> Première: no national exam; if you drop AMC, your annual average counts for the bac (coefficient 8).
+> Terminale: written part (3 h 30: synthesis of about 500 words + translation or transposition into French) and oral part (20 minutes); coefficient 16.
+> Targets: B2 at the end of première, C1 at the end of terminale.
+> Markers assess understanding, relevance, structure, language and culture.
+
+>! **Method**: keep a notebook of precise examples (name, date, one sentence) for each axis. In every test, an accurate example is worth more than a vague general idea.
+
+## En bref (FR)
+En première, il n'y a pas d'épreuve nationale d'AMC : si tu abandonnes la spécialité en fin de première, c'est ta moyenne annuelle des bulletins qui compte pour le bac (contrôle continu, coefficient 8). Les devoirs reprennent les exercices de l'épreuve : synthèse (environ 300 mots), traduction ou médiation, expression écrite, analyse d'image ou de données, oral. Si tu gardes AMC en terminale, l'épreuve comprend un écrit de 3 h 30 (synthèse d'environ 500 mots et traduction ou transposition en français) et un oral de 20 minutes (coefficient 16). Les modalités peuvent évoluer : vérifie-les auprès de ton professeur. Niveau visé : B2 en fin de première, C1 en fin de terminale.
+`,
+      exercices: [
+        {
+          type: "vf",
+          question: "At the end of première, all AMC students take a national written exam.",
+          reponse: false,
+          explication: "False: there is **no national exam** in AMC in première. If you drop AMC, your annual average counts for the bac; if you keep it, you take the exam in terminale."
+        },
+        {
+          type: "qcm",
+          question: "You drop AMC at the end of première. What counts for the bac?",
+          choix: ["Nothing: the subject disappears", "One oral test in June", "The average of your AMC report cards for the year (contrôle continu)", "Your mark in the first test of the year"],
+          reponse: 2,
+          explication: "The **annual average** of the première report cards counts as contrôle continu (coefficient 8). This is why every test of the year matters."
+        },
+        {
+          type: "qcm",
+          question: "Which level of the CEFR does the AMC programme aim at by the end of première?",
+          choix: ["A2", "B1", "C2", "B2"],
+          reponse: 3,
+          explication: "**B2** at the end of première, **C1** at the end of terminale."
+        },
+        {
+          type: "saisie",
+          question: "In the written exam of terminale, the synthesis must be about how many words? (number only)",
+          reponses: ["500"],
+          explication: "About **500 words** in terminale. In première class tests, about 300 words is usual: always follow the instructions."
+        },
+        {
+          type: "qcm",
+          question: "What does the written part of the terminale exam include, besides the synthesis in English?",
+          choix: ["A translation into French of a passage, or a transposition into French", "A grammar multiple-choice test", "A summary in English of each document", "An essay in French about British history"],
+          reponse: 0,
+          explication: "The second exercise is a **translation into French** or a **transposition** (mediation) into French. The synthesis is never a summary of each document."
+        },
+        {
+          type: "vf",
+          question: "In a synthesis, precise cultural references (names, dates, events) are valued, as long as they are accurate.",
+          reponse: true,
+          explication: "True: **culture** is one of the criteria. An accurate, dated example shows knowledge; an inaccurate one costs points, so never invent a date."
+        },
+        {
+          type: "qcm",
+          question: "You have 2 hours for a synthesis test. Which use of your time is the most effective?",
+          choix: ["Write a full draft, then copy it out", "Start writing immediately to save time", "Read and annotate, build a grid and a plan, write, then keep about 15 minutes to reread", "Spend one hour reading the documents"],
+          reponse: 2,
+          explication: "Plan carefully but **do not write a full draft**: you will not have time to copy it. Keeping time to **reread** catches many grammar mistakes."
+        },
+        {
+          type: "redaction",
+          question: "Your teacher announces a test in two weeks on the axis \"Informer et s'informer\". Write your revision plan in French (about 100 words): what will you learn, and how will you practise each skill?",
+          corrige: `**Model answer (FR)**
+
+1. **Connaissances** : fiche d'exemples précis avec dates (Premier Amendement 1791, Watergate 1972-1974, News of the World 2011, BBC 1922 et « inform, educate and entertain », post-truth 2016, Online Safety Act 2023).
+2. **Vocabulaire** : 20 mots clés (misinformation / disinformation, biased, reliable, to debunk, echo chamber...) appris dans les deux sens.
+3. **Synthèse** : refaire un plan en 15 minutes sur un dossier du cours, puis rédiger une introduction complète.
+4. **Traduction** : revoir les faux amis et les temps (present perfect + since).
+5. **Langue** : relire mes anciennes copies et noter mes erreurs récurrentes.
+6. **Oral** : présenter un document en 3 minutes en m'enregistrant.
+
+**Note (FR)** : un bon plan de révision couvre les quatre dimensions évaluées (culture, langue, méthode de l'écrit, oral) et prévoit de l'entraînement actif, pas seulement de la relecture.`
         }
       ]
     },

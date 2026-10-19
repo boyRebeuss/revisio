@@ -43,7 +43,7 @@ Le sociologue **Serge Paugam** distingue quatre types de liens, qui apportent ch
 > **À retenir** : la cohésion sociale repose sur plusieurs types de liens (famille, liens choisis, travail, citoyenneté) et sur des institutions qui garantissent droits et solidarité. Dans les sociétés modernes, la solidarité naît de l'interdépendance (Durkheim). Le chômage, l'isolement et les inégalités fragilisent ces liens et menacent la cohésion.
 `,
       exercices: [
-        { type: "qcm", question: "Selon Durkheim, sur quoi repose la solidarité dans les sociétés modernes ?", choix: ["Sur la ressemblance des individus", "Sur la complémentarité née de la division du travail", "Sur la religion uniquement", "Sur la contrainte de l'État"], reponse: 1,
+        { type: "qcm", question: "Selon Durkheim, sur quoi repose la solidarité dans les sociétés modernes ?", choix: ["Sur la ressemblance des individus", "Sur la contrainte de l'État", "Sur la religion uniquement", "Sur la complémentarité née de la division du travail"], reponse: 3,
           explication: "C'est la **solidarité organique** : chacun a une fonction différente et tous dépendent les uns des autres. La solidarité fondée sur la ressemblance est dite mécanique." },
         { type: "saisie", question: "Quel mot Durkheim emploie-t-il pour désigner l'affaiblissement des règles communes dans une société ?", reponses: ["anomie", "l'anomie"],
           explication: "L'**anomie** est une situation où les normes sociales ne règlent plus les comportements." },
@@ -55,7 +55,7 @@ Le sociologue **Serge Paugam** distingue quatre types de liens, qui apportent ch
           explication: "La République est **sociale** : elle doit garantir la solidarité et réduire les inégalités." },
         { type: "vf", question: "Pour Tocqueville, les associations sont un danger pour la démocratie.", reponse: false,
           explication: "Faux : Tocqueville voit dans les **associations** un remède à l'individualisme et un moyen de faire vivre la démocratie." },
-        { type: "qcm", question: "Que désigne la « désaffiliation » selon Robert Castel ?", choix: ["L'adhésion à un syndicat", "La rupture progressive des liens au travail et des liens sociaux", "Le changement de nationalité", "Le divorce"], reponse: 1,
+        { type: "qcm", question: "Que désigne la « désaffiliation » selon Robert Castel ?", choix: ["La rupture progressive des liens au travail et des liens sociaux", "L'adhésion à un syndicat", "Le changement de nationalité", "Le divorce"], reponse: 0,
           explication: "La **désaffiliation** décrit le processus qui conduit de la précarité à l'exclusion, par la perte du travail et l'affaiblissement des liens." },
         { type: "redaction", question: "Question argumentée : *Quels sont les fondements de la cohésion sociale en France, et qu'est-ce qui la fragilise aujourd'hui ?*",
           corrige: `**Problématique** : sur quoi repose le « vivre-ensemble » en France et pourquoi est-il menacé ?
@@ -95,9 +95,9 @@ La **fraternité** est le troisième terme de la devise républicaine. Longtemps
 - Le législateur a ensuite précisé que l'aide humanitaire désintéressée n'est pas punissable (loi de septembre 2018).
 
 ## 3. La solidarité organisée par l'État : la protection sociale
-- **Ordonnances d'octobre 1945** : création de la **Sécurité sociale**, inspirée du programme du Conseil national de la Résistance (1944) ; ministre du Travail Ambroise Croizat (1945-1947), Pierre Laroque en est l'architecte. Principe : « chacun cotise selon ses moyens et reçoit selon ses besoins ».
+- **Ordonnances d'octobre 1945** : création de la **Sécurité sociale**, inspirée du programme du Conseil national de la Résistance (1944) ; les ordonnances sont prises sous le ministre Alexandre Parodi, puis **Ambroise Croizat**, ministre du Travail (1945-1947), met en place le régime général ; le haut fonctionnaire **Pierre Laroque** en est l'architecte. Principe : « chacun cotise selon ses moyens et reçoit selon ses besoins ».
 - **Branches** : maladie, famille, retraite (vieillesse), accidents du travail et maladies professionnelles, et depuis 2020 la branche autonomie.
-- **Logiques** : l'**assurance** (prestations en échange de cotisations) et l'**assistance** (aides sans contrepartie de cotisation pour les plus démunis, financées par l'impôt) : RMI (1988), remplacé par le **RSA** (2009), CMU (1999), minimum vieillesse.
+- **Logiques** : l'**assurance** (prestations en échange de cotisations) et l'**assistance** (aides sans contrepartie de cotisation pour les plus démunis, financées par l'impôt) : RMI (1988), remplacé par le **RSA** (2009), CMU (1999, remplacée en 2016 par la protection universelle maladie), minimum vieillesse.
 - **Redistribution** : impôts et prestations réduisent les inégalités de revenus.
 - **Services publics** gratuits ou peu coûteux : école, hôpital.
 
@@ -121,13 +121,13 @@ La **fraternité** est le troisième terme de la devise républicaine. Longtemps
           explication: "Les ordonnances d'**octobre 1945** créent la Sécurité sociale. 1988 correspond au RMI." },
         { type: "vf", question: "Le RSA relève d'une logique d'assistance : il est versé sans contrepartie de cotisations.", reponse: true,
           explication: "Vrai : le RSA (2009, successeur du RMI de 1988) est financé par l'impôt et versé aux personnes aux ressources faibles." },
-        { type: "qcm", question: "Quelle association a été fondée par Coluche en 1985 ?", choix: ["Emmaüs", "Les Restos du cœur", "La Croix-Rouge", "Le Secours populaire"], reponse: 1,
+        { type: "qcm", question: "Quelle association a été fondée par Coluche en 1985 ?", choix: ["Emmaüs", "Le Secours populaire", "La Croix-Rouge", "Les Restos du cœur"], reponse: 3,
           explication: "Les **Restos du cœur** distribuent des repas aux plus démunis. Emmaüs a été fondé par l'abbé Pierre en 1949." },
-        { type: "saisie", question: "Quel texte de 1901 encadre la liberté d'association en France ? (donne l'année)", reponses: ["1901", "loi de 1901", "loi du 1er juillet 1901", "loi 1901"],
+        { type: "saisie", question: "Quel texte de 1901 encadre la liberté d'association en France ? (donne l'année)", reponses: ["1901", "loi de 1901", "loi du 1er juillet 1901", "loi 1901", "loi du 1 juillet 1901", "en 1901"],
           explication: "La loi du **1er juillet 1901** permet à toute personne de créer librement une association à but non lucratif." },
         { type: "vf", question: "La protection sociale française repose uniquement sur la logique d'assurance.", reponse: false,
           explication: "Faux : elle combine **assurance** (cotisations) et **assistance** (minima sociaux financés par l'impôt)." },
-        { type: "qcm", question: "Dans quelle affaire le Conseil constitutionnel a-t-il consacré la « liberté d'aider autrui » ?", choix: ["L'affaire Dreyfus", "L'affaire de Cédric Herrou, poursuivi pour avoir aidé des migrants", "L'affaire du voile de Creil", "L'affaire des Gilets jaunes"], reponse: 1,
+        { type: "qcm", question: "Dans quelle affaire le Conseil constitutionnel a-t-il consacré la « liberté d'aider autrui » ?", choix: ["L'affaire de Cédric Herrou, poursuivi pour avoir aidé des migrants", "L'affaire Dreyfus", "L'affaire du voile de Creil", "L'affaire des Gilets jaunes"], reponse: 0,
           explication: "L'agriculteur **Cédric Herrou** aidait des migrants dans la vallée de la Roya ; sa question prioritaire de constitutionnalité a abouti à la décision de 2018." },
         { type: "redaction", question: "Question argumentée : *En quoi la fraternité est-elle aujourd'hui à la fois une valeur, un principe juridique et une pratique ?*",
           corrige: `**Problématique** : comment la fraternité, idéal de la devise républicaine, devient-elle une réalité concrète ?
@@ -187,11 +187,11 @@ La **fraternité** est le troisième terme de la devise républicaine. Longtemps
       exercices: [
         { type: "saisie", question: "Depuis quelle année la majorité civile et le droit de vote sont-ils fixés à 18 ans en France ?", reponses: ["1974"],
           explication: "La loi du **5 juillet 1974** abaisse la majorité de 21 à 18 ans." },
-        { type: "qcm", question: "Quel dispositif, créé en 2010, permet aux 16-25 ans de s'engager 6 à 12 mois dans une mission d'intérêt général ?", choix: ["Le service militaire", "Le service civique", "Le conseil de la vie lycéenne", "Le Parlement des enfants"], reponse: 1,
+        { type: "qcm", question: "Quel dispositif, créé en 2010, permet aux 16-25 ans de s'engager 6 à 12 mois dans une mission d'intérêt général ?", choix: ["Le service militaire", "Le conseil de la vie lycéenne", "Le service civique", "Le Parlement des enfants"], reponse: 2,
           explication: "Le **service civique** est indemnisé et ouvert à tous les jeunes de 16 à 25 ans (30 ans en situation de handicap)." },
         { type: "vf", question: "En France, le vote est obligatoire.", reponse: false,
           explication: "Faux : voter est un droit et un devoir civique, mais il n'est pas obligatoire (contrairement à la Belgique)." },
-        { type: "qcm", question: "Que dit l'article 4 de la Constitution de 1958 à propos des partis politiques ?", choix: ["Ils sont interdits", "Ils concourent à l'expression du suffrage", "Ils désignent le président", "Ils doivent être financés par les syndicats"], reponse: 1,
+        { type: "qcm", question: "Que dit l'article 4 de la Constitution de 1958 à propos des partis politiques ?", choix: ["Ils sont interdits", "Ils doivent être financés par les syndicats", "Ils désignent le président", "Ils concourent à l'expression du suffrage"], reponse: 3,
           explication: "Les partis « **concourent à l'expression du suffrage** » et se forment librement." },
         { type: "saisie", question: "Comment appelle-t-on la violation publique et non violente d'une loi jugée injuste, dans le but de la faire changer ?", reponses: ["désobéissance civile", "la désobéissance civile"],
           explication: "La **désobéissance civile** (Thoreau, Gandhi, Luther King) assume la sanction pour interpeller l'opinion." },
@@ -259,7 +259,7 @@ En France, le peuple exerce sa souveraineté surtout par ses **représentants** 
 > **À retenir** : la France est une démocratie représentative où le peuple s'exprime aussi par référendum (article 3). Face à la crise de la représentation, des dispositifs participatifs se développent (conseils de quartier, budgets participatifs, CNDP, Grand débat, conventions citoyennes). Ils enrichissent la démocratie sans remplacer les élus.
 `,
       exercices: [
-        { type: "qcm", question: "Selon l'article 3 de la Constitution, comment le peuple exerce-t-il la souveraineté nationale ?", choix: ["Uniquement par ses représentants", "Par ses représentants et par la voie du référendum", "Par le tirage au sort", "Par les partis politiques"], reponse: 1,
+        { type: "qcm", question: "Selon l'article 3 de la Constitution, comment le peuple exerce-t-il la souveraineté nationale ?", choix: ["Par ses représentants et par la voie du référendum", "Uniquement par ses représentants", "Par le tirage au sort", "Par les partis politiques"], reponse: 0,
           explication: "« La souveraineté nationale appartient au peuple qui l'exerce **par ses représentants et par la voie du référendum**. »" },
         { type: "saisie", question: "Combien de citoyens tirés au sort composaient la Convention citoyenne pour le climat ?", reponses: ["150", "cent cinquante"],
           explication: "**150 citoyens** tirés au sort ont siégé d'octobre 2019 à juin 2020 et formulé 149 propositions." },
@@ -346,7 +346,7 @@ Internet et les réseaux sociaux ont transformé notre rapport à l'information 
           explication: "Le **RGPD** s'applique depuis le **25 mai 2018**. Le 17 février 2024 correspond à l'application générale du DSA." },
         { type: "saisie", question: "Quel est le numéro national d'aide aux victimes de cyberharcèlement ?", reponses: ["3018"],
           explication: "Le **3018** est gratuit, anonyme et confidentiel ; il peut aussi faire supprimer des contenus." },
-        { type: "qcm", question: "Comment appelle-t-on la diffusion volontaire d'informations fausses dans le but de tromper ?", choix: ["La mésinformation", "La désinformation", "Le fact-checking", "La déontologie"], reponse: 1,
+        { type: "qcm", question: "Comment appelle-t-on la diffusion volontaire d'informations fausses dans le but de tromper ?", choix: ["La mésinformation", "Le fact-checking", "La désinformation", "La déontologie"], reponse: 2,
           explication: "La **désinformation** est intentionnelle ; la **mésinformation** désigne le partage d'une fausse information de bonne foi." },
         { type: "vf", question: "Les algorithmes des réseaux sociaux peuvent enfermer l'utilisateur dans une « bulle de filtres ».", reponse: true,
           explication: "Vrai : en proposant des contenus proches de ceux déjà consultés, ils réduisent la diversité des points de vue." },
@@ -417,7 +417,7 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
       exercices: [
         { type: "saisie", question: "En quelle année est votée la loi de séparation des Églises et de l'État ?", reponses: ["1905"],
           explication: "La loi du **9 décembre 1905** met fin au Concordat de 1801." },
-        { type: "qcm", question: "Que dit l'article 2 de la loi de 1905 ?", choix: ["La République interdit les cultes", "La République ne reconnaît, ne salarie ni ne subventionne aucun culte", "La République reconnaît quatre cultes officiels", "La République impose la neutralité à tous les citoyens"], reponse: 1,
+        { type: "qcm", question: "Que dit l'article 2 de la loi de 1905 ?", choix: ["La République interdit les cultes", "La République impose la neutralité à tous les citoyens", "La République reconnaît quatre cultes officiels", "La République ne reconnaît, ne salarie ni ne subventionne aucun culte"], reponse: 3,
           explication: "L'article 2 affirme la **séparation** ; l'article 1 garantit la liberté de conscience et le libre exercice des cultes." },
         { type: "vf", question: "Un fonctionnaire peut porter un signe religieux visible lorsqu'il reçoit le public au guichet.", reponse: false,
           explication: "Faux : les **agents publics** sont soumis à une stricte neutralité dans l'exercice de leurs fonctions." },
@@ -425,7 +425,7 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
           explication: "Faux : les **usagers** sont libres de manifester leur religion, dans le respect de l'ordre public. Seuls les élèves des écoles publiques sont soumis à la loi de 2004." },
         { type: "saisie", question: "Quelle région française conserve le régime concordataire ? (donne son nom)", reponses: ["Alsace-Moselle", "l'Alsace-Moselle", "Alsace Moselle", "Alsace et Moselle", "l'Alsace et la Moselle"],
           explication: "En 1905, l'**Alsace-Moselle** était allemande ; elle a conservé le Concordat après son retour à la France en 1918." },
-        { type: "qcm", question: "Que prévoit la loi du 15 mars 2004 ?", choix: ["L'interdiction de toute religion à l'école", "L'interdiction des signes religieux ostensibles pour les élèves des écoles, collèges et lycées publics", "La neutralité des salariés du privé", "La fin du Concordat"], reponse: 1,
+        { type: "qcm", question: "Que prévoit la loi du 15 mars 2004 ?", choix: ["L'interdiction des signes religieux ostensibles pour les élèves des écoles, collèges et lycées publics", "L'interdiction de toute religion à l'école", "La neutralité des salariés du privé", "La fin du Concordat"], reponse: 0,
           explication: "Elle vise les **élèves** des établissements **publics** ; les signes discrets restent autorisés." },
         { type: "qcm", question: "Lequel de ces principes n'est PAS un pilier de la laïcité ?", choix: ["La liberté de conscience", "La neutralité de l'État", "L'égalité des citoyens quelles que soient leurs convictions", "L'obligation pour chacun d'abandonner sa religion"], reponse: 3,
           explication: "La laïcité **protège** la liberté de croire ou de ne pas croire ; elle n'impose à personne de renoncer à sa religion." },
@@ -475,7 +475,7 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
 ## 3. L'égalité entre les femmes et les hommes
 - Étapes : droit de vote (1944), autorisation d'exercer une profession sans l'accord du mari (1965), loi Veil sur l'IVG (1975), égalité salariale inscrite dans la loi (1972, loi Roudy de 1983 sur l'égalité professionnelle).
 - **Parité** : la révision constitutionnelle de 1999 et la loi du **6 juin 2000** favorisent l'égal accès des femmes et des hommes aux mandats électoraux.
-- **Index de l'égalité professionnelle** (2018) dans les entreprises de plus de 50 salariés.
+- **Index de l'égalité professionnelle** (2018) dans les entreprises d'au moins 50 salariés.
 - Persistances : écarts de salaire, « plafond de verre », violences sexistes et sexuelles, répartition inégale des tâches domestiques.
 
 ## 4. D'autres combats contre les discriminations
@@ -489,7 +489,7 @@ La laïcité n'est **pas** l'interdiction des religions ni l'hostilité envers e
 > **À retenir** : l'égalité en droits est garantie par la DDHC, le Préambule de 1946 et la Constitution de 1958. Le Code pénal (article 225-1) interdit les discriminations fondées sur plus de vingt critères. Malgré des progrès (parité, mariage pour tous, loi handicap de 2005), les inégalités et discriminations persistent ; leur réduction passe par le droit, des politiques publiques et l'évolution des mentalités.
 `,
       exercices: [
-        { type: "qcm", question: "Quelle autorité indépendante peut-on saisir gratuitement en cas de discrimination ?", choix: ["Le Conseil constitutionnel", "Le Défenseur des droits", "La CNIL", "Le Sénat"], reponse: 1,
+        { type: "qcm", question: "Quelle autorité indépendante peut-on saisir gratuitement en cas de discrimination ?", choix: ["Le Conseil constitutionnel", "La CNIL", "Le Défenseur des droits", "Le Sénat"], reponse: 2,
           explication: "Le **Défenseur des droits** (créé par la révision de 2008, installé en 2011) lutte contre les discriminations et protège les droits des usagers et des enfants." },
         { type: "vf", question: "Une discrimination est un traitement défavorable fondé sur un critère interdit par la loi.", reponse: true,
           explication: "Vrai : c'est la définition juridique (article 225-1 du Code pénal)." },

@@ -16,6 +16,9 @@ Il est formé d'un signe et d'une **distance à zéro**.
 
 Deux nombres qui ont la même distance à zéro mais des signes contraires sont **opposés** : 7 et −7 sont opposés.
 
+La distance à zéro d'un nombre s'appelle aussi sa **valeur absolue** : la valeur absolue de −3,2 est 3,2 ; celle de 5 est 5.
+Un nombre **strictement positif** est positif et différent de 0 (comme 5) ; un nombre **strictement négatif** est négatif et différent de 0 (comme −3,2).
+
 ## Repérage sur une droite graduée
 Sur une droite graduée, chaque point est repéré par un nombre relatif appelé son **abscisse**. Les nombres positifs sont à droite de l'origine O (abscisse 0), les négatifs à gauche.
 
@@ -132,6 +135,13 @@ Soir : 3 − 9 = 3 + (−9) = **−6 °C**.
 B = (−7) + (−3) + (−2) + (+10)
 B = (−12) + (+10)
 **B = −2**`,
+        },
+        {
+          type: "qcm",
+          question: "Quelle est la valeur absolue (distance à zéro) de −6,5 ?",
+          choix: ["6,5", "−6,5", "0", "13"],
+          reponse: 0,
+          explication: "La valeur absolue d'un nombre est sa distance à zéro, qui n'est jamais négative : celle de −6,5 est 6,5.",
         },
       ],
     },
@@ -422,13 +432,15 @@ Pour trouver tous les diviseurs d'un nombre, on teste 1, 2, 3… et on les trouv
 >! 36 = 1 × 36 = 2 × 18 = 3 × 12 = 4 × 9 = 6 × 6.
 >! Diviseurs : 1, 2, 3, 4, 6, 9, 12, 18, 36 (9 diviseurs).
 
-## Nombres premiers
+## Nombres premiers (pour aller plus loin)
+*Dans le programme de 5e entré en vigueur en 2026, les nombres premiers et la décomposition en facteurs premiers sont un prolongement (non exigible) : ils seront travaillés en 4e et 3e. Les critères de divisibilité, eux, sont à connaître.*
+
 Un nombre entier est **premier** s'il a **exactement deux diviseurs** : 1 et lui-même.
 - 1 n'est **pas** premier (un seul diviseur).
 - 2 est le seul nombre premier pair.
 - Nombres premiers inférieurs à 50 : 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47.
 
->! **Tester si un nombre est premier** : on essaie de le diviser par 2, 3, 5, 7, 11… tant que le carré du diviseur reste inférieur au nombre. Exemple : 91 = 7 × 13, donc 91 n'est **pas** premier (piège classique !).
+>! **Tester si un nombre est premier** : on essaie de le diviser par 2, 3, 5, 7, 11… tant que le carré du diviseur reste inférieur ou égal au nombre. Exemple : 91 = 7 × 13, donc 91 n'est **pas** premier (piège classique !).
 
 ## Décomposition en produit de facteurs premiers
 Tout entier supérieur à 1 se décompose (d'une seule façon) en produit de nombres premiers. On divise successivement par les nombres premiers 2, 3, 5, 7…
@@ -555,11 +567,25 @@ Sur un plan ou une carte, les distances sont **proportionnelles** aux distances 
 ## Vitesse moyenne
 Distance et durée sont proportionnelles à vitesse constante : **v = d ÷ t**. 150 km en 2 h → 75 km/h.
 
+## Proportionnalité et graphique
+Dans un repère, on place les points (quantité ; prix).
+- **Si les grandeurs sont proportionnelles, les points sont alignés sur une droite qui passe par l'origine.**
+- Réciproquement, si les points sont alignés avec l'origine, il y a proportionnalité.
+- Points alignés sur une droite qui **ne passe pas** par l'origine, ou points non alignés : **pas** de proportionnalité.
+
+>! **Exemple** : abonnement de cinéma à 10 € plus 5 € par séance. 1 séance → 15 € ; 2 séances → 20 €. 15 ÷ 1 ≠ 20 ÷ 2 : pas proportionnel. Les points sont alignés, mais la droite passe par (0 ; 10), pas par l'origine.
+
+## Exprimer une grandeur « en fonction de » une autre
+Le prix P de n séances à 5 € s'écrit **P(n) = 5 × n** : on lit « P de n ». C'est une situation de proportionnalité (coefficient 5).
+L'aire d'un carré de côté c s'écrit **A(c) = c²** : A(3) = 9. Ce n'est pas une situation de proportionnalité.
+On peut présenter ces valeurs dans un **tableau de valeurs** puis les représenter dans un repère : le graphique cartésien se lit en partant d'un axe et en rejoignant la courbe ou le nuage de points.
+
 > **À retenir**
 > - Proportionnalité ⟺ on multiplie toujours par le même coefficient.
 > - 4e proportionnelle : passage à l'unité, coefficient ou produit en croix.
 > - t % de Q = Q × t ÷ 100.
 > - Échelle = distance plan ÷ distance réelle (même unité !).
+> - Proportionnalité ⟺ points alignés avec l'origine du repère.
 `,
       exercices: [
         {
@@ -628,6 +654,33 @@ Pour 10 personnes : **500 g** de farine, **10 œufs**, **150 cl** de lait.
 
 3) 50 g de farine par personne : 750 ÷ 50 = **15 personnes**.`,
         },
+        {
+          type: "qcm",
+          question: "Dans un repère, on représente une situation : les points obtenus sont alignés sur une droite qui ne passe pas par l'origine. La situation est-elle de proportionnalité ?",
+          choix: ["Oui, car les points sont alignés", "On ne peut pas savoir", "Oui, si la droite monte", "Non"],
+          reponse: 3,
+          explication: "Une situation de proportionnalité est représentée par des points alignés **avec l'origine**. Si la droite ne passe pas par l'origine (par exemple un abonnement + un prix par séance), ce n'est pas de la proportionnalité.",
+        },
+        {
+          type: "saisie",
+          question: "Le prix de n places de concert à 12 € s'écrit P(n) = 12 × n. Calcule P(4) (en €).",
+          reponses: ["48", "48 €", "48€"],
+          explication: "On remplace n par 4 : P(4) = 12 × 4 = 48 €. C'est une situation de proportionnalité de coefficient 12.",
+        },
+        {
+          type: "redaction",
+          question: "Deux formules pour la piscine :\n• Formule A : 4 € l'entrée ;\n• Formule B : une carte de 12 € puis 2 € l'entrée.\n1) Complète un tableau donnant le prix payé pour 1, 2, 4 et 6 entrées avec chaque formule.\n2) Laquelle des deux formules est une situation de proportionnalité ? Justifie, et dis comment on le verrait sur un graphique.\n3) À partir de combien d'entrées la formule B est-elle plus avantageuse ?",
+          corrige: `1)
+| Nombre d'entrées | 1 | 2 | 4 | 6 |
+|---|---|---|---|---|
+| Formule A (€) | 4 | 8 | 16 | 24 |
+| Formule B (€) | 14 | 16 | 20 | 24 |
+
+2) Formule A : 4 ÷ 1 = 8 ÷ 2 = 16 ÷ 4 = 24 ÷ 6 = 4, on multiplie toujours par 4 : **c'est une situation de proportionnalité**. Sur un graphique, ses points sont alignés sur une droite qui passe par l'origine.
+Formule B : 14 ÷ 1 = 14 mais 16 ÷ 2 = 8 : **pas de proportionnalité**. Ses points sont alignés, mais sur une droite qui passe par (0 ; 12), pas par l'origine.
+
+3) Pour 6 entrées, les deux formules coûtent 24 €. Pour 7 entrées : A coûte 28 € et B coûte 12 + 14 = 26 €. La formule B est plus avantageuse **à partir de 7 entrées**.`,
+        },
       ],
     },
     // ───────────────────────── 6. Statistiques
@@ -659,14 +712,17 @@ La **moyenne** d'une série est : **somme de toutes les valeurs ÷ effectif tota
 >! **Exemple** : notes 12, 8, 15, 10, 15, 9, 14, 13.
 >! Somme : 96 ; effectif : 8 ; moyenne : 96 ÷ 8 = **12**.
 
-**Moyenne pondérée** (quand les données sont dans un tableau d'effectifs) : on multiplie chaque valeur par son effectif, on additionne, puis on divise par l'effectif total.
+**Moyenne pondérée** (pour aller plus loin, quand les données sont dans un tableau d'effectifs) : on multiplie chaque valeur par son effectif, on additionne, puis on divise par l'effectif total.
 Avec le tableau ci-dessus : (0 × 5 + 1 × 9 + 2 × 4 + 3 × 2) ÷ 20 = 23 ÷ 20 = **1,15** frère ou sœur en moyenne.
+
+**Comment évolue la moyenne ?** Si on ajoute le même nombre à toutes les valeurs, la moyenne augmente de ce nombre ; si on multiplie toutes les valeurs par un même nombre, la moyenne est multipliée par ce nombre.
+Exemple : si chaque note de la série ci-dessus gagne 2 points, la nouvelle moyenne est 12 + 2 = 14.
 
 La moyenne est toujours comprise entre la plus petite et la plus grande valeur. L'**étendue** (plus grande valeur − plus petite) mesure la dispersion : ici 15 − 8 = 7.
 
 ## Représentations graphiques
 - **Diagramme en bâtons** : la hauteur de chaque bâton est proportionnelle à l'effectif.
-- **Histogramme** : pour des données regroupées en classes (intervalles).
+- **Histogramme** (pour aller plus loin) : pour des données regroupées en classes (intervalles).
 - **Diagramme circulaire ou semi-circulaire** : l'angle de chaque secteur est **proportionnel** à l'effectif.
 - **Graphique cartésien** (courbe) : pour suivre une évolution dans le temps.
 
@@ -674,6 +730,7 @@ La moyenne est toujours comprise entre la plus petite et la plus grande valeur. 
 >! Pour « 1 frère ou sœur » : 0,45 × 360 = **162°**. Pour un semi-circulaire, on multiplie par 180°.
 
 ## Lire et interpréter
+On choisit la représentation selon ce qu'on veut **mettre en avant** : comparer des effectifs (bâtons), montrer la part de chaque catégorie dans le total (circulaire), suivre une évolution (graphique cartésien).
 Avant de calculer, lis bien : le titre, les axes, les unités, l'effectif total. Un tableur permet de calculer rapidement sommes, moyennes et fréquences.
 
 > **À retenir**
@@ -738,6 +795,19 @@ Fréquence : **3/7** ≈ 0,4286, soit environ **43 %**.
 
 3) Angle : 3/7 × 360° = 1 080/7 ≈ **154°**.`,
         },
+        {
+          type: "saisie",
+          question: "La moyenne d'une série de notes est 11. Le professeur ajoute 2 points à chaque note. Quelle est la nouvelle moyenne ?",
+          reponses: ["13"],
+          explication: "Si on ajoute le même nombre à toutes les valeurs, la somme augmente de ce nombre multiplié par l'effectif, donc la moyenne augmente de ce nombre : 11 + 2 = 13.",
+        },
+        {
+          type: "qcm",
+          question: "On veut montrer la part de chaque moyen de transport (bus, vélo, voiture, à pied) dans l'ensemble des élèves d'un collège. Quelle représentation est la plus adaptée ?",
+          choix: ["Un diagramme circulaire", "Un graphique cartésien", "Un tableau de proportionnalité", "Une droite graduée"],
+          reponse: 0,
+          explication: "Un diagramme circulaire met en avant la part de chaque catégorie dans le total (le disque entier). Un graphique cartésien sert plutôt à suivre une évolution.",
+        },
       ],
     },
 
@@ -780,6 +850,10 @@ Quand toutes les issues ont la même chance de se produire (dé équilibré, pi�
 Si on répète une expérience un grand nombre de fois, la **fréquence** d'apparition d'un événement se rapproche de sa **probabilité**. Sur 6 000 lancers d'un dé, on obtient « 5 » environ 1 000 fois, mais pas exactement.
 
 Attention : le hasard n'a pas de mémoire. Après trois « pile », la probabilité d'obtenir « pile » au lancer suivant est toujours 1/2.
+
+>! **Expérimenter** : lance réellement un dé 50 fois (ou mets en commun les résultats de la classe) et note les résultats dans un tableau d'effectifs. Plus il y a de lancers, plus les fréquences se rapprochent de 1/6.
+
+**Esprit critique** : l'équiprobabilité est une **hypothèse**. Un dé truqué, une punaise qui tombe « pointe en l'air » ou « sur le côté », une roue aux secteurs inégaux ne donnent pas des issues équiprobables. Si, sur un très grand nombre de lancers, une fréquence reste très éloignée de la probabilité attendue, on peut douter que le dé soit équilibré.
 
 > **À retenir**
 > - 0 ≤ P(A) ≤ 1 ; impossible → 0 ; certain → 1.
@@ -850,6 +924,18 @@ Attention : le hasard n'a pas de mémoire. Après trois « pile », la probabili
 - C : strictement supérieur à 6 : 7 et 8. P(C) = 2/8 = **1/4**.
 
 3) Le seul nombre premier pair est 2. La probabilité est **1/8**.`,
+        },
+        {
+          type: "vf",
+          question: "On lance 1 000 fois une punaise : elle tombe 620 fois « pointe en l'air ». On peut considérer que les deux issues « pointe en l'air » et « sur le côté » sont équiprobables.",
+          reponse: false,
+          explication: "Faux : sur un grand nombre de lancers, la fréquence de « pointe en l'air » est 620 ÷ 1 000 = 0,62, assez loin de 0,5. Les deux issues ne semblent pas avoir la même chance : l'équiprobabilité n'est qu'une hypothèse, qui ne convient pas ici.",
+        },
+        {
+          type: "saisie",
+          question: "Une classe met en commun ses lancers de dé : sur 600 lancers, le 6 est sorti 96 fois. Quelle est la fréquence d'apparition du 6 ? (en écriture décimale)",
+          reponses: ["0,16", "0.16", "16 %", "16%", "96/600", "4/25"],
+          explication: "Fréquence = 96 ÷ 600 = 0,16. C'est proche de la probabilité 1/6 ≈ 0,167 : rien ne fait douter que le dé soit équilibré.",
         },
       ],
     },
@@ -985,7 +1071,7 @@ Conséquences :
 - **Triangle rectangle** : ses deux angles aigus sont complémentaires (somme 90°).
 - **Triangle rectangle isocèle** : angles 90°, 45°, 45°.
 
-## Inégalité triangulaire
+## Inégalité triangulaire (rappel de 6e)
 **Dans un triangle, la longueur de chaque côté est inférieure à la somme des longueurs des deux autres.**
 
 Pour savoir si un triangle est constructible avec trois longueurs, on compare **la plus grande** à la **somme des deux autres** :
@@ -1006,6 +1092,14 @@ Fais toujours une **figure à main levée codée** avant de construire.
 ## Hauteurs
 Une **hauteur** d'un triangle est la droite qui passe par un sommet et qui est **perpendiculaire** au côté opposé (ou à son prolongement). Un triangle a trois hauteurs ; elles sont **concourantes** (elles se coupent en un même point, l'orthocentre). La hauteur sert à calculer l'aire.
 
+## Médianes
+Une **médiane** d'un triangle est la droite (ou le segment) qui joint un sommet au **milieu du côté opposé**. Un triangle a trois médianes ; elles sont concourantes (au centre de gravité).
+
+**Propriété** : une médiane partage le triangle en **deux triangles de même aire**.
+Preuve : dans ABC, soit I le milieu de [BC]. Les triangles ABI et AIC ont des bases BI et IC de même longueur et la **même hauteur** (la hauteur issue de A). Leurs aires, base × hauteur ÷ 2, sont donc égales.
+
+Ne confonds pas : la **médiane** passe par un sommet et le milieu du côté opposé ; la **hauteur** passe par un sommet et est perpendiculaire au côté opposé ; la **médiatrice** est perpendiculaire à un côté en son milieu.
+
 ## Médiatrices
 La **médiatrice** d'un segment est la droite perpendiculaire à ce segment en son milieu.
 **Tout point de la médiatrice d'un segment est à égale distance des extrémités de ce segment** (et réciproquement).
@@ -1016,6 +1110,7 @@ Les trois médiatrices d'un triangle sont concourantes en un point O, **centre d
 > - Somme des angles d'un triangle = 180°.
 > - Constructible ⟺ le plus grand côté est plus petit que la somme des deux autres.
 > - Hauteur : passe par un sommet, perpendiculaire au côté opposé.
+> - Médiane : joint un sommet au milieu du côté opposé ; elle partage le triangle en deux triangles de même aire.
 > - Médiatrice : perpendiculaire au milieu ; les points sont équidistants des extrémités ; les trois médiatrices se coupent au centre du cercle circonscrit.
 `,
       exercices: [
@@ -1083,6 +1178,23 @@ ACB = 180° − (50° + 70°) = **60°**.
 
 3) O est sur la médiatrice de [AB], donc OA = OB. O est sur la médiatrice de [AC], donc OA = OC.
 Par conséquent **OB = OC** : O est aussi sur la médiatrice de [BC]. C'est le **centre du cercle circonscrit** au triangle ABC.`,
+        },
+        {
+          type: "qcm",
+          question: "Dans le triangle ABC, I est le milieu de [BC]. La droite (AI) est :",
+          choix: ["la hauteur issue de A", "la médiatrice de [BC]", "la médiane issue de A", "la bissectrice de l'angle A"],
+          reponse: 2,
+          explication: "La médiane issue de A joint le sommet A au milieu I du côté opposé [BC]. Ce n'est la hauteur ou la médiatrice que dans un cas particulier (triangle isocèle en A).",
+        },
+        {
+          type: "redaction",
+          question: "ABC est un triangle d'aire 36 cm². I est le milieu de [BC].\n1) Quelle est l'aire du triangle ABI ? Justifie.\n2) J est le milieu de [AI]. Quelle est l'aire du triangle ABJ ?",
+          corrige: `1) (AI) est la **médiane** issue de A. Les triangles ABI et AIC ont des bases [BI] et [IC] de même longueur (I milieu de [BC]) et la même hauteur, issue de A.
+**Or** une médiane partage un triangle en deux triangles de même aire.
+**Donc** l'aire de ABI vaut 36 ÷ 2 = **18 cm²**.
+
+2) Dans le triangle ABI, J est le milieu de [AI], donc (BJ) est la médiane issue de B. Elle partage ABI en deux triangles de même aire : ABJ et JBI.
+Aire de ABJ = 18 ÷ 2 = **9 cm²**.`,
         },
       ],
     },
@@ -1284,7 +1396,7 @@ Un point O est **centre de symétrie** d'une figure si le symétrique de la figu
         {
           type: "saisie",
           question: "Dans un repère, A(2 ; 5) et O(4 ; 1). Quelles sont les coordonnées du symétrique A′ de A par rapport à O ? (écris-les sous la forme (x;y))",
-          reponses: ["(6;-3)", "(6 ; -3)", "(6;−3)", "(6 ; −3)", "6;-3", "6;−3", "(6,-3)", "(6, -3)"],
+          reponses: ["(6;-3)", "(6 ; -3)", "(6;−3)", "(6 ; −3)", "6;-3", "6;−3", "(6,-3)", "(6, -3)", "A'(6;-3)", "A′(6;−3)", "A'(6 ; -3)", "A′(6 ; −3)"],
           explication: "O est le milieu de [AA′] : 4 = (2 + x)/2 donne x = 6 ; 1 = (5 + y)/2 donne y = −3. Donc A′(6 ; −3). Astuce : de A à O on fait +2 en x et −4 en y ; on refait la même chose depuis O.",
         },
         {
@@ -1661,6 +1773,11 @@ Un **algorithme** est une suite finie d'instructions permettant de résoudre un 
 | Capteurs | « demander … et attendre », « réponse » | interagir |
 | Opérateurs | +, −, ×, ÷, « … modulo … », comparaisons | calculer, comparer |
 
+## Entrées et sorties
+Un programme reçoit des **entrées** (les données : un nombre demandé avec « demander … et attendre », une valeur de départ…) et produit des **sorties** (le résultat : ce que le lutin « dit », la figure tracée…). Avant d'exécuter un programme, essaie de **prévoir** la sortie.
+
+>! **Exemple** : « demander Choisis un nombre et attendre » ; « dire (réponse × 3) + 4 ». Entrée : le nombre choisi ; sortie : le triple du nombre augmenté de 4. Si on tape 5, le lutin dit 19.
+
 ## Variables
 Une **variable** est une « boîte » qui porte un nom et contient une valeur qui **peut changer** au cours du programme.
 
@@ -1770,6 +1887,224 @@ La scène est un repère : x va de −240 à 240, y de −180 à 180. Le centre 
 3) - « demander Combien de côtés ? et attendre » ;
 - « répéter (réponse) fois : avancer de 80 ; tourner de (360 / réponse) degrés ».
 Le même script trace alors un triangle (3), un carré (4), un hexagone (6)…`,
+        },
+        {
+          type: "saisie",
+          question: "Un script contient : « demander Choisis un nombre et attendre » puis « dire (réponse × 3) + 4 ». On tape 5. Que dit le lutin ?",
+          reponses: ["19"],
+          explication: "L'entrée est 5 ; la sortie est 5 × 3 + 4 = 15 + 4 = 19 (la multiplication est prioritaire).",
+        },
+      ],
+    },
+
+    // ───────────────────────── 16. Carrés et cubes (puissances)
+    {
+      id: "puissances-carres-cubes",
+      titre: "Carrés et cubes : premières puissances",
+      theme: "Nombres et calculs",
+      cours: `
+## Notation
+Pour un nombre a :
+- **a² = a × a** se lit « a au carré » (ou « a puissance 2 ») ;
+- **a³ = a × a × a** se lit « a au cube » (ou « a puissance 3 »).
+Le petit nombre en haut s'appelle l'**exposant** : il indique combien de fois on multiplie le nombre par lui-même.
+
+>! **Exemples** : 5² = 5 × 5 = 25 ; 2³ = 2 × 2 × 2 = 8 ; 10³ = 10 × 10 × 10 = 1 000 ; 0,5² = 0,25.
+>! Piège : 5² n'est **pas** 5 × 2 = 10 !
+
+## Pourquoi « carré » et « cube » ?
+- L'aire d'un carré de côté c est **c × c = c²** : un carré de 4 cm de côté a une aire de 4² = 16 cm².
+- Le volume d'un cube d'arête a est **a × a × a = a³** : un cube de 10 cm d'arête a un volume de 10³ = 1 000 cm³ = 1 L.
+
+## Carrés à connaître par cœur
+| n | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| n² | 0 | 1 | 4 | 9 | 16 | 25 | 36 | 49 | 64 | 81 | 100 | 121 | 144 |
+
+Et le cube de 10 : **10³ = 1 000**. Ces résultats servent aussi « à l'envers » : 81 = 9², 144 = 12², 1 000 = 10³.
+
+## Priorités opératoires avec des puissances
+Les **puissances** se calculent **avant** les multiplications et les divisions, elles-mêmes avant les additions et soustractions (les parenthèses restent prioritaires sur tout).
+
+>! **Exemples**
+>! - 3 × 4² = 3 × 16 = 48 (et non 12² = 144).
+>! - 2 + 3² = 2 + 9 = 11.
+>! - (2 + 3)² = 5² = 25.
+>! - 10² − 6² = 100 − 36 = 64.
+
+Attention : (2 + 3)² = 25 mais 2² + 3² = 4 + 9 = 13 : on ne peut pas « distribuer » le carré sur une somme.
+
+> **À retenir**
+> - a² = a × a ; a³ = a × a × a.
+> - Carrés de 0 à 12 par cœur ; 10³ = 1 000.
+> - Priorités : parenthèses, puis puissances, puis × et ÷, puis + et −.
+> - Aire d'un carré : c² ; volume d'un cube : a³.
+`,
+      exercices: [
+        {
+          type: "saisie",
+          question: "Calcule 7².",
+          reponses: ["49"],
+          explication: "7² = 7 × 7 = 49 (et non 7 × 2 = 14).",
+        },
+        {
+          type: "qcm",
+          question: "Combien vaut 5³ ?",
+          choix: ["125", "15", "25", "53"],
+          reponse: 0,
+          explication: "5³ = 5 × 5 × 5 = 25 × 5 = 125. 15 correspond à l'erreur 5 × 3.",
+        },
+        {
+          type: "vf",
+          question: "144 est le carré de 12.",
+          reponse: true,
+          explication: "Vrai : 12² = 12 × 12 = 144.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule 3 × 2³.",
+          reponses: ["24"],
+          explication: "La puissance est prioritaire : 2³ = 8, puis 3 × 8 = 24. (Calculer 6³ = 216 serait une erreur de priorité.)",
+        },
+        {
+          type: "saisie",
+          question: "Calcule 2 + 3².",
+          reponses: ["11"],
+          explication: "D'abord la puissance : 3² = 9 ; puis 2 + 9 = 11. (Ne pas calculer 5² = 25.)",
+        },
+        {
+          type: "vf",
+          question: "(2 + 3)² = 2² + 3².",
+          reponse: false,
+          explication: "Faux : (2 + 3)² = 5² = 25, alors que 2² + 3² = 4 + 9 = 13.",
+        },
+        {
+          type: "qcm",
+          question: "Quel est le volume d'un cube de 10 cm d'arête ?",
+          choix: ["30 cm³", "100 cm³", "1 000 cm²", "1 000 cm³"],
+          reponse: 3,
+          explication: "V = 10³ = 10 × 10 × 10 = 1 000 cm³, soit 1 L. Un volume s'exprime en unités cubes (cm³).",
+        },
+        {
+          type: "saisie",
+          question: "Quel nombre entier positif a pour carré 81 ?",
+          reponses: ["9"],
+          explication: "9 × 9 = 81, donc 81 = 9².",
+        },
+        {
+          type: "redaction",
+          question: "1) Calcule A = 4² + 3 × 5 et B = (4 + 3) × 5².\n2) Un carré a une aire de 64 cm². Quelle est la longueur de son côté ? Son périmètre ?\n3) On note A(c) l'aire d'un carré de côté c (en cm). Complète : A(3) = … ; A(6) = … L'aire est-elle proportionnelle au côté ? Justifie.",
+          corrige: `1) A = 4² + 3 × 5 = 16 + 15 = **31** (puissance, puis multiplication, puis addition).
+B = (4 + 3) × 5² = 7 × 25 = **175** (parenthèses, puis puissance, puis multiplication).
+
+2) L'aire vaut c² = 64 et 8² = 64 : le côté mesure **8 cm**. Périmètre : 4 × 8 = **32 cm**.
+
+3) A(c) = c², donc **A(3) = 9 cm²** et **A(6) = 36 cm²**.
+Quand le côté double (3 → 6), l'aire est multipliée par 4 (9 → 36), pas par 2 : **l'aire n'est pas proportionnelle au côté** (9 ÷ 3 = 3 mais 36 ÷ 6 = 6, il n'y a pas de coefficient constant).`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 17. Équations simples
+    {
+      id: "equations-simples",
+      titre: "Premières équations : x + b = c et ax = c",
+      theme: "Nombres et calculs",
+      cours: `
+## Vocabulaire
+Une **équation** est une égalité qui contient un nombre inconnu, souvent noté x (l'**inconnue**).
+Une **solution** de l'équation est une valeur de x qui rend l'égalité **vraie**. **Résoudre** l'équation, c'est trouver sa (ou ses) solution(s).
+
+>! **Tester une valeur** : 3 est-il solution de 2x + 1 = 7 ? 2 × 3 + 1 = 7 : **oui**. Et 4 ? 2 × 4 + 1 = 9 ≠ 7 : **non**.
+
+## Équations du type x + b = c
+« Quel nombre faut-il ajouter à b pour obtenir c ? » On fait l'**opération inverse** : une soustraction.
+**x + b = c ⟺ x = c − b**
+
+>! **Exemples**
+>! - x + 7 = 12 : x = 12 − 7 = **5**. Vérification : 5 + 7 = 12.
+>! - x + 9 = 4 : x = 4 − 9 = **−5**. Vérification : −5 + 9 = 4.
+>! - x − 3 = 8 : on cherche le nombre auquel on retire 3 pour obtenir 8 : x = 8 + 3 = **11**.
+
+## Équations du type ax = c (a ≠ 0)
+« Par quel nombre faut-il multiplier a pour obtenir c ? » On fait l'opération inverse : une **division**.
+**ax = c ⟺ x = c ÷ a = c/a**
+
+>! **Exemples**
+>! - 4x = 28 : x = 28 ÷ 4 = **7**. Vérification : 4 × 7 = 28.
+>! - 5x = 12 : x = 12/5 = **2,4**.
+>! - 3x = 7 : x = **7/3** (on garde la fraction : 7 ÷ 3 ne tombe pas juste).
+
+## Mettre un problème en équation
+>! **Méthode**
+>! 1. Choisir l'inconnue : « Soit x le prix d'un cahier. »
+>! 2. Traduire l'énoncé par une équation.
+>! 3. Résoudre.
+>! 4. Vérifier et répondre par une phrase.
+>! Exemple : 6 cahiers identiques coûtent 15 €. 6x = 15, x = 15 ÷ 6 = 2,5. **Un cahier coûte 2,50 €.**
+
+> **À retenir**
+> - Solution = valeur qui rend l'égalité vraie : on la vérifie en remplaçant.
+> - x + b = c ⟺ x = c − b.
+> - ax = c ⟺ x = c/a (a ≠ 0).
+> - Toujours vérifier la solution trouvée.
+`,
+      exercices: [
+        {
+          type: "vf",
+          question: "Le nombre 3 est solution de l'équation 2x + 1 = 7.",
+          reponse: true,
+          explication: "Vrai : 2 × 3 + 1 = 6 + 1 = 7. L'égalité est vraie pour x = 3.",
+        },
+        {
+          type: "saisie",
+          question: "Résous x + 7 = 12.",
+          reponses: ["5", "x=5", "x = 5"],
+          explication: "x = 12 − 7 = 5. Vérification : 5 + 7 = 12.",
+        },
+        {
+          type: "saisie",
+          question: "Résous 4x = 28.",
+          reponses: ["7", "x=7", "x = 7"],
+          explication: "x = 28 ÷ 4 = 7. Vérification : 4 × 7 = 28.",
+        },
+        {
+          type: "qcm",
+          question: "Quelle est la solution de x + 9 = 4 ?",
+          choix: ["13", "5", "−5", "4/9"],
+          reponse: 2,
+          explication: "x = 4 − 9 = −5. Vérification : −5 + 9 = 4. (13 vient de l'erreur 4 + 9.)",
+        },
+        {
+          type: "saisie",
+          question: "Résous 5x = 12 (donne la solution en écriture décimale).",
+          reponses: ["2,4", "2.4", "x=2,4", "x = 2,4", "12/5"],
+          explication: "x = 12 ÷ 5 = 2,4. Vérification : 5 × 2,4 = 12.",
+        },
+        {
+          type: "qcm",
+          question: "Quelle est la solution de 3x = 7 ?",
+          choix: ["7/3", "4", "3/7", "21"],
+          reponse: 0,
+          explication: "x = 7 ÷ 3 = 7/3. Vérification : 3 × 7/3 = 7. (3/7 est l'inverse, 4 vient de 7 − 3.)",
+        },
+        {
+          type: "saisie",
+          question: "Résous x − 3 = 8.",
+          reponses: ["11", "x=11", "x = 11"],
+          explication: "On cherche le nombre auquel on retire 3 pour obtenir 8 : x = 8 + 3 = 11. Vérification : 11 − 3 = 8.",
+        },
+        {
+          type: "redaction",
+          question: "1) Six cahiers identiques coûtent 15 €. Écris une équation dont le prix x d'un cahier est solution, puis résous-la.\n2) Léo a des billes. Il en gagne 17 à la récréation et en a maintenant 52. Écris une équation et trouve combien il en avait au départ.\n3) Le périmètre d'un carré est 26 cm. Écris une équation dont la longueur c du côté est solution, puis résous-la.",
+          corrige: `1) Soit x le prix d'un cahier (en €). **6x = 15**, donc x = 15 ÷ 6 = **2,5**.
+Vérification : 6 × 2,5 = 15. **Un cahier coûte 2,50 €.**
+
+2) Soit x le nombre de billes au départ. **x + 17 = 52**, donc x = 52 − 17 = **35**.
+Vérification : 35 + 17 = 52. **Léo avait 35 billes.**
+
+3) Le périmètre d'un carré de côté c vaut 4 × c : **4c = 26**, donc c = 26 ÷ 4 = **6,5**.
+Vérification : 4 × 6,5 = 26. **Le côté mesure 6,5 cm.**`,
         },
       ],
     },

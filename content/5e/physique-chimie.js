@@ -41,7 +41,7 @@ L'**air** est un gaz (un mélange de gaz) : environ **78 % de diazote** et **21 
         { type: "vf", question: "Le sable est un liquide car il coule et prend la forme du récipient.", reponse: false, explication: "Le sable est un **solide divisé** (en grains). Chaque grain a une forme propre : on peut le saisir. Sa surface n'est pas forcément horizontale (il forme des tas)." },
         { type: "vf", question: "La vapeur d'eau est visible : c'est le nuage blanc au-dessus de l'eau qui bout.", reponse: false, explication: "La vapeur d'eau est **invisible**. Le nuage blanc est formé de **gouttelettes d'eau liquide**." },
         { type: "qcm", question: "Dans le modèle particulaire, les particules d'un liquide sont :", choix: ["ordonnées et collées", "désordonnées et très éloignées", "désordonnées et proches", "ordonnées et éloignées"], reponse: 2, explication: "Dans un liquide, les particules sont **désordonnées** (elles glissent les unes sur les autres) mais **proches** (en contact)." },
-        { type: "saisie", question: "Quel gaz est le plus abondant dans l'air ?", reponses: ["diazote", "le diazote", "azote", "l'azote"], explication: "Le **diazote** représente environ 78 % de l'air. Le dioxygène en représente environ 21 %." },
+        { type: "saisie", question: "Quel gaz est le plus abondant dans l'air ?", reponses: ["diazote", "le diazote", "azote", "l'azote", "N2", "N₂"], explication: "Le **diazote** représente environ 78 % de l'air. Le dioxygène en représente environ 21 %." },
         { type: "qcm", question: "On bouche une seringue remplie d'air et on appuie sur le piston : il s'enfonce. Cela montre que l'air est :", choix: ["incompressible", "compressible", "solide", "sans masse"], reponse: 1, explication: "Un gaz est **compressible** : ses particules sont éloignées, on peut les rapprocher en diminuant le volume." },
         { type: "saisie", question: "Combien pèsent environ 10 L d'air, sachant que 1 L d'air pèse environ 1,2 g ? (en g)", reponses: ["12", "12 g"], explication: "10 × 1,2 = **12 g**. L'air, comme tout gaz, a une masse." },
         { type: "redaction", question: "On remplit une seringue d'eau, on bouche l'extrémité et on essaie d'enfoncer le piston : c'est impossible. Avec de l'air, le piston s'enfonce. Explique ces observations à l'aide du modèle particulaire.", corrige: `**Observation** : l'air se laisse comprimer, l'eau liquide non.
@@ -257,14 +257,14 @@ Attention : la filtration ne sépare **pas** un soluté dissous : l'eau salée f
       theme: "Mouvement et interactions",
       cours: `
 ## Décrire un mouvement
-Un objet est **en mouvement** si sa position change au cours du temps **par rapport à un objet de référence**. Un mouvement dépend toujours de cette référence : un passager assis dans un train est **immobile par rapport au train**, mais **en mouvement par rapport au quai**.
+Un objet est **en mouvement** si sa position change au cours du temps **par rapport à un objet de référence**. Un mouvement dépend toujours de cette référence : un passager assis dans un train est **immobile par rapport au train**, mais **en mouvement par rapport au quai**. La trajectoire aussi dépend de la référence : la valve d'une roue de vélo décrit un cercle par rapport au cadre du vélo, mais une courbe en arceaux par rapport à la route.
 
 La **trajectoire** est l'ensemble des positions successives occupées par un point de l'objet.
 
 | Trajectoire | Forme | Exemple |
 |---|---|---|
 | Rectiligne | une droite | une bille qui roule sur une table plane |
-| Circulaire | un cercle (ou un arc de cercle) | la valve d'une roue de vélo |
+| Circulaire | un cercle (ou un arc de cercle) | la valve d'une roue de vélo, par rapport au cadre du vélo |
 | Curviligne | une courbe quelconque | un ballon lancé |
 
 ## La vitesse
@@ -432,7 +432,7 @@ L'ombre s'explique par la propagation rectiligne : la lumière ne peut pas « co
         { type: "saisie", question: "Comment appelle-t-on la zone sombre qui se forme sur un écran derrière un objet opaque éclairé ?", reponses: ["ombre portée", "l'ombre portée", "une ombre portée"], explication: "C'est l'**ombre portée**. La partie non éclairée de l'objet lui-même est l'**ombre propre**." },
         { type: "qcm", question: "Le papier calque laisse passer la lumière mais on ne voit pas nettement à travers. Il est :", choix: ["transparent", "opaque", "translucide", "diffusant primaire"], reponse: 2, explication: "Un matériau qui laisse passer la lumière sans permettre de voir nettement est **translucide**." },
         { type: "vf", question: "On voit un objet parce que notre œil envoie de la lumière vers lui.", reponse: false, explication: "C'est l'inverse : on voit un objet quand de la **lumière venant de l'objet entre dans l'œil**." },
-        { type: "saisie", question: "La Lune est à environ 384 000 km de la Terre. Combien de temps met la lumière pour venir de la Lune à la Terre ? (en secondes, arrondi au dixième)", reponses: ["1,3", "1,3 s", "1.3"], explication: "t = d / v = 384 000 ÷ 300 000 = 1,28 s, soit environ **1,3 s**." },
+        { type: "saisie", question: "La Lune est à environ 384 000 km de la Terre. Combien de temps met la lumière pour venir de la Lune à la Terre ? (en secondes, arrondi au dixième)", reponses: ["1,3", "1,3 s", "1.3", "1,28", "1,28 s"], explication: "t = d / v = 384 000 ÷ 300 000 = 1,28 s, soit environ **1,3 s**." },
         { type: "qcm", question: "Lors d'une éclipse de Soleil :", choix: ["la Terre est entre le Soleil et la Lune", "le Soleil est entre la Terre et la Lune", "la Lune s'éteint", "la Lune est entre le Soleil et la Terre"], reponse: 3, explication: "La **Lune passe entre le Soleil et la Terre** : son ombre portée atteint une région de la Terre." },
         { type: "redaction", question: "Lors d'une expérience, on éclaire une balle opaque avec une lampe et on observe l'ombre sur un écran. On rapproche ensuite la balle de la lampe. Décris ce que l'on observe sur la balle et sur l'écran, puis explique comment évolue la taille de l'ombre portée. Tu peux t'aider d'un schéma décrit.", corrige: `**Observations** :
 - Sur la balle, la face tournée vers la lampe est éclairée ; la face opposée est sombre : c'est l'**ombre propre**.
@@ -493,7 +493,7 @@ Pour protéger ton audition : limiter le volume et la durée d'écoute au casque
         { type: "qcm", question: "Quelle est la vitesse approximative du son dans l'air ?", choix: ["300 000 km/s", "34 m/s", "340 m/s", "3 400 km/s"], reponse: 2, explication: "Le son se propage à environ **340 m/s** dans l'air. 300 000 km/s est la vitesse de la lumière." },
         { type: "saisie", question: "On entend le tonnerre 5 s après avoir vu l'éclair. À quelle distance est l'orage ? (en m, avec v = 340 m/s)", reponses: ["1700", "1 700", "1700 m", "1 700 m"], explication: "d = v × t = 340 × 5 = **1 700 m** (environ 1,7 km)." },
         { type: "qcm", question: "Dans quel milieu le son se propage-t-il le plus vite ?", choix: ["L'air", "L'eau", "L'acier", "Le vide"], reponse: 2, explication: "Le son va plus vite dans les solides : environ 5 000 à 6 000 m/s dans l'**acier**, 1 500 m/s dans l'eau, 340 m/s dans l'air. Il ne se propage pas dans le vide." },
-        { type: "saisie", question: "Quelle est l'unité de la fréquence ? (nom)", reponses: ["hertz", "le hertz", "hz"], explication: "La fréquence se mesure en **hertz** (Hz) : nombre de vibrations par seconde." },
+        { type: "saisie", question: "Quelle est l'unité de la fréquence ? (nom)", reponses: ["hertz", "le hertz", "hz", "hertz (Hz)"], explication: "La fréquence se mesure en **hertz** (Hz) : nombre de vibrations par seconde." },
         { type: "vf", question: "Un son de 25 000 Hz est audible par l'oreille humaine.", reponse: false, explication: "L'oreille humaine perçoit les sons d'environ 20 Hz à 20 000 Hz. Un son de 25 000 Hz est un **ultrason**." },
         { type: "qcm", question: "À partir de quel niveau sonore environ une exposition prolongée devient-elle dangereuse pour l'audition ?", choix: ["85 dB", "20 dB", "40 dB", "200 dB"], reponse: 0, explication: "Le **seuil de danger** est d'environ **85 dB** ; le seuil de douleur est de 120 dB." },
         { type: "saisie", question: "Un randonneur crie face à une falaise et entend l'écho 4 s plus tard. À quelle distance est la falaise ? (en m, avec v = 340 m/s)", reponses: ["680", "680 m"], explication: "Le son fait l'aller-retour : 340 × 4 = 1 360 m. La falaise est à 1 360 ÷ 2 = **680 m**." },
@@ -662,6 +662,7 @@ Les objets du système solaire restent en orbite autour du Soleil grâce à la *
 - Ne **jamais goûter** ni sentir directement un produit ; ne pas manger au laboratoire.
 - Lors d'un chauffage, tenir le tube à essai avec une **pince**, l'**incliner** et ne jamais diriger son ouverture vers quelqu'un.
 - Ranger la paillasse, jeter les produits dans les récipients prévus (pas dans l'évier sans autorisation).
+- En cas de projection sur la peau ou dans les yeux, **rincer abondamment à l'eau** et **prévenir immédiatement le professeur** ; signaler aussi tout objet cassé ou toute brûlure, même légère.
 - Lire les **pictogrammes de sécurité** sur les étiquettes (losanges à bord rouge).
 
 | Pictogramme (décrit) | Signification |
@@ -708,6 +709,79 @@ Les objets du système solaire restent en orbite autour du Soleil grâce à la *
 **Sécurité** : blouse et lunettes, manipuler l'eau chaude avec précaution (risque de brûlure), ne pas goûter.
 
 **Résultats attendus** : si la durée de dissolution est plus courte dans le bécher B (60 °C), l'hypothèse est **validée**. Sinon, elle est rejetée.` },
+      ],
+    },
+    {
+      id: "transformations-chimiques",
+      titre: "Transformation physique ou chimique ? Les combustions",
+      theme: "Organisation et transformations de la matière",
+      cours: `
+## Transformation physique ou transformation chimique ?
+- Lors d'une **transformation physique** (changement d'état, dissolution), les espèces chimiques restent **les mêmes** : la glace qui fond est toujours de l'eau, le sel dissous est toujours du sel.
+- Lors d'une **transformation chimique**, des espèces chimiques **disparaissent** et de **nouvelles espèces** apparaissent.
+
+| Vocabulaire | Sens |
+|---|---|
+| **Réactifs** | espèces chimiques qui sont **consommées** (elles disparaissent) |
+| **Produits** | espèces chimiques **formées** (elles apparaissent) |
+
+On écrit le **bilan** : réactifs → produits. La flèche se lit « donnent » ou « se transforment en ».
+
+>! **Indices d'une transformation chimique** : changement de couleur, dégagement de gaz (effervescence), apparition d'un solide, dégagement de chaleur ou de lumière (flamme). Pour en être sûr, on **teste** les produits formés.
+
+## Les combustions
+Une **combustion** est une transformation chimique au cours de laquelle un **combustible** brûle en consommant un **comburant**, en général le **dioxygène** de l'air. Elle dégage de la chaleur et souvent de la lumière.
+
+Pour qu'il y ait un feu, il faut **trois éléments** (le **triangle du feu**) : un **combustible** (bois, gaz, papier), un **comburant** (dioxygène) et une **source de chaleur** (étincelle, flamme). Pour éteindre un feu, on supprime l'un des trois : on étouffe la flamme avec une couverture (plus de dioxygène), on arrose (on refroidit), on ferme le gaz (plus de combustible).
+
+| Combustion | Bilan |
+|---|---|
+| du carbone (charbon de bois) | carbone + dioxygène → dioxyde de carbone |
+| du méthane (gaz de ville) ou du butane | méthane + dioxygène → dioxyde de carbone + eau |
+| d'une bougie (paraffine) | paraffine + dioxygène → dioxyde de carbone + eau |
+
+## Identifier les produits
+| Test | Résultat positif |
+|---|---|
+| **Eau de chaux** | elle se **trouble** (devient blanche et laiteuse) : présence de **dioxyde de carbone** |
+| **Sulfate de cuivre anhydre** | la poudre blanche devient **bleue** : présence d'**eau** |
+| Bûchette **incandescente** | elle se rallume : présence de **dioxygène** |
+
+>! **Expérience** : on retourne un bocal sec au-dessus d'une bougie allumée. De la buée apparaît sur la paroi (le sulfate de cuivre anhydre la fait bleuir : c'est de l'eau). Après extinction, on verse de l'eau de chaux dans le bocal et on agite : elle se trouble. La bougie a donc produit de l'eau et du dioxyde de carbone. La flamme finit par s'éteindre : le dioxygène du bocal a été consommé.
+
+## La masse se conserve
+Au cours d'une transformation chimique, la **masse totale se conserve** : la masse des réactifs consommés est égale à la masse des produits formés. Exemple : 3 g de carbone réagissent avec 8 g de dioxygène et donnent 3 + 8 = 11 g de dioxyde de carbone.
+
+## Danger : le monoxyde de carbone
+Si le dioxygène manque (appareil de chauffage mal réglé, pièce non aérée), la combustion est **incomplète** : la flamme est jaune et fumante, et il se forme du **monoxyde de carbone**, un gaz **toxique, invisible et sans odeur**, qui peut être **mortel**. Il faut aérer, faire entretenir les chaudières et installer un détecteur.
+
+> **À retenir** :
+> - Transformation physique : mêmes espèces chimiques ; transformation chimique : des **réactifs** disparaissent, des **produits** apparaissent.
+> - Combustion : combustible + dioxygène → produits ; triangle du feu : combustible, comburant, chaleur.
+> - L'**eau de chaux** se trouble avec le dioxyde de carbone ; le **sulfate de cuivre anhydre** bleuit avec l'eau.
+> - La masse totale se conserve.
+> - Une combustion incomplète produit du monoxyde de carbone, gaz mortel et sans odeur.
+`,
+      exercices: [
+        { type: "qcm", question: "Laquelle de ces transformations est une transformation chimique ?", choix: ["La fusion d'un glaçon", "La dissolution du sucre dans l'eau", "La combustion du bois", "L'évaporation de l'eau d'une flaque"], reponse: 2, explication: "Lors de la **combustion du bois**, le bois et le dioxygène disparaissent et de nouvelles espèces apparaissent (dioxyde de carbone, eau, cendres). Fusion, dissolution et évaporation sont des transformations **physiques** : l'eau et le sucre restent les mêmes espèces." },
+        { type: "vf", question: "Lors d'une transformation chimique, les réactifs sont les espèces chimiques qui apparaissent.", reponse: false, explication: "C'est l'inverse : les **réactifs** sont **consommés** (ils disparaissent) ; les **produits** sont **formés** (ils apparaissent)." },
+        { type: "saisie", question: "Quel liquide se trouble en présence de dioxyde de carbone ?", reponses: ["eau de chaux", "l'eau de chaux", "de l'eau de chaux"], explication: "L'**eau de chaux** se trouble (devient blanche et laiteuse) en présence de dioxyde de carbone." },
+        { type: "qcm", question: "Dans la combustion du carbone, quel est le comburant ?", choix: ["Le carbone", "Le dioxyde de carbone", "L'eau", "Le dioxygène"], reponse: 3, explication: "Le **dioxygène** est le comburant : il permet la combustion. Le carbone est le combustible, le dioxyde de carbone est le produit." },
+        { type: "saisie", question: "On fait brûler 6 g de carbone : ils réagissent avec 16 g de dioxygène. Quelle masse de dioxyde de carbone obtient-on ? (en g)", reponses: ["22", "22 g"], explication: "La masse se conserve : 6 + 16 = **22 g** de dioxyde de carbone." },
+        { type: "qcm", question: "Pour éteindre une casserole d'huile qui a pris feu, on pose un couvercle dessus. Quel élément du triangle du feu supprime-t-on ?", choix: ["Le combustible", "Le comburant (dioxygène)", "La chaleur", "Aucun"], reponse: 1, explication: "Le couvercle empêche l'air d'arriver : on supprime le **comburant** (dioxygène). Ne jamais jeter d'eau sur de l'huile enflammée : l'eau se vaporise brutalement et projette l'huile en feu." },
+        { type: "vf", question: "Le monoxyde de carbone est dangereux, mais on le repère facilement grâce à son odeur.", reponse: false, explication: "Le monoxyde de carbone est **invisible et sans odeur** : on ne le détecte pas avec nos sens. C'est pour cela qu'il est si dangereux et qu'on installe des détecteurs." },
+        { type: "qcm", question: "On place un bocal sec au-dessus d'une bougie : de la buée apparaît. Quel test permet de montrer que cette buée est de l'eau ?", choix: ["Le sulfate de cuivre anhydre qui bleuit", "L'eau de chaux qui se trouble", "La bûchette incandescente qui se rallume", "L'eau iodée qui devient bleu-noir"], reponse: 0, explication: "Le **sulfate de cuivre anhydre** (blanc) devient **bleu** au contact de l'eau. L'eau de chaux détecte le dioxyde de carbone, la bûchette le dioxygène, l'eau iodée l'amidon." },
+        { type: "redaction", question: "On fait brûler un morceau de charbon de bois (carbone) dans un flacon rempli de dioxygène. Après la combustion, on verse de l'eau de chaux dans le flacon et on agite : elle se trouble. 1) Nomme les réactifs et le produit, et écris le bilan. 2) Justifie qu'il s'agit d'une transformation chimique. 3) Au départ, il y a 1,5 g de carbone ; il réagit entièrement avec 4 g de dioxygène. Quelle masse de dioxyde de carbone se forme ? 4) Donne une règle de sécurité pour cette expérience.", corrige: `1) **Réactifs** : le **carbone** (combustible) et le **dioxygène** (comburant). **Produit** : le **dioxyde de carbone**, mis en évidence par l'eau de chaux qui se trouble.
+
+**Bilan** : carbone + dioxygène → dioxyde de carbone.
+
+2) **Transformation chimique** : des espèces chimiques disparaissent (le carbone se consume, le dioxygène est consommé) et une **nouvelle espèce** apparaît (le dioxyde de carbone, absent au départ). Ce n'est pas un simple changement d'état.
+
+3) **Conservation de la masse** : masse des produits = masse des réactifs consommés = 1,5 + 4 = **5,5 g** de dioxyde de carbone.
+
+4) **Sécurité** : porter des lunettes et une blouse, attacher ses cheveux, tenir le charbon incandescent avec une pince (un têt à combustion), garder les produits inflammables loin de la flamme, travailler dans une salle aérée.
+
+> Méthode : réactifs à gauche de la flèche, produits à droite ; on identifie chaque produit par un test.` },
       ],
     },
   ],

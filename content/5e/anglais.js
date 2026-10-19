@@ -46,7 +46,7 @@ En anglais américain, on dit plutôt *I have a dog / Do you have a dog? / I don
         { type: "saisie", question: "Mets à la forme négative : *They are from Spain.*", reponses: ["They are not from Spain", "They aren't from Spain", "They're not from Spain"], explication: "On ajoute **not** après be : *They are not / aren't / They're not from Spain.*" },
         { type: "vf", question: "La phrase *He have got a dog.* est correcte.", reponse: false, explication: "Avec he / she / it, on utilise **has got** : *He has got a dog* ou *He's got a dog*." },
         { type: "qcm", question: "*Is your sister at school?* — *Yes, ___.*", choix: ["she's", "she is", "she does", "she has"], reponse: 1, explication: "La réponse courte reprend l'auxiliaire de la question (*is*) et ne se contracte jamais à l'affirmative : *Yes, she is.*" },
-        { type: "saisie", question: "Pose la question avec have got : *you / a bike*", reponses: ["Have you got a bike"], explication: "On inverse **have** et le sujet ; *got* reste après le sujet : *Have you got a bike?*" },
+        { type: "saisie", question: "Pose la question avec have got : *you / a bike*", reponses: ["Have you got a bike", "Have you got a bicycle"], explication: "On inverse **have** et le sujet ; *got* reste après le sujet : *Have you got a bike?*" },
         { type: "saisie", question: "Complète la réponse courte : *Has Tom got a brother?* — *No, he ___.*", reponses: ["hasn't", "has not"], explication: "On reprend l'auxiliaire **has** à la forme négative : *No, he hasn't.*" },
         { type: "saisie", question: "Traduis : « Elle a les yeux verts. »", reponses: ["She has got green eyes", "She's got green eyes", "She has green eyes"], explication: "La description physique se fait avec **have got** (ou *have*) : *She has got / She's got green eyes.* L'adjectif de couleur est placé avant le nom et ne prend jamais de -s." },
         { type: "redaction", question: "Présente-toi en 5 à 6 phrases en anglais : ton nom, ton âge, ta nationalité, ton apparence physique, ta famille et tes animaux. Utilise **be** et **have got** au moins deux fois chacun.", corrige: `Exemple de réponse :
@@ -107,7 +107,7 @@ Questions de fréquence : *How often do you go swimming? — Twice a week. Once 
         { type: "saisie", question: "Complète au présent simple : *Emma ___ (play) tennis every Saturday.*", reponses: ["plays"], explication: "Habitude (*every Saturday*) + 3e personne du singulier → **plays** (voyelle + y : on ajoute simplement -s)." },
         { type: "saisie", question: "Complète au présent simple : *My brother ___ (study) English every evening.*", reponses: ["studies"], explication: "Consonne + y → **-ies** : *study → studies*." },
         { type: "saisie", question: "Mets à la forme négative : *I like fish.*", reponses: ["I don't like fish", "I do not like fish"], explication: "Au présent simple, la négation se forme avec **don't / do not** + base verbale." },
-        { type: "saisie", question: "Complète avec le bon temps : *Look! The children ___ (run) in the park.*", reponses: ["are running", "'re running"], explication: "*Look!* indique une action en cours → **be + -ing**. *Run* double son n : *running*." },
+        { type: "saisie", question: "Complète avec le bon temps : *Look! The children ___ (run) in the park.*", reponses: ["are running", "'re running", "The children are running", "The children're running"], explication: "*Look!* indique une action en cours → **be + -ing**. *Run* double son n : *running*." },
         { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["She always is late.", "She is always late.", "Always she is late.", "She is late always."], reponse: 1, explication: "L'adverbe de fréquence se place **après be** : *She is always late.* Avec un autre verbe, il se place avant : *She always arrives late.*" },
         { type: "qcm", question: "*What ___ you doing right now?*", choix: ["do", "does", "are", "is"], reponse: 2, explication: "*Right now* → action en cours → be + -ing. Avec *you*, be se conjugue **are** : *What are you doing?*" },
         { type: "vf", question: "La phrase *I am knowing the answer.* est correcte.", reponse: false, explication: "*Know* est un verbe d'état : il ne se met pas en -ing. On dit **I know the answer.**" },
@@ -304,7 +304,7 @@ Points vérifiés :
       exercices: [
         { type: "qcm", question: "*My sister can ___ the piano very well.*", choix: ["plays", "to play", "play", "playing"], reponse: 2, explication: "Après un modal, on met la **base verbale sans to** : *can play*." },
         { type: "saisie", question: "Mets à la forme négative : *I can swim.*", reponses: ["I can't swim", "I cannot swim", "I can not swim"], explication: "Négation de can : **can't** ou **cannot**, sans *do*." },
-        { type: "saisie", question: "Complète avec have to à la bonne forme : *My dad ___ get up early on Mondays.*", reponses: ["has to"], explication: "*Have to* se conjugue : avec he / she / it → **has to**." },
+        { type: "saisie", question: "Complète avec have to à la bonne forme : *My dad ___ get up early on Mondays.*", reponses: ["has to", "has got to", "'s got to"], explication: "*Have to* se conjugue : avec he / she / it → **has to**." },
         { type: "vf", question: "*You mustn't wear a uniform* signifie « Tu n'es pas obligé de porter un uniforme ».", reponse: false, explication: "**Mustn't** exprime une **interdiction** (« tu n'as pas le droit »). Pour l'absence d'obligation, on dit *You don't have to wear a uniform*." },
         { type: "qcm", question: "*___ she have to wear a uniform at school?*", choix: ["Do", "Does", "Is", "Has"], reponse: 1, explication: "*Have to* n'est pas un modal : la question se fait avec do / does. Avec *she* → **Does**." },
         { type: "qcm", question: "Comment dit-on « Il est interdit de courir dans les couloirs » ?", choix: ["You don't have to run in the corridors.", "You mustn't run in the corridors.", "You can run in the corridors.", "You haven't to run in the corridors."], reponse: 1, explication: "Interdiction → **mustn't**. *Don't have to* signifie « pas obligé »." },
@@ -335,6 +335,10 @@ On compare deux éléments avec **than** (« que »).
 | long (2 syllabes ou plus) | **more** + adjectif | *more expensive than* |
 
 Orthographe : *big → bigger, hot → hotter, thin → thinner* (consonne doublée) ; *nice → nicer* (on ajoute seulement -r).
+
+Cas des adjectifs de 2 syllabes : ceux en **-y** prennent *-ier* (*funny → funnier*) ; quelques autres acceptent aussi -er (*quiet → quieter, clever → cleverer, narrow → narrower, simple → simpler*). Les autres prennent *more* : *more boring, more famous, more modern*.
+
+Erreur fréquente : on ne cumule jamais les deux formes : on ne dit pas *more bigger*, mais *bigger*.
 
 >! *London is bigger than Manchester. Maths is more difficult than art. My cat is lazier than my dog.*
 
@@ -374,7 +378,7 @@ On dit **in** devant un lieu ou un groupe : *the best player in the team, the ta
         { type: "saisie", question: "Complète avec le superlatif : *For me, Paris is ___ (beautiful) city in the world.*", reponses: ["the most beautiful"], explication: "Adjectif long → **the most** + adjectif : *the most beautiful city in the world*." },
         { type: "saisie", question: "Donne le superlatif de **bad**.", reponses: ["the worst", "worst"], explication: "*Bad* est irrégulier : *bad → worse → the worst*." },
         { type: "vf", question: "*My sister is as tall as me* signifie que ma sœur et moi avons la même taille.", reponse: true, explication: "**as + adjectif + as** exprime l'égalité : « aussi grande que moi »." },
-        { type: "saisie", question: "Traduis : « Le Nil est plus long que la Tamise. »", reponses: ["The Nile is longer than the Thames"], explication: "*Long* est court → **longer than**. Les noms de fleuves prennent *the* : *the Nile, the Thames*." },
+        { type: "saisie", question: "Traduis : « Le Nil est plus long que la Tamise. »", reponses: ["The Nile is longer than the Thames", "The River Nile is longer than the River Thames", "The Nile is longer than the River Thames", "The Nile's longer than the Thames"], explication: "*Long* est court → **longer than**. Les noms de fleuves prennent *the* : *the Nile, the Thames*." },
         { type: "redaction", question: "Compare deux villes, deux sports ou deux animaux que tu connais en 6 phrases : utilise au moins deux comparatifs (dont un adjectif long), un superlatif, un irrégulier (*better / worse / the best*) et *as ... as*.", corrige: `Exemple de réponse (deux animaux) :
 
 *I have got a dog called Max and a cat called Luna. Max is bigger than Luna and he is more energetic: he runs all day! Luna is quieter and more independent than Max. Max isn't as clever as Luna, but he is friendlier. For me, dogs are better pets than cats because you can play with them outside. But Luna is the cutest animal in the world!*
@@ -545,8 +549,8 @@ Forme : *I'm going to play / she's going to play / they're going to play.* Néga
 > **À retenir** : **will** = prédiction, décision spontanée, promesse ; **be going to** = projet décidé à l'avance ou conséquence visible. Les deux sont suivis de la base verbale : *will go, is going to go*.
 `,
       exercices: [
-        { type: "saisie", question: "Complète avec will : *I think it ___ (rain) tomorrow.*", reponses: ["will rain", "'ll rain"], explication: "*I think* + prédiction → **will + base verbale** : *will rain*." },
-        { type: "saisie", question: "Complète avec be going to : *Look at those black clouds! It ___ rain.*", reponses: ["is going to", "'s going to"], explication: "Prédiction fondée sur un indice visible (les nuages) → **is going to**." },
+        { type: "saisie", question: "Complète avec will : *I think it ___ (rain) tomorrow.*", reponses: ["will rain", "'ll rain", "it will rain", "it'll rain"], explication: "*I think* + prédiction → **will + base verbale** : *will rain*." },
+        { type: "saisie", question: "Complète avec be going to : *Look at those black clouds! It ___ rain.*", reponses: ["is going to", "'s going to", "is going to rain", "'s going to rain", "It is going to rain", "It's going to rain"], explication: "Prédiction fondée sur un indice visible (les nuages) → **is going to**." },
         { type: "qcm", question: "*The phone is ringing!* — Que réponds-tu ?", choix: ["I'm going to answer it!", "I'll answer it!", "I answer it!", "I answering it!"], reponse: 1, explication: "Décision prise sur le moment → **will** : *I'll answer it!*" },
         { type: "saisie", question: "Mets à la forme négative : *She will come to the party.*", reponses: ["She won't come to the party", "She will not come to the party"], explication: "Négation de will : **won't** (will not) + base verbale." },
         { type: "vf", question: "La phrase *I will to go to the cinema.* est correcte.", reponse: false, explication: "*Will* est un modal : il est suivi de la **base verbale sans to** : *I will go*." },
@@ -589,7 +593,7 @@ Expressions : *at home, at school, at the station, in London, in France, on the 
 ## Les prépositions de temps : at, on, in
 | Préposition | Avec... | Exemples |
 |---|---|---|
-| **at** | une heure, un moment précis | *at 8 o'clock, at noon, at night, at the weekend (UK), at Christmas* |
+| **at** | une heure, un moment précis | *at 8 o'clock, at noon, at night, at the weekend (UK ; US : on the weekend), at Christmas* |
 | **on** | un jour, une date | *on Monday, on 14th July, on my birthday, on Christmas Day* |
 | **in** | une période plus longue | *in May, in 2025, in summer, in the morning, in the 19th century* |
 
@@ -815,7 +819,7 @@ L'anglais est parlé dans le monde entier : **l'Irlande** (Dublin), **le Canada*
         { type: "vf", question: "La statue de la Liberté a été offerte aux États-Unis par la France.", reponse: true, explication: "Elle a été offerte par la France et inaugurée à New York en **1886**, pour célébrer l'amitié entre les deux pays." },
         { type: "redaction", question: "Présente en anglais (6 à 8 phrases) une fête du monde anglophone de ton choix : son nom, la date, le pays, son origine et ce que les gens font ce jour-là.", corrige: `Exemple de réponse (Halloween) :
 
-*Halloween is a popular festival in the USA, in the UK and in Ireland. It is celebrated on 31st October. It comes from an old Celtic festival called Samhain, when people believed that ghosts came back on Earth. Today, children dress up as witches, ghosts, vampires or monsters. They go from door to door and say "Trick or treat!" to get sweets. People carve pumpkins to make jack-o'-lanterns and they decorate their houses. Some people go to Halloween parties and watch horror films.*
+*Halloween is a popular festival in the USA, in the UK and in Ireland. It is celebrated on 31st October. It comes from an old Celtic festival called Samhain, when people believed that ghosts came back to Earth. Today, children dress up as witches, ghosts, vampires or monsters. They go from door to door and say "Trick or treat!" to get sweets. People carve pumpkins to make jack-o'-lanterns and they decorate their houses. Some people go to Halloween parties and watch horror films.*
 
 Points vérifiés :
 - informations précises : pays, date (*on 31st October*), origine (fête celtique de Samhain) ;
@@ -838,7 +842,7 @@ Points vérifiés :
 2. Repère les **mots transparents** (qui ressemblent au français) : *animal, important, family, restaurant, visit*.
 3. Utilise le **contexte** pour deviner un mot inconnu : ne t'arrête pas sur chaque mot !
 4. Repère les **mots de liaison** : *and, but* (mais), *because* (parce que), *so* (donc), *then* (ensuite), *first, finally*.
-5. Attention aux **faux-amis** : *library* (bibliothèque), *actually* (en fait), *sensible* (raisonnable), *journey* (voyage).
+5. Attention aux **faux-amis** : *library* (bibliothèque), *actually* (en fait), *sensible* (raisonnable), *journey* (voyage, et non journée).
 
 ### Répondre aux questions
 - Justifie avec une **citation** du texte entre guillemets.
@@ -879,7 +883,7 @@ Points vérifiés :
 
 *Hi Ethan,*
 
-*Thanks for your email! I started Year 8 two weeks ago. My school is quite big: there are about 600 students. My favourite subjects are science and English because the teachers are really nice and the lessons are interesting. But I don't like maths: it's too difficult for me! I've got two new friends, Nina and Malik. We always eat together at the canteen. This year, we are going to visit London with our English class. I'm so excited!*
+*Thanks for your email! I started 5e two weeks ago: it's like seventh grade in the USA. My school is quite big: there are about 600 students. My favourite subjects are science and English because the teachers are really nice and the lessons are interesting. But I don't like maths: it's too difficult for me! I've got two new friends, Nina and Malik. We always eat together at the canteen. This year, we are going to visit London with our English class. I'm so excited!*
 
 *Write soon,*
 *Lucas*
@@ -887,9 +891,83 @@ Points vérifiés :
 Méthode appliquée :
 - formules d'e-mail au début et à la fin ;
 - toutes les parties de la consigne sont traitées (collège, matières, amis, projet) ;
+- adaptation au destinataire américain : *seventh grade* (et non *Year 8*, qui est britannique) ;
 - temps variés : prétérit (*I started*), présent (*my school is*), futur (*we are going to visit*) ;
 - connecteurs : *because, but* ;
 - justification des goûts : *because the teachers are really nice*.` },
+      ],
+    },
+    {
+      id: "nombres-heure-dates",
+      titre: "Nombres, heure, dates et prix",
+      theme: "Vocabulaire",
+      cours: `
+## Les nombres
+- de 13 à 19 : **-teen** (accent sur *-teen*) : *thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen* ;
+- les dizaines : **-ty** (accent au début) : *twenty, thirty, forty* (sans u), *fifty, sixty, seventy, eighty, ninety* ;
+- trait d'union entre dizaine et unité : *twenty-one, forty-five* ;
+- **and** devant les dizaines après *hundred* (UK) : *a hundred and twenty* (120), *three hundred and five* (305) ;
+- *hundred, thousand, million* ne prennent pas de -s après un nombre : *two hundred, five thousand* (mais *hundreds of people*).
+
+Attention à la prononciation : *thirteen* (13) / *thirty* (30) ; *fourteen* (14) / *forty* (40).
+
+## Les ordinaux (1er, 2e...)
+*first* (1st), *second* (2nd), *third* (3rd), puis **-th** : *fourth* (4th), *fifth* (5th), *ninth* (9th), *twelfth* (12th), *twentieth* (20th), *twenty-first* (21st), *thirty-second* (32nd).
+
+On les utilise pour les dates et les étages : *on the second floor* (au 2e étage).
+
+## Les dates
+| À l'écrit | À l'oral |
+|---|---|
+| 14th July / 14 July (UK) | *the fourteenth of July* |
+| July 14th / July 14 (US) | *July fourteenth* |
+
+- Les **jours et les mois** prennent une **majuscule** : *Monday, January*.
+- Préposition : **on** + date : *My birthday is on 3rd March.*
+- Les années se lisent par paires : *1998 = nineteen ninety-eight* ; *2026 = twenty twenty-six* (ou *two thousand and twenty-six*) ; *2005 = two thousand and five*.
+
+## L'heure
+*What time is it? / What's the time?*
+
+| Heure | Façon traditionnelle | Façon « digitale » |
+|---|---|---|
+| 7:00 | *seven o'clock* | *seven* |
+| 7:15 | *a quarter past seven* | *seven fifteen* |
+| 7:30 | *half past seven* | *seven thirty* |
+| 7:45 | *a quarter to eight* | *seven forty-five* |
+| 7:10 | *ten past seven* | *seven ten* |
+| 7:50 | *ten to eight* | *seven fifty* |
+
+- **past** = après l'heure (jusqu'à la demie) ; **to** = avant l'heure suivante.
+- **a.m.** = le matin (de minuit à midi) ; **p.m.** = l'après-midi et le soir : *3 p.m.* = 15 h. Au Royaume-Uni et aux États-Unis, on utilise peu l'horaire sur 24 heures à l'oral.
+- Piège : *half past seven* = 7 h 30 (et non 6 h 30 comme l'allemand *halb sieben*).
+
+## Les prix
+*£3.50* se lit *three pounds fifty* ; *$10.99* = *ten dollars ninety-nine* ; *50p* = *fifty pence* (ou *fifty p*). *How much is it? — It's five pounds.*
+
+Le point sert de séparateur décimal (*3.5*), la virgule sépare les milliers (*10,000*) : c'est l'inverse du français !
+
+> **À retenir** : *-teen* (13-19) ≠ *-ty* (dizaines) ; *forty* sans u. Ordinaux : *first, second, third*, puis *-th*. Date : *on the 14th of July*. Heure : *past* jusqu'à la demie, *to* ensuite ; *a.m.* le matin, *p.m.* l'après-midi. Majuscules aux jours et aux mois.
+`,
+      exercices: [
+        { type: "saisie", question: "Écris en lettres : **40**", reponses: ["forty"], explication: "**Forty** s'écrit sans u, contrairement à *four* et *fourteen*. Erreur très fréquente : *fourty*." },
+        { type: "qcm", question: "Comment dit-on 7 h 30 ?", choix: ["half past six", "half past seven", "half to eight", "seven and half"], reponse: 1, explication: "*Half past seven* = « la demie après sept heures » = 7 h 30. L'expression *half to* n'existe pas." },
+        { type: "saisie", question: "Écris l'ordinal correspondant à **3** (en lettres).", reponses: ["third", "the third"], explication: "Les trois premiers ordinaux sont irréguliers : *first, second, third*. Ensuite on ajoute **-th** : *fourth, fifth...*" },
+        { type: "saisie", question: "Il est 8 h 45. Complète : *It's a quarter ___ nine.*", reponses: ["to"], explication: "Après la demie, on compte ce qui manque avant l'heure suivante avec **to** : *a quarter to nine* = 9 h moins le quart." },
+        { type: "vf", question: "En anglais, les noms des mois et des jours s'écrivent avec une majuscule.", reponse: true, explication: "On écrit *Monday, Friday, January, August* avec une majuscule, contrairement au français." },
+        { type: "qcm", question: "*The film starts at 3 p.m.* Il commence à :", choix: ["3 h du matin", "13 h", "15 h", "3 h 30"], reponse: 2, explication: "**p.m.** = après midi : *3 p.m.* = 15 h. *3 a.m.* serait 3 h du matin." },
+        { type: "saisie", question: "Comment lit-on l'année **1998** ? (en lettres)", reponses: ["nineteen ninety-eight", "nineteen ninety eight"], explication: "On lit les années par paires de chiffres : *19 / 98* → **nineteen ninety-eight**." },
+        { type: "saisie", question: "Écris en lettres le prix **£4.50**.", reponses: ["four pounds fifty", "four pounds and fifty pence", "four pounds fifty pence", "four fifty"], explication: "On lit les livres puis les pence : **four pounds fifty**. *Pound* prend un -s au pluriel." },
+        { type: "saisie", question: "Traduis : « Mon anniversaire est le 2 mai. » (avec une préposition, ordinal en chiffres ou en lettres)", reponses: ["My birthday is on 2nd May", "My birthday is on the 2nd of May", "My birthday is on the second of May", "My birthday is on May 2nd", "My birthday is on May 2", "My birthday is on 2 May", "My birthday is on May second", "My birthday's on 2nd May", "My birthday's on the second of May"], explication: "**On** + date ; on dit *the second of May* à l'oral (UK) et *May second* (US)." },
+        { type: "redaction", question: "Écris ton emploi du temps d'une journée de collège en 6 phrases : donne au moins quatre heures (avec *past*, *to*, *half past* ou *o'clock*), la date du jour et le prix de quelque chose que tu achètes.", corrige: `Exemple de réponse :
+
+*Today is Tuesday, the 14th of October. I get up at a quarter to seven and I leave home at half past seven. My first lesson starts at eight o'clock: it's maths. At ten past ten, we have a break and I buy a croissant: it costs one euro twenty. Lunch is at twelve o'clock in the canteen. I finish school at a quarter past five and I go home by bus.*
+
+Points vérifiés :
+- heures variées : *a quarter to seven, half past seven, eight o'clock, ten past ten, a quarter past five* ;
+- date avec ordinal et majuscules : *Tuesday, the 14th of October* ;
+- prix : *one euro twenty* ;
+- présent simple pour les habitudes, avec *at* + heure.` },
       ],
     },
   ],

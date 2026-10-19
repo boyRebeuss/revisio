@@ -14,7 +14,7 @@ for f in $files; do
 const pos = {}; let alertes = [];
 const verif = (ou, s) => {
   const html = bloc(s);
-  const brut = html.replace(/<[^>]+>/g, "");
+  const brut = html.replace(/<pre[\s\S]*?<\/pre>/g, "").replace(/<[^>]+>/g, "");
   if (/\*\*/.test(brut)) alertes.push(ou + " : ** non fermé");
   if (/\$\{|\\\(|\\frac|\^\{/.test(s)) alertes.push(ou + " : LaTeX ou gabarit");
 };

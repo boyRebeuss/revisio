@@ -34,7 +34,7 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
 > - Vocabulaire : autrui, dignité, empathie, tolérance, préjugé, stéréotype, injure.
 `,
       exercices: [
-        { type: "qcm", question: "Qu'est-ce qu'un stéréotype ?", choix: ["Une loi qui protège les élèves", "Une idée toute faite et caricaturale appliquée à tout un groupe", "Un sentiment de tristesse", "Une sanction scolaire"], reponse: 1, explication: "Exemple : « les garçons ne pleurent pas ». Le stéréotype généralise abusivement." },
+        { type: "qcm", question: "Qu'est-ce qu'un stéréotype ?", choix: ["Une loi qui protège les élèves", "Une sanction scolaire", "Un sentiment de tristesse", "Une idée toute faite et caricaturale appliquée à tout un groupe"], reponse: 3, explication: "Exemple : « les garçons ne pleurent pas ». Le stéréotype généralise abusivement." },
         { type: "saisie", question: "Comment appelle-t-on la capacité à se mettre à la place de l'autre pour comprendre ce qu'il ressent ?", reponses: ["empathie", "l'empathie"], explication: "L'empathie aide à mieux respecter les autres et à éviter de les blesser." },
         { type: "vf", question: "Une injure est une parole ou un écrit offensant qui peut être puni par la loi.", reponse: true, explication: "L'injure est punie, et plus sévèrement quand elle est raciste, sexiste, homophobe ou liée au handicap." },
         { type: "qcm", question: "Laquelle de ces phrases est un préjugé ?", choix: ["« Je ne connais pas encore Léa. »", "« Léa a eu 15 en anglais. »", "« Léa est nouvelle, elle doit être prétentieuse. »", "« Léa vient de Lyon. »"], reponse: 2, explication: "On juge Léa avant de la connaître, sans aucune raison : c'est un préjugé." },
@@ -51,7 +51,7 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
       cours: `
 ## 1. Qu'est-ce qu'une discrimination ?
 - Une **discrimination** est le fait de **traiter une personne de manière défavorable** (refuser un emploi, un logement, l'entrée d'un lieu, un service…) en raison d'un **critère interdit par la loi**.
-- Le **Code pénal** (article 225-1) énumère plus de **vingt-cinq critères** interdits, parmi lesquels : l'**origine**, le **sexe**, la **religion**, le **handicap**, l'**état de santé**, l'**âge**, l'**orientation sexuelle**, l'**apparence physique**, le **lieu de résidence**, les **opinions politiques**…
+- Le **Code pénal** (article 225-1) énumère plus de **vingt critères** interdits, parmi lesquels : l'**origine**, le **sexe**, la **religion**, le **handicap**, l'**état de santé**, l'**âge**, l'**orientation sexuelle**, l'**apparence physique**, le **lieu de résidence**, les **opinions politiques**…
 - Une discrimination est un **délit** : elle peut être punie jusqu'à **3 ans d'emprisonnement** et **45 000 € d'amende**.
 
 >! **Ne pas confondre** : un préjugé est une **idée** ; une discrimination est un **acte** (une différence de traitement). Le préjugé peut conduire à la discrimination.
@@ -77,10 +77,10 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
 > - Vocabulaire : discrimination, racisme, antisémitisme, sexisme, homophobie, inclusion.
 `,
       exercices: [
-        { type: "qcm", question: "Qu'est-ce qu'une discrimination ?", choix: ["Une simple opinion sur quelqu'un", "Un traitement défavorable d'une personne en raison d'un critère interdit par la loi", "Une dispute entre amis", "Une punition donnée par un professeur"], reponse: 1, explication: "La discrimination est un **acte** (refus, traitement inégal) fondé sur un critère interdit, comme l'origine ou le handicap." },
+        { type: "qcm", question: "Qu'est-ce qu'une discrimination ?", choix: ["Une simple opinion sur quelqu'un", "Une punition donnée par un professeur", "Une dispute entre amis", "Un traitement défavorable d'une personne en raison d'un critère interdit par la loi"], reponse: 3, explication: "La discrimination est un **acte** (refus, traitement inégal) fondé sur un critère interdit, comme l'origine ou le handicap." },
         { type: "vf", question: "Refuser de louer un appartement à quelqu'un à cause de son origine est une discrimination punie par la loi.", reponse: true, explication: "L'origine fait partie des critères interdits par le Code pénal." },
         { type: "saisie", question: "Quelle autorité indépendante, créée en 2011, aide gratuitement les victimes de discrimination ?", reponses: ["Defenseur des droits", "le Defenseur des droits"], explication: "Le Défenseur des droits peut être saisi gratuitement, y compris par un mineur." },
-        { type: "qcm", question: "Comment appelle-t-on la haine ou le rejet des juifs ?", choix: ["Le sexisme", "L'homophobie", "L'antisémitisme", "Le validisme"], reponse: 2, explication: "L'antisémitisme est puni par la loi, comme toutes les formes de racisme." },
+        { type: "qcm", question: "Comment appelle-t-on la haine ou le rejet des juifs ?", choix: ["Le sexisme", "L'homophobie", "Le validisme", "L'antisémitisme"], reponse: 3, explication: "L'antisémitisme est puni par la loi, comme toutes les formes de racisme." },
         { type: "qcm", question: "Quelle peine maximale prévoit la loi pour une discrimination ?", choix: ["3 ans de prison et 45 000 € d'amende", "Une simple amende de 38 €", "10 ans de prison", "Aucune peine"], reponse: 0, explication: "Le Code pénal punit la discrimination de 3 ans d'emprisonnement et 45 000 € d'amende." },
         { type: "vf", question: "Un préjugé et une discrimination sont exactement la même chose.", reponse: false, explication: "Le préjugé est une **idée** ; la discrimination est un **acte** qui défavorise quelqu'un. Le premier peut mener à la seconde." },
         { type: "vf", question: "Selon la science, il n'existe pas de « races » humaines.", reponse: true, explication: "L'espèce humaine est une : les différences visibles (couleur de peau…) ne permettent pas de définir des races." },
@@ -104,7 +104,7 @@ La **diversité** des personnes est une richesse : elle permet d'apprendre des a
 | 2000 | loi sur la **parité** en politique (autant de candidates que de candidats) |
 
 ## 2. Des inégalités qui persistent
-- **Salaires** : les femmes gagnent encore en moyenne moins que les hommes, même à temps de travail égal (écart d'environ 15 %), et occupent plus souvent des emplois à temps partiel.
+- **Salaires** : les femmes gagnent encore en moyenne moins que les hommes, même à temps de travail égal (dans le secteur privé, écart d'environ 14 % selon l'Insee en 2023 ; il reste environ 4 % à poste et temps de travail identiques), et occupent plus souvent des emplois à temps partiel.
 - **Tâches domestiques** : elles en assurent encore la plus grande part.
 - **Métiers** : certains métiers restent très majoritairement masculins (ingénieur, mécanicien) ou féminins (aide-soignante, assistante maternelle) à cause des **stéréotypes de genre**.
 - **Politique et direction des entreprises** : les femmes y restent minoritaires aux plus hauts postes.
@@ -126,7 +126,7 @@ Un **stéréotype de genre** attribue des qualités ou des rôles à une personn
 `,
       exercices: [
         { type: "saisie", question: "En quelle année les femmes obtiennent-elles le droit de vote en France ?", reponses: ["1944", "en 1944"], explication: "L'ordonnance du 21 avril 1944 accorde le droit de vote aux femmes ; elles votent pour la première fois en 1945." },
-        { type: "qcm", question: "Que garantit la loi sur la parité de 2000 ?", choix: ["Le droit de vote des femmes", "L'égal accès des femmes et des hommes aux mandats électoraux", "La mixité à l'école", "L'égalité des salaires"], reponse: 1, explication: "La parité impose notamment autant de candidates que de candidats sur les listes électorales." },
+        { type: "qcm", question: "Que garantit la loi sur la parité de 2000 ?", choix: ["Le droit de vote des femmes", "L'égalité des salaires", "La mixité à l'école", "L'égal accès des femmes et des hommes aux mandats électoraux"], reponse: 3, explication: "La parité impose notamment autant de candidates que de candidats sur les listes électorales." },
         { type: "vf", question: "Avant 1965, une femme mariée devait avoir l'autorisation de son mari pour travailler.", reponse: true, explication: "La loi du 13 juillet 1965 permet aux femmes mariées de travailler et d'ouvrir un compte bancaire sans autorisation." },
         { type: "qcm", question: "Laquelle de ces phrases est un stéréotype de genre ?", choix: ["« Les garçons ne doivent pas pleurer. »", "« Inès a choisi le club de foot. »", "« Le collège est mixte. »", "« Tom aime la danse. »"], reponse: 0, explication: "Cette phrase attribue un comportement obligatoire à tous les garçons : c'est un stéréotype." },
         { type: "vf", question: "Aujourd'hui en France, les femmes et les hommes ont exactement les mêmes salaires moyens.", reponse: false, explication: "Un écart persiste : les femmes gagnent en moyenne moins que les hommes, même à temps de travail égal." },
@@ -141,7 +141,7 @@ Un **stéréotype de genre** attribue des qualités ou des rôles à une personn
 - **2000** : loi sur la **parité** en politique.
 
 **2. Des inégalités qui persistent**
-- Écarts de **salaires** (environ 15 % à temps de travail égal), temps partiel plus fréquent chez les femmes.
+- Écarts de **salaires** (environ 14 % à temps de travail égal), temps partiel plus fréquent chez les femmes.
 - Tâches domestiques surtout assurées par les femmes ; peu de femmes aux postes de direction.
 - Les **stéréotypes de genre** orientent encore les choix de métiers ; les femmes sont les principales victimes des violences sexistes.
 
@@ -191,7 +191,7 @@ La France fait partie de l'**Union européenne**, dont les symboles sont le drap
 `,
       exercices: [
         { type: "saisie", question: "Quelle est la devise de la République française ?", reponses: ["Liberte, Egalite, Fraternite", "Liberte Egalite Fraternite", "liberte egalite fraternite"], explication: "La devise Liberté, Égalité, Fraternité est officielle depuis 1848." },
-        { type: "qcm", question: "Qui a écrit La Marseillaise en 1792 ?", choix: ["Victor Hugo", "Rouget de Lisle", "Napoléon Bonaparte", "Jules Ferry"], reponse: 1, explication: "Claude Joseph Rouget de Lisle compose ce chant de guerre à Strasbourg en 1792 ; il est popularisé par les soldats marseillais." },
+        { type: "qcm", question: "Qui a écrit La Marseillaise en 1792 ?", choix: ["Victor Hugo", "Jules Ferry", "Napoléon Bonaparte", "Rouget de Lisle"], reponse: 3, explication: "Claude Joseph Rouget de Lisle compose ce chant de guerre à Strasbourg en 1792 ; il est popularisé par les soldats marseillais." },
         { type: "vf", question: "Marianne porte un bonnet phrygien, symbole de la liberté.", reponse: true, explication: "Le bonnet phrygien, porté par les révolutionnaires, symbolise la liberté." },
         { type: "qcm", question: "Selon l'article 1er de la Constitution, la France est une République…", choix: ["royale, chrétienne, unie et riche", "fédérale, religieuse, démocratique et libérale", "indivisible, laïque, démocratique et sociale", "européenne, laïque, militaire et sociale"], reponse: 2, explication: "« La France est une République indivisible, laïque, démocratique et sociale. »" },
         { type: "saisie", question: "Quelle est la date de la fête nationale française (jour et mois) ?", reponses: ["14 juillet", "le 14 juillet", "14/07"], explication: "Le 14 juillet est la fête nationale depuis 1880." },
@@ -257,7 +257,7 @@ Le **9 décembre** est la journée de la laïcité.
 ## 2. Des droits et des devoirs
 - Un **droit** est ce que la loi permet ou garantit (s'exprimer, être soigné, aller à l'école). Un **devoir** est une obligation (respecter les autres, la loi, aller à l'école jusqu'à 16 ans, payer ses impôts).
 - Droits et devoirs vont ensemble : mes droits s'arrêtent là où commencent ceux des autres.
-- Les **droits de l'enfant** sont protégés par la **Convention internationale des droits de l'enfant** (**CIDE**), adoptée par l'ONU le **20 novembre 1989** : droit à une identité, à l'éducation, à la santé, à être protégé contre la violence, à donner son opinion…
+- Les **droits de l'enfant** sont protégés par la **Convention internationale des droits de l'enfant** (**CIDE**, nom officiel : Convention relative aux droits de l'enfant), adoptée par l'ONU le **20 novembre 1989** : droit à une identité, à l'éducation, à la santé, à être protégé contre la violence, à donner son opinion…
 - En France, on est **majeur** à **18 ans** (depuis 1974) : on peut alors voter et on est pleinement responsable de ses actes.
 
 ## 3. Les infractions et la justice
@@ -284,8 +284,8 @@ Une **infraction** est un acte interdit par la loi et puni d'une peine.
 > - Vocabulaire : loi, droit, devoir, infraction, délit, crime, présomption d'innocence, juge des enfants.
 `,
       exercices: [
-        { type: "qcm", question: "Qui vote les lois en France ?", choix: ["Le président de la République seul", "Le Parlement (Assemblée nationale et Sénat)", "Les juges", "Le principal du collège"], reponse: 1, explication: "Le Parlement, composé de l'Assemblée nationale et du Sénat, vote les lois." },
-        { type: "saisie", question: "Quelle convention internationale, adoptée en 1989, protège les droits des enfants ? (donne le sigle)", reponses: ["CIDE", "Convention internationale des droits de l'enfant"], explication: "La CIDE a été adoptée par l'ONU le 20 novembre 1989." },
+        { type: "qcm", question: "Qui vote les lois en France ?", choix: ["Le président de la République seul", "Le principal du collège", "Les juges", "Le Parlement (Assemblée nationale et Sénat)"], reponse: 3, explication: "Le Parlement, composé de l'Assemblée nationale et du Sénat, vote les lois." },
+        { type: "saisie", question: "Quelle convention internationale, adoptée en 1989, protège les droits des enfants ? (donne le sigle)", reponses: ["CIDE", "Convention internationale des droits de l'enfant", "Convention relative aux droits de l'enfant", "CDE"], explication: "La CIDE a été adoptée par l'ONU le 20 novembre 1989." },
         { type: "qcm", question: "Classe ces infractions de la moins grave à la plus grave.", choix: ["Délit, contravention, crime", "Crime, délit, contravention", "Contravention, délit, crime", "Contravention, crime, délit"], reponse: 2, explication: "La contravention est la moins grave, le crime la plus grave." },
         { type: "vf", question: "Un vol est un délit, jugé pour un majeur par le tribunal correctionnel.", reponse: true, explication: "Le vol est un délit, comme le harcèlement ou la discrimination." },
         { type: "saisie", question: "Quel juge spécialisé s'occupe des mineurs ?", reponses: ["juge des enfants", "le juge des enfants"], explication: "Le juge des enfants protège les mineurs en danger et juge les mineurs auteurs d'infractions." },
@@ -404,7 +404,7 @@ Une dispute ou une bagarre ponctuelle entre deux élèves de même force n'est p
 - Les **témoins** : ils ont un rôle essentiel. Rire, « liker », partager ou se taire encourage le harcèlement. Réagir, soutenir la victime et prévenir un adulte permet de l'arrêter.
 
 ## 4. Ce que dit la loi
-- Depuis la loi du **2 mars 2022**, le **harcèlement scolaire** est un **délit** spécifique : il est puni jusqu'à **3 ans** d'emprisonnement et **45 000 €** d'amende, et jusqu'à **10 ans** et **150 000 €** si la victime s'est suicidée ou a tenté de le faire.
+- Depuis la loi du **2 mars 2022**, le **harcèlement scolaire** est un **délit** spécifique : il est puni jusqu'à **3 ans** d'emprisonnement et **45 000 €** d'amende, **5 ans** et **75 000 €** si la victime a subi une incapacité de travail de plus de 8 jours, et jusqu'à **10 ans** et **150 000 €** si la victime s'est suicidée ou a tenté de le faire.
 - Les mineurs auteurs sont jugés par la justice des mineurs ; le collège peut aussi prononcer des sanctions disciplinaires (jusqu'à l'exclusion).
 - Participer à un harcèlement en groupe (même par un simple message) peut être puni.
 

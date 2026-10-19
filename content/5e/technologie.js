@@ -263,7 +263,7 @@ Un **actionneur** agit sur l'environnement en convertissant de l'énergie : mote
         { type: "qcm", question: "Quelle est la fonction d'un capteur ?", choix: ["Traiter l'information", "Acquérir une information", "Convertir l'énergie électrique en mouvement", "Stocker l'énergie"], reponse: 1, explication: "Le capteur **acquiert** une information (température, lumière, présence...) et la transforme en signal électrique." },
         { type: "qcm", question: "Lequel de ces composants est un actionneur ?", choix: ["Un moteur", "Un détecteur de présence", "Une thermistance", "Un bouton-poussoir"], reponse: 0, explication: "Le moteur agit sur l'environnement (mouvement). Les trois autres sont des capteurs." },
         { type: "vf", question: "Un bouton-poussoir délivre un signal logique (tout ou rien).", reponse: true, explication: "Il est soit appuyé (1), soit relâché (0) : c'est un signal logique." },
-        { type: "saisie", question: "Quel est le nom de la fonction de la chaîne d'information réalisée par le microcontrôleur (programme) ?", reponses: ["traiter", "traitement", "traiter l'information"], explication: "Le microcontrôleur exécute le programme qui **traite** l'information et prend une décision." },
+        { type: "saisie", question: "Quel est le nom de la fonction de la chaîne d'information réalisée par le microcontrôleur (programme) ?", reponses: ["traiter", "traitement", "traiter l'information", "traiter les informations", "traitement de l'information", "traiter l'info"], explication: "Le microcontrôleur exécute le programme qui **traite** l'information et prend une décision." },
         { type: "qcm", question: "Quel capteur utiliser pour qu'un robot mesure la distance d'un obstacle ?", choix: ["Un capteur à ultrasons", "Un microphone", "Une thermistance", "Un capteur d'humidité"], reponse: 0, explication: "Le capteur à ultrasons émet un son très aigu et mesure le temps de retour de l'écho, ce qui donne la distance." },
         { type: "vf", question: "La chaîne d'information commande la chaîne d'énergie.", reponse: true, explication: "Oui : après traitement, la chaîne d'information envoie un ordre au distributeur (relais, transistor) de la chaîne d'énergie." },
         { type: "qcm", question: "Un thermomètre de salle de bain affiche la température sur un écran. L'écran réalise la fonction :", choix: ["communiquer", "traiter", "acquérir", "alimenter"], reponse: 0, explication: "L'écran transmet l'information à l'utilisateur : il **communique**." },
@@ -539,11 +539,96 @@ L'**écoconception** consiste à réduire l'impact environnemental dès la conce
         { type: "qcm", question: "Quelle est la première étape d'une démarche de projet ?", choix: ["Fabriquer le prototype", "Identifier le besoin", "Présenter le projet", "Tester l'objet"], reponse: 1, explication: "On commence par identifier le besoin et rédiger le cahier des charges." },
         { type: "vf", question: "Un prototype est le dernier exemplaire fabriqué en série.", reponse: false, explication: "Le prototype est un **premier** exemplaire, réalisé pour tester l'objet avant la production." },
         { type: "qcm", question: "Quels sont les trois piliers du développement durable ?", choix: ["Environnemental, social, économique", "Rapide, solide, joli", "Métal, plastique, bois", "Acquérir, traiter, communiquer"], reponse: 0, explication: "Le développement durable concilie environnement, social et économie." },
-        { type: "saisie", question: "Donne les trois mots de la règle des 3 R, dans l'ordre (séparés par des virgules).", reponses: ["réduire, réutiliser, recycler", "reduire, reutiliser, recycler", "réduire réutiliser recycler"], explication: "**Réduire**, **réutiliser**, **recycler** : on privilégie d'abord la réduction, puis la réutilisation, enfin le recyclage." },
+        { type: "saisie", question: "Donne les trois mots de la règle des 3 R, dans l'ordre (séparés par des virgules).", reponses: ["réduire, réutiliser, recycler", "reduire, reutiliser, recycler", "réduire réutiliser recycler", "réduire, réutiliser et recycler", "réduire réutiliser et recycler"], explication: "**Réduire**, **réutiliser**, **recycler** : on privilégie d'abord la réduction, puis la réutilisation, enfin le recyclage." },
         { type: "qcm", question: "Pour un smartphone, quelle étape du cycle de vie a le plus d'impact environnemental ?", choix: ["Le transport", "La fabrication", "La recharge quotidienne", "Le rangement"], reponse: 1, explication: "La fabrication (extraction des métaux, composants électroniques) représente la majorité de l'impact. D'où l'intérêt de garder son téléphone longtemps." },
         { type: "vf", question: "L'aluminium et le verre sont recyclables à l'infini.", reponse: true, explication: "Ils peuvent être refondus de nombreuses fois sans perdre leurs propriétés." },
         { type: "qcm", question: "Lequel de ces choix relève de l'écoconception ?", choix: ["Coller toutes les pièces pour qu'on ne puisse pas les démonter", "Choisir un matériau impossible à recycler", "Ajouter un emballage plus gros", "Utiliser des vis pour rendre l'objet réparable"], reponse: 3, explication: "Des pièces démontables permettent de réparer et de trier les matériaux en fin de vie." },
         { type: "redaction", question: "Ton équipe doit concevoir une lampe de chevet « écoresponsable ». 1) Liste les étapes de la démarche de projet que vous allez suivre. 2) Pour chaque étape du cycle de vie de la lampe, propose un choix qui réduit son impact environnemental. 3) Comment vérifierez-vous que le prototype répond au cahier des charges ?", corrige: "1) **Démarche** : identifier le besoin (s'éclairer pour lire au lit) → rédiger le cahier des charges (éclairage suffisant, faible consommation, matériaux recyclables, prix) → rechercher des idées (croquis) → choisir une solution → concevoir (modèle 3D, schéma électrique) → planifier et répartir les tâches → réaliser le prototype → tester → présenter.\n\n2) **Cycle de vie** :\n- Extraction : bois issu de forêts gérées durablement, aluminium recyclé ;\n- Fabrication : peu de pièces, découpe optimisée pour limiter les chutes ;\n- Transport : fabrication locale, emballage carton réduit ;\n- Utilisation : lampe à DEL (faible puissance, longue durée de vie), interrupteur ;\n- Fin de vie : assemblage par vis (démontable), DEL remplaçable, matériaux séparables et recyclables.\n\n3) **Validation** : on reprend chaque ligne du cahier des charges et on mesure le niveau obtenu (puissance de la DEL, éclairement avec un luxmètre, masse, coût total, possibilité de démonter). Si un critère n'est pas atteint, on modifie le prototype puis on refait le test." },
+      ],
+    },
+    {
+      id: "programmer-objet",
+      titre: "Programmer un objet : carte programmable, capteurs et actionneurs",
+      theme: "Informatique et programmation",
+      cours: `
+## La carte programmable
+Une **carte programmable** (micro:bit, Arduino...) contient un **microcontrôleur** : un petit ordinateur qui exécute un programme. On écrit le programme par blocs sur l'ordinateur, puis on le **téléverse** (on le transfère) dans la carte, par câble USB.
+
+La carte possède :
+- des **entrées**, reliées aux **capteurs** (boutons, capteur de lumière, de température, à ultrasons...) : elles réalisent la fonction **acquérir** ;
+- des **sorties**, reliées aux **actionneurs** (DEL, buzzer, moteur via un relais ou une carte de puissance...) : la carte leur **communique** des ordres.
+
+Le programme réalise la fonction **traiter** : il compare les valeurs mesurées à un **seuil** et décide.
+
+## Les blocs habituels
+| Bloc (décrit) | Rôle |
+|---|---|
+| « au démarrage » | instructions exécutées une seule fois, à la mise sous tension |
+| « toujours » (répéter indéfiniment) | boucle qui surveille les capteurs en permanence |
+| « si ... alors ... sinon » | choisit une action selon une condition |
+| « niveau d'intensité lumineuse », « température » | lit la valeur d'un capteur |
+| « écrire sur la broche P0 la valeur 1 » | allume (1) ou éteint (0) un actionneur branché sur une sortie |
+| « pause (ms) 1000 » | attend 1 000 millisecondes, soit 1 seconde |
+
+Rappel : 1 s = 1 000 ms.
+
+>! **Exemple : veilleuse automatique** (décrit en texte)
+~~~
+au démarrage
+    afficher « OK »
+toujours
+    si luminosité < 50 alors
+        écrire sur P0 la valeur 1  (DEL allumée)
+    sinon
+        écrire sur P0 la valeur 0  (DEL éteinte)
+~~~
+La boucle « toujours » relit le capteur sans arrêt : la DEL s'allume dès qu'il fait sombre (valeur inférieure au seuil 50) et s'éteint quand il fait clair.
+
+## L'algorigramme
+Avant de programmer, on peut représenter l'algorithme par un **algorigramme** (organigramme) :
+| Symbole | Signification |
+|---|---|
+| ovale (rectangle aux bords arrondis) | **début** ou **fin** |
+| rectangle | une **action** (allumer la DEL, attendre 1 s) |
+| **losange** | une **condition** (test) avec deux sorties : oui / non |
+| parallélogramme | une **entrée** (lecture d'un capteur) ou une **sortie** (affichage) |
+| flèches | l'ordre d'exécution |
+
+## Tester et corriger
+On teste le programme dans un **simulateur** puis sur l'objet réel. Erreurs fréquentes : oublier la boucle « toujours » (le capteur n'est lu qu'une fois), un seuil mal choisi, oublier la pause (une DEL qui clignote trop vite semble allumée en continu), inverser « < » et « > ».
+
+> **À retenir** : la carte programmable **acquiert** par ses entrées (capteurs), **traite** grâce au programme et **communique** des ordres par ses sorties (actionneurs). Blocs clés : « au démarrage », « toujours », « si... alors... sinon », lecture d'un capteur, « pause ». 1 s = 1 000 ms. Dans un algorigramme, le **losange** est une condition.
+`,
+      exercices: [
+        { type: "qcm", question: "Sur une carte programmable, un capteur de lumière est branché sur :", choix: ["une sortie", "une entrée", "la batterie", "le câble USB"], reponse: 1, explication: "Un capteur **fournit** une information à la carte : il est branché sur une **entrée** (fonction acquérir). Les actionneurs sont sur les sorties." },
+        { type: "saisie", question: "Combien de millisecondes y a-t-il dans 2 secondes ? (nombre seul)", reponses: ["2000", "2 000"], explication: "1 s = 1 000 ms, donc 2 s = **2 000 ms**." },
+        { type: "vf", question: "Les instructions placées dans le bloc « au démarrage » sont répétées en permanence.", reponse: false, explication: "Le bloc « au démarrage » est exécuté **une seule fois**. C'est le bloc « **toujours** » qui répète ses instructions indéfiniment." },
+        { type: "qcm", question: "Dans un algorigramme, quel symbole représente une condition (un test oui / non) ?", choix: ["Le rectangle", "L'ovale", "Le losange", "La flèche"], reponse: 2, explication: "Le **losange** représente une condition avec deux sorties (oui / non). Le rectangle est une action, l'ovale le début ou la fin." },
+        { type: "qcm", question: "Programme : « toujours : si température > 25 alors écrire sur P0 la valeur 1 sinon écrire sur P0 la valeur 0 ». Un ventilateur est commandé par P0. La température vaut 27 °C. Que se passe-t-il ?", choix: ["Le ventilateur s'arrête", "Rien, le programme est bloqué", "Le ventilateur tourne", "La température descend à 25 °C instantanément"], reponse: 2, explication: "27 > 25 : la condition est **vraie**, la carte écrit 1 sur P0, le ventilateur **tourne**. Il s'arrêtera quand la température ne sera plus supérieure à 25 °C." },
+        { type: "saisie", question: "Une DEL est programmée ainsi : « toujours : allumer la DEL ; pause 500 ms ; éteindre la DEL ; pause 500 ms ». Combien de fois clignote-t-elle en une minute ? (nombre seul)", reponses: ["60", "60 fois"], explication: "Un cycle dure 500 + 500 = 1 000 ms = 1 s. En une minute (60 s), la DEL clignote **60 fois**." },
+        { type: "vf", question: "Si on oublie la boucle « toujours » dans la veilleuse automatique, le capteur de lumière n'est lu qu'une seule fois.", reponse: true, explication: "Sans boucle, le test est fait une seule fois au démarrage : la DEL ne réagit plus ensuite aux changements de luminosité." },
+        { type: "qcm", question: "Une veilleuse doit s'allumer quand il fait sombre. Le capteur donne une valeur faible dans le noir. Quelle condition faut-il écrire ?", choix: ["si luminosité < 50 alors allumer", "si luminosité > 50 alors allumer", "si luminosité = 1 000 alors allumer", "répéter 50 fois allumer"], reponse: 0, explication: "Dans le noir, la valeur est **faible** : on allume quand elle est **inférieure** au seuil. Avec « > 50 », la veilleuse s'allumerait en plein jour (erreur fréquente : inverser < et >)." },
+        { type: "redaction", question: "On veut programmer une barrière de parking. Un bouton A sert à demander l'ouverture. Quand on appuie sur A, un moteur ouvre la barrière, on attend 5 secondes, puis le moteur la referme. Un compteur affiche le nombre de voitures entrées. 1) Identifie les entrées et les sorties de la carte. 2) Écris le programme en blocs (décrits en texte, avec indentation). 3) Décris l'algorigramme. 4) Que vaut le compteur après 4 appuis sur A ?", corrige: `1) **Entrée** (acquérir) : le bouton A. **Sorties** (communiquer) : le moteur de la barrière (via une carte de commande) et l'afficheur du compteur.
+
+2) **Programme** :
+~~~
+au démarrage
+    mettre voitures à 0
+    afficher voitures
+toujours
+    si bouton A pressé alors
+        ouvrir la barrière (moteur dans un sens)
+        pause (ms) 5000
+        fermer la barrière (moteur dans l'autre sens)
+        ajouter 1 à voitures
+        afficher voitures
+~~~
+
+3) **Algorigramme** : ovale « Début » → rectangle « voitures = 0 » → losange « Bouton A pressé ? ». Si **non** : flèche qui revient au losange. Si **oui** : rectangle « ouvrir la barrière » → rectangle « attendre 5 s » → rectangle « fermer la barrière » → rectangle « ajouter 1 à voitures, afficher » → flèche qui revient au losange (boucle).
+
+4) Chaque appui ajoute 1 : 0 + 4 × 1 = **4** voitures.
+
+> Points de méthode : la variable est initialisée **au démarrage** (sinon elle serait remise à 0 à chaque tour) ; 5 s = **5 000 ms** ; la boucle « toujours » permet de surveiller le bouton en permanence.` },
       ],
     },
   ],

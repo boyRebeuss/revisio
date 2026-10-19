@@ -22,7 +22,7 @@ La **courbe de demande** relie le prix à la quantité que les acheteurs souhait
 - Une variation d'un autre facteur (revenu, goûts, prix d'un bien substituable, publicité) entraîne un **déplacement de la courbe** elle-même.
 
 ## L'offre
-La **courbe d'offre** relie le prix à la quantité que les producteurs souhaitent vendre. Elle est en général **croissante** : un prix plus élevé rend la production plus rentable. Le producteur produit tant que le prix couvre au moins son **coût marginal** (le coût de la dernière unité produite).
+La **courbe d'offre** relie le prix à la quantité que les producteurs souhaitent vendre. Elle est en général **croissante** : un prix plus élevé rend la production plus rentable. Le producteur produit tant que le prix couvre au moins son **coût marginal** (le coût de la dernière unité produite). Comme le coût marginal est croissant, le producteur qui maximise son profit produit la quantité pour laquelle **coût marginal = prix** : la courbe d'offre se déduit ainsi de la courbe de coût marginal.
 - Une baisse des coûts de production (progrès technique, baisse du prix des matières premières) déplace la courbe d'offre vers la droite.
 
 ## L'équilibre et le prix d'équilibre
@@ -40,7 +40,7 @@ Le **prix d'équilibre** est le prix pour lequel la quantité offerte est égale
 >! Surplus du consommateur = (50 − 30) × 40 / 2 = 400 ; surplus du producteur = (30 − 10) × 40 / 2 = 400 ; surplus total = 800.
 
 ## Effets d'une taxe ou d'une subvention
-- Une **taxe** sur un produit augmente le coût pour les vendeurs : la courbe d'offre se déplace vers la gauche, le prix payé par l'acheteur augmente, la quantité échangée baisse. Le surplus total diminue : c'est une **perte sèche**.
+- Une **taxe** sur un produit augmente le coût pour les vendeurs : la courbe d'offre se déplace vers la gauche (vers le haut), le prix payé par l'acheteur augmente, le prix net reçu par le vendeur (après taxe) diminue, la quantité échangée baisse. La charge de la taxe est donc partagée entre acheteurs et vendeurs. Le surplus total diminue : c'est une **perte sèche**.
 - Une **subvention** a l'effet inverse : l'offre se déplace vers la droite, le prix baisse, la quantité augmente.
 
 > **À retenir** :
@@ -50,7 +50,7 @@ Le **prix d'équilibre** est le prix pour lequel la quantité offerte est égale
 > - Une taxe réduit la quantité échangée et crée une perte sèche.
 `,
       exercices: [
-        { type: "qcm", question: "Quelle hypothèse signifie qu'aucun agent ne peut, à lui seul, influencer le prix ?", choix: ["L'homogénéité du produit", "L'atomicité", "La transparence", "La libre entrée"], reponse: 1,
+        { type: "qcm", question: "Quelle hypothèse signifie qu'aucun agent ne peut, à lui seul, influencer le prix ?", choix: ["L'atomicité", "L'homogénéité du produit", "La transparence", "La libre entrée"], reponse: 0,
           explication: "L'**atomicité** : offreurs et demandeurs sont si nombreux que chacun est *preneur de prix*. L'homogénéité concerne les produits, la transparence l'information, la libre entrée l'accès au marché." },
         { type: "vf", question: "Une hausse du revenu des ménages provoque un déplacement le long de la courbe de demande.", reponse: false,
           explication: "Seule une variation du **prix** provoque un déplacement le long de la courbe. Une hausse du revenu **déplace la courbe** de demande (vers la droite pour un bien normal)." },
@@ -75,6 +75,8 @@ Le **prix d'équilibre** est le prix pour lequel la quantité offerte est égale
 - *Exemple* : avec Qd = 100 − 2P et Qo = 2P − 20, P* = 30, Q* = 40, et le surplus total vaut 400 + 400 = 800.
 
 **Conclusion** : en concurrence parfaite, le surplus total est maximal à l'équilibre ; toute intervention qui éloigne le prix de l'équilibre (taxe, prix plafond) crée une perte sèche.` },
+        { type: "saisie", question: "La demande devient Qd = 140 − 2P (hausse des revenus) ; l'offre reste Qo = 2P − 20. Quel est le nouveau prix d'équilibre ?", reponses: ["35", "35 €", "p = 35", "35 euros"],
+          explication: "140 − 2P = 2P − 20 ⇔ 160 = 4P ⇔ P = **35**. La quantité d'équilibre passe à 140 − 70 = 50 : le déplacement de la courbe de demande vers la droite fait monter le prix (de 30 à 35) et la quantité (de 40 à 50)." },
       ],
     },
     {
@@ -130,15 +132,15 @@ Le pouvoir de marché n'est pas toujours condamné : le **brevet** donne un mono
           explication: "**Oligopole** : peu d'offreurs. Le monopole a un seul vendeur ; le monopsone un seul acheteur." },
         { type: "vf", question: "Un monopole fixe en général un prix plus élevé et produit une quantité plus faible qu'un marché concurrentiel.", reponse: true,
           explication: "Pour maximiser son profit, le monopole restreint la production afin de vendre plus cher : le surplus du consommateur baisse et une perte sèche apparaît." },
-        { type: "qcm", question: "Lequel de ces éléments est une barrière à l'entrée légale ?", choix: ["Des économies d'échelle", "Un brevet", "Une forte image de marque", "Des coûts fixes élevés"], reponse: 1,
+        { type: "qcm", question: "Lequel de ces éléments est une barrière à l'entrée légale ?", choix: ["Des économies d'échelle", "Une forte image de marque", "Un brevet", "Des coûts fixes élevés"], reponse: 2,
           explication: "Le **brevet** est un droit accordé par la loi. Les économies d'échelle et les coûts fixes sont des barrières économiques ; l'image de marque une barrière stratégique." },
-        { type: "saisie", question: "Comment appelle-t-on l'accord entre entreprises d'un même marché pour fixer ensemble leurs prix ? (un mot)", reponses: ["entente", "cartel", "une entente", "un cartel", "collusion"],
+        { type: "saisie", question: "Comment appelle-t-on l'accord entre entreprises d'un même marché pour fixer ensemble leurs prix ? (un mot)", reponses: ["entente", "cartel", "une entente", "un cartel", "collusion", "ententes", "cartels"],
           explication: "Une **entente** (ou cartel) est une pratique anticoncurrentielle sanctionnée par l'Autorité de la concurrence." },
         { type: "qcm", question: "Quelle institution sanctionne en France les pratiques anticoncurrentielles ?", choix: ["La Banque de France", "Le Conseil constitutionnel", "La Cour des comptes", "L'Autorité de la concurrence"], reponse: 3,
           explication: "L'**Autorité de la concurrence** (et au niveau européen la Commission) sanctionne ententes et abus de position dominante." },
         { type: "vf", question: "Dans un oligopole, chaque entreprise peut fixer son prix sans se soucier des autres.", reponse: false,
           explication: "C'est l'inverse : l'oligopole se caractérise par l'**interdépendance stratégique**. Chaque firme anticipe les réactions de ses rivales." },
-        { type: "qcm", question: "Dans le dilemme du prisonnier appliqué à deux entreprises en duopole, sans coopération :", choix: ["elles maintiennent toujours des prix élevés", "chacune a intérêt à baisser son prix, et elles finissent toutes deux moins bien loties", "l'une disparaît forcément", "l'État fixe le prix"], reponse: 1,
+        { type: "qcm", question: "Dans le dilemme du prisonnier appliqué à deux entreprises en duopole, sans coopération :", choix: ["elles maintiennent toujours des prix élevés", "l'une disparaît forcément", "l'État fixe le prix", "chacune a intérêt à baisser son prix, et elles finissent toutes deux moins bien loties"], reponse: 3,
           explication: "Chacune a individuellement intérêt à baisser son prix ; mais si les deux le font, leurs profits sont plus faibles que si elles avaient coopéré. L'intérêt individuel ne conduit pas à l'optimum collectif." },
         { type: "redaction", question: "**Mobilisation des connaissances (EC1)** : Montrez que la politique de la concurrence peut améliorer le fonctionnement des marchés.", corrige: `**Idée 1 – Le pouvoir de marché réduit le bien-être des consommateurs.**
 - Un monopole ou une entente fixe des prix supérieurs au coût marginal et réduit les quantités : le surplus du consommateur baisse et une perte sèche apparaît.
@@ -205,13 +207,13 @@ Pour corriger les défaillances, les pouvoirs publics disposent de plusieurs out
           explication: "Le **bien collectif** (éclairage public, phare) est à la fois non rival et non excluable." },
         { type: "vf", question: "Les stocks de poissons en haute mer sont un bien commun : rivaux mais non excluables.", reponse: true,
           explication: "Un poisson pêché ne peut l'être par un autre (rivalité) et il est difficile d'interdire l'accès à la haute mer (non-excluabilité) : risque de surexploitation." },
-        { type: "saisie", question: "Quel économiste a illustré la sélection adverse par le marché des voitures d'occasion ?", reponses: ["Akerlof", "George Akerlof", "G. Akerlof", "Georges Akerlof"],
+        { type: "saisie", question: "Quel économiste a illustré la sélection adverse par le marché des voitures d'occasion ?", reponses: ["Akerlof", "George Akerlof", "G. Akerlof", "Georges Akerlof", "Akerloff"],
           explication: "George **Akerlof**, « The Market for Lemons » (1970), prix Nobel 2001." },
         { type: "qcm", question: "Un automobiliste bien assuré qui devient moins prudent illustre :", choix: ["la sélection adverse", "l'aléa moral", "le passager clandestin", "une externalité positive"], reponse: 1,
           explication: "Le changement de comportement **après** la signature du contrat, non observable par l'assureur, est un **aléa moral**." },
         { type: "vf", question: "Le marché a tendance à produire trop de biens générant des externalités positives.", reponse: false,
           explication: "C'est l'inverse : le producteur n'est pas rémunéré pour le bénéfice qu'il procure aux autres, donc le marché en produit **trop peu**. D'où des subventions (recherche, vaccination)." },
-        { type: "qcm", question: "Une taxe carbone est un instrument qui :", choix: ["interdit toute émission de CO₂", "fait payer au pollueur le coût de l'externalité qu'il crée", "subventionne les entreprises polluantes", "crée un bien collectif"], reponse: 1,
+        { type: "qcm", question: "Une taxe carbone est un instrument qui :", choix: ["fait payer au pollueur le coût de l'externalité qu'il crée", "interdit toute émission de CO₂", "subventionne les entreprises polluantes", "crée un bien collectif"], reponse: 0,
           explication: "C'est une taxe **pigouvienne** : elle *internalise* l'externalité en appliquant le principe pollueur-payeur." },
         { type: "redaction", question: "**Mobilisation des connaissances (EC1)** : À l'aide d'un exemple, montrez que les asymétries d'information peuvent perturber le fonctionnement du marché.", corrige: `**Définition** : il y a asymétrie d'information lorsqu'une partie à l'échange est mieux informée que l'autre.
 
@@ -293,13 +295,13 @@ Le déficit et la dette sont souvent rapportés au **PIB** (critères européens
           explication: "Taux d'autofinancement = 300 / 400 × 100 = **75 %**." },
         { type: "saisie", question: "Tu empruntes 5 000 € à 3 % pour un an. Combien d'intérêts paies-tu (en euros) ?", reponses: ["150", "150 €", "150 euros"],
           explication: "Intérêts = 5 000 × 0,03 = **150 €**." },
-        { type: "qcm", question: "Un crédit accordé par une banque à une entreprise relève du :", choix: ["financement direct", "financement indirect (intermédié)", "autofinancement", "financement par fonds propres"], reponse: 1,
+        { type: "qcm", question: "Un crédit accordé par une banque à une entreprise relève du :", choix: ["financement direct", "autofinancement", "financement indirect (intermédié)", "financement par fonds propres"], reponse: 2,
           explication: "La banque s'interpose entre l'entreprise et les épargnants : c'est le financement **intermédié**." },
-        { type: "saisie", question: "Le taux d'intérêt nominal est de 6 % et l'inflation de 4 %. Quel est le taux d'intérêt réel approximatif (en %) ?", reponses: ["2", "2 %", "2%"],
+        { type: "saisie", question: "Le taux d'intérêt nominal est de 6 % et l'inflation de 4 %. Quel est le taux d'intérêt réel approximatif (en %) ?", reponses: ["2", "2 %", "2%", "environ 2", "environ 2 %", "≈ 2"],
           explication: "Taux réel ≈ taux nominal − inflation = 6 − 4 = **2 %**." },
         { type: "vf", question: "La dette publique est un flux, le déficit public est un stock.", reponse: false,
           explication: "C'est l'inverse : le **déficit** est un flux (sur une année), la **dette** un stock (accumulation des déficits passés non remboursés)." },
-        { type: "qcm", question: "Un État a un PIB de 2 500 milliards d'euros et un déficit de 125 milliards. Son déficit représente :", choix: ["2 % du PIB", "5 % du PIB", "12,5 % du PIB", "20 % du PIB"], reponse: 1,
+        { type: "qcm", question: "Un État a un PIB de 2 500 milliards d'euros et un déficit de 125 milliards. Son déficit représente :", choix: ["2 % du PIB", "12,5 % du PIB", "20 % du PIB", "5 % du PIB"], reponse: 3,
           explication: "125 / 2 500 × 100 = **5 %** du PIB." },
         { type: "redaction", question: "**Mobilisation des connaissances (EC1)** : Distinguez les différents modes de financement des entreprises.", corrige: `**1. Le financement interne : l'autofinancement**
 - L'entreprise utilise ses profits non distribués.
@@ -351,6 +353,7 @@ La monnaie a perdu toute valeur intrinsèque (monnaie-marchandise → monnaie de
 Dans la zone euro, c'est la **Banque centrale européenne (BCE)**, indépendante. Elle :
 - émet les billets (monnaie fiduciaire) ;
 - est la « banque des banques » : elle fournit la monnaie centrale ;
+- est le **prêteur en dernier ressort** : en cas de crise, elle fournit des liquidités aux banques pour éviter des faillites en chaîne ;
 - conduit la **politique monétaire** ; son objectif principal est la **stabilité des prix** (inflation proche de 2 % à moyen terme).
 
 ## La politique monétaire
@@ -375,9 +378,9 @@ Dans la zone euro, c'est la **Banque centrale européenne (BCE)**, indépendante
           explication: "Le remboursement annule la créance et le dépôt correspondant : la monnaie créée disparaît." },
         { type: "saisie", question: "Quel est le nom de la banque centrale de la zone euro ? (sigle)", reponses: ["BCE", "Banque centrale européenne", "la BCE"],
           explication: "La **BCE** (Banque centrale européenne), dont le siège est à Francfort." },
-        { type: "qcm", question: "Face à une forte inflation, la banque centrale mène plutôt :", choix: ["une baisse des taux directeurs", "une hausse des taux directeurs", "une hausse des impôts", "une dévaluation"], reponse: 1,
+        { type: "qcm", question: "Face à une forte inflation, la banque centrale mène plutôt :", choix: ["une hausse des taux directeurs", "une baisse des taux directeurs", "une hausse des impôts", "une dévaluation"], reponse: 0,
           explication: "Une **hausse des taux directeurs** renchérit le crédit, freine la demande et donc la hausse des prix (politique restrictive)." },
-        { type: "qcm", question: "Quelle situation fait AUGMENTER la masse monétaire ?", choix: ["Les remboursements dépassent les nouveaux crédits", "Les nouveaux crédits dépassent les remboursements", "Un ménage retire des billets à un distributeur", "Un ménage transfère son argent d'une banque à une autre"], reponse: 1,
+        { type: "qcm", question: "Quelle situation fait AUGMENTER la masse monétaire ?", choix: ["Les remboursements dépassent les nouveaux crédits", "Un ménage retire des billets à un distributeur", "Les nouveaux crédits dépassent les remboursements", "Un ménage transfère son argent d'une banque à une autre"], reponse: 2,
           explication: "La masse monétaire augmente quand les créations (crédits) l'emportent sur les destructions (remboursements). Un retrait ou un transfert change seulement la forme ou la banque, pas la quantité." },
         { type: "redaction", question: "**Mobilisation des connaissances (EC1)** : Montrez que les banques créent de la monnaie mais que cette création est limitée.", corrige: `**Idée 1 – Les banques créent la monnaie scripturale.**
 - Quand une banque accorde un crédit, elle inscrit une créance à son actif et un dépôt à son passif : « les crédits font les dépôts ».
@@ -438,17 +441,17 @@ Le **genre** désigne les différences entre hommes et femmes **construites soci
 > - Pluralité des influences (Lahire).
 `,
       exercices: [
-        { type: "qcm", question: "« Le respect d'autrui » est plutôt :", choix: ["une norme", "une valeur", "une sanction", "un rôle"], reponse: 1,
+        { type: "qcm", question: "« Le respect d'autrui » est plutôt :", choix: ["une norme", "une sanction", "un rôle", "une valeur"], reponse: 3,
           explication: "C'est un idéal, un principe jugé désirable : une **valeur**. Une norme est une règle de conduite concrète (dire bonjour, ne pas couper la parole)." },
         { type: "vf", question: "La socialisation secondaire se déroule principalement pendant l'enfance.", reponse: false,
           explication: "C'est la socialisation **primaire** qui a lieu pendant l'enfance ; la socialisation secondaire concerne l'âge adulte." },
-        { type: "saisie", question: "Quel concept de Pierre Bourdieu désigne le système de dispositions durables acquises par la socialisation ?", reponses: ["habitus", "l'habitus"],
+        { type: "saisie", question: "Quel concept de Pierre Bourdieu désigne le système de dispositions durables acquises par la socialisation ?", reponses: ["habitus", "l'habitus", "l habitus"],
           explication: "L'**habitus** : manières de penser, d'agir, de sentir intériorisées, qui varient selon le milieu social." },
         { type: "qcm", question: "Quelle instance prend une importance croissante dans la socialisation à l'adolescence ?", choix: ["La famille", "Le groupe de pairs", "L'entreprise", "Le syndicat"], reponse: 1,
           explication: "Le **groupe de pairs** (amis du même âge) joue un rôle croissant à l'adolescence, parfois en concurrence avec la famille." },
         { type: "vf", question: "Le genre désigne les différences biologiques entre hommes et femmes.", reponse: false,
           explication: "Le genre désigne les différences **socialement construites** ; les différences biologiques relèvent du sexe." },
-        { type: "qcm", question: "Bernard Lahire parle d'« homme pluriel » pour souligner :", choix: ["que la famille est la seule instance de socialisation", "que l'individu est socialisé par des instances multiples, parfois contradictoires", "que les hommes et les femmes sont socialisés de la même manière", "que la socialisation s'arrête à 18 ans"], reponse: 1,
+        { type: "qcm", question: "Bernard Lahire parle d'« homme pluriel » pour souligner :", choix: ["que l'individu est socialisé par des instances multiples, parfois contradictoires", "que la famille est la seule instance de socialisation", "que les hommes et les femmes sont socialisés de la même manière", "que la socialisation s'arrête à 18 ans"], reponse: 0,
           explication: "Lahire insiste sur la **pluralité des influences socialisatrices**, qui explique la diversité des comportements individuels." },
         { type: "redaction", question: "**Mobilisation des connaissances (EC1)** : Montrez que la socialisation varie selon le genre.", corrige: `**Définition** : le genre désigne les différences entre hommes et femmes construites par la société.
 
@@ -506,13 +509,13 @@ Mais de nouvelles formes de liens apparaissent : engagement associatif, réseaux
 > - Quatre types de liens (Paugam) ; fragilisation par le chômage, l'isolement, l'exclusion.
 `,
       exercices: [
-        { type: "qcm", question: "Selon Durkheim, la solidarité organique repose sur :", choix: ["la ressemblance des individus", "la complémentarité des individus liée à la division du travail", "une conscience collective très forte", "un droit essentiellement répressif"], reponse: 1,
+        { type: "qcm", question: "Selon Durkheim, la solidarité organique repose sur :", choix: ["la ressemblance des individus", "une conscience collective très forte", "la complémentarité des individus liée à la division du travail", "un droit essentiellement répressif"], reponse: 2,
           explication: "La solidarité **organique**, propre aux sociétés modernes, repose sur la **différenciation** et la complémentarité des individus (division du travail). Les trois autres caractérisent la solidarité mécanique." },
         { type: "vf", question: "Les « femmes de 30 à 40 ans » constituent un groupe social.", reponse: false,
           explication: "C'est une **catégorie statistique** : ces personnes n'ont pas forcément d'interactions ni de conscience d'appartenance commune." },
         { type: "saisie", question: "Quel sociologue a montré la « force des liens faibles » ?", reponses: ["Granovetter", "Mark Granovetter", "M. Granovetter"],
           explication: "Mark **Granovetter** (1973) : les liens faibles donnent accès à des informations nouvelles, notamment pour trouver un emploi." },
-        { type: "qcm", question: "La famille est un exemple de :", choix: ["groupe secondaire", "groupe primaire", "catégorie statistique", "lien de citoyenneté"], reponse: 1,
+        { type: "qcm", question: "La famille est un exemple de :", choix: ["groupe secondaire", "catégorie statistique", "lien de citoyenneté", "groupe primaire"], reponse: 3,
           explication: "La famille est un **groupe primaire** : restreint, relations directes et affectives." },
         { type: "qcm", question: "Chez Paugam, le lien qui unit un salarié à ses collègues et à son entreprise est le lien :", choix: ["de filiation", "de participation élective", "de participation organique", "de citoyenneté"], reponse: 2,
           explication: "Le lien de **participation organique** est lié au monde du travail et de l'école." },
@@ -584,17 +587,17 @@ Les **sous-cultures déviantes** : la déviance s'apprend au contact d'un groupe
       exercices: [
         { type: "vf", question: "Toute délinquance est une forme de déviance, mais toute déviance n'est pas de la délinquance.", reponse: true,
           explication: "La délinquance est la transgression d'une norme **juridique**, cas particulier de la déviance qui concerne toutes les normes sociales." },
-        { type: "qcm", question: "Un élève moqué par ses camarades pour sa tenue subit :", choix: ["un contrôle social formel", "un contrôle social informel", "une sanction pénale", "un étiquetage judiciaire"], reponse: 1,
+        { type: "qcm", question: "Un élève moqué par ses camarades pour sa tenue subit :", choix: ["un contrôle social informel", "un contrôle social formel", "une sanction pénale", "un étiquetage judiciaire"], reponse: 0,
           explication: "La sanction vient de l'entourage, elle n'est pas codifiée : **contrôle social informel**." },
         { type: "saisie", question: "Quel sociologue est l'auteur de *Outsiders* et de la théorie de l'étiquetage ?", reponses: ["Becker", "Howard Becker", "H. Becker"],
           explication: "Howard **Becker**, *Outsiders* (1963)." },
-        { type: "qcm", question: "Chez Becker, les « entrepreneurs de morale » sont :", choix: ["les déviants eux-mêmes", "ceux qui créent les normes et les font appliquer", "les chefs d'entreprise", "les victimes"], reponse: 1,
+        { type: "qcm", question: "Chez Becker, les « entrepreneurs de morale » sont :", choix: ["les déviants eux-mêmes", "les chefs d'entreprise", "ceux qui créent les normes et les font appliquer", "les victimes"], reponse: 2,
           explication: "Les entrepreneurs de morale sont les **créateurs** de normes (groupes militants, législateurs) et ceux qui les **font appliquer** (police, juges)." },
         { type: "qcm", question: "Quelle source permet de connaître des délits non déclarés à la police ?", choix: ["Les statistiques de condamnations", "Les plaintes enregistrées", "Les enquêtes de victimation", "Le casier judiciaire"], reponse: 2,
           explication: "Les **enquêtes de victimation** interrogent directement les personnes sur les atteintes subies, déclarées ou non : elles éclairent le « chiffre noir »." },
         { type: "vf", question: "Selon Merton, la déviance peut naître d'un décalage entre les buts valorisés par la société et les moyens légitimes d'y parvenir.", reponse: true,
           explication: "C'est la théorie de l'**anomie** de Merton : faute de moyens légitimes, certains individus « innovent » par des moyens illégitimes." },
-        { type: "qcm", question: "Une baisse du nombre de plaintes enregistrées pour violences peut s'expliquer par :", choix: ["obligatoirement une baisse des violences", "une moindre propension des victimes à porter plainte", "une hausse de la population", "la théorie de Durkheim"], reponse: 1,
+        { type: "qcm", question: "Une baisse du nombre de plaintes enregistrées pour violences peut s'expliquer par :", choix: ["obligatoirement une baisse des violences", "une hausse de la population", "la théorie de Durkheim", "une moindre propension des victimes à porter plainte"], reponse: 3,
           explication: "Les statistiques administratives dépendent du **dépôt de plainte** et de l'activité des services : une baisse des plaintes n'indique pas forcément une baisse des faits." },
         { type: "redaction", question: "**Mobilisation des connaissances (EC1)** : Montrez que la déviance peut résulter d'un processus d'étiquetage.", corrige: `**Définition** : la déviance est la transgression d'une norme sociale qui entraîne une réprobation.
 
@@ -624,7 +627,7 @@ Elle s'exprime par le **vote**, les **manifestations**, les **pétitions**, la *
 Un **sondage** est une enquête statistique réalisée auprès d'un **échantillon représentatif** de la population.
 - **Méthode des quotas** (la plus utilisée en France) : l'échantillon reproduit la structure de la population selon quelques critères (sexe, âge, PCS, région, taille d'agglomération).
 - **Méthode aléatoire** : les individus sont tirés au sort.
-- Tout sondage comporte une **marge d'erreur** : pour un échantillon de 1 000 personnes, environ ±3 points pour un résultat proche de 50 %.
+- Tout sondage comporte une **marge d'erreur** : pour un échantillon aléatoire de 1 000 personnes, environ ±3 points pour un résultat proche de 50 %. Pour la méthode des quotas, ce calcul n'est qu'une approximation.
 - En France, la **Commission des sondages** contrôle les sondages électoraux, dont la **publication** et la diffusion sont interdites la veille et le jour du scrutin.
 
 ## Les sondages, outils de la démocratie
@@ -646,7 +649,7 @@ D'autres critiques :
 
 ## La formation de l'opinion : le rôle des médias
 - **Paul Lazarsfeld** (*The People's Choice*, 1944) : l'influence des médias est **limitée** et passe par des **leaders d'opinion** qui relaient et interprètent l'information (« **two-step flow of communication** »).
-- Les médias exercent surtout une fonction d'**agenda** : ils ne disent pas quoi penser mais **à quoi penser**.
+- Les médias exercent surtout une fonction d'**agenda** (*agenda-setting*, Maxwell McCombs et Donald Shaw, 1972) : ils ne disent pas quoi penser mais **à quoi penser**.
 - Les réseaux sociaux numériques favorisent l'expression directe mais aussi la désinformation et les « bulles de filtre ».
 
 > **À retenir** :
@@ -663,7 +666,7 @@ D'autres critiques :
           explication: "C'est précisément le premier postulat que Bourdieu conteste : la compétence politique est inégale, les non-réponses varient selon le diplôme." },
         { type: "qcm", question: "Selon Lazarsfeld, l'influence des médias sur les électeurs :", choix: ["est directe et massive", "passe par des leaders d'opinion", "est nulle", "s'exerce uniquement par la télévision"], reponse: 1,
           explication: "C'est le modèle du **two-step flow** : l'information est relayée et interprétée par des **leaders d'opinion** de l'entourage." },
-        { type: "qcm", question: "Un sondage donne 52 % à un candidat avec une marge d'erreur de ±3 points. On peut dire que :", choix: ["le candidat obtiendra exactement 52 %", "son score réel est probablement compris entre 49 % et 55 %", "il est sûr de gagner", "le sondage est faux"], reponse: 1,
+        { type: "qcm", question: "Un sondage donne 52 % à un candidat avec une marge d'erreur de ±3 points. On peut dire que :", choix: ["son score réel est probablement compris entre 49 % et 55 %", "le candidat obtiendra exactement 52 %", "il est sûr de gagner", "le sondage est faux"], reponse: 0,
           explication: "52 − 3 = 49 et 52 + 3 = 55 : le résultat réel se situe probablement dans **[49 % ; 55 %]**, donc la victoire n'est pas certaine." },
         { type: "vf", question: "L'effet « bandwagon » désigne le fait que certains électeurs se rallient au candidat donné favori par les sondages.", reponse: true,
           explication: "L'effet bandwagon (« prendre le train en marche ») ; l'effet inverse est l'effet underdog." },
@@ -702,7 +705,7 @@ Le vote est un acte **individuel** (vote secret, avec isoloir et enveloppe oblig
 - **Intérêt pour la politique** et sentiment de **compétence politique**.
 - **Enjeu perçu** de l'élection : la présidentielle mobilise plus que les européennes.
 
-### Deux lectures de l'abstention
+### Deux lectures de l'abstention (Jérôme Jaffré et Anne Muxel)
 - Abstention « **hors du jeu** politique » : liée à une faible intégration sociale.
 - Abstention « **dans le jeu** » : intermittente, stratégique ou protestataire, chez des électeurs informés et diplômés.
 L'abstention progresse depuis les années 1980 et devient plus **intermittente** : on vote à certaines élections et pas à d'autres.
@@ -730,15 +733,15 @@ La volatilité ne signifie pas la disparition des déterminants sociaux : ils re
 > - Dimension individuelle : vote sur enjeux, volatilité, offre politique.
 `,
       exercices: [
-        { type: "saisie", question: "Il y a 40 millions d'inscrits et 26 millions de votants. Quel est le taux d'abstention (en %) ?", reponses: ["35", "35 %", "35%"],
+        { type: "saisie", question: "Il y a 40 millions d'inscrits et 26 millions de votants. Quel est le taux d'abstention (en %) ?", reponses: ["35", "35 %", "35%", "35 % d'abstention"],
           explication: "Abstentionnistes = 40 − 26 = 14 millions. Taux d'abstention = 14 / 40 × 100 = **35 %**." },
         { type: "qcm", question: "« Une personne pense politiquement comme elle est socialement » est une formule de :", choix: ["Bourdieu", "Durkheim", "Lazarsfeld", "Becker"], reponse: 2,
           explication: "Paul **Lazarsfeld** (*The People's Choice*, 1944), qui met en avant les déterminants sociaux du vote." },
         { type: "vf", question: "Les votes blancs et nuls sont comptés dans les suffrages exprimés.", reponse: false,
           explication: "Ils sont comptés parmi les **votants**, mais pas parmi les suffrages exprimés (même si le vote blanc est décompté à part depuis 2014)." },
-        { type: "qcm", question: "Quel facteur tend à AUGMENTER la participation électorale ?", choix: ["Être jeune et au chômage", "Être diplômé et bien intégré socialement", "Avoir déménagé récemment", "Ne pas être inscrit sur les listes"], reponse: 1,
+        { type: "qcm", question: "Quel facteur tend à AUGMENTER la participation électorale ?", choix: ["Être jeune et au chômage", "Avoir déménagé récemment", "Être diplômé et bien intégré socialement", "Ne pas être inscrit sur les listes"], reponse: 2,
           explication: "La participation est liée à l'**intégration sociale** : diplôme, emploi stable, ancienneté de résidence." },
-        { type: "qcm", question: "La volatilité électorale désigne :", choix: ["la fidélité à un parti", "le fait de changer de vote (ou de passer du vote à l'abstention) d'une élection à l'autre", "le vote obligatoire", "la non-inscription"], reponse: 1,
+        { type: "qcm", question: "La volatilité électorale désigne :", choix: ["la fidélité à un parti", "le vote obligatoire", "la non-inscription", "le fait de changer de vote (ou de passer du vote à l'abstention) d'une élection à l'autre"], reponse: 3,
           explication: "La **volatilité** traduit une moindre fidélité partisane et un vote plus individualisé." },
         { type: "vf", question: "En France, la pratique religieuse catholique reste une variable lourde du vote.", reponse: true,
           explication: "Les catholiques pratiquants votent nettement plus à droite que les sans-religion : c'est l'une des variables les plus prédictives." },
@@ -758,6 +761,8 @@ La volatilité ne signifie pas la disparition des déterminants sociaux : ils re
 - Les préférences se transmettent en partie dans la famille : une majorité de jeunes se situent comme leurs parents sur l'axe gauche-droite.
 
 **Nuance** : la volatilité électorale et le vote sur enjeux montrent que ces déterminants n'expliquent pas tout.` },
+        { type: "saisie", question: "50 millions d'inscrits, 37,5 millions de votants dont 1,5 million de votes blancs et nuls. Quel est le taux de participation (en %) ?", reponses: ["75", "75 %", "75%"],
+          explication: "Taux de participation = votants / inscrits × 100 = 37,5 / 50 × 100 = **75 %** (abstention : 25 %). Les blancs et nuls font partie des votants ; les suffrages exprimés sont 37,5 − 1,5 = 36 millions." },
       ],
     },
     {
@@ -791,8 +796,8 @@ L'assurance privée tarifie selon le **niveau de risque** de chacun (jeune condu
 
 ## La protection sociale
 La **protection sociale** est l'ensemble des mécanismes de **prévoyance collective** qui protègent les individus face aux risques sociaux. Elle repose sur deux logiques :
-- **Logique d'assurance** (modèle **bismarckien**, Allemagne 1880) : prestations financées par des **cotisations sociales** sur les salaires, réservées à ceux qui ont cotisé, proportionnelles aux revenus (retraites, allocations chômage).
-- **Logique d'assistance** et de **solidarité** (modèle **beveridgien**, Royaume-Uni 1942) : prestations financées par l'**impôt**, versées sous **condition de ressources** ou à tous (universalité) (RSA, allocations familiales, CMU devenue protection universelle maladie).
+- **Logique d'assurance** (modèle **bismarckien**, Allemagne, lois des années 1880) : prestations financées par des **cotisations sociales** sur les salaires, réservées à ceux qui ont cotisé, proportionnelles aux revenus (retraites, allocations chômage).
+- **Logique d'assistance** et de **solidarité** (modèle **beveridgien**, Royaume-Uni 1942) : prestations financées par l'**impôt**, versées sous **condition de ressources** ou à tous (universalité) (RSA, allocations familiales – versées à toutes les familles d'au moins deux enfants, mais modulées selon le revenu depuis 2015 –, CMU devenue protection universelle maladie en 2016).
 
 Le système français, créé en 1945, est **mixte** : d'origine bismarckienne, il s'est rapproché de la logique beveridgienne (CSG créée en 1991, universalisation).
 
@@ -808,15 +813,15 @@ Le système français, créé en 1945, est **mixte** : d'origine bismarckienne, 
 > - Protection sociale : logique d'assurance (Bismarck, cotisations) et d'assistance (Beveridge, impôt).
 `,
       exercices: [
-        { type: "qcm", question: "Le principe selon lequel les primes de tous les assurés servent à indemniser ceux qui subissent un sinistre s'appelle :", choix: ["la capitalisation", "la mutualisation", "la prévention", "l'assistance"], reponse: 1,
+        { type: "qcm", question: "Le principe selon lequel les primes de tous les assurés servent à indemniser ceux qui subissent un sinistre s'appelle :", choix: ["la mutualisation", "la capitalisation", "la prévention", "l'assistance"], reponse: 0,
           explication: "C'est la **mutualisation des risques**, fondement de l'assurance." },
         { type: "saisie", question: "2 000 assurés ont chacun 2 % de risque de subir un dégât des eaux coûtant 5 000 €. Quel est le coût total attendu des sinistres (en euros) ?", reponses: ["200000", "200 000", "200 000 €", "200000 €"],
           explication: "Nombre de sinistres attendus : 2 000 × 0,02 = 40. Coût total : 40 × 5 000 = **200 000 €** (soit une prime pure de 100 € par assuré)." },
-        { type: "qcm", question: "La franchise en assurance (part du dommage restant à la charge de l'assuré) vise surtout à limiter :", choix: ["la sélection adverse", "l'aléa moral", "la mutualisation", "la loi des grands nombres"], reponse: 1,
+        { type: "qcm", question: "La franchise en assurance (part du dommage restant à la charge de l'assuré) vise surtout à limiter :", choix: ["la sélection adverse", "la mutualisation", "l'aléa moral", "la loi des grands nombres"], reponse: 2,
           explication: "En laissant une partie du coût à l'assuré, la franchise l'incite à rester prudent : elle limite l'**aléa moral**." },
         { type: "vf", question: "Dans la logique bismarckienne, les prestations sont financées par l'impôt et versées à tous sans condition.", reponse: false,
           explication: "C'est la logique **beveridgienne**. La logique bismarckienne repose sur des **cotisations sociales** liées au travail et réserve les droits aux cotisants." },
-        { type: "qcm", question: "Le RSA (revenu de solidarité active) relève de :", choix: ["la logique d'assurance", "la logique d'assistance", "l'assurance privée", "l'épargne de précaution"], reponse: 1,
+        { type: "qcm", question: "Le RSA (revenu de solidarité active) relève de :", choix: ["la logique d'assurance", "l'assurance privée", "l'épargne de précaution", "la logique d'assistance"], reponse: 3,
           explication: "Le RSA est financé par l'impôt et versé sous **condition de ressources**, sans cotisation préalable : logique d'**assistance**." },
         { type: "vf", question: "Dans un système de retraite par répartition, les cotisations des actifs d'aujourd'hui financent les pensions des retraités d'aujourd'hui.", reponse: true,
           explication: "C'est la définition de la **répartition**, fondée sur une solidarité entre générations (à la différence de la capitalisation)." },
@@ -856,7 +861,8 @@ On les classe selon :
 >! **Exemple** : une entreprise réalise un chiffre d'affaires de 500 000 € et achète pour 300 000 € de matières et services. Sa valeur ajoutée est 500 000 − 300 000 = 200 000 €.
 
 ## Les acteurs de l'entreprise
-- Le **chef d'entreprise** (ou les dirigeants) : prend les décisions stratégiques.
+- L'**entrepreneur** : celui qui crée l'entreprise et prend des risques ; pour Joseph **Schumpeter**, c'est l'**innovateur** qui introduit de nouveaux produits ou procédés.
+- Le **manager** (dirigeant salarié) : il dirige l'entreprise et prend les décisions stratégiques sans en être forcément propriétaire.
 - Les **actionnaires** (apporteurs de capitaux) : propriétaires dans une société, ils élisent le conseil d'administration en assemblée générale.
 - Les **salariés** : liés par un **contrat de travail**, en situation de **subordination**.
 - Les **parties prenantes** (*stakeholders*) : fournisseurs, clients, banques, pouvoirs publics, riverains.
@@ -882,13 +888,13 @@ La **gouvernance** désigne l'ensemble des règles et mécanismes qui organisent
       exercices: [
         { type: "saisie", question: "Une boulangerie a un chiffre d'affaires de 180 000 € et des consommations intermédiaires de 70 000 €. Quelle est sa valeur ajoutée (en euros) ?", reponses: ["110000", "110 000", "110 000 €", "110000 €"],
           explication: "VA = CA − CI = 180 000 − 70 000 = **110 000 €**." },
-        { type: "qcm", question: "Une entreprise de 120 salariés est :", choix: ["une micro-entreprise", "une PME", "une ETI", "une grande entreprise"], reponse: 1,
+        { type: "qcm", question: "Une entreprise de 120 salariés est :", choix: ["une PME", "une micro-entreprise", "une ETI", "une grande entreprise"], reponse: 0,
           explication: "Une **PME** emploie moins de 250 personnes (et au moins 10 pour ne pas être une micro-entreprise)." },
         { type: "vf", question: "Dans une société anonyme, les actionnaires sont les propriétaires de l'entreprise.", reponse: true,
           explication: "Les actionnaires détiennent le capital ; ils élisent le conseil d'administration lors de l'assemblée générale." },
-        { type: "qcm", question: "La gouvernance partenariale consiste à :", choix: ["ne tenir compte que des intérêts des actionnaires", "prendre en compte les intérêts de toutes les parties prenantes", "nationaliser l'entreprise", "supprimer le conseil d'administration"], reponse: 1,
+        { type: "qcm", question: "La gouvernance partenariale consiste à :", choix: ["ne tenir compte que des intérêts des actionnaires", "nationaliser l'entreprise", "prendre en compte les intérêts de toutes les parties prenantes", "supprimer le conseil d'administration"], reponse: 2,
           explication: "La gouvernance **partenariale** intègre salariés, clients, fournisseurs, environnement… à la différence de la gouvernance actionnariale." },
-        { type: "qcm", question: "Quel principe caractérise les coopératives de l'économie sociale et solidaire ?", choix: ["Une action, une voix", "Une personne, une voix", "Le dirigeant décide seul", "Le profit maximal"], reponse: 1,
+        { type: "qcm", question: "Quel principe caractérise les coopératives de l'économie sociale et solidaire ?", choix: ["Une action, une voix", "Le dirigeant décide seul", "Le profit maximal", "Une personne, une voix"], reponse: 3,
           explication: "Dans l'ESS, le pouvoir n'est pas proportionnel au capital : « **une personne, une voix** »." },
         { type: "vf", question: "La séparation entre propriété et contrôle signifie que les actionnaires dirigent eux-mêmes l'entreprise au quotidien.", reponse: false,
           explication: "C'est l'inverse : les actionnaires possèdent, mais ce sont des **managers** salariés qui dirigent, d'où des risques de divergences d'intérêts." },
@@ -981,11 +987,11 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
       exercices: [
         { type: "saisie", question: "Le PIB d'un pays passe de 2 000 à 2 100 milliards d'euros. Quel est le taux de variation (en %) ?", reponses: ["5", "+5", "5 %", "+5 %", "5%"],
           explication: "(2 100 − 2 000) / 2 000 × 100 = **+5 %**." },
-        { type: "qcm", question: "Un prix augmente de 20 % puis baisse de 20 %. Au total, il :", choix: ["n'a pas varié", "a baissé de 4 %", "a augmenté de 4 %", "a baissé de 40 %"], reponse: 1,
+        { type: "qcm", question: "Un prix augmente de 20 % puis baisse de 20 %. Au total, il :", choix: ["a baissé de 4 %", "n'a pas varié", "a augmenté de 4 %", "a baissé de 40 %"], reponse: 0,
           explication: "1,2 × 0,8 = 0,96, donc une **baisse de 4 %**. On multiplie les coefficients multiplicateurs." },
         { type: "saisie", question: "Le prix d'un bien vaut 80 € en 2015 (base 100) et 92 € en 2024. Quel est l'indice en 2024 ?", reponses: ["115"],
           explication: "92 / 80 × 100 = **115** : le prix a augmenté de 15 % entre 2015 et 2024." },
-        { type: "qcm", question: "Un indice passe de 120 à 150. La hausse est de :", choix: ["30 %", "25 %", "20 %", "150 %"], reponse: 1,
+        { type: "qcm", question: "Un indice passe de 120 à 150. La hausse est de :", choix: ["30 %", "20 %", "25 %", "150 %"], reponse: 2,
           explication: "(150 − 120) / 120 × 100 = **25 %**. On ne soustrait directement les indices que lorsque l'on part de l'année de base (indice 100)." },
         { type: "saisie", question: "Le taux de chômage passe de 8 % à 10 %. De combien de points de pourcentage a-t-il augmenté ?", reponses: ["2", "2 points", "+2", "2 points de pourcentage"],
           explication: "10 − 8 = **2 points** de pourcentage (ce qui correspond à une hausse de 25 % du taux)." },
@@ -1011,6 +1017,10 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
 - CM = 240 / 200 = **1,2** : le prix a été multiplié par 1,2, soit une hausse de 20 % (cohérent avec l'indice 120).
 
 >! **Piège** : ne pas écrire que le prix a augmenté de 15 % entre 2020 et 2024 en soustrayant les indices (120 − 105) : ce serait 15 points d'indice, pas 15 %.` },
+        { type: "saisie", question: "Sur 200 cadres, 150 ont un enfant bachelier ; sur 300 ouvriers, 60. Quelle est la part (en %) des ouvriers ayant un enfant bachelier ? (tableau de profils en ligne)", reponses: ["20", "20 %", "20%"],
+          explication: "Profil en ligne : on rapporte à l'effectif de la ligne. 60 / 300 × 100 = **20 %** (contre 150 / 200 = 75 % chez les cadres). Attention : « parmi les ouvriers, 20 %… » est différent de « parmi les bacheliers, X % sont enfants d'ouvriers » (60 / 210 ≈ 28,6 %)." },
+        { type: "saisie", question: "Ton salaire augmente de 3 % pendant que les prix augmentent de 5 %. De combien (en %, arrondi au dixième) varie ton pouvoir d'achat ?", reponses: ["-1,9", "−1,9", "-1,9 %", "−1,9 %", "baisse de 1,9 %"],
+          explication: "Pouvoir d'achat (valeur réelle) : CM = 1,03 / 1,05 ≈ 0,981, soit **−1,9 %**. L'approximation « 3 − 5 = −2 % » donne un ordre de grandeur, mais le calcul exact passe par le rapport des coefficients multiplicateurs." },
       ],
     },
     {
@@ -1018,34 +1028,37 @@ Quand on compare deux **pourcentages**, l'écart absolu s'exprime en **points de
       titre: "Méthodes : épreuve composée et dissertation",
       theme: "Outils et méthodes",
       cours: `
-## Les épreuves écrites de SES
-Au baccalauréat, l'épreuve de spécialité SES dure **4 heures** et propose, au choix, une **dissertation** ou une **épreuve composée**. Tu les prépares dès la 1re.
+## Comment la SES est-elle évaluée ?
+- **Si tu abandonnes la SES à la fin de la 1re** : il n'y a **pas d'épreuve finale**. La note retenue au bac est la **moyenne annuelle de tes bulletins de 1re** (contrôle continu), avec un **coefficient 8**. Chaque devoir sur table compte donc ! Tes professeurs te donnent des sujets du même type que ceux du bac (questions de cours, étude de document, raisonnement sur dossier, parfois une dissertation), souvent sur une durée plus courte.
+- **Si tu gardes la SES en terminale** : épreuve écrite de **4 heures** en fin de terminale (coefficient 16), sur le programme de terminale. Tu choisis entre une **dissertation** et une **épreuve composée**. Le grand oral peut aussi porter sur la SES.
+
+Dans les deux cas, les méthodes ci-dessous s'apprennent dès la 1re. Le barème indiqué est celui de l'épreuve de terminale à partir de la session 2027 (note de service du 11 septembre 2026), qui réserve **2 points sur 20 à la maîtrise de la langue** (orthographe, syntaxe).
 
 ## L'épreuve composée
 Elle comporte **trois parties** indépendantes.
 
-### Partie 1 – Mobilisation des connaissances (4 points)
+### Partie 1 – Mobilisation des connaissances (EC1, 3,5 points)
 Une question de cours (« Montrez que… », « Distinguez… », « Présentez… »).
 - Réponds de façon **structurée** : 2 ou 3 idées, chacune avec un **mécanisme** expliqué et un **exemple**.
 - Définis les notions clés de la question.
 - Pas d'introduction ni de conclusion longues ; environ 15 à 20 lignes.
 
-### Partie 2 – Étude d'un document (6 points)
+### Partie 2 – Étude d'un document (EC2, 5,5 points)
 Un document statistique (tableau, graphique) et en général deux questions :
 - une question de **lecture / calcul** : présente les données avec une phrase complète et rigoureuse (source, date, unité, lieu) ;
 - une question d'**analyse** reliant le document à tes connaissances.
 
 >! **Méthode de lecture** : « Selon l'Insee, en 2023 en France, 7,3 % des actifs étaient au chômage. » Toujours la source, la date, le lieu et l'unité.
 
-### Partie 3 – Raisonnement s'appuyant sur un dossier documentaire (10 points)
-Un sujet et 2 ou 3 documents. Tu construis une **argumentation** :
+### Partie 3 – Raisonnement s'appuyant sur un dossier documentaire (EC3, 9 points)
+Un sujet et 2 ou 3 documents de natures différentes (texte, tableau, graphique). Tu construis une **argumentation** :
 - une **courte introduction** (définitions, reformulation du sujet, annonce du plan) ;
 - un développement en **parties** ou **paragraphes argumentés** (AEI : **A**ffirmer une idée, l'**E**xpliquer par un mécanisme, l'**I**llustrer par un exemple ou une donnée du dossier) ;
 - une **courte conclusion**.
 Tu dois **utiliser les documents** (citer des données précises) **et** tes **connaissances personnelles**.
 
 ## La dissertation
-Un sujet sous forme de question et un dossier de 4 ou 5 documents. Elle se note sur 20.
+Un sujet sous forme de question et un dossier de **3 ou 4 documents** factuels (surtout statistiques). Elle se note sur 20 (dont 2 points de maîtrise de la langue). Tu dois mobiliser les documents **et** tes connaissances ; elle demande une vraie problématique et un plan en parties.
 
 ### Analyser le sujet
 - Définis chaque terme, repère les **mots de liaison** et le **type de sujet** (« Dans quelle mesure… » appelle une discussion ; « Montrez que… » une démonstration ; « Quels sont… » une explication).
@@ -1068,16 +1081,18 @@ Un sujet sous forme de question et un dossier de 4 ou 5 documents. Elle se note 
 - Ne pas définir les notions.
 
 > **À retenir** :
-> - EC1 : connaissances structurées (4 pts) ; EC2 : document (6 pts) ; EC3 : raisonnement sur dossier (10 pts).
+> - SES abandonnée en fin de 1re : contrôle continu (moyenne annuelle de 1re, coefficient 8).
+> - EC1 : connaissances structurées (3,5 pts) ; EC2 : document (5,5 pts) ; EC3 : raisonnement sur dossier (9 pts) ; + 2 pts de maîtrise de la langue (barème à partir de 2027).
+> - Dissertation : dossier de 3 ou 4 documents.
 > - Paragraphe AEI : affirmer, expliquer, illustrer.
 > - Dissertation : introduction (problématique, plan), 2 ou 3 parties, conclusion.
 `,
       exercices: [
-        { type: "qcm", question: "Dans l'épreuve composée, la partie 3 (raisonnement s'appuyant sur un dossier documentaire) est notée sur :", choix: ["4 points", "6 points", "10 points", "20 points"], reponse: 2,
-          explication: "EC1 : 4 points ; EC2 : 6 points ; **EC3 : 10 points**." },
+        { type: "qcm", question: "Dans l'épreuve composée, la partie 3 (raisonnement s'appuyant sur un dossier documentaire) est notée sur :", choix: ["3,5 points", "5,5 points", "9 points", "20 points"], reponse: 2,
+          explication: "Barème à partir de la session 2027 : EC1 : 3,5 points ; EC2 : 5,5 points ; **EC3 : 9 points** ; les 2 points restants récompensent la maîtrise de la langue. (Avant 2027 : 4, 6 et 10 points.)" },
         { type: "vf", question: "Dans la partie 1 (mobilisation des connaissances), il est indispensable d'utiliser des documents.", reponse: false,
           explication: "La partie 1 ne comporte **aucun document** : elle mobilise uniquement tes connaissances." },
-        { type: "qcm", question: "Que signifie le sigle AEI dans la construction d'un paragraphe ?", choix: ["Analyser, Évaluer, Interroger", "Affirmer, Expliquer, Illustrer", "Annoncer, Énumérer, Interpréter", "Argumenter, Exemplifier, Insister"], reponse: 1,
+        { type: "qcm", question: "Que signifie le sigle AEI dans la construction d'un paragraphe ?", choix: ["Analyser, Évaluer, Interroger", "Annoncer, Énumérer, Interpréter", "Argumenter, Exemplifier, Insister", "Affirmer, Expliquer, Illustrer"], reponse: 3,
           explication: "**A**ffirmer l'idée, l'**E**xpliquer (mécanisme), l'**I**llustrer (exemple, donnée)." },
         { type: "qcm", question: "Quelle phrase de lecture d'une donnée est la plus rigoureuse ?", choix: ["Le chômage est de 7,3.", "Il y a beaucoup de chômage en France.", "Selon l'Insee, en 2023 en France, 7,3 % des actifs étaient au chômage.", "Le chômage a augmenté de 7,3 %."], reponse: 2,
           explication: "Une bonne lecture précise **source, date, lieu, unité** et ce que représente la donnée." },
@@ -1103,6 +1118,19 @@ Un sujet sous forme de question et un dossier de 4 ou 5 documents. Elle se note 
 - B : aléa moral → *Réponse* : réglementation des assurances, assurance obligatoire.
 
 **Conclusion** : les défaillances du marché légitiment l'intervention publique ; celle-ci doit cependant être bien conçue, car l'État peut lui aussi commettre des erreurs.` },
+        { type: "vf", question: "Si tu abandonnes la SES à la fin de la 1re, tu passes quand même une épreuve écrite de 4 heures de SES au bac.", reponse: false,
+          explication: "La spécialité abandonnée en fin de 1re est évaluée en **contrôle continu** : la note retenue est la moyenne annuelle de tes bulletins de 1re (coefficient 8). Tous tes devoirs comptent donc." },
+        { type: "qcm", question: "À partir de la session 2027, combien de points sur 20 l'épreuve écrite de SES réserve-t-elle à la maîtrise de la langue ?", choix: ["0", "1", "2", "4"], reponse: 2,
+          explication: "**2 points** sur 20 (orthographe, syntaxe), en dissertation comme en épreuve composée ; d'où le barème EC1 3,5 + EC2 5,5 + EC3 9 = 18 points." },
+        { type: "redaction", question: "**Étude d'un document (EC2)** : Selon l'Insee, le taux de chômage en France était de 9,4 % en 2017 et de 7,3 % en 2023. 1) Calculez la variation en points de pourcentage et le taux de variation entre 2017 et 2023. 2) Rédigez une phrase de lecture des deux résultats.", corrige: `**1) Calculs**
+- Variation absolue : 7,3 − 9,4 = **−2,1 points** de pourcentage.
+- Taux de variation : (7,3 − 9,4) / 9,4 × 100 ≈ **−22,3 %**.
+
+**2) Phrases de lecture**
+- « Selon l'Insee, en France, le taux de chômage a baissé de 2,1 points de pourcentage entre 2017 et 2023, passant de 9,4 % à 7,3 % des actifs. »
+- « Cela correspond à une baisse relative d'environ 22 % du taux de chômage. »
+
+>! **Barème implicite** : calcul juste avec la bonne unité (points et %), phrase complète avec source, lieu, date et unité. Erreur fréquente : écrire « le chômage a baissé de 2,1 % ».` },
       ],
     },
   ],

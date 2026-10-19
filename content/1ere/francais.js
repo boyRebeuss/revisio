@@ -21,7 +21,7 @@ Tu passes le bac de français à la fin de la 1re. Il compte deux épreuves, cha
 3. **Le roman et le récit du Moyen Âge au XXIe siècle**
 4. **Le théâtre du XVIIe au XXIe siècle**
 
-Pour chaque objet d'étude, le programme national propose plusieurs **œuvres intégrales** (trois en voie générale), chacune associée à un **parcours** (un thème qui relie l'œuvre à d'autres textes) ; ton professeur en étudie une avec ta classe. Ce programme est **renouvelé régulièrement** : la liste officielle de ton année est publiée au Bulletin officiel ; **vérifie-la sur eduscol**. Dans ce cours, les œuvres citées sont des **exemples classiques**, utiles quelle que soit l'année.
+Pour chaque objet d'étude, le programme national propose plusieurs **œuvres intégrales** (trois en voie générale), chacune associée à un **parcours** (un thème qui relie l'œuvre à d'autres textes) ; ton professeur en étudie une avec ta classe. Ce programme est **renouvelé régulièrement** : la liste officielle de ton année est publiée au Bulletin officiel ; **vérifie-la sur eduscol**. Pour l'année 2026-2027 (bac 2027), les douze œuvres et leurs parcours sont présentés dans le dernier chapitre, « Les œuvres au programme 2026-2027 ». Dans ce cours, les œuvres citées sont des **exemples classiques**, utiles quelle que soit l'année.
 
 ## Ce que l'on attend de toi
 - **connaître** les œuvres étudiées en classe (intrigue, personnages, structure, enjeux) ;
@@ -130,7 +130,7 @@ Du XIXe au XXIe siècle, la poésie se **libère** progressivement des règles c
 
 **I. La poésie est d'abord l'expression privilégiée des sentiments**
 1. Le lyrisme romantique : Lamartine, « Le Lac » ; Hugo, *Les Contemplations* (deuil de Léopoldine, « Demain, dès l'aube »).
-2. Le poète transforme une émotion singulière en émotion universelle : le lecteur s'y reconnaît (« Insensé qui crois que je ne suis pas toi ! », préface des *Contemplations*).
+2. Le poète transforme une émotion singulière en émotion universelle : le lecteur s'y reconnaît (« Ah ! insensé, qui crois que je ne suis pas toi ! », préface des *Contemplations*).
 
 **II. Mais la poésie est aussi un travail de la forme et de la langue**
 1. Le Parnasse : l'art pour l'art, l'impersonnalité (Gautier, Heredia).
@@ -155,7 +155,7 @@ Un vers se mesure en **syllabes prononcées** (on parle de **mètre**). Règles 
 - il ne compte **jamais en fin de vers**.
 
 >! **Exemple** : « Demain, dès l'aube, à l'heure où blanchit la campagne » (Hugo)
->! De-main-dès-l'au-b(e) à-l'heu-r(e) où-blan-chit-la-cam-pa-gn(e) → 12 syllabes : un alexandrin.
+>! De / main / dès / l'au / b(e) à / l'heu // r(e) où / blan / chit / la / cam / pagn(e) → 12 syllabes : un alexandrin. Le e de « aube » et celui de « heure » s'élident devant voyelle ; le e final de « campagne » ne compte pas.
 
 **Diérèse** : on prononce en deux syllabes deux voyelles qui se suivent (« pas-si-on » au lieu de « pas-sion ») ; elle met souvent en valeur le mot. **Synérèse** : l'inverse (on les prononce en une syllabe).
 
@@ -584,7 +584,7 @@ Une figure de style n'est pas un ornement gratuit. Au bac, il faut **identifier*
 | **comparaison** | rapprochement avec outil (comme, tel, pareil à, ainsi que, ressembler) | « Il est pâle comme un mort » |
 | **métaphore** | rapprochement sans outil ; *in praesentia* (comparé et comparant présents) ou *in absentia* (comparé absent) | « Ma jeunesse ne fut qu'un ténébreux orage » (Baudelaire) |
 | **métaphore filée** | métaphore développée sur plusieurs mots ou phrases | la mer comme un monstre qui rugit, dévore, bondit |
-| **personnification** | une chose ou une abstraction est présentée comme humaine | « La Nature est un temple où de vivants piliers / Laissent parfois sortir de confuses paroles » |
+| **personnification** | une chose ou une abstraction est présentée comme humaine | « La Nature est un temple où de vivants piliers / Laissent parfois sortir de confuses paroles » (Baudelaire, « Correspondances ») |
 | **allégorie** | représentation concrète d'une idée abstraite (souvent avec majuscule) | la Mort avec sa faux ; la Liberté guidant le peuple |
 
 ## Figures de substitution
@@ -601,7 +601,7 @@ Une figure de style n'est pas un ornement gratuit. Au bac, il faut **identifier*
 | **antithèse** | opposition de deux mots ou idées | « Je vis, je meurs ; je me brûle et me noie » (Louise Labé) |
 | **oxymore** | deux termes contradictoires réunis dans un même groupe | « Cette obscure clarté qui tombe des étoiles » (Corneille) |
 | **chiasme** | structure croisée ABBA | « Il faut manger pour vivre et non pas vivre pour manger » (Molière) |
-| **paradoxe** | idée contraire à l'opinion commune | « Je me hâte de rire de tout, de peur d'être obligé d'en pleurer » (Beaumarchais) |
+| **paradoxe** | idée contraire à l'opinion commune | « Je me presse de rire de tout, de peur d'être obligé d'en pleurer » (Beaumarchais, *Le Barbier de Séville*, I, 2) |
 
 ## Figures d'amplification et d'atténuation
 | Figure | Définition | Exemple |
@@ -619,7 +619,7 @@ Une figure de style n'est pas un ornement gratuit. Au bac, il faut **identifier*
 - **Question rhétorique** : question qui n'attend pas de réponse et affirme une idée.
 - **Apostrophe** : on s'adresse directement à quelqu'un ou quelque chose (« Ô temps ! suspends ton vol »).
 - **Ironie / antiphrase** : dire le contraire de ce qu'on pense.
-- **Hypallage** : attribuer à un mot ce qui convient à un autre (« ce marchand accoudé sur son comptoir avide »).
+- **Hypallage** : attribuer à un mot ce qui convient à un autre (« ce marchand accoudé sur son comptoir avide », Hugo : c'est le marchand qui est avide, pas le comptoir).
 
 >! **Méthode d'analyse** : « Le poète utilise une *métaphore* [identification] : “ma jeunesse ne fut qu'un ténébreux orage” [citation]. En assimilant sa jeunesse à une tempête obscure, Baudelaire suggère la violence et la noirceur de ses premières années : le spleen semble l'avoir accompagné dès l'origine [interprétation]. »
 
@@ -643,7 +643,7 @@ Une figure de style n'est pas un ornement gratuit. Au bac, il faut **identifier*
 - **Parallélisme** et rythme binaire : « Je vis, je meurs » ; « et trop molle et trop dure » (avec la répétition de « trop »).
 - **Hyperboles** : « je meurs », « chaud extrême ».
 - Images du feu et de l'eau (« brûle », « noie ») : métaphores de la passion.
-- Anaphore du « je » en tête de vers : omniprésence du moi lyrique.
+- Reprise du « je » (« Je vis, je meurs », « je me brûle », « J'ai chaud », « J'ai grands ennuis ») : omniprésence du moi lyrique.
 
 **Interprétation**
 - Les antithèses accumulées traduisent le **déchirement intérieur** de l'amoureuse : la passion fait éprouver simultanément des sensations contraires. C'est un **topos** pétrarquiste (hérité de Pétrarque) : l'amour comme contradiction.
@@ -1249,6 +1249,90 @@ L'examinateur te pose des questions pour **approfondir** : pourquoi ce choix ? Q
 *Liens* : ce recueil fait le lien entre le romantisme et le symbolisme ; il annonce Verlaine et Rimbaud. J'ai pensé aussi aux tableaux de Delacroix, que Baudelaire admirait, et aux mises en musique de ses poèmes par Léo Ferré.
 
 *Pour l'entretien, prépare des réponses à* : pourquoi ce titre paradoxal ? Quel poème t'a le moins plu et pourquoi ? Le procès de 1857 te paraît-il compréhensible ? Quel lien avec le parcours étudié en classe ?` }
+      ]
+    },
+    {
+      id: "oeuvres-programme-2027",
+      titre: "Les œuvres au programme 2026-2027 (bac 2027)",
+      theme: "Préparer le bac",
+      cours: `
+## Le programme national de l'année
+Pour l'année 2026-2027 (bac 2027), la note de service publiée au Bulletin officiel n° 30 du 24 juillet 2025 fixe **douze œuvres** pour la voie générale, trois par objet d'étude. Ton professeur en choisit **une par objet d'étude** (soit quatre œuvres dans l'année), avec son **parcours**. Par rapport à l'année précédente, seul l'objet d'étude **roman et récit** change.
+
+| Objet d'étude | Œuvre | Parcours |
+|---|---|---|
+| Poésie | Rimbaud, *Cahier de Douai* | Émancipations créatrices |
+| Poésie | Ponge, *La rage de l'expression* | Dans l'atelier du poète |
+| Poésie | Hélène Dorion, *Mes forêts* | La poésie, la nature, l'intime |
+| Littérature d'idées | La Boétie, *Discours de la servitude volontaire* | Défendre et entretenir la liberté |
+| Littérature d'idées | Fontenelle, *Entretiens sur la pluralité des mondes* | Le goût de la science |
+| Littérature d'idées | Françoise de Graffigny, *Lettres d'une Péruvienne* | « Un nouvel univers s'est offert à mes yeux » |
+| Roman et récit | Chrétien de Troyes, *Le Chevalier de la charrette* | Le roman et l'invention de l'amour |
+| Roman et récit | Zola, *Pot-Bouille* | Dévoiler les rouages de la société |
+| Roman et récit | Simone Schwarz-Bart, *Pluie et vent sur Télumée Miracle* | Tisser les mémoires, habiter le monde |
+| Théâtre | Corneille, *Le Menteur* | Mensonge et comédie |
+| Théâtre | Musset, *On ne badine pas avec l'amour* | Les jeux du cœur et de la parole |
+| Théâtre | Nathalie Sarraute, *Pour un oui ou pour un non* | Théâtre et dispute |
+
+>! **Attention** : à l'écrit, le sujet de **dissertation** porte sur l'une de ces œuvres et son parcours. Le **commentaire**, lui, porte sur un texte que tu ne connais pas. À l'oral, l'explication porte sur un texte de ton récapitulatif. Vérifie toujours auprès de ton professeur les œuvres retenues pour ta classe.
+
+## Poésie du XIXe au XXIe siècle
+- **Rimbaud, *Cahier de Douai*** (1870) : vingt-deux poèmes que Rimbaud, âgé de seize ans, recopie à Douai à l'automne 1870 et confie au poète Paul Demeny. Fugues et liberté (« Ma Bohème », « Sensation »), éveil de la sensualité, adolescence (« Roman » : « On n'est pas sérieux, quand on a dix-sept ans. »), révolte contre la guerre (« Le Dormeur du val », « Le Mal ») et contre Napoléon III (« Rages de Césars »), satire des bourgeois (« À la musique »). *Émancipations créatrices* : le jeune poète s'affranchit de sa famille, de l'école, des conventions, et bouscule le sonnet de l'intérieur (rejets, mots familiers, ironie).
+- **Ponge, *La rage de l'expression*** (1952) : textes écrits entre 1938 et 1944 (« Berges de la Loire », « La guêpe », « Notes prises pour un oiseau », « L'œillet », « Le carnet du bois de pins », « Le mimosa »...). Ponge publie ses **brouillons**, ses notes datées, ses essais successifs : le poème se montre **en train de se faire**. *Dans l'atelier du poète* : la poésie comme travail, recherche obstinée du mot juste pour dire l'objet.
+- **Hélène Dorion, *Mes forêts*** (2021) : recueil de la poétesse québécoise. La forêt y est à la fois un paysage réel, menacé, et un miroir de l'intime : mémoire, corps, temps qui passe, fragilité du vivant. *La poésie, la nature, l'intime* : le poème relie le moi et le monde naturel (on peut le rapprocher du romantisme, mais aussi de la conscience écologique contemporaine).
+
+## Littérature d'idées du XVIe au XVIIIe siècle
+- **La Boétie, *Discours de la servitude volontaire*** (écrit vers 1548, publié après sa mort) : l'ami de Montaigne y pose une question paradoxale : pourquoi des peuples entiers obéissent-ils à un seul tyran ? Sa thèse : le tyran n'a de pouvoir que celui qu'on lui donne ; il suffirait de cesser de le soutenir : « Soyez résolus de ne servir plus, et vous voilà libres. » Il explique la servitude par la **coutume** (on s'habitue à servir), par les **divertissements** qui endorment le peuple, et par la **chaîne des complices** qui profitent du tyran. Discours oratoire : apostrophes, questions rhétoriques, exemples antiques.
+- **Fontenelle, *Entretiens sur la pluralité des mondes*** (1686) : un philosophe (le narrateur) explique l'astronomie moderne (le système de Copernic, les tourbillons de Descartes) à une **marquise**, au cours de soirées passées dans un parc ; il imagine que d'autres planètes pourraient être habitées. Ouvrage de **vulgarisation** : dialogue, galanterie, images familières pour rendre la science accessible à un public mondain, et à une femme curieuse et vive d'esprit. *Le goût de la science* : plaire et instruire.
+- **Françoise de Graffigny, *Lettres d'une Péruvienne*** (1747) : roman épistolaire. Zilia, jeune Inca arrachée au temple du Soleil par les conquistadors alors qu'elle devait épouser Aza, est ensuite capturée par des Français et recueillie par le chevalier Déterville, qui l'aime. Elle écrit d'abord avec des *quipos* (cordons noués), puis apprend le français. Son **regard étranger** critique la société française (vanité, luxe, éducation négligée des femmes). À la fin, trahie par Aza, elle refuse d'épouser Déterville, lui offre son amitié et choisit une vie indépendante.
+
+## Roman et récit du Moyen Âge au XXIe siècle
+- **Chrétien de Troyes, *Le Chevalier de la charrette*** (vers 1177-1181) : roman en octosyllabes, écrit pour Marie de Champagne. Pour délivrer la reine Guenièvre, enlevée par Méléagant, Lancelot accepte de monter dans une **charrette d'infamie**, réservée aux criminels, mais seulement après une brève hésitation ; il traverse ensuite le **pont de l'épée**. La reine l'accueille d'abord froidement, à cause de cette hésitation : l'amant doit tout sacrifier, même son honneur, à sa dame. C'est la **fin'amor** (amour courtois). Le roman est achevé par Godefroi de Leigni. *Le roman et l'invention de l'amour* : le roman médiéval invente un modèle amoureux qui traverse toute la littérature.
+- **Zola, *Pot-Bouille*** (1882) : dixième roman des *Rougon-Macquart*. Octave Mouret, jeune provincial ambitieux venu de Plassans, s'installe dans un immeuble bourgeois de la rue de Choiseul, à Paris. Derrière la façade respectable : mariages d'argent, adultères, hypocrisie, mépris des domestiques, dont les ragots dans la cour de service révèlent l'envers du décor. *Dévoiler les rouages de la société* : le roman naturaliste démonte les mécanismes de la bourgeoisie du Second Empire. Suite : *Au Bonheur des Dames* (1883).
+- **Simone Schwarz-Bart, *Pluie et vent sur Télumée Miracle*** (1972) : en Guadeloupe, la vieille Télumée raconte à la 1re personne sa vie et celle des femmes de sa lignée, les Lougandor, après l'abolition de l'esclavage. Sa grand-mère, **Reine Sans Nom**, lui apprend à rester debout face au malheur. Amour, misère, travail dans les champs de canne, violence, mais aussi solidarité et dignité. *Tisser les mémoires, habiter le monde* : transmission entre générations, mémoire de l'esclavage, langue nourrie de l'oralité créole.
+
+## Théâtre du XVIIe au XXIe siècle
+- **Corneille, *Le Menteur*** (créé en 1643-1644) : comédie en cinq actes et en alexandrins, adaptée d'une pièce espagnole (Ruiz de Alarcón). Dorante, jeune homme arrivé de Poitiers à Paris, ment sans cesse, par plaisir et pour briller : faux exploits guerriers, fête sur l'eau imaginaire, faux mariage inventé pour échapper au projet de son père Géronte. Son valet Cliton commente ses inventions ; un **quiproquo** sur les noms de Clarice et de Lucrèce complique l'intrigue. *Mensonge et comédie* : le menteur est un **poète de l'instant**, un double du dramaturge ; le théâtre lui-même est une illusion assumée.
+- **Musset, *On ne badine pas avec l'amour*** (1834) : « proverbe » en trois actes, en prose. Perdican et sa cousine Camille, qui sort du couvent, devraient se marier ; Camille refuse l'amour par peur d'être trompée. Par orgueil et par dépit, chacun joue avec l'autre ; Perdican courtise la paysanne Rosette, qui en meurt à la fin. Mélange du comique (le baron, Blazius, Bridaine, dame Pluche, le chœur) et du tragique. Tirade de Perdican (II, 5) : « J'ai souffert souvent, je me suis trompé quelquefois, mais j'ai aimé. »
+- **Nathalie Sarraute, *Pour un oui ou pour un non*** (1982) : pièce courte, d'abord écrite pour la radio. Deux vieux amis, H.1 et H.2, se brouillent à cause d'une **intonation** : la façon dont H.1 a dit « C'est bien... ça » en apprenant un succès de H.2. Des voisins sont appelés comme juges. Sarraute met en scène les **tropismes** : ces mouvements intérieurs à peine perceptibles sous les mots (la « sous-conversation »). *Théâtre et dispute* : la querelle devient l'action même de la pièce.
+
+> **À retenir**
+> Bac 2027, voie générale : douze œuvres, une par objet d'étude étudiée en classe, chacune avec son parcours.
+> Pour chaque œuvre de ta classe : auteur, date, genre, résumé, personnages, trois ou quatre passages clés, citations courtes et exactes, lien avec le parcours.
+> Une dissertation se gagne avec des exemples précis tirés de l'œuvre : scènes, personnages, citations.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel parcours est associé au *Menteur* de Corneille ?", choix: ["Les jeux du cœur et de la parole", "Théâtre et dispute", "Mensonge et comédie", "Dévoiler les rouages de la société"], reponse: 2, explication: "*Le Menteur* : « Mensonge et comédie ». « Les jeux du cœur et de la parole » accompagne Musset ; « Théâtre et dispute », Sarraute ; « Dévoiler les rouages de la société », *Pot-Bouille* de Zola." },
+        { type: "qcm", question: "Quelle œuvre appartient à l'objet d'étude « littérature d'idées » en 2026-2027 ?", choix: ["*Mes forêts*", "*Entretiens sur la pluralité des mondes*", "*Pot-Bouille*", "*Pour un oui ou pour un non*"], reponse: 1, explication: "Fontenelle (1686), avec La Boétie et Graffigny, représente la littérature d'idées. *Mes forêts* est un recueil poétique, *Pot-Bouille* un roman, *Pour un oui ou pour un non* une pièce de théâtre." },
+        { type: "saisie", question: "Dans *Le Chevalier de la charrette*, quel chevalier accepte de monter dans la charrette d'infamie pour retrouver la reine Guenièvre ?", reponses: ["Lancelot", "Lancelot du Lac"], explication: "**Lancelot** : il monte dans la charrette après une brève hésitation, que Guenièvre lui reprochera ; l'amant courtois doit tout sacrifier à sa dame." },
+        { type: "vf", question: "Dans le *Discours de la servitude volontaire*, La Boétie soutient que le tyran n'a de pouvoir que celui que le peuple lui donne.", reponse: true, explication: "C'est le paradoxe central : il suffirait de cesser de servir pour être libre (« Soyez résolus de ne servir plus, et vous voilà libres »)." },
+        { type: "saisie", question: "Comment s'appelle l'héroïne des *Lettres d'une Péruvienne* de Françoise de Graffigny ?", reponses: ["Zilia"], explication: "**Zilia**, jeune Inca enlevée puis recueillie par le Français Déterville, écrit à son fiancé Aza ; son regard étranger critique la société française." },
+        { type: "qcm", question: "Dans *Pour un oui ou pour un non*, qu'est-ce qui déclenche la brouille entre H.1 et H.2 ?", choix: ["Une dette d'argent jamais remboursée", "Une rivalité amoureuse", "Un héritage", "La façon dont une phrase a été prononcée"], reponse: 3, explication: "Tout part de l'intonation de « C'est bien... ça » : Sarraute montre la violence cachée sous les mots les plus anodins (les tropismes)." },
+        { type: "saisie", question: "Dans *Pluie et vent sur Télumée Miracle*, quel surnom porte la grand-mère de Télumée, qui lui transmet la force de rester debout ?", reponses: ["Reine Sans Nom", "Reine sans nom"], explication: "**Reine Sans Nom** (Toussine) incarne la mémoire et la dignité des femmes Lougandor." },
+        { type: "vf", question: "*Pot-Bouille* de Zola se déroule dans une mine du Nord de la France.", reponse: false, explication: "C'est *Germinal* qui se passe dans une mine. *Pot-Bouille* (1882) se déroule dans un immeuble bourgeois de la rue de Choiseul, à Paris, où s'installe Octave Mouret." },
+        { type: "qcm", question: "Quelle particularité de *La rage de l'expression* justifie le parcours « Dans l'atelier du poète » ?", choix: ["Ponge y publie ses brouillons et ses essais successifs : on voit le poème se faire", "Ponge y respecte strictement le sonnet", "Ponge y raconte sa vie à la manière d'un roman", "Ponge y traduit des poètes étrangers"], reponse: 0, explication: "Notes datées, reprises, ratures : Ponge montre le travail de l'écriture, la recherche du mot juste pour dire l'objet." },
+        { type: "redaction", question: "**Dissertation (plan détaillé, sujet type bac 2027)** : « Dans *Le Menteur*, le mensonge n'est-il qu'un défaut que la comédie condamne ? » Rédige l'introduction et le plan détaillé.", corrige: `**Introduction**
+*Amorce* : Au XVIIe siècle, la comédie se donne pour mission de corriger les mœurs par le rire ; or Corneille, avec *Le Menteur* (1643-1644), choisit pour héros un jeune homme qui ment presque à chaque réplique.
+*Analyse du sujet* : le « mensonge » désigne les inventions de Dorante ; « ne... que » et « défaut » invitent à se demander si la pièce se contente de dénoncer ce vice, ou si elle en fait aussi une source de plaisir et une image du théâtre lui-même.
+*Problématique* : la comédie de Corneille condamne-t-elle le mensonge, ou le célèbre-t-elle comme un art de l'invention proche de celui du dramaturge ?
+*Annonce du plan* : nous verrons que le mensonge est bien un défaut dont la pièce montre les dangers, mais qu'il est aussi un spectacle brillant qui charme le public, et enfin qu'il devient une image du théâtre.
+
+**I. Un défaut dont la comédie montre les dangers**
+1. Un vice moral : Dorante ment sans nécessité, par vanité (faux exploits guerriers pour séduire), au mépris de la parole donnée.
+2. Le menteur pris à son propre piège : il doit inventer de nouveaux mensonges pour couvrir les anciens (le faux mariage inventé pour son père) ; le quiproquo sur Clarice et Lucrèce se retourne contre lui.
+3. La colère du père, Géronte, et les commentaires du valet Cliton font entendre le jugement moral.
+
+**II. Mais le mensonge est un spectacle qui séduit**
+1. Le plaisir du récit : la fête sur l'eau imaginaire est un morceau de bravoure poétique, admiré même par ceux qui savent qu'il est faux.
+2. Un héros sympathique, jeune et inventif, que le dénouement ne punit guère : il épouse Lucrèce.
+3. Le rire naît de la virtuosité du menteur et de l'étonnement de Cliton.
+
+**III. Le mensonge, image du théâtre lui-même**
+1. Dorante est un dramaturge de l'instant : il invente des personnages, des décors, des intrigues, comme Corneille.
+2. Le spectateur accepte d'être trompé : le théâtre est une illusion consentie (lien avec le parcours « Mensonge et comédie »).
+3. Ouverture du parcours : d'autres comédies où le mensonge mène l'action (les fourberies de Scapin chez Molière, les ruses de Dubois dans *Les Fausses Confidences* de Marivaux).
+
+**Conclusion** : Corneille ne se contente pas de condamner le mensonge ; il le met en scène avec une telle virtuosité qu'il en fait un éloge paradoxal de l'invention et du théâtre. Ouverture : *L'Illusion comique* (1636), où Corneille faisait déjà l'éloge du théâtre comme illusion.` }
       ]
     },
   ],

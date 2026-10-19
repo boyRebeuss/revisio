@@ -107,7 +107,7 @@ L'axe **Espace privé et espace public** étudie la frontière entre ce qui rel�
         { type: "qcm", question: "Quel roman a popularisé la formule *Big Brother is watching you* ?", choix: ["*Brave New World*, Aldous Huxley", "*1984*, George Orwell", "*Fahrenheit 451*, Ray Bradbury", "*The Handmaid's Tale*, Margaret Atwood"], reponse: 1, explication: "Dans **1984** (George Orwell, 1949), le dirigeant invisible du Parti, Big Brother, surveille la population en permanence." },
         { type: "vf", question: "Toutes les Britanniques ont obtenu le droit de vote à égalité avec les hommes dès 1918.", reponse: false, explication: "En 1918, seules les femmes de plus de 30 ans (sous conditions) peuvent voter. L'égalité avec les hommes (dès 21 ans) n'arrive qu'en **1928**." },
         { type: "qcm", question: "Quelle était la devise de la WSPU d'Emmeline Pankhurst ?", choix: ["*Yes, we can*", "*Deeds, not words*", "*I have a dream*", "*Keep calm and carry on*"], reponse: 1, explication: "**Deeds, not words** (« des actes, pas des paroles ») résume la stratégie militante des suffragettes." },
-        { type: "saisie", question: "Traduis : « Les réseaux sociaux portent atteinte à notre vie privée. »", reponses: ["Social media invade our privacy", "Social media invades our privacy", "Social networks invade our privacy", "Social media are invading our privacy", "Social media is invading our privacy"], explication: "**To invade someone's privacy**. *Social media* peut être suivi d'un verbe au singulier ou au pluriel." },
+        { type: "saisie", question: "Traduis : « Les réseaux sociaux portent atteinte à notre vie privée. »", reponses: ["Social media invade our privacy", "Social media invades our privacy", "Social networks invade our privacy", "Social media are invading our privacy", "Social media is invading our privacy", "Social networks are invading our privacy", "Social media invade our private lives", "Social media invades our private lives"], explication: "**To invade someone's privacy**. *Social media* peut être suivi d'un verbe au singulier ou au pluriel." },
         { type: "qcm", question: "*An Englishman's home is his castle* signifie que :", choix: ["les Anglais vivent dans des châteaux", "le domicile est un espace privé inviolable", "les maisons anglaises sont fortifiées", "il faut ouvrir sa maison aux visiteurs"], reponse: 1, explication: "Ce proverbe affirme que chez soi, on est maître et protégé de toute intrusion, y compris de l'État." },
         { type: "redaction", question: "Article de blog (180 mots environ) : *Is privacy dead in the age of social media?* Donne ton opinion de manière argumentée.", corrige: `Modèle de réponse :
 
@@ -368,7 +368,7 @@ Le progrès scientifique améliore nos vies (médecine, communication, énergie)
 
 *From vaccines to smartphones, scientific progress has transformed our lives. However, some innovations raise serious ethical questions. Should scientists be free to explore everything, or should limits be set?*
 
-*Admittedly, freedom of research is essential. Most major breakthroughs, such as antibiotics or the Internet, were not planned in advance. If we had restricted research, we would never have achieved the Moon landing in 1969 or developed vaccines so quickly during the Covid-19 pandemic.*
+*Admittedly, freedom of research is essential. Many major breakthroughs, such as penicillin or X-rays, were discovered by accident. If we had restricted research, we would never have achieved the Moon landing in 1969 or developed vaccines so quickly during the Covid-19 pandemic.*
 
 *Nevertheless, history shows that science without conscience can be dangerous. The Manhattan Project led to the destruction of Hiroshima and Nagasaki in 1945, and Oppenheimer himself later expressed regret. Today, genetic engineering and artificial intelligence could have consequences that nobody can predict. As early as 1818, Mary Shelley's Frankenstein warned us against scientists who play God without taking responsibility for their creations.*
 
@@ -434,7 +434,7 @@ Les sociétés anglophones sont marquées par une grande diversité (origines, r
 
 *Our school welcomes students from many different backgrounds, but do all of them really feel they fit in? Too often, students with disabilities, from ethnic minorities or who are simply "different" are left out.*
 
-*First, our buildings should be fully accessible. Some classrooms can still only be reached by stairs, which is unacceptable. In the UK, the Equality Act of 2010 requires public places to make "reasonable adjustments" for disabled people; we should follow this example.*
+*First, our buildings should be fully accessible. Some classrooms can still only be reached by stairs, which is unacceptable. In the UK, the Equality Act of 2010 requires schools and public services to make "reasonable adjustments" for disabled people; we should follow this example.*
 
 *Second, we must raise awareness. Why not organise a Diversity Week, with talks, films and debates? Watching a film about Rosa Parks or Martin Luther King would remind us that equal rights were won by ordinary people who refused injustice.*
 
@@ -551,7 +551,7 @@ Past perfect continuous : *They had been walking for hours when they found the v
 ## Used to et would : les habitudes passées
 - **used to + base verbale** : habitude ou état passé révolu : *I used to live in Leeds. There used to be a cinema here.* Négation : *didn't use to* ; question : *Did you use to...?*
 - **would + base verbale** : action répétée dans le passé (souvenir, récit), **pas avec les verbes d'état** : *Every summer, we would go to the seaside.*
-- Ne pas confondre avec **be used to + V-ing** = être habitué à : *I'm used to getting up early.*
+- Ne pas confondre avec **be used to + V-ing** = être habitué à : *I'm used to getting up early.* De même, **get used to + V-ing** = s'habituer à : *I'm getting used to driving on the left.*
 
 > **À retenir** : prétérit = passé daté et révolu ; present perfect = bilan, lien avec le présent, **for / since**. *Had + participe* = antériorité dans le passé. *Used to* = « avant, autrefois » ; *would* = habitude répétée racontée ; *be used to + -ing* = être habitué à.
 `,
@@ -559,9 +559,9 @@ Past perfect continuous : *They had been walking for hours when they found the v
         { type: "saisie", question: "Traduis : « J'habite à Londres depuis 2018. »", reponses: ["I have lived in London since 2018", "I've lived in London since 2018", "I have been living in London since 2018", "I've been living in London since 2018"], explication: "Situation qui dure encore → **present perfect** (simple ou continu) + **since** (point de départ)." },
         { type: "qcm", question: "*I ___ him yesterday at the station.*", choix: ["have seen", "saw", "have been seeing", "had seen"], reponse: 1, explication: "*Yesterday* est un repère passé daté et coupé du présent → **prétérit** : *I saw him*." },
         { type: "saisie", question: "Complète avec for ou since : *She has been learning Japanese ___ three years.*", reponses: ["for"], explication: "*Three years* est une durée → **for**. *Since* introduit un point de départ (*since 2021*)." },
-        { type: "saisie", question: "Mets le verbe entre parenthèses au past perfect : *When we got to the cinema, the film ___ (already / start).*", reponses: ["had already started", "'d already started", "had started already"], explication: "Action antérieure à une autre action passée (*we got*) → **had + participe passé** ; *already* se place entre *had* et le participe." },
+        { type: "saisie", question: "Mets le verbe entre parenthèses au past perfect : *When we got to the cinema, the film ___ (already / start).*", reponses: ["had already started", "'d already started", "had started already", "had already begun"], explication: "Action antérieure à une autre action passée (*we got*) → **had + participe passé** ; *already* se place entre *had* et le participe." },
         { type: "qcm", question: "*You look exhausted! What ___?*", choix: ["did you do", "have you been doing", "have you done", "had you done"], reponse: 1, explication: "On constate des **traces visibles** d'une activité récente → present perfect continuous : *What have you been doing?*" },
-        { type: "saisie", question: "Traduis avec used to : « Avant, il y avait une usine ici. »", reponses: ["There used to be a factory here"], explication: "État passé révolu → **used to** + base verbale : *There used to be*." },
+        { type: "saisie", question: "Traduis avec used to : « Avant, il y avait une usine ici. »", reponses: ["There used to be a factory here", "There used to be a factory here before", "Before, there used to be a factory here"], explication: "État passé révolu → **used to** + base verbale : *There used to be*." },
         { type: "vf", question: "*I'm used to drive on the left* est correct pour dire « J'ai l'habitude de conduire à gauche ».", reponse: false, explication: "*Be used to* (être habitué à) est suivi d'un nom ou d'un **V-ing** : *I'm used to driving on the left.*" },
         { type: "qcm", question: "Quelle phrase est incorrecte ?", choix: ["When I was a child, I would spend hours reading.", "When I was a child, I used to have long hair.", "When I was a child, I would have long hair.", "When I was a child, I used to play outside."], reponse: 2, explication: "**Would** ne s'emploie pas avec les verbes d'état (*have* au sens de posséder, *be, like, know*) : on dit *I used to have long hair*." },
         { type: "redaction", question: "Expression écrite (150 mots environ) : un grand-parent anglophone raconte comment sa ville a changé depuis son enfance. Utilise *used to*, *would*, le present perfect (avec *for* ou *since*) et au moins un past perfect.", corrige: `Modèle de réponse :
@@ -701,15 +701,15 @@ Règles essentielles :
 
 *If governments invested massively in renewable energy, we would reduce our emissions quickly. If everyone ate less meat and took the train instead of the plane, the impact would be enormous. Science is clear: if you increase greenhouse gases, the planet warms up.*
 
-*Unfortunately, we have wasted a lot of time. If world leaders had listened to scientists in the 1980s, we would not be facing such a crisis today. I wish they had acted earlier! If only people realised that the future of their own children is at stake.*
+*Unfortunately, we have wasted a lot of time. If world leaders had listened to scientists in the 1980s, they would have cut emissions much earlier, and we would not be facing such a crisis today. I wish they had acted sooner! If only people realised that the future of their own children is at stake.*
 
 *It is high time we stopped talking and started acting. I wish politicians would show more courage.*
 
 Points grammaticaux :
 - type 0 : *if you increase..., the planet warms up* ; type 1 : *If we keep..., temperatures will rise* ;
 - type 2 : *If I could..., I would ; If governments invested..., we would reduce* ;
-- type 3 / mixte : *If world leaders had listened..., we would not be facing* ;
-- *I wish they had acted, If only people realised, I wish politicians would, It is high time we stopped*.` },
+- type 3 : *If world leaders had listened..., they would have cut* ; conditionnel mixte : *... we would not be facing* (conséquence présente) ;
+- *I wish they had acted sooner, If only people realised, I wish politicians would, It is high time we stopped*.` },
       ],
     },
     {
@@ -765,7 +765,7 @@ Les repères changent aussi : *now → then, today → that day, tomorrow → th
         { type: "saisie", question: "Mets au passif : *They are building a new hospital.*", reponses: ["A new hospital is being built"], explication: "Be + -ing → **is being + participe passé**." },
         { type: "qcm", question: "« On m'a offert un livre. »", choix: ["I was given a book.", "A book gave me.", "I gave a book.", "I have given a book."], reponse: 0, explication: "Avec les verbes à deux compléments, l'anglais met volontiers la personne en sujet : **I was given a book.**" },
         { type: "saisie", question: "Passe au discours indirect : *\"I am tired,\" she said.* → *She said (that) ___.*", reponses: ["she was tired", "that she was tired"], explication: "Verbe introducteur au passé → le présent devient **prétérit** : *she was tired*." },
-        { type: "saisie", question: "Passe au discours indirect : *\"Where do you live?\" he asked me.* → *He asked me ___.*", reponses: ["where I lived"], explication: "Question indirecte : **mot interrogatif + sujet + verbe**, sans *do*, et concordance des temps : *where I lived*." },
+        { type: "saisie", question: "Passe au discours indirect : *\"Where do you live?\" he asked me.* → *He asked me ___.*", reponses: ["where I lived", "where I was living"], explication: "Question indirecte : **mot interrogatif + sujet + verbe**, sans *do*, et concordance des temps : *where I lived*." },
         { type: "saisie", question: "Passe au discours indirect : *\"I will call you tomorrow,\" he said.* → *He said (that) he ___.*", reponses: ["would call me the next day", "would call me the following day", "would call me the day after"], explication: "*Will → would*, *you → me*, *tomorrow → the next day / the following day*." },
         { type: "qcm", question: "*\"Don't touch anything!\" the guide said to us.* Au discours indirect :", choix: ["The guide said us don't touch anything.", "The guide told us not to touch anything.", "The guide told us to not touched anything.", "The guide asked if we touched anything."], reponse: 1, explication: "Ordre négatif → **tell someone not to + base verbale**. *Say* ne prend pas de complément de personne direct." },
         { type: "vf", question: "*I had my car repaired* signifie « J'ai réparé ma voiture moi-même ».", reponse: false, explication: "**Have something done** = faire faire : « J'ai fait réparer ma voiture » (par un garagiste)." },
@@ -908,7 +908,7 @@ Place du complément : *Turn off the light* ou *Turn the light off* ; mais avec 
 | a location | un emplacement | une location = *a rental* |
 | to injure | blesser | injurier = *to insult* |
 | fabric | le tissu | une fabrique = *a factory* |
-| a grape | un raisin | un pamplemousse = *a grapefruit* |
+| a grape | un grain de raisin (frais) | *a raisin* = un raisin sec |
 | achievement | une réussite | achèvement = *completion* |
 
 > **À retenir** : phrasal verb + pronom : *pick it up, turn it down*. Faux-amis à connaître absolument : *actually, eventually, sensible, library, attend, pretend, realise, lecture, deception*.
@@ -922,7 +922,7 @@ Place du complément : *Turn off the light* ou *Turn the light off* ; mais avec 
         { type: "vf", question: "*I attended the meeting* signifie « J'ai attendu la réunion ».", reponse: false, explication: "*To attend* = **assister à** : « J'ai assisté à la réunion ». Attendre = *to wait for*." },
         { type: "saisie", question: "Traduis : « Ma grand-mère s'occupe de mon petit frère. »", reponses: ["My grandmother looks after my little brother", "My grandmother is looking after my little brother", "My grandma looks after my little brother", "My grandmother takes care of my little brother", "My grandmother looks after my younger brother", "My grandma is looking after my little brother", "My grandmother is looking after my younger brother", "My grandmother takes care of my younger brother", "My grandmother is taking care of my little brother", "My grandmother is taking care of my younger brother", "My grandma looks after my younger brother", "My grandma is looking after my younger brother", "My grandma takes care of my little brother", "My grandma takes care of my younger brother", "My grandma is taking care of my little brother", "My grandma is taking care of my younger brother"], explication: "**Look after** (ou *take care of*) = s'occuper de." },
         { type: "qcm", question: "*He eventually found a job.* signifie :", choix: ["Il a éventuellement trouvé un travail.", "Il a finalement trouvé un travail.", "Il a peut-être trouvé un travail.", "Il a aussitôt trouvé un travail."], reponse: 1, explication: "*Eventually* = **finalement, au bout du compte**. « Éventuellement » = *possibly, if necessary*." },
-        { type: "saisie", question: "Traduis : « Il s'est rendu compte de son erreur. »", reponses: ["He realised his mistake", "He realized his mistake", "He realised his error", "He realized his error"], explication: "*To realise* (UK) / *to realize* (US) = **se rendre compte**. « Réaliser un projet » = *to carry out / achieve a project*." },
+        { type: "saisie", question: "Traduis : « Il s'est rendu compte de son erreur. »", reponses: ["He realised his mistake", "He realized his mistake", "He realised his error", "He realized his error", "He realised he had made a mistake", "He realized he had made a mistake", "He realised that he had made a mistake", "He realized that he had made a mistake"], explication: "*To realise* (UK) / *to realize* (US) = **se rendre compte**. « Réaliser un projet » = *to carry out / achieve a project*." },
         { type: "redaction", question: "Récit (150 mots environ) : raconte une journée où tout est allé de travers. Utilise au moins six phrasal verbs différents et trois mots de la liste des faux-amis employés dans leur vrai sens.", corrige: `Modèle de réponse :
 
 *Last Monday was a nightmare. I was supposed to attend a lecture on climate change at the university, so I got up early. But when I took off my pyjamas, I realised I had run out of clean clothes!*
@@ -1015,6 +1015,78 @@ Méthode et critères :
 - exemples précis et lien culturel (AI Act, *Frankenstein*) ;
 - conclusion qui répond à la question et ouvre la réflexion ;
 - grammaire B2 : modaux (*could, might, should, must*), passif (*are collected, be educated*), relative (*on which these systems depend*), concession (*Although*).` },
+      ],
+    },
+    {
+      id: "articles-erreurs-frequentes",
+      titre: "Articles, noms et erreurs fréquentes des francophones",
+      theme: "Grammaire",
+      cours: `
+## L'article zéro (Ø) : la généralité
+Pour parler d'une notion **en général**, l'anglais n'utilise **pas d'article** devant un indénombrable ou un pluriel, là où le français met « le, la, les » :
+- *Ø Society is changing. Ø Freedom of speech is essential. Ø Young people use Ø social media every day.*
+- *I love Ø music. Ø Women got the vote in 1928.*
+
+On emploie **the** quand le nom est **déterminé** (précisé par le contexte, une relative, un complément en *of*) :
+- *The society we live in is unfair. The freedom of the press is under threat. The music of the 1960s...*
+
+>! Comparer : *Ø History teaches us lessons.* (l'histoire en général) / *The history of slavery must be taught.* (une histoire précise)
+
+## Autres emplois de l'article zéro
+- noms de pays et de continents au singulier : *Ø France, Ø Europe* (mais *the United Kingdom, the USA, the Netherlands*) ;
+- titres suivis d'un nom : *Ø President Obama, Ø Queen Elizabeth II* ;
+- institutions vues dans leur fonction : *go to Ø school, be in Ø prison, go to Ø church* ;
+- repas, sports, matières : *have Ø lunch, play Ø football, study Ø economics*.
+
+## A / an
+- devant un nom dénombrable singulier : *She is **a** journalist* (le français dit « elle est journaliste ») ;
+- **an** devant un **son** voyelle : *an hour, an honest man*, mais *a university, a European country* ;
+- dans les exclamations : *What **a** surprise! What Ø good news!* (*news* est indénombrable).
+
+## Les indénombrables pièges
+*information, advice, news, evidence, knowledge, research, progress, equipment, furniture, homework, luggage, travel* : jamais de *a*, jamais de -s.
+- « un conseil » = *a piece of advice* ; « des informations » = *Ø information* ; « une nouvelle » = *a piece of news*.
+- verbe au singulier : *The news **is** good. This information **is** useful.*
+- à l'inverse, *people* et *the police* sont pluriels : *People **are**... The police **are** investigating.*
+
+## Autres erreurs fréquentes
+| Erreur | Correct | Pourquoi |
+|---|---|---|
+| *I am agree.* | *I agree.* | *agree* est un verbe |
+| *It depends of...* | *It depends on...* | préposition |
+| *Since three years* | *For three years* | durée → *for* |
+| *The most of people* | *Most people* | sans *the* ni *of* |
+| *Everybody have* | *Everybody has* | *everybody* = singulier |
+| *Explain me* | *Explain to me* | *explain something to somebody* |
+| *a big amount of people* | *a large number of people* | *amount* pour les indénombrables |
+| *the 70's / the 1970's* | *the 1970s* | pas d'apostrophe au pluriel |
+
+> **À retenir** : généralité = **article zéro** (*Ø Society, Ø people, Ø freedom*) ; nom déterminé = **the**. Métier : *She is **a** doctor*. *Advice, information, news, research, evidence* sont indénombrables (singulier, sans *a*). *Most people* sans *the*.
+`,
+      exercices: [
+        { type: "qcm", question: "Quelle phrase est correcte pour parler de la société en général ?", choix: ["The society is becoming more individualistic.", "Society is becoming more individualistic.", "A society is becoming more individualistic.", "Societies is becoming more individualistic."], reponse: 1, explication: "Notion générale → **article zéro** : *Society is becoming...* On dirait *the society* seulement pour une société précise (*the society we live in*)." },
+        { type: "saisie", question: "Traduis : « Elle est avocate. »", reponses: ["She is a lawyer", "She's a lawyer", "She is a barrister", "She is a solicitor", "She is an attorney", "She's an attorney"], explication: "Devant un nom de métier, l'anglais met **a / an** : *She is a lawyer.* (*attorney* en anglais américain)" },
+        { type: "saisie", question: "Traduis : « un conseil »", reponses: ["a piece of advice", "some advice", "a word of advice", "piece of advice"], explication: "*Advice* est **indénombrable** : on ne dit jamais *an advice* ni *advices*. « Un conseil » = **a piece of advice**." },
+        { type: "vf", question: "*The news are bad.* est correct.", reponse: false, explication: "Malgré son -s, *news* est **indénombrable singulier** : *The news **is** bad.*" },
+        { type: "saisie", question: "Corrige l'erreur : *The most of people use social media.*", reponses: ["Most people use social media"], explication: "« La plupart des gens » = **Most people**, sans *the* ni *of*. On dit *most of the people* seulement pour un groupe précis (*most of the people I know*)." },
+        { type: "saisie", question: "Corrige l'erreur : *I am agree with you.*", reponses: ["I agree with you"], explication: "*Agree* est un verbe : **I agree** (et non *I am agree*). Négation : *I don't agree / I disagree*." },
+        { type: "qcm", question: "Choisis la bonne forme : *___ honest answer is always better.*", choix: ["A", "An", "The", "Ø"], reponse: 1, explication: "Le h de *honest* ne se prononce pas : on entend un son voyelle → **an** honest answer. Inversement, *a university* (son /j/)." },
+        { type: "saisie", question: "Corrige l'erreur : *She has lived in Dublin since five years.*", reponses: ["She has lived in Dublin for five years", "She's lived in Dublin for five years", "She has been living in Dublin for five years", "She's been living in Dublin for five years"], explication: "*Five years* est une **durée** → **for**. *Since* introduit un point de départ (*since 2021*)." },
+        { type: "redaction", question: "Repère et corrige les 8 erreurs de ce paragraphe d'essay, puis explique chaque correction : *« Nowadays, the young people spend a lot of times on the social networks. The most of them think it is a good way to get an information, but I am not agree. In my opinion, the informations found online are often false, and everybody have to check them. »*", corrige: `Version corrigée :
+
+*Nowadays, Ø young people spend a lot of time on Ø social networks. Most of them think it is a good way to get Ø information, but I don't agree. In my opinion, the information found online is often false, and everybody has to check it.*
+
+Les 8 corrections :
+1. *the young people* → **young people** : généralité, article zéro ;
+2. *a lot of times* → **a lot of time** : *time* (durée) est indénombrable (*times* = « fois ») ;
+3. *on the social networks* → **on social networks** : généralité ;
+4. *The most of them* → **Most of them** : jamais *the most* pour « la plupart » ;
+5. *an information* → **information** : indénombrable, pas de *a* ;
+6. *I am not agree* → **I don't agree** (ou *I disagree*) : *agree* est un verbe ;
+7. *the informations ... are* → **the information ... is** : pas de pluriel, verbe au singulier (ici *the* est justifié : information précise, « trouvée en ligne ») ;
+8. *everybody have to check them* → **everybody has to check it** : *everybody* est singulier, et *it* reprend *information*.
+
+Conseil : au moment de te relire, vérifie systématiquement les articles devant les noms abstraits (*society, freedom, people, technology*) et les indénombrables.` },
       ],
     },
   ],

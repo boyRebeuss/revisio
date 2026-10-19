@@ -40,7 +40,7 @@ Constantinople est prise par les Turcs ottomans en **1453** : c'est la fin de l'
 > - Vocabulaire : basileus, icône, capitulaire, missi dominici, schisme.
 `,
       exercices: [
-        { type: "qcm", question: "Quelle est la capitale de l'Empire byzantin ?", choix: ["Rome", "Aix-la-Chapelle", "Constantinople", "Bagdad"], reponse: 2, explication: "Constantinople, fondée par Constantin en 330, est la capitale de l'Empire byzantin. Aix-la-Chapelle est la résidence de Charlemagne, Bagdad la capitale des Abbassides." },
+        { type: "qcm", question: "Quelle est la capitale de l'Empire byzantin ?", choix: ["Rome", "Aix-la-Chapelle", "Bagdad", "Constantinople"], reponse: 3, explication: "Constantinople, fondée par Constantin en 330, est la capitale de l'Empire byzantin. Aix-la-Chapelle est la résidence de Charlemagne, Bagdad la capitale des Abbassides." },
         { type: "saisie", question: "En quelle année Charlemagne est-il couronné empereur ?", reponses: ["800", "en 800"], explication: "Charlemagne est couronné empereur à Rome par le pape Léon III le 25 décembre 800." },
         { type: "vf", question: "Le basileus est le chef religieux de l'Église d'Occident.", reponse: false, explication: "Le basileus est l'**empereur byzantin**. Le chef de l'Église d'Occident est le **pape**." },
         { type: "qcm", question: "Comment s'appellent les envoyés de Charlemagne chargés de contrôler les comtes ?", choix: ["Les missi dominici", "Les capitulaires", "Les vassaux", "Les patriarches"], reponse: 0, explication: "Les missi dominici (« envoyés du maître ») vont deux par deux contrôler les comtes. Les capitulaires sont les lois écrites de Charlemagne." },
@@ -74,7 +74,7 @@ Constantinople est prise par les Turcs ottomans en **1453** : c'est la fin de l'
 - Il revient à La Mecque en **630** et meurt en **632**. Ses révélations sont rassemblées dans le **Coran**, livre sacré.
 
 ## 2. Les cinq piliers de l'islam
-1. La profession de foi (*chahada*) : « Il n'y a de dieu que Dieu et Muhammad est son prophète ».
+1. La profession de foi (*chahada*) : « Il n'y a de dieu que Dieu et Muhammad est son envoyé (son prophète) ».
 2. La prière cinq fois par jour, tourné vers La Mecque.
 3. L'aumône aux pauvres.
 4. Le jeûne pendant le mois de **ramadan**.
@@ -90,7 +90,7 @@ Le lieu de prière est la **mosquée** ; le muezzin appelle à la prière du hau
 
 ## 4. Bagdad, une capitale rayonnante
 - Bagdad compte peut-être plusieurs centaines de milliers d'habitants : c'est l'une des plus grandes villes du monde. Le calife **Haroun al-Rachid** (786-809) la rend célèbre.
-- C'est un grand centre de **commerce** (soie, épices, papier venu de Chine) et de **savoir** : à la **Maison de la sagesse**, des savants traduisent en arabe les textes grecs (Aristote) et indiens. Progrès en mathématiques (**algèbre**, chiffres dits « arabes », venus d'Inde), astronomie, médecine (**Avicenne**, Ibn Sina).
+- C'est un grand centre de **commerce** (soie, épices, papier venu de Chine) et de **savoir** : à la **Maison de la sagesse**, des savants traduisent en arabe les textes grecs (Aristote) et indiens. Progrès en mathématiques (**algèbre**, avec al-Khwarizmi ; chiffres dits « arabes », venus d'Inde), astronomie, médecine. Les savants circulent dans tout le monde musulman : le médecin persan **Avicenne** (Ibn Sina, mort en 1037) travaille en Iran et en Asie centrale, pas à Bagdad.
 - Un autre foyer brillant : **Cordoue** en al-Andalus (Espagne musulmane), siège d'un califat à partir de 929.
 - Le monde musulman se divise peu à peu. En **1258**, les **Mongols** prennent et pillent Bagdad : c'est la fin du califat abbasside.
 
@@ -102,11 +102,11 @@ Le lieu de prière est la **mosquée** ; le muezzin appelle à la prière du hau
 `,
       exercices: [
         { type: "saisie", question: "Comment appelle-t-on le départ de Muhammad de La Mecque vers Médine en 622 ?", reponses: ["Hégire", "l'Hégire", "hegire"], explication: "L'Hégire (622) marque l'an 1 du calendrier musulman." },
-        { type: "qcm", question: "Quel est le livre sacré des musulmans ?", choix: ["La Bible", "Le Coran", "La Torah", "Le Code Justinien"], reponse: 1, explication: "Le Coran rassemble les révélations reçues par Muhammad." },
+        { type: "qcm", question: "Quel est le livre sacré des musulmans ?", choix: ["La Bible", "Le Code Justinien", "La Torah", "Le Coran"], reponse: 3, explication: "Le Coran rassemble les révélations reçues par Muhammad." },
         { type: "vf", question: "Le calife est à la fois un chef politique et un chef religieux.", reponse: true, explication: "Le calife, successeur du Prophète, dirige la communauté des croyants et l'empire." },
         { type: "qcm", question: "Quelle dynastie fonde Bagdad en 762 ?", choix: ["Les Omeyyades", "Les Carolingiens", "Les Mongols", "Les Abbassides"], reponse: 3, explication: "Les Abbassides, au pouvoir à partir de 750, fondent Bagdad en 762. Les Omeyyades avaient pour capitale Damas." },
         { type: "saisie", question: "En quelle année les Mongols prennent-ils Bagdad ?", reponses: ["1258", "en 1258"], explication: "En 1258, les Mongols de Hulagu prennent et pillent Bagdad, mettant fin au califat abbasside." },
-        { type: "qcm", question: "Lequel de ces éléments ne fait PAS partie des cinq piliers de l'islam ?", choix: ["Le jeûne du ramadan", "Le pèlerinage à La Mecque", "La croisade", "L'aumône"], reponse: 2, explication: "Les cinq piliers sont : profession de foi, prière, aumône, jeûne du ramadan, pèlerinage. La croisade est une expédition chrétienne." },
+        { type: "qcm", question: "Lequel de ces éléments ne fait PAS partie des cinq piliers de l'islam ?", choix: ["Le jeûne du ramadan", "Le pèlerinage à La Mecque", "L'aumône", "La croisade"], reponse: 3, explication: "Les cinq piliers sont : profession de foi, prière, aumône, jeûne du ramadan, pèlerinage. La croisade est une expédition chrétienne." },
         { type: "vf", question: "Dans l'empire musulman, les chrétiens et les juifs ont le statut de dhimmis : ils peuvent pratiquer leur religion en payant un impôt.", reponse: true, explication: "Les dhimmis sont protégés mais soumis à un impôt spécial et à certaines restrictions." },
         { type: "redaction", question: "**Paragraphe argumenté** : montre que Bagdad est une capitale rayonnante à l'époque des Abbassides.", corrige: `Bagdad est fondée en **762** par les califes **abbassides**, qui en font la capitale de leur empire. C'est d'abord une **capitale politique** : le calife y réside dans un immense palais et dirige l'empire musulman. C'est aussi une **ville marchande** : située sur le Tigre, au carrefour des routes commerciales, elle reçoit la soie et le papier de Chine, les épices d'Inde, les fourrures du nord. Elle compte plusieurs centaines de milliers d'habitants, ce qui en fait l'une des plus grandes villes du monde. Enfin, c'est un **centre intellectuel** : à la **Maison de la sagesse**, des savants traduisent en arabe les œuvres grecques et indiennes et font progresser les mathématiques (algèbre), l'astronomie et la médecine. Ce rayonnement dure jusqu'en **1258**, quand les Mongols prennent et pillent la ville.` },
       ],
@@ -337,7 +337,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
       cours: `
 ## 1. Les grandes découvertes
 À la fin du XVe siècle, les Européens cherchent une route maritime vers les épices et l'or d'Asie, sans passer par les intermédiaires musulmans et italiens. De nouveaux navires (la **caravelle**) et instruments (**boussole**, **astrolabe**) le permettent.
-- **1492** : **Christophe Colomb**, au service des Rois catholiques d'Espagne, atteint l'**Amérique** (les Antilles) en croyant arriver en Inde.
+- **1492** : **Christophe Colomb**, au service des Rois catholiques d'Espagne, atteint l'**Amérique** (une île des Bahamas, puis Cuba et Hispaniola, dans les Antilles) en croyant arriver en Asie (les « Indes »).
 - **1498** : le Portugais **Vasco de Gama** contourne l'Afrique et arrive à **Calicut**, en Inde.
 - **1519-1522** : l'expédition de **Magellan** réalise le premier **tour du monde** ; Magellan est tué aux Philippines (1521) et c'est **Elcano** qui ramène le dernier navire.
 
@@ -357,7 +357,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
 - Les Turcs ottomans ont pris Constantinople en **1453** ; elle devient **Istanbul**, leur capitale.
 - **Soliman le Magnifique** est **sultan** de **1520 à 1566**. Il agrandit l'empire : victoire de **Mohács** en Hongrie (**1526**), siège de **Vienne** (**1529**, échec). Son empire s'étend de l'Algérie à l'Irak et sur les Balkans.
 - Surnommé « le Législateur » (*Kanuni*), il réorganise les lois et fait construire de nombreux monuments par l'architecte **Sinan** (mosquée **Süleymaniye** à Istanbul).
-- Ennemi de Charles Quint, il s'allie à **François Ier** (accords de 1536, dits capitulations, qui favorisent les marchands français).
+- Ennemi de Charles Quint, il s'allie à **François Ier** : cette alliance franco-ottomane, scandaleuse pour l'Europe chrétienne, s'accompagne d'accords commerciaux (les **capitulations**, négociées vers 1536 et confirmées en 1569) qui favorisent les marchands français.
 
 > **À retenir** :
 > - 1492 : Colomb en Amérique. 1498 : Vasco de Gama en Inde. 1519-1522 : premier tour du monde. 1519 : Charles Quint élu empereur. 1520-1566 : règne de Soliman. 1529 : siège de Vienne.
@@ -371,7 +371,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
         { type: "vf", question: "Magellan est revenu en Espagne à la fin du premier tour du monde.", reponse: false, explication: "Magellan est tué aux Philippines en 1521 ; c'est Elcano qui achève le voyage en 1522." },
         { type: "qcm", question: "Quel empire amérindien Cortés conquiert-il ?", choix: ["L'Empire aztèque", "L'Empire inca", "L'Empire maya", "L'Empire ottoman"], reponse: 0, explication: "Cortés conquiert l'Empire aztèque (Mexique) entre 1519 et 1521 ; Pizarro s'attaque aux Incas." },
         { type: "qcm", question: "Quelle est la principale cause de l'effondrement de la population amérindienne ?", choix: ["Les famines dues au froid", "Les maladies apportées par les Européens", "Les guerres entre Aztèques et Incas", "L'émigration vers l'Europe"], reponse: 1, explication: "Les maladies comme la variole, contre lesquelles les Amérindiens n'étaient pas immunisés, ont tué l'essentiel des victimes, avec le travail forcé et les violences." },
-        { type: "saisie", question: "Quel est le titre de Soliman le Magnifique ?", reponses: ["sultan", "sultan ottoman", "le sultan"], explication: "Soliman est le sultan de l'Empire ottoman de 1520 à 1566." },
+        { type: "saisie", question: "Quel est le titre de Soliman le Magnifique ?", reponses: ["sultan", "sultan ottoman", "le sultan", "sultan de l'Empire ottoman"], explication: "Soliman est le sultan de l'Empire ottoman de 1520 à 1566." },
         { type: "vf", question: "Charles Quint et François Ier sont alliés contre Soliman le Magnifique.", reponse: false, explication: "C'est l'inverse : François Ier s'allie à Soliman contre Charles Quint, son grand rival." },
         { type: "redaction", question: "**Paragraphe argumenté** : explique pourquoi l'on peut parler d'un monde de plus en plus relié au XVIe siècle, et quelles en sont les conséquences pour les populations d'Amérique.", corrige: `Au XVIe siècle, le monde devient de plus en plus relié grâce aux **grandes découvertes** : Colomb atteint l'Amérique en **1492**, Vasco de Gama l'Inde en **1498**, et l'expédition de Magellan fait le premier tour du monde (**1519-1522**). Les Espagnols et les Portugais créent des **empires coloniaux** : l'or et l'argent d'Amérique, les épices d'Asie arrivent en Europe, et des plantes circulent (maïs, pomme de terre). C'est une première **mondialisation**. Pour les **Amérindiens**, les conséquences sont dramatiques : les **conquistadors** détruisent les empires aztèque (Cortés) et inca (Pizarro), les populations sont soumises au travail forcé et décimées par les **maladies** venues d'Europe. Las Casas dénonce ces violences à Valladolid (1550-1551). Pour remplacer cette main-d'œuvre, les Européens développent la **traite** des Africains réduits en esclavage.` },
       ],
@@ -460,7 +460,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
 - C'est une **monarchie absolue de droit divin** : le roi tient son pouvoir de Dieu (idée défendue par l'évêque **Bossuet**) ; il concentre tous les pouvoirs (faire les lois, rendre la justice, diriger l'armée, lever les impôts) et n'a de comptes à rendre qu'à Dieu.
 - Il gouverne avec des **ministres** (comme **Colbert** pour les finances et l'économie) et contrôle les provinces grâce aux **intendants**.
 - Il se fait appeler le **Roi-Soleil**. Il s'installe à **Versailles** en **1682** : le château est un instrument de pouvoir où il domestique la noblesse par l'**étiquette** et la vie de cour. Il protège les artistes (Molière, Lully, Le Brun) et fonde des académies.
-- Il veut l'unité religieuse : par l'**édit de Fontainebleau** (**1685**), il **révoque l'édit de Nantes** ; des milliers de protestants fuient la France.
+- Il veut l'unité religieuse : par l'**édit de Fontainebleau** (**1685**), il **révoque l'édit de Nantes** ; malgré l'interdiction, environ 150 000 à 200 000 protestants fuient la France (Provinces-Unies, Prusse, Angleterre, Suisse).
 - Ses nombreuses guerres agrandissent le royaume mais ruinent les finances. Il meurt en **1715**.
 
 > **À retenir** :
@@ -506,7 +506,7 @@ Le seigneur rend aussi la **justice**. Les **serfs** sont des paysans non libres
 C'est le passage d'un régime démographique **traditionnel** (natalité et mortalité fortes) à un régime **moderne** (natalité et mortalité faibles).
 1. La mortalité baisse d'abord (progrès de l'hygiène, de la médecine, de l'alimentation), alors que la natalité reste forte : la population augmente très vite.
 2. Puis la natalité baisse à son tour (scolarisation des filles, contraception, urbanisation) : la croissance ralentit.
-- L'Europe a achevé sa transition : sa population **vieillit** (Japon, Allemagne, Italie). Indice de fécondité du Japon : environ 1,2 enfant par femme.
+- L'Europe et le Japon ont achevé leur transition : leur population **vieillit** (Allemagne, Italie, Japon). Indice de fécondité du Japon : environ 1,2 enfant par femme.
 - L'Afrique subsaharienne est encore en transition : population très **jeune**, croissance rapide (indice de fécondité du **Niger** proche de 6 enfants par femme).
 - Certains États mènent des **politiques démographiques** : la Chine a imposé la politique de l'**enfant unique** (1979-2015) ; d'autres pays encouragent la natalité (France, Corée du Sud).
 
@@ -565,7 +565,7 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 - La Terre est couverte d'eau, mais **97,5 %** de cette eau est salée. L'eau douce (2,5 %) est surtout bloquée dans les glaciers ; une toute petite part est facilement accessible (fleuves, lacs, nappes souterraines).
 - L'**agriculture** (irrigation) représente environ **70 %** des prélèvements d'eau douce dans le monde, devant l'industrie et les usages domestiques.
 - La ressource est inégalement répartie : régions bien arrosées (Amazonie, Asie des moussons) et régions arides (Sahara, Moyen-Orient). On parle de **stress hydrique** lorsque la demande dépasse les ressources disponibles.
-- Environ **2,2 milliards** de personnes n'ont pas accès à une eau potable gérée en toute sécurité. L'eau insalubre provoque des maladies (choléra, diarrhées).
+- Plus de **2 milliards** de personnes (environ une sur quatre) n'ont pas accès à une eau potable gérée en toute sécurité (OMS-UNICEF). L'eau insalubre provoque des maladies (choléra, diarrhées).
 - L'eau peut être source de **tensions** entre États qui partagent un fleuve : le Nil (Égypte, Soudan, Éthiopie et son grand barrage de la Renaissance), le Tigre et l'Euphrate (Turquie, Syrie, Irak).
 
 ## 3. Gérer durablement les ressources
@@ -575,7 +575,7 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 
 > **À retenir** :
 > - Les énergies fossiles (non renouvelables) dominent encore ; la transition énergétique vise les énergies renouvelables.
-> - L'eau douce est rare et inégalement répartie ; l'agriculture en consomme environ 70 % ; 2,2 milliards de personnes n'ont pas accès à une eau potable sûre.
+> - L'eau douce est rare et inégalement répartie ; l'agriculture en consomme environ 70 % ; plus de 2 milliards de personnes n'ont pas accès à une eau potable sûre.
 > - Le développement durable cherche à concilier économie, société et environnement.
 > - Vocabulaire : ressource, énergie renouvelable / fossile, transition énergétique, stress hydrique, développement durable.
 `,
@@ -587,7 +587,7 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
         { type: "qcm", question: "Quels sont les trois piliers du développement durable ?", choix: ["Économique, social, environnemental", "Politique, militaire, religieux", "Agricole, industriel, touristique", "Local, national, mondial"], reponse: 0, explication: "Le développement durable doit être économiquement viable, socialement équitable et respectueux de l'environnement." },
         { type: "vf", question: "Le dessalement de l'eau de mer est une solution peu coûteuse en énergie.", reponse: false, explication: "Le dessalement consomme beaucoup d'énergie et coûte cher ; il est surtout utilisé par des pays riches et arides (pays du Golfe, Israël)." },
         { type: "saisie", question: "Quelle source fournit environ deux tiers de l'électricité produite en France ?", reponses: ["nucleaire", "le nucleaire", "energie nucleaire", "l'energie nucleaire"], explication: "Le parc de centrales nucléaires produit la majorité de l'électricité française." },
-        { type: "redaction", question: "**Paragraphe argumenté** : explique pourquoi l'eau est une ressource inégalement répartie et comment on peut mieux la gérer.", corrige: `L'eau est une ressource vitale mais **limitée** : 97,5 % de l'eau sur Terre est salée et l'eau douce est en grande partie bloquée dans les glaciers. Elle est **inégalement répartie** : certaines régions sont très arrosées (Amazonie, Asie des moussons) tandis que d'autres sont arides (Sahara, Moyen-Orient) et souffrent de **stress hydrique**. L'accès à l'eau dépend aussi du **développement** : environ **2,2 milliards** de personnes n'ont pas accès à une eau potable sûre, surtout dans les pays pauvres. Le partage des fleuves crée des **tensions**, comme sur le Nil entre l'Égypte et l'Éthiopie. Pour mieux gérer cette ressource, on peut économiser l'eau d'irrigation (l'agriculture utilise environ 70 % des prélèvements) grâce au **goutte-à-goutte**, recycler les eaux usées, réparer les fuites, ou **dessaler** l'eau de mer, une solution efficace mais coûteuse. Il s'agit de gérer l'eau de façon **durable**.` },
+        { type: "redaction", question: "**Paragraphe argumenté** : explique pourquoi l'eau est une ressource inégalement répartie et comment on peut mieux la gérer.", corrige: `L'eau est une ressource vitale mais **limitée** : 97,5 % de l'eau sur Terre est salée et l'eau douce est en grande partie bloquée dans les glaciers. Elle est **inégalement répartie** : certaines régions sont très arrosées (Amazonie, Asie des moussons) tandis que d'autres sont arides (Sahara, Moyen-Orient) et souffrent de **stress hydrique**. L'accès à l'eau dépend aussi du **développement** : plus de **2 milliards** de personnes n'ont pas accès à une eau potable sûre, surtout dans les pays pauvres. Le partage des fleuves crée des **tensions**, comme sur le Nil entre l'Égypte et l'Éthiopie. Pour mieux gérer cette ressource, on peut économiser l'eau d'irrigation (l'agriculture utilise environ 70 % des prélèvements) grâce au **goutte-à-goutte**, recycler les eaux usées, réparer les fuites, ou **dessaler** l'eau de mer, une solution efficace mais coûteuse. Il s'agit de gérer l'eau de façon **durable**.` },
       ],
     },
     {
@@ -597,7 +597,7 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
       cours: `
 ## 1. Une production suffisante, mais une alimentation inégale
 - La production agricole mondiale a fortement augmenté et suffirait en théorie à nourrir toute l'humanité.
-- Pourtant, environ **700 millions** de personnes souffrent de **sous-alimentation** (elles ne mangent pas assez de calories), surtout en **Afrique subsaharienne** et en **Asie du Sud**. D'autres souffrent de **malnutrition** (alimentation déséquilibrée, carences).
+- Pourtant, environ **700 millions** de personnes (entre 670 et 750 millions selon les années et les estimations de la FAO) souffrent de **sous-alimentation** (elles ne mangent pas assez de calories), surtout en **Afrique subsaharienne** et en **Asie du Sud**. D'autres souffrent de **malnutrition** (alimentation déséquilibrée, carences).
 - À l'inverse, dans les pays riches et de plus en plus dans les pays émergents, l'**obésité** progresse, et beaucoup de nourriture est gaspillée.
 - La **sécurité alimentaire**, c'est quand toutes les personnes ont à tout moment accès à une nourriture suffisante, saine et nutritive.
 - Les causes de l'insécurité alimentaire sont surtout la **pauvreté**, les **guerres** (Soudan, Yémen…), les catastrophes climatiques (sécheresses) et les prix élevés.
@@ -623,7 +623,7 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 > - Vocabulaire : sous-alimentation, malnutrition, sécurité alimentaire, agriculture vivrière, productiviste, révolution verte.
 `,
       exercices: [
-        { type: "qcm", question: "Combien de personnes environ souffrent de sous-alimentation dans le monde ?", choix: ["7 millions", "70 millions", "700 millions", "7 milliards"], reponse: 2, explication: "Selon la FAO, environ 700 millions de personnes ne mangent pas à leur faim, soit près d'une personne sur 11." },
+        { type: "qcm", question: "Combien de personnes environ souffrent de sous-alimentation dans le monde ?", choix: ["7 millions", "70 millions", "700 millions", "7 milliards"], reponse: 2, explication: "Selon la FAO, environ 700 millions de personnes ne mangent pas à leur faim (673 millions estimés en 2024), soit environ une personne sur 12." },
         { type: "vf", question: "La sous-alimentation s'explique surtout par une production agricole mondiale insuffisante.", reponse: false, explication: "La production suffirait en théorie ; la faim s'explique surtout par la **pauvreté**, les **guerres** et les catastrophes, qui empêchent l'accès à la nourriture." },
         { type: "saisie", question: "Comment appelle-t-on l'agriculture qui sert d'abord à nourrir la famille du paysan ?", reponses: ["vivriere", "agriculture vivriere", "l'agriculture vivriere"], explication: "L'agriculture vivrière est pratiquée par des centaines de millions de petits paysans." },
         { type: "qcm", question: "Quelle est la différence entre sous-alimentation et malnutrition ?", choix: ["Aucune, ce sont des synonymes", "La sous-alimentation : pas assez de calories ; la malnutrition : alimentation déséquilibrée", "La malnutrition ne touche que les pays riches", "La sous-alimentation concerne seulement les enfants"], reponse: 1, explication: "On peut manger assez de calories mais souffrir de carences (malnutrition) ; l'obésité est aussi une forme de malnutrition." },
@@ -661,17 +661,23 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 - On distingue les risques **naturels** (séismes, éruptions volcaniques, cyclones, inondations, sécheresses) et **technologiques** (accident industriel, nucléaire).
 
 ## 2. Des sociétés inégalement vulnérables
-- Le **12 janvier 2010**, un séisme de magnitude 7 frappe **Haïti**, pays pauvre : plus de 200 000 morts. Les constructions sont fragiles et les secours limités.
-- Le **11 mars 2011**, au **Japon**, pays riche et préparé, un séisme de magnitude 9 provoque un **tsunami** qui fait environ 18 000 morts et entraîne l'**accident nucléaire de Fukushima** : même un pays développé n'est jamais totalement à l'abri.
+- Le **12 janvier 2010**, un séisme de magnitude 7 frappe **Haïti**, pays pauvre : plus de 200 000 morts selon les estimations (le bilan exact reste incertain). Les constructions sont fragiles et les secours limités.
+- Le **11 mars 2011**, au **Japon**, pays riche et préparé, un séisme de magnitude 9 provoque un **tsunami** qui fait environ 18 000 morts et disparus et entraîne l'**accident nucléaire de Fukushima** : même un pays développé n'est jamais totalement à l'abri.
 - Les pays riches ont plus de moyens pour prévenir et réparer ; les pays pauvres sont plus **vulnérables**. Les populations pauvres vivent souvent dans des zones exposées (bidonvilles sur des pentes, zones inondables).
 
-## 3. Le changement global
-- Le **changement climatique** : la température moyenne de la Terre a augmenté d'environ **1,1 °C** depuis la fin du XIXe siècle, à cause des **gaz à effet de serre** émis par les activités humaines (combustion des énergies fossiles, déforestation, élevage).
+## 3. Les risques industriels et technologiques
+- Ils naissent des activités humaines : usines chimiques, centrales nucléaires, dépôts de carburant, transport de matières dangereuses. Les usines sont souvent proches des villes, ce qui augmente les **enjeux**.
+- **Exemples** : explosion de l'usine **AZF** à **Toulouse** (21 septembre 2001, 31 morts et des milliers de blessés) ; incendie de l'usine **Lubrizol** à **Rouen** (26 septembre 2019, nuage de fumée sur l'agglomération) ; catastrophe de **Bhopal** en Inde (1984, des milliers de morts, dans un pays moins protégé) ; accident nucléaire de **Tchernobyl** (Ukraine, alors en URSS, 1986) ; explosion du port de **Beyrouth** (Liban, 2020, plus de 200 morts).
+- **Prévention** : les sites dangereux sont classés « **Seveso** » (du nom d'une ville italienne touchée par un accident chimique en 1976) et surveillés par l'État ; depuis 2003 (loi votée après AZF), des **plans de prévention des risques technologiques** (PPRT) limitent l'urbanisation autour des usines ; sirènes d'alerte (essai le premier mercredi du mois), exercices de confinement, information des habitants.
+- Ici encore, les pays pauvres, où les normes sont moins appliquées, sont plus **vulnérables**.
+
+## 4. Le changement global
+- Le **changement climatique** : la température moyenne de la Terre a augmenté d'environ **1,1 à 1,3 °C** depuis la fin du XIXe siècle (et 2024 a été la première année à plus de 1,5 °C), à cause des **gaz à effet de serre** émis par les activités humaines (combustion des énergies fossiles, déforestation, élevage).
 - Conséquences : fonte des glaciers et des banquises, **montée du niveau des mers** (menace pour les deltas comme celui du **Bangladesh**, les îles basses comme les Maldives ou Tuvalu), multiplication des canicules, sécheresses, cyclones plus violents.
 - Le **GIEC** (groupe d'experts créé en **1988**) étudie ces évolutions. L'**accord de Paris** (**2015**, COP21) vise à limiter le réchauffement **bien en dessous de 2 °C**, si possible à **1,5 °C**.
 - Le changement global inclut aussi la **perte de biodiversité** et l'épuisement des ressources.
 
-## 4. Prévenir et s'adapter
+## 5. Prévenir et s'adapter
 - **Prévoir** : surveillance (sismographes, satellites, météo), alertes.
 - **Prévenir** : normes de construction **parasismiques**, digues, interdiction de construire en zone inondable (en France, les **plans de prévention des risques**), information et exercices (au collège : le plan particulier de mise en sûreté, **PPMS**).
 - **Atténuer** le changement climatique : réduire les émissions de gaz à effet de serre.
@@ -680,8 +686,9 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 > **À retenir** :
 > - Risque = aléa × vulnérabilité ; les pays pauvres sont plus vulnérables (Haïti 2010) mais les pays riches ne sont pas à l'abri (Japon 2011).
 > - Le changement climatique, causé par les gaz à effet de serre, augmente certains risques. Accord de Paris (2015) : limiter le réchauffement sous 2 °C.
+> - Les risques industriels et technologiques (AZF à Toulouse en 2001, Lubrizol à Rouen en 2019) sont encadrés par la classification Seveso et les PPRT.
 > - Il faut prévoir, prévenir, atténuer et s'adapter.
-> - Vocabulaire : aléa, enjeu, vulnérabilité, risque, catastrophe, changement climatique, GIEC, adaptation.
+> - Vocabulaire : aléa, enjeu, vulnérabilité, risque, catastrophe, risque technologique, changement climatique, GIEC, adaptation.
 `,
       exercices: [
         { type: "qcm", question: "Comment définit-on un risque ?", choix: ["Un phénomène naturel quel qu'il soit", "La rencontre entre un aléa et des enjeux vulnérables", "Une catastrophe déjà passée", "Une zone sans habitants"], reponse: 1, explication: "Sans population ni biens exposés, un aléa n'est pas un risque majeur." },
@@ -694,11 +701,11 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
         { type: "redaction", question: "**Développement construit** : à partir des exemples d'Haïti (2010) et du Japon (2011), montre que les sociétés sont inégalement vulnérables face aux risques, puis présente les moyens de s'en protéger.", corrige: `**Introduction** : Un risque naît de la rencontre entre un **aléa** et des **enjeux vulnérables**. Face aux séismes, toutes les sociétés ne sont pas égales.
 
 **1. Haïti, une société très vulnérable**
-- Le **12 janvier 2010**, un séisme de magnitude 7 frappe Port-au-Prince : plus de 200 000 morts.
+- Le **12 janvier 2010**, un séisme de magnitude 7 frappe Port-au-Prince : plus de 200 000 morts selon les estimations.
 - Pays pauvre : constructions fragiles, peu de normes, secours limités, aide internationale nécessaire.
 
 **2. Le Japon, un pays préparé mais pas invulnérable**
-- Le **11 mars 2011**, un séisme de magnitude 9 – bien plus puissant – provoque un **tsunami** (environ 18 000 morts) et l'accident nucléaire de **Fukushima**.
+- Le **11 mars 2011**, un séisme de magnitude 9 – bien plus puissant – provoque un **tsunami** (environ 18 000 morts et disparus) et l'accident nucléaire de **Fukushima**.
 - Les bâtiments parasismiques ont limité les dégâts du séisme, mais le tsunami a dépassé les digues.
 
 **3. Se protéger des risques**
@@ -707,6 +714,9 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 - S'adapter au changement climatique, qui aggrave certains risques (inondations, cyclones).
 
 **Conclusion** : la vulnérabilité dépend du niveau de développement ; la prévention réduit les dégâts, sans supprimer totalement le risque.` },
+        { type: "qcm", question: "Dans quelle ville l'usine chimique AZF a-t-elle explosé le 21 septembre 2001 ?", choix: ["Rouen", "Lyon", "Toulouse", "Marseille"], reponse: 2, explication: "L'explosion d'AZF à **Toulouse** a fait 31 morts. À **Rouen**, c'est l'usine Lubrizol qui a brûlé en 2019." },
+        { type: "vf", question: "Un risque technologique est provoqué par un phénomène naturel comme un séisme.", reponse: false, explication: "Un risque **technologique** (ou industriel) naît des activités humaines : usine chimique, centrale nucléaire, transport de matières dangereuses. Un séisme est un aléa **naturel**, même s'il peut déclencher un accident technologique (Fukushima)." },
+        { type: "redaction", question: "**Paragraphe argumenté** : à partir de l'exemple d'AZF (Toulouse, 2001), explique pourquoi les risques industriels menacent particulièrement les villes et comment on cherche à les prévenir.", corrige: `Le **21 septembre 2001**, l'usine chimique **AZF** explose à **Toulouse** : 31 personnes meurent et des milliers d'habitations sont endommagées. Cet exemple montre que les risques industriels menacent surtout les **villes** : beaucoup d'usines dangereuses, construites autrefois à l'écart, ont été rattrapées par l'urbanisation, si bien que de nombreux habitants, écoles et commerces (les **enjeux**) se trouvent tout près de l'**aléa**. Pour prévenir ces risques, l'État classe les sites les plus dangereux « **Seveso** » et les contrôle ; après AZF, une loi de 2003 crée les **plans de prévention des risques technologiques** (PPRT), qui limitent les constructions autour des usines. Les habitants sont informés, des sirènes d'alerte sont testées et des exercices de confinement sont organisés, au collège aussi (PPMS). Ces mesures réduisent la **vulnérabilité**, mais le risque zéro n'existe pas, comme l'a rappelé l'incendie de Lubrizol à Rouen en 2019.` },
       ],
     },
     {
@@ -732,7 +742,7 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 | 1598 | Édit de Nantes |
 | 1661-1715 | Règne personnel de Louis XIV |
 
->! **Astuce** : un siècle se compte en ajoutant 1 aux centaines. L'année 1453 est au **XVe** siècle (14 + 1) ; l'année 800 est au **VIIIe** siècle. Le **Moyen Âge** va de 476 (chute de Rome) à 1453 ou 1492 ; ensuite commencent les **Temps modernes**.
+>! **Astuce** : un siècle se compte en ajoutant 1 aux centaines. L'année 1453 est au **XVe** siècle (14 + 1). **Attention aux années « rondes »** : un siècle se termine par l'année en 00, donc l'année 800 est la dernière du **VIIIe** siècle (701-800) et 1500 la dernière du XVe siècle. Le **Moyen Âge** va de 476 (chute de Rome) à 1453 ou 1492 ; ensuite commencent les **Temps modernes**.
 
 ## 2. Analyser un document
 1. **Présenter** le document : sa **nature** (texte, carte, tableau, photographie, enluminure…), son **auteur**, sa **date**, sa **source**, son **sujet**. Demande-toi : l'auteur était-il témoin ? Quel est son point de vue ?
@@ -762,13 +772,13 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 | Développement durable | développement qui répond aux besoins actuels sans compromettre ceux des générations futures |
 
 > **À retenir** :
-> - Siècle = centaines + 1 (1515 → XVIe siècle).
+> - Siècle = centaines + 1 (1515 → XVIe siècle), sauf pour les années en 00 (1500 → XVe siècle).
 > - Un document se présente (nature, auteur, date, source, sujet) avant d'être analysé et critiqué.
 > - Un croquis a un titre, une légende organisée et des figurés de surface, de point et de ligne.
 > - Une rédaction : introduction, parties avec exemples précis, conclusion.
 `,
       exercices: [
-        { type: "saisie", question: "À quel siècle appartient l'année 1453 ? (écris en chiffres romains, par exemple XIIe)", reponses: ["XVe", "XV", "15e", "15eme", "XVe siecle", "15"], explication: "14 centaines + 1 = XVe siècle." },
+        { type: "saisie", question: "À quel siècle appartient l'année 1453 ? (écris en chiffres romains, par exemple XIIe)", reponses: ["XVe", "XV", "15e", "15eme", "XVe siecle", "15", "XVeme", "XV siecle", "XVeme siecle", "15eme siecle"], explication: "14 centaines + 1 = XVe siècle." },
         { type: "qcm", question: "À quel siècle a lieu le couronnement de Charlemagne (800) ?", choix: ["VIIe siècle", "VIIIe siècle", "IXe siècle", "Xe siècle"], reponse: 1, explication: "L'année 800 est la dernière année du VIIIe siècle (701-800)." },
         { type: "qcm", question: "Classe dans l'ordre chronologique : édit de Nantes, Hégire, prise de Bagdad par les Mongols, schisme de 1054.", choix: ["Hégire, schisme, prise de Bagdad, édit de Nantes", "Schisme, Hégire, édit de Nantes, prise de Bagdad", "Hégire, prise de Bagdad, schisme, édit de Nantes", "Prise de Bagdad, Hégire, schisme, édit de Nantes"], reponse: 0, explication: "622 (Hégire), 1054 (schisme), 1258 (Bagdad), 1598 (édit de Nantes)." },
         { type: "vf", question: "Pour présenter un document, il faut indiquer sa nature, son auteur, sa date et sa source.", reponse: true, explication: "C'est la première étape, indispensable pour comprendre le point de vue du document." },
@@ -783,6 +793,22 @@ C'est le passage d'un régime démographique **traditionnel** (natalité et mort
 3. Un empereur qui diffuse le christianisme et la culture (conversion forcée des Saxons, écoles, renaissance carolingienne).
 
 **Méthode** : l'introduction donne le **contexte** (date, lieu, personnage), puis pose une **question** à laquelle le développement répond.` },
+        { type: "redaction", question: "**Croquis** : tu dois réaliser le croquis « La répartition de la population mondiale ». Propose un titre et une légende organisée en deux parties, en précisant pour chaque élément le type de figuré (surface, point ou ligne) et sa couleur.", corrige: `**Titre** : La répartition inégale de la population mondiale.
+
+**1. Des espaces très peuplés**
+- Grands foyers de peuplement (Asie de l'Est, Asie du Sud, Europe) : **surface** rouge foncé.
+- Foyers secondaires (golfe de Guinée, vallée du Nil, nord-est des États-Unis, Sud-Est du Brésil) : **surface** orange.
+- Mégapoles (Tokyo, Delhi, Shanghai, Le Caire, Mexico, New York…) : **points** noirs.
+
+**2. Des espaces peu peuplés**
+- Déserts chauds (Sahara, Australie), déserts froids (Sibérie, Grand Nord canadien), forêt amazonienne : **surface** jaune pâle ou hachures.
+
+**Méthode** : couleurs chaudes et foncées pour les fortes densités, claires pour les faibles ; chaque figuré de la légende doit apparaître sur la carte, et la nomenclature (noms des foyers, des océans) s'écrit à l'horizontale.` },
+        { type: "redaction", question: "**Analyse de document** : « Certains serfs sont si soumis à leur seigneur que celui-ci peut prendre tout ce qu'ils ont, à leur mort et de leur vivant, et les tenir en prison toutes les fois qu'il lui plaît, à tort ou à raison ; il n'est tenu d'en répondre qu'à Dieu. » (Philippe de Beaumanoir, juriste, *Coutumes du Beauvaisis*, vers 1283, texte traduit en français moderne). Présente ce document, puis explique ce qu'il montre de la condition des serfs.", corrige: `**Présentation** : ce document est un **extrait d'un texte juridique**, les *Coutumes du Beauvaisis*, rédigé vers **1283** par **Philippe de Beaumanoir**, un juriste, bailli (représentant) du comte de Clermont puis du roi de France. Il décrit les règles (coutumes) en usage dans la région de Beauvais, au XIIIe siècle. Son auteur connaît bien le droit de son temps : c'est donc une source fiable sur les règles, mais il décrit la loi, pas forcément la vie réelle de tous les paysans.
+
+**Explication** : le texte montre que les **serfs** sont des paysans **non libres**, soumis à leur **seigneur** : celui-ci peut « prendre tout ce qu'ils ont » (domination économique) et « les tenir en prison toutes les fois qu'il lui plaît » (domination **judiciaire** : le seigneur rend la justice dans sa seigneurie). Il n'a de comptes à rendre qu'à **Dieu**, ce qui rappelle que la société d'ordres est présentée comme voulue par Dieu.
+
+**Regard critique** : l'auteur écrit « **certains** serfs » : il décrit la situation la plus dure, pas celle de tous ; en réalité, les obligations des serfs sont fixées par la coutume, et beaucoup obtiennent leur **affranchissement** aux XIIe-XIIIe siècles. Les paysans libres (vilains) sont aussi soumis au seigneur (corvées, taille, banalités) mais ne lui appartiennent pas.` },
       ],
     },
   ],

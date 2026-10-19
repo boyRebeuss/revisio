@@ -13,6 +13,8 @@ export function esc(s) {
 
 export function inline(s) {
   return esc(s)
+    // Espaces insécables dans les nombres (« 8 000 ») pour ne pas les couper
+    .replace(/(\d) (?=\d{3}(?!\d))/g, "$1&nbsp;")
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, "$1<em>$2</em>");
 }
@@ -46,9 +48,17 @@ export function bloc(src) {
       while (debut(re)) contenu.push(lignes[i++].replace(re, "").replace(/^ /, ""));
       out.push(`<div class="${methode ? "methode" : "retenir"}">${bloc(contenu.join("\n"))}</div>`);
     } else if (/^[-*]\s+/.test(t)) {
+      // Une puce décalée de 2 espaces ou plus est une sous-puce de la précédente
       const items = [];
-      while (debut(/^\s*[-*]\s+/)) items.push(lignes[i++].trim().replace(/^[-*]\s+/, ""));
-      out.push("<ul>" + items.map((x) => `<li>${inline(x)}</li>`).join("") + "</ul>");
+      while (debut(/^\s*[-*]\s+/)) {
+        const brut = lignes[i++];
+        const texte = brut.trim().replace(/^[-*]\s+/, "");
+        if (/^\s{2,}/.test(brut) && items.length) items.at(-1).sous.push(texte);
+        else items.push({ texte, sous: [] });
+      }
+      out.push("<ul>" + items.map((x) =>
+        `<li>${inline(x.texte)}` + (x.sous.length ? "<ul>" + x.sous.map((y) => `<li>${inline(y)}</li>`).join("") + "</ul>" : "") + "</li>"
+      ).join("") + "</ul>");
     } else if (/^\d+[.)]\s+/.test(t)) {
       const items = [];
       while (debut(/^\s*\d+[.)]\s+/)) items.push(lignes[i++].trim().replace(/^\d+[.)]\s+/, ""));

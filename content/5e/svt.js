@@ -46,11 +46,11 @@ La croûte et la partie supérieure du manteau forment la **lithosphère**, une 
       exercices: [
         { type: "qcm", question: "Quelle est la position de la Terre en partant du Soleil ?", choix: ["1re", "2e", "3e", "4e"], reponse: 2, explication: "L'ordre est Mercure, Vénus, **Terre**, Mars... La Terre est donc la 3e planète." },
         { type: "vf", question: "L'alternance du jour et de la nuit est due à la révolution de la Terre autour du Soleil.", reponse: false, explication: "C'est la **rotation** de la Terre sur elle-même (en 24 h environ) qui explique le jour et la nuit. La révolution (365,25 jours) correspond à une année." },
-        { type: "saisie", question: "Comment appelle-t-on les planètes rocheuses comme Mercure, Vénus, la Terre et Mars ?", reponses: ["telluriques", "planètes telluriques", "tellurique", "rocheuses"], explication: "Les 4 planètes les plus proches du Soleil sont les planètes **telluriques** (rocheuses). Les 4 autres sont des planètes géantes gazeuses." },
-        { type: "qcm", question: "Quelle couche du globe terrestre est liquide ?", choix: ["La croûte", "Le noyau externe", "Le manteau", "Le noyau interne"], reponse: 1, explication: "Seul le **noyau externe** (entre 2 900 et 5 100 km de profondeur) est liquide. Le manteau est solide même s'il se déforme très lentement." },
+        { type: "saisie", question: "Comment appelle-t-on les planètes rocheuses comme Mercure, Vénus, la Terre et Mars ?", reponses: ["telluriques", "planètes telluriques", "tellurique", "rocheuses", "planètes rocheuses"], explication: "Les 4 planètes les plus proches du Soleil sont les planètes **telluriques** (rocheuses). Les 4 autres sont des planètes géantes gazeuses." },
+        { type: "qcm", question: "Quelle couche du globe terrestre est liquide ?", choix: ["La croûte", "Le noyau interne", "Le manteau", "Le noyau externe"], reponse: 3, explication: "Seul le **noyau externe** (entre 2 900 et 5 100 km de profondeur) est liquide. Le manteau est solide même s'il se déforme très lentement." },
         { type: "vf", question: "Les saisons existent parce que la Terre est parfois beaucoup plus proche du Soleil.", reponse: false, explication: "Les saisons sont dues à l'**inclinaison de l'axe de rotation** de la Terre. La distance Terre-Soleil varie très peu, et la Terre est même plus proche du Soleil en janvier (hiver dans l'hémisphère Nord)." },
         { type: "saisie", question: "Combien de planètes compte le système solaire ? (en chiffres)", reponses: ["8", "huit"], explication: "Le système solaire compte **8 planètes** : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Pluton est une planète naine depuis 2006." },
-        { type: "qcm", question: "Quelle caractéristique de la Terre permet surtout la présence d'eau liquide ?", choix: ["Sa taille gigantesque", "Ses anneaux", "Sa distance au Soleil et son atmosphère", "Son noyau liquide"], reponse: 2, explication: "La **distance au Soleil** et l'**atmosphère** (effet de serre naturel) donnent une température moyenne d'environ 15 °C, ce qui permet à l'eau d'être liquide." },
+        { type: "qcm", question: "Quelle caractéristique de la Terre permet surtout la présence d'eau liquide ?", choix: ["Sa distance au Soleil et son atmosphère", "Ses anneaux", "Sa taille gigantesque", "Son noyau liquide"], reponse: 0, explication: "La **distance au Soleil** et l'**atmosphère** (effet de serre naturel) donnent une température moyenne d'environ 15 °C, ce qui permet à l'eau d'être liquide." },
         { type: "redaction", question: "Explique pourquoi il fait plus chaud en été qu'en hiver en France. Tu utiliseras les mots : axe de rotation, inclinaison, rayons du Soleil, durée du jour.", corrige: `La Terre tourne autour du Soleil en un an, et son **axe de rotation est incliné** d'environ 23° par rapport à son orbite. Cette inclinaison reste la même toute l'année.
 
 - En **été**, l'hémisphère Nord (où se trouve la France) est penché vers le Soleil : les **rayons du Soleil** arrivent plus verticalement, donc ils chauffent une surface plus petite et plus fortement. De plus, la **durée du jour** est longue (jusqu'à environ 16 h) : le sol est chauffé plus longtemps.
@@ -78,7 +78,7 @@ Pour identifier une roche, on observe ses caractéristiques : couleur, dureté (
 >! **Test du calcaire** : on dépose une goutte d'acide chlorhydrique dilué sur la roche. S'il y a une **effervescence** (des bulles de dioxyde de carbone), la roche contient du calcaire.
 
 ## L'érosion : la destruction des roches
-L'**érosion** est l'ensemble des phénomènes qui usent et détruisent les roches. Elle se fait en trois étapes :
+L'**érosion** est l'ensemble des phénomènes qui usent les roches (altération) et emportent leurs débris (transport). Elle est suivie du dépôt de ces débris (sédimentation). De la roche au sédiment, il y a donc trois étapes :
 1. **Altération** : la roche est abîmée et fragmentée par l'eau (pluie, rivières), le **gel** (l'eau qui gèle dans les fissures augmente de volume et fait éclater la roche), le vent, les racines des végétaux...
 2. **Transport** : les fragments (blocs, galets, sables, argiles) sont déplacés par l'eau, le vent ou les glaciers. Plus le courant est rapide, plus il peut transporter de gros éléments. Pendant le transport, les fragments s'arrondissent (galets).
 3. **Sédimentation** : quand le courant ralentit (plaine, lac, mer), les fragments se déposent : ce sont les **sédiments**. Les plus gros se déposent en premier.
@@ -159,11 +159,11 @@ Depuis environ 150 ans, la température moyenne de la Terre augmente (environ +1
 `,
       exercices: [
         { type: "vf", question: "« Demain, il pleuvra à Lyon » est une information sur le climat.", reponse: false, explication: "C'est une prévision **météorologique** : elle concerne un lieu et un moment précis. Le climat est une moyenne sur au moins 30 ans." },
-        { type: "qcm", question: "Quel instrument mesure la quantité de pluie tombée ?", choix: ["Le baromètre", "L'anémomètre", "Le pluviomètre", "L'hygromètre"], reponse: 2, explication: "Le **pluviomètre** mesure les précipitations en mm. Le baromètre mesure la pression, l'anémomètre la vitesse du vent, l'hygromètre l'humidité." },
+        { type: "qcm", question: "Quel instrument mesure la quantité de pluie tombée ?", choix: ["Le baromètre", "L'anémomètre", "L'hygromètre", "Le pluviomètre"], reponse: 3, explication: "Le **pluviomètre** mesure les précipitations en mm. Le baromètre mesure la pression, l'anémomètre la vitesse du vent, l'hygromètre l'humidité." },
         { type: "saisie", question: "Sur combien d'années au minimum calcule-t-on les moyennes qui définissent un climat ? (nombre)", reponses: ["30", "trente", "30 ans"], explication: "Le climat est défini par des moyennes calculées sur au moins **30 ans**." },
         { type: "qcm", question: "Un pluviomètre indique 12 mm de pluie. Quel volume d'eau est tombé sur 1 m² ?", choix: ["1,2 L", "12 L", "120 L", "0,12 L"], reponse: 1, explication: "1 mm de pluie correspond à 1 L par m². Donc 12 mm correspondent à **12 L** par m²." },
         { type: "vf", question: "L'air chaud a tendance à monter.", reponse: true, explication: "L'air chaud est moins dense que l'air froid : il **monte**. Ces mouvements sont à l'origine des vents et de la formation de nombreux nuages." },
-        { type: "qcm", question: "Quelle est la principale cause du réchauffement climatique actuel ?", choix: ["Le rapprochement de la Terre et du Soleil", "Les rejets de gaz à effet de serre par les activités humaines", "Les éruptions volcaniques", "La diminution du nombre de nuages"], reponse: 1, explication: "La combustion du charbon, du pétrole et du gaz rejette du **dioxyde de carbone**, un gaz à effet de serre qui renforce l'effet de serre et réchauffe la planète." },
+        { type: "qcm", question: "Quelle est la principale cause du réchauffement climatique actuel ?", choix: ["Les rejets de gaz à effet de serre par les activités humaines", "Le rapprochement de la Terre et du Soleil", "Les éruptions volcaniques", "La diminution du nombre de nuages"], reponse: 0, explication: "La combustion du charbon, du pétrole et du gaz rejette du **dioxyde de carbone**, un gaz à effet de serre qui renforce l'effet de serre et réchauffe la planète." },
         { type: "saisie", question: "Dans le cycle de l'eau, comment s'appelle le passage de l'eau liquide des océans à l'état de vapeur ?", reponses: ["évaporation", "l'évaporation", "vaporisation"], explication: "C'est l'**évaporation**, rendue possible par l'énergie du Soleil." },
         { type: "redaction", question: "Le climatogramme de Brest montre des températures moyennes de 7 °C en janvier et 16 °C en juillet, et des pluies toute l'année (environ 1 200 mm par an). Celui de Marseille montre 7 °C en janvier, 24 °C en juillet, très peu de pluie en été et environ 550 mm par an. Compare ces deux climats et propose une explication.", corrige: `**Comparaison** :
 - Les hivers sont aussi doux dans les deux villes (7 °C en janvier).
@@ -189,7 +189,7 @@ Un **séisme** (tremblement de terre) est une série de secousses du sol. Il est
 
 | Mesure | Ce qu'elle indique | Échelle |
 |---|---|---|
-| Magnitude | l'énergie libérée au foyer | échelle de Richter (ouverte) ; une seule valeur par séisme |
+| Magnitude | l'énergie libérée au foyer | échelle ouverte (on parle souvent d'« échelle de Richter ») ; une seule valeur par séisme ; +1 de magnitude ≈ 30 fois plus d'énergie |
 | Intensité | les effets et dégâts observés en un lieu | échelle EMS-98 de I à XII ; diminue en s'éloignant de l'épicentre |
 
 ## Les volcans
@@ -214,7 +214,7 @@ Un **risque** naturel existe quand un **aléa** (séisme, éruption) peut touche
 `,
       exercices: [
         { type: "saisie", question: "Comment s'appelle le point de la surface situé à la verticale du foyer d'un séisme ?", reponses: ["épicentre", "l'épicentre"], explication: "L'**épicentre** est à la surface, juste au-dessus du foyer (hypocentre) où la roche s'est rompue." },
-        { type: "qcm", question: "Une éruption avec des coulées de lave très fluide est une éruption :", choix: ["explosive", "effusive", "sismique", "sédimentaire"], reponse: 1, explication: "Une lave **fluide** s'écoule facilement et forme des coulées : l'éruption est **effusive**." },
+        { type: "qcm", question: "Une éruption avec des coulées de lave très fluide est une éruption :", choix: ["explosive", "sédimentaire", "sismique", "effusive"], reponse: 3, explication: "Une lave **fluide** s'écoule facilement et forme des coulées : l'éruption est **effusive**." },
         { type: "vf", question: "Un même séisme a une seule magnitude mais plusieurs intensités selon le lieu.", reponse: true, explication: "La **magnitude** mesure l'énergie libérée au foyer (une valeur unique). L'**intensité** mesure les dégâts, qui diminuent en général en s'éloignant de l'épicentre." },
         { type: "qcm", question: "Quel instrument enregistre les ondes sismiques ?", choix: ["Le sismographe", "Le baromètre", "Le thermomètre", "Le pluviomètre"], reponse: 0, explication: "Le **sismographe** enregistre les mouvements du sol ; l'enregistrement s'appelle un sismogramme." },
         { type: "vf", question: "Les éruptions explosives sont liées à une lave visqueuse riche en gaz.", reponse: true, explication: "Une lave **visqueuse** retient les gaz qui s'accumulent puis s'échappent violemment : l'éruption est **explosive** (nuées ardentes, cendres)." },
@@ -280,9 +280,9 @@ Les êtres vivants partagent des caractères communs parce qu'ils ont des **anc�
 `,
       exercices: [
         { type: "vf", question: "Une bactérie est un être vivant unicellulaire.", reponse: true, explication: "Une bactérie est formée d'**une seule cellule** : c'est un être unicellulaire." },
-        { type: "qcm", question: "Quel élément trouve-t-on dans une cellule végétale mais pas dans une cellule animale ?", choix: ["Le noyau", "La membrane", "La paroi", "Le cytoplasme"], reponse: 2, explication: "La **paroi** (ainsi que les chloroplastes et la grande vacuole) est propre aux cellules végétales. Noyau, membrane et cytoplasme existent dans les deux." },
+        { type: "qcm", question: "Quel élément trouve-t-on dans une cellule végétale mais pas dans une cellule animale ?", choix: ["La paroi", "La membrane", "Le noyau", "Le cytoplasme"], reponse: 0, explication: "La **paroi** (ainsi que les chloroplastes et la grande vacuole) est propre aux cellules végétales. Noyau, membrane et cytoplasme existent dans les deux." },
         { type: "saisie", question: "Un microscope a un oculaire ×10 et un objectif ×40. Quel est le grossissement total ? (nombre)", reponses: ["400", "x400", "×400"], explication: "Grossissement = 10 × 40 = **400**." },
-        { type: "qcm", question: "La chauve-souris possède des poils et des mamelles. Dans quel groupe la classe-t-on ?", choix: ["Les oiseaux", "Les mammifères", "Les insectes", "Les poissons"], reponse: 1, explication: "On classe selon les caractères partagés : poils et mamelles → **mammifères**. Le fait de voler n'est pas un critère de classification." },
+        { type: "qcm", question: "La chauve-souris possède des poils et des mamelles. Dans quel groupe la classe-t-on ?", choix: ["Les oiseaux", "Les poissons", "Les insectes", "Les mammifères"], reponse: 3, explication: "On classe selon les caractères partagés : poils et mamelles → **mammifères**. Le fait de voler n'est pas un critère de classification." },
         { type: "vf", question: "On peut regrouper le requin et la baleine car ils vivent tous les deux dans la mer.", reponse: false, explication: "Le lieu de vie n'est pas un critère de classification. La baleine (poils à la naissance, mamelles) est un mammifère ; le requin n'en est pas un." },
         { type: "saisie", question: "Quel élément de la cellule contient l'information génétique ?", reponses: ["noyau", "le noyau"], explication: "Le **noyau** contient l'ADN, support de l'information génétique." },
         { type: "qcm", question: "Une araignée a 8 pattes articulées et un squelette externe. C'est :", choix: ["un insecte", "un arachnide", "un vertébré", "un mammifère"], reponse: 1, explication: "Squelette externe et pattes articulées → arthropode ; 8 pattes → **arachnide**. Les insectes ont 6 pattes." },
@@ -342,7 +342,7 @@ Pour décrire une courbe, on indique les valeurs de départ et d'arrivée, on re
 > - Pour décrire, on cite des valeurs ; pour interpréter, on explique le « pourquoi ».
 `,
       exercices: [
-        { type: "qcm", question: "Dans la démarche scientifique, que fait-on juste après avoir formulé le problème ?", choix: ["On conclut", "On propose une hypothèse", "On publie les résultats", "On trace le graphique"], reponse: 1, explication: "Après le problème, on propose une **hypothèse** (explication possible), puis on la teste par une expérience." },
+        { type: "qcm", question: "Dans la démarche scientifique, que fait-on juste après avoir formulé le problème ?", choix: ["On propose une hypothèse", "On conclut", "On publie les résultats", "On trace le graphique"], reponse: 0, explication: "Après le problème, on propose une **hypothèse** (explication possible), puis on la teste par une expérience." },
         { type: "saisie", question: "Comment appelle-t-on l'expérience qui sert de référence pour comparer, où le paramètre testé n'est pas modifié ?", reponses: ["témoin", "expérience témoin", "l'expérience témoin", "le témoin", "une expérience témoin"], explication: "C'est l'**expérience témoin** : elle permet de vérifier que c'est bien le paramètre testé qui est responsable de la différence." },
         { type: "vf", question: "Pour tester l'effet de la lumière et de l'eau sur une plante, on peut changer les deux en même temps dans une seule expérience.", reponse: false, explication: "Si on change deux paramètres à la fois, on ne peut pas savoir lequel est responsable du résultat. On ne fait varier **qu'un seul paramètre** à la fois." },
         { type: "qcm", question: "Sur un graphique « Évolution de la température en fonction du temps », que place-t-on en abscisse ?", choix: ["La température", "Le temps", "Le titre", "Rien"], reponse: 1, explication: "Le titre « Y en fonction de X » indique que X (ici **le temps**) est en abscisse (axe horizontal) et Y (la température) en ordonnée." },
@@ -353,7 +353,7 @@ Pour décrire une courbe, on indique les valeurs de départ et d'arrivée, on re
 
 **Interprétation** : seul le paramètre **température** est différent (même arrosage, même plante, même durée). La différence de croissance est donc due à la température : dans ces conditions, une température de 25 °C favorise la croissance de cette plante par rapport à 10 °C.
 
-**Témoin** : on peut considérer la plante dans les conditions habituelles comme témoin ; ici, chaque plante sert de comparaison à l'autre. L'important est qu'un seul paramètre varie.
+**Témoin** : il n'y a pas ici de « témoin » au sens strict ; les deux plantes se servent mutuellement de comparaison. On peut choisir comme témoin la plante placée dans les conditions habituelles de culture (ici 25 °C, température d'une pièce chauffée). L'important est qu'**un seul paramètre** (la température) varie entre les deux lots.
 
 **Fiabilité** : avec une seule plante par lot, le résultat est peu fiable (une plante peut être malade). Il faudrait **répéter** l'expérience avec plusieurs plantes par lot, et vérifier que la lumière reçue est identique.` },
       ],
@@ -400,9 +400,9 @@ Au cours des saisons, les êtres vivants s'adaptent aux conditions défavorables
 > - La répartition des êtres vivants dépend des conditions du milieu, qui varient avec les saisons.
 `,
       exercices: [
-        { type: "qcm", question: "Respirer, c'est :", choix: ["prélever du CO₂ et rejeter du O₂", "prélever du O₂ et rejeter du CO₂", "prélever de l'eau", "rejeter de l'azote"], reponse: 1, explication: "La respiration consiste à **prélever du dioxygène** et à **rejeter du dioxyde de carbone**." },
+        { type: "qcm", question: "Respirer, c'est :", choix: ["prélever du O₂ et rejeter du CO₂", "prélever du CO₂ et rejeter du O₂", "prélever de l'eau", "rejeter de l'azote"], reponse: 0, explication: "La respiration consiste à **prélever du dioxygène** et à **rejeter du dioxyde de carbone**." },
         { type: "saisie", question: "Quel liquide se trouble en présence de dioxyde de carbone ?", reponses: ["eau de chaux", "l'eau de chaux", "de l'eau de chaux"], explication: "L'**eau de chaux** se trouble en présence de CO₂ : c'est le test du dioxyde de carbone." },
-        { type: "qcm", question: "Quel est l'organe respiratoire d'un poisson ?", choix: ["Les poumons", "Les trachées", "Les branchies", "Les stomates"], reponse: 2, explication: "Les poissons respirent grâce à des **branchies**, qui prélèvent le dioxygène dissous dans l'eau." },
+        { type: "qcm", question: "Quel est l'organe respiratoire d'un poisson ?", choix: ["Les poumons", "Les trachées", "Les stomates", "Les branchies"], reponse: 3, explication: "Les poissons respirent grâce à des **branchies**, qui prélèvent le dioxygène dissous dans l'eau." },
         { type: "vf", question: "Les plantes ne respirent pas : elles font seulement la photosynthèse.", reponse: false, explication: "Les plantes **respirent jour et nuit**. La photosynthèse s'ajoute à la respiration seulement à la lumière, dans les parties vertes." },
         { type: "qcm", question: "Les insectes respirent grâce à :", choix: ["des trachées", "des branchies", "des poumons", "leurs ailes"], reponse: 0, explication: "Les insectes ont des **trachées**, petits tubes qui amènent l'air jusqu'aux organes ; ils s'ouvrent par des stigmates." },
         { type: "vf", question: "Une eau plus chaude contient moins de dioxygène dissous qu'une eau froide.", reponse: true, explication: "Plus l'eau est chaude, moins elle peut dissoudre de dioxygène : c'est pourquoi les poissons souffrent lors des canicules." },
@@ -429,7 +429,7 @@ La **digestion** est la transformation des aliments en **nutriments**, des molé
 
 >! **Expérience** : on mélange de l'amidon et de la salive à 37 °C. Au départ, l'eau iodée devient bleu-noir (présence d'amidon). Après 15 minutes, elle ne bleuit plus : l'amidon a été transformé en sucre plus simple par une enzyme de la salive. Le tube témoin (amidon + eau, sans salive) bleuit toujours.
 
-L'**absorption** : les nutriments passent dans le sang au niveau de l'**intestin grêle**, dont la paroi est fine, très longue (environ 7 m) et plissée de **villosités**, ce qui donne une très grande surface d'échange. Les restes non digérés sont éliminés sous forme d'excréments.
+L'**absorption** : les nutriments passent dans le sang au niveau de l'**intestin grêle**, qui est très long (environ 7 m) et dont la paroi, très fine et richement irriguée de capillaires, est plissée de **villosités** : cela donne une très grande surface d'échange (plusieurs dizaines de m², bien plus que la surface de ta peau, environ 2 m²). Les restes non digérés sont éliminés sous forme d'excréments.
 
 ## La respiration chez l'humain
 L'air entre par le nez ou la bouche, passe par la **trachée**, les **bronches**, les **bronchioles** et arrive dans les **alvéoles pulmonaires**. Là, le dioxygène passe dans le sang et le dioxyde de carbone passe du sang dans l'air.
@@ -454,12 +454,12 @@ Le sang **transporte** : le dioxygène (fixé sur les globules rouges), les nutr
 > - Le sang, mis en mouvement par le cœur, transporte tout ; les échanges ont lieu dans les capillaires.
 `,
       exercices: [
-        { type: "qcm", question: "Où se fait principalement l'absorption des nutriments ?", choix: ["Dans l'estomac", "Dans l'œsophage", "Dans l'intestin grêle", "Dans le gros intestin"], reponse: 2, explication: "L'**intestin grêle** a une paroi fine et une très grande surface grâce à ses villosités : c'est là que les nutriments passent dans le sang." },
+        { type: "qcm", question: "Où se fait principalement l'absorption des nutriments ?", choix: ["Dans l'estomac", "Dans l'œsophage", "Dans le gros intestin", "Dans l'intestin grêle"], reponse: 3, explication: "L'**intestin grêle** a une paroi fine et une très grande surface grâce à ses villosités : c'est là que les nutriments passent dans le sang." },
         { type: "saisie", question: "Comment appelle-t-on les molécules contenues dans les sucs digestifs qui transforment les aliments ?", reponses: ["enzymes", "des enzymes", "les enzymes", "enzyme", "enzymes digestives"], explication: "Ce sont les **enzymes digestives**, comme celle de la salive qui transforme l'amidon." },
         { type: "vf", question: "Les artères ramènent le sang des organes vers le cœur.", reponse: false, explication: "Ce sont les **veines** qui ramènent le sang vers le cœur. Les **artères** partent du cœur vers les organes." },
         { type: "qcm", question: "Dans quelle partie des poumons se font les échanges gazeux avec le sang ?", choix: ["La trachée", "Les bronches", "Les alvéoles pulmonaires", "Le larynx"], reponse: 2, explication: "Les **alvéoles**, minuscules sacs à paroi très fine entourés de capillaires, sont le lieu des échanges gazeux." },
         { type: "vf", question: "L'air expiré contient environ 100 fois plus de dioxyde de carbone que l'air inspiré.", reponse: true, explication: "Environ 4 % dans l'air expiré contre environ 0,04 % dans l'air inspiré : 4 ÷ 0,04 = **100**. Le CO₂ produit par les organes est rejeté par les poumons." },
-        { type: "qcm", question: "Quel organe élimine l'urée du sang ?", choix: ["Le cœur", "Les reins", "L'estomac", "Les poumons"], reponse: 1, explication: "Les **reins** filtrent le sang et éliminent l'urée dans l'urine. Les poumons, eux, éliminent le CO₂." },
+        { type: "qcm", question: "Quel organe élimine l'urée du sang ?", choix: ["Les reins", "Le cœur", "L'estomac", "Les poumons"], reponse: 0, explication: "Les **reins** filtrent le sang et éliminent l'urée dans l'urine. Les poumons, eux, éliminent le CO₂." },
         { type: "saisie", question: "Quelles cellules du sang transportent le dioxygène ?", reponses: ["globules rouges", "les globules rouges", "hématies", "les hématies"], explication: "Les **globules rouges** (hématies) transportent le dioxygène grâce à l'hémoglobine." },
         { type: "redaction", question: "Tube A : amidon + salive à 37 °C. Tube B : amidon + eau à 37 °C. Après 15 min, on ajoute de l'eau iodée : le tube A reste jaune-orangé, le tube B devient bleu-noir. Interprète l'expérience. À quoi sert le tube B ?", corrige: `**Rappel** : l'eau iodée devient bleu-noir en présence d'**amidon**.
 
@@ -512,12 +512,12 @@ Après l'effort, pendant la **récupération**, les fréquences diminuent progre
 > - Échauffement, hydratation, récupération et sommeil protègent la santé.
 `,
       exercices: [
-        { type: "qcm", question: "Quel groupe d'aliments apporte principalement le calcium nécessaire aux os ?", choix: ["Les féculents", "Les produits laitiers", "Les produits sucrés", "Les matières grasses"], reponse: 1, explication: "Les **produits laitiers** (lait, yaourt, fromage) sont la principale source de calcium." },
+        { type: "qcm", question: "Quel groupe d'aliments apporte principalement le calcium nécessaire aux os ?", choix: ["Les féculents", "Les matières grasses", "Les produits sucrés", "Les produits laitiers"], reponse: 3, explication: "Les **produits laitiers** (lait, yaourt, fromage) sont la principale source de calcium." },
         { type: "vf", question: "Pendant un effort, la fréquence cardiaque diminue pour économiser l'énergie.", reponse: false, explication: "La fréquence cardiaque **augmente** pendant l'effort : le cœur envoie plus de sang aux muscles, qui ont besoin de plus de O₂ et de nutriments." },
         { type: "saisie", question: "Selon la formule 220 − âge, quelle est la fréquence cardiaque maximale théorique d'une personne de 40 ans ? (battements par minute)", reponses: ["180", "180 battements par minute", "180 bpm"], explication: "220 − 40 = **180** battements par minute." },
         { type: "qcm", question: "Quelle est la seule boisson indispensable ?", choix: ["Le jus de fruits", "Le soda", "L'eau", "Le lait"], reponse: 2, explication: "L'**eau** est la seule boisson indispensable. Les sodas et jus contiennent beaucoup de sucre." },
         { type: "vf", question: "Les besoins alimentaires d'un sportif de 15 ans sont les mêmes que ceux d'une personne âgée sédentaire.", reponse: false, explication: "Les besoins dépendent de l'**âge**, du **sexe** et de l'**activité physique** : un adolescent sportif a besoin de plus d'énergie." },
-        { type: "qcm", question: "Pourquoi la fréquence respiratoire augmente-t-elle pendant l'effort ?", choix: ["Pour rejeter plus de dioxygène", "Pour apporter plus de dioxygène aux muscles et rejeter plus de CO₂", "Pour refroidir les poumons", "Parce que les muscles produisent de l'oxygène"], reponse: 1, explication: "Les muscles consomment plus de **dioxygène** et produisent plus de **CO₂** : respirer plus vite permet d'augmenter les échanges gazeux." },
+        { type: "qcm", question: "Pourquoi la fréquence respiratoire augmente-t-elle pendant l'effort ?", choix: ["Pour apporter plus de dioxygène aux muscles et rejeter plus de CO₂", "Pour rejeter plus de dioxygène", "Pour refroidir les poumons", "Parce que les muscles produisent de l'oxygène"], reponse: 0, explication: "Les muscles consomment plus de **dioxygène** et produisent plus de **CO₂** : respirer plus vite permet d'augmenter les échanges gazeux." },
         { type: "saisie", question: "Comment appelle-t-on la phase après l'effort pendant laquelle les fréquences reviennent aux valeurs de repos ?", reponses: ["récupération", "la récupération"], explication: "C'est la **récupération**. Elle est plus rapide chez une personne entraînée." },
         { type: "redaction", question: "On mesure la fréquence cardiaque de Léa : 75 battements/min au repos, 160 battements/min après 5 minutes de course, puis 120 battements/min 2 minutes après l'arrêt et 78 battements/min 5 minutes après l'arrêt. Décris l'évolution de sa fréquence cardiaque et explique-la.", corrige: `**Description** :
 - Au repos : 75 battements/min.
@@ -580,7 +580,7 @@ Un milieu nu (après un incendie, une coulée de lave) est **colonisé** progres
 `,
       exercices: [
         { type: "saisie", question: "Comment appelle-t-on la fusion d'un gamète mâle et d'un gamète femelle ?", reponses: ["fécondation", "la fécondation"], explication: "C'est la **fécondation** : elle donne une cellule-œuf." },
-        { type: "qcm", question: "Le fraisier se multiplie grâce à des tiges rampantes appelées :", choix: ["tubercules", "bulbes", "stolons", "étamines"], reponse: 2, explication: "Les **stolons** sont des tiges rampantes qui forment de nouveaux fraisiers : c'est une reproduction asexuée." },
+        { type: "qcm", question: "Le fraisier se multiplie grâce à des tiges rampantes appelées :", choix: ["stolons", "bulbes", "tubercules", "étamines"], reponse: 0, explication: "Les **stolons** sont des tiges rampantes qui forment de nouveaux fraisiers : c'est une reproduction asexuée." },
         { type: "vf", question: "Dans la reproduction asexuée, les descendants sont génétiquement identiques au parent.", reponse: true, explication: "Il n'y a qu'un seul parent et pas de fécondation : les descendants sont des **clones**." },
         { type: "qcm", question: "Quelle partie de la fleur produit le pollen ?", choix: ["Le pistil", "Les pétales", "Les étamines", "Les sépales"], reponse: 2, explication: "Les **étamines** sont les organes mâles qui produisent le pollen. Le pistil est l'organe femelle." },
         { type: "vf", question: "Chez la grenouille, la fécondation est interne.", reponse: false, explication: "Chez la grenouille, la femelle pond ses ovules dans l'eau et le mâle y libère ses spermatozoïdes : la fécondation est **externe**." },
@@ -617,7 +617,7 @@ Une **chaîne alimentaire** montre qui mange qui. La flèche signifie **« est m
 | Producteur | fabrique sa matière à partir de matière minérale, grâce à la lumière (photosynthèse) | végétaux chlorophylliens, algues |
 | Consommateur primaire | mange des producteurs (herbivore) | criquet, lapin |
 | Consommateur secondaire | mange des consommateurs primaires (carnivore) | grenouille, renard |
-| Décomposeur | transforme la matière morte (feuilles, cadavres, excréments) en matière minérale | champignons, bactéries, vers de terre |
+| Décomposeur | transforme la matière morte (feuilles, cadavres, excréments) en matière minérale | champignons, bactéries (aidés par les vers de terre et les cloportes, qui fragmentent la matière morte) |
 
 Toutes les chaînes commencent par un **producteur**. L'ensemble des chaînes alimentaires reliées entre elles forme un **réseau trophique**. Si une espèce disparaît, tout le réseau peut être perturbé. Grâce aux décomposeurs, la matière est **recyclée** : la matière minérale est réutilisée par les végétaux.
 
@@ -641,9 +641,9 @@ Aires protégées (parcs nationaux, réserves), **corridors écologiques** (haie
 `,
       exercices: [
         { type: "saisie", question: "Comment appelle-t-on l'ensemble des êtres vivants d'un écosystème ?", reponses: ["biocénose", "la biocénose"], explication: "La **biocénose** est l'ensemble des êtres vivants ; le **biotope** est le milieu physique." },
-        { type: "qcm", question: "Dans la chaîne « herbe → lapin → renard », que signifie la flèche ?", choix: ["« mange »", "« est mangé par »", "« vit avec »", "« produit »"], reponse: 1, explication: "La flèche signifie « **est mangé par** » : l'herbe est mangée par le lapin, qui est mangé par le renard." },
+        { type: "qcm", question: "Dans la chaîne « herbe → lapin → renard », que signifie la flèche ?", choix: ["« est mangé par »", "« mange »", "« vit avec »", "« produit »"], reponse: 0, explication: "La flèche signifie « **est mangé par** » : l'herbe est mangée par le lapin, qui est mangé par le renard." },
         { type: "vf", question: "Une chaîne alimentaire commence toujours par un végétal chlorophyllien (ou une algue).", reponse: true, explication: "Elle commence par un **producteur**, seul capable de fabriquer sa matière à partir de matière minérale grâce à la lumière." },
-        { type: "qcm", question: "Quel est le rôle des champignons et des bactéries du sol ?", choix: ["Producteurs", "Consommateurs primaires", "Décomposeurs", "Pollinisateurs"], reponse: 2, explication: "Ce sont des **décomposeurs** : ils transforment la matière morte en matière minérale, réutilisée par les végétaux." },
+        { type: "qcm", question: "Quel est le rôle des champignons et des bactéries du sol ?", choix: ["Producteurs", "Consommateurs primaires", "Pollinisateurs", "Décomposeurs"], reponse: 3, explication: "Ce sont des **décomposeurs** : ils transforment la matière morte en matière minérale, réutilisée par les végétaux." },
         { type: "qcm", question: "Dans la chaîne « algue → crevette → poisson → phoque », la crevette est :", choix: ["un producteur", "un consommateur primaire", "un consommateur secondaire", "un décomposeur"], reponse: 1, explication: "La crevette mange l'algue (un producteur) : c'est un **consommateur primaire**." },
         { type: "vf", question: "Planter des haies entre les champs peut aider à préserver la biodiversité.", reponse: true, explication: "Les haies servent d'abri et de **corridors écologiques** : elles permettent aux animaux de se déplacer entre les milieux." },
         { type: "saisie", question: "Comment appelle-t-on l'ensemble des chaînes alimentaires reliées entre elles dans un écosystème ?", reponses: ["réseau trophique", "un réseau trophique", "le réseau trophique", "réseau alimentaire"], explication: "C'est un **réseau trophique** (ou réseau alimentaire)." },
@@ -704,6 +704,69 @@ Ces transformations sont déclenchées par des **hormones**, des substances tran
 Chaque mois, la paroi de l'**utérus** s'épaissit pour pouvoir accueillir un éventuel embryon. Si l'ovule n'est **pas fécondé** par un spermatozoïde, cette paroi se détache et s'élimine avec un peu de sang par le vagin : ce sont les **règles**. Elles durent quelques jours et reviennent environ tous les **28 jours**.
 
 L'apparition des règles montre que l'organisme de la jeune fille devient capable de se reproduire.` },
+      ],
+    },
+    {
+      id: "nutrition-vegetaux",
+      titre: "Les besoins des plantes vertes et la production de matière",
+      theme: "Le vivant et son évolution",
+      cours: `
+## De quoi une plante verte a-t-elle besoin ?
+Une plante verte (on dit **chlorophyllienne**) ne mange pas : elle **fabrique sa propre matière** à partir de **matière minérale** prélevée dans son milieu. Pour cela, elle a besoin :
+- d'**eau** et de **sels minéraux** (nitrates, phosphates...), prélevés dans le sol par les **racines** (au niveau des **poils absorbants**, qui augmentent la surface d'échange) ;
+- de **dioxyde de carbone** (CO₂), prélevé dans l'air par les **stomates** des feuilles ;
+- de **lumière**, captée par la **chlorophylle**, le pigment vert contenu dans les **chloroplastes**.
+
+On dit qu'une plante verte est un **producteur** : elle produit de la matière organique à partir de matière minérale.
+
+## La photosynthèse
+Dans les feuilles éclairées, les cellules chlorophylliennes réalisent la **photosynthèse** :
+
+eau + dioxyde de carbone → matière organique (sucres) + dioxygène, grâce à la **lumière** et à la **chlorophylle**.
+
+>! **Mettre en évidence l'amidon dans une feuille** : on place une plante à l'obscurité 48 h (elle utilise ses réserves), puis on cache une partie d'une feuille avec un cache opaque et on éclaire la plante plusieurs heures. On décolore la feuille (dans l'alcool chaud, au laboratoire) et on la plonge dans l'**eau iodée**. Seules les parties **éclairées** deviennent **bleu-noir** : elles ont fabriqué de l'**amidon**. La partie cachée ne se colore pas : sans lumière, pas de production de matière. Une feuille panachée (vert et blanc) montre de même que seules les parties **vertes** (avec chlorophylle) fabriquent de l'amidon.
+
+## La circulation de la matière dans la plante
+La plante possède deux sortes de vaisseaux conducteurs, qui transportent deux **sèves** différentes :
+
+| Sève | Contenu | Trajet |
+|---|---|---|
+| **Sève brute** | eau + sels minéraux | des racines vers les feuilles (elle monte) |
+| **Sève élaborée** | eau + sucres fabriqués par la photosynthèse | des feuilles vers tous les organes (racines, fruits, graines, tubercules) |
+
+Les sucres apportés par la sève élaborée servent à la **croissance** et à la **respiration** des cellules ; une partie est mise en **réserve** (souvent sous forme d'amidon) dans des organes de réserve : tubercule de pomme de terre, racine de carotte, graines de haricot ou de blé, fruits.
+
+>! **Exemple** : la pomme de terre est un tubercule (une tige souterraine) rempli d'amidon. Cet amidon a été fabriqué dans les feuilles, transporté par la sève élaborée sous forme de sucre, puis stocké. Il servira à la nouvelle plante au printemps.
+
+## Les plantes, base des chaînes alimentaires
+Toute la matière des animaux provient, directement ou non, de la matière fabriquée par les plantes vertes : c'est pourquoi **toutes les chaînes alimentaires commencent par un producteur**. La photosynthèse produit aussi le **dioxygène** que nous respirons.
+
+>! **Attention à une erreur fréquente** : la plante ne « mange » pas la terre. Une expérience célèbre (van Helmont, XVIIe siècle) le montre : un saule planté dans un pot a gagné environ 74 kg en 5 ans, alors que la terre du pot n'avait perdu que quelques dizaines de grammes. La matière de la plante vient surtout du **CO₂ de l'air** et de l'**eau**.
+
+> **À retenir** :
+> - Une plante verte fabrique sa matière à partir d'eau, de sels minéraux et de CO₂, grâce à la lumière captée par la chlorophylle : c'est la **photosynthèse**.
+> - Les racines prélèvent eau et sels minéraux ; les feuilles prélèvent le CO₂ par les stomates.
+> - Sève brute (eau + sels minéraux) : racines → feuilles ; sève élaborée (sucres) : feuilles → tous les organes.
+> - Une partie de la matière fabriquée est stockée dans des organes de réserve (tubercules, graines, fruits), souvent sous forme d'amidon.
+`,
+      exercices: [
+        { type: "qcm", question: "Par quels organes une plante verte prélève-t-elle l'eau et les sels minéraux ?", choix: ["Les feuilles", "Les fruits", "Les fleurs", "Les racines"], reponse: 3, explication: "Les **racines**, grâce à leurs **poils absorbants**, prélèvent l'eau et les sels minéraux du sol. Les feuilles prélèvent le CO₂ de l'air." },
+        { type: "saisie", question: "Comment s'appelle le pigment vert qui capte la lumière dans les feuilles ?", reponses: ["chlorophylle", "la chlorophylle"], explication: "C'est la **chlorophylle**, contenue dans les chloroplastes des cellules des parties vertes." },
+        { type: "vf", question: "Une plante verte grossit surtout en mangeant la terre du sol.", reponse: false, explication: "La plante fabrique sa matière surtout à partir du **CO₂ de l'air** et de l'**eau**, grâce à la lumière (photosynthèse). Le sol n'apporte que l'eau et une petite quantité de sels minéraux." },
+        { type: "qcm", question: "Quel gaz la plante prélève-t-elle dans l'air pour fabriquer sa matière ?", choix: ["Le dioxyde de carbone", "Le diazote", "Le dioxygène", "La vapeur d'eau"], reponse: 0, explication: "La photosynthèse utilise le **dioxyde de carbone** (CO₂), qui entre par les stomates des feuilles, et rejette du dioxygène." },
+        { type: "saisie", question: "Quelle sève, contenant les sucres fabriqués par les feuilles, est distribuée à tous les organes de la plante ?", reponses: ["sève élaborée", "la sève élaborée", "seve elaboree"], explication: "C'est la **sève élaborée**. La sève brute, elle, contient l'eau et les sels minéraux et monte des racines vers les feuilles." },
+        { type: "qcm", question: "On cache une partie d'une feuille, on éclaire la plante, puis on teste la feuille à l'eau iodée. Que constate-t-on ?", choix: ["Toute la feuille devient bleu-noir", "Seule la partie éclairée devient bleu-noir", "Seule la partie cachée devient bleu-noir", "Rien ne se colore"], reponse: 1, explication: "Seule la partie **éclairée** a fabriqué de l'**amidon** (coloration bleu-noir à l'eau iodée) : la lumière est indispensable à la production de matière." },
+        { type: "vf", question: "Le tubercule de pomme de terre est un organe de réserve rempli d'amidon.", reponse: true, explication: "L'amidon, fabriqué dans les feuilles puis transporté par la sève élaborée, est stocké dans le **tubercule**, une tige souterraine." },
+        { type: "qcm", question: "Une feuille panachée a des zones vertes et des zones blanches (sans chlorophylle). Après une journée au soleil, où trouve-t-on de l'amidon ?", choix: ["Dans les zones blanches seulement", "Dans toute la feuille", "Nulle part", "Dans les zones vertes seulement"], reponse: 3, explication: "Seules les zones **vertes**, qui contiennent de la chlorophylle, réalisent la photosynthèse et fabriquent de l'amidon." },
+        { type: "redaction", question: "Au XVIIe siècle, van Helmont plante un saule de 2,3 kg dans un pot contenant 90 kg de terre sèche. Pendant 5 ans, il l'arrose seulement avec de l'eau de pluie. À la fin, le saule pèse 76,7 kg et la terre, séchée, pèse 89,94 kg. 1) Calcule la masse gagnée par le saule et la masse perdue par la terre. 2) La plante s'est-elle nourrie de terre ? 3) D'où vient la matière du saule, d'après tes connaissances ?", corrige: `1) **Calculs** :
+- masse gagnée par le saule : 76,7 − 2,3 = **74,4 kg** ;
+- masse perdue par la terre : 90 − 89,94 = **0,06 kg**, soit 60 g.
+
+2) La terre n'a perdu que 60 g alors que le saule a gagné 74,4 kg, plus de 1 000 fois plus. La plante **ne s'est donc pas nourrie de terre**. (Les 60 g perdus correspondent aux sels minéraux prélevés par les racines.)
+
+3) La plante verte fabrique sa matière par **photosynthèse**, dans ses feuilles éclairées, à partir de l'**eau** (prélevée par les racines) et du **dioxyde de carbone de l'air** (prélevé par les stomates), grâce à l'énergie de la **lumière** captée par la **chlorophylle**. Les **sels minéraux** du sol, en petite quantité, sont aussi nécessaires. Van Helmont pensait que tout venait de l'eau : il ignorait le rôle du CO₂ de l'air, découvert plus tard.
+
+> Conclusion : la matière d'une plante verte vient surtout de l'air (CO₂) et de l'eau, transformés grâce à la lumière.` },
       ],
     },
   ],

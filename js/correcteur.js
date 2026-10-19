@@ -55,7 +55,7 @@ function sansAppui(s) {
 function sansPrefixe(s) {
   return s
     .replace(/^[a-z]{1,2}(?:'|′)?(?:\s*\([a-z]\))?\s*=\s*(?=\S)/, "")
-    .replace(/^[a-z]\s*(?=\()/, "");
+    .replace(/^[a-z](?:'|′)?\s*(?=\()/, "");
 }
 
 // Forme compacte pour les écritures mathématiques et les mots composés
@@ -63,6 +63,12 @@ function compacte(s) {
   // Les tirets ne se suppriment que dans les mots (« asylum-seeker »), pas en maths
   const mots = !/[\d=+*/^()√]/.test(s);
   return s
+    // Contractions anglaises (« I've » = « I have ») ; « 's » reste ambigu (is/has)
+    .replace(/\bwon't\b/g, "will not").replace(/\bcan't\b/g, "cannot").replace(/\bshan't\b/g, "shall not")
+    .replace(/n't\b/g, " not").replace(/'ve\b/g, " have").replace(/'re\b/g, " are").replace(/\bi'm\b/g, "i am")
+    .replace(/'ll\b/g, " will").replace(/'d\b/g, " would")
+    .replace(/\b(it|that|there|what|where|who|he|she)'s\b/g, "$1 is")
+    .replace(/\bcan not\b/g, "cannot")
     .replace(/²/g, "^2").replace(/³/g, "^3")
     .replace(/\bracine(?:\s+carree)?(?:\s+de)?\s*/g, "√").replace(/\bsqrt\s*/g, "√")
     .replace(/\bexp\s*\(([^()]+)\)/g, "e^$1")
@@ -77,18 +83,51 @@ function compacte(s) {
 
 // Nombre éventuellement suivi d'une unité ou d'un mot : { v, pct, frac } ou null
 function nombre(s) {
-  const t = s.replace(/^\+/, "").replace(/(\d)\s+(?=\d{3}(?!\d))/g, "$1").replace(/\s*pour\s*cents?\b|\s*pourcents?\b|\s*percent\b/g, " %");
+  const t = s
+    // Notation scientifique : 4,2 × 10^9 ; 4,2.10^9 ; 4,2*10⁹ ; 10^-2
+    .replace(/10([⁻]?[⁰¹²³⁴⁵⁶⁷⁸⁹]+)/g, (m, e) => "10^" + [...e].map((c) => "⁻⁰¹²³⁴⁵⁶⁷⁸⁹".indexOf(c) === 0 ? "-" : "⁻⁰¹²³⁴⁵⁶⁷⁸⁹".indexOf(c) - 1).join(""))
+    .replace(/^(-?\d+(?:\.\d+)?)\s*(?:×|x|\*|\.)\s*10\s*\^\s*\(?(-?\d+)\)?/, "$1e$2")
+    .replace(/^10\s*\^\s*\(?(-?\d+)\)?/, "1e$1")
+    .replace(/^\+/, "").replace(/(\d)(?:st|nd|rd|th|er|re|e|eme|ème|º|ª)(?=\s|$)/g, "$1").replace(/(\d)\s+(?=\d{3}(?!\d))/g, "$1").replace(/\s*pour\s*cents?\b|\s*pourcents?\b|\s*percent\b/g, " %");
   // Unité permise : %, symbole, h/s/m/g/l/j, ou mot de 2 lettres ou plus
   // (une lettre seule est une variable : « 6x » n'est pas le nombre 6)
-  const m = t.match(/^(-?\d+(?:\.\d+)?)(?:\s*\/\s*(\d+(?:\.\d+)?))?\s*(%|[°€$£µ][\p{L}\/²³.\s]*|[hsmglj]|\p{L}[\p{L}\/²³.'\s]+)?$/u);
+  const m = t.match(/^(-?\d+(?:\.\d+)?(?:e-?\d+)?)(?:\s*\/\s*(\d+(?:\.\d+)?))?\s*(%[\p{L}\s']*|[°€$£µ][\p{L}\/²³.\s]*|[hsmglj]|\p{L}[\p{L}\/²³.'\s]+)?$/u);
   if (!m) return null;
   const v = m[2] ? parseFloat(m[1]) / parseFloat(m[2]) : parseFloat(m[1]);
   if (!Number.isFinite(v)) return null;
-  return { v, pct: m[3] === "%", frac: !!m[2] };
+  let u = (m[3] || "").trim();
+  // « 2 millions » = 2 000 000
+  let v2 = v;
+  const mult = u.match(/^(millions?|milliards?|mille|thousands?|millones?|mil)\b\s*(?:de\s+|d'|of\s+)?/);
+  if (mult) {
+    v2 = v * (/^milliard/.test(mult[1]) ? 1e9 : /^(million|millon)/.test(mult[1]) ? 1e6 : 1e3);
+    u = u.slice(mult[0].length).trim();
+  }
+  return { v: v2, pct: u.startsWith("%"), frac: !!m[2], u: u.startsWith("%") ? "" : u };
+}
+
+// Unités équivalentes (le pluriel et le point final sont ignorés)
+const SYNONYMES = [
+  ["€", "euro", "eur"], ["$", "dollar", "usd"], ["h", "heure", "hour", "hr"], ["min", "minute", "mn"],
+  ["s", "seconde", "second", "sec"], ["pt", "point"], ["an", "annee", "year", "ano"], ["°", "degre", "degree", "grado"],
+  ["km", "kilometre", "kilometer"], ["m", "metre", "meter"], ["g", "gramme", "gram"], ["kg", "kilogramme", "kilo"],
+  ["l", "litre", "liter"], ["j", "jour", "day"],
+];
+const radical = (u) =>
+  u.replace(/[.\s]+$/, "").replace(/^(?:(?:of|de|du)\s+|d')/, "").replace(/(?<=\p{L}{2})s(?=\/|$)/gu, "");
+function unitesCompatibles(x, y) {
+  if (!x || !y) return true; // unité absente d'un côté : tolérée
+  const a = radical(x), b = radical(y);
+  if (a === b) return true;
+  if (a.length >= 3 && b.length >= 3 && (a.startsWith(b) || b.startsWith(a))) return true;
+  const mot1 = a.split(/[\s']/)[0], mot2 = b.split(/[\s']/)[0];
+  return SYNONYMES.some((g) => g.includes(radical(mot1)) && g.includes(radical(mot2)));
 }
 
 function nombresEgaux(a, b) {
   if (!a || !b) return false;
+  // « 4 June » n'est pas « 4 July » : des unités différentes rendent la réponse fausse
+  if (!unitesCompatibles(a.u, b.u)) return false;
   // Deux fractions se comparent telles quelles (exercices de simplification)
   if (a.frac && b.frac) return false;
   const proche = (x, y) => Math.abs(x - y) < 1e-9 * Math.max(1, Math.abs(y));

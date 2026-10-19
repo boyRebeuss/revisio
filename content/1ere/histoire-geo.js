@@ -27,7 +27,7 @@ Entre 1789 et 1815, la France passe de la monarchie absolue de droit divin à un
 - **21 septembre 1792** : la Convention, élue au suffrage universel masculin, abolit la royauté. La République est proclamée (an I). La veille, la victoire de **Valmy** (20 septembre) a arrêté l'invasion.
 - **21 janvier 1793** : exécution de Louis XVI.
 - **1793-1794 : la Terreur**, gouvernement d'exception (Comité de salut public, Robespierre) face à la guerre extérieure, aux insurrections (Vendée) et aux complots. Loi des suspects (septembre 1793), Tribunal révolutionnaire.
-- **4 février 1794** : la Convention **abolit l'esclavage** dans les colonies, après la révolte des esclaves de Saint-Domingue (1791) menée notamment par Toussaint Louverture.
+- **4 février 1794** : la Convention **abolit l'esclavage** dans les colonies, après la révolte des esclaves de Saint-Domingue (août 1791), dont **Toussaint Louverture** devient l'un des principaux chefs ; sur place, les commissaires de la République avaient déjà proclamé la liberté des esclaves en 1793.
 - **9 thermidor an II (27 juillet 1794)** : chute et exécution de Robespierre.
 - **1795-1799 : le Directoire**, régime instable revenu au suffrage censitaire, dépendant de l'armée.
 
@@ -78,7 +78,7 @@ Les femmes participent aux journées révolutionnaires (marche sur Versailles, o
           explication: "Vrai : les Espagnols se soulèvent contre l'occupation française ; la répression est peinte par Goya. C'est un exemple d'éveil national suscité par la conquête." },
         { type: "saisie", question: "Comment s'appelle le pays né en 1804 de l'indépendance de Saint-Domingue ?", reponses: ["Haïti", "Haiti"],
           explication: "Saint-Domingue proclame son indépendance le 1er janvier 1804 sous le nom d'**Haïti**, première république noire indépendante." },
-        { type: "qcm", question: "Qui rédige la Déclaration des droits de la femme et de la citoyenne en 1791 ?", choix: ["Madame Roland", "Olympe de Gouges", "Germaine de Staël", "Louise Michel"], reponse: 1,
+        { type: "qcm", question: "Qui rédige la Déclaration des droits de la femme et de la citoyenne en 1791 ?", choix: ["Madame Roland", "Louise Michel", "Germaine de Staël", "Olympe de Gouges"], reponse: 3,
           explication: "**Olympe de Gouges** réclame l'égalité politique des femmes ; elle est guillotinée en 1793. Louise Michel est une figure de la Commune de 1871." },
         { type: "redaction", question: "Composition : *La Révolution française et l'Empire, une nouvelle conception de la nation (1789-1815)*.",
           corrige: `**Problématique** : comment la Révolution et l'Empire transforment-ils la conception de la nation, en France puis en Europe ?
@@ -157,11 +157,11 @@ Après la chute de Napoléon, les souverains européens veulent effacer l'hérit
           explication: "Faux : les frontières sont fixées selon la **légitimité** dynastique et l'équilibre des puissances, sans consulter les peuples (Pologne partagée, Italie divisée)." },
         { type: "saisie", question: "Quel nom donne-t-on aux journées révolutionnaires parisiennes des 27, 28 et 29 juillet 1830 ?", reponses: ["Les Trois Glorieuses", "Trois Glorieuses", "révolution de Juillet"],
           explication: "Les **Trois Glorieuses** renversent Charles X ; Louis-Philippe devient roi des Français (monarchie de Juillet)." },
-        { type: "qcm", question: "Quel peuple obtient son indépendance en 1830 après une guerre contre l'Empire ottoman ?", choix: ["Les Polonais", "Les Grecs", "Les Hongrois", "Les Italiens"], reponse: 1,
+        { type: "qcm", question: "Quel peuple obtient son indépendance en 1830 après une guerre contre l'Empire ottoman ?", choix: ["Les Polonais", "Les Italiens", "Les Hongrois", "Les Grecs"], reponse: 3,
           explication: "Les **Grecs** se soulèvent en 1821 et obtiennent l'indépendance en 1830 grâce à l'intervention des puissances. Les Polonais sont écrasés en 1831, les Hongrois en 1849." },
         { type: "vf", question: "La monarchie de Juillet établit le suffrage universel masculin.", reponse: false,
           explication: "Faux : la monarchie de Juillet reste **censitaire** (le cens est seulement abaissé). Le refus d'élargir le droit de vote contribue à la révolution de février 1848." },
-        { type: "qcm", question: "Pourquoi les révolutions de 1848 échouent-elles pour la plupart ?", choix: ["Parce que la crise économique s'aggrave", "Parce que les révolutionnaires sont divisés et que les armées des souverains reprennent le contrôle", "Parce que Napoléon Ier revient au pouvoir", "Parce que le Royaume-Uni envahit l'Europe centrale"], reponse: 1,
+        { type: "qcm", question: "Pourquoi les révolutions de 1848 échouent-elles pour la plupart ?", choix: ["Parce que les révolutionnaires sont divisés et que les armées des souverains reprennent le contrôle", "Parce que la crise économique s'aggrave", "Parce que Napoléon Ier revient au pouvoir", "Parce que le Royaume-Uni envahit l'Europe centrale"], reponse: 0,
           explication: "Les révolutionnaires se divisent (modérés/démocrates, rivalités entre nationalités) et les souverains reprennent la main par la force, comme l'Autriche aidée par la Russie en Hongrie (1849)." },
         { type: "saisie", question: "Quel peintre romantique a réalisé *La Liberté guidant le peuple* ?", reponses: ["Delacroix", "Eugène Delacroix", "Eugene Delacroix"],
           explication: "**Eugène Delacroix** peint en 1830 cette allégorie des Trois Glorieuses ; il avait déjà peint les massacres de Scio (1824) en soutien aux Grecs." },
@@ -235,7 +235,7 @@ La révolution de février 1848 fonde la **Deuxième République**, qui instaure
       exercices: [
         { type: "saisie", question: "Quel homme politique a préparé le décret d'abolition de l'esclavage du 27 avril 1848 ?", reponses: ["Victor Schœlcher", "Schœlcher", "Schoelcher", "Victor Schoelcher"],
           explication: "**Victor Schœlcher**, sous-secrétaire d'État à la Marine, est l'artisan de l'abolition de 1848, cette fois définitive." },
-        { type: "qcm", question: "Que provoque la fermeture des Ateliers nationaux en juin 1848 ?", choix: ["Le coup d'État de Louis-Napoléon", "Les journées de Juin, une insurrection ouvrière écrasée par l'armée", "L'abolition de l'esclavage", "La proclamation de la République"], reponse: 1,
+        { type: "qcm", question: "Que provoque la fermeture des Ateliers nationaux en juin 1848 ?", choix: ["Le coup d'État de Louis-Napoléon", "La proclamation de la République", "L'abolition de l'esclavage", "Les journées de Juin, une insurrection ouvrière écrasée par l'armée"], reponse: 3,
           explication: "La fermeture des Ateliers nationaux provoque l'insurrection des **journées de Juin** (23-26 juin 1848), réprimée par le général Cavaignac." },
         { type: "vf", question: "En 1848, les femmes obtiennent le droit de vote en même temps que les hommes.", reponse: false,
           explication: "Faux : le suffrage est universel **masculin**. Les femmes ne voteront qu'en 1945 (ordonnance de 1944)." },
@@ -245,7 +245,7 @@ La révolution de février 1848 fonde la **Deuxième République**, qui instaure
           explication: "Le **2 décembre 1851**, date anniversaire du sacre de Napoléon Ier (1804) et d'Austerlitz (1805)." },
         { type: "vf", question: "La loi du 31 mai 1850 restreint le suffrage universel en exigeant trois ans de domicile.", reponse: true,
           explication: "Vrai : environ 3 millions d'électeurs, surtout des ouvriers, en sont exclus. Louis-Napoléon s'en sert ensuite en se présentant comme le défenseur du suffrage universel." },
-        { type: "qcm", question: "Quelle affirmation décrit le mieux la Constitution du 4 novembre 1848 ?", choix: ["Un roi et deux chambres", "Un président élu au suffrage universel et une Assemblée unique", "Un empereur héréditaire", "Un Directoire de cinq membres"], reponse: 1,
+        { type: "qcm", question: "Quelle affirmation décrit le mieux la Constitution du 4 novembre 1848 ?", choix: ["Un président élu au suffrage universel et une Assemblée unique", "Un roi et deux chambres", "Un empereur héréditaire", "Un Directoire de cinq membres"], reponse: 0,
           explication: "La Constitution de 1848 crée un **président élu au suffrage universel** pour 4 ans et une **Assemblée unique** : deux pouvoirs légitimes qui entrent en conflit." },
         { type: "redaction", question: "Réponse organisée : à partir de tes connaissances, explique en quoi la Deuxième République constitue un « difficile apprentissage » de la démocratie. Rédige une réponse organisée.",
           corrige: `**Problématique** : pourquoi la République née en 1848, qui instaure la démocratie, ne dure-t-elle que quatre ans ?
@@ -321,7 +321,7 @@ Au XIXe siècle, la France connaît une **industrialisation** plus lente et plus
           explication: "Le baron **Haussmann**, préfet de 1853 à 1870, perce les grands boulevards et modernise la capitale." },
         { type: "vf", question: "Le paternalisme consiste pour un patron à prendre en charge certains aspects de la vie de ses ouvriers pour s'assurer leur fidélité.", reponse: true,
           explication: "Vrai : logements, écoles, caisses de secours... en échange d'une main-d'œuvre stable et docile." },
-        { type: "qcm", question: "Quel ouvrage publié en 1848 appelle à la lutte des classes ?", choix: ["Le Capital", "Le Manifeste du parti communiste", "Les Misérables", "Qu'est-ce que la propriété ?"], reponse: 1,
+        { type: "qcm", question: "Quel ouvrage publié en 1848 appelle à la lutte des classes ?", choix: ["Le Capital", "Qu'est-ce que la propriété ?", "Les Misérables", "Le Manifeste du parti communiste"], reponse: 3,
           explication: "Le *Manifeste du parti communiste* de Marx et Engels paraît en 1848. *Le Capital* date de 1867 ; *Qu'est-ce que la propriété ?* est de Proudhon (1840)." },
         { type: "redaction", question: "Composition : *L'industrialisation et l'accélération des transformations économiques et sociales en France (années 1830-1870)*.",
           corrige: `**Problématique** : comment l'industrialisation transforme-t-elle l'économie et la société françaises, et quelles réponses suscite-t-elle ?
@@ -398,7 +398,7 @@ Napoléon III gouverne la France de 1852 à 1870. Son régime, d'abord autoritai
         { type: "vf", question: "Sous le Second Empire, le Corps législatif est élu au suffrage universel masculin.", reponse: true,
           explication: "Vrai, mais ses pouvoirs sont limités et l'administration soutient les **candidatures officielles**." },
         { type: "saisie", question: "Quel chancelier prussien réalise l'unité allemande ?", reponses: ["Bismarck", "Otto von Bismarck"],
-          explication: "**Otto von Bismarck**, chancelier de Prusse, unifie l'Allemagne par trois guerres (Danemark 1864, Autriche 1866, France 1870-1871)." },
+          explication: "**Otto von Bismarck**, ministre-président de Prusse à partir de 1862 (puis chancelier de l'Empire allemand en 1871), unifie l'Allemagne par trois guerres (Danemark 1864, Autriche 1866, France 1870-1871)." },
         { type: "qcm", question: "Où l'Empire allemand est-il proclamé le 18 janvier 1871 ?", choix: ["À Berlin", "À Francfort", "À Sedan", "Dans la galerie des Glaces de Versailles"], reponse: 3,
           explication: "La proclamation à **Versailles** est une humiliation symbolique pour la France vaincue." },
         { type: "saisie", question: "À quelle date (jour, mois, année) la République est-elle proclamée après la défaite de Sedan ?", reponses: ["4 septembre 1870", "le 4 septembre 1870"],
@@ -526,7 +526,7 @@ Entre 1870 et 1914, la société française change profondément : seconde indus
 - La France compte environ **40 millions d'habitants** vers 1911 ; sa croissance démographique est faible (natalité basse), ce qui la distingue de l'Allemagne.
 - Les **paysans** restent nombreux : la population active agricole représente encore une part très importante (de l'ordre de 40 % vers 1906). La petite propriété domine. La République s'appuie sur ces paysans (création du ministère de l'Agriculture en 1881, protectionnisme avec les **tarifs Méline** de 1892).
 - L'**exode rural** s'accélère : les jeunes partent vers les villes et les usines.
-- La France accueille des **immigrés** (Belges, Italiens, Polonais à partir de la fin de la période) ; des violences xénophobes éclatent (massacre d'Italiens à **Aigues-Mortes**, 1893).
+- La France accueille des **immigrés** (surtout des Belges et des Italiens ; environ 1,1 million d'étrangers vers 1911, soit moins de 3 % de la population) ; des violences xénophobes éclatent (massacre d'Italiens à **Aigues-Mortes**, 1893).
 
 ## 2. La seconde industrialisation et la culture de masse
 - **Nouvelles énergies et industries** : électricité, pétrole, chimie, automobile (Renault, Peugeot), aéronautique (Blériot traverse la Manche en 1909).
@@ -558,7 +558,7 @@ Entre 1870 et 1914, la société française change profondément : seconde indus
       exercices: [
         { type: "saisie", question: "En quelle année est créée la CGT ?", reponses: ["1895"],
           explication: "La Confédération générale du travail est fondée en **1895** à Limoges." },
-        { type: "qcm", question: "Que proclame la charte d'Amiens (1906) ?", choix: ["L'alliance de la CGT et de la SFIO", "L'indépendance du syndicalisme à l'égard des partis politiques", "L'interdiction de la grève", "La création du ministère du Travail"], reponse: 1,
+        { type: "qcm", question: "Que proclame la charte d'Amiens (1906) ?", choix: ["L'indépendance du syndicalisme à l'égard des partis politiques", "L'alliance de la CGT et de la SFIO", "L'interdiction de la grève", "La création du ministère du Travail"], reponse: 0,
           explication: "La charte d'Amiens affirme l'**indépendance syndicale** et le recours à la grève générale." },
         { type: "vf", question: "Avant 1914, la France connaît une forte natalité, supérieure à celle de l'Allemagne.", reponse: false,
           explication: "Faux : la France se distingue par une **faible natalité** et une croissance démographique lente (environ 40 millions d'habitants en 1911)." },
@@ -604,7 +604,7 @@ La Troisième République bâtit le **deuxième empire colonial du monde** aprè
 - **Sous la IIIe République** :
 - **Tunisie** : protectorat en 1881 (traité du Bardo).
 - **Indochine** : Union indochinoise créée en **1887** (Cochinchine, Annam, Tonkin, Cambodge, puis Laos).
-- **Afrique** : partage du continent entre puissances européennes, organisé en partie par la **conférence de Berlin (1884-1885)**. Création de l'**AOF (1895)** et de l'**AEF (1910)**. Conquête de **Madagascar** (1895-1896). Résistances, comme celle de **Samory Touré** en Afrique de l'Ouest, capturé en 1898.
+- **Afrique** : partage du continent entre puissances européennes ; la **conférence de Berlin (1884-1885)** n'y trace pas les frontières, mais fixe les règles du partage (une puissance doit occuper effectivement les côtes qu'elle revendique), ce qui accélère la « course au clocher ». Création de l'**AOF (1895)** et de l'**AEF (1910)**. Conquête de **Madagascar** (1895-1896). Résistances, comme celle de **Samory Touré** en Afrique de l'Ouest, capturé en 1898.
 - **Maroc** : protectorat en **1912** (traité de Fès).
 - Rivalités : la France et le Royaume-Uni s'affrontent à **Fachoda** (Soudan, 1898) ; la France recule, puis les deux pays se rapprochent (Entente cordiale, 1904).
 
@@ -621,7 +621,7 @@ La Troisième République bâtit le **deuxième empire colonial du monde** aprè
 - Rencontres et métissages, mais aussi ségrégation spatiale (quartiers européens et « indigènes »).
 
 ## 4. L'empire dans la métropole
-- Les **expositions coloniales** et universelles (1889, 1900), les manuels scolaires, les affiches publicitaires (Banania) diffusent une vision exotique et hiérarchisée des peuples.
+- Les **expositions** universelles (1889, 1900, avec leurs pavillons et « villages indigènes ») puis coloniales (Marseille, 1906 et 1922 ; Paris, 1931), les manuels scolaires, les affiches publicitaires (Banania, à partir de 1915) diffusent une vision exotique et hiérarchisée des peuples.
 - Les colonies fournissent des produits et des soldats (tirailleurs sénégalais, créés en 1857).
 
 > **À retenir** : la IIIe République conquiert un vaste empire (Afrique du Nord, Afrique noire, Madagascar, Indochine) au nom de la puissance, de l'économie et d'une « mission civilisatrice ». Mais la colonisation repose sur la domination et l'inégalité : les colonisés sont des sujets soumis au Code de l'indigénat, en contradiction avec les principes républicains.
@@ -722,15 +722,15 @@ De 1914 à 1918, l'Europe se déchire dans une guerre d'une violence inédite, q
 | 28 juin 1919 | Traité de Versailles |
 `,
       exercices: [
-        { type: "qcm", question: "Quel événement déclenche la crise de l'été 1914 ?", choix: ["L'invasion de la Belgique", "L'assassinat de François-Ferdinand à Sarajevo", "La bataille de la Marne", "La révolution russe"], reponse: 1,
+        { type: "qcm", question: "Quel événement déclenche la crise de l'été 1914 ?", choix: ["L'invasion de la Belgique", "La révolution russe", "La bataille de la Marne", "L'assassinat de François-Ferdinand à Sarajevo"], reponse: 3,
           explication: "L'attentat de **Sarajevo** (28 juin 1914) entraîne l'ultimatum autrichien à la Serbie puis l'engrenage des alliances." },
         { type: "saisie", question: "Quelle bataille de 1916, symbole de la guerre pour les Français, commence le 21 février ?", reponses: ["Verdun", "la bataille de Verdun", "bataille de Verdun"],
-          explication: "**Verdun** dure de février à décembre 1916 ; la quasi-totalité de l'armée française y passe par rotation." },
+          explication: "**Verdun** dure de février à décembre 1916 ; environ les trois quarts de l'armée française y passent par rotation (la « noria »)." },
         { type: "vf", question: "Le génocide des Arméniens est commis par le gouvernement de l'Empire ottoman pendant la guerre.", reponse: true,
           explication: "Vrai : à partir d'avril 1915, le gouvernement jeune-turc organise déportations et massacres ; environ 1,2 à 1,5 million d'Arméniens périssent." },
         { type: "qcm", question: "Quel est l'un des principes des Quatorze points de Wilson ?", choix: ["Le droit des peuples à disposer d'eux-mêmes", "Le partage des colonies allemandes entre les vainqueurs", "Le retour des empires", "Le maintien de l'Autriche-Hongrie unie"], reponse: 0,
           explication: "Wilson défend le **droit des peuples à disposer d'eux-mêmes** et la création d'une Société des nations." },
-        { type: "saisie", question: "Combien de soldats français environ sont morts pendant la Première Guerre mondiale (en millions) ?", reponses: ["1,4", "1,4 million", "1.4", "environ 1,4 million"],
+        { type: "saisie", question: "Combien de soldats français environ sont morts pendant la Première Guerre mondiale (en millions) ?", reponses: ["1,4", "1,4 million", "1.4", "environ 1,4 million", "1 400 000", "1,4 millions"],
           explication: "Environ **1,4 million** de soldats français sont morts, sur environ 10 millions de soldats tués au total." },
         { type: "qcm", question: "Lequel de ces empires ne disparaît PAS à la suite de la Première Guerre mondiale ?", choix: ["L'Empire austro-hongrois", "L'Empire ottoman", "L'Empire britannique", "L'Empire russe"], reponse: 2,
           explication: "L'**Empire britannique**, vainqueur, s'agrandit même de mandats. Les empires allemand, austro-hongrois, russe et ottoman s'effondrent." },
@@ -764,7 +764,7 @@ De 1914 à 1918, l'Europe se déchire dans une guerre d'une violence inédite, q
     {
       id: "metropolisation",
       titre: "La métropolisation : un processus mondial différencié",
-      theme: "Géographie – La France et ses régions dans des espaces transformés",
+      theme: "Géographie – La métropolisation : un processus mondial différencié",
       cours: `
 ## Introduction
 Plus de la moitié de l'humanité vit aujourd'hui en ville. Mais la croissance urbaine ne profite pas à toutes les villes de la même manière : la population, les richesses et les fonctions de commandement se concentrent dans les plus grandes, les **métropoles**. C'est la **métropolisation**, un processus mondial qui transforme aussi la France.
@@ -779,7 +779,9 @@ Plus de la moitié de l'humanité vit aujourd'hui en ville. Mais la croissance u
 ## 2. Un processus mondial
 - Les métropoles sont **connectées** entre elles : aéroports, ports, réseaux numériques, flux financiers. Elles forment un **archipel métropolitain mondial**.
 - Elles attirent les **firmes transnationales**, les talents, les touristes ; elles s'affrontent dans une compétition (classements, grands événements comme les Jeux olympiques).
-- Mais la métropolisation est **différenciée** : dans les pays du Sud, la croissance urbaine rapide s'accompagne de quartiers informels (bidonvilles) ; dans les pays du Nord, elle s'accompagne d'étalement urbain et de gentrification.
+- Mais la métropolisation est **différenciée** : dans les pays du Sud, la croissance urbaine rapide s'accompagne de quartiers informels (plus d'un milliard de personnes vivent dans des bidonvilles selon ONU-Habitat : Lagos, Mumbai, Kinshasa) ; dans les pays du Nord, elle s'accompagne d'étalement urbain et de gentrification.
+- **Hiérarchie mondiale** : au sommet, quelques villes mondiales (New York, Londres, Tokyo, Paris) ; puis des métropoles en forte ascension, surtout en Asie (Shanghai, Singapour, Dubaï, Séoul) ; enfin des mégapoles très peuplées mais moins intégrées (Lagos, Kinshasa, Dhaka).
+- **Les grandes villes ne sont pas toutes des métropoles puissantes** : la plupart des 25 premières agglomérations du monde se trouvent aujourd'hui en Asie, en Afrique et en Amérique latine, mais les fonctions de commandement restent concentrées dans les villes du Nord et d'Asie orientale.
 
 ## 3. Les transformations des métropoles
 - **Étalement urbain** et **périurbanisation** : croissance des espaces bâtis en périphérie, liée à l'automobile et au désir de maison individuelle ; consommation d'espaces agricoles (**artificialisation des sols**).
@@ -839,7 +841,7 @@ Plus de la moitié de l'humanité vit aujourd'hui en ville. Mais la croissance u
     {
       id: "espaces-productifs",
       titre: "Une diversification des espaces et des acteurs de la production",
-      theme: "Géographie – La France et ses régions dans des espaces transformés",
+      theme: "Géographie – Une diversification des espaces et des acteurs de la production",
       cours: `
 ## Introduction
 Les **espaces productifs** sont les espaces où l'on produit des biens et des services : champs, usines, ports, bureaux, stations touristiques... Avec la mondialisation, la tertiarisation et la transition écologique, ils se diversifient et se recomposent, et les **acteurs** qui les organisent se multiplient.
@@ -851,13 +853,20 @@ Les **espaces productifs** sont les espaces où l'on produit des biens et des se
 - **Désindustrialisation** : recul de la part de l'industrie dans l'emploi et la production.
 - **Économie de la connaissance** : économie fondée sur la recherche, l'innovation et les emplois qualifiés.
 
-## 2. Des espaces productifs en recomposition
+## 2. À l'échelle mondiale : des espaces productifs plus nombreux et plus connectés
+- La **mondialisation** répartit la production entre de nombreux pays : c'est la division internationale des processus productifs. Exemple : un smartphone est conçu aux États-Unis, ses composants sont fabriqués à Taïwan, en Corée du Sud ou au Japon, et il est assemblé en Chine ou en Inde.
+- De **nouveaux espaces productifs** émergent : la Chine, « atelier du monde » (près de 30 % de la production industrielle mondiale) ; l'Inde pour les services informatiques (Bangalore) ; le Brésil pour l'agriculture d'exportation (soja, viande), avec des **fronts pionniers** sur l'Amazonie et le Cerrado.
+- **Littoralisation** : environ 80 % du commerce mondial de marchandises (en volume) passe par la mer ; les activités se concentrent sur les **façades maritimes** et dans les **ZIP** (Shanghai, Singapour, Rotterdam). La conteneurisation abaisse le coût du transport.
+- **Métropolisation** : les fonctions de conception, de finance et de direction se concentrent dans les métropoles (sièges sociaux des FTN, centres de recherche), tandis que la fabrication se disperse.
+- Les **flux** (marchandises, capitaux, données) s'accroissent, mais les chaînes de valeur sont fragiles (pandémie de Covid-19, blocage du canal de Suez en 2021, tensions en mer Rouge).
+
+## 3. En France : des espaces productifs en recomposition
 - **Espaces agricoles** : grandes plaines céréalières (Bassin parisien), élevage (Bretagne, régions de montagne), vignobles (Bordelais, Champagne, Bourgogne). L'agriculture se modernise et s'oriente vers la qualité (AOP, labels, bio).
 - **Espaces industriels** : les anciens bassins (Nord, Lorraine) ont subi une forte désindustrialisation à partir des années 1970 ; reconversions (logistique, tourisme de mémoire, Louvre-Lens). Les **zones industrialo-portuaires** (Dunkerque, Le Havre, Fos-sur-Mer) restent tournées vers le monde. De nouvelles industries s'installent dans des régions dynamiques (aéronautique à Toulouse, gigafactories de batteries dans les Hauts-de-France).
 - **Espaces tertiaires** : quartiers d'affaires (La Défense), technopôles (Sophia Antipolis, créé en 1969 ; Paris-Saclay ; Grenoble), espaces touristiques (littoraux, montagnes, Paris) — la France est la première destination touristique mondiale par le nombre de visiteurs internationaux.
 - **Espaces logistiques** : entrepôts et plateformes le long des autoroutes (vallée du Rhône, nord de l'Île-de-France), liés au commerce en ligne.
 
-## 3. Une diversification des acteurs
+## 4. Une diversification des acteurs
 - **Firmes transnationales (FTN)** françaises (TotalEnergies, LVMH, Airbus...) et étrangères qui investissent en France.
 - **PME et ETI**, souvent ancrées dans un territoire (systèmes productifs locaux, comme la vallée de l'Arve pour le décolletage).
 - **L'État** : aménagement, infrastructures, **pôles de compétitivité** (lancés en 2004-2005, associant entreprises, universités et laboratoires), plans d'investissement (France 2030, annoncé en 2021), politique de **réindustrialisation** et de souveraineté (relocalisation de productions stratégiques après la crise du Covid-19).
@@ -865,7 +874,7 @@ Les **espaces productifs** sont les espaces où l'on produit des biens et des se
 - **Les collectivités territoriales** : les régions ont la compétence du développement économique ; elles attirent les entreprises (zones d'activités, aides).
 - **Les citoyens et associations** : consommateurs (circuits courts), opposants à certains projets (conflits d'aménagement).
 
-## 4. Des dynamiques territoriales inégales
+## 5. Des dynamiques territoriales inégales
 - Les **métropoles** concentrent les emplois les plus qualifiés et les activités innovantes.
 - Les régions de l'**Ouest et du Sud** sont attractives ; d'anciens espaces industriels et certains espaces ruraux restent en difficulté.
 - La **transition écologique** recompose les espaces : énergies renouvelables (éolien en mer au large de Saint-Nazaire), économie circulaire, décarbonation des zones industrielles (Dunkerque, Fos).
@@ -885,7 +894,7 @@ Les **espaces productifs** sont les espaces où l'on produit des biens et des se
           explication: "Lancés en 2004-2005, les pôles de compétitivité (exemple : Aerospace Valley) favorisent l'innovation collaborative." },
         { type: "qcm", question: "Quel acteur a la compétence du développement économique parmi les collectivités territoriales ?", choix: ["La commune", "Le département", "L'État", "La région"], reponse: 3,
           explication: "Depuis la loi NOTRe (2015), la **région** est chef de file du développement économique. L'État n'est pas une collectivité territoriale." },
-        { type: "saisie", question: "Quel sigle désigne les zones industrielles construites autour d'un port (Dunkerque, Fos-sur-Mer) ?", reponses: ["ZIP", "zone industrialo-portuaire"],
+        { type: "saisie", question: "Quel sigle désigne les zones industrielles construites autour d'un port (Dunkerque, Fos-sur-Mer) ?", reponses: ["ZIP", "zone industrialo-portuaire", "zones industrialo-portuaires"],
           explication: "Une **ZIP** (zone industrialo-portuaire) associe port et industries lourdes importatrices de matières premières." },
         { type: "vf", question: "La relocalisation désigne le retour sur le territoire national d'activités auparavant délocalisées à l'étranger.", reponse: true,
           explication: "Vrai : elle est encouragée depuis la crise du Covid-19 pour des produits stratégiques (médicaments, semi-conducteurs, batteries)." },
@@ -913,7 +922,7 @@ Les **espaces productifs** sont les espaces où l'on produit des biens et des se
     {
       id: "espaces-ruraux",
       titre: "Les espaces ruraux : multifonctionnalité ou fragmentation ?",
-      theme: "Géographie – La France et ses régions dans des espaces transformés",
+      theme: "Géographie – Les espaces ruraux : multifonctionnalité ou fragmentation ?",
       cours: `
 ## Introduction
 Les **espaces ruraux** sont des espaces à faible densité, où dominent les paysages agricoles et naturels. Longtemps associés à l'exode rural, ils connaissent aujourd'hui des évolutions contrastées : certains gagnent des habitants et cumulent les fonctions (**multifonctionnalité**), d'autres restent en déprise (**fragmentation**).
@@ -923,21 +932,30 @@ Les **espaces ruraux** sont des espaces à faible densité, où dominent les pay
 - **SAU** (surface agricole utilisée) : environ la moitié du territoire métropolitain.
 - **Agriculture** : le recensement agricole de 2020 compte environ **390 000 exploitations**, de plus en plus grandes et moins nombreuses. Les agriculteurs ne sont plus qu'une minorité des habitants des campagnes.
 
-## 2. Des espaces multifonctionnels
+## 2. À l'échelle mondiale : des espaces ruraux fragmentés
+- Selon les définitions nationales (qui varient d'un pays à l'autre), un peu plus de **40 %** de l'humanité vit encore dans des espaces ruraux, surtout en Afrique subsaharienne et en Asie du Sud. Les espaces ruraux du monde sont très **inégaux** :
+  - espaces d'**agriculture intensive** et exportatrice, très mécanisés (Corn Belt aux États-Unis, Mato Grosso au Brésil, Beauce en France) ;
+  - **fronts pionniers** qui avancent sur la forêt (Amazonie, Indonésie pour l'huile de palme), source de conflits avec les peuples autochtones ;
+  - espaces d'**agriculture vivrière** pauvres, où vivent la majorité des personnes sous-alimentées (Sahel, Asie du Sud) ;
+  - espaces ruraux **sous influence des métropoles**, gagnés par la périurbanisation (autour de Shanghai, du Caire, de Paris) ;
+  - espaces ruraux **touristiques** et **protégés** (Alpes, parcs nationaux africains).
+- Partout, les fonctions **non agricoles** progressent (résidence, tourisme, protection de la nature, énergie) et multiplient les **conflits d'usage** ; des achats massifs de terres par des firmes ou des États étrangers (« accaparement des terres ») inquiètent dans les pays du Sud.
+
+## 3. En France : des espaces multifonctionnels
 - **Fonction productive** : agriculture (céréales, élevage, vigne), agro-industrie, artisanat, industrie diffuse.
 - **Fonction résidentielle** : installation de **néoruraux**, de retraités, de périurbains ; développement du télétravail après la crise sanitaire.
 - **Fonction récréative et touristique** : tourisme vert, résidences secondaires, sports de nature, gîtes.
 - **Fonction environnementale** : protection des paysages et de la biodiversité (11 **parcs nationaux**, plus de 50 **parcs naturels régionaux**, le premier créé en 1968), production d'énergies renouvelables (éolien, méthanisation, photovoltaïque).
 
-## 3. Des espaces fragmentés
+## 4. En France : des espaces fragmentés
 - **Espaces ruraux périurbains** : sous l'influence des villes, ils gagnent des habitants mais perdent des terres agricoles (artificialisation).
 - **Espaces ruraux attractifs** (littoraux, Sud, montagnes touristiques) : fonction résidentielle et touristique, hausse des prix du foncier.
 - **Espaces ruraux en déprise** : faibles densités, vieillissement, fermeture de services publics et de commerces, désertification médicale, difficulté de mobilité sans voiture. On parle parfois de **« diagonale du vide »** ou des faibles densités, des Ardennes aux Pyrénées en passant par le Massif central.
 - **Conflits d'usage** entre agriculteurs, résidents, touristes, défenseurs de l'environnement : bruit et odeurs, épandages, projets d'éoliennes, retenues d'eau (« bassines »).
 
-## 4. Les politiques publiques
+## 5. Les politiques publiques
 - **Union européenne** : la **politique agricole commune** (PAC, 1962) soutient les agriculteurs ; son second pilier finance le développement rural (programme LEADER).
-- **État** : **Agenda rural** (2019), espaces **France Services** (guichets de services publics), zones de revitalisation rurale, plan contre les déserts médicaux, développement de la fibre optique.
+- **État** : **Agenda rural** (2019), espaces **France Services** (guichets de services publics), zonage d'aides fiscales (zones de revitalisation rurale, remplacées en 2024 par **France Ruralités Revitalisation**), plan contre les déserts médicaux, développement de la fibre optique.
 - **Collectivités** : intercommunalités, PNR, projets de territoire.
 
 >! **Méthode – Schéma des espaces ruraux français** : distinguer en légende (1) les espaces ruraux sous influence urbaine, (2) les espaces ruraux productifs agricoles intensifs, (3) les espaces ruraux résidentiels et touristiques, (4) les espaces ruraux de faible densité en difficulté ; ajouter les dynamiques (arrivées de population, flux touristiques).
@@ -1002,9 +1020,9 @@ Avec environ **1,4 milliard d'habitants**, la Chine est l'un des deux pays les p
 - Les activités se concentrent sur le littoral : ports parmi les premiers du monde (**Shanghai**, Ningbo-Zhoushan, Shenzhen), industries exportatrices.
 
 ## 3. Une urbanisation et une métropolisation rapides
-- Le taux d'urbanisation dépasse désormais **60 %** (environ 20 % en 1980).
+- Le taux d'urbanisation atteint environ **67 %** en 2024 (moins de 20 % en 1980).
 - Trois grandes régions métropolitaines : le **delta de la rivière des Perles** (Guangzhou, Shenzhen, Hong Kong : la « Grande Baie »), le **delta du Yangzi** (Shanghai, Hangzhou, Nanjing) et **Jing-Jin-Ji** (Pékin, Tianjin, Hebei).
-- Les **mingong**, travailleurs migrants venus des campagnes, sont plusieurs centaines de millions. Le système du **hukou** (permis de résidence) les prive souvent de l'accès aux services publics urbains (école, santé) ; il est progressivement assoupli.
+- Les **mingong**, travailleurs migrants venus des campagnes, sont près de **300 millions**. Le système du **hukou** (permis de résidence) les prive souvent de l'accès aux services publics urbains (école, santé) ; il est progressivement assoupli.
 - Transformations urbaines : quartiers d'affaires (Pudong à Shanghai), destructions des quartiers anciens, villes nouvelles parfois peu peuplées.
 
 ## 4. Réduire les inégalités et intégrer l'intérieur
@@ -1046,7 +1064,7 @@ Avec environ **1,4 milliard d'habitants**, la Chine est l'un des deux pays les p
 - Le littoral, interface avec le monde : ports, industries exportatrices, Hong Kong et Macao.
 
 **II. Urbanisation et métropolisation**
-- Plus de 60 % d'urbains ; trois régions métropolitaines (rivière des Perles, Yangzi, Jing-Jin-Ji).
+- Environ deux tiers d'urbains ; trois régions métropolitaines (rivière des Perles, Yangzi, Jing-Jin-Ji).
 - Mingong et hukou ; transformations des villes (Pudong).
 
 **III. Rééquilibrer le territoire et relever les défis**
@@ -1065,7 +1083,7 @@ Avec environ **1,4 milliard d'habitants**, la Chine est l'un des deux pays les p
       theme: "Méthodes",
       cours: `
 ## Les évaluations en Histoire-Géographie
-L'Histoire-Géographie du tronc commun est évaluée en **contrôle continu** en 1re et en terminale. Les exercices attendus sont toujours les mêmes : la **composition**, l'**analyse de document(s)**, la **réalisation d'un croquis ou d'un schéma** en géographie et la maîtrise des **repères**. Ces méthodes servent aussi pour l'épreuve du bac de spécialité HGGSP si tu la choisis.
+L'Histoire-Géographie du tronc commun est évaluée en **contrôle continu** en 1re et en terminale. Les exercices attendus sont toujours les mêmes : la **composition**, l'**analyse de document(s)**, la **réalisation d'un croquis ou d'un schéma** en géographie et la maîtrise des **repères**. Les notes de l'année comptent pour le baccalauréat : chaque devoir sur table est un entraînement à ces exercices.
 
 ## 1. La composition
 C'est un texte argumenté et organisé répondant à un sujet.
@@ -1088,7 +1106,7 @@ On te donne un ou deux documents et une consigne.
 4. **Prendre du recul** : portée et limites du document (point de vue partisan, propagande, ce que le document ne dit pas).
 5. **Conclure** en répondant à la consigne.
 
->! **Exemple** : pour le discours de Jules Ferry du 28 juillet 1885, présente l'auteur (républicain modéré, président du Conseil jusqu'en mars 1885, artisan des lois scolaires), le contexte (débat sur l'expédition du Tonkin), puis classe ses arguments (économiques, politiques, « humanitaires ») et montre leurs limites (hiérarchie des « races », contradiction avec la DDHC, opposition de Clemenceau).
+>! **Exemple** : pour le discours de Jules Ferry du 28 juillet 1885, présente l'auteur (républicain modéré, président du Conseil renversé en mars 1885 à cause de l'affaire du Tonkin, artisan des lois scolaires), le contexte (débat à la Chambre sur les crédits pour l'expédition de Madagascar), puis classe ses arguments (économiques, politiques, « humanitaires ») et montre leurs limites (hiérarchie des « races », contradiction avec la DDHC, opposition de Clemenceau).
 
 ## 3. Le croquis et le schéma
 1. **Un titre** qui reprend le sujet.
@@ -1145,6 +1163,37 @@ Le programme fixe des **repères** à connaître : dates, acteurs, lieux. Exempl
 **Problématique** : comment les idées révolutionnaires nées en France se diffusent-elles en Europe et se heurtent-elles à l'ordre conservateur, jusqu'en 1848 ?
 
 **Annonce du plan** : nous verrons d'abord comment la Révolution et l'Empire inventent et diffusent la nation souveraine (1789-1815), puis comment l'ordre de Vienne est contesté par les révolutions libérales et nationales (1815-1830), enfin comment le printemps des peuples de 1848 marque à la fois l'apogée et l'échec de ces révolutions.` },
+        { type: "redaction", question: "**Analyse de document** : « Messieurs, il faut parler plus haut et plus vrai ! Il faut dire ouvertement qu'en effet les races supérieures ont un droit vis-à-vis des races inférieures. [...] Je répète qu'il y a pour les races supérieures un droit, parce qu'il y a un devoir pour elles. Elles ont le devoir de civiliser les races inférieures. » (Jules Ferry, discours à la Chambre des députés, 28 juillet 1885). *Consigne* : en présentant le document, montre quelle justification de la colonisation il avance et quelles en sont les limites.", corrige: `**Présentation** : ce document est un extrait d'un **discours politique** prononcé à la **Chambre des députés** le **28 juillet 1885** par **Jules Ferry**, républicain modéré, ancien président du Conseil (renversé en mars 1885 à cause de l'affaire du Tonkin) et artisan des lois scolaires. Il intervient dans un débat sur les crédits de l'expédition de Madagascar : il s'adresse aux députés pour défendre la politique coloniale de la IIIe République.
+
+**I. Une justification « humanitaire » et civilisatrice**
+- Ferry affirme un « **droit** » des « races supérieures » sur les « races inférieures », fondé sur un « **devoir** » : celui de les « **civiliser** ». C'est l'argument de la **mission civilisatrice**.
+- Dans le reste du discours (non cité ici), il ajoute des arguments **économiques** (débouchés pour l'industrie, matières premières) et **politiques** (puissance de la France, bases navales, rang face à l'Allemagne et au Royaume-Uni).
+
+**II. Les limites et contradictions de ce discours**
+- Il repose sur une **hiérarchie des « races »** que rien ne justifie scientifiquement et qui contredit l'article 1 de la DDHC (« les hommes naissent et demeurent libres et égaux en droits »).
+- Il est **contesté dès 1885** : **Clemenceau** lui répond le 30 juillet en dénonçant l'hypocrisie de la mission civilisatrice et les violences de la conquête ; des nationalistes (comme Paul Déroulède) refusent de détourner hors d'Europe les forces nécessaires à la revanche contre l'Allemagne.
+- Dans les faits, les colonisés deviennent des **sujets** soumis au Code de l'indigénat, au travail forcé et à l'expropriation, non des citoyens.
+
+**Conclusion** : ce texte montre comment un républicain justifie la colonisation au nom de la civilisation ; mais il révèle la contradiction entre l'universalisme républicain et la domination coloniale.` },
+        { type: "redaction", question: "**Croquis** : propose un titre et une légende organisée en trois parties pour le croquis « La Chine : des recompositions spatiales multiples ». Indique pour chaque élément le figuré choisi.", corrige: `**Titre** : La Chine, des recompositions spatiales multiples.
+
+**1. Une Chine littorale intégrée à la mondialisation**
+- Littoral densément peuplé et industrialisé : **aplat** rouge.
+- Trois grandes régions métropolitaines (delta de la rivière des Perles, delta du Yangzi, Jing-Jin-Ji) : **cercles** proportionnels noirs.
+- Grands ports (Shanghai, Ningbo-Zhoushan, Shenzhen) et ZES : **figurés ponctuels** (ancre, carré).
+- Flux d'exportation vers le monde : **flèches** épaisses vers le large.
+
+**2. Des dynamiques de rééquilibrage vers l'intérieur**
+- Chine intérieure en rattrapage : **aplat** orange.
+- Pôles intérieurs (Chongqing, Chengdu, Wuhan) : **cercles** plus petits.
+- Grands axes de transport (LGV, Yangzi) : **traits** épais ; nouvelles routes de la soie vers l'Asie centrale et l'Europe : **flèches** vers l'ouest.
+
+**3. Des territoires en marge et sous tension**
+- Ouest peu peuplé, aride ou montagneux (Tibet, Xinjiang) : **aplat** jaune ou beige.
+- Ligne Heihe-Tengchong : **trait** discontinu.
+- Régions sous tension (répression au Tibet et au Xinjiang, pollution, pression sur l'eau) : **hachures** ou **pictogrammes**.
+
+**Conseils** : une légende en parties titrées qui suit un raisonnement (du centre de gravité littoral vers les marges), des couleurs graduées (rouge → orange → jaune), une nomenclature lisible (Pékin, Shanghai, Hong Kong, Chongqing, Tibet, Xinjiang, mer de Chine).` },
       ],
     },
   ],

@@ -788,6 +788,8 @@ La stricte croissance donne, pour tous réels a et b :
 Pour tout réel a, la suite (e^(na)) est **géométrique** de raison eᵃ, car e^((n + 1)a) = e^(na) × eᵃ. Exemple : uₙ = e^(0,5n) est géométrique de raison e^(0,5) = √e.
 Les fonctions x ↦ e^(kx) modélisent des phénomènes à croissance (k > 0) ou décroissance (k < 0) exponentielle : population, radioactivité, refroidissement…
 
+**Construction approchée** : la **méthode d'Euler** (au programme, avec Python) permet de tracer point par point une approximation de la courbe de exp à partir de f′ = f et f(0) = 1 : voir le chapitre « Algorithmes en analyse : méthodes d'Euler et de Newton ».
+
 > **À retenir**
 > - exp′ = exp, exp(0) = 1, e ≈ 2,718.
 > - eᵃ⁺ᵇ = eᵃeᵇ ; e⁻ᵃ = 1/eᵃ ; (eᵃ)ⁿ = eⁿᵃ.
@@ -932,7 +934,7 @@ Si M est le point associé à x : **cos x** est l'abscisse de M et **sin x** est
         {
           type: "saisie",
           question: "Convertis 60° en radians.",
-          reponses: ["π/3", "pi/3", "π / 3"],
+          reponses: ["π/3", "pi/3", "π / 3", "π/3 rad", "pi/3 rad"],
           explication: "60 × π/180 = π/3.",
         },
         {
@@ -1289,7 +1291,15 @@ Si A et B sont indépendants, alors Ā et B le sont aussi (ainsi que A et B̄, �
 
 **Attention** : indépendants ≠ incompatibles ! Deux événements incompatibles de probabilités non nulles ne sont **jamais** indépendants (P(A ∩ B) = 0 ≠ P(A)P(B)).
 
-**Succession d'épreuves indépendantes** (ex. tirages avec remise) : la probabilité d'une liste de résultats est le produit des probabilités.
+## Succession de deux épreuves indépendantes
+Deux épreuves sont **indépendantes** quand le résultat de la première n'influence pas la seconde (tirages **avec remise**, lancers successifs d'une pièce ou d'un dé…). On représente la situation par un **arbre** (les probabilités du second niveau sont les mêmes sur toutes les branches) ou par un **tableau à double entrée**.
+La probabilité d'un couple de résultats est le **produit** des probabilités : P((a ; b)) = P(a) × P(b).
+
+>! **Exemple** : une urne contient 3 boules rouges et 2 vertes. On tire une boule, on la **remet**, puis on en tire une seconde.
+>! P(rouge puis verte) = 3/5 × 2/5 = 6/25 ; P(deux boules de même couleur) = 3/5 × 3/5 + 2/5 × 2/5 = 13/25.
+>! Sans remise, les épreuves ne sont plus indépendantes : P(rouge puis verte) = 3/5 × 2/4 = 3/10.
+
+Pour la répétition de plusieurs épreuves à deux issues (épreuves de Bernoulli), voir le chapitre « Épreuves de Bernoulli, échantillonnage et simulation ».
 
 > **À retenir**
 > - P_A(B) = P(A ∩ B)/P(A) ; P(A ∩ B) = P(A) × P_A(B).
@@ -1357,6 +1367,19 @@ P(T) = P(M ∩ T) + P(M̄ ∩ T) = 0,019 + 0,98 × 0,03 = 0,019 + 0,0294 = **0,0
 3) P_T(M) = P(M ∩ T)/P(T) = 0,019/0,0484 ≈ **0,393**.
 
 **Commentaire** : même avec un test positif, la personne n'a qu'environ 39 % de chances d'être malade. Comme la maladie est rare, les faux positifs (parmi les 98 % de non-malades) sont plus nombreux que les vrais positifs. Il faut confirmer par un second examen.`,
+        },
+        {
+          type: "saisie",
+          question: "Une urne contient 3 boules rouges et 2 boules vertes. On tire une boule, on la remet, puis on en tire une seconde. Quelle est la probabilité d'obtenir deux boules de la même couleur ? (fraction irréductible ou décimal)",
+          reponses: ["13/25", "0,52", "0.52", "52 %", "52%"],
+          explication: "Avec remise, les deux tirages sont des épreuves indépendantes : on multiplie le long des chemins. P(RR) = 3/5 × 3/5 = 9/25 et P(VV) = 2/5 × 2/5 = 4/25. P(même couleur) = 9/25 + 4/25 = 13/25 = 0,52.",
+        },
+        {
+          type: "qcm",
+          question: "Même urne (3 rouges, 2 vertes), mais on tire successivement deux boules **sans remise**. Quelle est la probabilité de tirer une rouge puis une verte ?",
+          choix: ["6/25", "1/2", "3/5", "3/10"],
+          reponse: 3,
+          explication: "Sans remise, les épreuves ne sont pas indépendantes : après une rouge, il reste 2 rouges et 2 vertes. P(R puis V) = 3/5 × 2/4 = 6/20 = 3/10. (6/25 serait le résultat avec remise.)",
         },
       ],
     },
@@ -1649,6 +1672,498 @@ Donc vₙ = 35 × 0,8ⁿ et uₙ = 15 + 35 × 0,8ⁿ.
 uₙ < 16 ⟺ 35 × 0,8ⁿ < 1 ⟺ 0,8ⁿ < 1/35 ≈ 0,0286.
 À la calculatrice : 0,8¹⁵ ≈ 0,0352 et 0,8¹⁶ ≈ 0,0281.
 La fonction renvoie donc **n = 16**.`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 14. Bernoulli, échantillonnage, simulation
+    {
+      id: "echantillonnage-simulation",
+      titre: "Épreuves de Bernoulli, échantillonnage et simulation",
+      theme: "Probabilités et statistiques",
+      cours: `
+## Épreuve de Bernoulli
+Une **épreuve de Bernoulli** est une expérience aléatoire qui n'a que **deux issues** : le **succès** (de probabilité p) et l'**échec** (de probabilité 1 − p).
+Exemples : obtenir 6 en lançant un dé (p = 1/6) ; répondre juste au hasard à une question de QCM à 4 choix (p = 1/4).
+
+La **variable de Bernoulli** associée vaut 1 en cas de succès et 0 en cas d'échec :
+| xᵢ | 1 | 0 |
+|---|---|---|
+| P(X = xᵢ) | p | 1 − p |
+
+**E(X) = p** et **V(X) = p(1 − p)** (car E(X²) = p, donc V(X) = p − p²), σ(X) = √(p(1 − p)).
+
+## Répétition d'épreuves de Bernoulli indépendantes
+On répète **n fois** (en 1re, n ≤ 4) la même épreuve de Bernoulli, de façon **indépendante**. On représente la situation par un **arbre** : à chaque niveau, les branches S (succès, p) et S̄ (échec, 1 − p).
+- La probabilité d'un chemin est le **produit** des probabilités de ses branches.
+- Pour « exactement k succès », on **compte** les chemins qui en comportent k, puis on additionne leurs probabilités (ils ont tous la même probabilité).
+- Pour « au moins un succès », on passe par le contraire : **P(au moins un succès) = 1 − (1 − p)ⁿ**.
+
+>! **Exemple** : 3 épreuves indépendantes avec p = 0,3.
+>! P(aucun succès) = 0,7³ = 0,343 ; P(au moins un succès) = 1 − 0,343 = 0,657.
+>! Exactement 2 succès : 3 chemins (SSS̄, SS̄S, S̄SS), chacun de probabilité 0,3² × 0,7 = 0,063. P = 3 × 0,063 = 0,189.
+
+(La formule générale de la loi binomiale est vue en terminale.)
+
+## Simuler avec Python
+random() renvoie un réel au hasard dans [0 ; 1[ : le test random() < p est vrai avec la probabilité p. On simule ainsi une variable de Bernoulli :
+
+~~~
+from random import random
+
+def bernoulli(p):
+    if random() < p:
+        return 1
+    return 0
+~~~
+
+**Échantillon de taille n** : n répétitions indépendantes de l'expérience. Sa **moyenne** m (ici la fréquence des succès) se calcule ainsi :
+
+~~~
+def moyenne_echantillon(n, p):
+    s = 0
+    for k in range(n):
+        s = s + bernoulli(p)
+    return s / n
+~~~
+
+## Fluctuation d'échantillonnage
+- D'un échantillon à l'autre, la moyenne m **varie** : c'est la **fluctuation d'échantillonnage**.
+- Plus la taille n est grande, plus m a tendance à être **proche de l'espérance μ = E(X)** (loi des grands nombres, admise et observée par simulation).
+- **Observation par simulation** : pour n assez grand, dans environ **95 %** des échantillons, l'écart entre m et μ est inférieur ou égal à **2σ/√n**, où σ est l'écart-type de X.
+
+~~~
+from math import sqrt
+
+def proportion(N, n, p):
+    mu = p
+    sigma = sqrt(p * (1 - p))
+    c = 0
+    for i in range(N):
+        m = moyenne_echantillon(n, p)
+        if abs(m - mu) <= 2 * sigma / sqrt(n):
+            c = c + 1
+    return c / N
+~~~
+Avec N = 2 000 échantillons de taille n = 100 et p = 0,5, on obtient une proportion proche de 0,95 (par exemple 0,96).
+
+>! **Utilisation** : un dé est-il équilibré ? Sur 100 lancers, on attend une fréquence de 6 proche de 1/6 ≈ 0,167, avec 2σ/√n ≈ 0,075. Une fréquence de 0,30 s'écarte bien plus que 0,075 de 1/6 : on peut **douter** que le dé soit équilibré (sans en être certain).
+
+> **À retenir**
+> - Bernoulli : deux issues ; E(X) = p, V(X) = p(1 − p).
+> - Épreuves indépendantes : on multiplie le long d'un chemin, on additionne les chemins.
+> - P(au moins un succès) = 1 − (1 − p)ⁿ.
+> - random() < p simule un succès de probabilité p.
+> - Environ 95 % des échantillons vérifient |m − μ| ≤ 2σ/√n ; plus n est grand, plus m est proche de μ.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Laquelle de ces expériences est une épreuve de Bernoulli ?",
+          choix: [
+            "Noter la somme de deux dés",
+            "Lancer un dé et noter si l'on obtient 6 ou non",
+            "Noter le nombre de frères et sœurs d'un élève",
+            "Tirer une carte et noter sa couleur parmi les 4 couleurs",
+          ],
+          reponse: 1,
+          explication: "Une épreuve de Bernoulli a exactement deux issues (succès / échec). « Obtenir 6 ou non » en a deux, avec p = 1/6. Les autres expériences ont plus de deux issues.",
+        },
+        {
+          type: "saisie",
+          question: "X est une variable de Bernoulli de paramètre p = 0,3 (X = 1 en cas de succès, 0 sinon). Calcule V(X).",
+          reponses: ["0,21", "0.21"],
+          explication: "V(X) = p(1 − p) = 0,3 × 0,7 = 0,21. (Et E(X) = p = 0,3.)",
+        },
+        {
+          type: "saisie",
+          question: "On lance trois fois de suite une pièce équilibrée (lancers indépendants). Quelle est la probabilité d'obtenir trois fois « pile » ?",
+          reponses: ["1/8", "0,125", "0.125", "12,5 %", "12,5%"],
+          explication: "Les lancers sont indépendants : on multiplie le long du chemin P-P-P. (1/2)³ = 1/8 = 0,125.",
+        },
+        {
+          type: "saisie",
+          question: "On répète 3 fois, de façon indépendante, une épreuve de Bernoulli de probabilité de succès 0,3. Quelle est la probabilité d'obtenir au moins un succès ?",
+          reponses: ["0,657", "0.657", "65,7 %", "65,7%"],
+          explication: "Le contraire de « au moins un succès » est « aucun succès », de probabilité 0,7³ = 0,343. Donc P = 1 − 0,343 = 0,657.",
+        },
+        {
+          type: "qcm",
+          question: "Dans l'arbre de 3 épreuves de Bernoulli indépendantes, combien de chemins comportent exactement 2 succès ?",
+          choix: ["3", "6", "2", "8"],
+          reponse: 0,
+          explication: "Il faut choisir la position de l'unique échec : SSS̄, SS̄S ou S̄SS. Il y a donc 3 chemins (sur 2³ = 8 chemins au total).",
+        },
+        {
+          type: "qcm",
+          question: "En Python, avec from random import random, que simule l'instruction « if random() < 0.3: » ?",
+          choix: [
+            "Un événement de probabilité 0,7",
+            "Un nombre entier entre 0 et 3",
+            "Un événement de probabilité 0,3",
+            "Un événement certain",
+          ],
+          reponse: 2,
+          explication: "random() renvoie un réel au hasard dans [0 ; 1[ ; il est inférieur à 0,3 avec la probabilité 0,3 (longueur de l'intervalle [0 ; 0,3[).",
+        },
+        {
+          type: "vf",
+          question: "Plus la taille n d'un échantillon est grande, plus la moyenne de l'échantillon a tendance à être proche de l'espérance de la variable aléatoire.",
+          reponse: true,
+          explication: "Vrai : c'est ce qu'on observe par simulation (loi des grands nombres). L'écart « typique » 2σ/√n diminue quand n augmente.",
+        },
+        {
+          type: "saisie",
+          question: "X est une variable de Bernoulli de paramètre p = 0,5. On simule des échantillons de taille n = 100. Calcule le seuil 2σ/√n.",
+          reponses: ["0,1", "0.1", "0,10", "1/10"],
+          explication: "σ = √(p(1 − p)) = √0,25 = 0,5 et √n = 10. 2σ/√n = 2 × 0,5/10 = 0,1. Dans environ 95 % des échantillons, la fréquence des succès est entre 0,4 et 0,6.",
+        },
+        {
+          type: "redaction",
+          question: "Un élève répond au hasard aux 4 questions d'un QCM ; chaque question a 4 choix dont un seul est juste. Les réponses sont indépendantes. On note X le nombre de bonnes réponses.\n1) Justifie qu'il s'agit de la répétition de 4 épreuves de Bernoulli indépendantes et donne p.\n2) Calcule P(X = 0), P(X = 4) puis P(X ≥ 1).\n3) Calcule P(X = 1).\n4) Écris une fonction Python simul() qui simule une copie et renvoie le nombre de bonnes réponses.",
+          corrige: `1) Chaque question est une épreuve à deux issues : succès (bonne réponse) ou échec. Une seule réponse juste parmi 4 choisis au hasard : **p = 1/4**. On répète 4 fois la même épreuve, de façon indépendante.
+
+2) X = 0 : 4 échecs, un seul chemin : P(X = 0) = (3/4)⁴ = **81/256** ≈ 0,316.
+X = 4 : 4 succès : P(X = 4) = (1/4)⁴ = **1/256**.
+P(X ≥ 1) = 1 − P(X = 0) = 1 − 81/256 = **175/256** ≈ 0,684.
+
+3) Exactement 1 succès : l'unique bonne réponse peut être à la question 1, 2, 3 ou 4, soit **4 chemins**, chacun de probabilité (1/4) × (3/4)³ = 27/256.
+P(X = 1) = 4 × 27/256 = 108/256 = **27/64** ≈ 0,422.
+
+4)
+>! ~~~
+>! from random import random
+>!
+>! def simul():
+>!     x = 0
+>!     for k in range(4):
+>!         if random() < 0.25:
+>!             x = x + 1
+>!     return x
+>! ~~~`,
+        },
+        {
+          type: "redaction",
+          question: "On veut tester un dé à 6 faces. On note X la variable qui vaut 1 si le dé donne 6 et 0 sinon ; si le dé est équilibré, p = 1/6.\n1) Calcule E(X) et σ(X) (valeurs exactes, puis σ arrondi au centième).\n2) Pour des échantillons de 100 lancers, calcule 2σ/√n (arrondi au millième) et donne l'intervalle [p − 2σ/√n ; p + 2σ/√n] (bornes arrondies au centième).\n3) Sur 100 lancers, Inès obtient 30 fois le 6. Que peut-on penser ? Explique ce que signifie « environ 95 % » dans ce contexte.",
+          corrige: `1) X suit une loi de Bernoulli de paramètre p = 1/6.
+**E(X) = 1/6** ; V(X) = p(1 − p) = 1/6 × 5/6 = 5/36, donc **σ(X) = √5/6 ≈ 0,37**.
+
+2) n = 100, √n = 10 : 2σ/√n = 2 × (√5/6)/10 = √5/30 ≈ **0,075**.
+Intervalle : [1/6 − 0,075 ; 1/6 + 0,075] ≈ **[0,09 ; 0,24]**.
+
+3) La fréquence observée est 30/100 = 0,30, qui est **en dehors** de l'intervalle : l'écart avec 1/6 (environ 0,13) dépasse nettement 2σ/√n.
+Si le dé était équilibré, une simulation montre qu'environ 95 % des échantillons de 100 lancers donneraient une fréquence de 6 dans cet intervalle ; un tel écart est donc peu probable. **On peut douter que le dé soit équilibré**, mais ce n'est pas une certitude : environ 5 % des échantillons d'un dé équilibré sortent aussi de l'intervalle.`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 15. Algorithmes en analyse
+    {
+      id: "euler-newton",
+      titre: "Algorithmes en analyse : méthodes d'Euler et de Newton",
+      theme: "Analyse",
+      cours: `
+## Idée de départ : l'approximation affine
+Près du point d'abscisse a, la courbe de f est très proche de sa tangente. Pour h petit :
+**f(a + h) ≈ f(a) + h × f′(a)**.
+
+>! **Exemple** : f(x) = √x, a = 4, h = 0,1. f(4) = 2, f′(4) = 1/(2√4) = 1/4.
+>! √4,1 ≈ 2 + 0,1 × 1/4 = **2,025** (valeur réelle : 2,0248…).
+
+## Méthode d'Euler pour la fonction exponentielle
+On ne connaît de exp que **f′ = f** et **f(0) = 1**. On choisit un **pas** h (petit) et on avance de proche en proche :
+f(x + h) ≈ f(x) + h × f′(x) = f(x) + h × f(x) = **(1 + h) × f(x)**.
+
+On construit ainsi des points (xₖ ; yₖ) avec x₀ = 0, y₀ = 1, puis **xₖ₊₁ = xₖ + h** et **yₖ₊₁ = (1 + h) × yₖ**.
+La suite (yₖ) est **géométrique** de raison 1 + h : yₖ = (1 + h)ᵏ.
+
+>! **Exemple avec h = 0,25 sur [0 ; 1]**
+>! | x | 0 | 0,25 | 0,5 | 0,75 | 1 |
+>! |---|---|---|---|---|---|
+>! | y | 1 | 1,25 | 1,5625 | 1,953125 | 2,44140625 |
+>! On obtient e ≈ 2,44 alors que e ≈ 2,718 : l'approximation est grossière.
+>! Avec h = 0,1 : e ≈ 1,1¹⁰ ≈ 2,594 ; avec h = 0,01 : e ≈ 1,01¹⁰⁰ ≈ 2,705. **Plus le pas est petit, meilleure est l'approximation.**
+
+~~~
+def euler(h, n):
+    x = 0
+    y = 1
+    L = [(x, y)]
+    for k in range(n):
+        y = y + h * y
+        x = x + h
+        L.append((x, y))
+    return L
+~~~
+euler(0.1, 10) renvoie la liste des 11 points de 0 à 1 ; on peut les tracer pour voir apparaître la courbe de exp.
+
+## Méthode de Newton (cas favorables)
+On cherche une solution de f(x) = 0. On part d'une valeur x₀ proche de la solution, et on remplace la courbe par sa **tangente** : la tangente en xₙ coupe l'axe des abscisses en
+**xₙ₊₁ = xₙ − f(xₙ)/f′(xₙ)** (si f′(xₙ) ≠ 0).
+
+>! **Exemple : approcher √2**, solution positive de x² − 2 = 0. f(x) = x² − 2, f′(x) = 2x, x₀ = 1.
+>! x₁ = 1 − (1 − 2)/2 = 1,5 ; x₂ = 1,5 − 0,25/3 = 17/12 ≈ 1,4167 ; x₃ = 577/408 ≈ 1,414216.
+>! √2 ≈ 1,414214 : en trois étapes, on a déjà 5 décimales exactes.
+
+~~~
+def newton(x, n):
+    for k in range(n):
+        x = x - (x * x - 2) / (2 * x)
+    return x
+~~~
+
+## Liste des coefficients directeurs des sécantes
+Pour conjecturer f′(a), on calcule (f(a + h) − f(a))/h pour h = 0,1 ; 0,01 ; 0,001… :
+
+~~~
+def secantes(f, a):
+    L = []
+    h = 1
+    for k in range(5):
+        h = h / 10
+        L.append((f(a + h) - f(a)) / h)
+    return L
+~~~
+
+> **À retenir**
+> - Approximation affine : f(a + h) ≈ f(a) + h f′(a).
+> - Euler pour exp : yₖ₊₁ = (1 + h) yₖ, y₀ = 1 ; plus h est petit, meilleure est l'approximation.
+> - Newton : xₙ₊₁ = xₙ − f(xₙ)/f′(xₙ) (intersection de la tangente avec l'axe des abscisses).
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Dans la méthode d'Euler appliquée à exp (f′ = f, f(0) = 1) avec un pas h, comment passe-t-on de yₖ à yₖ₊₁ ?",
+          choix: ["yₖ₊₁ = (1 + h) × yₖ", "yₖ₊₁ = yₖ + h", "yₖ₊₁ = h × yₖ", "yₖ₊₁ = yₖ + eʰ"],
+          reponse: 0,
+          explication: "f(x + h) ≈ f(x) + h f′(x) et f′ = f, donc yₖ₊₁ = yₖ + h yₖ = (1 + h) yₖ.",
+        },
+        {
+          type: "saisie",
+          question: "Méthode d'Euler pour exp avec un pas h = 0,1 en partant de y₀ = 1. Calcule y₂ (approximation de e^0,2).",
+          reponses: ["1,21", "1.21"],
+          explication: "y₁ = 1,1 × 1 = 1,1 ; y₂ = 1,1 × 1,1 = 1,21. (Valeur exacte : e^0,2 ≈ 1,2214.)",
+        },
+        {
+          type: "saisie",
+          question: "Méthode d'Euler pour exp avec un pas h = 0,5 : quelle approximation de e obtient-on en deux étapes (de 0 à 1) ?",
+          reponses: ["2,25", "2.25", "9/4"],
+          explication: "y₁ = 1,5 × 1 = 1,5 ; y₂ = 1,5 × 1,5 = 2,25. C'est loin de e ≈ 2,718 : le pas est trop grand.",
+        },
+        {
+          type: "vf",
+          question: "Avec un pas h = 0,1, la méthode d'Euler donne exactement e pour l'abscisse 1.",
+          reponse: false,
+          explication: "Faux : on obtient 1,1¹⁰ ≈ 2,594, une valeur approchée (par défaut) de e ≈ 2,718. C'est une méthode d'approximation.",
+        },
+        {
+          type: "qcm",
+          question: "En utilisant l'approximation affine f(a + h) ≈ f(a) + h f′(a) avec f(x) = √x, a = 4 et h = 0,1, quelle valeur approchée de √4,1 obtient-on ?",
+          choix: ["2,1", "2,05", "2,0025", "2,025"],
+          reponse: 3,
+          explication: "f(4) = 2 et f′(4) = 1/(2√4) = 1/4. √4,1 ≈ 2 + 0,1 × 0,25 = 2,025 (valeur réelle ≈ 2,0248).",
+        },
+        {
+          type: "saisie",
+          question: "Méthode de Newton pour f(x) = x² − 2 avec x₀ = 1 : xₙ₊₁ = xₙ − f(xₙ)/f′(xₙ). Calcule x₁.",
+          reponses: ["1,5", "1.5", "3/2"],
+          explication: "f(1) = −1 et f′(1) = 2. x₁ = 1 − (−1)/2 = 1 + 0,5 = 1,5.",
+        },
+        {
+          type: "saisie",
+          question: "Suite du calcul précédent : avec x₁ = 1,5, calcule x₂ (fraction irréductible).",
+          reponses: ["17/12", "x2=17/12", "x₂=17/12", "x₂ = 17/12"],
+          explication: "f(1,5) = 2,25 − 2 = 0,25 et f′(1,5) = 3. x₂ = 1,5 − 0,25/3 = 3/2 − 1/12 = 18/12 − 1/12 = 17/12 ≈ 1,4167 (√2 ≈ 1,4142).",
+        },
+        {
+          type: "qcm",
+          question: "Géométriquement, dans la méthode de Newton, xₙ₊₁ est :",
+          choix: [
+            "l'abscisse du sommet de la courbe",
+            "l'abscisse du point où la tangente en xₙ coupe l'axe des abscisses",
+            "l'ordonnée du point de la courbe d'abscisse xₙ",
+            "le milieu de xₙ et de la solution",
+          ],
+          reponse: 1,
+          explication: "La tangente en xₙ a pour équation y = f′(xₙ)(x − xₙ) + f(xₙ). Elle coupe l'axe des abscisses (y = 0) en x = xₙ − f(xₙ)/f′(xₙ).",
+        },
+        {
+          type: "redaction",
+          question: "On veut construire une approximation de la courbe de la fonction exponentielle sur [0 ; 1] par la méthode d'Euler avec un pas h = 0,25.\n1) Justifie la relation yₖ₊₁ = 1,25 × yₖ, avec y₀ = 1.\n2) Calcule y₁, y₂, y₃, y₄ (valeurs exactes décimales).\n3) Quelle est la nature de la suite (yₖ) ? Exprime yₖ en fonction de k.\n4) Compare y₄ à e ≈ 2,718 et explique comment améliorer l'approximation.\n5) Complète la fonction Python euler(h, n) qui renvoie la liste des ordonnées y₀, …, yₙ.",
+          corrige: `1) On sait que f′ = f. Pour h petit, f(x + h) ≈ f(x) + h f′(x) = f(x) + h f(x) = (1 + h) f(x). Avec h = 0,25 : **yₖ₊₁ = 1,25 yₖ**, et y₀ = f(0) = 1.
+
+2) y₁ = **1,25** ; y₂ = 1,25² = **1,5625** ; y₃ = 1,25³ = **1,953125** ; y₄ = 1,25⁴ = **2,44140625**.
+
+3) On multiplie toujours par 1,25 : (yₖ) est **géométrique** de raison 1,25 et de premier terme 1, donc **yₖ = 1,25ᵏ**.
+
+4) y₄ ≈ 2,44 est une approximation de e^1 = e ≈ 2,718 : l'erreur est d'environ 0,28 (environ 10 %). Pour améliorer l'approximation, on **diminue le pas** (h = 0,1 donne ≈ 2,594 ; h = 0,01 donne ≈ 2,705).
+
+5)
+>! ~~~
+>! def euler(h, n):
+>!     y = 1
+>!     L = [y]
+>!     for k in range(n):
+>!         y = (1 + h) * y
+>!         L.append(y)
+>!     return L
+>! ~~~
+euler(0.25, 4) renvoie [1, 1.25, 1.5625, 1.953125, 2.44140625].`,
+        },
+        {
+          type: "redaction",
+          question: "On cherche une valeur approchée de √3, solution positive de l'équation x² − 3 = 0, par la méthode de Newton.\n1) On pose f(x) = x² − 3. Montre que la relation de Newton s'écrit xₙ₊₁ = xₙ − (xₙ² − 3)/(2xₙ).\n2) Avec x₀ = 2, calcule x₁ puis x₂ (fractions irréductibles), puis donne une valeur approchée de x₂ à 10⁻⁴ près.\n3) Écris une fonction Python newton(n) qui renvoie xₙ.",
+          corrige: `1) f est dérivable sur ℝ et f′(x) = 2x. La relation xₙ₊₁ = xₙ − f(xₙ)/f′(xₙ) donne **xₙ₊₁ = xₙ − (xₙ² − 3)/(2xₙ)** (valable car xₙ ≠ 0).
+
+2) x₁ = 2 − (4 − 3)/4 = 2 − 1/4 = **7/4** = 1,75.
+x₂ = 7/4 − (49/16 − 3)/(7/2) = 7/4 − (1/16) × (2/7) = 7/4 − 1/56 = 98/56 − 1/56 = **97/56** ≈ **1,7321**.
+(√3 ≈ 1,73205 : la méthode converge très vite.)
+
+3)
+>! ~~~
+>! def newton(n):
+>!     x = 2
+>!     for k in range(n):
+>!         x = x - (x * x - 3) / (2 * x)
+>!     return x
+>! ~~~`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 16. Automatismes (épreuve anticipée)
+    {
+      id: "automatismes-epreuve-anticipee",
+      titre: "Automatismes : préparer l'épreuve anticipée (sans calculatrice)",
+      theme: "Automatismes",
+      cours: `
+## L'épreuve anticipée de mathématiques
+Depuis juin 2026, les élèves de 1re passent en fin d'année (en juin) une **épreuve anticipée de mathématiques** du baccalauréat. Pour toi qui suis la spécialité, le sujet porte sur le **programme de spécialité de 1re**. Modalités fixées par les textes officiels (à vérifier chaque année avec ton professeur) :
+- durée **2 heures**, coefficient 2, **calculatrice interdite** ;
+- **partie 1 : automatismes** (6 points) : questions courtes, calculs et QCM ;
+- **partie 2** (14 points) : deux ou trois exercices indépendants sur le programme.
+
+Les automatismes sont des réflexes de calcul à travailler **régulièrement**, sans calculatrice. Ce chapitre en rassemble les principaux.
+
+## Proportions et pourcentages
+- Prendre t % d'une quantité : multiplier par t/100. 30 % de 40 % = 0,3 × 0,4 = 0,12 = 12 %.
+- **Coefficient multiplicateur** : hausse de t % ⟺ × (1 + t/100) ; baisse de t % ⟺ × (1 − t/100).
+- **Évolutions successives** : on **multiplie** les coefficients (on n'additionne pas les pourcentages). +20 % puis −20 % : × 1,2 × 0,8 = × 0,96, soit **−4 %**.
+- **Évolution réciproque** : pour annuler une baisse de 20 % (× 0,8), il faut × 1/0,8 = × 1,25, soit **+25 %**.
+- Retrouver une valeur initiale : V₀ = V₁ ÷ coefficient.
+
+## Calcul numérique
+- Fractions : a/b + c/d = (ad + bc)/(bd) ; diviser par une fraction, c'est multiplier par son inverse.
+- Puissances : aᵐ × aⁿ = aᵐ⁺ⁿ ; aᵐ/aⁿ = aᵐ⁻ⁿ ; (aᵐ)ⁿ = aᵐⁿ ; a⁻ⁿ = 1/aⁿ ; 10⁻³ = 0,001.
+- Racines : √(ab) = √a × √b ; √50 = √25 × √2 = 5√2. Attention : √(a + b) ≠ √a + √b.
+- Écriture scientifique : 0,00042 = 4,2 × 10⁻⁴.
+
+## Calcul littéral
+- Identités remarquables : (a + b)² = a² + 2ab + b² ; (a − b)² = a² − 2ab + b² ; (a + b)(a − b) = a² − b².
+- Factoriser par un facteur commun ou avec une identité : x² − 9 = (x − 3)(x + 3).
+- Équations et inéquations du 1er degré : attention, **multiplier ou diviser par un nombre négatif change le sens** de l'inégalité.
+
+## Fonctions et graphiques
+- Coefficient directeur de la droite (AB) : m = (y_B − y_A)/(x_B − x_A).
+- Lire une image, un antécédent, le signe, les variations sur une courbe ; lire f′(a) comme pente de la tangente.
+- Droite d'équation y = mx + p : p est l'ordonnée à l'origine.
+
+## Statistiques et probabilités
+- Moyenne, médiane, fréquences ; probabilité d'un événement contraire ; lecture d'un arbre ou d'un tableau croisé.
+
+>! **Conseils pour la partie automatismes**
+>! - Lis toutes les propositions d'un QCM et élimine celles qui sont absurdes (ordre de grandeur, signe).
+>! - Vérifie par un calcul inverse (développer pour contrôler une factorisation, remplacer x par la solution trouvée).
+>! - Ne reste pas bloqué : passe et reviens à la fin.
+
+> **À retenir**
+> - Évolutions successives : on multiplie les coefficients.
+> - aᵐ × aⁿ = aᵐ⁺ⁿ ; (aᵐ)ⁿ = aᵐⁿ ; √(a²b) = a√b (a ≥ 0).
+> - Inéquation : diviser par un négatif change le sens.
+> - Coefficient directeur : (y_B − y_A)/(x_B − x_A).
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Un prix augmente de 20 %, puis baisse de 20 %. Globalement, le prix :",
+          choix: ["ne change pas", "baisse de 4 %", "augmente de 4 %", "baisse de 2 %"],
+          reponse: 1,
+          explication: "On multiplie les coefficients : 1,2 × 0,8 = 0,96 = 1 − 0,04. Le prix baisse de 4 %. Les pourcentages ne s'additionnent pas.",
+        },
+        {
+          type: "saisie",
+          question: "Après une hausse de 25 %, un article coûte 150 €. Quel était son prix initial (en €) ?",
+          reponses: ["120", "120 €", "120€"],
+          explication: "Hausse de 25 % : × 1,25. Prix initial = 150 ÷ 1,25 = 150 × 4/5 = 120 €. (Retirer 25 % de 150 donnerait 112,50 €, ce qui est faux.)",
+        },
+        {
+          type: "saisie",
+          question: "Calcule 2/3 + 5/6 (fraction irréductible).",
+          reponses: ["3/2", "1,5", "1.5"],
+          explication: "2/3 = 4/6, donc 2/3 + 5/6 = 4/6 + 5/6 = 9/6 = 3/2.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule (2³)² × 2⁻⁴.",
+          reponses: ["4", "2²", "2^2"],
+          explication: "(2³)² = 2⁶, puis 2⁶ × 2⁻⁴ = 2⁶⁻⁴ = 2² = 4.",
+        },
+        {
+          type: "qcm",
+          question: "√50 est égal à :",
+          choix: ["25", "2√5", "10√5", "5√2"],
+          reponse: 3,
+          explication: "50 = 25 × 2, donc √50 = √25 × √2 = 5√2.",
+        },
+        {
+          type: "qcm",
+          question: "La forme développée de (2x − 3)² est :",
+          choix: ["4x² − 12x + 9", "4x² − 9", "4x² − 6x + 9", "2x² − 12x + 9"],
+          reponse: 0,
+          explication: "(a − b)² = a² − 2ab + b² avec a = 2x et b = 3 : 4x² − 12x + 9.",
+        },
+        {
+          type: "qcm",
+          question: "L'ensemble des solutions de −2x + 4 > 10 est :",
+          choix: ["]3 ; +∞[", "]−∞ ; −3[", "]−3 ; +∞[", "]−∞ ; 3["],
+          reponse: 1,
+          explication: "−2x > 6 ; on divise par −2 < 0, donc le sens change : x < −3. S = ]−∞ ; −3[.",
+        },
+        {
+          type: "saisie",
+          question: "Quel est le coefficient directeur de la droite passant par A(1 ; 3) et B(3 ; −1) ?",
+          reponses: ["-2", "−2"],
+          explication: "m = (y_B − y_A)/(x_B − x_A) = (−1 − 3)/(3 − 1) = −4/2 = −2.",
+        },
+        {
+          type: "saisie",
+          question: "Dans un lycée, 40 % des élèves sont en 1re, et 30 % des élèves de 1re suivent la spécialité maths. Quel pourcentage des élèves du lycée sont en 1re avec la spécialité maths ?",
+          reponses: ["12", "12 %", "12%", "0,12"],
+          explication: "On prend 30 % de 40 % : 0,3 × 0,4 = 0,12, soit 12 %.",
+        },
+        {
+          type: "vf",
+          question: "Deux hausses successives de 10 % correspondent à une hausse globale de 21 %.",
+          reponse: true,
+          explication: "Vrai : 1,1 × 1,1 = 1,21 = 1 + 0,21. La hausse globale est de 21 % (et non 20 %).",
+        },
+        {
+          type: "saisie",
+          question: "Donne l'écriture scientifique de 0,00042 (forme a × 10^n).",
+          reponses: ["4,2×10^-4", "4,2 × 10^-4", "4,2×10⁻⁴", "4,2 × 10⁻⁴", "4.2×10^-4", "4,2*10^-4", "4,2 x 10^-4", "4,2x10^-4", "4,2 × 10^(-4)", "4,2×10^(-4)"],
+          explication: "On place la virgule après le premier chiffre non nul : 4,2. On l'a déplacée de 4 rangs vers la droite, donc 0,00042 = 4,2 × 10⁻⁴.",
+        },
+        {
+          type: "redaction",
+          question: "Sans calculatrice.\n1) Un article baisse de 20 %. De quel pourcentage doit-il augmenter pour revenir à son prix initial ?\n2) Factorise x² − 9, puis résous x² − 9 = 0.\n3) Une fonction affine f vérifie f(0) = 3 et f(2) = −1. Donne son expression.\n4) Écris 3/4 − 1/6 sous forme de fraction irréductible.",
+          corrige: `1) Baisse de 20 % : × 0,8. Pour revenir au prix initial, il faut multiplier par 1/0,8 = 10/8 = **1,25**, soit une **hausse de 25 %** (et non de 20 %).
+
+2) x² − 9 = x² − 3² = **(x − 3)(x + 3)** (identité a² − b²).
+Un produit est nul si et seulement si l'un des facteurs est nul : x − 3 = 0 ou x + 3 = 0. **S = {−3 ; 3}**.
+
+3) f(x) = mx + p avec p = f(0) = 3. m = (f(2) − f(0))/(2 − 0) = (−1 − 3)/2 = −2. **f(x) = −2x + 3**. Vérification : f(2) = −4 + 3 = −1.
+
+4) Dénominateur commun 12 : 3/4 = 9/12 et 1/6 = 2/12. 3/4 − 1/6 = **7/12**.`,
         },
       ],
     },

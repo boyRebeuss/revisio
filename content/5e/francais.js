@@ -688,7 +688,7 @@ Autres formes : savoir → sache, sachons, sachez ; vouloir → veuillez (formul
 ## Le subjonctif présent (initiation)
 Il s'emploie surtout après **que** dans des propositions qui expriment la **volonté**, le **souhait**, la **nécessité**, le **doute** ou un sentiment : *il faut que, je veux que, je souhaite que, bien que, pour que, avant que*.
 
-**Formation** : radical de la 3e personne du pluriel du présent (ils finiss-ent) + **-e, -es, -e, -ions, -iez, -ent**.
+**Formation** : radical de la 3e personne du pluriel du présent (ils finiss-ent) + **-e, -es, -e, -ions, -iez, -ent**. Avec « nous » et « vous », certains verbes reprennent le radical de l'imparfait : que nous **pren**ions, que vous **ven**iez.
 
 | chanter | finir | prendre |
 |---|---|---|
@@ -854,7 +854,7 @@ Des **homophones** se prononcent de la même façon mais s'écrivent différemme
 ## Orthographe lexicale : quelques règles utiles
 - **m devant m, b, p** : emporter, ombre, emmener (exceptions : bonbon, bonbonne, néanmoins, embonpoint).
 - **Le son [s]** : s, ss entre deux voyelles (poisson ≠ poison), c devant e, i, y (cerise), ç devant a, o, u (garçon, reçu), t devant i (attention, nation).
-- **Le son [g]** devant e, i : gu (guerre, guide) ; le son [j] devant a, o : ge (mangeons, geôle).
+- **Le son [g]** devant e, i : gu (guerre, guide) ; le son « je » [ʒ] devant a, o : ge (mangeons, geôle).
 - **Les noms féminins en -é / -ée** : la plupart en -ée (une allée, une poupée) ; ceux en -té ou -tié s'écrivent -é (la liberté, l'amitié), sauf les noms de contenu (une assiettée, une pelletée) et la dictée, la montée, la jetée, la portée, la pâtée.
 - **Les noms en -eur** : sans e final (la peur, la douleur), sauf l'heure, la demeure, le beurre.
 - **Les noms en -oir / -oire** : masculins souvent en -oir (le couloir, le miroir), féminins en -oire (la mémoire, la victoire) ; mais quelques masculins en -oire (le territoire, le laboratoire).
@@ -967,7 +967,7 @@ La plupart des mots français viennent du **latin**. Beaucoup de mots savants vi
 `,
       exercices: [
         { type: "saisie", question: "Quel est le préfixe du mot « impossible » ?", reponses: ["im", "im-"], explication: "« im- » exprime le contraire ; il remplace « in- » devant p, b, m (impossible, imbuvable, immobile)." },
-        { type: "qcm", question: "Quel mot n'appartient pas à la famille de « terre » ?", choix: ["atterrir", "souterrain", "terrible", "terrestre"], reponse: 2, explication: "« Terrible » vient du latin *terror* (la peur), pas de *terra* (la terre)." },
+        { type: "qcm", question: "Quel mot n'appartient pas à la famille de « terre » ?", choix: ["atterrir", "souterrain", "terrible", "terrestre"], reponse: 2, explication: "« Terrible » vient du latin *terribilis* (« qui effraie », de la famille de *terror*, la terreur), pas de *terra* (la terre)." },
         { type: "vf", question: "« Chou-fleur » est un mot formé par composition.", reponse: true, explication: "Il est formé de deux mots existants, « chou » et « fleur », reliés par un trait d'union." },
         { type: "qcm", question: "Que signifie la racine grecque « chrono » ?", choix: ["la vie", "l'eau", "la voix", "le temps"], reponse: 3, explication: "*Chronos* = le temps : chronologie, chronomètre, anachronisme." },
         { type: "qcm", question: "Dans « Il a un cœur de pierre », le mot « pierre » est employé :", choix: ["au sens propre", "au sens figuré", "comme homonyme", "comme antonyme"], reponse: 1, explication: "Un cœur de pierre est un cœur insensible : « pierre » est pris au sens figuré (dureté)." },
@@ -1000,11 +1000,11 @@ Une **figure de style** est une façon particulière d'utiliser les mots pour pr
 | **personnification** | attribue des traits humains à une chose ou un animal | Le vent **hurle** sa colère. | rend la nature vivante, menaçante |
 | **hyperbole** | exagération | Je te l'ai dit **mille fois**. | insister, impressionner |
 | **énumération** | suite de mots de même nature | Il prit son épée, son bouclier, son casque, sa lance. | abondance, rythme |
-| **gradation** | énumération d'intensité croissante (ou décroissante) | Va, cours, vole ! (Corneille) | montée de l'émotion |
-| **répétition / anaphore** | reprise d'un mot (en début de vers ou de phrase : anaphore) | **Rome**, l'unique objet... **Rome**, à qui... | insistance, rythme |
+| **gradation** | énumération d'intensité croissante (ou décroissante) | « Va, cours, vole, et nous venge. » (Corneille, *Le Cid*) | montée de l'émotion |
+| **répétition / anaphore** | reprise d'un mot (en début de vers ou de phrase : anaphore) | « **Rome**, l'unique objet de mon ressentiment ! / **Rome**, à qui vient ton bras d'immoler mon amant ! » (Corneille, *Horace*) | insistance, rythme |
 | **antithèse** | rapproche deux mots ou idées opposés | Je vis, je meurs. | souligne un contraste |
 | **allitération** | répétition d'un son consonne | Pour qui **s**ont ces **s**erpents qui **s**ifflent... (Racine) | fait entendre (le sifflement) |
-| **assonance** | répétition d'un son voyelle | Tout m'afflige et me nuit et conspire à me nuire (son [i]) | musicalité |
+| **assonance** | répétition d'un son voyelle | « Tout m'afflige et me nuit et conspire à me nuire » (Racine, *Phèdre*) : son [i] | musicalité |
 
 >! **Comparaison ou métaphore ?** Cherche l'outil : « comme » → comparaison. Pas d'outil → métaphore. Attention : « comme » n'est pas toujours un outil de comparaison (« Comme il pleuvait, je suis resté » = cause).
 
@@ -1117,7 +1117,7 @@ Une bonne réponse : **une phrase complète** qui reprend la question + une **ju
 `,
       exercices: [
         { type: "qcm", question: "Dans un dialogue, que fais-tu à chaque changement de personnage ?", choix: ["Je mets un point-virgule", "Je change de paragraphe sans rien mettre", "Je reviens à la ligne et j'ouvre un tiret", "J'ouvre de nouveaux guillemets"], reponse: 2, explication: "Les guillemets encadrent tout le dialogue ; on passe à la ligne avec un tiret à chaque changement d'interlocuteur." },
-        { type: "vf", question: "Dans une rédaction au passé, on peut mélanger librement le présent et le passé simple.", reponse: false, explication: "Il faut garder un système de temps cohérent : passé simple et imparfait (plus-que-parfait pour l'antériorité). Le présent ne s'emploie que dans les dialogues." },
+        { type: "vf", question: "Dans une rédaction au passé, on peut mélanger librement le présent et le passé simple.", reponse: false, explication: "Il faut garder un système de temps cohérent : passé simple et imparfait (plus-que-parfait pour l'antériorité). Le présent se réserve aux dialogues (ou aux vérités générales)." },
         { type: "qcm", question: "Quelle incise est correctement écrite ?", choix: ["« Viens ici, il cria. »", "« Viens ici ! cria-t-il. »", "« Viens ici, cria il. »", "« Viens ici. Il cria-t-il. »"], reponse: 1, explication: "L'incise est inversée (verbe + sujet) et reliée par un trait d'union, avec -t- euphonique entre deux voyelles : « cria-t-il »." },
         { type: "saisie", question: "Combien d'étapes compte le schéma narratif ? (en chiffres)", reponses: ["5", "cinq"], explication: "Situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale : **5** étapes." },
         { type: "qcm", question: "Quel verbe remplace le mieux « dit » dans « “Attention !” dit-il très fort » ?", choix: ["murmura-t-il", "chuchota-t-il", "soupira-t-il", "s'écria-t-il"], reponse: 3, explication: "« S'écrier », c'est dire en criant : le verbe précis remplace « dit très fort »." },

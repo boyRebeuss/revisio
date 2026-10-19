@@ -52,9 +52,9 @@ Les questions et les exclamations s'ouvrent avec un signe à l'envers : **¿** .
       exercices: [
         { type: "qcm", question: "Combien de lettres compte l'alphabet espagnol ?", choix: ["26", "27", "28", "30"], reponse: 1, explication: "L'alphabet espagnol a 27 lettres : les 26 lettres du français plus le **ñ**." },
         { type: "vf", question: "Dans le mot *hola*, on prononce le h.", reponse: false, explication: "Le **h** est toujours muet en espagnol : *hola* se dit « ola »." },
-        { type: "qcm", question: "Comment se prononce le *u* de *luna* ?", choix: ["« u » comme en français", "« ou »", "Il ne se prononce pas", "« eu »"], reponse: 1, explication: "En espagnol, le **u** se prononce toujours « ou » : « louna »." },
+        { type: "qcm", question: "Comment se prononce le *u* de *luna* ?", choix: ["« ou »", "« u » comme en français", "Il ne se prononce pas", "« eu »"], reponse: 0, explication: "En espagnol, le **u** se prononce toujours « ou » : « louna »." },
         { type: "saisie", question: "Écris le signe qui ouvre une question en espagnol.", reponses: ["¿"], explication: "Une question commence par **¿** et se termine par **?** : *¿Qué tal?*" },
-        { type: "qcm", question: "Quelle paire de mots montre l'opposition entre r simple et rr ?", choix: ["*casa* / *cosa*", "*pero* / *perro*", "*vaso* / *baso*", "*hola* / *ola*"], reponse: 1, explication: "*pero* (mais) a un r simple, *perro* (chien) un r fortement roulé. Le sens change !" },
+        { type: "qcm", question: "Quelle paire de mots montre l'opposition entre r simple et rr ?", choix: ["*casa* / *cosa*", "*hola* / *ola*", "*vaso* / *baso*", "*pero* / *perro*"], reponse: 3, explication: "*pero* (mais) a un r simple, *perro* (chien) un r fortement roulé. Le sens change !" },
         { type: "vf", question: "Le mot *canción* porte un accent écrit parce qu'il se termine par n mais est accentué sur la dernière syllabe.", reponse: true, explication: "Un mot terminé par **n** devrait être accentué sur l'avant-dernière syllabe. *Canción* est accentué sur la dernière, donc on écrit le tilde." },
         { type: "qcm", question: "Dans *queso*, comment se prononce *qu* ?", choix: ["« kou »", "« k »", "« kw »", "« tch »"], reponse: 1, explication: "Devant e et i, **qu** se prononce « k » et le u est muet : « késo »." },
         { type: "saisie", question: "Ajoute la ponctuation espagnole manquante au début : « ...Hola, amigos! » (écris seulement le signe)", reponses: ["¡"], explication: "Une exclamation s'ouvre par **¡** : *¡Hola, amigos!*" },
@@ -104,13 +104,13 @@ En espagnol, on **omet généralement le pronom sujet** : la terminaison du verb
 > **À retenir** : me llamo / tengo ... años / soy de / vivo en. Usted et ustedes se conjuguent à la 3e personne. On n'utilise le pronom sujet que pour insister.
 `,
       exercices: [
-        { type: "qcm", question: "Il est 16 h, tu salues ta voisine. Tu dis :", choix: ["Buenos días", "Buenas tardes", "Buenas noches", "Hasta mañana"], reponse: 1, explication: "*Buenas tardes* s'utilise l'après-midi (et jusqu'au début de la soirée)." },
+        { type: "qcm", question: "Il est 16 h, tu salues ta voisine. Tu dis :", choix: ["Buenos días", "Buenas noches", "Buenas tardes", "Hasta mañana"], reponse: 2, explication: "*Buenas tardes* s'utilise l'après-midi (et jusqu'au début de la soirée)." },
         { type: "saisie", question: "Complète : « ¿Cómo te ...? » (Comment t'appelles-tu ?)", reponses: ["llamas"], explication: "*¿Cómo te llamas?* — réponse : *Me llamo...*" },
-        { type: "saisie", question: "Traduis : « J'ai treize ans. »", reponses: ["Tengo trece años", "Yo tengo trece años"], explication: "L'âge se dit avec **tener** : *Tengo trece años*." },
+        { type: "saisie", question: "Traduis : « J'ai treize ans. »", reponses: ["Tengo trece años", "Yo tengo trece años", "Tengo 13 años"], explication: "L'âge se dit avec **tener** : *Tengo trece años*." },
         { type: "vf", question: "Avec *usted*, on conjugue le verbe à la 2e personne du singulier.", reponse: false, explication: "*Usted* se conjugue à la **3e personne du singulier** : *¿Cómo está usted?*" },
-        { type: "qcm", question: "Tu demandes poliment à un monsieur âgé d'où il vient :", choix: ["¿De dónde eres?", "¿De dónde es usted?", "¿De dónde sois?", "¿Dónde vives tú?"], reponse: 1, explication: "Vouvoiement : *usted* + 3e personne : *¿De dónde es usted?*" },
+        { type: "qcm", question: "Tu demandes poliment à un monsieur âgé d'où il vient :", choix: ["¿De dónde es usted?", "¿De dónde eres?", "¿De dónde sois?", "¿Dónde vives tú?"], reponse: 0, explication: "Vouvoiement : *usted* + 3e personne : *¿De dónde es usted?*" },
         { type: "saisie", question: "Complète : « Soy ... Marsella. » (Je suis de Marseille.)", reponses: ["de"], explication: "*Ser de* + ville ou pays indique l'origine : *Soy de Marsella*." },
-        { type: "qcm", question: "Quelle est la bonne réponse à « ¿Qué tal? » ?", choix: ["Me llamo Pablo.", "Muy bien, gracias. ¿Y tú?", "Tengo doce años.", "Vivo en Madrid."], reponse: 1, explication: "*¿Qué tal?* = Ça va ? → *Muy bien, gracias. ¿Y tú?*" },
+        { type: "qcm", question: "Quelle est la bonne réponse à « ¿Qué tal? » ?", choix: ["Me llamo Pablo.", "Vivo en Madrid.", "Tengo doce años.", "Muy bien, gracias. ¿Y tú?"], reponse: 3, explication: "*¿Qué tal?* = Ça va ? → *Muy bien, gracias. ¿Y tú?*" },
         { type: "saisie", question: "Traduis : « J'habite à Toulouse. »", reponses: ["Vivo en Toulouse", "Yo vivo en Toulouse"], explication: "*vivir en* + lieu : *Vivo en Toulouse*." },
         { type: "redaction", question: "Présente-toi en 5 phrases à un correspondant espagnol (nom, âge, nationalité, ville, salutation finale).", corrige: "Modèle :\n\n*¡Hola! Me llamo Léa. Tengo doce años. Soy francesa y vivo en Nantes, en el oeste de Francia. ¿Y tú? ¿Cómo te llamas? ¡Hasta pronto!*\n\nPoints vérifiés :\n- *me llamo* + prénom ;\n- *tengo* + âge + *años* ;\n- *soy* + nationalité accordée (*francés / francesa*) ;\n- *vivo en* + ville ;\n- ponctuation ¿ ? et ¡ !." }
       ]
@@ -142,6 +142,7 @@ En espagnol, on **omet généralement le pronom sujet** : la terminaison du verb
 - Mot terminé par une **voyelle** → **+s** : *casa* → *casas*.
 - Mot terminé par une **consonne** → **+es** : *ciudad* → *ciudades*, *profesor* → *profesores*.
 - **z → ces** : *lápiz* → *lápices*, *vez* → *veces*.
+- Mots terminés par **-s** non accentués sur la dernière syllabe : invariables : *el lunes* → *los lunes*, *la crisis* → *las crisis* (mais *el autobús* → *los autobuses*).
 - Attention aux accents : *canción* → *canciones* (le tilde disparaît), *joven* → *jóvenes* (il apparaît).
 
 ## L'accord de l'adjectif
@@ -156,7 +157,7 @@ En espagnol, on **omet généralement le pronom sujet** : la terminaison du verb
         { type: "saisie", question: "Mets l'article défini : « ... problema »", reponses: ["el"], explication: "*Problema* est masculin malgré son -a : *el problema*." },
         { type: "saisie", question: "Écris le pluriel de *lápiz*.", reponses: ["lápices"], explication: "**z → ces** : *lápiz* → *lápices*." },
         { type: "saisie", question: "Écris le pluriel de *canción*.", reponses: ["canciones"], explication: "On ajoute **-es** et l'accent écrit disparaît : *canciones* (accent tonique sur *cio*, conforme à la règle)." },
-        { type: "qcm", question: "Traduis « Je vais au collège ».", choix: ["Voy a el colegio", "Voy al colegio", "Voy en el colegio", "Voy del colegio"], reponse: 1, explication: "**a + el = al** : *Voy al colegio*." },
+        { type: "qcm", question: "Traduis « Je vais au collège ».", choix: ["Voy a el colegio", "Voy en el colegio", "Voy al colegio", "Voy del colegio"], reponse: 2, explication: "**a + el = al** : *Voy al colegio*." },
         { type: "vf", question: "« Je bois de l'eau » se traduit *Bebo del agua*.", reponse: false, explication: "Pas d'article partitif en espagnol : *Bebo agua*." },
         { type: "qcm", question: "Quel nom est féminin ?", choix: ["coche", "día", "leche", "mapa"], reponse: 2, explication: "*la leche* (le lait) est féminin ; *el coche*, *el día*, *el mapa* sont masculins." },
         { type: "saisie", question: "Accorde l'adjectif : « unas chicas (simpático) »", reponses: ["simpáticas"], explication: "Féminin pluriel : *simpáticas*." },
@@ -210,11 +211,11 @@ Avec un article défini, on utilise **estar** : *El parque está cerca.*
         { type: "saisie", question: "Conjugue *estar* : « Tú ... cansado. »", reponses: ["estás"], explication: "*estar* : estoy, **estás**, está... État passager → estar." },
         { type: "saisie", question: "Conjugue *tener* : « Ellos ... un gato. »", reponses: ["tienen"], explication: "*tener* : tengo, tienes, tiene, tenemos, tenéis, **tienen**." },
         { type: "qcm", question: "« Barcelona ... en Cataluña. »", choix: ["es", "está", "hay", "tiene"], reponse: 1, explication: "Localisation → **estar** : *Barcelona está en Cataluña*." },
-        { type: "qcm", question: "« Mi padre ... profesor. »", choix: ["está", "es", "hay", "tiene"], reponse: 1, explication: "La profession s'exprime avec **ser**." },
+        { type: "qcm", question: "« Mi padre ... profesor. »", choix: ["está", "hay", "es", "tiene"], reponse: 2, explication: "La profession s'exprime avec **ser**." },
         { type: "qcm", question: "« En mi calle ... dos panaderías. »", choix: ["están", "son", "hay", "tienen"], reponse: 2, explication: "**hay** = il y a, invariable, avec un nombre." },
         { type: "vf", question: "« Son las cinco » est correct pour dire l'heure.", reponse: true, explication: "L'heure se dit avec **ser** : *Es la una*, *Son las cinco*." },
         { type: "saisie", question: "Traduis : « J'ai faim. »", reponses: ["Tengo hambre", "Yo tengo hambre"], explication: "*avoir faim* = **tener hambre**." },
-        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Hay el museo en la plaza.", "El museo está en la plaza.", "El museo es en la plaza.", "El museo hay en la plaza."], reponse: 1, explication: "Avec un article défini (*el museo*), on situe avec **estar**." },
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Hay el museo en la plaza.", "El museo hay en la plaza.", "El museo es en la plaza.", "El museo está en la plaza."], reponse: 3, explication: "Avec un article défini (*el museo*), on situe avec **estar**." },
         { type: "redaction", question: "Décris ta meilleure amie ou ton meilleur ami en 5 phrases en utilisant ser, estar, tener et hay au moins une fois chacun.", corrige: "Modèle :\n\n*Mi mejor amiga se llama Inés. Es española y es muy simpática. Tiene doce años y tiene un hermano. Hoy está un poco triste porque está enferma. En su habitación hay muchos libros.*\n\n- **ser** : nationalité, caractère ;\n- **tener** : âge, possession ;\n- **estar** : état passager (triste, enferma) ;\n- **hay** : existence (muchos libros)." }
       ]
     },
@@ -262,7 +263,7 @@ Le pronom réfléchi se place **avant** le verbe conjugué : *me, te, se, nos, o
         { type: "qcm", question: "Quelle forme correspond à « nous écrivons » ?", choix: ["escribemos", "escribimos", "escribamos", "escribís"], reponse: 1, explication: "Les verbes en -ir font **-imos** : *escribimos*." },
         { type: "saisie", question: "Conjugue *levantarse* : « Yo ... a las siete. »", reponses: ["me levanto"], explication: "Pronom réfléchi avant le verbe : *me levanto*." },
         { type: "vf", question: "« No bebo café » signifie « Je ne bois pas de café ».", reponse: true, explication: "**no** + verbe suffit pour la négation, et pas d'article partitif." },
-        { type: "saisie", question: "Traduis : « Est-ce que tu étudies l'anglais ? »", reponses: ["¿Estudias inglés?", "Estudias inglés", "¿Tú estudias inglés?", "Tú estudias inglés"], explication: "Pas de « est-ce que » : *¿Estudias inglés?*" },
+        { type: "saisie", question: "Traduis : « Est-ce que tu étudies l'anglais ? »", reponses: ["¿Estudias inglés?", "Estudias inglés", "¿Tú estudias inglés?", "Tú estudias inglés", "¿Estudias el inglés?"], explication: "Pas de « est-ce que » : *¿Estudias inglés?*" },
         { type: "redaction", question: "Raconte ta journée habituelle en 6 phrases au présent (verbes réguliers et pronominaux).", corrige: "Modèle :\n\n*Me levanto a las siete. Desayuno con mi hermana: tomo un chocolate. Llego al colegio a las ocho. Estudio matemáticas, francés y español. Por la tarde, escucho música y leo. Ceno con mi familia a las ocho y media.*\n\nVérifie : terminaisons de *yo* en **-o**, pronom *me* avant *levanto*, *a las* + heure." }
       ]
     },
@@ -313,8 +314,8 @@ Autres 1res personnes irrégulières : *conocer* → **conozco**, *saber* → **
         { type: "saisie", question: "Conjugue *jugar* : « Tú ... al fútbol. »", reponses: ["juegas"], explication: "*jugar* : u → ue : *juegas*." },
         { type: "saisie", question: "Conjugue *hacer* : « Yo ... los deberes. »", reponses: ["hago"], explication: "Verbe en -go : *hago*." },
         { type: "saisie", question: "Conjugue *ir* : « Ellos ... a la playa. »", reponses: ["van"], explication: "*ir* : voy, vas, va, vamos, vais, **van**." },
-        { type: "qcm", question: "Quelle forme est correcte pour *pedir*, ellos ?", choix: ["peden", "piden", "pieden", "pedimos"], reponse: 1, explication: "e → i : *piden*." },
-        { type: "qcm", question: "« Je sors avec mes amis » :", choix: ["Salo con mis amigos", "Salgo con mis amigos", "Sale con mis amigos", "Salgo con mi amigos"], reponse: 1, explication: "*salir* → **salgo**, et *mis* au pluriel." },
+        { type: "qcm", question: "Quelle forme est correcte pour *pedir*, ellos ?", choix: ["peden", "pieden", "piden", "pedimos"], reponse: 2, explication: "e → i : *piden*." },
+        { type: "qcm", question: "« Je sors avec mes amis » :", choix: ["Salgo con mis amigos", "Salo con mis amigos", "Sale con mis amigos", "Salgo con mi amigos"], reponse: 0, explication: "*salir* → **salgo**, et *mis* au pluriel." },
         { type: "vf", question: "*Empezar* donne *empiezamos* à la 1re personne du pluriel.", reponse: false, explication: "Nosotros ne diphtongue pas : *empezamos*." },
         { type: "redaction", question: "Écris 5 phrases sur ton week-end avec au moins 5 verbes irréguliers différents (diphtongue, -go, ir).", corrige: "Modèle :\n\n*El sábado me despierto tarde. Hago los deberes por la mañana. Por la tarde, juego al baloncesto con mis amigos y después salgo al cine. El domingo voy a casa de mis abuelos y vuelvo a las siete. No puedo acostarme tarde porque el lunes empiezo las clases a las ocho.*\n\nVerbes : despertarse (e → ie), hacer (hago), jugar (juego), salir (salgo), ir (voy), volver (vuelvo), poder (puedo), empezar (empiezo)." }
       ]
@@ -362,9 +363,9 @@ Autres 1res personnes irrégulières : *conocer* → **conozco**, *saber* → **
         { type: "saisie", question: "Complète : « Me ... los gatos. »", reponses: ["gustan"], explication: "*los gatos* est pluriel → **gustan**." },
         { type: "saisie", question: "Complète : « ¿Te ... leer? »", reponses: ["gusta"], explication: "Infinitif → **gusta**." },
         { type: "saisie", question: "Complète avec le pronom : « A mis padres ... gusta viajar. »", reponses: ["les"], explication: "*a mis padres* = a ellos → **les**." },
-        { type: "qcm", question: "« Nous aimons le football » :", choix: ["Nos gustan el fútbol", "Nos gusta el fútbol", "Nosotros gustamos el fútbol", "Les gusta el fútbol"], reponse: 1, explication: "*Nos gusta* + nom singulier." },
-        { type: "qcm", question: "— No me gustan las matemáticas. — Moi non plus.", choix: ["A mí también", "A mí tampoco", "A mí sí", "Yo no"], reponse: 1, explication: "Après une phrase négative : **a mí tampoco**." },
-        { type: "vf", question: "« Me encanta mucho el cine » est correct.", reponse: false, explication: "*Encantar* exprime déjà un goût très fort : on ne l'emploie pas avec *mucho*. On dit *Me encanta el cine*." },
+        { type: "qcm", question: "« Nous aimons le football » :", choix: ["Nos gustan el fútbol", "Les gusta el fútbol", "Nosotros gustamos el fútbol", "Nos gusta el fútbol"], reponse: 3, explication: "*Nos gusta* + nom singulier." },
+        { type: "qcm", question: "— No me gustan las matemáticas. — Moi non plus.", choix: ["A mí también", "A mí sí", "A mí tampoco", "Yo no"], reponse: 2, explication: "Après une phrase négative : **a mí tampoco**." },
+        { type: "vf", question: "Pour dire « j'adore le cinéma », la formulation recommandée est « Me encanta mucho el cine ».", reponse: false, explication: "*Encantar* exprime déjà un goût très fort : *mucho* est redondant (on l'entend parfois, mais on l'évite à l'écrit et en contrôle). On dit simplement **Me encanta el cine**." },
         { type: "saisie", question: "Traduis : « J'ai mal aux dents. »", reponses: ["Me duelen los dientes", "Me duelen las muelas"], explication: "*doler* fonctionne comme gustar : *los dientes* pluriel → **me duelen**." },
         { type: "saisie", question: "Complète : « A Ana ... encanta bailar. »", reponses: ["le"], explication: "*a Ana* = a ella → **le**." },
         { type: "redaction", question: "Écris 6 phrases sur tes goûts et ceux de ta famille (gustar, encantar, no gustar nada, también/tampoco).", corrige: "Modèle :\n\n*Me encanta el baloncesto y me gustan mucho los cómics. No me gusta nada la verdura. A mi hermano le gustan los videojuegos; a mí también. A mis padres les gusta viajar por España. A mi madre no le gusta el frío, y a mí tampoco.*\n\nVérifie l'accord : gusta + singulier/infinitif, gustan + pluriel, et le bon pronom (le / les)." }
@@ -397,7 +398,7 @@ Autres 1res personnes irrégulières : *conocer* → **conozco**, *saber* → **
 ## La date
 - Jours (masculins, sans majuscule) : *lunes, martes, miércoles, jueves, viernes, sábado, domingo*. *El lunes* = lundi (ce lundi-là) ; *los lunes* = le lundi (chaque lundi).
 - Mois (sans majuscule) : *enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre*.
-- *Hoy es martes, 12 de octubre de 2026.* ; *Mi cumpleaños es el 3 de mayo.*
+- *Hoy es lunes, 12 de octubre de 2026.* ; *Mi cumpleaños es el 3 de mayo.*
 - Saisons : *la primavera, el verano, el otoño, el invierno*.
 
 ## L'heure
@@ -413,7 +414,7 @@ Autres 1res personnes irrégulières : *conocer* → **conozco**, *saber* → **
         { type: "saisie", question: "Écris en lettres : 27", reponses: ["veintisiete"], explication: "De 21 à 29, en un seul mot : **veintisiete**." },
         { type: "saisie", question: "Écris en lettres : 48", reponses: ["cuarenta y ocho"], explication: "Au-delà de 30, on relie par *y* : **cuarenta y ocho**." },
         { type: "saisie", question: "Écris en lettres : 100", reponses: ["cien"], explication: "100 tout rond = **cien**." },
-        { type: "qcm", question: "Comment dit-on « Il est 1 h » ?", choix: ["Son la una", "Es la una", "Es las una", "Son las uno"], reponse: 1, explication: "1 h est singulier : **Es la una**." },
+        { type: "qcm", question: "Comment dit-on « Il est 1 h » ?", choix: ["Es la una", "Son la una", "Es las una", "Son las uno"], reponse: 0, explication: "1 h est singulier : **Es la una**." },
         { type: "qcm", question: "« Son las seis menos cuarto » signifie :", choix: ["6 h 15", "5 h 45", "6 h 45", "5 h 15"], reponse: 1, explication: "*menos cuarto* = moins le quart : 6 h − 15 min = **5 h 45**." },
         { type: "saisie", question: "Quel jour vient après *miércoles* ?", reponses: ["jueves"], explication: "lunes, martes, miércoles, **jueves**, viernes..." },
         { type: "vf", question: "En espagnol, les mois prennent une majuscule : *Enero*.", reponse: false, explication: "Comme en français, jours et mois s'écrivent sans majuscule : *enero*." },
@@ -469,10 +470,10 @@ Nuancer : *muy, bastante, un poco* (devant un défaut) : *Es un poco perezoso.*
         { type: "saisie", question: "Traduis : « mes grands-parents »", reponses: ["mis abuelos"], explication: "*mis* (pluriel) + *abuelos* (groupe mixte au masculin pluriel)." },
         { type: "saisie", question: "Le frère de ma mère est mon ...", reponses: ["tío"], explication: "L'oncle = **el tío**." },
         { type: "saisie", question: "Complète avec le possessif de *nosotros* : « ... casa es grande. »", reponses: ["nuestra"], explication: "*casa* est féminin singulier → **nuestra**." },
-        { type: "qcm", question: "« Il a les yeux bleus » :", choix: ["Es los ojos azules", "Tiene los ojos azules", "Lleva los ojos azules", "Tiene ojos azul"], reponse: 1, explication: "On utilise **tener** + *los ojos* + adjectif accordé." },
+        { type: "qcm", question: "« Il a les yeux bleus » :", choix: ["Es los ojos azules", "Lleva los ojos azules", "Tiene los ojos azules", "Tiene ojos azul"], reponse: 2, explication: "On utilise **tener** + *los ojos* + adjectif accordé." },
         { type: "qcm", question: "« Elle porte des lunettes » :", choix: ["Tiene gafas", "Es gafas", "Lleva gafas", "Está gafas"], reponse: 2, explication: "*llevar* = porter (vêtements, lunettes, barbe)." },
         { type: "vf", question: "*Su libro* peut signifier « leur livre ».", reponse: true, explication: "*su* = son, sa, leur, votre (usted)." },
-        { type: "saisie", question: "Donne le contraire de *trabajador*.", reponses: ["perezoso", "vago"], explication: "*trabajador* (travailleur) ≠ **perezoso** (paresseux)." },
+        { type: "saisie", question: "Donne le contraire de *trabajador*.", reponses: ["perezoso", "vago", "holgazán"], explication: "*trabajador* (travailleur) ≠ **perezoso** (paresseux)." },
         { type: "saisie", question: "Accorde : « Mis hermanas son muy (alegre) »", reponses: ["alegres"], explication: "Adjectif en -e : même forme masc./fém., +s au pluriel." },
         { type: "redaction", question: "Présente ta famille en 6 à 8 phrases (membres, âge, physique, caractère) en utilisant des possessifs.", corrige: "Modèle :\n\n*En mi familia somos cuatro: mi padre, mi madre, mi hermano y yo. Mi padre se llama Marc; es alto y tiene el pelo corto y gris. Lleva gafas. Es muy trabajador. Mi madre es morena y tiene los ojos verdes; es alegre y divertida. Mi hermano Tom tiene nueve años: es rubio y un poco travieso. Nuestros abuelos viven en Bretaña. ¿Y tu familia?*\n\nVérifie : ser + adjectif, tener + pelo/ojos, llevar + gafas, possessifs mi/mis/nuestros accordés." }
       ]
@@ -516,14 +517,14 @@ En Espagne, l'école secondaire s'appelle la **ESO** (*Educación Secundaria Obl
 > **À retenir** : tener + matière ; empezar (empiezan) et terminar ; « porque » pour justifier ; en Espagne, la ESO et des journées qui finissent tôt.
 `,
       exercices: [
-        { type: "saisie", question: "Traduis : « la cour de récréation »", reponses: ["el patio"], explication: "*el patio* = la cour ; *el recreo* = la récréation (le moment)." },
-        { type: "saisie", question: "Traduis : « la gomme »", reponses: ["la goma"], explication: "**la goma**." },
-        { type: "qcm", question: "« La educación física » correspond à :", choix: ["la physique", "l'EPS", "la SVT", "l'éducation civique"], reponse: 1, explication: "*educación física* = éducation physique et sportive." },
+        { type: "saisie", question: "Traduis : « la cour de récréation »", reponses: ["el patio", "patio"], explication: "*el patio* = la cour ; *el recreo* = la récréation (le moment)." },
+        { type: "saisie", question: "Traduis : « la gomme »", reponses: ["la goma", "goma"], explication: "**la goma**." },
+        { type: "qcm", question: "« La educación física » correspond à :", choix: ["la physique", "l'éducation civique", "la SVT", "l'EPS"], reponse: 3, explication: "*educación física* = éducation physique et sportive." },
         { type: "saisie", question: "Conjugue *empezar* : « Las clases ... a las ocho. »", reponses: ["empiezan"], explication: "Diphtongue e → ie : *empiezan*." },
         { type: "vf", question: "En Espagne, le collège correspond à la ESO.", reponse: true, explication: "ESO = Educación Secundaria Obligatoria (12-16 ans)." },
-        { type: "qcm", question: "Tu veux demander au professeur de répéter. Tu dis :", choix: ["¿Repites, por favor?", "¿Puede repetir, por favor?", "¡Repite!", "¿Puedes repetir, tío?"], reponse: 1, explication: "On vouvoie le professeur : *usted* → *¿Puede repetir?*" },
-        { type: "saisie", question: "Traduis : « Je n'aime pas les maths parce que c'est difficile. »", reponses: ["No me gustan las matemáticas porque son difíciles", "No me gustan las matemáticas porque es difícil"], explication: "*las matemáticas* est pluriel → *gustan* ; *porque* = parce que." },
-        { type: "saisie", question: "Traduis : « la cantine »", reponses: ["el comedor", "la cantina"], explication: "En Espagne on dit surtout **el comedor**." },
+        { type: "qcm", question: "Tu veux demander au professeur de répéter. Tu dis :", choix: ["¿Repites, por favor?", "¿Puede repetir, por favor?", "¡Repite!", "¿Puedes repetir, tío?"], reponse: 1, explication: "On vouvoie le professeur : *usted* → *¿Puede repetir?* (Remarque culturelle : en Espagne, beaucoup d'élèves tutoient leurs professeurs, mais en classe en France on attend le vouvoiement, plus poli.)" },
+        { type: "saisie", question: "Traduis : « Je n'aime pas les maths parce que c'est difficile. »", reponses: ["No me gustan las matemáticas porque son difíciles", "No me gustan las matemáticas porque es difícil", "No me gustan las mates porque son difíciles", "No me gustan las mates porque es difícil"], explication: "*las matemáticas* est pluriel → *gustan* ; *porque* = parce que." },
+        { type: "saisie", question: "Traduis : « la cantine »", reponses: ["el comedor", "la cantina", "comedor", "cantina"], explication: "En Espagne on dit surtout **el comedor**." },
         { type: "redaction", question: "Décris ta journée du mardi au collège (heures, matières, avis justifiés) en 6 phrases.", corrige: "Modèle :\n\n*Los martes las clases empiezan a las ocho y media. Primero tengo inglés y después matemáticas. El recreo es a las diez y veinte. A las once tengo español: es mi asignatura favorita porque la profesora es muy simpática. Como en el comedor a las doce y media. Por la tarde tengo educación física y termino a las cuatro y media. No me gusta la tecnología porque es un poco aburrida.*" }
       ]
     },
@@ -567,12 +568,12 @@ Les meubles : *la cama, la mesa, la silla, el armario, la estantería, el sofá,
 > **À retenir** : hay pour dire ce qu'il y a, estar pour situer ; este / ese / aquel selon la distance ; aquí, ahí, allí.
 `,
       exercices: [
-        { type: "saisie", question: "Traduis : « la chambre »", reponses: ["el dormitorio", "la habitación"], explication: "**el dormitorio** ou **la habitación**." },
-        { type: "saisie", question: "Traduis : « la cuisine »", reponses: ["la cocina"], explication: "**la cocina** (*cocinar* = cuisiner)." },
-        { type: "qcm", question: "« Le chat est sous la table » :", choix: ["El gato está encima de la mesa", "El gato está debajo de la mesa", "El gato es debajo de la mesa", "Hay el gato debajo de la mesa"], reponse: 1, explication: "*debajo de* = sous ; on situe avec **estar**." },
+        { type: "saisie", question: "Traduis : « la chambre »", reponses: ["el dormitorio", "la habitación", "dormitorio", "habitación"], explication: "**el dormitorio** ou **la habitación**." },
+        { type: "saisie", question: "Traduis : « la cuisine »", reponses: ["la cocina", "cocina"], explication: "**la cocina** (*cocinar* = cuisiner)." },
+        { type: "qcm", question: "« Le chat est sous la table » :", choix: ["El gato está encima de la mesa", "El gato es debajo de la mesa", "El gato está debajo de la mesa", "Hay el gato debajo de la mesa"], reponse: 2, explication: "*debajo de* = sous ; on situe avec **estar**." },
         { type: "saisie", question: "Complète avec un démonstratif (objet près de moi) : « ... silla es cómoda. »", reponses: ["esta"], explication: "Près de moi, féminin singulier : **esta**." },
         { type: "saisie", question: "Complète avec un démonstratif (objets loin, masculin pluriel) : « ... árboles son altos. »", reponses: ["aquellos"], explication: "Loin des deux interlocuteurs : **aquellos**." },
-        { type: "qcm", question: "« Ese » désigne un objet :", choix: ["près de celui qui parle", "près de celui à qui l'on parle", "très loin", "invisible"], reponse: 1, explication: "*ese* = près de toi (correspond à l'adverbe *ahí*)." },
+        { type: "qcm", question: "« Ese » désigne un objet :", choix: ["près de celui à qui l'on parle", "près de celui qui parle", "très loin", "invisible"], reponse: 0, explication: "*ese* = près de toi (correspond à l'adverbe *ahí*)." },
         { type: "vf", question: "« La lámpara está encima de el escritorio » est correct.", reponse: false, explication: "On contracte **de + el = del** : *encima del escritorio*." },
         { type: "saisie", question: "Traduis : « Qu'est-ce que c'est que ça ? » (objet dans ta main)", reponses: ["¿Qué es esto?", "Qué es esto"], explication: "Forme neutre **esto** pour un objet non identifié près de soi." },
         { type: "redaction", question: "Décris ta chambre en 6 phrases (meubles, place des objets, avis) avec hay, estar et au moins un démonstratif.", corrige: "Modèle :\n\n*Mi habitación está en el primer piso. Es pequeña pero muy luminosa. Hay una cama, un escritorio, una silla y un armario. La cama está debajo de la ventana y el escritorio está al lado del armario. Encima del escritorio hay un ordenador. Este póster de Rosalía es mi favorito.*" }
@@ -596,7 +597,7 @@ Les meubles : *la cama, la mesa, la silla, el armario, la estantería, el sofá,
 
 ## Les repas en Espagne
 - **el desayuno** (petit-déjeuner, vers 8 h) : *tostadas, churros con chocolate, café con leche*.
-- **el almuerzo / la comida** (déjeuner, entre 14 h et 15 h) : le repas principal.
+- **la comida** (déjeuner, entre 14 h et 15 h) : le repas principal. En Espagne, **el almuerzo** désigne souvent l'en-cas du milieu de matinée ; en Amérique latine, *el almuerzo* est le déjeuner.
 - **la merienda** (goûter, vers 18 h).
 - **la cena** (dîner, tard : 21 h-22 h).
 - Verbes : *desayunar, comer, merendar (meriendo), cenar*.
@@ -616,13 +617,13 @@ Les meubles : *la cama, la mesa, la silla, el armario, la estantería, el sofá,
 > **À retenir** : desayuno, comida, merienda, cena ; les Espagnols mangent tard ; ¿Cuánto cuesta(n)? ; pas d'article partitif : *quiero pan*.
 `,
       exercices: [
-        { type: "saisie", question: "Traduis : « le poisson » (aliment)", reponses: ["el pescado"], explication: "**el pescado** (aliment) ; *el pez* = poisson vivant." },
+        { type: "saisie", question: "Traduis : « le poisson » (aliment)", reponses: ["el pescado", "pescado"], explication: "**el pescado** (aliment) ; *el pez* = poisson vivant." },
         { type: "saisie", question: "Comment s'appelle le goûter en Espagne ?", reponses: ["la merienda", "merienda"], explication: "**la merienda**, vers 18 h." },
-        { type: "qcm", question: "Le *gazpacho* est :", choix: ["un dessert de Noël", "une soupe froide andalouse", "une omelette", "un plat de riz valencien"], reponse: 1, explication: "Le gazpacho est une soupe froide à base de tomates, typique d'Andalousie." },
+        { type: "qcm", question: "Le *gazpacho* est :", choix: ["un dessert de Noël", "un plat de riz valencien", "une omelette", "une soupe froide andalouse"], reponse: 3, explication: "Le gazpacho est une soupe froide à base de tomates, typique d'Andalousie." },
         { type: "vf", question: "En Espagne, on dîne souvent vers 21 h ou 22 h.", reponse: true, explication: "Les horaires des repas sont plus tardifs qu'en France." },
         { type: "saisie", question: "Complète : « ¿Cuánto ... los plátanos? »", reponses: ["cuestan"], explication: "*costar* (o → ue), pluriel : **cuestan**." },
         { type: "saisie", question: "Traduis : « Je veux du pain, s'il te plaît. »", reponses: ["Quiero pan, por favor"], explication: "Pas de partitif : *Quiero pan*." },
-        { type: "qcm", question: "« Beaucoup d'eau » :", choix: ["mucho agua", "mucha agua", "muchas aguas", "muy agua"], reponse: 1, explication: "*agua* est féminin (malgré *el agua*) → **mucha agua**." },
+        { type: "qcm", question: "« Beaucoup d'eau » :", choix: ["mucho agua", "muchas aguas", "mucha agua", "muy agua"], reponse: 2, explication: "*agua* est féminin (malgré *el agua*) → **mucha agua**." },
         { type: "saisie", question: "Conjugue *merendar* : « Yo ... un bocadillo. »", reponses: ["meriendo"], explication: "e → ie : **meriendo**." },
         { type: "redaction", question: "Tu es au restaurant à Madrid. Écris le dialogue avec le serveur (6 répliques) : commande d'une entrée, d'un plat, d'un dessert, d'une boisson, et l'addition.", corrige: "Modèle :\n\n- *Camarero: Buenas tardes, ¿qué va a tomar?*\n- *Cliente: De primero, quiero un gazpacho, por favor.*\n- *Camarero: ¿Y de segundo?*\n- *Cliente: Una tortilla de patatas con ensalada. Y de postre, un flan.*\n- *Camarero: ¿Y para beber?*\n- *Cliente: Un zumo de naranja. ... La cuenta, por favor. ¿Cuánto es?*\n- *Camarero: Son quince euros.*\n\nLe serveur vouvoie le client (*usted*, *va a tomar*)." }
       ]
@@ -673,7 +674,7 @@ Attention : *jugar a* (sport, jeu) ≠ *tocar* (instrument).
 > **À retenir** : jugar a + sport, tocar + instrument ; ir a + infinitif pour un projet ; n'oublie jamais le « a ».
 `,
       exercices: [
-        { type: "qcm", question: "« Je joue de la guitare » :", choix: ["Juego a la guitarra", "Toco la guitarra", "Hago la guitarra", "Juego la guitarra"], reponse: 1, explication: "Pour un instrument : **tocar**." },
+        { type: "qcm", question: "« Je joue de la guitare » :", choix: ["Toco la guitarra", "Juego a la guitarra", "Hago la guitarra", "Juego la guitarra"], reponse: 0, explication: "Pour un instrument : **tocar**." },
         { type: "saisie", question: "Complète : « Mis primos juegan ... baloncesto. »", reponses: ["al"], explication: "*jugar a + el* = **al** baloncesto." },
         { type: "saisie", question: "Futur proche : « Mañana (yo, ver) una película. » Écris le groupe verbal.", reponses: ["voy a ver"], explication: "*ir* conjugué + *a* + infinitif : **voy a ver**." },
         { type: "saisie", question: "Futur proche : « Este verano (nosotros, viajar) a Perú. »", reponses: ["vamos a viajar"], explication: "**vamos a viajar**." },
@@ -690,7 +691,7 @@ Attention : *jugar a* (sport, jeu) ≠ *tocar* (instrument).
       theme: "Culture",
       cours: `
 ## Où parle-t-on espagnol ?
-L'espagnol est parlé par environ **500 millions** de personnes comme langue maternelle. C'est la langue officielle de **21 pays** : l'Espagne, la Guinée équatoriale (en Afrique) et 19 pays d'Amérique (Mexique, Cuba, République dominicaine, Porto Rico, Guatemala, Honduras, Salvador, Nicaragua, Costa Rica, Panama, Colombie, Venezuela, Équateur, Pérou, Bolivie, Chili, Argentine, Uruguay, Paraguay). Il est aussi très parlé aux États-Unis.
+L'espagnol est parlé par environ **500 millions** de personnes comme langue maternelle. On compte **21 pays** hispanophones : l'Espagne, la Guinée équatoriale (en Afrique) et 19 pays et territoires d'Amérique (Mexique, Cuba, République dominicaine, Porto Rico (territoire associé aux États-Unis), Guatemala, Honduras, Salvador, Nicaragua, Costa Rica, Panama, Colombie, Venezuela, Équateur, Pérou, Bolivie, Chili, Argentine, Uruguay, Paraguay). Il est aussi très parlé aux États-Unis.
 
 | Pays | Capitale | Nationalité |
 |---|---|---|
@@ -728,12 +729,69 @@ L'espagnol est parlé par environ **500 millions** de personnes comme langue mat
         { type: "saisie", question: "Quelle est la capitale de l'Argentine ?", reponses: ["Buenos Aires"], explication: "**Buenos Aires**." },
         { type: "saisie", question: "Écris la nationalité au féminin : une fille du Mexique est ...", reponses: ["mexicana"], explication: "*mexicano* → **mexicana**." },
         { type: "qcm", question: "Dans quel pays se trouve le Machu Picchu ?", choix: ["Mexique", "Chili", "Pérou", "Bolivie"], reponse: 2, explication: "Le Machu Picchu, cité inca, est au **Pérou**." },
-        { type: "qcm", question: "Que mange-t-on le soir du 31 décembre en Espagne ?", choix: ["des churros", "12 grains de raisin", "un turrón géant", "des tomates"], reponse: 1, explication: "On mange **12 uvas**, une à chaque coup de minuit." },
+        { type: "qcm", question: "Que mange-t-on le soir du 31 décembre en Espagne ?", choix: ["des churros", "des tomates", "un turrón géant", "12 grains de raisin"], reponse: 3, explication: "On mange **12 uvas**, une à chaque coup de minuit." },
         { type: "vf", question: "Le Día de Muertos est une fête triste où il est interdit de faire la fête.", reponse: false, explication: "C'est une fête colorée et joyeuse : on accueille le souvenir des défunts avec des autels, des fleurs, de la musique et des crânes en sucre." },
         { type: "qcm", question: "Quelle langue n'est PAS officielle en Espagne ?", choix: ["le catalan", "le basque", "le portugais", "le galicien"], reponse: 2, explication: "Le **portugais** est la langue du Portugal et du Brésil." },
         { type: "saisie", question: "Dans quelle ville a lieu la fête de las Fallas ?", reponses: ["Valencia", "Valence"], explication: "Las Fallas ont lieu à **Valencia** en mars." },
-        { type: "vf", question: "En Espagne, ce sont les Rois mages qui apportent les cadeaux, le 6 janvier.", reponse: true, explication: "*los Reyes Magos*, le 6 janvier, la veille de l'Épiphanie au soir." },
+        { type: "vf", question: "En Espagne, ce sont les Rois mages qui apportent les cadeaux, le 6 janvier.", reponse: true, explication: "*los Reyes Magos* passent dans la nuit du 5 au 6 janvier (Épiphanie) ; le 5 au soir, il y a la *cabalgata* (défilé des Rois mages) dans les rues." },
         { type: "redaction", question: "Présente en espagnol (5-6 phrases) une fête du monde hispanique de ton choix : où, quand, ce que l'on fait, ton avis.", corrige: "Modèle :\n\n*El Día de Muertos es una fiesta muy importante en México. Se celebra el uno y el dos de noviembre. Las familias preparan altares con fotos, flores de color naranja, velas y comida para recordar a sus muertos. También comen pan de muerto y calaveras de azúcar. No es una fiesta triste: hay música y mucha alegría. Me encanta esta tradición porque es muy original y colorida.*" }
+      ]
+    },
+    {
+      id: "tiempo-ropa-comparar",
+      titre: "La météo, les vêtements et la comparaison",
+      theme: "Vocabulaire",
+      cours: `
+## Le temps qu'il fait (el tiempo)
+- *¿Qué tiempo hace?* → **Hace** + nom : *hace sol* (il y a du soleil), *hace calor* (il fait chaud), *hace frío* (il fait froid), *hace viento* (il y a du vent), *hace buen / mal tiempo*.
+- Verbes de météo : *llueve* (il pleut, de *llover*, o → ue), *nieva* (il neige, de *nevar*, e → ie).
+- **Está** + adjectif : *está nublado* (c'est nuageux).
+- **Hay** + nom : *hay niebla* (il y a du brouillard), *hay tormenta* (il y a de l'orage).
+- Les températures : *Estamos a veinte grados* / *Hace veinte grados*.
+
+>! **Attention** : on dit *hace mucho calor* (nom → **mucho**) et non « muy calor ». *Muy* se met devant un adjectif : *está muy nublado*.
+
+## Les vêtements (la ropa)
+| Espagnol | Français |
+|---|---|
+| la camiseta, la camisa | le tee-shirt, la chemise |
+| el jersey, la sudadera | le pull, le sweat |
+| los pantalones, los vaqueros | le pantalon, le jean |
+| la falda, el vestido | la jupe, la robe |
+| el abrigo, la chaqueta | le manteau, la veste |
+| los zapatos, las zapatillas (de deporte) | les chaussures, les baskets |
+| la gorra, el gorro, la bufanda | la casquette, le bonnet, l'écharpe |
+
+- Porter = **llevar** : *Hoy llevo unos vaqueros y una sudadera.*
+- Mettre = **ponerse** : *Me pongo el abrigo porque hace frío.*
+- En Amérique latine : *la remera* (Argentine) ou *la playera* (Mexique) = le tee-shirt ; *los jeans* = le jean.
+
+## Les couleurs
+*rojo, amarillo, azul, verde, blanco, negro, gris, marrón, naranja, rosa, morado*.
+Elles s'accordent comme des adjectifs : *una camiseta roja*, *unos zapatos negros*, *unas faldas azules* ; *naranja* et *rosa* restent souvent invariables : *unas camisetas naranja*.
+
+## Comparer
+| Comparatif | Formule | Exemple |
+|---|---|---|
+| supériorité | **más** + adj. + **que** | *Madrid es más grande que Toledo.* |
+| infériorité | **menos** + adj. + **que** | *El abrigo es menos caro que la chaqueta.* |
+| égalité | **tan** + adj. + **como** | *Mi hermano es tan alto como yo.* |
+| égalité (nom) | **tanto/a/os/as** + nom + **como** | *Tengo tantos libros como tú.* |
+
+Comparatifs irréguliers : **mejor** (meilleur, mieux), **peor** (pire), **mayor** (plus âgé), **menor** (plus jeune) : *Esta sudadera es mejor que la otra.*
+
+> **À retenir** : hace calor / frío / sol / viento, llueve, nieva, está nublado ; llevar = porter, ponerse = mettre ; les couleurs s'accordent ; más / menos ... que, tan ... como, mejor, peor.
+`,
+      exercices: [
+        { type: "saisie", question: "Traduis : « Il fait froid. »", reponses: ["Hace frío"], explication: "Météo avec un nom → **hace** : *hace frío*." },
+        { type: "qcm", question: "« Il pleut » se dit :", choix: ["Hace lluvia", "Está lloviendo mucho calor", "Llueve", "Es lluvia"], reponse: 2, explication: "*llover* (o → ue) : **llueve**. On peut aussi dire *está lloviendo* (en ce moment)." },
+        { type: "qcm", question: "Complète : « Hoy hace ... calor. »", choix: ["mucho", "muy", "muchos", "tan"], reponse: 0, explication: "*calor* est un nom → **mucho** : *hace mucho calor*. *Muy* s'emploie devant un adjectif." },
+        { type: "saisie", question: "Accorde la couleur : « unas camisetas (blanco) »", reponses: ["blancas"], explication: "Féminin pluriel : **blancas**." },
+        { type: "saisie", question: "Conjugue *llevar* : « Hoy (yo) ... una falda verde. »", reponses: ["llevo"], explication: "*llevar* = porter un vêtement : **llevo**." },
+        { type: "vf", question: "« Mi hermana es tan alta que yo » est correct.", reponse: false, explication: "Égalité : **tan** + adjectif + **como** : *Mi hermana es tan alta como yo*." },
+        { type: "saisie", question: "Traduis : « Le jean est plus cher que le pull. »", reponses: ["Los vaqueros son más caros que el jersey", "El vaquero es más caro que el jersey", "Los vaqueros son más caros que la sudadera", "Los pantalones vaqueros son más caros que el jersey", "Los jeans son más caros que el jersey"], explication: "**más** + adjectif + **que** ; *los vaqueros* est pluriel en espagnol, d'où *son más caros*." },
+        { type: "qcm", question: "« Ce sweat est meilleur que l'autre » :", choix: ["Esta sudadera es más buena que la otra", "Esta sudadera es tan mejor que la otra", "Esta sudadera es mejor como la otra", "Esta sudadera es mejor que la otra"], reponse: 3, explication: "Comparatif irrégulier de *bueno* : **mejor** ... *que*." },
+        { type: "redaction", question: "Tu pars une semaine à Burgos en hiver. Écris 6 phrases : le temps qu'il fait là-bas, les vêtements que tu emportes et une comparaison avec le temps chez toi.", corrige: "Modèle :\n\n*En invierno, en Burgos hace mucho frío y a veces nieva. Por la mañana, estamos a cero grados y está nublado. Por eso voy a llevar un abrigo negro, una bufanda roja y un gorro. También me pongo unas zapatillas cómodas para caminar. En mi ciudad, en Marsella, hace más calor y hace más sol que en Burgos. ¡Burgos es tan bonito como Marsella, pero menos caluroso!*\n\nVérifie : *hace* + nom (*frío, sol*), *mucho* devant un nom, couleurs accordées (*negro, roja*), *más ... que*, *tan ... como*." }
       ]
     }
   ]
