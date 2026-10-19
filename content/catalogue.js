@@ -31,6 +31,7 @@ export const NIVEAUX = {
       { id: "anglais", nom: "Anglais (LVA)", icone: "🇬🇧", couleur: "#1f8a70" },
       { id: "espagnol", nom: "Espagnol (LVB)", icone: "🇪🇸", couleur: "#d9622b" },
       { id: "ens-scientifique", nom: "Enseignement scientifique", icone: "🔬", couleur: "#2b8fb3" },
+      { id: "grec", nom: "Grec ancien (LCA)", icone: "🏛️", couleur: "#8a6d3b" },
     ],
   },
 };
