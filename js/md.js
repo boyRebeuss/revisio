@@ -29,7 +29,13 @@ export function bloc(src) {
     if (!t) { i++; continue; }
 
     let m;
-    if ((m = t.match(/^(#{2,4})\s+(.*)$/))) {
+    if (t === "~~~") {
+      const code = [];
+      i++;
+      while (i < lignes.length && lignes[i].trim() !== "~~~") code.push(lignes[i++]);
+      i++;
+      out.push(`<pre class="code"><code>${esc(code.join("\n"))}</code></pre>`);
+    } else if ((m = t.match(/^(#{2,4})\s+(.*)$/))) {
       const n = Math.min(m[1].length + 1, 5);
       out.push(`<h${n}>${inline(m[2])}</h${n}>`);
       i++;
@@ -65,7 +71,7 @@ export function bloc(src) {
       while (
         i < lignes.length &&
         lignes[i].trim() &&
-        !/^\s*(#{2,4}\s|>|[-*]\s|\d+[.)]\s|\|)/.test(lignes[i])
+        !/^\s*(#{2,4}\s|>|[-*]\s|\d+[.)]\s|\||~~~\s*$)/.test(lignes[i])
       ) para.push(lignes[i++].trim());
       if (!para.length) { para.push(lignes[i++].trim()); }
       out.push(`<p>${para.map(inline).join("<br>")}</p>`);

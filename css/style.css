@@ -212,3 +212,5 @@ form.carte { display: grid; gap: 10px; }
   .cours { padding: 4px 14px 12px; }
   .grille { grid-template-columns: 1fr 1fr; }
 }
+
+pre.code { background: #1e2330; color: #e8ebf2; border-radius: 10px; padding: 12px 14px; overflow-x: auto; font: 0.9rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; margin: 10px 0; }

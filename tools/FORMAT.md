@@ -49,6 +49,7 @@ Utiliser des gabarits `` `...` `` ; ne jamais mettre de backtick ni `${` dans le
 | `> texte` (lignes consécutives) | encadré « à retenir » |
 | `>! texte` | encadré « méthode / exemple » |
 | `\| a \| b \|` + ligne `\|---\|---\|` | tableau (1re ligne = en-tête) |
+| ligne `~~~`, code, ligne `~~~` | bloc de code (indentation conservée, aussi dans `>!`) |
 
 Pas de HTML, pas de LaTeX, pas de liens, pas d'images. Écrire les maths en
 Unicode : x², x³, √, π, ≤, ≥, ≠, ×, ÷, −, ½, →, ∈, ∞, Δ, uₙ, f′(x).
