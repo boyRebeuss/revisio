@@ -258,7 +258,7 @@ async function vueChapitre(idM, idC, onglet = "cours") {
   const c = data.chapitres[idx];
   if (!c) return rediriger(`#/m/${idM}`);
   const cle = `${p.niveau}/${idM}/${c.id}`;
-  const ctx = { niveau: NIVEAUX[p.niveau].long, matiere: m.nom, accents: idM === "francais" };
+  const ctx = { niveau: NIVEAUX[p.niveau].long, matiere: m.nom, langue: idM === "francais" ? "fr" : idM === "allemand" ? "de" : false };
   const suivant = data.chapitres[idx + 1];
 
   const onglets = [

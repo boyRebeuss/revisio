@@ -14,8 +14,11 @@
 const COMBINANTS = /[\u0300-\u036f]/g;
 const aDesAccents = (s) => /[\u0300-\u036f]/.test(String(s).normalize("NFD"));
 
-export function normaliser(s, accents = false) {
-  let t = String(s ?? "").normalize("NFD");
+// allemand = true : ä/ö/ü s'écrivent ae/oe/ue et ß = ss, l'umlaut n'est donc pas ignoré
+export function normaliser(s, accents = false, allemand = false) {
+  let t = String(s ?? "");
+  if (allemand) t = t.normalize("NFC").replace(/ß/g, "ss").replace(/[äÄ]/g, "ae").replace(/[öÖ]/g, "oe").replace(/[üÜ]/g, "ue");
+  t = t.normalize("NFD");
   if (!accents) t = t.replace(COMBINANTS, "");
   t = t
     .normalize("NFC")
@@ -137,11 +140,13 @@ function nombresEgaux(a, b) {
 
 // accents = true (français) : dès que la réponse attendue ou la saisie porte
 // un accent, les accents comptent (« a » ≠ « à »).
-export function reponseJuste(saisie, attendues, accents = false) {
+// langue : "fr" (ou true) = règle des accents du français ; "de" = umlauts significatifs.
+export function reponseJuste(saisie, attendues, langue = false) {
+  const fr = langue === true || langue === "fr", de = langue === "de";
   return attendues.some((r) => {
-    const strict = accents && (aDesAccents(r) || aDesAccents(saisie));
-    const b = normaliser(r, strict);
-    const a = normaliser(saisie, strict);
+    const strict = fr && (aDesAccents(r) || aDesAccents(saisie));
+    const b = normaliser(r, strict, de);
+    const a = normaliser(saisie, strict, de);
     if (!a || !b) return false;
 
     const formesA = new Set([a]);

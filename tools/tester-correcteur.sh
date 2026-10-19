@@ -9,7 +9,7 @@ import cas from '${PWD}/tools/cas-correcteur.mjs';
 let ko = 0;
 for (const [s, r, acc, att] of cas) {
   const res = reponseJuste(s, r, acc);
-  if (res !== att) { ko++; print("ÉCHEC : " + JSON.stringify(s) + " vs " + JSON.stringify(r) + (acc ? " (fr)" : "") + " → " + res + ", attendu " + att); }
+  if (res !== att) { ko++; print("ÉCHEC : " + JSON.stringify(s) + " vs " + JSON.stringify(r) + (acc ? " (" + acc + ")" : "") + " → " + res + ", attendu " + att); }
 }
 print(ko ? ko + " échec(s) sur " + cas.length : "OK : " + cas.length + " cas");
 JS

@@ -99,7 +99,7 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
       const valider = () => {
         if (fini || !champ.value.trim()) return;
         champ.disabled = true;
-        const ok = reponseJuste(champ.value, e.reponses, !!ctx?.accents);
+        const ok = reponseJuste(champ.value, e.reponses, ctx?.langue || false);
         terminer(ok, ok ? null : h("p", { class: "attendu" },
           "Réponse attendue : ", h("strong", {}, e.reponses[0]),
           // Le correcteur ne connaît pas toutes les écritures possibles : l'élève peut le corriger

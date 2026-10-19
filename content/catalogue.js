@@ -11,6 +11,8 @@ export const NIVEAUX = {
       { id: "emc", nom: "EMC", icone: "⚖️", couleur: "#7a5cc7" },
       { id: "anglais", nom: "Anglais", icone: "🇬🇧", couleur: "#1f8a70" },
       { id: "espagnol", nom: "Espagnol", icone: "🇪🇸", couleur: "#d9622b" },
+      { id: "allemand", nom: "Allemand", icone: "🇩🇪", couleur: "#b8860b" },
+      { id: "cambridge", nom: "Cambridge (A2 Key)", icone: "🎓", couleur: "#0f5e9c" },
       { id: "svt", nom: "SVT", icone: "🌱", couleur: "#3f9b3f" },
       { id: "physique-chimie", nom: "Physique-Chimie", icone: "⚗️", couleur: "#2b8fb3" },
       { id: "technologie", nom: "Technologie", icone: "⚙️", couleur: "#6b7280" },
