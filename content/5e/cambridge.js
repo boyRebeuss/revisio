@@ -11,39 +11,55 @@ L'**A2 Key for Schools** (on dit aussi **KET**, pour *Key English Test*) est un 
 
 Il certifie le niveau **A2** du Cadre européen commun de référence pour les langues (CECRL) : tu sais comprendre et utiliser des phrases simples de la vie quotidienne, te présenter, parler de ta famille, de tes goûts, de ce que tu as fait le week-end.
 
-> **À retenir** : le diplôme n'a pas de date d'expiration. Il ne se « rate » pas vraiment : le résultat indique ton niveau réel (A1, A2 ou B1).
+> **À retenir** : le certificat n'a pas de date d'expiration. L'examen ne se « rate » pas comme un contrôle : de 100 à 150 points, tu reçois un certificat qui indique ton niveau réel (A1, A2 ou B1). Seul un score inférieur à 100 ne donne pas de certificat.
 
 ## Les trois épreuves
-| Épreuve | Durée (environ) | Ce qu'on fait |
-|---|---|---|
-| **Reading and Writing** | 1 heure | 7 parties : 5 de lecture, 2 d'écriture |
-| **Listening** | environ 30 minutes | 5 parties ; chaque enregistrement est entendu **deux fois** |
-| **Speaking** | 8 à 10 minutes | 2 parties, en général **à deux candidats** face à deux examinateurs |
+| Épreuve | Durée | Ce qu'on fait | Part de la note |
+|---|---|---|---|
+| **Reading and Writing** | 1 heure | 7 parties, **32 questions** : 5 parties de lecture (30 questions), 2 d'écriture | 50 % (25 % Reading + 25 % Writing) |
+| **Listening** | environ 30 minutes (dont 6 minutes pour reporter les réponses, version papier) | 5 parties, **25 questions** ; chaque enregistrement est entendu **deux fois** | 25 % |
+| **Speaking** | 8 à 10 minutes par paire (13 à 15 minutes s'il y a trois candidats) | 2 parties, en général **à deux candidats** face à deux examinateurs | 25 % |
 
-Les durées exactes et le déroulement peuvent varier selon la session et le centre d'examen (version papier ou sur ordinateur) : vérifie toujours la convocation et le site officiel de Cambridge.
+## Version papier ou sur ordinateur ?
+Le centre d'examen te propose l'une ou l'autre : le **format est le même** (mêmes parties, même nombre de questions, même durée).
+- **Sur papier** : tu reportes tes réponses au crayon sur une feuille de réponses (*answer sheet*), sans temps supplémentaire en Reading and Writing. Résultats en général **4 à 6 semaines** après l'examen.
+- **Sur ordinateur** : tu tapes tes réponses directement (attention à l'orthographe au clavier !). Résultats en **5 à 10 jours ouvrés**.
+- Dans les deux cas, le **Speaking** se passe **en face à face** avec les examinateurs.
 
 ## Le détail de Reading and Writing
-| Partie | Type de tâche |
-|---|---|
-| Part 1 | Signes, notes et messages courts : choisir le sens correct (3 propositions) |
-| Part 2 | Appariement : relier des questions à trois textes courts sur un même thème |
-| Part 3 | Un texte plus long et des questions à choix multiples |
-| Part 4 | Texte à trous à choix multiples (surtout du vocabulaire) |
-| Part 5 | *Open cloze* : texte à trous sans propositions (surtout de la grammaire) |
-| Part 6 | Écrire un message ou un e-mail court (**25 mots ou plus**) à partir de 3 points |
-| Part 7 | Écrire une petite histoire (**35 mots ou plus**) à partir de 3 images |
+| Partie | Questions | Type de tâche |
+|---|---|---|
+| Part 1 | 6 | Six textes courts (panneaux, notes, messages) : choisir le sens correct (3 propositions) |
+| Part 2 | 7 | Appariement : relier 7 questions à trois textes courts sur un même thème |
+| Part 3 | 5 | Un texte long et 5 questions à choix multiples (3 propositions) |
+| Part 4 | 6 | Texte informatif à trous à choix multiples, 3 propositions (surtout du vocabulaire) |
+| Part 5 | 6 | *Open cloze* : un e-mail (parfois avec sa réponse) à trous, un mot par trou (surtout de la grammaire) |
+| Part 6 | 1 (sur 15 points) | Écrire un e-mail ou une note court (**25 mots ou plus**) à partir de 3 points |
+| Part 7 | 1 (sur 15 points) | Écrire une petite histoire (**35 mots ou plus**) à partir de 3 images |
+
+Chaque question de lecture vaut 1 point. Chaque rédaction est notée sur 15 : 0 à 5 points pour chacun des trois critères **Content**, **Organisation** et **Language** (voir les chapitres Writing).
+
+## Le détail de Listening
+| Partie | Questions | Type de tâche |
+|---|---|---|
+| Part 1 | 5 | Cinq courts dialogues : choisir la bonne **image** (3 images) |
+| Part 2 | 5 | Un monologue : **compléter des notes** (un mot, un nombre, une date, une heure) |
+| Part 3 | 5 | Un dialogue plus long : 5 questions à 3 propositions |
+| Part 4 | 5 | Cinq courts textes : trouver l'**idée principale** (le sujet, le message, la raison de l'appel) |
+| Part 5 | 5 | Un dialogue : **relier** 5 personnes (ou jours) à des éléments d'une liste |
 
 ## La notation
-Chaque compétence (Reading, Writing, Listening, Speaking) compte pour **un quart** de la note. Les résultats sont donnés sur l'**échelle Cambridge English** (*Cambridge English Scale*) :
+Chaque compétence (Reading, Writing, Listening, Speaking) compte pour **un quart** de la note. Tu reçois un score pour chaque compétence et un **score global** (la moyenne des quatre) sur l'**échelle Cambridge English** (*Cambridge English Scale*) :
 
 | Score global | Résultat |
 |---|---|
-| 140 à 150 | *Grade A* : ton niveau est reconnu **B1** (au-dessus du niveau visé !) |
-| 133 à 139 | *Grade B* : niveau **A2** |
-| 120 à 132 | *Grade C* : niveau **A2** |
-| 100 à 119 | certificat de niveau **A1** |
+| 140 à 150 | *Grade A* : certificat qui reconnaît le niveau **B1** (au-dessus du niveau visé !) |
+| 133 à 139 | *Grade B* : certificat de niveau **A2** |
+| 120 à 132 | *Grade C* : certificat de niveau **A2** |
+| 100 à 119 | certificat Cambridge English de niveau **A1** |
+| 80 à 99 | pas de certificat ; le score figure seulement sur le relevé de résultats (*Statement of Results*) |
 
-Tu reçois aussi un score pour chaque compétence : tu sais ainsi où tu es fort et où tu dois progresser.
+Le détail par compétence te montre où tu es fort et où tu dois progresser.
 
 ## Conseils généraux
 - Lis toujours la **consigne** et l'**exemple** (souvent numéroté 0) : il montre ce qu'on attend.
@@ -72,6 +88,10 @@ Mes conseils :
 - garde environ 20 minutes pour les deux rédactions.
 
 **Critères** : les trois épreuves sont citées avec leur contenu, les durées sont plausibles, les conseils sont concrets.` },
+        { type: "qcm", question: "Un élève obtient **115** sur l'échelle Cambridge. Que reçoit-il ?", choix: ["Rien du tout", "Un certificat de niveau A1", "Un certificat A2 (Grade C)", "Un certificat B1"], reponse: 1, explication: "De **100 à 119**, Cambridge délivre un certificat qui atteste le niveau **A1**. Le certificat A2 commence à **120** (Grade C). En dessous de 100, le score est indiqué sur le relevé de résultats, mais sans certificat." },
+        { type: "saisie", question: "Combien de questions compte l'épreuve de Listening ? (écris un nombre)", reponses: ["25", "twenty-five", "twenty five", "vingt-cinq"], explication: "**25 questions** : 5 parties de 5 questions, chaque enregistrement entendu deux fois." },
+        { type: "vf", question: "Dans la version sur ordinateur, les parties et le nombre de questions sont les mêmes que dans la version papier.", reponse: true, explication: "Le format est **identique**. Ce qui change : tu tapes tes réponses au clavier, et les résultats arrivent plus vite (5 à 10 jours ouvrés au lieu de 4 à 6 semaines). Le Speaking reste en face à face." },
+        { type: "qcm", question: "Sur combien de points est notée chaque rédaction (Part 6 et Part 7) ?", choix: ["5 points", "15 points : 0 à 5 pour Content, Organisation et Language", "20 points", "10 points pour l'orthographe seulement"], reponse: 1, explication: "Chaque rédaction vaut **15 points** : trois critères (*Content*, *Organisation*, *Language*) notés chacun de 0 à 5." },
       ],
     },
 
@@ -122,7 +142,7 @@ C. Adults must not swim with children.
         { type: "qcm", question: "**Message** — *Hi Tom, the football match is now at 4 pm, not 3. Bring your boots! Sam*\nWhat is Sam telling Tom?", choix: ["The match is cancelled.", "Tom must buy new boots.", "The match starts one hour later.", "The match starts at 3 pm."], reponse: 2, explication: "Le match passe de 15 h à 16 h : il commence **une heure plus tard**. Tom doit apporter ses chaussures, pas en acheter." },
         { type: "vf", question: "**SCHOOL LIBRARY — Books must be returned within two weeks.**\nCe panneau signifie qu'on peut garder un livre deux semaines au maximum.", reponse: true, explication: "*Within two weeks* = dans un délai de deux semaines. Il faut rendre le livre avant la fin des deux semaines." },
         { type: "qcm", question: "**MUSEUM — Free entry for students on Mondays**\nWhich sentence is correct?", choix: ["Students can visit the museum only on Mondays.", "Students don't pay on Mondays.", "The museum is closed on Mondays.", "Everybody can enter free every day."], reponse: 1, explication: "*Free* signifie ici **gratuit**. Le lundi, les élèves ne paient pas. Ils peuvent venir les autres jours, mais en payant : A est donc faux." },
-        { type: "saisie", question: "Traduis le panneau en français : **KEEP OFF THE GRASS**", reponses: ["ne pas marcher sur la pelouse", "ne marchez pas sur la pelouse", "pelouse interdite", "interdit de marcher sur la pelouse", "ne pas marcher sur l'herbe", "ne marchez pas sur l'herbe"], explication: "*Keep off* = rester à l'écart de ; *the grass* = la pelouse. C'est le panneau classique des parcs anglais." },
+        { type: "saisie", question: "Traduis le panneau en français : **KEEP OFF THE GRASS**", reponses: ["ne pas marcher sur la pelouse", "ne marchez pas sur la pelouse", "pelouse interdite", "interdit de marcher sur la pelouse", "ne pas marcher sur l'herbe", "ne marchez pas sur l'herbe", "défense de marcher sur la pelouse", "interdiction de marcher sur la pelouse", "restez hors de la pelouse"], explication: "*Keep off* = rester à l'écart de ; *the grass* = la pelouse. C'est le panneau classique des parcs anglais." },
         { type: "qcm", question: "**Note** — *Mum, I've gone to Lucy's house to do our science project. I'll be back before dinner. Emma*\nWhy did Emma write this note?", choix: ["To invite Lucy to dinner", "To ask her mum for help with science", "To say she will be late for dinner", "To explain where she is"], reponse: 3, explication: "Emma explique **où elle est** (chez Lucy) et pourquoi. Elle rentrera *before dinner* : elle ne sera donc pas en retard (C est faux)." },
         { type: "vf", question: "**SCHOOL TRIP — You don't have to bring lunch. Sandwiches will be provided.**\nCe message signifie qu'il est interdit d'apporter son déjeuner.", reponse: false, explication: "*Don't have to* = **ce n'est pas obligatoire**, et non « c'est interdit » (ce serait *mustn't*). On peut apporter son repas, mais ce n'est pas nécessaire." },
         { type: "qcm", question: "**SPORTS CENTRE — Tennis courts must be booked one day in advance.**\nWhat does it mean?", choix: ["You can play tennis for one day only.", "You can't book the courts.", "The tennis courts are closed today.", "You must reserve a court the day before you play."], reponse: 3, explication: "*Book* = réserver ; *one day in advance* = un jour à l'avance. Il faut donc réserver **la veille**." },
@@ -189,7 +209,7 @@ Which person does sport with adults?`, choix: ["Ryan", "Chloé", "Omar"], repons
         { type: "vf", question: "*My parents pay for my lessons* correspond à la question *Which person's activity is free?*", reponse: false, explication: "Les parents paient : l'activité n'est donc **pas gratuite** (*free*). C'est un piège typique, car le même thème (l'argent) apparaît." },
         { type: "redaction", question: "Write a short text (40 words or more) about your favourite hobby, like a text from Reading Part 2. Say when you started, how often you do it and what you like about it. Then write one question *Which person...?* that your text answers.", corrige: `**Model answer**
 
-*I started playing the guitar when I was nine because my grandfather gave me his old guitar. Now I practise for thirty minutes every day after school. I love it because I can play songs for my friends at parties.* (47 words)
+*I started playing the guitar when I was nine because my grandfather gave me his old guitar. Now I practise for thirty minutes every day after school. I love it because I can play songs for my friends at parties.* (40 words)
 
 Question : *Which person got something from a family member?*
 
@@ -209,7 +229,7 @@ Remarque : la question utilise *got something from a family member* et non *gran
       theme: "Reading",
       cours: `
 ## La tâche
-Tu lis **un texte plus long** (un article de magazine, le récit d'un ado, une interview) et tu réponds à des **questions à choix multiples** (3 propositions). Les questions suivent **l'ordre du texte**.
+Tu lis **un texte plus long** (un article de magazine, le récit d'un ado, une interview) et tu réponds à **5 questions à choix multiples** (3 propositions). Les questions suivent **l'ordre du texte**.
 
 ## La méthode
 1. **Lis le titre et le texte une première fois** sans t'arrêter sur les mots inconnus : de quoi parle-t-il ? Qui ? Où ? Quand ?
@@ -249,7 +269,7 @@ Why didn't Ben like the village at first?`, choix: ["There wasn't much to do the
         { type: "vf", question: "Dans la Part 3, les questions suivent l'ordre du texte.", reponse: true, explication: "Oui : la question 1 porte sur le début du texte, la dernière sur la fin (ou parfois sur le texte entier, par exemple « Quel est le meilleur titre ? »)." },
         { type: "redaction", question: "Write a short text (50 words or more) about a time you did something new (a new school, a trip, a sport). Say how you felt **at first**, what happened, and how you feel **now**.", corrige: `**Model answer**
 
-*Last year I started a new school in Lyon. At first I was very nervous because I didn't know anyone and the building was huge. But on the second day, a girl called Inès helped me find my classroom. We became friends quickly. Now I really like my school and I'm not shy any more.* (56 words)
+*Last year I started a new school in Lyon. At first I was very nervous because I didn't know anyone and the building was huge. But on the second day, a girl called Inès helped me find my classroom. We became friends quickly. Now I really like my school and I'm not shy any more.* (55 words)
 
 **Critères simplifiés**
 - **Content** : sentiment au début, événement, sentiment maintenant : tout y est.
@@ -306,12 +326,16 @@ A. passes — B. **spends** — C. takes
         { type: "saisie", question: "Complete: *Don't worry if you ___ a mistake. Everybody does!*", reponses: ["make"], explication: "On dit **make a mistake** (faire une erreur), jamais *do a mistake*." },
         { type: "redaction", question: "Write a short factual text (40 words or more) about an animal you like, like the texts in Reading Part 4. Use at least three of these: *live in, eat, spend time, famous for, can*.", corrige: `**Model answer**
 
-*Koalas live in Australia, in eucalyptus trees. They eat only eucalyptus leaves and they spend about twenty hours a day sleeping! Koalas are famous for their soft grey fur and big ears. They can climb very well, but they are slow on the ground.* (48 words)
+*Koalas live in Australia, in eucalyptus trees. They eat only eucalyptus leaves and they spend about twenty hours a day sleeping! Koalas are famous for their soft grey fur and big ears. They can climb very well, but they are slow on the ground.* (44 words)
 
 **Critères simplifiés**
 - **Content** : un texte informatif clair, au moins trois expressions imposées.
 - **Organisation** : où il vit → ce qu'il mange → ce qui le rend célèbre → ce qu'il sait faire.
 - **Language** : présent simple pour des faits généraux ; collocations correctes (*spend time doing, famous for*).` },
+        { type: "qcm", question: `**Exam practice (Part 4).** Choose the best word.
+*The city of Bath is in the south-west of England. It is ___ for its Roman baths, which are about 2,000 years old.*`, choix: ["special", "famous", "favourite"], reponse: 1, explication: "Seul **famous** se construit avec **for** dans ce sens : *famous for* = célèbre pour. *Special* (spécial) et *favourite* (préféré) ne se construisent pas ainsi. C'est exactement le type de piège de la Part 4 : un seul mot va avec la préposition qui suit." },
+        { type: "qcm", question: `**Exam practice (Part 4).** Choose the best word.
+*Every year, thousands of tourists ___ the old town to see its beautiful buildings.*`, choix: ["visit", "go", "travel"], reponse: 0, explication: "**Visit** se construit directement avec un complément : *visit the old town*. *Go* et *travel* demandent *to* (*go to the old town*)." },
       ],
     },
 
@@ -322,7 +346,7 @@ A. passes — B. **spends** — C. takes
       theme: "Reading",
       cours: `
 ## La tâche
-Tu lis un texte court (souvent un e-mail ou un message entre amis) avec **6 trous**, **sans propositions**. Tu écris **un seul mot** par trou. L'orthographe doit être correcte.
+Tu lis un texte court (un e-mail, parfois suivi de sa réponse) avec **6 trous**, **sans propositions**. Tu écris **un seul mot** par trou. L'orthographe doit être correcte.
 
 ## Quels mots manquent ?
 Presque toujours des **petits mots de grammaire** :
@@ -393,13 +417,13 @@ On te donne une situation (par exemple : *Your English friend Alex has invited y
 - *tell Sam what to bring.*
 
 ## Comment c'est noté (en simple)
-Ta rédaction est évaluée selon **trois critères** :
+Ta rédaction est notée sur **15 points** : **trois critères**, chacun de 0 à 5. L'examinateur cherche d'abord si ton message est **compréhensible** ; de petites fautes qui ne gênent pas la compréhension sont acceptées au niveau A2.
 
 | Critère | Ce que l'examinateur regarde |
 |---|---|
 | **Content** (contenu) | As-tu traité **les trois points** ? Le lecteur a-t-il compris ce que tu veux ? |
 | **Organisation** | Le message est-il bien construit ? Formule d'ouverture, phrases reliées (*and, but, because, so*), formule de fin. |
-| **Language** (langue) | Vocabulaire et grammaire variés et compréhensibles, même avec quelques petites fautes. |
+| **Language** (langue) | Vocabulaire de tous les jours bien choisi, grammaire simple correcte ; les fautes ne doivent pas empêcher de comprendre. |
 
 > **À retenir** : **oublier un des trois points** coûte cher en *Content*. Coche chaque point au brouillon quand tu l'as traité.
 
@@ -407,7 +431,7 @@ Ta rédaction est évaluée selon **trois critères** :
 *Hi Sam,*
 *Would you like to come to the swimming pool with me on Saturday? Let's meet at the bus stop at 2 pm. Don't forget to bring a towel and some money for a drink!*
 *See you soon,*
-*Léa* (39 mots)
+*Léa* (40 mots)
 
 → Point 1 : *Would you like to come...?* ; point 2 : *at 2 pm* ; point 3 : *a towel and some money*. Ouverture et fin présentes.
 
@@ -445,7 +469,7 @@ Write **25 words or more**.`, corrige: `**Model answer**
 *Hi Jamie,*
 *Thanks for the invitation! I'm really sorry, but I can't come to your party on Saturday because I'm visiting my grandparents in Brittany. Can we meet on Sunday afternoon instead? We could go to the park.*
 *Love,*
-*Hugo* (44 words)
+*Hugo* (40 words)
 
 **Critères**
 - **Content** : excuse (*I'm really sorry*), raison (*because I'm visiting...*), autre jour (*Sunday afternoon*) : les 3 points sont traités.
@@ -461,12 +485,30 @@ Write **25 words or more**.`, corrige: `**Model answer**
 *Hi Kim,*
 *Guess what? I've got a new bike! It's blue and black and it's really fast. My parents gave it to me for my birthday. Would you like to go cycling with me in the forest on Saturday morning?*
 *Bye for now,*
-*Nina* (46 words)
+*Nina* (44 words)
 
 **Critères**
 - **Content** : description (*blue and black, fast*), origine (*my parents gave it to me*), invitation (*Would you like...?*).
 - **Organisation** : une idée par phrase, ordre de la consigne respecté, formule de fin.
 - **Language** : *have got*, prétérit irrégulier (*gave*), *Would you like to* + verbe.` },
+        { type: "redaction", question: `**Writing Part 6.** You are going shopping with your English friend Pat tomorrow. Write an e-mail to Pat.
+Say:
+- where you want to meet
+- what time you want to meet
+- what you want to buy.
+Write **25 words or more**.`, corrige: `**Model answer**
+
+*Hi Pat,*
+*Shall we meet outside the sports shop in the town centre tomorrow? Let's meet at half past ten, because the shops are quieter in the morning. I want to buy some new trainers for basketball.*
+*See you tomorrow,*
+*Lucas* (41 words)
+
+**Critères (sur 15)**
+- **Content (5/5)** : le lieu (*outside the sports shop*), l'heure (*half past ten*) et l'achat (*new trainers*) sont là ; Pat sait exactement quoi faire.
+- **Organisation (5/5)** : ouverture, une phrase par point dans l'ordre de la consigne, connecteur *because*, formule de fin.
+- **Language (5/5)** : *Shall we...?*, *Let's* + base verbale, *I want to buy*, comparatif *quieter* ; vocabulaire précis.
+
+**Ce qui ferait perdre des points** : oublier l'heure (*Content*), écrire des phrases sans lien (*Organisation*), *I want buy* ou *Let's to meet* (*Language*).` },
       ],
     },
 
@@ -492,9 +534,11 @@ Tu vois **trois images** qui racontent une petite histoire. Tu écris cette hist
 5. **Relis-toi** : verbes irréguliers, -ed, majuscules, points.
 
 ## Le modèle
-*One sunny afternoon, Tom was walking his dog Max in the park. Suddenly, Max saw a ball and ran after it. He jumped into the lake! When they got home, Max was very wet and Tom's mum laughed a lot.* (44 mots)
+*One sunny afternoon, Tom was walking his dog Max in the park. Suddenly, Max saw a ball and ran after it. He jumped into the lake! When they got home, Max was very wet and Tom's mum laughed a lot.* (40 mots)
 
 ## Comment c'est noté
+Comme en Part 6 : **15 points**, soit 0 à 5 pour chacun des trois critères.
+
 | Critère | Pour avoir une bonne note |
 |---|---|
 | **Content** | Les **trois images** sont racontées ; l'histoire se comprend. |
@@ -527,7 +571,7 @@ Tu vois **trois images** qui racontent une petite histoire. Tu écris cette hist
 2. *The bus is leaving. The girl is running after it.*
 3. *The girl is sitting in a car with her dad. They are both smiling.*`, corrige: `**Model answer**
 
-*Last Monday, Emma was waiting for the bus to go to school. She looked at her watch: she was late! Then the bus arrived, but it left before she could get on. Emma ran after it, but it was too fast. Luckily, her dad saw her and drove her to school in his car. They both smiled.* (60 words)
+*Last Monday, Emma was waiting for the bus to go to school. She looked at her watch: she was late! Then the bus arrived, but it left before she could get on. Emma ran after it, but it was too fast. Luckily, her dad saw her and drove her to school in his car. They both smiled.* (57 words)
 
 **Critères**
 - **Content** : les trois images sont racontées (attente, bus raté, papa en voiture).
@@ -538,7 +582,7 @@ Tu vois **trois images** qui racontent une petite histoire. Tu écris cette hist
 2. *It's dark and they look worried. One of them is using a phone.*
 3. *A man with a torch is walking towards them. The friends look happy.*`, corrige: `**Model answer**
 
-*On Saturday, Ali and Jake went for a walk in the forest with a map. After a few hours, it got dark and they couldn't find the path. They were very worried, so Jake called his dad. Twenty minutes later, a park ranger with a torch found them. They were so happy!* (54 words)
+*On Saturday, Ali and Jake went for a walk in the forest with a map. After a few hours, it got dark and they couldn't find the path. They were very worried, so Jake called his dad. Twenty minutes later, a park ranger with a torch found them. They were so happy!* (52 words)
 
 **Critères**
 - **Content** : forêt et carte, nuit et inquiétude, sauveteur avec une lampe : tout est raconté.
@@ -554,11 +598,12 @@ Tu vois **trois images** qui racontent une petite histoire. Tu écris cette hist
       theme: "Listening",
       cours: `
 ## L'épreuve
-L'épreuve dure **environ 30 minutes** et comporte **5 parties**. Chaque enregistrement est entendu **deux fois**. On y trouve :
-- de **courts dialogues** avec des questions à images ou à choix multiples ;
-- un **monologue** (une annonce, un professeur qui présente une sortie) où il faut **compléter des notes** avec un mot, un nombre, une date ou un nom épelé ;
-- une **conversation plus longue** avec des questions à choix multiples ;
-- une partie d'**appariement** (relier des personnes ou des jours à des activités, par exemple).
+L'épreuve dure **environ 30 minutes** (dont 6 minutes à la fin pour reporter tes réponses sur la feuille, en version papier) et comporte **5 parties de 5 questions**. Chaque enregistrement est entendu **deux fois**.
+- **Part 1** : cinq **courts dialogues** ; pour chacun, tu choisis la bonne **image** parmi trois.
+- **Part 2** : un **monologue** (une annonce, un professeur qui présente une sortie) ; tu **complètes des notes** avec un mot, un nombre, une date, une heure ou un nom épelé.
+- **Part 3** : une **conversation plus longue** et 5 questions à 3 propositions.
+- **Part 4** : cinq **courts textes** (dialogues ou monologues) ; tu trouves l'**idée principale** : de quoi on parle, pourquoi quelqu'un appelle, ce qu'il pense.
+- **Part 5** : un dialogue et un **appariement** : relier 5 personnes (ou jours) à des éléments d'une liste plus longue (par exemple des cadeaux ou des activités) ; certains éléments ne servent pas.
 
 Dans l'appli, pas d'audio : on s'entraîne sur des **transcriptions** (le texte de l'enregistrement). Lis-les à voix haute, ou demande à quelqu'un de te les lire !
 
@@ -600,7 +645,7 @@ How much does a student pay? (write the number of pounds)`, reponses: ["9", "£9
 Write the name.`, reponses: ["Kerridge"], explication: "K-E-**double R**-I-D-G-E → **Kerridge**. *Double R* = deux R." },
         { type: "qcm", question: `**Transcript** — *Boy : The football training is usually on Tuesday, but this week it's on Thursday because the field is closed.*
 When is training this week?`, choix: ["Thursday", "Tuesday", "Wednesday"], reponse: 0, explication: "*Usually on Tuesday, but this week... Thursday* : le mot *but* signale le changement. Cette semaine, c'est **jeudi**." },
-        { type: "saisie", question: "Écris en chiffres l'heure entendue : *quarter to nine* (format 8.45).", reponses: ["8.45", "8:45", "8h45", "20.45", "20:45"], explication: "*Quarter to nine* = un quart d'heure **avant** neuf heures → **8.45**. (*Quarter past nine* = 9.15.)" },
+        { type: "saisie", question: "Écris en chiffres l'heure entendue : *quarter to nine* (format 8.45).", reponses: ["8.45", "8:45", "8h45", "20.45", "20:45", "8.45 am", "8:45 am", "8.45 a.m.", "8:45 a.m."], explication: "*Quarter to nine* = un quart d'heure **avant** neuf heures → **8.45**. (*Quarter past nine* = 9.15.)" },
         { type: "vf", question: "*Thirteen* et *thirty* se distinguent surtout par l'accent : sur *-teen* pour 13, sur *thir-* pour 30.", reponse: true, explication: "13 = thir**TEEN** (accent à la fin, son long) ; 30 = **THIR**ty (accent au début). Bien écouter l'accent évite une erreur classique." },
         { type: "qcm", question: `**Transcript** — *Mum : What do you want for your birthday? A new phone? Daughter : No, my phone's fine. I'd love a guitar, but they're expensive. Mum : OK, and what about some concert tickets? Daughter : Oh yes, that would be perfect!*
 What will the girl probably get for her birthday?`, choix: ["a phone", "a guitar", "concert tickets"], reponse: 2, explication: "Le téléphone est refusé, la guitare est trop chère ; elle accepte avec enthousiasme les **billets de concert** (*that would be perfect*)." },
@@ -617,6 +662,10 @@ Notes : Place : ___ / Meeting time : ___ / Price : ___ / Bring : ___ and ___ / T
 - **Teacher's name** : Mrs **Dalby** (épelé D-A-L-B-Y)
 
 **Méthode** : avant d'écouter, devine le type de chaque réponse (un lieu, une heure, un prix, des objets, un nom). Pendant l'écoute, méfie-toi des deux heures proches. Après, vérifie l'orthographe et la majuscule du nom.` },
+        { type: "qcm", question: `**Transcript (Part 4)** — *Boy : Hi Grandma, it's Leo. Thanks for the birthday money! I'm going to spend it on a new game, and maybe a book too. See you on Sunday!*
+Why is Leo phoning his grandmother?`, choix: ["to ask her for money", "to thank her for a present", "to invite her on Sunday"], reponse: 1, explication: "Part 4 : on cherche l'**idée principale**. Leo appelle pour **remercier** (*Thanks for the birthday money!*). Il ne demande pas d'argent (il l'a déjà reçu) et dimanche est seulement mentionné à la fin." },
+        { type: "qcm", question: `**Transcript (Part 5)** — *Girl : For the class party, Anna's bringing the music. Ben wanted to bring a cake, but his oven is broken, so he's bringing drinks. And Carla's making the cake instead.*
+What is Ben bringing?`, choix: ["a cake", "drinks", "music"], reponse: 1, explication: "Part 5 : relier chaque personne à un élément. Ben **voulait** apporter un gâteau, **mais** (*but*) son four est cassé : il apporte les **boissons**. Le gâteau revient à Carla, la musique à Anna. Comme à l'examen, les trois éléments sont cités pour Ben." },
       ],
     },
 
@@ -631,13 +680,16 @@ Elle dure **8 à 10 minutes**, en général avec un autre candidat. Il y a **deu
 
 | Partie | Ce que tu fais |
 |---|---|
-| **Part 1** | L'examinateur te pose des questions sur toi : nom, âge, école, loisirs, famille. Puis une question plus longue du type *Please tell me something about...* |
-| **Part 2** | Tu discutes **avec ton partenaire** à partir d'images sur un thème (par exemple des activités de week-end) : ce que vous aimez, ce que vous n'aimez pas, pourquoi. Ensuite l'examinateur pose quelques questions. |
+| **Part 1** (3 à 4 min) | L'examinateur te pose des questions sur toi : nom, âge, pays, ville. Puis, sur un thème (l'école, la maison...), deux questions courtes et une question plus longue du type *Please tell me something about...* Tu réponds à l'examinateur, pas à ton partenaire. |
+| **Part 2** (5 à 6 min) | L'examinateur montre **cinq images** sur un thème (par exemple des loisirs) et demande : *Do you like these different hobbies? Say why or why not.* Tu en discutes **avec ton partenaire** pendant 1 à 2 minutes : ce que vous aimez, ce que vous n'aimez pas, pourquoi. Ensuite l'examinateur te pose des questions sur les images, puis deux questions de plus sur le même thème. |
 
 ## Ce qui est noté (en simple)
-- **Grammar and vocabulary** : des phrases justes, des mots variés.
+L'examinateur qui écoute (*assessor*) note trois critères :
+- **Grammar and Vocabulary** : des phrases simples justes, des mots variés.
 - **Pronunciation** : être compréhensible (pas besoin d'un accent parfait !).
-- **Interactive communication** : répondre, poser des questions à ton partenaire, réagir à ce qu'il dit.
+- **Interactive Communication** : répondre, poser des questions à ton partenaire, réagir à ce qu'il dit, développer la conversation.
+
+L'examinateur qui pose les questions (*interlocutor*) donne en plus une note d'ensemble (*Global Achievement*) : arrives-tu à communiquer dans des situations de tous les jours ?
 
 ## Part 1 : bien se présenter
 >! *What's your name? — My name's Louise Martin. / How old are you? — I'm twelve. / Where do you live? — I live in Nantes, in the west of France. / Do you like your school? — Yes, I do, because my teachers are nice and I've got lots of friends.*
@@ -690,6 +742,8 @@ Write a short dialogue (6 to 8 lines) between you (A) and your partner (B). Give
 **A** : *I agree. It's more fun with friends.*
 
 **Ce qui est apprécié** : les deux candidats donnent leur avis, **justifient** (*because, but*), **posent des questions** (*What about you? And...?*) et **réagissent** (*Me too, Really?, I agree*). On parle de plusieurs images, pas d'une seule.` },
+        { type: "vf", question: "Au Speaking, un seul examinateur note les candidats ; l'autre se contente de poser les questions.", reponse: false, explication: "Les **deux** examinateurs notent. L'*assessor* (qui écoute) note *Grammar and Vocabulary*, *Pronunciation* et *Interactive Communication* ; l'*interlocutor* (qui pose les questions) donne une note d'ensemble, *Global Achievement*." },
+        { type: "qcm", question: "In Speaking Part 2, the examiner shows five pictures and says: *Do you like these different hobbies? Say why or why not.* What should you do first?", choix: ["Talk about one picture for two minutes.", "Wait for the examiner to ask you a question.", "Describe the colours in each picture.", "Talk with your partner about the hobbies, give reasons and ask what he or she thinks."], reponse: 3, explication: "En Part 2, tu discutes **avec ton partenaire** de plusieurs images : avis, raisons (*because*), questions (*What about you?*). Il ne s'agit pas de décrire les images, mais de dire ce que tu aimes et pourquoi." },
       ],
     },
 
@@ -700,7 +754,7 @@ Write a short dialogue (6 to 8 lines) between you (A) and your partner (B). Give
       theme: "Vocabulaire",
       cours: `
 ## Pourquoi apprendre par thèmes ?
-Cambridge publie une **liste de vocabulaire officielle** pour l'A2 Key (*A2 Key Vocabulary List*), classée par ordre alphabétique et par thèmes. Les sujets de l'examen ne sortent pas de ces thèmes. Apprends les mots **en groupes** et **en phrases**, pas isolés.
+Cambridge publie une **liste de vocabulaire officielle** pour l'A2 Key (*A2 Key Vocabulary List*), classée par ordre alphabétique et par thèmes. Les auteurs des sujets s'appuient sur cette liste (mise à jour chaque année) : la quasi-totalité des mots de l'examen en fait partie. Apprends les mots **en groupes** et **en phrases**, pas isolés.
 
 ## La vie quotidienne
 | Thème | Mots essentiels |

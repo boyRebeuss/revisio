@@ -149,7 +149,7 @@ En Autriche et en Bavière, on dit souvent **Grüß Gott!** (bonjour) et **Servu
         { type: "saisie", question: "Complète : « Wie ___ du? » – « Ich heiße Max. »", reponses: ["heißt", "heisst"], explication: "Le verbe **heißen** à la 2e personne : *du heißt* (le *s* de la terminaison *-st* disparaît après ß). *Wie heißt du?* = Comment t'appelles-tu ?" },
         { type: "qcm", question: "Comment dit-on « J'ai douze ans » ?", choix: ["Ich habe zwölf Jahre.", "Ich bin zwölf Jahre alt.", "Ich heiße zwölf.", "Ich habe zwölf alt."], reponse: 1, explication: "En allemand, on exprime l'âge avec **sein** (être) : *Ich bin zwölf (Jahre alt)*. *Ich habe zwölf Jahre* est un calque fautif du français." },
         { type: "vf", question: "Pour parler poliment à un adulte inconnu, on utilise *du*.", reponse: false, explication: "Avec un adulte inconnu, on vouvoie avec **Sie** (majuscule) : *Wie heißen Sie?* *du* est réservé aux amis, à la famille et aux jeunes." },
-        { type: "saisie", question: "Traduis : « D'où viens-tu ? »", reponses: ["Woher kommst du?", "Woher kommst du", "Woher kommst du ?"], explication: "*Woher* = d'où ; *kommst* = viens (verbe *kommen*, 2e personne) ; le verbe est en 2e position, puis le sujet *du*. Réponse : *Ich komme aus Frankreich.*" },
+        { type: "saisie", question: "Traduis : « D'où viens-tu ? »", reponses: ["Woher kommst du?", "Woher kommst du", "Woher kommst du ?", "Wo kommst du her?", "Wo kommst du her"], explication: "*Woher* = d'où ; *kommst* = viens (verbe *kommen*, 2e personne) ; le verbe est en 2e position, puis le sujet *du*. À l'oral, on entend aussi *Wo kommst du her?* Réponse : *Ich komme aus Frankreich.*" },
         { type: "qcm", question: "Ton copain te demande *Wie geht's?* Tu vas moyennement bien. Que réponds-tu ?", choix: ["Gute Nacht!", "Sehr gut!", "Es geht.", "Ich heiße gut."], reponse: 2, explication: "**Es geht** = ça va, bof, comme ci comme ça. *Sehr gut* = très bien." },
         { type: "saisie", question: "Complète avec la préposition qui convient : « Ich wohne ___ Marseille. »", reponses: ["in"], explication: "On habite **in** + ville : *Ich wohne in Marseille.* Pour l'origine, on utilise **aus** : *Ich komme aus Frankreich.*" },
         { type: "qcm", question: "Quelle salutation entend-on surtout en Suisse alémanique ?", choix: ["Grüezi!", "Servus!", "Moin!", "Grüß Gott!"], reponse: 0, explication: "**Grüezi!** est le « bonjour » suisse alémanique. *Grüß Gott* et *Servus* sont typiques de l'Autriche et de la Bavière ; *Moin* du nord de l'Allemagne." },
@@ -383,7 +383,7 @@ On enlève **-en** de l'infinitif pour trouver le **radical**, puis on ajoute le
 | ihr wohn**t** | ihr spiel**t** | -t |
 | sie/Sie wohn**en** | sie/Sie spiel**en** | -en |
 
-Autres verbes réguliers : *kommen* (venir), *machen* (faire), *hören* (écouter), *lernen* (apprendre), *trinken* (boire), *schwimmen* (nager), *tanzen* (danser), *kochen* (cuisiner), *gehen* (aller à pied).
+Autres verbes réguliers au présent : *kommen* (venir), *machen* (faire), *hören* (écouter), *lernen* (apprendre), *trinken* (boire), *schwimmen* (nager), *tanzen* (danser), *kochen* (cuisiner), *gehen* (aller à pied).
 
 >! **Cas particuliers** :
 >! - radical en **-t** ou **-d** : on ajoute un **e** pour pouvoir prononcer : *arbeiten* → du arbeit**est**, er arbeit**et**, ihr arbeit**et** ; *finden* → du find**est**, er find**et**.
@@ -544,10 +544,10 @@ Les noms de matières s'emploient **sans article** : *Ich habe Mathe.* *Ich mag 
 >! **N'oublie pas l'inversion** : *Am Mittwoch **habe ich** Sport.* – *In der Pause **spielen wir** Fußball.*
 
 ## Les personnes à l'école
-*der Lehrer / die Lehrerin* (professeur), *der Schüler / die Schülerin* (élève), *der Direktor / die Direktorin* (principal), *der Freund / die Freundin* (ami·e), *die Klasse* (la classe). *Ich bin in der siebten Klasse.* (= en 5e en France)
+*der Lehrer / die Lehrerin* (professeur), *der Schüler / die Schülerin* (élève), *der Direktor / die Direktorin* ou *der Schulleiter / die Schulleiterin* (principal), *der Freund / die Freundin* (ami·e), *die Klasse* (la classe). *Ich bin in der siebten Klasse.* (= en 5e en France)
 
 ## L'école en Allemagne
-- Les enfants vont 4 ans à la **Grundschule** (école primaire), puis au **Gymnasium**, à la **Realschule** ou à la **Gesamtschule**, selon le Land.
+- Les enfants vont 4 ans (6 à Berlin et dans le Brandebourg) à la **Grundschule** (école primaire), puis au **Gymnasium**, à la **Realschule** ou à la **Gesamtschule**, selon le Land.
 - Les cours commencent souvent vers **8 heures** et finissent souvent en début d'après-midi ; de plus en plus d'écoles proposent l'après-midi (*Ganztagsschule*).
 - Les notes vont de **1** (*sehr gut*, très bien) à **6** (*ungenügend*, insuffisant) : 1 est la meilleure note !
 - Pour son premier jour d'école, l'enfant reçoit une **Schultüte**, un grand cornet rempli de bonbons et de fournitures.
@@ -640,7 +640,7 @@ Négation : *Ich mag **keine** Tomaten.* (devant un nom sans article) – *Ich m
         { type: "saisie", question: "Traduis : « Que fais-tu pendant ton temps libre ? » (commence par *Was machst du…*)", reponses: ["Was machst du in deiner Freizeit?", "Was machst du in deiner Freizeit", "Was machst du in der Freizeit?", "Was machst du in der Freizeit"], explication: "*Was machst du in deiner Freizeit?* : *was* = quoi, *machst* = fais, *die Freizeit* = le temps libre." },
         { type: "vf", question: "*Das macht Spaß!* signifie « C'est amusant ! ».", reponse: true, explication: "*der Spaß* = l'amusement ; *Das macht Spaß* = ça fait plaisir, c'est amusant." },
         { type: "qcm", question: "Quelle phrase utilise correctement l'inversion ?", choix: ["Am liebsten ich spiele Gitarre.", "Am liebsten spiele ich Gitarre.", "Am liebsten spiele Gitarre ich.", "Ich am liebsten spiele Gitarre."], reponse: 1, explication: "*Am liebsten* (1) **spiele** (2) **ich** (3) *Gitarre* : verbe en 2e position, sujet juste après." },
-        { type: "saisie", question: "Traduis « faire du vélo » (2 mots, verbe à l'infinitif).", reponses: ["Rad fahren", "Fahrrad fahren", "radfahren"], explication: "**Rad fahren** (ou *Fahrrad fahren*) : *Ich fahre gern Rad.* *fahren* : du fährst, er fährt." },
+        { type: "saisie", question: "Traduis « faire du vélo » (2 mots, verbe à l'infinitif).", reponses: ["Rad fahren", "Fahrrad fahren"], explication: "**Rad fahren** (ou *Fahrrad fahren*) : *Ich fahre gern Rad.* *fahren* : du fährst, er fährt." },
         { type: "redaction", question: "Parle de tes loisirs en 6 à 7 phrases : ce que tu aimes faire (*gern*), ce que tu préfères (*lieber*), ton activité favorite (*am liebsten*), ce que tu n'aimes pas faire, une chose que tu aimes avec *mögen*, et ton avis (*Ich finde…*). Ajoute une fréquence (*oft, manchmal…*).", corrige: "**Modèle :**\n\n*In meiner Freizeit spiele ich gern Basketball. Ich höre auch gern Musik. Aber ich lese lieber Mangas. Am liebsten tanze ich. Ich tanze dreimal pro Woche. Ich schwimme nicht gern, das finde ich langweilig. Ich mag Hip-Hop und ich finde Tanzen super, das macht Spaß! Am Wochenende treffe ich oft meine Freunde.*\n\nPoints à vérifier :\n- **gern / lieber / am liebsten** après le verbe (ou *Am liebsten* en tête avec inversion : *Am liebsten tanze ich*) ;\n- **nicht gern** pour ce qu'on n'aime pas ;\n- **mögen** + nom (*Ich mag Hip-Hop*) ;\n- inversion après *In meiner Freizeit*, *Am Wochenende*." },
       ],
     },
@@ -805,7 +805,7 @@ Pluriels utiles : *die Nudeln* (pâtes), *die Pommes* (frites), *die Äpfel*, *d
 Plats typiques : *die Bratwurst*, *das Sauerkraut* (choucroute), *die Brezel*, *der Apfelstrudel* (Autriche), *das Wiener Schnitzel*, *das Müsli* (Suisse), *die Schwarzwälder Kirschtorte*.
 
 ## Manger, boire, commander
-- *essen* : ich esse, du **isst**, er **isst** ; *trinken* (régulier) : ich trinke, du trinkst.
+- *essen* : ich esse, du **isst**, er **isst** ; *trinken* (régulier au présent) : ich trinke, du trinkst.
 - *Ich esse gern Nudeln. Ich trinke lieber Apfelsaft.*
 - Au café : *Was möchtest du? / Was möchten Sie?* → *Ich möchte ein Eis, bitte.* – *Ich nehme einen Orangensaft.* (accusatif !)
 - *Was kostet das? – Das kostet zwei Euro fünfzig.* (2,50 €)
@@ -925,13 +925,13 @@ Ajoute *bitte* pour être poli : *Komm bitte!* *Öffnen Sie bitte das Fenster!* 
       theme: "Culture des pays germanophones",
       cours: `
 ## Où parle-t-on allemand ?
-L'allemand est la **langue maternelle la plus parlée de l'Union européenne** (environ 100 millions de locuteurs natifs). C'est la langue officielle de l'**Allemagne**, de l'**Autriche** et du **Liechtenstein**, et l'une des langues officielles de la **Suisse**, du **Luxembourg** et de la **Belgique** (communauté germanophone).
+L'allemand est la **langue maternelle la plus parlée de l'Union européenne** (environ 90 millions de locuteurs natifs dans l'UE, près de 100 millions dans le monde). C'est la langue officielle de l'**Allemagne**, de l'**Autriche** et du **Liechtenstein**, et l'une des langues officielles de la **Suisse**, du **Luxembourg** et de la **Belgique** (communauté germanophone).
 
 | Pays (allemand) | Capitale | Habitants (environ) | Divisions |
 |---|---|---|---|
 | Deutschland (l'Allemagne) | Berlin | 84 millions | 16 **Bundesländer** (Länder) |
 | Österreich (l'Autriche) | Wien (Vienne) | 9 millions | 9 Bundesländer |
-| die Schweiz (la Suisse) | Bern (Berne) | 9 millions | 26 **Kantone** |
+| die Schweiz (la Suisse) | Bern (Berne, « ville fédérale ») | 9 millions | 26 **Kantone** |
 | Liechtenstein | Vaduz | 40 000 | |
 
 La Suisse a **4 langues nationales** : l'allemand (la majorité), le français, l'italien et le romanche. Le suisse allemand (*Schwyzerdütsch*) est très différent de l'allemand standard à l'oral.
@@ -958,7 +958,7 @@ Grandes villes : **Berlin**, **Hamburg** (grand port), **München** (Munich), **
 - Le lièvre de Pâques (*der Osterhase*) cache des œufs colorés (*die Ostereier*) dans le jardin ; on décore des branches d'œufs peints. *Frohe Ostern!*
 
 **Karneval / Fasching / Fasnacht**
-- On se déguise avant le carême, en février. On dit **Karneval** en Rhénanie (Cologne, Düsseldorf, Mayence), **Fasching** en Bavière et en Autriche, **Fasnacht** dans le sud-ouest et en Suisse (*Basler Fasnacht*).
+- On se déguise avant le carême, en février (parfois début mars, selon la date de Pâques). On dit **Karneval** en Rhénanie (Cologne, Düsseldorf, Mayence), **Fasching** en Bavière et en Autriche, **Fasnacht** dans le sud-ouest et en Suisse (*Basler Fasnacht*).
 - Le temps fort est le **Rosenmontag** (lundi gras) avec de grands défilés. Cris : *Kölle Alaaf!* (Cologne), *Helau!* (Düsseldorf, Mayence). La saison s'ouvre symboliquement le **11.11. à 11 h 11**.
 
 **Autres fêtes** : l'**Oktoberfest** à Munich (fin septembre – début octobre), *Silvester* (la Saint-Sylvestre, 31 décembre), *Sankt Martin* (11 novembre, défilé de lanternes des enfants).
@@ -981,6 +981,63 @@ Grandes villes : **Berlin**, **Hamburg** (grand port), **München** (Munich), **
         { type: "saisie", question: "Dans quelle ville a lieu l'Oktoberfest ? (nom allemand)", reponses: ["München", "Muenchen", "in München"], explication: "L'Oktoberfest a lieu à **München** (Munich), capitale de la Bavière, de fin septembre à début octobre." },
         { type: "qcm", question: "Que fête-t-on en Allemagne le 3 octobre ?", choix: ["La chute du mur de Berlin", "Le traité de l'Élysée", "Le début du carnaval", "La réunification (Tag der Deutschen Einheit)"], reponse: 3, explication: "Le **3 octobre** est la fête nationale : la réunification de l'Allemagne en 1990. Le mur est tombé le 9 novembre 1989." },
         { type: "redaction", question: "Écris une carte (6 phrases, en allemand) à ton correspondant allemand pour lui raconter comment on fête Noël chez toi et lui poser 2 questions sur Noël en Allemagne (le calendrier de l'Avent, le 24 décembre, le marché de Noël…).", corrige: "**Modèle :**\n\n*Lieber Felix,*\n\n*bei uns in Frankreich feiern wir Weihnachten am 24. und am 25. Dezember. Wir haben einen Weihnachtsbaum im Wohnzimmer. Am 25. Dezember morgens öffnen wir die Geschenke. Wir essen mit der Familie, und zum Nachtisch gibt es einen Kuchen, die « bûche de Noël ». Hast du auch einen Adventskalender? Wann öffnet ihr die Geschenke? Am 24. Dezember abends?*\n\n*Frohe Weihnachten und viele Grüße!*\n*Emma*\n\nPoints à vérifier :\n- formule d'appel *Lieber* (garçon) / *Liebe* (fille) + virgule, puis minuscule au début du texte ;\n- vocabulaire : *Weihnachten, der Weihnachtsbaum, die Geschenke, der Adventskalender* ;\n- accusatif : *einen Weihnachtsbaum*, *einen Adventskalender* ;\n- inversion : *Am 25. Dezember öffnen wir…* ;\n- questions : verbe en 1re position (*Hast du…?*) ou mot interrogatif + verbe (*Wann öffnet ihr…?*)." },
+      ],
+    },
+    {
+      id: "journee-verbes-separables",
+      titre: "Ma journée et les verbes à particule séparable",
+      theme: "Mon quotidien",
+      cours: `
+## Les verbes à particule séparable
+Beaucoup de verbes allemands commencent par une petite **particule** (*auf, an, ein, aus, mit, zu, fern…*). Au présent, cette particule se **détache** du verbe et va **à la fin** de la phrase.
+
+| Infinitif | Sens | Exemple |
+|---|---|---|
+| **auf**stehen | se lever | *Ich stehe um sieben Uhr **auf**.* |
+| **an**rufen | téléphoner, appeler | *Ich rufe meine Oma **an**.* |
+| **ein**kaufen | faire les courses | *Wir kaufen am Samstag **ein**.* |
+| **fern**sehen | regarder la télé | *Er sieht abends **fern**.* |
+| **auf**räumen | ranger | *Ich räume mein Zimmer **auf**.* |
+| **mit**kommen | venir (avec) | *Kommst du **mit**?* |
+| **zu**hören | écouter | *Hör gut **zu**!* |
+| **aus**gehen | sortir | *Am Freitag gehen wir **aus**.* |
+
+>! **Méthode** : conjugue le verbe sans la particule (*stehen* → *ich stehe*), mets-le en **2e position**, et place la particule **tout à la fin**.
+>! *auf|stehen* → *Ich **stehe** jeden Tag um sieben Uhr **auf**.*
+>! Avec inversion : *Um sieben Uhr **stehe** ich **auf**.*
+>! Question fermée : ***Siehst** du heute **fern**?*
+
+- Le changement de voyelle des verbes forts reste : *fernsehen* → *du **siehst** fern, er **sieht** fern*.
+- Avec un verbe de modalité, le verbe reste **entier** à l'infinitif, à la fin : *Ich muss früh **aufstehen**.*
+- À l'impératif aussi, la particule va à la fin : *Steh auf!* *Räum dein Zimmer auf!* *Pass auf!*
+
+## Ma journée (mein Tag)
+- *Ich wache um halb sieben auf.* (je me réveille) – *Ich stehe um sieben Uhr auf.*
+- *Ich frühstücke.* (*frühstücken* n'est **pas** séparable : *ich frühstücke*.)
+- *Ich putze mir die Zähne.* (je me brosse les dents) – *Ich ziehe mich an.* (je m'habille)
+- *Um acht Uhr beginnt die Schule.* – *Ich esse in der Kantine.* (à la cantine)
+- *Am Nachmittag mache ich meine Hausaufgaben.* – *Dann sehe ich fern oder ich spiele.*
+- *Um neun Uhr gehe ich ins Bett.* (je vais me coucher)
+- Mots de liaison pour raconter dans l'ordre : *zuerst* (d'abord), *dann* (puis), *danach* (ensuite), *später* (plus tard), *zum Schluss* (pour finir). Ils comptent comme **1er élément** → inversion : *Dann **gehe ich** zur Schule.*
+
+> **À retenir** : verbe conjugué en **2e position**, particule **à la fin** : *Ich stehe um 7 Uhr auf.* Avec un modal : *Ich muss aufstehen* (infinitif entier à la fin). *zuerst, dann, danach* + inversion.
+
+### Erreurs fréquentes
+- *Ich aufstehe um sieben Uhr* → *Ich **stehe** um sieben Uhr **auf***.
+- *Ich muss stehe auf* → *Ich muss **aufstehen***.
+- Oublier l'inversion après *dann* : *Dann ich gehe* → *Dann **gehe ich***.
+- Rendre *frühstücken* séparable : *ich stücke früh* n'existe pas → *ich frühstücke*.
+`,
+      exercices: [
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Ich aufstehe um sieben Uhr.", "Ich stehe auf um sieben Uhr.", "Ich stehe um sieben Uhr auf.", "Ich stehe um sieben auf Uhr."], reponse: 2, explication: "Le verbe conjugué *stehe* est en 2e position et la particule **auf** va **tout à la fin** : *Ich stehe um sieben Uhr auf.*" },
+        { type: "saisie", question: "Complète avec la particule : « Ich rufe meine Oma ___. » (*anrufen*)", reponses: ["an"], explication: "*an|rufen* : la particule **an** se place à la fin : *Ich rufe meine Oma an.*" },
+        { type: "qcm", question: "Que signifie *Wir kaufen am Samstag ein* ?", choix: ["Nous faisons les courses samedi.", "Nous sortons samedi.", "Nous rangeons samedi.", "Nous achetons un samedi."], reponse: 0, explication: "*ein|kaufen* = faire les courses. *ausgehen* = sortir, *aufräumen* = ranger." },
+        { type: "saisie", question: "Conjugue *fernsehen* : « Mein Bruder ___ jeden Abend ___. » Écris les deux mots manquants séparés par une espace.", reponses: ["sieht fern"], explication: "*fernsehen* est un verbe fort (e → ie) **et** séparable : *er **sieht** … **fern***. *Mein Bruder sieht jeden Abend fern.*" },
+        { type: "vf", question: "Avec un verbe de modalité, on écrit : « Ich muss früh aufstehen. »", reponse: true, explication: "Le modal *muss* est en 2e position et le verbe séparable reste **entier** à l'infinitif, à la fin : *aufstehen*." },
+        { type: "saisie", question: "Commence la phrase par *Um sieben Uhr* : « Ich stehe um sieben Uhr auf. » → « Um sieben Uhr … »", reponses: ["Um sieben Uhr stehe ich auf.", "Um sieben Uhr stehe ich auf", "Um 7 Uhr stehe ich auf"], explication: "*Um sieben Uhr* (1) **stehe** (2) **ich** (3) … **auf** (fin) : inversion du sujet, et la particule reste à la fin." },
+        { type: "qcm", question: "Mets à l'impératif (*du*) : *aufräumen* + *dein Zimmer*.", choix: ["Aufräum dein Zimmer!", "Räum dein Zimmer auf!", "Räumst dein Zimmer auf!", "Du räumst auf dein Zimmer!"], reponse: 1, explication: "Impératif *du* : radical sans *-st* en 1re position, particule à la fin : **Räum dein Zimmer auf!**" },
+        { type: "saisie", question: "Transforme en question fermée : « Du kommst mit. »", reponses: ["Kommst du mit?", "Kommst du mit"], explication: "Question oui/non : le verbe conjugué en 1re position, la particule toujours à la fin : **Kommst du mit?**" },
+        { type: "redaction", question: "Raconte ta journée d'école en 7 phrases, dans l'ordre, avec les heures. Utilise au moins 3 verbes à particule séparable (*aufstehen, fernsehen, aufräumen, anrufen…*) et les mots *zuerst, dann, danach*.", corrige: "**Modèle :**\n\n*Ich stehe um sieben Uhr auf. Zuerst frühstücke ich: ich esse ein Brötchen und trinke Kakao. Dann gehe ich zu Fuß zur Schule. Die Schule beginnt um acht Uhr. Mittags esse ich in der Kantine. Danach mache ich meine Hausaufgaben und ich räume mein Zimmer auf. Am Abend sehe ich ein bisschen fern und um neun Uhr gehe ich ins Bett.*\n\nPoints à vérifier :\n- verbe conjugué en 2e position, **particule à la fin** (*stehe … auf*, *räume … auf*, *sehe … fern*) ;\n- **inversion** après *Zuerst, Dann, Danach, Mittags, Am Abend* ;\n- *frühstücken* n'est pas séparable ;\n- **um** + heure." },
       ],
     },
   ],

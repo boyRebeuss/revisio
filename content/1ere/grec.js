@@ -38,7 +38,7 @@ L'alphabet grec compte **24 lettres**. Les Grecs l'ont adapté de l'alphabet ph�
 - Le sigma s'écrit **ς** en fin de mot et **σ** ailleurs : σοφός.
 - **γγ** se lit « ng » : ἄγγελος se lit *angelos* (d'où « ange »).
 - Les **diphtongues** : αι (aï), ει (é long), οι (oï), υι (ui), αυ (aou), ευ (éou), ου (ou).
-- Le **iota souscrit** (ᾳ, ῃ, ῳ) est un ancien iota qui ne se prononçait plus : on l'écrit sous la voyelle longue.
+- Le **iota souscrit** (ᾳ, ῃ, ῳ) est le second élément d'anciennes diphtongues longues (ᾱι, ηι, ωι) ; il a cessé de se prononcer après l'époque classique et les copistes byzantins l'ont écrit sous la voyelle longue. On ne le prononce pas, mais il fait partie de l'orthographe (τῷ λόγῳ).
 
 ## Les esprits
 Tout mot qui commence par une **voyelle** ou une **diphtongue** porte un **esprit** :
@@ -1000,7 +1000,7 @@ Le grec distingue moins le temps que l'**aspect**, c'est-à-dire la manière d'e
         {
           type: "saisie",
           question: "Traduis en français la forme **ἔγραψα** (une traduction suffit).",
-          reponses: ["j'écrivis", "j'ai écrit"],
+          reponses: ["j'écrivis", "j'ai écrit", "j ai ecrit"],
           explication: "Augment + γραφ- + σα (φ + σ = ψ) : aoriste de l'indicatif, 1re sg. On traduit par le passé simple (« j'écrivis ») ou le passé composé (« j'ai écrit »).",
         },
         {
@@ -1190,7 +1190,7 @@ Le sens d'une préposition dépend souvent du **cas** qui la suit.
 | ὑπό | sous (avec mouvement) | par (agent du passif) | sous (sans mouvement) |
 | παρά | vers (une personne), le long de | de la part de | auprès de |
 | ἐπί | vers, contre | sur | sur, auprès de |
-| πρός | vers, contre | | auprès de, en plus de |
+| πρός | vers, contre | du côté de, de la part de | auprès de, en plus de |
 | κατά | selon, le long de | du haut de, contre | |
 | ὑπέρ | au-delà de | au-dessus de, pour | |
 
@@ -1202,7 +1202,7 @@ Le sens d'une préposition dépend souvent du **cas** qui la suit.
 - Composés : οὐδείς, οὐδεμία, οὐδέν (personne, rien) et μηδείς ; οὐδέ / μηδέ (et ne… pas, pas même) ; οὔτε… οὔτε (ni… ni).
 - Une négation composée qui **suit** une négation simple la **renforce** : οὐκ ἔλεγεν οὐδέν, « il ne disait rien ».
 
->! **Exemple authentique** : selon une tradition tardive, l'entrée de l'Académie de Platon portait ἀγεωμέτρητος μηδεὶς εἰσίτω, « que nul n'entre s'il n'est géomètre ». μηδείς et non οὐδείς : la phrase est un ordre (εἰσίτω est un impératif de 3e personne).
+>! **Formule célèbre** (transmise par des commentateurs du VIe siècle ap. J.-C., donc d'authenticité douteuse) : selon cette tradition, l'entrée de l'Académie de Platon portait ἀγεωμέτρητος μηδεὶς εἰσίτω, « que nul n'entre s'il n'est géomètre ». μηδείς et non οὐδείς : la phrase est un ordre (εἰσίτω est un impératif de 3e personne).
 
 > **À retenir** : ἐν + datif (sans mouvement) / εἰς + accusatif (avec mouvement) / ἐκ + génitif (origine) ; ὑπό + génitif = complément d'agent ; génitif de comparaison ; datif de moyen ; οὐ (οὐκ, οὐχ) = fait ; μή = volonté, défense, condition.
 `,
@@ -1508,7 +1508,7 @@ Les sciences forgent leurs mots sur le grec : **dinosaure** (δεινός, terri
         {
           type: "saisie",
           question: "Quel est le sens de l'élément **-phobie** (du grec φόβος) ?",
-          reponses: ["peur", "la peur", "crainte", "la crainte"],
+          reponses: ["peur", "la peur", "crainte", "la crainte", "effroi", "frayeur"],
           explication: "ὁ φόβος signifie « la **peur** », la fuite causée par la peur : claustrophobie, xénophobie (peur ou rejet de l'étranger, ξένος).",
         },
         {
@@ -1540,7 +1540,7 @@ Les sciences forgent leurs mots sur le grec : **dinosaure** (δεινός, terri
         {
           type: "saisie",
           question: "Donne le sens littéral de **philanthrope** (φίλος + ἄνθρωπος).",
-          reponses: ["qui aime les hommes", "ami des hommes", "celui qui aime les hommes", "qui aime l'humanité", "ami du genre humain", "qui aime les êtres humains"],
+          reponses: ["qui aime les hommes", "ami des hommes", "celui qui aime les hommes", "qui aime l'humanité", "ami du genre humain", "qui aime les êtres humains", "ami des humains", "qui aime les humains", "ami de l'humanité"],
           explication: "φίλος (ami, qui aime) + ἄνθρωπος (l'être humain) : « **qui aime les hommes** ». Son contraire est le misanthrope (μισέω, haïr).",
         },
         {
@@ -1565,7 +1565,7 @@ Les sciences forgent leurs mots sur le grec : **dinosaure** (δεινός, terri
       theme: "Culture et textes",
       cours: `
 ## Homère et l'épopée
-Les Grecs attribuaient à **Homère** deux grandes épopées, l'**Iliade** et l'**Odyssée**, composées vers la **fin du VIIIe siècle av. J.-C.** en Ionie. On ne sait presque rien de lui : ces poèmes sont issus d'une longue **tradition orale** d'**aèdes**, poètes-chanteurs qui récitaient en s'accompagnant d'un instrument à cordes. La question de savoir qui les a composés et comment s'appelle la « question homérique ».
+Les Grecs attribuaient à **Homère** deux grandes épopées, l'**Iliade** et l'**Odyssée**, composées vers la **fin du VIIIe siècle av. J.-C.** en Ionie. On ne sait presque rien de lui : ces poèmes sont issus d'une longue **tradition orale** d'**aèdes**, poètes-chanteurs qui récitaient en s'accompagnant d'un instrument à cordes. La question de savoir qui les a composés, et comment, s'appelle la « question homérique ».
 
 - Les deux poèmes sont en **hexamètres dactyliques** (vers de six pieds) et dans une langue artificielle, la **langue homérique**, surtout ionienne, avec des formes éoliennes.
 - Le style est **formulaire** : des **épithètes homériques** reviennent sans cesse (πόδας ὠκὺς Ἀχιλλεύς, « Achille aux pieds rapides » ; γλαυκῶπις Ἀθήνη, « Athéna aux yeux brillants » ; ῥοδοδάκτυλος Ἠώς, « l'Aurore aux doigts de rose »).
@@ -1585,7 +1585,7 @@ L'Odyssée raconte le **retour** (νόστος) d'**Ulysse** (Ὀδυσσεύς)
 
 >! **Début de l'Odyssée** (chant I, v. 1-2) :
 >! Ἄνδρα μοι ἔννεπε, Μοῦσα, πολύτροπον, ὃς μάλα πολλὰ
->! πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν…
+>! πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσε…
 >! « Dis-moi, Muse, l'homme aux mille tours, qui erra tant et tant, après avoir détruit la citadelle sacrée de Troie… »
 
 Au chant IX, Ulysse dit au Cyclope : Οὖτις ἐμοί γ’ ὄνομα, « Mon nom est Personne ». Aveuglé, Polyphème crie que « Personne » le tue, et les autres Cyclopes ne viennent pas l'aider : c'est la **ruse** (μῆτις) d'Ulysse.
@@ -1731,9 +1731,10 @@ La **πόλις** est une communauté politique indépendante : une ville, son t
 - **L'ostracisme** : chaque année, l'Assemblée peut voter pour exiler pendant dix ans un citoyen jugé dangereux, en écrivant son nom sur un tesson de poterie (τὸ ὄστρακον).
 - **Limites** : seuls les **citoyens** (hommes adultes, nés de parents athéniens depuis une loi de Périclès en 451) participent. Les **femmes**, les **métèques** (étrangers résidents) et les **esclaves** sont exclus. C'est une démocratie **directe**, mais réservée à une minorité.
 
->! **Texte authentique** : Périclès, dans l'oraison funèbre rapportée par Thucydide (II, 37) :
+>! **Texte authentique** : Périclès, dans l'oraison funèbre rapportée par Thucydide (II, 37, 1). La phrase précédente annonce : « nous avons un régime politique (πολιτεία) qui n'imite pas les lois des voisins ».
 >! καὶ ὄνομα μὲν διὰ τὸ μὴ ἐς ὀλίγους ἀλλ’ ἐς πλείονας οἰκεῖν δημοκρατία κέκληται.
->! « Et son nom, du fait que le pouvoir est exercé non dans l'intérêt d'un petit nombre mais du plus grand nombre, est démocratie. »
+>! « Quant au nom, comme les affaires dépendent non pas du petit nombre mais du plus grand nombre, il est appelé démocratie. »
+>! L'expression ἐς πλείονας οἰκεῖν est discutée : « être administré par le plus grand nombre » ou « dans l'intérêt du plus grand nombre ». Les deux traductions sont admises.
 
 ## Les historiens
 **Hérodote** d'Halicarnasse (Ve siècle av. J.-C.), que Cicéron appelle le « **père de l'histoire** », raconte les guerres médiques et leurs causes dans ses *Histoires*. Il voyage, interroge, compare les récits : ἱστορίη (en ionien) signifie d'abord « **enquête** ». Son œuvre commence par : Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις ἥδε, « Voici l'exposé de l'enquête d'Hérodote d'Halicarnasse ». Il veut éviter que les grandes actions des Grecs et des Barbares ne tombent dans l'oubli.
@@ -1791,16 +1792,16 @@ La **πόλις** est une communauté politique indépendante : une ville, son t
         {
           type: "saisie",
           question: "Donne le sens étymologique de **δημοκρατία**.",
-          reponses: ["pouvoir du peuple", "le pouvoir du peuple", "gouvernement du peuple", "le gouvernement du peuple"],
+          reponses: ["pouvoir du peuple", "le pouvoir du peuple", "gouvernement du peuple", "le gouvernement du peuple", "pouvoir au peuple", "force du peuple", "puissance du peuple", "souveraineté du peuple"],
           explication: "ὁ δῆμος (le peuple) + τὸ κράτος (le pouvoir, la force) : le **pouvoir du peuple**.",
         },
         {
           type: "redaction",
-          question: "Traduis et commente cette phrase de l'oraison funèbre de Périclès (Thucydide, II, 37) : **καὶ ὄνομα μὲν διὰ τὸ μὴ ἐς ὀλίγους ἀλλ’ ἐς πλείονας οἰκεῖν δημοκρατία κέκληται.** (ἐς = εἰς ; ὀλίγοι : un petit nombre ; πλείονες : un plus grand nombre ; οἰκεῖν : administrer, gouverner ; κέκληται : parfait passif de καλέω, « est appelé »)",
+          question: "Traduis et commente cette phrase de l'oraison funèbre de Périclès (Thucydide, II, 37) : **καὶ ὄνομα μὲν διὰ τὸ μὴ ἐς ὀλίγους ἀλλ’ ἐς πλείονας οἰκεῖν δημοκρατία κέκληται.** (ἐς = εἰς ; ὀλίγοι : un petit nombre ; πλείονες : un plus grand nombre ; οἰκεῖν : administrer, gérer ; κέκληται : parfait passif de καλέω, « est appelé »)",
           corrige: `
-**Analyse.** Le verbe principal est κέκληται (« est appelé ») ; le sujet sous-entendu est notre régime politique ; ὄνομα est un accusatif de relation (« quant au nom ») et δημοκρατία l'attribut. διὰ τό + infinitif (οἰκεῖν) : διά + accusatif exprime la **cause**, et l'article τό substantive l'infinitif (« du fait d'administrer »). La négation est μή, normale avec l'infinitif. ἐς ὀλίγους / ἐς πλείονας : « en vue de, dans l'intérêt de ».
+**Analyse.** Le verbe principal est κέκληται (« est appelé ») ; le sujet sous-entendu est notre régime politique ; ὄνομα est un accusatif de relation (« quant au nom ») et δημοκρατία l'attribut. διὰ τό + infinitif (οἰκεῖν) : διά + accusatif exprime la **cause**, et l'article τό substantive l'infinitif (« du fait d'administrer »). La négation est μή, normale avec l'infinitif. ἐς ὀλίγους / ἐς πλείονας : « (remis) entre les mains de » ou « dans l'intérêt de » ; le sens exact est discuté. πλείονας est un comparatif (« plus nombreux ») : « le plus grand nombre ». Le sujet de κέκληται est le régime (ἡ πολιτεία) nommé dans la phrase précédente.
 
-**Traduction.** « Et quant au nom, parce que les affaires sont administrées non dans l'intérêt d'un petit nombre, mais du plus grand nombre, notre régime est appelé démocratie. »
+**Traduction.** « Et quant au nom, parce que les affaires dépendent non pas d'un petit nombre, mais du plus grand nombre, notre régime est appelé démocratie. » (On accepte aussi : « parce que la cité est administrée non dans l'intérêt d'un petit nombre, mais du plus grand nombre ».)
 
 **Commentaire.**
 1. **Le contexte** : en 431, à la fin de la première année de la guerre du Péloponnèse, Périclès prononce l'éloge des soldats morts. Thucydide réécrit ce discours : il fait l'éloge d'Athènes, modèle pour les autres cités.
@@ -1859,7 +1860,7 @@ La comédie ancienne a pour grand auteur **Aristophane** (vers 445-385). Elle se
 ## La science grecque
 - **Mathématiques** : Thalès et Pythagore (VIe siècle, théorèmes qui portent leur nom), **Euclide** (*Éléments*, vers 300, à Alexandrie), **Archimède** de Syracuse (IIIe siècle : poussée des fluides, levier, approximation de π ; selon l'anecdote, il s'écrie « εὕρηκα », « j'ai trouvé »).
 - **Astronomie et géographie** : **Ératosthène**, directeur de la Bibliothèque d'Alexandrie, mesure la circonférence de la Terre avec une précision remarquable ; **Aristarque** de Samos propose un modèle où la Terre tourne autour du Soleil.
-- **Médecine** : **Hippocrate** de Cos (Ve siècle) fonde une médecine d'observation, sans recours aux dieux ; le corpus hippocratique s'ouvre sur : Ὁ βίος βραχύς, ἡ δὲ τέχνη μακρή, « la vie est brève, l'art est long ». Le serment d'Hippocrate inspire encore celui des médecins.
+- **Médecine** : **Hippocrate** de Cos (Ve siècle) fonde une médecine d'observation, sans recours aux dieux ; ses *Aphorismes* s'ouvrent sur : Ὁ βίος βραχύς, ἡ δὲ τέχνη μακρή, « la vie est brève, l'art (la médecine) est long ». Le serment d'Hippocrate inspire encore celui des médecins.
 - **Alexandrie**, fondée par Alexandre en 331, devient avec son **Musée** et sa **Bibliothèque** la capitale du savoir à l'époque hellénistique.
 
 > **À retenir** : théâtre = concours civiques en l'honneur de Dionysos ; Eschyle, Sophocle, Euripide (tragédie), Aristophane (comédie) ; catharsis ; Socrate (ironie, maïeutique, mort en 399), Platon (Académie, dialogues), Aristote (Lycée) ; Euclide, Archimède, Ératosthène, Hippocrate ; Alexandrie.
@@ -1938,6 +1939,240 @@ La comédie ancienne a pour grand auteur **Aristophane** (vers 445-385). Elle se
 1. **Socrate et l'examen** : au moment d'être condamné, Socrate refuse de renoncer à interroger ses concitoyens. Pour lui, vivre humainement, c'est examiner ses opinions par le dialogue ; la philosophie est un mode de vie, pas seulement un savoir.
 2. **Aristote et le désir de savoir** : Aristote fait du savoir un désir naturel, présent en tout homme (il cite le plaisir que nous prenons à voir). La connaissance est recherchée pour elle-même.
 3. **Une même conviction** : de Socrate à Aristote, la raison (λόγος) définit l'homme ; on retrouve ce principe dans la science grecque, d'Euclide à Hippocrate, qui cherche des causes naturelles et des démonstrations.
+`,
+        },
+      ],
+    },
+    {
+      id: "masculin-feminin",
+      titre: "Masculin, féminin : hommes et femmes en Grèce",
+      theme: "Culture et textes",
+      cours: `
+## Les mots pour le dire
+| Mot grec | Sens | Déclinaison | Dérivés français |
+|---|---|---|---|
+| ὁ ἀνήρ, ἀνδρός | l'homme (le mâle), le mari | 3e décl. | androïde, polyandrie |
+| ὁ ἄνθρωπος | l'être humain (homme ou femme) | 2e décl. | anthropologie, philanthrope |
+| ἡ γυνή, γυναικός | la femme, l'épouse | 3e décl. | gynécologue, misogyne |
+| ἡ παρθένος | la jeune fille non mariée | 2e décl. (féminin) | Parthénon |
+| ὁ γάμος | le mariage | 2e décl. | monogame, polygamie |
+| ὁ οἶκος | la maison, la maisonnée | 2e décl. | économie (οἰκονομία, gestion de la maison) |
+| ἡ ἀνδρεία | le courage (« la qualité d'homme ») | 1re décl. | |
+
+Ne confonds pas **ἀνήρ** (l'homme par opposition à la femme) et **ἄνθρωπος** (l'être humain, par opposition aux dieux et aux animaux).
+
+| Cas | ὁ ἀνήρ | ἡ γυνή |
+|---|---|---|
+| N. sg. | ἀνήρ | γυνή |
+| V. sg. | ἄνερ | γύναι |
+| A. sg. | ἄνδρα | γυναῖκα |
+| G. sg. | ἀνδρός | γυναικός |
+| D. sg. | ἀνδρί | γυναικί |
+| N. pl. | ἄνδρες | γυναῖκες |
+| A. pl. | ἄνδρας | γυναῖκας |
+| G. pl. | ἀνδρῶν | γυναικῶν |
+| D. pl. | ἀνδράσι(ν) | γυναιξί(ν) |
+
+Le Parthénon est le temple d'**Athéna Parthénos**, « Athéna la Vierge ». Le gynécée (γυναικεῖον) est la partie de la maison réservée aux femmes.
+
+## À Athènes : deux mondes séparés
+- **Les hommes** : le citoyen vit dans l'espace public (agora, Assemblée, tribunaux, gymnase) ; il est soldat (l'hoplite) et doit montrer son ἀνδρεία. Les garçons de citoyens sont éduqués par des maîtres (lecture, musique, gymnastique), puis font leur service d'éphèbe.
+- **Les femmes de citoyens** n'ont **aucun droit politique**. Toute leur vie, elles sont placées sous l'autorité d'un tuteur, le **κύριος** (le père, puis le mari). Mariées très jeunes (vers 14-15 ans) à un homme plus âgé, choisi par leur père, elles dirigent l'**οἶκος** : les esclaves, les provisions, le tissage, l'éducation des petits enfants. Dans l'*Économique* de Xénophon, Ischomaque explique à sa jeune épouse ce rôle de maîtresse de maison.
+- **La religion** est le grand domaine public des femmes : prêtresses (celle d'Athéna Polias à Athènes), jeunes filles tissant le péplos offert à Athéna lors des Panathénées, fête des **Thesmophories** réservée aux femmes en l'honneur de Déméter.
+- **À Sparte**, les filles pratiquent la course et la lutte, et les femmes ont une réputation de plus grande liberté, ce qui choquait les autres Grecs.
+
+## Figures de femmes dans les textes
+- **Andromaque** : dans l'*Iliade* (chant VI), Hector la renvoie à ses travaux de femme (le métier à tisser, la quenouille) et conclut : πόλεμος δ’ ἄνδρεσσι μελήσει, « la guerre sera l'affaire des hommes » (v. 492 ; ἄνδρεσσι est un datif pluriel homérique de ἀνήρ).
+- **Pénélope**, l'épouse fidèle de l'*Odyssée*, est aussi rusée qu'Ulysse : elle défait la nuit la toile qu'elle tisse le jour pour retarder son remariage.
+- **Antigone** désobéit au roi Créon pour ensevelir son frère, au nom des lois divines.
+- **Médée**, chez Euripide (431), dénonce la condition des femmes : elle préférerait trois fois combattre au premier rang plutôt qu'accoucher une seule fois.
+- **Lysistrata** (Aristophane, 411) imagine, pour rire, des femmes qui imposent la paix aux hommes par une grève.
+- **Sappho** de Lesbos (vers 600 av. J.-C.), poétesse lyrique, chante l'amour : Platon l'aurait appelée « la dixième Muse ».
+- Le mythe imagine aussi un monde inversé : les **Amazones**, peuple de femmes guerrières.
+
+Un vers résume l'idéal masculin de la femme silencieuse : γύναι, γυναιξὶ κόσμον ἡ σιγὴ φέρει, « femme, aux femmes le silence est une parure » (Sophocle, *Ajax*, v. 293 : Ajax fait taire Tecmesse). Mais le théâtre, écrit et joué par des hommes, donne la parole à des héroïnes qui contestent cet ordre.
+
+> **À retenir** : ἀνήρ (le mâle, le mari) ≠ ἄνθρωπος (l'être humain) ; γυνή, γυναικός ; à Athènes, la femme de citoyen n'a pas de droits politiques et vit sous l'autorité d'un κύριος ; elle gère l'οἶκος et joue un rôle religieux important ; figures : Andromaque, Pénélope, Antigone, Médée, Lysistrata, Sappho.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quel mot grec désigne l'**être humain** en général, par opposition aux dieux et aux animaux ?",
+          choix: ["ὁ ἀνήρ", "ὁ ἄνθρωπος", "ἡ γυνή", "ὁ γάμος"],
+          reponse: 1,
+          explication: "ὁ ἄνθρωπος est l'être humain (d'où anthropologie). ὁ ἀνήρ est l'homme par opposition à la femme, ou le mari ; ἡ γυνή la femme ; ὁ γάμος le mariage.",
+        },
+        {
+          type: "saisie",
+          question: "Donne le **datif pluriel** de ἡ γυνή, γυναικός, avec l'article.",
+          reponses: ["ταῖς γυναιξί", "ταῖς γυναιξίν", "ταις γυναιξι", "ταις γυναιξιν"],
+          explication: "Radical γυναικ- + -σι : κ + σ = ξ, d'où **ταῖς γυναιξί(ν)**, « aux femmes ». L'article est féminin, comme le nom.",
+        },
+        {
+          type: "qcm",
+          question: "D'où vient le nom du **Parthénon** ?",
+          choix: ["De πάρθος, la Perse vaincue", "De πατήρ, le père des dieux", "De παρθένος, la jeune fille : temple d'Athéna Parthénos", "De πᾶς, tout : temple de tous les dieux"],
+          reponse: 2,
+          explication: "Le Parthénon est le temple d'Athéna **Parthénos**, « la Vierge », sur l'Acropole. Le temple de tous les dieux, c'est le Panthéon (πᾶς + θεός).",
+        },
+        {
+          type: "vf",
+          question: "À Athènes, les femmes de citoyens étaient exclues de la vie politique mais jouaient un rôle important dans la religion de la cité.",
+          reponse: true,
+          explication: "Oui : sans droit de vote ni accès aux magistratures, elles exercent des sacerdoces (prêtresse d'Athéna Polias), participent aux Panathénées (tissage du péplos) et célèbrent entre elles les Thesmophories.",
+        },
+        {
+          type: "saisie",
+          question: "Quel mot grec désigne la **maison**, la maisonnée (famille, esclaves, biens), et a donné « économie » ? (en grec ou translittéré)",
+          reponses: ["οἶκος", "ὁ οἶκος", "oikos", "οἰκία", "ἡ οἰκία", "oikia"],
+          explication: "**ὁ οἶκος** : la maisonnée, que dirige la maîtresse de maison. οἰκονομία (οἶκος + νόμος) est la « gestion de la maison », d'où « économie ». (ἡ οἰκία, la maison, est de la même famille.)",
+        },
+        {
+          type: "qcm",
+          question: "Que signifie **πόλεμος δ’ ἄνδρεσσι μελήσει** (Iliade VI, 492 ; μελήσει : futur de μέλει, « être l'affaire de, être le souci de » + datif) ?",
+          choix: ["La guerre sera l'affaire des hommes.", "Les hommes ont fait la guerre.", "La guerre tue les hommes.", "Les hommes fuiront la guerre."],
+          reponse: 0,
+          explication: "πόλεμος est le sujet (nominatif), ἄνδρεσσι un datif pluriel homérique de ἀνήρ (attique ἀνδράσι), μελήσει un futur : « la guerre sera l'affaire des hommes ». Hector renvoie Andromaque à ses travaux de femme.",
+        },
+        {
+          type: "saisie",
+          question: "Donne le sens littéral de **misogyne** (μισέω, haïr + γυνή).",
+          reponses: ["qui hait les femmes", "qui déteste les femmes", "celui qui hait les femmes", "haine des femmes", "qui a de la haine pour les femmes"],
+          explication: "μισέω (haïr) + γυνή (la femme) : « **qui hait les femmes** ». Même premier élément dans misanthrope.",
+        },
+        {
+          type: "qcm",
+          question: "Dans quelle pièce d'Aristophane les femmes font-elles la grève pour obliger les hommes à faire la paix ?",
+          choix: ["Les Nuées", "Les Grenouilles", "Médée", "Lysistrata"],
+          reponse: 3,
+          explication: "*Lysistrata* (411), en pleine guerre du Péloponnèse. *Les Nuées* caricaturent Socrate, *Les Grenouilles* mettent en scène Eschyle et Euripide ; *Médée* est une tragédie d'Euripide.",
+        },
+        {
+          type: "redaction",
+          question: "Traduis puis commente ces vers d'Euripide (*Médée*, v. 250-251), où Médée parle de la condition des femmes : **ὡς τρὶς ἂν παρ’ ἀσπίδα / στῆναι θέλοιμ’ ἂν μᾶλλον ἢ τεκεῖν ἅπαξ.** (ὡς : car ; τρίς : trois fois ; παρ’ ἀσπίδα στῆναι : se tenir près du bouclier, c'est-à-dire combattre en ligne ; θέλοιμ’ ἄν = θέλοιμι ἄν, « je voudrais » ; μᾶλλον ἤ : plutôt que ; τεκεῖν : infinitif aoriste de τίκτω, enfanter ; ἅπαξ : une fois)",
+          corrige: `
+**Analyse.** Verbe principal : θέλοιμ’ ἄν, optatif avec ἄν (« je voudrais, j'aimerais »), 1re sg. ; il commande deux infinitifs aoristes comparés par μᾶλλον ἤ : στῆναι (de ἵστημι, « se tenir ») et τεκεῖν (de τίκτω). L'aoriste n'a pas ici de valeur passée : il présente chaque action globalement. Le premier ἄν, placé tôt dans la phrase, annonce la nuance de possibilité ; il est repris par le second. Opposition des adverbes τρίς / ἅπαξ.
+
+**Traduction.** « Car j'aimerais mieux me tenir trois fois en ligne, le bouclier au bras, que d'enfanter une seule fois. »
+
+**Commentaire.**
+1. **Une réponse aux hommes** : juste avant, Médée rapporte ce que disent les hommes : les femmes vivraient à l'abri dans la maison pendant qu'eux combattent. Elle renverse l'argument : l'accouchement, souvent mortel dans l'Antiquité, est plus dangereux que la bataille.
+2. **Une comparaison provocante** : le combat d'hoplite (παρ’ ἀσπίδα) est le symbole de la valeur masculine (ἀνδρεία) et de la citoyenneté. Médée met la souffrance féminine à égalité avec lui, et même au-dessus (τρίς / ἅπαξ).
+3. **La portée** : par la bouche d'une étrangère, d'une magicienne et bientôt d'une meurtrière, Euripide fait entendre à un public d'hommes une critique de la condition des femmes. Le théâtre est un lieu où la cité met en débat ses propres valeurs.
+`,
+        },
+      ],
+    },
+    {
+      id: "mediterranee-echanges",
+      titre: "Méditerranée : conflits, influences et échanges",
+      theme: "Culture et textes",
+      cours: `
+## Les Grecs autour de la mer
+Les Grecs vivent, selon le mot de Platon, autour de la mer « comme des fourmis ou des grenouilles autour d'une mare » (*Phédon*, 109b). Ils ne forment jamais un État unique : des centaines de cités indépendantes, souvent rivales.
+
+Ce qui les unit, selon Hérodote (VIII, 144), c'est τὸ Ἑλληνικόν, « le fait d'être grec » : le **même sang**, la **même langue**, des **sanctuaires et des sacrifices communs** et des **mœurs semblables**. Les autres sont des **βάρβαροι** : à l'origine, ceux qui ne parlent pas grec (leur langue fait « bar-bar » à l'oreille grecque), sans idée de sauvagerie au départ.
+
+## La colonisation (VIIIe-VIe siècle av. J.-C.)
+Pour trouver des terres ou des comptoirs, des cités (les **métropoles**, de μήτηρ, mère, et πόλις, cité) envoient des colons fonder une **ἀποικία** (« établissement loin de chez soi »), sous la conduite d'un **oikiste**, souvent après avoir consulté l'oracle de Delphes. La colonie est indépendante mais garde des liens religieux avec sa métropole.
+
+| Colonie | Nom grec | Métropole | Date (av. J.-C.) |
+|---|---|---|---|
+| Syracuse (Sicile) | Συράκουσαι | Corinthe | vers 733 |
+| Naples | Νεάπολις (« ville nouvelle ») | Cumes | VIe-Ve siècle |
+| Byzance | Βυζάντιον | Mégare | vers 660 |
+| Marseille | Μασσαλία | Phocée (Asie Mineure) | vers 600 |
+| Nice, Antibes | Νίκαια, Ἀντίπολις | Marseille | plus tard |
+
+Le sud de l'Italie et la Sicile forment la **Grande-Grèce**. Des Grecs s'installent aussi en mer Noire, en Libye (Cyrène) et en Égypte (le comptoir de Naucratis).
+
+## Les conflits
+- **Les guerres médiques** opposent les Grecs à l'Empire perse : Marathon (490), les Thermopyles où meurent Léonidas et ses Spartiates, puis la victoire navale de **Salamine** (480), et Platées (479). Elles deviennent pour les Grecs le symbole de la liberté face au despotisme.
+- Athènes construit ensuite une **thalassocratie** (θάλαττα + κράτος, la domination sur la mer) : la flotte de **trières** (ἡ τριήρης) et le port du **Pirée**.
+- **La guerre du Péloponnèse** (431-404) oppose Athènes à Sparte et ruine la Grèce.
+
+>! **Texte authentique** : l'épitaphe des Spartiates morts aux Thermopyles, attribuée au poète Simonide et citée par Hérodote (VII, 228) :
+>! Ὦ ξεῖν’, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε
+>! κείμεθα, τοῖς κείνων ῥήμασι πειθόμενοι.
+>! « Étranger, va dire aux Lacédémoniens qu'ici nous gisons, obéissant à leurs ordres. »
+
+## Les échanges et les influences
+- **Le commerce** : vin, huile d'olive et céramique peinte athénienne circulent dans toute la Méditerranée ; le blé vient de la mer Noire et d'Égypte. Le marchand se dit ὁ ἔμπορος, le comptoir τὸ ἐμπόριον (d'où Ampurias, en Catalogne).
+- **La monnaie** (inventée en Lydie vers 600) : la **drachme** (ἡ δραχμή) d'Athènes, frappée de la chouette d'Athéna.
+- **L'alphabet** : emprunté aux Phéniciens, l'alphabet grec est transmis aux Étrusques puis aux Romains, d'où notre alphabet latin.
+- **Alexandre le Grand** (roi de Macédoine de 336 à 323) conquiert l'Empire perse jusqu'à l'Indus. Commence l'**époque hellénistique** (323-31 av. J.-C.) : le grec **commun**, ἡ κοινὴ διάλεκτος (la **koinè**), devient la langue de l'Orient méditerranéen ; c'est la langue de la traduction grecque de la Bible (la Septante) et du Nouveau Testament.
+- **Rome** conquiert la Grèce (prise de Corinthe en 146) mais adopte sa culture, comme le dit le poète latin Horace : *Graecia capta ferum victorem cepit*, « la Grèce conquise a conquis son farouche vainqueur » (*Épîtres*, II, 1, 156).
+
+## Vocabulaire
+ἡ θάλαττα : la mer · ἡ ναῦς, νεώς : le navire (nautique, nausée) · ὁ ναύτης : le marin · ὁ ἔμπορος : le marchand · ὁ ξένος : l'étranger, l'hôte · ὁ βάρβαρος : le non-Grec · ἡ ἀποικία : la colonie · ὁ πόλεμος : la guerre (polémique) · ἡ εἰρήνη : la paix (Irène).
+
+> **À retenir** : unité culturelle (langue, dieux, mœurs) sans unité politique ; βάρβαρος = qui ne parle pas grec ; colonisation (Syracuse, Marseille vers 600 par les Phocéens) ; guerres médiques (Marathon 490, Salamine 480) ; thalassocratie athénienne ; Alexandre, époque hellénistique, koinè ; Rome hellénisée.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quels Grecs ont fondé **Marseille** (Μασσαλία) vers 600 av. J.-C. ?",
+          choix: ["Les Athéniens", "Les Spartiates", "Les Phocéens", "Les Corinthiens"],
+          reponse: 2,
+          explication: "Marseille est fondée vers 600 par des colons de **Phocée**, cité grecque d'Asie Mineure (d'où le surnom de « cité phocéenne »). Corinthe a fondé Syracuse.",
+        },
+        {
+          type: "saisie",
+          question: "Donne le sens étymologique de **métropole** (μήτηρ + πόλις).",
+          reponses: ["cité mère", "la cité mère", "ville mère", "la ville mère", "cité-mère", "ville-mère", "mère cité"],
+          explication: "μήτηρ (la mère) + πόλις (la cité) : la « **cité mère** », celle qui fonde une colonie. Le mot désigne aujourd'hui une grande ville ou la France par opposition à l'outre-mer.",
+        },
+        {
+          type: "vf",
+          question: "Pour les Grecs, le mot βάρβαρος désignait d'abord celui qui ne parle pas grec.",
+          reponse: true,
+          explication: "Oui : le mot imite un langage incompréhensible (« bar-bar »). Il désigne d'abord l'étranger non grec, sans idée de cruauté ; le sens péjoratif de « sauvage » s'est développé ensuite.",
+        },
+        {
+          type: "qcm",
+          question: "Quelle bataille de 480 av. J.-C. est une victoire **navale** des Grecs sur les Perses ?",
+          choix: ["Salamine", "Marathon", "Platées", "Les Thermopyles"],
+          reponse: 0,
+          explication: "À **Salamine** (480), la flotte grecque, surtout athénienne, bat la flotte perse. Marathon (490) et Platées (479) sont des batailles terrestres ; aux Thermopyles (480), Léonidas et ses Spartiates sont tués.",
+        },
+        {
+          type: "saisie",
+          question: "Quelle ville italienne actuelle porte le nom grec **Νεάπολις** (« la ville nouvelle ») ?",
+          reponses: ["Naples", "Napoli"],
+          explication: "Νεάπολις (*Neapolis*), « la ville nouvelle » (νέα + πόλις), est devenue **Naples**.",
+        },
+        {
+          type: "qcm",
+          question: "Qu'appelle-t-on la **koinè** ?",
+          choix: ["Le dialecte de Sparte", "La langue d'Homère", "Le grec commun parlé dans tout l'Orient méditerranéen après Alexandre", "L'alphabet phénicien"],
+          reponse: 2,
+          explication: "ἡ κοινὴ διάλεκτος, la « langue commune », issue surtout de l'attique, se répand après les conquêtes d'Alexandre. C'est la langue du Nouveau Testament.",
+        },
+        {
+          type: "saisie",
+          question: "Dans l'épitaphe des Thermopyles, **Ὦ ξεῖν’, ἀγγέλλειν Λακεδαιμονίοις…**, quel est le mode de ἀγγέλλειν ? (un mot)",
+          reponses: ["infinitif", "l'infinitif"],
+          explication: "ἀγγέλλειν est un **infinitif** présent ; il a ici la valeur d'un impératif (« va annoncer »), emploi poétique et archaïque.",
+        },
+        {
+          type: "qcm",
+          question: "Que veut dire Horace avec *Graecia capta ferum victorem cepit* ?",
+          choix: ["Rome a détruit la culture grecque.", "La Grèce, conquise par Rome, a imposé sa culture à son vainqueur.", "Les Grecs ont conquis Rome par les armes.", "Rome et la Grèce sont restées étrangères l'une à l'autre."],
+          reponse: 1,
+          explication: "« La Grèce conquise a conquis son farouche vainqueur » : vaincue militairement, la Grèce a soumis Rome à sa littérature, à ses arts et à sa philosophie.",
+        },
+        {
+          type: "redaction",
+          question: "Traduis et commente l'épitaphe des Spartiates morts aux Thermopyles (citée par Hérodote, VII, 228) : **Ὦ ξεῖν’, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε / κείμεθα, τοῖς κείνων ῥήμασι πειθόμενοι.** (ξεῖνε : forme ionienne de ξένε, vocatif de ξένος ; ἀγγέλλειν : infinitif à valeur d'impératif ; οἱ Λακεδαιμόνιοι : les Spartiates ; τῇδε : ici ; κεῖμαι : être étendu, gésir ; κείνων = ἐκείνων ; τὸ ῥῆμα : la parole ; πείθομαι + datif : obéir à)",
+          corrige: `
+**Analyse.** Ὦ ξεῖν’ (ξεῖνε élidé) : vocatif, apostrophe au passant. ἀγγέλλειν : infinitif employé comme un impératif. Λακεδαιμονίοις : datif, complément d'attribution (« aux Lacédémoniens »). ὅτι introduit une complétive : κείμεθα, 1re pl. du présent de κεῖμαι (forme moyenne). τῇδε : adverbe de lieu. πειθόμενοι : participe présent moyen, nominatif masculin pluriel, accordé au sujet « nous » ; il gouverne le datif τοῖς κείνων ῥήμασι (κείνων, génitif pluriel du démonstratif, désigne les Lacédémoniens).
+
+**Traduction.** « Étranger, va dire aux Lacédémoniens qu'ici nous gisons, pour avoir obéi à leurs ordres. »
+
+**Commentaire.**
+1. **Une inscription funéraire** : le distique élégiaque (un hexamètre et un pentamètre) est gravé sur une pierre au bord de la route. Les morts eux-mêmes parlent (κείμεθα) et s'adressent au passant, chargé de porter le message : la mémoire du sacrifice passe par la parole des vivants.
+2. **L'idéal spartiate** : la sobriété du texte (deux vers, aucune plainte) reflète la « laconie » des Spartiates. Mourir n'est pas présenté comme une défaite mais comme une **obéissance** à la loi de la cité (τοῖς κείνων ῥήμασι πειθόμενοι) : ne pas reculer.
+3. **Un symbole méditerranéen** : dans les guerres médiques, ce sacrifice devient l'emblème de la liberté grecque face à l'Empire perse. Hérodote, en recopiant l'épitaphe, en fait un monument de son « enquête » contre l'oubli.
 `,
         },
       ],

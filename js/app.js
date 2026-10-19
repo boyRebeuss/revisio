@@ -216,12 +216,15 @@ async function vueMatiere(id) {
   let data;
   try { data = await charger(p.niveau, id); } catch { return erreur("Cette matière n'est pas encore disponible ou la connexion a échoué."); }
   const prog = S.progression(p.id);
-  const groupes = [];
+  // Regroupe par thème (dans l'ordre de première apparition), même si les
+  // chapitres d'un thème ne se suivent pas dans le fichier
+  const parTheme = new Map();
   for (const c of data.chapitres) {
     const g = c.theme || "";
-    if (!groupes.length || groupes.at(-1).theme !== g) groupes.push({ theme: g, chapitres: [] });
-    groupes.at(-1).chapitres.push(c);
+    if (!parTheme.has(g)) parTheme.set(g, { theme: g, chapitres: [] });
+    parTheme.get(g).chapitres.push(c);
   }
+  const groupes = [...parTheme.values()];
   page(
     entete({ titre: `${m.icone} ${m.nom}`, retour: "#/", couleur: m.couleur }),
     h("main", { style: { "--c": m.couleur } },
