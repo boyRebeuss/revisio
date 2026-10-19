@@ -214,3 +214,5 @@ form.carte { display: grid; gap: 10px; }
 }
 
 pre.code { background: #1e2330; color: #e8ebf2; border-radius: 10px; padding: 12px 14px; overflow-x: auto; font: 0.9rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; margin: 10px 0; }
+.ia-code { border-left: 5px solid var(--ia); text-align: left; }
+.carte .ia-code { border: none; padding: 0; margin: 12px 0; }

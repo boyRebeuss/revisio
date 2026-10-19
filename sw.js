@@ -2,7 +2,7 @@
 const CACHE = "revisio-v2";
 const SOCLE = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
-  "js/app.js", "js/dom.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js",
+  "js/app.js", "js/dom.js", "js/famille.js", "js/cle-famille.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js",
   "content/catalogue.js", "icons/icon.svg", "icons/icon-192.png",
 ];
 

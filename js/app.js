@@ -4,6 +4,7 @@ import { bloc } from "./md.js";
 import * as S from "./store.js";
 import * as IA from "./gemini.js";
 import { carteExercice, exerciceValide } from "./exercices.js";
+import * as F from "./famille.js";
 
 const app = document.getElementById("app");
 const contenus = {};
@@ -44,6 +45,37 @@ function chargement() {
 
 function erreur(msg) {
   page(entete({ titre: "Oups", retour: "#/" }), h("main", {}, h("p", { class: "erreur" }, msg)));
+}
+
+// ---------- Code famille ----------
+
+// Carte de déverrouillage de l'IA. apres() est appelé quand le code est bon.
+function carteCode({ apres, refusable = false }) {
+  const champ = h("input", { class: "champ", type: "password", autocomplete: "off", autocapitalize: "off", spellcheck: "false", placeholder: "Code famille" });
+  const msg = h("p", { class: "erreur" });
+  const btn = h("button", { class: "btn ia plein", type: "submit" }, "Déverrouiller");
+  return h("form", {
+    class: "carte ia-code",
+    onsubmit: async (ev) => {
+      ev.preventDefault();
+      if (!champ.value) return;
+      btn.disabled = true;
+      btn.textContent = "Vérification…";
+      msg.textContent = "";
+      const ok = await F.deverrouiller(champ.value);
+      if (ok) { IA.oublierModeles(); apres(); return; }
+      btn.disabled = false;
+      btn.textContent = "Déverrouiller";
+      msg.textContent = "Code incorrect. Demande-le à tes parents.";
+      champ.select();
+    },
+  },
+    h("h2", {}, "🔒 Activer l'IA"),
+    h("p", {}, "Tape le code famille une seule fois sur cet appareil : l'IA pourra ensuite créer des exercices, corriger tes rédactions et répondre à tes questions."),
+    h("div", { class: "saisie" }, champ, btn),
+    msg,
+    refusable ? h("button", { class: "btn lien", type: "button", onclick: () => { F.continuerSansIA(); apres(); } }, "Plus tard (continuer sans l'IA)") : null
+  );
 }
 
 // ---------- Profils ----------
@@ -142,6 +174,7 @@ function vueAccueil() {
     }),
     h("main", {},
       h("p", { class: "salut" }, `Salut ${p.prenom} ! `, h("span", { class: "niveau-txt" }, niv.long)),
+      F.proposerCode() ? carteCode({ apres: vueAccueil, refusable: true }) : null,
       revoir.length ? h("a", { class: "carte revoir", href: "#/revoir" },
         h("span", { class: "gros" }, "🔁"),
         h("span", {}, h("strong", {}, "À revoir"), h("br"), `${revoir.reduce((s, r) => s + r.rates, 0)} exercice(s) à retravailler`)
@@ -280,6 +313,10 @@ function zoneExercices({ p, c, cle, ctx, seulementRates, idM, suivant }) {
   const zoneIA = h("div", { class: "carte ia-zone" });
   const majIA = () => {
     zoneIA.replaceChildren();
+    if (!IA.disponible() && F.cleIntegree()) {
+      zoneIA.append(carteCode({ apres: router }));
+      return;
+    }
     if (!IA.disponible()) {
       zoneIA.append(h("p", {}, "✨ Avec une clé Gemini (gratuite, à ajouter dans les ", h("a", { href: "#/reglages" }, "Réglages"), "), l'IA peut créer d'autres exercices corrigés sur ce chapitre."));
       return;
@@ -318,6 +355,7 @@ function zoneExercices({ p, c, cle, ctx, seulementRates, idM, suivant }) {
 }
 
 function zoneQuestion({ ctx, c }) {
+  if (!IA.disponible() && F.cleIntegree()) return carteCode({ apres: router });
   if (!IA.disponible()) {
     return h("div", { class: "carte" },
       h("p", {}, "✨ Pose une question sur ce chapitre et l'IA t'explique autrement."),
@@ -431,6 +469,12 @@ function vueReglages() {
       h("section", { class: "carte" },
         h("h2", {}, "✨ Intelligence artificielle (facultatif)"),
         h("p", {}, "Avec une clé Gemini gratuite, l'appli peut créer de nouveaux exercices, corriger les rédactions et répondre aux questions. Sans clé, tous les cours et exercices corrigés restent disponibles."),
+        F.cleIntegree()
+          ? (S.reglages.cleGemini()
+              ? h("p", { class: "succes" }, "✅ L'IA est activée sur cet appareil.")
+              : carteCode({ apres: vueReglages }))
+          : null,
+        F.cleIntegree() ? h("h3", {}, "Ou utiliser une autre clé (parents)") : null,
         h("ol", {},
           h("li", {}, "Va sur ", h("a", { href: "https://aistudio.google.com/apikey", target: "_blank", rel: "noopener noreferrer" }, "aistudio.google.com/apikey"), " avec un compte Google adulte."),
           h("li", {}, "Clique « Create API key », copie la clé."),
