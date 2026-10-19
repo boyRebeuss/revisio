@@ -887,6 +887,196 @@ Quand le verbe introducteur est au passé (*dijo que, explicó que, contó que, 
         { type: "vf", question: "« ¿Dónde vives? » → « Me preguntó donde vivía. » est correctement écrit.", reponse: false, explication: "Dans une interrogation indirecte, le mot interrogatif **garde son accent** : *Me preguntó dónde vivía*." },
         { type: "redaction", question: "Transpose ce témoignage au discours indirect en commençant par « La abuela contó que... » : « Me llamo Rosa. En 1939 crucé la frontera con mi madre. Hoy vivo en Toulouse y nunca olvidaré aquel viaje. Escuchad bien mi historia. »", corrige: "*La abuela contó que se llamaba Rosa. Explicó que en 1939 había cruzado (ou cruzó) la frontera con su madre. Dijo que entonces (en aquel momento) vivía en Toulouse y que nunca olvidaría aquel viaje. Nos pidió que escucháramos bien su historia.*\n\nTransformations :\n- *me llamo* → *se llamaba* : présent → imparfait, 1re → 3e personne ;\n- *crucé* → *había cruzado* : passé → plus-que-parfait (l'indefinido *cruzó* est accepté car l'action est datée) ;\n- *hoy vivo* → *entonces vivía* ou *en aquel momento vivía* : repère temporel et présent → imparfait ;\n- *olvidaré* → *olvidaría* : futur → conditionnel ;\n- *escuchad* → *nos pidió que escucháramos* : impératif → que + subjonctif imparfait ;\n- *mi madre, mi historia* → *su madre, su historia*.\n\nCe témoignage renvoie à l'axe « Territoire et mémoire » (la Retirada)." }
       ]
+    },
+    {
+      id: "espacio-andino",
+      titre: "Axe 6 : L'espace andin",
+      theme: "Axes culturels",
+      cours: `
+>! **Programme** : l'axe 6, « L'espace andin, la colonne vertébrale de l'Amérique du Sud », est **obligatoire** en 1re. Trois pistes : les Andes, un espace fascinant qui nourrit l'imaginaire ; une grande diversité géographique et un héritage identitaire commun ; les défis socio-économiques et environnementaux actuels.
+
+## La cordillère et les sept pays andins
+- **La cordillera de los Andes** (*los Andes*, masculin pluriel) s'étire sur environ 7 000 km le long du Pacifique, du Venezuela jusqu'à la Terre de Feu : c'est la plus longue chaîne de montagnes continentale du monde.
+- **Sept pays andins**, tous hispanophones : **Venezuela, Colombie, Équateur, Pérou, Bolivie, Chili, Argentine**.
+- Sommets : l'**Aconcagua** (Argentine, 6 961 m), le plus haut sommet des Amériques ; le **Chimborazo** (Équateur, 6 263 m), dont le sommet est le point de la surface terrestre le plus éloigné du centre de la Terre (à cause du renflement de l'équateur).
+- **Trois grands milieux** : la *costa* (au Pérou et au Chili, un désert côtier, l'**Atacama** étant le désert non polaire le plus aride du monde), la *sierra* (vallées et hauts plateaux : l'**Altiplano**, vers 3 500-4 000 m, partagé par le Pérou, la Bolivie, le Chili et l'Argentine) et, à l'est, la *selva* amazonienne.
+- Le **lac Titicaca** (vers 3 800 m), entre Pérou et Bolivie. Des capitales en altitude : **La Paz** (siège du gouvernement bolivien, vers 3 600 m), **Quito** (vers 2 850 m), **Bogotá** (vers 2 600 m). Le mal d'altitude se dit *el soroche* (ou *el mal de altura*).
+- Faune et cultures : le **cóndor**, les camélidés (*la llama, la alpaca, la vicuña, el guanaco*) ; la **pomme de terre** (*la papa*), domestiquée dans les Andes (le Pérou en compte plus de 3 000 variétés locales), la **quinoa**, la feuille de **coca**, sacrée et mâchée ou bue en infusion (*mate de coca*).
+
+### Un espace qui nourrit l'imaginaire
+- **Pablo Neruda**, *Alturas de Macchu Picchu* (dans *Canto general*, 1950 ; Neruda écrit « Macchu ») : le poète gravit la cité inca et donne la parole aux bâtisseurs anonymes.
+- **« El cóndor pasa »** : mélodie du compositeur péruvien Daniel Alomía Robles (1913), rendue mondialement célèbre en 1970 par Simon et Garfunkel.
+- **L'Inca Garcilaso de la Vega** (1539-1616), fils d'un conquistador et d'une princesse inca, raconte l'histoire et les coutumes des Incas dans les *Comentarios reales de los incas* (1609) : une des premières voix **métisses** de la littérature.
+
+## L'héritage inca
+- **L'empire inca** (XVe-XVIe siècles) s'appelait en quechua **Tawantinsuyu** (*Tahuantinsuyo*, « les quatre régions »). Capitale : **Cuzco** (*Cusco*). Il s'étendait du sud de l'actuelle Colombie au centre du Chili. L'Inca (*Sapa Inca*) était considéré comme le fils du Soleil, **Inti**. **Pachacútec** l'agrandit au XVe siècle.
+- **Machu Picchu** (vers 2 400 m), construit au XVe siècle, sans doute pour Pachacútec ; les conquistadors ne semblent jamais l'avoir atteint. Il est rendu célèbre en 1911 par l'explorateur américain **Hiram Bingham**, guidé par des paysans de la région. Patrimoine mondial de l'UNESCO depuis 1983.
+- Savoir-faire : les **andenes** (terrasses agricoles), des murs de pierres ajustées sans mortier, le **Qhapaq Ñan** (réseau de chemins incas, patrimoine mondial depuis 2014), les **quipus** (cordelettes à nœuds pour compter), les **chasquis** (messagers coureurs).
+- **Le quechua** (*runa simi*, « la langue des gens ») : langue de l'empire, parlée aujourd'hui par plusieurs millions de personnes au Pérou, en Bolivie et en Équateur (*kichwa*). Il est officiel au Pérou (là où il prédomine) et en Bolivie. L'espagnol lui doit *cóndor, puma, llama, papa, cancha, pampa, choclo* (épi de maïs).
+- **L'Inti Raymi** (« la fête du Soleil ») : chaque **24 juin**, peu après le solstice d'hiver austral (vers le 21 juin), une grande reconstitution a lieu à Cuzco et sur l'esplanade de **Sacsayhuamán**. Interdite à l'époque coloniale, la fête est reconstituée depuis 1944.
+
+## L'héritage colonial
+- **La conquête** : en **1532**, Francisco **Pizarro** capture l'Inca **Atahualpa** à Cajamarca ; il le fait exécuter en 1533. L'empire était affaibli par une guerre de succession entre Atahualpa et son frère Huáscar.
+- **Lima** est fondée en **1535** ; elle devient la capitale de la **vice-royauté du Pérou** (1542).
+- **Potosí** (Bolivie) : l'argent du **Cerro Rico**, exploité à partir de 1545, enrichit l'Espagne grâce à la **mita**, le travail forcé des Indiens. L'expression *valer un Potosí* signifie « valoir une fortune ».
+- **Métissage et syncrétisme** : à Cuzco, le couvent de Santo Domingo est bâti sur les murs du **Qorikancha**, le temple inca du Soleil ; dans la **Cène** peinte par Marcos Zapata (XVIIIe siècle) pour la cathédrale de Cuzco, le Christ et les apôtres partagent un *cuy* (cochon d'Inde) ; la Vierge est souvent associée à la Pachamama.
+- Révoltes et indépendances : la grande rébellion de **Túpac Amaru II** (1780) ; puis les indépendances avec **Simón Bolívar** (qui a donné son nom à la Bolivie) et **José de San Martín** (1810-1825).
+
+## La Pachamama
+- **La Pachamama** (« la Terre-Mère », en quechua et en aymara) est la divinité de la terre et de la fertilité. On la remercie par des offrandes : le *pago a la tierra*, la *challa* (on asperge le sol d'alcool ou de *chicha*). Dans beaucoup de régions andines, le **mois d'août** lui est consacré.
+- Cette vision a inspiré le droit : la **Constitution de l'Équateur** (2008) est la première au monde à reconnaître des **droits à la nature**. Son article 71 commence ainsi : « *La naturaleza o Pacha Mama, donde se reproduce y realiza la vida, tiene derecho a que se respete integralmente su existencia...* ». La **Bolivie** a adopté en 2010 une loi sur les droits de la Terre-Mère.
+- Le **buen vivir** (*sumak kawsay* en quechua d'Équateur, *suma qamaña* en aymara) : vivre en harmonie avec la communauté et la nature plutôt que rechercher la croissance à tout prix.
+
+## Les défis actuels
+- **Le lithium** : le « triangle du lithium » (Argentine, Bolivie, Chili) concentre plus de 40 % des ressources mondiales identifiées : 64 millions de tonnes sur environ 150 millions selon l'USGS, l'institut géologique des États-Unis (édition 2026). On l'extrait de la saumure des **salares** (le **salar d'Uyuni**, en Bolivie, plus grand désert de sel du monde ; le salar d'Atacama, au Chili) en la faisant évaporer, ce qui consomme beaucoup d'eau dans des régions déjà très sèches. Les communautés indigènes demandent à être consultées et à profiter des revenus. Paradoxe : un métal indispensable aux voitures électriques, donc à la transition écologique, mais qui menace des écosystèmes fragiles.
+- **Les mines** : le Chili est le premier producteur mondial de **cuivre** (Chuquicamata, Escondida) ; le Pérou exporte cuivre, or et argent. Les **conflits socio-environnementaux** sont nombreux : au Pérou, le projet minier **Conga** (Cajamarca) a été suspendu après de grandes manifestations en 2011-2012 ; l'**orpaillage illégal** en Amazonie (Madre de Dios) déboise et empoisonne les rivières au mercure.
+- **La fonte des glaciers** (*el deshielo*) : les Andes abritent presque tous les glaciers tropicaux de la planète, dont la majorité au Pérou. Selon l'INAIGEM (institut péruvien des glaciers), le Pérou a perdu plus de la moitié de la surface de ses glaciers depuis le premier inventaire de 1962 (environ 56 % entre 1962 et 2020). En Bolivie, le glacier de **Chacaltaya**, qui accueillait une piste de ski, a disparu vers 2009. Conséquences : moins d'eau pour les villes (La Paz, El Alto, Lima) et l'agriculture, et des lagunes glaciaires qui peuvent déborder (*aluviones*).
+- **Le tourisme** : il fait vivre des milliers de familles (guides, porteurs, artisans), mais la fréquentation de Machu Picchu est désormais limitée par un nombre de billets par jour ; la « montagne aux sept couleurs » (*Vinicunca*) souffre de l'érosion. Le **tourisme communautaire** (sur les îles du lac Titicaca, par exemple) cherche à mieux partager les revenus.
+
+## Vocabulaire
+| Espagnol | Français |
+|---|---|
+| la cordillera, la cumbre, el altiplano | la cordillère, le sommet, le haut plateau |
+| los pueblos originarios / indígenas | les peuples autochtones |
+| la herencia, el legado | l'héritage |
+| el mestizaje, el sincretismo | le métissage, le syncrétisme |
+| la Madre Tierra | la Terre-Mère |
+| el yacimiento, la extracción | le gisement, l'extraction |
+| el salar | le désert de sel |
+| el deshielo, el glaciar | la fonte (des glaces), le glacier |
+| el calentamiento global | le réchauffement climatique |
+| la escasez de agua | la pénurie d'eau |
+| la consulta previa | la consultation préalable (des peuples autochtones) |
+| el turismo masivo / sostenible | le tourisme de masse / durable |
+
+## Méthode : compte rendu et argumentation
+- **Compte rendu en français** : présente le document (nature, source, date, thème), puis suis l'ordre des idées : *qui, quoi, où, quand, pourquoi, avec quelles conséquences*. Reformule, ne traduis pas mot à mot, et n'ajoute rien qui ne soit dans le texte.
+- **Argumentation (150 mots)** : une introduction qui pose la question, deux arguments illustrés par des **exemples andins précis** (Uyuni, Chacaltaya, Machu Picchu, Constitution de 2008), une nuance (*sin embargo*), une conclusion personnelle.
+- Outils B1 : *es necesario que / hace falta que* + subjonctif (*es necesario que los gobiernos consulten a las comunidades*) ; *aunque* ; *si* + présent, futur (*si los glaciares desaparecen, faltará agua*).
+
+>! **Erreurs fréquentes**
+- *los Andes* (masculin pluriel), *la cordillera de los Andes* ; *el quechua* (langue, masculin, sans majuscule) ; *los incas*, *el Imperio inca* (sans majuscule à l'adjectif).
+- *Machu Picchu* s'écrit avec deux **c** dans *Picchu* ; *Macchu* n'apparaît que dans le titre de Neruda.
+- *el agua* mais *las aguas* ; *el deshielo* (et non « la fonte » traduite par *la fundición*, qui désigne la fonderie).
+- *Es necesario que* + **subjonctif** : ✗ *es necesario que protegen* → ✓ *es necesario que protejan*.
+
+> **À retenir** : sept pays andins (Venezuela, Colombie, Équateur, Pérou, Bolivie, Chili, Argentine) ; Aconcagua 6 961 m, Altiplano, Titicaca ; Tawantinsuyu, Cuzco, Machu Picchu (XVe siècle, Bingham 1911), quechua, Inti Raymi le 24 juin ; Pizarro et Atahualpa (1532), Potosí et la mita, syncrétisme ; Pachamama et droits de la nature (Équateur, 2008) ; défis : lithium des salares, mines, fonte des glaciers (Chacaltaya), tourisme.
+`,
+      exercices: [
+        { type: "saisie", question: "Comment s'appelait l'empire inca en quechua ?", reponses: ["Tawantinsuyu", "Tahuantinsuyo", "Tahuantinsuyu", "Tawantinsuyo", "el Tahuantinsuyo", "el Tawantinsuyu"], explication: "**Tawantinsuyu** (graphie hispanisée *Tahuantinsuyo*) : « les quatre régions », réunies autour de Cuzco." },
+        { type: "qcm", question: "Que célèbre-t-on lors de l'Inti Raymi, chaque 24 juin, à Cuzco ?", choix: ["la Pachamama et les récoltes d'août", "le Soleil, au moment du solstice d'hiver austral", "l'arrivée des Espagnols", "l'indépendance du Pérou"], reponse: 1, explication: "*Inti* = le Soleil, *raymi* = la fête. Le 24 juin est proche du solstice d'hiver dans l'hémisphère sud. Interdite à l'époque coloniale, la fête est reconstituée depuis 1944 à Sacsayhuamán. Le mois de la Pachamama est août ; l'indépendance péruvienne se fête le 28 juillet." },
+        { type: "vf", question: "Machu Picchu a été pillé et détruit par les conquistadors au XVIe siècle.", reponse: false, explication: "Les conquistadors ne semblent **jamais avoir atteint** Machu Picchu, ce qui explique en partie son bon état. Les paysans de la région le connaissaient ; il est devenu célèbre dans le monde en 1911 grâce à Hiram Bingham." },
+        { type: "saisie", question: "Traduis en espagnol : « la Terre-Mère »", reponses: ["la Madre Tierra", "Madre Tierra", "la Tierra Madre", "Tierra Madre", "la Pachamama", "Pachamama", "la Pacha Mama", "Pacha Mama"], explication: "**la Madre Tierra**, c'est-à-dire **la Pachamama** en quechua et en aymara." },
+        { type: "qcm", question: "Pourquoi la ville bolivienne de Potosí est-elle entrée dans l'histoire ?", choix: ["pour son glacier, le plus haut du monde", "pour sa production de lithium au XVIe siècle", "pour l'argent du Cerro Rico, extrait par le travail forcé des Indiens", "parce que Pizarro y a capturé Atahualpa"], reponse: 2, explication: "À partir de 1545, l'argent du **Cerro Rico** enrichit la couronne espagnole grâce à la **mita** (travail forcé) : d'où *valer un Potosí*. Atahualpa a été capturé à **Cajamarca** (Pérou) ; le lithium est un enjeu actuel (salar d'Uyuni)." },
+        { type: "qcm", question: "Quel pays a été le premier à reconnaître des droits à la nature (« la Pacha Mama ») dans sa Constitution, en 2008 ?", choix: ["l'Équateur", "le Chili", "l'Espagne", "le Venezuela"], reponse: 0, explication: "La **Constitution équatorienne de 2008** (articles 71 et suivants) reconnaît des droits à la nature. La Bolivie a suivi avec une loi sur les droits de la Terre-Mère en 2010." },
+        { type: "saisie", question: "Traduis en espagnol : « la fonte des glaciers »", reponses: ["el deshielo de los glaciares", "deshielo de los glaciares", "el derretimiento de los glaciares", "derretimiento de los glaciares", "la fusión de los glaciares", "fusión de los glaciares", "el retroceso de los glaciares", "retroceso de los glaciares"], explication: "**el deshielo de los glaciares** (on dit aussi *el derretimiento* ou *el retroceso de los glaciares*). Attention : *la fundición* est la fonderie." },
+        { type: "saisie", question: "Conjugue *proteger* : « Es necesario que los gobiernos andinos ... los glaciares. »", reponses: ["protejan"], explication: "*Es necesario que* + **subjonctif présent** : *protejan*. Le **g** devient **j** devant *a* pour garder le son (*protejo, proteja*)." },
+        { type: "redaction", question: "**Compréhension de l'écrit** — Lis cet article (texte d'entraînement, données fictives) et rédige un **compte rendu en français** (8 à 10 lignes).\n\n« *El oro blanco del altiplano*\n\n*En el salar, a 3 700 metros de altura, las piscinas de color turquesa se extienden hasta el horizonte. Allí se evapora la salmuera de la que se extrae el litio, el metal que necesitan las baterías de los coches eléctricos. «Para el mundo es la energía del futuro; para nosotros, es el agua de hoy», resume Rosa Choque, presidenta de una comunidad aymara de la zona. Según la asociación local, cada tonelada de litio exige evaporar más de un millón de litros de agua en una región donde casi no llueve. Los pastores de llamas ya notan que algunas lagunas han bajado. La empresa minera promete empleos y una escuela nueva, y el Gobierno afirma que el litio permitirá salir de la pobreza. Pero los vecinos piden que se les consulte antes de firmar nuevos contratos. «No estamos contra el progreso —dice Rosa—, pero la Pachamama no es una mina.»* »", corrige: "**Compte rendu modèle** :\n\nCet article de presse, intitulé « L'or blanc de l'altiplano », traite de l'**exploitation du lithium** dans un désert de sel des Andes, à 3 700 m d'altitude, et de ses conséquences pour les habitants.\n\nLe lithium, indispensable aux batteries des voitures électriques, est obtenu en faisant évaporer de la saumure dans d'immenses bassins. Rosa Choque, présidente d'une communauté aymara, oppose l'énergie de l'avenir pour le reste du monde à l'eau dont son peuple a besoin aujourd'hui. Selon une association locale, chaque tonne de lithium demande d'évaporer plus d'un million de litres d'eau, dans une région presque sans pluie ; les éleveurs de lamas voient déjà baisser le niveau de certaines lagunes.\n\nL'entreprise minière promet des emplois et une nouvelle école, et le gouvernement présente le lithium comme un moyen de sortir de la pauvreté. Les habitants, eux, réclament d'être consultés avant la signature de nouveaux contrats. Rosa conclut qu'ils ne refusent pas le progrès, mais que la Pachamama n'est pas une mine.\n\nMéthode : présentation (titre, nature, thème), puis les trois points de vue dans l'ordre du texte (communauté, entreprise et gouvernement, revendication finale) ; chiffres repris exactement ; citations reformulées en français, sans ajout ni opinion personnelle." },
+        { type: "redaction", question: "**Expression écrite** (150 mots environ) — « *¿Es posible conciliar el desarrollo económico y el respeto a la Pachamama en los Andes?* » Donne ton opinion en t'appuyant sur des exemples précis.", corrige: "Modèle (150 mots) :\n\n*Los países andinos tienen enormes riquezas naturales, pero también una cultura que considera la tierra como una madre. ¿Se puede desarrollar la economía sin destruir la Pachamama?*\n\n*Por un lado, la explotación del litio o del cobre trae empleos y dinero. Bolivia y Chile esperan salir de la pobreza gracias al litio de sus salares. Además, este metal es necesario para la transición ecológica.*\n\n*Por otro lado, las minas consumen mucha agua en regiones secas y contaminan los ríos, como ocurre con el oro ilegal en la Amazonía peruana. Al mismo tiempo, los glaciares desaparecen: el de Chacaltaya ya no existe.*\n\n*Sin embargo, existen soluciones. Es necesario que los gobiernos consulten a las comunidades y que una parte de los beneficios se quede en la región. El turismo sostenible es otro ejemplo.*\n\n*En conclusión, creo que es posible, siempre que se respeten los derechos de la naturaleza.*\n\nCritères : problématique posée ; arguments pour et contre avec des exemples andins précis (litio, Chacaltaya, Amazonía) ; connecteurs (*por un lado, por otro lado, además, sin embargo, en conclusión*) ; subjonctif (*es necesario que consulten, que se quede, siempre que se respeten*)." }
+      ]
+    },
+    {
+      id: "ser-humano-naturaleza",
+      titre: "Axe 5 : L'être humain et la nature",
+      theme: "Axes culturels",
+      cours: `
+>! **Programme** : dans le monde hispanique, des paysages très variés façonnent les modes de vie et inspirent les artistes ; la nature y est tantôt hostile, tantôt généreuse. L'axe invite à étudier la nature dans la culture, la **préservation du milieu naturel** et les **conséquences de la surexploitation**. Les défis andins (lithium, glaciers) sont traités dans le chapitre « Axe 6 : L'espace andin ».
+
+## Une nature qui inspire : la littérature
+### Pablo Neruda (Chili, 1904-1973, prix Nobel de littérature 1971)
+- Dans son autobiographie, *Confieso que he vivido* (1974), il évoque la forêt du sud du Chili où il a grandi : « *Quien no conoce el bosque chileno, no conoce este planeta.* » Pour lui, la nature de l'enfance est l'origine même de sa poésie.
+- *Canto general* (1950) chante la nature et l'histoire de l'Amérique latine ; dans *Alturas de Macchu Picchu*, il écrit « *Sube a nacer conmigo, hermano* » pour appeler les ouvriers indiens oubliés à revivre dans son poème.
+- *Odas elementales* (1954) : des odes aux choses simples de la nature (*Oda al tomate*, *Oda a la alcachofa*).
+
+### Horacio Quiroga (Uruguay, 1878-1937)
+- Il s'installe dans la *selva* de **Misiones**, dans le nord-est de l'Argentine, au bord du fleuve Paraná. La forêt tropicale devient le décor de ses contes : une nature **fascinante mais impitoyable**, où l'homme est fragile.
+- *Cuentos de amor de locura y de muerte* (1917) : dans « **A la deriva** », un homme mordu par un serpent descend le Paraná en pirogue pour chercher du secours ; le fleuve et la forêt, splendides, restent indifférents à son agonie.
+- *Cuentos de la selva* (1918) : des contes pour enfants où les animaux parlent (*La tortuga gigante*, *Las medias de los flamencos*).
+- *Anaconda* (1921) : les serpents de la jungle sont les personnages principaux.
+
+### D'autres regards
+- **Antonio Machado**, *Campos de Castilla* (1912) : les paysages austères de la Meseta et du Duero, symbole de l'Espagne.
+- **César Manrique** (1919-1992), artiste de Lanzarote : il a intégré son architecture dans les coulées de lave et s'est battu contre le tourisme de masse sur son île.
+
+## Une nature hostile ou généreuse
+- La nature nourrit (*la huerta* de Valence, les terres fertiles des volcans) mais elle peut aussi détruire : l'éruption du volcan de **La Palma** (Canaries, septembre-décembre 2021) a enseveli plus d'un millier de bâtiments, en majorité des maisons ; la **DANA** (pluies torrentielles) d'octobre 2024 dans la région de Valence a fait plus de 200 morts ; ouragans dans les Caraïbes, séismes au Chili et au Mexique.
+- Ces catastrophes posent aussi la question de la responsabilité humaine : construction en zone inondable, réchauffement climatique qui intensifie les phénomènes extrêmes.
+
+## Préserver le milieu naturel
+### Les îles Galápagos (Équateur)
+- Archipel volcanique du Pacifique, à environ 1 000 km des côtes équatoriennes. Son nom vient des **tortues géantes** (*galápagos*).
+- En **1835**, **Charles Darwin** y fait escale à bord du *Beagle* : l'observation des pinsons et des tortues, différents d'une île à l'autre, nourrit sa théorie de l'évolution (*L'Origine des espèces*, 1859).
+- Espèces **endémiques** (qui n'existent nulle part ailleurs) : tortues géantes, **iguanes marins**, pinsons de Darwin, cormorans aptères. Le **Solitario George**, dernière tortue de l'île Pinta, est mort en 2012.
+- Parc national depuis 1959, inscrit en **1978** parmi les tout premiers sites du patrimoine mondial de l'UNESCO ; vaste réserve marine. Menaces : espèces introduites (chèvres, rats), pêche illégale, tourisme croissant ; d'où des droits d'entrée élevés et des visites encadrées par des guides.
+
+### Doñana (Andalousie, Espagne)
+- Immense zone humide (*las marismas*) à l'embouchure du **Guadalquivir**, entre Huelva, Séville et Cadix ; une étape essentielle pour des millions d'**oiseaux migrateurs** entre l'Europe et l'Afrique. Parc national depuis **1969**, patrimoine mondial depuis 1994.
+- Espèces emblématiques : le **lince ibérico** (lynx ibérique) et l'**águila imperial ibérica**.
+- Menaces : le **pompage de l'aquifère** pour l'irrigation, notamment pour les cultures de **fraises** (*el oro rojo*), avec de nombreux **puits illégaux** ; en 2021, la Cour de justice de l'Union européenne a condamné l'Espagne pour ne pas avoir protégé cette nappe. En **1998**, la rupture d'un bassin de la mine d'**Aznalcóllar** a déversé des boues toxiques aux portes du parc. Lors de la sécheresse de 2022-2023, les lagunes se sont asséchées.
+
+### Des réussites
+- **Le lynx ibérique** : moins de 100 individus au début des années 2000 ; plus de 2 000 en 2023 grâce à l'élevage en captivité et aux réintroductions (Andalousie, Castille-La Manche, Estrémadure, Portugal). En 2024, l'UICN l'a fait passer de « en danger » à « vulnérable ».
+- **Le Mar Menor** (Murcie), lagune polluée par les engrais agricoles, est devenu en 2022 le premier écosystème d'Europe doté d'une **personnalité juridique**, après une initiative législative populaire signée par environ 640 000 citoyens (il en fallait 500 000) ; c'est la loi 19/2022.
+
+## Les conséquences de la surexploitation
+### Le « mar de plástico » d'Almería
+- Plus de 30 000 hectares de **serres** (*invernaderos*) dans la province d'Almería (autour d'El Ejido), visibles depuis l'espace : c'est le « potager de l'Europe » (tomates, poivrons, concombres exportés toute l'année).
+- **Richesse** pour une région autrefois pauvre et désertique, mais **coûts** : surexploitation et salinisation des **aquifères**, déchets plastiques, et conditions de vie souvent très dures pour les ouvriers immigrés (Marocains, Africains subsahariens), parfois logés dans des **chabolas** (bidonvilles).
+- Des progrès : la **lutte biologique** (des insectes remplacent une partie des pesticides), le recyclage du plastique.
+
+### La déforestation
+- En **Amazonie** (Pérou, Bolivie, Colombie, Équateur), la forêt recule à cause de l'élevage, du soja, de l'orpaillage illégal et des incendies ; selon Global Forest Watch, la **Bolivie** a été en 2024 le deuxième pays au monde pour la perte de forêt tropicale primaire, derrière le Brésil, à cause d'incendies records.
+- Le **Gran Chaco** (Argentine, Paraguay) est défriché pour le bétail et le soja ; au **Mexique**, dans le Michoacán, des forêts sont abattues pour planter des **avocatiers** (*el oro verde*).
+
+### La sécheresse (*la sequía*)
+- **Espagne** : sécheresse sévère en 2022-2024, réservoirs (*embalses*) au plus bas ; la Catalogne a déclaré l'**état d'urgence** en février 2024. Le pays construit des usines de **dessalement** (*desaladoras*) et réutilise les eaux usées.
+- **Chili** : une « méga-sécheresse » depuis 2010 dans le centre du pays.
+- **Uruguay** : en 2023, à Montevideo, l'eau du robinet est devenue salée, faute d'eau douce dans les réservoirs.
+- Une grande partie du sud de l'Espagne est menacée par la **désertification**.
+
+## Vocabulaire
+| Espagnol | Français |
+|---|---|
+| el paisaje, el entorno | le paysage, l'environnement |
+| el medio ambiente | l'environnement |
+| la especie (en peligro de extinción) | l'espèce (en voie d'extinction) |
+| endémico/a | endémique |
+| el humedal, la marisma | la zone humide, le marais |
+| el acuífero, los pozos ilegales | la nappe phréatique, les puits illégaux |
+| el invernadero, el regadío | la serre, l'irrigation |
+| la sequía, el embalse | la sécheresse, le réservoir (barrage) |
+| la tala, la deforestación | l'abattage, la déforestation |
+| los incendios forestales | les incendies de forêt |
+| la sobreexplotación, agotar | la surexploitation, épuiser |
+| proteger, conservar, preservar | protéger, conserver, préserver |
+
+## Méthode : argumenter sur un enjeu environnemental
+1. **Introduire** avec un fait précis : *En 2022, el Mar Menor se convirtió en...*
+2. **Opposer** les intérêts (économie, emploi / nature, santé) : *por un lado... por otro lado...*
+3. **Illustrer** chaque argument par un exemple du cours (Doñana, Almería, Galápagos, Amazonia).
+4. **Proposer** des solutions avec le subjonctif : *Hace falta que + subjonctif* ; *Ojalá llueva* ; *para que las especies sobrevivan*.
+5. **Conclure** en nuançant : *Aunque..., creo que...*
+
+>! **Erreurs fréquentes**
+- *el medio ambiente* (deux mots, masculin) ; *el agua* / *las aguas* ; *la especie* (même au singulier, avec un **s** final).
+- *proteger* → subjonctif *proteja* (g → j) ; *ojalá* + **subjonctif** : ✗ *ojalá llueve* → ✓ *ojalá llueva*.
+- Ne confonds pas *la sequía* (la sécheresse) et *el secado* (le séchage).
+- Cite exactement les auteurs, ou reformule : *Neruda afirma que quien no conoce el bosque chileno no conoce el planeta.*
+
+> **À retenir** : la nature inspire (Neruda : « Quien no conoce el bosque chileno, no conoce este planeta » ; Quiroga et la selva de Misiones, « A la deriva ») et peut être hostile (La Palma 2021, DANA 2024) ; préservation : Galápagos (Darwin, 1835 ; UNESCO 1978), Doñana (parc 1969, aquifère et fraises), lynx ibérique sauvé, Mar Menor personne juridique (2022) ; surexploitation : mar de plástico d'Almería, déforestation (Amazonie, Chaco, avocats), sécheresse (Espagne, Chili, Montevideo 2023).
+`,
+      exercices: [
+        { type: "vf", question: "Pablo Neruda, poète chilien, a reçu le prix Nobel de littérature en 1971.", reponse: true, explication: "Neruda (1904-1973) reçoit le **Nobel en 1971**. La forêt du sud du Chili, où il a grandi, est au cœur de son œuvre." },
+        { type: "qcm", question: "Où se déroulent la plupart des contes de Horacio Quiroga ?", choix: ["dans la Pampa argentine", "dans la selva de Misiones, au bord du Paraná", "dans le désert d'Atacama", "dans les îles Galápagos"], reponse: 1, explication: "Quiroga vécut à **Misiones** (nord-est de l'Argentine). La forêt et le fleuve **Paraná** forment le décor de « A la deriva » et des *Cuentos de la selva*." },
+        { type: "qcm", question: "À quel pays appartiennent les îles Galápagos ?", choix: ["le Pérou", "la Colombie", "le Chili", "l'Équateur"], reponse: 3, explication: "Les Galápagos sont une province de l'**Équateur**, à environ 1 000 km de ses côtes." },
+        { type: "saisie", question: "Quel naturaliste britannique a visité les Galápagos en 1835 et s'en est inspiré pour sa théorie de l'évolution ?", reponses: ["Darwin", "Charles Darwin"], explication: "**Charles Darwin**, à bord du *Beagle* ; *L'Origine des espèces* paraît en 1859." },
+        { type: "qcm", question: "Quelle est aujourd'hui la principale menace pour la zone humide de Doñana ?", choix: ["le pompage de l'eau de la nappe pour irriguer, notamment les fraises", "les éruptions volcaniques", "la chasse au lynx ibérique", "la pêche industrielle au thon"], reponse: 0, explication: "Les **puits** (souvent illégaux) qui pompent l'**aquifère** pour les cultures de fraises assèchent les marais ; l'Espagne a été condamnée par la Cour de justice de l'UE en 2021. Le lynx est protégé et sa population augmente." },
+        { type: "saisie", question: "Traduis en espagnol : « la serre »", reponses: ["el invernadero", "invernadero"], explication: "**el invernadero** (de *invierno*, l'hiver) : le *mar de plástico* d'Almería en compte des milliers." },
+        { type: "vf", question: "La population de lynx ibériques a fortement augmenté depuis le début des années 2000.", reponse: true, explication: "Moins de 100 individus au début des années 2000, **plus de 2 000 en 2023** grâce aux programmes d'élevage et de réintroduction : l'UICN l'a classé « vulnérable » et non plus « en danger » en 2024." },
+        { type: "saisie", question: "Conjugue *llover* au subjonctif : « Ojalá ... pronto en Andalucía. »", reponses: ["llueva"], explication: "*Ojalá* + **subjonctif présent** ; *llover* diphtongue (o → ue) : **llueva**." },
+        { type: "redaction", question: "**Expression écrite** (80 mots environ) — Neruda écrit dans *Confieso que he vivido* : « *Quien no conoce el bosque chileno, no conoce este planeta.* » Explique en espagnol ce que veut dire cette phrase et dis si tu es d'accord.", corrige: "Modèle :\n\n*En esta frase, Pablo Neruda afirma que el bosque del sur de Chile resume toda la riqueza de la Tierra: sus árboles, sus lluvias, sus animales y sus silencios. Para el poeta, que creció allí, este bosque es el origen de su poesía. Exagera un poco, claro, pero quiere decir que la naturaleza de la infancia nos enseña a mirar el mundo. Estoy de acuerdo con él: para comprender el planeta, hay que conocer y respetar la naturaleza que nos rodea.*\n\nCritères : reformulation de la citation (*afirma que, quiere decir que*), lien avec la vie du poète, opinion justifiée (*estoy de acuerdo, hay que*)." },
+        { type: "redaction", question: "**Expression écrite** (150 mots environ) — « *Los tomates baratos del mar de plástico, ¿un progreso o un desastre?* » Argumente en t'appuyant sur des exemples précis.", corrige: "Modèle (150 mots) :\n\n*En Almería, más de treinta mil hectáreas de invernaderos forman el llamado «mar de plástico». Gracias a ellos, comemos tomates baratos todo el año. ¿Es un progreso o un desastre?*\n\n*Por un lado, los invernaderos han transformado una región pobre y desértica en la huerta de Europa. Dan trabajo a miles de personas y la agricultura ha mejorado: hoy se usan insectos en lugar de pesticidas.*\n\n*Por otro lado, el precio para la naturaleza es muy alto. Los agricultores agotan los acuíferos y los plásticos contaminan el paisaje. Además, muchos trabajadores inmigrantes viven en chabolas. Lo mismo ocurre en Doñana con las fresas.*\n\n*En mi opinión, no hace falta cerrar los invernaderos, pero es necesario que se controle el agua y que los trabajadores tengan condiciones dignas. Ojalá los consumidores acepten pagar un poco más.*\n\n*En conclusión, es un progreso, siempre que sea sostenible.*\n\nCritères : problématique ; arguments opposés illustrés (Almería, Doñana) ; connecteurs ; subjonctif (*es necesario que se controle, que tengan, ojalá acepten, siempre que sea*)." }
+      ]
     }
   ]
 };

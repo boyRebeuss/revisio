@@ -115,6 +115,30 @@ Depuis 2012, les boissons sucrées sont soumises en France à une contribution s
 **Conclusion** : la taxe élève le prix payé, abaisse le prix reçu et la quantité échangée, et réduit le surplus total. C'est un instrument d'incitation efficace, dont le coût (perte sèche) doit être comparé aux bénéfices attendus.
 
 >! **Barème implicite (9 points)** : introduction avec définitions et annonce ; mécanismes expliqués (déplacement de l'offre, partage de la charge, perte sèche) ; données des deux documents exploitées avec au moins un calcul ; connaissances personnelles ; conclusion qui répond au sujet. **Erreur fréquente** : décrire le tableau ligne par ligne sans expliquer le mécanisme.` },
+        { type: "redaction", question: `**Étude d'un document (EC2)**
+
+**Document – Quantités de fraises demandées et offertes sur le marché d'une ville, un samedi, selon le prix (données fictives)**
+
+| Prix du kilo (en €) | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|
+| Quantité demandée (en kg) | 800 | 700 | 600 | 500 | 400 | 300 |
+| Quantité offerte (en kg) | 200 | 300 | 400 | 500 | 600 | 700 |
+
+1) À l'aide du document, déterminez le prix et la quantité d'équilibre, puis calculez l'écart entre la quantité demandée et la quantité offerte au prix de 3 €.
+2) À l'aide du document et de vos connaissances, expliquez comment le prix se fixe sur un marché concurrentiel.`, corrige: `**1) Lecture et calcul**
+- Le prix d'équilibre est celui pour lequel la quantité demandée est égale à la quantité offerte : **5 € le kilo**, pour une quantité d'équilibre de **500 kg**.
+- Au prix de 3 € : quantité demandée 700 kg, quantité offerte 300 kg. Écart : 700 − 300 = **400 kg** d'**excès de demande** (pénurie).
+- *Phrase* : « D'après ces données fictives, sur ce marché un samedi, au prix de 3 € le kilo, les acheteurs souhaiteraient acheter 700 kg de fraises, mais les producteurs ne proposent que 300 kg : il manque 400 kg. »
+
+**2) La formation du prix sur un marché concurrentiel**
+- *Le marché* : lieu de rencontre de l'offre et de la demande. Il est **concurrentiel** si les vendeurs et les acheteurs sont nombreux (atomicité : aucun ne peut fixer seul le prix), les fraises comparables (homogénéité) et les prix affichés (transparence).
+- *La demande est décroissante* : quand le prix baisse, de plus en plus d'acheteurs ont un prix de réservation supérieur au prix ; la quantité demandée passe de 300 kg à 7 € à 800 kg à 2 €.
+- *L'offre est croissante* : un producteur vend tant que le prix couvre son **coût marginal**, qui augmente avec la quantité ; un prix plus élevé rend rentables des quantités supplémentaires (200 kg à 2 €, 700 kg à 7 €).
+- *L'ajustement par le prix* : à 3 €, l'excès de demande de 400 kg pousse les acheteurs à accepter de payer plus et les vendeurs à monter leurs prix ; à 7 €, il y a 700 − 300 = 400 kg d'**excès d'offre** (invendus), les vendeurs baissent leurs prix. Le prix converge vers **5 €**, où les 500 kg offerts sont tous achetés.
+- *Intérêt de l'équilibre* : à ce prix, tous les échanges mutuellement avantageux ont lieu ; le **surplus total** (gains à l'échange des acheteurs et des vendeurs) est maximal.
+- *Nuance* : l'équilibre change si une courbe se déplace (une mauvaise récolte réduit l'offre et fait monter le prix) ; et le modèle suppose des hypothèses rarement toutes réunies.
+
+>! **Barème indicatif (5,5 points ; la note de service du 11 septembre 2026 ne fixe pas la répartition entre les deux questions)** : Q1 (2 points) : prix et quantité d'équilibre justes, écart de 400 kg qualifié d'excès de demande, phrase avec unités. Q2 (3,5 points) : définition du marché concurrentiel, pente des courbes expliquée (prix de réservation, coût marginal), mécanisme d'ajustement appuyé sur au moins deux données du document, idée de gains à l'échange. **Erreur fréquente** : décrire le tableau ligne par ligne sans expliquer pourquoi le prix change.` },
       ],
     },
     {
@@ -227,6 +251,32 @@ Sources : Conseil de la concurrence, décision du 30 novembre 2005 ; Commission 
 **Conclusion** : la logique stratégique de l'oligopole rend l'entente tentante ; la politique de la concurrence la rend risquée et coûteuse, dans l'intérêt des consommateurs.
 
 >! **Barème implicite (9 points)** : lecture juste de la matrice (raisonnement « quelle que soit la stratégie de l'autre ») ; lien entre entente, prix élevé et perte de surplus ; exploitation du document 2 ; connaissance des outils de la politique de la concurrence.` },
+        { type: "saisie", question: "Un monopole fait face à la demande Q = 120 − P ; chaque unité lui coûte 20 € à produire (coût marginal constant, pas de coût fixe). Pour maximiser son profit, il produit **50 unités** et les vend au prix de **70 €**. Quel est son profit (en euros) ?", reponses: ["2500", "2 500", "2 500 €", "2500 €", "2 500 euros"],
+          explication: "Profit = (prix − coût unitaire) × quantité = (70 − 20) × 50 = **2 500 €**. C'est bien le maximum : pour 40 unités (prix 80 €), le profit serait (80 − 20) × 40 = 2 400 € ; pour 60 unités (prix 60 €), (60 − 20) × 60 = 2 400 €. Attention à ne pas confondre profit et recette (70 × 50 = 3 500 €)." },
+        { type: "saisie", question: "Même marché : en concurrence, le prix serait égal au coût marginal (20 €) et 100 unités seraient échangées ; le monopole, lui, vend 50 unités à 70 €. Quelle est la **perte sèche** due au monopole (en euros) ?", reponses: ["1250", "1 250", "1 250 €", "1250 €", "1 250 euros"],
+          explication: "La perte sèche correspond aux échanges qui n'ont plus lieu (de la 51e à la 100e unité) : triangle de base 100 − 50 = 50 et de hauteur 70 − 20 = 50, soit 50 × 50 / 2 = **1 250 €**. Vérification : en concurrence, le surplus total vaut (120 − 20) × 100 / 2 = 5 000 € ; avec le monopole, surplus du consommateur (120 − 70) × 50 / 2 = 1 250 € + profit 2 500 € = 3 750 € ; 5 000 − 3 750 = 1 250 €." },
+        { type: "redaction", question: `**Étude d'un document (EC2)**
+
+**Document – Parts de marché en valeur des fabricants de boissons gazeuses dans un pays en 2025, en % (données fictives)**
+
+| Entreprise A | Entreprise B | Entreprise C | Entreprise D | Une quarantaine d'autres fabricants | Total |
+|---|---|---|---|---|---|
+| 45 | 25 | 12 | 8 | 10 | 100 |
+
+1) Calculez la part de marché cumulée des deux premières entreprises, puis des quatre premières, et rédigez une phrase de lecture de l'un de ces résultats.
+2) À l'aide du document et de vos connaissances, montrez que ce marché est un oligopole et expliquez les conséquences possibles pour les consommateurs.`, corrige: `**1) Calculs et lecture**
+- Deux premières entreprises : 45 + 25 = **70 %** du marché.
+- Quatre premières entreprises : 45 + 25 + 12 + 8 = **90 %** du marché.
+- *Phrase* : « D'après ces données fictives, en 2025 dans ce pays, les quatre premiers fabricants de boissons gazeuses réalisent 90 % des ventes en valeur du marché ; la quarantaine d'autres fabricants se partage les 10 % restants. »
+
+**2) Un oligopole et ses conséquences**
+- *Définition* : un **oligopole** est un marché dominé par un **petit nombre d'offreurs** face à de nombreux acheteurs. C'est le cas ici : quatre entreprises détiennent 90 % du marché, et l'entreprise A à elle seule 45 %, soit près de la moitié.
+- *Un pouvoir de marché* : contrairement à la concurrence parfaite, ces entreprises ne sont pas preneuses de prix ; grâce à la **différenciation** (marques, publicité) et aux **barrières à l'entrée** (coûts de publicité, accès aux rayons des supermarchés, économies d'échelle), elles peuvent fixer un prix supérieur à leur coût marginal.
+- *L'interdépendance stratégique* : chaque firme doit anticiper la réaction des autres. Elles peuvent se livrer une guerre des prix (favorable aux consommateurs) ou être tentées de **s'entendre** (cartel) pour maintenir des prix élevés : c'est la logique du dilemme du prisonnier, où la coopération rapporte plus aux firmes.
+- *Conséquences pour les consommateurs* : en cas d'entente ou de domination, prix plus élevés, quantités plus faibles, moins de choix : le surplus du consommateur diminue et une **perte sèche** apparaît. Mais la rivalité entre grandes marques peut aussi stimuler l'innovation (nouveaux produits, réduction du sucre).
+- *Le rôle de la politique de la concurrence* : l'Autorité de la concurrence sanctionne les ententes et les abus de position dominante (l'entreprise A pourrait être en position dominante) et contrôle les concentrations : un rachat de C par A, qui porterait sa part à 57 %, serait examiné de près.
+
+>! **Barème indicatif (5,5 points ; la note de service du 11 septembre 2026 ne fixe pas la répartition entre les deux questions)** : Q1 (2 points) : deux cumuls justes (70 % et 90 %), phrase avec lieu, date, unité et caractère fictif. Q2 (3,5 points) : définition de l'oligopole reliée aux chiffres, pouvoir de marché et barrières à l'entrée, interdépendance stratégique et tentation d'entente, effets sur les consommateurs, politique de la concurrence. **Erreur fréquente** : parler de monopole alors que plusieurs grandes firmes coexistent.` },
       ],
     },
     {
@@ -390,6 +440,31 @@ Depuis 1992, en France, toute voiture de plus de quatre ans doit passer un contr
 - *Ouverture* : l'État peut lui aussi mal intervenir (prix plafond du document 1) : il s'agit de bien choisir ses instruments.
 
 >! **Barème implicite (sur 20, dont 2 de maîtrise de la langue)** : problématique explicite ; plan en deux parties équilibrées avec sous-parties ; chaque sous-partie argumentée (mécanisme + exemple) ; les trois documents exploités avec des données précises, sans paraphrase ; connaissances personnelles (Akerlof, Ostrom, Pigou) ; transitions ; conclusion qui répond à la question « dans quelle mesure ».` },
+        { type: "redaction", question: `**Étude d'un document (EC2)**
+
+**Document – Stock et captures d'une espèce de poisson dans une zone de pêche, en milliers de tonnes (données fictives)**
+Des quotas de pêche sont instaurés en 2015.
+
+| | 1990 | 2000 | 2010 | 2015 | 2025 |
+|---|---|---|---|---|---|
+| Stock de poissons adultes | 400 | 300 | 160 | 120 | 210 |
+| Captures de l'année | 80 | 95 | 60 | 35 | 40 |
+
+1) Calculez le taux de variation du stock de poissons entre 1990 et 2015, puis entre 2015 et 2025, et rédigez une phrase de lecture de l'un de ces résultats.
+2) À l'aide du document et de vos connaissances, expliquez pourquoi le marché ne permet pas une gestion durable de cette ressource et comment l'intervention publique peut y remédier.`, corrige: `**1) Calculs et lecture**
+- Taux de variation = (valeur d'arrivée − valeur de départ) / valeur de départ × 100.
+- 1990-2015 : (120 − 400) / 400 × 100 = **−70 %**.
+- 2015-2025 : (210 − 120) / 120 × 100 = **+75 %**.
+- *Phrase* : « D'après ces données fictives, dans cette zone de pêche, le stock de poissons adultes a diminué de 70 % entre 1990 et 2015, passant de 400 000 à 120 000 tonnes. »
+
+**2) Une défaillance du marché et sa correction**
+- *Un bien commun* : les poissons de cette zone sont **rivaux** (un poisson pêché ne peut plus l'être par un autre) mais **non excluables** (il est difficile d'interdire l'accès à la mer). Le marché ne fixe aucun prix pour le stock lui-même : il ne rémunère que les poissons pêchés.
+- *La tragédie des biens communs* (Garrett Hardin, 1968) : chaque pêcheur a intérêt à pêcher davantage tant que la vente rapporte plus que le coût de sa sortie en mer ; ce qu'il laisse dans l'eau risque d'être pêché par un autre. La somme de ces choix individuels rationnels conduit à la **surexploitation** : entre 1990 et 2000, les captures augmentent (de 80 000 à 95 000 tonnes) alors que le stock recule (de 400 000 à 300 000 tonnes). Chaque pêcheur impose aux autres et aux générations futures un coût (moins de poissons) sans contrepartie : c'est aussi une **externalité négative**. Les captures finissent par chuter (35 000 tonnes en 2015) faute de poissons.
+- *L'intervention publique* : en fixant des **quotas** (un total de captures autorisé réparti entre pêcheurs ; dans l'Union européenne, ils sont fixés chaque année par le Conseil), les pouvoirs publics rendent la ressource en partie excluable et limitent les prélèvements. Les captures sont de 40 000 tonnes en 2025, bien en dessous de leur niveau de 1990-2000, et le stock remonte de 75 % entre 2015 et 2025. D'autres outils existent : licences, fermetures de zones ou de périodes, normes sur les filets, contrôles et sanctions.
+- *D'autres solutions* : Elinor Ostrom a montré que des communautés de pêcheurs peuvent elles-mêmes fixer et faire respecter des règles collectives.
+- *Nuance* : d'autres facteurs (température de l'eau, pollution) peuvent expliquer l'évolution du stock : la coïncidence entre quotas et remontée du stock ne prouve pas à elle seule la causalité.
+
+>! **Barème indicatif (5,5 points ; la note de service du 11 septembre 2026 ne fixe pas la répartition entre les deux questions)** : Q1 (2 points) : formule, deux taux justes (−70 % et +75 %), phrase avec lieu, période, unité. Q2 (3,5 points) : bien commun défini par la rivalité et la non-excluabilité, mécanisme de surexploitation (tragédie des communs) relié aux données, rôle des quotas appuyé sur le document, au moins une nuance ou une autre solution. **Erreur fréquente** : confondre bien commun et bien collectif (non rival).` },
       ],
     },
     {
@@ -526,6 +601,34 @@ Le déficit et la dette sont souvent rapportés au **PIB** (critères européens
 **Conclusion** : le choix dépend de la taille de l'entreprise (accès ou non aux marchés financiers), de sa rentabilité, du niveau des taux d'intérêt et de la volonté des propriétaires de garder le contrôle.
 
 >! **Barème implicite (9 points)** : calcul des deux taux d'autofinancement ; distinction claire interne / externe, intermédié / direct, action / obligation ; usage du taux d'intérêt (document 2) ; connaissances (fonds propres, dividendes, dilution).` },
+        { type: "saisie", question: "Une entreprise a une valeur ajoutée de 800 000 €. Elle verse 500 000 € de rémunération des salariés (salaires et cotisations sociales), paie 40 000 € d'impôts sur la production et reçoit 10 000 € de subventions d'exploitation. Quel est son excédent brut d'exploitation (EBE, en euros) ?", reponses: ["270000", "270 000", "270 000 €", "270000 €", "270 000 euros"],
+          explication: "EBE = VA − rémunération des salariés − impôts sur la production + subventions d'exploitation = 800 000 − 500 000 − 40 000 + 10 000 = **270 000 €**. Les subventions s'**ajoutent** : les retrancher donnerait 250 000 €, à tort. L'EBE sert ensuite à payer les intérêts, l'impôt sur les bénéfices et les dividendes ; le reste permet l'autofinancement." },
+        { type: "saisie", question: "Un ménage dispose d'un revenu disponible de 2 500 € par mois et consomme 2 100 € par mois. Quel est son taux d'épargne (en %) ?", reponses: ["16", "16 %", "16%"],
+          explication: "Épargne = revenu disponible − consommation = 2 500 − 2 100 = 400 €. Taux d'épargne = épargne / revenu disponible × 100 = 400 / 2 500 × 100 = **16 %**. On divise par le **revenu disponible**, pas par la consommation (400 / 2 100 ≈ 19 % serait faux)." },
+        { type: "redaction", question: `**Étude d'un document (EC2)**
+
+**Document – Taux d'épargne des ménages en France, en % du revenu disponible brut**
+
+| 2015 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|---|---|
+| 14,0 | 14,6 | 20,4 | 19,1 | 16,9 | 17,0 | 18,5 | 17,9 |
+
+Source : Insee, comptes nationaux annuels (base 2020), « Données diverses sur les ménages en 2025 », 29 mai 2026.
+
+1) Comparez, à l'aide d'un calcul, le taux d'épargne des ménages en 2019 et en 2020, et rédigez une phrase de lecture de la donnée de 2020.
+2) À l'aide du document et de vos connaissances, expliquez pourquoi les ménages dégagent en général une capacité de financement et comment leur épargne contribue au financement des autres agents économiques.`, corrige: `**1) Lecture et calcul**
+- Écart : 20,4 − 14,6 = **+5,8 points** de pourcentage entre 2019 et 2020 (soit une hausse relative d'environ 40 % : (20,4 − 14,6) / 14,6 × 100 ≈ 39,7 %).
+- *Phrase* : « Selon l'Insee, en 2020, en France, les ménages ont épargné 20,4 % de leur revenu disponible brut : sur 100 € de revenu disponible, ils en ont épargné en moyenne 20,4. »
+- *Remarque* : cette hausse s'explique surtout par les confinements liés à la crise sanitaire (épargne « forcée » : commerces fermés, voyages impossibles) et par l'épargne de **précaution** face à l'incertitude ; le taux redescend ensuite (16,9 % en 2022) sans revenir à son niveau d'avant la crise.
+
+**2) L'épargne des ménages et le financement de l'économie**
+- *Définitions* : le **revenu disponible** se partage entre consommation et **épargne** ; un agent a une **capacité de financement** quand son épargne dépasse ses dépenses d'investissement.
+- *Pourquoi une capacité de financement ?* Les ménages épargnent une part importante de leur revenu (entre 14 % et 20,4 % sur la période du document) pour se protéger des aléas, préparer leur retraite ou un projet. Leur investissement (surtout l'achat de logements neufs et les travaux) est en général inférieur à cette épargne : globalement, ils dégagent une capacité de financement. Les **entreprises**, qui investissent en général plus qu'elles n'épargnent, et les **administrations publiques**, en déficit en France depuis 1975, ont au contraire le plus souvent un besoin de financement.
+- *Le financement indirect* : les ménages placent leur épargne auprès des banques et des assurances (livrets, assurance-vie) ; ces intermédiaires financiers la prêtent ou la placent, notamment auprès des entreprises et de l'État.
+- *Le financement direct* : en achetant des **actions** (titres de propriété) ou des **obligations** (titres de créance, dont les obligations d'État) sur les marchés financiers, les ménages financent directement entreprises et administrations, en échange de dividendes ou d'intérêts.
+- *Nuance* : un taux d'épargne élevé n'est pas toujours favorable : il traduit aussi une consommation plus faible, donc moins de débouchés pour les entreprises ; et l'épargne thésaurisée (billets conservés) ou placée sur des supports très liquides finance moins l'investissement productif qu'une épargne placée à long terme (actions, assurance-vie).
+
+>! **Barème indicatif (5,5 points ; la note de service du 11 septembre 2026 ne fixe pas la répartition entre les deux questions)** : Q1 (2 points) : écart en **points** de pourcentage juste, phrase avec source, lieu, date et unité (« % du revenu disponible brut »). Q2 (3,5 points) : définitions (épargne, capacité de financement), raison de la capacité des ménages appuyée sur le document, financement indirect et direct, au moins une nuance. **Erreur fréquente** : écrire que l'épargne a augmenté « de 5,8 % ».` },
       ],
     },
     {
@@ -644,6 +747,30 @@ La croissance sur un an des crédits accordés par les banques aux entreprises d
 - Réserves obligatoires, rachats de titres (*quantitative easing*), rôle de prêteur en dernier ressort.
 
 **Conclusion** : la banque centrale ne crée pas elle-même l'essentiel de la monnaie, mais elle oriente la création monétaire des banques en agissant sur le coût et la disponibilité de la monnaie centrale.` },
+        { type: "redaction", question: `**Étude d'un document (EC2)**
+
+**Document – Taux directeur de la BCE et inflation dans la zone euro**
+
+| | 2021 | 2022 | 2023 | 2024 |
+|---|---|---|---|---|
+| Taux de la facilité de dépôt de la BCE au 31 décembre (en %) | −0,50 | 2,00 | 4,00 | 3,00 |
+| Inflation : hausse moyenne des prix à la consommation sur l'année (indice des prix à la consommation harmonisé, en %) | 2,6 | 8,4 | 5,4 | 2,4 |
+
+Sources : Banque centrale européenne (taux directeurs) ; Eurostat (inflation).
+
+1) Calculez la variation du taux de la facilité de dépôt entre fin 2021 et fin 2023, et rédigez une phrase de lecture de la donnée d'inflation de 2022.
+2) À l'aide du document et de vos connaissances, expliquez pourquoi et comment la BCE a modifié ses taux directeurs entre 2021 et 2024.`, corrige: `**1) Lecture et calcul**
+- Variation : 4,00 − (−0,50) = **+4,5 points** de pourcentage entre fin 2021 et fin 2023.
+- *Phrase* : « Selon Eurostat, en 2022, dans la zone euro, les prix à la consommation ont augmenté en moyenne de 8,4 % par rapport à 2021. »
+
+**2) Pourquoi et comment la BCE a modifié ses taux**
+- *L'objectif* : la BCE, indépendante, a pour mission principale la **stabilité des prix** : une inflation de **2 %** à moyen terme (objectif symétrique depuis 2021). En 2022, l'inflation atteint 8,4 %, plus de quatre fois cet objectif (forte hausse des prix de l'énergie, sortie de la crise sanitaire).
+- *L'instrument* : les **taux directeurs**, dont le taux de la facilité de dépôt (taux auquel la BCE rémunère les dépôts des banques). Ils pilotent le taux d'intérêt à court terme sur le marché monétaire, c'est-à-dire le coût de la **monnaie centrale** dont les banques ont besoin.
+- *Une politique restrictive (2022-2023)* : la BCE relève le taux de 4,5 points. Les banques se refinancent plus cher et augmentent les taux de leurs crédits ; les ménages et les entreprises empruntent moins, donc les banques **créent moins de monnaie** (« les crédits font les dépôts »). La demande de consommation et d'investissement ralentit, ce qui freine la hausse des prix : l'inflation revient à 5,4 % en 2023 puis 2,4 % en 2024.
+- *Un assouplissement (2024)* : l'inflation se rapprochant de 2 %, la BCE abaisse son taux à 3 % fin 2024 pour ne pas freiner inutilement le crédit et l'activité.
+- *Nuances* : les effets de la politique monétaire sont **décalés dans le temps** (en 2022, l'inflation monte malgré la hausse des taux) ; la baisse de l'inflation s'explique aussi par le recul des prix de l'énergie : corrélation n'est pas causalité.
+
+>! **Barème indicatif (5,5 points ; la note de service du 11 septembre 2026 ne fixe pas la répartition entre les deux questions)** : Q1 (2 points) : variation de +4,5 **points** (attention au signe de −0,50), phrase avec source, lieu, date et unité. Q2 (3,5 points) : objectif de stabilité des prix (2 %) relié aux chiffres d'inflation, mécanisme de transmission (refinancement, taux des crédits, création monétaire, demande, prix), baisse de 2024 expliquée, au moins une nuance. **Erreur fréquente** : calculer 4,00 − 0,50 = 3,5 points.` },
       ],
     },
     {
@@ -843,7 +970,7 @@ Un **groupe social** est un ensemble d'individus ayant des **interactions**, une
 La nomenclature des **PCS** de l'Insee (rénovée en 2020) classe la population selon la **profession**. Pour les actifs, elle combine plusieurs **critères** :
 - le **statut** : indépendant (à son compte) ou salarié ;
 - le **niveau de qualification** et la **position hiérarchique** (ouvrier non qualifié, technicien, cadre…) ;
-- la **taille de l'entreprise** pour les indépendants (un chef d'entreprise de 10 salariés ou plus n'est pas classé comme un artisan) ;
+- la **taille de l'entreprise** pour les indépendants (dans la PCS 2020, le dirigeant d'une entreprise de plus de 10 personnes est classé chef d'entreprise, et non artisan ou commerçant) ;
 - le **secteur d'activité** et la nature de l'employeur (public ou privé).
 
 Six groupes d'actifs : agriculteurs exploitants ; artisans, commerçants et chefs d'entreprise ; cadres et professions intellectuelles supérieures ; professions intermédiaires ; employés ; ouvriers. Les retraités et les autres inactifs sont classés à part. Certaines catégories correspondent à de vrais groupes sociaux (les ouvriers, les agriculteurs), d'autres restent surtout des catégories statistiques (les professions intermédiaires).
@@ -937,6 +1064,10 @@ Serge Paugam décrit un processus en trois étapes : la **fragilité** (perte d'
 - *Nuance* : la famille, les amis ou des associations de chômeurs peuvent amortir ces effets ; tous les chômeurs ne sont pas isolés (82 % ne le sont pas, d'après le document 1).
 
 **Conclusion** : le travail étant un pilier de l'intégration, le chômage, surtout de longue durée, peut entraîner un affaiblissement cumulatif des liens sociaux ; d'où l'importance des politiques d'emploi et d'accompagnement.` },
+        { type: "qcm", question: "Quel classement dans les groupes de PCS de l'Insee est correct pour ces quatre personnes : une infirmière salariée d'un hôpital, un professeur certifié de lycée, une caissière de supermarché, un chauffeur-livreur salarié ?", choix: ["Infirmière : employés ; professeur : professions intermédiaires ; caissière : employés ; chauffeur-livreur : employés", "Infirmière : cadres et professions intellectuelles supérieures ; professeur : cadres et professions intellectuelles supérieures ; caissière : ouvriers ; chauffeur-livreur : artisans, commerçants et chefs d'entreprise", "Infirmière : professions intermédiaires ; professeur : professions intermédiaires ; caissière : employés ; chauffeur-livreur : employés", "Infirmière : professions intermédiaires ; professeur : cadres et professions intellectuelles supérieures ; caissière : employés ; chauffeur-livreur : ouvriers"], reponse: 3,
+          explication: "Les **infirmiers** sont classés dans les **professions intermédiaires** (professions de la santé et du travail social). Les **professeurs de lycée** (certifiés, agrégés) font partie des **cadres et professions intellectuelles supérieures**, alors que les **professeurs des écoles** sont en professions intermédiaires. La **caissière** est une **employée** (employés de commerce). Le **chauffeur-livreur salarié** est un **ouvrier** (catégorie des conducteurs et chauffeurs-livreurs). Dans la PCS 2020, même un livreur à son compte (par exemple pour une plateforme) reste classé dans cette catégorie d'ouvriers." },
+        { type: "saisie", question: "Groupes de PCS : 1 = agriculteurs exploitants ; 2 = artisans, commerçants et chefs d'entreprise ; 3 = cadres et professions intellectuelles supérieures ; 4 = professions intermédiaires ; 5 = employés ; 6 = ouvriers. Code dans l'ordre ces cinq professions par le numéro de leur groupe, en écrivant les cinq chiffres à la suite (par exemple 12345) : un maçon qualifié salarié d'une entreprise du bâtiment ; une professeure des écoles ; un boulanger à son compte employant 3 salariés ; une aide-soignante dans un Ehpad ; un ingénieur informaticien salarié.", reponses: ["64253", "6-4-2-5-3", "6, 4, 2, 5, 3", "6,4,2,5,3", "6 ; 4 ; 2 ; 5 ; 3", "6/4/2/5/3"],
+          explication: "**6-4-2-5-3**. Le maçon salarié est **ouvrier** (qualifié) ; la professeure des écoles relève des **professions intermédiaires** ; le boulanger indépendant dont l'entreprise compte au plus 10 personnes est un **artisan** (groupe 2 : au-delà de 10 personnes, il serait chef d'entreprise, dans le même groupe) ; l'aide-soignante est **employée** (et non profession intermédiaire comme l'infirmière, plus qualifiée) ; l'ingénieur est **cadre**. Le classement combine statut (indépendant ou salarié), qualification, position hiérarchique et taille de l'entreprise." },
       ],
     },
     {
@@ -1353,6 +1484,8 @@ Présidentielle 2022 : 26,3 % ; européennes 2024 : 48,5 %.`, corrige: `**Introd
 - *Ouverture* : la montée de l'abstention pose la question de la représentativité des élus.
 
 >! **Barème implicite (sur 20, dont 2 de maîtrise de la langue)** : sujet à deux termes traité dans ses deux dimensions ; problématique ; auteurs et notions (Lazarsfeld, variable lourde, électeur rationnel, volatilité) ; documents exploités avec calculs d'écarts en points ; transitions ; conclusion qui articule les deux dimensions.` },
+        { type: "saisie", question: "Dans un pays, 52 millions de personnes remplissent les conditions pour voter (âge, nationalité) et 49,4 millions sont inscrites sur les listes électorales (données fictives arrondies). Quel est le taux d'inscription (en %) ?", reponses: ["95", "95 %", "95%"],
+          explication: "Taux d'inscription = inscrits / personnes en droit de voter × 100 = 49,4 / 52 × 100 = **95 %**. Les 5 % restants (2,6 millions de personnes) sont non inscrits : ils ne sont pas comptés parmi les abstentionnistes, puisque l'abstention se calcule en % des **inscrits**." },
       ],
     },
     {
@@ -1467,6 +1600,21 @@ Chaque année sans accident responsable, le coefficient appliqué à la prime de
 - *Une solidarité plus large que l'assurance privée* : la protection sociale ne tarifie pas selon le risque individuel ; elle organise une solidarité entre bien-portants et malades, actifs et retraités, et réduit les inégalités.
 
 **Conclusion** : assurance et protection sociale permettent de faire face aux risques en les mutualisant ; la protection sociale va plus loin en couvrant aussi ceux que le marché de l'assurance exclurait.` },
+        { type: "qcm", question: "Un épargnant répartit son épargne entre un livret, des actions de plusieurs entreprises de secteurs différents et un appartement mis en location. Il applique le principe de :", choix: ["mutualisation", "prévention", "diversification", "aléa moral"], reponse: 2,
+          explication: "La **diversification** consiste à ne pas dépendre d'un seul placement ou d'une seule source de revenu : si l'un perd de la valeur, les autres limitent la perte (« ne pas mettre tous ses œufs dans le même panier »). La mutualisation répartit le coût des sinistres entre de nombreux assurés ; la prévention réduit la probabilité ou la gravité du risque ; l'aléa moral est un effet pervers de l'assurance." },
+        { type: "redaction", question: "**Mobilisation des connaissances (EC1)** : Montrez que le partage des risques a des effets positifs et négatifs.", corrige: `**Définition** : partager les risques, c'est répartir sur un grand nombre d'agents le coût des dommages subis par quelques-uns, par la **mutualisation** (assurances, mutuelles, protection sociale) ou par la **diversification**.
+
+**Idée 1 – Des effets positifs.**
+- *Le bien-être et la sécurité* : grâce à la loi des grands nombres, chacun paie une prime certaine et modeste au lieu de supporter seul un dommage coûteux (incendie, maladie grave). Les agents, souvent averses au risque, sont plus sereins.
+- *La prise de risque et l'innovation* : un entrepreneur assuré ose davantage investir et innover ; un agriculteur assuré contre la grêle peut se lancer dans une culture plus rentable.
+- *La solidarité* : la protection sociale protège aussi ceux qui ne pourraient pas s'assurer seuls (malades chroniques, chômeurs) et réduit les inégalités.
+
+**Idée 2 – Des effets négatifs.**
+- *L'aléa moral* : protégé, l'assuré peut devenir moins prudent (conducteur bien assuré moins attentif), ce qui augmente le nombre de sinistres et le coût pour tous. Réponses : franchise, bonus-malus.
+- *La sélection adverse* : si la prime est la même pour tous, les plus exposés s'assurent davantage, les « bons risques » partent et le système peut se fragiliser.
+- *Un coût* : primes, cotisations, frais de gestion ; pour la protection sociale, un financement de plus en plus lourd (vieillissement).
+
+**Conclusion** : le partage des risques accroît le bien-être et favorise l'initiative, mais il modifie les comportements ; d'où des mécanismes qui laissent une part du risque à l'assuré.` },
       ],
     },
     {
@@ -1585,6 +1733,10 @@ Le PDG d'une grande société cotée perçoit un salaire fixe de 1 million d'eur
 - Représentation des salariés (CSE, administrateurs salariés dans les grandes entreprises), négociation collective, responsabilité sociale des entreprises (RSE).
 
 **Conclusion** : la gouvernance arbitre entre les intérêts des actionnaires, des dirigeants et des autres parties prenantes ; le débat porte sur la place à donner à chacun.` },
+        { type: "qcm", question: "Léa, graphiste, quitte son emploi salarié et se met à son compte, seule, sous un régime simplifié de l'entreprise individuelle réservé aux petits chiffres d'affaires. Quelle figure de l'entrepreneur et quelle étape du cycle de vie de l'entreprise cela illustre-t-il ?", choix: ["Un chef d'entreprise dirigeant une société anonyme, en phase de croissance externe", "Une micro-entrepreneuse, lors de la création de l'entreprise", "Une manager salariée, lors d'un changement de statut juridique", "Une actionnaire, lors de la disparition de l'entreprise"], reponse: 1,
+          explication: "Le **micro-entrepreneur** exerce sous le régime simplifié de l'entrepreneur individuel, réservé aux petits chiffres d'affaires ; Léa en est au stade de la **création** ; ce régime représente la majorité des créations d'entreprise en France (Insee). Si son activité se développe, elle pourra embaucher (croissance) et transformer son entreprise en société, par exemple une SARL ou une SAS (changement de statut juridique)." },
+        { type: "vf", question: "Dans une chaîne de magasins très **centralisée**, ce sont les directeurs de chaque magasin qui fixent eux-mêmes leurs prix, leurs horaires et leurs produits.", reponse: false,
+          explication: "C'est la description d'une organisation **décentralisée** (décisions déléguées aux établissements, ce qui favorise la réactivité et l'adaptation au terrain). Dans une organisation **centralisée**, ces décisions sont prises au sommet, par la direction générale, ce qui assure la cohérence de la stratégie et une image uniforme de l'enseigne." },
       ],
     },
     {
@@ -1752,7 +1904,7 @@ Tu dois **utiliser les documents** (citer des données précises) **et** tes **c
 
 Les trois parties portent sur trois questions différentes du programme et sur au moins deux champs (science économique ; sociologie et science politique ; regards croisés).
 
->! **Pour t'entraîner** : chaque chapitre du programme comporte un sujet d'EC3 avec son dossier documentaire ; des EC2 chiffrées figurent dans les chapitres « socialisation », « déviance » et « vote », et trois dissertations sont corrigées (chapitres « défaillances du marché », « socialisation » et « vote »). Dans ces sujets, les données marquées « fictives » servent seulement à l'entraînement.
+>! **Pour t'entraîner** : chaque chapitre du programme comporte un sujet d'EC3 avec son dossier documentaire ; des EC2 chiffrées figurent dans les chapitres « marché concurrentiel », « concurrence imparfaite », « défaillances du marché », « financement », « monnaie », « socialisation », « déviance » et « vote », et trois dissertations sont corrigées (chapitres « défaillances du marché », « socialisation » et « vote »). Dans ces sujets, les données marquées « fictives » servent seulement à l'entraînement.
 
 ## La dissertation
 Un sujet sous forme de question et un dossier de **3 ou 4 documents** factuels (surtout statistiques). Elle se note sur 20 (dont 2 points de maîtrise de la langue). Tu dois mobiliser les documents **et** tes connaissances ; elle demande une vraie problématique et un plan en parties.

@@ -2173,5 +2173,214 @@ Vérification : 4 × 6,5 = 26. **Le côté mesure 6,5 cm.**`,
         },
       ],
     },
+
+    // ───────────────────────── 18. Représenter l'espace
+    {
+      id: "representer-espace",
+      titre: "Représenter l'espace : perspective, patrons et vues",
+      theme: "Espace et géométrie",
+      cours: `
+## Pourquoi représenter l'espace ?
+Un solide (pavé, cube, prisme, cylindre) a trois dimensions, mais une feuille n'en a que deux. Pour le représenter, on utilise :
+- la **perspective cavalière** : un dessin qui « donne l'impression » du relief ;
+- le **patron** : la surface du solide dépliée à plat, que l'on peut découper puis plier ;
+- les **vues** (de face, de dessus…) : ce que l'on voit en regardant le solide depuis une direction.
+
+## La perspective cavalière
+On regarde le solide bien en face. Règles à respecter :
+1. La **face avant** (et la face arrière qui lui est parallèle) est dessinée **en vraie grandeur** : un carré reste un carré, un rectangle reste un rectangle de mêmes dimensions.
+2. Les arêtes qui partent « vers le fond » s'appellent les **fuyantes**. Elles sont toutes **parallèles** entre elles, tracées avec le même angle (souvent 30° ou 45° par rapport à l'horizontale) et leurs longueurs sont **réduites** par un même coefficient (souvent 0,5).
+3. Des arêtes **parallèles** dans la réalité restent **parallèles** sur le dessin ; des arêtes parallèles de même longueur ont la même longueur sur le dessin.
+4. Les arêtes **visibles** sont en traits pleins, les arêtes **cachées** en **pointillés**.
+
+Conséquence : sur le dessin, les faces du dessus et des côtés deviennent des **parallélogrammes**, et les angles droits de ces faces ne sont plus droits sur la figure (même s'ils le sont sur le vrai solide).
+
+>! **Exemple : le cube ABCDEFGH** (face avant ABFE, face du fond DCGH)
+>! ~~~
+>!       H--------G
+>!      /:       /|
+>!     / :      / |
+>!    E--------F  |
+>!    |  D.....|..C
+>!    | .      | /
+>!    |.       |/
+>!    A--------B
+>! ~~~
+>! La face avant ABFE est un vrai carré. Les fuyantes AD, BC, FG et EH sont parallèles et plus courtes. Les trois arêtes qui partent du sommet D (DA, DC et DH) sont cachées : elles sont en pointillés.
+
+### Méthode pour tracer un pavé droit
+Pavé de 6 cm de large, 4 cm de haut et 5 cm de profondeur, fuyantes à 45° réduites de moitié :
+1. Trace la face avant : un rectangle de 6 cm sur 4 cm, en vraie grandeur.
+2. Depuis trois sommets visibles, trace trois fuyantes parallèles à 45°, de longueur 5 × 0,5 = **2,5 cm**.
+3. Relie leurs extrémités pour obtenir la face arrière (un rectangle de 6 cm sur 4 cm, décalé).
+4. Le quatrième sommet arrière (en bas, au fond) est caché : les trois arêtes qui y arrivent sont en pointillés.
+
+Le **cube** se trace de la même façon : c'est un pavé dont toutes les arêtes ont la même longueur (sur le dessin, seules les fuyantes sont plus courtes).
+
+### Le prisme droit
+Pour un prisme droit à base triangulaire posé « de face » : dessine la base avant (le triangle) **en vraie grandeur**, puis trace depuis chacun de ses trois sommets une fuyante (parallèles, même longueur réduite) ; relie les trois extrémités pour obtenir l'autre base, superposable à la première. Les arêtes latérales sont les fuyantes ; une arête de la base arrière est cachée en général : pointillés.
+
+### Le cylindre
+Les deux bases (des disques) se dessinent comme des **ellipses** (des « ovales ») ; on les relie par deux segments verticaux tangents aux ellipses (les bords du cylindre). La moitié arrière de l'ellipse du bas est cachée : on la dessine en pointillés.
+>! ~~~
+>!     _________
+>!    /         \\
+>!   (           )
+>!   |\\_________/|
+>!   |           |
+>!   |           |
+>!   |           |
+>!   (. . . . . .)
+>!    \\_________/
+>! ~~~
+>! En haut, la base du dessus : ellipse entière en trait plein. Sur les côtés, les deux bords verticaux. En bas, la moitié arrière de l'ellipse est cachée (pointillés) et la moitié avant est en trait plein.
+
+## Les patrons
+Un **patron** d'un solide est une figure plane, d'un seul morceau, qui permet de fabriquer le solide par pliage, **sans superposition** de faces.
+
+| Solide | Le patron contient |
+|---|---|
+| Cube | 6 carrés identiques |
+| Pavé droit | 6 rectangles, identiques deux à deux |
+| Prisme droit à base triangulaire | 2 triangles superposables et 3 rectangles |
+| Cylindre | 2 disques de même rayon r et 1 rectangle de longueur 2πr (le périmètre du disque) et de largeur la hauteur |
+
+>! **Un patron du cube « en croix »**
+>! ~~~
+>!     +---+
+>!     | 1 |
+>! +---+---+---+---+
+>! | 2 | 3 | 4 | 5 |
+>! +---+---+---+---+
+>!     | 6 |
+>!     +---+
+>! ~~~
+>! Une fois plié : 1 et 6 sont des faces **opposées**, de même que 2 et 4, et 3 et 5.
+
+**Règle utile** : dans une rangée de carrés d'un patron de cube, deux faces séparées par **une** face sont opposées. Deux faces qui ont un côté commun sur le patron sont toujours **voisines** (jamais opposées).
+
+### Correspondance entre le patron et le solide
+Quand on plie le patron, certains **côtés** se recollent pour former une même **arête**, et plusieurs **sommets** du patron se rejoignent en un même sommet du solide.
+- Deux côtés qui se recollent ont **la même longueur** : c'est ce qui permet de vérifier ou de compléter un patron.
+- Sur le patron en croix ci-dessus, le côté gauche du carré 1 se recolle avec le côté du haut du carré 2.
+- Le patron en croix a 14 sommets, alors que le cube n'en a que 8 : au pliage, plusieurs sommets du patron se rejoignent en un seul sommet du cube.
+
+Pour un pavé de dimensions 4 cm, 3 cm et 2 cm, le patron contient deux rectangles 4 × 3, deux rectangles 4 × 2 et deux rectangles 3 × 2. Pour un cylindre de rayon 2 cm et de hauteur 5 cm, le rectangle mesure 2π × 2 = 4π ≈ 12,6 cm sur 5 cm.
+
+## Empilements de cubes : vues et dénombrement
+On décrit un empilement de petits cubes identiques par un **plan des hauteurs** : on dessine la vue de dessus en quadrillage et on écrit dans chaque case **le nombre de cubes empilés** sur cette case. Sous chaque cube, il y a forcément un autre cube ou le sol (un cube ne flotte pas).
+
+>! **Exemple** (la ligne du bas est l'avant, face à toi)
+>! ~~~
+>!          gauche    droite
+>!  fond    | 1 | 2 | 1 |
+>!  milieu  | 3 | 2 | 1 |
+>!  avant   | 2 | 1 | 1 |
+>! ~~~
+>! - **Nombre de cubes** : on additionne toutes les cases : 1 + 2 + 1 + 3 + 2 + 1 + 2 + 1 + 1 = **14 cubes** (y compris ceux que l'on ne voit pas, cachés derrière ou dessous).
+>! - **Vue de dessus** : on voit un carré de 3 × 3 cases (toutes les cases portent au moins un cube).
+>! - **Vue de face** : pour chaque colonne, on garde la **plus grande** hauteur : colonne de gauche max(1 ; 3 ; 2) = 3, colonne du milieu max(2 ; 2 ; 1) = 2, colonne de droite max(1 ; 1 ; 1) = 1.
+>! ~~~
+>! +---+
+>! |   |
+>! +---+---+
+>! |   |   |
+>! +---+---+---+
+>! |   |   |   |
+>! +---+---+---+
+>! ~~~
+>! - Pour compléter cet empilement en un grand cube de 3 × 3 × 3 = 27 petits cubes, il faut ajouter 27 − 14 = **13 cubes**.
+
+**Attention** : la vue de face ne permet pas de compter les cubes, car les cubes situés derrière sont cachés. Deux empilements différents peuvent avoir la même vue de face et la même vue de dessus.
+
+## Erreurs fréquentes
+- Dessiner toutes les faces du cube en carrés : seules la face avant et la face arrière sont des carrés en perspective cavalière.
+- Oublier de réduire les fuyantes, ou les tracer avec des angles différents.
+- Oublier les pointillés pour les arêtes cachées.
+- Croire qu'un assemblage de 6 carrés est toujours un patron du cube (une rangée de 6 carrés n'en est pas un, ni une rangée de 5 carrés avec un carré accroché).
+- Pour le cylindre, prendre le rayon (ou le diamètre) comme longueur du rectangle au lieu du périmètre 2πr.
+- Compter seulement les cubes visibles sur une vue : il faut le plan des hauteurs.
+
+> **À retenir**
+> - Perspective cavalière : face avant en vraie grandeur ; fuyantes parallèles, même angle, longueurs réduites ; arêtes cachées en pointillés.
+> - Patron : figure d'un seul tenant qui se plie en solide sans recouvrement ; les côtés qui se recollent ont la même longueur.
+> - Patron du cylindre : 2 disques et un rectangle de longueur 2πr.
+> - Plan des hauteurs : nombre de cubes = somme des nombres inscrits ; vue de face = plus grande hauteur de chaque colonne.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "En perspective cavalière, comment représente-t-on les arêtes cachées d'un solide ?",
+          choix: ["On ne les dessine pas", "En pointillés", "En traits pleins plus épais", "En couleur rouge"],
+          reponse: 1,
+          explication: "Les arêtes cachées sont dessinées en pointillés : on les voit sur le dessin, mais on comprend qu'elles sont derrière. Si on ne les dessinait pas, on perdrait de l'information sur la forme du solide.",
+        },
+        {
+          type: "vf",
+          question: "En perspective cavalière, les six faces d'un cube sont toutes dessinées comme des carrés.",
+          reponse: false,
+          explication: "Faux : seules la face avant et la face arrière sont dessinées en vraie grandeur (des carrés). Les quatre autres faces deviennent des parallélogrammes, car les fuyantes sont inclinées et réduites.",
+        },
+        {
+          type: "saisie",
+          question: "On dessine en perspective cavalière un pavé droit de 5 cm de profondeur. Les fuyantes sont réduites par le coefficient 0,5. Quelle est la longueur (en cm) d'une fuyante sur le dessin ?",
+          reponses: ["2,5", "2,5 cm"],
+          explication: "Longueur dessinée = longueur réelle × coefficient = 5 × 0,5 = 2,5 cm. Les dimensions de la face avant, elles, ne sont pas réduites.",
+        },
+        {
+          type: "qcm",
+          question: "Voici un patron de cube.\n\n~~~\n+---+\n| A |\n+---+---+---+---+\n| B | C | D | E |\n+---+---+---+---+\n            | F |\n            +---+\n~~~\n\nUne fois le cube plié, quelle face est opposée à la face C ?",
+          choix: ["B", "D", "E", "F"],
+          reponse: 2,
+          explication: "Dans la rangée B, C, D, E, deux faces séparées par une seule face sont opposées : C et E (séparées par D), ainsi que B et D. Les faces A et F sont accrochées aux deux bouts : elles sont opposées entre elles. B et D ont un côté commun avec C : ce sont des faces voisines de C, pas opposées.",
+        },
+        {
+          type: "saisie",
+          question: "On construit le patron d'un cylindre de rayon 3 cm et de hauteur 10 cm. Quelle est la longueur du rectangle, arrondie au dixième de cm ?",
+          reponses: ["18,8", "18,8 cm", "6π", "6 π"],
+          explication: "La longueur du rectangle est le périmètre du disque de base : 2 × π × 3 = 6π ≈ 18,85, soit environ 18,8 cm. Sa largeur est la hauteur, 10 cm. (3 × 2 = 6 cm serait le diamètre, pas le périmètre.)",
+        },
+        {
+          type: "saisie",
+          question: "Un empilement de cubes est décrit par son plan des hauteurs (nombre de cubes sur chaque case, la ligne du bas est l'avant) :\n\n~~~\nfond    | 2 | 0 | 1 |\navant   | 3 | 1 | 2 |\n~~~\n\nCombien de cubes compte cet empilement ?",
+          reponses: ["9", "9 cubes"],
+          explication: "On additionne les nombres de toutes les cases : 2 + 0 + 1 + 3 + 1 + 2 = 9 cubes. Les cubes cachés (derrière ou dessous) comptent aussi.",
+        },
+        {
+          type: "qcm",
+          question: "On reprend l'empilement :\n\n~~~\nfond    | 2 | 0 | 1 |\navant   | 3 | 1 | 2 |\n~~~\n\nSur la vue de face, quelles hauteurs voit-on, de la colonne de gauche à la colonne de droite ?",
+          choix: ["3, 1, 2", "5, 1, 3", "2, 0, 1", "3, 0, 2"],
+          reponse: 0,
+          explication: "Vue de face : pour chaque colonne, on garde la plus grande hauteur. Gauche : max(2 ; 3) = 3. Milieu : max(0 ; 1) = 1. Droite : max(1 ; 2) = 2. Additionner les hauteurs (5, 1, 3) est une erreur : les cubes de derrière sont cachés par ceux de devant.",
+        },
+        {
+          type: "redaction",
+          question: "Un empilement de cubes d'arête 2 cm est décrit par son plan des hauteurs (la ligne du bas est l'avant) :\n\n~~~\nfond    | 1 | 1 | 0 |\nmilieu  | 2 | 1 | 1 |\navant   | 3 | 2 | 1 |\n~~~\n\n1) Combien de cubes compte cet empilement ?\n2) Décris (ou dessine en quadrillage) sa vue de dessus et sa vue de face.\n3) Combien de cubes faut-il ajouter pour obtenir un grand cube de 3 cubes sur 3 cubes sur 3 cubes ?\n4) Calcule le volume de l'empilement en cm³.",
+          corrige: `1) On additionne les nombres de toutes les cases :
+1 + 1 + 0 + 2 + 1 + 1 + 3 + 2 + 1 = **12 cubes**.
+
+2) **Vue de dessus** : on voit les cases occupées, c'est-à-dire le carré de 3 × 3 cases **sauf la case du fond à droite** (elle porte 0 cube) : 8 carrés.
+~~~
+fond    | X | X |   |
+milieu  | X | X | X |
+avant   | X | X | X |
+~~~
+**Vue de face** : dans chaque colonne, on garde la plus grande hauteur. Gauche : max(1 ; 2 ; 3) = **3** ; milieu : max(1 ; 1 ; 2) = **2** ; droite : max(0 ; 1 ; 1) = **1**. On voit un « escalier » de 3, 2 et 1 carrés :
+~~~
++---+
+|   |
++---+---+
+|   |   |
++---+---+---+
+|   |   |   |
++---+---+---+
+~~~
+
+3) Le grand cube contient 3 × 3 × 3 = 27 petits cubes. Il faut en ajouter 27 − 12 = **15**.
+
+4) Volume d'un petit cube : 2 × 2 × 2 = 8 cm³. Volume de l'empilement : 12 × 8 = **96 cm³**.`,
+        },
+      ],
+    },
   ],
 };

@@ -905,5 +905,121 @@ Protections : bouchons d'oreille, s'éloigner des enceintes (doubler la distance
 Les **sons purs** servent de **témoin** : comme il n'y a pas de différence pour eux, on peut écarter l'idée que les pianistes auraient simplement, dès la naissance, un cortex auditif plus grand. Le document établit toutefois une corrélation ; le lien avec l'âge de début de l'apprentissage renforce l'idée que c'est bien la pratique qui modifie le cerveau.` },
       ],
     },
+    {
+      id: "la-lune",
+      titre: "La Lune : mouvements, phases et face cachée",
+      theme: "La Terre, un astre singulier",
+      cours: `
+## Décrire un mouvement : le choix du référentiel
+Le mouvement d'un astre se décrit toujours **par rapport à un référentiel**.
+- Le **référentiel héliocentrique** a pour origine le centre du **Soleil** et des axes pointant vers des étoiles lointaines.
+- Le **référentiel géocentrique** a pour origine le centre de la **Terre** et des axes pointant vers des étoiles lointaines (il ne tourne pas avec la Terre).
+
+**Dans le référentiel héliocentrique**, la Terre décrit une trajectoire **quasi circulaire** (une ellipse très peu aplatie) autour du Soleil :
+- rayon moyen ≈ **150 millions de km** (1 unité astronomique) ;
+- période de révolution ≈ **365,25 jours** ;
+- vitesse ≈ 2π × 1,5 × 10⁸ km / (365,25 × 24 h) ≈ **107 000 km/h**, soit environ 30 km/s.
+
+**Dans le référentiel géocentrique**, la Lune décrit une trajectoire **quasi circulaire** autour de la Terre :
+- rayon moyen ≈ **384 000 km** ;
+- période de révolution (par rapport aux étoiles) ≈ **27,3 jours** ;
+- vitesse ≈ 2π × 384 000 km / (27,3 × 24 h) ≈ **3 700 km/h**, soit environ 1 km/s.
+
+Vus depuis l'espace au-dessus du pôle Nord, la révolution de la Terre autour du Soleil, celle de la Lune autour de la Terre et la rotation de la Terre sur elle-même se font toutes dans le **même sens** : le sens inverse des aiguilles d'une montre. Par rapport aux étoiles, la Lune avance d'environ 13° par jour vers l'est (360° / 27,3 j).
+
+## Pourquoi la Lune a-t-elle des phases ?
+La Lune ne produit pas de lumière : elle **diffuse** la lumière du Soleil. À chaque instant, **une moitié de la Lune est éclairée** : celle qui est tournée vers le Soleil. Depuis la Terre, nous voyons la moitié de la Lune tournée vers nous. La **phase** est la partie éclairée que nous apercevons ; elle dépend de la **position de la Lune par rapport à la Terre et au Soleil**.
+
+>! **Le schéma à savoir faire** : on regarde le système depuis l'espace, au-dessus du pôle Nord. Le Soleil est très loin, par exemple à droite de la feuille : ses rayons arrivent **parallèles**, de la droite. La Terre est au centre d'un cercle (l'orbite de la Lune). On dessine la Lune en 8 positions sur ce cercle, numérotées dans le sens inverse des aiguilles d'une montre, la position 1 étant entre la Terre et le Soleil. Sur chaque Lune, on noircit la moitié **opposée au Soleil** (toujours la moitié gauche ici) : la moitié éclairée regarde toujours le Soleil. Puis, pour chaque position, on se place sur la Terre, on regarde vers la Lune, et on se demande quelle part de la moitié tournée vers nous est éclairée.
+
+## Les 8 phases (vues de l'hémisphère Nord)
+La durée d'un cycle complet de phases (une **lunaison**) est de **29,5 jours** ; chaque position est séparée de la suivante d'environ 29,5 / 8 ≈ 3,7 jours.
+
+| Position | Configuration Soleil–Terre–Lune | Aspect de la Lune | Âge (jours après la nouvelle lune) | Quand la voit-on ? |
+|---|---|---|---|---|
+| 1. Nouvelle lune | Lune entre la Terre et le Soleil, presque alignés | invisible : la face éclairée est tournée vers le Soleil | 0 | elle se lève et se couche avec le Soleil, noyée dans sa lumière |
+| 2. Premier croissant | la Lune a fait 1/8 de tour depuis la nouvelle lune | fin croissant éclairé **à droite** | ≈ 3,7 | le soir, basse à l'ouest, après le coucher du Soleil |
+| 3. Premier quartier | angle droit entre les directions Terre–Soleil et Terre–Lune | **moitié droite** du disque éclairée (forme d'un D) | ≈ 7,4 | l'après-midi et la première moitié de la nuit ; au sud au coucher du Soleil |
+| 4. Gibbeuse croissante | 3/8 de tour | plus de la moitié éclairée, côté droit | ≈ 11,1 | le soir et une grande partie de la nuit |
+| 5. Pleine lune | Terre entre le Soleil et la Lune, presque alignés | disque entièrement éclairé | ≈ 14,8 | **toute la nuit** : elle se lève au coucher du Soleil, culmine vers minuit (heure solaire) |
+| 6. Gibbeuse décroissante | 5/8 de tour | plus de la moitié éclairée, côté gauche | ≈ 18,5 | de la soirée jusqu'au matin |
+| 7. Dernier quartier | de nouveau un angle droit, de l'autre côté | **moitié gauche** du disque éclairée | ≈ 22,1 | la seconde moitié de la nuit et le matin ; au sud au lever du Soleil |
+| 8. Dernier croissant | 7/8 de tour | fin croissant éclairé **à gauche** (forme d'un C) | ≈ 25,8 | le matin, basse à l'est, avant le lever du Soleil |
+
+Le côté éclairé est **toujours tourné vers le Soleil** : le soir, le Soleil est à l'ouest (à droite quand on regarde vers le sud), et la Lune croissante est éclairée à droite.
+
+>! **Moyen mnémotechnique (hémisphère Nord)** : « la Lune est menteuse ». Quand elle dessine un **C**, elle **décroît** ; quand on peut la compléter en **D**, elle **croît**. Dans l'hémisphère Sud, l'aspect est inversé.
+
+>! **Exemple résolu** : un soir, au coucher du Soleil, la Lune est haute au sud, moitié droite éclairée. C'est le **premier quartier** (angle droit). Une semaine plus tard (29,5 / 4 ≈ 7,4 j), la Lune a fait un quart de tour de plus : elle est à l'opposé du Soleil, c'est la **pleine lune**, qui se lève au moment où le Soleil se couche.
+
+### Erreur fréquente : les phases ne sont pas dues à l'ombre de la Terre
+L'ombre de la Terre est toujours du côté **opposé au Soleil**. Elle ne peut atteindre la Lune qu'à la **pleine lune**, quand les trois astres sont alignés : c'est alors une **éclipse de Lune**. Au premier quartier, la Lune est à angle droit, bien loin de cette ombre, et pourtant sa moitié est sombre : c'est simplement sa moitié non éclairée par le Soleil.
+
+Pourquoi n'y a-t-il pas une éclipse à chaque pleine lune (et une éclipse de Soleil à chaque nouvelle lune) ? Parce que l'orbite de la Lune est **inclinée d'environ 5°** sur le plan de l'orbite terrestre : le plus souvent, la Lune passe un peu au-dessus ou au-dessous de l'alignement.
+
+## Rotation synchrone et face cachée
+La Lune **tourne sur elle-même** en **27,3 jours** (par rapport aux étoiles), c'est-à-dire **exactement la durée de sa révolution autour de la Terre**, et dans le même sens : c'est la **rotation synchrone**. Elle présente donc **toujours la même face** à la Terre. Cette synchronisation résulte des effets de marée exercés par la Terre sur la Lune, qui ont progressivement freiné sa rotation propre jusqu'à l'égaler à sa révolution, très tôt dans l'histoire de la Lune.
+
+>! **Pourquoi « même face » prouve qu'elle tourne** : pose un objet (la Lune) et fais-le tourner autour d'un autre (la Terre) en le gardant toujours orienté vers le même mur de la pièce, sans le faire pivoter. Vu du centre, tu verras successivement toutes ses faces. Pour montrer toujours la même face au centre, l'objet doit faire **un tour sur lui-même à chaque tour d'orbite**.
+
+L'autre hémisphère, jamais visible depuis la Terre, est la **face cachée**. Elle n'est **pas « toujours dans l'ombre »** : comme toute la surface de la Lune, elle est éclairée la moitié du temps. À la **nouvelle lune**, la face cachée, tournée vers le Soleil, est même **entièrement éclairée**. En un point de la Lune, le Soleil revient au même endroit du ciel tous les 29,5 jours : environ 15 jours de jour, puis 15 jours de nuit. La face cachée a été photographiée pour la première fois par la sonde soviétique Luna 3 en 1959. Grâce à de petits balancements apparents (la **libration**), on voit depuis la Terre, au fil du temps, environ 59 % de la surface lunaire.
+
+## Deux périodes : sidérale et synodique
+- **Période sidérale** ≈ **27,3 jours** : durée pour que la Lune revienne à la même position **par rapport aux étoiles** (une révolution dans le référentiel géocentrique). C'est aussi sa période de rotation sur elle-même.
+- **Période synodique** ≈ **29,5 jours** : durée pour que la Lune retrouve la **même phase**, c'est-à-dire la même position par rapport à la Terre **et au Soleil** (par exemple d'une pleine lune à la suivante).
+
+Pourquoi la période synodique est-elle plus longue ? Pendant les 27,3 jours d'une révolution, la Terre a avancé sur son orbite autour du Soleil d'environ 27,3 / 365,25 × 360 ≈ **27°**. La direction du Soleil vue de la Terre a donc tourné : la Lune doit parcourir encore environ 27° pour retrouver le même alignement, ce qui lui demande un peu plus de **2 jours** (29,5 − 27,3 ≈ 2,2 j).
+
+>! **Pour aller plus loin** : 1/T(synodique) = 1/T(sidérale) − 1/T(Terre). Avec 27,32 j et 365,25 j : 1/27,32 − 1/365,25 ≈ 0,03386, d'où T(synodique) ≈ **29,53 jours**. Conséquence pratique : la Lune prend chaque jour environ 360° / 29,5 ≈ 12° de retard sur le Soleil ; la Terre, qui tourne de 15° par heure, met près de 50 minutes à « rattraper » ce retard : la Lune se lève donc chaque jour en moyenne environ **50 minutes plus tard**.
+
+> **À retenir** :
+> - Référentiel **héliocentrique** : Terre sur une trajectoire quasi circulaire (≈ 150 millions de km, 365,25 j). Référentiel **géocentrique** : Lune sur une trajectoire quasi circulaire (≈ 384 000 km, 27,3 j).
+> - Une moitié de la Lune est **toujours éclairée** par le Soleil ; la **phase** dépend de la position Soleil–Terre–Lune : nouvelle lune (Lune entre Terre et Soleil), premier quartier (angle droit, moitié droite éclairée, le soir), pleine lune (Terre entre Soleil et Lune, toute la nuit), dernier quartier (moitié gauche, le matin).
+> - Les phases ne sont **pas** dues à l'ombre de la Terre (sinon : éclipse, seulement à la pleine lune).
+> - **Rotation synchrone** : rotation propre = révolution = 27,3 j → toujours la même face vers la Terre. La **face cachée** est éclairée la moitié du temps (entièrement à la nouvelle lune).
+> - Période **sidérale** 27,3 j (par rapport aux étoiles) ; période **synodique** 29,5 j (retour de la même phase), plus longue car la Terre a avancé autour du Soleil.
+`,
+      exercices: [
+        { type: "qcm", question: "Le Soleil, la Lune et la Terre sont presque alignés, **la Lune se trouvant entre le Soleil et la Terre**. Quelle phase un observateur terrestre peut-il noter ?", choix: ["Pleine lune", "Nouvelle lune", "Premier quartier", "Dernier croissant"], reponse: 1,
+          explication: "La moitié éclairée de la Lune est tournée vers le Soleil, donc à l'opposé de la Terre : nous voyons la moitié non éclairée. C'est la **nouvelle lune**, invisible (et noyée dans la lumière du Soleil, qui est dans la même direction). La pleine lune correspond à la configuration inverse (Terre entre Soleil et Lune)." },
+        { type: "qcm", question: "Vu depuis l'espace au-dessus du pôle Nord, la direction Terre–Lune fait un **angle droit** avec la direction Terre–Soleil ; la Lune a parcouru **un quart** de son orbite depuis la nouvelle lune. Qu'observe-t-on depuis la France ?", choix: ["La moitié droite du disque éclairée : c'est le premier quartier", "La moitié gauche du disque éclairée : c'est le dernier quartier", "Le disque entièrement éclairé : c'est la pleine lune", "Un fin croissant éclairé à gauche : c'est le dernier croissant"], reponse: 0,
+          explication: "À angle droit, on voit la moitié de l'hémisphère éclairé : un demi-disque. Un quart d'orbite après la nouvelle lune (≈ 7,4 jours), c'est le **premier quartier** : la Lune est visible le soir, au sud au coucher du Soleil, et son côté éclairé est tourné vers le Soleil couchant, à l'ouest, donc **à droite** (forme d'un D). Le dernier quartier, éclairé à gauche, a lieu trois quarts d'orbite après la nouvelle lune." },
+        { type: "saisie", question: "La **Terre** se trouve entre le Soleil et la Lune, les trois astres étant presque alignés (mais sans éclipse). Comment s'appelle la phase de la Lune ?", reponses: ["pleine lune", "pleine-lune", "la pleine lune", "c'est la pleine lune"],
+          explication: "La moitié éclairée de la Lune (tournée vers le Soleil) est aussi tournée vers la Terre : on voit le disque entier éclairé, c'est la **pleine lune**. Elle se lève quand le Soleil se couche et reste visible toute la nuit. Si l'alignement est parfait, la Lune entre dans l'ombre de la Terre : c'est une éclipse de Lune." },
+        { type: "saisie", question: "Ce soir, au coucher du Soleil, tu observes la Lune haute au sud, sa **moitié droite** éclairée. Quelle phase observeras-tu environ **une semaine** plus tard ?", reponses: ["pleine lune", "pleine-lune", "la pleine lune", "c'est la pleine lune"],
+          explication: "Ce soir, c'est le **premier quartier** (angle droit, éclairée à droite, visible le soir). En une semaine (29,5 / 4 ≈ 7,4 jours), la Lune parcourt un quart d'orbite de plus : elle se retrouve à l'opposé du Soleil, c'est la **pleine lune**." },
+        { type: "qcm", question: "Ce soir, c'est la pleine lune. **Une semaine plus tard**, à quoi ressemblera la Lune vue de France, et quand la verras-tu le mieux ?", choix: ["Un disque entièrement éclairé, visible toute la nuit", "Rien : elle sera invisible toute la journée et toute la nuit", "Un fin croissant éclairé à droite, le soir à l'ouest", "Sa moitié gauche éclairée (dernier quartier), dans la seconde moitié de la nuit et le matin"], reponse: 3,
+          explication: "Une semaine après la pleine lune, la Lune a fait un quart d'orbite de plus : elle est de nouveau à angle droit avec le Soleil, de l'autre côté. C'est le **dernier quartier** : on voit la **moitié gauche** éclairée ; elle se lève vers minuit et est au sud au lever du Soleil. Le croissant éclairé à droite, visible le soir, apparaît quelques jours après la nouvelle lune." },
+        { type: "vf", question: "La face cachée de la Lune est toujours plongée dans l'obscurité.", reponse: false,
+          explication: "La face cachée est seulement **invisible depuis la Terre** (rotation synchrone), pas sombre. Comme toute la surface lunaire, elle est éclairée la moitié du temps. À la **nouvelle lune**, quand la Lune est entre la Terre et le Soleil, c'est même la face cachée qui est entièrement éclairée." },
+        { type: "qcm", question: "La Lune montre toujours la même face à la Terre. On en déduit que :", choix: ["elle ne tourne pas sur elle-même", "elle tourne sur elle-même en environ 24 heures, comme la Terre", "elle tourne sur elle-même en environ 27,3 jours, dans le même sens et avec la même durée que sa révolution autour de la Terre", "elle tourne sur elle-même en 29,5 jours, car c'est la durée qui sépare deux pleines lunes"], reponse: 2,
+          explication: "C'est la **rotation synchrone** : durée de rotation propre = durée de révolution = **27,3 jours** (périodes mesurées par rapport aux étoiles). Si la Lune ne tournait pas sur elle-même, on verrait successivement toutes ses faces au cours d'une révolution. Les 29,5 jours sont la période **synodique** (retour de la même phase), plus longue car la Terre avance autour du Soleil pendant ce temps." },
+        { type: "redaction", question: "Un élève affirme : « Les phases de la Lune sont dues à l'ombre que la Terre projette sur elle, et la face cachée de la Lune est toujours dans la nuit. »\n\n1) Fais un schéma (décris-le précisément) représentant le Soleil, la Terre et la Lune dans quatre positions : nouvelle lune, premier quartier, pleine lune, dernier quartier. Indique pour chaque position la moitié éclairée de la Lune et ce que voit un observateur de l'hémisphère Nord.\n2) Réfute la première affirmation.\n3) Explique pourquoi on voit toujours la même face de la Lune, puis réfute la seconde affirmation.\n4) Explique pourquoi deux pleines lunes sont séparées de 29,5 jours alors que la Lune fait le tour de la Terre en 27,3 jours.", corrige: `**1) Schéma** (vue depuis l'espace, au-dessus du pôle Nord)
+- Le **Soleil** est très loin à droite de la feuille ; on dessine plusieurs **rayons parallèles** arrivant de la droite.
+- La **Terre** est au centre ; autour d'elle, un **cercle** représente l'orbite quasi circulaire de la Lune (référentiel géocentrique), parcourue dans le sens inverse des aiguilles d'une montre (flèche).
+- On place la Lune en 4 points du cercle. Sur chacune, la **moitié tournée vers le Soleil** (côté droit) est laissée claire, l'autre moitié est noircie.
+- **Position à droite de la Terre (entre la Terre et le Soleil) : nouvelle lune.** L'observateur terrestre voit la moitié non éclairée : Lune invisible.
+- **Position en haut du cercle (un quart de tour plus loin) : premier quartier.** Les directions Terre–Lune et Terre–Soleil font un angle droit : on voit la moitié du disque éclairée, côté droit pour un observateur de l'hémisphère Nord ; Lune visible le soir.
+- **Position à gauche de la Terre (Terre entre Soleil et Lune) : pleine lune.** La moitié éclairée est tournée vers la Terre : disque entier éclairé, visible toute la nuit.
+- **Position en bas du cercle : dernier quartier.** Angle droit de l'autre côté : moitié gauche éclairée, visible la seconde moitié de la nuit et le matin.
+- Légende : Soleil, Terre, Lune, sens de rotation, rayons solaires, nom de chaque phase et petit dessin de l'aspect vu de la Terre.
+
+**2) Les phases ne viennent pas de l'ombre de la Terre**
+- La Lune ne produit pas de lumière : une moitié est **toujours éclairée** par le Soleil. La phase est la part de cette moitié éclairée que l'on voit depuis la Terre ; elle dépend de la position relative du Soleil, de la Terre et de la Lune.
+- L'ombre de la Terre est toujours dirigée à l'**opposé du Soleil**. Elle ne peut toucher la Lune qu'à la pleine lune, quand les trois astres sont alignés : c'est alors une **éclipse de Lune**, phénomène rare car l'orbite de la Lune est inclinée d'environ 5°.
+- Au premier quartier, la Lune est à angle droit, très loin de l'ombre de la Terre, et pourtant la moitié du disque est sombre : c'est sa moitié non éclairée. L'affirmation est donc fausse.
+
+**3) Rotation synchrone et face cachée**
+- La Lune tourne sur elle-même en **27,3 jours**, exactement la durée de sa révolution autour de la Terre, et dans le même sens : c'est la **rotation synchrone**. À chaque fois qu'elle avance d'un quart d'orbite, elle pivote d'un quart de tour : elle garde toujours la même face tournée vers la Terre. (Si elle ne tournait pas sur elle-même, on verrait toutes ses faces au cours d'une révolution.)
+- La **face cachée** est la face jamais visible depuis la Terre, mais elle reçoit la lumière du Soleil comme le reste de la Lune : la moitié du temps. Sur le schéma, à la **nouvelle lune**, la face tournée vers le Soleil est justement la face cachée : elle est entièrement éclairée. La seconde affirmation est donc fausse : « cachée » ne veut pas dire « sombre ».
+
+**4) Périodes sidérale et synodique**
+- **27,3 jours** est la **période sidérale** : durée d'une révolution de la Lune par rapport aux étoiles.
+- **29,5 jours** est la **période synodique** : durée pour retrouver la même phase, donc le même alignement Soleil–Terre–Lune.
+- Pendant une révolution de 27,3 jours, la Terre a avancé sur son orbite autour du Soleil (référentiel héliocentrique) d'environ 27,3 / 365,25 × 360 ≈ 27°. La direction du Soleil vue de la Terre a tourné d'autant : la Lune doit encore parcourir environ 27° pour se retrouver de nouveau à l'opposé du Soleil, ce qui demande environ 2,2 jours de plus : 27,3 + 2,2 ≈ **29,5 jours**.
+
+>! **Barème indicatif** : schéma soigné (rayons parallèles, moitié éclairée côté Soleil sur chaque Lune, sens de rotation, aspects vus de la Terre justes, légende) ; rôle de la position relative des trois astres ; argument de l'ombre opposée au Soleil ; rotation synchrone avec la durée de 27,3 j ; face cachée éclairée à la nouvelle lune ; distinction sidérale / synodique avec le déplacement de la Terre. **Erreur fréquente** : noircir sur le schéma la moitié de la Lune tournée vers l'extérieur de l'orbite au lieu de la moitié opposée au Soleil.` },
+      ],
+    },
   ],
 };

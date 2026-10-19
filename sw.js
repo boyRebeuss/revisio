@@ -1,5 +1,5 @@
 // Réseau d'abord (contenu toujours à jour), cache en secours hors connexion.
-const CACHE = "revisio-v5";
+const CACHE = "revisio-v6";
 const SOCLE = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
   "js/app.js", "js/dom.js", "js/famille.js", "js/cle-famille.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js", "js/correcteur.js",

@@ -1280,5 +1280,245 @@ Ce qui est valorisé :
 - formats anglais : *1st May, 10 am to 6 pm* (et non « 10 h – 18 h »).` },
       ],
     },
+    {
+      id: "etre-humain-nature",
+      titre: "Axe 5 : L'être humain et la nature",
+      theme: "Axes culturels de 1re",
+      cours: `
+## De quoi parle cet axe ?
+Le programme (BO n° 22 du 29 mai 2025) pose la question : **comment l'être humain peut-il vivre en harmonie avec la nature ?** Que fait-il pour la **préserver**, l'**exploiter**, mais aussi s'y **adapter** ? Comment les sociétés de l'aire anglophone s'emparent-elles de ces enjeux ? Objets d'étude possibles : les parcs nationaux, vivre avec et vivre de la nature, l'homme face à la nature et aux événements météorologiques, la sacralisation de la nature dans l'art et la fiction. Problématiques :
+- *Are national parks the best way to protect nature?*
+- *Can we live off nature without destroying it?*
+- *Are extreme weather events a wake-up call?*
+- *Why do artists and writers turn nature into something sacred?*
+
+## Vocabulaire clé
+| Anglais | Français |
+|---|---|
+| wildlife (indénombrable) | la faune (et la flore) sauvage |
+| the wilderness | la nature sauvage, les grands espaces vierges |
+| a habitat | un habitat (milieu de vie d'une espèce) |
+| an ecosystem, biodiversity | un écosystème, la biodiversité |
+| an endangered species / a threatened species | une espèce en danger / menacée (*species* : même forme au singulier et au pluriel) |
+| to become extinct, extinction | disparaître (espèce), l'extinction |
+| wetlands, a marsh, a swamp | les zones humides, un marais, un marécage |
+| a predator, prey | un prédateur, une proie |
+| to protect, to preserve, conservation | protéger, préserver, la protection de la nature |
+| poaching, a poacher | le braconnage, un braconnier |
+| rewilding | le réensauvagement |
+| a park ranger | un garde forestier |
+| to live off the land, a livelihood | vivre de la terre, un gagne-pain |
+| overfishing, logging, mining | la surpêche, l'exploitation forestière, l'exploitation minière |
+| a drought, a flood, a heatwave | une sécheresse, une inondation, une canicule |
+| a hurricane, a tornado, a wildfire / a bushfire (Australie) | un ouragan, une tornade, un feu de forêt |
+| to evacuate, to rebuild, resilience | évacuer, reconstruire, la résilience |
+| awe-inspiring, breathtaking | qui inspire une admiration mêlée de crainte, à couper le souffle |
+
+## 1. Les parcs nationaux, outils de préservation
+- **Yellowstone** (principalement dans le Wyoming) est créé le **1er mars 1872** par une loi signée par le président Ulysses S. Grant : c'est le **premier parc national du monde**. On y trouve des geysers (*Old Faithful*), des sources chaudes, des bisons et des grizzlis.
+- Le **National Park Service** est créé en **1916**. L'écrivain Wallace Stegner a qualifié les parcs nationaux de « meilleure idée » que l'Amérique ait jamais eue.
+- **John Muir**, naturaliste d'origine écossaise, milite pour la protection de Yosemite (parc national en 1890) et fonde le **Sierra Club** (1892). Le président **Theodore Roosevelt** fait de la protection des terres publiques une politique nationale au début du XXe siècle.
+- **Les loups de Yellowstone** : exterminés dans le parc dans les années 1920, ils sont **réintroduits en 1995** avec des loups capturés au Canada. Les élans (*elk*), moins nombreux et plus mobiles, broutent moins les jeunes arbres le long des rivières : on parle de **cascade trophique** (*trophic cascade*). L'ampleur exacte de cet effet est encore discutée par les scientifiques.
+- **L'envers du décor** : ces territoires « vierges » étaient habités et utilisés par des peuples amérindiens, qui en ont été écartés. Le tourisme de masse (plusieurs millions de visiteurs par an) menace aussi les parcs.
+- Ailleurs : **Banff** (1885), premier parc national du Canada ; au Royaume-Uni, le **Peak District** (1951) est le premier parc national, et le **Lake District** est inscrit au patrimoine mondial de l'UNESCO en 2017.
+- **Les zones humides** : les **Everglades** (Floride, parc national en 1947) sont un immense marais subtropical ; la journaliste Marjory Stoneman Douglas les a surnommées *River of Grass* (1947). La **convention de Ramsar** (1971) protège les zones humides dans le monde.
+- **Les espèces menacées** : aux États-Unis, l'**Endangered Species Act** (1973) protège les espèces en danger. Le **pygargue à tête blanche** (*bald eagle*), emblème national, a été retiré de la liste en **2007** grâce à l'interdiction du DDT et aux mesures de protection.
+
+## 2. Vivre avec et vivre de la nature
+- Agriculteurs, éleveurs (*ranchers*), pêcheurs, forestiers vivent des ressources naturelles ; le **tourisme vert** (*ecotourism*) en fait aussi un gagne-pain.
+- **La pêche à la morue à Terre-Neuve** : après des décennies de surpêche, le Canada décrète un **moratoire en 1992** ; environ 30 000 personnes perdent leur emploi et les stocks ne se sont jamais complètement reconstitués.
+- **Les peuples autochtones** revendiquent des savoirs écologiques traditionnels (*traditional ecological knowledge*) et une relation de réciprocité avec la terre.
+- **Le débat sur l'Alaska** : faut-il exploiter le pétrole de l'*Arctic National Wildlife Refuge* (emplois, revenus) ou protéger les caribous et les terres des peuples autochtones ?
+
+## 3. L'homme face aux événements météorologiques extrêmes
+- **Le Dust Bowl** (années 1930) : sécheresse et labours intensifs transforment les Grandes Plaines en désert de poussière ; des centaines de milliers de personnes quittent la région, beaucoup pour la Californie. Photo emblématique : *Migrant Mother* de Dorothea Lange (1936).
+- **L'ouragan Katrina** (29 août 2005) : les digues (*levees*) de La Nouvelle-Orléans cèdent, environ 80 % de la ville est inondée et la tempête fait plus de 1 800 morts. La catastrophe révèle aussi les inégalités sociales et raciales face au risque.
+- **Le « Black Summer » australien** (2019-2020) : des feux de brousse géants ; une étude commandée par le WWF (2020) estime à près de 3 milliards le nombre d'animaux tués ou déplacés.
+- **Les incendies de Los Angeles** (janvier 2025) détruisent des milliers de maisons. Les scientifiques relient l'augmentation de la fréquence et de l'intensité de nombreux extrêmes (canicules, sécheresses, pluies diluviennes) au **changement climatique**.
+
+## 4. La nature sacralisée dans l'art et la fiction
+- **Le romantisme anglais** : William Wordsworth célèbre les jonquilles du Lake District : *I wandered lonely as a cloud / That floats on high o'er vales and hills* (*I Wandered Lonely as a Cloud*, publié en 1807). Le peintre John Constable peint la campagne anglaise (*The Hay Wain*, 1821).
+- **Le transcendantalisme américain** : Ralph Waldo Emerson (*Nature*, 1836) et Henry David Thoreau, qui vit deux ans dans une cabane près de l'étang de Walden : *I went to the woods because I wished to live deliberately* (*Walden*, 1854).
+- **La peinture et la photographie de paysage** : l'*Hudson River School* (Thomas Cole, années 1820-1840) peint une nature grandiose, presque divine ; les photos en noir et blanc d'**Ansel Adams** (Yosemite) ont soutenu la cause de la protection de la nature.
+- **La fiction** : *The Call of the Wild* (Jack London, 1903) ; *Into the Wild* (récit de Jon Krakauer, 1996, adapté au cinéma par Sean Penn en 2007), l'histoire d'un jeune homme qui part vivre seul en Alaska.
+
+## Langue : parler des causes, des conséquences et des hypothèses
+- **Cause / conséquence** : *due to / because of* + nom ; *as a result, therefore* ; *to lead to* (entraîner), *to result in* : *Overfishing led to the collapse of cod stocks.*
+- **Conditionnelles** : *If we don't protect wetlands, many species will disappear.* (réel) / *If wolves had not been reintroduced, the ecosystem would have remained unbalanced.* (irréel du passé)
+- **Passif** : *Yellowstone was established in 1872. Thousands of people were evacuated.*
+- **L'article zéro** pour les notions générales : *Ø Nature is fragile. Ø Wildlife needs space.* (jamais *the nature* au sens général).
+
+## Méthode : construire un essay sur la nature
+1. **Définis les termes** du sujet : *nature, wilderness, protect, harmony*.
+2. **Problématise** : protéger la nature en la mettant « sous cloche » ou en apprenant à vivre avec elle ?
+3. **Un exemple précis par paragraphe** : Yellowstone et ses loups, Katrina, la morue de Terre-Neuve, Thoreau.
+4. **Nuance** : chaque solution a ses limites (tourisme de masse, exclusion des peuples autochtones, emplois menacés).
+
+## Erreurs fréquentes
+- *the nature* au sens général → **nature** (article zéro).
+- *a wildlife*, *wildlifes* → **wildlife** est indénombrable : *a lot of wildlife*, *wild animals*.
+- *a specie* → **a species** (le singulier prend aussi un -s) : *one species, two species*.
+- *an endangered specie of animal* → **an endangered species**.
+- *the climatic change* → **climate change** (sans article).
+
+> **À retenir** : Yellowstone (1872) = premier parc national ; loups réintroduits en 1995 ; Endangered Species Act (1973). Vivre de la nature : moratoire sur la morue (1992). Extrêmes : Dust Bowl (années 1930), Katrina (2005), Black Summer (2019-2020). Art : Wordsworth (1807), Thoreau (*Walden*, 1854), Ansel Adams. Lexique : *wildlife, habitat, endangered species, wetlands, extinct, drought, wildfire*. **Nature** et **wildlife** sans article ; *a species*.
+`,
+      exercices: [
+        { type: "saisie", question: "Traduis : « une espèce en danger »", reponses: ["an endangered species", "endangered species", "a threatened species", "threatened species", "an endangered animal species"], explication: "**An endangered species**. Attention : *species* a la même forme au singulier et au pluriel (*one species, two species*) ; *a specie* n'existe pas." },
+        { type: "saisie", question: "Traduis : « les zones humides »", reponses: ["wetlands", "the wetlands", "wetland areas", "the wetland areas"], explication: "**Wetlands** : marais (*marshes*), marécages (*swamps*), tourbières. Les Everglades en Floride en sont un exemple célèbre." },
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Nature is more fragile than we think.", "The nature is more fragile than we think.", "A nature is more fragile than we think.", "The natures are more fragile than we think."], reponse: 0, explication: "Pour parler de la nature **en général**, on emploie l'**article zéro** : *Nature is fragile.* On écrit *the nature of the problem* seulement au sens de « la nature (le caractère) du problème »." },
+        { type: "qcm", question: "Que s'est-il passé dans l'écosystème de Yellowstone après la réintroduction des loups en 1995 ?", choix: ["Les loups ont fait disparaître tous les bisons du parc.", "Les élans, moins nombreux et plus mobiles, ont moins brouté les jeunes arbres près des rivières, qui ont pu repousser par endroits.", "Les touristes ont été interdits dans le parc.", "Les grizzlis ont été déplacés au Canada."], reponse: 1, explication: "C'est l'exemple classique de **cascade trophique** : le prédateur agit sur les proies (*elk*), qui agissent sur la végétation. Les scientifiques discutent encore de l'ampleur de l'effet, mais le lien est largement documenté. Les bisons n'ont pas disparu." },
+        { type: "vf", question: "Lors de l'ouragan Katrina (2005), la rupture des digues a provoqué l'inondation d'une grande partie de La Nouvelle-Orléans.", reponse: true, explication: "Le 29 août 2005, les **levees** cèdent : environ 80 % de la ville est inondée et la catastrophe fait plus de 1 800 morts. Elle révèle aussi les inégalités : les quartiers pauvres, en majorité afro-américains, sont les plus touchés." },
+        { type: "saisie", question: "Traduis : « un feu de forêt » (un mot suffit)", reponses: ["a wildfire", "wildfire", "a forest fire", "forest fire", "a bushfire", "bushfire"], explication: "**A wildfire** (ou *a forest fire* ; *a bushfire* en Australie). Le *Black Summer* australien de 2019-2020 en est un exemple dramatique." },
+        { type: "saisie", question: "Complète avec la forme verbale correcte : *If we don't protect wetlands, many species ___ (disappear).*", reponses: ["will disappear", "'ll disappear", "will become extinct"], explication: "Conditionnelle « réelle » : **if + présent, will + base verbale** : *many species will disappear*. Jamais *will* après *if* : *If we don't protect...*" },
+        { type: "saisie", question: "Mets à la voix passive : *President Grant established Yellowstone National Park in 1872.*", reponses: ["Yellowstone National Park was established in 1872", "Yellowstone National Park was established by President Grant in 1872", "Yellowstone National Park was established in 1872 by President Grant", "Yellowstone was established in 1872", "Yellowstone was established by President Grant in 1872", "In 1872, Yellowstone National Park was established", "In 1872, Yellowstone National Park was established by President Grant", "In 1872, Yellowstone was established"], explication: "Passif au prétérit : **was + participe passé** : *Yellowstone National Park was established (by President Grant) in 1872.* L'agent (*by...*) peut être omis." },
+        { type: "qcm", question: "Quel auteur a vécu deux ans dans une cabane près d'un étang et écrit *I went to the woods because I wished to live deliberately* ?", choix: ["William Wordsworth", "Jack London", "Henry David Thoreau", "John Steinbeck"], reponse: 2, explication: "**Henry David Thoreau**, *Walden* (1854) : il vit simplement au bord de l'étang de Walden (Massachusetts) pour « vivre délibérément ». Wordsworth est un poète romantique anglais, Jack London l'auteur de *The Call of the Wild*." },
+        { type: "redaction", question: "Essay (220 à 250 mots) : *Are national parks the best way to protect nature?* Appuie-toi sur au moins deux exemples précis du monde anglophone.", corrige: `Modèle de réponse :
+
+*When Yellowstone was established in 1872, it became the first national park in the world. Since then, thousands of protected areas have been created, from Banff in Canada to the Peak District in England. But are national parks really the best way to protect nature?*
+
+*On the one hand, national parks have achieved remarkable results. By protecting entire habitats, they allow endangered species to survive and even to return. In Yellowstone, wolves were reintroduced in 1995, and their presence changed the behaviour of elk, which helped vegetation recover along some rivers. Parks also raise awareness: millions of visitors discover wildlife and learn why ecosystems must be preserved.*
+
+*On the other hand, parks have serious limits. First, they were often created on land taken from Native American peoples, who were excluded from places they had lived in for centuries. Second, mass tourism brings traffic, pollution and noise. Above all, nature does not stop at a park's borders: climate change, droughts and wildfires affect protected and unprotected areas alike, as Australia's Black Summer showed in 2019-2020.*
+
+*In conclusion, national parks are a valuable tool, but they are not enough on their own. If we want to live in harmony with nature, we must also reduce our carbon footprint, protect wetlands and ordinary countryside, and listen to Indigenous peoples, who have long known how to live with the land rather than against it.*
+
+(environ 230 mots)
+
+Méthode et critères :
+- introduction : fait daté (1872), élargissement, reprise de la question ;
+- plan dialectique : réussites (habitats, loups de Yellowstone, sensibilisation) / limites (peuples autochtones, tourisme, climat) ;
+- connecteurs variés : *On the one hand, On the other hand, First, Second, Above all, In conclusion* ;
+- lexique de l'axe : *habitats, endangered species, wildlife, ecosystems, wetlands, wildfires, droughts* ;
+- grammaire B1+ / B2 : passif (*was established, were reintroduced*), relatives (*which helped*), conditionnelle (*If we want..., we must*), *nature* sans article ;
+- conclusion nuancée qui répond à la question et propose une ouverture.` },
+      ],
+    },
+    {
+      id: "aires-anglophones-americaines",
+      titre: "Axe 6 : Les aires anglophones américaines",
+      theme: "Axes culturels de 1re",
+      cours: `
+> **Axe obligatoire** : en 1re, cinq axes sur six sont traités dans l'année, dont **obligatoirement l'axe 6**. Le programme (BO n° 22 du 29 mai 2025) le résume par une question : *quelles influences réciproques engendrent une perméabilité culturelle, parfois inégale, autour du continent américain ?* Objets d'étude possibles : les Caraïbes dans les Amériques et le monde ; Porto Rico, « 51e État » ? ; le pôle d'attraction nord-américain ; Vancouver et Seattle, regards croisés.
+
+## De quoi parle cet axe ?
+L'anglais ne se parle pas seulement aux États-Unis et au Canada : il est aussi la langue de nombreuses îles des **Caraïbes** et de pays du continent (**Guyana**, **Belize**). Ces territoires échangent des personnes, des musiques, des capitaux et des idées, mais ces échanges sont **inégaux** : les États-Unis exercent une forte attraction économique et culturelle. Problématiques :
+- *Is the Caribbean a bridge between the Americas and the rest of the world?*
+- *Should Puerto Rico become the 51st state of the USA?*
+- *Is the American Dream still attractive for the rest of the continent?*
+- *Vancouver and Seattle: two cities, one region?*
+
+## Vocabulaire clé
+| Anglais | Français |
+|---|---|
+| the Americas, the Western Hemisphere | les Amériques, l'hémisphère occidental |
+| the Caribbean, the West Indies | les Caraïbes, les Antilles |
+| an island nation, a territory | un État insulaire, un territoire |
+| a commonwealth, an unincorporated territory | (à Porto Rico) un État libre associé, un territoire non incorporé |
+| statehood | le statut d'État (fédéré) |
+| a referendum, to hold a referendum | un référendum, organiser un référendum |
+| a diaspora | une diaspora |
+| remittances | les fonds envoyés par les émigrés à leur famille |
+| brain drain | la fuite des cerveaux |
+| a border crossing | un poste-frontière |
+| a free trade agreement | un accord de libre-échange |
+| a pull factor / a push factor | un facteur d'attraction / de départ |
+| Creole, patois | le créole |
+| the Pacific Northwest, Cascadia | le Nord-Ouest Pacifique, la Cascadie |
+| First Nations (Canada), Native Americans (US) | les Premières Nations, les Amérindiens |
+| to be torn between | être tiraillé entre |
+
+## 1. Les Caraïbes anglophones dans les Amériques et dans le monde
+- **Un héritage colonial** : plantations sucrières, esclavage, puis abolition dans l'Empire britannique (loi de **1833**, émancipation complète en **1838**). Les populations sont majoritairement d'ascendance africaine, mais aussi indienne (à Trinidad et au Guyana), chinoise, européenne...
+- **Les indépendances** : la Jamaïque (**6 août 1962**), Trinité-et-Tobago (**31 août 1962**), la Barbade (**1966**). La Barbade devient une **république** le **30 novembre 2021** et ne reconnaît plus le monarque britannique comme chef de l'État ; la chanteuse Rihanna y est proclamée héroïne nationale le même jour.
+- **La CARICOM** (Communauté caribéenne), créée en **1973** par le traité de Chaguaramas, regroupe des États insulaires et continentaux (Guyana, Belize, Suriname).
+- **Un rayonnement mondial** : le **reggae** de Bob Marley (Jamaïque), le **calypso**, la **soca** et le **steelpan** (Trinité) ; l'équipe de cricket des **West Indies** ; deux prix Nobel de littérature : **Derek Walcott** (Sainte-Lucie, 1992) et **V. S. Naipaul** (né à Trinidad, 2001).
+- **Les diasporas** : la génération **Windrush** au Royaume-Uni (voir l'axe 1) et le **carnaval de Notting Hill** (depuis 1966) ; à New York, la **West Indian Day Parade** de Brooklyn ; à Toronto, le **Caribbean Carnival** (ancien *Caribana*, depuis 1967).
+- **Des fragilités** : économies dépendantes du tourisme et des **remittances**, exposition aux **ouragans** et à la montée des eaux.
+- **La langue** : à côté de l'anglais standard, on parle des créoles (*Jamaican Patois*). Le poète barbadien **Kamau Brathwaite** a défendu une *nation language* caribéenne.
+
+## 2. Porto Rico : le « 51e État » ?
+- **Un territoire américain depuis 1898** : après la guerre hispano-américaine, l'Espagne cède Porto Rico aux États-Unis (traité de Paris, décembre 1898).
+- **1917** : le *Jones Act* accorde la **citoyenneté américaine** aux Portoricains. **1952** : Porto Rico devient un **Commonwealth** (*Estado Libre Asociado*), avec sa propre constitution.
+- **Une citoyenneté incomplète** : les habitants de l'île ne votent **pas à l'élection présidentielle** ; ils n'ont au Congrès qu'un **commissaire résident** qui ne vote pas en séance plénière. Ils utilisent le dollar et servent dans l'armée américaine.
+- **Le débat sur le statut** : plusieurs référendums non contraignants ont eu lieu ; en **2020**, environ **52,5 %** des votants ont répondu « oui » à l'admission comme État. Mais seul le **Congrès** peut admettre un nouvel État, et il ne l'a pas fait. Trois options s'opposent : *statehood* (51e État), *independence*, *status quo*.
+- **Une île bilingue et une diaspora** : l'espagnol et l'anglais sont langues officielles, mais l'espagnol domine. Environ **3,3 millions** d'habitants sur l'île (recensement 2020) et davantage de Portoricains vivent sur le continent (New York, Floride) : les *Nuyoricans*.
+- **L'ouragan María** (20 septembre 2017) : près de 3 000 morts selon l'estimation retenue officiellement en 2018 ; la lenteur de l'aide fédérale a nourri le sentiment d'être des « citoyens de seconde zone ».
+- **Culture** : Lin-Manuel Miranda (*Hamilton*, *In the Heights*), new-yorkais d'origine portoricaine ; le chanteur **Bad Bunny**, tête d'affiche du spectacle de la mi-temps du **Super Bowl LX** (8 février 2026).
+
+## 3. Le pôle d'attraction nord-américain
+- **Les facteurs d'attraction** (*pull factors*) : emplois, salaires, universités, sécurité, rêve américain ; **facteurs de départ** (*push factors*) : pauvreté, violence, catastrophes naturelles.
+- **Les migrations** : des Caraïbes, d'Amérique centrale et du Mexique vers les États-Unis et le Canada ; elles nourrissent les **remittances**, mais aussi la **fuite des cerveaux** (médecins, infirmières, enseignants qui partent).
+- **Le Canada**, pays d'immigration : système de sélection à points (1967), politique officielle du **multiculturalisme** (1971 ; *Canadian Multiculturalism Act*, 1988).
+- **Un continent intégré** : l'**ALENA** (*NAFTA*, 1994), remplacé en **2020** par l'**ACEUM** (*USMCA* ; *CUSMA* au Canada). La frontière États-Unis–Canada (environ 8 900 km, Alaska compris) est la plus longue frontière terrestre entre deux pays.
+- **Une influence inégale** : la culture américaine (Hollywood, plateformes, musique) domine ; le Canada protège sa culture avec des quotas de contenu canadien (*Canadian content*). En **2025**, le président Donald Trump a, à plusieurs reprises, présenté le Canada comme un possible « 51e État », provoquant une vive réaction de rejet au Canada.
+
+## 4. Vancouver et Seattle : regards croisés
+Distantes d'environ 200 km, de part et d'autre de la frontière, les deux villes appartiennent à la même région, le **Pacific Northwest** (parfois appelée **Cascadia**) : même climat océanique, mêmes montagnes, même océan.
+
+| | Vancouver (Canada, Colombie-Britannique) | Seattle (États-Unis, État de Washington) |
+|---|---|---|
+| Nom | le navigateur britannique George Vancouver | le chef autochtone **Si'ahl** (Seattle), des peuples Duwamish et Suquamish |
+| Peuples autochtones | Musqueam, Squamish, Tsleil-Waututh (peuples salishs de la côte) | Duwamish, Suquamish (peuples salishs de la côte) |
+| Économie | port tourné vers l'Asie, cinéma et séries (*Hollywood North*), tourisme | Boeing (fondée à Seattle en 1916), Microsoft (Redmond), Amazon (1994), Starbucks (1971) |
+| Société | grande diversité : plus de la moitié de la population de l'agglomération appartient à une « minorité visible » (recensement 2021), forte présence asiatique ; crise du logement | ville de la tech, aux inégalités marquées ; crise du logement et du sans-abrisme |
+| Grands événements | Expo 86, Jeux olympiques d'hiver de **2010** | Exposition universelle de 1962 (*Space Needle*), le **grunge** (Nirvana, Pearl Jam) |
+| Point commun | villes hôtes de la **Coupe du monde de football 2026** | villes hôtes de la **Coupe du monde de football 2026** |
+
+Regards croisés : même géographie, mais deux modèles nationaux (système de santé public au Canada, contrôle des armes plus strict ; dynamisme de la tech et rôle plus limité de l'État aux États-Unis).
+
+## Langue : comparer et opposer (B1+)
+- **whereas / while** + proposition : *Vancouver looks towards Asia, whereas Seattle is home to tech giants.*
+- **unlike** + nom : *Unlike Puerto Ricans living in Florida, residents of the island cannot vote for president.*
+- **both... and / neither... nor** : *Both cities are Pacific ports. Neither city is a capital.*
+- **comparatifs nuancés** : *far more diverse, slightly smaller, just as rainy as*.
+- **passif** pour l'histoire : *Puerto Rico was ceded to the United States in 1898.*
+
+## Méthode : traiter un sujet de l'axe 6
+1. **Situe** les lieux (carte mentale : îles, continent, frontière) et **date** les étapes.
+2. **Croise les regards** : point de vue des États-Unis, des Caraïbes, du Canada, des diasporas.
+3. **Nuance** : l'influence n'est jamais à sens unique (le reggae ou la salsa ont transformé la musique américaine), mais elle est inégale (dépendance économique, statut politique).
+
+## Erreurs fréquentes
+- **American** peut désigner les États-Unis seulement : pour le continent, dis *the Americas* ou *the American continent*.
+- *the Caraibs* → **the Caribbean** (avec *the*) ; adjectif : *Caribbean* (*Caribbean music*).
+- *Porto Rico* → **Puerto Rico** en anglais ; habitants : *Puerto Ricans*.
+- *Puerto Rico is a state* → c'est un **territory** (*a commonwealth*), pas un *state*.
+- *remittance* s'emploie surtout au pluriel : *remittances are vital for Jamaica*.
+- *Indians* pour les Amérindiens : préfère **Native Americans** (États-Unis) ou **First Nations / Indigenous peoples** (Canada).
+
+> **À retenir** : Caraïbes anglophones = héritage colonial, indépendances (Jamaïque et Trinité 1962, Barbade 1966, république en 2021), CARICOM (1973), diasporas (Windrush, Notting Hill). **Porto Rico** : américain depuis 1898, citoyens depuis 1917, Commonwealth depuis 1952, pas de vote présidentiel, débat sur le *statehood*. **Attraction nord-américaine** : *pull / push factors, remittances, brain drain, USMCA (2020)*. **Vancouver / Seattle** : une même région (*Cascadia*), deux modèles. Pour comparer : *whereas, unlike, both... and*.
+`,
+      exercices: [
+        { type: "saisie", question: "Traduis : « les fonds envoyés par les émigrés à leur famille » (un mot)", reponses: ["remittances", "remittance"], explication: "**Remittances** : une ressource vitale pour de nombreux pays des Caraïbes et d'Amérique centrale." },
+        { type: "saisie", question: "Traduis : « la fuite des cerveaux »", reponses: ["brain drain", "the brain drain"], explication: "**Brain drain** : le départ des personnes qualifiées (médecins, infirmières, ingénieurs) vers des pays plus riches." },
+        { type: "qcm", question: "Depuis quand Porto Rico est-il un territoire des États-Unis ?", choix: ["1776, depuis l'indépendance américaine", "1898, après la guerre hispano-américaine", "1917, avec le Jones Act", "1952, avec sa constitution"], reponse: 1, explication: "En **1898**, l'Espagne cède Porto Rico aux États-Unis. 1917 : les Portoricains deviennent citoyens américains ; 1952 : l'île devient un *Commonwealth* avec sa propre constitution." },
+        { type: "vf", question: "Les Portoricains sont citoyens américains, mais les habitants de l'île ne votent pas à l'élection présidentielle américaine.", reponse: true, explication: "Citoyens depuis le **Jones Act de 1917**, ils ne votent pas à l'élection présidentielle tant qu'ils résident sur l'île (un Portoricain installé en Floride, lui, vote). Leur commissaire résident au Congrès ne vote pas en séance plénière." },
+        { type: "qcm", question: "En quelle année la Barbade est-elle devenue une république ?", choix: ["1962", "1966", "2016", "2021"], reponse: 3, explication: "Indépendante depuis **1966**, la Barbade devient une république le **30 novembre 2021** : le monarque britannique n'est plus son chef d'État. 1962 est l'année de l'indépendance de la Jamaïque et de Trinité-et-Tobago." },
+        { type: "saisie", question: "Quel poète de Sainte-Lucie a reçu le prix Nobel de littérature en 1992 ?", reponses: ["Derek Walcott", "Walcott"], explication: "**Derek Walcott** (1930-2017), auteur d'*Omeros*, une épopée caribéenne inspirée d'Homère. V. S. Naipaul, né à Trinidad, a reçu le Nobel en 2001." },
+        { type: "qcm", question: "Quel nom désigne la région qui réunit Vancouver et Seattle ?", choix: ["the Sun Belt", "the Rust Belt", "New England", "the Pacific Northwest (Cascadia)"], reponse: 3, explication: "Le **Pacific Northwest**, parfois appelé **Cascadia** (d'après la chaîne des Cascades), s'étend de part et d'autre de la frontière : Colombie-Britannique, État de Washington, Oregon. La *Rust Belt* est la région industrielle du Nord-Est, la *Sun Belt* le Sud." },
+        { type: "saisie", question: "Mets à la voix passive : *Spain ceded Puerto Rico to the United States in 1898.*", reponses: ["Puerto Rico was ceded to the United States in 1898", "Puerto Rico was ceded to the United States by Spain in 1898", "Puerto Rico was ceded to the US in 1898", "Puerto Rico was ceded by Spain to the United States in 1898", "Puerto Rico was ceded to the USA in 1898", "Puerto Rico was ceded to the US by Spain in 1898", "Puerto Rico was ceded to the U.S. in 1898", "Puerto Rico was ceded to the U.S. by Spain in 1898", "Puerto Rico was ceded to America in 1898", "In 1898, Puerto Rico was ceded to the United States", "In 1898, Puerto Rico was ceded to the United States by Spain", "In 1898, Puerto Rico was ceded to the US", "In 1898, Puerto Rico was ceded to the US by Spain"], explication: "Passif au prétérit : **was + participe passé** : *Puerto Rico was ceded to the United States (by Spain) in 1898.*" },
+        { type: "qcm", question: "Choisis le mot qui convient : *___ Vancouver, Seattle is not a Canadian city, but both are Pacific ports.*", choix: ["Whereas", "Although", "Unlike", "Despite of"], reponse: 2, explication: "**Unlike** est suivi d'un **nom** (*Unlike Vancouver*). *Whereas* et *although* introduisent une proposition (sujet + verbe) ; *despite of* n'existe pas (on dit *despite* ou *in spite of*)." },
+        { type: "redaction", question: "Essay (220 à 250 mots) : *Should Puerto Rico become the 51st state of the United States?* Présente les arguments des deux camps avant de donner ton avis.", corrige: `Modèle de réponse :
+
+*Puerto Rico has belonged to the United States since 1898, and Puerto Ricans have been American citizens since 1917. Yet the island is not a state but an unincorporated territory. In 2020, about 52% of voters said yes to statehood in a non-binding referendum. Should Puerto Rico become the 51st state?*
+
+*Supporters of statehood argue that the current status is unfair. Although they are citizens, the 3.3 million people living on the island cannot vote for the president, even though many of them serve in the US army, and their representative in Congress cannot vote in the House. After Hurricane Maria in 2017, many felt that the slow federal response proved they were treated as second-class citizens. Statehood would give them full political rights and equal access to federal funds.*
+
+*However, others want to keep the Commonwealth status or even choose independence. They fear that statehood would threaten Puerto Rican identity, whose language is mainly Spanish and whose culture, from salsa to Bad Bunny, is proudly distinct. Moreover, the decision belongs to Congress, where the admission of a new state is a sensitive political issue.*
+
+*In my opinion, the people of Puerto Rico deserve a clear and binding choice. Whereas the status quo keeps them in an unequal position, a fair referendum, respected by Congress, would allow them to decide between full integration and independence. Whatever they choose, the main issue is democracy: citizens should not be second-class.*
+
+(environ 240 mots)
+
+Méthode et critères :
+- introduction : repères datés (1898, 1917, 2020) et problématique reformulée ;
+- deux points de vue développés et illustrés (droits politiques, ouragan María / identité, langue, rôle du Congrès) ;
+- connecteurs : *Yet, Although, However, Moreover, Whereas, In my opinion* ;
+- lexique de l'axe : *statehood, unincorporated territory, non-binding referendum, second-class citizens, status quo* ;
+- grammaire B1+ / B2 : present perfect avec *since* (*have been citizens since 1917*), conditionnel (*would give, would allow*), relatives avec *whose* ;
+- conclusion personnelle, argumentée et nuancée.` },
+      ],
+    },
   ],
 };

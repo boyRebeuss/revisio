@@ -57,7 +57,7 @@ function sansAppui(s) {
 // « x = 5 », « f'(x) = 6x − 5 », « E(X) = 0,7 », « S(2 ; −5) » → partie utile
 function sansPrefixe(s) {
   return s
-    .replace(/^[a-z]{1,2}(?:'|′)?(?:\s*\([a-z]\))?\s*=\s*(?=\S)/, "")
+    .replace(/^(?:[a-z]{1,2}|delta|δ)(?:'|′)?(?:\s*\([a-z]\))?\s*=\s*(?=\S)/, "")
     .replace(/^[a-z](?:'|′)?\s*(?=\()/, "");
 }
 
@@ -80,6 +80,7 @@ function compacte(s) {
     .replace(/'d\s+(\p{L}+)/gu, (m, v) => ` ${PARTICIPE.test(v) || v === "better" ? "had" : "would"} ${v}`)
     .replace(/'d\b/g, " would")
     .replace(/\bcan not\b/g, "cannot")
+    .replace(/(?<![a-z])pi(?![a-z])/g, "π")
     .replace(/²/g, "^2").replace(/³/g, "^3")
     .replace(/\bracine(?:\s+carree)?(?:\s+de)?\s*/g, "√").replace(/\bsqrt\s*/g, "√")
     .replace(/\bexp\s*\(([^()]+)\)/g, "e^$1")
@@ -109,6 +110,7 @@ function nombre(s) {
   // (une lettre seule est une variable : « 6x » n'est pas le nombre 6)
   const m = t.match(/^(-?\d+(?:\.\d+)?(?:e-?\d+)?)(?:\s*\/\s*(\d+(?:\.\d+)?))?\s*(%[\p{L}\s']*|[°€$£µ][\p{L}\/²³.\s]*|[hsmglj]|\p{L}[\p{L}\/²³.'\s]+)?$/u);
   if (!m) return null;
+  if (/^(π|pi\b)/.test((m[3] || "").trim())) return null;
   const v = m[2] ? parseFloat(m[1]) / parseFloat(m[2]) : parseFloat(m[1]);
   if (!Number.isFinite(v)) return null;
   let u = (m[3] || "").trim();
@@ -180,6 +182,10 @@ export function reponseJuste(saisie, attendues, langue = false, enonce = "") {
   const chiffrees = attendues.map((r) => nombre(normaliser(r))).filter(Boolean);
   const puissanceExigee = chiffrees.length > 0 && chiffrees.every((n) => n.puissance);
   if (puissanceExigee && nombre(normaliser(saisie)) && !nombre(normaliser(saisie)).puissance) return false;
+  // « Donne le résultat sous forme de fraction » : toutes les réponses attendues sont
+  // des fractions et l'énoncé parle de fraction → un décimal (« 0,4 ») ne suffit pas
+  const fractionExigee = chiffrees.length > 0 && chiffrees.every((n) => n.frac) && /fraction/i.test(enonce);
+  if (fractionExigee && nombre(normaliser(saisie)) && !nombre(normaliser(saisie)).frac) return false;
   return attendues.some((r) => {
     const strict = fr && (aDesAccents(r) || aDesAccents(saisie));
     const b = normaliser(r, strict, de);

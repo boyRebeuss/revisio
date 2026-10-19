@@ -1031,5 +1031,141 @@ Points vérifiés :
 - connecteurs du récit : *Suddenly, when*.` },
       ],
     },
+    {
+      id: "royaume-uni",
+      titre: "Axe 6 : Le Royaume-Uni",
+      theme: "Culture",
+      cours: `
+> **Axe 6 (obligatoire en 5e)** : le programme de 5e (BO n° 22 du 29 mai 2025) consacre un axe entier au **Royaume-Uni** : ses nations, ses accents, son patrimoine (National Trust), la BBC, la famille royale. Les bases (les quatre nations, les capitales, Big Ben, le drapeau) sont dans le chapitre « Le monde anglophone » : ici, on va plus loin.
+
+## 1. Un pays, quatre nations (*one country, four nations*)
+Le **United Kingdom (UK)** réunit l'**Angleterre**, l'**Écosse**, le **pays de Galles** et l'**Irlande du Nord**. Chaque nation a son saint patron, ses symboles et parfois sa propre langue.
+
+| Nation | Habitants (*people*) | Adjectif | Saint patron (fête) | Symbole | Langue(s) |
+|---|---|---|---|---|---|
+| England | the English | English | St George (23 April) | la rose rouge | anglais |
+| Scotland | the Scots | Scottish | St Andrew (30 November) | le chardon (*thistle*) | anglais, gaélique écossais, scots |
+| Wales | the Welsh | Welsh | St David (1 March) | la jonquille (*daffodil*), le poireau (*leek*), le dragon rouge | anglais, **gallois** (*Welsh*) |
+| Northern Ireland | the Northern Irish | Northern Irish | St Patrick (17 March) | le trèfle (*shamrock*) | anglais, irlandais, scots d'Ulster |
+
+- Le **drapeau du pays de Galles** montre un dragon rouge (*the Red Dragon*). Le pays de Galles n'apparaît pas sur l'**Union Jack**, qui réunit la croix de saint George (Angleterre), la croix de saint André (Écosse) et la croix de saint Patrick (Irlande).
+- Au pays de Galles, les panneaux sont **bilingues** : *Croeso i Gymru* = *Welcome to Wales*.
+- Chaque nation a sa propre équipe de football ou de rugby : au Tournoi des Six Nations, l'Angleterre, l'Écosse et le pays de Galles jouent séparément (l'Irlande joue avec une seule équipe pour toute l'île).
+
+>! *I'm from Cardiff, so I'm Welsh. I speak English and a little Welsh. And I'm British too!* Un Gallois est **Welsh** (sa nation) et **British** (son pays, le Royaume-Uni).
+
+## 2. Du nord au sud : les accents (*accents*)
+On ne parle pas l'anglais de la même façon à Londres, à Liverpool ou à Glasgow.
+- **RP** (*Received Pronunciation*), parfois appelé *the King's English* ou *BBC English* : un accent « standard » qui ne dit pas de quelle ville on vient, associé au sud de l'Angleterre ; c'est celui de nombreux manuels.
+- **Cockney** : l'accent populaire de l'est de Londres ; le *h* disparaît (*'ello* pour *hello*) et on utilise un argot en rimes (*rhyming slang*) : *apples and pears* = *stairs* (l'escalier).
+- **Scouse** (Liverpool, la ville des Beatles), **Geordie** (Newcastle), **Brummie** (Birmingham), **Mancunian** (Manchester).
+- **Scottish English** : *aye* = *yes*, *wee* = *small*, *a loch* = un lac (*Loch Ness*).
+
+Un exemple très connu : dans le nord de l'Angleterre, le *a* de *bath* est court (comme dans « patte ») et *bus* se prononce presque « bousse » ; dans le sud, on dit un *a* long (« bââth ») et « beuss ». Les deux sont corrects !
+
+## 3. Le patrimoine (*heritage*) et le National Trust
+Le **patrimoine** se dit **heritage** : châteaux, manoirs, jardins, côtes, villages.
+- Le **National Trust** est une association (*a charity*) fondée en **1895** par Octavia Hill, Robert Hunter et Hardwicke Rawnsley pour protéger les lieux historiques et les paysages « pour toujours, pour tout le monde » (*for ever, for everyone*). Il agit en Angleterre, au pays de Galles et en Irlande du Nord ; l'Écosse a son propre *National Trust for Scotland* (1931).
+- Il compte **plus de 5 millions de membres**, qui paient une cotisation et visitent gratuitement ses sites.
+- Exemples : la **Chaussée des Géants** (*the Giant's Causeway*, Irlande du Nord), une partie des **falaises blanches de Douvres** (*the White Cliffs of Dover*), **Hill Top**, la maison de Beatrix Potter (l'autrice de *Peter Rabbit*), dans le Lake District.
+
+## 4. La BBC, une institution (*an institution*)
+- La **BBC** (*British Broadcasting Corporation*) est née en **1922** (d'abord *Company*, puis *Corporation* en 1927). Surnoms : *the Beeb*, *Auntie* (« tatie »).
+- Sa mission, fixée par son premier directeur John Reith : **informer, éduquer et divertir** (*to inform, educate and entertain*).
+- Elle est financée par la **redevance** (*the licence fee*), payée par les foyers qui regardent la télévision en direct ou utilisent BBC iPlayer : les chaînes de la BBC au Royaume-Uni n'ont **pas de publicité** (*no adverts*).
+- Programmes célèbres : *Doctor Who* (depuis 1963), *EastEnders* (feuilleton depuis 1985), *Blue Peter* (émission pour enfants depuis 1958), *Strictly Come Dancing*, les chaînes pour enfants *CBeebies* et *CBBC*, et le **BBC World Service**, radio écoutée dans le monde entier.
+
+## 5. La famille royale et son iconographie (*the royal family*)
+L'**iconographie**, ce sont les images qui représentent quelqu'un : portraits, photos, timbres, billets.
+- **Le roi Charles III** règne depuis la mort de sa mère **Elizabeth II** (8 septembre 2022) ; il a été couronné le **6 mai 2023** à l'abbaye de Westminster, avec la **reine Camilla**. Son fils aîné, **William**, est **prince de Galles** (*the Prince of Wales*) ; sa femme est Catherine, princesse de Galles.
+- Les images royales : la **couronne** (*the crown*), le **trône** (*the throne*), le **balcon de Buckingham Palace**, la parade **Trooping the Colour** (en juin, pour l'anniversaire officiel du roi), la **relève de la garde** (*the Changing of the Guard*) avec les bonnets à poils noirs (*bearskins*).
+- Le **Royal Standard** (étendard royal) flotte sur le palais quand le roi y est.
+- Le portrait du souverain est partout : sur les **pièces**, les **billets**, les **timbres**. En mai 2024, le premier portrait officiel de Charles III depuis son couronnement, peint par Jonathan Yeo et dominé par un **rouge vif**, a beaucoup fait parler.
+- Résidences : *Buckingham Palace* (Londres), *Windsor Castle*, *Balmoral* (Écosse), *Sandringham*.
+
+## 6. La monnaie (*money*)
+- La monnaie est la **livre sterling** : *the pound* (£). **£1 = 100 pence** (*p*). Une pièce de 1 p : *a penny* ; plusieurs : *pence*.
+- Pièces : 1p, 2p, 5p, 10p, 20p, 50p, £1, £2. Billets (*notes*) : £5, £10, £20, £50.
+- Depuis le **5 juin 2024**, les billets de la Banque d'Angleterre à l'effigie de **Charles III** circulent, à côté de ceux d'Elizabeth II, toujours valables. Au dos, des personnages célèbres : Winston Churchill (£5), Jane Austen (£10), le peintre J. M. W. Turner (£20), le mathématicien Alan Turing (£50).
+- L'Écosse et l'Irlande du Nord ont aussi des billets imprimés par leurs propres banques.
+- Avant le **15 février 1971** (*Decimal Day*), £1 valait 20 *shillings*, soit 240 *pence* !
+
+On écrit le symbole **avant** le nombre et on lit les livres puis les pence : *£3.50* = *three pounds fifty*. *How much is it? — It's £12.* (*twelve pounds*)
+
+## 7. Quelques repères historiques (*key dates*)
+| Date | Événement |
+|---|---|
+| 1066 | **Bataille de Hastings** : Guillaume le Conquérant, duc de Normandie, devient roi d'Angleterre (la **tapisserie de Bayeux** la raconte) |
+| 1215 | **Magna Carta** (la Grande Charte) limite le pouvoir du roi Jean sans Terre |
+| 1558-1603 | règne d'**Elizabeth I** ; **Shakespeare** (1564-1616) écrit ses pièces |
+| 1707 | union de l'Angleterre (avec le pays de Galles) et de l'Écosse : naissance de la **Grande-Bretagne** |
+| 1837-1901 | règne de la **reine Victoria** : époque de l'Empire britannique et de la révolution industrielle |
+| 1940 | **Winston Churchill** devient Premier ministre ; la **bataille d'Angleterre** (*the Battle of Britain*) |
+| 1994 | ouverture du **tunnel sous la Manche** (*the Channel Tunnel*) entre la France et l'Angleterre |
+| 2020 | **Brexit** : le Royaume-Uni quitte l'Union européenne |
+| 2022 | mort d'Elizabeth II (après 70 ans de règne) ; Charles III devient roi |
+
+>! Pour raconter, utilise le prétérit : *In 1066, William the Conqueror won the Battle of Hastings. Queen Victoria ruled for 63 years.*
+
+## Lire un prospectus (*a leaflet*)
+Méthode : repère d'abord **où** (*where*), **quand** (*when* : jour, date, horaires), **combien** (*how much* : prix, réductions), **quoi** (*what* : activités). Les mots-clés : *open, last entry* (dernière entrée), *admission* (entrée), *free* (gratuit), *under 5s* (moins de 5 ans), *family ticket*, *members*.
+
+Prospectus d'entraînement (fictif) :
+
+>! **RAVENSBY CASTLE** (National Trust), near York
+>!
+>! - **Medieval Family Day** — Saturday 24 April 2027
+>! - Open 10 am – 5 pm (last entry 4 pm). Knights' show at 11 am and 3 pm.
+>! - **Admission**: adults £12; children (5-17) £6; under 5s free.
+>! - Family ticket (2 adults + up to 3 children): £30. National Trust members: free.
+>! - Café and gift shop. Free car park. Dogs welcome in the gardens.
+
+## Erreurs fréquentes
+- **England ≠ the UK** : l'Angleterre n'est qu'une des quatre nations. Un Écossais n'est pas *English* : il est *Scottish* et *British*.
+- On dit *a Scot* ou *a Scottish person*, pas *a Scottish* ; *the Welsh* (les Gallois), pas *the Wales*.
+- **Nationalités et langues avec une majuscule** : *Welsh, Scottish, British*.
+- Elizabeth II est morte en 2022 : aujourd'hui, on parle du **King** (*the King, King Charles*), pas de *the Queen*.
+- *Pound* prend un -s : *ten pounds* ; mais *pence* est déjà un pluriel (*fifty pence*, pas *fifty pences*).
+- *Heritage* (patrimoine) est indénombrable : *British heritage*, pas *heritages*.
+
+> **À retenir** : 4 nations : England (St George, rose), Scotland (St Andrew, thistle), Wales (St David, daffodil, Welsh language), Northern Ireland (St Patrick, shamrock). Accents : RP, Cockney, Scouse, Geordie, Scottish. **National Trust** (1895) = protection du patrimoine (*heritage*). **BBC** (1922) : *inform, educate, entertain*, financée par la *licence fee*. **Charles III**, couronné le 6 mai 2023. **£1 = 100 pence** ; billets à l'effigie de Charles III depuis 2024. Dates : 1066, 1215, 1707, 1837-1901, 1994, 2020, 2022.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel est le saint patron du pays de Galles ?", choix: ["St Andrew", "St George", "St David", "St Patrick"], reponse: 2, explication: "**St David** est le saint patron du pays de Galles (fête le 1er mars, avec des jonquilles). St George = Angleterre, St Andrew = Écosse, St Patrick = Irlande." },
+        { type: "saisie", question: "Complète avec l'adjectif de nationalité : *Glasgow is in Scotland. Ewan was born in Glasgow, so he is ___.*", reponses: ["Scottish", "Scots", "he is Scottish", "he's Scottish", "a Scot"], explication: "Écosse = *Scotland* ; adjectif = **Scottish** (on dit aussi *a Scot*). Il est aussi *British*, mais pas *English*." },
+        { type: "vf", question: "Le pays de Galles est représenté sur l'Union Jack.", reponse: false, explication: "L'Union Jack réunit les croix de **saint George** (Angleterre), **saint André** (Écosse) et **saint Patrick** (Irlande). Le pays de Galles a son propre drapeau, le **dragon rouge**, absent de l'Union Jack." },
+        { type: "qcm", question: "Comment s'appelle l'accent de Liverpool ?", choix: ["Geordie", "Cockney", "Brummie", "Scouse"], reponse: 3, explication: "**Scouse** est l'accent de Liverpool. *Geordie* = Newcastle, *Cockney* = est de Londres, *Brummie* = Birmingham." },
+        { type: "saisie", question: "Que signifient les lettres **BBC** ? (en anglais)", reponses: ["British Broadcasting Corporation", "the British Broadcasting Corporation"], explication: "**British Broadcasting Corporation** : *to broadcast* = diffuser. Créée en 1922 comme *Company*, elle devient *Corporation* en 1927." },
+        { type: "saisie", question: "Combien de pence y a-t-il dans une livre (*£1*) ? (en chiffres)", reponses: ["100", "100 pence", "a hundred", "one hundred", "cent"], explication: "**£1 = 100 pence** depuis le *Decimal Day* (15 février 1971). Avant, une livre valait 240 pence !" },
+        { type: "saisie", question: "Lis le prospectus de *Ravensby Castle* (dans le cours). Tu y vas avec tes deux parents et ton frère de 8 ans. Toi, tu as 13 ans. Combien paie ta famille, au moins cher ? (en livres)", reponses: ["30", "£30", "30 £", "30£", "30 pounds", "thirty pounds", "30 livres", "trente livres"], explication: "Billets séparés : 2 adultes × £12 + 2 enfants × £6 = £24 + £12 = **£36**. Le *family ticket* (2 adultes + jusqu'à 3 enfants) coûte **£30** : c'est moins cher, on économise £6." },
+        { type: "qcm", question: "Que s'est-il passé en **1066** ?", choix: ["Guillaume le Conquérant, duc de Normandie, a gagné la bataille de Hastings et est devenu roi d'Angleterre.", "Le roi Jean a signé la Magna Carta.", "L'Angleterre et l'Écosse se sont unies.", "Le tunnel sous la Manche a été ouvert."], reponse: 0, explication: "En **1066**, Guillaume de Normandie gagne la **bataille de Hastings** : une histoire commune avec la France, racontée par la tapisserie de Bayeux. Magna Carta : 1215 ; union avec l'Écosse : 1707 ; tunnel : 1994." },
+        { type: "redaction", question: "**Médiation** (60 à 80 mots, en anglais). Ta correspondante anglaise, Amy, passe une semaine chez toi et ne lit pas le français. Explique-lui ce prospectus en anglais et propose-lui d'y aller : *« Château de Roquebelle — Fête médiévale. Dimanche 16 mai 2027, de 10 h à 18 h. Spectacle de chevaliers à 15 h. Tarifs : adultes 9 €, enfants de 6 à 12 ans 4 €, gratuit pour les moins de 6 ans. Atelier de calligraphie gratuit. À 20 minutes en bus du collège. »* (prospectus fictif). Tu dois transmettre **le lieu, le jour, les horaires, les prix** et au moins une activité.", corrige: `Exemple de réponse :
+
+*Hi Amy!*
+
+*Look at this leaflet: there is a medieval festival at Roquebelle Castle on Sunday 16th May. It's open from 10 am to 6 pm, and there's a knights' show at 3 pm. Tickets: 9 euros for adults, 4 euros for children aged 6 to 12, free under 6. We're 13, so we probably pay the adult price. There's also a free calligraphy workshop! The castle is 20 minutes from school by bus. Do you want to come with me?*
+
+*Lucie*
+
+Points vérifiés :
+- toutes les informations utiles : **lieu** (*Roquebelle Castle*), **jour** (*on Sunday 16th May*), **horaires** (*from 10 am to 6 pm, at 3 pm*), **prix** (*9 euros, 4 euros, free under 6*), une **activité** (*a free calligraphy workshop*) ;
+- adaptation pour une Anglaise : heures en *am / pm* (18 h = *6 pm*, 15 h = *3 pm*), date à l'anglaise (*Sunday 16th May*) ;
+- on ne traduit pas mot à mot : on reformule et on résume (*Tickets: ..., free under 6*) et on ajoute une remarque utile (le tarif pour vous deux) ;
+- message amical : *Hi Amy!*, une question pour proposer la sortie (*Do you want to come with me?*).` },
+        { type: "redaction", question: "**Expression écrite** (80 mots environ). Pour l'exposition « UK Day » de ton collège, écris une fiche de présentation d'**une nation du Royaume-Uni** (au choix) : sa capitale, son saint patron et sa fête, un symbole, sa ou ses langues, un accent ou un mot typique, un lieu du patrimoine à visiter, et une date historique (au prétérit).", corrige: `Exemple de réponse (le pays de Galles) :
+
+*Welcome to Wales!*
+
+*Wales is one of the four nations of the United Kingdom. Its capital is Cardiff. The patron saint of Wales is St David, and St David's Day is on 1st March: people wear daffodils or leeks. The Welsh flag has got a red dragon on it. In Wales, people speak English and Welsh: "Croeso" means "welcome"! You can visit Snowdonia (Eryri) and its mountains. In 1999, the Welsh got their own parliament, the Senedd. Wales is small, but it is proud of its identity!*
+
+Points vérifiés :
+- informations demandées : capitale, saint patron et date (*on 1st March*), symboles (*daffodils, red dragon*), langues (*English and Welsh*), mot typique (*Croeso*), lieu (*Snowdonia*), date historique ;
+- **there is / has got / can** pour décrire, **prétérit** pour l'histoire (*the Welsh got their own parliament*) ;
+- majuscules aux nationalités et langues : *Welsh, English* ;
+- vocabulaire : *nation, capital, patron saint, flag*.
+
+Remarque : le Parlement gallois a été créé après le référendum de 1997 et a siégé pour la première fois en 1999 ; il s'appelle *Senedd* depuis 2020.` },
+      ],
+    },
   ],
 };

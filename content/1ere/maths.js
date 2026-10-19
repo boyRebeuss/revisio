@@ -2417,5 +2417,334 @@ Le produit est **positif sur [2 ; 3]**, nul en 2 et en 3, **négatif sur ]−∞
         },
       ],
     },
+
+    // ───────────────────────── 18. Vocabulaire ensembliste et logique
+    {
+      id: "ensembles-logique",
+      titre: "Vocabulaire ensembliste et logique",
+      theme: "Vocabulaire ensembliste et logique",
+      cours: `
+## Ensembles et éléments
+Un **ensemble** est une collection d'objets appelés ses **éléments**.
+- x ∈ A se lit « x appartient à A » ; x ∉ A : « x n'appartient pas à A ».
+- On peut décrire un ensemble **en extension** (liste de ses éléments entre accolades) : A = {2 ; 4 ; 6} ; ou **en compréhension** (par une propriété) : A = {x ∈ ℝ | x² = 4} = {−2 ; 2}.
+- L'**ensemble vide**, noté ∅, ne contient aucun élément.
+- A est **inclus** dans B (A ⊂ B) si tout élément de A est un élément de B : ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.
+
+Si A est un ensemble fini, son **cardinal**, noté **Card(A)**, est le nombre de ses éléments : Card({2 ; 4 ; 6}) = 3 et Card(∅) = 0.
+
+## Réunion, intersection, complémentaire
+Soit A et B deux parties d'un ensemble E.
+- **Intersection** A ∩ B (« A inter B ») : éléments qui sont dans A **et** dans B.
+- **Réunion** A ∪ B (« A union B ») : éléments qui sont dans A **ou** dans B (ou dans les deux : le « ou » mathématique est **inclusif**).
+- **Complémentaire** de A dans E, noté Ā (notation des probabilités) ou E \\ A : éléments de E qui **ne sont pas** dans A.
+
+Formules de dénombrement (ensembles finis) :
+- **Card(A ∪ B) = Card(A) + Card(B) − Card(A ∩ B)** (on retire ce qui est compté deux fois) ;
+- **Card(Ā) = Card(E) − Card(A)**.
+
+>! **Exemple** : E = {1 ; 2 ; … ; 10}, A = ensemble des nombres pairs de E, B = ensemble des multiples de 3 de E.
+>! A = {2 ; 4 ; 6 ; 8 ; 10}, B = {3 ; 6 ; 9}, A ∩ B = {6}.
+>! Card(A ∪ B) = 5 + 3 − 1 = **7** : A ∪ B = {2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 10}.
+>! Ā = {1 ; 3 ; 5 ; 7 ; 9} et Card(Ā) = 10 − 5 = 5.
+
+Ce vocabulaire est celui des **événements** en probabilités : A ∩ B est « A et B », A ∪ B est « A ou B », Ā est l'événement contraire de A.
+
+## Produit cartésien
+Le **produit cartésien** A × B est l'ensemble des **couples** (a ; b) avec a ∈ A et b ∈ B. **L'ordre compte** : (1 ; 2) ≠ (2 ; 1).
+- **Card(A × B) = Card(A) × Card(B)**.
+- *Pour aller plus loin* (le programme de 1re se limite aux couples) : A × A × … × A (k fois) se note Aᵏ ; ses éléments sont des **k-uplets** et Card(Aᵏ) = Card(A)ᵏ.
+- ℝ² = ℝ × ℝ est l'ensemble des couples de réels : c'est ainsi qu'on repère les points du plan.
+
+>! **Exemple** : un menu se compose d'une entrée parmi 3 et d'un plat parmi 4. L'ensemble des menus est {entrées} × {plats}, qui contient 3 × 4 = **12** menus.
+>! On lance une pièce puis un dé : {P ; F} × {1 ; 2 ; 3 ; 4 ; 5 ; 6} contient 2 × 6 = 12 couples, comme (P ; 3).
+
+## Propositions et implication
+Une **proposition** est un énoncé qui est soit vrai, soit faux. Sa **négation** « non P » est vraie quand P est fausse, et inversement.
+
+L'**implication** P ⇒ Q (« si P, alors Q ») est vraie lorsque, chaque fois que P est vraie, Q l'est aussi.
+- Sa **réciproque** est Q ⇒ P. Une implication vraie peut avoir une réciproque **fausse**.
+- Sa **contraposée** est **(non Q) ⇒ (non P)**. Une implication et sa contraposée sont **toujours** vraies ou fausses en même temps.
+- Si P ⇒ Q et Q ⇒ P sont vraies, on dit que P et Q sont **équivalentes** : P ⟺ Q (« si et seulement si »).
+
+>! **Exemple** : pour un réel x, « si x = 3, alors x² = 9 » est vraie.
+>! - Réciproque : « si x² = 9, alors x = 3 » est **fausse** (contre-exemple : x = −3).
+>! - Contraposée : « si x² ≠ 9, alors x ≠ 3 » est **vraie**, comme l'implication de départ.
+
+## Condition nécessaire, condition suffisante
+Quand **P ⇒ Q** est vraie :
+- P est une **condition suffisante** pour Q : il suffit que P soit vraie pour que Q le soit ;
+- Q est une **condition nécessaire** pour P : il faut que Q soit vraie pour que P puisse l'être.
+Quand P ⟺ Q, P est une condition **nécessaire et suffisante** pour Q.
+
+>! **Exemple** : « x = 2 ⇒ x² = 4 ». Donc « x = 2 » est une condition suffisante pour avoir x² = 4 (mais pas nécessaire : x = −2 convient aussi), et « x² = 4 » est une condition nécessaire pour avoir x = 2 (mais pas suffisante).
+
+## Quantificateurs et négation
+Les symboles ∀ et ∃ sont des abréviations pratiques, **non exigibles** en 1re : tu peux toujours écrire en toutes lettres « pour tout » et « il existe ».
+- **∀** se lit « pour tout » : « ∀ x ∈ ℝ, x² ≥ 0 » est vraie.
+- **∃** se lit « il existe (au moins un) » : « ∃ x ∈ ℝ, x² = 2 » est vraie (x = √2).
+
+| Proposition | Négation |
+|---|---|
+| ∀ x ∈ I, P(x) | ∃ x ∈ I, non P(x) |
+| ∃ x ∈ I, P(x) | ∀ x ∈ I, non P(x) |
+| P et Q | (non P) ou (non Q) |
+| P ou Q | (non P) et (non Q) |
+| P ⇒ Q | P et (non Q) |
+| x > 3 | x ≤ 3 |
+
+Pour montrer qu'une proposition « ∀ x, P(x) » est **fausse**, il suffit de trouver **un contre-exemple** : une valeur de x pour laquelle P(x) est fausse.
+
+>! **Exemple** : « ∀ x ∈ ℝ, x² ≥ x » est fausse. Sa négation « ∃ x ∈ ℝ, x² < x » est vraie : pour x = 1/2, x² = 1/4 < 1/2.
+
+## Raisonnements
+### Par disjonction de cas
+On sépare le problème en cas qui couvrent **toutes** les possibilités, et on démontre le résultat dans chaque cas.
+>! **Exemple** : pour tout entier n, n(n + 1) est pair.
+>! - Si n est pair, n = 2k et n(n + 1) = 2k(n + 1) est pair.
+>! - Si n est impair, n + 1 est pair, n + 1 = 2k et n(n + 1) = 2kn est pair.
+>! Dans les deux cas, n(n + 1) est pair.
+
+### Par contraposée
+Pour démontrer P ⇒ Q, il est parfois plus simple de démontrer (non Q) ⇒ (non P).
+>! **Exemple** : « si n² est pair, alors n est pair ». Contraposée : « si n est impair, alors n² est impair ». Si n = 2k + 1, alors n² = 4k² + 4k + 1 = 2(2k² + 2k) + 1 est impair. La contraposée est vraie, donc l'implication aussi.
+
+### Par l'absurde
+On suppose que le résultat à démontrer est **faux**, et on en déduit une **contradiction** (une chose impossible). L'hypothèse était donc fausse : le résultat est vrai.
+>! **Exemple classique** : √2 est irrationnel (voir l'exercice de rédaction).
+
+## Erreurs fréquentes
+- Confondre réciproque et contraposée : la contraposée de P ⇒ Q est (non Q) ⇒ (non P), et non (non P) ⇒ (non Q).
+- Croire qu'un exemple démontre une propriété « pour tout » : il faut une preuve générale (un contre-exemple, lui, suffit à montrer qu'elle est fausse).
+- Mal nier les quantificateurs : la négation de « tous les élèves ont réussi » est « **au moins un** élève n'a pas réussi », pas « aucun élève n'a réussi ».
+- Oublier de retirer Card(A ∩ B) dans Card(A ∪ B).
+- Oublier que l'ordre compte dans un couple.
+
+> **À retenir**
+> - Card(A ∪ B) = Card(A) + Card(B) − Card(A ∩ B) ; Card(Ā) = Card(E) − Card(A) ; Card(A × B) = Card(A) × Card(B).
+> - Contraposée de P ⇒ Q : (non Q) ⇒ (non P), toujours de même valeur de vérité.
+> - P ⇒ Q : P est suffisante pour Q, Q est nécessaire pour P.
+> - Non(∀ x, P(x)) : ∃ x, non P(x). Non(∃ x, P(x)) : ∀ x, non P(x).
+> - Raisonnements : disjonction de cas, contraposée, absurde, contre-exemple.
+`,
+      exercices: [
+        {
+          type: "saisie",
+          question: "On note E = {1 ; 2 ; … ; 10}, A l'ensemble des nombres pairs de E et B l'ensemble des multiples de 3 de E. Calcule Card(A ∪ B).",
+          reponses: ["7"],
+          explication: "A = {2 ; 4 ; 6 ; 8 ; 10} (5 éléments), B = {3 ; 6 ; 9} (3 éléments), A ∩ B = {6}. Card(A ∪ B) = 5 + 3 − 1 = 7. Répondre 8 revient à compter 6 deux fois.",
+        },
+        {
+          type: "qcm",
+          question: "Avec les mêmes ensembles (E = {1 ; 2 ; … ; 10}, A les pairs, B les multiples de 3), que vaut A ∩ B̄ (B̄ est le complémentaire de B dans E) ?",
+          choix: ["{2 ; 4 ; 8 ; 10}", "{6}", "{1 ; 5 ; 7}", "{2 ; 3 ; 4 ; 8 ; 9 ; 10}"],
+          reponse: 0,
+          explication: "B̄ = {1 ; 2 ; 4 ; 5 ; 7 ; 8 ; 10}. Les éléments à la fois pairs et dans B̄ sont 2, 4, 8 et 10. {6} est A ∩ B ; {1 ; 5 ; 7} est le complémentaire de A ∪ B.",
+        },
+        {
+          type: "saisie",
+          question: "Un code est formé d'une lettre parmi A, B, C, D suivie d'un chiffre de 0 à 9 : c'est un élément de {A ; B ; C ; D} × {0 ; 1 ; … ; 9}. Combien de codes différents peut-on former ?",
+          reponses: ["40", "40 codes"],
+          explication: "Card(A × B) = Card(A) × Card(B) = 4 × 10 = 40. (4 + 10 = 14 serait une erreur : on forme des couples, on multiplie.)",
+        },
+        {
+          type: "qcm",
+          question: "Pour un réel x, quelle est la contraposée de l'implication « si x > 3, alors x² > 9 » ?",
+          choix: ["Si x² > 9, alors x > 3", "Si x ≤ 3, alors x² ≤ 9", "Si x² ≤ 9, alors x ≤ 3", "Si x > 3, alors x² ≤ 9"],
+          reponse: 2,
+          explication: "La contraposée de P ⇒ Q est (non Q) ⇒ (non P) : la négation de « x² > 9 » est « x² ≤ 9 » et celle de « x > 3 » est « x ≤ 3 ». « Si x² > 9, alors x > 3 » est la réciproque (fausse : x = −4). « Si x ≤ 3, alors x² ≤ 9 » est fausse aussi (x = −4), alors que la contraposée est vraie comme l'implication de départ.",
+        },
+        {
+          type: "vf",
+          question: "Pour un réel x, la réciproque de « si x = 3, alors x² = 9 » est vraie.",
+          reponse: false,
+          explication: "Faux. La réciproque est « si x² = 9, alors x = 3 ». Contre-exemple : x = −3 vérifie x² = 9 mais x ≠ 3. Une implication vraie peut avoir une réciproque fausse.",
+        },
+        {
+          type: "qcm",
+          question: "Pour un réel x, la condition « x² = 4 » est, pour avoir « x = 2 », une condition :",
+          choix: ["suffisante mais pas nécessaire", "nécessaire et suffisante", "ni nécessaire ni suffisante", "nécessaire mais pas suffisante"],
+          reponse: 3,
+          explication: "x = 2 ⇒ x² = 4 est vraie : « x² = 4 » est donc nécessaire pour avoir x = 2. Mais x² = 4 n'entraîne pas x = 2 (x peut valoir −2) : elle n'est pas suffisante.",
+        },
+        {
+          type: "qcm",
+          question: "Quelle est la négation de la proposition « ∀ x ∈ ℝ, x² ≥ x » (« pour tout réel x, x² ≥ x ») ? (∀ se lit « pour tout », ∃ « il existe ».)",
+          choix: ["∀ x ∈ ℝ, x² < x", "∃ x ∈ ℝ, x² < x", "∃ x ∈ ℝ, x² ≥ x", "∀ x ∈ ℝ, x² ≤ x"],
+          reponse: 1,
+          explication: "On remplace « ∀ » par « ∃ » et on nie la propriété : la négation de x² ≥ x est x² < x. Cette négation est vraie (x = 1/2 donne 1/4 < 1/2) : la proposition de départ est donc fausse.",
+        },
+        {
+          type: "redaction",
+          question: "Soit n un entier naturel.\n1) Par disjonction de cas, démontre que n² + n est pair.\n2) Démontre par contraposée : « si n² est pair, alors n est pair ».\n3) Démontre par l'absurde que √2 est irrationnel, c'est-à-dire qu'il ne peut pas s'écrire p/q avec p et q entiers naturels non nuls.",
+          corrige: `1) n² + n = n(n + 1).
+- **Cas 1 : n est pair.** Il existe un entier k tel que n = 2k. Alors n(n + 1) = 2k(n + 1) = 2 × [k(n + 1)] est pair.
+- **Cas 2 : n est impair.** Alors n + 1 est pair : n + 1 = 2k avec k entier, et n(n + 1) = 2 × (kn) est pair.
+Ces deux cas couvrent tous les entiers, donc **n² + n est pair pour tout entier naturel n**.
+
+2) La contraposée de « n² pair ⇒ n pair » est « **n impair ⇒ n² impair** ». Démontrons-la.
+Si n est impair, n = 2k + 1 avec k entier. Alors n² = 4k² + 4k + 1 = 2(2k² + 2k) + 1, qui est impair.
+La contraposée est vraie, donc **l'implication « n² pair ⇒ n pair » est vraie**.
+
+3) **Supposons par l'absurde** que √2 = p/q avec p et q entiers naturels non nuls, la fraction p/q étant **irréductible** (on peut toujours simplifier une fraction jusqu'à ce qu'elle le soit).
+- En élevant au carré : 2 = p²/q², donc **p² = 2q²** : p² est pair.
+- D'après la question 2, **p est pair** : p = 2k avec k entier.
+- Alors 4k² = 2q², donc **q² = 2k²** : q² est pair, donc **q est pair** (question 2).
+- p et q sont tous les deux pairs : la fraction p/q se simplifie par 2, ce qui **contredit** son irréductibilité.
+L'hypothèse de départ est donc fausse : **√2 est irrationnel**.`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 19. Épreuve anticipée : questions à réponses courtes
+    {
+      id: "epreuve-anticipee-reponses-courtes",
+      titre: "Épreuve anticipée : entraînement aux questions à réponses courtes",
+      theme: "Automatismes",
+      cours: `
+## Le format de la partie 1
+Pour l'épreuve anticipée de juin 2027 (comptant pour la session 2028 du bac), la note de service du 11 septembre 2026 (BO spécial n° 4 du 17 septembre 2026) prévoit que la **partie 1** (automatismes, 6 points sur 20) prenne la forme de **questions à réponses courtes**, et non plus d'un QCM. Toute l'épreuve se fait **sans calculatrice** (voir le chapitre « Automatismes : préparer l'épreuve anticipée » pour le détail des modalités).
+
+Concrètement : tu lis une question, tu écris **seulement le résultat** (un nombre, une expression, un intervalle, une équation de droite…). En général, seul le résultat est attendu (lis bien la consigne du sujet), mais tu ne peux plus « éliminer » de propositions : la réponse doit venir de toi, **exacte et sous la forme demandée**.
+
+## Conseils pour les réponses courtes
+- **Lis la question jusqu'au bout** et repère la forme attendue : fraction irréductible, pourcentage, écriture décimale, forme développée, intervalle…
+- **Valeurs exactes** : sans calculatrice, garde 2/3 (et non 0,67), 6π, √2… sauf si on te demande un arrondi.
+- **Simplifie** ton résultat : 9/6 doit devenir 3/2 ; 3x² − 4 plutôt que 3 × x × x − 4.
+- **Précise l'unité ou le %** quand il y en a un : « −20 % » et non « −20 » si l'on demande un taux en pourcentage.
+- **Contrôle** : ordre de grandeur, signe, calcul inverse (un taux réciproque se vérifie en multipliant les coefficients : 1,25 × 0,8 = 1).
+- **Mots-clés** : « parmi les… » signale une probabilité conditionnelle ; « taux pour revenir » signale un taux réciproque ; « tangente en a » signale y = f′(a)(x − a) + f(a).
+- **Gère ton temps** : une question qui bloque est sautée, puis reprise à la fin.
+
+## Rappels express (sans calculatrice)
+| Notion | À savoir |
+|---|---|
+| Taux réciproque | coefficient 1 + t → coefficient réciproque 1/(1 + t) |
+| Signe de (ax + b)(cx + d) | tableau de signes ; le produit change de signe en chaque racine simple |
+| Boîte à moustaches | au moins 25 % des valeurs ≤ Q1, au moins 50 % ≤ médiane, au moins 75 % ≤ Q3 |
+| Tableau croisé | P_A(B) = effectif de A ∩ B ÷ effectif de A |
+| Dérivées | (xⁿ)′ = nxⁿ⁻¹ ; (ku)′ = ku′ ; (u + v)′ = u′ + v′ |
+| Tangente en a | y = f′(a)(x − a) + f(a) |
+| Suites | arithmétique : uₙ = u₀ + nr ; géométrique : uₙ = u₀ × qⁿ |
+| Exponentielle | eᵃ × eᵇ = eᵃ⁺ᵇ ; eᵃ/eᵇ = eᵃ⁻ᵇ |
+| Second degré | Δ = b² − 4ac |
+| Arbre pondéré | P(B) = P(A) × P_A(B) + P(Ā) × P_Ā(B) |
+
+## La rédaction compte aussi : 2 points pour la maîtrise de la langue
+Dans l'épreuve, la **maîtrise de la langue** est évaluée sur **2 points** : orthographe, syntaxe, vocabulaire mathématique juste, raisonnement clairement exprimé. Elle se joue surtout dans la partie 2 (exercices rédigés).
+- **Annonce** ce que tu fais : « Calculons f′(x). », « Étudions le signe de f′(x). »
+- **Justifie** avec la propriété utilisée : « car un produit de facteurs est nul si et seulement si l'un des facteurs est nul ».
+- **Relie** les étapes par des connecteurs logiques bien choisis : *donc*, *or*, *car*, *d'où*, *ainsi*. N'utilise pas le symbole ⇒ comme une abréviation de « donc » entre deux calculs.
+- **Conclus** chaque question par une phrase complète qui répond exactement à la question posée.
+- **Vocabulaire précis** : une fonction est *croissante sur un intervalle* (pas « la courbe monte ») ; on parle de *nombre dérivé*, de *coefficient directeur*, de *probabilité conditionnelle*.
+- **Orthographe et accords** : relis-toi en fin d'épreuve (« la fonction est dérivable », « les valeurs obtenues »).
+- N'écris pas de chaîne d'égalités fausse comme « f′(x) = 3x² − 3 = positif » : écris « f′(x) = 3x² − 3, et f′(x) > 0 pour… ».
+
+>! **Exemple de phrase de conclusion** : « La fonction f est strictement croissante sur [1 ; 2] car sa dérivée y est strictement positive (sauf en 1, où elle s'annule). »
+
+> **À retenir**
+> - Partie 1 : réponses courtes, sans justification, sans calculatrice : réponse exacte, simplifiée, sous la forme demandée.
+> - Vérifie chaque réponse par un contrôle rapide (signe, ordre de grandeur, calcul inverse).
+> - 2 points de maîtrise de la langue : annoncer, justifier, relier, conclure en phrases correctes.
+`,
+      exercices: [
+        {
+          type: "saisie",
+          question: "Un prix augmente de 25 %. Quel taux d'évolution (en %) faut-il lui appliquer ensuite pour revenir au prix initial ?",
+          reponses: ["−20 %", "-20 %", "−20", "-20", "−0,2", "-0,2", "baisse de 20 %"],
+          explication: "Hausse de 25 % : coefficient 1,25 = 5/4. Coefficient réciproque : 4/5 = 0,8 = 1 − 0,2, soit une **baisse de 20 %** (−20 %). Vérification : 1,25 × 0,8 = 1. Répondre −25 % est l'erreur classique : les pourcentages ne se compensent pas.",
+        },
+        {
+          type: "saisie",
+          question: "Sur quel intervalle l'expression (x + 3)(2 − x) est-elle strictement positive ? (Écris un intervalle, par exemple ]a ; b[.)",
+          reponses: ["]−3 ; 2[", "]-3;2[", "-3 < x < 2", "−3 < x < 2", "x ∈ ]−3 ; 2[", "x∈]-3;2["],
+          explication: "x + 3 s'annule en −3 et est positif à droite de −3 ; 2 − x s'annule en 2 et est positif à gauche de 2. Entre −3 et 2, les deux facteurs sont positifs : le produit est strictement positif sur **]−3 ; 2[**. À l'extérieur, les facteurs sont de signes contraires et le produit est négatif. Les bornes sont exclues car le produit y est nul.",
+        },
+        {
+          type: "saisie",
+          question: "Une boîte à moustaches résume les notes de 200 élèves : minimum 4, Q1 = 9, médiane 12, Q3 = 15, maximum 20. D'après la définition du troisième quartile, au moins quel pourcentage des notes sont inférieures ou égales à 15 ?",
+          reponses: ["75 %", "75", "0,75"],
+          explication: "Q3 = 15 est la plus petite valeur telle qu'au moins 75 % des notes lui sont inférieures ou égales : **au moins 75 %** des notes sont ≤ 15 (soit au moins 150 élèves sur 200). 50 % correspondrait à la médiane, 25 % à Q1.",
+        },
+        {
+          type: "saisie",
+          question: "Dans un lycée (données fictives), on a relevé :\n\n| | Option théâtre | Pas d'option | Total |\n|---|---|---|---|\n| Demi-pensionnaires (D) | 60 | 90 | 150 |\n| Externes | 40 | 60 | 100 |\n| Total | 100 | 150 | 250 |\n\nOn choisit un élève au hasard. On note O l'événement « il suit l'option théâtre ». Donne P_D(O) sous forme de fraction irréductible (la forme demandée compte).",
+          reponses: ["2/5"],
+          explication: "P_D(O) : on se restreint aux 150 demi-pensionnaires, parmi lesquels 60 suivent l'option. P_D(O) = 60/150 = **2/5** (0,4 est la même valeur, mais la consigne demande une fraction irréductible : respecte toujours la forme demandée ; 60/150 n'est pas irréductible). Attention : 60/250 = 6/25 est P(D ∩ O) et 60/100 = 3/5 est P_O(D).",
+        },
+        {
+          type: "saisie",
+          question: "f est définie sur ℝ par f(x) = x³ − 4x + 7. Donne l'expression de f′(x).",
+          reponses: ["3x² − 4", "3x^2-4", "3x²-4", "-4 + 3x²", "−4 + 3x²"],
+          explication: "(x³)′ = 3x², (−4x)′ = −4 et la dérivée d'une constante est nulle : f′(x) = **3x² − 4**.",
+        },
+        {
+          type: "saisie",
+          question: "f est définie sur ℝ par f(x) = 2x² − x. Donne l'équation réduite de la tangente à la courbe de f au point d'abscisse 1.",
+          reponses: ["y = 3x − 2", "y=3x-2", "3x − 2", "3x-2", "y = −2 + 3x", "y=-2+3x"],
+          explication: "f(1) = 2 − 1 = 1 ; f′(x) = 4x − 1, donc f′(1) = 3. Tangente : y = f′(1)(x − 1) + f(1) = 3(x − 1) + 1, soit **y = 3x − 2**. Vérification : le point (1 ; 1) est bien sur cette droite (3 − 2 = 1).",
+        },
+        {
+          type: "saisie",
+          question: "(uₙ) est la suite géométrique de premier terme u₀ = 5 et de raison 2. Calcule u₅.",
+          reponses: ["160", "u5 = 160", "u₅ = 160"],
+          explication: "uₙ = u₀ × qⁿ, donc u₅ = 5 × 2⁵ = 5 × 32 = **160**. (Attention : u₅ est le 6e terme, car on commence à u₀ ; 5 × 2⁴ = 80 est u₄.)",
+        },
+        {
+          type: "saisie",
+          question: "Quelle est la plus grande solution de l'équation (2x − 1)(x + 4) = 0 ?",
+          reponses: ["1/2", "0,5", "x = 1/2"],
+          explication: "Un produit est nul si et seulement si l'un de ses facteurs est nul : 2x − 1 = 0 donne x = 1/2, et x + 4 = 0 donne x = −4. La plus grande solution est **1/2**.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule (3/4 − 1/2) ÷ (1/8).",
+          reponses: ["2"],
+          explication: "3/4 − 1/2 = 3/4 − 2/4 = 1/4. Diviser par 1/8, c'est multiplier par 8 : 1/4 × 8 = **2**.",
+        },
+        {
+          type: "saisie",
+          question: "Simplifie, pour tout réel x : e^(3x) × e^(−x) ÷ eˣ.",
+          reponses: ["eˣ", "e^x", "exp(x)"],
+          explication: "e^(3x) × e^(−x) = e^(3x − x) = e^(2x), puis e^(2x) ÷ eˣ = e^(2x − x) = **eˣ**.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule le discriminant Δ du trinôme x² − 4x + 1.",
+          reponses: ["12", "Δ = 12"],
+          explication: "Δ = b² − 4ac avec a = 1, b = −4, c = 1 : Δ = (−4)² − 4 × 1 × 1 = 16 − 4 = **12**. (Δ > 0 : le trinôme a deux racines, 2 − √3 et 2 + √3.)",
+        },
+        {
+          type: "saisie",
+          question: "On donne P(A) = 0,4, P_A(B) = 0,5 et P_Ā(B) = 0,25. Calcule P(B).",
+          reponses: ["0,35", "0.35", "35 %", "7/20"],
+          explication: "Formule des probabilités totales : P(B) = P(A) × P_A(B) + P(Ā) × P_Ā(B) = 0,4 × 0,5 + 0,6 × 0,25 = 0,2 + 0,15 = **0,35**. Ne pas oublier P(Ā) = 1 − 0,4 = 0,6.",
+        },
+        {
+          type: "redaction",
+          question: "Sans calculatrice. Exercice type partie 2 : soigne la rédaction (la maîtrise de la langue compte pour 2 points).\nSoit f la fonction définie sur [−2 ; 2] par f(x) = x³ − 3x + 1.\n1) Calcule f′(x) et montre que f′(x) = 3(x − 1)(x + 1).\n2) Étudie le signe de f′(x) puis dresse le tableau de variations de f.\n3) Détermine l'équation réduite de la tangente à la courbe de f au point d'abscisse 0.\n4) La proposition « pour tout x ∈ [−2 ; 2], f(x) ≤ 3 » est-elle vraie ? Justifie.",
+          corrige: `1) La fonction f est un polynôme, donc elle est dérivable sur [−2 ; 2]. Pour tout x de [−2 ; 2] :
+f′(x) = 3x² − 3 = 3(x² − 1) = **3(x − 1)(x + 1)**, d'après l'identité a² − b² = (a − b)(a + b).
+
+2) Le facteur 3 est positif ; x − 1 s'annule en 1 et x + 1 s'annule en −1.
+
+| x | −2 … −1 | −1 … 1 | 1 … 2 |
+|---|---|---|---|
+| x + 1 | − | + | + |
+| x − 1 | − | − | + |
+| f′(x) | + | − | + |
+
+Calculons les valeurs utiles : f(−2) = −8 + 6 + 1 = −1 ; f(−1) = −1 + 3 + 1 = 3 ; f(1) = 1 − 3 + 1 = −1 ; f(2) = 8 − 6 + 1 = 3.
+Ainsi, **f est croissante sur [−2 ; −1]** (de −1 à 3), **décroissante sur [−1 ; 1]** (de 3 à −1) et **croissante sur [1 ; 2]** (de −1 à 3).
+
+3) La tangente au point d'abscisse 0 a pour équation y = f′(0)(x − 0) + f(0). Or f(0) = 1 et f′(0) = −3.
+L'équation réduite de la tangente est donc **y = −3x + 1**.
+
+4) D'après le tableau de variations, le maximum de f sur [−2 ; 2] vaut 3, atteint en −1 et en 2. Par conséquent, pour tout x de [−2 ; 2], f(x) ≤ 3 : **la proposition est vraie**.
+
+**Remarques sur la rédaction** : chaque question commence par annoncer ce que l'on calcule, chaque affirmation est justifiée (identité remarquable, signe des facteurs, lecture du tableau), les connecteurs (*donc*, *or*, *ainsi*, *par conséquent*) relient les étapes, et chaque question se termine par une phrase qui répond exactement à ce qui est demandé.`,
+        },
+      ],
+    },
   ],
 };

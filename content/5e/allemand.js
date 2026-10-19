@@ -3,7 +3,7 @@ export default {
     {
       id: "alphabet-prononciation",
       titre: "L'alphabet et la prononciation",
-      theme: "Les bases de la langue",
+      theme: "Outils de la langue",
       cours: `
 ## L'alphabet allemand
 L'allemand utilise les **26 lettres** du français, plus trois voyelles avec *Umlaut* (le tréma allemand) : **ä, ö, ü**, et une consonne spéciale : **ß** (*Eszett* ou *scharfes S*), qui se prononce « ss ».
@@ -88,7 +88,7 @@ En allemand, on appuie fortement sur une syllabe, en général la **première** 
     {
       id: "saluer-se-presenter",
       titre: "Saluer et se présenter",
-      theme: "Communiquer au quotidien",
+      theme: "Portrait, autoportrait",
       cours: `
 ## Saluer et prendre congé
 | Allemand | Français | Quand ? |
@@ -161,7 +161,7 @@ En Autriche et en Bavière, on dit souvent **Grüß Gott!** (bonjour) et **Servu
     {
       id: "nombres-date-heure",
       titre: "Les nombres, la date et l'heure",
-      theme: "Communiquer au quotidien",
+      theme: "Le quotidien : lieux, rythmes, saisons",
       cours: `
 ## Les nombres de 0 à 20
 | | | | |
@@ -235,7 +235,7 @@ Les saisons (masculines) : *der Frühling* (printemps), *der Sommer* (été), *d
     {
       id: "famille-animaux",
       titre: "La famille et les animaux",
-      theme: "Moi et les autres",
+      theme: "Portrait, autoportrait",
       cours: `
 ## La famille (die Familie)
 | Masculin (der) | Féminin (die) | Pluriel (die) |
@@ -304,7 +304,7 @@ Familier : *Papa*, *Mama*. Familles modernes : *der Stiefvater* (beau-père), *d
     {
       id: "genre-articles-pluriel",
       titre: "Le genre des noms, les articles et le pluriel",
-      theme: "Grammaire",
+      theme: "Outils de la langue",
       cours: `
 ## Trois genres
 En allemand, chaque nom a un **genre** : masculin, féminin ou **neutre**. Il ne correspond pas toujours au français : *der Tisch* (la table, masculin), *die Sonne* (le soleil, féminin), *das Mädchen* (la fille, neutre).
@@ -364,7 +364,7 @@ Il n'y a pas une seule règle, mais quelques grands modèles. L'article pluriel 
     {
       id: "present-des-verbes",
       titre: "Les pronoms personnels et le présent des verbes",
-      theme: "Grammaire",
+      theme: "Outils de la langue",
       cours: `
 ## Les pronoms personnels sujets
 | Singulier | Pluriel |
@@ -441,7 +441,7 @@ Certains verbes changent de **voyelle** aux 2e et 3e personnes du **singulier** 
     {
       id: "phrase-questions-negation",
       titre: "La phrase : place du verbe, questions et négation",
-      theme: "Grammaire",
+      theme: "Outils de la langue",
       cours: `
 ## Le verbe en 2e position
 Dans une phrase déclarative, le **verbe conjugué** est toujours le **2e élément** (pas forcément le 2e mot !).
@@ -509,7 +509,7 @@ Le **verbe** se place en **1re position** : *Wohnst du in Berlin?* *Hast du eine
     {
       id: "ecole",
       titre: "L'école et l'emploi du temps",
-      theme: "L'école",
+      theme: "École et loisirs",
       cours: `
 ## Les matières (die Schulfächer)
 | Allemand | Français |
@@ -579,7 +579,7 @@ Les noms de matières s'emploient **sans article** : *Ich habe Mathe.* *Ich mag 
     {
       id: "loisirs-gouts",
       titre: "Les loisirs et les goûts",
-      theme: "Moi et les autres",
+      theme: "École et loisirs",
       cours: `
 ## Les loisirs (die Hobbys / die Freizeit)
 | Activité | Exemple |
@@ -651,7 +651,7 @@ Négation : *Ich mag **keine** Tomaten.* (devant un nom sans article) – *Ich m
     {
       id: "decrire-quelqu-un",
       titre: "Décrire quelqu'un et les possessifs",
-      theme: "Moi et les autres",
+      theme: "Portrait, autoportrait",
       cours: `
 ## L'apparence physique : Wie sieht er/sie aus ?
 On décrit avec **sein** + adjectif (l'adjectif attribut ne s'accorde **pas**) :
@@ -716,7 +716,7 @@ Nuancer : *sehr* (très), *ziemlich* (assez), *ein bisschen* (un peu), *nicht* (
     {
       id: "maison-accusatif",
       titre: "La maison et l'accusatif",
-      theme: "Mon quotidien",
+      theme: "Le quotidien : lieux, rythmes, saisons",
       cours: `
 ## Le logement
 *das Haus* (maison), *die Wohnung* (appartement), *das Zimmer* (pièce, chambre), *der Garten* (jardin), *der Balkon*, *die Garage*, *der Keller* (cave), *die Treppe* (escalier), *der Stock* (étage) : *Wir wohnen im dritten Stock.*
@@ -785,7 +785,7 @@ Le complément d'objet direct se met à l'**accusatif**. Seul le **masculin** ch
     {
       id: "nourriture-verbes-modaux",
       titre: "La nourriture et les verbes de modalité",
-      theme: "Mon quotidien",
+      theme: "Le quotidien : lieux, rythmes, saisons",
       cours: `
 ## Les repas
 *das Frühstück* (petit-déjeuner), *das Mittagessen* (déjeuner), *das Abendessen* / *das Abendbrot* (dîner). *frühstücken* = prendre le petit-déjeuner.
@@ -857,7 +857,7 @@ Remarque : *ich kann*, *er kann* : pas de terminaison à *ich* et *er* (comme *i
     {
       id: "ville-orientation-imperatif",
       titre: "La ville, l'orientation et l'impératif",
-      theme: "Mon quotidien",
+      theme: "Le quotidien : lieux, rythmes, saisons",
       cours: `
 ## Les lieux de la ville (die Stadt)
 | Lieu | Traduction | Lieu | Traduction |
@@ -927,7 +927,7 @@ Ajoute *bitte* pour être poli : *Komm bitte!* *Öffnen Sie bitte das Fenster!* 
     {
       id: "pays-germanophones-fetes",
       titre: "Les pays germanophones et leurs fêtes",
-      theme: "Culture des pays germanophones",
+      theme: "Des langues, des lieux, des histoires",
       cours: `
 ## Où parle-t-on allemand ?
 L'allemand est la **langue maternelle la plus parlée de l'Union européenne** (environ 90 millions de locuteurs natifs dans l'UE, près de 100 millions dans le monde). C'est la langue officielle de l'**Allemagne**, de l'**Autriche** et du **Liechtenstein**, et l'une des langues officielles de la **Suisse**, du **Luxembourg** et de la **Belgique** (communauté germanophone).
@@ -991,7 +991,7 @@ Grandes villes : **Berlin**, **Hamburg** (grand port), **München** (Munich), **
     {
       id: "journee-verbes-separables",
       titre: "Ma journée et les verbes à particule séparable",
-      theme: "Mon quotidien",
+      theme: "Le quotidien : lieux, rythmes, saisons",
       cours: `
 ## Les verbes à particule séparable
 Beaucoup de verbes allemands commencent par une petite **particule** (*auf, an, ein, aus, mit, zu, fern…*). Au présent, cette particule se **détache** du verbe et va **à la fin** de la phrase.
@@ -1050,7 +1050,7 @@ Beaucoup de verbes allemands commencent par une petite **particule** (*auf, an, 
     {
       id: "vetements-couleurs-meteo",
       titre: "Les vêtements, les couleurs et la météo",
-      theme: "Mon quotidien",
+      theme: "Le quotidien : lieux, rythmes, saisons",
       cours: `
 ## Les couleurs (die Farben)
 | Allemand | Français | Allemand | Français |
@@ -1165,6 +1165,473 @@ Au pluriel : *Was **kosten** die Schuhe? – Sie **kosten** sechzig Euro.* Avis 
         { type: "redaction", question: "Écris un message de 7 à 8 phrases à ton correspondant : dis quel temps il fait chez toi aujourd'hui (avec la température) et quelle est la saison, décris ce que tu portes (au moins 3 vêtements, avec *tragen* et la couleur après *sein*), dis ce que tu mets quand il fait froid (*anziehen*), parle d'un vêtement qui te plaît (*gefallen*), puis pose-lui la question *Was trägst du heute?*", corrige: "**Modèle :**\n\n*Hallo Jonas!*\n\n*Hier in Lille ist das Wetter heute schlecht: es regnet und es ist windig. Es sind nur acht Grad. Es ist Herbst, und im November regnet es oft. Heute trage ich eine Jeans, einen Pullover und Turnschuhe. Der Pullover ist dunkelgrün und die Turnschuhe sind weiß. Morgen ist es kalt, dann ziehe ich meinen Mantel und meine Mütze an. Meine Jacke gefällt mir sehr: sie ist rot und warm. Und du? Wie ist das Wetter bei dir? Was trägst du heute?*\n\n*Viele Grüße!*\n*Léa*\n\nPoints à vérifier :\n- météo avec **es** : *es regnet, es ist windig, es sind acht Grad* ; inversion : *Heute ist…*, *im November regnet es* ;\n- **tragen** + accusatif : *einen Pullover* (masc.), *eine Jeans*, *Turnschuhe* (pluriel sans article) ;\n- couleur **invariable** après *sein* : *Der Pullover ist dunkelgrün*, *die Turnschuhe sind weiß* ;\n- **anziehen** séparable : *ich ziehe … an* (particule à la fin) ;\n- **gefallen** : *Meine Jacke gefällt mir* (la chose est le sujet)." },
         { type: "qcm", question: "**Compréhension.** Lis le message : « *Hallo Tom! Hier in Hamburg ist das Wetter heute schlecht: es regnet und es ist kalt, nur fünf Grad. Ich trage einen Mantel, eine Mütze und Stiefel. Meine Mütze ist rot und meine Stiefel sind schwarz. Morgen scheint die Sonne. Viele Grüße, Anna* » Quel temps fait-il aujourd'hui à Hambourg ?", choix: ["Il fait beau et chaud.", "Il neige et il fait −5 °C.", "Il pleut et il fait froid : 5 °C.", "Il y a du vent et du soleil."], reponse: 2, explication: "*es regnet* = il pleut, *es ist kalt* = il fait froid, *nur fünf Grad* = seulement 5 °C. Le soleil (*die Sonne scheint*), c'est pour **demain** (*morgen*)." },
         { type: "saisie", question: "**Compréhension** (même message) : « *Ich trage einen Mantel, eine Mütze und Stiefel. Meine Mütze ist rot und meine Stiefel sind schwarz.* » De quelle couleur est le bonnet d'Anna ? Réponds en allemand, en un mot.", reponses: ["rot"], explication: "*die Mütze* = le bonnet ; *Meine Mütze ist **rot*** = rouge. Après *sein*, la couleur reste invariable (pas *rote*). Les bottes (*die Stiefel*) sont noires (*schwarz*)." },
+      ],
+    },
+    {
+      id: "raconter-au-passe",
+      titre: "Raconter au passé : war, hatte et premiers parfaits",
+      theme: "Le quotidien : lieux, rythmes, saisons",
+      cours: `
+## Deux façons de parler du passé
+Pour raconter ton week-end ou tes vacances, l'allemand utilise surtout deux formes :
+- le **prétérit** de *sein* (être) et *haben* (avoir) : *Ich **war** im Kino. Ich **hatte** Glück.* ;
+- le **parfait** (*das Perfekt*) pour les autres verbes : *Ich **habe** Fußball **gespielt**.* (J'ai joué au foot.)
+
+En français, tu traduis le plus souvent par le passé composé ou l'imparfait : *Es war toll!* = C'était génial ! – *Ich war in Berlin.* = J'étais (j'ai été) à Berlin.
+
+## sein et haben au prétérit
+| Personne | sein → | haben → |
+|---|---|---|
+| ich | **war** | **hatte** |
+| du | **warst** | **hattest** |
+| er / sie / es / man | **war** | **hatte** |
+| wir | **waren** | **hatten** |
+| ihr | **wart** | **hattet** |
+| sie / Sie | **waren** | **hatten** |
+
+>! **Astuce** : comme pour les verbes de modalité (*ich kann, er kann*), **ich** et **er/sie/es** ont la **même forme**, sans terminaison : *ich war, er war* ; *ich hatte, sie hatte*.
+
+Phrases très utiles :
+- *Wie war dein Wochenende?* (Comment s'est passé ton week-end ?) → *Es war super / toll / langweilig.*
+- *Wo warst du gestern?* → *Ich war bei meiner Oma / im Schwimmbad / zu Hause.*
+- *Gestern war ich krank.* (Hier, j'étais malade.) – *Das Wetter war schön.*
+- *Wir hatten viel Spaß.* (On s'est bien amusés.) – *Ich hatte keine Zeit.* – *Hattest du einen Test?*
+
+## Le parfait des verbes faibles : haben + ge-…-t
+>! **Méthode en deux étapes** :
+>! 1. Conjugue **haben** au présent et place-le en **2e position** (*ich habe, du hast, er hat, wir haben, ihr habt, sie haben*).
+>! 2. Mets le **participe passé** **tout à la fin** de la phrase : **ge** + radical + **t**.
+>! *spielen* → radical *spiel* → **ge**spiel**t** : *Ich **habe** gestern Tennis **gespielt**.*
+
+| Infinitif | Participe passé | Exemple |
+|---|---|---|
+| spielen (jouer) | **gespielt** | *Wir haben Fußball gespielt.* |
+| lernen (apprendre) | **gelernt** | *Ich habe Vokabeln gelernt.* |
+| machen (faire) | **gemacht** | *Hast du deine Hausaufgaben gemacht?* |
+| kaufen (acheter) | **gekauft** | *Mama hat Brötchen gekauft.* |
+| suchen (chercher) | **gesucht** | *Er hat seinen Kuli gesucht.* |
+| schenken (offrir) | **geschenkt** | *Oma hat mir ein Buch geschenkt.* |
+| zeigen (montrer) | **gezeigt** | *Tom hat mir seine Fotos gezeigt.* |
+
+C'est la même **pince verbale** (la « parenthèse ») qu'avec les verbes de modalité : *Ich **kann** gut **kochen**.* → *Ich **habe** gut **gekocht**.*
+- Avec inversion : *Am Samstag **habe** ich ein Geschenk für Oma **gekauft**.*
+- Question : ***Hast** du Musik **gehört**?* – *Was **hast** du am Wochenende **gemacht**?*
+- Négation : *nicht* se place juste **avant le participe** : *Ich habe heute **nicht** gelernt.* Devant un nom, on emploie *kein* : *Ich habe **keine** Hausaufgaben gemacht.*
+
+## Un participe sans ge- : verstanden
+*verstehen* (comprendre) commence par le préfixe non accentué **ver-** : son participe ne prend **pas** de *ge-* → **verstanden**. C'est la phrase à connaître en classe :
+- ***Ich habe nicht verstanden.*** (Je n'ai pas compris.) – *Ich habe das nicht verstanden. Können Sie das bitte wiederholen?*
+- *Hast du verstanden? – Ja, ich habe alles verstanden.*
+
+Même chose pour *besuchen* (rendre visite) : *Ich habe meine Tante **besucht**.*
+
+>! **Et les verbes de déplacement ?** Avec *gehen* ou *fahren*, le parfait se forme avec *sein* (*Ich bin ins Kino gegangen*) : tu l'apprendras plus tard. Pour l'instant, dis simplement : *Ich **war** im Kino. Ich **war** in Paris.*
+
+## Se repérer dans le passé
+| Allemand | Français |
+|---|---|
+| gestern | hier |
+| vorgestern | avant-hier |
+| gestern Abend | hier soir |
+| am Wochenende | le week-end, ce week-end |
+| am Samstag / am Sonntag | samedi / dimanche |
+| letzte Woche | la semaine dernière |
+| zuerst, dann, danach, später, zum Schluss | d'abord, puis, ensuite, plus tard, pour finir |
+
+Ces mots placés en tête de phrase entraînent l'**inversion** : *Gestern **war ich** krank.* – *Letzte Woche **hatten wir** einen Test.* – *Dann **haben wir** Karten **gespielt**.*
+
+> **À retenir** : prétérit de *sein* : war, warst, war, waren, wart, waren ; de *haben* : hatte, hattest, hatte, hatten, hattet, hatten. Parfait : **haben** en 2e position + participe **ge-…-t à la fin** (*gespielt, gelernt, gemacht, gekauft, gesucht, geschenkt, gezeigt*). Sans *ge-* : **verstanden** → *Ich habe nicht verstanden.* *gestern, letzte Woche, am Wochenende* + inversion.
+
+### Erreurs fréquentes
+- *Ich habe gespielt Fußball* → *Ich habe Fußball **gespielt*** (participe à la fin).
+- *gespielen*, *gemachen* → **gespielt**, **gemacht** (verbes faibles : terminaison **-t**).
+- *Ich habe geverstanden* → *Ich habe **verstanden*** (pas de *ge-* après *ver-*).
+- *Gestern ich habe gelernt* → *Gestern **habe ich** gelernt* (inversion).
+- *er hatt*, *er ware* → **er hatte**, **er war**.
+`,
+      exercices: [
+        { type: "saisie", question: "Complète avec *sein* au prétérit : « Gestern ___ ich krank. »", reponses: ["war", "ich war"], explication: "*sein* au prétérit : **ich war**, du warst, er war, wir waren, ihr wart, sie waren. Comme *Gestern* est en tête, le sujet *ich* passe après le verbe : *Gestern war ich krank.*" },
+        { type: "qcm", question: "Complète : « Am Samstag ___ wir keine Zeit. »", choix: ["waren", "hatten", "hattet", "hatte"], reponse: 1, explication: "On dit *Zeit **haben*** (avoir le temps). Avec *wir*, le prétérit de *haben* est **hatten**. *hattet* va avec *ihr*, *hatte* avec *ich* ou *er/sie* ; *waren* vient de *sein*." },
+        { type: "saisie", question: "Complète avec *sein* au prétérit : « Wo ___ du gestern Abend? »", reponses: ["warst", "warst du"], explication: "Avec *du*, le prétérit de *sein* est **warst** : *Wo warst du gestern Abend?* (Où étais-tu hier soir ?)" },
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Ich habe gespielt gestern Fußball.", "Gestern ich habe Fußball gespielt.", "Ich gestern habe Fußball gespielt.", "Ich habe gestern Fußball gespielt."], reponse: 3, explication: "**haben** conjugué en 2e position, **participe à la fin** : *Ich habe gestern Fußball gespielt.* Si la phrase commence par *Gestern*, il faut l'inversion : *Gestern habe ich Fußball gespielt.*" },
+        { type: "saisie", question: "Mets la phrase au parfait : « Ich lerne Vokabeln. » → « Ich ___ Vokabeln ___. » Écris la phrase entière.", reponses: ["Ich habe Vokabeln gelernt.", "Ich habe Vokabeln gelernt"], explication: "*habe* en 2e position, participe **gelernt** à la fin : *Ich habe Vokabeln gelernt.*" },
+        { type: "saisie", question: "Commence la phrase par *Am Wochenende* : « Wir haben einen Kuchen gemacht. » → « Am Wochenende … »", reponses: ["Am Wochenende haben wir einen Kuchen gemacht.", "Am Wochenende haben wir einen Kuchen gemacht"], explication: "*Am Wochenende* (1) **haben** (2) **wir** (3) *einen Kuchen* … **gemacht** (fin) : inversion du sujet, et le participe reste à la fin." },
+        { type: "vf", question: "Le participe passé de *verstehen* est *geverstanden*.", reponse: false, explication: "*verstehen* commence par le préfixe **ver-** : pas de *ge-*. On dit **verstanden** : *Ich habe nicht verstanden.*" },
+        { type: "saisie", question: "Traduis : « Je n'ai pas compris. »", reponses: ["Ich habe nicht verstanden.", "Ich habe nicht verstanden", "Ich habe das nicht verstanden.", "Ich habe das nicht verstanden", "Ich habe es nicht verstanden.", "Ich habe es nicht verstanden"], explication: "**Ich habe nicht verstanden.** *habe* en 2e position, *nicht* juste avant le participe *verstanden*, qui est à la fin. Tu peux ajouter : *Können Sie das bitte wiederholen?*" },
+        { type: "qcm", question: "**Compréhension.** Lis le message de Lina : « *Hallo! Am Wochenende war ich bei meinen Großeltern in Köln. Am Samstag war das Wetter schön. Wir haben im Garten Fußball gespielt und Opa hat Eis gekauft. Am Sonntag hat es geregnet, also habe ich Deutsch gelernt. Es war ein bisschen langweilig!* » Qu'a fait Lina le dimanche ?", choix: ["Elle a joué au football dans le jardin.", "Elle a acheté des glaces avec son grand-père.", "Elle a appris son allemand, car il pleuvait.", "Elle est rentrée chez elle en train."], reponse: 2, explication: "*Am Sonntag hat es geregnet, also habe ich Deutsch gelernt* : dimanche il a plu, **donc** (*also*) elle a appris son allemand (*gelernt*). Le foot et la glace, c'était **samedi**. Le train n'est pas mentionné." },
+        { type: "redaction", question: "**Mein Wochenende.** Raconte ton dernier week-end (réel ou imaginaire) en 6 phrases au moins. Utilise : *war* et *hatte* (au moins une fois chacun), 3 verbes au parfait parmi *spielen, lernen, machen, kaufen, suchen, schenken*, au moins deux repères de temps (*am Samstag, am Sonntag, dann…*) et donne ton avis pour finir (*Es war…*).", corrige: "**Modèle :**\n\n*Am Wochenende war ich bei meinem Freund Hugo. Am Samstag hatten wir viel Spaß: wir haben zusammen Videospiele gespielt. Dann haben wir eine Pizza gemacht. Am Sonntag hatte meine Mutter Geburtstag. Ich habe ihr ein Buch geschenkt und mein Vater hat einen Kuchen gekauft. Am Abend habe ich leider noch Mathe gelernt. Es war ein tolles Wochenende!*\n\nPoints à vérifier :\n- prétérit : *ich war*, *wir hatten*, *sie hatte* (même forme pour *ich* et *er/sie*) ;\n- parfait : **haben** en 2e position + participe **ge-…-t** à la fin (*gespielt, gemacht, geschenkt, gekauft, gelernt*) ;\n- **inversion** après *Am Samstag, Dann, Am Sonntag, Am Abend* (*Am Samstag hatten wir…*, *Dann haben wir…*) ;\n- avis final avec **Es war** + adjectif (*super, toll, langweilig*)." },
+      ],
+    },
+    {
+      id: "comparer-nuancer",
+      titre: "Comparer et nuancer",
+      theme: "École et loisirs",
+      cours: `
+## Le comparatif de supériorité : adjectif + -er + als
+Pour dire « plus … que », on ajoute **-er** à l'adjectif, puis **als** (que).
+- *Mein Bruder ist **älter als** ich.* (Mon frère est plus âgé que moi.)
+- *Deutsch ist **interessanter als** Mathe.*
+- *Im Sommer ist es **wärmer als** im Winter.*
+
+| Adjectif | Comparatif | Remarque |
+|---|---|---|
+| klein (petit) | **kleiner** | régulier |
+| schön (beau) | **schöner** | régulier |
+| lustig (drôle) | **lustiger** | régulier |
+| interessant | **interessanter** | même les adjectifs longs : pas de « plus » ! |
+| langweilig (ennuyeux) | **langweiliger** | régulier |
+| alt (vieux) | **älter** | Umlaut |
+| jung (jeune) | **jünger** | Umlaut |
+| groß (grand) | **größer** | Umlaut |
+| lang (long) | **länger** | Umlaut |
+| kurz (court) | **kürzer** | Umlaut |
+| warm / kalt | **wärmer / kälter** | Umlaut |
+| gut (bon) | **besser** | **irrégulier** |
+| hoch (haut) | **höher** | irrégulier (à reconnaître) |
+
+>! **Repère** : beaucoup d'adjectifs **courts** en *a, o, u* prennent un **Umlaut** au comparatif (*alt → älter*, *groß → größer*, *jung → jünger*). Et **gut → besser** est à savoir par cœur : *Eine 1 ist **besser als** eine 2.*
+
+Après *als*, on garde le **nominatif** : *Er ist größer als **ich*** (et non *als mich*).
+
+## L'égalité et l'infériorité : so … wie / nicht so … wie
+- **so** + adjectif **simple** + **wie** = aussi … que : *Lena ist **so groß wie** Tom.*
+- **nicht so** + adjectif + **wie** = moins … que : *Mathe ist **nicht so schwer wie** Physik.* (Les maths sont moins difficiles que la physique.)
+
+>! Avec *so … wie*, l'adjectif reste **sans -er** : *so groß wie* (jamais *so größer wie*).
+
+## Nuancer un adjectif : sehr, so, zu, total, ganz, echt
+| Mot | Sens | Exemple |
+|---|---|---|
+| sehr | très | *Der Film ist sehr spannend.* |
+| so | si, tellement | *Das ist so lustig!* |
+| zu | **trop** (c'est un problème) | *Die Jacke ist zu teuer.* |
+| total | totalement, super (familier) | *Das ist total cool!* |
+| ganz | tout à fait, vraiment ; avec *gut* : « plutôt » | *Das ist ganz toll!* – *Es war ganz gut.* (plutôt bien) |
+| echt | vraiment (familier) | *Der Test war echt schwer.* |
+
+Ces mots se placent **devant l'adjectif**. Devant un comparatif, on dit **viel** (beaucoup) : *Das ist **viel besser**!* (et non *sehr besser*).
+
+## Relier et justifier : denn, also, zum Beispiel
+- **denn** (car) relie deux phrases et **ne compte pas** comme un élément : sujet puis verbe, comme d'habitude. *Ich mag Deutsch, **denn** die Lehrerin **ist** nett.*
+- **also** (donc) en tête de phrase **compte** comme 1er élément → **inversion** : *Es regnet, **also bleibe ich** zu Hause.*
+- **zum Beispiel** (par exemple) et **wie** (comme) pour illustrer : *Ich habe viele Hobbys, **zum Beispiel** Tennis und Musik.* – *Fächer **wie** Kunst und Musik finde ich toll.*
+- Rappel : **und, aber, oder**, comme *denn*, ne comptent pas : *Ich spiele Gitarre, **aber** ich spiele nicht gut.*
+
+## Exprimer un sentiment ou une probabilité : leider, zum Glück, vielleicht
+- **leider** (malheureusement, regret) : ***Leider habe ich** keine Zeit.* ou *Ich habe **leider** keine Zeit.*
+- **zum Glück** (heureusement, soulagement) : ***Zum Glück war** der Test leicht.*
+- **vielleicht** (peut-être) et **sicher** (sûrement) : ***Vielleicht fahren wir** im Sommer nach Berlin.*
+
+En tête de phrase, ces mots sont le 1er élément : le verbe vient juste après, puis le sujet.
+
+## Comparer le collège en France et l'école en Allemagne
+| | En France | En Allemagne |
+|---|---|---|
+| La classe de 5e | en 5e au collège | in der **7. Klasse** |
+| Après l'école primaire | le collège pour tous | après la *Grundschule* (4 ans ; 6 à Berlin et dans le Brandebourg), plusieurs types d'écoles selon le Land : *Gymnasium, Realschule, Gesamtschule*… |
+| La journée | souvent jusqu'à 16 h ou 17 h, avec la cantine | souvent jusqu'au début de l'après-midi (*Halbtagsschule*), mais de plus en plus de *Ganztagsschulen* |
+| Les notes | souvent sur 20 (20 = la meilleure) | de 1 à 6 (**1** = la meilleure) |
+| Les activités | clubs, association sportive | des *AGs* à l'école et des *Vereine* (associations) |
+| Les grandes vacances | environ 8 semaines, en juillet et août | en général environ 6 semaines ; les dates changent selon le Land (roulement entre fin juin et mi-septembre) |
+
+>! **Exemples de phrases** :
+>! *In Deutschland ist der Schultag oft **kürzer als** in Frankreich, **denn** viele Schüler haben nachmittags frei.*
+>! *Die Sommerferien sind in Frankreich **länger als** in Deutschland.*
+>! *In Deutschland ist eine 1 die beste Note, **also** ist eine 1 **besser als** eine 6!*
+
+> **À retenir** : comparatif = adjectif + **-er** + **als** (*kleiner als*, *interessanter als*) ; Umlaut pour beaucoup d'adjectifs courts (*älter, größer, jünger*) ; **gut → besser**. Égalité : **so … wie** ; infériorité : **nicht so … wie**. Intensité : *sehr, so, zu* (trop), *total, ganz, echt* ; **viel besser**. *denn* (car, sans inversion) ; *also* (donc, avec inversion) ; *zum Beispiel* ; *leider, zum Glück, vielleicht* + inversion en tête.
+
+### Erreurs fréquentes
+- *mehr interessant* → **interessanter** : l'allemand n'emploie pas « plus » devant l'adjectif.
+- *alter als* → **älter als** ; *guter als* → **besser als**.
+- *so größer wie* → **so groß wie**.
+- *sehr besser* → **viel besser**.
+- Confondre **zu** (trop) et **sehr** (très) : *Das Eis ist sehr gut* (il est très bon) ≠ *Das Eis ist zu süß* (trop sucré).
+- *Es regnet, also ich bleibe zu Hause* → *also **bleibe ich*** ; mais *…, denn **ich bin** krank* (pas d'inversion après *denn*).
+`,
+      exercices: [
+        { type: "saisie", question: "Complète avec le comparatif de *gut* : « In Deutschland ist eine 1 ___ als eine 2. »", reponses: ["besser"], explication: "*gut* a un comparatif **irrégulier** : **besser**. En Allemagne, la note 1 est la meilleure, donc *eine 1 ist besser als eine 2*." },
+        { type: "qcm", question: "Quel est le comparatif de *alt* ?", choix: ["alter", "mehr alt", "älter", "ältest"], reponse: 2, explication: "Comme beaucoup d'adjectifs courts en *a, o, u*, *alt* prend un **Umlaut** : **älter**. *Mein Bruder ist älter als ich.* On ne dit jamais *mehr alt*." },
+        { type: "qcm", question: "Tom mesure 1,50 m, Lena aussi. Complète : « Lena ist ___ Tom. »", choix: ["so groß wie", "größer als", "so größer wie", "nicht so groß wie"], reponse: 0, explication: "Ils ont la même taille : égalité → **so** + adjectif simple + **wie** : *Lena ist so groß wie Tom.* *so größer wie* est faux (pas de -er avec *so … wie*)." },
+        { type: "vf", question: "*Mathe ist nicht so schwer wie Physik* signifie que les maths sont plus difficiles que la physique.", reponse: false, explication: "**nicht so … wie** = **moins … que** : les maths sont **moins** difficiles que la physique." },
+        { type: "qcm", question: "Le pull coûte 200 euros. Tu ne l'achètes pas. Complète : « Er ist ___ teuer. »", choix: ["ganz", "sehr", "echt", "zu"], reponse: 3, explication: "**zu** = **trop** : le prix pose problème, donc tu ne l'achètes pas. *sehr*, *echt* et *ganz* renforcent l'adjectif sans dire que c'est un obstacle." },
+        { type: "saisie", question: "Relie les deux phrases avec *denn* : « Ich mag Deutsch. Die Lehrerin ist nett. »", reponses: ["Ich mag Deutsch, denn die Lehrerin ist nett.", "Ich mag Deutsch, denn die Lehrerin ist nett", "Ich mag Deutsch denn die Lehrerin ist nett"], explication: "**denn** (car) ne compte pas comme un élément : après *denn*, on garde l'ordre sujet + verbe : *…, denn die Lehrerin ist nett.*" },
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Es regnet, also ich bleibe zu Hause.", "Es regnet, also bleibe ich zu Hause.", "Es regnet, also ich zu Hause bleibe.", "Es regnet, denn bleibe ich zu Hause."], reponse: 1, explication: "**also** (donc) compte comme 1er élément : le verbe vient juste après, puis le sujet → *also bleibe ich*. Après *denn*, il n'y a pas d'inversion (et le sens serait illogique ici)." },
+        { type: "saisie", question: "Traduis : « Heureusement, le contrôle était facile. » (commence par *Zum Glück*)", reponses: ["Zum Glück war der Test leicht.", "Zum Glück war der Test leicht", "Zum Glück war der Test einfach.", "Zum Glück war der Test einfach", "Zum Glück war die Klassenarbeit leicht.", "Zum Glück war die Klassenarbeit leicht", "Zum Glück war die Prüfung leicht.", "Zum Glück war die Prüfung leicht", "Zum Glück war die Klassenarbeit einfach.", "Zum Glück war die Klassenarbeit einfach", "Zum Glück war die Prüfung einfach.", "Zum Glück war die Prüfung einfach"], explication: "*Zum Glück* (1) **war** (2) **der Test** (3) *leicht* : inversion après *Zum Glück*. *der Test* = le contrôle ; *war* = prétérit de *sein*." },
+        { type: "qcm", question: "**Compréhension.** Lis le message de Jonas : « *Meine Schule in Bremen ist eine Ganztagsschule. Der Unterricht endet um 15.30 Uhr, also habe ich nicht so viel Freizeit wie mein Freund Felix. Seine Schule ist kleiner als meine, aber meine Schule hat viele AGs, zum Beispiel Theater und Robotik. Das finde ich total cool!* » Quelle affirmation est vraie ?", choix: ["L'école de Jonas est plus petite que celle de Felix.", "Jonas a autant de temps libre que Felix.", "L'école de Jonas propose des activités, par exemple le théâtre.", "Jonas trouve les AGs ennuyeuses."], reponse: 2, explication: "*viele AGs, zum Beispiel Theater und Robotik* : beaucoup d'activités, **par exemple** le théâtre. *Seine Schule ist kleiner als meine* : c'est l'école de **Felix** qui est plus petite ; *nicht so viel Freizeit wie* : Jonas a **moins** de temps libre ; *total cool* : il trouve ça génial." },
+        { type: "redaction", question: "Compare le collège en France et l'école en Allemagne en 6 à 8 phrases (en allemand). Utilise au moins deux comparatifs (dont *besser*), une phrase avec *so … wie* ou *nicht so … wie*, un mot pour nuancer (*sehr, zu, total…*), *denn* et *also*, et termine par ton avis avec *vielleicht* ou *leider*.", corrige: "**Modèle :**\n\n*In Frankreich bin ich in der 5e, das ist in Deutschland die siebte Klasse. In Frankreich ist der Schultag länger als in Deutschland, denn wir haben bis 17 Uhr Unterricht. In Deutschland haben viele Schüler nachmittags frei, also haben sie mehr Freizeit. Aber es gibt auch Ganztagsschulen. In Deutschland ist eine 1 die beste Note: eine 1 ist besser als eine 2! Die Sommerferien sind in Deutschland nicht so lang wie in Frankreich. Die AGs finde ich total cool, zum Beispiel Theater oder Chor. Vielleicht ist die Schule in Deutschland lustiger, aber leider ist sie weit weg!*\n\nPoints à vérifier :\n- comparatifs : *länger als*, *besser als*, *lustiger* ; **besser** irrégulier ;\n- *nicht so lang wie* : adjectif sans -er ;\n- **denn** sans inversion (*denn wir haben…*) ; **also** avec inversion (*also haben sie…*) ;\n- **vielleicht / leider** en tête → verbe juste après (*Vielleicht ist die Schule…*) ;\n- les informations sont exactes : 7. Klasse = 5e, notes de 1 à 6, *Ganztagsschule*, vacances d'été d'environ 6 semaines en Allemagne." },
+      ],
+    },
+    {
+      id: "duerfen-wissen-haette-gern",
+      titre: "Ce qu'on a le droit de faire : dürfen, wissen, ich hätte gern",
+      theme: "École et loisirs",
+      cours: `
+## dürfen : avoir le droit, avoir la permission
+*dürfen* est un **verbe de modalité**, comme *können, müssen, wollen* : il change de voyelle au singulier, *ich* et *er* n'ont pas de terminaison, et l'**infinitif va à la fin** de la phrase.
+
+| dürfen |
+|---|
+| ich **darf** – du **darfst** – er/sie/es/man **darf** |
+| wir dürfen – ihr dürft – sie/Sie dürfen |
+
+- **Demander la permission** : ***Darf** ich auf die Toilette **gehen**?* – ***Darf** ich das Fenster **aufmachen**?* – ***Darf** ich hier **trinken**?* – *Darf ich etwas fragen?*
+- **Accepter** : *Ja, du darfst.* – *Ja, klar! / Ja, natürlich!* – (poli) *Ja, Sie dürfen.*
+- **Refuser** : *Nein, das darfst du nicht.* – *Nein, leider nicht.*
+- **Énoncer une règle** avec **man** (on) : *In der Bibliothek **darf man** nicht laut **sprechen**.* (À la bibliothèque, on n'a pas le droit de parler fort.)
+
+>! **Piège : darf nicht ≠ muss nicht**
+>! *Du **darfst** nicht kommen.* = Tu **n'as pas le droit** de venir (interdiction).
+>! *Du **musst** nicht kommen.* = Tu **n'es pas obligé** de venir (pas d'obligation).
+>! *Im Unterricht darf ich nicht essen.* – *Am Sonntag muss ich nicht früh aufstehen.*
+
+## erlaubt / verboten
+- *Das ist **erlaubt**.* (C'est permis.) – *Das ist **nicht erlaubt**.* – *Das ist **verboten**.* (C'est interdit.)
+- Sur les panneaux : ***Rauchen verboten!*** (Interdit de fumer) – *Ballspielen verboten!* (Jeux de ballon interdits)
+- Une activité peut devenir un **nom neutre** (avec majuscule), comme *das Reiten* : ***Essen** ist im Klassenzimmer verboten.* – ***Trinken** ist erlaubt.*
+- *Handys sind im Unterricht verboten.* (pluriel : *sind*)
+
+## Le règlement de l'école (die Schulordnung)
+>! **Die Schulordnung der Goethe-Schule** (texte d'entraînement, école fictive)
+>! 1. Der Unterricht beginnt um 7.45 Uhr. Man muss pünktlich sein.
+>! 2. Im Klassenzimmer darf man nicht essen. Trinken ist erlaubt, aber nur Wasser.
+>! 3. Handys sind im Unterricht verboten.
+>! 4. Auf dem Schulhof darf man Fußball spielen, aber nicht im Schulgebäude.
+>! 5. Rauchen ist verboten.
+>! 6. Man darf die Schule in der Pause nicht verlassen.
+
+Vocabulaire : *der Unterricht* (les cours), *pünktlich* (à l'heure), *das Klassenzimmer* (la salle de classe), *der Schulhof* (la cour), *das Schulgebäude* (le bâtiment), *die Mensa* (la cantine), *verlassen* (quitter).
+
+## wissen : savoir
+| wissen |
+|---|
+| ich **weiß** – du **weißt** – er/sie/es **weiß** |
+| wir wissen – ihr wisst – sie/Sie wissen |
+
+Comme un verbe de modalité : *ich weiß* et *er weiß* ont la même forme, sans terminaison.
+- ***Das weiß ich nicht.*** / *Ich weiß es nicht.* / *Ich weiß nicht.* (Je ne sais pas.)
+- *Weißt du das?* – *Ja, das weiß ich!* – *Keine Ahnung!* (Aucune idée !, familier)
+- En classe : *Wer weiß die Antwort?* (Qui connaît la réponse ?)
+
+>! **wissen ou kennen ?** **wissen** = savoir une **information** (*Ich weiß die Antwort.*) ; **kennen** = connaître une **personne** ou un **lieu** (*Ich kenne Tom.* *Ich kenne Berlin.*).
+
+## Commander poliment : Ich hätte gern…
+*Ich hätte gern* (« j'aimerais bien avoir ») est la formule la plus courante dans un magasin ou au café. Elle est suivie d'un **nom à l'accusatif**, sans infinitif à la fin :
+- *Ich hätte gern **eine** Brezel, bitte.* – *Ich hätte gern **einen** Apfelsaft.* (masculin : *einen*) – *Ich hätte gern **ein** Stück Kuchen.* – *Ich hätte gern zwei Kugeln Eis.* (deux boules de glace)
+- Au pluriel : *Wir hätten gern zwei Brötchen.*
+- Tu connais aussi *Ich möchte…* et *Ich nehme…* : *Ich möchte einen Kakao.* – *Ich nehme ein Eis.*
+
+| Le vendeur / la vendeuse | Le client / la cliente |
+|---|---|
+| *Guten Tag! Was darf es sein?* (Vous désirez ?) | *Ich hätte gern drei Brötchen, bitte.* |
+| *Sonst noch etwas?* (Et avec ceci ?) | *Nein, danke, das ist alles.* |
+| *Das macht zwei Euro zehn.* (Ça fait 2,10 €.) | *Hier, bitte.* |
+| *Danke schön! Tschüs!* | *Auf Wiedersehen!* |
+
+>! *hätte* est une forme de *haben* (le subjonctif) qui sert à exprimer un **souhait poli**. *Ich **habe** gern…* ne sert pas à commander !
+
+> **À retenir** : *dürfen* : ich **darf**, du **darfst**, er **darf**, wir dürfen ; modal en 2e position + infinitif à la fin : *Darf ich auf die Toilette gehen?* ; **darf nicht** = interdiction, **muss nicht** = pas d'obligation ; *erlaubt / verboten*. *wissen* : ich **weiß**, du **weißt**, er **weiß** ; *Das weiß ich nicht.* Commander : **Ich hätte gern** + accusatif (*einen Saft, eine Brezel, ein Eis*).
+
+### Erreurs fréquentes
+- *Ich darfe*, *er darft* → **ich darf**, **er darf**.
+- *Darf ich gehen auf die Toilette?* → *Darf ich auf die Toilette **gehen**?* (infinitif à la fin).
+- Traduire « tu n'es pas obligé » par *du darfst nicht* : c'est **du musst nicht**.
+- *Ich weiße*, *er weißt* → **ich weiß**, **er weiß**.
+- *Ich hätte gern ein Apfelsaft* → *Ich hätte gern **einen** Apfelsaft* (accusatif masculin).
+`,
+      exercices: [
+        { type: "saisie", question: "Conjugue *dürfen* : « Du ___ hier nicht Fußball spielen. »", reponses: ["darfst", "du darfst"], explication: "*dürfen* : ich darf, **du darfst**, er darf, wir dürfen, ihr dürft, sie dürfen. *Du darfst hier nicht Fußball spielen* = tu n'as pas le droit de jouer au foot ici." },
+        { type: "saisie", question: "Conjugue *wissen* : « Das ___ ich nicht. »", reponses: ["weiß", "weiss"], explication: "*wissen* : **ich weiß**, du weißt, er weiß, wir wissen, ihr wisst, sie wissen. *Das weiß ich nicht* = je ne sais pas." },
+        { type: "qcm", question: "En classe, tu veux demander la permission d'aller aux toilettes. Que dis-tu ?", choix: ["Ich darf auf die Toilette gehen.", "Darf ich auf die Toilette gehen?", "Darf ich gehen auf die Toilette?", "Muss ich auf die Toilette gehen?"], reponse: 1, explication: "Question fermée : le modal **Darf** en 1re position, l'infinitif **gehen** à la fin : *Darf ich auf die Toilette gehen?* *Muss ich…?* signifierait « Est-ce que je dois… ? »." },
+        { type: "vf", question: "*Du musst nicht kommen* signifie « Tu n'as pas le droit de venir ».", reponse: false, explication: "*Du **musst** nicht kommen* = tu **n'es pas obligé** de venir. L'interdiction se dit avec *dürfen* : *Du **darfst** nicht kommen.*" },
+        { type: "saisie", question: "Donne le contraire de *verboten* (interdit).", reponses: ["erlaubt"], explication: "**erlaubt** = permis, autorisé. *Trinken ist erlaubt, aber Essen ist verboten.*" },
+        { type: "qcm", question: "Complète : « Ich ___ deinen Bruder nicht. » (Je ne connais pas ton frère.)", choix: ["weiß", "darf", "kenne", "hätte"], reponse: 2, explication: "Pour connaître une **personne** ou un lieu, on emploie **kennen** : *Ich kenne deinen Bruder nicht.* **wissen** sert pour une information : *Das weiß ich nicht.*" },
+        { type: "saisie", question: "À la boulangerie, commande poliment un bretzel avec *Ich hätte gern* (*die Brezel*).", reponses: ["Ich hätte gern eine Brezel.", "Ich hätte gern eine Brezel", "Ich hätte gern eine Brezel, bitte.", "Ich hätte gern eine Brezel bitte", "Ich hätte gerne eine Brezel.", "Ich hätte gerne eine Brezel", "Ich hätte gerne eine Brezel, bitte.", "Ich hätte gerne eine Brezel bitte", "Ich hätte gern bitte eine Brezel", "Ich hätte bitte gern eine Brezel", "Ich hätte bitte gerne eine Brezel", "Ich hätte gerne bitte eine Brezel"], explication: "**Ich hätte gern** + accusatif : *die Brezel* est féminin → **eine** Brezel. Tu peux ajouter *bitte*. Le vendeur répondra peut-être : *Sonst noch etwas?*" },
+        { type: "qcm", question: "Complète : « Ich hätte gern ___ Apfelsaft, bitte. » (*der Saft*)", choix: ["einen", "ein", "eine", "einer"], reponse: 0, explication: "Après *Ich hätte gern*, le nom est à l'**accusatif** ; *der Apfelsaft* est masculin → **einen** Apfelsaft. Au neutre : *ein Eis* ; au féminin : *eine Brezel*." },
+        { type: "qcm", question: "**Compréhension.** Relis la *Schulordnung* de la Goethe-Schule : « *Im Klassenzimmer darf man nicht essen. Trinken ist erlaubt, aber nur Wasser. Handys sind im Unterricht verboten. Auf dem Schulhof darf man Fußball spielen, aber nicht im Schulgebäude.* » Quelle affirmation est vraie ?", choix: ["On peut manger en classe.", "On peut boire du jus de fruits en classe.", "On peut utiliser son portable en cours.", "On peut jouer au foot dans la cour."], reponse: 3, explication: "*Auf dem Schulhof darf man Fußball spielen* : dans la **cour**, c'est permis (mais pas dans le bâtiment). Manger en classe est interdit (*darf man nicht essen*), on ne peut boire que de l'eau (*nur Wasser*) et les portables sont interdits en cours (*verboten*)." },
+        { type: "redaction", question: "Écris un dialogue de 8 à 10 répliques. Tu es en échange dans une école allemande. **1)** Pendant la pause, tu demandes à ta correspondante Mia ce qu'on a le droit de faire (au moins deux questions avec *Darf man…?* ou *Darf ich…?*) ; elle répond avec *erlaubt / verboten* et une fois *Das weiß ich nicht*. **2)** Après l'école, vous allez à la boulangerie : tu commandes avec *Ich hätte gern…* et tu payes.", corrige: "**Modèle :**\n\n*In der Pause*\n- *Ich : Mia, darf man in der Pause Musik hören?*\n- *Mia : Ja, das ist erlaubt. Aber im Unterricht sind Handys verboten.*\n- *Ich : Und darf ich im Klassenzimmer essen?*\n- *Mia : Nein, Essen ist im Klassenzimmer verboten. Trinken darf man.*\n- *Ich : Darf man in der Pause nach Hause gehen?*\n- *Mia : Hm, das weiß ich nicht. Wir fragen den Lehrer!*\n\n*In der Bäckerei*\n- *Verkäuferin : Guten Tag! Was darf es sein?*\n- *Ich : Ich hätte gern eine Brezel und einen Apfelsaft, bitte.*\n- *Verkäuferin : Sonst noch etwas?*\n- *Ich : Nein, danke, das ist alles. Was kostet das?*\n- *Verkäuferin : Das macht drei Euro zwanzig.*\n- *Ich : Hier, bitte. Auf Wiedersehen!*\n\nPoints à vérifier :\n- **Darf** en 1re position et **infinitif à la fin** (*Darf man … Musik hören?*) ;\n- *ist erlaubt / ist verboten* ; *sind verboten* au pluriel (*Handys*) ;\n- **Das weiß ich nicht** (ich **weiß**, sans terminaison) ;\n- **Ich hätte gern** + accusatif : *eine Brezel*, *einen Apfelsaft* ;\n- formules du magasin : *Was darf es sein? – Sonst noch etwas? – Das macht…*" },
+      ],
+    },
+    {
+      id: "merveilleux-legendes",
+      titre: "Merveilleux et légendes",
+      theme: "Le réel et l'imaginaire",
+      cours: `
+## Le merveilleux dans les pays germanophones
+Contes, légendes, personnages magiques : le merveilleux tient une grande place dans la culture allemande, des fêtes de Noël jusqu'aux châteaux de Bavière. Dans ce chapitre, tu découvres qui apporte les cadeaux, les contes des frères Grimm, la légende de la Lorelei et le château de Neuschwanstein.
+
+## Qui apporte les cadeaux ? Christkind ou Weihnachtsmann
+- **das Christkind** (l'Enfant Jésus) : on le représente souvent comme un enfant ou une jeune fille lumineuse, avec des ailes et des cheveux blonds bouclés. Il apporte les cadeaux le **24 décembre au soir** (*Heiligabend*), surtout dans le **sud et l'ouest** de l'Allemagne, en **Autriche** et en **Suisse**. On attribue souvent cette tradition à **Martin Luther** (XVIe siècle), qui voulait remplacer saint Nicolas par le Christ enfant. À Nuremberg, une jeune femme élue joue le rôle du Christkind et ouvre le célèbre marché de Noël, le *Christkindlesmarkt*.
+- **der Weihnachtsmann** : un vieil homme à barbe blanche et au manteau rouge, comme le père Noël ; on le trouve plutôt dans le **nord et l'est** de l'Allemagne.
+- À Pâques, c'est **der Osterhase** (le lièvre de Pâques) qui apporte les œufs.
+
+>! **Phrases utiles** : *Bei uns **bringt** das Christkind die Geschenke.* – *Wer bringt bei euch die Geschenke?* – *Der Weihnachtsmann bringt die Geschenke.* (*bringen* = apporter)
+
+## Les contes des frères Grimm (die Brüder Grimm)
+**Jacob** (1785-1863) et **Wilhelm** (1786-1859) **Grimm**, nés à Hanau (Hesse), étaient des savants passionnés par la langue allemande. Ils ont recueilli des contes populaires et publié en **1812** le premier volume des *Kinder- und Hausmärchen* (Contes pour les enfants et la maison).
+- Contes célèbres : *Hänsel und Gretel*, *Rotkäppchen* (le Petit Chaperon rouge), *Schneewittchen* (Blanche-Neige), *Aschenputtel* (Cendrillon), *Dornröschen* (la Belle au bois dormant), *Rapunzel*, *Die Bremer Stadtmusikanten* (les Musiciens de Brême).
+- La **route des contes** (*die Deutsche Märchenstraße*) relie Hanau à Brême en passant par des lieux liés aux contes.
+- Le conte (**das Märchen**, neutre car il finit en *-chen*) a ses formules :
+  - début : ***Es war einmal…*** (Il était une fois…) ;
+  - fin : ***Und wenn sie nicht gestorben sind, dann leben sie noch heute.*** (Et s'ils ne sont pas morts, ils vivent encore aujourd'hui : c'est l'équivalent de « ils vécurent heureux… »).
+
+## Les personnages du merveilleux
+| Allemand (singulier – pluriel) | Français |
+|---|---|
+| die Fee – die Feen | la fée |
+| die Hexe – die Hexen | la sorcière |
+| der Zauberer – die Zauberer | le magicien, le sorcier |
+| der Zwerg – die Zwerge | le nain |
+| der Kobold – die Kobolde | le lutin |
+| der Drache – die Drachen | le dragon |
+| der Riese – die Riesen | le géant |
+| der König / die Königin | le roi / la reine |
+| der Prinz / die Prinzessin | le prince / la princesse |
+| der Wolf – die Wölfe | le loup |
+
+Exemples : *Schneewittchen wohnt bei den sieben **Zwergen**.* – *Der **Pumuckl** ist ein **Kobold**.* (un petit lutin roux très connu en Bavière) – *Die **Hexe** ist böse, die **Fee** ist gut.*
+Mots utiles : *zaubern* (faire de la magie) ; *helfen* (aider : du **hilfst**, er **hilft**) ; *bringen* (apporter) ; ***weg sein*** (avoir disparu : *Die Hexe ist weg!*) ; *böse* (méchant), *arm* (pauvre), *reich* (riche), *mutig* (courageux), *klug* (malin) ; *der Wald* (la forêt), *das Schloss* (le château). Formule magique : ***Hokus Pokus Simsalabim!***
+
+## La Lorelei, la légende du Rhin
+La **Lorelei** (*die Loreley*) est un **rocher** (*der Felsen*) au bord du **Rhin**, près de Sankt Goarshausen (Rhénanie-Palatinat). À cet endroit, le fleuve est étroit et dangereux. La légende raconte qu'une belle jeune femme aux cheveux d'or était assise sur le rocher : elle peignait ses cheveux et chantait. Les bateliers (*die Schiffer*) la regardaient, ne voyaient plus les rochers… et leur bateau faisait naufrage.
+Le poète **Heinrich Heine** a rendu cette légende célèbre avec son poème *Die Lore-Ley* (1824), qui commence par : *« Ich weiß nicht, was soll es bedeuten »* (Je ne sais pas ce que cela veut dire). Tu reconnais *ich weiß* !
+
+## Neuschwanstein, un château de conte de fées
+- Le château de **Neuschwanstein** se trouve en **Bavière**, près de Füssen, au pied des Alpes. Sa construction a commencé en **1869** pour le roi **Louis II de Bavière** (*König Ludwig II.*), passionné par les légendes germaniques et les opéras de Richard Wagner.
+- Le roi est mort en 1886 : le château n'a jamais été terminé. Il reçoit aujourd'hui des visiteurs du monde entier et on dit qu'il a inspiré le château de *La Belle au bois dormant* de Disney.
+- C'est un **vrai** château qui ressemble à un **rêve** : entre le réel et l'imaginaire ! *Neuschwanstein ist ein Märchenschloss.* (un château de conte de fées)
+
+## Lire un conte simplifié : méthode
+>! 1. Repère la **formule de début** (*Es war einmal…*) et les **personnages** (les noms ont une majuscule).
+>! 2. Repère les **lieux** (*im Wald*, *zu Hause*) et les **mots de temps** qui font avancer l'histoire : *eines Tages* (un jour), *plötzlich* (soudain), *dann*, *danach*, *zum Schluss*.
+>! 3. Dans un vrai conte, les verbes sont au **prétérit** (*war, hatte*, mais aussi *lebte* = vivait, *sagte* = disait). Dans le conte simplifié ci-dessous, après le début, l'histoire est racontée au **présent** pour t'aider.
+
+>! **Hänsel und Gretel** (conte des frères Grimm, version simplifiée : texte d'entraînement)
+>! *Es war einmal ein armer Holzfäller* (bûcheron). *Er hatte zwei Kinder: Hänsel und Gretel. Die Familie war sehr arm und hatte kein Brot. Eines Tages gehen die Eltern mit den Kindern in den Wald und lassen sie dort allein* (les y laissent seuls). *Hänsel und Gretel haben Angst und sie haben Hunger. Plötzlich sehen sie ein kleines Haus. Das Haus ist aus Brot, Kuchen und Zucker! Die Kinder essen ein Stück vom Haus. Da kommt eine alte Frau. Sie ist sehr freundlich: „Kommt herein, Kinder!“ Aber die Frau ist eine böse Hexe. Sie sperrt Hänsel in einen Stall* (enferme Hänsel dans une petite étable)*, und Gretel muss arbeiten. Die Hexe will Hänsel essen! Aber Gretel ist mutig und klug: sie stößt die Hexe in den Ofen* (pousse la sorcière dans le four). *Die Hexe ist weg! Die Kinder finden Perlen und Edelsteine* (des perles et des pierres précieuses) *und laufen nach Hause. Ihr Vater ist sehr froh. Und wenn sie nicht gestorben sind, dann leben sie noch heute.*
+
+> **À retenir** : *das Christkind* (sud, ouest, Autriche, Suisse) ou *der Weihnachtsmann* (nord, est) **bringt** die Geschenke. Les **frères Grimm** : *Kinder- und Hausmärchen* (1812) ; *Es war einmal…* / *Und wenn sie nicht gestorben sind…* Personnages : *die Fee, die Hexe, der Zauberer, der Zwerg, der Kobold, der Drache*. La **Lorelei** : rocher et légende du Rhin (poème de Heine). **Neuschwanstein** : château de Louis II de Bavière.
+
+### Erreurs fréquentes
+- *der Märchen* → **das Märchen** (les noms en *-chen* sont neutres).
+- Confondre **die Hexe** (la sorcière) et **die Fee** (la fée) : la sorcière est souvent méchante (*böse*), la fée aide (*hilft*).
+- *die Zwergen* → **die Zwerge** (pluriel en **-e**).
+- Placer la Lorelei en Bavière : c'est un rocher au bord du **Rhin** ; **Neuschwanstein** est en Bavière.
+- *er helft* → **er hilft** (verbe fort, e → i).
+`,
+      exercices: [
+        { type: "qcm", question: "Dans le sud de l'Allemagne et en Autriche, qui apporte traditionnellement les cadeaux le 24 décembre au soir ?", choix: ["der Osterhase", "das Christkind", "der Kobold", "die Hexe"], reponse: 1, explication: "C'est **das Christkind** (l'Enfant Jésus) qui apporte les cadeaux à *Heiligabend* dans le sud et l'ouest, en Autriche et en Suisse. Dans le nord et l'est, c'est plutôt *der Weihnachtsmann*. *Der Osterhase* apporte les œufs à Pâques." },
+        { type: "saisie", question: "Traduis « la sorcière » (avec l'article).", reponses: ["die Hexe"], explication: "**die Hexe** (pluriel : *die Hexen*). Dans *Hänsel und Gretel*, la sorcière vit dans une maison de pain, de gâteau et de sucre." },
+        { type: "qcm", question: "Que signifie *der Zwerg* ?", choix: ["le dragon", "le géant", "le lutin", "le nain"], reponse: 3, explication: "**der Zwerg** = le nain (*Schneewittchen und die sieben Zwerge*). Le dragon = *der Drache*, le géant = *der Riese*, le lutin = *der Kobold*." },
+        { type: "saisie", question: "Écris le pluriel de *der Zwerg*, avec l'article.", reponses: ["die Zwerge"], explication: "*der Zwerg* → **die Zwerge** : pluriel en **-e**, comme *der Hund → die Hunde*." },
+        { type: "saisie", question: "Par quelle formule (3 mots) commence un conte en allemand ? (« Il était une fois »)", reponses: ["Es war einmal", "Es war einmal...", "Es war einmal…"], explication: "**Es war einmal…** : *war* est le prétérit de *sein*. La formule de fin est : *Und wenn sie nicht gestorben sind, dann leben sie noch heute.*" },
+        { type: "vf", question: "La Lorelei est un château construit pour le roi Louis II de Bavière.", reponse: false, explication: "La **Lorelei** est un **rocher** au bord du **Rhin**, lié à la légende d'une jeune femme qui chantait et faisait chavirer les bateaux. Le château de Louis II, c'est **Neuschwanstein**, en Bavière." },
+        { type: "qcm", question: "Quelle phrase sur les frères Grimm est exacte ?", choix: ["Ils ont publié en 1812 le premier volume des *Kinder- und Hausmärchen*.", "Ils ont construit le château de Neuschwanstein.", "Ils ont inventé le personnage du Weihnachtsmann.", "Ils ont écrit le poème sur la Lorelei."], reponse: 0, explication: "Jacob et Wilhelm Grimm ont recueilli des contes populaires et publié en **1812** le premier volume des *Kinder- und Hausmärchen* (*Hänsel und Gretel*, *Rotkäppchen*…). Le poème sur la Lorelei est de Heinrich Heine ; Neuschwanstein a été construit pour Louis II." },
+        { type: "qcm", question: "**Compréhension** (conte *Hänsel und Gretel* du cours) : « *Plötzlich sehen sie ein kleines Haus. Das Haus ist aus Brot, Kuchen und Zucker!* » De quoi est faite la maison ?", choix: ["de bois et de pierre", "de chocolat et de glace", "de pain, de gâteau et de sucre", "d'or et de pierres précieuses"], reponse: 2, explication: "*aus Brot, Kuchen und Zucker* = en **pain**, en **gâteau** et en **sucre**. Les perles et les pierres précieuses (*Perlen und Edelsteine*), les enfants les trouvent à la fin chez la sorcière." },
+        { type: "saisie", question: "**Compréhension** (même conte) : « *Aber Gretel ist mutig und klug: sie stößt die Hexe in den Ofen. Die Hexe ist weg!* » Quel personnage est courageux et malin ? Réponds en un mot.", reponses: ["Gretel"], explication: "*Gretel ist mutig und klug* : c'est **Gretel** qui est courageuse (*mutig*) et maligne (*klug*) ; elle pousse la sorcière dans le four et sauve son frère. *Die Hexe ist weg* = la sorcière a disparu." },
+        { type: "redaction", question: "Invente un petit conte de 6 à 8 phrases (en allemand). Commence par *Es war einmal…* et termine par la formule de fin. Fais intervenir au moins **trois** personnages du merveilleux (*Fee, Hexe, Zauberer, Zwerg, Kobold, Drache…*) et utilise *war* / *hatte* au début, puis le présent, avec *plötzlich* et *dann*.", corrige: "**Modèle :**\n\n*Es war einmal eine kleine Prinzessin. Sie hatte einen Drachen, er hieß Flocke* (il s'appelait Flocke)*. Der Drache war sehr nett. Eines Tages gehen die Prinzessin und der Drache in den Wald. Plötzlich kommt eine böse Hexe: „Hokus Pokus Simsalabim!“ Der Drache ist weg! Die Prinzessin weint. Dann kommt ein Zwerg. Er sagt: „Ich kenne eine gute Fee. Sie hilft dir!“ Die Fee kann zaubern, und der Drache ist wieder da. Und wenn sie nicht gestorben sind, dann leben sie noch heute.*\n\nPoints à vérifier :\n- formules du conte : **Es war einmal…** / **Und wenn sie nicht gestorben sind, dann leben sie noch heute.** ;\n- *war, hatte* (prétérit) au début, puis le **présent** ;\n- **inversion** après *Eines Tages, Plötzlich, Dann* (*Plötzlich kommt eine Hexe*) ;\n- articles des personnages : *die Fee, die Hexe, der Zwerg, der Drache* ; accusatif *einen Drachen* (*der Drache* fait *den / einen Drachen*) ;\n- *helfen* : *sie hilft* (e → i) ; *weg sein* = avoir disparu." },
+      ],
+    },
+    {
+      id: "seize-nuances-allemagne",
+      titre: "16 nuances d'Allemagne",
+      theme: "16 nuances d'Allemagne",
+      cours: `
+## Un État fédéral : der Bund und die Länder
+Le nom officiel du pays est **die Bundesrepublik Deutschland** (la République fédérale d'Allemagne). C'est un **État fédéral** : le pouvoir est partagé entre l'État central, **der Bund**, et **16 Länder** (*das Bundesland, die Bundesländer*).
+- **Chaque Land** a sa capitale (*die Landeshauptstadt*), son parlement (*der Landtag*) et son gouvernement. Les Länder s'occupent notamment de l'**école**, de la police et de la culture : c'est pourquoi les types d'écoles et les dates de vacances changent d'un Land à l'autre.
+- **Le Bund** s'occupe par exemple de la défense (*die Bundeswehr*, l'armée) et des relations avec les autres pays. Le parlement fédéral, **der Bundestag**, siège à **Berlin**, dans le bâtiment du Reichstag. Les Länder sont représentés au **Bundesrat**. Le gouvernement est dirigé par **der Bundeskanzler** (ou *die Bundeskanzlerin*) ; le chef de l'État est **der Bundespräsident**.
+- La France, elle, est un État **centralisé** : ses régions ont beaucoup moins de pouvoirs que les Länder.
+
+>! **Astuce** : le mot **Bund** (fédération) se cache dans beaucoup de mots composés : *das Bundesland, der Bundestag, der Bundeskanzler, der Bundesadler*… et même *die Bundesliga* (le championnat de football) !
+
+## Les 16 Länder et leurs capitales
+| Land (nom allemand) | En français | Capitale | Position |
+|---|---|---|---|
+| Schleswig-Holstein | Schleswig-Holstein | Kiel | im Norden |
+| Hamburg | Hambourg | Hamburg | im Norden |
+| Mecklenburg-Vorpommern | Mecklembourg-Poméranie-Occidentale | Schwerin | im Nordosten |
+| Bremen | Brême | Bremen | im Nordwesten |
+| Niedersachsen | Basse-Saxe | Hannover | im Nordwesten |
+| Berlin | Berlin | Berlin | im Osten |
+| Brandenburg | Brandebourg | Potsdam | im Osten |
+| Sachsen-Anhalt | Saxe-Anhalt | Magdeburg | im Osten |
+| Sachsen | Saxe | Dresden | im Osten |
+| Thüringen | Thuringe | Erfurt | in der Mitte |
+| Hessen | Hesse | Wiesbaden | in der Mitte |
+| Nordrhein-Westfalen | Rhénanie-du-Nord-Westphalie | Düsseldorf | im Westen |
+| Rheinland-Pfalz | Rhénanie-Palatinat | Mainz | im Westen |
+| Saarland | Sarre | Saarbrücken | im Südwesten |
+| Baden-Württemberg | Bade-Wurtemberg | Stuttgart | im Südwesten |
+| Bayern | Bavière | München | im Süden |
+
+- Trois Länder sont des **villes-États** (*Stadtstaaten*) : **Berlin, Hamburg, Bremen**.
+- **Bayern** est le plus grand Land par la superficie ; **Nordrhein-Westfalen** est le plus peuplé ; **Bremen** est le plus petit.
+- Attention : la capitale d'un Land n'est pas toujours sa plus grande ville ! La capitale de la Hesse est **Wiesbaden** (et non Francfort), celle de la Rhénanie-du-Nord-Westphalie est **Düsseldorf** (et non Cologne).
+
+## Les points cardinaux (die Himmelsrichtungen)
+| Nom | Français | « au… » |
+|---|---|---|
+| der Norden | le nord | **im** Norden |
+| der Süden | le sud | **im** Süden |
+| der Osten | l'est | **im** Osten |
+| der Westen | l'ouest | **im** Westen |
+
+On les combine : *der Nordosten, der Südwesten*… et on dit *in der Mitte* (au centre).
+- Pour situer, on emploie **liegen** (être situé) : *Bayern **liegt im Süden** von Deutschland.* – *Wo liegt Kiel? – Im Norden.*
+- *Norddeutschland* (l'Allemagne du Nord), *Süddeutschland* (l'Allemagne du Sud).
+
+## Les mers, les montagnes, les frontières
+- Au nord, l'Allemagne a **deux mers** : **die Nordsee** (la mer du Nord : Basse-Saxe, Schleswig-Holstein, île de *Sylt*) et **die Ostsee** (la **mer Baltique** : Schleswig-Holstein, Mecklembourg-Poméranie-Occidentale, île de *Rügen*). Piège : *Ostsee* ne se traduit pas « mer de l'Est » !
+- Au sud, les **Alpes** : la plus haute montagne d'Allemagne, **die Zugspitze** (2 962 m), est en Bavière, à la frontière avec l'Autriche.
+- **die Grenze** = la frontière. L'Allemagne a **9 pays voisins** (*Nachbarländer*) :
+
+| Où ? | Pays voisins |
+|---|---|
+| im Norden | Dänemark (le Danemark) |
+| im Osten | Polen (la Pologne), Tschechien (la Tchéquie) |
+| im Süden | Österreich (l'Autriche), die Schweiz (la Suisse) |
+| im Westen | Frankreich, Luxemburg, Belgien, die Niederlande (les Pays-Bas) |
+
+- Trois Länder ont une frontière avec la **France** : la **Sarre**, la **Rhénanie-Palatinat** et le **Bade-Wurtemberg** (là, c'est le Rhin qui sépare l'Alsace de l'Allemagne). *Die Grenze zu Frankreich ist im Westen.*
+- *Berlin ist die Hauptstadt von Deutschland.* (*die Hauptstadt* = la capitale)
+
+## Les symboles de l'Allemagne
+- **Le drapeau** (*die Flagge*, *die Fahne*) : trois bandes horizontales, de haut en bas **noir, rouge, or** : ***Schwarz-Rot-Gold***. Ces couleurs étaient déjà celles des Allemands qui réclamaient l'unité et la liberté au XIXe siècle (fête de Hambach en 1832, révolution de 1848).
+- **L'aigle fédéral** (*der Bundesadler*) : un aigle noir aux pattes et au bec rouges, sur fond jaune or. On le voit au Bundestag et sur les pièces allemandes de 1 et 2 euros.
+- **L'hymne national** (*die Nationalhymne*) : c'est la **3e strophe** du *Lied der Deutschen*, texte d'**August Heinrich Hoffmann von Fallersleben** (1841), sur une musique de **Joseph Haydn**. Elle commence par ***Einigkeit und Recht und Freiheit*** (unité, droit et liberté).
+- D'autres symboles : **das Brandenburger Tor** (la porte de Brandebourg, à Berlin, sur les pièces allemandes de 10, 20 et 50 centimes), la **Coccinelle** de Volkswagen (*der VW-Käfer*, une voiture culte), le Bundestag…
+
+## Le 3 octobre : der Tag der Deutschen Einheit
+>! **Une histoire en quelques dates** (tu as seulement besoin de **comprendre** les mots *die DDR, die BRD, geteilt, wiedervereinigt*) :
+>! - **1945** : fin de la Seconde Guerre mondiale (*der Krieg*). L'Allemagne vaincue est occupée.
+>! - **1949** : deux États allemands sont créés : à l'ouest, la **RFA** (*die BRD*, capitale Bonn) ; à l'est, la **RDA** (*die DDR*, *Deutsche Demokratische Republik*), un État communiste lié à l'URSS. *Deutschland war geteilt.* (L'Allemagne était divisée.)
+>! - **13 août 1961** : la RDA construit **le mur de Berlin** (*die Mauer*) pour empêcher ses habitants de partir à l'Ouest.
+>! - **9 novembre 1989** : après de grandes manifestations pacifiques, **le mur tombe** (*der Mauerfall*).
+>! - **3 octobre 1990** : **la réunification** : la RDA rejoint la RFA. *Deutschland ist wiedervereinigt.* Cinq nouveaux Länder (Brandebourg, Mecklembourg-Poméranie-Occidentale, Saxe, Saxe-Anhalt, Thuringe) et Berlin réunifié s'ajoutent : depuis, il y a **16 Länder**. Berlin est la capitale de l'Allemagne réunifiée.
+
+- Le **3 octobre** est donc la **fête nationale** et un jour férié (*der Feiertag*) : ***Am 3. Oktober feiert man den Tag der Deutschen Einheit.*** (*die Einheit* = l'unité)
+- Tu peux réutiliser le prétérit : *Die Mauer **war** von 1961 bis 1989 in Berlin.* – *Berlin **war** geteilt.*
+
+> **À retenir** : *die Bundesrepublik Deutschland* = un État fédéral : **der Bund** + **16 Länder** (capitales : *München, Stuttgart, Wiesbaden, Düsseldorf, Hannover, Kiel, Dresden…*) ; Berlin, Hamburg, Bremen sont des villes-États. **im Norden / Süden / Osten / Westen** ; *Bayern liegt im Süden*. **die Nordsee** (mer du Nord) et **die Ostsee** (mer Baltique) ; *die Grenze* ; 9 pays voisins. Symboles : **Schwarz-Rot-Gold**, *der Bundesadler*, l'hymne (*Einigkeit und Recht und Freiheit*). **3 octobre 1990** : réunification (*der Tag der Deutschen Einheit*) ; mur de Berlin : 1961-1989.
+
+### Erreurs fréquentes
+- Traduire *die Ostsee* par « la mer de l'Est » : c'est la **mer Baltique**.
+- Croire que Francfort est la capitale de la Hesse : c'est **Wiesbaden** ; et Munich est la capitale de la **Bavière**, pas de l'Allemagne !
+- Confondre le **9 novembre 1989** (chute du mur) et le **3 octobre 1990** (réunification, fête nationale).
+- Écrire *Schwarz-Gold-Rot* : l'ordre est **Schwarz-Rot-Gold** (noir en haut, or en bas).
+- *in Norden* → **im Norden** (*im* = *in dem*, car *der Norden* est masculin).
+`,
+      exercices: [
+        { type: "saisie", question: "Quelle est la capitale de la Bavière (*Bayern*) ? Écris le nom allemand.", reponses: ["München", "Muenchen"], explication: "La capitale de la Bavière est **München** (Munich). La capitale de l'Allemagne, c'est **Berlin**." },
+        { type: "qcm", question: "Que désigne *die Ostsee* ?", choix: ["la mer du Nord", "la mer Baltique", "le lac de Constance", "la Méditerranée"], reponse: 1, explication: "**die Ostsee** = la **mer Baltique** (au nord-est : Schleswig-Holstein, Mecklembourg-Poméranie-Occidentale). La mer du Nord se dit *die Nordsee* ; le lac de Constance, *der Bodensee*." },
+        { type: "qcm", question: "Quelles sont les couleurs du drapeau allemand, dans l'ordre, de haut en bas ?", choix: ["Rot-Schwarz-Gold", "Gold-Rot-Schwarz", "Schwarz-Gold-Rot", "Schwarz-Rot-Gold"], reponse: 3, explication: "Le drapeau allemand est **Schwarz-Rot-Gold** : noir en haut, rouge au milieu, or en bas." },
+        { type: "vf", question: "La capitale de la Hesse (*Hessen*) est Francfort.", reponse: false, explication: "La capitale de la Hesse est **Wiesbaden**. Francfort (*Frankfurt am Main*) est la plus grande ville de la Hesse, mais pas sa capitale." },
+        { type: "saisie", question: "Traduis « au sud » (2 mots).", reponses: ["im Süden", "im Sueden"], explication: "**im Süden** (*im* = *in dem* ; *der Süden* est masculin). *Bayern liegt im Süden von Deutschland.*" },
+        { type: "qcm", question: "Lequel de ces Länder a une frontière avec la France ?", choix: ["Sachsen", "Brandenburg", "das Saarland", "Schleswig-Holstein"], reponse: 2, explication: "Trois Länder touchent la France : **la Sarre** (*das Saarland*), la Rhénanie-Palatinat et le Bade-Wurtemberg. La Saxe et le Brandebourg sont à l'est (frontière avec la Pologne), le Schleswig-Holstein au nord (frontière avec le Danemark)." },
+        { type: "qcm", question: "Que s'est-il passé le 9 novembre 1989 ?", choix: ["La chute du mur de Berlin", "La réunification de l'Allemagne", "La construction du mur de Berlin", "La création de la RDA"], reponse: 0, explication: "Le **9 novembre 1989**, le mur de Berlin tombe (*der Mauerfall*). La réunification a lieu le **3 octobre 1990**, le mur avait été construit en **1961** et la RDA créée en **1949**." },
+        { type: "saisie", question: "Complète : « Am 3. Oktober feiert man den Tag der Deutschen ___. »", reponses: ["Einheit"], explication: "*der Tag der Deutschen **Einheit*** = le jour de l'unité allemande, fête nationale depuis la réunification du **3 octobre 1990**. *die Einheit* = l'unité." },
+        { type: "qcm", question: "**Compréhension.** Lis la présentation de Finn : « *Ich heiße Finn und ich wohne in Kiel. Kiel ist die Hauptstadt von Schleswig-Holstein. Mein Bundesland liegt ganz im Norden, zwischen der Nordsee und der Ostsee. Im Norden ist die Grenze zu Dänemark. Im Sommer fahre ich oft nach Sylt, das ist eine Insel in der Nordsee.* » Quelle affirmation est vraie ?", choix: ["Kiel est la capitale de l'Allemagne.", "Le Land de Finn est situé entre deux mers.", "Le Schleswig-Holstein a une frontière avec la Pologne.", "Sylt est une île de la mer Baltique."], reponse: 1, explication: "*zwischen der Nordsee und der Ostsee* = **entre** la mer du Nord et la mer Baltique. Kiel est la capitale du **Land** (*Hauptstadt von Schleswig-Holstein*), la frontière est avec le **Danemark** (*Dänemark*), et Sylt est une île de la **mer du Nord** (*in der Nordsee*)." },
+        { type: "redaction", question: "Pour l'exposition « 16 nuances d'Allemagne », écris une affiche de 7 à 8 phrases en allemand qui présente l'Allemagne à des élèves de 6e : le nom officiel et les Länder, la capitale, la situation d'un Land de ton choix (avec un point cardinal et sa capitale), les mers, un pays voisin et la frontière avec la France, le drapeau, et le 3 octobre. Utilise au moins une fois *war*.", corrige: "**Modèle :**\n\n*Das ist Deutschland! Der offizielle Name ist „Bundesrepublik Deutschland“. Deutschland hat 16 Bundesländer, und die Hauptstadt ist Berlin. Bayern liegt im Süden, die Hauptstadt von Bayern ist München. Im Norden gibt es zwei Meere: die Nordsee und die Ostsee. Deutschland hat neun Nachbarländer, zum Beispiel Dänemark, Polen und Österreich. Die Grenze zu Frankreich ist im Westen. Die Flagge ist schwarz-rot-gold. Von 1961 bis 1989 war die Mauer in Berlin, und am 3. Oktober 1990 war die Wiedervereinigung. Am 3. Oktober feiert man den Tag der Deutschen Einheit.*\n\nPoints à vérifier :\n- informations exactes : **16 Länder**, capitale **Berlin**, *Bayern → München* (ou un autre Land avec la bonne capitale et la bonne position) ;\n- **im** Norden / Süden / Westen ; *liegen* pour situer (*Bayern liegt im Süden*) ;\n- *die Nordsee* et *die Ostsee* (mer du Nord et mer Baltique) ; *die Grenze zu Frankreich* ;\n- **Schwarz-Rot-Gold** dans le bon ordre ;\n- *war* (prétérit de *sein*) : *Die Mauer war…* ; **am** + date : *am 3. Oktober* ;\n- inversion après *Im Norden gibt es…*, *Von 1961 bis 1989 war…*" },
       ],
     },
   ],

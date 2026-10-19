@@ -660,5 +660,235 @@ toujours
 > Points de méthode : la variable est initialisée **au démarrage** (sinon elle serait remise à 0 à chaque tour) ; 5 s = **5 000 ms** ; la boucle « toujours » permet de surveiller le bouton en permanence.` },
       ],
     },
+    {
+      id: "donnees-fichiers-securite",
+      titre: "Données, fichiers et sécurité numérique",
+      theme: "Les objets et les systèmes techniques : leurs usages et leurs interactions à découvrir et à analyser",
+      cours: `
+## Décrire des objets par des données
+*Cette première partie relève, dans le programme, du thème « Structure, fonctionnement, comportement » (structuration et traitement des données) ; la suite du chapitre relève du thème « Usages et impacts sociétaux du numérique ».*
+
+Pour qu'un ordinateur puisse gérer des informations, on les décrit sous forme de **données**.
+- L'**objet** est la chose que l'on décrit : un élève, un livre du CDI, un vélo en location.
+- Un **descripteur** est une caractéristique choisie pour décrire l'objet : titre, auteur, nombre de pages, disponible...
+- La **valeur** est ce que prend le descripteur pour un objet précis : « Le Petit Prince », 96, oui.
+- Une **collection** (ou liste) regroupe plusieurs objets décrits par les mêmes descripteurs : c'est une **table de données**.
+
+## Types et formats
+Chaque descripteur a un **type** :
+| Type | Exemple de descripteur | Exemple de valeur |
+|---|---|---|
+| **Mot** (chaîne de caractères) | Titre, couleur, nom | « Le Petit Prince », « rouge » |
+| **Nombre** | Nombre de pages, prix, masse | 96 ; 7,50 |
+| **Booléen** (vrai ou faux) | Disponible ? Électrique ? | vrai / faux (oui / non) |
+
+Le **format** précise comment la valeur est écrite : une date au format JJ/MM/AAAA (19/10/2026), un prix avec deux décimales, une masse en grammes... Choisir un format commun évite les erreurs de tri et de calcul.
+
+>! Exemple : collection des trottinettes d'un loueur. Objet : une trottinette. Descripteurs : numéro (nombre), couleur (mot), batterie en % (nombre), disponible (booléen). Une ligne de la table : 12 ; noire ; 85 ; vrai.
+
+**Erreur fréquente** : confondre le descripteur et la valeur. « Couleur » est un descripteur ; « noire » est une valeur.
+
+## Fichiers, dossiers et arborescence
+Les données sont enregistrées dans des **fichiers**. Le nom d'un fichier se termine par une **extension** qui indique son **format** et donc le logiciel capable de l'ouvrir :
+| Extension | Type de fichier |
+|---|---|
+| .txt | texte brut |
+| .odt, .docx | document de traitement de texte |
+| .csv | tableau de données en texte (valeurs séparées par des virgules ou des points-virgules), ouvrable dans un tableur |
+| .ods, .xlsx | classeur de tableur |
+| .jpg, .png | image |
+| .mp3, .wav | son |
+| .mp4 | vidéo |
+| .stl | modèle 3D pour l'impression 3D |
+
+Les fichiers sont rangés dans des **dossiers**, eux-mêmes rangés dans d'autres dossiers : c'est l'**arborescence**, qui ressemble à un arbre renversé. Le **chemin d'accès** décrit le trajet depuis le dossier de départ jusqu'au fichier.
+
+>! Exemple : le chemin Documents/Technologie/Projet-serre/mesures.csv désigne le fichier mesures.csv, rangé dans le dossier Projet-serre, lui-même dans Technologie, lui-même dans Documents.
+
+Sur un réseau (celui du collège par exemple), chaque fichier a des **droits** : droit de **lecture** (ouvrir, consulter) et droit d'**écriture** (modifier, supprimer). Un élève peut souvent lire un document du professeur sans pouvoir le modifier.
+
+## Bit, octet et multiples
+Le **bit** est la plus petite quantité d'information : il vaut **0 ou 1**. Un booléen peut être représenté par un seul bit (1 = vrai, 0 = faux).
+
+Un **octet** est un groupe de **8 bits**. Avec 8 bits, on peut former 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 = **256** combinaisons : de quoi coder un caractère (une lettre, un chiffre, un signe) avec le code **ASCII étendu**.
+
+| Unité | Symbole | Valeur |
+|---|---|---|
+| kilooctet | ko | 1 000 octets |
+| mégaoctet | Mo | 1 000 ko = 1 million d'octets |
+| gigaoctet | Go | 1 000 Mo = 1 milliard d'octets |
+| téraoctet | To | 1 000 Go |
+
+Remarque : certains logiciels comptent encore 1 024 au lieu de 1 000 (on parle alors normalement de kibioctet, Kio). Au collège, on utilise 1 000.
+
+**Erreur fréquente** : confondre bit (b) et octet (o). Un débit de 8 Mbit/s correspond à 1 Mo par seconde.
+
+## Ordres de grandeur de la taille des fichiers
+### Texte
+Un caractère occupe environ 1 octet. Une page de 2 000 caractères pèse donc environ 2 000 octets = **2 ko**.
+
+### Image
+Une image numérique est un quadrillage de **pixels**. Sans compression, chaque pixel en couleur occupe **3 octets** (un pour le rouge, un pour le vert, un pour le bleu).
+
+>! Exemple résolu : une photo de 4 000 × 3 000 pixels compte 12 000 000 pixels (12 mégapixels). Taille non compressée : 12 000 000 × 3 = 36 000 000 octets = **36 Mo**. Enregistrée en JPEG (format compressé), elle ne pèse plus que quelques Mo.
+
+### Son
+>! Exemple résolu : la qualité CD enregistre 44 100 échantillons par seconde, de 2 octets chacun, sur 2 voies (stéréo) : 44 100 × 2 × 2 = 176 400 octets par seconde. Une chanson de 3 min (180 s) : 176 400 × 180 = 31 752 000 octets ≈ **32 Mo**. En MP3 à 128 kbit/s : 128 000 ÷ 8 = 16 000 octets par seconde, soit 16 000 × 180 = 2 880 000 octets ≈ **2,9 Mo**.
+
+### Vidéo
+Une vidéo est une suite d'images (souvent 25 par seconde) accompagnée de son.
+>! Exemple résolu : en Full HD (1 920 × 1 080 pixels), une image non compressée pèse 1 920 × 1 080 × 3 = 6 220 800 octets ≈ 6,2 Mo. À 25 images par seconde : 6 220 800 × 25 = 155 520 000 octets, soit plus de 155 Mo par seconde ! C'est pourquoi les vidéos sont toujours compressées. Avec un débit typique de 5 Mbit/s (valeur indicative), une heure de vidéo représente 5 000 000 × 3 600 ÷ 8 = 2 250 000 000 octets ≈ **2,25 Go**.
+
+| Fichier | Ordre de grandeur (compressé) |
+|---|---|
+| Page de texte | quelques ko |
+| Photo de smartphone | quelques Mo |
+| Chanson en MP3 | quelques Mo |
+| Film d'une heure et demie | quelques Go |
+
+Stocker et faire circuler ces données consomme de l'énergie (centres de données, réseaux) : éviter les envois inutiles et les vidéos en très haute définition sur un petit écran réduit cet impact.
+
+## Cybersécurité : protéger ses comptes et ses données
+- **Identification** : dire qui l'on est (saisir son identifiant). **Authentification** : **prouver** qui l'on est (mot de passe, code reçu par SMS, empreinte digitale).
+- L'**authentification à deux facteurs** combine deux preuves différentes (mot de passe + code reçu sur le téléphone) : même si le mot de passe est volé, le compte reste protégé.
+- Un **mot de passe solide** est **long** (la CNIL recommande au moins 12 caractères mêlant majuscules, minuscules, chiffres et caractères spéciaux), **unique** pour chaque compte, sans lien avec toi (pas de prénom ni de date de naissance) et **secret**. Autre solution recommandée par la CNIL : une **phrase de passe** d'au moins 7 mots, facile à retenir mais difficile à deviner.
+- Ne jamais communiquer son mot de passe, même à un ami ; se **déconnecter** sur un ordinateur partagé ; mettre à jour ses appareils.
+- Se méfier des messages qui demandent tes identifiants ou te pressent de cliquer : c'est souvent de l'**hameçonnage** (phishing).
+
+## Traces numériques
+Chaque action en ligne laisse des **traces** :
+- les **cookies** (témoins de connexion) : petits fichiers déposés par un site sur ton appareil pour retenir tes choix, ton panier, mais aussi pour suivre ta navigation et afficher de la publicité ciblée. En France, les cookies publicitaires exigent ton **accord** : tu peux les **refuser** ;
+- la **géolocalisation** : ton téléphone peut indiquer ta position aux applications et l'inscrire dans les photos. Il vaut mieux l'activer seulement quand c'est utile ;
+- tes publications, commentaires et photos, qui peuvent rester visibles très longtemps.
+
+Tes **données personnelles** (nom, adresse, photo, position, numéro) t'appartiennent : en France, la **CNIL** veille à leur protection.
+
+## Propriété intellectuelle
+Une photo, une musique, un texte, un dessin, un logiciel sont des **œuvres** protégées par le **droit d'auteur** : on ne peut pas les copier, les modifier ou les publier sans l'**autorisation** de l'auteur (sauf exceptions prévues par la loi, comme la courte citation avec le nom de l'auteur). En France, les droits patrimoniaux durent en général jusqu'à 70 ans après la mort de l'auteur.
+- Certaines œuvres sont sous **licence libre** (par exemple Creative Commons) : l'auteur autorise la réutilisation à certaines conditions (citer son nom, pas d'usage commercial...).
+- Dans un exposé, on **cite toujours ses sources** (auteur, site, date).
+- Le **droit à l'image** : on ne publie pas la photo de quelqu'un sans son accord.
+
+## Cyberviolence et usurpation d'identité
+- La **cyberviolence** regroupe les violences commises par le numérique : insultes, moqueries, rumeurs, diffusion de photos sans accord, exclusion d'un groupe. Répétée, elle devient du **cyberharcèlement**. Partager ou « liker » un message humiliant, c'est y participer.
+- L'**usurpation d'identité** consiste à se faire passer pour quelqu'un d'autre (faux compte à son nom, utilisation de son mot de passe). C'est un **délit** puni par la loi.
+- L'**usage détourné** d'un outil numérique, c'est l'utiliser pour nuire (photo prise pour se moquer, groupe de discussion créé pour exclure).
+- Que faire ? Ne pas répondre, faire des **captures d'écran** (preuves), **signaler** le contenu sur la plateforme, **en parler** à un adulte de confiance, appeler le **3018** (numéro national gratuit contre les violences numériques).
+
+> **À retenir** : un **objet** est décrit par des **descripteurs** de type **mot**, **nombre** ou **booléen**, avec un **format** commun. L'**extension** indique le format d'un fichier ; l'**arborescence** range les fichiers dans des dossiers. **1 octet = 8 bits** ; 1 ko = 1 000 octets, 1 Mo = 1 000 ko, 1 Go = 1 000 Mo. Ordres de grandeur : texte en **ko**, photo et chanson en **Mo**, film en **Go**. **Authentifier** = prouver son identité : mot de passe long et unique, double authentification. Cookies et géolocalisation laissent des **traces**. Respecter le **droit d'auteur** et le droit à l'image. Cyberviolence : capturer, signaler, en parler, **3018**.
+`,
+      exercices: [
+        { type: "qcm", question: "Dans la collection des livres du CDI, quel est le type du descripteur « disponible au prêt » (oui ou non) ?", choix: ["Mot", "Nombre", "Booléen", "Image"], reponse: 2, explication: "Un descripteur qui ne peut prendre que deux valeurs (vrai / faux, oui / non) est un **booléen**. Le titre serait un mot, le nombre de pages un nombre." },
+        { type: "vf", question: "Dans la description d'un vélo, « rouge » est un descripteur.", reponse: false, explication: "« Rouge » est une **valeur**. Le descripteur est « couleur ». Erreur fréquente : confondre le descripteur (la caractéristique) et sa valeur pour un objet précis." },
+        { type: "qcm", question: "Le chemin d'accès est Documents/Technologie/Serre/mesures.csv. Dans quel dossier le fichier mesures.csv est-il directement rangé ?", choix: ["Documents", "Technologie", "Serre", "Il n'est dans aucun dossier"], reponse: 2, explication: "Le fichier est directement dans le dossier **Serre**, qui est lui-même rangé dans Technologie, lui-même dans Documents. L'extension .csv indique un tableau de données ouvrable dans un tableur." },
+        { type: "saisie", question: "Combien de combinaisons différentes peut-on former avec 1 octet ? (nombre seul)", reponses: ["256", "256 combinaisons"], explication: "1 octet = 8 bits, chacun valant 0 ou 1 : 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 = **256** combinaisons. C'est assez pour coder un caractère en ASCII étendu." },
+        { type: "saisie", question: "Une image non compressée mesure 1 000 × 800 pixels ; chaque pixel occupe 3 octets. Quelle est sa taille en Mo ? (on prend 1 Mo = 1 000 000 octets ; nombre seul)", reponses: ["2,4 Mo", "2,4 mégaoctets"], explication: "Nombre de pixels : 1 000 × 800 = 800 000. Taille : 800 000 × 3 = 2 400 000 octets = **2,4 Mo**." },
+        { type: "qcm", question: "Quelle liste range des fichiers du plus léger au plus lourd (formats compressés habituels) ?", choix: ["Photo, page de texte, chanson MP3, film", "Page de texte, photo de smartphone, film d'une heure, chanson MP3", "Page de texte, chanson MP3 de 3 min, film d'une heure", "Film d'une heure, chanson MP3, page de texte"], reponse: 2, explication: "Ordres de grandeur : une page de texte pèse quelques **ko**, une chanson MP3 de 3 min environ 3 **Mo**, un film d'une heure environ 2 **Go**." },
+        { type: "saisie", question: "Une clé USB a une capacité de 32 Go. Combien de vidéos de 1,6 Go peut-on y enregistrer au maximum ? (nombre seul)", reponses: ["20", "20 vidéos", "vingt"], explication: "32 ÷ 1,6 = **20** vidéos." },
+        { type: "qcm", question: "Lequel de ces mots de passe est le plus solide ?", choix: ["lucas2013", "123456789", "motdepasse", "Velo!Rouge-Pluie7Lune"], reponse: 3, explication: "Il est **long** (21 caractères), mêle majuscules, minuscules, chiffre et caractères spéciaux, et n'a pas de lien avec la personne : il respecte la recommandation de la CNIL (au moins 12 caractères de 4 types différents). Un prénom suivi d'une année, une suite de chiffres ou un mot courant se devinent en quelques secondes." },
+        { type: "vf", question: "En France, un site a le droit de déposer des cookies publicitaires sur ton appareil sans te demander ton accord.", reponse: false, explication: "En France, les cookies publicitaires (qui suivent ta navigation) nécessitent ton **consentement** : le site doit te permettre de les **refuser**. Seuls les cookies indispensables au fonctionnement du site (panier, connexion) n'en ont pas besoin." },
+        { type: "qcm", question: "Un élève crée un faux compte au nom d'un camarade et y publie des messages moqueurs. Comment s'appelle ce comportement ?", choix: ["Une authentification", "Une usurpation d'identité", "Une licence libre", "Une géolocalisation"], reponse: 1, explication: "Se faire passer pour quelqu'un d'autre est une **usurpation d'identité** : c'est un délit, et les messages moqueurs relèvent en plus de la cyberviolence." },
+        { type: "redaction", question: "Ta classe prépare un exposé en ligne sur les objets connectés. 1) Un camarade veut utiliser le même mot de passe court que pour son jeu vidéo : explique-lui la différence entre identification et authentification, puis donne trois règles pour un compte bien protégé. 2) Vous voulez illustrer l'exposé avec une photo trouvée sur internet et une photo de la classe : quelles règles devez-vous respecter ? 3) L'exposé contient une vidéo de 2 min enregistrée à 5 Mbit/s : calcule sa taille en Mo. 4) Après la publication, un élève reçoit des commentaires humiliants. Que doit-il faire ?", corrige: "1) **Identification et authentification** : s'**identifier**, c'est dire qui l'on est (saisir son identifiant) ; s'**authentifier**, c'est **prouver** qu'on est bien cette personne (mot de passe, code reçu par SMS, empreinte).\n\nTrois règles :\n- un mot de passe **long** (au moins 12 caractères) mêlant majuscules, minuscules, chiffres et caractères spéciaux, ou une longue phrase de passe ;\n- un mot de passe **unique** : si le jeu vidéo est piraté, le pirate ne pourra pas entrer dans les autres comptes ;\n- activer la **double authentification**, ne jamais communiquer son mot de passe et se déconnecter sur un ordinateur partagé.\n\n2) **Photos** :\n- la photo trouvée sur internet est protégée par le **droit d'auteur** : il faut l'autorisation de l'auteur ou choisir une image sous **licence libre** (Creative Commons) en respectant ses conditions, et **citer la source** ;\n- la photo de la classe : **droit à l'image**, il faut l'accord de chaque personne reconnaissable (et de ses parents pour un mineur).\n\n3) **Taille de la vidéo** : 2 min = 120 s. 5 Mbit/s = 5 000 000 bits par seconde.\n- Nombre de bits : 5 000 000 × 120 = 600 000 000 bits ;\n- en octets : 600 000 000 ÷ 8 = 75 000 000 octets = **75 Mo**.\n\n4) **Face à la cyberviolence** : ne pas répondre, faire des **captures d'écran** (preuves), **signaler** les commentaires sur la plateforme, **en parler** à un adulte de confiance (parents, CPE, professeur) et, si besoin, appeler le **3018**, numéro gratuit contre les violences numériques." },
+      ],
+    },
+    {
+      id: "depannage-reparation-fabrication",
+      titre: "Dépannage, réparation et fabrication en atelier",
+      theme: "Structure, fonctionnement, comportement : des objets et des systèmes techniques à comprendre",
+      cours: `
+## Pourquoi réparer ?
+Réparer un objet au lieu de le jeter permet d'**économiser de l'argent** et de **réduire son impact environnemental** : on évite de fabriquer un objet neuf (extraction de matières, énergie, transport) et de produire un déchet.
+
+## Repérer une pièce défectueuse
+Quand un objet ne fonctionne plus, on cherche d'abord par **observation visuelle** ce qui ne va pas. Indices courants :
+| Ce qu'on observe | Pièce probablement en cause |
+|---|---|
+| Fil coupé, gaine fendue, soudure décollée | conducteur ou connexion |
+| Piles gonflées, bornes couvertes de dépôt blanc ou vert (oxydation) | piles, contacts |
+| Dents cassées ou usées | engrenage |
+| Courroie détendue ou fendue | courroie |
+| Pièce en plastique fissurée ou cassée | pièce de structure (support, clip, boîtier) |
+| Composant noirci, odeur de brûlé | composant électronique, moteur |
+| Vis manquante, pièce qui bouge | fixation |
+
+**Erreur fréquente** : remplacer une pièce au hasard. On observe, on émet une hypothèse, puis on vérifie avant de changer quoi que ce soit.
+
+## Réparer en suivant un protocole
+Un **protocole de réparation** est une liste d'étapes ordonnées à suivre pour réparer en sécurité :
+1. **Mettre hors tension** : débrancher la prise, retirer les piles ou la batterie ;
+2. **Observer** l'objet et décrire le dysfonctionnement ;
+3. **Démonter** avec l'outil adapté (tournevis de la bonne taille), en **photographiant** chaque étape et en rangeant les vis dans l'ordre ;
+4. **Repérer** la pièce défectueuse ;
+5. **Remplacer** ou réparer la pièce (pièce détachée, pièce imprimée en 3D, nouvelle connexion) ;
+6. **Remonter** dans l'ordre inverse du démontage ;
+7. **Tester** le fonctionnement, en sécurité ;
+8. **Noter** ce qui a été fait (fiche de réparation).
+
+## Sécurité dans l'atelier
+### Les équipements de protection individuelle (EPI)
+| EPI | Protège contre |
+|---|---|
+| Lunettes de protection | projections de copeaux, éclats |
+| Blouse en coton | salissures, petites projections |
+| Casque antibruit | bruit des machines |
+| Gants adaptés | coupures, brûlures (manipulation de pièces chaudes ou coupantes) |
+| Masque | poussières |
+
+**Attention** : on ne porte **pas de gants** près d'une machine qui tourne (perceuse à colonne, scie) : le gant peut être happé et entraîner la main. Pour la même raison, on attache les cheveux longs et on retire écharpes, bracelets et colliers.
+
+### Règles usuelles
+- N'utiliser une machine qu'avec l'**autorisation** du professeur et après avoir appris à s'en servir.
+- Garder un poste **rangé** ; ranger les outils après usage.
+- Tenir la pièce avec un **étau** ou une pince, jamais à la main sous un foret.
+- Connaître l'emplacement de l'**arrêt d'urgence**.
+- Ne jamais toucher la buse d'une imprimante 3D ou une pièce qui sort d'une machine chauffante.
+
+## Les procédés de fabrication
+### Enlèvement de matière
+On part d'un bloc de matière et on en **retire** une partie : sciage, perçage, limage, ponçage, fraisage (sur un **centre d'usinage**), découpe laser. Il y a des **chutes** ou des copeaux.
+
+### Ajout de matière (fabrication additive)
+L'**imprimante 3D** dépose un fil de plastique fondu (souvent du **PLA**, issu de végétaux comme le maïs) **couche par couche** pour construire la pièce à partir d'un fichier 3D (.stl). Avantage : formes complexes, peu de déchets, pièce sur mesure. Inconvénient : lent pour les grandes pièces.
+
+### Mise en forme (déformation)
+On change la forme de la matière **sans en enlever** :
+- le **pliage** : on plie une tôle ou une plaque de plastique ; une **plieuse à fil chaud** chauffe la plaque de plastique le long d'une ligne pour la plier (thermopliage) ;
+- le **thermoformage** : une feuille de plastique est chauffée jusqu'à devenir molle, puis plaquée sur un moule (souvent par aspiration de l'air) ; en refroidissant, elle garde la forme. Exemples : barquettes, coques, emballages.
+
+### La découpe laser
+Un faisceau laser **brûle ou fait fondre** la matière en suivant un dessin numérique. Elle découpe et grave avec une grande précision le bois fin, le carton, le contreplaqué, certains plastiques (comme le PMMA). On ne découpe **jamais de PVC** (il dégage un gaz toxique et corrosif), on ne laisse jamais la machine sans surveillance et l'aspiration des fumées doit fonctionner.
+
+## Les assemblages
+| Assemblage | Exemples | Démonter sans casser ? |
+|---|---|---|
+| **Fixe** (permanent, non démontable) | collage, soudure, rivet, couture | non |
+| **Démontable** | vis et écrou, vis à bois, clips, aimants | oui |
+
+Un objet assemblé avec des **vis** est plus facile à réparer qu'un objet collé. Remarque : une vis réalise une liaison **fixe** (les pièces ne bougent pas) mais **démontable** ; ne confonds pas « liaison fixe » et « assemblage non démontable ».
+
+## Fiabilité, durabilité, réparabilité
+- La **fiabilité** est l'aptitude d'un objet à **fonctionner sans panne** pendant une durée donnée.
+- La **durabilité** est l'aptitude d'un objet à **durer longtemps** en restant utilisable, grâce à sa solidité, à son entretien et aux réparations possibles.
+- L'**indice de réparabilité**, créé par la loi anti-gaspillage pour une économie circulaire (loi AGEC du 10 février 2020) et affiché en France depuis le 1er janvier 2021, est une **note sur 10** affichée au moment de l'achat. Il concerne aujourd'hui les ordinateurs portables, les lave-vaisselle, les aspirateurs, les tondeuses à gazon électriques et les nettoyeurs haute pression. Elle combine cinq critères notés chacun sur 20 : la **documentation** (notices de réparation), la **démontabilité** (outils nécessaires, fixations), la **disponibilité des pièces détachées**, le **prix des pièces détachées**, et un critère propre au type d'appareil. Le total sur 100 est ramené à une note sur 10.
+- Depuis 2025, les téléviseurs (janvier) et les lave-linge (avril) affichent à la place un **indice de durabilité**, lui aussi noté sur 10, qui ajoute la fiabilité (résistance à l'usure, entretien).
+- Depuis le 20 juin 2025, les smartphones et les tablettes n'ont plus l'indice français : ils affichent l'**étiquette énergie européenne**, qui comprend une **classe de réparabilité** (de A à E).
+
+>! Exemple résolu (notes fictives) : un aspirateur obtient 16, 12, 14, 10 et 18 sur 20 aux cinq critères. Total : 16 + 12 + 14 + 10 + 18 = 70 sur 100, soit un indice de **7 sur 10**.
+
+> **À retenir** : pour réparer, on **met hors tension**, on **observe**, on **démonte** en photographiant, on **remplace** la pièce défectueuse, on **remonte** et on **teste**. En atelier : **EPI** (lunettes, blouse, casque antibruit), cheveux attachés, **pas de gants près d'une machine qui tourne**. Procédés : **enlèvement** de matière (perçage, sciage, découpe laser, usinage), **ajout** de matière (imprimante 3D), **mise en forme** (pliage, thermoformage). Assemblages **fixes** (colle, soudure, rivet) ou **démontables** (vis, clips). **Fiabilité** = fonctionner sans panne ; **durabilité** = durer longtemps ; **indice de réparabilité** = note sur 10.
+`,
+      exercices: [
+        { type: "qcm", question: "Une petite voiture à moteur fait du bruit mais ses roues ne tournent plus. En la démontant, que dois-tu chercher en priorité ?", choix: ["La couleur de la carrosserie", "Un engrenage aux dents cassées ou usées", "La marque du moteur", "La taille des roues"], reponse: 1, explication: "Le moteur tourne (on l'entend) mais le mouvement n'arrive pas aux roues : la panne est sans doute dans la **transmission**. Un engrenage aux dents cassées est un défaut qu'on repère visuellement." },
+        { type: "vf", question: "Pour utiliser la perceuse à colonne en sécurité, il faut porter des gants.", reponse: false, explication: "On ne porte **pas de gants** près d'une machine qui tourne : le gant peut être happé et entraîner la main. On porte des **lunettes de protection**, on attache ses cheveux et on tient la pièce dans un étau." },
+        { type: "qcm", question: "Quel procédé de fabrication fonctionne par ajout de matière ?", choix: ["Le perçage", "La découpe laser", "L'impression 3D", "Le sciage"], reponse: 2, explication: "L'imprimante 3D construit la pièce **couche par couche** en déposant du plastique fondu : c'est un ajout de matière. Le perçage, la découpe laser et le sciage enlèvent de la matière." },
+        { type: "qcm", question: "On chauffe une feuille de plastique jusqu'à ce qu'elle ramollisse, puis on la plaque sur un moule par aspiration de l'air. Comment s'appelle ce procédé ?", choix: ["Le fraisage", "Le thermoformage", "Le rivetage", "L'usinage"], reponse: 1, explication: "C'est le **thermoformage**, un procédé de mise en forme : la matière change de forme sans être enlevée. On l'utilise pour les barquettes et les coques." },
+        { type: "vf", question: "On peut découper une plaque de PVC à la découpeuse laser du collège.", reponse: false, explication: "Le PVC dégage en brûlant un gaz **toxique et corrosif** : il ne doit jamais être découpé au laser. On découpe du bois fin, du carton, du contreplaqué ou du PMMA." },
+        { type: "qcm", question: "Lequel de ces assemblages est démontable ?", choix: ["Un collage", "Une soudure", "Un rivet", "Une vis et un écrou"], reponse: 3, explication: "La vis et l'écrou se démontent sans abîmer les pièces : l'assemblage est **démontable**, ce qui facilite la réparation. Colle, soudure et rivet sont des assemblages fixes (non démontables)." },
+        { type: "saisie", question: "Une pièce de remplacement imprimée en 3D a une masse de 25 g. La bobine de PLA de 1 kg coûte 20 €. Quel est le coût de la matière de la pièce, en euros ? (nombre seul)", reponses: ["0,50 €", "0,5 €", "0,50 euro", "0,5 euro"], explication: "1 kg = 1 000 g coûte 20 €, donc 1 g coûte 20 ÷ 1 000 = 0,02 €. Pour 25 g : 25 × 0,02 = **0,50 €**." },
+        { type: "saisie", question: "Un appareil obtient (notes fictives) 16, 12, 14, 10 et 18 sur 20 aux cinq critères de l'indice de réparabilité. Le total sur 100 est ramené à une note sur 10. Quel est son indice ? (nombre seul)", reponses: ["7", "7/10", "7 sur 10"], explication: "Total : 16 + 12 + 14 + 10 + 18 = 70 sur 100. Ramené sur 10 : 70 ÷ 10 = **7 sur 10**." },
+        { type: "qcm", question: "Un grille-pain fonctionne cinq ans sans aucune panne. Quelle qualité est ainsi démontrée ?", choix: ["Sa fiabilité", "Sa réparabilité", "Son thermoformage", "Son indice énergétique"], reponse: 0, explication: "La **fiabilité** est l'aptitude à fonctionner **sans panne** pendant une durée donnée. La réparabilité dit si on peut le réparer facilement ; la durabilité, s'il peut durer longtemps grâce à sa solidité, son entretien et les réparations." },
+        { type: "redaction", question: "Une lampe de bureau à DEL, alimentée par un bloc secteur, ne s'allume plus. En l'observant, tu remarques que le fil est sectionné à l'entrée du pied de la lampe et que le pied est assemblé par quatre vis. Le professeur te fournit un domino de connexion (bornier à vis). 1) Rédige le protocole de réparation, étape par étape, en indiquant les règles de sécurité et les outils. 2) Comment vérifies-tu que la réparation est réussie ? 3) Explique en quoi l'assemblage par vis a rendu cet objet réparable, et cite deux autres critères de l'indice de réparabilité.", corrige: "1) **Protocole de réparation** :\n1. **Mettre hors tension** : débrancher le bloc secteur de la prise avant toute intervention.\n2. **Observer et décrire** la panne : la lampe ne s'allume plus, le fil est coupé à l'entrée du pied.\n3. **Préparer le poste** : poste rangé, lunettes de protection ; outils : tournevis adapté aux vis du pied, pince coupante, pince à dénuder, domino.\n4. **Démonter** le pied en dévissant les quatre vis ; **photographier** l'intérieur et ranger les vis dans une boîte.\n5. **Repérer** les deux conducteurs coupés ; couper proprement la partie abîmée avec la pince coupante.\n6. **Dénuder** environ 5 mm de chaque conducteur avec la pince à dénuder.\n7. **Raccorder** chaque conducteur à son conducteur correspondant dans le domino (en respectant les couleurs : une DEL ne fonctionne que dans un sens, il ne faut pas inverser le + et le −) et serrer les vis du domino ; vérifier qu'aucun brin de cuivre ne dépasse.\n8. **Remonter** le pied dans l'ordre inverse (aide-toi des photos) et revisser les quatre vis.\n9. **Tester** (voir question 2).\n10. **Noter** la réparation sur une fiche (panne, cause, pièce utilisée, résultat).\n\nRemarque de sécurité : cette réparation est possible au collège car le fil coupé est situé **après** le bloc secteur, en très basse tension. On ne répare jamais soi-même un cordon branché directement sur le 230 V : il faut le remplacer entièrement.\n\n2) **Validation** : après avoir vérifié que le pied est bien fermé et qu'aucun fil n'est à nu, rebrancher le bloc secteur, actionner l'interrupteur : la DEL doit s'allumer. Bouger doucement le fil pour vérifier que la lumière ne clignote pas (pas de faux contact). Si elle ne s'allume pas, débrancher et contrôler les connexions.\n\n3) **Réparabilité** : les vis forment un assemblage **démontable** : on a pu ouvrir le pied sans le casser, puis le refermer. Si le pied avait été collé ou soudé (assemblage fixe), il aurait fallu le casser et la lampe aurait sans doute été jetée. Deux autres critères de l'indice de réparabilité : la **disponibilité des pièces détachées** et leur **prix**, ou l'existence d'une **documentation** expliquant la réparation." },
+      ],
+    },
   ],
 };

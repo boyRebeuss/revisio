@@ -26,7 +26,7 @@ for (const c of data.chapitres) {
     if (e.type === "qcm") {
       pos[e.reponse] = (pos[e.reponse] || 0) + 1;
       // Les propositions sont mélangées à l'écran : aucun renvoi à une position
-      const ordre = /\b(premi[eè]re|deuxi[eè]me|seconde|troisi[eè]me|quatri[eè]me|derni[eè]re) (proposition|r[eé]ponse)|\b(r[eé]ponse|proposition|answer|option) [A-D]\b|\b(first|second|third|last) (option|answer)/i;
+      const ordre = /\b(premi[eè]re|deuxi[eè]me|seconde|troisi[eè]me|quatri[eè]me|derni[eè]re) (proposition|r[eé]ponse)|\b(r[eé]ponse|proposition|answer|option) [A-D]\b|\b(first|second|third|last) (option|answer)|\b(les |la )?(phrases?|propositions?|réponses?) \d( et \d)?\b/i;
       if (ordre.test(e.explication || "") || e.choix.some((x) => /\s\([A-D]\)\s*$|^\s*[A-D][).:]\s/.test(x))) alertes.push(ou + " : renvoi à l'ordre des propositions (mélangées à l'écran)");
     }
     if (e.type === "saisie") e.reponses.forEach((r) => { if (!normaliser(r)) alertes.push(ou + " : réponse vide après normalisation"); });

@@ -860,6 +860,92 @@ On vouvoie un inconnu : *Perdone* (usted) ; à un jeune de ton âge : *Perdona* 
         { type: "qcm", question: "Tu demandes ton chemin à une dame âgée. Tu dis :", choix: ["Oye, ¿dónde está la plaza?", "Perdone, ¿dónde está la plaza?", "Perdona, ¿dónde estás la plaza?", "Perdone, ¿dónde hay la plaza?"], reponse: 1, explication: "On vouvoie une personne inconnue et âgée : **Perdone** (usted). *Oye* est familier, *estás* ne convient pas (c'est la plaza qui est située), et *hay* ne s'emploie pas avec *la*." },
         { type: "redaction", question: "Un touriste espagnol est devant ton collège et te demande le chemin de la gare. Écris le dialogue (5 ou 6 répliques) : salutation, question, indications (au moins trois), distance, remerciements.", corrige: "Modèle :\n\n- *Turista: ¡Hola! Perdona, ¿dónde está la estación de tren?*\n- *Yo: ¡Hola! Está un poco lejos, a quince minutos a pie.*\n- *Turista: ¿Cómo puedo ir?*\n- *Yo: Sigue todo recto hasta el semáforo. Luego gira a la izquierda y toma la primera calle a la derecha. Cruza la plaza: la estación está enfrente del supermercado. También puedes ir en autobús: la parada está en la esquina.*\n- *Turista: ¡Muchas gracias!*\n- *Yo: De nada. ¡Adiós!*\n\nPoints vérifiés : *¿dónde está la...?* ; impératifs à *tú* (*sigue, gira, toma, cruza*) ; prépositions de lieu (*enfrente de, en la esquina*) ; *a pie* / *en autobús* ; politesse (*perdona, gracias, de nada*)." }
       ]
+    },
+    {
+      id: "mexico-descubrir",
+      titre: "Axe 6 : Le Mexique : partons à la découverte de ce pays fascinant !",
+      theme: "Culture",
+      cours: `
+## México en pocas palabras
+Le **Mexique** (*México*) est le pays qui compte le plus d'hispanophones au monde : plus de 120 millions d'habitants (126 millions au recensement de 2020 de l'INEGI, l'institut de statistique mexicain).
+- **Capitale** : *Ciudad de México* (CDMX). Elle est construite à l'emplacement de **Tenochtitlan**, la capitale des Aztèques, fondée sur une île au milieu d'un lac (en 1325 selon la tradition).
+- **Le drapeau** : vert, blanc, rouge, avec un **aigle** posé sur un cactus (*el nopal*) qui dévore un serpent : selon la légende, les Aztèques devaient fonder leur ville là où ils verraient cet aigle.
+- **La monnaie** : *el peso mexicano*.
+- **Les langues** : l'espagnol et 68 langues indigènes reconnues comme langues nationales (68 « groupes linguistiques » selon l'INALI, l'institut des langues indigènes, qui compte 364 variantes) ; la plus parlée est le **náhuatl**, la langue des Aztèques.
+- **Prononciation** : dans *México* et *mexicano*, le **x** se prononce comme la **jota** : « Méjico ».
+
+## La naturaleza: volcanes, selva y playas
+| Espagnol | Français |
+|---|---|
+| el volcán / los volcanes | le volcan / les volcans |
+| la montaña, la sierra | la montagne, la chaîne de montagnes |
+| la selva | la forêt tropicale |
+| el desierto, el cactus | le désert, le cactus |
+| la playa, el mar Caribe | la plage, la mer des Caraïbes |
+| la península | la péninsule |
+| el cenote | le cénote (puits naturel d'eau douce) |
+| la mariposa | le papillon |
+
+- **Les volcans** : le Mexique en compte beaucoup. Près de Mexico se dressent le **Popocatépetl** (« el Popo », un volcan actif ; en náhuatl, son nom signifie « la montagne qui fume ») et l'**Iztaccíhuatl** (« la femme blanche »). Le **Pico de Orizaba** (*Citlaltépetl*) est le plus haut sommet du pays. Le **Paricutín** est né en 1943 au milieu d'un champ de maïs, dans l'État du Michoacán.
+- **Le Yucatán** : une grande péninsule plate au sud-est, couverte de *selva*, avec les plages de la mer des Caraïbes (Cancún) et des milliers de **cenotes** : des puits naturels d'eau douce, sacrés pour les Mayas. **Mérida**, la capitale de l'État du Yucatán, est surnommée *la Ciudad Blanca*.
+- Au nord, le désert de **Sonora** et ses cactus géants ; en hiver, des millions de **papillons monarques** arrivent du Canada et des États-Unis dans les forêts du Michoacán.
+
+>! **Pour décrire un paysage** : *En México **hay** muchos volcanes. El Popocatépetl **está** cerca de la Ciudad de México. **Es** un volcán activo. Mérida **está** en la península de Yucatán.*
+
+## El patrimonio: las pirámides
+- **Teotihuacán** (à environ 50 km au nord-est de Mexico) : une immense cité, bien plus ancienne que les Aztèques. Quand ils l'ont découverte, elle était déjà en ruines ; ils lui ont donné son nom, que l'on traduit souvent par « la cité des dieux ». On y voit la **pyramide du Soleil** (*la Pirámide del Sol*, la plus grande), la **pyramide de la Lune** et la grande avenue appelée *la Calzada de los Muertos*.
+- **Chichén Itzá** (Yucatán) : une grande cité **maya**. Sa pyramide, *El Castillo*, est dédiée à **Kukulcán**, le serpent à plumes. Elle a 4 escaliers de 91 marches ; avec la plateforme du sommet, cela fait 4 × 91 + 1 = **365**, comme les jours de l'année. Aux équinoxes (mars et septembre), l'ombre du soleil dessine un serpent qui semble descendre l'escalier. On y trouve aussi un grand terrain de jeu de balle (*el juego de pelota*).
+- Ces deux sites sont inscrits au **patrimoine mondial de l'UNESCO** (Teotihuacán en 1987, Chichén Itzá en 1988).
+
+>! **Reconnaître l'imparfait** (tu n'as pas à le conjuguer cette année) : dans les textes sur le passé, tu verras *era* (c'était, il/elle était), *había* (il y avait), *vivían* (ils vivaient). *Teotihuacán **era** una ciudad enorme. **Había** muchos templos.* = Teotihuacán était une ville énorme. Il y avait beaucoup de temples.
+
+## Los sabores de México
+- **El maíz** est la base de la cuisine mexicaine depuis des milliers d'années. Avec sa farine, on fait la **tortilla de maíz** : une fine galette ronde. Attention, **faux ami** : en Espagne, *la tortilla de patatas* est une omelette aux pommes de terre !
+- **Los tacos** : une tortilla pliée et garnie (viande, oignon, coriandre, *salsa*). Les *tacos al pastor* sont parmi les plus célèbres.
+- **El mole** : une sauce épaisse et brune, préparée avec des piments (*chiles*), des épices et... du **chocolat**. Le plus connu est le *mole poblano* (de la ville de Puebla), servi avec du poulet ou de la dinde.
+- **El chocolate** : les Mayas et les Aztèques cultivaient le **cacao** ; ils le buvaient amer, avec du piment, et les fèves de cacao servaient même de monnaie chez les Aztèques. Les Espagnols l'ont rapporté en Europe au XVIe siècle.
+- Aussi : *el guacamole* (avocat écrasé), *los frijoles* (haricots rouges ou noirs), *el chile* (piment).
+- Beaucoup de mots espagnols (et français !) viennent du **náhuatl** : *chocolate, tomate, aguacate* (avocat), *chile*, *cacahuate* (cacahuète).
+- La cuisine traditionnelle mexicaine est inscrite au **patrimoine culturel immatériel de l'UNESCO** (2010).
+
+>! **Donner son avis sur un plat** : *Me gusta el guacamole. Me gustan los tacos. No me gusta el chile: **pica** mucho* (ça pique). *¡El mole **está** muy **rico**!* (délicieux). *En el mole **hay** chocolate.*
+
+## El Día de Muertos
+- Il a lieu les **1er et 2 novembre**. Les familles croient que, ces jours-là, les âmes des défunts reviennent leur rendre visite.
+- On prépare chez soi **un autel**, *la ofrenda* (*el altar*), avec la photo de la personne disparue, des bougies (*las velas*), des fleurs orange de **cempasúchil**, du *papel picado* (papier découpé de couleur), des **calaveras de azúcar** (crânes en sucre où l'on écrit un prénom), le *pan de muerto* et les plats préférés du défunt.
+- On va aussi au cimetière (*el panteón*) décorer les tombes, manger et écouter de la musique.
+- **La Catrina** : une élégante dame squelette au grand chapeau, imaginée par le graveur José Guadalupe Posada au début du XXe siècle, devenue un symbole de la fête.
+- Ce n'est **ni une fête triste, ni Halloween** : c'est une fête joyeuse et colorée pour se souvenir. Elle est inscrite au patrimoine culturel immatériel de l'UNESCO (2008).
+
+## Méthode : présenter une ville ou un plat (6 à 8 phrases)
+1. **Nommer** : *Te presento Mérida. / Mi plato favorito es el mole.*
+2. **Situer** avec **estar** : *Mérida está en el sureste de México, en Yucatán.*
+3. **Décrire** avec **ser** : *Es una ciudad blanca y tranquila. / Es una salsa con chocolate.*
+4. **Énumérer** avec **hay** : *Hay una catedral, mercados y cenotes cerca. / En el mole hay chiles y especias.*
+5. **Donner ton avis** avec **gustar** et **porque** : *Me gusta mucho porque es original.*
+6. **Conclure** : *¡Es un lugar fascinante! / ¡Tienes que probarlo!* (tu dois le goûter !)
+
+>! **Erreurs fréquentes**
+- ✗ *Hay la pirámide* → ✓ *Hay una pirámide* ; avec *la / el*, on situe avec **estar** : *La pirámide está en Teotihuacán.*
+- ✗ *Me gusta los tacos* → ✓ *Me gust**an** los tacos* (nom pluriel).
+- ✗ *Chichén Itzá es en Yucatán* → ✓ *Chichén Itzá **está** en Yucatán* (localisation).
+- ✗ *Mexico* sans accent → ✓ *México* ; l'adjectif s'écrit sans majuscule : *la comida mexicana*.
+
+> **À retenir** : le Mexique, premier pays hispanophone (capitale Ciudad de México, ancienne Tenochtitlan) ; volcans (Popocatépetl), péninsule du Yucatán et cenotes ; Teotihuacán (pyramides du Soleil et de la Lune) et Chichén Itzá (pyramide maya de Kukulcán, 365 marches) ; maïs, tortilla de maíz, tacos, mole et chocolat (mots venus du náhuatl) ; Día de Muertos les 1er et 2 novembre (ofrenda, cempasúchil, calaveras, Catrina). Pour présenter : está en, es, hay, me gusta(n) porque...
+`,
+      exercices: [
+        { type: "vf", question: "Au Mexique, une *tortilla* est une omelette aux pommes de terre.", reponse: false, explication: "Au Mexique, la **tortilla de maíz** est une fine galette de maïs (on s'en sert pour les tacos). L'omelette aux pommes de terre, *la tortilla de patatas*, est un plat **espagnol** : c'est un faux ami entre les deux pays." },
+        { type: "qcm", question: "Sur quel site se trouvent la pyramide du Soleil et la pyramide de la Lune ?", choix: ["Chichén Itzá", "Teotihuacán", "Mérida", "Cancún"], reponse: 1, explication: "Les pyramides du Soleil et de la Lune sont à **Teotihuacán**, près de Mexico, le long de la *Calzada de los Muertos*. Chichén Itzá est une cité maya du Yucatán ; Mérida et Cancún sont des villes modernes." },
+        { type: "saisie", question: "À Chichén Itzá, la grande pyramide (*El Castillo*) est dédiée au serpent à plumes. Comment s'appelle ce dieu maya ?", reponses: ["Kukulcán", "Kukulcan", "Kukulkán", "Kukulkan"], explication: "**Kukulcán**, le serpent à plumes (les Aztèques l'appelaient Quetzalcóatl). Aux équinoxes, l'ombre dessine un serpent sur l'escalier de sa pyramide." },
+        { type: "qcm", question: "Dans le Yucatán, qu'est-ce qu'un *cenote* ?", choix: ["un volcan éteint", "une pyramide maya", "un puits naturel d'eau douce", "un plat à base de maïs"], reponse: 2, explication: "Un **cenote** est un puits naturel rempli d'eau douce, creusé dans la roche. Il y en a des milliers dans la péninsule ; ils étaient sacrés pour les Mayas et aujourd'hui on peut s'y baigner." },
+        { type: "saisie", question: "Complète avec *hay*, *es* ou *está* : « En el mole ... chocolate. »", reponses: ["hay"], explication: "On indique ce qu'il y a (sans article défini) avec **hay** : *En el mole hay chocolate* (et aussi des chiles et des épices)." },
+        { type: "saisie", question: "Complète avec *gusta* ou *gustan* : « A mi hermano le ... los tacos al pastor. »", reponses: ["gustan"], explication: "*los tacos* est au pluriel → **gustan** : *A mi hermano le gustan los tacos al pastor*." },
+        { type: "saisie", question: "Complète avec *hay*, *es* ou *está* : « Chichén Itzá ... en la península de Yucatán. »", reponses: ["está"], explication: "Pour **situer** un lieu précis (un nom propre ou un nom avec *el / la*), on emploie **estar** : *Chichén Itzá está en Yucatán*." },
+        { type: "qcm", question: "Pour le Día de Muertos, quelles fleurs orange décorent les autels (*ofrendas*) ?", choix: ["les tulipes", "les roses", "les tournesols", "les cempasúchiles"], reponse: 3, explication: "Les fleurs orange de **cempasúchil** (un tagète, cousin de l'œillet d'Inde) ont une couleur vive et un parfum fort : selon la tradition, elles guident les âmes jusqu'à la *ofrenda*." },
+        { type: "qcm", question: "Lis la phrase : « Hace mucho tiempo, Tenochtitlan **era** una ciudad sobre un lago. » Que signifie *era* ?", choix: ["était", "est", "sera", "a été construite"], reponse: 0, explication: "*era* est l'imparfait de *ser* : **était**. La phrase signifie : « Il y a longtemps, Tenochtitlan était une ville sur un lac. » Tu dois savoir reconnaître *era, había, vivían*, sans les conjuguer." },
+        { type: "redaction", question: "**Compréhension** — Lis ce texte (texte d'entraînement), puis réponds en français aux questions.\n\n« *Me llamo Ximena y vivo en Mérida, en Yucatán. Mi ciudad es blanca y muy bonita. Cerca de Mérida hay cenotes: son piscinas naturales de agua dulce. Los fines de semana nado en un cenote con mi hermano. ¡Me encanta! A dos horas de mi casa está Chichén Itzá, una antigua ciudad maya. Hace mucho tiempo, era una ciudad muy importante. Mi comida favorita es la cochinita pibil: es carne de cerdo con naranja. ¡Está muy rica! En noviembre, para el Día de Muertos, mi familia prepara un altar para mi abuelo. Hay flores naranjas, velas y su foto. ¡Mi abuelo era muy divertido!* »\n\n1. Qui parle et où habite-t-elle ?\n2. Qu'est-ce qu'un cenote et que fait Ximena le week-end ?\n3. Qu'est-ce que Chichén Itzá ?\n4. Quel est son plat préféré ? Qu'en pense-t-elle ?\n5. Que fait sa famille en novembre ? Relève deux mots à l'imparfait.", corrige: "1. C'est **Ximena**, une jeune Mexicaine qui habite à **Mérida**, dans le Yucatán. Sa ville est blanche et très jolie.\n2. Un **cenote** est une piscine naturelle d'eau douce. Le week-end, Ximena **nage dans un cenote avec son frère** et elle adore ça (*¡Me encanta!*).\n3. **Chichén Itzá** est une ancienne cité **maya**, à deux heures de chez elle ; il y a longtemps, c'était une ville très importante.\n4. Son plat préféré est la **cochinita pibil**, de la viande de porc à l'orange ; elle la trouve **délicieuse** (*¡Está muy rica!*).\n5. Pour le **Día de Muertos**, sa famille prépare **un autel pour son grand-père**, avec des fleurs orange, des bougies et sa photo.\n   Imparfait : *era* (« c'était une ville très importante », « mon grand-père était très drôle »). Le mot *era* apparaît deux fois.\n\nMéthode : repère d'abord les mots transparents (*cenotes, piscinas naturales, maya, altar, foto*), les noms propres et les verbes ; réponds avec tes propres phrases en français, sans inventer." },
+        { type: "redaction", question: "**Expression écrite** (60 à 80 mots) — Présente en espagnol **une ville** ou **un plat** du Mexique à ta classe : où (ou avec quoi), comment c'est, ce qu'il y a, ton avis justifié avec *porque*. Utilise au moins une fois *está en*, *es*, *hay* et *gustar*.", corrige: "**Modèle 1 : une ville**\n\n*Te presento Mérida. Mérida está en el sureste de México, en la península de Yucatán. Es una ciudad blanca, tranquila y muy bonita. En el centro hay una catedral grande, una plaza y muchos mercados. Cerca de la ciudad hay cenotes y pirámides mayas, como Chichén Itzá. Me gusta mucho Mérida porque hay naturaleza y mucha historia. ¡Es un lugar fascinante!*\n\n**Modèle 2 : un plato**\n\n*Mi plato mexicano favorito es el mole poblano. Es una salsa marrón de la ciudad de Puebla. En el mole hay chiles, especias y chocolate. Normalmente, los mexicanos lo comen con pollo y tortillas de maíz. Me gusta mucho porque es dulce y pica un poco. ¡Está muy rico! ¡Tienes que probarlo!*\n\nPoints vérifiés :\n- **estar en** pour situer (*está en el sureste*) ;\n- **ser** pour décrire (*es blanca, es una salsa*) ;\n- **hay** + nom sans article défini (*hay una catedral, hay chiles*) ;\n- **gustar** bien accordé et justification avec **porque** ;\n- accents (*México, Mérida, Yucatán, maíz*) et ponctuation ¡ !." }
+      ]
     }
   ]
 };

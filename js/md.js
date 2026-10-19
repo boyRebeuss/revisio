@@ -15,6 +15,8 @@ export function inline(s) {
   return esc(s)
     // Espaces insécables dans les nombres (« 8 000 ») pour ne pas les couper
     .replace(/(\d) (?=\d{3}(?!\d))/g, "$1&nbsp;")
+    // Typographie française : pas de retour à la ligne avant » ! ? : ; ni après «
+    .replace(/« /g, "«&nbsp;").replace(/ ([»!?:;])/g, "&nbsp;$1")
     // Grec (dont polytonique) dans une police qui affiche bien esprits et accents
     .replace(/[\u0370-\u03FF\u1F00-\u1FFF][\u0370-\u03FF\u1F00-\u1FFF\u0300-\u036f\s’',.;·]*[\u0370-\u03FF\u1F00-\u1FFF\u0300-\u036f]|[\u0370-\u03FF\u1F00-\u1FFF]/g, (m) => `<span class="grc">${m}</span>`)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")

@@ -2598,5 +2598,630 @@ Traduction : **Les Grecs vainquirent (ont vaincu) les Perses.**
         },
       ],
     },
+    {
+      id: "interrogatifs-indefinis-phemi",
+      titre: "Pronoms interrogatifs et indéfinis ; φημί ; ὡς + verbe",
+      theme: "Langue : la phrase",
+      cours: `
+## Le pronom interrogatif τίς, τί (qui ? quoi ? quel ?)
+Il appartient à la 3e déclinaison (radical τιν-) et n'a que deux formes : une pour le masculin et le féminin, une pour le neutre.
+
+| Cas | Masc. / fém. | Neutre |
+|---|---|---|
+| N. sg. | τίς | τί |
+| A. sg. | τίνα | τί |
+| G. sg. | τίνος (ou τοῦ) | τίνος (ou τοῦ) |
+| D. sg. | τίνι (ou τῷ) | τίνι (ou τῷ) |
+| N. pl. | τίνες | τίνα |
+| A. pl. | τίνας | τίνα |
+| G. pl. | τίνων | τίνων |
+| D. pl. | τίσι(ν) | τίσι(ν) |
+
+- L'accent est **fixe** : toujours un **aigu**, toujours sur la **première syllabe** (τίνος, τίνι, τίνων, τίσι). Même devant un autre mot, l'aigu de τίς et de τί ne devient **jamais grave** : τίς ἐστιν; τί λέγεις;
+- **Pronom** : τίς λέγει; « qui parle ? » ; τί ποιεῖς; « que fais-tu ? ».
+- **Adjectif** : τίς ἀνήρ; « quel homme ? » ; τίνα τρόπον; « de quelle manière ? ».
+- **τί** employé seul peut signifier « **pourquoi ?** » : τί κλαίεις; « pourquoi pleures-tu ? » (κλαίω : pleurer).
+- Dans une **interrogation indirecte**, après un verbe comme ἐρωτῶ (je demande) ou οὐκ οἶδα (je ne sais pas), on trouve τίς ou le relatif indéfini ὅστις : ἐρωτᾷ τίς ἐστιν, « il demande qui c'est ».
+
+## L'indéfini τις, τι (quelqu'un, quelque chose, un certain)
+Mêmes formes, mais **enclitiques** : sans accent propre, ou avec un accent sur la **dernière** syllabe.
+
+| Cas | Masc. / fém. | Neutre |
+|---|---|---|
+| N. sg. | τις | τι |
+| A. sg. | τινά | τι |
+| G. sg. | τινός (ou του) | τινός (ou του) |
+| D. sg. | τινί (ou τῳ) | τινί (ou τῳ) |
+| N. pl. | τινές | τινά (ou ἄττα) |
+| A. pl. | τινάς | τινά (ou ἄττα) |
+| G. pl. | τινῶν | τινῶν |
+| D. pl. | τισί(ν) | τισί(ν) |
+
+- **Place** : l'indéfini est **postpositif**, il ne commence jamais une phrase ; il s'appuie sur le mot précédent, qui reçoit parfois un second accent : ἄνθρωπός τις.
+- **Pronom** : λέγει τις, « quelqu'un dit » ; τι, « quelque chose ». **Adjectif** : ἀνήρ τις, « un homme, un certain homme » (le grec n'a pas d'article indéfini : τις en tient souvent lieu).
+- **εἴ τις**, « si quelqu'un » ; le neutre τι peut être adverbial : « en quelque chose, un peu », et avec une négation « en rien, pas du tout ».
+
+>! **Distinguer les deux** : regarde l'**accent** et la **place**.
+>! τίνος (accent sur la 1re syllabe, souvent en tête) = « de qui ? » ; τινός (accent sur la finale, après un mot) = « de quelqu'un ».
+>! τίνων = « desquels ? » ; τινῶν = « de certains ».
+>! τίς ἦλθεν; = « qui est venu ? » ; ἦλθέ τις = « quelqu'un est venu ».
+
+## Le verbe φημί (dire, affirmer)
+C'est un verbe **athématique** (sans voyelle thématique, comme εἰμί), à connaître par cœur.
+
+| Personne | Présent | Imparfait |
+|---|---|---|
+| 1re sg. | φημί (je dis) | ἔφην (je disais) |
+| 2e sg. | φῄς (ou φής) | ἔφησθα (ou ἔφης) |
+| 3e sg. | φησί(ν) | ἔφη |
+| 1re pl. | φαμέν | ἔφαμεν |
+| 2e pl. | φατέ | ἔφατε |
+| 3e pl. | φασί(ν) | ἔφασαν |
+
+- **Infinitif** : φάναι. Le participe usuel en prose attique est φάσκων, -ουσα, -ον.
+- Comme εἰμί, les formes du présent sont **enclitiques**, sauf la 2e personne du singulier φῄς.
+- **ἔφη** sert d'incise dans les dialogues : « dit-il, fit-il ». L'imparfait a alors une valeur proche de l'aoriste : ὦ Κρίτων, ἔφη, …, « Criton, dit-il, … » (Platon, *Phédon*, 118a).
+- **φασί(ν)** signifie souvent « **on dit** » : ὡς φασι, « comme on dit ».
+
+### La construction : φημί + proposition infinitive
+φημί introduit le discours indirect par une **proposition infinitive** :
+- sujet **différent** de celui de φημί → **accusatif** : φησὶ τὸν παῖδα σοφὸν εἶναι, « il dit que l'enfant est savant » ;
+- **même** sujet → il n'est pas exprimé, et l'attribut se met au **nominatif** : φησὶ σοφὸς εἶναι, « il dit qu'il est (lui-même) savant ».
+
+Le **temps de l'infinitif** donne le rapport de temps avec φημί : présent = simultanéité (φησὶ γράφειν, « il dit qu'il écrit ») ; **aoriste = antériorité** (φησὶ γράψαι, « il dit qu'il a écrit » : dans le discours indirect, l'infinitif aoriste a une valeur de **passé**) ; futur = postériorité (φησὶ γράψειν, « il dit qu'il écrira »).
+
+**Négation** : on dit **οὔ φημι** + infinitif, « je dis que… ne… pas », c'est-à-dire « je nie » : οὔ φησι τὸν παῖδα ἀδικεῖν, « il dit que l'enfant n'est pas coupable ».
+
+>! **Texte authentique** (Platon, *Apologie de Socrate*, 24b-c) : Socrate cite l'acte d'accusation porté contre lui.
+>! Σωκράτη φησὶν ἀδικεῖν τούς τε νέους διαφθείροντα καὶ θεοὺς οὓς ἡ πόλις νομίζει οὐ νομίζοντα, ἕτερα δὲ δαιμόνια καινά.
+>! φησίν (sujet : l'acte d'accusation) commande la proposition infinitive Σωκράτη… ἀδικεῖν ; les participes διαφθείροντα et νομίζοντα, accordés avec Σωκράτη, précisent en quoi il est coupable.
+>! Traduction : **« Socrate, dit-elle, est coupable de corrompre les jeunes gens et de ne pas reconnaître les dieux que reconnaît la cité, mais d'autres divinités nouvelles. »**
+
+## ὡς + verbe : « comme… »
+ὡς suivi d'un verbe conjugué forme une petite **incise comparative**, très fréquente dans les dialogues :
+
+| Expression | Sens |
+|---|---|
+| ὡς λέγεις | comme tu le dis |
+| ὡς ἐμοὶ δοκεῖ | à ce qu'il me semble, à mon avis |
+| ὡς ἔοικε(ν) | à ce qu'il semble, apparemment |
+| ὡς φασι(ν) | comme on dit |
+| ὡς οἶμαι | à ce que je crois |
+
+Dans ὡς ἐμοὶ δοκεῖ, ἐμοί est le datif de ἐγώ (« il semble **à moi** ») : forme tonique, car le pronom est mis en relief.
+
+Ne confonds pas cet ὡς « comme » avec ses autres emplois : ὡς + participe (cause alléguée, but), ὡς + superlatif (ὡς τάχιστα, « le plus vite possible »), ὡς = « que » après un verbe de déclaration.
+
+>! **Exemple résolu** (texte authentique : Platon, *Apologie de Socrate*, 21a). Socrate raconte que son ami Chéréphon est allé consulter l'oracle de Delphes.
+>! ἤρετο γὰρ δὴ εἴ τις ἐμοῦ εἴη σοφώτερος. ἀνεῖλεν οὖν ἡ Πυθία μηδένα σοφώτερον εἶναι.
+>! ἤρετο : aoriste de ἔρομαι (demander) ; εἴ τις : « si quelqu'un » (indéfini enclitique, après εἰ) ; ἐμοῦ : génitif de comparaison après σοφώτερος ; εἴη : optatif de εἰμί, mode de l'interrogation indirecte au passé. ἀνεῖλεν : aoriste de ἀναιρέω, « répondre » (en parlant d'un oracle), suivi d'une proposition infinitive (μηδένα… εἶναι).
+>! Traduction : **Il demanda en effet s'il y avait quelqu'un de plus savant que moi. La Pythie répondit donc que personne n'était plus savant.**
+
+> **À retenir** : interrogatif τίς, τί, τίνος, τίνι (accent fixe sur la 1re syllabe, jamais grave) ; indéfini τις, τι, τινός, τινί (enclitique, jamais en tête) ; φημί, φῄς, φησί, φαμέν, φατέ, φασί ; ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν ; φάναι ; φημί + proposition infinitive (accusatif, ou nominatif si même sujet) ; οὔ φημι = je nie ; ὡς λέγεις = comme tu le dis ; ὡς ἐμοὶ δοκεῖ = à mon avis.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Que signifie la question **τί λέγεις;** ?",
+          choix: ["Qui parle ?", "Que dis-tu ?", "Quelqu'un parle.", "Tu dis quelque chose."],
+          reponse: 1,
+          explication: "τί, accentué et en tête, est l'**interrogatif** neutre, COD de λέγεις (2e sg.) ; le « ; » grec est un point d'interrogation : « que dis-tu ? ». « Qui parle ? » se dirait τίς λέγει; et « tu dis quelque chose » λέγεις τι (indéfini enclitique).",
+        },
+        {
+          type: "qcm",
+          question: "Quelle forme est le **génitif singulier du pronom interrogatif** (« de qui ? ») ?",
+          choix: ["τινός", "τινὸς", "τίνος", "τινῶν"],
+          reponse: 2,
+          explication: "L'interrogatif a un accent **fixe** sur la première syllabe : **τίνος**. τινός (accent sur la finale, qui devient grave devant un autre mot : τινὸς) est le génitif de l'**indéfini** (« de quelqu'un ») ; τινῶν est le génitif pluriel de l'indéfini.",
+        },
+        {
+          type: "vf",
+          question: "L'indéfini τις (« quelqu'un ») peut se placer en tête de phrase.",
+          reponse: false,
+          explication: "Faux : τις est **enclitique** et **postpositif** ; il s'appuie toujours sur le mot qui précède (λέγει τις, « quelqu'un dit »). Un τίς placé en tête et accentué est l'interrogatif (« qui ? »).",
+        },
+        {
+          type: "saisie",
+          question: "Traduis en français : **ἄνθρωπός τις**",
+          reponses: ["un homme", "un certain homme", "quelqu'un", "un être humain", "un certain être humain", "une personne", "une certaine personne", "un homme quelconque"],
+          explication: "τις est ici adjectif indéfini, enclitique (d'où le second accent sur ἄνθρωπός) : « **un homme, un certain homme** ». Le grec n'ayant pas d'article indéfini, τις en joue souvent le rôle.",
+        },
+        {
+          type: "saisie",
+          question: "Donne la **3e personne du pluriel** du présent de φημί.",
+          reponses: ["φασί", "φασίν", "φασι", "φασιν"],
+          explication: "φημί, φῄς, φησί(ν), φαμέν, φατέ, **φασί(ν)**, « ils disent » ou « on dit ». Ne la confonds pas avec la 3e sg. φησί(ν).",
+        },
+        {
+          type: "qcm",
+          question: "Dans un dialogue de Platon, comment traduire l'incise **ἔφη** ?",
+          choix: ["« dis-je »", "« disent-ils »", "« dira-t-il »", "« dit-il »"],
+          reponse: 3,
+          explication: "ἔφη est l'imparfait de φημί, 3e sg. ; en incise, il se traduit « **dit-il** ». « Dis-je » serait ἔφην (1re sg.), « disent-ils » φασί ou ἔφασαν ; φημί n'est pas au futur ici.",
+        },
+        {
+          type: "saisie",
+          question: "Traduis l'incise **ὡς ἐμοὶ δοκεῖ**.",
+          reponses: ["à mon avis", "à ce qu'il me semble", "comme il me semble", "me semble-t-il", "selon moi", "comme il me semble bon", "à ce qui me semble", "comme cela me semble", "d'après moi", "il me semble"],
+          explication: "ὡς (« comme ») + δοκεῖ (« il semble ») + ἐμοί (datif de ἐγώ) : mot à mot « comme il semble à moi », soit « **à mon avis, à ce qu'il me semble** ».",
+        },
+        {
+          type: "qcm",
+          question: "Traduis la phrase d'entraînement : **ὁ ῥήτωρ φησὶ τὸν στρατηγὸν ἀδικεῖν.** (ἀδικέω : être coupable, commettre une injustice)",
+          choix: ["L'orateur dit que le général est coupable.", "L'orateur dit qu'il est coupable envers le général.", "Le général dit que l'orateur est coupable.", "L'orateur disait que le général avait été coupable."],
+          reponse: 0,
+          explication: "φησί (présent, 3e sg.), sujet ὁ ῥήτωρ, introduit une **proposition infinitive** : sujet à l'accusatif τὸν στρατηγόν, verbe à l'infinitif présent ἀδικεῖν (simultanéité). Si l'orateur parlait de lui-même, le sujet ne serait pas exprimé. Le verbe est au présent, et l'infinitif présent n'exprime pas l'antériorité.",
+        },
+        {
+          type: "qcm",
+          question: "Dans **ἤρετο γὰρ δὴ εἴ τις ἐμοῦ εἴη σοφώτερος** (Platon, *Apologie*, 21a), comment s'analyse τις ?",
+          choix: ["Pronom interrogatif, nominatif : « qui ? »", "Pronom relatif, nominatif : « qui »", "Pronom indéfini enclitique, nominatif : « quelqu'un »", "Adjectif indéfini, accusatif : « un certain »"],
+          reponse: 2,
+          explication: "Après εἰ (« si »), τις, sans accent et appuyé sur εἴ (qui reçoit un accent), est l'**indéfini** au nominatif, sujet de εἴη : « s'il y avait **quelqu'un** de plus savant que moi ». L'interrogatif serait accentué sur τί- ; l'accusatif serait τινά.",
+        },
+        {
+          type: "redaction",
+          question: "Analyse puis traduis : 1) **τίς ἐστιν οὗτος ὁ ἀνήρ;** 2) **λέγει τις τὸν βασιλέα φεύγειν.** 3) **οἱ πολῖται, ὡς λέγεις, οὔ φασι τὸν νόμον δίκαιον εἶναι.** (phrases d'entraînement) 4) **ἤρετο γὰρ δὴ εἴ τις ἐμοῦ εἴη σοφώτερος. ἀνεῖλεν οὖν ἡ Πυθία μηδένα σοφώτερον εἶναι.** (Platon, *Apologie de Socrate*, 21a ; sujet de ἤρετο : Chéréphon, ami de Socrate ; ἤρετο : aoriste de ἔρομαι, demander ; εἴη : optatif de εἰμί ; ἀναιρέω, aor. ἀνεῖλον : répondre, en parlant d'un oracle ; μηδένα : accusatif de μηδείς, personne)",
+          corrige: `
+**1)** τίς : interrogatif, nominatif masculin, attribut (accent aigu maintenu devant ἐστιν). ἐστιν : 3e sg. de εἰμί. Sujet : οὗτος ὁ ἀνήρ (démonstratif + article + nom).
+Traduction : **Qui est cet homme ?**
+
+**2)** λέγει : 3e sg. du présent. τις : indéfini enclitique, postposé, sujet : « quelqu'un ». λέγει introduit une proposition infinitive : sujet à l'accusatif τὸν βασιλέα, infinitif présent φεύγειν (simultanéité).
+Traduction : **Quelqu'un dit que le roi s'enfuit.**
+
+**3)** φασί : 3e pl. du présent de φημί, sujet οἱ πολῖται ; οὔ φασι = « ils disent que… ne… pas, ils nient que ». Proposition infinitive : τὸν νόμον (sujet à l'accusatif), εἶναι, δίκαιον (attribut à l'accusatif). ὡς λέγεις : incise, « comme tu le dis ».
+Traduction : **Les citoyens, comme tu le dis, affirment que la loi n'est pas juste** (ou : nient que la loi soit juste).
+
+**4)** Phrase 1 : ἤρετο, aoriste de ἔρομαι, 3e sg., « il demanda ». εἰ introduit une **interrogation indirecte** (« si ») ; τις, indéfini, sujet de εἴη (optatif de εἰμί, mode fréquent de l'interrogation indirecte au passé) ; σοφώτερος, comparatif attribut ; ἐμοῦ, génitif de comparaison (« que moi »). γὰρ δή : « en effet ».
+Phrase 2 : ἀνεῖλεν, aoriste de ἀναιρέω ; sujet ἡ Πυθία ; proposition infinitive μηδένα σοφώτερον εἶναι (sujet μηδένα, attribut σοφώτερον, tous deux à l'accusatif). La négation est μή, habituelle avec l'infinitif ; après un verbe de déclaration on attendrait plutôt οὐ, mais μή se rencontre pour une affirmation catégorique, comme une réponse d'oracle. οὖν : « donc ».
+Traduction : **Il demanda en effet s'il y avait quelqu'un de plus savant que moi. La Pythie répondit donc que personne n'était plus savant.**
+
+>! Méthode : un τις sans accent ou accentué sur la finale, placé après un mot, est l'indéfini ; un τίς accentué sur la première syllabe, souvent en tête, est l'interrogatif. Après φημί, cherche l'accusatif sujet et l'infinitif ; si aucun accusatif ne se présente, le sujet est le même que celui de φημί.
+`,
+        },
+      ],
+    },
+    {
+      id: "parfait-oida-basileus",
+      titre: "Le parfait actif et οἶδα ; βασιλεύς",
+      theme: "Langue : le verbe",
+      cours: `
+## Le parfait : un passé qui dure dans le présent
+Le **parfait** exprime l'**état présent** qui résulte d'une action passée : λέλυκα τὸν ἵππον, « j'ai détaché le cheval » (et il est maintenant détaché). C'est sa **valeur résultative**. On le traduit en général par un **passé composé**, parfois par un **présent d'état** : τέθνηκε, « il est mort » ; νενίκηκα, « j'ai vaincu, je suis vainqueur ».
+
+Ne le confonds pas avec l'**aoriste**, qui présente un fait passé ponctuel (ἔλυσα, « je déliai, j'ai délié »), sans insister sur son résultat présent.
+
+## La formation : redoublement + radical + -κα
+### Le redoublement
+Le redoublement se place **devant le radical** et se garde à **tous les modes** (indicatif, infinitif, participe), contrairement à l'augment.
+
+| Initiale du verbe | Redoublement | Exemples |
+|---|---|---|
+| consonne simple | consonne + ε | λύω → λέλυκα ; παιδεύω → πεπαίδευκα |
+| consonne aspirée (θ, φ, χ) | consonne non aspirée correspondante + ε | θύω → τέθυκα ; φιλέω → πεφίληκα ; χορεύω → κεχόρευκα |
+| voyelle | allongement, comme pour l'augment | ἀγγέλλω → ἤγγελκα ; ἐλπίζω → ἤλπικα |
+| deux consonnes, consonne double (ζ, ξ, ψ) ou ρ | ἐ- seul | στρατεύω → ἐστράτευκα ; ζητέω → ἐζήτηκα ; ῥίπτω → ἔρριφα |
+
+Exception à la 4e ligne : une occlusive suivie de λ, μ, ν ou ρ redouble normalement (γράφω → γέγραφα).
+
+### Le suffixe -κα
+- Verbes à radical en voyelle : radical + **-κα** (λύω → λέλυ-κα). Les **contractes** allongent leur voyelle, comme au futur et à l'aoriste : ποιέω → πεποίηκα ; τιμάω → τετίμηκα ; νικάω → νενίκηκα ; δηλόω → δεδήλωκα.
+- Radical en **dentale** (τ, δ, θ, ζ) : la dentale tombe devant κ : πείθω → πέπεικα ; ἐλπίζω → ἤλπικα ; σῴζω → σέσωκα.
+- Radical en **labiale** ou en **gutturale** : pas de κ, mais une consonne **aspirée** (parfait dit « aspiré ») : γράφω → γέγραφα ; πέμπω → πέπομφα ; φυλάττω → πεφύλαχα ; διώκω → δεδίωχα ; πράττω → πέπραχα.
+- Quelques verbes ont un **parfait second**, sans κ : λείπω → λέλοιπα ; φεύγω → πέφευγα.
+
+## Le parfait de λύω
+| Personne | Forme | Traduction |
+|---|---|---|
+| 1re sg. | λέλυκα | j'ai délié |
+| 2e sg. | λέλυκας | tu as délié |
+| 3e sg. | λέλυκε(ν) | il a délié |
+| 1re pl. | λελύκαμεν | nous avons délié |
+| 2e pl. | λελύκατε | vous avez délié |
+| 3e pl. | λελύκασι(ν) | ils ont délié |
+
+**Infinitif** : λελυκέναι (accent toujours sur la pénultième). **Participe** : λελυκώς, λελυκυῖα, λελυκός (génitif λελυκότος). Le **plus-que-parfait**, rare, ajoute l'augment au redoublement : ἐλελύκη, « j'avais délié ».
+
+>! **Méthode d'identification** : redoublement (λε-, πε-, τε-…) + κα ou consonne aspirée + désinences -α, -ας, -ε, -αμεν, -ατε, -ασι → **parfait**. ἔλυσα (augment + σα) est un aoriste ; λέλυκα (redoublement + κα), un parfait.
+
+## Le verbe οἶδα (je sais)
+οἶδα est un **parfait à sens de présent** : formé sur la racine *wid- de « voir » (celle de ἰδεῖν et du latin *video*), il signifie « j'ai vu », donc « **je sais** ».
+
+| Personne | « Parfait » = présent | « Plus-que-parfait » = imparfait |
+|---|---|---|
+| 1re sg. | οἶδα (je sais) | ᾔδη ou ᾔδειν (je savais) |
+| 2e sg. | οἶσθα | ᾔδησθα ou ᾔδεις |
+| 3e sg. | οἶδε(ν) | ᾔδει(ν) |
+| 1re pl. | ἴσμεν | ᾖσμεν |
+| 2e pl. | ἴστε | ᾖστε |
+| 3e pl. | ἴσασι(ν) | ᾖσαν ou ᾔδεσαν |
+
+- **Infinitif** : εἰδέναι ; **participe** : εἰδώς, εἰδυῖα, εἰδός (génitif εἰδότος) ; **futur** : εἴσομαι.
+- Attention au pluriel, sur un autre radical (ἰσ-) : **ἴσμεν**, ἴστε, ἴσασι.
+- Constructions : οἶδα ὅτι…, « je sais que… » ; οἶδα + participe (οἶδα θνητὸς ὤν, « je sais que je suis mortel ») ; οἶδα + infinitif, « je sais (faire) » ; οὐκ οἶδα τίς ἐστιν, « je ne sais pas qui il est ».
+
+>! **Texte authentique** (Platon, *Apologie de Socrate*, 21d) : après avoir interrogé un homme réputé savant, Socrate conclut qu'il est un peu plus savant que lui, ὅτι ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι.
+>! ἃ μὴ οἶδα : relative au neutre pluriel (« les choses que je ne sais pas ») ; οἴομαι : « je crois » ; εἰδέναι : infinitif de οἶδα.
+>! Traduction : **« parce que ce que je ne sais pas, je ne crois pas non plus le savoir »**. La formule « je sais que je ne sais rien », souvent attribuée à Socrate, ne figure pas telle quelle chez Platon : c'est une simplification plus tardive.
+
+## Deux noms de la 3e déclinaison à connaître
+### ὁ βασιλεύς (le roi) : thème en -ευ-
+| Cas | Singulier | Pluriel |
+|---|---|---|
+| N. | ὁ βασιλεύς | οἱ βασιλῆς (attique ancien) ou βασιλεῖς |
+| V. | ὦ βασιλεῦ | ὦ βασιλῆς ou βασιλεῖς |
+| A. | τὸν βασιλέα | τοὺς βασιλέας |
+| G. | τοῦ βασιλέως | τῶν βασιλέων |
+| D. | τῷ βασιλεῖ | τοῖς βασιλεῦσι(ν) |
+
+- Le **génitif en -έως** (et non -ος) est la marque de ce type : retiens βασιλέως.
+- Même modèle : ὁ ἱερεύς (le prêtre), ὁ ἱππεύς (le cavalier), ὁ γραφεύς (le scribe), et des noms de héros : Ἀχιλλεύς, Ὀδυσσεύς (génitif Ὀδυσσέως).
+- Sans article, **βασιλεύς** désigne souvent le **Grand Roi** de Perse. À Athènes, l'**archonte-roi** (ὁ βασιλεύς) est le magistrat chargé des cultes de la cité. Verbe dérivé : βασιλεύω, « être roi, régner » (Κύρου βασιλεύοντος, « sous le règne de Cyrus »).
+
+### τὸ τεῖχος (le mur, le rempart) : thème en sigma
+Il se décline comme τὸ γένος : le σ du radical (τειχεσ-) tombe entre deux voyelles, qui se contractent.
+
+| Cas | Singulier | Pluriel |
+|---|---|---|
+| N. V. A. | τὸ τεῖχος | τὰ τείχη |
+| G. | τοῦ τείχους | τῶν τειχῶν |
+| D. | τῷ τείχει | τοῖς τείχεσι(ν) |
+
+Les **Longs Murs** (τὰ μακρὰ τείχη) reliaient Athènes au Pirée. Dans l'oracle rendu aux Athéniens avant Salamine (Hérodote, VII, 141), Zeus promet un **τεῖχος ξύλινον**, un « mur de bois » (voir le chapitre « Les dieux dans la cité »).
+
+> **À retenir** : parfait = état présent résultant d'une action passée (passé composé) ; redoublement (λε-, τε- pour θ, allongement, ἐ-) gardé à tous les modes ; λέλυκα, λέλυκας, λέλυκε, λελύκαμεν, λελύκατε, λελύκασι ; λελυκέναι, λελυκώς ; οἶδα, οἶσθα, οἶδε, ἴσμεν, ἴστε, ἴσασι ; ᾔδη, ᾔδει ; εἰδέναι, εἰδώς ; βασιλεύς, βασιλέα, βασιλέως, βασιλεῖ ; βασιλῆς ou βασιλεῖς, βασιλέας, βασιλέων, βασιλεῦσι ; τεῖχος, τείχους, τείχει ; τείχη, τειχῶν, τείχεσι.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Identifie la forme **λελύκαμεν**.",
+          choix: ["Aoriste, 1re pers. du pluriel", "Parfait, 1re pers. du pluriel", "Imparfait, 1re pers. du pluriel", "Futur, 1re pers. du pluriel"],
+          reponse: 1,
+          explication: "Redoublement λε- + radical λυ- + κ + désinence -αμεν : **parfait**, « nous avons délié ». L'aoriste serait ἐλύσαμεν (augment + σα), l'imparfait ἐλύομεν, le futur λύσομεν.",
+        },
+        {
+          type: "saisie",
+          question: "Donne la **3e personne du singulier du parfait** de λύω.",
+          reponses: ["λέλυκε", "λέλυκεν", "λελυκε", "λελυκεν"],
+          explication: "**λέλυκε(ν)**, « il a délié » : redoublement λε-, suffixe -κ-, désinence -ε(ν).",
+        },
+        {
+          type: "qcm",
+          question: "Quel est le **parfait** de παιδεύω (éduquer) ?",
+          choix: ["ἐπαίδευσα", "παπαίδευκα", "πεπαίδευσα", "πεπαίδευκα"],
+          reponse: 3,
+          explication: "Le redoublement reprend la consonne initiale + ε (πε-), puis le radical reçoit -κα : **πεπαίδευκα**, « j'ai éduqué ». ἐπαίδευσα est l'aoriste ; παπαίδευκα et πεπαίδευσα n'existent pas.",
+        },
+        {
+          type: "vf",
+          question: "Le parfait de θύω (sacrifier) est θέθυκα.",
+          reponse: false,
+          explication: "Faux : quand le verbe commence par une consonne **aspirée**, le redoublement emploie la consonne non aspirée correspondante (θ → τ, φ → π, χ → κ) : **τέθυκα**, « j'ai sacrifié ». De même φιλέω → πεφίληκα.",
+        },
+        {
+          type: "saisie",
+          question: "Donne la **2e personne du singulier** de οἶδα (« tu sais »).",
+          reponses: ["οἶσθα", "οισθα"],
+          explication: "οἶδα, **οἶσθα**, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). La 2e sg. a une désinence ancienne en -θα, comme ἦσθα (de εἰμί) et ἔφησθα (de φημί).",
+        },
+        {
+          type: "qcm",
+          question: "Que signifie **ἴσμεν** ?",
+          choix: ["nous savons", "nous sommes", "nous allons", "nous avons vu"],
+          reponse: 0,
+          explication: "ἴσμεν est la 1re pl. de οἶδα : « **nous savons** ». Le pluriel de οἶδα est formé sur un radical ἰσ- (ἴσμεν, ἴστε, ἴσασι). « Nous sommes » se dit ἐσμέν ; « nous allons » ἴμεν (de εἶμι).",
+        },
+        {
+          type: "saisie",
+          question: "Donne le **génitif singulier** de ὁ βασιλεύς, avec l'article.",
+          reponses: ["τοῦ βασιλέως", "του βασιλεως"],
+          explication: "Les noms en -εύς ont un génitif en **-έως** : **τοῦ βασιλέως**, « du roi ». Même forme pour τοῦ ἱερέως (du prêtre).",
+        },
+        {
+          type: "qcm",
+          question: "Quel est le **datif pluriel** de ὁ βασιλεύς ?",
+          choix: ["βασιλέσι", "βασιλεῦσι", "βασιλεῖσι", "βασιλέας"],
+          reponse: 1,
+          explication: "Devant la désinence -σι, le radical garde la diphtongue ευ : **βασιλεῦσι(ν)** (avec un circonflexe). βασιλέσι et βασιλεῖσι n'existent pas ; βασιλέας est l'accusatif pluriel.",
+        },
+        {
+          type: "saisie",
+          question: "Donne le **datif singulier** de τὸ τεῖχος, avec l'article.",
+          reponses: ["τῷ τείχει", "τῷ τειχει", "τω τειχει"],
+          explication: "Radical τειχεσ- + -ι : le σ tombe entre voyelles, d'où τείχε-ι → **τῷ τείχει**, « au mur ». Comme τῷ γένει (de τὸ γένος).",
+        },
+        {
+          type: "redaction",
+          question: "Analyse les formes verbales et nominales, puis traduis : 1) **ὁ βασιλεὺς τοὺς αἰχμαλώτους λέλυκεν.** 2) **οὐκ ἴσμεν τί λέγει ὁ ἱερεύς.** 3) **οἱ ἱππεῖς τὰ τῆς πόλεως τείχη φυλάττουσιν.** (phrases d'entraînement ; ὁ αἰχμάλωτος : le prisonnier ; ὁ ἱερεύς : le prêtre ; ὁ ἱππεύς : le cavalier) 4) **ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι.** (Platon, *Apologie de Socrate*, 21d ; οἴομαι : croire)",
+          corrige: `
+**1)** λέλυκεν : redoublement λε- + λυ- + κ + -ε(ν) : **parfait** de λύω, 3e sg. Sujet ὁ βασιλεύς (nominatif, le grave remplace l'aigu devant un autre mot) ; COD τοὺς αἰχμαλώτους. Le parfait insiste sur le **résultat** : les prisonniers sont désormais libres.
+Traduction : **Le roi a libéré les prisonniers.**
+
+**2)** ἴσμεν : 1re pl. de οἶδα, « nous savons », nié par οὐκ (devant voyelle à esprit doux). τί : interrogatif neutre, accent fixe ; il introduit une **interrogation indirecte**, COD de ἴσμεν. λέγει : 3e sg. du présent ; sujet ὁ ἱερεύς (même déclinaison que βασιλεύς).
+Traduction : **Nous ne savons pas ce que dit le prêtre.**
+
+**3)** φυλάττουσιν : 3e pl. du présent de φυλάττω. Sujet οἱ ἱππεῖς (nominatif pluriel de ὁ ἱππεύς, forme en -εῖς). τὰ τείχη : accusatif neutre pluriel de τὸ τεῖχος, COD ; τῆς πόλεως, génitif de ἡ πόλις, est complément du nom, placé entre l'article et le nom (position attributive).
+Traduction : **Les cavaliers gardent les remparts de la cité.**
+
+**4)** οἶδα : « je sais » ; ἃ μὴ οἶδα est une relative sans antécédent exprimé (« les choses que je ne sais pas »), COD de εἰδέναι ; la négation μή convient à une relative de sens général. οὐδέ : « pas non plus, pas même ». οἴομαι (verbe moyen, « je crois ») est suivi de l'infinitif εἰδέναι ; le sujet est le même (Socrate), il n'est donc pas exprimé.
+Traduction : **Ce que je ne sais pas, je ne crois pas non plus le savoir.**
+
+>! Méthode : pour un verbe, cherche d'abord l'augment (passé de l'indicatif) ou le redoublement (parfait), puis le suffixe (σ, σα, κα). Pour un nom en -εύς, retiens le génitif -έως et le pluriel en -ῆς / -εῖς ; pour un neutre en -ος au génitif -ους, pense à γένος et τεῖχος.
+`,
+        },
+      ],
+    },
+    {
+      id: "dieux-dans-la-cite",
+      titre: "Les dieux dans la cité",
+      theme: "Objet d'étude : Les dieux dans la cité",
+      cours: `
+## Une religion civique
+Pour un Grec, le politique et le sacré ne se séparent pas. La religion grecque n'a **ni dogme, ni livre sacré, ni clergé** séparé de la société : ce qui compte, c'est d'accomplir correctement les **rites** transmis par la tradition. C'est la **cité** qui organise les cultes, fixe le **calendrier des fêtes**, finance les sacrifices et désigne les prêtres. À Athènes, un magistrat tiré au sort, l'**archonte-roi** (ὁ βασιλεύς), est chargé des cultes ancestraux et des procès pour impiété (ἀσέβεια). Être citoyen, c'est aussi participer aux cultes de la cité ; c'est pourquoi l'acte d'accusation contre Socrate (399 av. J.-C.) lui reproche de « ne pas reconnaître les dieux que reconnaît la cité » (Platon, *Apologie*, 24b-c).
+
+## Les mots-concepts
+| Mot grec | Sens | Famille et dérivés |
+|---|---|---|
+| ἱερός, -ά, -όν | **sacré**, qui appartient aux dieux | τὸ ἱερόν : le sanctuaire ; ὁ ἱερεύς : le prêtre ; τὰ ἱερά : les rites, les victimes ; hiérarchie, hiéroglyphe |
+| ὅσιος, -α, -ον | **conforme à ce que les dieux permettent ou exigent**, pieux, juste envers les dieux | ἀνόσιος : impie ; ἡ ὁσιότης : la piété |
+| ἡ θυσία | le **sacrifice** | θύω : sacrifier ; parfait τέθυκα |
+| ὁ βωμός | l'autel, devant le temple | |
+| ὁ ναός | le temple, maison de la statue du dieu | |
+| τὸ ἄγαλμα | la statue de culte ; l'offrande qui réjouit le dieu | |
+| ἡ ἑορτή | la fête | |
+| ἡ πομπή | la procession | pompe |
+| ὁ μάντις | le devin | mantique, cartomancie |
+| τὸ μαντεῖον, ὁ χρησμός | l'oracle (le lieu ; la réponse) | |
+| εὐσεβής / ἡ ἀσέβεια | pieux / l'impiété | |
+
+ἱερός désigne ce qui est **mis à part** pour les dieux (un lieu, un objet, un animal). ὅσιος qualifie plutôt une conduite humaine : est ὅσιον ce qui respecte l'ordre voulu par les dieux, et par extension ce qui est **permis** aux hommes. D'où l'expression τὰ ἱερὰ καὶ τὰ ὅσια, qui oppose les biens consacrés aux dieux aux biens dont les hommes peuvent disposer. Le programme invite à comparer ἱερός avec le latin *sacer*.
+
+## Cultes et grandes fêtes d'Athènes
+- **Les Panathénées**, en l'honneur d'**Athéna**, protectrice de la cité, chaque année à la fin du mois d'Hécatombaion (juillet-août) ; tous les quatre ans, les **Grandes Panathénées** sont plus fastueuses. Une grande **procession** (πομπή) traverse la ville jusqu'à l'Acropole pour offrir à la vieille statue d'**Athéna Polias** un **péplos** neuf, tissé par des jeunes filles. Des concours accompagnent la fête (épreuves athlétiques et hippiques, concours musicaux, récitation d'Homère) : les vainqueurs des épreuves athlétiques et hippiques reçoivent des **amphores panathénaïques** pleines d'huile des oliviers sacrés, ceux des concours musicaux des couronnes et de l'argent. On interprète traditionnellement la frise du Parthénon comme une image de cette procession.
+- **Les Grandes Dionysies** (ou Dionysies urbaines), en l'honneur de **Dionysos**, au printemps (mois d'Élaphébolion, mars-avril) : procession, sacrifices et **concours de théâtre** (tragédies, drames satyriques, comédies).
+- **Les Mystères d'Éleusis**, en l'honneur de **Déméter** et de sa fille **Korè** (Perséphone). Les **Grands Mystères** ont lieu à l'automne (mois de Boédromion, septembre-octobre) ; une procession part d'Athènes par la **Voie sacrée** jusqu'à Éleusis. Le culte est **initiatique** : l'initié (ὁ μύστης) découvre des rites qu'il doit garder **secrets** (d'où « mystère »), et espère un sort meilleur après la mort. Il est ouvert à tous ceux qui parlent grec et ne sont pas souillés par un meurtre : hommes, femmes, étrangers, esclaves.
+
+## Le sacrifice (ἡ θυσία)
+Le sacrifice sanglant est le rite central. L'animal (bœuf, mouton, chèvre, porc), paré de bandelettes, est conduit en procession jusqu'à l'**autel** ; on le purifie par l'eau lustrale et on jette des grains d'orge ; on dit qu'on attend son « consentement » (un mouvement de tête). Après l'égorgement, le sang coule sur l'autel. Les **os enveloppés de graisse** brûlent pour les dieux, dont la fumée monte vers le ciel ; les **viscères** grillés sont partagés par les participants, puis la **viande** est cuite et distribuée : le sacrifice est un **repas en commun** qui soude la cité.
+
+Hésiode (*Théogonie*) explique ce partage par la ruse de **Prométhée** à Mékônè : il offrit à Zeus les os cachés sous de la graisse brillante et laissa la viande aux hommes. Il existe aussi des offrandes non sanglantes : libations (ἡ σπονδή) de vin, de lait ou d'huile, gâteaux, offrandes votives (τὸ ἀνάθημα) déposées dans les sanctuaires. Une **hécatombe** (ἡ ἑκατόμβη) était à l'origine un sacrifice de cent bœufs.
+
+## Divination et oracles
+- **La divination** (ἡ μαντική) cherche à connaître la volonté des dieux : examen des **entrailles** des victimes, vol des **oiseaux**, songes, présages. Une armée ne livre pas bataille avant des sacrifices favorables, et le devin (ὁ μάντις) accompagne les généraux.
+- **Les oracles** sont des sanctuaires où un dieu répond aux questions : **Delphes** (Apollon, par la bouche de la **Pythie**), **Dodone** (Zeus, par le bruissement d'un chêne), **Siwa** en Libye (Zeus Ammon, qu'Alexandre consulta). Les cités consultent Delphes avant de fonder une colonie, de faire la guerre ou de changer leurs lois. Les réponses sont souvent **ambiguës** et doivent être interprétées.
+
+>! **Le « mur de bois »** (Hérodote, VII, 140-143). En 480 av. J.-C., l'armée de Xerxès marche sur Athènes. Les envoyés athéniens reçoivent à Delphes un premier oracle terrifiant qui leur ordonne de fuir. Revenus en suppliants, ils obtiennent un second oracle : Zeus accorde à Athéna un **τεῖχος ξύλινον**, un « mur de bois » (τεῖχος Τριτογενεῖ ξύλινον διδοῖ εὐρύοπα Ζεύς, « Zeus au vaste regard donne à la Tritogénie un mur de bois »), qui seul restera imprenable ; l'oracle se termine par ce vers : **ὦ θείη Σαλαμίς, ἀπολεῖς δὲ σὺ τέκνα γυναικῶν**, « ô divine Salamine, tu feras périr des enfants de femmes ».
+>! À Athènes, on débat : certains anciens pensent que le mur de bois est la palissade qui entourait autrefois l'Acropole ; d'autres y voient les **navires**. Les interprètes d'oracles comprennent que les Athéniens seront vaincus sur mer près de Salamine. **Thémistocle** objecte : si l'oracle annonçait la mort des Athéniens, il n'appellerait pas Salamine « divine » (θείη) mais « malheureuse » (σχετλίη) ; ceux qui périront sont donc les ennemis. Les Athéniens se fient à leur flotte et remportent la victoire de **Salamine** (480).
+>! Le récit montre le lien entre religion et décision politique : l'oracle ne décide pas à la place de la cité, c'est l'**Assemblée** qui débat de son interprétation.
+
+## Les dieux étrangers dans la cité
+Le polythéisme est ouvert : une cité peut accueillir de nouveaux dieux, à condition que l'Assemblée l'autorise.
+- **Bendis**, déesse chasseresse venue de **Thrace**, rapprochée d'Artémis, reçoit à Athènes un culte officiel au **Pirée** dans la seconde moitié du Ve siècle (il est attesté au plus tard en 429-428 av. J.-C. par les comptes du trésor des « autres dieux ») : sa fête, les Bendideia, comprend une procession des Thraces et une procession des Athéniens, et une course aux flambeaux à cheval. C'est pour assister à la première célébration que Socrate descend au Pirée au début de la *République* de Platon.
+- **Asclépios**, dieu guérisseur, fils d'Apollon, dont le grand sanctuaire est à **Épidaure**, est introduit à Athènes en 420-419 av. J.-C. ; selon une tradition, le poète Sophocle aurait accueilli le dieu chez lui. Les malades dorment dans le sanctuaire (l'**incubation**) en espérant un songe ou une guérison. Les dernières paroles de Socrate, adressées à Criton dans le *Phédon* de Platon (118a), concernent ce dieu : ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα, « Criton, dit-il, nous devons un coq à Asclépios ».
+- **Isis**, déesse égyptienne : en 333-332 av. J.-C., un décret athénien autorise des marchands de Kition (Chypre) à fonder un sanctuaire d'Aphrodite au Pirée, « comme les Égyptiens ont fondé le sanctuaire d'Isis ». À l'époque hellénistique, le culte d'Isis (et de Sarapis) se répand dans tout le monde méditerranéen, jusqu'à Rome.
+
+## Le culte des souverains
+Après Alexandre, les rois hellénistiques reçoivent des **honneurs divins** : temples, autels, sacrifices, fêtes. Ptolémée Ier d'Égypte porte le surnom de **Sôter** (Σωτήρ, « le Sauveur ») ; son fils Ptolémée II divinise ses parents et se fait honorer avec son épouse Arsinoé comme « dieux Adelphes ». À Athènes, **Démétrios Poliorcète** est logé dans le Parthénon (304-303) ; vers 290, un hymne chanté en son honneur, cité par Athénée (VI, 253), oppose les autres dieux, lointains ou sourds, à ce dieu présent que l'on voit, « non de bois ni de pierre, mais véritable ». Ces honneurs expriment la reconnaissance d'une cité envers un **bienfaiteur** puissant, et aussi sa dépendance. Le **culte impérial** romain prolongera ces pratiques dans l'Orient grec.
+
+> **À retenir** : religion civique, sans dogme, rites organisés par la cité (archonte-roi) ; ἱερός = sacré, ὅσιος = conforme à la volonté des dieux, permis ; Panathénées (Athéna, péplos), Grandes Dionysies (Dionysos, théâtre), Mystères d'Éleusis (Déméter et Korè, initiation secrète) ; θυσία : os et graisse pour les dieux, viande partagée (Prométhée) ; Delphes et la Pythie ; « mur de bois » interprété par Thémistocle (Salamine, 480) ; dieux étrangers : Bendis (Pirée), Asclépios (420-419), Isis ; honneurs divins des rois hellénistiques (Ptolémée Sôter, Démétrios Poliorcète).
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Lors des Panathénées, quelle offrande la procession apporte-t-elle à la statue d'Athéna Polias ?",
+          choix: ["Une couronne de laurier", "Un péplos neuf", "Une hécatombe de cent taureaux", "Une amphore de vin"],
+          reponse: 1,
+          explication: "La procession des Panathénées apporte à la vieille statue d'Athéna Polias un **péplos**, vêtement tissé par des jeunes filles. Il y a aussi des sacrifices, mais l'offrande emblématique est le péplos ; les amphores (d'huile, non de vin) récompensent les vainqueurs des épreuves athlétiques et hippiques.",
+        },
+        {
+          type: "qcm",
+          question: "À quelles divinités les **Mystères d'Éleusis** sont-ils consacrés ?",
+          choix: ["Apollon et Artémis", "Zeus et Héra", "Dionysos et Ariane", "Déméter et sa fille Korè (Perséphone)"],
+          reponse: 3,
+          explication: "Les Mystères d'Éleusis honorent **Déméter** et **Korè**. Ce culte initiatique, ouvert aux hommes, aux femmes, aux étrangers et aux esclaves parlant grec, promettait aux initiés un sort meilleur après la mort.",
+        },
+        {
+          type: "vf",
+          question: "Dans le sacrifice grec, les os enveloppés de graisse sont brûlés pour les dieux, tandis que la viande est partagée entre les participants.",
+          reponse: true,
+          explication: "Oui : c'est le partage que la *Théogonie* d'Hésiode explique par la ruse de Prométhée à Mékônè. Le sacrifice est aussi un repas en commun qui unit la cité.",
+        },
+        {
+          type: "saisie",
+          question: "Quel est le sens de l'adjectif **ἱερός**, qui a donné « hiérarchie » et « hiéroglyphe » ?",
+          reponses: ["sacré", "saint", "qui appartient aux dieux", "consacré", "consacré aux dieux"],
+          explication: "ἱερός signifie « **sacré** », ce qui appartient aux dieux : τὸ ἱερόν, le sanctuaire ; ὁ ἱερεύς, le prêtre. Les hiéroglyphes sont des « gravures sacrées » (γλύφω, graver).",
+        },
+        {
+          type: "qcm",
+          question: "Comment Thémistocle interprète-t-il le « mur de bois » de l'oracle de Delphes (Hérodote, VII, 141-143) ?",
+          choix: ["Les navires de la flotte athénienne", "La palissade de l'Acropole", "Les murs de Sparte", "La forêt de l'Attique"],
+          reponse: 0,
+          explication: "Thémistocle voit dans le mur de bois les **navires** : les Athéniens doivent combattre sur mer, ce qu'ils font victorieusement à Salamine (480). Certains anciens pensaient à la palissade qui entourait jadis l'Acropole.",
+        },
+        {
+          type: "qcm",
+          question: "Quel argument Thémistocle tire-t-il du vers **ὦ θείη Σαλαμίς, ἀπολεῖς δὲ σὺ τέκνα γυναικῶν** ?",
+          choix: ["Salamine sera détruite, il faut donc l'abandonner.", "Les Athéniens doivent fuir en Italie.", "Si les morts étaient athéniens, l'oracle aurait dit « malheureuse Salamine » et non « divine Salamine ».", "L'oracle est faux, car la Pythie a été achetée."],
+          reponse: 2,
+          explication: "Pour Thémistocle, l'adjectif θείη (« divine ») montre que la bataille de Salamine sera favorable aux Athéniens : si elle devait leur être funeste, l'oracle aurait dit σχετλίη (« malheureuse »). Ceux qui périront sont donc les ennemis.",
+        },
+        {
+          type: "saisie",
+          question: "De quelle région vient la déesse **Bendis**, dont le culte est accueilli au Pirée ?",
+          reponses: ["Thrace", "la Thrace", "de Thrace", "de la Thrace"],
+          explication: "Bendis est une déesse de **Thrace** (au nord de la mer Égée), honorée au Pirée par les Thraces qui y vivaient et par les Athéniens, avec deux processions et une course aux flambeaux à cheval.",
+        },
+        {
+          type: "qcm",
+          question: "Dans le *Phédon* (118a), Socrate meurt en disant : **ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα**. Que doit-on à Asclépios ?",
+          choix: ["Une chouette", "Un coq", "Un taureau", "Une libation de vin"],
+          reponse: 1,
+          explication: "ὁ ἀλεκτρυών signifie « le **coq** », offrande habituelle au dieu guérisseur Asclépios. ἔφη est l'incise « dit-il » ; τῷ Ἀσκληπιῷ est un datif (« à Asclépios ») ; ὀφείλομεν, « nous devons ».",
+        },
+        {
+          type: "vf",
+          question: "Le roi d'Égypte Ptolémée Ier portait le surnom de Sôter, « le Sauveur ».",
+          reponse: true,
+          explication: "Oui : Σωτήρ, « le Sauveur ». Les rois hellénistiques reçoivent des honneurs divins (temples, sacrifices, fêtes), qui préfigurent le culte impérial romain.",
+        },
+        {
+          type: "redaction",
+          question: "Traduis puis commente le début de la *République* de Platon (I, 327a), où Socrate raconte : **Κατέβην χθὲς εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος προσευξόμενός τε τῇ θεῷ καὶ ἅμα τὴν ἑορτὴν βουλόμενος θεάσασθαι τίνα τρόπον ποιήσουσιν ἅτε νῦν πρῶτον ἄγοντες. καλὴ μὲν οὖν μοι καὶ ἡ τῶν ἐπιχωρίων πομπὴ ἔδοξεν εἶναι, οὐ μέντοι ἧττον ἐφαίνετο πρέπειν ἣν οἱ Θρᾷκες ἔπεμπον.** (κατέβην : aoriste de καταβαίνω, descendre ; χθές : hier ; ὁ Πειραιεύς, acc. Πειραιᾶ : le Pirée ; Γλαύκων, fils d'Ariston : frère de Platon ; προσεύχομαι : prier ; ἡ θεός : la déesse, ici Bendis ; θεάομαι : regarder ; ὁ τρόπος : la manière ; ἄγω τὴν ἑορτήν : célébrer la fête ; οἱ ἐπιχώριοι : les gens du pays ; ἡ πομπή : la procession ; πρέπω : se distinguer, briller ; πομπὴν πέμπω : conduire une procession ; οἱ Θρᾷκες : les Thraces)",
+          corrige: `
+**Analyse.**
+- κατέβην : aoriste de καταβαίνω, 1re sg. : Socrate est le narrateur. εἰς Πειραιᾶ (εἰς + accusatif, mouvement) ; μετὰ Γλαύκωνος (μετά + génitif, « avec »).
+- προσευξόμενος : participe **futur** moyen de προσεύχομαι, apposé au sujet : valeur de **but** (« pour prier »). τῇ θεῷ : datif, la déesse (ἡ θεός, au féminin).
+- βουλόμενος : participe présent de βούλομαι, coordonné par τε… καί ; il commande l'infinitif aoriste θεάσασθαι, dont τὴν ἑορτήν est le COD.
+- τίνα τρόπον : **interrogatif** τίς à l'accusatif (accent fixe sur la première syllabe), accordé avec τρόπον : « de quelle manière » ; il introduit une interrogation indirecte. ποιήσουσιν : futur de ποιέω (ε allongé en η devant σ), 3e pl. ; le sujet sous-entendu est « ils », les organisateurs.
+- ἅτε νῦν πρῶτον ἄγοντες : ἅτε + participe = **cause réelle** (« parce qu'ils la célébraient alors pour la première fois »).
+- Phrase 2 : ἔδοξεν, aoriste de δοκέω (« sembla ») ; sujet ἡ τῶν ἐπιχωρίων πομπή, attribut καλή, εἶναι infinitif ; μοι, datif, « à moi ». μέν… μέντοι oppose les deux processions. ἐφαίνετο, imparfait moyen de φαίνω (« paraissait ») + infinitif πρέπειν ; sujet : la relative ἣν οἱ Θρᾷκες ἔπεμπον (antécédent πομπή sous-entendu ; ἥν est COD de ἔπεμπον).
+
+**Traduction.** « Je suis descendu hier au Pirée avec Glaucon, fils d'Ariston, pour adresser une prière à la déesse et aussi parce que je voulais voir de quelle manière ils organiseraient la fête, puisqu'ils la célébraient alors pour la première fois. La procession des gens du pays me sembla belle ; mais celle que conduisaient les Thraces ne paraissait pas moins remarquable. »
+
+**Commentaire.**
+1. **Une fête nouvelle dans la cité.** Le texte témoigne de l'accueil d'une déesse étrangère, la Thrace **Bendis**, au Pirée, port cosmopolite où vivent de nombreux étrangers. L'expression νῦν πρῶτον souligne la nouveauté : la cité d'Athènes peut intégrer de nouveaux dieux dans son calendrier, par décision officielle.
+2. **Deux communautés, une même fête.** Les deux processions, celle des ἐπιχώριοι (les Athéniens) et celle des Θρᾷκες, défilent côte à côte. Socrate les juge avec la même bienveillance (οὐ… ἧττον) : la fête rassemble citoyens et étrangers sans les confondre. C'est une image de l'intégration religieuse, un des sous-thèmes du programme (« Les cultes et les dieux étrangers dans la cité »).
+3. **La piété de Socrate.** Le philosophe descend d'abord pour **prier** (προσευξόμενος) : celui que l'on accusera de ne pas reconnaître les dieux de la cité participe aux cultes publics. Platon ouvre ainsi par un geste religieux un dialogue qui cherchera ce qu'est la justice dans la cité idéale : le religieux et le politique sont liés dès la première ligne.
+
+>! Méthode pour le commentaire : appuie chaque idée sur un mot grec cité et analysé (νῦν πρῶτον, ἐπιχώριοι / Θρᾷκες, προσευξόμενος), puis relie le texte à l'objet d'étude et au contexte historique.
+`,
+        },
+      ],
+    },
+    {
+      id: "portfolio-evaluation",
+      titre: "Le portfolio et l'évaluation",
+      theme: "Portfolio et évaluation",
+      cours: `
+## Qu'est-ce que le portfolio ?
+Le programme de 1re prévoit que chaque élève élabore, comme en seconde, un **dossier personnel**, le **portfolio**, pour s'approprier tout ou partie d'**un des quatre objets d'étude** (Vivre dans la cité ; Les dieux dans la cité ; Masculin, féminin ; Méditerranée). Le **format et le support sont libres** : dossier papier ou numérique, poster, affiche, diaporama, vidéo, exposé écrit ou oral, essai…
+
+## Les deux diptyques
+Un **diptyque** (δίπτυχος, « plié en deux ») associe deux œuvres. Tu en élabores **un ou deux**, parmi deux possibilités :
+
+| Diptyque | Volet antique | Volet contemporain |
+|---|---|---|
+| 1 | un **texte grec** (ou latin) **authentique**, avec sa **traduction** | un **texte contemporain**, français ou étranger |
+| 2 | une **œuvre iconographique antique** (vase, sculpture, relief, mosaïque, monnaie…) | une **œuvre iconographique ou filmique contemporaine** (tableau, photographie, affiche, bande dessinée, film…) |
+
+L'objectif est de **mettre en résonance ou en confrontation** les deux œuvres. Ton professeur propose en début d'année une « bibliothèque » d'œuvres, mais c'est à toi de jouer un **rôle actif**, surtout pour choisir l'œuvre contemporaine.
+
+## Ce que doit contenir ton travail
+Le programme indique que tu peux notamment :
+1. **présenter** l'auteur ou l'artiste, l'époque et la nature des œuvres ;
+2. en faire un **résumé** ou une brève **description** ;
+3. **justifier la composition** du diptyque par une **analyse** des œuvres ;
+4. proposer une **ouverture** où tu expliques pourquoi ce rapprochement t'a paru pertinent, t'a plu ou t'a intéressé.
+
+## Justifier un rapprochement : la méthode
+>! 1. **Une question commune** : formule le problème qui relie les deux œuvres (par exemple : « qui détient le pouvoir dans la cité ? »). Sans question, tu n'as qu'une juxtaposition.
+>! 2. **Les points communs** : thème, personnage, situation, symbole, mot-concept (δῆμος, ἱερός, ξενία…).
+>! 3. **Les différences** : contexte historique, genre, intention, public, moyens d'expression (texte, image, cadrage, couleurs).
+>! 4. **Le sens du rapprochement** : ce que l'œuvre antique éclaire dans l'œuvre contemporaine, et inversement (héritage, réécriture, détournement, rupture).
+>! 5. **Des preuves** : cite des mots grecs précis (avec leur analyse) et des détails observés dans l'image ou le texte contemporain.
+
+Erreurs fréquentes : choisir deux œuvres qui n'ont qu'un mot en commun ; résumer sans analyser ; recopier une traduction sans en indiquer la source ; oublier de citer le grec ; oublier le **contexte** de l'œuvre antique.
+
+## Exemple rédigé complet : un diptyque 1 (objet d'étude « Vivre dans la cité »)
+**Volet antique.** Thucydide, *La Guerre du Péloponnèse*, II, 37, 1 (oraison funèbre prononcée par Périclès en 431 av. J.-C.) :
+καὶ ὄνομα μὲν διὰ τὸ μὴ ἐς ὀλίγους ἀλλ’ ἐς πλείονας οἰκεῖν δημοκρατία κέκληται.
+« Quant au nom, comme les affaires dépendent non pas du petit nombre mais du plus grand nombre, notre régime est appelé démocratie. »
+
+**Volet contemporain.** Constitution de la Ve République (1958), article 2 : « Son principe est : gouvernement du peuple, par le peuple et pour le peuple. » La formule reprend celle du président américain Abraham Lincoln dans le discours de Gettysburg (1863).
+
+**Question commune.** Qu'est-ce qui fait qu'un régime mérite le nom de démocratie ?
+
+**Analyse.**
+- **Une même définition par le nombre.** Périclès définit la démocratie par opposition à l'oligarchie : ὀλίγοι (le petit nombre) contre πλείονες (le plus grand nombre). La Constitution de 1958 nomme directement le **peuple**, le δῆμος que l'on retrouve dans le mot δημοκρατία (δῆμος + κράτος, le pouvoir du peuple).
+- **Une même ambiguïté féconde.** L'expression ἐς πλείονας οἰκεῖν peut se comprendre « être gouverné **par** le plus grand nombre » ou « **dans l'intérêt** du plus grand nombre ». Or la formule moderne distingue justement trois relations : « du peuple » (l'origine du pouvoir), « par le peuple » (son exercice), « pour le peuple » (sa finalité). Le texte contemporain explicite ce que le grec tenait ensemble.
+- **Des différences de contexte.** À Athènes, la démocratie est **directe** (l'Assemblée des citoyens vote les lois), mais le « plus grand nombre » exclut les femmes, les métèques et les esclaves. En 1958, la démocratie est surtout **représentative** (élection des députés et, depuis 1962, du président au suffrage universel direct), mais elle s'adresse à tous les citoyens, femmes comprises depuis 1944.
+- **Deux genres différents.** L'un est un **discours d'éloge** réécrit par un historien en temps de guerre ; l'autre un **texte juridique** qui fonde des institutions. Le premier veut convaincre et émouvoir ; le second veut fixer une règle.
+
+**Ouverture.** Ce diptyque m'a intéressé parce qu'il montre qu'un mot grec de plus de deux mille ans structure encore notre loi fondamentale, tout en obligeant à se demander qui fait partie du « peuple ». On pourrait l'enrichir d'un diptyque 2 associant un **ostracon** antique (tesson portant le nom d'un citoyen à exiler) et une photographie contemporaine de bulletins de vote.
+
+## L'évaluation
+- Le programme prévoit une évaluation **régulière** tout au long de l'année, à partir de travaux oraux et écrits, **parmi lesquels le portfolio**. Elle porte sur la culture (littéraire, historique, artistique), la capacité à **lire, traduire et interpréter** les textes grâce à la langue, et la mise en résonance de l'Antiquité et du monde contemporain.
+- L'évaluation du portfolio peut se faire **par étapes** et porter, au choix du professeur, sur l'**élaboration**, la **production finale** ou la **présentation orale**. Est notamment prise en compte la **pertinence des choix** et de l'**analyse** des documents.
+- Tu peux présenter ton travail devant d'autres élèves (groupe d'hellénistes, classe de collège, classe de français ou d'histoire), ou dans une exposition ou une présentation en ligne de l'établissement.
+- Le programme précise aussi que tu peux reprendre des éléments de ton portfolio dans le **descriptif des lectures et activités** de l'oral de l'épreuve anticipée de français.
+
+## Au baccalauréat : contrôle continu et coefficient
+L'enseignement optionnel de LCA grec est évalué en **contrôle continu**, à partir de tes résultats de 1re et de terminale. Il peut être suivi **en plus** des autres enseignements optionnels. Selon l'arrêté du 16 juillet 2018 relatif aux épreuves du baccalauréat général, dans sa version modifiée (article 2-1, issu de l'arrêté du 21 avril 2022), il est affecté d'un **coefficient 2 pour chaque année** (1re et terminale), qui s'ajoute aux coefficients des autres enseignements. L'ancienne **bonification** (points au-dessus de 10 sur 20 multipliés par 3), prévue en 2019 pour les premières sessions du nouveau baccalauréat, ne s'applique plus. Les règles du baccalauréat évoluent souvent : **vérifie auprès de ton professeur** les modalités en vigueur pour ta session.
+
+> **À retenir** : portfolio = dossier personnel, format libre, sur un des quatre objets d'étude ; un ou deux diptyques : texte grec authentique + traduction / texte contemporain, ou œuvre iconographique antique / œuvre iconographique ou filmique contemporaine ; une question commune, des points communs, des différences, des citations précises, une ouverture personnelle ; évaluation de l'élaboration, de la production ou de l'oral ; option évaluée en contrôle continu, coefficient 2 chaque année en 1re et en terminale (à vérifier auprès de ton professeur pour ta session).
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Que doit comporter le **diptyque 1** du portfolio ?",
+          choix: ["Deux textes grecs authentiques de la même époque", "Une œuvre iconographique antique et un film contemporain", "Un texte grec authentique avec sa traduction, et un texte contemporain", "Une traduction seule et un résumé du texte grec"],
+          reponse: 2,
+          explication: "Le diptyque 1 associe un **texte grec (ou latin) authentique accompagné de sa traduction** et un **texte contemporain**, français ou étranger. L'association d'une œuvre iconographique antique et d'une œuvre iconographique ou filmique contemporaine correspond au diptyque 2.",
+        },
+        {
+          type: "qcm",
+          question: "Lequel de ces couples d'œuvres constitue un **diptyque 2** conforme au programme ?",
+          choix: ["Un vase grec à figures rouges et une amphore panathénaïque", "Le récit du « mur de bois » chez Hérodote et un film sur Salamine", "Un roman contemporain et une bande dessinée", "Une amphore panathénaïque et une photographie de l'allumage de la flamme olympique à Olympie"],
+          reponse: 3,
+          explication: "Le diptyque 2 associe une **œuvre iconographique antique** (l'amphore panathénaïque) et une **œuvre iconographique ou filmique contemporaine** (la photographie). Deux vases sont tous deux antiques ; un texte d'Hérodote n'est pas une œuvre iconographique ; un roman et une bande dessinée n'ont pas de volet antique.",
+        },
+        {
+          type: "vf",
+          question: "Le portfolio doit obligatoirement prendre la forme d'un dossier papier rédigé.",
+          reponse: false,
+          explication: "Faux : le programme laisse le **format et le support libres** (papier ou numérique, poster, affiche, diaporama, vidéo, exposé écrit ou oral…).",
+        },
+        {
+          type: "vf",
+          question: "Selon le programme, l'évaluation du portfolio peut porter, au choix du professeur, sur son élaboration, sur la production finale ou sur sa présentation orale.",
+          reponse: true,
+          explication: "Oui : l'évaluation peut se faire **par étapes** et porter sur l'élaboration, la production finale ou la présentation orale ; on y apprécie notamment la **pertinence des choix** et de l'analyse des documents.",
+        },
+        {
+          type: "redaction",
+          question: "Rédige la justification d'un diptyque 1 (objet d'étude « Les dieux dans la cité » ou « Vivre dans la cité ») associant ces vers d'Antigone qui répond à Créon (Sophocle, *Antigone*, v. 450-451) : **οὐ γάρ τί μοι Ζεὺς ἦν ὁ κηρύξας τάδε, / οὐδ’ ἡ ξύνοικος τῶν κάτω θεῶν Δίκη** (« Ce n'est pas Zeus, en effet, qui a proclamé pour moi cet édit, ni la Justice qui habite avec les dieux d'en bas » ; la phrase se poursuit au v. 452 : τοιούσδ’ ἐν ἀνθρώποισιν ὥρισεν νόμους, « [qui] a fixé de telles lois parmi les hommes ») et l'*Antigone* de Jean Anouilh (pièce créée à Paris en 1944, sous l'Occupation). Formule une question commune, analyse le grec, compare, puis propose une ouverture.",
+          corrige: `
+**Question commune.** Au nom de quoi peut-on désobéir à la loi de la cité ?
+
+**Présentation.** Sophocle fait jouer *Antigone* à Athènes vers 442 av. J.-C. (date approximative), sans doute lors des concours tragiques des Grandes Dionysies. Antigone a enseveli son frère Polynice malgré l'édit de Créon, roi de Thèbes, qui l'interdisait. Jean Anouilh reprend l'histoire en 1944, à Paris occupé : la pièce est jouée devant un public qui vit sous l'autorité d'un pouvoir imposé.
+
+**Analyse du grec.**
+- Ζεύς est le sujet de ἦν ; ὁ κηρύξας, participe aoriste substantivé de κηρύσσω (« celui qui a proclamé »), est l'attribut ; τάδε (« ces choses-ci », l'édit) est son COD. Antigone refuse d'attribuer l'édit à Zeus.
+- τι, indéfini enclitique employé comme adverbe, renforce la négation (« pas du tout ») ; μοι, datif, « pour moi, à mes yeux ».
+- La négation οὐ… οὐδέ réunit le dieu du ciel (Ζεύς) et la Justice des dieux d'en bas (Δίκη, compagne des divinités infernales), sujet du verbe ὥρισεν au vers suivant : tous les dieux sont contre l'édit. Antigone oppose ainsi la loi humaine de Créon aux exigences des dieux, qui ordonnent d'ensevelir les morts : son geste est ὅσιος, conforme à ce que veulent les dieux.
+
+**Comparaison.**
+- **Points communs** : la même héroïne, le même conflit entre une jeune fille et le pouvoir du roi, le même choix d'aller jusqu'à la mort plutôt que de céder.
+- **Différences** : chez Sophocle, Antigone s'appuie sur la religion de la cité et sur des lois divines reconnues par tous. Chez Anouilh, la dimension religieuse s'efface : Créon cherche à montrer à Antigone que les rites funéraires n'ont pas de sens, et elle persiste pourtant, par un refus personnel du compromis. La révolte change de fondement : des dieux à la conscience individuelle.
+- **Contexte** : à Athènes, la pièce fait réfléchir la cité sur les limites du pouvoir ; en 1944, le public a pu voir en Antigone une figure du refus, et en Créon un pouvoir qui justifie l'ordre établi.
+
+**Ouverture.** Ce rapprochement m'intéresse parce qu'il montre comment un même mythe permet, à chaque époque, de poser la question de la désobéissance : la comparaison de οὐ γάρ τί μοι Ζεύς avec la révolte sans dieux d'Anouilh fait voir ce qui a changé entre la cité grecque, où la loi religieuse s'impose à tous, et le monde moderne.
+
+>! Critères de réussite : une question claire ; une analyse précise d'au moins deux mots grecs ; une comparaison qui distingue points communs et différences ; le contexte de chaque œuvre ; une ouverture personnelle.
+`,
+        },
+        {
+          type: "redaction",
+          question: "Compose et justifie un **diptyque 2** pour l'objet d'étude « Les dieux dans la cité », en associant la **plaque des Ergastines** (fragment de la frise du Parthénon, vers 445-438 av. J.-C., musée du Louvre, qui montre des jeunes filles en procession et des hommes qui les accueillent) et une **photographie de la cérémonie d'allumage de la flamme olympique** devant le temple d'Héra à Olympie (par exemple celle d'avril 2024 pour les Jeux de Paris). Présente chaque œuvre, décris-la, analyse le rapprochement et conclus par une ouverture.",
+          corrige: `
+**Question commune.** Comment une communauté met-elle en scène son lien avec les dieux ?
+
+**Volet antique : la plaque des Ergastines.** Ce relief de marbre provient de la frise qui courait autour du Parthénon, temple d'Athéna sur l'Acropole, construit à l'époque de Périclès. On l'interprète traditionnellement comme un moment de la **procession des Panathénées** : des jeunes filles drapées (les ergastines, qui avaient participé au tissage du **péplos** offert à Athéna) avancent en file, d'un pas régulier, vers des hommes, ordonnateurs de la cérémonie ou magistrats, qui les reçoivent. Les plis des vêtements et la répétition des silhouettes donnent une impression de lenteur solennelle.
+
+**Volet contemporain : l'allumage de la flamme olympique.** Devant les ruines du temple d'Héra à Olympie, une actrice vêtue comme une grande prêtresse, entourée d'autres « prêtresses » en tuniques claires, allume une torche avec les rayons du soleil concentrés par un miroir parabolique. Cette cérémonie, créée pour les Jeux de Berlin en 1936, est une **reconstitution moderne** : elle s'inspire de l'Antiquité sans reproduire un rite antique attesté.
+
+**Analyse du rapprochement.**
+- **Points communs** : une **procession** (πομπή) de femmes vêtues de drapés, une gestuelle lente et codifiée, un lieu sacré (ἱερός) et un lien entre fête religieuse et **concours** (les Panathénées comme les Jeux olympiques antiques, en l'honneur de Zeus, comportaient des épreuves sportives).
+- **Différences** : la frise représente un **culte vivant**, accompli par la cité pour sa déesse protectrice ; la cérémonie d'Olympie est un **spectacle** sans croyance religieuse, qui utilise le décor et les costumes antiques pour donner une aura sacrée à un événement sportif mondial et médiatisé. La frise s'adresse aux citoyens d'Athènes et aux dieux ; la photographie, à des spectateurs du monde entier.
+- **Sens** : le rapprochement montre la **permanence** des formes du sacré (procession, feu, vêtements blancs) et leur **transformation** : le religieux antique est devenu un patrimoine symbolique que l'on rejoue.
+
+**Ouverture.** Ce diptyque m'a plu parce qu'il fait comprendre que les Jeux modernes empruntent à la Grèce non seulement le sport, mais aussi des gestes religieux ; il invite à se demander ce qui, aujourd'hui, joue le rôle des fêtes qui unissaient la cité autour de ses dieux.
+
+>! Pour un diptyque 2, décris précisément ce que l'on voit (personnages, gestes, composition, matériaux), situe chaque œuvre (date, lieu, fonction), puis seulement compare.
+`,
+        },
+      ],
+    },
   ],
 };

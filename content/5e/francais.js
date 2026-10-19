@@ -635,6 +635,19 @@ L'auxiliaire **être** s'emploie avec les verbes de mouvement ou de changement d
 
 Le **plus-que-parfait** exprime une action **antérieure** à une autre action passée : « Il **avait perdu** son épée quand l'ennemi arriva. »
 
+## Par imitation : le passé antérieur et le futur antérieur
+Ces deux temps composés se construisent **comme les autres** : on garde le même auxiliaire et le même participe passé, seul le temps de l'auxiliaire change.
+
+| Temps composé | Auxiliaire au... | Exemples |
+|---|---|---|
+| **passé antérieur** | **passé simple** | j'eus chanté, il eut fini, elle fut partie, ils furent arrivés |
+| **futur antérieur** | **futur simple** | j'aurai chanté, il aura fini, elle sera partie, ils seront arrivés |
+
+- Le **passé antérieur** marque une action terminée **juste avant** une action au passé simple, souvent après *quand, lorsque, dès que, après que, à peine... que* : « Dès qu'il **eut fermé** la porte, il entendit un cri. »
+- Le **futur antérieur** marque une action qui sera **terminée avant** une autre action future : « Quand tu **auras fini**, tu sortiras. »
+
+>! **Méthode par imitation** : pars d'une forme que tu connais. « elle est partie » (passé composé) → remplace l'auxiliaire au présent par le passé simple : « elle **fut** partie » (passé antérieur), ou par le futur : « elle **sera** partie » (futur antérieur). L'accord du participe passé ne change pas.
+
 > **À retenir**
 > Imparfait : -ais, -ais, -ait, -ions, -iez, -aient pour tous les verbes.
 > Passé simple : 1er groupe en -a (-ai, -as, -a, -âmes, -âtes, -èrent) ; autres en -i, -u ou -in.
@@ -656,7 +669,23 @@ Le **plus-que-parfait** exprime une action **antérieure** à une autre action p
 **Justification**
 - « était », « soufflait » : **imparfait** de description, arrière-plan (le décor).
 - « entendit », « saisit », « avança », « sortit » : **passé simple**, actions ponctuelles et successives qui font avancer l'histoire (déclenchées par « Soudain »).
-- Attention : « saisir » (2e groupe) a la même forme au présent et au passé simple à la 3e personne du singulier (il saisit) ; c'est le contexte qui indique le temps.` }
+- Attention : « saisir » (2e groupe) a la même forme au présent et au passé simple à la 3e personne du singulier (il saisit) ; c'est le contexte qui indique le temps.` },
+        { type: "saisie", question: "**Par imitation** : « finir » → « Dès qu'il **eut fini** son repas, il sortit » (passé antérieur = auxiliaire au passé simple + participe passé). Sur ce modèle, complète avec le verbe « partir » au passé antérieur : « Dès qu'elle ..., la maison sembla vide. »", reponses: ["fut partie", "elle fut partie"], explication: "« Partir » se conjugue avec l'auxiliaire **être** (elle est partie). On met l'auxiliaire au passé simple : elle **fut** partie. Le participe s'accorde avec le sujet féminin « elle » : parti**e**. « Elle eut partie » est faux (mauvais auxiliaire) et « elle était partie » est un plus-que-parfait." },
+        { type: "qcm", question: "Complète au **futur antérieur** : « Quand tu ... (terminer) tes devoirs, tu pourras sortir. »", choix: ["avais terminé", "eus terminé", "termineras", "auras terminé"], reponse: 3, explication: "Futur antérieur = auxiliaire au **futur** + participe passé : tu **auras terminé**. L'action de terminer sera achevée avant l'action future « tu pourras sortir ». « Avais terminé » est un plus-que-parfait, « eus terminé » un passé antérieur, « termineras » un futur simple." },
+        { type: "redaction", question: "**Exercice type contrôle (par imitation)** : 1) Sur le modèle « il a chanté → il eut chanté → il aura chanté », conjugue au passé antérieur puis au futur antérieur : « nous avons fini », « ils sont venus », « tu as pris ». 2) Réécris la phrase « Quand le conteur a fini son histoire, les enfants applaudissent » deux fois : a) au passé (passé antérieur + passé simple) ; b) au futur (futur antérieur + futur simple).", corrige: `**1) Conjugaison par imitation** (on garde l'auxiliaire et le participe ; seul le temps de l'auxiliaire change)
+| Passé composé | Passé antérieur | Futur antérieur |
+|---|---|---|
+| nous avons fini | nous **eûmes** fini | nous **aurons** fini |
+| ils sont venus | ils **furent** venus | ils **seront** venus |
+| tu as pris | tu **eus** pris | tu **auras** pris |
+
+Attention à l'accent circonflexe de « nous eûmes » (comme « nous fûmes ») et à l'accord du participe avec l'auxiliaire être (« ils sont venus » → « ils furent venus », « ils seront venus »).
+
+**2) Réécritures**
+a) « Quand le conteur **eut fini** son histoire, les enfants **applaudirent**. »
+b) « Quand le conteur **aura fini** son histoire, les enfants **applaudiront**. »
+
+Dans les deux cas, le temps composé (passé antérieur ou futur antérieur) marque l'action **terminée avant** l'autre : le conteur finit d'abord, puis les enfants applaudissent.` }
       ]
     },
     {
@@ -1215,7 +1244,7 @@ Si le verbe de parole est au **présent** (« il dit »), les temps ne changent 
 > Avec un verbe de parole au passé : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel ; demain → le lendemain, hier → la veille, ici → là.
 `,
       exercices: [
-        { type: "qcm", question: "Dans quelle phrase les paroles sont-elles rapportées au **discours direct** ?", choix: ["Le marin annonça qu'une tempête approchait.", "Le marin annonça : « Une tempête approche ! »", "Le marin raconta la tempête.", "Le marin demanda si la tempête approchait."], reponse: 1, explication: "Les paroles sont citées telles quelles, après deux-points et entre guillemets : discours direct. Les phrases 1 et 4 sont au discours indirect, la phrase 3 résume les paroles (discours narrativisé)." },
+        { type: "qcm", question: "Dans quelle phrase les paroles sont-elles rapportées au **discours direct** ?", choix: ["Le marin annonça qu'une tempête approchait.", "Le marin annonça : « Une tempête approche ! »", "Le marin raconta la tempête.", "Le marin demanda si la tempête approchait."], reponse: 1, explication: "Les paroles sont citées telles quelles, après deux-points et entre guillemets : discours direct. « Le marin annonça qu'une tempête approchait » et « Le marin demanda si la tempête approchait » sont au discours indirect ; « Le marin raconta la tempête » résume les paroles (discours narrativisé)." },
         { type: "vf", question: "Au discours indirect, les paroles rapportées sont placées entre guillemets.", reponse: false, explication: "Au discours indirect, les paroles sont intégrées à la phrase du narrateur par un verbe de parole et une subordonnée : il n'y a ni guillemets ni deux-points." },
         { type: "saisie", question: "Complète au discours indirect : « Je suis fatigué », a dit le chevalier. → Le chevalier a dit qu'il ... fatigué. (un seul mot)", reponses: ["était", "qu'il était", "il était"], explication: "Le verbe de parole est au passé (« a dit ») : le présent « suis » devient l'imparfait **était** ; « je » devient « il »." },
         { type: "qcm", question: "Quelle est la bonne transformation au discours indirect de : Elle m'a demandé : « Où vas-tu ? »", choix: ["Elle m'a demandé où vas-tu.", "Elle m'a demandé où est-ce que j'allais.", "Elle m'a demandé où j'allais.", "Elle m'a demandé si où j'allais."], reponse: 2, explication: "Au discours indirect, la question partielle garde le mot interrogatif « où », mais perd l'inversion, « est-ce que » et le point d'interrogation ; le présent devient imparfait (verbe introducteur au passé) : « où j'allais »." },
@@ -1236,6 +1265,243 @@ Si le verbe de parole est au **présent** (« il dit »), les temps ne changent 
 « Fermez les portes du château ! » ordonna la reine aux gardes.
 - L'ordre retrouve l'**impératif** (« Fermez »), la 2e personne du pluriel (la reine parle aux gardes) et le point d'exclamation.
 - L'**incise** « ordonna la reine » est inversée (verbe + sujet) ; après un point d'exclamation, elle commence par une minuscule.` }
+      ]
+    },
+    {
+      id: "voyager-en-poesie",
+      titre: "Voyager en poésie : « Du monde entier au cœur du monde »",
+      theme: "Voyager en poésie : « Du monde entier au cœur du monde »",
+      cours: `
+## Ce que dit le programme
+L'entrée « Voyager en poésie : “Du monde entier au cœur du monde” » (programme de 5e en vigueur depuis la rentrée 2026) reprend une formule du poète **Blaise Cendrars** : c'est le titre donné à l'édition de ses poésies complètes (1957). Le voyage poétique va dans deux directions : vers le **monde entier** (pays réels ou rêvés) et vers le **cœur** du poète (ses souvenirs, ses émotions, son « continent intérieur »). Tu vas découvrir que ce sont les **mots**, les **sonorités**, les **rythmes** et les **images** qui font voyager le lecteur, bien plus que la simple description de paysages.
+
+## Les outils du poème
+### Le vers et la strophe
+- Un **vers** est une ligne du poème ; il commence souvent par une majuscule.
+- Une **strophe** est un groupe de vers séparé par un blanc : **tercet** (3 vers), **quatrain** (4 vers).
+- Le **sonnet** est une forme fixe de **14 vers** : deux quatrains puis deux tercets.
+
+### Compter les syllabes
+On compte les syllabes **prononcées** (on parle de syllabes métriques). Les vers les plus fréquents : **octosyllabe** (8), **décasyllabe** (10), **alexandrin** (12). Le vers de 7 syllabes s'appelle un **heptasyllabe**.
+
+Règles du **e muet** (le e sans accent en fin de mot) :
+- il **compte** devant une consonne : « quel-le sai-son » ;
+- il **ne compte pas** devant une voyelle (il s'élide) ni en fin de vers.
+
+>! **Exemple résolu** (Du Bellay) : « Fumer la cheminée, et en quelle saison »
+>! Fu (1) mer (2) la (3) che (4) mi (5) née (6) et (7) en (8) quel (9) le (10) sai (11) son (12) → **12 syllabes : un alexandrin**.
+>! Le e de « cheminée » s'élide devant « et » ; celui de « quelle » compte car il est suivi d'une consonne.
+
+Parfois, deux voyelles qui se suivent se prononcent en deux syllabes : c'est la **diérèse** (« au-da-ci-eux »). Elle met le mot en valeur.
+
+### Le rythme
+- Dans l'alexandrin classique, une pause, la **césure**, coupe souvent le vers en deux moitiés de 6 syllabes, les **hémistiches** : « Heureux qui, comme Ulysse, // a fait un beau voyage ».
+- Quand la phrase déborde sur le vers suivant, c'est un **enjambement** ; si seuls quelques mots débordent, on parle de **rejet** : ils sont mis en relief.
+- Le **refrain** (vers répétés) et l'**anaphore** (reprise d'un mot en début de vers) créent une musique et une insistance.
+- Le **vers libre** n'a ni nombre de syllabes fixe ni rime obligatoire : le rythme vient de la longueur des vers, des répétitions, des blancs. Le **poème en prose** n'a pas de vers du tout, mais garde un travail sur les images et les sons.
+
+### La rime
+| Disposition | Schéma | Exemple de sons |
+|---|---|---|
+| rimes **suivies** (plates) | AABB | -our / -our / -ine / -ine |
+| rimes **croisées** | ABAB | -age / -on / -age / -on |
+| rimes **embrassées** | ABBA | -age / -on / -on / -age |
+
+- **Qualité** : rime **pauvre** (1 son commun : ami / joli), **suffisante** (2 sons : voyage / âge), **riche** (3 sons ou plus : latin / Palatin).
+- **Genre** : rime **féminine** si le mot se termine par un e muet (voyage, fine), **masculine** sinon (toison, latin).
+
+### Les sonorités et les images
+- **Allitération** : répétition d'un son consonne ; **assonance** : répétition d'un son voyelle.
+- **Comparaison** (avec un outil : comme, tel, pareil à), **métaphore** (sans outil), **personnification**, **antithèse** (opposition de deux idées), **apostrophe** (le poète s'adresse directement à quelqu'un).
+
+> **À retenir**
+> Pour analyser un poème, observe toujours : la forme (vers, strophes, mètre), les rimes, le rythme, les sonorités, les images.
+> Ne te contente pas de nommer un procédé : explique ce qu'il fait ressentir ou comprendre.
+> Le voyage en poésie est à la fois un voyage dans le monde et un voyage intérieur.
+
+## Partir ou revenir ? Du Bellay, « Heureux qui, comme Ulysse... »
+Joachim **du Bellay** (vers 1522-1560), poète de la **Pléiade** avec Ronsard, a vécu à Rome de 1553 à 1557 au service d'un parent, le cardinal Jean du Bellay. Déçu, il exprime sa nostalgie dans le recueil *Les Regrets* (1558). Le sonnet XXXI s'ouvre ainsi :
+
+>! « Heureux qui, comme Ulysse, a fait un beau voyage,
+>! Ou comme cestui-là qui conquit la toison,
+>! Et puis est retourné, plein d'usage et raison,
+>! Vivre entre ses parents le reste de son âge ! »
+
+« Cestui-là » (celui-là) désigne **Jason**, qui conquit la Toison d'or ; « usage » signifie expérience. Le deuxième quatrain exprime le regret : « Quand reverrai-je, hélas, de mon petit village / Fumer la cheminée... » Les tercets opposent la maison natale, en Anjou, aux monuments de Rome :
+
+>! « Plus mon Loire gaulois, que le Tibre latin,
+>! Plus mon petit Liré, que le mont Palatin,
+>! Et plus que l'air marin la douceur angevine. »
+
+**Ce qu'il faut voir** : un sonnet en alexandrins, rimes embrassées dans les quatrains (ABBA ABBA) puis CCD EED ; une **anaphore** de « Plus » ; des **antithèses** (Loire / Tibre, Liré / Palatin) où le petit et le familier l'emportent sur le grandiose. Ici, le vrai beau voyage est celui du **retour**.
+
+## Rêver d'ailleurs : Baudelaire, « L'Invitation au voyage »
+Charles **Baudelaire** (1821-1867) publie ce poème dans *Les Fleurs du mal* (1857) ; il en a aussi écrit une version en prose dans *Le Spleen de Paris*. Le poète invite la femme aimée vers un pays rêvé :
+
+>! « Mon enfant, ma sœur,
+>! Songe à la douceur
+>! D'aller là-bas vivre ensemble !
+>! Aimer à loisir,
+>! Aimer et mourir
+>! Au pays qui te ressemble ! »
+
+Chaque strophe se termine par le **refrain** : « Là, tout n'est qu'ordre et beauté, / Luxe, calme et volupté. »
+
+**Ce qu'il faut voir** : l'**apostrophe** tendre (« Mon enfant, ma sœur ») ; deux vers courts de 5 syllabes suivis d'un vers de 7 syllabes, un rythme qui berce comme une chanson ; la répétition « Aimer... / Aimer... » ; le pays rêvé qui « ressemble » à la femme aimée : l'ailleurs est un miroir des sentiments. Le refrain, avec son **énumération** de mots doux, dessine un idéal d'harmonie.
+
+## Le poète voyageur moderne : Cendrars et Apollinaire
+- **Blaise Cendrars** (1887-1961), né en Suisse, grand voyageur, publie en 1913 *La Prose du Transsibérien et de la petite Jehanne de France*, récit d'un voyage en train à travers la Russie, imprimé sur une longue feuille dépliante illustrée par la peintre Sonia Delaunay. Le poème commence par « En ce temps-là j'étais en mon adolescence » et revient sans cesse à la question inquiète de la jeune Jehanne : « Dis, Blaise, sommes-nous bien loin de Montmartre ? » Vers libres, absence de ponctuation par endroits, énumérations de gares et de villes : le rythme imite le train.
+- **Guillaume Apollinaire** (1880-1918) ouvre *Alcools* (1913) par « Zone », poème sans ponctuation qui commence par « À la fin tu es las de ce monde ancien » : on se promène dans Paris et dans les souvenirs du poète.
+
+## Voix francophones : la négritude
+Dans les années 1930, des étudiants venus d'Afrique, des Antilles et de Guyane fondent à Paris le mouvement de la **négritude**, qui affirme la fierté des cultures noires : **Léopold Sédar Senghor** (1906-2001), poète sénégalais devenu le premier président du Sénégal, et **Aimé Césaire** (1913-2008), poète martiniquais, avec Léon-Gontran Damas.
+- Dans *Chants d'ombre* (1945), le poème « Femme noire » de Senghor s'ouvre par « Femme nue, femme noire » : la femme célébrée devient l'image de l'Afrique.
+- Le *Cahier d'un retour au pays natal* (1939) de Césaire répète en anaphore « Au bout du petit matin... » : le retour en Martinique est à la fois un voyage géographique et une quête d'identité.
+
+Les poètes contemporains (par exemple Andrée Chedid, née au Caire, ou Abdellatif Laâbi, né à Fès) écrivent souvent en vers libres sur l'exil, les racines et la rencontre des cultures : le voyage poétique continue.
+
+## Méthode : écrire un paragraphe d'analyse
+1. Une **idée** qui répond à la question (« Le poète présente le retour comme le vrai bonheur »).
+2. Une **citation** courte entre guillemets.
+3. Le **procédé** nommé précisément (anaphore, antithèse, rime...).
+4. L'**interprétation** : ce que le procédé fait comprendre ou ressentir.
+
+>! **Exemple** : Du Bellay préfère son village à Rome. Dans le vers « Plus mon petit Liré, que le mont Palatin », l'**antithèse** oppose un modeste village d'Anjou à une colline célèbre de Rome. L'adjectif affectueux « petit » et le possessif « mon » montrent que la valeur sentimentale l'emporte sur la grandeur.
+`,
+      exercices: [
+        { type: "qcm", question: "« Heureux qui, comme Ulysse, a fait un beau voyage » de Du Bellay est un sonnet. Comment ce poème est-il construit ?", choix: ["Quatre quatrains", "Deux quatrains et deux tercets", "Trois quatrains et un distique", "Des vers libres sans strophes"], reponse: 1, explication: "Le **sonnet** compte 14 vers : deux quatrains (4 + 4) puis deux tercets (3 + 3). Trois quatrains suivis d'un distique, c'est la forme du sonnet anglais (Shakespeare), pas celle de Du Bellay." },
+        { type: "saisie", question: "Combien de syllabes compte le vers « Heureux qui, comme Ulysse, a fait un beau voyage » ? (un nombre)", reponses: ["12", "douze"], explication: "Heu (1) reux (2) qui (3) com (4) m'U (5) lys (6) s'a (7) fait (8) un (9) beau (10) vo (11) ya (12) ; les e de « comme » et de « Ulysse » s'élident devant une voyelle, et le e final de « voyage » ne compte pas. **12 syllabes** : c'est un alexandrin, coupé par la césure après « Ulysse »." },
+        { type: "qcm", question: "Les quatre premiers vers du sonnet de Du Bellay se terminent par : voyage / toison / raison / âge. Comment les rimes sont-elles disposées ?", choix: ["Rimes suivies (AABB)", "Rimes croisées (ABAB)", "Rimes embrassées (ABBA)", "Il n'y a pas de rimes"], reponse: 2, explication: "La rime en -age (A) entoure les deux rimes en -on (B) : ABBA, ce sont des **rimes embrassées**. On remarque aussi l'alternance d'une rime féminine (voyage, âge : e muet final) et d'une rime masculine (toison, raison)." },
+        { type: "vf", question: "Dans « L'Invitation au voyage », le vers « Au pays qui te ressemble » rapproche le pays rêvé et la femme aimée à qui parle le poète.", reponse: true, explication: "Le pronom « te » désigne la femme aimée (apostrophée par « Mon enfant, ma sœur ») : le pays de rêve est à son image. Le voyage est autant sentimental que géographique." },
+        { type: "qcm", question: "La *Prose du Transsibérien* de Cendrars (1913) est écrite en **vers libres**. Qu'est-ce que cela signifie ?", choix: ["Les vers n'ont ni nombre de syllabes fixe ni rime obligatoire", "Les vers sont tous des alexandrins à rimes plates", "Le poème est écrit en prose, sans aucun retour à la ligne", "Chaque vers a exactement huit syllabes"], reponse: 0, explication: "Le **vers libre** reste un vers (retour à la ligne), mais il échappe au mètre régulier et à la rime obligatoire. Chez Cendrars, sa longueur variable et les énumérations de villes imitent le rythme du train. Malgré son titre, le poème n'est donc pas un texte en prose continue." },
+        { type: "saisie", question: "Quel mouvement littéraire, fondé dans les années 1930 notamment par Léopold Sédar Senghor et Aimé Césaire, affirme la fierté des cultures noires ?", reponses: ["négritude", "la négritude", "negritude"], explication: "La **négritude** est née à Paris autour de Senghor (Sénégal), Césaire (Martinique) et Léon-Gontran Damas (Guyane). Le *Cahier d'un retour au pays natal* de Césaire en est un texte fondateur." },
+        { type: "redaction", question: "**Analyse rédigée (type contrôle)** : relis les vers de Du Bellay cités dans le cours (premier quatrain et dernier tercet). En un paragraphe d'une quinzaine de lignes, montre que, pour le poète, le plus beau voyage est le **retour** au pays natal. Appuie-toi sur au moins deux citations et deux procédés.", corrige: `**Méthode** : une idée directrice, puis pour chaque argument : citation + procédé + interprétation. Utilise des connecteurs.
+
+**Proposition de corrigé**
+Dans ce sonnet des *Regrets*, Du Bellay, exilé à Rome, renverse l'idée habituelle du voyage : le bonheur n'est pas de partir, mais de revenir. **D'abord**, le premier quatrain s'ouvre sur l'exclamation « Heureux qui, comme Ulysse, a fait un beau voyage ». Les **références mythologiques** à Ulysse et à Jason (« cestui-là qui conquit la toison ») rappellent deux héros qui sont **rentrés chez eux** après leurs aventures. Le vers « Et puis est retourné, plein d'usage et raison » montre que le voyage n'a de sens que s'il se termine par le retour, enrichi d'expérience. **Ensuite**, le dernier tercet compare la terre natale et Rome grâce à une **anaphore** de « Plus » et à des **antithèses** : « Plus mon Loire gaulois, que le Tibre latin, / Plus mon petit Liré, que le mont Palatin ». Les éléments humbles et familiers (un fleuve de France, un petit village) l'emportent sur les lieux prestigieux de Rome. Les **possessifs** (« mon Loire », « mon petit Liré ») et l'adjectif affectueux « petit » traduisent l'attachement du poète. **Enfin**, le sonnet se clôt sur « la douceur angevine » : le dernier mot du poème est consacré à l'Anjou natal. **Ainsi**, Du Bellay fait de la nostalgie le cœur de son poème : le vrai beau voyage est celui qui ramène chez soi.
+
+**Critères** : idée claire, citations exactes entre guillemets, procédés bien nommés **et** interprétés, connecteurs, phrases correctes.` },
+        { type: "redaction", question: "**Écriture poétique** : à la manière de Du Bellay ou de Baudelaire, écris un poème d'au moins deux strophes de quatre vers sur un voyage (réel ou rêvé) ou sur le retour dans un lieu que tu aimes. Contraintes : une **anaphore** ou un **refrain** ; au moins une **comparaison** et une **métaphore** ; au moins deux paires de **rimes** (ou, si tu choisis le vers libre, un travail visible sur les sonorités). Donne ensuite un titre et explique en deux phrases tes choix.", corrige: `**Ce qui est attendu**
+- un poème disposé en vers et en strophes (deux quatrains au moins) ;
+- une anaphore (« Heureux qui... », « Plus... ») ou un refrain repris à la fin de chaque strophe ;
+- des images : comparaison (avec outil) et métaphore (sans outil) ;
+- des rimes repérables (suivies, croisées ou embrassées) ou, en vers libre, des allitérations et assonances ;
+- un voyage qui dit aussi quelque chose des émotions du poète (le « cœur du monde »).
+
+**Exemple de poème** (alexandrins, rimes croisées, refrain en dernier vers)
+
+*Retour à l'île*
+
+Heureux qui voit au loin la côte de son île
+Briller comme un collier posé sur l'océan,
+Qui retrouve le port et les barques immobiles,
+Et la voix de sa mère au détour d'un vieux banc.
+
+Heureux qui reconnaît les manguiers de l'enfance,
+Leur ombre est sur mon cœur un drap frais et tremblant ;
+Le vent chante son nom dans la douce cadence,
+Et la voix de sa mère au détour d'un vieux banc.
+
+**Explication des choix** : l'anaphore « Heureux qui » reprend Du Bellay et le dernier vers revient comme un refrain pour montrer que la mère est le vrai but du voyage. La comparaison « comme un collier » et la métaphore « Leur ombre est sur mon cœur un drap frais » font sentir la douceur du retour.
+
+**Critères** : respect des contraintes, images originales, musicalité (rimes, sonorités, rythme), orthographe soignée, explication pertinente.` }
+      ]
+    },
+    {
+      id: "fables-et-contes",
+      titre: "Imaginer, sentir, raisonner : des histoires pour plaire et instruire",
+      theme: "Imaginer, sentir, raisonner : des histoires pour plaire et instruire",
+      cours: `
+## Ce que dit le programme
+L'entrée « Imaginer, sentir, raisonner : des histoires pour plaire et instruire » (programme de 5e en vigueur depuis la rentrée 2026) fait lire des **fables** et des **contes** de traditions variées, y compris francophones. Ces récits **plaisent** (on aime les histoires, l'imaginaire, le merveilleux) et **instruisent** (ils font réfléchir sur la conduite humaine et la vie en société). Tu apprendras à repérer leur **morale**, à en discuter et à **réécrire** toi-même un apologue.
+
+## L'apologue : un récit qui sert à enseigner
+Un **apologue** est un **récit bref**, souvent imaginaire, qui illustre une **leçon** (une morale). La fable, le conte moral, la parabole sont des apologues. Dans sa préface des *Fables* (1668), La Fontaine écrit : « L'apologue est composé de deux parties, dont on peut appeler l'une le corps, l'autre l'âme. Le corps est la fable ; l'âme, la moralité. »
+
+L'idée de **plaire et instruire** vient de l'Antiquité (le poète latin Horace) : une leçon passe mieux quand elle est racontée de façon agréable. La Fontaine le dit lui-même au début du « Pâtre et le Lion » (livre VI, 1) : « Une morale nue apporte de l'ennui : / Le conte fait passer le précepte avec lui. / En ces sortes de feinte il faut instruire et plaire ».
+
+## La fable
+### D'Ésope à La Fontaine
+| Auteur | Époque | Forme |
+|---|---|---|
+| **Ésope** | Grèce, VIe siècle av. J.-C. (personnage en partie légendaire) | fables courtes **en prose** |
+| **Phèdre** | Rome, Ier siècle | fables en vers latins |
+| **Jean de La Fontaine** (1621-1695) | XVIIe siècle, règne de Louis XIV | **12 livres** de *Fables* en vers (1668, 1678-1679, 1694) |
+
+La Fontaine reprend souvent des sujets d'Ésope (« Le Corbeau et le Renard », « La Cigale et la Fourmi ») mais les transforme : il écrit en **vers mêlés** (de longueurs différentes), ajoute des dialogues vivants, de l'humour, des détails. Dans la dédicace de son premier recueil au Dauphin, il écrit : « Je me sers d'animaux pour instruire les hommes. »
+
+### Les caractéristiques de la fable
+- un **récit court** avec peu de personnages, souvent des **animaux personnifiés** qui parlent et pensent ;
+- chaque animal représente un **type humain** : le renard rusé, le loup brutal, le lion puissant (le roi), l'agneau innocent ;
+- souvent un **dialogue** au cœur du récit ;
+- une **morale** qui tire la leçon.
+
+>! **Exemple** : « Le Corbeau et le Renard » (livre I, 2) commence ainsi : « Maître Corbeau, sur un arbre perché, / Tenait en son bec un fromage. » Le Renard flatte le Corbeau pour qu'il chante ; le Corbeau ouvre le bec et lâche le fromage. Le Renard tire lui-même la leçon : « Apprenez que tout flatteur / Vit aux dépens de celui qui l'écoute. »
+
+### Morale explicite ou implicite ?
+- **Morale explicite** : elle est **écrite** dans le texte, au **début** ou à la **fin**, parfois prononcée par un personnage.
+  - au début : « La raison du plus fort est toujours la meilleure : / Nous l'allons montrer tout à l'heure. » (« Le Loup et l'Agneau ») ; « Rien ne sert de courir ; il faut partir à point. » (« Le Lièvre et la Tortue ») ;
+  - à la fin, dans la bouche du Renard (« Le Corbeau et le Renard »).
+- **Morale implicite** : elle n'est **pas formulée** ; le lecteur doit la **déduire** du récit. « La Cigale et la Fourmi » s'arrête sur la réplique moqueuse de la Fourmi : « Eh bien ! dansez maintenant. » À toi de juger : faut-il prévoir l'avenir ? La Fourmi n'est-elle pas aussi bien dure ?
+
+>! **Attention** : une morale de La Fontaine n'est pas toujours un conseil à suivre. « La raison du plus fort est toujours la meilleure » est un **constat** amer sur l'injustice : le fabuliste montre le monde tel qu'il est, pour qu'on le juge.
+
+## Le conte
+### Le conte merveilleux : Perrault
+Charles **Perrault** publie en 1697 les *Histoires ou Contes du temps passé*, appelés aussi *Contes de ma mère l'Oye* : « Le Petit Chaperon rouge », « Cendrillon », « La Barbe bleue », « Le Chat botté », « Le Petit Poucet »... Chaque conte se termine par une **moralité en vers**, souvent ironique. Chez Perrault, le Petit Chaperon rouge est mangé par le loup, et la moralité met en garde les jeunes filles qui écoutent les inconnus trop aimables.
+
+Caractéristiques du conte merveilleux :
+- une **formule d'ouverture** (« Il était une fois ») et un temps et un lieu **indéterminés** ;
+- le **surnaturel** accepté comme normal (fées, ogres, animaux qui parlent, objets magiques) ;
+- des personnages **types** (le héros, l'opposant, l'adjuvant) ;
+- un **schéma narratif** clair et souvent des épreuves répétées (souvent par trois).
+
+### Contes d'Afrique et des Antilles
+Ces contes viennent d'une **tradition orale** : un conteur (en Afrique de l'Ouest, souvent un **griot**) les dit devant un public qui participe.
+- En Afrique de l'Ouest, **Leuk-le-Lièvre**, petit animal malin, triomphe des plus forts par la ruse (Senghor et Abdoulaye Sadji ont réuni ses aventures dans *La Belle Histoire de Leuk-le-Lièvre*, 1953). **Birago Diop** a transcrit des récits du griot de sa famille dans *Les Contes d'Amadou Koumba* (1947). L'araignée **Anansi** (Ananse) est le héros rusé des contes akan (Ghana, Côte d'Ivoire).
+- Aux Antilles, les contes créoles mettent en scène **Compère Lapin**, rusé, et **Compère Zamba** (l'éléphant) ou **Compère Tigre**, puissants mais naïfs, ou encore **Ti-Jean**, le petit héros débrouillard. Le conteur lance « Krik ! » et le public répond « Krak ! » pour montrer qu'il est éveillé.
+
+Ces contes, comme les fables, montrent souvent le **faible rusé** qui l'emporte sur le **fort**, mais aussi le rusé puni quand il exagère. La morale est souvent **implicite**, ou donnée par un proverbe.
+
+> **À retenir**
+> Apologue = récit bref + leçon : « le corps » (l'histoire) et « l'âme » (la morale).
+> Fable : récit court, animaux personnifiés représentant des types humains, morale explicite (début ou fin) ou implicite.
+> Conte merveilleux : « Il était une fois », surnaturel, personnages types ; Perrault ajoute des moralités en vers.
+> Les contes d'Afrique et des Antilles viennent de la tradition orale et célèbrent souvent la ruse du faible.
+> Plaire et instruire : le plaisir du récit fait passer la leçon.
+
+## Méthode : réécrire une fable
+1. Repère le **schéma** de la fable source : situation, ruse ou conflit, retournement, morale.
+2. Choisis ce que tu **transposes** : époque (aujourd'hui), lieu, personnages (humains ou autres animaux), genre (récit en prose, dialogue de théâtre).
+3. Garde la **leçon** (ou change-la volontairement, et dis pourquoi).
+4. Fais parler les personnages au **discours direct**, avec une ponctuation correcte.
+5. Décide si ta morale est **explicite** (une phrase au début ou à la fin) ou **implicite** (à déduire de la dernière réplique).
+`,
+      exercices: [
+        { type: "qcm", question: "Qu'est-ce qu'un **apologue** ?", choix: ["Un long roman d'aventure en plusieurs tomes", "Un poème qui célèbre un héros", "Un récit bref qui illustre une leçon", "Un discours pour s'excuser d'une faute"], reponse: 2, explication: "L'apologue est un **récit bref** au service d'une **leçon** : la fable, le conte moral, la parabole en sont des exemples. Attention à ne pas le confondre avec « apologie » (discours pour défendre quelqu'un) ou avec des excuses." },
+        { type: "vf", question: "Dans « Le Loup et l'Agneau » de La Fontaine, la morale « La raison du plus fort est toujours la meilleure » est placée au début de la fable.", reponse: true, explication: "La morale est **explicite** et annoncée dès les deux premiers vers (« Nous l'allons montrer tout à l'heure »), puis le récit la démontre. C'est un constat amer sur l'injustice plutôt qu'un conseil." },
+        { type: "saisie", question: "Quel fabuliste grec de l'Antiquité, auteur de fables en prose, a inspiré de nombreuses fables de La Fontaine ?", reponses: ["Ésope", "Esope"], explication: "**Ésope** (VIe siècle av. J.-C.) est la grande source de La Fontaine, qui transforme ses courtes fables en prose en récits en vers, vivants et pleins d'humour." },
+        { type: "qcm", question: "« Le Corbeau et le Renard » se termine par : « Apprenez que tout flatteur / Vit aux dépens de celui qui l'écoute. » Qui prononce cette morale ?", choix: ["Le Corbeau", "Le Renard", "Le narrateur, après le récit", "Le Dauphin, à qui le livre est dédié"], reponse: 1, explication: "C'est le **Renard** qui donne la leçon au Corbeau, avec ironie, juste après avoir saisi le fromage : la morale est explicite et intégrée au dialogue. Le Corbeau, honteux, jure ensuite « qu'on ne l'y prendrait plus »." },
+        { type: "qcm", question: "« La Cigale et la Fourmi » se termine par la réplique : « Eh bien ! dansez maintenant. » Comment qualifier la morale de cette fable ?", choix: ["Explicite, car elle est écrite en tête de la fable", "Absente : une fable n'a pas toujours de leçon", "Explicite, car le narrateur la résume à la fin", "Implicite, car le lecteur doit la déduire du récit"], reponse: 3, explication: "Aucune phrase ne formule la leçon : le lecteur la **déduit** (prévoir l'avenir, ou au contraire juger la dureté de la Fourmi). C'est une **morale implicite**, qui invite au débat." },
+        { type: "saisie", question: "En quelle année Charles Perrault publie-t-il ses *Histoires ou Contes du temps passé* (« Contes de ma mère l'Oye ») ? (en chiffres)", reponses: ["1697"], explication: "Les contes de Perrault paraissent en **1697**, à la fin du règne de Louis XIV. Chaque conte se termine par une moralité en vers." },
+        { type: "qcm", question: "Dans les contes d'Afrique de l'Ouest et des Antilles, quel rôle jouent souvent Leuk-le-Lièvre ou Compère Lapin ?", choix: ["Le petit animal rusé qui l'emporte sur les plus forts", "Le roi sage qui rend la justice", "Le monstre terrifiant que le héros doit tuer", "La fée qui récompense les enfants obéissants"], reponse: 0, explication: "Leuk-le-Lièvre et Compère Lapin sont des **rusés** : petits et faibles, ils trompent les animaux puissants (l'hyène, l'éléphant, le tigre). Comme le Renard des fables, ils montrent que l'intelligence peut vaincre la force, mais ils sont parfois punis quand leur ruse devient méchanceté." },
+        { type: "redaction", question: "**Réécriture d'une fable (type contrôle)** : réécris « Le Corbeau et le Renard » en prose, en une quinzaine de lignes, en la transposant de nos jours (au collège, sur les réseaux sociaux...). Tes personnages peuvent être des humains. Garde le schéma de la fable (une victime fière, un flatteur, une ruse, une perte) et termine par une **morale explicite** que tu reformules à ta manière.", corrige: `**Ce qui est attendu**
+- le **schéma** de la fable : un personnage possède un objet convoité ; un flatteur le complimente ; la victime, vaniteuse, se laisse piéger ; le flatteur emporte l'objet et tire la leçon ;
+- une **transposition** cohérente (lieu, époque, personnages, objet) ;
+- un **dialogue** au discours direct correctement ponctué (guillemets, tirets, incises) ;
+- les temps du récit (passé simple / imparfait) ou un présent de narration tenu de bout en bout ;
+- une **morale explicite**, reformulée, au début ou à la fin.
+
+**Exemple de corrigé**
+À la récréation, Corentin, assis sur le muret, tenait fièrement le dernier croissant de la boulangerie. Léna, qui n'avait pas pris de goûter, s'approcha avec un grand sourire.
+« Corentin ! On dit partout que tu chantes mieux que tout le monde au club de musique. Tu ne veux pas nous faire entendre ta voix ? »
+Flatté, Corentin se redressa, posa son croissant à côté de lui pour mieux respirer et entonna son refrain préféré, les yeux fermés. Quand il les rouvrit, Léna était déjà loin, le croissant à la main.
+« Merci pour le concert ! lança-t-elle en riant. Retiens bien ceci : celui qui flatte vit toujours aux dépens de celui qui l'écoute. »
+Corentin, rouge de honte, jura qu'on ne l'y reprendrait plus.
+
+**Morale** : *Méfie-toi des compliments trop beaux : ils cachent souvent une demande.*
+
+**Critères** : respect du schéma et de la leçon, transposition inventive, ponctuation du dialogue, cohérence des temps, orthographe. On valorise une morale reformulée (et non recopiée) et un ton qui « plaît » autant qu'il « instruit ».` }
       ]
     },
   ],
