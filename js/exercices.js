@@ -4,7 +4,7 @@ import { bloc, inline } from "./md.js";
 import * as IA from "./gemini.js";
 
 export function normaliser(s) {
-  return String(s ?? "")
+  const t = String(s ?? "")
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
@@ -12,9 +12,10 @@ export function normaliser(s) {
     .replace(/[−–—]/g, "-")
     .replace(/(\d),(\d)/g, "$1.$2")
     .replace(/\s+/g, " ")
-    .trim()
-    .replace(/^[¿¡]+/, "")
-    .replace(/[\s.!?;:]+$/, "");
+    .trim();
+  // La ponctuation d'ouverture/fermeture est ignorée, sauf si elle est la réponse
+  const nu = t.replace(/^[¿¡]+/, "").replace(/[\s.!?;:]+$/, "");
+  return nu || t;
 }
 
 export function reponseJuste(saisie, attendues) {
@@ -46,6 +47,14 @@ export function exerciceValide(e) {
     default:
       return false;
   }
+}
+
+function melanger(t) {
+  for (let i = t.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [t[i], t[j]] = [t[j], t[i]];
+  }
+  return t;
 }
 
 const LIBELLES = { qcm: "QCM", vf: "Vrai ou faux", saisie: "Réponse courte", redaction: "À rédiger" };
@@ -89,8 +98,10 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
   function construire() {
     zone.replaceChildren();
     if (e.type === "qcm" || e.type === "vf") {
-      const choix = e.type === "qcm" ? e.choix : ["Vrai", "Faux"];
-      const bonne = e.type === "qcm" ? e.reponse : e.reponse ? 0 : 1;
+      // Les propositions de QCM sont mélangées à chaque affichage
+      const ordre = e.type === "qcm" ? melanger(e.choix.map((_, i) => i)) : [0, 1];
+      const choix = e.type === "qcm" ? ordre.map((i) => e.choix[i]) : ["Vrai", "Faux"];
+      const bonne = e.type === "qcm" ? ordre.indexOf(e.reponse) : e.reponse ? 0 : 1;
       const boutons = choix.map((c, i) =>
         h("button", {
           class: "choix",
