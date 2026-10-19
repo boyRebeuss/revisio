@@ -1,7 +1,7 @@
-export function normaliser(s) {
-  const t = String(s ?? "")
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+export function normaliser(s, accents = false) {
+  let t = String(s ?? "").normalize("NFD");
+  if (!accents) t = t.replace(/[̀-ͯ]/g, "");
+  t = t
     .toLowerCase()
     .replace(/[’‘`´]/g, "'")
     .replace(/[−–—]/g, "-")

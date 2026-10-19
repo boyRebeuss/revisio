@@ -3,10 +3,11 @@ import { h } from "./dom.js";
 import { bloc, inline } from "./md.js";
 import * as IA from "./gemini.js";
 
-export function normaliser(s) {
-  const t = String(s ?? "")
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+// accents = true : les accents comptent (orthographe en français)
+export function normaliser(s, accents = false) {
+  let t = String(s ?? "").normalize("NFD");
+  if (!accents) t = t.replace(/[̀-ͯ]/g, "");
+  t = t
     .toLowerCase()
     .replace(/[’‘`´]/g, "'")
     .replace(/[−–—]/g, "-")
@@ -18,12 +19,14 @@ export function normaliser(s) {
   return nu || t;
 }
 
-export function reponseJuste(saisie, attendues) {
-  const a = normaliser(saisie);
-  if (!a) return false;
+// accents = true (français) : si la réponse attendue porte des accents, ils comptent.
+export function reponseJuste(saisie, attendues, accents = false) {
   const nombre = (x) => (/^-?\d+(\.\d+)?$/.test(x) ? parseFloat(x) : NaN);
   return attendues.some((r) => {
-    const b = normaliser(r);
+    const strict = accents && /[\u0300-\u036f]/.test(String(r).normalize("NFD"));
+    const a = normaliser(saisie, strict);
+    if (!a) return false;
+    const b = normaliser(r, strict);
     if (a === b || a.replace(/ /g, "") === b.replace(/ /g, "")) return true;
     const na = nombre(a.replace(/ /g, "")), nb = nombre(b.replace(/ /g, ""));
     return !isNaN(na) && !isNaN(nb) && Math.abs(na - nb) < 1e-9;
@@ -123,7 +126,7 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
       const valider = () => {
         if (fini || !champ.value.trim()) return;
         champ.disabled = true;
-        const ok = reponseJuste(champ.value, e.reponses);
+        const ok = reponseJuste(champ.value, e.reponses, !!ctx?.accents);
         terminer(ok, ok ? null : h("p", { class: "attendu" }, "Réponse attendue : ", h("strong", {}, e.reponses[0])));
       };
       champ.addEventListener("keydown", (ev) => ev.key === "Enter" && valider());
