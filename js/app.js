@@ -5,6 +5,7 @@ import * as S from "./store.js";
 import * as IA from "./gemini.js";
 import { carteExercice, exerciceValide } from "./exercices.js";
 import * as F from "./famille.js";
+import { VERSION } from "./version.js";
 
 const app = document.getElementById("app");
 const contenus = {};
@@ -22,8 +23,10 @@ async function charger(niveau, id) {
   return contenus[cle];
 }
 
+// Si l'adresse est déjà la bonne, aucun « hashchange » : on réaffiche directement
 function aller(hash) {
-  location.hash = hash;
+  if (location.hash === hash) router();
+  else location.hash = hash;
 }
 
 // Redirection (lien périmé, matière inconnue) : remplace l'entrée d'historique
@@ -126,21 +129,26 @@ function formulaireProfil(existant, { depuisReglages = false } = {}) {
     )
   );
   const msg = h("p", { class: "erreur" });
+  const btn = h("button", { class: "btn plein", type: "submit" }, existant ? "Enregistrer" : "Créer le profil");
   return h("form", {
     class: "carte form",
     onsubmit: (ev) => {
       ev.preventDefault();
+      // Un seul enregistrement, même si on clique plusieurs fois
+      if (btn.disabled) return;
       const p = prenom.value.trim();
       if (!p) { msg.textContent = "Écris un prénom."; return; }
       if (!niveau.value) { msg.textContent = "Choisis la classe."; return; }
+      if (S.profilExistant(p, niveau.value, existant?.id)) { msg.textContent = `Il y a déjà un profil « ${p} » en ${NIVEAUX[niveau.value].nom}.`; return; }
+      btn.disabled = true;
+      btn.textContent = "Un instant…";
       if (existant) S.modifierProfil(existant.id, { prenom: p, niveau: niveau.value, avatar });
       else S.ajouterProfil(p, niveau.value, avatar, !depuisReglages);
       aller(existant || depuisReglages ? "#/reglages" : "#/");
     },
   },
     h("h2", {}, existant ? "Modifier le profil" : "Nouveau profil"),
-    prenom, niveau, avatars, msg,
-    h("button", { class: "btn plein", type: "submit" }, existant ? "Enregistrer" : "Créer le profil")
+    prenom, niveau, avatars, msg, btn
   );
 }
 
@@ -505,14 +513,210 @@ function vueReglages() {
         h("p", { class: "petit" }, "Confidentialité : seuls le chapitre étudié et les réponses ou questions écrites par l'élève sont envoyés à Google (jamais le prénom). Avec une clé gratuite, Google peut utiliser ces échanges pour améliorer ses services : ne pas y écrire d'informations personnelles.")
       ),
       h("section", { class: "carte" },
+        h("h2", {}, "👨‍👩‍👧 Espace parents"),
+        h("p", {}, "Historique des connexions de chaque élève sur cet appareil, protégé par un code parent."),
+        h("a", { class: "btn", href: "#/parents" }, "🔒 Voir l'historique des connexions")
+      ),
+      h("section", { class: "carte" },
         h("h2", {}, "📱 Installer l'appli"),
         h("p", {}, "iPhone / iPad : dans Safari, bouton Partager → « Sur l'écran d'accueil »."),
         h("p", {}, "Android : dans Chrome, menu ⋮ → « Installer l'application »."),
         h("p", { class: "petit" }, "Les cours déjà ouverts restent disponibles hors connexion.")
       ),
-      h("p", { class: "petit centre-txt" }, "Révisio — contenus conformes aux programmes officiels, rédigés avec l'aide d'une IA : en cas de doute, la parole du professeur prime.")
+      h("a", { class: "carte lien-carte", href: "#/apropos" }, "ℹ️ À propos de Révisio", h("span", { class: "petit" }, ` — version du ${VERSION.date}`))
     )
   );
+}
+
+// ---------- À propos ----------
+
+function vueAPropos() {
+  const nb = Object.values(NIVEAUX).reduce((s, n) => s + n.matieres.length, 0);
+  const msg = h("p", { class: "petit" });
+  const verifier = async (ev) => {
+    const b = ev.currentTarget;
+    if (!inscription) { msg.textContent = "Mise à jour automatique indisponible ici (appli non installée depuis Internet)."; return; }
+    b.disabled = true;
+    msg.textContent = "Recherche…";
+    try { await inscription.update(); } catch { msg.textContent = "Pas de connexion : réessaie plus tard."; b.disabled = false; return; }
+    // Laisse le temps à une nouvelle version de se télécharger
+    setTimeout(() => {
+      const nouvelle = inscription.waiting || inscription.installing;
+      msg.textContent = nouvelle ? "Une nouvelle version est disponible : regarde en bas de l'écran." : "✅ Tu as la dernière version.";
+      if (inscription.waiting) proposerMaj(inscription.waiting);
+      b.disabled = false;
+    }, 1500);
+  };
+  page(
+    entete({ titre: "À propos", retour: "#/reglages" }),
+    h("main", {},
+      h("section", { class: "carte" },
+        h("h2", {}, "🎓 Révisio"),
+        h("p", {}, `Cours et exercices corrigés pour réviser la 5e et la 1re générale : ${nb} matières, environ 320 chapitres et 3 000 exercices.`),
+        h("p", {}, "Les contenus suivent les programmes officiels en vigueur à la rentrée 2026. Ils ont été rédigés et relus avec l'aide d'une IA : en cas de doute, la parole du professeur prime."),
+        h("p", {}, `Version du ${VERSION.date} (${VERSION.empreinte})`),
+        h("button", { class: "btn", onclick: verifier }, "Rechercher une mise à jour"),
+        msg
+      ),
+      h("section", { class: "carte" },
+        h("h2", {}, "🔐 Données et vie privée"),
+        h("ul", {},
+          h("li", {}, "Pas de compte, pas de publicité, pas de traceur."),
+          h("li", {}, "Les profils, la progression et l'historique des connexions restent uniquement sur cet appareil."),
+          h("li", {}, "L'IA (Gemini, facultative) ne reçoit que le chapitre étudié et ce que l'élève écrit, jamais son prénom.")
+        )
+      ),
+      h("section", { class: "carte" },
+        h("h2", {}, "🔄 Mises à jour"),
+        h("p", {}, "Quand une nouvelle version est publiée, un bandeau le signale : tu peux mettre à jour tout de suite ou plus tard. La progression est conservée.")
+      ),
+      h("p", { class: "petit centre-txt" }, "Code source : ", h("a", { href: "https://github.com/boyRebeuss/revisio", target: "_blank", rel: "noopener noreferrer" }, "github.com/boyRebeuss/revisio"))
+    )
+  );
+}
+
+// ---------- Espace parents ----------
+
+let parentOuvert = false;
+
+function vueParents() {
+  const contenu = !S.parents.aUnCode() ? formCodeParent() : parentOuvert ? historiqueConnexions() : formEntreeParent();
+  page(entete({ titre: "Espace parents", retour: "#/reglages" }), h("main", {}, contenu));
+}
+
+function formCodeParent({ changer = false } = {}) {
+  const c1 = h("input", { class: "champ", type: "password", autocomplete: "new-password", placeholder: "Nouveau code parent" });
+  const c2 = h("input", { class: "champ", type: "password", autocomplete: "new-password", placeholder: "Le même code, encore une fois" });
+  const msg = h("p", { class: "erreur" });
+  const btn = h("button", { class: "btn plein", type: "submit" }, "Enregistrer le code");
+  return h("form", {
+    class: "carte",
+    onsubmit: async (ev) => {
+      ev.preventDefault();
+      if (btn.disabled) return;
+      if (c1.value.trim().length < 4) { msg.textContent = "Choisis un code d'au moins 4 caractères."; return; }
+      if (c1.value.trim() !== c2.value.trim()) { msg.textContent = "Les deux codes ne sont pas identiques."; return; }
+      btn.disabled = true;
+      await S.parents.definir(c1.value);
+      parentOuvert = true;
+      vueParents();
+    },
+  },
+    h("h2", {}, changer ? "Changer le code parent" : "🔒 Créer le code parent"),
+    changer ? null : h("p", {}, "Ce code protège l'historique des connexions. Choisis-en un que les élèves ne connaissent pas (différent du code famille)."),
+    c1, c2, msg, btn
+  );
+}
+
+function formEntreeParent() {
+  const champ = h("input", { class: "champ", type: "password", autocomplete: "current-password", placeholder: "Code parent" });
+  const msg = h("p", { class: "erreur" });
+  const btn = h("button", { class: "btn plein", type: "submit" }, "Ouvrir");
+  return h("div", {},
+    h("form", {
+      class: "carte",
+      onsubmit: async (ev) => {
+        ev.preventDefault();
+        if (!champ.value || btn.disabled) return;
+        btn.disabled = true;
+        if (await S.parents.verifier(champ.value)) { parentOuvert = true; vueParents(); return; }
+        btn.disabled = false;
+        msg.textContent = "Code incorrect.";
+        champ.select();
+      },
+    },
+      h("h2", {}, "🔒 Réservé aux parents"),
+      h("div", { class: "saisie" }, champ, btn),
+      msg
+    ),
+    h("button", {
+      class: "btn lien",
+      onclick: (ev) => {
+        const b = ev.currentTarget;
+        if (b.dataset.sur) { S.parents.oublier(); vueParents(); }
+        else { b.dataset.sur = "1"; b.textContent = "Confirmer : l'historique sera effacé et un nouveau code créé"; }
+      },
+    }, "Code oublié ?")
+  );
+}
+
+const heure = (t) => new Date(t).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" }).replace(":", " h ");
+const jour = (t) => new Date(t).toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+
+function duree(ms) {
+  const min = Math.round(ms / 60000);
+  if (min < 1) return "moins d'une minute";
+  return min < 60 ? `${min} min` : `${Math.floor(min / 60)} h ${String(min % 60).padStart(2, "0")}`;
+}
+
+function historiqueConnexions() {
+  const hist = S.historique().slice().reverse();
+  const parJour = new Map();
+  for (const e of hist) {
+    const j = jour(e.d);
+    if (!parJour.has(j)) parJour.set(j, []);
+    parJour.get(j).push(e);
+  }
+  return h("div", {},
+    h("section", { class: "carte" },
+      h("h2", {}, "🕒 Historique des connexions"),
+      h("p", { class: "petit" }, "Sur cet appareil uniquement. Une connexion se termine après 30 minutes sans activité."),
+      hist.length ? null : h("p", { class: "vide" }, "Aucune connexion enregistrée pour l'instant."),
+      [...parJour].map(([j, liste]) => h("div", { class: "jour" },
+        h("h3", {}, j),
+        h("div", { class: "lignes" },
+          liste.map((e) => e.efface
+            ? h("div", { class: "ligne petit" }, `${heure(e.d)} — historique effacé (${e.efface})`)
+            : h("div", { class: "ligne" },
+                h("span", {}, `${e.a} ${e.n}`),
+                h("span", { class: "petit" }, `${heure(e.d)} → ${heure(e.f)} · ${duree(e.f - e.d)}` + (e.x ? ` · ${e.x} exercice${e.x > 1 ? "s" : ""}` : ""))
+              ))
+        )
+      ))
+    ),
+    h("section", { class: "carte" },
+      h("h2", {}, "Réglages parents"),
+      h("div", { class: "actions-parents" },
+        h("button", { class: "btn", onclick: () => { parentOuvert = false; aller("#/reglages"); } }, "🔒 Verrouiller"),
+        h("button", { class: "btn", onclick: (ev) => ev.currentTarget.replaceWith(formCodeParent({ changer: true })) }, "Changer le code parent"),
+        h("button", {
+          class: "btn rouge",
+          onclick: (ev) => {
+            const b = ev.currentTarget;
+            if (b.dataset.sur) { S.effacerHistorique(); vueParents(); }
+            else { b.dataset.sur = "1"; b.textContent = "Confirmer l'effacement ?"; }
+          },
+        }, "Effacer l'historique")
+      )
+    )
+  );
+}
+
+// ---------- Mise à jour ----------
+
+let inscription = null;
+let majDemandee = false;
+
+// Bandeau discret : l'élève choisit le moment (la nouvelle version s'installe
+// aussi d'elle-même à la prochaine ouverture de l'appli, une fois fermée)
+function proposerMaj(sw) {
+  document.querySelector(".maj")?.remove();
+  const bandeau = h("div", { class: "maj", role: "status" },
+    h("span", {}, "✨ Une nouvelle version de Révisio est disponible."),
+    h("span", { class: "maj-btns" },
+      h("button", { class: "btn petit", onclick: () => bandeau.remove() }, "Plus tard"),
+      h("button", {
+        class: "btn plein petit",
+        onclick: (ev) => {
+          ev.currentTarget.disabled = true;
+          ev.currentTarget.textContent = "Mise à jour…";
+          majDemandee = true;
+          sw.postMessage("mettre-a-jour");
+        },
+      }, "Mettre à jour")
+    )
+  );
+  document.body.append(bandeau);
 }
 
 function vueNouveauProfil() {
@@ -530,7 +734,9 @@ function vueModifierProfil(id) {
 function router() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
   const [r, a, b, c] = parts;
-  if (!S.profilActif() && r !== "profils") return vueProfils();
+  if (r !== "parents") parentOuvert = false;
+  if (!S.profilActif() && r !== "profils" && r !== "apropos") return vueProfils();
+  S.noterActivite();
   switch (r) {
     case undefined: return vueAccueil();
     case "profils": return vueProfils();
@@ -540,6 +746,8 @@ function router() {
     case "c": return vueChapitre(a, b, ["cours", "exercices", "revoir", "ia"].includes(c) ? c : "cours");
     case "revoir": return vueRevoir();
     case "reglages": return vueReglages();
+    case "apropos": return vueAPropos();
+    case "parents": return vueParents();
     default: return vueAccueil();
   }
 }
@@ -547,6 +755,25 @@ function router() {
 window.addEventListener("hashchange", router);
 router();
 
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState !== "visible") return;
+  S.noterActivite();
+  inscription?.update().catch(() => {});
+});
+
 if ("serviceWorker" in navigator && location.protocol === "https:") {
-  navigator.serviceWorker.register("./sw.js").catch(() => {});
+  navigator.serviceWorker.register("./sw.js").then((reg) => {
+    inscription = reg;
+    // Nouvelle version déjà téléchargée lors d'une ouverture précédente
+    if (reg.waiting && navigator.serviceWorker.controller) proposerMaj(reg.waiting);
+    reg.addEventListener("updatefound", () => {
+      const sw = reg.installing;
+      sw?.addEventListener("statechange", () => {
+        if (sw.state === "installed" && navigator.serviceWorker.controller) proposerMaj(sw);
+      });
+    });
+  }).catch(() => {});
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (majDemandee) location.reload();
+  });
 }

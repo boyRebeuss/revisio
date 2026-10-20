@@ -1,13 +1,37 @@
-// Réseau d'abord (contenu toujours à jour), cache en secours hors connexion.
-const CACHE = "revisio-v6";
+// Cache d'abord : l'appli reste dans la version installée jusqu'à ce que l'élève accepte
+// la mise à jour (bandeau « Nouvelle version »). VERSION est écrit par tools/version.sh.
+const VERSION = "08db9bbb";
+const CACHE = "revisio-" + VERSION;
 const SOCLE = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
-  "js/app.js", "js/dom.js", "js/famille.js", "js/cle-famille.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js", "js/correcteur.js",
+  "js/app.js", "js/dom.js", "js/famille.js", "js/cle-famille.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js", "js/correcteur.js", "js/version.js",
   "content/catalogue.js", "icons/icon.svg", "icons/icon-192.png",
 ];
 
+const telecharger = (url) => fetch(url, { cache: "no-cache" }).then((r) => {
+  if (!r.ok) throw new Error(url);
+  return r;
+});
+
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SOCLE)).then(() => self.skipWaiting()));
+  e.waitUntil((async () => {
+    const c = await caches.open(CACHE);
+    await Promise.all(SOCLE.map(async (u) => c.put(u, await telecharger(u))));
+    // Les matières déjà ouvertes restent disponibles hors connexion après la mise à jour
+    const deja = new Set();
+    for (const n of await caches.keys()) {
+      if (n === CACHE) continue;
+      for (const r of await (await caches.open(n)).keys()) if (r.url.includes("/content/")) deja.add(r.url);
+    }
+    await Promise.allSettled([...deja].map(async (u) => c.put(u, await telecharger(u))));
+    // Passage depuis l'ancien fonctionnement (revisio-v6, sans bandeau) : installation directe
+    if (await caches.has("revisio-v6")) await self.skipWaiting();
+  })());
+});
+
+// L'appli demande l'installation de la nouvelle version quand l'élève clique « Mettre à jour »
+self.addEventListener("message", (e) => {
+  if (e.data === "mettre-a-jour") self.skipWaiting();
 });
 
 self.addEventListener("activate", (e) => {
@@ -21,15 +45,16 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  e.respondWith(
-    fetch(e.request, { cache: "no-cache" })
-      .then((r) => {
-        if (r.ok) {
-          const copie = r.clone();
-          caches.open(CACHE).then((c) => c.put(e.request, copie));
-        }
-        return r;
-      })
-      .catch(() => caches.match(e.request, { ignoreSearch: true }).then((r) => r || caches.match("index.html")))
-  );
+  e.respondWith((async () => {
+    const c = await caches.open(CACHE);
+    const r = await c.match(e.request, { ignoreSearch: true });
+    if (r) return r;
+    try {
+      const n = await telecharger(e.request);
+      c.put(e.request, n.clone());
+      return n;
+    } catch {
+      return (e.request.mode === "navigate" && (await c.match("index.html"))) || Response.error();
+    }
+  })());
 });

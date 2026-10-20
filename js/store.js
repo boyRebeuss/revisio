@@ -28,6 +28,12 @@ export function choisirProfil(id) {
   ecrire("actif", id);
 }
 
+// Même prénom (sans tenir compte des majuscules ni des accents) et même classe
+export function profilExistant(prenom, niveau, sauf) {
+  const n = (x) => x.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+  return profils().find((p) => p.id !== sauf && p.niveau === niveau && n(p.prenom) === n(prenom)) || null;
+}
+
 export function ajouterProfil(prenom, niveau, avatar, activer = true) {
   const p = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), prenom, niveau, avatar };
   ecrire("profils", [...profils(), p]);
@@ -75,6 +81,7 @@ export function marquerVu(profilId, cle, titre) {
 }
 
 export function noterExercice(profilId, cle, titre, n, ok) {
+  noterActivite(true);
   majChapitre(profilId, cle, (c) => ({ ...c, titre, ex: { ...c.ex, [n]: { ok, d: Date.now() } } }));
 }
 
@@ -89,6 +96,56 @@ export function resumeChapitre(prog, cle, total) {
     total,
   };
 }
+
+// Historique des connexions (visible seulement dans l'espace parents) :
+// [{ p: id, n: prénom, a: avatar, d: début, f: dernière activité, x: exercices faits }]
+// Une connexion se termine après 30 min sans activité ou au changement d'élève.
+const PAUSE = 30 * 60 * 1000;
+
+export function noterActivite(exercice = false) {
+  const p = profilActif();
+  if (!p) return;
+  const t = Date.now();
+  const hist = lire("historique", []);
+  let der = hist[hist.length - 1];
+  if (!der || der.p !== p.id || t - der.f > PAUSE) {
+    der = { p: p.id, n: p.prenom, a: p.avatar, d: t, f: t, x: 0 };
+    hist.push(der);
+  }
+  der.f = t;
+  if (exercice) der.x = (der.x || 0) + 1;
+  ecrire("historique", hist.slice(-1000));
+}
+
+export const historique = () => lire("historique", []);
+
+export function effacerHistorique(motif) {
+  ecrire("historique", motif ? [{ efface: motif, d: Date.now() }] : []);
+}
+
+// Code parent : seule une empreinte (PBKDF2) est enregistrée
+async function empreinte(code, sel) {
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(code.trim()), "PBKDF2", false, ["deriveBits"]);
+  const bits = await crypto.subtle.deriveBits({ name: "PBKDF2", hash: "SHA-256", salt: new TextEncoder().encode(sel), iterations: 200000 }, base, 256);
+  return btoa(String.fromCharCode(...new Uint8Array(bits)));
+}
+
+export const parents = {
+  aUnCode: () => !!lire("codeParent", null),
+  async definir(code) {
+    const sel = crypto.getRandomValues(new Uint32Array(4)).join("-");
+    ecrire("codeParent", { sel, e: await empreinte(code, sel) });
+  },
+  async verifier(code) {
+    const c = lire("codeParent", null);
+    return !!c && (await empreinte(code, c.sel)) === c.e;
+  },
+  // Code oublié : l'historique est effacé avec le code (une trace de l'effacement reste)
+  oublier() {
+    localStorage.removeItem(P + "codeParent");
+    effacerHistorique("code parent oublié");
+  },
+};
 
 // Réglages communs à l'appareil
 export const reglages = {

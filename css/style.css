@@ -226,3 +226,18 @@ pre.code { background: #1e2330; color: #e8ebf2; border-radius: 10px; padding: 12
 
 /* Grec ancien : polices avec esprits et accents bien dessinés */
 .grc { font-family: "Gentium Plus", "GFS Didot", Palatino, "Palatino Linotype", "Times New Roman", "Noto Serif", serif; font-size: 1.08em; }
+
+/* Bandeau « Nouvelle version » */
+.maj {
+  position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 20;
+  max-width: 640px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between;
+  background: var(--carte); border: 1px solid var(--bord); border-left: 5px solid var(--primaire); border-radius: var(--rayon);
+  padding: 12px 14px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+}
+.maj-btns { display: flex; gap: 8px; margin-left: auto; }
+
+/* À propos, espace parents */
+.lien-carte { text-decoration: none; color: var(--texte); font-weight: 600; }
+.jour h3 { font-size: 0.95rem; margin: 16px 0 8px; }
+.jour h3::first-letter { text-transform: uppercase; }
+.actions-parents { display: flex; flex-wrap: wrap; gap: 8px; }
