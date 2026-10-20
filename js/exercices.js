@@ -37,7 +37,8 @@ const LIBELLES = { qcm: "QCM", vf: "Vrai ou faux", saisie: "Réponse courte", re
 
 // ctx : { niveau, matiere } pour la correction par l'IA.
 // precedent : { ok } si l'exercice a déjà été fait.
-export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
+// support : texte commun à une série d'exercices (champ `texte`), ouvert ou replié.
+export function carteExercice(e, numero, { ctx, precedent, onResultat, support, supportOuvert = false }) {
   const retour = h("div", { class: "retour", "aria-live": "polite" });
   const carte = h("article", { class: "exo" + (precedent ? (precedent.ok ? " deja-ok" : " deja-ko") : "") },
     h("div", { class: "exo-tete" },
@@ -45,6 +46,10 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat }) {
       h("span", { class: "exo-type" }, LIBELLES[e.type] || ""),
       precedent ? h("span", { class: "exo-etat" }, precedent.ok ? "✓ réussi" : "✗ à revoir") : null
     ),
+    support ? h("details", { class: "support", open: supportOuvert },
+      h("summary", {}, supportOuvert ? "📄 Le texte" : "📄 Relire le texte"),
+      h("div", { html: bloc(support) })
+    ) : null,
     h("div", { class: "exo-question", html: bloc(e.question) })
   );
 

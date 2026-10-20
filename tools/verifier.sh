@@ -4,7 +4,7 @@ set -u
 cd "${0:A:h}/.."
 JSC=/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Helpers/jsc
 files=("$@")
-(( ${#files} )) || files=(content/5e/*.js(N) content/1ere/*.js(N))
+(( ${#files} )) || files=(content/*/*.js(N))
 tmp=$(mktemp -d)
 total=0
 for f in $files; do

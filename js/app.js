@@ -5,7 +5,7 @@ import * as S from "./store.js";
 import * as IA from "./gemini.js";
 import { carteExercice, exerciceValide } from "./exercices.js";
 import * as F from "./famille.js";
-import { VERSION } from "./version.js";
+import { VERSION, CHIFFRES } from "./version.js";
 
 const app = document.getElementById("app");
 const contenus = {};
@@ -320,10 +320,14 @@ function zoneExercices({ p, c, cle, ctx, seulementRates, idM, suivant }) {
   majScore();
 
   const indices = c.exercices.map((_, i) => i).filter((i) => !seulementRates || (ex[i] && !ex[i].ok));
+  // Texte commun à une série : déplié à sa première apparition, replié ensuite
+  const textesVus = new Set();
   const liste = h("div", { class: "exos" },
     indices.map((i) =>
       carteExercice(c.exercices[i], i + 1, {
         ctx,
+        support: c.textes?.[c.exercices[i].texte],
+        supportOuvert: !textesVus.has(c.exercices[i].texte) && !!textesVus.add(c.exercices[i].texte),
         precedent: ex[i],
         onResultat: (ok) => { S.noterExercice(p.id, cle, c.titre, i, ok); majScore(); },
       })
@@ -552,7 +556,7 @@ function vueAPropos() {
     h("main", {},
       h("section", { class: "carte" },
         h("h2", {}, "🎓 Révisio"),
-        h("p", {}, `Cours et exercices corrigés pour réviser la 5e et la 1re générale : ${nb} matières, environ 320 chapitres et 3 000 exercices.`),
+        h("p", {}, `Cours et exercices corrigés pour réviser la 6e, la 5e, la 3e et la 1re générale : ${nb} matières, environ ${CHIFFRES.chapitres} chapitres et ${CHIFFRES.exercices} exercices.`),
         h("p", {}, "Les contenus suivent les programmes officiels en vigueur à la rentrée 2026. Ils ont été rédigés et relus avec l'aide d'une IA : en cas de doute, la parole du professeur prime."),
         h("p", {}, `Version du ${VERSION.date} (${VERSION.empreinte})`),
         h("button", { class: "btn", onclick: verifier }, "Rechercher une mise à jour"),

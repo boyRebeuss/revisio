@@ -15,11 +15,13 @@ function verifier(nom, data) {
     if (!txt(c.titre)) err.push(ou + " : titre manquant");
     if (!txt(c.cours) || c.cours.length < 300) err.push(ou + " : cours trop court");
     if (/<[a-z\/]/i.test(c.cours || "")) err.push(ou + " : HTML interdit dans le cours");
+    for (const [k, t] of Object.entries(c.textes || {})) if (!txt(t) || /<[a-z\/]/i.test(t)) err.push(ou + " : texte commun « " + k + " » vide ou avec du HTML");
     if (!Array.isArray(c.exercices) || c.exercices.length < 4) err.push(ou + " : moins de 4 exercices");
     for (const [j, e] of (c.exercices || []).entries()) {
       nEx++;
       const o = ou + " ex " + (j + 1);
       if (!txt(e.question)) err.push(o + " : question manquante");
+      if (e.texte != null && !txt(c.textes?.[e.texte])) err.push(o + " : texte commun « " + e.texte + " » absent de textes");
       switch (e.type) {
         case "qcm":
           if (!Array.isArray(e.choix) || e.choix.length < 2 || !e.choix.every(txt)) err.push(o + " : choix invalides");

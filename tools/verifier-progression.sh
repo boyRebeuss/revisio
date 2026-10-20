@@ -5,7 +5,7 @@ set -u
 cd "${0:A:h}/.."
 JSC=/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Helpers/jsc
 tmp=$(mktemp -d); ko=0
-for f in content/5e/*.js(N) content/1ere/*.js(N); do
+for f in content/*/*.js(N); do
   git cat-file -e "HEAD:$f" 2>/dev/null || { print "$f : nouveau fichier"; continue; }
   git show "HEAD:$f" > "$tmp/avant.mjs"
   cat > "$tmp/t.mjs" <<JS

@@ -1,6 +1,6 @@
 # Format des fichiers de contenu
 
-Un fichier par matière : `content/<niveau>/<id>.js` (`<niveau>` = `5e` ou `1ere`,
+Un fichier par matière : `content/<niveau>/<id>.js` (`<niveau>` = `6e`, `5e`, `3e` ou `1ere`,
 `<id>` = identifiant de `content/catalogue.js`). C'est un module ES qui exporte
 un objet par défaut, sans import ni code exécutable :
 
@@ -55,6 +55,31 @@ Pas de HTML, pas de LaTeX, pas de liens, pas d'images. Écrire les maths en
 Unicode : x², x³, √, π, ≤, ≥, ≠, ×, ÷, −, ½, →, ∈, ∞, Δ, uₙ, f′(x).
 Les fractions s'écrivent `3/4` ou `(x + 1)/(x − 2)`.
 
+## Texte commun à une série d'exercices
+
+Pour une compréhension de texte (ou un document) sur laquelle portent plusieurs exercices,
+écrire le texte une seule fois dans le champ `textes` du chapitre, et le citer dans chaque
+exercice concerné avec `texte`. L'appli l'affiche au-dessus de la question : déplié au premier
+exercice de la série, repliable ensuite (« Relire le texte »), et toujours présent dans
+l'onglet « À revoir », même si l'exercice y apparaît seul.
+
+```js
+{
+  id: "reading-part-3", titre: "…", theme: "…", cours: `…`,
+  textes: {
+    ines: `**My first job** — by Inès, 15
+
+I started working at my uncle's café last summer…`,
+  },
+  exercices: [
+    { type: "qcm", texte: "ines", question: "Why did Inès…?", choix: […], reponse: 1, explication: "…" },
+    { type: "vf", texte: "ines", question: "Inès…", reponse: false, explication: "…" },
+  ],
+}
+```
+
+Le champ `texte` peut être ajouté à un exercice existant (cela ne change pas sa position).
+
 ## Types d'exercices
 
 Tous les champs texte acceptent la mise en forme en ligne (`**gras**`, `*italique*`).
@@ -81,8 +106,8 @@ syntaxe complète du cours (listes, encadrés).
 
 ## Exigences de qualité
 
-- Conforme au programme officiel de l'Éducation nationale en vigueur (cycle 4
-  pour la 5e ; programmes du lycée général pour la 1re).
+- Conforme au programme officiel de l'Éducation nationale en vigueur (cycle 3
+  pour la 6e, cycle 4 pour la 5e et la 3e ; programmes du lycée général pour la 1re).
 - Couvrir **tout** le programme de l'année : en général 8 à 15 chapitres.
 - Chaque cours : définitions, propriétés, méthodes, exemples résolus,
   encadré « À retenir » ; ton clair, adressé à l'élève (« tu »).
