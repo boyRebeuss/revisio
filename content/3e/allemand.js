@@ -1223,5 +1223,179 @@ Quelques adjectifs pour décrire : *alt / neu, groß / klein, lang / kurz, schö
         { type: "redaction", question: "**Niveau fin de 3e.** Tu pars en échange en Allemagne. Écris un message (6 à 8 phrases) à ton correspondant pour te décrire, afin qu'il te reconnaisse à la gare : ton physique, tes vêtements, ton sac. Emploie au moins six adjectifs épithètes, avec *der/die/das*, avec *ein/eine* et au datif (*mit…*).", corrige: "**Modèle :**\n\n*Hallo Jonas,\nich komme am Freitag um 16 Uhr mit dem Zug an. Damit du mich erkennst: Ich bin ziemlich groß und habe kurze, braune Haare. Ich trage eine blaue Jacke und eine schwarze Hose. Ich habe einen großen, grünen Rucksack und eine kleine Tasche. Auf dem Kopf habe ich eine rote Mütze. Ich warte mit meiner besten Freundin Inès am Gleis 5. Sie hat lange, blonde Haare und trägt ein gestreiftes Kleid.\nBis Freitag!\nNoah*\n\nPoints à vérifier :\n- sans article, pluriel (*die Haare*) : *kurze, braune Haare, lange, blonde Haare* ;\n- *eine blaue Jacke, eine schwarze Hose, eine kleine Tasche, eine rote Mütze* (féminin : -e) ;\n- *einen großen, grünen Rucksack* (accusatif masculin : -en) ; *ein gestreiftes Kleid* (neutre : -es) ;\n- datif : *mit meiner besten Freundin* (-en) ;\n- attribut sans terminaison : *Ich bin groß* ; *damit* (= pour que, afin que) est une conjonction de subordination : verbe à la fin (*damit du mich erkennst*)." },
       ],
     },
+    {
+      id: "da-wo-prepositions",
+      titre: "Darauf ? Worauf ? Les verbes à préposition avec da- et wo-",
+      theme: "Outils de la langue",
+      cours: `
+## Des verbes qui vont avec une préposition
+Beaucoup de verbes allemands s'emploient avec une **préposition fixe**, qu'il faut apprendre avec le verbe (comme « penser **à** », « rêver **de** » en français). Tu en connais déjà : *sich freuen auf, sich interessieren für, stolz sein auf*.
+
+| Verbe + préposition | Cas | Sens | Exemple |
+|---|---|---|---|
+| warten **auf** | acc. | attendre | *Ich warte auf den Bus.* |
+| sich freuen **auf** / **über** | acc. | attendre avec impatience / être content de | *Ich freue mich auf die Ferien.* |
+| denken **an** | acc. | penser à | *Ich denke oft an meine Oma.* |
+| sich erinnern **an** | acc. | se souvenir de | *Ich erinnere mich an den Urlaub.* |
+| sich interessieren **für** | acc. | s'intéresser à | *Er interessiert sich für Politik.* |
+| sprechen **über** / **von** | acc. / dat. | parler de | *Wir sprechen über den Film.* |
+| träumen **von** | dat. | rêver de | *Sie träumt von einer Reise.* |
+| Angst haben **vor** | dat. | avoir peur de | *Ich habe Angst vor der Prüfung.* |
+| sich kümmern **um** | acc. | s'occuper de | *Er kümmert sich um seinen Hund.* |
+| teilnehmen **an** | dat. | participer à | *Wir nehmen an einem Wettbewerb teil.* |
+| stolz sein **auf** | acc. | être fier de | *Ich bin stolz auf meine Note.* |
+| zufrieden sein **mit** | dat. | être content de | *Bist du mit deinem Handy zufrieden?* |
+
+## Remplacer une CHOSE : da- + préposition
+Pour ne pas répéter une chose (ou une idée), on ne dit pas « auf es » : on colle **da-** devant la préposition.
+- *Ich warte auf den Bus.* → *Ich warte **darauf**.* (Je l'attends.)
+- *Interessierst du dich für Fußball? – Ja, ich interessiere mich **dafür**.*
+- *Sie träumt von einer Reise. – Sie träumt **davon**.*
+
+Si la préposition commence par une **voyelle**, on ajoute un **-r-** pour pouvoir prononcer : **dar**auf, **dar**an, **dar**über, **dar**um, **dar**in. Sinon : **da**für, **da**von, **da**mit, **da**vor, **da**bei, **da**nach, **da**zu.
+
+Tu as déjà rencontré ces mots : *Ich bin **dafür** / **dagegen**.* (Je suis pour / contre.) – *Ich freue mich **darauf**!* – ***Darauf** bin ich stolz.*
+
+## Remplacer une PERSONNE : préposition + pronom
+Pour une **personne** (et souvent pour un animal), on garde la préposition et on met le **pronom personnel** au bon cas :
+- *Ich warte auf **meinen Freund**.* → *Ich warte **auf ihn**.* (et non *darauf*)
+- *Ich denke oft an **meine Oma**.* → *Ich denke oft **an sie**.*
+- *Ich spreche mit **meinem Lehrer**.* → *Ich spreche **mit ihm**.*
+
+## Poser la question : wo- + préposition
+- Pour une **chose** : **wo-** (ou **wor-** devant une voyelle) + préposition : *Worauf wartest du? – Auf den Bus.* – *Wofür interessierst du dich?* – *Wovon träumst du?* – *Woran denkst du?* – *Worüber sprecht ihr?* – *Womit fährst du? – Mit dem Rad.*
+- Pour une **personne** : **préposition + wen** (accusatif) ou **wem** (datif) : *Auf wen wartest du? – Auf Paul.* – *An wen denkst du?* – *Mit wem sprichst du? – Mit meiner Mutter.*
+
+À l'oral, on entend parfois *Auf was wartest du?* : c'est familier. À l'écrit, emploie *Worauf…?*
+
+>! **Méthode en 3 étapes** : réponds sans répéter le nom.
+>! 1. Repère la préposition du verbe : *Hast du Angst **vor** der Prüfung?* → *Angst haben vor* (+ datif).
+>! 2. Chose ou personne ? *die Prüfung* (l'examen) est une **chose** → **da-** ; *dein Lehrer* serait une personne.
+>! 3. Chose → ***davor*** : *Ja, ich habe Angst davor.* Personne (*Hast du Angst vor deinem Lehrer?*) → préposition + pronom : *Nein, ich habe keine Angst **vor ihm**.*
+
+## da- qui annonce la suite de la phrase
+Souvent, *darauf, daran, davon…* annoncent une subordonnée (*dass…*) ou un infinitif avec *zu*, placés après une virgule :
+- *Ich freue mich **darauf**, **dass** du kommst.* / *Ich freue mich **darauf**, dich bald **zu sehen**.*
+- *Ich habe Angst **davor**, allein **zu reisen**.*
+- *Denk **daran**, das Licht **auszumachen**!* (Pense à éteindre la lumière !)
+- *Ich interessiere mich **dafür**, wie ein Motor funktioniert.*
+
+>! **Attention à damit** : *damit* peut être « avec ça » (*Ich schreibe **damit**.* = J'écris avec ça) ; mais c'est aussi une **conjonction** « pour que », avec le verbe à la fin : *Ich spreche langsam, **damit** du mich **verstehst**.*
+
+> **À retenir** : verbe + préposition fixe (*warten auf, denken an, träumen von, Angst haben vor…*) à apprendre ensemble. **Chose** : *da(r)-* + préposition (*darauf, daran, dafür, davon, davor, darüber*) ; question *wo(r)-* + préposition (*worauf, woran, wofür, wovon*). **Personne** : préposition + pronom (*auf ihn, an sie, mit ihm*) ; question préposition + *wen / wem* (*auf wen, mit wem*). Un **-r-** devant une voyelle.
+
+### Erreurs fréquentes
+- *Ich warte auf es* → *Ich warte **darauf***.
+- *Ich denke daran* pour parler de ta grand-mère → *Ich denke **an sie***.
+- *daauf, woüber* → **darauf**, **worüber** (le *-r-* devant une voyelle).
+- *dafur* → **dafür** : n'oublie pas le tréma (au clavier, tu peux écrire *dafuer*).
+- *Wo wartest du auf?* → ***Worauf** wartest du?* (on ne sépare pas *wo* et la préposition).
+- *Für was interessierst du dich?* (familier) → ***Wofür** interessierst du dich?*
+`,
+      exercices: [
+        { type: "qcm", question: "Remplace le groupe souligné sans le répéter : « Ich warte auf **den Bus**. »", choix: ["Ich warte auf es.", "Ich warte darauf.", "Ich warte daauf.", "Ich warte worauf."], reponse: 1, explication: "*der Bus* est une **chose** : on remplace *auf + nom* par **da(r)- + préposition**. *auf* commence par une voyelle → on ajoute **-r-** : ***darauf***. *worauf* sert à poser la question (*Worauf wartest du?*)." },
+        { type: "saisie", question: "Complète en un mot : « Interessierst du dich für Politik? – Nein, ich interessiere mich nicht ___. »", reponses: ["dafür"], explication: "*sich interessieren **für*** ; *Politik* est une chose → **da** + *für* = ***dafür*** (pas de *-r-* : *für* commence par une consonne)." },
+        { type: "qcm", question: "Quelle question correspond à la réponse « *Ich denke an die Ferien.* » ?", choix: ["An wen denkst du?", "Woan denkst du?", "Woran denkst du?", "Was denkst du an?"], reponse: 2, explication: "*denken **an*** ; *die Ferien* sont une chose → **wo(r)-** + préposition : *an* commence par une voyelle → ***Woran** denkst du?* *An wen…?* serait pour une personne (*An wen denkst du? – An meine Oma.*)." },
+        { type: "vf", question: "Pour remplacer une personne, on emploie aussi *da-* + préposition : *Ich warte auf Paul.* → *Ich warte darauf.*", reponse: false, explication: "Pour une **personne**, on garde la préposition et on met un **pronom** : *Ich warte **auf ihn**.* *darauf* ne remplace qu'une chose ou une idée (*Ich warte auf den Bus → darauf*)." },
+        { type: "saisie", question: "Remplace le groupe en gras par un pronom : « Ich bin stolz auf **meinen Bruder**. » → « Ich bin stolz ___. »", reponses: ["auf ihn", "stolz auf ihn", "Ich bin stolz auf ihn."], explication: "*mein Bruder* est une **personne** : préposition + pronom. *stolz sein auf* + **accusatif** ; masculin → ***auf ihn***. Pour une chose (*auf meine Note*), on dirait *darauf*." },
+        { type: "saisie", question: "Complète la question (deux mots) : « ___ sprichst du? – Mit meiner Mutter. »", reponses: ["Mit wem", "Mit wem sprichst du?"], explication: "La réponse est une **personne** : on pose la question avec la **préposition + wem** (*mit* + datif) : ***Mit wem** sprichst du?* Pour une chose : *Womit schreibst du? – Mit einem Bleistift.*" },
+        { type: "qcm", question: "Complète : « Ich habe Angst ___, allein mit dem Zug zu reisen. »", choix: ["davor", "vor", "darvor", "wovor"], reponse: 0, explication: "*Angst haben **vor*** ; ce qui fait peur est une idée (*allein … zu reisen*), annoncée par ***davor*** : *Ich habe Angst davor, allein … zu reisen.* *vor* commence par une consonne : pas de *-r-*. *wovor* sert à poser une question." },
+        { type: "saisie", question: "Complète avec le mot interrogatif (un seul mot) : « ___ träumst du? – Von einer Reise nach Kanada. »", reponses: ["Wovon", "Wovon träumst du?"], explication: "*träumen **von*** ; la réponse est une chose (*eine Reise*) → **wo** + *von* = ***Wovon** träumst du?* *Von was…?* est familier." },
+        { type: "qcm", question: "**Compréhension.** « *– Hast du an das Geschenk für Mama gedacht? – Oh nein, daran habe ich nicht gedacht! – Kein Problem, ich kümmere mich darum.* » Que comprends-tu ?", choix: ["Les deux ont déjà acheté le cadeau ensemble.", "Maman a oublié le cadeau.", "Personne ne va s'occuper du cadeau.", "La deuxième personne avait oublié le cadeau ; la première va s'en occuper."], reponse: 3, explication: "***daran** habe ich nicht gedacht* = je n'y ai pas pensé (*denken an* → *daran* = au cadeau). ***ich kümmere mich darum*** = je m'en occupe (*sich kümmern um* → *darum*)." },
+        { type: "redaction", question: "**Niveau fin de 3e.** Ton correspondant t'écrit : *Wofür interessierst du dich? Wovon träumst du? Worauf freust du dich? Wovor hast du Angst?* Réponds-lui en 7 à 9 phrases. Emploie au moins quatre verbes à préposition, deux mots en *da(r)-* (dont un qui annonce *zu* + infinitif) et une préposition + pronom pour parler d'une personne.", corrige: "**Modèle :**\n\n*Lieber Jonas,\ndu fragst mich, wofür ich mich interessiere. Ich interessiere mich vor allem für Musik und Fotografie. Mein Bruder Lucas spielt Gitarre in einer Band, und ich bin sehr stolz auf ihn. Ich träume davon, einmal nach Berlin zu fahren und dort ein Konzert zu sehen. Jetzt freue ich mich auf die Sommerferien, denn wir fahren ans Meer. Ich freue mich auch darauf, dich im Mai zu sehen! Nur vor einer Sache habe ich Angst: vor der Prüfung im Juni. Aber ich denke lieber nicht daran! Und du, wovon träumst du?\nViele Grüße\nLéa*\n\nPoints à vérifier :\n- verbes à préposition : *sich interessieren für, stolz sein auf, träumen von, sich freuen auf, Angst haben vor, denken an* ;\n- *da(r)-* pour une chose ou une idée : *davon, darauf, daran* ; *davon / darauf* annoncent **zu + infinitif** à la fin (*…, einmal nach Berlin zu fahren*) ;\n- personne : *stolz auf **ihn*** (pas *darauf*) ;\n- question indirecte avec le verbe à la fin : *wofür ich mich interessiere* ; question directe *Wovon träumst du?*" },
+      ],
+    },
+    {
+      id: "comprehension-textes-longs",
+      titre: "Comprendre un texte long : lire, répondre, justifier",
+      theme: "Les langages",
+      cours: `
+## Un texte long ne demande pas de tout comprendre
+En fin de 3e, on te donne parfois un texte de 200 à 350 mots (blog, récit, article). Tu ne connaîtras pas tous les mots, et ce n'est pas grave : on te demande de comprendre **l'essentiel** et de trouver des **informations précises**, puis de **prouver** ce que tu dis avec le texte.
+
+## Avant de lire
+1. **Observe** le titre, l'auteur, la forme : un blog à la 1re personne (*ich*), un récit à la 3e personne au prétérit (*sie fuhr, er sagte*), un article ?
+2. **Lis les questions d'abord** : elles te disent quoi chercher, et elles suivent en général l'ordre du texte.
+
+## Pendant la lecture
+3. **Première lecture rapide** : réponds aux questions W (*Wer? Wo? Wann? Was?*). Qui sont les personnages ? Où, quand se passe l'histoire ?
+4. **Paragraphe par paragraphe** : chaque paragraphe a souvent **une idée**. Note-la en français dans la marge, en quelques mots.
+5. **Un mot inconnu ? Ne bloque pas.** Aide-toi du contexte, des mots transparents (*das Experiment, nervös, die Information*), des mots composés (*die Stadt·bibliothek* = la bibliothèque de la ville) et des familles de mots (*fahren → die Fahrt, der Fahrer*).
+
+Les mots qui structurent un récit t'aident à suivre l'histoire :
+
+| Mot | Sens | Mot | Sens |
+|---|---|---|---|
+| am Anfang | au début | plötzlich | soudain |
+| zuerst | d'abord | zum Glück | heureusement |
+| dann / danach | ensuite / après | leider | malheureusement |
+| später | plus tard | am Ende / schließlich | à la fin / finalement |
+
+## Répondre aux questions
+6. **Explicite ou implicite ?** Certaines réponses sont écrites telles quelles dans le texte. D'autres sont à **déduire** : un sentiment, une intention, une plaisanterie (*Wie im letzten Jahrhundert!*).
+7. **Justifie** : cite **les quelques mots allemands précis** qui prouvent ta réponse, entre guillemets, puis explique-les en français. Ne recopie pas tout un paragraphe.
+8. **Méfie-toi des pièges** :
+- les négations : *nicht, kein, nie* (jamais), ***nicht mehr*** (ne… plus), ***noch nicht*** (pas encore) ;
+- le temps : est-ce passé (*war, hat gemacht*), présent ou futur (*werde, nächste Woche*) ?
+- qui parle : l'avis d'un personnage n'est pas forcément celui de l'auteur ;
+- les nombres et les dates.
+
+>! **Exemple résolu** : « *Am Anfang fand Tom das Internat schrecklich. Er vermisste seine Eltern und konnte nachts nicht schlafen. Heute möchte er nicht mehr nach Hause.* »
+>! Question : Tom est-il toujours malheureux à l'internat ? Justifie.
+>! 1. Repère l'opposition de temps : *Am Anfang* (au début) ↔ *Heute* (aujourd'hui).
+>! 2. Attention à ***nicht mehr*** : *Heute möchte er nicht mehr nach Hause* = aujourd'hui, il ne veut **plus** rentrer chez lui.
+>! 3. Réponse : **Non.** Au début, il trouvait l'internat « *schrecklich* » (horrible) et il ne dormait pas, mais aujourd'hui « *möchte er nicht mehr nach Hause* » : il s'y sent bien.
+
+> **À retenir** : lis les questions avant le texte ; une idée par paragraphe ; ne bloque pas sur un mot inconnu (contexte, mots transparents, composés). Distingue ce qui est **écrit** et ce qui est **à déduire**. Toujours **justifier** avec une courte citation allemande expliquée en français. Pièges : *nicht mehr, noch nicht, nie*, les temps, qui parle.
+
+### Erreurs fréquentes
+- Vouloir traduire tout le texte mot à mot : tu perds du temps.
+- Répondre sans preuve, ou recopier tout un paragraphe au lieu de la phrase utile.
+- Confondre *nicht mehr* (ne… plus) et *noch nicht* (pas encore).
+- Prendre une phrase dite par un personnage (*Aylin hat gesagt, dass…*) pour une vérité de l'histoire.
+`,
+      textes: {
+        lea: `**Vier Wochen ohne Handy – ein Experiment**
+Blog von Lea, 15, Hamburg (texte d'entraînement)
+
+*Im März hat unsere Klassenlehrerin Frau Yilmaz uns eine verrückte Frage gestellt: „Wer schafft es, vier Wochen ohne Smartphone zu leben?“ Zuerst haben alle gelacht. Am Ende haben acht von 26 Schülern mitgemacht, und ich war dabei.*
+
+*Die erste Woche war furchtbar. Morgens habe ich automatisch nach meinem Handy gesucht, obwohl es in einer Schublade bei meinen Eltern lag. Ich hatte Angst, dass ich wichtige Nachrichten verpasse. Und ohne mein Handy wusste ich nicht einmal, wann der Bus kommt! Deshalb habe ich mir einen Wecker und eine Armbanduhr gekauft.*
+
+*In der zweiten Woche wurde es besser. Plötzlich hatte ich viel mehr Zeit. Ich habe zwei Romane gelesen, was ich seit Jahren nicht mehr gemacht hatte, und ich bin wieder zum Schwimmtraining gegangen. Meine Freundin Aylin hat am Anfang gesagt, dass ich langweilig geworden bin. Aber dann haben wir uns einfach öfter im Park getroffen, statt stundenlang zu chatten.*
+
+*Natürlich gab es auch Probleme. Für ein Referat musste ich Informationen suchen, also bin ich in die Stadtbibliothek gegangen. Und als ich meine Großeltern in Kiel besucht habe, konnte ich meinen Eltern nicht schnell schreiben, dass ich gut angekommen bin. Ich musste von Omas Telefon aus anrufen – wie im letzten Jahrhundert!*
+
+*Nach vier Wochen habe ich mein Handy zurückbekommen. Ich benutze es immer noch, aber anders: Ich habe viele Apps gelöscht, und abends lege ich es um 21 Uhr in die Küche. Ich schlafe besser und bin weniger nervös. Würde ich das Experiment wiederholen? Vielleicht nicht vier Wochen, aber ein handyfreies Wochenende pro Monat – warum nicht?*
+
+Mots utiles : *die Schublade* = le tiroir ; *verpassen* = rater ; *der Wecker* = le réveil ; *das Referat* = l'exposé.`,
+        emma: `**Allein in Dresden**
+Récit (texte d'entraînement)
+
+*Es war Emmas zweite Woche in Leipzig. Die 15-jährige Französin wohnte bei der Familie ihrer Austauschpartnerin Hanna. An einem Samstag fuhren die beiden Mädchen mit dem Zug nach Dresden, um die Frauenkirche zu besichtigen. Die Stadt gefiel Emma sehr, besonders die Altstadt an der Elbe.*
+
+*Am Nachmittag wollte Hanna noch ein Geschenk für ihre Mutter kaufen, die am nächsten Tag Geburtstag hatte. Emma wartete vor dem Kaufhaus, aber in der Menschenmenge verloren sich die beiden Mädchen aus den Augen. Der Akku ihres Handys war leer, deshalb konnte Emma Hanna nicht anrufen. Sie bekam Angst: Sie kannte die Stadt nicht, und es wurde langsam dunkel.*
+
+*Zum Glück dachte sie an den Rat ihrer Gastmutter: „Wenn ihr euch verliert, geht zum Bahnhof und wartet dort.“ Emma fragte eine ältere Frau nach dem Weg. Die Frau sprach langsam und zeigte ihr auf einem Stadtplan, wo der Hauptbahnhof war. „Das sind nur zehn Minuten zu Fuß, immer geradeaus“, sagte sie freundlich.*
+
+*Als Emma am Bahnhof ankam, stand Hanna schon am Gleis. Sie weinte fast. „Ich habe dich überall gesucht!“, rief sie. Die beiden umarmten sich. Im Zug lachten sie über ihr Abenteuer, aber Emma dachte auch: „Heute habe ich mehr Deutsch gesprochen als in drei Jahren Unterricht.“*
+
+*Zu Hause in Leipzig erzählte Hanna ihrer Mutter alles. Die Mutter lächelte und sagte: „Siehst du, Emma, jetzt brauchst du keine Austauschpartnerin mehr. Du kommst schon allein zurecht.“*
+
+Mots utiles : *die Menschenmenge* = la foule ; *sich aus den Augen verlieren* = se perdre de vue ; *der Rat* = le conseil ; *die Gastmutter* = la mère d'accueil.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "lea", question: "Combien d'élèves ont participé à l'expérience ?", choix: ["Toute la classe, soit 26 élèves.", "Huit élèves sur vingt-six.", "Seulement Lea et son amie Aylin.", "Aucun : tout le monde a ri."], reponse: 1, explication: "*Am Ende haben **acht von 26** Schülern mitgemacht* = finalement, huit élèves sur 26 ont participé. Tout le monde a ri **d'abord** (*Zuerst haben alle gelacht*), mais huit ont accepté." },
+        { type: "vf", texte: "lea", question: "Pendant l'expérience, le portable de Lea était rangé dans sa chambre.", reponse: false, explication: "*…, obwohl es in einer **Schublade bei meinen Eltern** lag* = bien qu'il soit dans un tiroir **chez ses parents**. Elle le cherchait quand même chaque matin, par habitude (*automatisch*)." },
+        { type: "saisie", texte: "lea", question: "Depuis l'expérience, à quelle heure Lea pose-t-elle son portable dans la cuisine, le soir ? (en chiffres)", reponses: ["21 Uhr", "21 h", "21", "um 21 Uhr", "21:00", "21.00 Uhr", "um 21.00 Uhr", "21 h 00", "à 21 h 00", "21h00", "à 21h00", "à 21 h", "à 21h", "à 21 heures", "21 Uhr abends", "um 21 Uhr abends", "à 21 heures le soir", "21 heures le soir"], explication: "*abends lege ich es **um 21 Uhr** in die Küche* = le soir, je le pose à 21 heures dans la cuisine. C'est une de ses nouvelles habitudes, avec la suppression de nombreuses applis." },
+        { type: "qcm", texte: "lea", question: "Comment la relation entre Lea et son amie Aylin a-t-elle évolué ?", choix: ["Elles se sont disputées et ne se parlent plus.", "Aylin a fait l'expérience avec elle.", "Elles se voient plus souvent au parc au lieu de chatter pendant des heures.", "Aylin lui a prêté son portable."], reponse: 2, explication: "*Aber dann haben wir uns einfach **öfter im Park getroffen**, statt stundenlang zu chatten* = mais ensuite, nous nous sommes simplement retrouvées plus souvent au parc, au lieu de chatter des heures. Au début, Aylin la trouvait ennuyeuse (*langweilig*) : c'est l'avis d'Aylin, pas la fin de l'histoire." },
+        { type: "redaction", texte: "lea", question: "**Justifier.** Après l'expérience, Lea utilise-t-elle son portable de la même façon qu'avant ? Réponds en français en 3 ou 4 phrases et cite **au moins deux** courts passages du texte comme preuves.", corrige: "**Réponse modèle :**\n\nNon, Lea utilise toujours son portable, mais autrement. Elle le dit elle-même : « *Ich benutze es immer noch, aber anders* » (je l'utilise toujours, mais différemment). Elle a supprimé beaucoup d'applications (« *Ich habe viele Apps gelöscht* ») et, le soir, elle le laisse dans la cuisine à 21 heures (« *abends lege ich es um 21 Uhr in die Küche* »). Elle en voit les effets : « *Ich schlafe besser und bin weniger nervös* ». Elle n'arrête pas complètement, mais elle imagine un week-end sans portable par mois (« *ein handyfreies Wochenende pro Monat* »).\n\nPoints à vérifier :\n- une réponse claire à la question dès la 1re phrase (*non… mais*) ;\n- des citations **courtes et précises**, entre guillemets, expliquées en français ;\n- ne pas confondre ce qu'elle a fait **pendant** l'expérience (bibliothèque, téléphone de sa grand-mère) et ce qu'elle fait **après**." },
+        { type: "qcm", texte: "emma", question: "Pourquoi Emma ne peut-elle pas appeler Hanna ?", choix: ["Parce que la batterie de son portable est vide.", "Parce qu'elle n'a pas le numéro de Hanna.", "Parce que Hanna a éteint son portable.", "Parce que le magasin est trop bruyant."], reponse: 0, explication: "*Der **Akku** ihres Handys war **leer*** = la batterie de son portable était vide ; *deshalb* (c'est pourquoi) elle ne peut pas appeler. *ihres Handys* est un génitif (« de son portable »)." },
+        { type: "vf", texte: "emma", question: "Hanna voulait acheter un cadeau pour sa mère, dont l'anniversaire était le jour même.", reponse: false, explication: "*…, die **am nächsten Tag** Geburtstag hatte* = qui avait son anniversaire **le lendemain**. La relative (*die … hatte*, verbe à la fin) précise *ihre Mutter*." },
+        { type: "saisie", texte: "emma", question: "D'après le conseil de la mère d'accueil, où faut-il aller si l'on se perd ? (en français, ou avec le mot allemand du texte)", reponses: ["à la gare", "la gare", "gare", "à la gare centrale", "la gare centrale", "gare centrale", "à la gare principale", "la gare principale", "zum Bahnhof", "der Bahnhof", "Bahnhof", "zum Hauptbahnhof", "der Hauptbahnhof", "Hauptbahnhof", "aller à la gare", "aller à la gare et attendre", "à la gare et attendre", "aller à la gare et y attendre", "aller à la gare centrale", "il faut aller à la gare", "aller à la gare et attendre là-bas", "à la gare et attendre là-bas", "zum Bahnhof gehen", "zum Bahnhof gehen und dort warten"], explication: "*„Wenn ihr euch verliert, geht **zum Bahnhof** und wartet dort.“* = si vous vous perdez, allez à la gare et attendez là-bas. Emma suit ce conseil et retrouve Hanna sur le quai (*am Gleis*) de la gare centrale (*Hauptbahnhof*)." },
+        { type: "qcm", texte: "emma", question: "À la fin, la mère de Hanna dit en souriant : « *Du kommst schon allein zurecht.* » Que veut-elle dire ?", choix: ["Qu'Emma doit rentrer seule en France.", "Qu'Emma ne doit plus sortir sans Hanna.", "Que Hanna ne veut plus être sa correspondante.", "Qu'Emma sait maintenant se débrouiller seule : c'est un compliment."], reponse: 3, explication: "*zurechtkommen* = se débrouiller ; *allein* = seule. Emma a demandé son chemin et a retrouvé la gare **en parlant allemand** : la mère la félicite, avec humour (*jetzt brauchst du keine Austauschpartnerin mehr* = tu n'as plus besoin de correspondante). Ce sens est **implicite** : il faut le déduire de l'histoire et du sourire (*lächelte*)." },
+        { type: "redaction", texte: "emma", question: "**Niveau fin de 3e.** Tu es Hanna. Le soir, tu écris un message à ta meilleure amie Mia pour lui raconter la journée à Dresde (8 à 10 phrases, au parfait) : ce que vous avez visité, comment vous vous êtes perdues, ce que tu as ressenti, comment vous vous êtes retrouvées, et ce que tu penses d'Emma maintenant.", corrige: "**Modèle :**\n\n*Hallo Mia,\nheute war ein verrückter Tag! Emma und ich sind mit dem Zug nach Dresden gefahren. Zuerst haben wir die Frauenkirche besichtigt, und dann sind wir durch die Altstadt gelaufen. Am Nachmittag wollte ich noch ein Geschenk für Mama kaufen, weil sie morgen Geburtstag hat. Plötzlich war Emma weg! Ich habe sie überall gesucht, aber ich habe sie nicht gefunden. Ich hatte große Angst, denn sie kennt die Stadt nicht. Dann bin ich zum Bahnhof gegangen. Zum Glück ist sie bald auch dort angekommen: Eine nette Frau hat ihr den Weg gezeigt. Ich bin wirklich stolz auf Emma, sie hat ganz allein Deutsch gesprochen!\nBis morgen\nHanna*\n\nPoints à vérifier :\n- parfait avec **sein** pour les déplacements (*sind gefahren, sind gelaufen, bin gegangen, ist angekommen*), avec **haben** pour les autres (*haben besichtigt, habe gesucht, hat gezeigt*) ;\n- prétérit pour *war, hatte, wollte* ;\n- inversion après *Zuerst, Am Nachmittag, Plötzlich, Dann, Zum Glück* ; verbe à la fin après *weil* ;\n- l'histoire est racontée du point de vue de **Hanna** (*ich* = Hanna) et reste fidèle au texte." },
+      ],
+    },
   ],
 };

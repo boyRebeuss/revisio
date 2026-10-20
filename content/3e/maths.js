@@ -1431,7 +1431,30 @@ Dans une configuration de Thalès, les triangles AMN et ABC sont semblables.
 
 **Application classique (ombres)** : un bâton vertical et un arbre, éclairés par le soleil, forment avec leurs ombres deux triangles semblables.
 
+## Prouver que deux triangles sont semblables avec les angles
+La somme des angles d'un triangle vaut 180°. Si deux triangles ont **deux angles respectivement égaux**, leurs troisièmes angles sont donc égaux aussi : **deux angles égaux suffisent pour prouver que deux triangles sont semblables.**
+
+Les sommets qui portent des angles égaux se « correspondent » : on les appelle **sommets homologues**. Les **côtés homologues** sont les côtés opposés à des angles égaux ; ce sont eux qui sont proportionnels.
+
+>! **Exemple** : dans le triangle ABC, l'angle A mesure 50° et l'angle B 70°. Dans le triangle DEF, l'angle D mesure 50° et l'angle F 60°.
+>! Angle C = 180° − 50° − 70° = 60° et angle E = 180° − 50° − 60° = 70°.
+>! Les deux triangles ont les mêmes angles : ils sont **semblables**, avec A ↔ D (50°), B ↔ E (70°), C ↔ F (60°).
+>! Les côtés homologues sont [BC] et [EF] (opposés aux angles de 50°), [AC] et [DF] (opposés à 70°), [AB] et [DE] (opposés à 60°) :
+>! **BC/EF = AC/DF = AB/DE**.
+>! Si AB = 4 cm et DE = 6 cm, le rapport d'agrandissement est 6 ÷ 4 = 1,5 ; avec BC = 6 cm, on obtient EF = 1,5 × 6 = **9 cm**.
+
+Situations où l'on repère facilement des angles égaux :
+- deux triangles **rectangles** qui ont un même angle aigu (ou un angle aigu commun) ;
+- des angles **opposés par le sommet** ;
+- des angles **alternes-internes** ou **correspondants** formés par des droites parallèles.
+
+>! **Méthode** : 1) Justifie deux paires d'angles égaux. 2) Conclus que les triangles sont semblables et écris la correspondance des sommets. 3) Écris l'égalité des rapports des côtés homologues, puis calcule.
+
+C'est très utile quand il n'y a **pas de droites parallèles** : le théorème de Thalès ne s'applique pas, mais les triangles peuvent quand même être semblables.
+
 ## Erreurs fréquentes
+- Associer les côtés « dans l'ordre de l'écriture » des triangles au lieu de chercher les côtés opposés à des angles égaux.
+- Croire qu'un seul angle égal suffit : il en faut **deux**. Pour deux triangles rectangles, l'angle droit compte déjà comme le premier : il suffit alors d'un angle aigu de même mesure.
 - Mélanger les côtés : en haut, toujours les longueurs du **petit** triangle ; en bas, celles du **grand** (ou l'inverse, mais pareil dans les trois rapports).
 - Utiliser Thalès sans avoir des droites **parallèles**.
 - Appliquer la réciproque sans vérifier que les points sont **dans le même ordre**.
@@ -1441,6 +1464,7 @@ Dans une configuration de Thalès, les triangles AMN et ABC sont semblables.
 > - Réciproque : même ordre + AM/AB = AN/AC ⟹ (MN) // (BC).
 > - Rapports différents ⟹ droites non parallèles.
 > - Triangles semblables : mêmes angles ⟺ côtés proportionnels.
+> - Deux angles égaux suffisent ; les côtés homologues sont opposés aux angles égaux.
 `,
       exercices: [
         {
@@ -1508,6 +1532,53 @@ AD/AB = AE/AC = DE/BC, soit 0,75 = DE/10.
 3) Le plus grand côté est [BC].
 BC² = 10² = 100 ; AB² + AC² = 6² + 8² = 36 + 64 = 100.
 BC² = AB² + AC² : d'après la **réciproque du théorème de Pythagore**, le triangle ABC est **rectangle en A**.`,
+        },
+        {
+          type: "vf",
+          question: "Deux triangles qui ont chacun un angle de 30° sont forcément semblables.",
+          reponse: false,
+          explication: "Faux : un seul angle égal ne suffit pas. Un triangle d'angles 30°, 60°, 90° et un triangle d'angles 30°, 75°, 75° n'ont pas la même forme. Il faut **deux** angles égaux.",
+        },
+        {
+          type: "qcm",
+          question: "Dans le triangle ABC, l'angle A mesure 40° et l'angle B 75°. Dans le triangle DEF, l'angle D mesure 75° et l'angle E 65°. Quelle affirmation est vraie ?",
+          choix: ["Les triangles sont semblables, avec A ↔ D, B ↔ E et C ↔ F.", "Les triangles ne sont pas semblables.", "Les triangles sont semblables, avec A ↔ F, B ↔ D et C ↔ E.", "On ne peut pas savoir sans connaître les longueurs."],
+          reponse: 2,
+          explication: "Angle C = 180° − 40° − 75° = 65° et angle F = 180° − 75° − 65° = 40°. Les deux triangles ont des angles de 40°, 75° et 65° : ils sont semblables. On associe les sommets qui portent le même angle : A ↔ F (40°), B ↔ D (75°), C ↔ E (65°). L'ordre des lettres dans le nom des triangles ne compte pas.",
+        },
+        {
+          type: "vf",
+          question: "Deux triangles rectangles qui ont un angle aigu de même mesure sont semblables.",
+          reponse: true,
+          explication: "Vrai : ils ont l'angle droit et cet angle aigu en commun, donc deux angles égaux. (Le troisième angle vaut alors 90° moins l'angle aigu dans les deux triangles.)",
+        },
+        {
+          type: "saisie",
+          question: "Les triangles ABC et DEF sont semblables, avec A ↔ D, B ↔ E et C ↔ F. On sait que AB = 4 cm, AC = 7 cm et DE = 10 cm. Calcule DF, en cm.",
+          reponses: ["17,5", "17,5 cm"],
+          explication: "[AB] et [DE] sont homologues, de même que [AC] et [DF]. Le rapport d'agrandissement vaut DE/AB = 10 ÷ 4 = 2,5. Donc DF = 2,5 × 7 = **17,5 cm**.",
+        },
+        {
+          type: "saisie",
+          question: "Le triangle ABC est rectangle en A, avec AB = 6 cm et BC = 10 cm. H est le pied de la hauteur issue de A (H est sur [BC] et (AH) est perpendiculaire à (BC)). Les triangles ABC et HBA sont semblables (ils ont l'angle B en commun et un angle droit, en A pour l'un et en H pour l'autre). Calcule BH, en cm.",
+          reponses: ["3,6", "3,6 cm"],
+          explication: "Correspondance : B ↔ B (angle commun), A ↔ H (angles droits), C ↔ A. Les côtés homologues sont proportionnels : BH/BA = BA/BC, soit BH/6 = 6/10. Donc BH = 6 × 6 ÷ 10 = **3,6 cm**.",
+        },
+        {
+          type: "redaction",
+          question: "Les droites (AE) et (BD) sont sécantes en C : les points A, C, E sont alignés dans cet ordre, ainsi que B, C, D. Le triangle ABC est rectangle en B et le triangle DEC est rectangle en E. On donne AB = 3 cm, BC = 4 cm et CE = 10 cm.\n1) Calcule AC.\n2) Démontre que les triangles ABC et DEC sont semblables. Précise la correspondance des sommets.\n3) Calcule DE et CD.\n4) Peut-on utiliser le théorème de Thalès dans cette figure ? Justifie.",
+          corrige: `1) ABC est rectangle en B : d'après le théorème de Pythagore, AC² = AB² + BC² = 9 + 16 = 25, donc **AC = 5 cm**.
+
+2) Les angles ACB et DCE sont **opposés par le sommet** C : ils sont égaux.
+Les angles ABC et DEC sont droits : ils sont égaux.
+Les deux triangles ont deux angles égaux : ils sont **semblables**, avec **B ↔ E**, **C ↔ C** et **A ↔ D**.
+
+3) Côtés homologues (opposés aux angles égaux) : [BC] et [EC] (opposés aux angles A et D), [AB] et [DE] (opposés à l'angle C), [AC] et [DC] (opposés à l'angle droit).
+Rapport d'agrandissement : CE/CB = 10 ÷ 4 = 2,5.
+**DE = 2,5 × AB = 2,5 × 3 = 7,5 cm** et **CD = 2,5 × AC = 2,5 × 5 = 12,5 cm**.
+Vérification avec Pythagore dans DEC : 7,5² + 10² = 56,25 + 100 = 156,25 = 12,5².
+
+4) **Non** : Thalès demande deux droites parallèles. Ici (AB) est perpendiculaire à (BD) et (DE) est perpendiculaire à (AE) ; rien ne dit que (AB) et (DE) sont parallèles (elles ne le sont pas). Ce sont les **angles** qui permettent de conclure.`,
         },
       ],
     },
@@ -2078,6 +2149,25 @@ Plusieurs lutins peuvent agir en même temps. Un lutin peut **envoyer un message
 ## Tracer avec le lutin
 Pour un polygone régulier à n côtés, le lutin tourne de **360° ÷ n** à chaque sommet : 120° pour un triangle équilatéral, 90° pour un carré, 72° pour un pentagone, 60° pour un hexagone.
 
+## Simuler une expérience aléatoire
+Le bloc **« nombre aléatoire entre 1 et 6 »** (catégorie Opérateurs) donne un nombre entier choisi au hasard parmi 1, 2, 3, 4, 5 et 6, chacun ayant la même chance de sortir : il **simule le lancer d'un dé** équilibré. De même, « nombre aléatoire entre 1 et 2 » simule une pièce (1 pour pile, 2 pour face).
+
+>! **Exemple** : compter les 6 sur 1 000 lancers de dé.
+~~~
+quand drapeau vert cliqué
+mettre compteur à 0
+répéter 1000 fois
+  si nombre aléatoire entre 1 et 6 = 6 alors
+    ajouter 1 à compteur
+dire compteur / 1000
+~~~
+
+- compteur est le nombre de 6 obtenus ; **compteur / 1000** est leur **fréquence**.
+- La probabilité d'obtenir 6 vaut 1/6 ≈ 0,167 : sur un grand nombre de lancers, la fréquence affichée est **proche** de 0,167 (par exemple 0,159 ou 0,172). Attention : Scratch écrit les nombres décimaux avec un **point** (il affiche 0.159).
+- À chaque exécution, le résultat **change** : c'est le hasard. Plus on fait de lancers, plus la fréquence se rapproche, en général, de la probabilité.
+
+**Simuler une urne** : pour une urne de 3 boules rouges et 7 noires, on tire un nombre entre 1 et 10 et on décide que 1, 2 et 3 représentent les boules rouges : « si nombre aléatoire entre 1 et 10 < 4 alors … » se réalise avec une probabilité de 3/10.
+
 ## Méthode pour le brevet
 1. Repère les **entrées** (valeurs demandées) et la **sortie** (ce que le lutin dit ou dessine).
 2. Fais un **tableau de suivi** des variables, tour de boucle par tour de boucle.
@@ -2088,6 +2178,7 @@ Pour un polygone régulier à n côtés, le lutin tourne de **360° ÷ n** à ch
 > - « répéter jusqu'à » s'arrête dès que la condition est vraie.
 > - Modulo = reste de la division euclidienne ; n est divisible par d si n modulo d = 0.
 > - Bloc personnalisé = sous-programme réutilisable, avec paramètre.
+> - « nombre aléatoire entre 1 et 6 » simule un dé ; compteur ÷ nombre d'essais = fréquence, proche de la probabilité si les essais sont nombreux.
 `,
       exercices: [
         {
@@ -2157,6 +2248,45 @@ Pour un polygone régulier à n côtés, le lutin tourne de **360° ÷ n** à ch
 Somme des périmètres : 4 × 200 = **800 pas**.
 
 3) On remplace « répéter 5 fois » par **« répéter jusqu'à c > 100 »**. Le dernier carré tracé aura un côté de 100 ; ensuite c vaut 110 et la boucle s'arrête.`,
+        },
+        {
+          type: "qcm",
+          question: "Quels nombres le bloc « nombre aléatoire entre 1 et 6 » peut-il donner ?",
+          choix: ["Seulement 1 ou 6", "Tous les nombres décimaux entre 1 et 6", "Les entiers 2, 3, 4 et 5 seulement", "Les entiers 1, 2, 3, 4, 5 et 6, avec la même chance"],
+          reponse: 3,
+          explication: "Avec deux bornes entières, Scratch tire au hasard un **entier** entre 1 et 6, bornes comprises, et chaque entier a la même chance de sortir : c'est un dé équilibré.",
+        },
+        {
+          type: "qcm",
+          question: "On exécute ce script :\n~~~\nmettre compteur à 0\nrépéter 1000 fois\n  si nombre aléatoire entre 1 et 6 = 6 alors\n    ajouter 1 à compteur\ndire compteur / 1000\n~~~\nQuel affichage est le plus plausible ?",
+          choix: ["6", "0,171", "1,6", "0,6"],
+          reponse: 1,
+          explication: "compteur / 1000 est la fréquence des 6 sur 1 000 lancers. Elle est proche de la probabilité 1/6 ≈ 0,167 : 0,171 est plausible. Une fréquence est toujours entre 0 et 1, ce qui exclut 6 et 1,6 ; 0,6 voudrait dire 600 six sur 1 000 lancers, beaucoup trop.",
+        },
+        {
+          type: "vf",
+          question: "Si on relance ce script de simulation de 1 000 lancers de dé, on obtient forcément le même résultat.",
+          reponse: false,
+          explication: "Faux : les nombres sont tirés au hasard à chaque exécution. Le résultat change (0,171, puis 0,158, puis 0,166…), mais reste en général proche de 1/6.",
+        },
+        {
+          type: "saisie",
+          question: "On modifie la condition du script de simulation : « si (nombre aléatoire entre 1 et 6) modulo 2 = 0 alors ajouter 1 à compteur ». On fait 10 000 lancers et on affiche compteur / 10000. De quelle valeur la fréquence affichée devrait-elle être proche ? Donne un nombre décimal.",
+          reponses: ["0,5", "1/2", "50 %"],
+          explication: "La condition est vraie quand le nombre tiré est **pair** (2, 4 ou 6) : 3 issues sur 6. La probabilité vaut 3/6 = 1/2, donc la fréquence affichée doit être proche de **0,5**.",
+        },
+        {
+          type: "redaction",
+          question: "Une urne contient 3 boules rouges et 7 boules noires. Pour simuler 500 tirages avec remise, Inès écrit :\n~~~\nquand drapeau vert cliqué\nmettre rouges à 0\nrépéter 500 fois\n  si nombre aléatoire entre 1 et 10 < 4 alors\n    ajouter 1 à rouges\ndire rouges\n~~~\n1) Pour quels nombres tirés la variable rouges augmente-t-elle ? Explique pourquoi ce script simule bien l'urne.\n2) Environ quelle valeur le lutin devrait-il dire ?\n3) Inès obtient 162. Son programme est-il faux ? Explique.\n4) Comment modifier le dernier bloc pour afficher la fréquence des boules rouges ?\n5) Quelle condition faut-il écrire pour simuler une urne de 4 boules rouges et 6 noires ?",
+          corrige: `1) La condition « nombre < 4 » est vraie pour **1, 2 et 3** : 3 nombres sur 10, tous équiprobables. La probabilité que rouges augmente est donc 3/10, exactement la probabilité de tirer une boule rouge (3 rouges sur 10 boules). Les nombres 4 à 10 jouent le rôle des 7 boules noires.
+
+2) La probabilité est 3/10 = 0,3. Sur 500 tirages, on s'attend à **environ 500 × 0,3 = 150** boules rouges.
+
+3) **Non** : à cause du hasard, le nombre de rouges varie d'une simulation à l'autre. 162 donne une fréquence de 162 ÷ 500 = 0,324, proche de 0,3 : c'est normal. (Avec plus de tirages, la fréquence serait en général encore plus proche de 0,3.)
+
+4) On remplace « dire rouges » par **« dire rouges / 500 »**.
+
+5) Il faut 4 nombres sur 10 : **« si nombre aléatoire entre 1 et 10 < 5 alors »** (les nombres 1, 2, 3 et 4).`,
         },
       ],
     },
@@ -2336,6 +2466,334 @@ h) 13² − 5² = 169 − 25 = 144 = 12² : le troisième côté mesure **12 cm*
 i) Les nombres premiers entre 1 et 6 sont 2, 3 et 5 (1 n'est pas premier) : P = 3/6 = **1/2**.
 
 Barème indicatif : chaque bonne réponse rapporte des points ; une réponse sans unité ou non simplifiée peut en perdre.`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 18. Fractions, relatifs et priorités
+    {
+      id: "fractions-relatifs-priorites",
+      titre: "Fractions, nombres relatifs et priorités de calcul",
+      theme: "Nombres et calculs",
+      cours: `
+## Les priorités de calcul
+Dans un calcul avec plusieurs opérations, on ne calcule pas simplement de gauche à droite : on respecte cet ordre.
+1. Les calculs **entre parenthèses** (en commençant par les plus intérieures).
+2. Les **puissances**.
+3. Les **multiplications et divisions**, de gauche à droite.
+4. Les **additions et soustractions**, de gauche à droite.
+
+>! **Exemple** : 20 − 4 × (3 − 5)² ÷ 8
+>! = 20 − 4 × (−2)² ÷ 8 (parenthèses)
+>! = 20 − 4 × 4 ÷ 8 (puissance)
+>! = 20 − 16 ÷ 8 = 20 − 2 (multiplication puis division, de gauche à droite)
+>! = **18**
+
+Un **trait de fraction** joue le rôle de parenthèses : (12 + 8)/(2 × 5) = 20/10 = 2. À la calculatrice, il faut alors taper les parenthèses : (12 + 8) ÷ (2 × 5).
+
+## Additionner et soustraire des nombres relatifs
+- **Même signe** : on additionne les distances à zéro et on garde le signe. (−5) + (−8) = −13.
+- **Signes contraires** : on soustrait la plus petite distance à zéro de la plus grande, et on prend le signe du nombre le plus éloigné de zéro. (−7) + 3 = −4 ; 9 + (−2) = 7.
+- **Soustraire un nombre, c'est ajouter son opposé** : 4 − (−6) = 4 + 6 = 10 ; −3 − 9 = −3 + (−9) = −12.
+
+>! **Simplifier l'écriture** : (−8) + 5 − (−6) = −8 + 5 + 6 = **3**. On peut regrouper les positifs (5 + 6 = 11) et les négatifs (−8), puis 11 − 8 = 3.
+
+## Multiplier et diviser des nombres relatifs
+**Règle des signes** : le produit (ou le quotient) de deux nombres de **même signe** est **positif** ; de deux nombres de **signes contraires**, il est **négatif**.
+- (−3) × (−4) = 12 ; (−36) ÷ 4 = −9 ; 15 ÷ (−3) = −5.
+- Avec plusieurs facteurs : le produit est positif si le nombre de facteurs négatifs est **pair**, négatif s'il est **impair**. (−2) × (−3) × (−5) = −30 (trois facteurs négatifs).
+
+## Les fractions
+**Égalité** : on ne change pas une fraction en multipliant (ou en divisant) son numérateur et son dénominateur par le même nombre non nul : 3/4 = 15/20 ; 18/24 = 3/4.
+
+**Signe** : −3/4 = (−3)/4 = 3/(−4), et (−12)/(−16) = 12/16 = 3/4.
+
+**Additionner, soustraire** : on met les fractions **au même dénominateur**, puis on additionne les numérateurs.
+>! 5/6 − 3/4 = 10/12 − 9/12 = **1/12** ; 2 + 3/4 = 8/4 + 3/4 = **11/4**.
+
+**Multiplier** : on multiplie les numérateurs entre eux et les dénominateurs entre eux, en **simplifiant avant** de calculer.
+>! 4/9 × 15/8 = (4 × 15)/(9 × 8) = (4 × 3 × 5)/(3 × 3 × 4 × 2) = **5/6**.
+
+**Prendre une fraction d'une quantité**, c'est multiplier : les 3/5 de 40 € valent 3/5 × 40 = 120/5 = **24 €**.
+
+**Diviser** : l'**inverse** de a/b est b/a (a et b non nuls). Diviser par une fraction, c'est **multiplier par son inverse**.
+>! 2/3 ÷ 4/9 = 2/3 × 9/4 = (2 × 3 × 3)/(3 × 2 × 2) = **3/2** (on simplifie par 2 et par 3).
+
+## Un calcul complet
+>! A = 1/2 + 3/2 × 5/9
+>! La multiplication est prioritaire : 3/2 × 5/9 = 15/18 = 5/6.
+>! A = 1/2 + 5/6 = 3/6 + 5/6 = 8/6 = **4/3**.
+
+## Erreurs fréquentes
+- 2 + 3 × 4 = 20 : faux, la multiplication passe d'abord, 2 + 12 = **14**.
+- 1/2 + 1/3 = 2/5 : faux, on n'additionne jamais les dénominateurs. 1/2 + 1/3 = 3/6 + 2/6 = **5/6**.
+- (−5) − (−2) = −7 : faux, (−5) − (−2) = −5 + 2 = **−3**.
+- Oublier de simplifier le résultat final : au brevet, on attend souvent une fraction **irréductible**.
+
+> **À retenir**
+> - Priorités : parenthèses, puissances, × et ÷, puis + et −.
+> - Soustraire un nombre = ajouter son opposé.
+> - Même signe : produit positif ; signes contraires : produit négatif.
+> - Fractions : même dénominateur pour + et − ; on multiplie « en haut » et « en bas » pour × ; diviser = multiplier par l'inverse.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Sans calculatrice : combien vaut 5 + 3 × 4 ?",
+          choix: ["32", "17", "60", "12"],
+          reponse: 1,
+          explication: "La multiplication est prioritaire : 3 × 4 = 12, puis 5 + 12 = 17. Le résultat 32 vient d'un calcul de gauche à droite, (5 + 3) × 4, qui ne respecte pas les priorités.",
+        },
+        {
+          type: "saisie",
+          question: "Sans calculatrice : calcule (−8) + 5 − (−6).",
+          reponses: ["3"],
+          explication: "Soustraire −6, c'est ajouter 6 : (−8) + 5 + 6 = −8 + 11 = **3**.",
+        },
+        {
+          type: "vf",
+          question: "Le produit (−2) × (−3) × (−5) est un nombre positif.",
+          reponse: false,
+          explication: "Faux : il y a trois facteurs négatifs, un nombre impair, donc le produit est négatif. (−2) × (−3) = 6, puis 6 × (−5) = −30.",
+        },
+        {
+          type: "saisie",
+          question: "Sans calculatrice : calcule 30 − 2 × (1 − 4)².",
+          reponses: ["12"],
+          explication: "Parenthèses : 1 − 4 = −3. Puissance : (−3)² = 9. Multiplication : 2 × 9 = 18. Soustraction : 30 − 18 = **12**.",
+        },
+        {
+          type: "saisie",
+          question: "À 6 h du matin, un thermomètre indique −7 °C. À 14 h, il indique 5 °C. De combien de degrés la température a-t-elle augmenté ?",
+          reponses: ["12", "12 °C", "12 degrés"],
+          explication: "L'écart vaut 5 − (−7) = 5 + 7 = **12 °C** : il faut 7 degrés pour remonter de −7 à 0, puis 5 degrés de 0 à 5.",
+        },
+        {
+          type: "qcm",
+          question: "Sans calculatrice : combien vaut 1/2 + 1/3 ?",
+          choix: ["2/5", "1/6", "2/6", "5/6"],
+          reponse: 3,
+          explication: "On réduit au même dénominateur 6 : 1/2 = 3/6 et 1/3 = 2/6, donc 1/2 + 1/3 = 5/6. 2/5 vient de l'erreur classique qui additionne les dénominateurs ; 1/6 est le produit 1/2 × 1/3.",
+        },
+        {
+          type: "saisie",
+          question: "Sans calculatrice : calcule 7/10 − 2/15. Donne le résultat sous forme de fraction irréductible.",
+          reponses: ["17/30"],
+          explication: "Le plus petit dénominateur commun à 10 et 15 est 30 : 7/10 = 21/30 et 2/15 = 4/30. Donc 7/10 − 2/15 = 21/30 − 4/30 = **17/30** (17 est premier et ne divise pas 30 : la fraction est irréductible).",
+        },
+        {
+          type: "saisie",
+          question: "Sans calculatrice : calcule 4/9 × 15/8. Donne le résultat sous forme de fraction irréductible.",
+          reponses: ["5/6"],
+          explication: "On simplifie avant de multiplier : 4/9 × 15/8 = (4 × 3 × 5)/(3 × 3 × 4 × 2). On simplifie par 4 et par 3 : il reste **5/6**.",
+        },
+        {
+          type: "qcm",
+          question: "Sans calculatrice : combien vaut 2/3 ÷ 4/9 ?",
+          choix: ["3/2", "8/27", "27/8", "8/12"],
+          reponse: 0,
+          explication: "Diviser par 4/9, c'est multiplier par son inverse 9/4 : 2/3 × 9/4 = 18/12 = 3/2. 8/27 est le produit 2/3 × 4/9 (on a oublié d'inverser) ; 27/8 est l'inverse de ce produit.",
+        },
+        {
+          type: "redaction",
+          question: "1) Calcule A = (3/4 − 1/2) ÷ (1/3 + 1/6). Donne le résultat sous forme de fraction irréductible.\n2) Léa a 60 €. Elle dépense le quart de son argent pour un livre, puis les 2/3 de ce qui lui reste pour un jeu.\na) Combien coûte le livre ? Combien coûte le jeu ?\nb) Quelle fraction de ses 60 € lui reste-t-il à la fin ?\nc) Tom affirme : « Elle a dépensé 1/4 + 2/3 = 11/12 de son argent. » A-t-il raison ? Explique.",
+          corrige: `1) Première parenthèse : 3/4 − 1/2 = 3/4 − 2/4 = 1/4.
+Seconde parenthèse : 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2.
+A = 1/4 ÷ 1/2 = 1/4 × 2/1 = 2/4 = **1/2**.
+
+2) a) Le livre coûte 1/4 × 60 = 60 ÷ 4 = **15 €**.
+Il lui reste 60 − 15 = 45 €. Le jeu coûte 2/3 × 45 = 90/3 = **30 €**.
+
+b) Il lui reste 45 − 30 = 15 €, soit 15/60 = **1/4** de son argent.
+(Autre méthode : après le livre, il reste 3/4 ; le jeu coûte 2/3 de ces 3/4, soit 2/3 × 3/4 = 1/2 ; il reste 3/4 − 1/2 = 1/4.)
+
+c) **Non** : les 2/3 portent sur le **reste** (45 €), pas sur les 60 €. Léa a dépensé 15 + 30 = 45 €, soit 45/60 = **3/4** de son argent, et non 11/12 (qui ferait 55 €).`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 19. Problèmes type brevet (partie 2)
+    {
+      id: "problemes-brevet-partie-2",
+      titre: "Problèmes type brevet (partie 2, avec calculatrice)",
+      theme: "Préparation au brevet",
+      cours: `
+## La deuxième partie de l'épreuve
+Après les 20 minutes d'automatismes, la **partie 2** dure **1 h 40** et est notée sur **14 points**, **avec calculatrice**. Elle est formée de plusieurs exercices **indépendants** : tu peux les traiter dans l'ordre que tu veux. Chaque exercice part souvent d'une situation concrète (un jardin, un trajet, une cuve, un club de sport…) et mélange plusieurs chapitres : Pythagore et pourcentages, volumes et fonctions, statistiques et équations…
+
+Dans cette partie, il faut **justifier** : la qualité de la rédaction et du raisonnement compte (2 points sur les 14), et une démarche, même inachevée, peut rapporter des points.
+
+## Les mots des consignes
+| Consigne | Ce qu'on attend |
+|---|---|
+| Calculer | le calcul posé, puis le résultat avec son unité |
+| Justifier, expliquer | une propriété ou un calcul qui prouve la réponse |
+| Montrer que, démontrer que | le résultat est donné : il faut prouver comment on y arrive |
+| Déterminer | trouver une valeur, par la méthode de ton choix (calcul, graphique, tableau) |
+| Donner la valeur exacte | pas d'arrondi : 12π, √2, 1/3 |
+| Arrondir au dixième | un seul chiffre après la virgule : 62,83 → 62,8 |
+
+## Méthode
+1. **Lis tout le sujet** au début (5 minutes) et commence par l'exercice qui te semble le plus facile.
+2. **Surligne les données** et ce qui est demandé (unité, arrondi, valeur exacte).
+3. Les questions sont souvent **enchaînées** : si tu ne trouves pas un résultat, utilise celui donné dans l'énoncé (« on admet que… ») ou le tien pour continuer.
+4. **Rédige** chaque réponse : la propriété utilisée, le calcul, puis une **phrase de conclusion** avec l'unité.
+5. **Contrôle** l'ordre de grandeur : un jardin de 240 m² ne coûte pas 3 € de gazon, une durée de remplissage n'est pas négative.
+6. **Répartis ton temps** entre les exercices (1 h 40 en tout, soit une vingtaine de minutes chacun s'il y en a cinq) et ne reste pas bloqué sur une question.
+
+## Exemple de rédaction attendue
+>! **Question** : un terrain rectangulaire mesure 24 m sur 10 m. Calcule la longueur de sa diagonale.
+>! **Rédaction** : le terrain ABCD est un rectangle, donc le triangle ABC est rectangle en B.
+>! D'après le théorème de Pythagore : AC² = AB² + BC² = 24² + 10² = 576 + 100 = 676.
+>! Donc AC = √676 = 26.
+>! **La diagonale mesure 26 m.**
+
+Dans cette rédaction, on trouve : la justification du triangle rectangle, le nom du théorème, le calcul et une phrase réponse avec l'unité. Écrire seulement « 26 » ne rapporterait qu'une partie des points.
+
+## Erreurs fréquentes
+- Donner un résultat sans aucun calcul : le correcteur ne peut pas valoriser ta démarche.
+- Arrondir trop tôt (par exemple π ≈ 3) : garde les valeurs exactes ou la mémoire de la calculatrice jusqu'au bout.
+- Oublier de convertir (min en h, L en m³, cm en m) avant de calculer.
+- Répondre à une autre question que celle posée : relis la question avant d'écrire ta phrase de conclusion.
+
+> **À retenir**
+> - Partie 2 : 1 h 40, 14 points, calculatrice autorisée, exercices indépendants.
+> - Justifie toujours : propriété, calcul, phrase de conclusion avec unité.
+> - Une question ratée ne bloque pas la suite : utilise les résultats donnés.
+> - Toute piste de recherche, même non aboutie, peut rapporter des points : écris-la.
+`,
+      textes: {
+        jardin: `**Exercice : l'aménagement d'un jardin** (situation fictive)
+
+M. Durand possède un terrain rectangulaire ABCD de longueur AB = 24 m et de largeur BC = 10 m. Il veut :
+- tracer une allée droite qui relie les coins A et C, en posant une **bordure** tout le long de l'allée, d'un seul côté ;
+- semer du **gazon** sur tout le terrain (on néglige la surface de l'allée).
+
+**Tarifs du magasin**
+| Article | Conditionnement | Prix |
+|---|---|---|
+| Bordure | élément de 1,20 m de long | 3,50 € l'élément |
+| Semences de gazon | sac de 2 kg | 12,90 € le sac |
+
+Sur le sac, on lit : « 1 kg de semences pour 35 m² ».
+Le magasin accorde une **remise de 15 %** sur le montant total si celui-ci dépasse 100 €.`,
+        basket: `**Exercice : la saison de Maya** (données fictives)
+
+Maya joue dans l'équipe de basket de son collège. Voici le nombre de points qu'elle a marqués lors des 11 premiers matchs de la saison :
+
+| Match | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Points | 12 | 18 | 9 | 22 | 15 | 18 | 19 | 11 | 18 | 14 | 20 |
+
+Il reste un dernier match (le 12e) à jouer.`,
+        cuve: `**Exercice : la cuve de récupération d'eau** (situation fictive)
+
+Une cuve a la forme d'un **cylindre** de révolution, posé verticalement, de rayon intérieur 0,5 m et de hauteur 1,2 m. Elle est vide au départ.
+On la remplit avec un tuyau dont le **débit** est constant : **15 litres par minute**.
+
+Rappels : volume d'un cylindre = π × r² × h ; 1 m³ = 1 000 L.`,
+      },
+      exercices: [
+        {
+          type: "saisie",
+          texte: "jardin",
+          question: "Calcule la longueur AC de l'allée, en mètres.",
+          reponses: ["26", "26 m"],
+          explication: "Le triangle ABC est rectangle en B (le terrain est un rectangle). D'après le théorème de Pythagore : AC² = 24² + 10² = 576 + 100 = 676, donc AC = √676 = **26 m**.",
+        },
+        {
+          type: "qcm",
+          texte: "jardin",
+          question: "L'allée mesure 26 m. Combien d'éléments de bordure M. Durand doit-il acheter au minimum ?",
+          choix: ["21", "26", "22", "31"],
+          reponse: 2,
+          explication: "26 ÷ 1,2 ≈ 21,67. Avec 21 éléments, on ne couvre que 21 × 1,2 = 25,2 m : il en manque. Il faut arrondir **à l'unité supérieure** : **22 éléments** (26,4 m, on coupera le dernier).",
+        },
+        {
+          type: "redaction",
+          texte: "jardin",
+          question: "1) Calcule l'aire du terrain, puis la masse de semences nécessaire, arrondie au dixième de kg.\n2) Combien de sacs de semences faut-il acheter ?\n3) Calcule le montant total des achats (22 éléments de bordure et les sacs de semences), avant remise.\n4) M. Durand bénéficie-t-il de la remise ? Calcule le prix qu'il paie finalement.",
+          corrige: `1) Aire du terrain : 24 × 10 = **240 m²**.
+1 kg couvre 35 m², donc il faut 240 ÷ 35 ≈ **6,9 kg** de semences (6,857…).
+
+2) Un sac contient 2 kg : 6,857 ÷ 2 ≈ 3,4. Trois sacs (6 kg) ne suffisent pas : il faut **4 sacs** (8 kg).
+
+3) Bordure : 22 × 3,50 = 77 €.
+Semences : 4 × 12,90 = 51,60 €.
+Total avant remise : 77 + 51,60 = **128,60 €**.
+
+4) 128,60 € > 100 € : **il bénéficie de la remise** de 15 %.
+Diminuer de 15 %, c'est multiplier par 0,85 : 128,60 × 0,85 = 109,31.
+**M. Durand paie 109,31 €.**`,
+        },
+        {
+          type: "saisie",
+          texte: "basket",
+          question: "Calcule le nombre moyen de points marqués par Maya sur ces 11 matchs.",
+          reponses: ["16", "16 points"],
+          explication: "Somme des points : 12 + 18 + 9 + 22 + 15 + 18 + 19 + 11 + 18 + 14 + 20 = 176. Moyenne : 176 ÷ 11 = **16 points** par match.",
+        },
+        {
+          type: "saisie",
+          texte: "basket",
+          question: "Détermine la médiane de cette série de 11 valeurs.",
+          reponses: ["18", "18 points"],
+          explication: "Série rangée : 9 ; 11 ; 12 ; 14 ; 15 ; **18** ; 18 ; 18 ; 19 ; 20 ; 22. Il y a 11 valeurs : la médiane est la 6e, soit **18 points**.",
+        },
+        {
+          type: "vf",
+          texte: "basket",
+          question: "Lors d'au moins la moitié des 11 matchs, Maya a marqué 18 points ou plus.",
+          reponse: true,
+          explication: "Vrai : la médiane vaut 18. Concrètement, elle a marqué 18 points ou plus lors de 6 matchs (18, 18, 18, 19, 20 et 22), et 6 est plus que la moitié de 11.",
+        },
+        {
+          type: "redaction",
+          texte: "basket",
+          question: "1) Calcule l'étendue de la série. Que mesure-t-elle ?\n2) Quel est le pourcentage de matchs où Maya a marqué au moins 15 points ? Arrondis à l'unité.\n3) Maya veut terminer la saison (12 matchs) avec une moyenne de 17 points par match. Combien de points doit-elle marquer au 12e match ?\n4) Son entraîneur affirme : « Si Maya marque 16 points au dernier match, sa moyenne ne changera pas, mais sa médiane changera. » A-t-il raison ?",
+          corrige: `1) Étendue : 22 − 9 = **13 points**. Elle mesure l'écart entre son meilleur et son moins bon match : les performances de Maya sont assez dispersées.
+
+2) Matchs avec au moins 15 points : 15, 18, 18, 18, 19, 20, 22, soit 7 matchs sur 11.
+7 ÷ 11 ≈ 0,636, soit environ **64 %** des matchs.
+
+3) Pour une moyenne de 17 sur 12 matchs, il faut 17 × 12 = 204 points en tout.
+Elle en a déjà 176 : il lui faut 204 − 176 = **28 points** au dernier match.
+(Vérification : (176 + 28) ÷ 12 = 204 ÷ 12 = 17.)
+
+4) Moyenne : (176 + 16) ÷ 12 = 192 ÷ 12 = 16 : **la moyenne ne change pas**.
+Médiane : la série rangée de 12 valeurs est 9 ; 11 ; 12 ; 14 ; 15 ; **16 ; 18** ; 18 ; 18 ; 19 ; 20 ; 22. La médiane est la moyenne des 6e et 7e valeurs : (16 + 18) ÷ 2 = 17. Elle passe de 18 à 17 : **la médiane change**.
+L'entraîneur **a raison**.`,
+        },
+        {
+          type: "saisie",
+          texte: "cuve",
+          question: "Calcule le volume de la cuve, en litres, arrondi au litre.",
+          reponses: ["942", "942 L", "942 litres"],
+          explication: "V = π × 0,5² × 1,2 = 0,3π m³ ≈ 0,942 48 m³. Comme 1 m³ = 1 000 L, la cuve contient environ **942 L**.",
+        },
+        {
+          type: "qcm",
+          texte: "cuve",
+          question: "La cuve contient 0,3π m³, soit environ 942,5 L. Combien de temps faut-il pour la remplir entièrement ?",
+          choix: ["Environ 14 137 min", "Environ 1 h 3 min", "Environ 0,06 min", "Environ 125,7 min"],
+          reponse: 1,
+          explication: "t = volume ÷ débit = 942,5 ÷ 15 ≈ 62,8 min, soit environ 1 h 3 min (62 min 50 s). 14 137 vient d'une multiplication au lieu d'une division ; 0,06 min d'un volume laissé en m³ (0,942 ÷ 15) ; 125,7 min de l'oubli du carré du rayon (π × 0,5 × 1,2 m³ au lieu de π × 0,5² × 1,2).",
+        },
+        {
+          type: "redaction",
+          texte: "cuve",
+          question: "On note t le temps de remplissage écoulé, en minutes, et h(t) la hauteur d'eau dans la cuve, en cm.\n1) Quel volume d'eau, en litres, contient la cuve au bout de 20 minutes ? Quelle est alors la hauteur d'eau, arrondie au cm ?\n2) Montre que h(t) = 6t/π, puis que h est une fonction linéaire. Donne son coefficient arrondi au centième.\n3) Au bout de combien de temps l'eau atteint-elle 1 m de hauteur ? Arrondis à la minute.\n4) Quelle est la nature de la représentation graphique de h ?",
+          corrige: `1) Au bout de 20 min : 15 × 20 = **300 L** = 0,3 m³ = 300 000 cm³.
+La base de la cuve est un disque de rayon 50 cm, d'aire π × 50² = 2 500π cm².
+Hauteur d'eau : 300 000 ÷ 2 500π = 120/π ≈ **38 cm**.
+
+2) Au bout de t minutes, la cuve contient 15t L = 15 000t cm³.
+h(t) = 15 000t ÷ 2 500π = **6t/π**.
+On peut l'écrire h(t) = (6/π) × t : c'est de la forme a × t, donc **h est une fonction linéaire**, de coefficient 6/π ≈ **1,91** (l'eau monte d'environ 1,91 cm par minute).
+
+3) On résout 6t/π = 100 : t = 100π/6 ≈ 52,4. L'eau atteint 1 m au bout d'environ **52 minutes**.
+
+4) h est linéaire : sa représentation graphique est une **droite passant par l'origine** (on s'arrête à t ≈ 62,8 min, quand la cuve est pleine, à 120 cm).`,
         },
       ],
     },

@@ -45,6 +45,13 @@ Le narrateur adulte raconte l'enfant qu'il a été. On distingue :
 - **lutter contre l'oubli**, transmettre ;
 - **partager** une expérience que le lecteur peut reconnaître.
 
+## Un épisode célèbre : le peigne cassé (Rousseau, *Les Confessions*, livre I)
+Enfant, Rousseau est en pension avec son cousin chez le pasteur Lambercier et sa sœur, à Bossey, près de Genève. Un jour, on l'accuse d'avoir cassé un peigne de mademoiselle Lambercier. Il nie, on ne le croit pas, il est durement puni, mais il refuse d'avouer une faute qu'il n'a pas commise. Bien des années plus tard (« près de cinquante ans », écrit-il), l'adulte affirme encore son innocence : « je déclare à la face du ciel que j'en étais innocent ».
+- Le **« je » narré** (l'enfant) vit l'événement : récit aux temps du passé, avec un **présent de narration** qui rend la scène vivante (« On m'interroge : je nie »).
+- Le **« je » narrant** (l'adulte) commente au **présent d'énonciation** : « Je sens en écrivant ceci que mon pouls s'élève encore ».
+- Le sens de l'épisode : c'est la **découverte de l'injustice**, qui met fin au bonheur de l'enfance (« Là fut le terme de la sérénité de ma vie enfantine ») et rend Rousseau sensible à toute injustice. Raconter, c'est ici **se justifier** et **comprendre qui l'on est devenu**.
+Tu trouveras ce texte dans les exercices de ce chapitre.
+
 ## Les difficultés : mémoire et vérité
 L'autobiographe sait que ses souvenirs sont incomplets ou déformés. Il le signale par la **modalisation** : « il me semble », « peut-être », « je crois me souvenir », le conditionnel. Perec commence un chapitre de *W ou le souvenir d'enfance* par « Je n'ai pas de souvenirs d'enfance » : ce manque est lié à la disparition de ses parents pendant la Seconde Guerre mondiale. Nathalie Sarraute, dans *Enfance*, dialogue avec un double qui met en doute ce qu'elle raconte.
 
@@ -71,6 +78,24 @@ L'autobiographe sait que ses souvenirs sont incomplets ou déformés. Il le sign
         village: `**Le départ** (texte d'entraînement écrit pour l'exercice)
 
 J'avais huit ans quand nous avons quitté le village. Je me souviens du camion bleu, de la poussière, de ma grand-mère qui agitait son mouchoir. Peut-être pleurait-elle ; je ne sais plus. Aujourd'hui, je comprends que ce jour-là, j'ai perdu bien plus qu'une maison.`,
+        peigne: `**Jean-Jacques Rousseau, *Les Confessions*, livre I** (rédigées à partir de 1765, publiées en 1782, après la mort de l'auteur ; texte de l'édition Launette, 1889, sur Wikisource, orthographe légèrement modernisée ; les crochets […] signalent une coupure).
+Jean-Jacques, alors âgé d'une dizaine d'années, est en pension avec son cousin chez le pasteur Lambercier et sa sœur, à Bossey, près de Genève.
+
+J'étudiais un jour seul ma leçon dans la chambre contiguë à la cuisine. La servante avait mis sécher à la plaque les peignes de mademoiselle Lambercier. Quand elle revint les prendre, il s'en trouva un dont tout un côté de dents était brisé. À qui s'en prendre de ce dégât ? personne autre que moi n'était entré dans la chambre. On m'interroge : je nie d'avoir touché le peigne. M. et mademoiselle Lambercier se réunissent, m'exhortent, me pressent, me menacent : je persiste avec opiniâtreté ; mais la conviction était trop forte, elle l'emporta sur toutes mes protestations, quoique ce fût la première fois qu'on m'eût trouvé tant d'audace à mentir. La chose fut prise au sérieux ; elle méritait de l'être. La méchanceté, le mensonge, l'obstination, parurent également dignes de punition ; mais pour le coup ce ne fut pas par mademoiselle Lambercier qu'elle me fut infligée. On écrivit à mon oncle Bernard : il vint. Mon pauvre cousin était chargé d'un autre délit non moins grave ; nous fûmes enveloppés dans la même exécution. Elle fut terrible. […]
+
+On ne put m'arracher l'aveu qu'on exigeait. Repris à plusieurs fois et mis dans l'état le plus affreux, je fus inébranlable. J'aurais souffert la mort, et j'y étais résolu. Il fallut que la force même cédât au diabolique entêtement d'un enfant ; car on n'appela pas autrement ma constance. Enfin je sortis de cette cruelle épreuve en pièces, mais triomphant.
+
+Il y a maintenant près de cinquante ans de cette aventure, et je n'ai pas peur d'être puni derechef pour le même fait : hé bien ! je déclare à la face du ciel que j'en étais innocent, que je n'avais ni cassé ni touché le peigne, que je n'avais pas approché de la plaque, et que je n'y avais pas même songé. Qu'on ne me demande pas comment le dégât se fit, je l'ignore et ne le puis comprendre ; ce que je sais très certainement, c'est que j'en étais innocent.
+
+Qu'on se figure un caractère timide et docile dans la vie ordinaire, mais ardent, fier, indomptable dans les passions ; un enfant toujours gouverné par la voix de la raison, toujours traité avec douceur, équité, complaisance, qui n'avait pas même l'idée de l'injustice, et qui pour la première fois en éprouve une si terrible de la part précisément des gens qu'il chérit et qu'il respecte le plus : quel renversement d'idées ! quel désordre de sentiments ! quel bouleversement dans son cœur, dans sa cervelle, dans tout son petit être intelligent et moral ! Je dis qu'on s'imagine tout cela, s'il est possible ; car pour moi je ne me sens pas capable de démêler, de suivre la moindre trace de ce qui se passait alors en moi.
+
+Je n'avais pas encore assez de raison pour sentir combien les apparences me condamnaient, et pour me mettre à la place des autres. Je me tenais à la mienne, et tout ce que je sentais, c'était la rigueur d'un châtiment effroyable pour un crime que je n'avais pas commis. La douleur du corps, quoique vive, m'était peu sensible ; je ne sentais que l'indignation, la rage, le désespoir. Mon cousin, dans un cas à peu près semblable, et qu'on avait puni d'une faute involontaire comme d'un acte prémédité, se mettait en fureur à mon exemple, et se montait, pour ainsi dire, à mon unisson. Tous deux dans le même lit, nous nous embrassions avec des transports convulsifs, nous étouffions ; et quand nos jeunes cœurs un peu soulagés pouvaient exhaler leur colère, nous nous levions sur notre séant, et nous nous mettions tous deux à crier cent fois de toute notre force : Carnifex ! carnifex ! carnifex !
+
+Je sens en écrivant ceci que mon pouls s'élève encore ; ces moments me seront toujours présents, quand je vivrais cent mille ans. […]
+
+Là fut le terme de la sérénité de ma vie enfantine. Dès ce moment je cessai de jouir d'un bonheur pur, et je sens aujourd'hui même que le souvenir des charmes de mon enfance s'arrête là.
+
+*contiguë* : voisine, qui touche ; *la plaque* : plaque de fonte chaude de la cheminée ; *m'exhortent* : m'encouragent vivement (ici, à avouer) ; *opiniâtreté* : obstination ; *protestations* : ici, affirmations de son innocence ; *la conviction* : ici, la certitude des adultes que l'enfant est coupable ; *exécution* : punition, châtiment corporel ; *constance* : fermeté ; *derechef* : de nouveau ; *à mon unisson* : au même degré que moi ; *transports* : élans violents ; *sur notre séant* : assis dans le lit ; *équité* : justice ; *complaisance* : gentillesse, envie de faire plaisir ; *prémédité* : fait exprès, préparé à l'avance ; *exhaler* : laisser sortir ; *Carnifex* : mot latin qui signifie « bourreau » ; *quand je vivrais* : même si je vivais.`,
       },
       exercices: [
         { type: "qcm", question: "Qu'est-ce qui caractérise le **pacte autobiographique** ?", choix: ["Le narrateur est un animal qui parle", "L'auteur, le narrateur et le personnage principal sont la même personne", "Le récit est écrit au futur", "Le texte est écrit en vers"], reponse: 1, explication: "Selon Philippe Lejeune, il y a autobiographie quand l'auteur, le narrateur et le personnage portent le même nom et que l'auteur s'engage à raconter sa vie réelle. La forme (prose), le temps ou le type de narrateur ne définissent pas le pacte." },
@@ -103,7 +128,36 @@ Aujourd'hui, quand j'y repense, je crois que ce n'est pas la mer qui m'a impress
 **Exemple de fin**
 Je suis retourné sur cette plage l'été dernier. Elle m'a paru petite, presque banale. Ce n'est pas elle qui a changé : c'est moi. Mais il me suffit de fermer les yeux pour retrouver, intacte, la peur délicieuse de ce matin-là.
 
-**Critères de réussite** : alternance réussie des deux regards, système des temps cohérent (imparfait / passé composé ou passé simple pour le récit, présent pour les commentaires), émotions, vocabulaire précis, orthographe.` }
+**Critères de réussite** : alternance réussie des deux regards, système des temps cohérent (imparfait / passé composé ou passé simple pour le récit, présent pour les commentaires), émotions, vocabulaire précis, orthographe.` },
+        { type: "qcm", texte: "peigne", question: "De quoi le jeune Jean-Jacques est-il accusé ?", choix: ["D'avoir volé de l'argent à son oncle Bernard", "D'avoir menti sur une leçon qu'il n'avait pas apprise", "D'avoir cassé l'un des peignes de mademoiselle Lambercier", "D'avoir frappé son cousin"], reponse: 2, explication: "Un peigne mis à sécher « à la plaque » a « tout un côté de dents » brisé. Comme « personne autre que moi n'était entré dans la chambre », les adultes accusent l'enfant." },
+        { type: "vf", texte: "peigne", question: "À la fin, le narrateur adulte avoue qu'il avait bien cassé le peigne, mais sans le faire exprès.", reponse: false, explication: "Au contraire : près de cinquante ans après, il « déclare à la face du ciel » qu'il était **innocent**, qu'il n'avait « ni cassé ni touché le peigne ». Il avoue seulement ne pas savoir comment le dégât s'est produit. La répétition de « j'en étais innocent » encadre ce paragraphe comme un serment." },
+        { type: "qcm", texte: "peigne", question: "« On m'interroge : je nie d'avoir touché le peigne. » Pourquoi ces verbes sont-ils au présent, au milieu d'un récit au passé ?", choix: ["C'est un présent de vérité générale", "C'est un présent de narration : la scène devient plus vive, comme si on y assistait", "C'est un présent d'habitude : l'enfant est interrogé tous les jours", "Ce présent annonce une action future"], reponse: 1, explication: "Le **présent de narration** remplace le passé simple pour rendre une scène plus vivante et plus rapide : le lecteur vit l'interrogatoire avec l'enfant. Le récit revient ensuite au passé simple (« elle l'emporta », « il vint »)." },
+        { type: "qcm", texte: "peigne", question: "« M. et mademoiselle Lambercier se réunissent, m'exhortent, me pressent, me menacent » : quelle figure de style reconnais-tu ?", choix: ["une litote", "un chiasme", "un euphémisme", "une gradation"], reponse: 3, explication: "C'est une **gradation** : les verbes sont de plus en plus forts (exhorter = encourager vivement, presser = insister, menacer). La pression des adultes monte, et face à elle l'enfant « persiste »." },
+        { type: "saisie", texte: "peigne", question: "« quel renversement d'idées ! quel désordre de sentiments ! quel bouleversement dans son cœur [...] ! » Quelle figure de style répète le même mot (« quel ») en tête de chaque exclamation ? (un mot)", reponses: ["anaphore", "une anaphore", "l'anaphore", "anaphores", "c'est une anaphore"], explication: "C'est une **anaphore**. Avec les exclamations, elle traduit le choc de l'enfant qui découvre l'injustice. On peut y voir aussi une gradation : des « idées » aux « sentiments », puis au « cœur », à la « cervelle » et à « tout son petit être »." },
+        { type: "qcm", texte: "peigne", question: "« Je sens en écrivant ceci que mon pouls s'élève encore » : qui s'exprime dans cette phrase ?", choix: ["Le « je » narrant : l'adulte qui écrit, au présent d'énonciation", "Le « je » narré : l'enfant, au moment de la punition", "Le cousin de Rousseau", "Mademoiselle Lambercier"], reponse: 0, explication: "« En écrivant ceci » renvoie au moment de l'écriture : c'est l'**adulte** qui parle, au **présent d'énonciation**. Le souvenir est si fort qu'il provoque encore une émotion physique (« mon pouls s'élève »)." },
+        { type: "saisie", texte: "peigne", question: "Selon le narrateur, combien d'années environ séparent l'affaire du peigne du moment où il écrit ? (en chiffres)", reponses: ["50", "cinquante", "près de cinquante ans", "près de 50 ans", "près de 50", "près de cinquante", "presque 50", "presque cinquante", "presque 50 ans", "presque cinquante ans"], explication: "« Il y a maintenant **près de cinquante ans** de cette aventure. » Cette longue durée rend sa déclaration plus forte : il n'a plus rien à craindre (« je n'ai pas peur d'être puni derechef »), il n'a donc aucune raison de mentir. (En réalité, l'écart est plutôt d'une quarantaine d'années : la scène se passe vers 1724 et Rousseau écrit le livre I vers 1765-1766. Le chiffre rond grossit l'effet du temps passé.)" },
+        { type: "vf", texte: "peigne", question: "Dans « Il fallut que la force même **cédât** au diabolique entêtement d'un enfant », le verbe « cédât » est au subjonctif imparfait, imposé par « il fallut que ».", reponse: true, explication: "« Il faut que » se construit avec le **subjonctif**. Le verbe principal étant au passé simple (« il fallut »), la langue soutenue du XVIIIe siècle emploie le **subjonctif imparfait** : « qu'elle cédât ». Aujourd'hui, on dirait plutôt « il fallut que la force cède » (subjonctif présent)." },
+        { type: "qcm", texte: "peigne", question: "D'après les deux derniers paragraphes, quelles sont les conséquences de cette injustice pour Rousseau ?", choix: ["Il a vite pardonné et oublié l'épisode", "Il est devenu indifférent aux injustices", "Il a décidé de devenir pasteur comme M. Lambercier", "Elle a mis fin au bonheur pur de son enfance et lui laisse une émotion toujours vive"], reponse: 3, explication: "« Là fut le terme de la sérénité de ma vie enfantine » : l'épisode marque la **fin du bonheur de l'enfance**. Et l'émotion reste intacte : « ces moments me seront toujours présents, quand je vivrais cent mille ans » (hyperbole)." },
+        { type: "redaction", texte: "peigne", question: "**Réécriture (type brevet)** : Réécris le passage suivant **au passé simple**, en remplaçant « je » par « **nous** » (les deux cousins sont accusés ensemble) : « On m'interroge : je nie d'avoir touché le peigne. M. et mademoiselle Lambercier se réunissent, m'exhortent, me pressent, me menacent : je persiste avec opiniâtreté. »", corrige: `**Réécriture**
+« On **nous interrogea** : **nous niâmes** d'avoir touché le peigne. M. et mademoiselle Lambercier se **réunirent**, **nous exhortèrent**, **nous pressèrent**, **nous menacèrent** : **nous persistâmes** avec opiniâtreté. »
+
+**Les modifications**
+- **interrogea, exhortèrent, pressèrent, menacèrent** : passé simple des verbes en -er (3e personne : -a au singulier, -èrent au pluriel ; le sujet de « interrogea » reste « On », au singulier).
+- **réunirent** : « réunir » est un verbe en -ir du 2e groupe (comme « finir ») : passé simple en **-irent** au pluriel (ne pas écrire « réunèrent »).
+- **niâmes, persistâmes** : 1re personne du pluriel du passé simple des verbes en -er, en **-âmes** (avec l'accent circonflexe).
+- **nous** (quatre fois) : le pronom complément « m' » / « me » devient « nous ».
+
+**Pièges** : ne pas écrire « nous niions » (imparfait) ; ne pas oublier l'accent circonflexe de « -âmes » ; « d'avoir touché » ne change pas (infinitif passé).` },
+        { type: "redaction", texte: "peigne", question: "**Question développée (type brevet)** : Montre que ce texte fait entendre à la fois l'**enfant** qui subit l'injustice et l'**adulte** qui s'en souvient. Selon toi, pourquoi Rousseau raconte-t-il cet épisode ? Appuie-toi sur au moins trois procédés d'écriture.", corrige: `**Réponse attendue (environ 15 lignes)**
+Ce texte fait entendre deux voix : celle de l'enfant accusé et celle de l'adulte qui écrit, près de cinquante ans plus tard.
+
+D'abord, l'**enfant** vit la scène. Le **présent de narration** (« On m'interroge : je nie ») plonge le lecteur dans l'interrogatoire, et la **gradation** « m'exhortent, me pressent, me menacent » montre la pression croissante des adultes. L'enfant résiste : « je fus inébranlable », « J'aurais souffert la mort ». Ses émotions sont violentes, comme le montre l'**énumération** « l'indignation, la rage, le désespoir » et le cri répété « Carnifex ! carnifex ! carnifex ! ».
+
+Ensuite, l'**adulte** commente au **présent d'énonciation** : « je déclare à la face du ciel que j'en étais innocent », « Je sens en écrivant ceci que mon pouls s'élève encore ». Il prend du recul : il reconnaît que « les apparences [le] condamnaient » et qu'il ne peut « démêler » ce qu'il ressentait. Les **exclamations** et l'**anaphore** « quel renversement d'idées ! quel désordre de sentiments ! » cherchent à faire partager au lecteur le choc de l'enfant.
+
+Enfin, Rousseau raconte cet épisode pour **se justifier** (il clame son innocence comme dans un serment) et pour **comprendre qui il est devenu** : cette première injustice a mis fin à « la sérénité de [sa] vie enfantine ». Personnellement, je trouve ce récit touchant, car chacun a déjà connu l'injustice d'être accusé à tort.
+
+**Méthode** : une idée → une citation → le procédé et son effet, trois fois ; puis une réponse claire à la question « pourquoi ? ».` }
       ]
     },
     {
@@ -392,6 +446,25 @@ L'entrée « Agir sur le monde » s'intitule en 3e **« Agir dans la cité : ind
 >! **Exemple** : Éluard répète « Sur mes cahiers d'écolier / Sur mon pupitre et les arbres / Sur le sable sur la neige / J'écris ton nom » jusqu'au mot final « Liberté ».
 >! L'**anaphore** de « Sur » et le refrain « J'écris ton nom » créent un rythme d'incantation. Le mot « Liberté », retardé jusqu'à la fin, devient une révélation. Le poème est simple, facile à retenir : il peut être répété, transmis, et donner du courage.
 
+## Deux œuvres à étudier de près
+### Henri Barbusse, *Le Feu* (1916) : témoigner depuis la tranchée
+Barbusse s'engage comme simple soldat en 1914, à quarante et un ans, et combat en première ligne. *Le Feu*, sous-titré *Journal d'une escouade*, raconte la vie de ses camarades. Le narrateur dit **« je »** et **« nous »** : il fait partie de ceux qu'il décrit. Pour dénoncer la guerre, Barbusse :
+- montre un **paysage détruit**, noyé de boue, sans aucune beauté ;
+- **animalise** les soldats (« des espèces d'ours qui pataugent et grognent ») : la guerre les déshumanise ;
+- fait entendre le bruit incessant des armes (**onomatopées**, phrases longues comme des rafales) ;
+- refuse l'héroïsme : ni gloire ni exploit, seulement la souffrance et l'usure.
+
+### Pablo Picasso, *Guernica* (1937) : une image contre la guerre
+Le 26 avril 1937, pendant la guerre d'Espagne, des avions allemands et italiens, alliés du général Franco, bombardent la petite ville basque de Guernica. Picasso peint aussitôt une toile immense (environ 3,5 m sur 7,8 m), commandée par la République espagnole pour son pavillon à l'Exposition internationale de Paris. Il n'y a ni avion ni bombe : seulement les **victimes** (une mère et son enfant mort, un cheval transpercé, un soldat démembré, des femmes qui crient), en **noir, blanc et gris**, avec des corps **déformés et disloqués**.
+
+>! **Méthode pour une image engagée**
+>! 1. Situe l'œuvre : auteur, date, événement historique.
+>! 2. Décris ce que tu vois : personnages, place dans la composition, couleurs.
+>! 3. Interprète : que montre l'artiste, que laisse-t-il **hors-champ**, quelles émotions veut-il provoquer ?
+>! 4. Rapproche-la d'un texte : même cible (la guerre, la souffrance des innocents), mais des moyens différents (les mots et la durée pour le texte ; les formes, les couleurs et l'instantané pour l'image).
+
+Les exercices de ce chapitre proposent un extrait du *Feu* et une description détaillée de *Guernica*.
+
 ## L'individu face au pouvoir
 - **Antigone** (Anouilh, 1944, d'après Sophocle) : la jeune fille refuse d'obéir à la loi du roi Créon, qui interdit d'enterrer son frère. Elle dit **non**, au prix de sa vie. Jouée sous l'Occupation, la pièce fait réfléchir à la résistance et au pouvoir.
 - **L'intellectuel engagé** : en 1898, Émile Zola publie « J'accuse...! » dans le journal *L'Aurore* pour défendre le capitaine Dreyfus, condamné à tort. Au XXe siècle, Jean-Paul Sartre théorise l'**engagement** de l'écrivain.
@@ -424,6 +497,40 @@ Un texte engagé fait souvent les deux.
 - Réciter son cours d'histoire au lieu d'analyser le texte : le contexte éclaire, mais c'est le texte qu'on étudie.
 - Confondre *épique* (qui glorifie) et *pathétique* (qui fait pleurer) : un texte qui dénonce la guerre est rarement épique.
 `,
+      textes: {
+        feu: `**Henri Barbusse, *Le Feu. Journal d'une escouade*** (1916, prix Goncourt), début du chapitre II, « Dans la terre » (texte de l'édition Flammarion, 1916, sur Wikisource). Nous sommes à l'aube, dans une tranchée française de première ligne ; le narrateur est l'un des soldats de l'escouade.
+
+Le grand ciel pâle se peuple de coups de tonnerre : chaque explosion montre à la fois, tombant d'un éclair roux, une colonne de feu dans le reste de nuit et une colonne de nuée dans ce qu'il y a déjà de jour.
+
+Là-haut, très haut, très loin, un vol d'oiseaux terribles, à l'haleine puissante et saccadée, qu'on entend sans les voir, monte en cercle pour regarder la terre.
+
+La terre ! Le désert commence à apparaître, immense et plein d'eau, sous la longue désolation de l'aube. Des mares, des entonnoirs, dont la bise aiguë de l'extrême matin pince et fait frissonner l'eau ; des pistes tracées par les troupes et les convois nocturnes dans ces champs de stérilité et qui sont striées d'ornières luisant comme des rails d'acier dans la clarté pauvre ; des amas de boue où se dressent çà et là quelques piquets cassés, des chevalets en X, disloqués, des paquets de fil de fer roulés, tortillés, en buissons. Avec ses bancs de vase et ses flaques, on dirait une toile grise démesurée qui flotte sur la mer, immergée par endroits. Il ne pleut pas, mais tout est mouillé, suintant, lavé, naufragé, et la lumière blafarde a l'air de couler.
+
+On distingue de longs fossés en lacis où le résidu de nuit s'accumule. C'est la tranchée. Le fond en est tapissé d'une couche visqueuse d'où le pied se décolle à chaque pas avec bruit, et qui sent mauvais autour de chaque abri, à cause de l'urine de la nuit. Les trous eux-mêmes, si on s'y penche en passant, puent aussi, comme des bouches.
+
+Je vois des ombres émerger de ces puits latéraux, et se mouvoir, masses énormes et difformes : des espèces d'ours qui pataugent et grognent. C'est nous.
+
+Nous sommes emmitouflés à la manière des populations arctiques. Lainages, couvertures, toiles à sac, nous empaquettent, nous surmontent, nous arrondissent étrangement. Quelques-uns s'étirent, vomissent des bâillements. On perçoit des figures, rougeoyantes ou livides, avec des salissures qui les balafrent, trouées par les veilleuses d'yeux brouillés et collés au bord, embroussaillées de barbes non taillées ou encrassées de poils non rasés.
+
+Tac ! Tac ! Pan ! Les coups de fusil, la canonnade. Au-dessus de nous, partout, ça crépite ou ça roule, par longues rafales ou par coups séparés. Le sombre et flamboyant orage ne cesse jamais, jamais. Depuis plus de quinze mois, depuis cinq cents jours, en ce lieu du monde où nous sommes, la fusillade et le bombardement ne se sont pas arrêtés du matin au soir et du soir au matin. On est enterré au fond d'un éternel champ de bataille ; mais comme le tic-tac des horloges de nos maisons, aux temps d'autrefois, dans le passé quasi légendaire, on n'entend cela que lorsqu'on écoute.
+
+*nuée* : gros nuage ; *entonnoirs* : trous creusés dans le sol par les obus ; *bise* : vent froid ; *ornières* : traces creusées par les roues ; *chevalets en X* : supports de bois des barbelés ; *suintant* : qui laisse couler de l'eau goutte à goutte ; *blafarde* : d'un blanc terne ; *en lacis* : entrecroisés ; *puits latéraux* : abris creusés dans les parois de la tranchée ; *visqueuse* : épaisse et collante ; *emmitouflés* : enveloppés chaudement ; *livides* : très pâles ; *balafrent* : marquent comme des cicatrices ; *veilleuses* : petites lumières qui brillent faiblement ; *canonnade* : tirs de canon.`,
+        guernica: `**Document iconographique : Pablo Picasso, *Guernica*** (1937, huile sur toile, 349,3 × 776,6 cm, Madrid, musée Reina Sofía). Le tableau n'étant pas reproduit dans l'appli, en voici une description précise ; si tu le peux, regarde-le aussi dans un livre ou sur le site du musée.
+
+**Le contexte.** Le 26 avril 1937, pendant la guerre d'Espagne, des avions allemands (la Légion Condor) et italiens, alliés du général Franco, bombardent la petite ville basque de Guernica. Les victimes sont surtout des civils. Picasso, qui vit à Paris, peint le tableau en un peu plus d'un mois (1er mai-4 juin 1937). Il lui a été commandé par le gouvernement de la République espagnole pour son pavillon à l'Exposition internationale de Paris.
+
+**Ce que l'on voit.**
+- La toile est immense (près de 8 mètres de long) et peinte uniquement en **noir, blanc et gris**, comme une photographie de journal.
+- Les formes sont simplifiées, découpées, déformées : les corps semblent **disloqués**, les visages réduits à des yeux, des bouches ouvertes, des langues pointues.
+- **À gauche**, sous la tête d'un taureau immobile, une **mère hurle**, la tête renversée vers le ciel, en tenant dans ses bras son **enfant mort**.
+- **Au centre**, un **cheval** transpercé par une lance hurle de douleur. Au-dessus de lui, une **ampoule électrique** entourée d'une forme d'œil répand une lumière crue. Une femme se penche par une fenêtre, le bras tendu, en tenant une lampe.
+- **En bas**, un **soldat** gît à terre, démembré, une épée brisée dans la main ; près de cette main pousse une petite fleur.
+- **À droite**, une femme aux bras levés crie au milieu d'une maison en **flammes** ; une autre, à genoux, se traîne vers le centre.
+- Les figures centrales s'inscrivent dans un grand **triangle** dont le sommet est la lampe.
+- On ne voit **ni avion, ni bombe, ni ennemi** : seulement les victimes.
+
+**Après 1937.** Picasso refuse que le tableau aille en Espagne tant que le pays n'est pas redevenu une démocratie. Il n'y arrive qu'en 1981, après la mort de Franco (1975) et celle du peintre (1973).`,
+      },
       exercices: [
         { type: "qcm", question: "Quel roman d'Henri Barbusse, prix Goncourt 1916, décrit la vie des soldats dans les tranchées ?", choix: ["*La Nuit*", "*Le Silence de la mer*", "*Le Feu*", "*Les Croix de bois*"], reponse: 2, explication: "*Le Feu* (1916), sous-titré *Journal d'une escouade*. *La Nuit* est d'Elie Wiesel, *Le Silence de la mer* de Vercors, *Les Croix de bois* de Roland Dorgelès (1919)." },
         { type: "vf", question: "Le poème « Liberté » de Paul Éluard (1942) a circulé en France occupée, notamment parachuté par des avions alliés.", reponse: true, explication: "C'est un poème de la **Résistance** : simple, rythmé par l'anaphore « Sur... » et le refrain « J'écris ton nom », il pouvait être appris et transmis pour garder l'espoir." },
@@ -464,7 +571,52 @@ La nuit dernière, il a plu sans arrêt. La tranchée est devenue un ruisseau de
 Embrasse maman et dis-lui que je pense à elle chaque soir. Garde-moi une place près du feu pour ma permission. Ton frère qui t'aime,
 Louis
 
-**Critères** : codes de la lettre, cohérence historique, émotions, temps verbaux, vocabulaire précis, orthographe.` }
+**Critères** : codes de la lettre, cohérence historique, émotions, temps verbaux, vocabulaire précis, orthographe.` },
+        { type: "qcm", texte: "feu", question: "Qui désigne le « nous » de ce texte ?", choix: ["Les habitants d'un village bombardé", "Les officiers qui commandent depuis l'arrière", "Les soldats de l'escouade, dont fait partie le narrateur", "Les lecteurs du roman"], reponse: 2, explication: "Le narrateur voit sortir des ombres des abris, puis comprend : « C'est nous. » Il fait partie des soldats qu'il décrit : c'est ce qui donne au *Feu* sa force de **témoignage** (Barbusse a lui-même combattu dans les tranchées)." },
+        { type: "saisie", texte: "feu", question: "Quelle phrase très courte (trois mots) révèle que les « espèces d'ours » sont en réalité les soldats eux-mêmes ?", reponses: ["C'est nous"], explication: "« **C'est nous.** » Après une longue phrase de description, cette phrase brève crée un effet de surprise : le narrateur ne se reconnaît pas tout de suite, tant la guerre a transformé les hommes." },
+        { type: "qcm", texte: "feu", question: "« des espèces d'ours qui pataugent et grognent » : quel est l'effet de cette image ?", choix: ["Elle montre que les soldats sont joyeux et en bonne santé", "Elle animalise les soldats : la guerre les déshumanise", "Elle décrit les animaux qui vivent près du front", "Elle glorifie la force des combattants"], reponse: 1, explication: "Les soldats, enveloppés de couvertures et couverts de boue, ressemblent à des bêtes : ils « pataugent » et « grognent » au lieu de marcher et de parler. Cette **animalisation** dénonce une guerre qui réduit les hommes à une vie de bêtes, sous la terre. Rien d'**épique** ici : aucune gloire." },
+        { type: "qcm", texte: "feu", question: "Quel champ lexical domine dans le 3e paragraphe (« La terre ! Le désert commence à apparaître... ») ?", choix: ["la lumière et la chaleur", "la nourriture", "le feu", "l'eau et la boue"], reponse: 3, explication: "« plein d'eau », « mares », « boue », « vase », « flaques », « mouillé, suintant, lavé, naufragé » : le champ lexical de **l'eau et de la boue** transforme le champ de bataille en marécage, en « désert » où rien ne pousse (« champs de stérilité »). La comparaison avec une « toile grise [...] qui flotte sur la mer » renforce l'impression de naufrage." },
+        { type: "saisie", texte: "feu", question: "« Tac ! Tac ! Pan ! » : comment appelle-t-on ces mots qui imitent un bruit ? (un mot)", reponses: ["onomatopée", "une onomatopée", "onomatopées", "des onomatopées", "ce sont des onomatopées"], explication: "Ce sont des **onomatopées**. Placées en tête du paragraphe, elles font entendre au lecteur le bruit des fusils et des canons, qui ne s'arrête jamais (« ça crépite ou ça roule »)." },
+        { type: "qcm", texte: "feu", question: "« Le sombre et flamboyant orage » : quelle figure de style réunit « sombre » et « flamboyant » dans un même groupe de mots ?", choix: ["un oxymore", "une litote", "un chiasme", "une périphrase"], reponse: 0, explication: "« Sombre » et « flamboyant » sont contradictoires : c'est un **oxymore**. Le bombardement, désigné par la **métaphore** de l'« orage », est à la fois menaçant et éclatant de feu. L'image montre une violence qui semble aussi naturelle et inévitable qu'une tempête." },
+        { type: "vf", texte: "feu", question: "D'après le dernier paragraphe, les tirs s'arrêtent chaque nuit, ce qui permet aux soldats de se reposer.", reponse: false, explication: "Au contraire : « la fusillade et le bombardement ne se sont pas arrêtés du matin au soir et **du soir au matin** », depuis « cinq cents jours ». La répétition « ne cesse jamais, jamais » et le **chiasme** « du matin au soir et du soir au matin » insistent sur ce bruit sans fin, devenu si habituel qu'« on n'entend cela que lorsqu'on écoute »." },
+        { type: "redaction", texte: "feu", question: "**Réécriture (type brevet)** : Réécris le passage suivant en remplaçant « nous » par « **je** » (le narrateur est un homme) : « Nous sommes emmitouflés à la manière des populations arctiques. Lainages, couvertures, toiles à sac, nous empaquettent, nous surmontent, nous arrondissent étrangement. »", corrige: `**Réécriture**
+« **Je suis emmitouflé** à la manière des populations arctiques. Lainages, couvertures, toiles à sac, **m'empaquettent**, **me surmontent**, **m'arrondissent** étrangement. »
+
+**Les cinq modifications**
+1. **Je suis** : le verbe être s'accorde avec le nouveau sujet.
+2. **emmitouflé** : l'adjectif (participe passé) attribut du sujet passe au masculin singulier.
+3. à 5. **m'**, **me**, **m'** : le pronom complément « nous » devient « me », élidé en « m' » devant une voyelle.
+
+**Le piège** : « empaquettent », « surmontent », « arrondissent » restent au **pluriel**. Leur sujet n'est pas « nous » mais « Lainages, couvertures, toiles à sac » : seul le pronom complément change.` },
+        { type: "redaction", texte: "feu", question: "**Question développée (type brevet)** : Comment Barbusse montre-t-il que la guerre transforme à la fois le **paysage** et les **hommes** ? Que veut-il faire comprendre à ses lecteurs de 1916 ? Appuie-toi sur au moins trois procédés d'écriture.", corrige: `**Réponse attendue (environ 15 lignes)**
+Dans cet extrait, Barbusse montre que la guerre détruit tout : la terre comme les hommes.
+
+D'abord, le **paysage** n'est plus un paysage. Le narrateur parle d'un « désert », de « champs de stérilité » : la terre ne produit plus rien. Le **champ lexical de l'eau et de la boue** (« mares », « vase », « flaques », « mouillé, suintant, lavé, naufragé ») en fait un marécage. Les **énumérations** de débris (« piquets cassés », « chevalets en X, disloqués », « fil de fer roulés, tortillés ») montrent un monde brisé par les obus.
+
+Ensuite, les **hommes** sont transformés. Ils vivent « dans la terre », dans des trous qui « puent [...] comme des bouches ». Ils apparaissent comme des « masses énormes et difformes », des « espèces d'ours qui pataugent et grognent » : cette **animalisation** montre qu'ils ont perdu leur apparence humaine, au point que le narrateur ne se reconnaît pas tout de suite (« C'est nous. »). Leurs visages sont « livides », salis, mangés de barbe.
+
+Enfin, le bruit des armes ne s'arrête jamais : les **onomatopées** « Tac ! Tac ! Pan ! », la **métaphore** de l'« orage » et la précision « depuis cinq cents jours » disent l'usure de soldats « enterré[s] au fond d'un éternel champ de bataille ».
+
+Barbusse veut donc faire comprendre aux lecteurs de l'arrière, qui imaginent une guerre héroïque, la **réalité** vécue par les soldats : ni gloire ni exploit, mais la boue, la saleté et l'attente. Son témoignage **dénonce** la guerre.
+
+**Méthode** : une idée → une citation → le procédé et son effet ; puis une conclusion qui répond à la question « que veut-il faire comprendre ? ».` },
+        { type: "vf", texte: "guernica", question: "Dans *Guernica*, Picasso représente les avions qui bombardent la ville.", reponse: false, explication: "On ne voit **ni avion, ni bombe, ni ennemi** : le bombardement reste **hors-champ**. Picasso ne montre que ses **victimes** (la mère et l'enfant mort, le cheval, le soldat, les femmes qui crient). Il oblige ainsi le spectateur à regarder la souffrance, pas l'exploit militaire." },
+        { type: "qcm", texte: "guernica", question: "Pourquoi Picasso a-t-il peint *Guernica* seulement en noir, blanc et gris ?", choix: ["Parce que les couleurs étaient interdites à l'Exposition de 1937", "Pour faire un tableau gai et lumineux", "Pour imiter un plan de la ville vu d'avion", "Pour créer une atmosphère de deuil et rappeler les photographies de presse"], reponse: 3, explication: "L'absence de couleur évoque le **deuil**, la nuit, la mort, mais aussi les **photographies des journaux** qui ont fait connaître le massacre au monde entier. Le tableau devient un témoignage, presque un reportage." },
+        { type: "qcm", texte: "guernica", question: "La mère qui hurle, la tête renversée, en tenant son enfant mort relève surtout du registre :", choix: ["comique", "pathétique", "épique", "fantastique"], reponse: 1, explication: "Cette figure cherche à **émouvoir** et à faire pitié : c'est le registre **pathétique**. Une mère et son enfant sont des victimes innocentes par excellence : Picasso dénonce un bombardement qui frappe les civils." },
+        { type: "redaction", texte: "guernica", question: "**Question sur le texte et l'image (type brevet)** : Compare *Guernica* et l'extrait du *Feu* de Barbusse (étudié dans les exercices précédents : la tranchée, la boue, les soldats « espèces d'ours », le bruit incessant « Tac ! Tac ! Pan ! »). Quels sont leurs points communs ? En quoi leurs moyens sont-ils différents ?", corrige: `**Réponse attendue (environ 12 lignes)**
+**Présenter les deux œuvres** : *Le Feu* est un roman-témoignage écrit en 1916 par un soldat de la Première Guerre mondiale ; *Guernica* est un tableau peint par Picasso en 1937, après le bombardement d'une ville basque pendant la guerre d'Espagne.
+
+**Les points communs**
+- Les deux œuvres **dénoncent la guerre** en montrant ses victimes, et non ses héros : ni gloire, ni exploit.
+- Elles montrent des corps **déformés** : les soldats de Barbusse sont des « masses énormes et difformes », les personnages de Picasso sont disloqués, réduits à des bouches qui crient.
+- Elles créent une atmosphère **sombre** : la « lumière blafarde », la « toile grise » de la boue chez Barbusse ; le noir, le blanc et le gris chez Picasso.
+- L'ennemi reste **invisible** : Barbusse ne montre aucun soldat ennemi, et les avions ne sont que des « oiseaux terribles [...] qu'on entend sans les voir » ; Picasso ne peint ni les avions ni les bombes.
+
+**Les différences**
+- Le **texte** se déroule dans la **durée** : il fait entendre le bruit (onomatopées), sentir l'odeur (« puent »), et il insiste sur l'usure (« depuis cinq cents jours »). Il parle de l'intérieur, avec le « je » et le « nous » d'un soldat.
+- L'**image** frappe en un **instant** : tout est visible d'un seul regard. Elle montre surtout des **civils** (une mère, des femmes) et utilise des moyens propres à la peinture : formes, composition en triangle, absence de couleur, lumière crue de l'ampoule.
+
+**Conclusion** : par des moyens différents, l'écrivain et le peintre témoignent de la souffrance des innocents et veulent provoquer l'indignation du public contre la guerre.` }
       ]
     },
     {

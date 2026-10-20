@@ -1459,5 +1459,326 @@ Quand un personnage parle **à part**, il s'adresse au public : les autres perso
 **Critères de réussite** : la différence entre l'aparté (bas, vers le public) et la réplique à voix haute (vers les personnages) est bien marquée ; les pauses suivent la ponctuation ; le ton change avec l'intention de Martine (joie de la vengeance, puis sérieux du mensonge).` },
       ],
     },
+    {
+      id: "orthographe-lexicale",
+      titre: "L'orthographe des mots : raisonner et mémoriser",
+      theme: "Vocabulaire",
+      cours: `
+## Ce que dit le programme
+En 6e, tu dois **écrire correctement les mots fréquents**, même quand tu écris seul. On parle d'**orthographe lexicale** : c'est l'orthographe du mot lui-même, telle qu'on la trouve dans le dictionnaire (« forêt », « garçon », « ombre »). Elle est différente de l'orthographe **grammaticale**, qui dépend de la phrase (les accords, les terminaisons des verbes, les homophones comme a / à).
+
+Pour bien écrire un mot, tu as deux outils :
+- **raisonner** : chercher un mot de la même famille, appliquer une règle de position (m devant b, ç devant a...) ;
+- **mémoriser** : certains mots ne s'expliquent pas, il faut les apprendre par cœur (beaucoup, toujours, parmi...).
+
+## 1. La lettre muette à la fin d'un mot
+Beaucoup de mots se terminent par une lettre qu'on n'entend pas. Pour la trouver, **cherche un mot de la même famille** ou mets le mot au **féminin** : la lettre muette s'entend alors.
+| Mot | Mot de la même famille | Lettre muette |
+|---|---|---|
+| le galop | galoper | **p** |
+| un tapis | tapisser | **s** |
+| le bord | border, la bordure | **d** |
+| le sang | sanguin | **g** |
+| le respect | respecter | **c** et **t** |
+| grand | grande, grandir | **d** |
+| un chat | une chatte | **t** |
+
+>! **Attention** : la famille aide le plus souvent, mais pas toujours. On écrit « un abri » sans t, malgré « abriter » ; « le tabac » prend un c, mais on dit « une tabatière ». En cas de doute, ouvre le **dictionnaire**.
+
+## 2. M devant m, b, p
+Devant **m**, **b** et **p**, on écrit **m** au lieu de n : une **om**bre, le **tem**ps, **em**porter, un ti**m**bre, **im**possible, **em**mener.
+Partout ailleurs, on écrit n : un e**n**fant, ra**n**ger, la ve**n**te.
+Exceptions à connaître : un **bonbon**, une **bonbonne**, l'**embonpoint**.
+
+## 3. Les accents et la cédille
+- Le **e** ne prend **pas d'accent** devant une **consonne double**, devant **deux consonnes** qui se suivent ou devant **x** : la te**rr**e, be**ll**e, ve**rt**e, me**rc**i, un e**x**emple. Sauf quand la seconde consonne est **l** ou **r** : une r**è**gle, un m**è**tre, un z**è**bre.
+- L'**accent circonflexe** rappelle souvent un **s** qui a disparu. Le s réapparaît dans un mot de la même famille : la for**ê**t → fore**s**tier ; l'h**ô**pital → ho**s**pitalier ; la f**ê**te → fe**s**tin ; une b**ê**te → be**s**tiole ; la fen**ê**tre → défene**s**trer (jeter par la fenêtre).
+- La **cédille** garde le son [s] devant **a, o, u** : un gar**ç**on, une le**ç**on, re**ç**u, il avan**ç**ait. Jamais de cédille devant e ou i (ce, ci) : le c s'y prononce déjà [s].
+- De même, pour garder le son doux du g (celui de « je ») devant a et o, on ajoute un **e** : un pi**geo**n, une na**geo**ire. Pour garder le son dur du g (celui de « gare ») devant e et i, on ajoute un **u** : la **gu**erre, un **gu**ide.
+
+## 4. Le son [s] et le son [z]
+- Entre deux voyelles, un seul **s** se prononce [z] : un poi**s**on, un cou**s**in, le dé**s**ert.
+- Pour entendre [s] entre deux voyelles, on double le s : un poi**ss**on, un cou**ss**in, le de**ss**ert.
+- Le son [s] peut aussi s'écrire **c** (devant e, i : la **c**ité), **ç** (le gar**ç**on), **sc** (la pi**sc**ine), **t** (l'atten**t**ion).
+
+## 5. Doubler la consonne ?
+- Beaucoup de mots qui commencent par **ap-, af-, at-, ac-** doublent la consonne : **app**orter, **aff**reux, **att**raper, **acc**rocher. Mais il y a des exceptions : apercevoir, apaiser, un atelier, afin. Apprends-les.
+- Devant un mot qui commence par m, l ou r, le préfixe in- devient im-, il-, ir- : la consonne est doublée : **imm**obile, **ill**isible, **irr**éel.
+
+## 6. La fin des noms : quelques régularités
+| Son final | Règle | Exceptions à connaître |
+|---|---|---|
+| noms féminins en **-té** et **-tié** | pas de e final : la beau**té**, la liber**té**, l'ami**tié**, la moi**tié** | la dict**ée**, la mont**ée**, la jet**ée**, la port**ée**, et les noms de contenu : une assiett**ée**, une pellet**ée** |
+| autres noms féminins en [e] | **-ée** : la f**ée**, l'id**ée**, la journ**ée** | |
+| noms féminins en [œr] | **-eur** sans e : la p**eur**, la fl**eur**, la coul**eur** | l'h**eure**, la deme**ure** |
+| noms féminins en [i] | **-ie** : la fol**ie**, la plu**ie**, la mag**ie** | la souri**s**, la brebi**s**, la perdri**x**, la nui**t**, la fourm**i** |
+| [aj], [ɛj], [œj] | masculin **-ail, -eil, -euil** ; féminin **-aille, -eille, -euille** : le trav**ail** / la p**aille** ; le sol**eil** / l'ab**eille** ; le faut**euil** / la f**euille** | le portefeu**ille** (masculin) |
+| [œj] après c ou g | on écrit **-ueil** (pour garder le son [k] ou [g]) : l'acc**ueil**, c**ueill**ir, l'org**ueil** | |
+
+## 7. Les homophones lexicaux : penser au sens et à la famille
+Des mots qui se prononcent pareil s'écrivent différemment selon leur sens. La **famille** t'aide à choisir : le **chant** (chanter) / le **champ** (champêtre) ; le **conte** (conter, conteur) / le **compte** (compter) / le **comte** (comtesse).
+
+## 8. Les mots invariables à mémoriser
+Ils ne changent jamais et ne s'expliquent pas par une règle : il faut les apprendre.
+| Pour dire le temps | Pour dire la manière, la quantité, le lieu | Prépositions |
+|---|---|---|
+| toujours, jamais, souvent, longtemps, aujourd'hui, hier, demain, autrefois, déjà, ensuite, d'abord, bientôt | beaucoup, assez, très, trop, peut-être, ailleurs, près, loin, dehors | parmi, malgré, pendant, depuis, après, dès, vers, sans |
+
+Pièges : tou**jours** et a**lors** prennent un s ; **parmi** et **malgré** n'en prennent pas.
+
+>! **Exemple résolu** : comment écrire « Le loup s'approcha du [bor] du chemin » ?
+>! 1. J'entends [bor] : la fin du mot est peut-être muette.
+>! 2. Je cherche un mot de la même famille : border, la bordure. J'entends un **d**.
+>! 3. J'écris : « Le loup s'approcha du **bord** du chemin. »
+
+## Erreurs fréquentes
+| On lit souvent | On écrit | Pourquoi |
+|---|---|---|
+| une onbre | une **ombre** | m devant b |
+| un garcon | un **garçon** | cédille devant o |
+| la beautée | la **beauté** | nom féminin en -té |
+| la peure | la **peur** | nom féminin en -eur |
+| malgrès, parmis | **malgré**, **parmi** | mots invariables sans s |
+| toujour | **toujours** | mot invariable avec s |
+| la foret | la **forêt** | circonflexe : forestier (un « foret » est un outil pour percer) |
+
+> **À retenir**
+> Pour trouver une lettre muette : cherche un mot de la même famille ou le féminin (galop → galoper).
+> M devant m, b, p (sauf bonbon, bonbonne, embonpoint).
+> Le circonflexe cache souvent un s disparu (forêt → forestier) ; la cédille garde le son [s] devant a, o, u.
+> Un seul s entre deux voyelles = [z] (poison) ; ss = [s] (poisson).
+> Noms féminins en -té, -tié et en -eur : pas de e final (sauf dictée, montée, jetée, portée ; heure, demeure).
+> Les mots invariables (toujours, parmi, malgré, beaucoup...) s'apprennent par cœur.
+`,
+      exercices: [
+        { type: "qcm", question: "Quelle lettre muette termine le mot « le galo... » ?", choix: ["un t", "un d", "un s", "un p"], reponse: 3, explication: "Dans « galoper », on entend un **p** : on écrit donc « le galo**p** ». C'est la méthode de la famille de mots : le mot de la même famille fait entendre la lettre muette." },
+        { type: "saisie", question: "Complète avec m ou n, puis écris le mot entier : « Le chat dormait à l'o...bre du mur. »", reponses: ["ombre", "l'ombre", "à l'ombre"], explication: "Devant **b** (comme devant m et p), on écrit **m** : l'o**m**bre. De même : le ti**m**bre, e**m**porter, le te**m**ps." },
+        { type: "vf", question: "Le mot « bonbon » s'écrit avec un n devant le b : c'est une exception à la règle « m devant m, b, p ».", reponse: true, explication: "On écrit bien « un bo**n**bon » avec un n, comme « une bonbonne » et « l'embonpoint ». Ce sont les exceptions à connaître ; partout ailleurs, on met m devant b : une o**m**bre, une ja**m**be." },
+        { type: "qcm", question: "Quel mot est correctement écrit ?", choix: ["la beautée", "la beauté", "la beautè", "la bauté"], reponse: 1, explication: "Les noms féminins en **-té** s'écrivent sans e final : la beau**té**, la liberté, la bonté. Seules exceptions : la dictée, la montée, la jetée, la portée (et les noms de contenu comme une assiettée)." },
+        { type: "saisie", question: "L'accent circonflexe de « forêt » rappelle un s qui a disparu. Écris un mot de la même famille dans lequel on entend ce s.", reponses: ["forestier", "forestière", "forestiers", "forestières", "un forestier", "déforestation", "la déforestation", "reforestation", "la reforestation", "garde forestier", "un garde forestier"], explication: "Dans « fore**s**tier » ou « défore**s**tation », le s s'entend. Au Moyen Âge, on écrivait « forest » ; le s ne se prononçait plus, il a été remplacé par l'accent circonflexe : la forêt. De même : hôpital → hospitalier, fête → festin." },
+        { type: "qcm", question: "Complète : « La sorcière versa un ... dans la potion. » (le mot désigne une substance qui empoisonne)", choix: ["poisson", "poiçon", "poison", "poisont"], reponse: 2, explication: "Il faut entendre [z] : un seul **s** entre deux voyelles se prononce [z], donc **poison**. Avec deux s, « poisson » se prononce [s] et désigne l'animal. « Poiçon » est impossible : on ne met pas de cédille devant o pour faire [z]." },
+        { type: "saisie", question: "Complète avec c ou ç, puis écris le mot entier : « Le gar...on ramassait des cailloux. »", reponses: ["garçon", "le garçon"], explication: "Devant **o**, le c se prononcerait [k] (comme dans « cobra ») : pour garder le son [s], on met une **cédille** : gar**ç**on, le**ç**on, ma**ç**on." },
+        { type: "qcm", question: "Complète : « Le ... sonna à sept heures. »", choix: ["réveil", "réveille", "réveile", "réveuil"], reponse: 0, explication: "C'est un nom **masculin** : il s'écrit **-eil**, comme le soleil, l'orteil. Les noms féminins prennent -eille (l'abeille, l'oreille). Attention : « il se réveille » existe, mais c'est le **verbe** se réveiller, pas le nom." },
+        { type: "vf", question: "On écrit « la tèrre », avec un accent grave, car on entend le son [ɛ] comme dans « père ».", reponse: false, explication: "Devant une **consonne double** (ici rr), le e ne prend **pas** d'accent, même s'il se prononce [ɛ] : la te**rr**e, be**ll**e, une pie**rr**e. De même devant deux consonnes différentes (ve**rt**e, me**rc**i) ou devant x (e**x**emple)." },
+        { type: "redaction", question: "**Dictée préparée (type contrôle)** : recopie ce texte en corrigeant les **neuf** erreurs d'orthographe lexicale, puis justifie chaque correction en une phrase. « Au bor de la foret, le garcon marchait dans l'onbre des grands arbres. Malgrés sa peure, il avancait toujour : il voulait cueuillir des champignons pour son amie. »", corrige: `**Texte corrigé**
+« Au **bord** de la **forêt**, le **garçon** marchait dans l'**ombre** des grands arbres. **Malgré** sa **peur**, il **avançait** **toujours** : il voulait **cueillir** des champignons pour son amie. »
+
+**Les neuf corrections**
+1. « bord » : lettre muette d, qu'on entend dans « border », « la bordure ».
+2. « forêt » : accent circonflexe, qui rappelle le s de « forestier » (un « foret » sans accent est un outil pour percer).
+3. « garçon » : cédille, pour garder le son [s] devant o.
+4. « ombre » : m devant b.
+5. « Malgré » : mot invariable, sans s.
+6. « peur » : nom féminin en -eur, sans e final.
+7. « avançait » : cédille devant a (le verbe avancer garde le son [s] : nous avançons, il avançait).
+8. « toujours » : mot invariable, toujours avec un s.
+9. « cueillir » : après c, on écrit -ueil pour garder le son [k] (comme accueil, orgueil).
+
+**Remarque** : « marchait », « voulait » et « amie » étaient déjà corrects. Pour réussir une dictée, relis-toi une fois pour les accords (orthographe grammaticale), puis une fois pour l'orthographe des mots (lettres muettes, accents, m devant b, mots invariables).` },
+      ],
+    },
+    {
+      id: "lire-texte-fondateur-babel",
+      titre: "Lire un texte fondateur : la tour de Babel",
+      theme: "Lecture et compréhension",
+      cours: `
+## Ce que dit le programme
+Dans l'entrée « Créer, recréer le monde : récits des origines », tu dois découvrir **au moins un texte fondateur**, issu notamment des religions monothéistes, et le lire de près. Le récit de la **tour de Babel**, dans la Genèse, est l'un des plus courts et des plus célèbres. Le chapitre « Récits des origines » t'en a donné le résumé : ici, tu lis le texte lui-même.
+
+## Situer le texte
+- Le récit se trouve dans la **Genèse**, premier livre de la Bible, au **chapitre 11, versets 1 à 9**. Un **verset** est une petite partie numérotée d'un chapitre de la Bible : on cite « Genèse 11, 4 » pour le verset 4.
+- Le texte a d'abord été écrit en **hébreu**. Tu le lis dans une **traduction** française, celle de Louis Segond (version révisée de 1910). Une traduction ancienne garde des mots ou des sens vieillis : « entendre » y veut dire « comprendre ».
+- La Genèse est un **texte sacré** pour les juifs et les chrétiens. En classe, on la lit comme un **texte littéraire et culturel** : on cherche ce que le récit raconte et ce qu'il veut dire, sans juger les croyances de chacun.
+
+## Méthode : lire un texte fondateur
+1. **Repérer les étapes** du récit : la situation de départ, le projet des personnages, l'intervention divine, la conséquence.
+2. **Observer les répétitions** : dans les textes anciens, transmis d'abord à l'oral, les mêmes mots reviennent. Ils donnent un rythme et soulignent ce qui est important.
+3. **Chercher ce que le récit explique** : un récit des origines est souvent **étiologique** (il explique la cause d'une chose qui existe : une coutume, un nom, un phénomène).
+4. **Dégager le sens** : quelles valeurs, quelle leçon ? Quels **symboles** (un objet, un lieu qui représente une idée) ?
+
+>! **Exemple résolu : les étapes du récit**
+>! | Versets | Étape | Ce qui se passe |
+>! |---|---|---|
+>! | 1-2 | situation de départ | tous les hommes parlent une seule langue et s'installent dans une plaine |
+>! | 3-4 | projet des hommes | ils fabriquent des briques et veulent bâtir une ville et une tour « dont le sommet touche au ciel » |
+>! | 5-7 | intervention divine | l'Éternel descend voir la tour et décide de « confondre » (mêler, brouiller) leur langage |
+>! | 8 | conséquence | les hommes sont dispersés et arrêtent de bâtir la ville |
+>! | 9 | explication | le lieu s'appelle Babel, parce que l'Éternel y a confondu le langage |
+
+## Les symboles et le sens du récit
+- **La tour qui touche au ciel** : elle représente le désir des hommes de monter jusqu'au domaine de Dieu, de « se faire un nom ». C'est la **démesure**, l'orgueil de celui qui veut dépasser ses limites (comme Arachné qui défie la déesse Minerve, Athéna chez les Grecs).
+- **La brique** : les hommes inventent une technique (« faisons des briques ») ; le récit montre leur puissance, quand ils sont unis.
+- **La dispersion** : les hommes construisent la tour « afin que nous ne soyons pas dispersés » ; or ils finissent justement dispersés. Ce qu'ils voulaient éviter leur arrive : c'est un **retournement**.
+- **Les langues** : le récit explique pourquoi les peuples parlent des langues différentes. Le nom **Babel** est celui de la ville de Babylone en hébreu ; le texte le rapproche du verbe hébreu *balal*, « mêler, confondre » : c'est un **jeu de mots** que la traduction ne peut pas rendre.
+
+## Un récit à replacer dans l'histoire
+« Schinear », dans le texte, désigne la **Mésopotamie** (l'actuel Irak), le pays de Gilgamesh. On y bâtissait en briques cuites liées au bitume, et les villes avaient de grandes tours à étages, les **ziggourats**, comme celle de Babylone. Beaucoup d'historiens pensent que ces tours ont inspiré le récit.
+
+## Erreurs fréquentes
+- Croire que Dieu **détruit** la tour : le texte ne le dit pas. Il dit que les hommes « cessèrent de bâtir la ville ».
+- Prendre « entendre » au sens moderne (percevoir un son) : ici, « qu'ils n'entendent plus la langue, les uns des autres » signifie qu'ils ne se **comprennent** plus.
+- Raconter le récit au lieu d'expliquer : pour une question de lecture, **cite** le texte et dis ce que la citation montre.
+
+> **À retenir**
+> La tour de Babel : Genèse, chapitre 11, versets 1 à 9 ; un texte fondateur, lu ici en traduction.
+> Étapes : une seule langue ; le projet d'une tour qui touche au ciel ; Dieu confond les langues ; les hommes sont dispersés ; le lieu s'appelle Babel.
+> C'est un récit **étiologique** : il explique la diversité des langues et le nom de Babel.
+> Le sens : la démesure des hommes, punie par un retournement (dispersés, alors qu'ils voulaient rester unis).
+`,
+      textes: {
+        babel: `**La tour de Babel, Genèse, chapitre 11, versets 1 à 9** (traduction de Louis Segond, version de 1910 ; les numéros sont ceux des versets)
+
+**1** Toute la terre avait une seule langue et les mêmes mots.
+**2** Comme ils étaient partis de l'orient, ils trouvèrent une plaine au pays de Schinear, et ils y habitèrent.
+**3** Ils se dirent l'un à l'autre : Allons ! faisons des briques, et cuisons-les au feu. Et la brique leur servit de pierre, et le bitume leur servit de ciment.
+**4** Ils dirent encore : Allons ! bâtissons-nous une ville et une tour dont le sommet touche au ciel, et faisons-nous un nom, afin que nous ne soyons pas dispersés sur la face de toute la terre.
+**5** L'Éternel descendit pour voir la ville et la tour que bâtissaient les fils des hommes.
+**6** Et l'Éternel dit : Voici, ils forment un seul peuple et ont tous une même langue, et c'est là ce qu'ils ont entrepris ; maintenant rien ne les empêcherait de faire tout ce qu'ils auraient projeté.
+**7** Allons ! descendons, et là confondons leur langage, afin qu'ils n'entendent plus la langue, les uns des autres.
+**8** Et l'Éternel les dispersa loin de là sur la face de toute la terre ; et ils cessèrent de bâtir la ville.
+**9** C'est pourquoi on l'appela du nom de Babel, car c'est là que l'Éternel confondit le langage de toute la terre, et c'est de là que l'Éternel les dispersa sur la face de toute la terre.
+
+*Mots difficiles* : **l'orient** : l'est, du côté où le soleil se lève ; **Schinear** : nom hébreu de la Mésopotamie ; **le bitume** : sorte de goudron naturel ; **l'Éternel** : nom donné à Dieu dans cette traduction ; **les fils des hommes** : les êtres humains ; **projeter** : avoir le projet de ; **confondre** : mêler, brouiller ; **entendre** : ici, comprendre.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "babel", question: "D'après le verset 1, comment les hommes parlent-ils au début du récit ?", choix: ["Chaque peuple parle sa propre langue.", "Les hommes ne savent pas encore parler.", "Tous les hommes parlent une seule langue.", "Seuls les rois savent parler."], reponse: 2, explication: "Le verset 1 le dit **explicitement** : « Toute la terre avait une seule langue et les mêmes mots. » « Toute la terre » désigne ici tous les habitants de la terre. C'est la situation de départ que le récit va bouleverser." },
+        { type: "saisie", texte: "babel", question: "Selon le verset 3, quel matériau les hommes fabriquent-ils pour remplacer la pierre ? (un mot)", reponses: ["la brique", "brique", "des briques", "briques", "les briques"], explication: "« Faisons des **briques**, et cuisons-les au feu. Et la brique leur servit de pierre » ; le bitume, lui, sert de ciment. Les hommes inventent une technique : le récit montre leur puissance." },
+        { type: "qcm", texte: "babel", question: "Pourquoi les hommes veulent-ils bâtir une ville et une tour (verset 4) ?", choix: ["pour se protéger d'un nouveau déluge", "pour se faire un nom et ne pas être dispersés sur la terre", "pour y enfermer un monstre", "pour obéir à un ordre de Dieu"], reponse: 1, explication: "Le but est donné après « afin que » : « faisons-nous un nom, **afin que** nous ne soyons pas dispersés sur la face de toute la terre ». Ils veulent la gloire (« un nom ») et rester unis. Le texte ne parle ni du déluge ni d'un ordre divin." },
+        { type: "vf", texte: "babel", question: "Dans ce texte, l'Éternel détruit la tour de Babel.", reponse: false, explication: "Le texte ne parle d'**aucune destruction**. L'Éternel « confondit » le langage et « dispersa » les hommes ; alors « ils cessèrent de bâtir la ville ». La construction s'arrête parce que les hommes ne se comprennent plus. Lis toujours ce que dit le texte, pas ce que tu crois savoir." },
+        { type: "qcm", texte: "babel", question: "Verset 7 : « afin qu'ils n'entendent plus la langue, les uns des autres ». Que signifie ici le verbe « entendre » ?", choix: ["comprendre", "écouter de la musique", "percevoir un bruit", "être d'accord pour obéir"], reponse: 0, explication: "Dans la langue ancienne, « entendre » signifie souvent **comprendre** (on dit encore « je n'entends rien à ce problème »). Le contexte le confirme : leur langage est « confondu », mêlé ; ils entendent les sons mais ne se comprennent plus." },
+        { type: "qcm", texte: "babel", question: "Les hommes disent deux fois « Allons ! » pour lancer leur projet ; l'Éternel dit à son tour « Allons ! descendons ». Que montre cette reprise ?", choix: ["L'Éternel encourage les hommes et les aide à finir la tour plus vite.", "Les hommes et l'Éternel travaillent ensemble sur le même chantier.", "Le traducteur s'est trompé et a recopié deux fois le même mot.", "L'Éternel répond au projet des hommes avec leurs propres mots : eux voulaient monter jusqu'au ciel, c'est lui qui descend."], reponse: 3, explication: "La **répétition** de « Allons ! » met face à face deux projets. Les hommes veulent une tour « dont le sommet touche au ciel » ; l'Éternel, lui, « descendit » (verset 5) puis dit « descendons » (verset 7). Le mouvement vers le haut des hommes est arrêté par un mouvement vers le bas." },
+        { type: "saisie", texte: "babel", question: "D'après le verset 9, quel nom est donné au lieu où l'Éternel a confondu le langage ? (un mot)", reponses: ["Babel"], explication: "« C'est pourquoi on l'appela du nom de **Babel** ». « C'est pourquoi » annonce l'**explication** : le récit explique l'origine d'un nom. En hébreu, Babel désigne Babylone, et le texte rapproche ce nom du verbe *balal*, « mêler »." },
+        { type: "qcm", texte: "babel", question: "Pourquoi peut-on parler d'un **retournement** à la fin du récit ?", choix: ["parce que la tour, devenue trop haute, se retourne et s'écroule sur la ville", "parce que les hommes deviennent des dieux et partent vivre dans le ciel", "parce que l'Éternel change d'avis et finit par aider les hommes à bâtir", "parce que les hommes sont dispersés sur toute la terre, ce qu'ils voulaient justement éviter"], reponse: 3, explication: "Au verset 4, les hommes bâtissent « afin que nous ne soyons pas dispersés sur la face de toute la terre ». Aux versets 8 et 9, l'Éternel « les dispersa [...] sur la face de toute la terre » : ce sont presque les **mêmes mots**. Ce qu'ils voulaient éviter leur arrive : c'est la punition de leur démesure." },
+        { type: "redaction", texte: "babel", question: "**Question de lecture (type contrôle)** : « Que cherche à expliquer ce récit, et quelle leçon peut-on en tirer ? » Réponds en un paragraphe d'une dizaine de lignes, avec la méthode « je réponds, je cite, j'explique » et au moins **deux citations**.", corrige: `**Proposition de réponse**
+**Je réponds** : ce récit des origines explique pourquoi les hommes parlent des **langues différentes** et vivent dispersés sur la terre ; il explique aussi le **nom de Babel**. Il met en garde contre la **démesure** des hommes qui veulent égaler Dieu.
+
+**Je cite et j'explique** : d'abord, la situation de départ est l'inverse du monde que nous connaissons : « Toute la terre avait une seule langue et les mêmes mots. » Ensuite, les hommes veulent bâtir « une tour dont le sommet touche au ciel » et se « faire un nom » : ils veulent monter jusqu'au domaine de Dieu et devenir célèbres, ce qui montre leur orgueil. L'Éternel répond en confondant leur langage, « afin qu'ils n'entendent plus la langue, les uns des autres » : la diversité des langues naît de ce moment. Enfin, la formule « C'est pourquoi on l'appela du nom de Babel » montre que le récit est **étiologique** : il donne la cause d'un nom et d'une réalité.
+
+**Conclusion** : ainsi, le récit explique la diversité des langues et montre que l'orgueil est puni par un retournement : les hommes, qui voulaient rester unis, sont dispersés « sur la face de toute la terre ».
+
+**Critères de réussite** : réponse aux deux parties de la question (ce que le récit explique, la leçon) ; au moins deux citations exactes entre guillemets ; chaque citation est expliquée ; connecteurs (d'abord, ensuite, enfin, ainsi).` },
+        { type: "redaction", texte: "babel", question: "**Sujet d'écriture (type contrôle)** : tu es un ouvrier qui construit la tour de Babel. Raconte à la 1re personne, en une quinzaine de lignes, la journée où, soudain, plus personne ne se comprend. Emploie l'imparfait et le passé simple, et au moins un court dialogue correctement ponctué.", corrige: `**Ce qui est attendu**
+- un narrateur-personnage (« je ») qui travaille sur le chantier ;
+- un respect du texte biblique : une seule langue au début, une tour très haute, des briques et du bitume ; puis la confusion des langues et l'arrêt du chantier ;
+- l'imparfait pour le décor et les habitudes, le passé simple pour les actions et le moment où tout bascule ;
+- un dialogue avec guillemets, tirets et verbes de parole, qui montre que les mots ne passent plus ;
+- une fin qui fait le lien avec la dispersion des hommes.
+
+**Exemple**
+Chaque matin, je montais avec les autres au sommet de la tour. Nous chantions en portant les briques encore chaudes du four, et le bitume collait à nos mains. D'en haut, la plaine semblait minuscule ; il nous semblait que nous allions bientôt toucher le ciel.
+Ce jour-là, le soleil était à peine levé quand tout bascula.
+« Passe-moi le seau de bitume ! criai-je à mon voisin Nabi.
+— Ourouk bal tamé ? répondit-il en fronçant les sourcils.
+— Tu te moques de moi ? »
+Il secoua la tête, l'air effrayé. Ses mots ressemblaient à des cailloux qui roulent ; je n'en compris aucun.
+Autour de nous, partout, les ouvriers s'appelaient, se fâchaient, gesticulaient. Personne ne comprenait plus personne. Les briques restèrent en tas, les fours s'éteignirent. Le soir, chacun partit avec ceux qui parlaient comme lui. Moi, je pris la route de l'ouest avec ma famille. Je n'ai jamais revu la tour, mais quand j'entends une langue étrangère, je pense à Nabi.
+
+**Remarque** : la dernière phrase passe au passé composé et au présent (« Je n'ai jamais revu », « je pense ») : le narrateur parle depuis aujourd'hui ; tout le récit de la journée, lui, est à l'imparfait et au passé simple.
+
+**Critères de réussite** : récit cohérent avec le texte de la Genèse ; temps du récit maîtrisés ; ponctuation du dialogue ; la confusion des langues est montrée par des détails concrets ; fin qui rappelle la dispersion.` },
+      ],
+    },
+    {
+      id: "lire-poeme-ma-boheme",
+      titre: "Lire un poème en entier : « Ma Bohème » de Rimbaud",
+      theme: "Lecture et compréhension",
+      cours: `
+## Ce que dit le programme
+Dans l'entrée « Chanter et enchanter le monde : mots et merveilles », tu étudies des poèmes **en entier**, et pas seulement des vers isolés. Tu dois comprendre que la force d'un poème vient de sa forme (vers, rimes, strophes), mais surtout de ses **images** et de son **pouvoir d'évocation** : ce qu'il te fait voir, entendre, ressentir. Le vocabulaire de base (vers, rimes, comparaison, métaphore) est dans le chapitre « La poésie : vers, rimes et images ».
+
+## Le poète : Arthur Rimbaud
+**Arthur Rimbaud** (1854-1891), né à Charleville, dans les Ardennes, écrit presque tous ses poèmes entre quinze et vingt ans environ. En 1870, à quinze ans (il en aura seize le 20 octobre), il fait plusieurs **fugues** : il marche sur les routes de France et de Belgique. « Ma Bohème », écrit cette année-là, transforme ces marches en aventure poétique. Une **bohème**, c'est une vie libre et sans argent, comme celle des artistes pauvres.
+
+## Une forme : le sonnet
+Le **sonnet** est un poème de **14 vers** : **deux quatrains** (strophes de 4 vers) puis **deux tercets** (strophes de 3 vers). Dans « Ma Bohème », les vers sont des **alexandrins** (12 syllabes).
+
+## Deux notions nouvelles
+- **L'enjambement** : la phrase ne s'arrête pas à la fin du vers, elle continue au vers suivant. « J'égrenais dans ma course / Des rimes » : le mot « rimes », rejeté au début du vers suivant, est mis en valeur.
+- **L'apostrophe** : le poète s'adresse directement à quelqu'un, souvent absent : « Muse ! ». Dans la mythologie grecque, les **Muses** sont les déesses qui inspirent les poètes et les artistes.
+
+## Méthode : lire un poème en entier
+1. **Lis-le à voix haute**, puis note ta première impression : joyeux, triste, mystérieux ?
+2. **Observe la forme** : nombre de strophes et de vers, longueur des vers, disposition des rimes.
+3. **Qui parle, à qui ?** Le poème dit « je » : c'est le poète qui se met en scène.
+4. **Relève les images** : comparaisons (avec « comme »), métaphores (sans outil), personnifications, et ce qu'elles font voir.
+5. **Dégage le sens** : que veut nous faire ressentir le poète ? Justifie avec des mots du texte.
+
+>! **Exemple résolu** : « Petit-Poucet rêveur, j'égrenais dans ma course / Des rimes. »
+>! - Qui est le Petit Poucet ? Le héros de Perrault, qui sème des cailloux blancs pour retrouver son chemin.
+>! - Quelle image ? Le poète se compare à lui **sans outil de comparaison** : c'est une métaphore. Au lieu de cailloux, il sème des **rimes** : il compose des vers en marchant.
+>! - Quel effet ? L'enjambement met « Des rimes » en valeur au début du vers. Le poète, pauvre et seul, devient un héros de conte : la poésie le guide, comme les cailloux guidaient Poucet.
+
+## Erreurs fréquentes
+- **Raconter le poème** au lieu de l'analyser : cite les mots et dis ce qu'ils montrent.
+- **Mal compter les syllabes** : n'oublie pas le e muet, qui compte devant une consonne et s'efface devant une voyelle (« culott(e) avait »).
+- **Confondre comparaison et métaphore** : « comme des lyres » est une comparaison ; « mon auberge était à la Grande-Ourse » est une métaphore.
+- **Prendre les mots au sens d'aujourd'hui** : « idéal », ici, ne veut pas dire « parfait » (voir les mots difficiles sous le poème).
+
+> **À retenir**
+> « Ma Bohème » (Rimbaud, 1870) : un **sonnet** (2 quatrains, 2 tercets) en alexandrins.
+> Le poète, pauvre, marche sur les routes ; son imagination transforme sa pauvreté en richesse : il dort sous les étoiles, il sème des rimes.
+> Enjambement : la phrase continue au vers suivant. Apostrophe : le poète s'adresse à quelqu'un (« Muse ! »).
+> Pour lire un poème : impression, forme, qui parle, images, sens, toujours justifié par le texte.
+`,
+      textes: {
+        boheme: `**Arthur Rimbaud, « Ma Bohème (Fantaisie) », 1870** (texte intégral)
+
+Je m'en allais, les poings dans mes poches crevées ;
+Mon paletot aussi devenait idéal ;
+J'allais sous le ciel, Muse ! et j'étais ton féal ;
+Oh ! là là ! que d'amours splendides j'ai rêvées !
+
+Mon unique culotte avait un large trou.
+— Petit-Poucet rêveur, j'égrenais dans ma course
+Des rimes. Mon auberge était à la Grande-Ourse.
+— Mes étoiles au ciel avaient un doux frou-frou
+
+Et je les écoutais, assis au bord des routes,
+Ces bons soirs de septembre où je sentais des gouttes
+De rosée à mon front, comme un vin de vigueur ;
+
+Où, rimant au milieu des ombres fantastiques,
+Comme des lyres, je tirais les élastiques
+De mes souliers blessés, un pied près de mon cœur !
+
+*Mots difficiles* : **paletot** : veste ample et chaude ; **idéal** : ici, si usé qu'il n'existe presque plus que dans l'imagination (c'est une plaisanterie) ; **Muse** : déesse qui inspire les poètes ; **féal** : fidèle serviteur ; **culotte** : pantalon court ; **égrener** : laisser tomber un à un, comme des grains ; **la Grande-Ourse** : une constellation (groupe d'étoiles) ; **frou-frou** : bruit léger d'un tissu qui frotte ; **un vin de vigueur** : un vin qui donne des forces ; **une lyre** : instrument à cordes des poètes de l'Antiquité ; **les élastiques** : ici, les lacets ou les bandes élastiques des chaussures.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "boheme", question: "« Ma Bohème » compte 14 vers répartis en deux quatrains puis deux tercets. Comment appelle-t-on cette forme ?", choix: ["un haïku", "un calligramme", "une fable", "un sonnet"], reponse: 3, explication: "Deux quatrains (4 + 4 vers) et deux tercets (3 + 3 vers) : 14 vers, c'est un **sonnet**. Le haïku a trois vers ; le calligramme dessine une forme ; la fable raconte une histoire avec une morale." },
+        { type: "saisie", texte: "boheme", question: "Combien de syllabes compte le vers « Mon unique culotte avait un large trou » ? (écris le nombre)", reponses: ["12", "douze"], explication: "Mon / u / ni / que / cu / lo / tt(e) a / vait / un / lar / ge / trou : **12** syllabes, un alexandrin. Le e de « unique » compte (il est suivi d'une consonne, le c de « culotte »), comme celui de « large » ; le e de « culotte » s'efface devant la voyelle de « avait »." },
+        { type: "qcm", texte: "boheme", question: "« Mon auberge était à la Grande-Ourse. » Que veut dire le poète ?", choix: ["Il dort dehors, à la belle étoile.", "Il travaille dans une auberge célèbre.", "Il habite dans une ville appelée Grande-Ourse.", "Il a peur des ours dans la forêt."], reponse: 0, explication: "La Grande-Ourse est une constellation. Le poète n'a pas d'argent pour l'auberge : il dort **sous les étoiles**. C'est une **métaphore** (sans « comme ») : le ciel devient son auberge, et sa pauvreté se change en luxe immense." },
+        { type: "qcm", texte: "boheme", question: "« Petit-Poucet rêveur, j'égrenais dans ma course / Des rimes. » Que sème le poète, à la place des cailloux du Petit Poucet ?", choix: ["des miettes de pain", "des rimes, c'est-à-dire des vers qu'il compose en marchant", "des pièces de monnaie", "des graines de fleurs"], reponse: 1, explication: "Le Petit Poucet de Perrault semait des cailloux blancs pour retrouver son chemin. Le poète, lui, laisse tomber « Des **rimes** » : il compose ses vers en route. L'enjambement place « Des rimes » au début du vers suivant, ce qui les met en valeur." },
+        { type: "vf", texte: "boheme", question: "D'après le poème, le poète voyage riche et bien habillé.", reponse: false, explication: "Tout montre sa **pauvreté** : « mes poches crevées », un paletot usé jusqu'à devenir « idéal », « Mon unique culotte avait un large trou », « mes souliers blessés ». Mais il le dit avec humour et joie : la pauvreté ne l'empêche pas de rêver." },
+        { type: "qcm", texte: "boheme", question: "« Mes étoiles au ciel avaient un doux frou-frou / Et je les écoutais ». Qu'y a-t-il de surprenant dans cette image ?", choix: ["Le poète ne voit aucune étoile.", "Le poète a peur des étoiles.", "Le poète entend les étoiles, alors qu'on les voit d'habitude : il les compare à un tissu qui froisse.", "Le poète compte les étoiles une à une."], reponse: 2, explication: "Les étoiles se **voient** ; le poète, lui, les **écoute** : leur « frou-frou » est le bruit léger d'une robe ou d'un tissu. L'image mélange les sens (la vue et l'ouïe) et rend le ciel proche, presque vivant. Le possessif « Mes étoiles » montre aussi qu'il se sent chez lui dans le ciel." },
+        { type: "qcm", texte: "boheme", question: "Le premier quatrain se termine par les mots « crevées », « idéal », « féal », « rêvées ». Comment les rimes sont-elles disposées ?", choix: ["rimes embrassées (ABBA)", "rimes plates (AABB)", "rimes croisées (ABAB)", "il n'y a pas de rimes"], reponse: 0, explication: "« Crevées » (A) rime avec « rêvées » (A), « idéal » (B) avec « féal » (B) : le schéma est **ABBA**, les rimes **embrassées**. Le deuxième quatrain suit le même schéma avec d'autres sons : « trou » / « frou-frou » et « course » / « Grande-Ourse »." },
+        { type: "vf", texte: "boheme", question: "À la fin du vers « Mes étoiles au ciel avaient un doux frou-frou », la phrase s'arrête : la strophe suivante commence une nouvelle phrase.", reponse: false, explication: "Il n'y a **aucun signe de ponctuation** après « frou-frou » : la phrase continue dans le premier tercet (« Et je les écoutais, assis au bord des routes »). C'est un **enjambement** d'une strophe à l'autre : la phrase file comme le poète sur la route. (C'est la ponctuation de Rimbaud ; une édition de 1895 a ajouté un point après « frou-frou ».)" },
+        { type: "redaction", texte: "boheme", question: "**Question de lecture (type contrôle)** : « Comment le poète transforme-t-il sa pauvreté en richesse ? » Réponds en un paragraphe d'une dizaine de lignes, avec la méthode « je réponds, je cite, j'explique » et au moins **trois citations**.", corrige: `**Proposition de réponse**
+**Je réponds** : le poète est très pauvre, mais son **imagination** et la **poésie** changent cette pauvreté en richesse : la nature devient sa maison, et ses vers son trésor.
+
+**Je cite et j'explique** : d'abord, il ne cache pas sa misère : il a « les poings dans [ses] poches crevées » et « Mon unique culotte avait un large trou ». Mais il en parle avec humour : son paletot usé « devenait idéal », comme s'il n'existait plus que dans le rêve. Ensuite, la nature lui offre ce que l'argent ne peut pas acheter : « Mon auberge était à la Grande-Ourse ». Cette métaphore fait du ciel étoilé un hôtel immense ; même la rosée est « comme un vin de vigueur », une boisson qui lui donne des forces. Enfin, la poésie l'accompagne partout : « Petit-Poucet rêveur, j'égrenais dans ma course / Des rimes ». Ses lacets deviennent même « des lyres », l'instrument des poètes : ses « souliers blessés » se mettent à chanter.
+
+**Conclusion** : ainsi, le poème montre que la liberté et l'imagination valent plus que l'argent : le poète pauvre se sent le plus riche des hommes, « un pied près de [son] cœur ».
+
+**Critères de réussite** : réponse claire ; au moins trois citations exactes entre guillemets ; chaque image est nommée (métaphore, comparaison) et expliquée ; connecteurs (d'abord, ensuite, enfin, ainsi).` },
+        { type: "redaction", question: "**Sujet d'écriture** : à la manière de Rimbaud, écris **deux quatrains** dans lesquels tu transformes un objet usé ou banal de ta vie (des baskets trouées, un vieux sac, un vélo rouillé...) en trésor. Emploie le « je », des rimes croisées (ABAB), au moins une **comparaison** et une **métaphore**.", corrige: `**Ce qui est attendu**
+- deux strophes de quatre vers, avec des rimes croisées (ABAB) ;
+- un « je » qui parle de sa vie, comme Rimbaud ;
+- un objet usé décrit avec ses défauts, puis transformé par l'imagination ;
+- au moins une comparaison (avec « comme ») et une métaphore (sans outil).
+
+**Exemple de poème**
+Mes vieilles baskets sont percées,
+Mais ce sont deux bateaux d'argent :
+Ils m'emmènent, dans mes pensées,
+Plus loin que la ligne du vent.
+
+Mon sac est lourd comme une pierre,
+Mais j'y range tout l'univers :
+Des cailloux blancs, de la lumière,
+Et tous mes rêves mis en vers.
+
+**Ce qui est réussi ici** : des vers de 8 syllabes (octosyllabes) ; rimes croisées (percées / pensées, argent / vent ; pierre / lumière, univers / vers) ; une métaphore (les baskets sont « deux bateaux d'argent ») ; une comparaison (« lourd comme une pierre ») ; un clin d'œil aux cailloux du Petit Poucet, comme chez Rimbaud ; le dernier vers fait de la poésie le vrai trésor.` },
+      ],
+    },
   ],
 };

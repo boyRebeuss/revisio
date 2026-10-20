@@ -57,7 +57,12 @@ En 5e, tu n'as pas à deviner si une syllabe est longue : l'exercice ou le dicti
 
 >! **Pour aller plus loin** : une syllabe est longue si sa voyelle est longue (*a-MĪ-cus*) **ou** si sa voyelle est suivie de deux consonnes (*pu-EL-la* : le e est suivi de ll). Tu apprendras ces règles peu à peu.
 
-Le français a gardé une trace de cet accent : la syllabe accentuée a souvent survécu, les autres ont parfois disparu. *TA-bu-la* a donné « table ».
+>! **Méthode pour trouver l'accent tonique** :
+>! Étape 1 : découpe le mot en syllabes. Il y a une syllabe par voyelle ; mais **ae, oe, au** comptent pour une seule voyelle (*Cae-sar* : 2 syllabes) et le u de **qu** ne compte pas (*a-qua* : 2 syllabes).
+>! Étape 2 : si le mot a **deux syllabes**, l'accent est sur la première (*RO-ma*, *CAE-sar*).
+>! Étape 3 : s'il en a **trois ou plus**, regarde l'avant-dernière syllabe. Longue : l'accent est sur elle (*Ro-MA-nus*, car le a de *Romānus* est long). Brève : l'accent remonte d'une syllabe (*IN-su-la*, car le u de *insŭla* est bref).
+
+Le français a gardé une trace de cet accent : la syllabe accentuée a souvent survécu, les autres ont parfois disparu. *TA-bu-la* a donné « table », *IN-su-la* a donné « isle », puis « île », et *Ro-MA-nus* a donné « romain ».
 
 >! **Exemple résolu** : comment lire *Caesar*, en prononciation restituée ?
 >! c = « k » ; ae = « aï » ; s = « s » (jamais « z ») ; a = « a » ; r roulé. On lit donc « Kaïssar ». C'est ce son qui a donné en allemand le mot *Kaiser* (empereur).
@@ -140,6 +145,47 @@ Le français a gardé une trace de cet accent : la syllabe accentuée a souvent 
 - **puella** → « pouèl-la » : u = ou ; la consonne double ll se prononce deux fois.
 
 >! Méthode : avance lettre par lettre. Toutes les lettres se prononcent et chacune garde toujours le même son.
+`,
+        },
+        {
+          type: "qcm",
+          question: "Sur quelle syllabe porte l'accent tonique de *amicus* (l'ami), sachant que le i de *amīcus* est long ?",
+          choix: ["Sur *cus*, la dernière syllabe", "Sur *a*, la première syllabe", "Il n'y a pas d'accent dans ce mot", "Sur *mi*, l'avant-dernière syllabe"],
+          reponse: 3,
+          explication: "*A-mi-cus* a trois syllabes. L'avant-dernière (*mi*) est longue, donc elle porte l'accent : *a-MI-cus*. L'accent n'est jamais sur la dernière syllabe d'un mot de plusieurs syllabes.",
+        },
+        {
+          type: "saisie",
+          question: "Écris la syllabe qui porte l'accent tonique dans *Romanus* (le Romain), sachant que le a de *Romānus* est long.",
+          reponses: ["ma"],
+          explication: "*Ro-ma-nus* : trois syllabes ; l'avant-dernière, *ma*, est longue, donc accentuée : *Ro-MA-nus*. C'est elle qui a survécu dans le français « romain ».",
+        },
+        {
+          type: "qcm",
+          question: "Où est l'accent tonique de *tabula* (la tablette), sachant que le u de *tabŭla* est bref ?",
+          choix: ["Sur *ta* : TA-bu-la", "Sur *bu* : ta-BU-la", "Sur *la* : ta-bu-LA", "Sur deux syllabes à la fois"],
+          reponse: 0,
+          explication: "L'avant-dernière syllabe (*bu*) est brève : l'accent remonte sur la syllabe d'avant, *TA-bu-la*. Le français a gardé cette syllabe forte : *tabula* a donné « table ».",
+        },
+        {
+          type: "vf",
+          question: "Dans *puella*, l'accent tonique est sur *el* (*pu-EL-la*), car le e est suivi de deux consonnes (ll), ce qui rend la syllabe longue.",
+          reponse: true,
+          explication: "Vrai : une syllabe est longue si sa voyelle est longue **ou** si la voyelle est suivie de deux consonnes (c'est la règle « pour aller plus loin » du cours). L'avant-dernière syllabe *el* est donc longue et accentuée : *pu-EL-la*. Il y a bien trois voyelles, donc trois syllabes ; quand deux consonnes se suivent, on coupe entre elles : la première l reste avec le e (*pu-el-la*).",
+        },
+        {
+          type: "redaction",
+          question: "Découpe en syllabes et indique la syllabe accentuée de chacun de ces mots, en justifiant par la règle : *rosa* ; *Caesar* ; *dominus* (i bref) ; *Romanus* (a long) ; *insula* (u bref). Puis montre, avec deux exemples, que le français a gardé la syllabe accentuée du latin.",
+          corrige: `
+- **rosa** → *RO-sa* : deux syllabes, l'accent est sur la première.
+- **Caesar** → *CAE-sar* : ae ne fait qu'une seule voyelle, donc deux syllabes ; accent sur la première.
+- **dominus** → *DO-mi-nus* : trois syllabes ; l'avant-dernière (*mi*) est brève, l'accent remonte sur *do*.
+- **Romanus** → *Ro-MA-nus* : trois syllabes ; l'avant-dernière (*ma*) est longue, elle porte l'accent.
+- **insula** → *IN-su-la* : trois syllabes ; l'avant-dernière (*su*) est brève, l'accent remonte sur *in*.
+
+**En français** : la syllabe accentuée a résisté, les autres se sont usées. *TA-bu-la* → « table » (on entend encore *ta*) ; *Ro-MA-nus* → « romain » (*ma* est devenu « main ») ; *IN-su-la* → « isle », puis « île ».
+
+>! Méthode : compte les voyelles (ae, oe, au = une seule) ; deux syllabes → accent sur la première ; trois ou plus → avant-dernière si elle est longue, sinon celle d'avant ; jamais sur la dernière.
 `,
         },
       ],
@@ -1233,6 +1279,58 @@ Pour bien choisir le cas, pose-toi la question : **y a-t-il un mouvement ?**
 >! *Pueri* désigne ici les enfants (garçons et filles). En français, on ajoute « leur » devant « grand-père » pour une traduction naturelle.
 `,
         },
+        {
+          type: "saisie",
+          question: "Traduis : *post cenam* (cena, ae, f. = le dîner).",
+          reponses: ["après le dîner", "après dîner", "après le repas"],
+          explication: "*Post* + accusatif = après : *cenam* est l'accusatif singulier de *cena*. « Après le dîner ».",
+        },
+        {
+          type: "saisie",
+          question: "Complète avec la bonne forme de *silva* : « Les enfants entrent dans la forêt » = *Pueri in ... intrant* (intrare = entrer).",
+          reponses: ["silvam", "in silvam"],
+          explication: "Il y a un mouvement (on entre dans la forêt : question *quo ?*), donc *in* + accusatif : *in silvam*. Sans mouvement (« ils sont dans la forêt »), on aurait *in silva*, à l'ablatif.",
+        },
+        {
+          type: "qcm",
+          question: "Traduis : *Agricolae sine equis ex agris veniunt.*",
+          choix: ["Les agriculteurs viennent dans les champs avec leurs chevaux.", "L'agriculteur vient des champs sans cheval.", "Les agriculteurs allaient vers les champs sans chevaux.", "Les agriculteurs viennent des champs sans chevaux."],
+          reponse: 3,
+          explication: "*Veniunt* : présent, 3e personne du pluriel ; sujet *agricolae* (nominatif pluriel). *Sine equis* : sine + ablatif pluriel = sans chevaux. *Ex agris* : ex + ablatif = (en sortant) des champs, question *unde ?*. Les autres propositions se trompent sur la préposition (*cum* = avec, *ad* = vers), sur le nombre ou sur le temps (il n'y a pas de -ba-).",
+        },
+        {
+          type: "qcm",
+          question: "Quelle phrase latine signifie « Le maître est dans le temple » ?",
+          choix: ["*Dominus in templo est.*", "*Dominus in templum est.*", "*Dominus ex templo est.*", "*Dominus ad templum est.*"],
+          reponse: 0,
+          explication: "Le maître est déjà dans le temple, sans mouvement (question *ubi ?*) : *in* + ablatif, *in templo*. *In templum* et *ad templum* (accusatif) indiqueraient qu'on y va ; *ex templo* qu'on en sort.",
+        },
+        {
+          type: "saisie",
+          question: "Traduis : *Servi aquam in villam portant.*",
+          reponses: ["les esclaves portent de l'eau dans la ferme", "les esclaves portent l'eau dans la ferme", "les esclaves portent de l'eau à la ferme", "les esclaves portent l'eau à la ferme", "les esclaves portent de l'eau dans la villa", "les esclaves portent l'eau dans la villa", "des esclaves portent de l'eau dans la ferme", "des esclaves portent l'eau dans la ferme", "des esclaves portent de l'eau à la ferme", "des esclaves portent l'eau à la ferme", "les esclaves apportent de l'eau dans la ferme", "les esclaves apportent de l'eau à la ferme", "les esclaves apportent l'eau à la ferme", "les esclaves apportent l'eau dans la ferme", "les esclaves apportent de l'eau dans la villa", "les esclaves apportent l'eau dans la villa", "des esclaves portent de l'eau dans la villa", "des esclaves portent l'eau dans la villa", "les esclaves portent de l'eau dans la maison", "les esclaves portent l'eau dans la maison"],
+          explication: "*Servi* : nominatif pluriel, sujet de *portant* (ils portent) ; *aquam* : accusatif, COD ; *in villam* : in + accusatif, car l'eau est portée vers l'intérieur de la ferme (mouvement). « Les esclaves portent de l'eau dans la ferme. »",
+        },
+        {
+          type: "redaction",
+          question: "Texte d'entraînement. Traduis en suivant la méthode, puis relève les neuf groupes prépositionnels en indiquant pour chacun le cas et sa raison : *Post cenam, Iulia cum ancillis ex villa venit. Per silvam ad rivum ambulant. Ancillae in aquam intrant ; Iulia in ripa sedet et fabulam narrat. Sine ira, sine cura, Iulia et ancillae laetae sunt.* (ancilla, ae, f. = la servante ; rivus, i, m. = le ruisseau ; intrare = entrer ; ripa, ae, f. = la rive ; sedere = être assis ; narrare = raconter ; ira, ae, f. = la colère ; cura, ae, f. = le souci)",
+          corrige: `
+**Traduction** : « Après le dîner, Julia sort de la ferme (mot à mot : vient de la ferme) avec ses servantes. Elles se promènent à travers la forêt jusqu'au ruisseau. Les servantes entrent dans l'eau ; Julia est assise sur la rive et raconte une histoire. Sans colère, sans souci, Julia et ses servantes sont joyeuses. »
+
+**Les groupes prépositionnels** :
+- *post cenam* : post + **accusatif** (après le dîner).
+- *cum ancillis* : cum + **ablatif** pluriel (avec ses servantes).
+- *ex villa* : ex + **ablatif** : on sort de la ferme (*unde ?*).
+- *per silvam* : per + **accusatif** : on passe à travers la forêt (*qua ?*).
+- *ad rivum* : ad + **accusatif** : on va vers le ruisseau (*quo ?*).
+- *in aquam* : in + **accusatif** : mouvement, elles entrent dans l'eau (*quo ?*).
+- *in ripa* : in + **ablatif** : pas de mouvement, Julia est sur la rive (*ubi ?*).
+- *sine ira* : sine + **ablatif** (sans colère).
+- *sine cura* : sine + **ablatif** (sans souci).
+
+>! Points de méthode : *venit* est au singulier (sujet *Iulia*) ; *ambulant* est au pluriel sans nom au nominatif : le sujet est contenu dans le verbe (« elles », Julia et ses servantes). *Laetae* est un adjectif attribut, au nominatif féminin pluriel : il s'accorde avec les deux sujets, *Iulia et ancillae*. Remarque que *in* se traduit par « dans » ou « sur » selon le sens.
+`,
+        },
       ],
     },
     {
@@ -2252,6 +2350,179 @@ M·AGRIPPA·L·F·COS·TERTIVM·FECIT
 4. **Interprétation** : le poème commence et se termine par les mêmes mots, *non amo te* : la répétition enferme Sabidius dans ce refus. Le poète annonce qu'il va peut-être expliquer, mais il ne donne aucune raison : la chute est drôle parce qu'elle tourne en rond. Le poème a été imité en français au XVIIe siècle par Bussy-Rabutin : « Je ne vous aime pas, Hylas ; je n'en saurais dire la cause... »
 
 >! Critères : prononciation justifiée par les règles ; analyse exacte (personne, temps, cas) ; traduction complète en bon français ; remarque sur la répétition et la chute.
+`,
+        },
+      ],
+    },
+    {
+      id: "jeune-republique",
+      titre: "La jeune République : histoire et institutions",
+      theme: "De la légende à l'histoire",
+      cours: `
+## 509 av. J.-C. : plus jamais de roi
+Tu as vu que Rome a d'abord été gouvernée par sept rois. Selon la tradition racontée par l'historien **Tite-Live** (Ier siècle av. J.-C.), Sextus Tarquin, fils du dernier roi Tarquin le Superbe, fait violence à **Lucrèce**, une Romaine noble et vertueuse, qui se donne la mort. Indigné, **Lucius Junius Brutus** soulève le peuple : en **509 av. J.-C.**, les Tarquins sont chassés. Les Romains jurent de ne plus jamais avoir de roi : le mot *rex* (le roi) devient pour eux synonyme de tyran.
+
+Le pouvoir devient alors **la chose publique**, *res publica*, d'où notre mot « république ». Brutus et Collatin, le mari de Lucrèce, sont les deux premiers **consuls**. Selon la légende, Brutus fait même exécuter ses propres fils, qui complotaient pour ramener les rois : pour les Romains, c'est l'exemple terrible d'un homme qui fait passer la *res publica* avant sa famille.
+
+## Les épisodes célèbres des premiers siècles
+| Date (traditionnelle) | Épisode |
+|---|---|
+| vers 508 av. J.-C. | Le roi étrusque **Porsenna** assiège Rome pour y ramener Tarquin. **Horatius Coclès** défend seul le pont sur le Tibre ; **Mucius Scaevola** brûle sa main droite devant Porsenna ; impressionné par tant de courage, Porsenna fait la paix et reçoit des otages. Parmi eux, la jeune **Clélie** s'enfuit en traversant le Tibre à la nage ; admiratif, Porsenna lui rend la liberté. |
+| 494 av. J.-C. | Première **sécession de la plèbe** : les plébéiens quittent Rome et se retirent sur une colline, le mont Sacré. Ils obtiennent les **tribuns de la plèbe**. |
+| 458 av. J.-C. | **Cincinnatus** quitte sa charrue pour sauver Rome, puis retourne à son champ. |
+| vers 450 av. J.-C. | La **loi des Douze Tables**, première loi écrite de Rome, est affichée sur le forum. |
+| vers 390 av. J.-C. | Les **Gaulois** de Brennus prennent Rome. Seul le Capitole résiste : les **oies sacrées de Junon** donnent l'alerte pendant une attaque de nuit. Brennus aurait lancé aux vaincus : *Vae victis !*, « Malheur aux vaincus ! ». Le général **Camille** chasse ensuite les Gaulois. |
+| 367 av. J.-C. | Un plébéien peut désormais devenir consul. |
+
+## Patriciens et plébéiens
+Au début de la République, les citoyens romains sont divisés en deux groupes :
+- les **patriciens** (*patricii*) : les membres des vieilles familles nobles, qui se disent descendants des premiers sénateurs (les *patres*, « les pères ») ; au départ, eux seuls peuvent être magistrats, prêtres ou sénateurs ;
+- les **plébéiens** (la *plebs*, la plèbe) : tous les autres citoyens, c'est-à-dire la grande majorité (paysans, artisans, commerçants ; certains sont même riches).
+
+Pendant près de deux siècles, les plébéiens luttent pour obtenir les mêmes droits. Pour les faire revenir à Rome en 494 av. J.-C., le sénateur **Menenius Agrippa** leur raconte une fable : les membres du corps refusent un jour de nourrir l'estomac, qu'ils jugent paresseux ; mais tout le corps s'affaiblit, car l'estomac nourrit à son tour les membres. La cité est comme un corps : patriciens et plébéiens ont besoin les uns des autres. Les plébéiens obtiennent peu à peu :
+- des **tribuns de la plèbe**, inviolables (personne n'a le droit de les toucher), qui peuvent bloquer une décision en disant ***veto*** (« je m'oppose », du verbe *vetare*, 1re conjugaison, interdire) ;
+- des **lois écrites** (les Douze Tables), que les juges patriciens ne peuvent plus interpréter à leur guise ;
+- le droit d'épouser des patriciens (445 av. J.-C.), puis l'accès au consulat (367 av. J.-C.).
+
+## Patrons et clients
+La société romaine repose aussi sur le **clientélisme**. Un citoyen modeste, le **client** (*cliens*), se place sous la protection d'un homme riche et puissant, son **patron** (*patronus*). Le patron l'aide (argent, conseils, défense au tribunal) ; en échange, le client vient le saluer chaque matin (la *salutatio*, que tu as vue avec la *domus*), l'accompagne au forum et **vote pour lui** aux élections.
+
+## Les institutions : magistrats, Sénat, peuple
+Pour qu'aucun homme ne redevienne roi, les Romains partagent le pouvoir entre trois forces.
+
+**1. Les magistrats** gouvernent. Ils sont **élus pour un an** seulement et toujours **à plusieurs** (au moins deux pour chaque charge), pour se surveiller les uns les autres ; ils ne sont pas payés. Un homme politique monte les étapes du **cursus honorum** (la « carrière des honneurs ») :
+
+| Magistrat | Rôle |
+|---|---|
+| **questeur** | gère les finances, le trésor public |
+| **édile** | s'occupe de la ville : rues, marchés, jeux |
+| **préteur** | rend la justice |
+| **consul** (2 par an) | commande l'armée et dirige la République ; il est précédé de **licteurs** qui portent les **faisceaux** (des verges liées autour d'une hache), symbole de son pouvoir |
+| **censeur** (2, tous les cinq ans) | recense les citoyens et leur fortune, surveille les mœurs, dresse la liste des sénateurs |
+
+En cas de danger très grave, un consul peut nommer un **dictateur**, qui a tous les pouvoirs, mais pour **six mois au plus**. À Rome, ce n'est pas un tyran : c'est une magistrature de secours, limitée dans le temps.
+
+**2. Le Sénat** (*senatus*), qui se réunit à la Curie, compte environ **300 membres**, d'anciens magistrats, nommés à vie. Il ne vote pas les lois, mais ses avis (les **sénatus-consultes**) sont presque toujours suivis : il décide en fait de la guerre, de la paix, des finances et de la politique étrangère.
+
+**3. Le peuple** (*populus*) se réunit en assemblées, les **comices** (*comitia*) : il élit les magistrats, vote les lois, décide de la guerre. Mais seuls les **citoyens hommes adultes** votent : ni les femmes, ni les esclaves, ni les étrangers. De plus, on ne vote pas un par un : on vote **par groupes**, et les groupes des plus riches votent en premier et pèsent plus lourd. La République romaine n'est donc **pas une démocratie** au sens moderne.
+
+>! **Exemple résolu** : pourquoi les consuls sont-ils deux et élus pour un an seulement ?
+>! Après avoir chassé Tarquin, les Romains craignent qu'un homme garde le pouvoir pour lui seul et redevienne roi. À deux, chaque consul peut bloquer son collègue ; avec un mandat d'un an, aucun ne peut s'installer au pouvoir. Les Romains comptaient d'ailleurs les années par le nom des deux consuls de l'année.
+
+## Des mots latins de la vie politique
+| Latin | Sens | Mot français |
+|---|---|---|
+| res publica | la chose publique, l'État | république |
+| senatus, senex | le conseil des anciens ; le vieillard | sénat, sénateur, sénile |
+| populus, i, m. | le peuple | populaire |
+| candidus, a, um | blanc éclatant | candidat (le candidat portait une toge blanchie, la *toga candida*) |
+| suffragium, ii, n. | le vote | suffrage |
+| veto | je m'oppose | veto, droit de veto |
+| censor | le censeur | censure, recensement |
+
+## Des héros modèles
+Les Romains racontaient ces histoires à leurs enfants pour leur apprendre les **valeurs des ancêtres** (le *mos maiorum*) : le courage (*virtus*), le respect des dieux et de la famille (*pietas*), la parole donnée (*fides*), et surtout le **dévouement à la res publica**, plus important que l'intérêt personnel. Comme pour la fondation de Rome, ces récits ont été écrits des siècles plus tard : ils mêlent des souvenirs historiques et beaucoup de légende.
+
+> **À retenir** : en **509 av. J.-C.**, les Romains chassent Tarquin le Superbe et fondent la **République** (*res publica*). Épisodes célèbres : Horatius Coclès, Mucius Scaevola, Clélie face à Porsenna ; Cincinnatus (458) ; les Gaulois et les oies du Capitole (vers 390). **Patriciens** (vieilles familles nobles) et **plébéiens** (la majorité) : la plèbe obtient les **tribuns** (*veto*), les **Douze Tables** (vers 450), l'accès au consulat (367). Institutions : **magistrats** élus pour un an et à plusieurs (questeur, édile, préteur, **deux consuls**, censeurs ; dictateur six mois au plus), **Sénat** (anciens magistrats, avis très suivis), **comices** (le peuple élit et vote les lois). Patrons et clients.
+
+## Erreurs fréquentes
+- Croire que la République romaine est une démocratie : les femmes, les esclaves et les étrangers ne votent pas, et le vote des riches pèse plus lourd.
+- Croire que le Sénat vote les lois : ce sont les comices ; le Sénat donne des avis, très écoutés.
+- Croire que le dictateur romain est un tyran : il est nommé légalement, pour six mois au plus, en cas de danger.
+- Confondre les patriciens (les vieilles familles nobles) et les patrons (protecteurs de leurs clients) : un patron peut être plébéien.
+`,
+      textes: {
+        cincinnatus: `**Cincinnatus sauve Rome** (texte d'entraînement, d'après Tite-Live, *Histoire romaine*, livre III)
+
+*Cincinnatus in agro parvo trans Tiberim laborabat. Legati senatus ad agrum veniunt et clamant : « Roma in periculo est ! » Cincinnatus togam capit et cum legatis in Urbem venit. Nunc Cincinnatus dictator est : hostes vincit. Post victoriam, in Urbe non manet : ad agrum suum et ad aratrum redit.*
+
+Lexique : trans Tiberim = au-delà du Tibre (trans + accusatif) ; legatus, i, m. = l'envoyé ; senatus = du Sénat (génitif) ; clamare = crier ; periculum, i, n. = le danger ; toga, ae, f. = la toge ; capere = prendre ; Urbs (accusatif Urbem, ablatif Urbe) = la Ville, Rome ; nunc = maintenant ; dictator = dictateur ; hostes = les ennemis (accusatif pluriel) ; vincere = vaincre ; victoria, ae, f. = la victoire ; manere = rester ; suus, a, um = son ; aratrum, i, n. = la charrue ; redit = il revient.`,
+      },
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quel événement marque, selon la tradition, la naissance de la République romaine en 509 av. J.-C. ?",
+          choix: ["La fondation de Rome par Romulus", "La victoire de Rome sur Carthage", "L'arrivée d'Énée dans le Latium", "L'expulsion du roi Tarquin le Superbe"],
+          reponse: 3,
+          explication: "En 509 av. J.-C., Brutus soulève le peuple et chasse Tarquin le Superbe après la mort de Lucrèce : le pouvoir devient la *res publica*. La fondation par Romulus date de 753 (légende), la victoire sur Carthage de 146, et Énée est un ancêtre légendaire bien plus ancien.",
+        },
+        {
+          type: "saisie",
+          question: "Combien de consuls les Romains élisent-ils chaque année ?",
+          reponses: ["2", "deux", "deux consuls"],
+          explication: "Deux consuls, élus pour un an : chacun peut bloquer l'autre, ce qui empêche le retour d'un roi.",
+        },
+        {
+          type: "qcm",
+          question: "Que veut montrer Menenius Agrippa aux plébéiens avec la fable des membres et de l'estomac ?",
+          choix: ["Que patriciens et plébéiens ont besoin les uns des autres, comme les parties d'un même corps", "Que les plébéiens doivent manger moins", "Que les patriciens sont paresseux et doivent être chassés", "Que Rome doit avoir un roi pour la diriger"],
+          reponse: 0,
+          explication: "Les membres qui refusent de nourrir l'estomac s'affaiblissent eux-mêmes : la cité est un corps dont toutes les parties sont solidaires. La fable sert à faire revenir la plèbe à Rome, lors de la sécession de 494 av. J.-C.",
+        },
+        {
+          type: "saisie",
+          question: "Quel mot latin, encore employé en français, le tribun de la plèbe prononce-t-il pour bloquer une décision ?",
+          reponses: ["veto"],
+          explication: "*Veto* = « je m'oppose » : c'est la 1re personne du singulier du présent de *vetare* (interdire), 1re conjugaison, comme *amo*. On parle encore aujourd'hui du « droit de veto ».",
+        },
+        {
+          type: "vf",
+          question: "Sous la République romaine, tous les habitants de Rome, hommes et femmes, votaient dans les comices.",
+          reponse: false,
+          explication: "Faux : seuls les citoyens hommes adultes votaient. Les femmes, les esclaves et les étrangers étaient exclus. De plus, on votait par groupes, et ceux des plus riches pesaient plus lourd : ce n'était pas une démocratie au sens moderne.",
+        },
+        {
+          type: "qcm",
+          question: "Dans quel ordre un homme politique romain monte-t-il les principales étapes du *cursus honorum* ?",
+          choix: ["Consul, préteur, questeur", "Préteur, consul, questeur", "Questeur, consul, préteur", "Questeur, préteur, consul"],
+          reponse: 3,
+          explication: "On commence par la questure (les finances), puis la préture (la justice), et l'on finit, si l'on est élu, par le consulat, la plus haute magistrature ordinaire.",
+        },
+        {
+          type: "qcm",
+          texte: "cincinnatus",
+          question: "Que fait Cincinnatus quand les envoyés du Sénat arrivent ?",
+          choix: ["Il travaille dans son petit champ, au-delà du Tibre.", "Il commande l'armée contre les ennemis.", "Il est assis au Sénat, dans la Curie.", "Il se promène dans les rues de Rome."],
+          reponse: 0,
+          explication: "*In agro parvo trans Tiberim laborabat* : « il travaillait dans un petit champ au-delà du Tibre ». *Laborabat* est à l'imparfait (-ba-) : c'est l'action en cours quand les envoyés arrivent. *In agro* : in + ablatif, lieu où l'on est.",
+        },
+        {
+          type: "saisie",
+          texte: "cincinnatus",
+          question: "Traduis le cri des envoyés : *Roma in periculo est !*",
+          reponses: ["Rome est en danger", "Rome est en péril", "Rome est dans le danger"],
+          explication: "*Roma* : nominatif, sujet ; *est* : il / elle est ; *in periculo* : in + ablatif (sans mouvement) de *periculum*, le danger. « Rome est en danger ! »",
+        },
+        {
+          type: "redaction",
+          texte: "cincinnatus",
+          question: "Traduis le texte en entier, en suivant la méthode. Puis explique, en deux ou trois phrases, pourquoi les Romains faisaient de Cincinnatus un modèle.",
+          corrige: `
+**Traduction** : « Cincinnatus travaillait dans un petit champ, au-delà du Tibre. Les envoyés du Sénat viennent vers son champ et crient : "Rome est en danger !" Cincinnatus prend sa toge et vient dans la Ville avec les envoyés. Maintenant, Cincinnatus est dictateur : il bat les ennemis. Après la victoire, il ne reste pas dans la Ville : il revient à son champ et à sa charrue. »
+
+**Analyse des points importants** :
+- *laborabat* : imparfait (-ba-), 3e personne du singulier : l'action dure dans le passé ; puis le récit passe au **présent** (*veniunt*, *clamant*...), que l'on peut garder en français pour rendre l'histoire vivante.
+- *in agro*, *in periculo*, *in Urbe* : in + ablatif, pas de mouvement ; *in Urbem* : in + accusatif, mouvement ; *ad agrum*, *ad aratrum* : ad + accusatif, vers ; *cum legatis* : cum + ablatif ; *post victoriam* : post + accusatif ; *trans Tiberim* : trans + accusatif.
+- *parvo* s'accorde avec *agro* (ablatif masculin singulier) ; *suum* avec *agrum* (accusatif).
+
+**Pourquoi un modèle ?** Cincinnatus obéit tout de suite à l'appel de la *res publica*, alors qu'il aurait pu rester tranquille dans son champ. Surtout, une fois la victoire obtenue, il **renonce** au pouvoir absolu de dictateur et retourne à sa charrue : il sert la cité sans chercher la gloire ni la richesse. C'est tout le contraire d'un roi ou d'un tyran.
+
+>! Critères : traduction complète en bon français ; prépositions justes (in + ablatif / in + accusatif) ; idée du dévouement à la *res publica* et du refus de garder le pouvoir.
+`,
+        },
+        {
+          type: "redaction",
+          question: "En une dizaine de lignes, explique comment les Romains ont organisé leur République pour qu'aucun homme ne puisse redevenir roi. Présente les magistrats, le Sénat et le peuple, puis dis si cette République était une démocratie.",
+          corrige: `
+**Introduction** : en 509 av. J.-C., les Romains chassent Tarquin le Superbe et jurent de ne plus jamais avoir de roi. Ils organisent la *res publica* en partageant le pouvoir.
+
+**Les magistrats** gouvernent, mais ils sont **élus pour un an** et toujours **à plusieurs** : les deux **consuls** commandent l'armée et dirigent l'État, et chacun peut bloquer l'autre. Les autres magistrats (questeurs pour les finances, édiles pour la ville, préteurs pour la justice, censeurs pour le recensement) suivent le *cursus honorum*. Les **tribuns de la plèbe** peuvent dire *veto*. Même le **dictateur**, nommé en cas de danger, ne garde ses pouvoirs que six mois au plus.
+
+**Le Sénat**, formé d'environ 300 anciens magistrats, donne des avis très écoutés sur la guerre, la paix et les finances. **Le peuple**, réuni dans les **comices**, élit les magistrats et vote les lois.
+
+**Une démocratie ?** Non, pas au sens moderne : seuls les citoyens hommes votent (ni femmes, ni esclaves, ni étrangers) ; le vote se fait par groupes, où les riches pèsent plus lourd ; et les clients votent souvent comme leur patron. Le pouvoir reste en fait aux mains d'un petit nombre de grandes familles.
+
+>! Critères : 509 et le refus de la royauté ; annualité et collégialité ; rôle des trois forces (magistrats, Sénat, comices) ; nuance finale sur la démocratie.
 `,
         },
       ],

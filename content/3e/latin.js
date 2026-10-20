@@ -2476,5 +2476,421 @@ Les Romains disent mener des **guerres justes**, pour se défendre ou protéger 
         },
       ],
     },
+    {
+      id: "figures-empereurs",
+      titre: "Figures d'empereurs : de Tibère à Constantin",
+      theme: "Culture : l'Empire romain",
+      cours: `
+## Qu'est-ce qu'un empereur ?
+Après Auguste, celui que nous appelons « empereur » porte plusieurs titres : *Imperator* (le chef victorieux des armées, d'où le mot « empereur »), *Caesar* (le nom de famille de Jules César, devenu un titre) et *Augustus*. Le nom officiel de Trajan, par exemple, est *Imperator Caesar Nerva Traianus Augustus*. Comme Auguste, l'empereur détient l'*imperium* sur les armées, la puissance tribunicienne et le titre de grand pontife (*pontifex maximus*).
+
+Il n'existe **aucune loi de succession** : l'empereur choisit souvent un fils ou un fils **adoptif** (Tibère adopté par Auguste, Trajan adopté par Nerva) ; mais ce sont parfois les **soldats** (les prétoriens, la garde de l'empereur, ou les légions des provinces) qui imposent un nouvel empereur.
+
+À sa mort, le sénat juge l'empereur :
+- s'il est jugé bon, il est mis au rang des dieux : il devient ***divus*** (« divin ») et reçoit un culte, comme *divus Augustus* ;
+- s'il est jugé mauvais, le sénat peut faire effacer son nom des inscriptions et abattre ses statues : les historiens modernes appellent cela la ***damnatio memoriae*** (la « condamnation de la mémoire »). Ce fut le cas de Domitien en 96.
+
+## Comment connaissons-nous les empereurs ?
+- **Suétone** (vers 70 - après 122), chevalier et secrétaire de l'empereur Hadrien, écrit les ***Vies des douze Césars***, de Jules César à Domitien. Ce sont des biographies classées par thèmes (famille, actions, vices, vertus, mort), pleines d'anecdotes et de rumeurs.
+- **Tacite** (vers 55 - vers 120), sénateur et consul, raconte l'histoire des empereurs de Tibère à Néron dans les ***Annales***, puis de 69 à 96 dans les ***Histoires*** (en partie perdues).
+- Les **monnaies**, les **inscriptions** et les **monuments** (Ara Pacis, Colisée, arc de Titus, colonne Trajane) montrent l'image officielle que chaque empereur voulait donner de lui.
+
+>! **Lire les sources avec esprit critique.** Tacite et Suétone écrivent sous Trajan et Hadrien, après la mort des empereurs dont ils parlent. Ils partagent le point de vue des **sénateurs** : les empereurs qui ont respecté le sénat sont de « bons » empereurs ; ceux qui l'ont humilié ou ont fait exécuter des sénateurs (Caligula, Néron, Domitien) sont présentés comme des **tyrans**, et l'on rapporte sur eux toutes les rumeurs. Un portrait antique d'empereur est donc à la fois une **source** et un **jugement**.
+
+## Une galerie de portraits
+| Empereur | Règne | Ce que l'on retient |
+|---|---|---|
+| **Tibère** | 14-37 | Fils adoptif d'Auguste, bon général ; il quitte Rome en 26 et se retire à Capri ; les procès pour « lèse-majesté » terrifient les sénateurs. |
+| **Caligula** | 37-41 | *Gaius*, surnommé *Caligula* (« petite sandale », de *caliga*, la sandale des soldats) car il a grandi dans les camps de son père Germanicus. Suétone en fait un tyran cruel et extravagant ; il est assassiné par des officiers de sa garde. |
+| **Claude** | 41-54 | Proclamé par les prétoriens ; conquête de la Bretagne (43) ; discours pour les notables gaulois (Table claudienne, 48). |
+| **Néron** | 54-68 | Élève du philosophe Sénèque ; il fait tuer sa mère Agrippine (59) ; après l'incendie de 64, il construit un immense palais, la *Domus aurea* (la Maison dorée), et persécute les chrétiens. Il se veut artiste (chanteur, poète, cocher). Abandonné de tous, il se suicide en 68. |
+| **Vespasien** | 69-79 | Vainqueur de la guerre civile de 69 (l'« année des quatre empereurs » : Galba, Othon, Vitellius, Vespasien) ; fondateur de la dynastie flavienne ; il rétablit les finances et commence le Colisée. |
+| **Titus** | 79-81 | Fils de Vespasien ; il prend Jérusalem en 70 ; sous son règne : éruption du Vésuve (79), inauguration du Colisée (80). Suétone l'appelle *amor ac deliciae generis humani*, « l'amour et les délices du genre humain » (*Vie de Titus*, 1). |
+| **Domitien** | 81-96 | Frère de Titus ; il se fait appeler « maître et dieu » (*dominus et deus*) ; assassiné en 96, il subit la condamnation de sa mémoire. |
+| **Trajan** | 98-117 | Né à Italica, en Espagne, dans une famille installée là depuis longtemps : le premier empereur **originaire d'une province** (Claude était né à Lyon, mais d'une famille romaine) ; conquête de la Dacie, colonne Trajane (113) ; le sénat lui donne le titre d'***optimus princeps*** (« le meilleur des princes »). |
+| **Hadrien** | 117-138 | Il parcourt tout l'Empire et fortifie les frontières (mur d'Hadrien en Bretagne) ; admirateur de la culture grecque ; il reconstruit le Panthéon. |
+| **Marc Aurèle** | 161-180 | L'empereur philosophe, stoïcien ; pendant ses guerres sur le Danube, il écrit en **grec** des *Pensées* (mot à mot « À soi-même »). |
+| **Constantin** | 306-337 | Le premier empereur chrétien : pont Milvius (312), édit de Milan (313), fondation de Constantinople (330). |
+
+## Des mots d'empereurs rapportés par Suétone
+| Empereur | Mot latin | Traduction |
+|---|---|---|
+| Caligula | *Oderint, dum metuant* (vers d'un poète tragique qu'il aimait répéter) | « Qu'ils me haïssent, pourvu qu'ils me craignent » |
+| Néron, en mourant | *Qualis artifex pereo !* | « Quel artiste périt avec moi ! » |
+| Vespasien, au début de sa dernière maladie | *Vae, puto deus fio.* | « Hélas, je crois que je deviens dieu. » |
+| Titus | *Amici, diem perdidi.* | « Mes amis, j'ai perdu ma journée. » |
+
+>! **Exemple résolu** : *Vae, puto deus fio* (Suétone, *Vie de Vespasien*, 23).
+>! *Vae* : interjection, « hélas ». *puto* : « je crois », placé entre deux mots comme une incise. *fio* : présent de *fio*, « je deviens » ; *deus* est attribut du sujet, au nominatif. Vespasien, malade, plaisante sur la divinisation (*divus*) que le sénat accorde aux empereurs défunts : « Hélas, je crois que je deviens dieu. »
+
+On attribue aussi à Vespasien la formule *Pecunia non olet* (« l'argent n'a pas d'odeur ») : Suétone raconte seulement qu'il fit sentir à son fils Titus une pièce de monnaie venue d'un impôt sur l'urine ; la formule elle-même a été inventée plus tard.
+
+>! **Erreurs fréquentes** : confondre le mot *imperator* (titre militaire) avec un roi (*rex*, titre haï à Rome) ; croire que les portraits de Suétone sont objectifs ; mélanger les dynasties (Néron est julio-claudien, Titus flavien, Trajan antonin).
+
+> **À retenir** : l'empereur cumule *imperium*, puissance tribunicienne et grand pontificat ; pas de loi de succession (adoption, hérédité, armée). Après sa mort : divinisation (*divus*) ou condamnation de la mémoire. Sources : Suétone (*Vies des douze Césars*), Tacite (*Annales*, *Histoires*), monnaies et monuments, à lire avec esprit critique (point de vue des sénateurs). Repères : Tibère, Caligula, Claude, Néron ; Vespasien, Titus, Domitien ; Trajan (*optimus princeps*), Hadrien, Marc Aurèle ; Constantin.
+`,
+      textes: {
+        titus: `**Le bon et le mauvais empereur** (texte d'entraînement, adapté de Suétone, *Vie de Titus*, 1 et 8, et *Vie de Domitien*, 13 et 23)
+
+*Titus, Vespasiani filius, amor ac deliciae generis humani appellatus est. Natura benignissimus erat : neminem sine spe dimittebat. Olim, cum super cenam recordatus esset se nihil cuiquam toto die dedisse, amicis dixit : « Amici, diem perdidi. » Domitianus autem, frater eius, se dominum et deum vocari iubebat ; itaque senatoribus invisus erat, et senatus post mortem eius memoriam damnavit.*
+
+Lexique : *amor, oris*, m. : l'amour ; *deliciae, arum*, f. pl. : les délices ; *genus humanum* : le genre humain ; *appello, as, are* : appeler ; *natura, ae* : la nature ; *benignus, a, um* : bienveillant, généreux ; *nemo, neminem* : personne ; *spes, ei* : l'espoir ; *dimitto, is, ere* : renvoyer, laisser partir ; *autem* : mais, d'autre part ; *itaque* : c'est pourquoi ; *olim* : un jour ; *super cenam* : pendant le dîner ; *recordor, aris, ari, recordatus sum* : se rappeler ; *quisquam*, datif *cuiquam* : quelqu'un (avec une négation : personne) ; *totus, a, um* : tout entier ; *perdo, is, ere, perdidi* : perdre ; *iubeo, es, ere* : ordonner ; *voco, as, are* : appeler (*vocari* : infinitif présent passif, « être appelé ») ; *invisus, a, um* + datif : odieux à ; *memoria, ae* : la mémoire ; *damno, as, are* : condamner.`,
+      },
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quel empereur, né à Italica en Espagne, est le premier empereur originaire d'une province, et reçoit du sénat le titre d'*optimus princeps* ?",
+          choix: ["Hadrien", "Néron", "Trajan", "Vespasien"],
+          reponse: 2,
+          explication: "**Trajan** (98-117), né à Italica (près de l'actuelle Séville), conquiert la Dacie et porte le titre d'*optimus princeps*, « le meilleur des princes ». Hadrien, son successeur, est issu d'une famille de la même ville ; Néron est julio-claudien, Vespasien est né en Italie.",
+        },
+        {
+          type: "saisie",
+          question: "Quel surnom, signifiant « petite sandale », les soldats donnèrent-ils à l'empereur Gaius (37-41) ?",
+          reponses: ["Caligula"],
+          explication: "***Caligula***, diminutif de *caliga*, la sandale cloutée des soldats : enfant, Gaius vivait dans les camps de son père Germanicus et portait un petit uniforme de soldat.",
+        },
+        {
+          type: "qcm",
+          question: "Selon Suétone, Néron s'écrie avant de mourir : **Qualis artifex pereo !** Que veut-il dire ?",
+          choix: ["Quel artiste périt avec moi !", "Quel artiste m'a tué !", "Je meurs comme un soldat !", "Quel art de bien mourir !"],
+          reponse: 0,
+          explication: "*qualis* : « quel » (exclamatif), accordé avec *artifex* (l'artiste), attribut du sujet ; *pereo* : présent de *pereo* (*per* + *eo*, périr), 1re personne : mot à mot « Quel artiste je péris ! ». Néron, qui se voulait chanteur et poète, regrette l'artiste que le monde perd avec lui.",
+        },
+        {
+          type: "vf",
+          question: "Tacite et Suétone sont des témoins neutres : leurs portraits des empereurs ne reflètent aucun point de vue particulier.",
+          reponse: false,
+          explication: "Faux : ils écrivent après la mort des empereurs dont ils parlent et partagent le point de vue des **sénateurs**. Les empereurs hostiles au sénat (Caligula, Néron, Domitien) sont décrits comme des tyrans, et les rumeurs sont souvent rapportées. Il faut confronter ces récits aux monnaies, aux inscriptions et aux monuments.",
+        },
+        {
+          type: "qcm",
+          texte: "titus",
+          question: "Que signifie **neminem sine spe dimittebat** ?",
+          choix: ["Il ne laissait personne sortir de Rome", "Personne ne lui donnait d'espoir", "Il renvoyait tous les gens sans espoir", "Il ne renvoyait personne sans espoir"],
+          reponse: 3,
+          explication: "*neminem* : accusatif de *nemo* (personne), COD de *dimittebat* (imparfait d'habitude, 3e sg., sujet : Titus) ; *sine spe* : *sine* + ablatif de *spes*. « **Il ne renvoyait personne sans espoir** » : quiconque lui demandait une faveur repartait avec une promesse.",
+        },
+        {
+          type: "saisie",
+          texte: "titus",
+          question: "Traduis la phrase de Titus : **Amici, diem perdidi.**",
+          reponses: ["mes amis, j'ai perdu ma journée", "amis, j'ai perdu ma journée", "mes amis, j'ai perdu la journée", "amis, j'ai perdu la journée", "mes amis, j'ai perdu un jour", "amis, j'ai perdu un jour", "mes amis, j'ai perdu ma journée !", "mes amis j'ai perdu ma journée", "amis j'ai perdu ma journée", "mes amis, j'ai perdu mon jour", "mes amis, j'ai perdu ce jour", "mes amis, j'ai perdu une journée", "amis, j'ai perdu une journée", "amis, j'ai perdu ce jour", "amis, j'ai perdu mon jour", "mes amis, j'ai perdu cette journée", "amis, j'ai perdu cette journée"],
+          explication: "*Amici* : vocatif pluriel de *amicus* (apostrophe) ; *diem* : accusatif de *dies* (5e déclinaison), COD ; *perdidi* : parfait de *perdo*, 1re sg., traduit par un passé composé car Titus parle. « **Mes amis, j'ai perdu ma journée.** » Il n'avait fait de bien à personne ce jour-là.",
+        },
+        {
+          type: "qcm",
+          texte: "titus",
+          question: "Dans *cum super cenam recordatus esset se nihil cuiquam toto die dedisse*, comment analyser **cum… recordatus esset** ?",
+          choix: ["*cum* préposition + ablatif : « avec le souvenir »", "*cum* + subjonctif plus-que-parfait d'un déponent : « comme il s'était rappelé »", "*cum* + indicatif : « chaque fois qu'il se rappelle »", "Un ablatif absolu : « le souvenir ayant été rappelé »"],
+          reponse: 1,
+          explication: "*recordatus esset* est le subjonctif plus-que-parfait du **déponent** *recordor* (forme passive, sens actif « se rappeler ») : *cum* historique, antériorité. Il est complété par une **proposition infinitive** : *se* (sujet, réfléchi = Titus) *nihil cuiquam dedisse* (infinitif parfait) : « qu'il n'avait rien donné à personne ».",
+        },
+        {
+          type: "qcm",
+          question: "Dans le mot de Vespasien, atteint de sa dernière maladie, *Vae, puto deus fio*, que signifie **fio** ?",
+          choix: ["« Je fais »", "« Je fus »", "« Je deviens »", "« Je crois »"],
+          reponse: 2,
+          explication: "*fio* (*fio, fis, fieri, factus sum*) signifie « devenir » ; *deus* est attribut du sujet. « Je crois » traduit *puto*. Vespasien plaisante sur la divinisation (*divus*) que le sénat accordait aux bons empereurs après leur mort : « Hélas, je crois que je deviens dieu. »",
+        },
+        {
+          type: "qcm",
+          question: "Quelle liste range ces empereurs dans l'**ordre chronologique** ?",
+          choix: ["Trajan, Néron, Tibère, Constantin, Vespasien", "Néron, Tibère, Vespasien, Constantin, Trajan", "Tibère, Vespasien, Néron, Trajan, Constantin", "Tibère, Néron, Vespasien, Trajan, Constantin"],
+          reponse: 3,
+          explication: "**Tibère** (14-37) et **Néron** (54-68) sont julio-claudiens ; **Vespasien** (69-79) fonde la dynastie flavienne ; **Trajan** (98-117) est un Antonin ; **Constantin** (306-337) est le premier empereur chrétien.",
+        },
+        {
+          type: "redaction",
+          texte: "titus",
+          question: "**Entraînement à l'évaluation.** 1) Traduis le texte. 2) Relève deux mots ou expressions qui font de Titus un « bon » empereur et deux qui font de Domitien un « mauvais » empereur. 3) En t'appuyant sur le cours, explique pourquoi l'historien doit lire ces portraits avec prudence.",
+          corrige: `
+**1) Traduction.** « Titus, fils de Vespasien, fut appelé l'amour et les délices du genre humain. Il était par nature très généreux : il ne renvoyait personne sans espoir. Un jour, comme il s'était rappelé, pendant le dîner, qu'il n'avait rien donné à personne de toute la journée, il dit à ses amis : "Mes amis, j'ai perdu ma journée." Mais Domitien, son frère, ordonnait qu'on l'appelle maître et dieu ; c'est pourquoi il était odieux aux sénateurs, et le sénat, après sa mort, condamna sa mémoire. »
+
+Points de langue : *appellatus est* : parfait passif ; *benignissimus* : superlatif absolu (« très ») ; *cum… recordatus esset* : *cum* + subjonctif plus-que-parfait d'un déponent, suivi de l'infinitive *se nihil cuiquam dedisse* ; *se… vocari iubebat* : *iubeo* + proposition infinitive au passif (« il ordonnait que lui-même soit appelé ») ; *eius* (non réfléchi) renvoie à Domitien, car le sujet de *damnavit* est *senatus*.
+
+**2) Bon et mauvais empereur.**
+- Titus : *amor ac deliciae generis humani* (il est aimé de tous) ; *benignissimus* ; *neminem sine spe dimittebat* ; *Amici, diem perdidi* (il juge perdue une journée sans bienfait).
+- Domitien : *se dominum et deum vocari iubebat* (il se comporte en maître, comme un roi, et se prend pour un dieu de son vivant) ; *senatoribus invisus* ; *memoriam damnavit* (condamnation de sa mémoire).
+
+**3) Prudence.** Suétone écrit sous Hadrien, plusieurs dizaines d'années après ces règnes, et reprend le point de vue des **sénateurs** : Titus a ménagé le sénat, Domitien a fait exécuter des sénateurs, d'où ces deux portraits opposés. Le texte oppose deux frères pour donner une **leçon morale** (le bon prince est généreux et modeste, le tyran orgueilleux). Titus n'a régné que deux ans : on ignore ce qu'aurait été un long règne. Pour juger, il faut confronter Suétone à d'autres sources : monnaies, inscriptions, monuments (Domitien a beaucoup construit à Rome) et autres historiens.
+`,
+        },
+      ],
+    },
+    {
+      id: "rome-provinces-sicile",
+      titre: "Rome et ses provinces : la Sicile et les Verrines de Cicéron",
+      theme: "Culture : vie familiale, sociale et intellectuelle",
+      cours: `
+## Qu'est-ce qu'une province ?
+À l'origine, le mot ***provincia*** désigne la **mission** confiée à un magistrat qui détient l'*imperium* (par exemple : faire la guerre en Espagne). Il finit par désigner le **territoire conquis** que Rome administre hors d'Italie et qui lui paie un **tribut** (un impôt).
+
+La **Sicile** est la **première province** romaine : Rome en prend le contrôle en **241 av. J.-C.**, à la fin de la première guerre punique contre Carthage. Syracuse, alliée de Rome puis passée du côté de Carthage, est prise en 212 av. J.-C. par le proconsul Marcellus, ancien consul (le savant Archimède est tué pendant la prise de la ville) : toute l'île est alors romaine. Suivent la Sardaigne et la Corse, l'Espagne, l'Afrique (146 av. J.-C.), la Macédoine, l'Asie, la Gaule transalpine (vers 120 av. J.-C., la future Narbonnaise, que les Romains appellent simplement « la Province », d'où la **Provence**), puis la Gaule conquise par César.
+
+## Le gouverneur et les impôts sous la République
+Chaque province est confiée pour un an (souvent prolongé) à un ancien consul ou un ancien préteur : le **proconsul** ou le **propréteur**. Il commande les troupes, rend la justice et fait rentrer les impôts. Il n'est pas payé, et beaucoup de gouverneurs profitent de leur pouvoir pour **s'enrichir** : pillage, pots-de-vin, impôts excessifs.
+
+En Sicile, les cultivateurs versent à Rome la **dîme** (*decuma*), le dixième de leur récolte de blé. L'île est si riche en blé qu'elle nourrit Rome : Cicéron rapporte que Caton l'Ancien l'appelait *cellam penariam rei publicae nostrae, nutricem plebis Romanae*, « le grenier de notre État, la nourrice du peuple romain » (*Verrines*, II, 2, 5). C'est aussi une terre **grecque** (Syracuse, Agrigente) remplie de temples et de statues.
+
+Pour protéger les provinciaux, une loi crée en **149 av. J.-C.** un tribunal permanent pour les affaires *de repetundis* (« des sommes à réclamer ») : les provinciaux peuvent y accuser un ancien gouverneur et se faire rendre ce qu'il leur a extorqué. Mais les juges sont des sénateurs, souvent indulgents pour leurs collègues.
+
+## L'affaire Verrès (73-70 av. J.-C.)
+**Caius Verrès** gouverne la Sicile comme propréteur de 73 à 71 av. J.-C. Les cités siciliennes l'accusent d'avoir volé des statues et des objets d'art dans les temples et chez les particuliers, détourné le blé des cultivateurs, vendu ses jugements et fait condamner des innocents.
+
+En 70 av. J.-C., elles demandent à **Cicéron** de l'accuser : il a été **questeur** en Sicile, à Lilybée, en 75 av. J.-C., et y a laissé le souvenir d'un magistrat honnête. Verrès est défendu par **Hortensius**, le plus célèbre avocat de Rome. Il espère faire traîner le procès jusqu'à l'année suivante, où ses amis (dont Hortensius, consul en 69) seront au pouvoir. Cicéron rassemble rapidement des preuves en Sicile, prononce un discours d'ouverture très court et fait aussitôt entendre les **témoins**. Écrasé, Verrès s'exile à **Marseille** avant le jugement.
+
+Cicéron publie ensuite les cinq discours de la « seconde action », qu'il n'a **jamais prononcés**, puisque le procès s'est arrêté : ce sont les ***Verrines***. Il y raconte les crimes de Verrès : le vol des œuvres d'art (livre IV, *De signis*, « les statues ») et les supplices infligés à des innocents (livre V, *De suppliciis*). Ce procès fait de Cicéron le premier orateur de Rome.
+
+>! **Le supplice de Gavius** (*Verrines*, II, 5, 162), texte authentique. Gavius, un citoyen romain, est arrêté à Messine sur ordre de Verrès, battu de verges en public puis crucifié face à l'Italie :
+>! *Caedebatur virgis in medio foro Messanae civis Romanus, iudices, cum interea nullus gemitus, nulla vox alia illius miseri inter dolorem crepitumque plagarum audiebatur nisi haec : « Civis Romanus sum. »*
+>! « On frappait de verges, au milieu du forum de Messine, un citoyen romain, juges, et pendant ce temps on n'entendait de ce malheureux, au milieu de la douleur et du claquement des coups, aucun gémissement, aucune autre parole que celle-ci : "Je suis citoyen romain." »
+>! Le scandale est double : la loi interdit de battre de verges et de crucifier un citoyen romain sans jugement ; et le cri *Civis Romanus sum*, qui aurait dû le protéger partout dans le monde romain, reste sans effet.
+
+### Méthode : repérer les procédés de l'éloquence
+- l'**apostrophe** aux juges (*iudices*, au vocatif) qui les prend à témoin ;
+- l'**ordre des mots** : le sujet *civis Romanus* est rejeté après le verbe et le lieu, pour créer un effet de surprise et d'indignation ;
+- l'**accumulation** et l'**anaphore** (*nullus gemitus, nulla vox*) ;
+- la **chute** : la phrase se termine sur les paroles mêmes de la victime.
+
+## Les provinces sous l'Empire
+En **27 av. J.-C.**, Auguste partage les provinces :
+- les **provinces sénatoriales**, pacifiées et, en général, sans légions (Sicile, Achaïe, Asie, Afrique, Narbonnaise à partir de 22 av. J.-C.), gouvernées par un **proconsul** tiré au sort parmi les sénateurs ;
+- les **provinces impériales**, où stationnent les légions (par exemple les Trois Gaules, la Bretagne), gouvernées par des **légats** choisis par l'empereur. L'Égypte est confiée à un **préfet**, un chevalier.
+
+Les gouverneurs reçoivent désormais un salaire et sont surveillés par l'empereur ; les abus continuent, mais ils sont mieux punis. Peu à peu, les élites provinciales deviennent citoyennes, entrent au sénat et fournissent même des empereurs (Trajan, né en Espagne).
+
+>! **Erreurs fréquentes** : croire que les *Verrines* ont toutes été prononcées (seul le début du procès a eu lieu) ; confondre la Province (la Narbonnaise, d'où la Provence) et les provinces en général ; oublier que la Sicile est romaine depuis le IIIe siècle av. J.-C., bien avant la Gaule.
+
+> **À retenir** : *provincia* = mission d'un magistrat, puis territoire soumis qui paie un tribut. Sicile = première province (241 av. J.-C.), grenier à blé de Rome. Verrès, propréteur de Sicile (73-71 av. J.-C.), accusé par Cicéron en 70 : il s'exile avant le jugement ; les *Verrines* (*De signis*, *De suppliciis* : Gavius, *Civis Romanus sum*). Sous l'Empire (27 av. J.-C.) : provinces sénatoriales (proconsul) et impériales (légats de l'empereur).
+`,
+      textes: {
+        gavius: `**Le supplice d'un citoyen romain** (Cicéron, *Verrines*, II, 5, 162, texte authentique)
+
+Cicéron, devant les juges, raconte comment le gouverneur Verrès a fait battre de verges, puis crucifier, Gavius, un citoyen romain, à Messine, en Sicile.
+
+*Caedebatur virgis in medio foro Messanae civis Romanus, iudices, cum interea nullus gemitus, nulla vox alia illius miseri inter dolorem crepitumque plagarum audiebatur nisi haec : « Civis Romanus sum. »*
+
+Lexique : *caedo, is, ere* : frapper ; *virga, ae* : la verge, la baguette ; *medius, a, um* : qui est au milieu ; *forum, i* : le forum, la place publique ; *Messana, ae* : Messine ; *iudex, icis* : le juge ; *cum* + indicatif : alors que ; *interea* : pendant ce temps ; *gemitus, us* : le gémissement ; *vox, vocis* : la voix, la parole ; *miser, era, erum* : malheureux ; *inter* + acc. : au milieu de ; *dolor, oris* : la douleur ; *crepitus, us* : le bruit, le claquement ; *plaga, ae* : le coup ; *nisi* : sinon, excepté.`,
+      },
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quelle est la **première province** de Rome, en 241 av. J.-C. ?",
+          choix: ["La Gaule narbonnaise", "La Sicile", "L'Égypte", "La Grèce"],
+          reponse: 1,
+          explication: "La **Sicile** devient romaine en 241 av. J.-C., à la fin de la première guerre punique. La Narbonnaise date de la fin du IIe siècle av. J.-C., la Grèce passe sous domination romaine en 146 av. J.-C., l'Égypte en 30 av. J.-C.",
+        },
+        {
+          type: "saisie",
+          question: "Quel gouverneur de Sicile Cicéron accuse-t-il en 70 av. J.-C. ?",
+          reponses: ["Verrès", "Verres", "Caius Verrès", "Gaius Verrès", "Caius Verres", "Gaius Verres", "C. Verrès", "C. Verres", "C Verrès", "C Verres"],
+          explication: "**Caius Verrès**, propréteur de Sicile de 73 à 71 av. J.-C. Les discours de Cicéron contre lui s'appellent les *Verrines*.",
+        },
+        {
+          type: "qcm",
+          question: "Pourquoi les cités siciliennes choisissent-elles **Cicéron** pour accuser Verrès ?",
+          choix: ["Parce qu'il était né en Sicile", "Parce qu'il était alors consul", "Parce qu'il était l'avocat habituel de Verrès", "Parce qu'il avait été questeur en Sicile et y avait laissé le souvenir d'un magistrat honnête"],
+          reponse: 3,
+          explication: "Cicéron avait été **questeur** à Lilybée, en Sicile, en 75 av. J.-C. Il est né à Arpinum, en Italie, et ne sera consul qu'en 63 av. J.-C. L'avocat de Verrès est Hortensius.",
+        },
+        {
+          type: "vf",
+          question: "Cicéron a prononcé devant les juges les cinq discours de la seconde action contre Verrès.",
+          reponse: false,
+          explication: "Faux : Verrès s'est exilé à Marseille dès le début du procès, après l'audition des témoins. Cicéron a **publié** les discours de la seconde action sans les prononcer, pour montrer l'ampleur des crimes et son talent d'orateur.",
+        },
+        {
+          type: "qcm",
+          question: "Quel est le sens premier du mot latin **provincia** ?",
+          choix: ["La mission confiée à un magistrat qui détient l'*imperium*", "Une ville fondée par des vétérans", "Une région d'Italie", "Une terre offerte aux dieux"],
+          reponse: 0,
+          explication: "La *provincia* est d'abord la **mission** (souvent militaire) d'un magistrat ; le mot finit par désigner le **territoire** conquis qu'il gouverne et qui paie un tribut. Une ville fondée par des vétérans est une **colonie**.",
+        },
+        {
+          type: "qcm",
+          texte: "gavius",
+          question: "À quel temps et à quelle voix est **caedebatur** ?",
+          choix: ["Présent actif", "Parfait passif", "Imparfait passif", "Futur passif"],
+          reponse: 2,
+          explication: "*caede-* + *-ba-* (imparfait) + *-tur* (passif) : imparfait passif de *caedo*, 3e sg. ; le sujet est *civis Romanus* : « un citoyen romain **était frappé** », que l'on peut traduire « on frappait un citoyen romain ». L'imparfait fait durer la scène sous les yeux des juges.",
+        },
+        {
+          type: "saisie",
+          texte: "gavius",
+          question: "Traduis le cri de Gavius : **Civis Romanus sum.**",
+          reponses: ["je suis citoyen romain", "je suis un citoyen romain", "je suis citoyen de Rome", "je suis un citoyen de Rome"],
+          explication: "*civis Romanus* : nominatif, attribut du sujet ; *sum* : 1re personne du présent de *sum*. « **Je suis citoyen romain.** » Cette phrase devait protéger Gavius : un citoyen ne pouvait pas être battu de verges ni crucifié sans jugement.",
+        },
+        {
+          type: "qcm",
+          texte: "gavius",
+          question: "À quel cas est **iudices**, et pourquoi Cicéron l'emploie-t-il ici ?",
+          choix: ["Accusatif : ce sont les juges que l'on frappe", "Vocatif : Cicéron s'adresse aux juges pour les prendre à témoin", "Nominatif : les juges sont le sujet de *caedebatur*", "Génitif : le forum des juges"],
+          reponse: 1,
+          explication: "*iudices* (de *iudex, icis*) est un **vocatif** : c'est une apostrophe placée au milieu du récit, qui interpelle les juges au moment le plus choquant. Le sujet de *caedebatur* est *civis Romanus*.",
+        },
+        {
+          type: "vf",
+          question: "Sous l'Empire, la Sicile est une province sénatoriale, gouvernée par un proconsul tiré au sort parmi les sénateurs.",
+          reponse: true,
+          explication: "Vrai : depuis 27 av. J.-C., les provinces pacifiées et, en général, sans légions (Sicile, Achaïe, Asie…) sont **sénatoriales** (l'Afrique, sénatoriale elle aussi, garde une légion). Les provinces où stationnent des légions sont **impériales**, gouvernées par des légats de l'empereur.",
+        },
+        {
+          type: "redaction",
+          texte: "gavius",
+          question: "**Entraînement à l'évaluation.** 1) Retrouve dans le latin les mots traduits par « au milieu du forum », « aucun gémissement » et « je suis citoyen romain ». 2) Relève trois procédés par lesquels Cicéron cherche à indigner les juges. 3) En t'appuyant sur le cours, explique pourquoi ce passage est aussi un document sur le gouvernement des provinces romaines.",
+          corrige: `
+**1) Repérages.**
+- « au milieu du forum » : ***in medio foro*** (*in* + ablatif, lieu où l'on est ; l'adjectif *medio* s'accorde avec *foro* et signifie « le milieu de ») ; *Messanae* est le génitif de *Messana* : « de Messine ».
+- « aucun gémissement » : ***nullus gemitus*** (nominatif, sujet de *audiebatur*, avec *nulla vox alia*).
+- « je suis citoyen romain » : ***Civis Romanus sum***.
+
+**2) Les procédés.**
+- L'**ordre des mots** : la phrase commence par le verbe et l'instrument du supplice (*Caedebatur virgis*), puis le lieu public (*in medio foro Messanae*) ; le mot qui scandalise, *civis Romanus*, arrive ensuite comme un choc.
+- L'**apostrophe** *iudices* : Cicéron interpelle les juges et les oblige à imaginer la scène.
+- L'**anaphore** et l'**accumulation** négatives (*nullus gemitus, nulla vox alia*) : la victime ne se plaint pas, elle ne dit qu'une chose, ce qui la rend digne et touchante.
+- La **chute** : la phrase se termine sur les mots mêmes de Gavius, *Civis Romanus sum*, qui reprennent *civis Romanus* du début.
+- Les mots du **pathétique** : *illius miseri*, *dolorem*, *crepitum plagarum* (on entend presque les coups).
+
+**3) Un document sur les provinces.** Le texte montre l'immense pouvoir d'un gouverneur républicain : Verrès, propréteur, rend la justice, commande et punit, presque sans contrôle pendant son mandat. Il montre aussi les **abus** possibles (Verrès est accusé de vols, d'extorsions et de condamnations injustes) et le **recours** des provinciaux : depuis 149 av. J.-C., ils peuvent accuser un ancien gouverneur devant un tribunal à Rome, ce que font les Siciliens avec Cicéron. Enfin, il montre la valeur de la **citoyenneté romaine**, qui protège en principe contre les châtiments sans jugement, même loin de Rome. Mais c'est un texte d'**accusateur** : Cicéron veut faire condamner Verrès et noircit sans doute le tableau.
+`,
+        },
+      ],
+    },
+    {
+      id: "judaisme-monotheismes",
+      titre: "Polythéisme et monothéismes : les Juifs dans l'Empire romain",
+      theme: "Culture : vie familiale, sociale et intellectuelle",
+      cours: `
+## Polythéisme et monothéisme
+- Le **polythéisme** (du grec *polus*, nombreux, et *theos*, dieu) est la croyance en **plusieurs dieux**. La religion romaine est polythéiste et accueillante : elle adopte des dieux étrangers (Cybèle, Isis), à condition que chacun honore aussi les dieux de la cité et l'empereur.
+- Le **monothéisme** (du grec *monos*, seul) est la croyance en **un seul Dieu**. Dans le monde romain, le **judaïsme** est le premier monothéisme ; le **christianisme** naît en son sein au Ier siècle (Jésus et ses premiers disciples sont juifs). L'islam, troisième grand monothéisme, n'apparaîtra qu'au VIIe siècle, après la fin de l'Empire d'Occident.
+
+## Le judaïsme
+Les Juifs adorent un Dieu **unique**, **invisible**, que l'on ne représente par aucune statue. Leur Loi, la ***Torah*** (les cinq premiers livres de la Bible), fixe des pratiques qui les distinguent : le **sabbat** (le repos du septième jour), la circoncision des garçons, des règles alimentaires. Jusqu'en 70, le **Temple de Jérusalem** est le centre du culte : selon la Loi, c'est le seul lieu où l'on offre des sacrifices.
+
+>! **La profession de foi juive** dans la Bible latine de saint Jérôme (Vulgate, *Deutéronome*, 6, 4) :
+>! *Audi, Israhel : Dominus Deus noster, Dominus unus est.*
+>! « Écoute, Israël : le Seigneur notre Dieu est le seul Seigneur. » (mot à mot : « le Seigneur est un »)
+>! *Audi* : impératif de *audio* ; *Israhel* : vocatif (apostrophe au peuple) ; *unus* : adjectif numéral, attribut du sujet *Dominus*.
+
+## Les Juifs dans le monde romain
+- **La Judée.** Pompée prend Jérusalem en **63 av. J.-C.** et entre dans le Temple. **Hérode le Grand**, roi allié de Rome (37-4 av. J.-C.), agrandit magnifiquement le Temple. En **6 ap. J.-C.**, la Judée devient une province romaine gouvernée par un préfet (Ponce Pilate de 26 à 36).
+- **La diaspora** (mot grec signifiant « dispersion ») : de nombreux Juifs vivent hors de Judée, à Alexandrie, Antioche, Rome, en Asie Mineure, en Grèce. Ils se réunissent dans des **synagogues** (du grec *synagôgê*, « assemblée ») pour prier et lire la Loi. Beaucoup parlent grec : à Alexandrie, la Bible hébraïque a été traduite en grec à partir du IIIe siècle av. J.-C. (la **Septante**).
+- **Une religion tolérée.** César puis Auguste confirment les privilèges des Juifs : ils peuvent pratiquer leur culte, se réunir, respecter le sabbat, envoyer chaque année de l'argent au Temple. Ils ne sont pas obligés de sacrifier aux dieux de Rome ni à l'empereur : à la place, on offre au Temple des sacrifices **pour** l'empereur. Pour les Romains, c'est la religion **ancestrale** d'un peuple, donc respectable.
+- **Curiosité et hostilité.** Les Romains s'étonnent d'un dieu sans statue. Tacite écrit : *Iudaei mente sola unumque numen intellegunt* (*Histoires*, V, 5), « Les Juifs ne conçoivent la divinité que par la pensée, et n'en conçoivent qu'une seule ». Certains auteurs, comme le satirique Juvénal, se moquent du sabbat, qu'ils prennent pour de la paresse. Les Juifs sont parfois chassés de Rome, sous Tibère (19 ap. J.-C.) et sous Claude.
+
+>! **Un texte de Suétone** (*Vie de Claude*, 25, 4), texte authentique : *Iudaeos impulsore Chresto assidue tumultuantis Roma expulit.* « Il chassa de Rome les Juifs, qui s'agitaient sans cesse à l'instigation de Chrestus. » Beaucoup d'historiens pensent que *Chrestus* désigne le Christ : les troubles opposeraient des Juifs à des Juifs devenus chrétiens. Ce n'est qu'une hypothèse.
+
+## Les guerres juives
+| Date | Événement |
+|---|---|
+| 66-70 | Grande révolte de Judée. Vespasien, puis son fils **Titus**, mènent la guerre ; en **70**, Jérusalem est prise et le **Temple détruit** : il ne sera jamais reconstruit. |
+| 71 | Triomphe de Vespasien et Titus à Rome : on y porte le butin du Temple, dont le grand chandelier à sept branches (la *menorah*). |
+| 73 ou 74 | Chute de la forteresse de Masada, dernier refuge des révoltés. |
+| 115-117 | Révoltes des Juifs de la diaspora (Égypte, Cyrénaïque, Chypre), sous Trajan. |
+| 132-135 | Révolte de Bar Kokhba, sous Hadrien, en partie provoquée par son projet de faire de Jérusalem une colonie romaine, ***Aelia Capitolina*** ; après la défaite, la ville est interdite aux Juifs et la province prend le nom de Syrie-Palestine. |
+
+Les Flaviens célèbrent leur victoire : des monnaies portent l'inscription *IVDAEA CAPTA* (« la Judée prise ») ; l'**arc de Titus**, élevé à l'entrée du forum, sur la Voie sacrée, après la mort de Titus (81), montre le chandelier du Temple porté en triomphe. Sa dédicace dit : *SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F(ILIO) VESPASIANO AVGVSTO*, « Le sénat et le peuple romain au divin Titus Vespasien Auguste, fils du divin Vespasien ». L'impôt que les Juifs versaient au Temple est désormais payé à **Jupiter Capitolin** (le « fisc juif »).
+
+Un témoin raconte cette guerre : **Flavius Josèphe**, un chef juif passé du côté des Romains, auteur de *La Guerre des Juifs*, écrite en **grec**. Après la destruction du Temple, le judaïsme se réorganise autour de l'étude de la Loi, de la prière à la synagogue et de l'enseignement des **rabbins** (la *Mishna* est mise par écrit vers 200).
+
+## Juifs et chrétiens face à Rome
+Au début, les Romains voient les chrétiens comme un groupe juif. Les deux religions refusent les dieux de Rome et le culte impérial. Mais le judaïsme est la religion **ancestrale** d'un peuple, reconnue depuis César ; le christianisme, lui, est une religion **nouvelle**, qui cherche à convertir tout le monde et n'a pas de privilège : c'est en partie pour cela que les chrétiens sont persécutés. Quand l'Empire devient chrétien (IVe siècle), le judaïsme reste autorisé, mais les empereurs chrétiens limitent peu à peu les droits des Juifs.
+
+>! **Erreurs fréquentes** : croire que Rome interdisait toutes les religions étrangères (elle les tolérait presque toutes) ; confondre la destruction du Temple (70, sous Vespasien, par Titus) et la fondation d'*Aelia Capitolina* (sous Hadrien) ; oublier que le christianisme est né du judaïsme.
+
+> **À retenir** : polythéisme romain accueillant ; judaïsme = premier monothéisme (Dieu unique, sans image ; Torah, sabbat, Temple). Judée prise par Pompée (63 av. J.-C.), province en 6 ap. J.-C. ; diaspora et synagogues ; privilèges accordés par César et Auguste. Révolte de 66-70 : Titus détruit le Temple (70), arc de Titus ; révolte de Bar Kokhba (132-135) et *Aelia Capitolina*. Le christianisme naît du judaïsme mais, religion nouvelle, n'a pas ses privilèges.
+`,
+      textes: {
+        claude: `**Les Juifs chassés de Rome** (Suétone, *Vie de Claude*, 25, 4, texte authentique)
+
+Suétone énumère les mesures prises par l'empereur Claude (41-54). Le sujet du verbe est Claude.
+
+*Iudaeos impulsore Chresto assidue tumultuantis Roma expulit.*
+
+Lexique : *Iudaei, orum* : les Juifs ; *impulsor, oris* : l'instigateur ; *Chrestus, i* : Chrestus (peut-être le Christ) ; *assidue* : sans cesse ; *tumultuor, aris, ari* : s'agiter, provoquer des troubles ; *tumultuantis* = *tumultuantes* (accusatif pluriel du participe présent, forme ancienne en -is) ; *expello, is, ere, expuli* : chasser ; *Roma* : ablatif, « de Rome » (avec un nom de ville, pas de préposition pour dire d'où l'on vient, comme on dit *Romam* sans *ad* pour « à Rome »).`,
+      },
+      exercices: [
+        {
+          type: "qcm",
+          question: "Que signifie le mot **monothéisme**, formé sur le grec ?",
+          choix: ["La croyance en plusieurs dieux", "Le refus de croire en un dieu", "La croyance en un seul Dieu", "Le culte rendu à l'empereur"],
+          reponse: 2,
+          explication: "*monos* (seul) + *theos* (dieu) : le **monothéisme** est la croyance en un seul Dieu (judaïsme, christianisme). La croyance en plusieurs dieux est le **polythéisme** (*polus*, nombreux), comme la religion romaine.",
+        },
+        {
+          type: "vf",
+          question: "Sous Auguste, les Juifs étaient obligés de sacrifier aux dieux de Rome et à l'empereur, comme tous les habitants de l'Empire.",
+          reponse: false,
+          explication: "Faux : César puis Auguste leur accordent des **privilèges** : ils pratiquent leur culte, respectent le sabbat, ne sacrifient pas aux dieux romains. On offre seulement au Temple de Jérusalem des sacrifices **pour** l'empereur. Pour Rome, c'est la religion ancestrale d'un peuple.",
+        },
+        {
+          type: "saisie",
+          question: "Quel mot d'origine grecque, signifiant « assemblée », désigne le lieu où les Juifs se réunissent pour prier et lire la Loi ?",
+          reponses: ["synagogue", "la synagogue", "une synagogue", "synagogues", "les synagogues"],
+          explication: "La **synagogue** (du grec *synagôgê*, « réunion, assemblée »). Il y en avait dans toutes les grandes villes de la diaspora, dont Rome.",
+        },
+        {
+          type: "qcm",
+          question: "Qui prend Jérusalem et détruit le Temple en **70 ap. J.-C.** ?",
+          choix: ["Titus, fils de Vespasien", "Pompée", "Hadrien", "Néron"],
+          reponse: 0,
+          explication: "**Titus** achève la guerre commencée par son père Vespasien en 66. Pompée avait pris Jérusalem en 63 av. J.-C. sans détruire le Temple ; Hadrien fonde *Aelia Capitolina* au moment de la révolte de 132-135 ; Néron meurt en 68.",
+        },
+        {
+          type: "saisie",
+          question: "Dans la Vulgate (*Deutéronome*, 6, 4), traduis la fin du verset : **Dominus unus est.** (*Dominus, i* : le Seigneur ; *unus, a, um* : un, un seul)",
+          reponses: ["le seigneur est un", "le seigneur est unique", "le seigneur est un seul", "le seigneur est le seul seigneur", "le seigneur est l'unique seigneur", "le seigneur est un seul seigneur", "le seigneur est l'unique", "le seigneur est le seul", "seigneur est un", "seigneur est unique"],
+          explication: "*Dominus* : nominatif, sujet ; *unus* : adjectif numéral, **attribut** du sujet ; *est* : 3e sg. de *sum*. Mot à mot : « le Seigneur est un » ; en bon français : « **le Seigneur est unique** » (le seul Seigneur). C'est l'affirmation du monothéisme juif.",
+        },
+        {
+          type: "qcm",
+          texte: "claude",
+          question: "Dans *Iudaeos… Roma expulit*, à quel cas est **Roma** et pourquoi n'y a-t-il pas de préposition ?",
+          choix: ["Nominatif : Rome est le sujet de *expulit*", "Accusatif : lieu où l'on va", "Datif : « pour Rome »", "Ablatif : lieu d'où l'on vient ; avec un nom de ville, le latin n'emploie pas de préposition"],
+          reponse: 3,
+          explication: "*Roma* est un **ablatif** de lieu d'où l'on vient (« de Rome ») : avec les noms de villes, le latin n'emploie ni *ex* ni *ab*, comme il dit *Romam* sans *ad* pour « à Rome » (direction). Le sujet de *expulit* est Claude, sous-entendu.",
+        },
+        {
+          type: "qcm",
+          texte: "claude",
+          question: "Comment analyser le groupe **impulsore Chresto** ?",
+          choix: ["Un complément d'agent sans préposition", "Un ablatif absolu sans participe, comme *Caesare duce* : « Chrestus étant l'instigateur »", "Un datif d'attribution", "Une proposition infinitive"],
+          reponse: 1,
+          explication: "Deux mots à l'ablatif, un nom et son attribut, sans lien avec le reste de la phrase : c'est un **ablatif absolu sans participe** (le verbe *sum* n'a pas de participe présent), comme *Caesare duce* ou *Cicerone consule*. Mot à mot : « Chrestus étant l'instigateur » → « **à l'instigation de Chrestus** ».",
+        },
+        {
+          type: "qcm",
+          question: "L'arc de Titus porte la dédicace *DIVO TITO* (« au divin Titus »). Que nous apprend ce mot **divo** sur la date du monument ?",
+          choix: ["Il a été élevé avant le règne de Titus", "Il a été élevé pendant la guerre de Judée", "Il a été élevé après la mort de Titus, divinisé par le sénat", "Il date de l'époque de Constantin"],
+          reponse: 2,
+          explication: "*divus* est le titre d'un empereur **divinisé après sa mort** par le sénat. *Divo Tito* (datif de dédicace) montre donc que l'arc a été élevé après 81, sous son frère Domitien. Il célèbre la prise de Jérusalem (70) et montre le chandelier du Temple porté en triomphe.",
+        },
+        {
+          type: "saisie",
+          question: "Quel nom latin l'empereur Hadrien donne-t-il à la colonie romaine fondée à la place de Jérusalem ?",
+          reponses: ["Aelia Capitolina"],
+          explication: "***Aelia Capitolina*** : *Aelia* vient du nom de famille d'Hadrien (*Publius Aelius Hadrianus*), *Capitolina* de Jupiter Capitolin. Après la révolte de Bar Kokhba (132-135), la ville est interdite aux Juifs.",
+        },
+        {
+          type: "redaction",
+          texte: "claude",
+          question: "**Entraînement à l'évaluation.** 1) Traduis la phrase de Suétone en t'aidant du lexique, et explique pourquoi les historiens discutent du nom *Chrestus*. 2) En une quinzaine de lignes, montre comment Rome, empire polythéiste, a traité les Juifs, entre tolérance et répression. Appuie-toi sur au moins trois dates du cours.",
+          corrige: `
+**1) Traduction.** « Il (Claude) chassa de Rome les Juifs, qui s'agitaient sans cesse à l'instigation de Chrestus. »
+Analyse : *Iudaeos* : accusatif pluriel, COD de *expulit* (parfait de *expello*) ; *tumultuantis* : participe présent du déponent *tumultuor*, accusatif pluriel accordé avec *Iudaeos* (« qui s'agitaient ») ; *impulsore Chresto* : ablatif absolu sans participe ; *Roma* : ablatif, lieu d'où l'on vient.
+*Chrestus* ressemble beaucoup à *Christus* (le Christ) : beaucoup d'historiens pensent que Suétone, mal informé, parle de troubles entre Juifs et Juifs devenus chrétiens à Rome. Mais Jésus était mort depuis près de vingt ans (l'expulsion date sans doute de 49) et Suétone semble parler d'un agitateur présent à Rome : ce n'est donc qu'une **hypothèse**.
+
+**2) Entre tolérance et répression.**
+- **Tolérance.** La religion romaine est polythéiste et accepte les dieux des autres peuples. Le judaïsme, monothéiste et sans images, étonne les Romains, mais c'est une religion **ancestrale** : César puis Auguste accordent aux Juifs le droit de pratiquer leur culte, de respecter le sabbat et d'envoyer de l'argent au Temple, sans sacrifier aux dieux romains. Des communautés juives vivent dans tout l'Empire (diaspora), avec leurs synagogues.
+- **Méfiance.** Certains Romains se moquent de leurs coutumes ; les Juifs sont parfois chassés de Rome (sous Tibère en 19, sous Claude).
+- **Répression.** Quand la Judée, province depuis 6 ap. J.-C., se révolte en **66**, Rome réagit durement : Titus prend Jérusalem et détruit le Temple en **70** ; l'arc de Titus et les monnaies *IVDAEA CAPTA* célèbrent la victoire. Après la révolte de Bar Kokhba (**132-135**), Hadrien fait de Jérusalem *Aelia Capitolina*, interdite aux Juifs.
+- **Conclusion.** Rome tolère les religions tant qu'elles ne menacent pas l'ordre et la fidélité à l'empereur. Le judaïsme reste autorisé même après les guerres, alors que le christianisme, religion nouvelle née du judaïsme et sans privilège, est persécuté jusqu'en 313.
+`,
+        },
+      ],
+    },
   ],
 };

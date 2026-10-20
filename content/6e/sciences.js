@@ -343,8 +343,39 @@ On représente une conversion par une **chaîne énergétique** : un **réservoi
 | barrage hydroélectrique | de pesanteur de l'eau, puis cinétique | électrique |
 | panneau solaire (photovoltaïque) | lumineuse | électrique |
 | moteur électrique | électrique | cinétique |
+| dynamo de vélo, alternateur de centrale (l'inverse d'un moteur) | cinétique | électrique |
 | radiateur électrique | électrique | thermique |
 | muscles | chimique (aliments) | cinétique + thermique |
+
+## Construire une chaîne énergétique
+Une chaîne énergétique se lit de haut en bas (ou de gauche à droite). Chaque **objet** (réservoir, convertisseur) est écrit dans un **cadre** (ici, les crochets [ ] dessinent le cadre ; sur ton cahier, trace un rectangle ou un ovale, selon la convention de ton professeur : les manuels ne dessinent pas tous les cadres de la même forme) ; chaque **flèche** porte le **nom de la forme d'énergie** transférée.
+
+~~~
+[ pile ]   (réservoir)
+   │
+   │ énergie électrique
+   ▼
+[ lampe ]  (convertisseur)
+   │
+   ├─▶ énergie lumineuse
+   │   (utile : on la veut)
+   └─▶ énergie thermique
+       (perdue : ça chauffe)
+~~~
+
+>! **Méthode**
+>! 1. Trouve d'où vient l'énergie : un **réservoir** (pile, aliments, eau d'un barrage, essence) ou une **source** comme le Soleil ou le vent.
+>! 2. Trouve le ou les **convertisseurs**, dans l'ordre. Une chaîne peut en avoir plusieurs à la suite.
+>! 3. Sur chaque flèche, écris la **forme d'énergie** (électrique, cinétique, lumineuse...), jamais le nom d'un objet.
+>! 4. Ajoute l'énergie **utile** (celle qu'on veut obtenir) et l'énergie **perdue**, souvent **thermique** (l'appareil chauffe).
+
+>! **Exemple résolu : une petite éolienne qui allume une lampe dans un jardin** (deux convertisseurs à la suite)
+>! vent → énergie cinétique → **éolienne** → énergie électrique → **lampe** → énergie lumineuse (utile) + énergie thermique (perdue : la lampe chauffe un peu).
+
+**Erreurs fréquentes** :
+- écrire « le moteur **fabrique** de l'énergie » : un convertisseur ne crée pas d'énergie, il la **transforme** ;
+- écrire un objet sur une flèche (« pile → fil → lampe ») : sur la flèche, on écrit une **forme d'énergie** ;
+- oublier l'énergie perdue : aucun convertisseur ne transforme toute l'énergie reçue en énergie utile. L'énergie perdue ne disparaît pas : elle chauffe l'appareil et l'air autour.
 
 ## Les ressources en énergie
 Une **ressource** est ce que l'on trouve dans la nature pour obtenir de l'énergie.
@@ -361,9 +392,33 @@ Presque toute l'énergie que nous utilisons vient, à l'origine, du **Soleil** :
 > **À retenir** :
 > - Formes d'énergie : de pesanteur, cinétique, chimique, thermique, électrique, lumineuse, nucléaire.
 > - Un convertisseur transforme une forme d'énergie en une autre ; on le représente par une chaîne énergétique.
+> - Dans une chaîne énergétique : les objets dans des cadres, une forme d'énergie sur chaque flèche, l'énergie utile et l'énergie perdue (souvent thermique).
 > - Ressources renouvelables : Soleil, vent, eau, bois, géothermie. Non renouvelables : pétrole, charbon, gaz, uranium.
 > - Toute utilisation de l'énergie a des conséquences sur l'environnement.
 `,
+      textes: {
+        voiture: `**La chaîne énergétique d'une voiture jouet solaire, à compléter**
+
+~~~
+Soleil
+   │
+   │ énergie ... (1)
+   ▼
+[ panneau solaire ]
+   │
+   │ énergie électrique
+   ▼
+[ ... (2) ]
+   │
+   ├─▶ énergie cinétique
+   │   (les roues tournent)
+   └─▶ énergie thermique
+       (perdue)
+~~~`,
+        barrage: `**Un barrage hydroélectrique**
+
+L'eau d'un lac de montagne est retenue en hauteur par un barrage. On ouvre une vanne : l'eau descend à grande vitesse dans une grosse conduite et fait tourner une **turbine**. La turbine entraîne un **alternateur**, une machine qui produit de l'électricité (comme une dynamo de vélo, en beaucoup plus gros). L'électricité part ensuite par des lignes électriques vers les villes.`,
+      },
       exercices: [
         { type: "qcm", question: "Quelle forme d'énergie possède une voiture qui roule ?", choix: ["De l'énergie lumineuse", "De l'énergie nucléaire", "De l'énergie de pesanteur seulement", "De l'énergie cinétique"], reponse: 3, explication: "L'énergie **cinétique** est liée au **mouvement** : tout objet qui se déplace en possède." },
         { type: "vf", question: "Le pétrole est une ressource d'énergie renouvelable.", reponse: false, explication: "Le pétrole a mis des **millions d'années** à se former : à l'échelle d'une vie humaine, il ne se renouvelle pas. C'est une ressource **non renouvelable**." },
@@ -380,6 +435,40 @@ vent (énergie **cinétique**) → **éolienne** (convertisseur) → énergie **
 
 **3) Avantage** : l'éolienne ne rejette pas de dioxyde de carbone en fonctionnant, elle ne contribue donc presque pas au réchauffement climatique.
 **Inconvénient** : elle ne produit de l'électricité que lorsqu'il y a du vent (production irrégulière) ; elle modifie aussi le paysage et peut gêner certains oiseaux.` },
+        { type: "saisie", texte: "voiture", question: "Complète la case (1) de la chaîne : sous quelle forme d'énergie (une de la liste du cours) le panneau solaire reçoit-il l'énergie du Soleil ? Énergie...", reponses: ["lumineuse", "énergie lumineuse", "l'énergie lumineuse", "lumière", "la lumière", "lumière du Soleil", "la lumière du Soleil"], explication: "Le panneau solaire reçoit la **lumière** du Soleil : c'est de l'énergie **lumineuse**, qu'il convertit en énergie électrique. « Solaire » n'est pas une forme d'énergie : il dit seulement d'où vient l'énergie (le Soleil, la source). Sur une flèche, on écrit la forme : ici, lumineuse." },
+        { type: "saisie", texte: "voiture", question: "Complète la case (2) de la chaîne : quel convertisseur transforme l'énergie électrique en énergie cinétique pour faire tourner les roues ?", reponses: ["moteur", "un moteur", "le moteur", "moteur électrique", "un moteur électrique", "le moteur électrique"], explication: "C'est le **moteur** électrique : il reçoit de l'énergie électrique et produit de l'énergie cinétique (et un peu d'énergie thermique perdue, car il chauffe). Cette chaîne a donc **deux convertisseurs** à la suite : le panneau solaire, puis le moteur." },
+        { type: "vf", texte: "voiture", question: "L'énergie thermique « perdue » par le moteur disparaît complètement.", reponse: false, explication: "L'énergie ne disparaît jamais : elle **se convertit**. L'énergie dite « perdue » chauffe le moteur et l'air autour ; elle n'est simplement pas **utile** pour faire avancer la voiture." },
+        { type: "qcm", question: "Une dynamo de vélo allume le phare quand la roue tourne. Quelle conversion réalise la dynamo ?", choix: ["Énergie cinétique → énergie électrique", "Énergie électrique → énergie cinétique", "Énergie lumineuse → énergie électrique", "Énergie chimique → énergie lumineuse"], reponse: 0, explication: "La dynamo reçoit le **mouvement** de la roue (énergie **cinétique**) et produit de l'énergie **électrique**, qui va ensuite à la lampe du phare (deuxième convertisseur : électrique → lumineuse). C'est l'inverse d'un moteur." },
+        { type: "qcm", question: "Lina a écrit la chaîne d'une lampe de poche : « pile → fil électrique → lampe → lumière ». Quelle est son erreur ?", choix: ["La pile n'est pas un réservoir d'énergie", "Elle a écrit un objet (le fil) à la place d'une forme d'énergie sur la flèche", "Une lampe n'est pas un convertisseur", "L'ordre est inversé : la lampe donne l'énergie à la pile"], reponse: 1, explication: "Sur la flèche entre la pile et la lampe, il faut écrire la **forme d'énergie** transférée : « énergie **électrique** ». Le fil est un objet, pas une forme d'énergie. Chaîne correcte : pile → énergie électrique → lampe → énergie lumineuse (+ énergie thermique perdue)." },
+        { type: "qcm", texte: "barrage", question: "Dans le barrage, quel est le bon ordre des formes d'énergie, du lac jusqu'aux lignes électriques ?", choix: ["Énergie électrique → énergie cinétique → énergie de pesanteur", "Énergie cinétique → énergie de pesanteur → énergie électrique", "Énergie de pesanteur → énergie électrique → énergie cinétique", "Énergie de pesanteur → énergie cinétique → énergie électrique"], reponse: 3, explication: "L'eau retenue **en hauteur** possède de l'énergie **de pesanteur**. En descendant, elle prend de la vitesse : énergie **cinétique**, qui fait tourner la turbine. L'alternateur, entraîné par la turbine, produit l'énergie **électrique**." },
+        { type: "redaction", question: "Une lampe torche à manivelle n'a pas de pile : on tourne une manivelle, qui entraîne une petite dynamo, et la DEL s'allume. 1) Écris la chaîne énergétique complète, en partant de l'énergie apportée par les aliments de la personne qui tourne la manivelle. 2) Combien y a-t-il de convertisseurs ? 3) Pourquoi cette lampe est-elle utile en cas de panne de courant ?", corrige: `**1) Chaîne énergétique** :
+~~~
+[ aliments ]  (réservoir)
+   │
+   │ énergie chimique
+   ▼
+[ muscles du bras ]  (1)
+   │
+   │ énergie cinétique
+   │ (la manivelle tourne)
+   ▼
+[ dynamo ]  (2)
+   │
+   │ énergie électrique
+   ▼
+[ DEL ]  (3)
+   │
+   ├─▶ énergie lumineuse
+   │   (utile)
+   └─▶ énergie thermique
+       (perdue)
+~~~
+(1), (2) et (3) sont les trois convertisseurs.
+Les muscles et la dynamo perdent aussi un peu d'énergie sous forme **thermique** (on a chaud en tournant la manivelle, la dynamo chauffe un peu).
+
+**2)** Il y a **trois convertisseurs** : les muscles (chimique → cinétique), la dynamo (cinétique → électrique), la DEL (électrique → lumineuse).
+
+**3)** Elle n'a besoin **ni de pile ni de prise** : c'est la personne qui fournit l'énergie en tournant la manivelle. Elle fonctionne donc même quand il n'y a plus d'électricité et sans pile à remplacer.` },
       ],
     },
     {
@@ -486,6 +575,41 @@ Dans le schéma ci-dessous, la pile est à gauche : le **grand trait** est la bo
       interrupteur ouvert
 ~~~
 
+Voici les symboles dessinés sur un fil (dans ces dessins, les traits « ─ » et « │ » sont des fils, sauf les deux traits de la pile) :
+
+~~~
+pile
+         │
+      ───┴───   borne +
+        ━━━     borne −
+         │
+(grand trait fin = borne +,
+ petit trait épais = borne −)
+
+lampe        ──(X)──
+moteur       ──(M)──
+interrupteur
+  ouvert     ──•/  •──
+  fermé      ──•───•──
+(• = les 2 bornes de
+ l'interrupteur. Ouvert : le
+ trait est levé, il ne touche
+ pas l'autre borne. Fermé : il
+ est rabattu et touche les 2.)
+
+DEL          ──▷|──
+             + 2 flèches ↗↗
+~~~
+
+>! **Méthode pour dessiner un schéma normalisé**
+>! 1. Repère tous les composants du circuit réel et le chemin du courant, d'une borne de la pile à l'autre.
+>! 2. Trace les fils **à la règle**, en **traits droits** horizontaux et verticaux, avec des **angles droits** : le schéma a souvent la forme d'un **rectangle**.
+>! 3. Place chaque composant **sur le fil**, dans le même ordre que dans le circuit réel, avec son **symbole** (jamais un dessin réaliste de la lampe ou de la pile).
+>! 4. Indique les bornes **+** et **−** de la pile, et dessine l'interrupteur dans l'état demandé (ouvert ou fermé).
+>! 5. Vérifie : en suivant les fils avec le doigt, tu dois faire **une seule boucle** qui passe par chaque composant et revient à la pile.
+
+**Erreurs fréquentes** : dessiner les fils en vagues ou à main levée ; dessiner une lampe avec son culot au lieu du cercle barré d'une croix ; oublier les bornes de la pile ; dessiner un fil qui relie directement les deux bornes de la pile (c'est un **court-circuit**).
+
 ## Quelques règles du circuit à une boucle
 - Dans une boucle, on peut **intervertir** (échanger) la place des composants : la lampe brille de la même façon, qu'elle soit avant ou après l'interrupteur.
 - Si on **inverse les bornes** de la pile, un **moteur tourne dans l'autre sens**. Une **DEL**, elle, ne s'allume que si elle est branchée dans le bon sens.
@@ -520,7 +644,39 @@ Un **signal** transporte une **information** d'un émetteur vers un récepteur.
 > - Dans une boucle, l'ordre des composants ne change rien ; une DEL a un sens de branchement.
 > - Le courant du secteur (230 V) est dangereux.
 > - Les signaux lumineux, sonores, électriques ou radio permettent de transmettre des informations.
+> - Un schéma normalisé : fils tracés à la règle avec des angles droits, symboles normalisés, bornes + et − de la pile indiquées.
 `,
+      textes: {
+        schemas: `**Trois schémas normalisés**
+
+Dans chaque schéma, la pile est à gauche : grand trait fin = borne +, petit trait épais = borne −. Les traits « ─ » et « │ » sont des fils (sauf les deux traits de la pile).
+
+~~~
+Schéma 1
+      ┌──────(X)──────┐
+      │               │
+ + ───┴───            │
+ −   ━━━              │
+      │               │
+      └─────•/  •─────┘
+
+Schéma 2
+      ┌─────┬──(X)────┐
+      │     │         │
+ + ───┴───  │         │
+ −   ━━━    │         │
+      │     │         │
+      └─────┴─────────┘
+
+Schéma 3
+      ┌──(X)────(M)───┐
+      │               │
+ + ───┴───            │
+ −   ━━━              │
+      │               │
+      └───────────────┘
+~~~`,
+      },
       exercices: [
         { type: "vf", question: "Une lampe peut s'allumer dans un circuit ouvert.", reponse: false, explication: "Le courant ne circule que dans un circuit **fermé**, sans interruption. Si le circuit est ouvert, aucun récepteur ne fonctionne." },
         { type: "qcm", question: "Quel est le symbole normalisé d'une lampe ?", choix: ["Un cercle avec la lettre M", "Un cercle barré d'une croix", "Un grand trait et un petit trait parallèles", "Un triangle contre un trait"], reponse: 1, explication: "La lampe se représente par un **cercle barré d'une croix**. Le cercle avec M est le moteur, les deux traits parallèles sont la pile, le triangle est la DEL." },
@@ -539,6 +695,28 @@ Un **signal** transporte une **information** d'un émetteur vers un récepteur.
 
 Pour que la lampe brille, il faut une **boucle fermée** qui part d'une borne de la pile, traverse la lampe et l'interrupteur, et revient à l'autre borne.` },
         { type: "vf", question: "Dans le symbole normalisé de la pile, le grand trait représente la borne +.", reponse: true, explication: "Oui : la pile se dessine avec un **grand trait** (borne +) et un **petit trait** (borne −), parallèles. Ce repère est utile pour brancher une DEL dans le bon sens." },
+        { type: "qcm", texte: "schemas", question: "Quels composants le schéma 1 représente-t-il ?", choix: ["Une pile, une lampe et un interrupteur ouvert", "Une pile, un moteur et un interrupteur fermé", "Deux piles et une lampe", "Une pile, une DEL et un interrupteur ouvert"], reponse: 0, explication: "On reconnaît la **pile** (un grand trait et un petit trait), la **lampe** (cercle barré d'une croix, dessiné ici « (X) ») et un **interrupteur ouvert** (le trait levé « / » qui ne touche pas l'autre côté). Comme l'interrupteur est ouvert, le circuit est ouvert : la lampe ne brille pas." },
+        { type: "qcm", texte: "schemas", question: "Dans le schéma 2, il n'y a aucun interrupteur ouvert, et pourtant la lampe ne brille pas. Pourquoi ?", choix: ["La lampe est mal dessinée", "La pile est branchée à l'envers", "Un fil relie directement les deux bornes de la pile : c'est un court-circuit", "Il manque un moteur"], reponse: 2, explication: "Le fil vertical du milieu relie directement la borne + et la borne − de la pile : c'est un **court-circuit**. Le courant passe par ce fil plutôt que par la lampe, qui ne brille pas, et la pile chauffe : c'est dangereux (risque de brûlure). Une lampe s'allume quel que soit le sens de branchement de la pile." },
+        { type: "qcm", texte: "schemas", question: "On veut pouvoir allumer et éteindre ensemble la lampe et le moteur du schéma 3. Où peut-on placer un interrupteur ?", choix: ["Seulement entre la pile et la lampe", "Seulement entre la lampe et le moteur", "Il faut deux interrupteurs, un par composant", "N'importe où dans la boucle"], reponse: 3, explication: "Le schéma 3 est un circuit **à une boucle** : la pile, la lampe et le moteur sont sur le même chemin. Un interrupteur placé **n'importe où dans la boucle** ouvre ou ferme tout le circuit : dans une boucle, on peut intervertir les composants sans rien changer." },
+        { type: "saisie", question: "Dans le symbole normalisé de la pile, quelle borne représente le petit trait épais ? Réponds « + » ou « − ».", reponses: ["−", "-", "borne −", "borne -", "la borne −", "moins", "borne moins", "la borne moins", "négative", "borne négative", "la borne négative", "négatif", "pôle négatif", "le pôle négatif", "pôle −", "pôle -", "pôle moins"], explication: "Le **petit trait épais** est la borne **−** ; le grand trait fin est la borne **+**." },
+        { type: "qcm", question: "Laquelle de ces règles faut-il respecter pour dessiner un schéma normalisé ?", choix: ["Tracer les fils à la règle, en traits droits avec des angles droits", "Dessiner la lampe telle qu'on la voit, avec son culot et son filament", "Dessiner les fils avec leurs vraies courbes", "Inventer un symbole pour chaque nouveau composant"], reponse: 0, explication: "Dans un schéma normalisé, les fils sont des **traits droits tracés à la règle**, avec des angles droits, et chaque composant est représenté par son **symbole**, le même dans le monde entier. On ne dessine ni le culot de la lampe ni les vraies courbes des fils." },
+        { type: "redaction", question: "Sur ton cahier, dessine le schéma normalisé d'un circuit à une boucle comprenant une pile, un interrupteur ouvert, une lampe et un moteur. Indique les bornes + et − de la pile. Explique ensuite ce qui se passe quand on ferme l'interrupteur.", corrige: `**Schéma** (une solution possible ; l'ordre des composants dans la boucle peut changer) :
+~~~
+      ┌──(X)────(M)───┐
+      │               │
+ + ───┴───            │
+ −   ━━━              │
+      │               │
+      └─────•/  •─────┘
+~~~
+- la **pile** à gauche : grand trait fin = borne **+**, petit trait épais = borne **−** ;
+- la **lampe** : cercle barré d'une croix ;
+- le **moteur** : cercle avec la lettre M ;
+- l'**interrupteur ouvert** : trait levé qui ne touche pas l'autre côté ;
+- les fils sont tracés **à la règle**, avec des angles droits ; on vérifie qu'on fait **une seule boucle** en partant d'une borne de la pile et en revenant à l'autre.
+
+**Quand on ferme l'interrupteur** : le circuit devient **fermé**, le courant circule dans toute la boucle : la lampe s'allume et le moteur tourne. Si on ouvre l'interrupteur, les deux s'arrêtent en même temps, car ils sont dans la même boucle.` },
+        { type: "vf", question: "Dans un schéma normalisé, l'interrupteur fermé se dessine avec un trait levé qui ne touche pas l'autre borne.", reponse: false, explication: "Le trait **levé** qui ne touche pas l'autre borne, c'est l'interrupteur **ouvert**. Quand l'interrupteur est **fermé**, le trait est **rabattu** : il touche les deux bornes et le courant passe." },
       ],
     },
     {
@@ -1148,6 +1326,19 @@ Dans un même écosystème, le peuplement varie au cours de l'année : en hiver,
 ## Un écosystème évolue
 Un écosystème n'est **pas figé**. Après une **perturbation naturelle**, comme une tempête qui abat des arbres (un **chablis**) ou un incendie, il se transforme petit à petit : la lumière arrive au sol, des herbes puis des arbustes poussent, et la forêt finit par se reconstituer en plusieurs dizaines d'années. C'est la **résilience** de l'écosystème, qui a toutefois des limites.
 
+## Comparer deux écosystèmes
+Pour savoir pourquoi deux endroits n'abritent pas les mêmes êtres vivants, on les **compare**. Pour que la comparaison soit juste, on observe **les mêmes choses**, **de la même façon**, dans les deux écosystèmes.
+
+>! **Méthode pour comparer deux écosystèmes**
+>! 1. Relève les **conditions du milieu** dans chacun : lumière, température, humidité, type de sol...
+>! 2. Relève le **peuplement** : quelles espèces et combien d'espèces. Observe la **même surface**, le **même jour** (donc à la même saison) et pendant la **même durée** dans les deux endroits.
+>! 3. Range les résultats dans un **tableau** à deux colonnes, une par écosystème.
+>! 4. Repère les **différences** (« la haie abrite plus d'espèces que le champ »), puis **explique-les** : une différence de peuplement vient souvent d'une différence des conditions du milieu, ou des actions humaines.
+
+>! **Exemple** : une mare et une prairie voisines. Dans la mare, il y a de l'eau en permanence : on y trouve des poissons, des larves de libellule, des nénuphars. Dans la prairie, le sol est plus sec et très ensoleillé : on y trouve des herbes, des sauterelles, des papillons. Les deux milieux ne réunissent pas les mêmes conditions, donc pas les mêmes êtres vivants.
+
+**Erreur fréquente** : comparer une forêt observée en mai et une prairie observée en décembre. Le peuplement change avec les saisons : on ne saurait plus si la différence vient du milieu ou de la saison !
+
 ## L'être humain et les écosystèmes
 Certaines actions humaines **dégradent** les écosystèmes : pollution, destruction des haies, assèchement des zones humides, bétonnage, déchets plastiques. D'autres les **protègent** ou les **restaurent** : réserves naturelles, replantation de haies, nettoyage des rivières.
 
@@ -1160,7 +1351,24 @@ Il faut **exploiter les ressources de façon raisonnée** (pêche, forêts, eau)
 > - Les êtres vivants vivent là où les conditions du milieu leur conviennent.
 > - Pour passer la mauvaise saison : migration, hibernation, vie ralentie, œufs, graines, perte des feuilles...
 > - Un écosystème évolue et peut se reconstituer après une perturbation ; l'être humain peut le dégrader ou le protéger.
+> - Pour comparer deux écosystèmes : mêmes relevés (milieu et peuplement), même surface, même jour, même durée ; puis on explique les différences par les conditions du milieu.
 `,
+      textes: {
+        haie: `**Deux écosystèmes d'une même ferme** (données fictives)
+
+Une classe a observé, le même jour de mai, deux écosystèmes voisins : une **haie** (arbres, arbustes et herbes au bord d'un chemin) et le **milieu d'un champ de blé**. Dans chacun, les élèves ont étudié une surface de 20 m² pendant une heure, à la même heure de l'après-midi.
+
+| | Haie | Milieu du champ de blé |
+|---|---|---|
+| Lumière au sol | faible (ombre des arbres) | forte (plein soleil) |
+| Température de l'air à 14 h | 19 °C | 24 °C |
+| Sol | humide, couvert de feuilles mortes | sec, labouré chaque année |
+| Nombre d'espèces de plantes | 18 | 3 (blé, coquelicot, liseron) |
+| Nombre d'espèces d'animaux observées | 24 | 5 |
+| Quelques animaux observés | mésange, hérisson, escargot, carabe, coccinelle, abeille sauvage | alouette, puceron, criquet, coccinelle, campagnol |
+
+Remarque des élèves : les coccinelles venues de la haie mangent les pucerons qui vivent sur les épis de blé.`,
+      },
       exercices: [
         { type: "qcm", question: "Qu'est-ce qu'un écosystème ?", choix: ["Uniquement les animaux d'une région", "Un milieu de vie, les êtres vivants qui l'habitent et leurs relations", "Uniquement les plantes d'une forêt", "Une liste d'espèces menacées"], reponse: 1, explication: "Un **écosystème** réunit le **milieu**, les **êtres vivants** et les **relations** entre eux et avec le milieu." },
         { type: "saisie", question: "Comment s'appelle le long sommeil de la marmotte pendant l'hiver ?", reponses: ["hibernation", "l'hibernation"], explication: "C'est l'**hibernation** : la température du corps baisse fortement et l'animal vit sur ses réserves." },
@@ -1180,6 +1388,20 @@ Après la tempête (le **chablis**), les arbres sont tombés : la **lumière** a
 Le bois mort laissé sur place est aussi décomposé par des champignons et des insectes, ce qui enrichit le sol.
 
 > Conclusion : un écosystème n'est pas figé ; après une perturbation naturelle, il évolue et peut se reconstituer (résilience).` },
+        { type: "qcm", texte: "haie", question: "D'après le document, quel écosystème abrite le plus d'espèces ?", choix: ["La haie", "Le milieu du champ de blé", "Les deux en abritent autant", "On ne peut pas le savoir avec ce document"], reponse: 0, explication: "La **haie** abrite 18 espèces de plantes et 24 espèces d'animaux, contre 3 et 5 au milieu du champ. Les relevés ont été faits de la même façon (même jour, même surface, même durée) : on peut donc comparer." },
+        { type: "saisie", texte: "haie", question: "Combien d'espèces de plantes la haie compte-t-elle de plus que le milieu du champ ?", reponses: ["15", "15 espèces", "quinze", "15 espèces de plantes"], explication: "18 − 3 = **15** espèces de plantes de plus dans la haie." },
+        { type: "qcm", texte: "haie", question: "Les escargots ont besoin d'humidité et craignent le plein soleil. D'après le document, pourquoi en trouve-t-on dans la haie et pas au milieu du champ ?", choix: ["Parce que les escargots mangent du blé", "Parce que le sol de la haie est humide et à l'ombre", "Parce qu'il fait plus chaud dans la haie", "Parce que le champ est trop petit"], reponse: 1, explication: "Dans la haie, le sol est **humide** et la lumière au sol est **faible** : ces conditions conviennent à l'escargot. Au milieu du champ, le sol est sec et en plein soleil. Les êtres vivants vivent là où les **conditions du milieu** leur conviennent. (Attention : il fait plus **frais** dans la haie, pas plus chaud : 19 °C contre 24 °C.)" },
+        { type: "vf", texte: "haie", question: "Pour compléter l'étude, les élèves pourraient comparer leurs relevés de mai dans la haie avec des relevés faits en décembre dans le champ.", reponse: false, explication: "Non : le peuplement **change avec les saisons**. Si on compare la haie en mai et le champ en décembre, on ne sait plus si les différences viennent du milieu ou de la saison. Il faut observer les deux écosystèmes **le même jour** (ou au moins à la même saison)." },
+        { type: "qcm", texte: "haie", question: "Les coccinelles venues de la haie mangent les pucerons du champ de blé. Quelle relation existe entre la coccinelle et le puceron ?", choix: ["Une coopération", "Une compétition", "Une prédation", "Aucune relation"], reponse: 2, explication: "La coccinelle **mange** le puceron : c'est une **prédation** (la coccinelle est le prédateur, le puceron la proie). Les deux écosystèmes ne sont donc pas isolés : la haie aide l'agriculteur, car les pucerons abîment le blé." },
+        { type: "redaction", texte: "haie", question: "À l'aide du document, compare les deux écosystèmes : 1) décris les différences des conditions du milieu ; 2) décris les différences de peuplement ; 3) explique ces différences ; 4) l'agriculteur veut arracher la haie pour agrandir son champ. Donne-lui un argument scientifique pour la garder.", corrige: `**1) Le milieu** : dans la haie, la lumière au sol est **faible**, il fait plus **frais** (19 °C contre 24 °C) et le sol est **humide**, couvert de feuilles mortes. Au milieu du champ, il y a du **plein soleil**, il fait plus chaud et le sol est **sec** et labouré chaque année.
+
+**2) Le peuplement** : la haie abrite beaucoup plus d'espèces : **18** espèces de plantes contre **3**, et **24** espèces d'animaux contre **5**. On y trouve par exemple des escargots, des hérissons, des mésanges, qu'on ne trouve pas au milieu du champ.
+
+**3) Explication** : les êtres vivants vivent là où les **conditions du milieu** leur conviennent. La haie offre de l'ombre, de l'humidité, des abris (branches, feuilles mortes) et une nourriture variée. Dans le champ, l'être humain ne cultive qu'une seule plante, le blé, et laboure le sol chaque année : peu d'espèces peuvent y vivre. La différence vient donc à la fois du **milieu** et des **actions humaines**.
+
+**4) Argument** : la haie abrite des **prédateurs** des ravageurs du blé : les coccinelles qui en viennent mangent les pucerons qui abîment les épis. Sans la haie, il y aurait moins de coccinelles et plus de pucerons. La haie abrite aussi des abeilles sauvages (pollinisateurs) et de nombreuses autres espèces : la garder protège la **biodiversité**.
+
+> Méthode : la comparaison est valable parce que les relevés ont été faits le même jour, sur la même surface et pendant la même durée.` },
       ],
     },
     {

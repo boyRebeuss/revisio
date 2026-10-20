@@ -817,8 +817,17 @@ Le choix dépend de la **forme**, du **matériau**, du **nombre de pièces** et 
 Sécurité : le **PVC** est **interdit** à la découpe laser (chauffé, il dégage des gaz toxiques et corrosifs contenant du chlore) ; on découpe plutôt du contreplaqué, du carton ou du PMMA (plexiglas).
 
 ## Matériaux et environnement
-- Chaque matériau a une **empreinte carbone** (CO₂ émis pour le produire). Produire de l'aluminium à partir de minerai demande énormément d'électricité ; **recycler** l'aluminium économise environ **95 %** de cette énergie.
-- Certains matériaux sont concentrés dans quelques pays : le **cobalt** des batteries vient surtout de République démocratique du Congo, les **terres rares** sont majoritairement extraites et raffinées en Chine, le **lithium** vient surtout d'Australie, du Chili et de Chine. Cela pose des questions de **disponibilité**, de dépendance et de conditions de travail.
+- Chaque matériau a une **empreinte carbone** (CO₂ émis pour le produire). Produire de l'aluminium à partir de minerai demande énormément d'électricité ; **recycler** l'aluminium économise environ **95 %** de cette énergie. Source : Institut international de l'aluminium, qui estime l'énergie nécessaire à environ 186 GJ par tonne pour l'aluminium produit à partir du minerai (2019), contre environ 8 GJ par tonne pour l'aluminium recyclé (1 GJ = 1 milliard de joules). Calcul : (186 − 8) ÷ 186 ≈ 0,96 ; on retient couramment « environ 95 % », car les valeurs varient selon les usines et les années.
+- Certains matériaux sont concentrés dans quelques pays, ce qui pose des questions de **disponibilité**, de dépendance et de conditions de travail.
+
+| Matériau | Principaux pays producteurs (part de la production minière mondiale en 2024, estimations) |
+|---|---|
+| **Cobalt** (batteries) | République démocratique du Congo, environ 76 % ; Indonésie, environ 10 % |
+| **Terres rares** (aimants des moteurs électriques et des éoliennes) | Chine, environ 69 % (270 000 t sur 390 000 t) ; la Chine assure aussi environ 90 % du raffinage |
+| **Lithium** (batteries) | Australie, environ 37 % ; Chili, environ 20 % ; Chine, environ 17 % |
+
+Sources : Institut d'études géologiques des États-Unis (USGS), *Mineral Commodity Summaries 2025* ; pour le raffinage des terres rares, Agence internationale de l'énergie (2025). Ces chiffres changent chaque année.
+
 - Bien concevoir, c'est limiter le nombre de matériaux différents, éviter les assemblages collés de matériaux différents (difficiles à recycler) et privilégier les matériaux recyclés ou recyclables.
 
 > **À retenir** : propriétés mécaniques, thermiques, électriques, chimiques, optiques. Sollicitations : **traction, compression, flexion, torsion, cisaillement**. Flèche : proportionnelle à la charge ; hauteur × 2 → flèche ÷ 8. Valider par **simulation** puis **essai**. Procédés : **enlèvement**, **ajout**, **déformation**, **moulage**, **assemblage**. Indices **IP** (poussière, eau) et **IK** (chocs). Penser **empreinte carbone**, **disponibilité**, **recyclage**.
@@ -831,8 +840,11 @@ Sécurité : le **PVC** est **interdit** à la découpe laser (chauffé, il dég
         { type: "qcm", question: "On doit produire 500 000 coques de téléphone identiques en plastique. Quel procédé est le plus adapté ?", choix: ["L'impression 3D", "Le moulage par injection", "Le sciage", "Le pliage"], reponse: 1, explication: "Pour une **grande série** de pièces identiques en plastique, le **moulage par injection** est rapide et peu coûteux par pièce (le moule est cher, mais amorti). L'impression 3D convient aux pièces uniques ou aux prototypes." },
         { type: "qcm", question: "Une caméra extérieure est marquée **IP67**. Que signifie le chiffre 7 ?", choix: ["Elle résiste à des chocs de 7 joules", "Elle fonctionne jusqu'à 7 °C", "Elle est protégée contre une immersion temporaire dans l'eau", "Elle pèse 7 kg"], reponse: 2, explication: "Le **2e chiffre** de l'indice IP concerne les **liquides** : 7 = immersion temporaire. Le 6 indique une protection totale contre la poussière. Les chocs relèvent de l'indice IK." },
         { type: "vf", question: "On peut découper du PVC à la découpe laser du FabLab sans danger.", reponse: false, explication: "Le **PVC** contient du chlore : chauffé par le laser, il dégage des gaz toxiques et corrosifs. Il est **interdit** à la découpe laser. On utilise par exemple du PMMA (plexiglas), du contreplaqué, du carton." },
-        { type: "saisie", question: "Recycler l'aluminium permet d'économiser environ quel pourcentage de l'énergie nécessaire pour le produire à partir du minerai ? (nombre)", reponses: ["95", "95 %"], explication: "Environ **95 %** : refondre de l'aluminium usagé demande bien moins d'énergie que d'extraire et transformer la bauxite." },
+        { type: "saisie", question: "Recycler l'aluminium permet d'économiser environ quel pourcentage de l'énergie nécessaire pour le produire à partir du minerai ? (nombre)", reponses: ["95", "95 %", "96", "96 %"], explication: "Environ **95 %** (le calcul avec 186 et 8 GJ donne environ 96 %) : refondre de l'aluminium usagé demande bien moins d'énergie que d'extraire et transformer la bauxite (environ 8 GJ par tonne au lieu de 186 GJ, d'après l'Institut international de l'aluminium)." },
         { type: "redaction", question: "**Sujet type brevet.** On conçoit un support de smartphone à fixer sur le guidon d'un vélo. Exigences : masse inférieure à 100 g ; résister à la pluie et aux vibrations ; ne pas casser en cas de chute du vélo ; être fabriqué au FabLab en 20 exemplaires ; être recyclable. Matériaux disponibles (données simplifiées) : PLA (imprimable en 3D, rigide mais cassant en cas de choc, biosourcé c'est-à-dire fabriqué à partir de plantes comme le maïs, recyclable dans des filières spécifiques) ; PETG (imprimable en 3D, plus résistant aux chocs, résiste à l'eau, recyclable) ; aluminium (usinable, très résistant, plus lourd, recyclable à l'infini, usinage long au collège) ; contreplaqué (découpe laser, craint l'humidité). 1) Identifie les sollicitations subies par le support. 2) Choisis un matériau et un procédé, en justifiant au regard des exigences et des contraintes environnementales. 3) Propose une démarche pour valider la tenue mécanique (simulation puis essai).", corrige: "1) **Sollicitations** : le smartphone en porte-à-faux (il dépasse dans le vide, au bout du bras) fait travailler le bras du support en **flexion** ; les vibrations créent des flexions répétées ; le collier serré autour du guidon est en **traction** ; une chute provoque un **choc**.\n\n2) **Choix : PETG imprimé en 3D**.\n- Il **résiste à l'eau** (le contreplaqué est exclu car il craint l'humidité) et **aux chocs** mieux que le PLA (qui est cassant).\n- Il est **léger** : un support imprimé pèse quelques dizaines de grammes, sous les 100 g exigés (l'aluminium serait plus lourd et trop long à usiner en 20 exemplaires au collège).\n- L'**impression 3D** permet des formes complexes (clips, collier) et convient à une petite série de 20 pièces sans moule.\n- Il est **recyclable** ; pour limiter l'impact, on optimise la forme (nervures plutôt que pièces pleines), on règle un taux de remplissage adapté et on n'utilise qu'**un seul matériau** pour faciliter le recyclage.\n\n3) **Validation** :\n- **Simulation** : modéliser le support en 3D, renseigner le matériau (PETG) et appliquer une charge nettement supérieure au poids d'un smartphone (un téléphone de 200 g pèse environ 2 N ; on simule par exemple 6 N, trois fois plus, pour tenir compte des secousses : c'est une marge de sécurité) ; vérifier que la déformation reste inférieure à la valeur autorisée et repérer les zones fragiles, puis renforcer si besoin.\n- **Essai réel** : fixer le support sur un guidon, suspendre une masse connue (600 g par exemple, comme dans la simulation) et mesurer la flèche au réglet ; faire un essai de vibrations (rouler sur un chemin) et de chute contrôlée depuis 1 m ; vérifier l'absence de fissure ; comparer avec la simulation et conclure.\n\n> On attend un choix argumenté par **plusieurs critères** (eau, chocs, masse, procédé, série, recyclage)." },
+        { type: "saisie", question: "D'après l'USGS (*Mineral Commodity Summaries 2025*), la République démocratique du Congo a extrait environ 220 000 t de cobalt en 2024, sur une production mondiale d'environ 290 000 t. Quelle part de la production mondiale cela représente-t-il, en % arrondi à l'unité ? (nombre)", reponses: ["76", "76 %"], explication: "220 000 ÷ 290 000 ≈ 0,759, soit environ **76 %** : plus des trois quarts du cobalt extrait dans le monde vient d'un seul pays. Une crise dans ce pays perturberait toute la fabrication des batteries." },
+        { type: "qcm", question: "D'après l'Institut international de l'aluminium, produire 1 t d'aluminium à partir du minerai demande environ 186 GJ, et produire 1 t d'aluminium recyclé environ 8 GJ. Quelle économie d'énergie le recyclage permet-il ?", choix: ["Environ 5 %", "Environ 50 %", "Environ 23 %", "Environ 95 %"], reponse: 3, explication: "Économie : 186 − 8 = 178 GJ ; 178 ÷ 186 ≈ 0,96. Avec la valeur plus précise de 8,3 GJ, on trouve environ 95,5 % : on retient **environ 95 %**. Le recyclé ne demande qu'environ 4 à 5 % de l'énergie du primaire (8 ÷ 186 ≈ 0,04)." },
+        { type: "vf", question: "D'après l'USGS, en 2024, l'Australie était le premier pays producteur de lithium extrait des mines, devant le Chili et la Chine.", reponse: true, explication: "Production estimée en 2024 : Australie environ 88 000 t, Chili environ 49 000 t, Chine environ 41 000 t (USGS, *Mineral Commodity Summaries 2025*). Ces trois pays fournissent à eux seuls environ les trois quarts du lithium extrait." },
       ],
     },
     {
@@ -1217,7 +1229,7 @@ L'épreuve écrite de **sciences** du brevet dure **1 heure**. Elle porte sur **
 À partir de la session **2027** :
 - chaque discipline compte pour **10 points sur 20**, avec un temps conseillé de **30 minutes** ;
 - la **maîtrise de la langue** est notée (1 point par discipline) : orthographe, phrases correctes, **vocabulaire technique précis**, raisonnement organisé ;
-- le sujet de technologie s'appuie principalement sur le **programme de 3e**.
+- le sujet de technologie porte sur **tout le programme du cycle 4** (5e, 4e et 3e) : la technologie n'a pas de programme propre à la classe de 3e, mais un programme de cycle avec des repères pour chaque année. Revois donc aussi les notions de 5e et de 4e.
 
 Le sujet présente un **objet ou système technique** réel (drone, robot, objet connecté, véhicule...) avec des **documents** : texte, tableau de données, schéma, programme. Les essais et démarches, même non aboutis, sont pris en compte.
 
@@ -1330,6 +1342,169 @@ On passe ensuite du **langage naturel** (« je n'ai pas trouvé le bouton ») à
         { type: "qcm", question: "Quelle proposition décrit un **label** comme l'Écolabel européen ?", choix: ["Une démarche volontaire : un organisme l'attribue si le produit respecte un cahier des charges environnemental", "Une obligation pour tous les produits vendus en Europe", "Un brevet qui protège une invention", "Une loi qui interdit les produits polluants"], reponse: 0, explication: "Un **label** est **volontaire** : le fabricant le demande, et il n'est accordé que si le produit respecte le cahier des charges du label (ici, un impact environnemental réduit). C'est différent du marquage CE, obligatoire." },
         { type: "vf", question: "Prévoir un signal sonore en plus de l'affichage sur un distributeur de billets aide les personnes malvoyantes : c'est un choix d'accessibilité.", reponse: true, explication: "L'**accessibilité** permet à toutes les personnes d'utiliser l'objet. Doubler une information visuelle par une information sonore (ou une vibration) est une solution courante." },
         { type: "redaction", question: "**Sujet type brevet.** Document : « La poubelle de rue connectée compacte les déchets grâce à un moteur alimenté par un panneau photovoltaïque et une batterie. Quand elle est remplie à 80 %, elle envoie un message par radio au serveur de la mairie, qui organise la tournée des agents de collecte. Les passants ouvrent la trappe avec une poignée placée à 1,40 m du sol. Elle est installée dans des rues fréquentées. » Lors d'une observation de 20 passants, 6 ont cherché plus de 5 s comment l'ouvrir ; les 2 personnes en fauteuil roulant observées n'ont pas pu atteindre la poignée. 1) Liste au moins six interacteurs de la poubelle en les classant (usagers, autres objets, données, environnement). 2) Formule deux exigences liées à l'environnement de la poubelle et une exigence d'ergonomie, chacune avec un critère et un niveau. 3) Décris l'expérience des utilisateurs à partir des résultats (calcule un pourcentage) et propose deux améliorations. 4) Explique ce qu'indique le marquage CE présent sur la poubelle.", corrige: "1) **Interacteurs** :\n- **usagers** : les passants, les personnes en fauteuil roulant, les agents de collecte, le technicien de maintenance ;\n- **autres objets** : le serveur de la mairie, l'antenne radio qui reçoit le message, le camion de collecte ;\n- **données** : le niveau de remplissage, le message d'alerte, la position de la poubelle ;\n- **environnement** : le soleil (qui alimente le panneau), la pluie, le froid et la chaleur, la poussière, le trottoir, les animaux.\n\n2) **Exigences** (exemples) :\n- résister à la pluie et à la poussière : indice de protection **IP55 au minimum** ;\n- fonctionner par des températures de **−10 °C à 45 °C** ;\n- ergonomie : poignée placée à **environ 1 m du sol** au maximum et trappe qui s'ouvre avec un effort faible, d'une seule main.\n\n3) **Expérience des utilisateurs** : 6 passants sur 20, soit 6 ÷ 20 = **30 %**, ont hésité plus de 5 s : la façon d'ouvrir n'est pas assez évidente. Les personnes en fauteuil roulant ne peuvent pas l'utiliser : la poubelle n'est pas **accessible**. **Améliorations** : abaisser la poignée (vers 1 m) ou ajouter une pédale ; ajouter un pictogramme ou une flèche qui montre comment ouvrir. On refait ensuite le test pour vérifier l'amélioration.\n\n4) **Marquage CE** : le fabricant déclare que la poubelle respecte les exigences européennes de **sécurité** (électricité, moteur), de santé et d'environnement ; il est **obligatoire** pour la vendre dans l'Union européenne. Ce n'est pas un label de qualité.\n\n> Barème indicatif : interacteurs variés et bien classés (1 pt), exigences avec critère et niveau (1 pt), pourcentage et analyse de l'expérience utilisateur avec améliorations (1,5 pt), marquage CE (0,5 pt)." },
+      ],
+    },
+    {
+      id: "bilan-carbone-objet",
+      titre: "Chiffrer le bilan carbone d'un objet sur son cycle de vie",
+      theme: "Les objets et les systèmes techniques : leurs usages et leurs interactions à découvrir et à analyser",
+      cours: `
+## De quoi parle-t-on ?
+Les **gaz à effet de serre** (dioxyde de carbone CO₂, méthane, protoxyde d'azote...) réchauffent le climat. Pour les additionner, on convertit chacun en **équivalent CO₂** : l'unité est le **kilogramme d'équivalent CO₂**, noté **kg CO₂e**.
+
+Le **bilan carbone** d'un objet est la **somme** des émissions de gaz à effet de serre à **toutes les étapes de son cycle de vie** : extraction des matières et fabrication, transport, utilisation, fin de vie. C'est l'un des indicateurs de l'analyse du cycle de vie (ACV) : il ne mesure que l'effet sur le climat, pas la pollution de l'eau ou l'épuisement des ressources.
+
+## La formule de base
+Pour chaque poste, on multiplie une **quantité** par un **facteur d'émission** :
+
+**émissions (kg CO₂e) = quantité × facteur d'émission**
+
+Le facteur d'émission indique combien de kg CO₂e sont émis **par unité** : par kg de matériau, par kWh d'électricité, par tonne transportée sur 1 km. En France, l'ADEME publie ces facteurs dans sa **Base Empreinte**. Pour s'entraîner, on utilise des valeurs **simplifiées** :
+
+| Poste | Unité de la quantité | Facteur d'émission (valeurs simplifiées d'entraînement) |
+|---|---|---|
+| Aluminium produit à partir du minerai | kg | 8 kg CO₂e par kg |
+| Aluminium recyclé | kg | 0,5 kg CO₂e par kg |
+| Acier | kg | 2 kg CO₂e par kg |
+| Plastique (ABS, PLA...) | kg | 3 kg CO₂e par kg |
+| Électricité consommée en France | kWh | 0,06 kg CO₂e par kWh |
+| Transport par camion | t·km | 0,1 kg CO₂e par t·km |
+| Transport par bateau | t·km | 0,01 kg CO₂e par t·km |
+| Transport par avion | t·km | 1 kg CO₂e par t·km |
+
+Pour le transport, la quantité s'exprime en **tonnes-kilomètres** (t·km) : **masse transportée (en t) × distance (en km)**. Attention : 1 t = 1 000 kg, donc 12 kg = 0,012 t.
+
+## La méthode en cinq étapes
+1. **Lister** les postes d'émission, étape par étape du cycle de vie.
+2. **Relever** la quantité de chaque poste (masse, kWh, t·km), avec son unité.
+3. **Calculer** les émissions de chaque poste (quantité × facteur).
+4. **Additionner** pour obtenir le bilan total.
+5. **Interpréter** : calculer la **part** de chaque étape en % (émissions de l'étape ÷ total), repérer le poste qui pèse le plus et proposer des **actions** sur ce poste.
+
+Pour comparer deux objets, il faut qu'ils rendent le **même service** pendant la **même durée** : on ramène souvent le bilan à **une année d'utilisation** (total ÷ nombre d'années).
+
+>! Exemple résolu : trottinette électrique de 12 kg utilisée 5 ans (valeurs fictives).
+>! | Étape | Calcul | Émissions |
+>! |---|---|---|
+>! | Fabrication : cadre en aluminium (6 kg) | 6 × 8 | 48 kg CO₂e |
+>! | Fabrication : batterie (donnée du fabricant) | | 30 kg CO₂e |
+>! | Fabrication : moteur, électronique, pneus (donnée) | | 22 kg CO₂e |
+>! | Transport : 10 000 km en bateau | 0,012 × 10 000 × 0,01 | 1,2 kg CO₂e |
+>! | Transport : 500 km en camion | 0,012 × 500 × 0,1 | 0,6 kg CO₂e |
+>! | Utilisation : 50 kWh par an pendant 5 ans | 50 × 5 × 0,06 | 15 kg CO₂e |
+>! | Fin de vie (donnée) | | 2 kg CO₂e |
+>! | **Total** | 100 + 1,8 + 15 + 2 | **118,8 kg CO₂e** |
+>! Part de la fabrication : 100 ÷ 118,8 ≈ 0,84, soit environ **84 %**. Par année d'utilisation : 118,8 ÷ 5 ≈ **23,8 kg CO₂e par an**.
+>! Actions : un cadre en aluminium **recyclé** émettrait 6 × 0,5 = 3 kg CO₂e au lieu de 48, soit 45 kg CO₂e de moins. Garder la trottinette **8 ans** au lieu de 5 : total = 100 + 1,8 + 8 × 50 × 0,06 + 2 = 127,8 kg CO₂e, soit 127,8 ÷ 8 ≈ **16 kg CO₂e par an**. Faire durer l'objet est très efficace.
+
+## Ce que montrent les bilans réels
+- Pour la plupart des objets électroniques, c'est la **fabrication** qui pèse le plus. Pour le numérique en France, la fabrication des équipements représente environ **60 %** de l'empreinte carbone, et l'utilisation environ 40 % (étude ADEME-Arcep publiée en 2025, données 2022, qui compte aussi les centres de données situés à l'étranger ; la fabrication y reste le premier poste).
+- Pour un appareil qui consomme beaucoup pendant des années (réfrigérateur, radiateur), l'**utilisation** peut peser davantage, surtout dans un pays où l'électricité est produite avec du charbon ou du gaz. En France, l'électricité est **peu carbonée** (nucléaire, hydraulique, éolien, solaire).
+- Le **transport par avion** émet environ 100 fois plus par t·km que le bateau (valeurs du tableau : 1 contre 0,01).
+
+## Erreurs fréquentes
+- Oublier de convertir les kg en **tonnes** pour le transport.
+- Confondre la **puissance** (W, kW) et l'**énergie** (Wh, kWh) : le facteur de l'électricité s'applique à des **kWh**.
+- Oublier de multiplier la consommation annuelle par le **nombre d'années**.
+- Comparer deux objets qui ne rendent pas le même service ou pas pendant la même durée.
+
+> **À retenir** : le **bilan carbone** additionne les émissions de gaz à effet de serre sur **tout le cycle de vie**, en **kg CO₂e**. Pour chaque poste : **émissions = quantité × facteur d'émission** (par kg, par kWh, par t·km). Transport : **t·km = masse en t × distance en km**. Part d'une étape = émissions de l'étape ÷ total. Pour comparer, ramener à **une année d'utilisation**. Pour les objets électroniques, la **fabrication** domine : les **faire durer** et choisir des matériaux **recyclés** sont les leviers les plus efficaces.
+`,
+      exercices: [
+        { type: "qcm", question: "Que signifie l'unité **kg CO₂e** utilisée dans un bilan carbone ?", choix: ["Kilogramme de charbon extrait", "Kilogramme d'équivalent CO₂", "Kilowatt-heure d'électricité consommée", "Kilogramme de déchets électroniques"], reponse: 1, explication: "Chaque gaz à effet de serre (méthane, protoxyde d'azote...) est converti en la masse de CO₂ qui aurait le même effet sur le climat : on peut alors tout **additionner** en **kg CO₂e**." },
+        { type: "saisie", question: "Le boîtier d'un objet contient 2 kg de plastique. Avec un facteur d'émission de 3 kg CO₂e par kg de plastique, combien de kg CO₂e émet sa fabrication ? (nombre)", reponses: ["6", "6 kg", "6 kg CO2e", "6 kg CO₂e", "6 kg CO2", "6 kgCO2e", "6 kgCO2"], explication: "Émissions = quantité × facteur = 2 × 3 = **6 kg CO₂e**." },
+        { type: "saisie", question: "Un camion transporte 500 kg de matériel sur 400 km. Avec un facteur de 0,1 kg CO₂e par t·km, combien de kg CO₂e ce transport émet-il ? (nombre)", reponses: ["20", "20 kg", "20 kg CO2e", "20 kg CO₂e", "20 kg CO2", "20 kgCO2e", "20 kgCO2"], explication: "500 kg = 0,5 t. Quantité : 0,5 × 400 = 200 t·km. Émissions : 200 × 0,1 = **20 kg CO₂e**. Ne pas oublier de convertir les kg en tonnes." },
+        { type: "vf", question: "D'après le tableau du cours, transporter une même charge sur la même distance émet moins de gaz à effet de serre en bateau qu'en camion.", reponse: true, explication: "Bateau : 0,01 kg CO₂e par t·km ; camion : 0,1 kg CO₂e par t·km. Le bateau émet **10 fois moins** pour la même charge et la même distance. L'avion (1 kg CO₂e par t·km) émet 10 fois plus que le camion." },
+        { type: "saisie", question: "Un réfrigérateur consomme 150 kWh par an pendant 10 ans. Avec un facteur de 0,06 kg CO₂e par kWh, quelles sont les émissions liées à son utilisation, en kg CO₂e ? (nombre)", reponses: ["90", "90 kg", "90 kg CO2e", "90 kg CO₂e", "90 kg CO2", "90 kgCO2e", "90 kgCO2"], explication: "Énergie consommée : 150 × 10 = 1 500 kWh. Émissions : 1 500 × 0,06 = **90 kg CO₂e**. Il ne faut pas oublier de multiplier par le nombre d'années." },
+        { type: "saisie", question: "Le bilan carbone d'une enceinte connectée est de 75 kg CO₂e, dont 60 kg CO₂e pour la fabrication. Quelle part du bilan représente la fabrication, en % ? (nombre)", reponses: ["80", "80 %"], explication: "Part = 60 ÷ 75 = 0,8, soit **80 %**. La fabrication est le poste principal : c'est sur elle (durée de vie, matériaux) qu'il faut agir en priorité." },
+        { type: "qcm", question: "Bilan d'un vélo à assistance électrique (valeurs fictives) : fabrication 130 kg CO₂e, transport 8 kg CO₂e, utilisation 25 kg CO₂e, fin de vie 4 kg CO₂e. Quelle action réduirait le plus son bilan par année d'utilisation ?", choix: ["Le transporter en camion plutôt qu'en bateau", "Le garder plus longtemps en le réparant et en changeant la batterie seulement quand elle est usée", "Le recharger la nuit plutôt que le jour", "Supprimer l'emballage du manuel"], reponse: 1, explication: "La **fabrication** (130 sur 167 kg CO₂e, soit environ 78 %) domine. Faire durer le vélo répartit ces émissions sur plus d'années. Le camion émet plus que le bateau ; l'heure de recharge et l'emballage du manuel ne changent presque rien." },
+        { type: "saisie", question: "Un smartphone émet 60 kg CO₂e pour sa fabrication et 2 kg CO₂e par an d'utilisation. On le garde 4 ans. Quel est son bilan par année d'utilisation, en kg CO₂e par an ? (nombre)", reponses: ["17", "17 kg", "17 kg CO2e", "17 kg CO₂e", "17 kg CO2e par an", "17 kg CO₂e par an", "17 kg par an", "17 kg CO2", "17 kg CO2 par an", "17 kgCO2e", "17 kgCO2", "17 kg CO2e/an", "17 kg CO2/an", "17 kgCO2e/an"], explication: "Total sur 4 ans : 60 + 2 × 4 = 68 kg CO₂e. Par an : 68 ÷ 4 = **17 kg CO₂e**. Gardé seulement 2 ans, il aurait coûté (60 + 2 × 2) ÷ 2 = 32 kg CO₂e par an, presque deux fois plus." },
+        { type: "vf", question: "Pour comparer le bilan carbone de deux objets, il suffit de comparer leurs totaux, même s'ils ne servent pas le même nombre d'années.", reponse: false, explication: "Il faut comparer des objets qui rendent le **même service** pendant la **même durée**. Un objet au total plus élevé mais qui dure deux fois plus longtemps peut être meilleur : on ramène donc le bilan à **une année d'utilisation**." },
+        { type: "redaction", question: "**Sujet type brevet.** Une famille hésite : remplacer son smartphone, dont la batterie est usée, ou le faire réparer. Données (valeurs fictives) : fabrication d'un smartphone neuf : 50 kg CO₂e ; transport du neuf par avion : 0,3 kg (avec l'emballage) sur 10 000 km, facteur 1 kg CO₂e par t·km ; utilisation : 4 kWh par an, facteur 0,06 kg CO₂e par kWh ; fin de vie : 0,5 kg CO₂e ; fabrication d'une batterie de remplacement : 4 kg CO₂e. 1) Calcule le bilan carbone d'un smartphone neuf utilisé 3 ans, poste par poste. 2) Calcule la part de la fabrication et conclus. 3) Compare les émissions des 2 prochaines années dans les deux cas : A) changer la batterie de l'ancien téléphone et le garder 2 ans ; B) acheter un téléphone neuf et l'utiliser 2 ans (on ne compte pas la fin de vie). 4) Rédige un argumentaire court pour conseiller la famille.", corrige: "1) **Bilan du neuf sur 3 ans** :\n- fabrication : **50 kg CO₂e** ;\n- transport : 0,3 kg = 0,0003 t ; 0,0003 × 10 000 = 3 t·km ; 3 × 1 = **3 kg CO₂e** ;\n- utilisation : 4 × 3 = 12 kWh ; 12 × 0,06 = **0,72 kg CO₂e** ;\n- fin de vie : **0,5 kg CO₂e** ;\n- **total** : 50 + 3 + 0,72 + 0,5 = **54,22 kg CO₂e** (environ 18 kg CO₂e par an : 54,22 ÷ 3 ≈ 18,1).\n\n2) **Part de la fabrication** : 50 ÷ 54,22 ≈ 0,92, soit environ **92 %**. Presque tout le bilan vient de la fabrication : l'utilisation (recharge) pèse très peu. Le levier principal est donc de **faire durer** le téléphone.\n\n3) **Comparaison sur 2 ans** :\n- A (réparation) : batterie 4 + utilisation 4 × 2 × 0,06 = 0,48 → **4,48 kg CO₂e** ;\n- B (neuf) : fabrication 50 + transport 3 + utilisation 0,48 → **53,48 kg CO₂e**.\nB émet environ **12 fois plus** que A (53,48 ÷ 4,48 ≈ 11,9).\n\n4) **Argumentaire** : Je conseille à la famille de faire **réparer** le téléphone. D'après les calculs, changer la batterie émet environ 4,5 kg CO₂e sur deux ans, contre plus de 53 kg CO₂e pour un téléphone neuf, car la fabrication représente plus de 90 % du bilan d'un smartphone. La réparation coûte aussi en général moins cher et fait travailler un réparateur. Il faut cependant vérifier que le téléphone reçoit encore les mises à jour de sécurité ; sinon, un téléphone reconditionné serait une bonne solution.\n\n> Barème indicatif : calculs posés avec unités et conversion kg → t (2 pts), part de la fabrication interprétée (1 pt), comparaison A/B juste (1 pt), argumentaire appuyé sur les chiffres avec une nuance (1 pt)." },
+      ],
+    },
+    {
+      id: "notice-technique",
+      titre: "Lire et rédiger une notice technique",
+      theme: "Création, conception, réalisation, innovations : des objets à concevoir et à réaliser",
+      cours: `
+## Les documents qui accompagnent un objet
+Un objet est livré avec des **documents techniques** qui permettent de le monter, de l'utiliser en sécurité et de l'entretenir :
+| Document | Ce qu'il contient | Exemple |
+|---|---|---|
+| **Fiche technique** | les **caractéristiques** de l'objet | tension 5 V, puissance 3 W, masse 85 g, indice IP54 |
+| **Notice de montage** | les **étapes** pour assembler l'objet | meuble en kit, robot à construire |
+| **Notice d'utilisation** (mode d'emploi) | comment **mettre en service**, utiliser, régler l'objet | lampe, imprimante, montre connectée |
+| **Notice de maintenance** | l'**entretien**, le **dépannage**, le remplacement des pièces | changer un filtre, une batterie |
+
+La fiche technique **décrit** l'objet ; une notice explique **comment faire**.
+
+En France, le **mode d'emploi** d'un produit vendu doit être rédigé **en français** (loi du 4 août 1994 relative à l'emploi de la langue française). Une notice claire améliore la **sécurité**, évite les pannes et facilite la **réparation**.
+
+## Ce que contient une bonne notice
+1. L'**identification** : nom de l'objet, référence, fabricant.
+2. Les **consignes de sécurité**, avec des **pictogrammes**.
+3. La **nomenclature** : la liste des pièces fournies, avec pour chacune un **repère** (numéro), une **quantité** et une **désignation**.
+4. Les **outils** nécessaires.
+5. Les **étapes** numérotées, illustrées par un **schéma** ou une **vue éclatée** (dessin où les pièces sont écartées les unes des autres, dans l'ordre du montage) qui reprend les repères.
+6. L'**utilisation**, l'**entretien**, un **tableau de dépannage**.
+7. Les **caractéristiques techniques**, la **garantie** et la **fin de vie** (où rapporter l'objet).
+
+## Les règles de rédaction
+- **Une seule action par étape**, dans l'ordre où on la fait.
+- Commencer par un **verbe d'action** à l'infinitif : « Visser », « Brancher », « Appuyer ».
+- Citer les pièces par leur **repère** et leur nom, avec la **quantité** et l'**outil**.
+- Placer un **avertissement avant** l'étape dangereuse, pas après.
+- Des phrases **courtes**, un vocabulaire **précis**, sans « truc » ni « ça ».
+- **Tester** la notice : la donner à une personne qui ne connaît pas l'objet et l'observer. Là où elle hésite, la notice doit être corrigée.
+
+>! Exemple : la même étape mal puis bien rédigée.
+>! Mal rédigée : « Ensuite on met les trucs dans les trous et on serre, mais attention à ne pas trop forcer sinon ça casse. »
+>! Bien rédigée : « 3. **Attention** : ne pas trop serrer, le bois risque de se fendre. Visser les 2 équerres (repère 2) sous la planche (repère 1) avec les 4 vis (repère 3), à l'aide d'un tournevis cruciforme. »
+
+>! Exemple de nomenclature (étagère murale en kit) :
+>! | Repère | Quantité | Désignation |
+>! |---|---|---|
+>! | 1 | 1 | planche en pin 60 × 20 cm |
+>! | 2 | 2 | équerre en acier |
+>! | 3 | 4 | vis à bois 4 × 20 mm |
+>! | 4 | 2 | vis 5 × 50 mm avec cheville pour le mur |
+
+## Les pictogrammes de sécurité
+Une **norme internationale** (ISO 7010) fixe des formes et des couleurs que tout le monde peut comprendre, quelle que soit sa langue :
+| Forme et couleur | Signification | Exemple |
+|---|---|---|
+| **Rond rouge barré** | **interdiction** | ne pas jeter au feu, ne pas toucher |
+| **Rond bleu**, dessin blanc | **obligation** | porter des lunettes, lire la notice |
+| **Triangle jaune** bordé de noir | **avertissement** : danger | risque électrique, surface chaude |
+| **Rectangle vert** | **secours**, situation sûre | sortie de secours, premiers secours |
+
+La **poubelle barrée** sur un appareil électrique ou électronique signifie qu'il ne faut **pas le jeter avec les ordures ménagères** : on le rapporte en magasin ou en déchetterie pour qu'il soit recyclé.
+
+## Le tableau de dépannage
+Il aide l'utilisateur à résoudre seul les problèmes courants, en partant de ce qu'il **constate** :
+| Problème constaté | Cause possible | Solution |
+|---|---|---|
+| La lampe ne s'allume pas | batterie déchargée | recharger la batterie pendant 3 h |
+| Le voyant de charge ne s'allume pas | câble mal branché ou abîmé | rebrancher le câble ou le remplacer |
+| La lampe s'éteint au bout de quelques minutes | batterie usée | remplacer la batterie (voir la notice de maintenance) |
+
+## La garantie
+Pour un objet neuf acheté à un vendeur professionnel, la **garantie légale de conformité** dure **2 ans** en France (Code de la consommation) : si l'objet présente un **défaut** (par exemple une panne qui n'est due ni à une mauvaise utilisation ni à un accident) ou ne correspond pas à ce qui était annoncé, le vendeur doit le **réparer ou le remplacer gratuitement**, au choix de l'acheteur ; si c'est impossible, il le rembourse en tout ou en partie. Elle est **obligatoire** et gratuite ; la **garantie commerciale** proposée en plus par certains fabricants est facultative. La notice indique comment faire valoir les garanties.
+
+> **À retenir** : la **fiche technique** décrit l'objet (caractéristiques) ; la **notice** explique comment le monter, l'utiliser, l'entretenir. Une notice contient : identification, **sécurité**, **nomenclature** (repère, quantité, désignation), outils, **étapes numérotées** illustrées, dépannage, fin de vie. Rédaction : **une action par étape**, **verbe d'action**, repères, avertissement **avant** l'étape dangereuse, puis **tester** la notice. Pictogrammes : rond rouge barré = **interdiction**, rond bleu = **obligation**, triangle jaune = **danger**, rectangle vert = **secours**.
+`,
+      exercices: [
+        { type: "qcm", question: "Quelle information trouve-t-on dans la **fiche technique** d'une lampe de vélo, plutôt que dans sa notice ?", choix: ["« Appuyer 2 secondes sur le bouton pour allumer »", "« Ne pas regarder le faisceau en face »", "« Brancher le câble USB pour recharger »", "« Puissance : 3 W ; batterie : 3,7 V, 4 Ah ; masse : 85 g »"], reponse: 3, explication: "La **fiche technique** donne les **caractéristiques** (puissance, batterie, masse). Les trois autres phrases expliquent **comment faire** ou donnent une consigne de sécurité : elles appartiennent à la notice." },
+        { type: "qcm", question: "Sur la notice d'une perceuse, un pictogramme est un **rond bleu** avec des lunettes dessinées en blanc. Que signifie-t-il ?", choix: ["Il est interdit de porter des lunettes", "Le port de lunettes de protection est obligatoire", "Danger : risque de projection", "Sortie de secours"], reponse: 1, explication: "Le **rond bleu** indique une **obligation** : ici, porter des lunettes de protection. L'interdiction est un rond rouge barré, le danger un triangle jaune, le secours un rectangle vert." },
+        { type: "vf", question: "Un triangle jaune bordé de noir sur une notice indique une interdiction.", reponse: false, explication: "Le **triangle jaune** est un **avertissement** : il signale un **danger** (risque électrique, surface chaude...). L'interdiction est représentée par un **rond rouge barré**." },
+        { type: "qcm", question: "Que signifie le pictogramme de la **poubelle barrée** sur la notice d'un objet électronique ?", choix: ["L'objet ne doit pas être jeté avec les ordures ménagères : il faut le rapporter en magasin ou en déchetterie", "L'objet est fabriqué en matériaux recyclés", "L'objet ne produit aucun déchet", "L'objet doit être jeté dans la poubelle jaune"], reponse: 0, explication: "Les appareils électriques et électroniques usagés contiennent des matériaux à récupérer (métaux) et parfois des substances dangereuses : ils doivent être **collectés à part** pour être dépollués et recyclés." },
+        { type: "saisie", question: "En France, combien d'années dure la garantie légale de conformité pour un objet neuf acheté à un vendeur professionnel ? (nombre)", reponses: ["2", "2 ans", "deux", "deux ans", "24 mois"], explication: "La **garantie légale de conformité** dure **2 ans** pour un objet neuf : le vendeur doit réparer ou remplacer gratuitement un objet qui présente un défaut (panne non due à une mauvaise utilisation) ou ne correspond pas à ce qui était annoncé." },
+        { type: "qcm", question: "Quelle étape de notice est la mieux rédigée ?", choix: ["« Après, il faut mettre la batterie et faire attention au sens. »", "« Mettre la batterie, fermer le couvercle, allumer et vérifier que tout marche bien. »", "« 2. Insérer la batterie (repère 4) dans son logement, le signe + vers le haut. »", "« La batterie, on la met, normalement ça rentre tout seul. »"], reponse: 2, explication: "Cette étape est **numérotée**, commence par un **verbe d'action** à l'infinitif, contient **une seule action**, cite la pièce par son **repère** et précise le sens. La proposition « Mettre la batterie, fermer le couvercle... » enchaîne quatre actions dans la même étape." },
+        { type: "qcm", question: "Dans une notice de montage, où faut-il placer l'avertissement « Débrancher l'appareil avant d'ouvrir le boîtier » ?", choix: ["À la fin de la notice", "Juste avant l'étape où l'on ouvre le boîtier (et dans les consignes de sécurité)", "Juste après l'étape où l'on ouvre le boîtier", "Nulle part, c'est évident"], reponse: 1, explication: "L'avertissement doit être lu **avant** de faire l'action dangereuse. Placé après, il arrive trop tard. On le rappelle aussi dans les consignes de sécurité au début de la notice." },
+        { type: "saisie", question: "Une étagère en kit comporte 3 tablettes. Chaque tablette se fixe avec 4 vis (repère 5), et il faut 2 vis de plus (même repère) pour fixer l'étagère au mur. Quelle quantité faut-il indiquer pour le repère 5 dans la nomenclature ? (nombre)", reponses: ["14", "14 vis"], explication: "3 × 4 = 12 vis pour les tablettes, plus 2 pour le mur : 12 + 2 = **14 vis**. Une erreur de quantité dans la nomenclature bloque le montage." },
+        { type: "vf", question: "En France, le mode d'emploi d'un produit vendu doit être rédigé en français.", reponse: true, explication: "La loi du 4 août 1994 relative à l'emploi de la langue française impose le français pour le mode d'emploi des produits vendus en France. D'autres langues peuvent s'y ajouter." },
+        { type: "redaction", question: "**Sujet type brevet.** Fiche technique d'une lampe avant de vélo : batterie lithium-ion 3,7 V, 4 Ah, rechargeable par câble USB (fourni), durée de recharge 3 h ; voyant de charge rouge pendant la charge, vert quand la batterie est pleine ; un bouton : un appui court allume ou change de mode (fort, faible, clignotant), un appui de 2 s éteint ; indice IPX4 (protégée contre les projections d'eau, mais pas contre l'immersion) ; fixation par une sangle en caoutchouc. 1) Rédige la partie « Utilisation » de la notice : recharge, fixation et allumage, en étapes numérotées. 2) Rédige trois consignes de sécurité ou de bon usage et indique, pour chacune, la forme et la couleur du pictogramme qui l'accompagnerait. 3) Rédige un tableau de dépannage de trois lignes (problème, cause possible, solution). 4) Explique comment vérifier que ta notice est compréhensible.", corrige: "1) **Utilisation** :\n1. Brancher le câble USB (fourni) sur la lampe et sur un chargeur USB : le voyant devient **rouge**.\n2. Attendre environ 3 h, jusqu'à ce que le voyant devienne **vert**, puis débrancher le câble.\n3. Placer la lampe sur le guidon, faisceau vers l'avant.\n4. Passer la sangle en caoutchouc autour du guidon et l'accrocher au crochet de la lampe.\n5. Appuyer brièvement sur le bouton pour allumer (mode fort).\n6. Appuyer brièvement à nouveau pour passer au mode faible, puis au mode clignotant.\n7. Maintenir le bouton appuyé 2 secondes pour éteindre.\n\n2) **Consignes et pictogrammes** :\n- « Ne pas plonger la lampe dans l'eau » (indice IPX4 : projections seulement) : **rond rouge barré** (interdiction) ;\n- « Ne pas regarder directement le faisceau » : **triangle jaune** bordé de noir (avertissement, danger pour les yeux) ;\n- « Lire la notice avant la première utilisation » : **rond bleu** (obligation).\nOn peut aussi citer : ne pas jeter la lampe à la poubelle (poubelle barrée, batterie à rapporter en point de collecte) ; ne pas recharger une batterie abîmée ou gonflée.\n\n3) **Dépannage** :\n| Problème constaté | Cause possible | Solution |\n|---|---|---|\n| La lampe ne s'allume pas | batterie déchargée | recharger 3 h jusqu'au voyant vert |\n| Le voyant reste éteint pendant la recharge | câble ou chargeur défectueux, mal branché | rebrancher, essayer un autre câble ou chargeur |\n| La lampe glisse sur le guidon | sangle mal accrochée ou détendue | raccrocher la sangle en la tendant davantage |\n\n4) **Vérification** : donner la lampe et la notice à une personne qui ne connaît pas l'objet (un autre élève), sans l'aider ; observer si elle réussit chaque étape, noter où elle hésite ou se trompe et le temps mis ; corriger les étapes qui posent problème, puis refaire le test.\n\n> Attendus : étapes numérotées commençant par un verbe d'action, une action par étape ; pictogrammes correctement associés (forme et couleur) ; tableau de dépannage cohérent avec la fiche technique ; test de la notice par un utilisateur." },
       ],
     },
   ],

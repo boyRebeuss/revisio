@@ -658,7 +658,7 @@ Il ne suffit pas d'« alerter » sur un réseau social pour être lanceur d'aler
 | Européennes | les députés européens (81 pour la France en 2024) | 5 ans | direct, à la proportionnelle, listes nationales |
 | Régionales | les conseillers régionaux | 6 ans | direct, listes |
 | Départementales | les conseillers départementaux | 6 ans | direct, un **binôme femme-homme** par canton depuis 2015 |
-| Municipales | les conseillers municipaux, qui élisent le maire | 6 ans | direct, listes |
+| Municipales | les conseillers municipaux, qui élisent le maire | 6 ans | direct, listes paritaires (dans toutes les communes depuis mars 2026) |
 >! **Les délibérations municipales sont publiques** : tout habitant peut assister aux séances du conseil municipal (sauf huis clos décidé pour un motif précis), et les comptes rendus doivent être publiés. C'est un moyen de **contrôler** les élus locaux.
 
 ## 3. Le référendum
@@ -675,7 +675,7 @@ Avant chaque élection, les candidats présentent leur **programme** et tentent 
 - **Désinformation** : la loi du 22 décembre 2018 permet de faire cesser rapidement une fausse information diffusée massivement pour fausser le scrutin.
 
 ## 5. L'abstention, un défi pour la démocratie
-- Au premier tour de l'élection présidentielle de 2022, l'abstention a atteint **26,3 %** ; elle est souvent bien plus forte aux élections locales et européennes, et plus élevée chez les **jeunes**.
+- Au premier tour de l'élection présidentielle de 2022, l'abstention a atteint **26,3 %** ; elle est souvent bien plus forte aux élections locales et européennes (environ **43 %** au premier tour des municipales du 15 mars 2026), et plus élevée chez les **jeunes**.
 - Explications possibles : défiance envers les responsables politiques, sentiment que le vote ne change rien, désintérêt, mal-inscription (on n'est plus inscrit là où l'on habite).
 - Les élus n'en restent pas moins légitimes, mais une forte abstention affaiblit le lien entre citoyens et représentants.
 
@@ -726,7 +726,7 @@ La démocratie ne se résume pas au vote : elle vit grâce aux citoyens qui **s'
 - On peut aussi servir l'intérêt général en travaillant ou en s'engageant dans les **institutions** : armée, police et gendarmerie, justice, éducation, santé, sapeurs-pompiers (dont la grande majorité sont des **volontaires**).
 - Les **réserves** (militaire, de la police, sanitaire, civique) permettent à des citoyens d'aider ponctuellement.
 - Le **service civique** (créé en 2010) permet aux 16-25 ans de s'engager pendant 6 à 12 mois dans une mission d'intérêt général, avec une indemnité.
-- Le **service national universel (SNU)**, créé en 2019 et cité par le programme, est en voie de disparition : plus aucun séjour de cohésion n'a été organisé en 2025-2026 et la délégation qui le gérait a été supprimée le 1er janvier 2026. Le président de la République a annoncé le 27 novembre 2025 un **service militaire volontaire** pour les jeunes majeurs, dont les premiers volontaires sont accueillis à partir de 2026.
+- Le **service national universel (SNU)**, créé en 2019 et cité par le programme, est en voie de disparition : plus aucun séjour de cohésion n'a été organisé en 2025-2026 et la délégation qui le gérait a été supprimée le 1er janvier 2026. Le président de la République a annoncé le 27 novembre 2025 un nouveau **service national**, militaire et volontaire, pour les 18-25 ans : dix mois sur le territoire national, avec une première promotion d'environ 3 000 volontaires à la rentrée 2026.
 
 ## 4. Manifester, pétitionner : faire entendre sa voix
 - **La liberté de manifester** permet d'exprimer collectivement ses opinions sur la voie publique et de faire pression sur les gouvernants. Une manifestation doit être **déclarée** à l'avance en mairie ou en préfecture ; elle peut être interdite si elle menace gravement l'ordre public, sous le contrôle du juge. Elle doit rester **pacifique**.
@@ -1037,6 +1037,176 @@ Même face au terrorisme ou à la guerre, la France reste un **État de droit** 
 **4.** Non, au contraire, les jeunes s'engagent davantage qu'avant dans les associations. Le document 2 montre que la part des 15-34 ans bénévoles est passée de **16 % en 2010 à 23 % en 2025**, soit une hausse de 7 points. En 2025, elle est même supérieure à celle de l'ensemble des Français de 15 ans et plus (**21 %**). L'exemple d'Inès dans le document 1 illustre cet engagement, au collège comme dans une association. Cependant, d'autres formes d'engagement, comme l'adhésion à un syndicat ou le vote, reculent chez les jeunes : leur engagement prend donc des formes différentes.
 
 **5. Texte (exemple)** : Chers camarades, nous pensons souvent que nous sommes trop jeunes pour changer les choses. Pourtant, nous pouvons déjà agir. Au collège, nous pouvons devenir délégués ou éco-délégués, et proposer des projets au conseil de la vie collégienne, comme des composteurs pour réduire le gaspillage à la cantine. En dehors du collège, de nombreuses associations accueillent des jeunes bénévoles : clubs sportifs, aide aux devoirs, protection de la nature. D'ailleurs, de plus en plus de jeunes s'engagent : près d'un sur quatre est bénévole. S'engager, c'est faire vivre la fraternité et la démocratie, mais c'est aussi apprendre à travailler en équipe et à défendre ses idées. Alors, lançons-nous : chaque petite action compte !` },
+      ],
+    },
+    {
+      id: "democratie-locale",
+      titre: "La démocratie locale : communes, départements, régions et participation des habitants",
+      theme: "Faire vivre la démocratie – Les acteurs du jeu démocratique et leur engagement (2) : l'engagement collectif",
+      cours: `
+## 1. La décentralisation : décider au plus près des habitants
+- Depuis la révision de 2003, l'article 1er de la Constitution précise que l'organisation de la République « est **décentralisée** ». La **décentralisation** est le transfert, par l'État, de **compétences** (des domaines d'action) et de moyens à des **collectivités territoriales** dirigées par des **élus locaux**.
+- Les **collectivités territoriales** sont les communes, les départements, les régions, les collectivités à statut particulier (comme la Corse) et les collectivités d'outre-mer (article 72). Selon l'article 72, elles « s'administrent librement par des conseils élus ».
+- La grande étape est celle des **lois Defferre** (loi du **2 mars 1982**) : les décisions des élus locaux n'ont plus besoin d'être approuvées à l'avance par le préfet, et les régions deviennent des collectivités élues au suffrage universel direct (premières élections régionales en 1986).
+- La France n'est pas pour autant un État fédéral : la République reste « **indivisible** ». Les collectivités ne votent **pas de lois** ; elles prennent des décisions (délibérations, arrêtés) qui doivent respecter la loi (hiérarchie des normes).
+
+>! **Le préfet, représentant de l'État** : nommé par le Gouvernement (il n'est **pas élu**), il représente l'État dans le département et la région. Il exerce le **contrôle de légalité** : s'il estime qu'une décision d'une collectivité est contraire à la loi, il peut demander au **tribunal administratif** de l'annuler. Le juge, et non le préfet, a le dernier mot : c'est l'**État de droit**.
+
+>! **Ne confonds pas** : la **décentralisation** confie des pouvoirs à des élus locaux ; la **déconcentration** installe dans les territoires des services de l'État qui obéissent au Gouvernement (préfecture, rectorat).
+
+## 2. Qui fait quoi ?
+| Collectivité | Assemblée élue (6 ans) | Qui la dirige ? | Exemples de compétences |
+|---|---|---|---|
+| **Commune** (près de 35 000) | conseil municipal | le **maire**, élu par le conseil municipal | écoles maternelles et élémentaires, état civil, urbanisme (permis de construire), voirie communale, équipements sportifs et culturels |
+| **Département** (une centaine) | conseil départemental (binômes femme-homme) | le président du conseil départemental | **collèges** (bâtiments, cantine, agents d'entretien), action sociale (RSA, aide aux personnes âgées, protection de l'enfance), routes départementales |
+| **Région** (18, dont 13 en métropole) | conseil régional (listes) | le président du conseil régional | **lycées**, trains régionaux (TER) et transports scolaires, développement économique, formation professionnelle |
+Les communes se regroupent aussi en **intercommunalités** (communautés de communes, d'agglomération, métropoles), dont les conseillers sont issus des conseils municipaux : elles gèrent par exemple la collecte des déchets ou le développement économique. Une intercommunalité n'est pas une collectivité territoriale, mais un regroupement de communes.
+
+>! **Exemple : ton collège.** Le bâtiment, la cantine et les agents d'entretien dépendent du **département** ; les professeurs et les programmes dépendent de l'**État** (ministère de l'Éducation nationale) ; ton ancienne école primaire dépend de la **commune** ; ton futur lycée de la **région**.
+
+## 3. La commune, cellule de base de la démocratie
+- Les **conseillers municipaux** sont élus au suffrage universel direct pour **6 ans** ; les dernières élections municipales ont eu lieu les **15 et 22 mars 2026**. Depuis la loi du **21 mai 2025**, on vote dans **toutes** les communes pour des **listes paritaires** (alternance femme-homme), y compris dans les communes de moins de 1 000 habitants, où l'on pouvait auparavant rayer ou ajouter des noms.
+- Le **maire** n'est pas élu directement par les habitants : il est **élu par le conseil municipal** parmi ses membres, lors de sa première séance. Il a un **double rôle** :
+  - il dirige la **commune** : il prépare et exécute le budget voté par le conseil, dirige les services municipaux, prend des **arrêtés** (circulation, stationnement, sécurité) ;
+  - il est aussi **agent de l'État** : officier de l'état civil (naissances, mariages), officier de police judiciaire, organisateur des élections.
+- Un citoyen d'un autre pays de l'Union européenne qui habite la commune peut voter et être élu **conseiller municipal**, mais il ne peut être ni **maire** ni **adjoint**.
+- Les séances du conseil municipal sont **publiques** et ses décisions (les **délibérations**) sont publiées : chacun peut savoir ce que décident les élus.
+- L'abstention est élevée : environ **43 %** au premier tour des municipales de 2026 (ministère de l'Intérieur), après **55 %** en 2020 (pendant l'épidémie de Covid-19), contre environ **36 %** en 2014.
+
+## 4. Participer entre deux élections
+| Outil | Ce qu'il permet | Qui décide ? |
+|---|---|---|
+| Assister au conseil municipal | suivre les débats, contrôler les élus | — |
+| **Droit de pétition** (article 72-1) | les électeurs demandent qu'une question soit inscrite à l'**ordre du jour** de l'assemblée locale | l'assemblée, qui reste libre de sa décision |
+| **Consultation** des électeurs | donner un **avis** sur un projet | les élus (simple avis) |
+| **Référendum local** (article 72-1, depuis 2003) | les électeurs **décident** d'un projet qui relève de la collectivité | les électeurs, si **au moins la moitié des inscrits** a voté et si le projet obtient la **majorité des suffrages exprimés** |
+| **Conseils de quartier** | débattre et proposer ; obligatoires dans les communes de **80 000 habitants et plus** (loi de 2002) | les élus |
+| **Budget participatif** | les habitants proposent puis votent des projets financés par une part du budget (Paris depuis 2014, de nombreuses villes ensuite) | les habitants, dans le cadre fixé par le conseil |
+| **Conseil municipal des jeunes** | des jeunes élus portent des projets pour la commune | les élus |
+Ajoute les **réunions publiques**, les **enquêtes publiques** avant un grand projet, et le droit de participer aux décisions qui touchent l'environnement (Charte de l'environnement, article 7).
+
+>! **Exemple résolu (référendum local)** : une commune compte **10 000 inscrits**. Cas 1 : 4 600 électeurs votent (46 % des inscrits) et 2 900 votent « oui » sur 4 400 suffrages exprimés. Même avec une large majorité de « oui », le seuil de la moitié des inscrits n'est pas atteint : le résultat n'a **pas valeur de décision**, c'est le conseil municipal qui tranche. Cas 2 : 5 200 électeurs votent (52 %) et 2 700 votent « oui » sur 5 000 suffrages exprimés (54 %) : le projet est **adopté**.
+
+## 5. Erreurs fréquentes
+- « Les habitants élisent le maire » : non, ils élisent le **conseil municipal**, qui élit le maire.
+- « Le préfet est le chef des élus du département » : non, il **représente l'État** et contrôle la légalité ; il n'est pas élu et ne dirige pas les collectivités.
+- « Le collège appartient à l'État » : le bâtiment et la cantine relèvent du **département**.
+- « Une commune peut faire ses propres lois » : non, seul le Parlement (ou le peuple par référendum national) vote la loi.
+
+> **À retenir** :
+> - Décentralisation (lois Defferre de 1982, révision de 2003) : l'État transfère des compétences à des collectivités qui « s'administrent librement par des conseils élus » (article 72), sous le contrôle de légalité du préfet et du juge.
+> - Commune : école primaire, état civil, urbanisme ; département : collèges, action sociale ; région : lycées, TER, économie.
+> - Conseillers municipaux élus pour 6 ans (dernières élections : mars 2026, listes paritaires partout) ; le maire est élu par le conseil municipal et agit aussi au nom de l'État.
+> - Participer : séances publiques, pétition, consultation, référendum local (au moins la moitié des inscrits + majorité des suffrages exprimés), conseils de quartier, budgets participatifs, conseils de jeunes.
+`,
+      textes: {
+        conseil: `**Extrait du compte rendu du conseil municipal de Valbourg, commune de 8 000 habitants** (document fictif)
+
+Séance publique du 14 octobre. 27 conseillers municipaux présents sur 29. Une trentaine d'habitants assistent à la séance.
+
+1. **Pétition pour une piste cyclable** : une pétition signée par 640 habitants demande une piste cyclable entre la gare et le collège. Le conseil a accepté de l'inscrire à l'ordre du jour. Après débat, la délibération créant la piste est adoptée par 21 voix pour et 6 contre.
+2. **Nouvelle salle de sport** : le projet coûte 2,4 millions d'euros, dont 800 000 euros de subventions du département et de la région. Le maire propose d'organiser une consultation des habitants avant toute décision.
+3. **Proposition du conseil municipal des jeunes** : installer des abris à vélos devant le collège et la médiathèque. Le conseil demande aux services municipaux d'étudier le projet.`,
+      },
+      exercices: [
+        { type: "qcm", question: "Qui élit le maire d'une commune ?", choix: ["Les habitants, directement, le jour des élections municipales", "Le conseil municipal, parmi ses membres", "Le préfet du département", "Les grands électeurs du département"], reponse: 1, explication: "Les électeurs élisent les **conseillers municipaux** ; lors de sa première séance, le **conseil municipal élit le maire** parmi ses membres. Le préfet est nommé par le Gouvernement et n'élit personne ; les grands électeurs élisent les sénateurs." },
+        { type: "saisie", question: "Comment appelle-t-on le transfert, par l'État, de compétences et de moyens à des collectivités territoriales dirigées par des élus locaux ?", reponses: ["décentralisation"], explication: "La **décentralisation** (lois Defferre de 1982, révision constitutionnelle de 2003) rapproche les décisions des habitants. À ne pas confondre avec la **déconcentration**, qui installe dans les territoires des services de l'État obéissant au Gouvernement." },
+        { type: "qcm", question: "Quelle collectivité construit et entretient les lycées ?", choix: ["La commune", "Le département", "L'intercommunalité", "La région"], reponse: 3, explication: "Les **lycées** relèvent de la **région**, les **collèges** du **département** et les **écoles** maternelles et élémentaires de la **commune**. Les professeurs et les programmes, eux, dépendent de l'État." },
+        { type: "vf", question: "Une citoyenne allemande qui habite Strasbourg peut voter aux élections municipales et devenir maire de la ville.", reponse: false, explication: "Elle peut **voter** et être élue **conseillère municipale** (citoyenneté européenne), mais un citoyen d'un autre pays de l'UE ne peut être ni **maire** ni **adjoint** : le maire est aussi agent de l'État (état civil, police judiciaire, organisation des élections)." },
+        { type: "saisie", question: "Quel représentant de l'État, nommé par le Gouvernement, contrôle la légalité des décisions des collectivités et peut les déférer (c'est-à-dire les soumettre) au tribunal administratif ?", reponses: ["préfet", "préfète", "préfet du département", "préfet de département", "préfet de région"], explication: "Le **préfet** exerce le **contrôle de légalité**. Il ne peut pas annuler lui-même une décision : il saisit le **tribunal administratif**, qui juge. C'est une garantie de l'**État de droit**." },
+        { type: "qcm", texte: "conseil", question: "D'après le document, quel outil de participation a permis aux habitants de faire débattre le conseil municipal de la piste cyclable ?", choix: ["Le droit de pétition", "Le référendum local", "Le budget participatif", "Le conseil de quartier"], reponse: 0, explication: "640 habitants ont signé une **pétition** : l'article 72-1 de la Constitution permet aux électeurs de demander l'inscription d'une question à l'**ordre du jour**. Mais c'est le conseil municipal, élu, qui a ensuite **décidé** par un vote (21 voix contre 6). Aucun référendum, budget participatif ni conseil de quartier n'est cité pour ce projet." },
+        { type: "vf", texte: "conseil", question: "D'après le document, les habitants n'avaient pas le droit d'assister à cette séance : seuls les élus étaient présents.", reponse: false, explication: "La séance est **publique** et « une trentaine d'habitants » y assistent. La publicité des séances et des délibérations permet aux citoyens de **contrôler** leurs élus locaux." },
+        { type: "saisie", texte: "conseil", question: "D'après le document, quelle part du coût de la salle de sport est financée par les subventions du département et de la région ? (réponds par une fraction)", reponses: ["1/3", "un tiers", "le tiers", "tiers", "1 tiers"], explication: "800 000 ÷ 2 400 000 = **1/3**. La commune paie donc les deux tiers restants, soit 1,6 million d'euros. Les collectivités coopèrent souvent pour financer un équipement." },
+        { type: "qcm", question: "Une commune compte 8 000 inscrits. Lors d'un référendum local, 3 600 électeurs votent et le « oui » obtient 2 500 voix sur 3 500 suffrages exprimés. Que vaut ce résultat ?", choix: ["Le projet est adopté, car le « oui » dépasse 70 % des suffrages exprimés", "Le projet est adopté, car plus de 2 000 électeurs ont voté « oui »", "Le résultat n'a pas valeur de décision : le conseil municipal tranche", "Le résultat est annulé par le préfet, qui organise un nouveau vote"], reponse: 2, explication: "3 600 ÷ 8 000 = **45 %** des inscrits : le seuil de la **moitié des inscrits** n'est pas atteint, même si le « oui » est largement majoritaire (2 500 ÷ 3 500 ≈ 71 %). Le résultat reste un avis, et le conseil municipal décide. Le préfet, lui, n'organise pas de nouveau vote : il ne peut que saisir le juge s'il estime une décision illégale." },
+        { type: "redaction", texte: "conseil", question: "**Situation pratique (type brevet)** – thématique : la démocratie locale\n\n1. Présente le document (nature, sujet). 2. Relève deux façons dont les habitants de Valbourg participent à la vie de leur commune. 3. Qui a pris la décision de créer la piste cyclable ? Explique pourquoi, en t'appuyant sur la notion de démocratie représentative. 4. En au moins quatre phrases, explique en quoi la commune est un lieu essentiel de la démocratie. 5. Tu es membre du conseil municipal des jeunes : rédige un texte de 8 à 10 lignes destiné aux habitants pour les inviter à participer à la consultation sur la salle de sport.", corrige: `**1. Présentation** : c'est un **compte rendu** (fictif) d'une séance publique du **conseil municipal** de Valbourg, commune de 8 000 habitants. Il présente trois sujets débattus par les élus : une piste cyclable demandée par pétition, une nouvelle salle de sport et une proposition du conseil municipal des jeunes.
+
+**2. Deux formes de participation** (au choix) : une **pétition** signée par 640 habitants ; la présence d'habitants à la **séance publique** ; la **consultation** proposée par le maire ; les propositions du **conseil municipal des jeunes**.
+
+**3.** La décision a été prise par le **conseil municipal**, par un vote (21 voix pour, 6 contre). Dans une **démocratie représentative**, les citoyens élisent des représentants (ici les conseillers municipaux, élus pour 6 ans) qui décident en leur nom. La pétition a permis de mettre le sujet à l'**ordre du jour**, mais elle ne décide pas : ce sont les élus, qui devront rendre des comptes aux électeurs.
+
+**4.** La commune est l'échelon le plus proche des citoyens : ses décisions touchent la vie quotidienne (écoles, rues, équipements sportifs, pistes cyclables). Les habitants y élisent leurs conseillers municipaux, et même les citoyens européens qui y résident peuvent voter. Entre deux élections, ils peuvent assister aux séances publiques, signer une pétition, donner leur avis lors d'une consultation ou voter lors d'un référendum local. Les jeunes eux-mêmes peuvent s'engager dans un conseil municipal des jeunes. La commune est donc un lieu où l'on apprend la démocratie et où chacun peut agir concrètement.
+
+**5. Texte (exemple)** : Chers habitants, la commune réfléchit à la construction d'une nouvelle salle de sport, et le maire a décidé de nous demander notre avis avant de décider. C'est une occasion rare de faire entendre notre voix ! Ce projet est important : il coûterait 2,4 millions d'euros, dont un tiers payé par le département et la région, et il concerne les clubs, les écoles et les familles. Que vous soyez pour ou contre, venez vous informer et donnez votre avis lors de la consultation. Vous pourrez poser vos questions sur le coût, l'emplacement ou les horaires. Chaque avis compte, celui des sportifs comme celui des contribuables qui s'inquiètent des dépenses. Les élus décideront ensuite, mais ils le feront mieux s'ils connaissent les attentes de tous. Participer, c'est faire vivre la démocratie dans notre ville !` },
+      ],
+    },
+    {
+      id: "ia-et-information",
+      titre: "L'intelligence artificielle et l'information : s'informer, vérifier, débattre",
+      theme: "Faire vivre la démocratie – Les acteurs du jeu démocratique et leur engagement (1) : l'opinion",
+      cours: `
+## 1. Qu'est-ce que l'intelligence artificielle générative ?
+- L'**intelligence artificielle** (IA) désigne des programmes informatiques capables d'accomplir des tâches que l'on associait à l'intelligence humaine : reconnaître une image, traduire, répondre à une question.
+- L'**IA générative** produit, à la demande (une « requête »), des **textes**, des **images**, des **sons** ou des **vidéos**. Les **agents conversationnels** (« chatbots ») sont devenus accessibles à tous depuis la fin de 2022 (ChatGPT a été rendu public en novembre 2022).
+- **Comment ça marche, simplement** : l'IA a été « entraînée » sur d'énormes quantités de textes et d'images, souvent collectés sur internet. Pour répondre, elle calcule la suite de mots la plus **probable**. Elle ne mène **aucune enquête** et ne vérifie pas si ce qu'elle écrit est vrai.
+
+>! **Conséquences à connaître** : une IA peut produire une **hallucination**, c'est-à-dire une réponse fausse (une date, une citation, un livre qui n'existe pas) présentée avec assurance. Elle peut reproduire les **biais** (préjugés, stéréotypes) présents dans les données qui ont servi à l'entraîner. Ses connaissances peuvent être dépassées.
+
+## 2. Ce que l'IA change pour l'information
+| Des atouts | Des risques |
+|---|---|
+| traduire, résumer, sous-titrer, lire un texte à voix haute : l'information devient plus **accessible** | des **hallucinations** reprises comme si elles étaient vraies |
+| aider les journalistes à analyser de grandes masses de documents | des **hypertrucages** (« deepfakes ») : fausses images, fausses voix, fausses vidéos très réalistes, faciles et peu coûteuses à fabriquer |
+| aider à repérer des réseaux de faux comptes | des milliers de **faux articles**, faux sites et **faux comptes** produits automatiquement |
+| aider à apprendre et à s'entraîner | on ne sait plus **qui parle** (une personne ou une machine) ni d'où vient un contenu |
+Un risque supplémentaire : puisque tout peut être truqué, un responsable pris en faute peut prétendre qu'une **vraie** vidéo est un faux. Les spécialistes parlent du « **dividende du menteur** » : le doute généralisé profite à ceux qui veulent échapper à la vérité.
+
+>! **Un exemple réel (États-Unis, janvier 2024)** : avant une élection primaire dans l'État du New Hampshire, des électeurs ont reçu des appels téléphoniques automatiques avec une **voix imitant celle du président Joe Biden**, fabriquée par IA, qui leur conseillait de ne pas aller voter. L'auteur, un consultant politique, a été identifié et sanctionné en 2024 d'une amende de 6 millions de dollars par l'autorité américaine des communications (FCC).
+
+**Pourquoi c'est un enjeu démocratique ?** Pour débattre et voter, les citoyens ont besoin de **faits communs et vérifiés**. Les hypertrucages menacent la **sincérité du scrutin**, la réputation des personnes, la confiance dans les médias, et donc le **débat démocratique** lui-même.
+
+## 3. Ce que dit le droit
+- La **liberté d'expression** s'applique aussi aux contenus créés avec l'IA (création artistique, humour, satire), mais avec des **limites fixées par la loi**.
+- **En France**, la loi du **21 mai 2024** visant à sécuriser et réguler l'espace numérique (dite « SREN ») punit le fait de diffuser, **sans son consentement**, un contenu (image, vidéo, son) généré par IA qui représente une personne, s'il n'est pas évident ou pas signalé qu'il s'agit d'un montage (article 226-8 du Code pénal) : jusqu'à **1 an** de prison et 15 000 euros d'amende, **2 ans** et 45 000 euros si la diffusion a lieu **en ligne**. Les hypertrucages à caractère sexuel sont punis plus sévèrement.
+- **Dans l'Union européenne**, le **règlement sur l'intelligence artificielle** (2024), le premier au monde de cette ampleur, s'applique progressivement. Ses obligations de **transparence** (depuis le **2 août 2026**) imposent notamment d'informer une personne qu'elle échange avec une machine et de **signaler** les hypertrucages comme contenus générés ou manipulés artificiellement.
+- Les outils vus dans le chapitre sur l'information restent valables : loi du 22 décembre 2018 contre la manipulation de l'information en période électorale (élections présidentielle, législatives, sénatoriales et européennes, référendums : elle ne s'applique pas aux élections locales), **Viginum** contre les ingérences étrangères, règlement européen sur les services numériques (**DSA**), contrôlé en France par l'**Arcom**.
+
+## 4. Méthode : utiliser l'IA sans se faire piéger
+1. **L'IA n'est pas une source**, c'est un outil. Chaque fait important doit être vérifié auprès d'une **source identifiée** : un média, une institution, un ouvrage, un manuel.
+2. **Demande les sources et ouvre-les** : existent-elles ? Disent-elles vraiment ce que l'IA leur fait dire ?
+3. **Face à une image, un son ou une vidéo surprenants** : qui l'a publié en premier ? Y a-t-il une mention « généré par IA » ? Fais une recherche d'image inversée et consulte les rubriques de **vérification** des médias (par exemple AFP Factuel ou Les Décodeurs du journal *Le Monde*). Les indices visuels (mains déformées, textes illisibles, ombres incohérentes) aident, mais **ne suffisent plus** : les faux sont de plus en plus parfaits.
+4. **Prends ton temps** : plus un contenu provoque d'émotion (colère, peur, indignation), plus il faut vérifier avant de partager.
+5. **Au collège** : rendre comme le sien un devoir écrit par une IA, c'est **tricher**. Ne confie pas à une IA d'informations personnelles ni de photos de tes camarades (droit à l'image, vie privée).
+
+>! **Exemple résolu** : tu demandes à un agent conversationnel la date de la loi qui a aboli la peine de mort en France. Il répond « 9 octobre 1971 ». Tu vérifies dans ton manuel ou sur le site officiel Légifrance : la loi date du **9 octobre 1981** (loi Badinter). L'IA n'a pas voulu te tromper : c'est une **hallucination**. Mais si tu recopies cette erreur et la partages, tu fais de la **mésinformation**.
+
+## 5. Erreurs fréquentes
+- « Si l'IA le dit, c'est vrai » : non, elle calcule une réponse probable, elle ne vérifie pas.
+- « Une vidéo ou un enregistrement ne peut pas mentir » : un hypertrucage peut faire dire à n'importe qui ce qu'il n'a jamais dit.
+- « Tout contenu fait avec l'IA est interdit » : non, la loi punit la tromperie et l'atteinte aux personnes, pas la création signalée comme telle.
+- Confondre l'**erreur** d'une IA (hallucination, involontaire) et la **désinformation** (une personne utilise l'IA pour tromper volontairement).
+
+> **À retenir** :
+> - L'IA générative produit textes, images, sons et vidéos en calculant ce qui est probable : elle peut se tromper (hallucinations) et reproduire des biais.
+> - Elle facilite les hypertrucages et la production massive de faux contenus, qui menacent la sincérité du scrutin et le débat démocratique.
+> - Droit : loi SREN du 21 mai 2024 (diffuser un hypertrucage d'une personne sans son consentement est un délit), règlement européen sur l'IA (signalement des hypertrucages), loi de 2018, Viginum, DSA.
+> - Méthode : l'IA n'est pas une source ; vérifier les faits et les sources, remonter à l'origine d'un contenu, prendre le temps avant de partager.
+`,
+      textes: {
+        audio: `**Message reçu sur une messagerie, deux jours avant le second tour d'une élection municipale** (document fictif)
+
+« ÉCOUTEZ AVANT QUE ÇA SOIT SUPPRIMÉ !!! Conversation volée de Claire M. » Le message contient un enregistrement de 40 secondes dans lequel on entend une voix semblable à celle de la candidate Claire M. annoncer qu'elle fermera la piscine municipale si elle est élue. Le message, « transféré plusieurs fois », ne cite aucune source et ne précise ni la date ni le lieu de l'enregistrement.
+
+Le soir même, la candidate dément et porte plainte. Le lendemain, le journal local et le service de vérification d'une agence de presse expliquent, après analyse par des spécialistes, que l'enregistrement a été fabriqué avec un logiciel d'intelligence artificielle capable d'imiter une voix.`,
+      },
+      exercices: [
+        { type: "qcm", question: "Qu'est-ce qu'une intelligence artificielle générative ?", choix: ["Un moteur de recherche qui affiche seulement des sites vérifiés par des journalistes", "Un robot qui pense et ressent comme un être humain", "Un programme qui produit à la demande des textes, des images, des sons ou des vidéos en calculant ce qui est le plus probable", "Un logiciel qui vérifie automatiquement si une information est vraie"], reponse: 2, explication: "L'IA **générative** crée des contenus à partir des données sur lesquelles elle a été entraînée. Elle ne vérifie pas les faits et ne « pense » pas comme un humain ; elle n'est pas non plus un moteur de recherche qui ne montrerait que des sources vérifiées." },
+        { type: "saisie", question: "Comment appelle-t-on, en français, une image, un son ou une vidéo truqués par l'intelligence artificielle pour faire dire ou faire à quelqu'un ce qu'il n'a jamais dit ou fait ?", reponses: ["hypertrucage", "hypertrucages", "deepfake", "deepfakes", "deep fake"], explication: "Un **hypertrucage** (en anglais *deepfake*). Diffuser sans son consentement l'hypertrucage d'une personne, sans signaler qu'il s'agit d'un montage, est un délit depuis la loi du 21 mai 2024." },
+        { type: "vf", question: "Un agent conversationnel peut inventer une citation ou un livre qui n'existe pas, tout en répondant avec assurance.", reponse: true, explication: "C'est une **hallucination** : l'IA calcule une réponse probable sans vérifier qu'elle est vraie. Il faut donc toujours contrôler les faits et les sources qu'elle donne." },
+        { type: "saisie", question: "Comment appelle-t-on une réponse fausse inventée par une IA générative mais présentée avec assurance ?", reponses: ["hallucination", "hallucinations"], explication: "Une **hallucination**. Elle est involontaire, mais la recopier et la partager sans vérifier, c'est faire de la **mésinformation**." },
+        { type: "qcm", question: "Que prévoit la loi du 21 mai 2024 (dite « SREN ») à propos des hypertrucages ?", choix: ["Elle interdit toute image créée avec une intelligence artificielle", "Elle punit la diffusion, sans son consentement, d'un contenu généré par IA représentant une personne, s'il n'est pas évident ou signalé qu'il s'agit d'un montage", "Elle oblige les journalistes à faire vérifier leurs articles par une IA", "Elle autorise les hypertrucages pendant les campagnes électorales"], reponse: 1, explication: "La loi SREN (article 226-8 du Code pénal) punit la **tromperie** et l'**atteinte aux personnes** : jusqu'à 1 an de prison et 15 000 euros d'amende, et jusqu'à 2 ans et 45 000 euros en cas de diffusion en ligne. Elle n'interdit pas la création signalée comme telle (humour, art), et elle n'autorise évidemment pas les faux pendant les élections." },
+        { type: "qcm", texte: "audio", question: "D'après le document, quel élément aurait dû alerter avant de partager l'enregistrement ?", choix: ["L'enregistrement dure 40 secondes", "La candidate se présente au second tour", "Le message a été reçu sur une messagerie", "Le message ne cite aucune source, ni date ni lieu, et pousse à le partager vite avec un ton alarmiste"], reponse: 3, explication: "**Absence de source**, de date et de lieu, **majuscules** et points d'exclamation, appel à partager « avant que ça soit supprimé » : ce sont les signes classiques d'une manipulation. La durée de l'enregistrement ou le moyen de réception ne prouvent rien." },
+        { type: "vf", texte: "audio", question: "Comme l'enregistrement reproduit très bien la voix de la candidate, il est forcément authentique.", reponse: false, explication: "Les logiciels d'IA savent aujourd'hui **imiter une voix** à partir de quelques extraits. Seule une **vérification** (source d'origine, analyse par des spécialistes, travail des journalistes) permet de conclure : ici, l'enregistrement a été fabriqué." },
+        { type: "qcm", texte: "audio", question: "Quel principe démocratique cette manipulation menace-t-elle le plus directement ?", choix: ["La laïcité", "Le principe de précaution", "La séparation des pouvoirs", "La sincérité du scrutin"], reponse: 3, explication: "Un faux diffusé juste avant le vote peut tromper les électeurs sans laisser le temps de débattre : il menace la **sincérité du scrutin**, c'est-à-dire le fait que le résultat reflète le choix libre et éclairé des électeurs. La laïcité concerne les rapports entre l'État et les religions, le principe de précaution l'environnement et la santé, la séparation des pouvoirs l'organisation des institutions." },
+        { type: "qcm", question: "Un agent conversationnel t'affirme que la loi sur la liberté de la presse date du 29 juillet 1891. Quelle est la meilleure réaction ?", choix: ["Recopier la date dans ton exposé, puisque l'IA a répondu avec assurance", "Vérifier la date dans une source identifiée (manuel, site officiel) : la loi date en réalité du 29 juillet 1881", "Poser la même question à l'IA jusqu'à obtenir deux fois la même réponse", "Choisir la date que donnent le plus grand nombre de sites, quels qu'ils soient"], reponse: 1, explication: "L'IA n'est pas une **source** : il faut **vérifier** auprès d'une source fiable et identifiée. Ici, c'est une hallucination (1891 au lieu de **1881**). Obtenir deux fois la même réponse de la même IA ne prouve rien, et le nombre de sites qui répètent une erreur non plus." },
+        { type: "redaction", texte: "audio", question: "**Situation pratique (type brevet)** – thématique : intelligence artificielle et désinformation\n\n1. Qu'est-ce qu'un hypertrucage ? (une à deux phrases) 2. Peut-on parler de désinformation à propos de ce message ? Justifie. 3. Cite deux règles de droit qui permettent de lutter contre ce type de manipulation. 4. En au moins quatre phrases, explique pourquoi les hypertrucages représentent un danger pour la démocratie. 5. Rédige un texte de 8 à 10 lignes à destination de tes camarades pour leur donner des conseils face aux contenus fabriqués par l'IA.", corrige: `**1.** Un **hypertrucage** (ou *deepfake*) est une image, un son ou une vidéo fabriqués ou modifiés par l'intelligence artificielle pour faire dire ou faire à une personne ce qu'elle n'a jamais dit ou fait.
+
+**2.** **Oui**. La désinformation est la diffusion **volontaire** d'informations fausses dans le but de manipuler. Ici, quelqu'un a fabriqué une fausse voix de la candidate et l'a diffusée juste avant le vote, sans source, avec un ton alarmiste : le but est de tromper les électeurs et de la faire perdre. Les personnes qui ont transféré le message sans savoir qu'il était faux ont, elles, fait de la mésinformation.
+
+**3.** (deux au choix) La **loi du 21 mai 2024** (SREN) punit la diffusion, sans consentement, d'un contenu généré par IA représentant une personne sans signaler qu'il s'agit d'un montage (jusqu'à 2 ans de prison et 45 000 euros d'amende en ligne). Le **règlement européen sur l'IA** impose de signaler les hypertrucages. La **loi du 22 décembre 2018** permet à un juge de faire cesser rapidement une fausse information diffusée massivement avant une élection présidentielle, législative, sénatoriale ou européenne (attention : elle ne vaut pas pour des municipales comme ici). La candidate peut aussi porter plainte, comme dans le document, et les plateformes doivent retirer les contenus illicites signalés (DSA).
+
+**4.** Les hypertrucages sont dangereux car ils trompent les citoyens sur des faits, alors que le vote et le débat démocratique supposent des informations fiables. Diffusés juste avant une élection, ils peuvent fausser le résultat et menacer la **sincérité du scrutin**. Ils portent aussi atteinte à l'honneur et à la réputation des personnes visées. Enfin, ils installent un doute général : si tout peut être faux, on ne croit plus rien, pas même les vraies informations, et certains peuvent en profiter pour nier des faits réels. La confiance dans les médias et les institutions, indispensable à la démocratie, s'en trouve affaiblie.
+
+**5. Texte (exemple)** : Chers camarades, aujourd'hui, une intelligence artificielle peut imiter une voix ou fabriquer une vidéo en quelques minutes. Nous risquons donc tous d'être trompés, comme les électeurs qui ont reçu un faux enregistrement d'une candidate juste avant le vote. Avant de croire ou de partager un contenu surprenant, posons-nous quelques questions : qui l'a publié en premier ? Y a-t-il une source, une date, un lieu ? Des médias fiables ou des sites de vérification en parlent-ils ? Méfions-nous des messages qui nous poussent à réagir vite, sous le coup de la colère. Souvenons-nous aussi qu'une IA peut se tromper : vérifions ce qu'elle nous dit dans nos manuels ou sur des sites officiels. Et n'oublions pas que fabriquer ou diffuser le faux d'une personne peut être puni par la loi. Vérifier avant de partager, c'est protéger les autres et la démocratie.` },
       ],
     },
   ],

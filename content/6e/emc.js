@@ -716,7 +716,7 @@ Le **harcèlement** (en ligne ou non) consiste à faire subir à quelqu'un, de f
 ## 3. La majorité numérique : 15 ans
 - La **loi du 7 juillet 2023** a fixé la **majorité numérique** à **15 ans** : avant cet âge, un réseau social devait obtenir l'**accord d'un parent** pour qu'un jeune s'y inscrive.
 - **Pourquoi 15 ans ?** Le législateur (le Parlement, qui vote les lois) a considéré qu'avant cet âge, les enfants sont plus exposés au cyberharcèlement, aux contenus choquants, à la désinformation et aux effets des écrans sur la santé et le sommeil.
-- **Attention, où en est-on ?** Cette loi n'a jamais été appliquée, faute de texte d'application. En juillet 2026, le Parlement a voté une nouvelle loi pour **interdire** les réseaux sociaux aux moins de 15 ans, mais le **Conseil constitutionnel** (qui vérifie que les lois respectent la Constitution) a censuré cette interdiction le **14 août 2026**, avant qu'elle s'applique : elle visait tous les réseaux sociaux sans distinction, ce qui portait trop atteinte à la **liberté d'expression**, et elle obligeait tout le monde à prouver son âge sans garanties suffisantes pour la **vie privée**. **Aucune interdiction générale n'est donc en vigueur** ; le gouvernement a annoncé qu'il préparait un nouveau texte.
+- **Attention, où en est-on ?** Cette loi n'a jamais été appliquée, faute de texte d'application. En juillet 2026, le Parlement a voté une nouvelle loi pour **interdire** les réseaux sociaux aux moins de 15 ans, mais le **Conseil constitutionnel** (qui vérifie que les lois respectent la Constitution) a censuré cette interdiction le **14 août 2026**, avant qu'elle s'applique : elle visait tous les réseaux sociaux sans distinction, ce qui portait trop atteinte à la **liberté d'expression**, et elle obligeait tout le monde à prouver son âge sans garanties suffisantes pour la **vie privée**. **Aucune interdiction générale n'est donc en vigueur** ; le gouvernement a annoncé qu'il préparait un nouveau texte, mais **en octobre 2026, aucune nouvelle loi n'a encore été votée**. C'est un sujet d'actualité qui peut changer : demande à ton professeur où en sont les choses.
 - De leur côté, la plupart des grands réseaux sociaux interdisent déjà, dans leurs propres règles, l'inscription avant **13 ans**.
 
 ## 4. Être responsable en ligne
@@ -803,12 +803,30 @@ Utilise des **connecteurs** : d'abord, ensuite, de plus, en effet, car, donc, ai
 - On critique les **idées**, jamais les **personnes** : pas de moquerie, pas d'insulte.
 - On peut **changer d'avis** : c'est la preuve qu'on a écouté.
 
+### Le débat réglé
+Un **débat réglé** est un débat organisé en classe, avec des **règles** et des **rôles** fixés à l'avance. Voici les rôles les plus courants (leur nom peut varier d'une classe à l'autre ; parfois, un élève est aussi chargé de reformuler).
+| Rôle | Mission |
+|---|---|
+| Président de séance (ou modérateur) | donne la parole dans l'ordre des mains levées, fait respecter les règles, relance le débat |
+| Gardien du temps | veille à ce que chacun ait un temps de parole limité et équitable |
+| Secrétaire | note au tableau **tous** les arguments, en deux colonnes « pour » et « contre » |
+| Observateurs | vérifient qu'on écoute, qu'on reformule et qu'on respecte les personnes ; ils font un compte rendu à la fin |
+| Débatteurs | défendent une position avec des arguments préparés |
+
+Il se déroule en **trois temps** :
+1. **Préparer** : comprendre la question, chercher des arguments pour et contre, avec des **exemples précis** (une loi, un texte, une situation vécue).
+2. **Débattre** : chacun parle à son tour, reformule l'idée de l'autre avant de répondre et appuie son avis sur des arguments.
+3. **Faire le bilan** : quels arguments étaient les plus solides ? Sur quoi est-on d'accord ? Qui a changé d'avis, et pourquoi ?
+
+>! **Exemple** : « Faut-il installer des caméras dans la cour du collège ? » Un débatteur dit : « Oui, pour la sécurité. » Une autre élève reformule : « Si j'ai bien compris, tu penses que les caméras empêcheraient les bagarres. Mais la CNIL dit qu'on ne doit pas filmer les lieux de vie comme la cour pendant les heures d'ouverture, sauf cas exceptionnels, pour protéger la vie privée des élèves. » Le secrétaire note les deux arguments ; le président de séance donne ensuite la parole à quelqu'un qui n'a pas encore parlé.
+
 > **À retenir** :
 > - Fait = vérifiable ; opinion = se discute.
 > - Citer un texte : nom, date, article.
 > - Document : présenter, comprendre, relier au cours, prendre du recul.
 > - Argument = idée + exemple précis + explication.
 > - Débat : demander la parole, écouter, reformuler, respecter les personnes.
+> - Débat réglé : des rôles (président de séance, gardien du temps, secrétaire, observateurs) et trois temps (préparer, débattre, faire le bilan).
 `,
       exercices: [
         { type: "qcm", question: "Laquelle de ces phrases est un fait ?", choix: ["« Le collège devrait commencer à 9 heures. »", "« Le meilleur délégué, c'est celui qui fait rire. »", "« Les réseaux sociaux, c'est nul. »", "« La loi de séparation des Églises et de l'État date de 1905. »"], reponse: 3, explication: "Un **fait** se vérifie (ici, une date historique). Les autres phrases sont des **opinions** : elles se discutent." },
@@ -824,6 +842,116 @@ Utilise des **connecteurs** : d'abord, ensuite, de plus, en effet, car, donc, ai
 Il est important de voter pour élire ses délégués de classe. **D'abord**, voter permet de choisir de vrais **représentants**. **En effet**, les délégués portent la parole de toute la classe au **conseil de classe** et auprès des adultes ; **donc**, si je ne vote pas, je laisse les autres choisir à ma place la personne qui parlera en mon nom. **Ensuite**, le vote est une règle **juste** et **égale** : chaque élève a une voix qui compte autant que celle des autres, et le vote est **secret**, ce qui permet de choisir librement, sans pression. **Ainsi**, le délégué élu à la majorité représente vraiment la classe. **Enfin**, voter au collège est un **apprentissage de la citoyenneté** : plus tard, à 18 ans, je voterai pour élire le maire, les députés ou le Président de la République. **C'est pourquoi** participer à cette élection, c'est déjà agir pour l'**intérêt général** de la classe.
 
 **Ce qu'on attend** : au moins deux arguments, chacun avec une idée, un exemple précis (conseil de classe, vote secret, une voix par élève, vote à 18 ans) et une explication ; des connecteurs (d'abord, en effet, donc, ensuite, ainsi, enfin).` },
+        { type: "qcm", question: "Dans un débat réglé, quel est le rôle du président de séance (ou modérateur) ?", choix: ["Donner son avis le premier pour montrer la bonne réponse", "Noter les arguments au tableau", "Donner la parole à tour de rôle, faire respecter les règles et relancer le débat", "Décider à la fin qui a gagné le débat"], reponse: 2, explication: "Le **président de séance** organise la parole. C'est le **secrétaire** qui note les arguments ; le **gardien du temps** surveille les temps de parole. Un débat réglé n'a pas de « gagnant » : on fait un **bilan** des arguments." },
+        { type: "vf", question: "Dans un débat réglé, le secrétaire ne note au tableau que les arguments avec lesquels il est d'accord.", reponse: false, explication: "Le secrétaire note **tous** les arguments, « pour » et « contre », de façon neutre : c'est ce qui permet de faire un bilan honnête à la fin." },
+        { type: "redaction", question: "**Préparer un débat réglé** : ta classe va débattre de la question « Faut-il installer des caméras de surveillance dans la cour du collège ? »\n\n1. Cite trois rôles du débat réglé et la mission de chacun. 2. Prépare un argument « pour » et un argument « contre », chacun avec une idée, un exemple précis et une explication ; utilise au moins une notion du cours d'EMC. 3. Un camarade dit : « Les caméras, c'est pour les délinquants ! » Écris la phrase que tu dis pour reformuler son idée et lui répondre poliment. 4. Que fait-on à la fin du débat ?", corrige: `**1. Trois rôles** (au choix) : le **président de séance** donne la parole et fait respecter les règles ; le **gardien du temps** veille à ce que chacun ait un temps de parole équitable ; le **secrétaire** note au tableau tous les arguments, pour et contre ; les **observateurs** vérifient qu'on écoute et qu'on respecte les personnes, puis font un compte rendu.
+
+**2. Deux arguments**
+- **Pour** : les caméras pourraient améliorer la **sécurité**. Par exemple, si un collège subit souvent des vols ou des dégradations, les images peuvent aider à retrouver les responsables. Ainsi, elles protégeraient les biens de tous, ce qui sert l'**intérêt général**.
+- **Contre** : les caméras portent atteinte à la **vie privée** des élèves. En effet, la **CNIL** explique que les lieux de vie comme la cour de récréation, la cantine ou les salles de classe ne doivent pas être filmés pendant les heures d'ouverture, sauf cas exceptionnels (actes de malveillance fréquents et répétés). Être filmé toute la journée, c'est perdre une partie de sa liberté ; il vaut mieux des adultes présents et des élèves formés à régler les conflits par le dialogue.
+
+**3. Reformuler et répondre** : « Si j'ai bien compris, tu penses que les caméras ne servent qu'à surveiller ceux qui font des bêtises. Je comprends ton idée, mais elles filmeraient aussi tous les autres élèves, ce qui touche à notre vie privée. »
+
+**4. À la fin**, on fait le **bilan** : le secrétaire relit les arguments notés, on repère les plus solides et les points d'accord, les observateurs disent si les règles ont été respectées, et chacun peut dire s'il a changé d'avis et pourquoi.
+
+**Ce qu'on attend** : trois rôles exacts ; deux arguments complets (idée, exemple, explication) avec une notion du cours (vie privée, intérêt général, sécurité, CNIL) ; une vraie reformulation (« Si j'ai bien compris… ») sans moquerie ; l'idée de bilan.` },
+      ],
+    },
+    {
+      id: "bilan-annee-6e",
+      titre: "Bilan de l'année : vivre dans une société démocratique",
+      theme: "Méthodes",
+      cours: `
+## 1. Le fil de l'année
+Toute l'année, une même question a guidé le programme d'EMC de 6e : comment **apprendre à vivre dans une société démocratique** ? Le programme y répond en trois parties.
+| Partie du programme | La grande question | Notions clés | Un exemple au collège |
+|---|---|---|---|
+| Représenter les autres et servir l'intérêt général | Comment choisir ceux qui parlent et décident au nom de tous ? | représentant, vote, majorité absolue, mandat, intérêt général, délibération | l'élection des délégués, le projet des éco-délégués |
+| Respecter des règles et en comprendre la finalité : l'exemple de la laïcité à l'École | Pourquoi des règles communes, et comment vivre ensemble avec des convictions différentes ? | règle, droit, devoir, liberté de conscience, laïcité, neutralité | le règlement intérieur, la Charte de la laïcité affichée dans le hall |
+| Avoir des droits en tant que personne et respecter ceux des autres : l'exemple du droit à la vie privée | Qu'est-ce qui ne regarde que moi, et comment protéger les autres, y compris en ligne ? | vie privée, intimité, droit à l'image, données personnelles, cyberharcèlement | l'autorisation demandée aux parents avant de publier une photo de sortie |
+
+## 2. Ce qui relie les trois parties
+Les trois parties disent au fond la même chose : en démocratie, **chacun est libre**, **tous sont égaux**, et la liberté de chacun s'arrête là où elle **nuirait aux autres** (article 4 de la DDHC de 1789).
+- La **liberté** : choisir son représentant par un vote **secret** ; croire ou ne pas croire (**liberté de conscience**) ; garder pour soi sa **vie privée**.
+- L'**égalité** : une personne = une voix ; la même règle pour tous ; les mêmes droits pour tous les enfants, sans discrimination (article 2 de la CIDE).
+- Le **respect des autres** : l'élu représente aussi ceux qui n'ont pas voté pour lui ; personne ne fait pression sur la religion d'un autre ; personne ne publie la photo d'un autre sans son accord.
+- Des **règles communes** : votées par des représentants (lois, règlement intérieur), elles protègent ces libertés.
+
+## 3. Les dates et les textes repères de l'année
+Les **six dates en gras** sont à savoir par cœur ; les autres t'aident à comprendre.
+| Date | Texte ou événement | Ce qu'il faut en retenir |
+|---|---|---|
+| **1789** | Déclaration des droits de l'homme et du citoyen (DDHC) | art. 4 : la liberté, c'est faire ce qui ne nuit pas à autrui ; art. 10 : liberté d'opinion, même religieuse |
+| 1848 | suffrage universel masculin | tous les hommes votent |
+| **1905** | loi du 9 décembre de séparation des Églises et de l'État | liberté de conscience ; l'État ne paie et ne favorise aucun culte |
+| **1944** | droit de vote des femmes | elles votent pour la première fois en 1945 |
+| **1958** | Constitution, article 1er | la France est une République laïque |
+| 1974 | vote à 18 ans | au lieu de 21 ans |
+| **1989** | Convention internationale des droits de l'enfant (CIDE) | droits de tous les moins de 18 ans ; art. 16 : vie privée |
+| **2004** | loi du 15 mars | pas de signe religieux ostensible pour les élèves des écoles, collèges et lycées publics |
+| 2013 | Charte de la laïcité à l'École | 15 articles affichés dans les établissements publics |
+| 2018 | RGPD (appliqué depuis 2018) | droits sur ses données personnelles dans l'Union européenne |
+| 2023 | loi du 7 juillet sur la majorité numérique | 15 ans, mais jamais appliquée |
+
+## 4. Méthode : traiter une situation qui mêle plusieurs parties
+Au contrôle de fin d'année, une même situation peut faire appel à **plusieurs** chapitres. Procède ainsi :
+1. **Lis la situation** et repère chaque problème posé (un vote ? une règle ? une religion ? une photo ? un message en ligne ?).
+2. Pour chaque problème, **trouve la partie du programme** et la **notion** qui correspondent.
+3. **Appuie-toi sur un texte ou une règle précise** (nom, date, et article si tu le connais).
+4. **Explique** pourquoi la règle existe : quelle liberté protège-t-elle, et de qui ?
+
+>! **Exemple résolu** : en décembre, une élève propose de voter en classe pour qu'Ilyès ne vienne pas au goûter de fin de trimestre, « parce qu'il ne fête pas Noël ». Puis un élève filme Ilyès, seul dans un coin, et veut poster la vidéo.
+>! 1. **Le vote** : en démocratie, la majorité décide, mais la **minorité est respectée** ; un vote ne peut pas servir à priver quelqu'un de ses droits (partie 1).
+>! 2. **La raison invoquée** : exclure Ilyès à cause de ses convictions ne respecte pas sa **liberté de conscience** ni l'**égalité** ; la **Charte de la laïcité** rappelle le respect de chacun à l'école (partie 2).
+>! 3. **La vidéo** : la poster sans son accord (et celui de ses parents) viole son **droit à l'image** et sa **vie privée** (CIDE, article 16) ; si les moqueries se répètent en ligne, c'est du **cyberharcèlement**, et l'on peut appeler le **3018** (partie 3).
+>! **Conclusion** : les trois règles protègent la même chose, la liberté et la dignité d'Ilyès, comme celles de chacun.
+
+## 5. Les erreurs fréquentes à éviter
+| Erreur fréquente | Ce qui est juste |
+|---|---|
+| « Le candidat qui a le plus de voix est toujours élu au premier tour. » | Au premier tour, il faut la **majorité absolue** (plus de la moitié des suffrages exprimés). |
+| « Le délégué est le chef de la classe. » | Il est un **représentant**, un porte-parole : il n'a pas plus de droits que les autres. |
+| « La laïcité interdit les religions. » | Elle **garantit** la liberté de conscience et le libre exercice des cultes ; c'est l'**État** qui est neutre. |
+| « Les collèges dépendent de la région. » | Le **département** construit et entretient les collèges ; la région, les lycées ; la commune, les écoles. |
+| « Ce qui est publié en ligne peut toujours être effacé. » | Une publication peut être **copiée** et **capturée** : elle laisse des **traces**. |
+| « Si la majorité est d'accord, on a le droit de tout décider. » | Une décision prise à la majorité doit **respecter les droits** de tous, y compris de la minorité. |
+
+> **À retenir** :
+> - Le programme de 6e : « Apprendre à vivre dans une société démocratique », en trois parties (représenter et servir l'intérêt général ; respecter des règles, l'exemple de la laïcité ; avoir des droits, l'exemple de la vie privée).
+> - Le fil commun : liberté, égalité, respect des autres, règles communes ; la liberté de chacun s'arrête là où elle nuit aux autres (DDHC, art. 4).
+> - Les repères : 1789 (DDHC), 1905 (laïcité), 1944 (vote des femmes), 1958 (Constitution), 1989 (CIDE), 2004 (signes religieux à l'école).
+> - Méthode : repérer chaque problème, trouver la partie et la notion, citer un texte, expliquer ce que la règle protège.
+`,
+      textes: {
+        journee: `**Une journée au collège Simone-Veil** (situation fictive)
+
+**Le matin**, la classe de 6e B élit ses délégués. Il y a 27 votants. On trouve 1 bulletin blanc et 1 bulletin nul. Anaïs obtient 12 voix, Bilal 10 voix et Chloé 3 voix.
+
+**À midi**, les éco-délégués présentent au conseil de la vie collégienne (CVC) leur projet de bacs de tri à la cantine. Le projet est discuté puis voté ; comme il coûte de l'argent, il sera ensuite présenté au conseil d'administration.
+
+**L'après-midi**, la classe prépare une exposition pour la Journée de la laïcité. Théo propose d'écrire sur une affiche que « sa religion est la seule vraie et que tout le monde devrait la suivre ».
+
+**Le soir**, Lucas, de retour de la sortie scolaire, veut publier sur son compte une photo de Maëlle endormie dans le car, « pour rigoler ».`,
+      },
+      exercices: [
+        { type: "saisie", texte: "journee", question: "Lors de l'élection des délégués de la 6e B, combien y a-t-il de suffrages exprimés ? (réponds par un nombre)", reponses: ["25", "25 suffrages", "25 suffrages exprimes", "25 voix", "vingt-cinq"], explication: "Suffrages exprimés = votants − blancs − nuls = 27 − 1 − 1 = **25**. Vérification : 12 + 10 + 3 = 25." },
+        { type: "qcm", texte: "journee", question: "Anaïs est-elle élue déléguée dès le premier tour ?", choix: ["Oui : elle a plus de voix que Bilal et Chloé, elle est donc élue dès le premier tour", "Oui : avec 12 voix, elle dépasse le quart des votants, ce qui suffit au premier tour", "Non : la majorité absolue est de 13 voix et elle n'en a que 12, il faut un second tour", "Non : pour être élu au premier tour, il faut obligatoirement l'unanimité de la classe"], reponse: 2, explication: "La moitié de 25 est 12,5 : la **majorité absolue** est donc de **13 voix**. Avec 12 voix, Anaïs est en tête mais n'est pas élue au premier tour : on organise un **second tour**, où celui qui a le plus de voix est élu." },
+        { type: "qcm", texte: "journee", question: "À midi, à quelle étape d'une décision collective correspond la discussion du projet des éco-délégués au CVC, avant le vote ?", choix: ["Au constat", "À la délibération", "À la mise en œuvre", "Au bilan"], reponse: 1, explication: "**Délibérer**, c'est discuter ensemble avant de décider. Les étapes sont : constat, proposition, **délibération**, vote, mise en œuvre, bilan." },
+        { type: "vf", texte: "journee", question: "L'affiche proposée par Théo pour l'exposition sur la laïcité peut être accrochée dans le collège public.", reponse: false, explication: "Affirmer qu'une religion est « la seule vraie » et que tous devraient la suivre, c'est du **prosélytisme**. La **Charte de la laïcité à l'École** protège les élèves de tout prosélytisme et de toute pression. Théo reste libre de croire ce qu'il veut (**liberté de conscience**), mais il ne peut pas l'imposer aux autres à l'école." },
+        { type: "qcm", texte: "journee", question: "Que faut-il penser du projet de Lucas ?", choix: ["Il ne doit pas la publier sans l'accord de Maëlle : c'est son droit à l'image", "Il peut la publier, puisque la photo a été prise pendant une sortie scolaire", "Il peut la publier s'il floute le car derrière Maëlle", "Il peut la publier si la photo est drôle et pas méchante"], reponse: 0, explication: "Le **droit à l'image** interdit de diffuser l'image d'une personne reconnaissable **sans son accord** (et, pour une mineure, sans celui de ses parents). Une photo prise pendant le sommeil touche aussi à l'**intimité** et peut humilier Maëlle." },
+        { type: "qcm", question: "Range ces textes dans l'ordre chronologique : A. la CIDE ; B. la loi de séparation des Églises et de l'État ; C. la DDHC ; D. la loi sur les signes religieux à l'école.", choix: ["B, C, A, D", "C, A, B, D", "A, C, D, B", "C, B, A, D"], reponse: 3, explication: "**DDHC** (1789) → **loi de séparation** (1905) → **CIDE** (1989) → **loi sur les signes religieux** (2004)." },
+        { type: "saisie", question: "Comment appelle-t-on l'intérêt commun de tous les membres de la société, que les élus doivent servir ? (deux mots)", reponses: ["interet general", "l'interet general"], explication: "L'**intérêt général** s'oppose à l'**intérêt particulier** (celui d'une personne ou d'un petit groupe). C'est le fil de la première partie du programme." },
+        { type: "vf", question: "Si la majorité de la classe vote pour exclure un élève d'une sortie à cause de sa religion, cette décision est juste, puisqu'elle a été votée.", reponse: false, explication: "En démocratie, la majorité décide, mais elle doit **respecter les droits de tous**, y compris de la minorité. Exclure quelqu'un à cause de ses convictions viole la **liberté de conscience** et l'**égalité** : aucun vote ne peut le permettre." },
+        { type: "qcm", question: "Quel point commun relie le vote secret, la laïcité à l'École et le droit à la vie privée ?", choix: ["Ils ne concernent que les adultes", "Ils protègent la liberté de chacun de faire ses choix et de vivre sans pression des autres", "Ils ont tous été créés en 1789", "Ils permettent à la majorité d'imposer ses idées"], reponse: 1, explication: "Le **vote secret** permet de choisir sans pression ; la **laïcité** protège la liberté de conscience ; la **vie privée** protège ce qui ne regarde que soi. Les trois protègent la **liberté** et l'**égalité** de chacun." },
+        { type: "redaction", texte: "journee", question: "**Exercice bilan (niveau contrôle)** : montre que cette journée au collège Simone-Veil fait appel aux trois parties du programme d'EMC de 6e. Pour chaque partie : nomme-la, explique le problème posé ou l'action menée, et appuie-toi sur une notion et une règle (ou un texte) vues dans l'année. Conclus en une ou deux phrases sur ce qui relie ces trois situations.", corrige: `**1. Représenter les autres et servir l'intérêt général** (le matin et à midi). L'élection des délégués montre comment on choisit des **représentants** par un vote **secret** et **égal**. Il y a 27 − 1 − 1 = **25** suffrages exprimés, donc la **majorité absolue** est de **13 voix** : Anaïs, avec 12 voix, n'est pas élue au premier tour et il faut un **second tour**. À midi, les éco-délégués suivent les étapes d'une décision collective : proposition, **délibération** au CVC, vote, puis passage au **conseil d'administration** qui vote les dépenses. Leur projet de tri sert l'**intérêt général** et le **développement durable**.
+
+**2. Respecter des règles : l'exemple de la laïcité à l'École** (l'après-midi). Théo est libre de croire ce qu'il veut : c'est la **liberté de conscience**, protégée par l'article 10 de la DDHC et la loi de **1905**. Mais son affiche serait du **prosélytisme** : la **Charte de la laïcité à l'École** (2013) protège les élèves de toute pression, pour que chacun fasse ses propres choix. L'exposition peut présenter la loi de 1905 et la Charte, pas dire qu'une religion est la seule vraie.
+
+**3. Avoir des droits en tant que personne : l'exemple de la vie privée** (le soir). Publier la photo de Maëlle endormie, sans son accord ni celui de ses parents, ne respecterait pas son **droit à l'image** ni son **intimité**, protégés par l'article 16 de la **CIDE** et l'article 9 du Code civil. La photo pourrait être copiée, circuler et nuire à sa **réputation numérique** ; si des moqueries se répétaient, ce serait du **cyberharcèlement** (numéro d'aide : **3018**).
+
+**Conclusion** : ces trois situations montrent qu'en démocratie, chacun est **libre** et **égal**, mais que la liberté de chacun s'arrête là où elle nuit aux autres (article 4 de la DDHC). Des **règles communes**, votées par des représentants, protègent la liberté de tous.
+
+**Ce qu'on attend** : les trois parties nommées ; le calcul juste (25 suffrages exprimés, majorité absolue de 13 voix, second tour) ; au moins une notion et un texte ou une règle par partie ; une conclusion qui fait le lien (liberté, égalité, respect des autres).` },
       ],
     },
   ],

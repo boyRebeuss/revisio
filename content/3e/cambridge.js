@@ -902,6 +902,8 @@ Les enregistrements citent souvent **les trois propositions**, mais une seule r�
 - Écoute jusqu'à la fin de la réponse : la première idée entendue est souvent un piège.
 
 > **À retenir** : lis tout avant d'écouter, devine le type de réponse, méfie-toi des propositions toutes citées, écoute ce qui suit *but* ou *in the end*, et utilise la **deuxième écoute pour vérifier**.
+
+Pour t'entraîner davantage : chapitres « Listening Parts 1 et 2 » (sept extraits à images, six dialogues) et « Listening Part 4 » (une interview complète en six questions).
 `,
       textes: {
         hillside: `**Listening Part 3 — transcript** (fais-le-toi lire, ou lis-le une seule fois)
@@ -1272,6 +1274,8 @@ Dans l'appli, l'appariement de la Part 2 et les phrases de la Part 4 sont prése
 
 > **Attention** : cet examen blanc est **plus court** que le vrai (21 questions de lecture au lieu de 32, 5 questions d'écoute au lieu de 25). Il te donne une **idée** de ton niveau, pas une note officielle.
 
+Quand tu seras prêt, passe le chapitre « Examen blanc complet (format officiel) » : 32 questions de Reading, 25 de Listening, le Writing et le Speaking entiers.
+
 ## Gérer son temps
 | Épreuve | À l'examen | Ici |
 |---|---|---|
@@ -1513,6 +1517,619 @@ Why did Leo do the trip?`, choix: ["to raise money for charity", "to help his fa
 1. **Semaine 1** : Listening (chapitre « Listening ») — 15 minutes d'écoute en anglais chaque jour (podcast, série en VO), en notant les mots *but, actually, in the end*.
 2. **Semaine 2** : Reading Part 4 (chapitre « Reading Part 4 ») et un article de 100 mots par semaine, avec *However, What's more, If I..., I would...*
 3. **Semaine 3** : Speaking avec un camarade (Part 3 : *What do you think? Do you agree?*), puis refaire l'examen blanc chronométré.
+
+**Repère** : ces pourcentages sont **indicatifs** ; le vrai score est donné sur l'échelle Cambridge (140 à 159 = B1, 160 et plus = B2).` },
+      ],
+    },
+
+    // ───────────────────────────── 17. Listening Parts 1 et 2
+    {
+      id: "listening-parts-1-2",
+      titre: "Listening Parts 1 et 2 : images et courts dialogues",
+      theme: "Listening",
+      cours: `
+## Deux parties, deux façons d'écouter
+Les Parts 1 et 2 sont faites de **courts extraits** indépendants : 7 en Part 1 (monologues ou dialogues), 6 en Part 2 (toujours des **dialogues**). Chaque extrait est entendu **deux fois**. Mais on n'écoute pas la même chose :
+
+| Partie | Ce que tu vois | Ce qui est testé |
+|---|---|---|
+| **Part 1** (questions 1 à 7) | une question et **3 images** | un **détail précis** : un objet, un lieu, une heure, un prix, une personne, une activité |
+| **Part 2** (questions 8 à 13) | une phrase de situation, une question et **3 propositions écrites** | un **sentiment**, une **opinion**, un **accord**, un **but**, l'**idée générale** |
+
+Dans l'appli, pas d'audio : les extraits sont des **transcriptions** et les images sont **décrites avec des mots**. Fais-les-toi lire deux fois sans regarder, ou lis-les **une seule fois** sans revenir en arrière.
+
+## Part 1 : choisir la bonne image
+La difficulté : **les trois images sont presque toujours citées** dans l'extrait. Une seule répond à la question.
+
+>! **Exemple résolu**
+>! *What will the girl take to the party?* Images : a cake / some pizzas / some drinks.
+>! *“I was going to make a cake, but Anna's mum has already ordered one. And Leo's bringing pizzas. So I'll get some drinks on the way.”*
+>! → **some drinks**. Le gâteau est abandonné (*I was going to..., but*), les pizzas sont apportées par **quelqu'un d'autre** (Leo).
+
+### La méthode
+1. Lis la question : souligne le **mot interrogatif** et le **temps** (*What did he buy?* = passé ; *What will she take?* = futur ; *Where is it now?* = maintenant).
+2. Regarde les trois images et **nomme-les en anglais** dans ta tête (*a scarf, a purse, half past ten*).
+3. Pendant l'écoute, **barre** une image dès qu'elle est éliminée.
+4. À la deuxième écoute, vérifie que ton image répond à **la question posée** : le bon moment, la bonne personne.
+
+### Les pièges de la Part 1
+| Piège | Ce que tu entends |
+|---|---|
+| Un projet abandonné | *I was going to..., but... / I wanted..., but they'd sold out* |
+| Un changement | *Actually, let's make it... / In the end...* |
+| La mauvaise personne | *My dad has already bought some, so I...* |
+| Un calcul | *They cost sixty pounds, but I had a voucher for fifteen* → 45 |
+| Le mauvais moment | *in the morning..., but in the afternoon...* |
+
+### Les heures et les nombres
+| Tu entends | Tu repères |
+|---|---|
+| *a quarter past eight* | 8.15 |
+| *half past six* | 6.30 |
+| *a quarter to nine* | 8.45 |
+| *twenty to four* | 3.40 |
+| *an hour later than* 9.30 | 10.30 |
+| *fifteen* / *fifty* | 15 / 50 : l'accent est sur la **fin** de *fifteen*, sur le **début** de *fifty* |
+| *a pound fifty* | £1.50 |
+
+## Part 2 : comprendre ce que pensent les gens
+La phrase de situation dit **qui parle** et **de quoi** (*You hear two friends talking about a new film*). La question porte sur l'**attitude** :
+
+| Ce qu'on demande | Formulation fréquente |
+|---|---|
+| un **sentiment** | *How does the boy feel about...?* |
+| une **opinion** | *What does the girl think of...?* |
+| un **accord** | *What do they agree about? / What do they both think?* |
+| un **but** | *Why is the girl phoning?* |
+| l'**idée générale** | *What are they talking about?* |
+
+### La méthode
+1. Lis la phrase de situation et la question : **sur qui** porte-t-elle ? le garçon, la fille, ou **les deux** ?
+2. Écoute **jusqu'au bout** : l'avis final vient souvent après *but*, *actually*, *in the end*, *to be honest*.
+3. Pour un **accord**, vérifie que les deux personnes disent la même chose.
+
+| Accord | Désaccord |
+|---|---|
+| *I know! / Absolutely. / Me too. / So do I. / That's true.* | *Really? / Did you? / I don't think so. / Is it? I thought...* |
+
+>! **Exemple résolu**
+>! *You hear two friends talking about a new swimming pool. What do they agree about?* Propositions : *It's too expensive.* / *It's too crowded.* / *The changing rooms are great.*
+>! *Girl : It's so crowded at weekends! Boy : I know, you can hardly swim. Girl : And six pounds is a lot. Boy : Is it? I think it's fair for such a big pool.*
+>! → ***It's too crowded*** : *I know* marque l'accord. Sur le prix, *Is it?* montre que le garçon n'est **pas d'accord**. Les vestiaires ne sont pas cités.
+
+## Les erreurs fréquentes
+- Choisir le **premier** élément entendu, ou celui qui est répété le plus souvent.
+- Répondre pour **la mauvaise personne** (la question porte sur le garçon, tu réponds avec l'avis de la fille).
+- Confondre ce qui était **prévu** et ce qui se passe **vraiment**.
+- En Part 2, choisir une proposition **vraie dans le dialogue** mais qui **ne répond pas à la question** (un détail, alors qu'on demande un sentiment).
+
+> **À retenir** : en **Part 1**, on cherche **un détail** et les trois images sont citées : barre ce qui est annulé, corrigé ou fait par quelqu'un d'autre. En **Part 2**, on cherche **un sentiment, un avis, un accord ou un but** : écoute jusqu'au bout et vérifie **qui** pense quoi.
+`,
+      exercices: [
+        { type: "qcm", question: `**Listening Part 1 (transcript).** *What did the boy buy for his mum's birthday?*
+*Girl : Did you find a present for your mum? Boy : I wanted to get her the new book by her favourite writer, but they'd sold out. I nearly bought some flowers, but my dad had already ordered some. So I got her a scarf — a blue one, her favourite colour.*
+Pictures : a book / some flowers / a scarf.`, choix: ["a book", "some flowers", "a scarf"], reponse: 2, explication: "Il a acheté **une écharpe** (*So I got her a scarf*). Le livre était épuisé (*they'd sold out*) et les fleurs ont été commandées par **son père** : deux pièges classiques, un achat impossible et la mauvaise personne." },
+        { type: "qcm", question: `**Listening Part 1 (transcript).** *How will the girl get to the stadium on Saturday?*
+*Boy : Are you taking the bus to the stadium? Girl : I usually do, but there's a bus strike on Saturday. My dad offered to drive me, but in the end he has to work. So I'll cycle — it's only twenty minutes.*
+Pictures : a bus / a bike / a car.`, choix: ["by bike", "by bus", "by car"], reponse: 0, explication: "*So I'll cycle* : elle ira **à vélo**. Le bus est impossible (grève, *strike*) et le père ne peut plus la conduire (*in the end he has to work*). Le mot *So* annonce la décision finale." },
+        { type: "qcm", question: `**Listening Part 1 (transcript).** *Where does the boy find his phone?*
+*Boy : Mum, have you seen my phone? I'm sure I left it on my desk. Mum : Have you checked your jacket? Boy : Yes, it's not there. Mum : What's that under the sofa cushion? Boy : Oh, that's it! I must have dropped it while I was watching TV.*
+Pictures : a desk / a jacket / a sofa.`, choix: ["on his desk", "under the sofa cushion", "in his jacket"], reponse: 1, explication: "Le téléphone est **sous le coussin du canapé** (*That's it!*). Le bureau est l'endroit où il **croyait** l'avoir laissé (*I'm sure I left it...*), la veste a été vérifiée sans succès." },
+        { type: "qcm", question: `**Listening Part 1 (transcript, phone message).** *What time will Chloé's swimming lesson start from next week?*
+*Woman : Hello, this is Ruth from the leisure centre. Just to let you know that from next week, Chloé's swimming lesson will start half an hour later than now. So instead of a quarter to five, it'll be a quarter past five. It still finishes at six.*
+Pictures : a clock showing 4.45 / a clock showing 5.15 / a clock showing 6.00.`, choix: ["6.00", "4.45", "5.15"], reponse: 2, explication: "*Instead of a quarter to five* (4 h 45, l'**ancien** horaire), *it'll be a quarter past five* : **5.15** (4 h 45 + 30 minutes = 5 h 15). Six heures est l'heure de **fin**, qui ne change pas." },
+        { type: "saisie", question: "**Les heures en Part 1.** Le message dit : *The coach leaves at twenty to nine.* Écris l'heure en chiffres (par exemple **7.30**).", reponses: ["8.40", "8:40", "08:40", "08.40", "8h40", "20.40", "20:40", "20h40"], explication: "*Twenty to nine* = neuf heures **moins vingt** : **8.40**. Attention : *to* = moins (on retire les minutes à l'heure suivante), *past* = et (*twenty past nine* = 9.20)." },
+        { type: "qcm", question: `**Listening Part 2 (transcript).** *You hear two friends talking about a school trip to an outdoor centre. How does the boy feel about the trip now?*
+*Girl : Are you looking forward to the outdoor centre? Boy : I wasn't at first — three nights away from home, and I'm not keen on heights. But Mr Jones showed us the photos, and there's kayaking too, not just climbing. So now I'm actually quite excited. Girl : Me too!*`, choix: ["nervous about the climbing", "excited about going", "sad to be away from home"], reponse: 1, explication: "On demande ce qu'il ressent **maintenant** (*now*) : *So now I'm actually quite excited*. Le vertige et les trois nuits loin de chez lui, c'était **au début** (*I wasn't at first*) : le *But* marque le changement d'avis." },
+        { type: "qcm", question: `**Listening Part 2 (transcript).** *You hear two friends talking about a new skate park. What do they agree about?*
+*Girl : The new skate park is great, isn't it? Boy : The ramps are fantastic, yes. But it's so far from the town centre. Girl : Is it? It's only fifteen minutes on the bus. Boy : And it's always full of little kids. Girl : Really? There were only a few people there when I went.*`, choix: ["It is too far from the town centre.", "It is too crowded.", "The ramps are excellent."], reponse: 2, explication: "Seul point d'**accord** : les rampes (*great* / *fantastic, yes*). Sur la distance (*Is it?*) et sur la foule (*Really?*), la fille **n'est pas d'accord** : ce sont les avis du garçon seul." },
+        { type: "qcm", question: `**Listening Part 2 (transcript, phone call).** *You hear a boy phoning his friend. Why is he calling?*
+*Marco : Hello? Ben : Hi Marco, it's Ben. You know the history project we have to do together? Marco : Yes, I was going to start reading about the castle tonight. Ben : Well, wait! Mr Hall says we can choose any topic we like — it doesn't have to be one from the list. I thought you'd want to know before you start. Marco : Oh, great, thanks! Ben : No problem. See you tomorrow!*`, choix: ["to arrange to meet tomorrow", "to ask Marco to read about the castle", "to give Marco some news about their project"], reponse: 2, explication: "Ben **transmet une information** : le sujet du projet est libre. Le château est ce que Marco **allait** lire (Ben veut justement le prévenir avant) ; *see you tomorrow* est une simple formule de fin, pas un rendez-vous à organiser." },
+        { type: "vf", question: "En Part 2 du Listening, comme en Part 1, tu choisis la bonne réponse parmi trois images.", reponse: false, explication: "Faux : en Part 2, les trois propositions sont **écrites** et portent sur un sentiment, une opinion, un accord ou un but. Les **images**, c'est la Part 1." },
+        { type: "redaction", question: `Lis cette transcription de Part 2 **une seule fois**, puis réponds en français : (1) quel type de question est-ce ? (2) quelle est la bonne réponse ? (3) pourquoi les deux autres propositions sont-elles des pièges ?
+*You hear two friends talking about a film they've just seen. What does the girl think of it?*
+- *The story was hard to follow.*
+- *The actors were disappointing.*
+- *It was too long.*
+
+*Boy : Well, what did you think? Girl : The acting was brilliant — especially the girl who played the sister. And I didn't mind that it was nearly three hours. But I got completely lost in the middle with all those flashbacks. Boy : Me too, I had no idea what was going on.*`, corrige: `**Corrigé**
+
+1. **Type** : une question d'**opinion** sur la fille (*What does the girl think of it?*).
+2. **Réponse** : ***The story was hard to follow.*** Elle le dit après *But* : *I got completely lost in the middle with all those flashbacks* (elle s'est perdue au milieu de l'histoire).
+3. **Les pièges**
+- *The actors were disappointing* : elle dit **le contraire** (*The acting was brilliant*). Le mot *acting* est entendu, mais avec un avis positif.
+- *It was too long* : la durée est bien citée (*nearly three hours*), mais *I didn't mind* veut dire que **cela ne la gênait pas**.
+
+**Méthode** : la Part 2 cite souvent les trois idées ; repère ce que la personne **pense** de chacune (*brilliant, I didn't mind, I got lost*) et écoute ce qui suit *But*. La réaction du garçon (*Me too*) confirme ici la réponse.` },
+      ],
+    },
+
+    // ───────────────────────────── 18. Listening Part 4
+    {
+      id: "listening-interview",
+      titre: "Listening Part 4 : l'interview",
+      theme: "Listening",
+      cours: `
+## La tâche
+La Part 4 est la dernière partie de l'épreuve (questions 20 à 25). Tu entends une **interview**, plus longue que les extraits des Parts 1 et 2 : un présentateur de radio pose des questions à un jeune ou à un spécialiste (un sportif, un musicien, un bénévole, un inventeur...). Tu réponds à **6 questions à 3 propositions**. L'interview est entendue **deux fois**.
+
+## Ce qui est testé
+Les questions suivent **l'ordre de l'interview** : en général, **une question par réponse** de la personne interviewée.
+
+| Type de question | Formulation fréquente |
+|---|---|
+| **Raison** | *Why did Theo start...? / How did he get the idea?* |
+| **Difficulté** | *What did she find most difficult?* |
+| **Sentiment, attitude** | *How did he feel when...? / How has his attitude changed?* |
+| **Opinion** | *What does she say about...? / What does he think of...?* |
+| **Projets, conseils** (souvent la dernière) | *What is she planning to do? / What advice does he give?* |
+
+## La méthode
+1. **Avant l'écoute**, lis les 6 questions et souligne les **mots-clés** (*first, hardest, now, best, advice*). Ils t'aideront à savoir où tu en es dans l'interview.
+2. **Écoute la question de l'intervieweur** : elle annonce le sujet de la question suivante.
+3. **Écoute toute la réponse**. La personne commence souvent par écarter une idée (*People think it's..., but*) : la vraie réponse vient après.
+4. **Les propositions reformulent** : ne cherche pas les mêmes mots, cherche le **même sens**.
+5. **Deuxième écoute** : vérifie les questions dont tu n'es pas sûr, et réponds à toutes (pas de point en moins pour une erreur).
+
+>! **Exemple résolu**
+>! *Interviewer : What was the hardest part of your trip? Mia : Everyone expects me to say the cold, but I'd brought good clothes. And the food was fine. What I really found hard was being away from my family for so long.*
+>! *What did Mia find most difficult?* — *the low temperatures* / *being far from her family* / *the meals*
+>! → ***being far from her family***. *Everyone expects me to say...* annonce un piège ; le froid et la nourriture sont **cités pour être écartés**. *Being away* est reformulé en *being far*.
+
+## Reformulations fréquentes
+| Dans l'interview | Dans la proposition |
+|---|---|
+| *it was my mum's idea* | *someone in her family suggested it* |
+| *I couldn't wait to...* | *she was looking forward to...* |
+| *I nearly gave up* | *she almost stopped* |
+| *it made everything worth it* | *she is glad she did it* |
+| *I'm not keen on...* | *he doesn't really like...* |
+| *willing to talk to us* | *agreed to be interviewed* |
+
+## Les erreurs fréquentes
+- Choisir la première idée entendue : c'est souvent celle que la personne **écarte** (*People think..., Everyone expects...*).
+- Confondre l'avis de la personne et celui d'**un autre** (un ami, un parent, un professeur cité dans la réponse).
+- Rester bloqué sur une question : l'interview continue. Passe à la suivante et reviens-y à la **deuxième écoute**.
+
+> **À retenir** : 6 questions dans l'**ordre** de l'interview ; la question de l'intervieweur annonce le sujet ; la vraie réponse suit souvent *but, actually, what I really...* ; les propositions **reformulent** ; méfie-toi des idées citées pour être écartées et des avis des autres.
+`,
+      textes: {
+        theo: `**Listening Part 4 — transcript of the interview** (fais-le-toi lire, ou lis-le une seule fois)
+
+*Interviewer : My guest today is Theo Marsh, who's sixteen. Theo and two friends make a podcast about the history of their town, and last month it won a prize for young creators. Theo, where did the idea come from?*
+
+*Theo : From a really boring piece of homework, believe it or not! We had to write about an old building in our town, and I chose the cinema, which is a supermarket now. I interviewed my great-uncle, who used to work there, and his stories were so good that it seemed a shame just to write them down. So I recorded him instead.*
+
+*Interviewer : Was it easy to make the first episodes?*
+
+*Theo : Not at all. We knew nothing about recording, so the sound was awful — you could hear the washing machine in the background! My friend Priya watched loads of online videos about it, and we bought a cheap microphone. But honestly, the technology wasn't the hardest part. Finding people who were willing to talk to us took much longer. A lot of older people said no at first, because they didn't think their memories were interesting.*
+
+*Interviewer : How do you choose your topics?*
+
+*Theo : Our listeners suggest most of them now. We get messages every week. Last year someone asked us about a big flood that happened in the town seventy years ago. Nobody at school, not even our teachers, had heard of it. We spent three weeks on that episode, and it's now our most popular one.*
+
+*Interviewer : Has the podcast changed the way you see your town?*
+
+*Theo : Completely. I used to think nothing ever happened here, and I couldn't wait to leave. Now, when I walk down the high street, I imagine what it looked like a hundred years ago. I still want to go to university in a big city, but I'm sure I'll come back one day.*
+
+*Interviewer : Tell us about the prize.*
+
+*Theo : It was amazing. The judges said really nice things about our editing, which was great to hear. But the best part wasn't the trophy or the compliments. One of the judges works for a local radio station, and she's invited us to make a short series for them this summer. That's a real chance to learn from professionals.*
+
+*Interviewer : What advice would you give to teenagers who want to start a podcast?*
+
+*Theo : Don't wait until you have perfect equipment — just start with your phone. And choose a subject you really care about, because you'll spend hours and hours on it. If you're only doing it to become famous, you'll give up quickly.*`,
+      },
+      exercices: [
+        { type: "qcm", texte: "theo", question: `**Listening Part 4.** Read the questions, then listen to (or read once) the interview with Theo.
+**Question 1.** How did Theo get the idea for the podcast?`, choix: ["His history teacher suggested making one.", "He found some old recordings at the cinema.", "He wanted to share a relative's stories in a better way than writing."], reponse: 2, explication: "*His stories were so good that it seemed a shame just to write them down. So I recorded him instead* : il voulait faire **entendre** les histoires de son grand-oncle (*a relative* = un membre de la famille). Le devoir venait de l'école, mais aucun professeur n'a proposé de podcast ; aucun enregistrement n'a été trouvé au cinéma." },
+        { type: "qcm", texte: "theo", question: "**Listening Part 4 — same interview (Theo).**\n**Question 2.** What was the most difficult thing when they started?", choix: ["persuading people to be interviewed", "the poor quality of the sound", "the cost of the equipment"], reponse: 0, explication: "*The technology wasn't the hardest part. Finding people who were willing to talk to us took much longer* : le plus dur était de **convaincre des gens** de parler. Le mauvais son est cité, puis écarté (*wasn't the hardest part*) ; le micro était **bon marché** (*cheap*)." },
+        { type: "qcm", texte: "theo", question: "**Listening Part 4 — same interview (Theo).**\n**Question 3.** What does Theo say about the episode on the flood?", choix: ["It was the quickest episode to make.", "A listener gave them the idea.", "Their teachers helped them to research it."], reponse: 1, explication: "*Someone asked us about a big flood* : l'idée vient d'un **auditeur** (*Our listeners suggest most of them now*). L'épisode a pris **trois semaines** ; les professeurs n'en avaient **jamais entendu parler** (*not even our teachers*)." },
+        { type: "qcm", texte: "theo", question: "**Listening Part 4 — same interview (Theo).**\n**Question 4.** How has Theo's attitude to his town changed?", choix: ["He finds it much more interesting than before.", "He no longer wants to study in a big city.", "He thinks it has changed too much."], reponse: 0, explication: "Avant, *nothing ever happened here* ; maintenant, il imagine la rue d'il y a cent ans : la ville l'**intéresse**. Il veut **toujours** étudier dans une grande ville (*I still want to...*), et il ne critique pas les changements." },
+        { type: "qcm", texte: "theo", question: "**Listening Part 4 — same interview (Theo).**\n**Question 5.** What was the best thing about winning the prize?", choix: ["the judges' comments on their work", "the trophy", "the chance to work with a radio station"], reponse: 2, explication: "*The best part wasn't the trophy or the compliments* : le meilleur, c'est l'**invitation à faire une série pour une radio**. Le trophée et les compliments des juges sont cités pour être écartés : typique de la Part 4." },
+        { type: "qcm", texte: "theo", question: "**Listening Part 4 — same interview (Theo).**\n**Question 6.** What is Theo's main advice to teenagers?", choix: ["Buy good equipment before you start.", "Try to become well known as quickly as possible.", "Choose a subject you feel strongly about."], reponse: 2, explication: "*Choose a subject you really care about* = un sujet qui te tient à cœur (*feel strongly about*). Il dit le **contraire** des deux autres : commencer avec son téléphone, et ne pas chercher la célébrité (*you'll give up quickly*)." },
+        { type: "qcm", question: `**Listening Part 4 (transcript, short extract).** *Interviewer : Did you enjoy your month on the science ship? Lena : “Enjoy” isn't quite the word! I was seasick for the first week, and we worked twelve hours a day. But I'd never have learned so much any other way, and I'd go back tomorrow.*
+What is Lena's attitude to the experience?`, choix: ["She thinks it was worth it, even though it was hard.", "She regrets going because she was ill.", "She found the work easy and relaxing."], reponse: 0, explication: "Elle cite les difficultés (mal de mer, journées de douze heures), **mais** (*But*) elle a beaucoup appris et *I'd go back tomorrow* : l'expérience **valait la peine**. Elle ne regrette rien ; le travail n'était pas reposant." },
+        { type: "saisie", question: "**Reformuler.** Dans l'interview, Theo parle de *people who were willing to talk to us*. Complète la reformulation avec **un verbe au prétérit** (« accepter de ») : *people who ___ to talk to them*.", reponses: ["agreed", "consented"], explication: "*Be willing to* = être prêt à, accepter de → **agreed to** (*agree to do something*). Attention : *accept* ne se construit pas avec *to* + verbe (*accepted to talk* est incorrect)." },
+        { type: "vf", question: "En Part 4, les six questions suivent l'ordre de l'interview.", reponse: true, explication: "Vrai : les questions sont dans l'**ordre** de l'enregistrement, en général une par réponse de la personne interviewée. La question de l'intervieweur t'aide à savoir où tu en es." },
+        { type: "redaction", texte: "theo", question: `Relis l'interview de Theo. Pour les questions 2 et 5, recopie la **phrase-clé** de la transcription qui donne la réponse, puis explique en français comment les pièges sont construits. Pour finir, écris toi-même en anglais une **septième question** de type Part 4 sur l'interview, avec trois propositions dont une seule est juste.`, corrige: `**Corrigé**
+
+**Question 2** (la plus grande difficulté) — phrase-clé : *Finding people who were willing to talk to us took much longer.*
+Piège : Theo parle d'abord du **son** (*the sound was awful*) et du **micro**, puis il les écarte lui-même (*the technology wasn't the hardest part*). La bonne proposition reformule : *willing to talk* → *persuading people to be interviewed*.
+
+**Question 5** (le meilleur du prix) — phrase-clé : *she's invited us to make a short series for them this summer.*
+Piège : le trophée et les compliments des juges sont **cités puis écartés** dans la même phrase (*the best part wasn't the trophy or the compliments*). C'est la construction typique de la Part 4 : *People think... / Everyone expects... / The best part wasn't...*
+
+**Exemple de septième question** : *Why did a lot of older people refuse to be interviewed at first?*
+- *They didn't like Theo's questions.* (faux : rien n'est dit sur les questions)
+- *They thought their memories weren't interesting enough.* (**juste** : *they didn't think their memories were interesting*)
+- *They were too busy to talk.* (faux : jamais dit)
+
+**Méthode** : en Part 4, chaque réponse de l'interviewé contient **la bonne idée et un ou deux leurres** ; repère les mots qui écartent (*but, wasn't, actually*) et cherche une reformulation, pas les mêmes mots.` },
+      ],
+    },
+
+    // ───────────────────────────── 19. Examen blanc complet
+    {
+      id: "examen-blanc-complet",
+      titre: "Examen blanc complet (format officiel)",
+      theme: "L'examen",
+      cours: `
+## Un examen blanc au format réel
+Ce chapitre reprend **exactement** le format du B1 Preliminary for Schools : **32 questions** de Reading, les **deux parties** du Writing, **25 questions** de Listening, puis une préparation complète du Speaking. Les documents sont **nouveaux** (textes d'entraînement originaux, pas des sujets officiels). Fais-le après le premier examen blanc (plus court), quand tu as travaillé tous les chapitres.
+
+| Exercices | Épreuve | Contenu | Numéros à l'examen |
+|---|---|---|---|
+| 1 à 5 | Reading Part 1 | 5 textes courts, 3 propositions | questions 1 à 5 |
+| 6 à 10 | Reading Part 2 | 5 ados et 8 descriptions de stages d'été | questions 6 à 10 |
+| 11 à 15 | Reading Part 3 | Un témoignage et 5 questions à 4 propositions | questions 11 à 15 |
+| 16 à 20 | Reading Part 4 | Un récit dont on a retiré 5 phrases (8 phrases proposées) | questions 16 à 20 |
+| 21 à 26 | Reading Part 5 | Un texte à 6 trous, 4 mots par trou | questions 21 à 26 |
+| 27 à 32 | Reading Part 6 | Un e-mail à 6 trous, **un seul mot** par trou | questions 27 à 32 |
+| 33 | Writing Part 1 | Un e-mail d'**environ 100 mots** (4 notes) | question 1 |
+| 34 | Writing Part 2 | Au choix : un article **ou** une histoire, environ 100 mots | question 2 ou 3 |
+| 35 à 41 | Listening Part 1 | 7 courts extraits, 3 images | questions 1 à 7 |
+| 42 à 47 | Listening Part 2 | 6 courts dialogues, 3 propositions | questions 8 à 13 |
+| 48 à 53 | Listening Part 3 | Une annonce, 6 trous dans des notes | questions 14 à 19 |
+| 54 à 59 | Listening Part 4 | Une interview, 6 questions à 3 propositions | questions 20 à 25 |
+| 60 | Speaking | Les 4 parties, à voix haute | — |
+| 61 | Bilan | Compter ses points, faire son plan de révision | — |
+
+Dans l'appli, l'appariement de la Part 2 et les phrases de la Part 4 sont présentés en QCM (une question à la fois). Les textes communs (stages, témoignage, récit, textes à trous, annonce, interview) s'affichent au-dessus de la question : déplié la première fois, puis avec le bouton « Relire le texte ».
+
+## Le déroulement conseillé
+| Épreuve | Durée officielle | Comment faire ici |
+|---|---|---|
+| **Reading** (1 à 32) | **45 minutes** | d'une traite, minuteur, sans dictionnaire |
+| **Writing** (33 et 34) | **45 minutes** | sur papier : environ 20 minutes par texte, plus la relecture |
+| **Listening** (35 à 59) | **environ 30 minutes** | fais-toi lire chaque transcription **deux fois** sans la regarder ; sinon, lis-la **une seule fois** |
+| **Speaking** (60) | **10 à 12 minutes** à deux | à voix haute, avec un partenaire ou un adulte, chronométré |
+
+Le Speaking peut avoir lieu un autre jour que les épreuves écrites. Tu peux donc faire cet examen blanc **en deux séances** : Reading et Writing d'abord, puis Listening et Speaking.
+
+- Si une question te bloque, **réponds quand même** : une erreur ne fait pas perdre de points.
+- En Reading Part 6 et en Listening Part 3, l'**orthographe** compte.
+- En Writing, fais un **plan rapide**, écris, **compte tes mots** (environ 100), relis-toi.
+
+## Compter ses points
+1. **Reading** (1 à 32) : 1 point par bonne réponse → **32 points**.
+2. **Writing** (33 et 34) : chaque texte est noté sur **20** (quatre critères sur 5 : *Content, Communicative Achievement, Organisation, Language*) → **40 points**. Utilise la grille du premier examen blanc et compare honnêtement ta copie au modèle.
+3. **Listening** (35 à 59) : 1 point par bonne réponse → **25 points**.
+4. **Speaking** (60) : coche la liste du corrigé, 1 point par élément réussi → **10 points**.
+
+Calcule un **pourcentage par épreuve** : points ÷ total × 100. Exemple : 24 sur 32 en Reading → 24 ÷ 32 × 100 = **75 %** ; 19 sur 25 en Listening → **76 %**.
+
+| Pourcentage dans une épreuve | Ce que cela suggère (repère indicatif) |
+|---|---|
+| 85 % ou plus | Niveau B1 très solide, en route vers le B2 |
+| 70 % à 84 % | Niveau B1 bien installé |
+| 55 % à 69 % | Proche du B1 : revois les chapitres de cette épreuve |
+| moins de 55 % | Le B1 n'est pas encore atteint ici : reprends les cours, puis refais un examen blanc dans quelques semaines |
+
+Cambridge convertit les points bruts sur l'**échelle de 120 à 170** avec des réglages propres à chaque session : ces pourcentages ne donnent **pas** ton score officiel.
+
+## Les erreurs à éviter le jour J
+- Passer trop de temps sur une partie difficile (la Part 4 du Reading, par exemple) et ne pas finir.
+- En Writing, oublier une note de l'e-mail ou une question de l'article.
+- En Listening, ne rien écrire à la première écoute : note une réponse, tu la vérifieras à la seconde.
+- En Speaking, répondre par un seul mot : développe toujours (avis + raison + exemple).
+
+> **À retenir** : format réel = **32 + 2 + 25** questions et 4 parties de Speaking ; chronomètre-toi ; compte tes points **par épreuve** ; le pourcentage est un **repère**. Le plus utile : repérer **les parties** où tu perds des points et retravailler les chapitres correspondants.
+`,
+      textes: {
+        stages: `**Summer courses for teenagers**
+
+**The teenagers**
+- **Alice** would love to learn how to make films, and she enjoys working in a team. She is away on holiday for the whole of August.
+- **Ravi** wants to spend time outdoors and learn skills that could be useful one day. He's busy during the week, and he hasn't got much money to spend.
+- **Zoe** wants to create her own computer game. She prefers to work by herself, and she lives a long way from town, so she would like to do the course from home.
+- **Tom** wants to write his own songs, but he can't play any musical instruments. He is only free in July.
+- **Kemi** is a strong swimmer who loves being on the water. She wants a course that ends with a qualification she can show to other people.
+
+**The courses**
+- **Film Camp** : *Spend five days in July making a short film with a group of other teenagers. Our directors will show you how to use cameras and editing software, and you'll present your film to parents on the last day.*
+- **Screen Stars** : *Find out what it's like to act in front of a camera in our one-day workshops, every Saturday in August. Small groups, no experience needed.*
+- **Wild Skills** : *Spend a day in the forest learning how to build a shelter, light a fire safely and find your way with a map. Courses every Saturday and Sunday all summer. Only £10, because we are run by volunteers.*
+- **Forest Art** : *Draw and paint the trees and flowers of Larch Wood with a professional artist. Monday to Friday mornings in June. £150 for the week, materials included.*
+- **Code Quest** : *Design your own computer game in a week. Work alone and at your own speed, with a tutor to help when you need it. Can't get to our centre? Join the online version from home.*
+- **Kitchen Heroes** : *Learn to cook healthy meals for the whole family without spending a lot. Thursday evenings, 6–8 pm, all year.*
+- **Sound Lab** : *Create your own songs on our computers — no instruments needed. Groups of up to twenty, three days in July.*
+- **Paddle Power** : *A two-week kayaking course on the river, Monday to Friday, for confident swimmers aged 14 and over. At the end, you'll do a 20 km trip and receive an official certificate.*`,
+        maya: `**The youngest referee in town**
+
+*When I tell people I'm a football referee, they usually laugh. I'm fifteen, and I'm smaller than most of the players I referee. But I've been doing it for almost two years now, and I love it.*
+
+*It all started by accident. I was watching my little brother's match when the referee didn't turn up. The coaches asked if any of the parents could do it, and nobody wanted to, so I put my hand up. I knew the rules because I'd played for years, but I had no idea how hard it would be to make decisions so quickly. After the match, one of the coaches told me about a course for young referees, and I signed up the next week.*
+
+*The course itself was quite easy. The difficult part came later, when I started refereeing real matches on my own. Players don't always accept your decisions, and sometimes parents shout at you from the side of the pitch. In my third match, a dad was so rude that I almost walked off. Instead, I stopped the game and calmly asked the coach to speak to him. It worked, and since then I've felt much more confident.*
+
+*People often ask me if I get paid. I do, a little — about fifteen pounds a match — but that's not why I do it. What I like most is being part of the game in a different way. I notice things that players never see, like how a team changes its tactics when it's losing.*
+
+*My dream is to referee a professional match one day. My coach says that if I keep training, I could reach the national level by the time I'm twenty-five. Until then, I'll keep running around muddy pitches every Sunday morning — and I'll keep ignoring the people who laugh.*
+
+*— Maya, 15*`,
+        radeau: `**The raft race**
+
+*Last spring, our class went on an adventure weekend at a lake in Wales. On the first afternoon, the instructors divided us into teams of five and gave each team some wooden poles, four empty barrels and a long rope. (16) ___ The first team to cross the lake and come back would win.*
+
+*My team didn't start well. Nobody wanted to listen to anyone else, and we wasted twenty minutes arguing. (17) ___ She suggested that each of us should explain our idea in one minute, and then we would vote.*
+
+*In the end, we chose Ollie's plan, which was to tie the barrels under the poles in a square. (18) ___ When we pushed it into the water, it floated perfectly.*
+
+*Getting across the lake was another story. Our paddles kept hitting each other, and we went round in circles for a while. (19) ___ After that, we moved much faster, and the paddles never touched again.*
+
+*We didn't win — we came third out of six teams. (20) ___ What we learned was that a good team needs everyone to listen, not just to talk.*
+
+**The sentences**
+- *Our job was to build a raft that could carry all of us.*
+- *Finally, Grace told everyone to stop arguing.*
+- *It took us almost an hour, but it looked strong.*
+- *Then someone had the idea of counting out loud so that we all paddled at the same time.*
+- *But to be honest, nobody really cared about the result.*
+- *The instructors said it was too cold to swim in the lake.*
+- *Unfortunately, it sank as soon as we got on it.*
+- *She was the oldest instructor at the centre.*`,
+        millbrook: `**Car-free day**
+
+*Once a year, the small town of Millbrook (21) ___ its streets to cars for a whole day. The idea (22) ___ from a group of teenagers who were worried about air pollution. At first, many shop owners didn't (23) ___ with the plan, because they thought they would lose customers. In fact, the opposite happened: so many people came on foot or by bike (24) ___ of driving that the shops were busier than usual. Now the day has become a real festival, with music, games and a bike race for children. The organisers would like the town council to (25) ___ the centre car-free every weekend. “It's not only about pollution,” says one of them. “On car-free day, people actually (26) ___ time to talk to each other.”*`,
+        max: `*Hi Leo,*
+*It was great (27) ___ hear from you! Sorry I didn't reply sooner, but I've been revising (28) ___ my exams all week. They finish on Friday, so I'll be free at the weekend. Would you like to come to the beach (29) ___ us on Saturday? My dad is driving, and there (30) ___ enough room in the car for one more person. If it rains, we can go to the cinema (31) ___ of the beach. There's a new film (32) ___ everyone is talking about.*
+*See you soon,*
+*Max*`,
+        photo: `**Listening Part 3 — transcript** (fais-le-toi lire, ou lis-le une seule fois)
+
+*Hi everyone, I'm Josh from the Riverside Youth Centre, and I'm here to tell you about our summer photography competition. It's open to anyone aged between twelve and seventeen. This year, the theme is water — so you could photograph a river, the rain, or even a glass of water! You can send up to three photos, but they must all be taken this summer. The closing date is the thirtieth of August — not the end of September, as the newspaper said by mistake. The winner will get a new camera, and the best twenty photos will be shown at the town library in October. To enter, send your photos by email to our organiser, Mrs Pellow — that's P-E-L-L-O-W.*`,
+        amara: `**Listening Part 4 — transcript of the interview** (fais-le-toi lire, ou lis-le une seule fois)
+
+*Interviewer : Today I'm talking to Amara Osei, who's fifteen. For the last year, Amara's family has looked after a puppy that is training to become a guide dog for a blind person. Amara, how did it start?*
+
+*Amara : It was actually my mum's idea. She saw an advert in the local paper asking for volunteer families. My dad wasn't sure at first, because we'd never had a dog, and I was worried that our flat was too small. But the charity came to visit and said it was fine, as long as there was a park nearby.*
+
+*Interviewer : What was the hardest thing in the first few weeks?*
+
+*Amara : People think it's the training, but the puppy, Bramble, learned really fast. And getting up early to take her out wasn't too bad. The hard part was not being allowed to treat her like a pet. We weren't supposed to let her sleep on the sofa or give her food from the table, and she looked at us with such sad eyes!*
+
+*Interviewer : Did you have to take her everywhere?*
+
+*Amara : Not everywhere, but she had to get used to lots of different places — buses, shops, cafés. My favourite moment was taking her on a train for the first time. I was sure she'd be scared, but she just lay down at my feet and went to sleep.*
+
+*Interviewer : What did your friends think?*
+
+*Amara : Most of them loved her, of course. One friend said it was cruel to give a dog away after a year. I understand why she said that, but I explained that Bramble would change someone's life. That's more important than us feeling sad.*
+
+*Interviewer : And how did you feel when Bramble left?*
+
+*Amara : Honestly, I cried for a whole day. But a few months later, the charity sent us a photo of Bramble with her new owner, a man called Gareth. He wrote that he can now walk to work on his own for the first time in ten years. Reading that made everything worth it.*
+
+*Interviewer : Would you do it again?*
+
+*Amara : We already are! We've got a new puppy called Juniper. And when I'm older, I'd like to train guide dogs myself. My teacher says I'd need to study animal behaviour, so I'm going to choose biology next year.*`,
+      },
+      exercices: [
+        // ── Reading Part 1 (questions 1 à 5)
+        { type: "qcm", question: `**Reading Part 1 — Question 1.** Read the notice in a school canteen.
+**Students who bring a packed lunch are welcome to eat in the canteen, but please use the tables near the windows.**`, choix: ["Students with their own lunch should sit in a particular area.", "Packed lunches cannot be eaten in the canteen.", "All students must sit near the windows."], reponse: 0, explication: "Les élèves qui apportent leur repas **peuvent** manger à la cantine (*are welcome*), mais aux tables **près des fenêtres** : une zone particulière. *Packed lunches cannot be eaten* dit le contraire ; *All students* étend la règle à **tous** les élèves." },
+        { type: "qcm", question: `**Reading Part 1 — Question 2.** Read the text message.
+*Dad, the coach says practice will finish half an hour early today, because the pitch is needed for a match. Can you pick me up at 5 instead of 5.30? Ellie*`, choix: ["Ellie is playing in a match today.", "Ellie wants her dad to come earlier than planned.", "Ellie's practice has been cancelled."], reponse: 1, explication: "*Can you pick me up at 5 instead of 5.30?* : Ellie demande à son père de venir **plus tôt**. Le match est celui d'**autres joueurs** (le terrain est réservé) ; l'entraînement a bien lieu, il finit seulement plus tôt." },
+        { type: "qcm", question: `**Reading Part 1 — Question 3.** Read the note.
+*Kai — Mrs Brook phoned. She hasn't got your history project. If you haven't handed it in yet, bring it tomorrow and she'll still accept it. Mum*`, choix: ["Mrs Brook wants Kai to phone her back.", "Kai's project is too late to be marked.", "Kai can still give his project to his teacher tomorrow."], reponse: 2, explication: "*Bring it tomorrow and she'll still accept it* : Kai a **encore** jusqu'à demain. Rien ne dit qu'il doit rappeler ; et *she'll still accept it* contredit l'idée qu'il est trop tard." },
+        { type: "qcm", question: `**Reading Part 1 — Question 4.** Read the sign in a museum.
+**Photography is welcome in all galleries. Please do not use flash in the Egyptian rooms.**`, choix: ["You need to ask before you take any photos.", "You can take photos everywhere, but not always with a flash.", "You cannot take any photos in the Egyptian rooms."], reponse: 1, explication: "Les photos sont permises **partout** (*in all galleries*) ; seul le **flash** est interdit dans les salles égyptiennes. *You cannot take any photos* confond le flash et la photo ; aucune autorisation n'est demandée." },
+        { type: "qcm", question: `**Reading Part 1 — Question 5.** Read the e-mail.
+*Hi Jonas, the climbing wall is closed for repairs until the 20th, so our session next Saturday can't happen. They've offered us a free session once it reopens — I'll book one for the 27th unless you're busy that day. Let me know! Freya*`, choix: ["Freya is planning a new date for their climbing session.", "Freya is asking Jonas to book the climbing session.", "Freya will have to pay for a session on the 27th."], reponse: 0, explication: "Freya propose une **nouvelle date** (le 27) et demande seulement à Jonas s'il est libre (*unless you're busy*). C'est **elle** qui réserve (*I'll book*), et la séance est **gratuite** (*free*)." },
+
+        // ── Reading Part 2 (questions 6 à 10)
+        { type: "qcm", texte: "stages", question: `**Reading Part 2.** Five teenagers are looking for a summer course. Read the descriptions of eight courses and decide which course would be most suitable for each person.
+
+**Question 6.** Which course would be most suitable for **Alice**?`, choix: ["Screen Stars", "Sound Lab", "Film Camp", "Code Quest", "Wild Skills", "Forest Art", "Kitchen Heroes", "Paddle Power"], reponse: 2, explication: "*Film Camp* : faire un **film** ✔, **en groupe** (*with a group of other teenagers*) ✔, en **juillet** ✔ (Alice est absente en août). *Screen Stars* parle de caméra, mais c'est du **jeu d'acteur**, et en **août** ; *Sound Lab* est en groupe en juillet, mais c'est de la musique." },
+        { type: "qcm", texte: "stages", question: "**Reading Part 2 — same texts (summer courses).**\n**Question 7.** Which course would be most suitable for **Ravi**?", choix: ["Forest Art", "Paddle Power", "Kitchen Heroes", "Film Camp", "Wild Skills", "Code Quest", "Screen Stars", "Sound Lab"], reponse: 4, explication: "*Wild Skills* : **dehors** (en forêt) ✔, des **compétences utiles** (abri, feu, carte) ✔, le **week-end** ✔, **10 livres seulement** ✔. *Forest Art* est en forêt, mais en **semaine** et à **150 livres** ; *Paddle Power* est dehors, mais du lundi au vendredi." },
+        { type: "qcm", texte: "stages", question: "**Reading Part 2 — same texts (summer courses).**\n**Question 8.** Which course would be most suitable for **Zoe**?", choix: ["Sound Lab", "Kitchen Heroes", "Screen Stars", "Wild Skills", "Paddle Power", "Film Camp", "Forest Art", "Code Quest"], reponse: 7, explication: "*Code Quest* : créer un **jeu vidéo** ✔, **seule** (*Work alone*) ✔, **de chez elle** (*online version from home*) ✔. *Sound Lab* utilise aussi des ordinateurs, mais **en groupe** et sur place." },
+        { type: "qcm", texte: "stages", question: "**Reading Part 2 — same texts (summer courses).**\n**Question 9.** Which course would be most suitable for **Tom**?", choix: ["Code Quest", "Film Camp", "Paddle Power", "Kitchen Heroes", "Screen Stars", "Sound Lab", "Wild Skills", "Forest Art"], reponse: 5, explication: "*Sound Lab* : **créer ses chansons** ✔, *no instruments needed* ✔ (il ne joue d'aucun instrument), en **juillet** ✔. *Film Camp* est aussi en juillet, mais c'est du cinéma." },
+        { type: "qcm", texte: "stages", question: "**Reading Part 2 — same texts (summer courses).**\n**Question 10.** Which course would be most suitable for **Kemi**?", choix: ["Wild Skills", "Paddle Power", "Sound Lab", "Forest Art", "Code Quest", "Screen Stars", "Film Camp", "Kitchen Heroes"], reponse: 1, explication: "*Paddle Power* : **sur l'eau** (kayak) ✔, pour **bons nageurs** (*confident swimmers*) ✔, et un **certificat officiel** à la fin ✔ (*a qualification she can show*). *Wild Skills* est en plein air, mais sans eau ni diplôme. Les trois stages qui ne servent pas : *Screen Stars*, *Forest Art*, *Kitchen Heroes*." },
+
+        // ── Reading Part 3 (questions 11 à 15)
+        { type: "qcm", texte: "maya", question: `**Reading Part 3.** Read the text.
+**Question 11.** How did Maya referee a match for the first time?`, choix: ["Her brother's coach asked her to do it.", "She offered to help when there was a problem.", "She had just finished a course for young referees.", "Her parents told her to try it."], reponse: 1, explication: "L'arbitre n'est pas venu, personne ne voulait le remplacer, *so I put my hand up* : elle s'est **proposée**. Les entraîneurs ont demandé aux **parents**, pas à elle ; la formation est venue **après** ce match." },
+        { type: "qcm", texte: "maya", question: "**Reading Part 3 — same text (Maya).**\n**Question 12.** What surprised Maya the first time she refereed?", choix: ["She didn't know the rules well enough.", "The players were much bigger than her.", "She had to make decisions very quickly.", "Nobody came to watch the match."], reponse: 2, explication: "*I had no idea how hard it would be to make decisions so quickly* : la **rapidité des décisions**. Elle connaissait les règles (*I knew the rules*) ; sa petite taille est évoquée au début, mais pas comme une surprise de ce match." },
+        { type: "qcm", texte: "maya", question: "**Reading Part 3 — same text (Maya).**\n**Question 13.** What happened in Maya's third match?", choix: ["She left the pitch because a parent was rude.", "A coach shouted at her from the side of the pitch.", "The players refused to accept all her decisions.", "She dealt with a difficult situation and became more confident."], reponse: 3, explication: "Elle a **failli** partir (*I almost walked off*), mais elle a arrêté le match et demandé calmement à l'entraîneur d'intervenir : *since then I've felt much more confident*. Piège : *almost* = elle ne l'a **pas** fait ; c'est un **père** qui a été grossier, pas un entraîneur." },
+        { type: "qcm", texte: "maya", question: "**Reading Part 3 — same text (Maya).**\n**Question 14.** What does Maya enjoy most about refereeing?", choix: ["seeing the game from a different point of view", "earning some money at the weekend", "running a lot and keeping fit", "making friends with the players"], reponse: 0, explication: "*What I like most is being part of the game in a different way* : voir le jeu **autrement** (les tactiques que les joueurs ne remarquent pas). L'argent est cité, puis écarté (*that's not why I do it*)." },
+        { type: "qcm", texte: "maya", question: "**Reading Part 3 — same text (Maya).**\n**Question 15.** What would Maya say to a teenager who wants to become a referee?", choix: ["“It's easy once you've done the course, and the money is good.”", "“You should only try it if you're tall and strong.”", "“Wait until you're twenty-five before you start.”", "“It can be hard at times, but don't let other people stop you.”"], reponse: 3, explication: "Question **globale** : il y a des moments difficiles (joueurs, parents), mais elle continue et *I'll keep ignoring the people who laugh*. Le cours était facile, **pas** la suite ; elle est petite et arbitre quand même ; vingt-cinq ans est l'âge où elle pourrait atteindre le niveau national, pas l'âge pour commencer." },
+
+        // ── Reading Part 4 (questions 16 à 20)
+        { type: "qcm", texte: "radeau", question: `**Reading Part 4.** Five sentences have been removed from the text. Choose the correct sentence for each gap. There are three extra sentences.
+
+**Question 16** : *...some wooden poles, four empty barrels and a long rope. (16) ___ The first team to cross the lake and come back would win.*`, choix: ["The instructors said it was too cold to swim in the lake.", "Our job was to build a raft that could carry all of us.", "She was the oldest instructor at the centre.", "Unfortunately, it sank as soon as we got on it.", "Then someone had the idea of counting out loud so that we all paddled at the same time.", "It took us almost an hour, but it looked strong.", "Finally, Grace told everyone to stop arguing.", "But to be honest, nobody really cared about the result."], reponse: 1, explication: "La phrase explique **à quoi servent** les poteaux, les tonneaux et la corde (construire un **radeau**), et prépare la course sur le lac. La phrase sur la baignade ne relie pas le matériel à la course." },
+        { type: "qcm", texte: "radeau", question: "**Reading Part 4 — same text (raft race).**\n**Question 17** : *...we wasted twenty minutes arguing. (17) ___ She suggested that each of us should explain our idea in one minute.*", choix: ["It took us almost an hour, but it looked strong.", "She was the oldest instructor at the centre.", "Finally, Grace told everyone to stop arguing.", "Our job was to build a raft that could carry all of us.", "But to be honest, nobody really cared about the result.", "Then someone had the idea of counting out loud so that we all paddled at the same time.", "Unfortunately, it sank as soon as we got on it.", "The instructors said it was too cold to swim in the lake."], reponse: 2, explication: "*Stop arguing* reprend *we wasted twenty minutes arguing*, et **Grace** explique qui est *She* dans la phrase suivante. L'intrus *She was the oldest instructor* contient lui-même un *She* qui ne renvoie à personne." },
+        { type: "qcm", texte: "radeau", question: "**Reading Part 4 — same text (raft race).**\n**Question 18** : *...tie the barrels under the poles in a square. (18) ___ When we pushed it into the water, it floated perfectly.*", choix: ["Unfortunately, it sank as soon as we got on it.", "Finally, Grace told everyone to stop arguing.", "Our job was to build a raft that could carry all of us.", "The instructors said it was too cold to swim in the lake.", "It took us almost an hour, but it looked strong.", "She was the oldest instructor at the centre.", "But to be honest, nobody really cared about the result.", "Then someone had the idea of counting out loud so that we all paddled at the same time."], reponse: 4, explication: "*It* = le radeau construit selon le plan d'Ollie ; *it looked strong* prépare *it floated perfectly*. Le piège *it sank* (il a coulé) contredit la phrase suivante." },
+        { type: "qcm", texte: "radeau", question: "**Reading Part 4 — same text (raft race).**\n**Question 19** : *Our paddles kept hitting each other, and we went round in circles for a while. (19) ___ After that, we moved much faster, and the paddles never touched again.*", choix: ["But to be honest, nobody really cared about the result.", "It took us almost an hour, but it looked strong.", "Unfortunately, it sank as soon as we got on it.", "Then someone had the idea of counting out loud so that we all paddled at the same time.", "Finally, Grace told everyone to stop arguing.", "Our job was to build a raft that could carry all of us.", "The instructors said it was too cold to swim in the lake.", "She was the oldest instructor at the centre."], reponse: 3, explication: "La phrase donne la **solution** au problème des pagaies qui se cognent (ramer en même temps), et *After that* renvoie à cette solution : *the paddles never touched again*. La phrase sur Grace parle de **dispute**, qui n'est plus le problème à ce moment du récit." },
+        { type: "qcm", texte: "radeau", question: "**Reading Part 4 — same text (raft race).**\n**Question 20** : *We didn't win — we came third out of six teams. (20) ___ What we learned was that a good team needs everyone to listen.*", choix: ["The instructors said it was too cold to swim in the lake.", "She was the oldest instructor at the centre.", "Then someone had the idea of counting out loud so that we all paddled at the same time.", "Unfortunately, it sank as soon as we got on it.", "It took us almost an hour, but it looked strong.", "Our job was to build a raft that could carry all of us.", "Finally, Grace told everyone to stop arguing.", "But to be honest, nobody really cared about the result."], reponse: 7, explication: "*But* s'oppose à *We didn't win* : le classement ne comptait pas, et la phrase suivante dit **ce qui comptait** (la leçon). Les trois intrus du texte : la baignade, l'instructrice la plus âgée, le radeau qui coule." },
+
+        // ── Reading Part 5 (questions 21 à 26)
+        { type: "qcm", texte: "millbrook", question: `**Reading Part 5.** Read the text and choose the correct word for each gap.
+
+**Question 21** : *the small town of Millbrook ___ its streets to cars for a whole day.*`, choix: ["closes", "stops", "ends", "finishes"], reponse: 0, explication: "**Close something to cars** = fermer à la circulation. *Stop, end, finish* veulent dire « arrêter, finir » et ne se construisent pas avec *to cars*." },
+        { type: "qcm", texte: "millbrook", question: "**Reading Part 5 — same text (car-free day).**\n**Question 22** : *The idea ___ from a group of teenagers.*", choix: ["arrived", "came", "went", "got"], reponse: 1, explication: "**Come from** = venir de : *the idea came from...* (l'idée vient de). *Arrive* se construit avec *at/in* ; *went from* indique un départ ; *got from* n'a pas ce sens." },
+        { type: "qcm", texte: "millbrook", question: "**Reading Part 5 — same text (car-free day).**\n**Question 23** : *many shop owners didn't ___ with the plan.*", choix: ["accept", "approve", "agree", "support"], reponse: 2, explication: "**Agree with** = être d'accord avec. *Accept*, *support* et *approve* se construisent sans préposition (*accept the plan*, *approve the plan* = l'adopter officiellement) ou, pour *approve*, avec *of* (*approve of the plan* = l'apprécier) : seul *agree* va avec *with*." },
+        { type: "qcm", texte: "millbrook", question: "**Reading Part 5 — same text (car-free day).**\n**Question 24** : *people came on foot or by bike ___ of driving.*", choix: ["rather", "except", "apart", "instead"], reponse: 3, explication: "**Instead of** + -ing = au lieu de. On dit *apart from*, *except* (ou *except for*) et *rather than* (*rather than driving*) : aucun des trois ne va avec *of*." },
+        { type: "qcm", texte: "millbrook", question: "**Reading Part 5 — same text (car-free day).**\n**Question 25** : *The organisers would like the town council to ___ the centre car-free every weekend.*", choix: ["keep", "stay", "remain", "hold"], reponse: 0, explication: "**Keep** + complément + adjectif = garder dans un état : *keep the centre car-free*. *Stay* et *remain* n'ont pas de complément (*the centre stays car-free*) ; *hold* ne se construit pas ainsi." },
+        { type: "qcm", texte: "millbrook", question: "**Reading Part 5 — same text (car-free day).**\n**Question 26** : *“On car-free day, people actually ___ time to talk to each other.”*", choix: ["spend", "do", "make", "pass"], reponse: 2, explication: "**Make time to** + verbe = prendre le temps de. *Spend time* se construit avec **-ing** (*spend time talking*), pas avec *to* ; *do time* et *pass time to* ne conviennent pas." },
+
+        // ── Reading Part 6 (questions 27 à 32)
+        { type: "saisie", texte: "max", question: `**Reading Part 6.** Read the e-mail and write ONE word for each gap.
+
+**Question 27** : *It was great ___ hear from you!*`, reponses: ["to"], explication: "*It was great* **to** + base verbale : *It was great to hear from you* (c'était génial d'avoir de tes nouvelles)." },
+        { type: "saisie", texte: "max", question: "**Reading Part 6 — same e-mail (Max).**\n**Question 28** : *I've been revising ___ my exams all week.*", reponses: ["for"], explication: "*Revise* **for** *an exam* = réviser pour un examen." },
+        { type: "saisie", texte: "max", question: "**Reading Part 6 — same e-mail (Max).**\n**Question 29** : *Would you like to come to the beach ___ us on Saturday?*", reponses: ["with"], explication: "*Come* **with** *us* = venir avec nous." },
+        { type: "saisie", texte: "max", question: "**Reading Part 6 — same e-mail (Max).**\n**Question 30** : *My dad is driving, and there ___ enough room in the car for one more person.*", reponses: ["is"], explication: "*There* **is** *enough room* : *room* (la place) est indénombrable, donc singulier. *There are* serait faux ; *will* seul ne suffit pas (*there will be* compte deux mots), et la contraction *there's* compterait aussi pour deux mots." },
+        { type: "saisie", texte: "max", question: "**Reading Part 6 — same e-mail (Max).**\n**Question 31** : *If it rains, we can go to the cinema ___ of the beach.*", reponses: ["instead"], explication: "**Instead of** = au lieu de : le cinéma **au lieu de** la plage. N'écris que *instead* : le mot *of* est déjà dans le texte." },
+        { type: "saisie", texte: "max", question: "**Reading Part 6 — same e-mail (Max).**\n**Question 32** : *There's a new film ___ everyone is talking about.*", reponses: ["that", "which"], explication: "Relatif pour une **chose** (*a new film*) : **that** ou **which**. La préposition *about* reste à la fin de la relative." },
+
+        // ── Writing
+        { type: "redaction", question: `**Writing Part 1 — Question 1.** Read this e-mail from your English friend Daniel and the notes you have made. Write your e-mail to Daniel using **all the notes**. Write **about 100 words**.
+
+*Hi!*
+*I'm doing a school project about how teenagers in different countries spend their free time. Can you help me?* → note : **Of course!**
+*What do you usually do after school?* → note : **Tell Daniel**
+*Is there an activity you'd like to try but can't?* → note : **Yes, explain why**
+*I need a photo for my project. What photo of you could I use?* → note : **Suggest...**
+*Daniel*`, corrige: `**Model answer (102 words)**
+
+*Hi Daniel,*
+
+*Of course I'll help you with your project! It sounds really interesting.*
+
+*After school, I usually have a snack and do my homework. Then, on Mondays and Wednesdays, I go to the climbing centre with my best friend. On other days, I often play video games or chat with my friends online.*
+
+*I'd love to try surfing, but I live in Lyon, which is a long way from the sea, so it isn't possible.*
+
+*I think the best photo would be one of me on the climbing wall. I'll ask my friend to take it next Monday!*
+
+*Best wishes,*
+*Clara*
+
+**Critères (sur 20)**
+- **Content** : les **quatre notes** sont traitées dans l'ordre (accord, après-midi, activité impossible et pourquoi, proposition de photo).
+- **Communicative Achievement** : ton amical, Daniel a toutes les informations pour son projet.
+- **Organisation** : un paragraphe par note ; *Then, On other days, but, so*.
+- **Language** : *I'd love to*, relative *which is a long way from the sea*, *I think the best photo would be*, futur *I'll ask*.` },
+        { type: "redaction", question: `**Writing Part 2 — Questions 2 and 3.** Choose **ONE** task. Write **about 100 words**.
+
+**Question 2 (article).** You see this announcement on an English website for teenagers.
+**Articles wanted! — Something I learned outside school**
+*What is the most useful thing you've learned outside the classroom? Who taught you? How has it helped you?*
+*Write an article answering these questions.*
+
+**Question 3 (story).** Your English teacher has asked you to write a story. Your story must begin with this sentence:
+**Ellie looked at the map again and realised they were going the wrong way.**`, corrige: `**Question 2 — model article (105 words)**
+
+**How my grandad saved my summer**
+
+*Have you ever had a flat tyre far from home? It happened to me last July, but I didn't panic, because my grandad had taught me how to repair a bike.*
+
+*He used to work in a bike shop, so he knows everything about them. One rainy Saturday, he showed me how to change a tyre and fix the brakes. It took hours, but he was very patient.*
+
+*Since then, I've repaired my own bike three times, and my friends' bikes too. It has saved me a lot of money!*
+
+*What about you? What have you learned outside school?*
+
+**Question 3 — model story (103 words)**
+
+*Ellie looked at the map again and realised they were going the wrong way. The path they were following led to the cliffs, not to the campsite.*
+
+*“Stop!” she shouted to her brother, Josh, who was walking ahead. “We should have turned left at the bridge.”*
+
+*It was getting dark, and they had already walked for three hours. Josh looked worried, but Ellie stayed calm. She remembered seeing a farm near the bridge, so they went back.*
+
+*The farmer kindly offered to drive them to the campsite. When they arrived, their parents were waiting with hot soup. Ellie had never been so relieved.*
+
+**Grille** : article = titre, question d'ouverture, **les trois questions** (quoi, qui, en quoi c'est utile), *past perfect* (*had taught*), *used to*, present perfect (*Since then, I've repaired*), conclusion vers le lecteur. Histoire = phrase imposée reprise **mot pour mot**, même personnage, temps du récit (prétérit continu *was walking*, *past perfect* *had already walked*), dialogue, sentiments (*worried, calm, relieved*), vraie fin.` },
+
+        // ── Listening Part 1 (questions 1 à 7)
+        { type: "qcm", question: `**Listening Part 1 — Question 1 (transcript).** *What has the girl lost?*
+*Girl : Mum, have you seen my keys? Mum : They're on the hook by the door, where they always are. Girl : Oh yes, thanks. But I still can't find my purse. Mum : Have you looked in your coat pocket? Girl : Yes, it's not there. And it's not in my bag — only my phone is.*
+Pictures : some keys / a purse / a phone.`, choix: ["a purse", "some keys", "a phone"], reponse: 0, explication: "Elle ne trouve pas son **porte-monnaie** (*I still can't find my purse*). Les clés sont retrouvées tout de suite (*on the hook*), et le téléphone est dans son sac." },
+        { type: "qcm", question: `**Listening Part 1 — Question 2 (transcript).** *Where are the friends going to meet?*
+*Boy : Shall we meet outside the cinema at six? Girl : It'll be really busy there on a Friday. Let's meet in the café opposite — we can have a drink first. Boy : I'll be coming from the bus station, but OK, the café's only five minutes away.*
+Pictures : a cinema / a bus station / a café.`, choix: ["outside the cinema", "in a café", "at the bus station"], reponse: 1, explication: "Ils se retrouvent **au café** en face du cinéma (*OK, the café...*). Le cinéma est la première idée, refusée (*really busy*) ; la gare routière est d'où le garçon **arrive**." },
+        { type: "qcm", question: `**Listening Part 1 — Question 3 (transcript).** *What will the boy do on Saturday afternoon?*
+*Girl : Are you playing football on Saturday afternoon? Boy : Not this week — the match is in the morning. Then we were going to visit my grandparents, but they've just phoned to say they've both got colds. So in the afternoon I'll probably go to the new science museum with Tom.*
+Pictures : boys playing football / an old couple at home / a science museum.`, choix: ["play football", "visit his grandparents", "go to a museum"], reponse: 2, explication: "*So in the afternoon I'll probably go to the new science museum* : le **musée**. Le football a lieu **le matin** cette semaine, et la visite aux grands-parents est annulée (*were going to..., but*)." },
+        { type: "qcm", question: `**Listening Part 1 — Question 4 (transcript).** *How much did the boy pay for his trainers?*
+*Girl : Nice trainers! Were they expensive? Boy : They usually cost sixty pounds, but they were in the sale for forty-five. And I had a voucher for fifteen pounds off, so in the end I only paid thirty.*
+Pictures : a price tag showing £60 / a price tag showing £45 / a price tag showing £30.`, choix: ["£60", "£30", "£45"], reponse: 1, explication: "60 livres d'habitude, 45 en soldes, moins un bon de 15 livres : 45 − 15 = **30 livres** (*in the end I only paid thirty*). Les deux autres prix sont entendus, mais ne sont pas ce qu'il a **payé**." },
+        { type: "qcm", question: `**Listening Part 1 — Question 5 (transcript).** *Which girl is Ben's sister?*
+*Girl : Is that your sister, Ben, the one with long curly hair? Ben : No, that's her friend Lucy. My sister's just had her hair cut really short. She's quite tall, and she's wearing glasses today because she's lost her contact lenses.*
+Pictures : a tall girl with long curly hair / a short girl with short hair and glasses / a tall girl with short hair and glasses.`, choix: ["the tall girl with long curly hair", "the short girl with short hair and glasses", "the tall girl with short hair and glasses"], reponse: 2, explication: "Sa sœur a les cheveux **courts**, elle est **grande** et porte des **lunettes** aujourd'hui : il faut les trois indices. Les cheveux longs et bouclés sont ceux de son amie Lucy ; l'autre fille a bien les cheveux courts et des lunettes, mais elle est **petite** : un seul indice faux suffit à l'éliminer." },
+        { type: "qcm", question: `**Listening Part 1 — Question 6 (transcript).** *Which sport does the girl do now?*
+*Boy : Do you still go swimming on Wednesdays? Girl : I stopped last year — I was getting bored. I tried tennis for a few months, but the club was too far away. Now I play volleyball with my cousin's team, and I love it.*
+Pictures : a swimming pool / a tennis racket / a volleyball.`, choix: ["volleyball", "swimming", "tennis"], reponse: 0, explication: "*Now I play volleyball* : le **volley**, **maintenant**. La natation, c'est fini depuis l'an dernier ; le tennis n'a duré que quelques mois." },
+        { type: "qcm", question: `**Listening Part 1 — Question 7 (transcript, recorded message).** *What time does the museum open on Sundays?*
+*Woman : Thank you for calling the City Museum. The museum is open from Monday to Saturday, from half past nine to half past five. On Sundays, we open an hour later and close at four. Our café opens at ten o'clock every day.*
+Pictures : a clock showing 9.30 / a clock showing 10.00 / a clock showing 10.30.`, choix: ["9.30", "10.30", "10.00"], reponse: 1, explication: "Le dimanche, le musée ouvre **une heure plus tard** que 9 h 30 : 9 h 30 + 1 h = **10.30**. 9 h 30 est l'horaire de semaine, 10 h celui du **café** : il faut calculer, la bonne heure n'est jamais dite." },
+
+        // ── Listening Part 2 (questions 8 à 13)
+        { type: "qcm", question: `**Listening Part 2 — Question 8 (transcript).** *You hear two friends talking about a new video game. What do they agree about?*
+*Girl : The pictures in Sky Racers are incredible, aren't they? It's like watching a film. Boy : Absolutely, I've never seen anything like it. But I finished the whole story in two days. Girl : Really? It took me ages. I don't think it's short at all. Boy : And forty pounds is a lot for a game. Girl : Well, I got it for my birthday, so I didn't pay.*`, choix: ["The story is too short.", "The graphics are impressive.", "The game is too expensive."], reponse: 1, explication: "Accord sur les **images** (*incredible* / *Absolutely*). La durée (*Really? ... I don't think it's short*) et le prix (elle ne l'a pas payé) sont les avis du garçon **seul**." },
+        { type: "qcm", question: `**Listening Part 2 — Question 9 (transcript).** *You hear a girl telling her friend about a cooking class. How did she feel at the end of it?*
+*Boy : How was the cooking class? Girl : I only went because my mum had already paid for it. I was sure I'd be the worst in the group. But I made a pasta dish that everyone wanted to try, and the teacher asked for my recipe! I couldn't stop smiling all the way home.*`, choix: ["annoyed that her mum made her go", "worried that she was the worst in the group", "proud of what she had made"], reponse: 2, explication: "On demande ce qu'elle ressent **à la fin** : son plat a plu, le professeur veut sa recette, *I couldn't stop smiling* : elle est **fière**. Le manque d'envie et la peur d'être la plus mauvaise, c'était **avant** le cours." },
+        { type: "qcm", question: `**Listening Part 2 — Question 10 (transcript, phone call).** *You hear a girl phoning her friend. Why is she phoning?*
+*Sam : Hello? Lucy : Hi Sam, it's Lucy. About tomorrow — I know we said we'd go cycling in the morning, but my aunt's coming to visit. Could we go in the afternoon instead? Sam : Sure. Same place, by the park gates? Lucy : Yes. My bike's got a flat tyre, but my brother says I can use his. Sam : Great. Three o'clock, then? Lucy : Perfect!*`, choix: ["to change the time they meet", "to ask Sam to lend her a bike", "to invite Sam to meet her aunt"], reponse: 0, explication: "Elle propose l'**après-midi** au lieu du matin : elle **change l'heure** du rendez-vous (le lieu reste le même). Le vélo est réglé grâce à son **frère**, et la tante est seulement la raison du changement." },
+        { type: "qcm", question: `**Listening Part 2 — Question 11 (transcript).** *You hear two friends talking about a novel they read for school. What does the girl think of it?*
+*Boy : What did you think of “The Silent River”? Girl : I nearly gave up after the first few chapters — there were so many characters and I kept mixing them up. But once I got into it, I couldn't stop reading. Boy : I thought the ending was a bit weak. Girl : Did you? I loved it. And the characters felt like real people.*`, choix: ["The ending was disappointing.", "It was difficult to get into at first.", "The characters were not realistic."], reponse: 1, explication: "*I nearly gave up after the first few chapters... But once I got into it* : le début était **difficile**. La fin décevante, c'est l'avis du **garçon** (*Did you? I loved it*) ; pour elle, les personnages semblaient **réels**." },
+        { type: "qcm", question: `**Listening Part 2 — Question 12 (transcript).** *You hear a boy talking to a friend about his new school. What does he like best about it?*
+*Girl : So, how's the new school? Boy : The building's quite old, and the food in the canteen isn't great. The sports hall is OK, nothing special. But the teachers are amazing — they really take time to explain things. That's what makes the difference for me.*`, choix: ["the teachers", "the sports hall", "the canteen"], reponse: 0, explication: "*But the teachers are amazing... That's what makes the difference for me* : les **professeurs**. La cantine est critiquée, le gymnase est *nothing special*." },
+        { type: "qcm", question: `**Listening Part 2 — Question 13 (transcript).** *You hear two friends talking about concert tickets. What does the boy suggest?*
+*Girl : The tickets for the Lemon Trees concert go on sale tomorrow at nine. Boy : They'll sell out in minutes. Girl : I know. I could queue outside the box office. Boy : In this weather? Why don't we both set an alarm and try online at exactly nine? That way we've got two chances. Girl : Good idea. And my mum can drive us to the concert.*`, choix: ["queueing outside the box office", "asking a parent to drive them", "both trying to book online at the same time"], reponse: 2, explication: "*Why don't we both... try online at exactly nine?* : il propose d'essayer **tous les deux en ligne**. La file d'attente est l'idée de la **fille**, qu'il refuse (*In this weather?*) ; le trajet en voiture est aussi proposé par elle." },
+
+        // ── Listening Part 3 (questions 14 à 19)
+        { type: "saisie", texte: "photo", question: `**Listening Part 3 — Question 14 (transcript).** Complete the notes. Write one or two words or a number.
+Notes : **Age of competitors : 12 to ___**`, reponses: ["17", "seventeen"], explication: "*Open to anyone aged between twelve and seventeen* → **17**. Attention : *seventeen* (17) ≠ *seventy* (70)." },
+        { type: "saisie", texte: "photo", question: "**Listening Part 3 — Question 15 (same transcript, photography competition).**\nNotes : **Theme this year : ___**", reponses: ["water"], explication: "*This year, the theme is water* → **water**. Les exemples (la rivière, la pluie, un verre d'eau) illustrent le thème : ce ne sont pas la réponse." },
+        { type: "saisie", texte: "photo", question: "**Listening Part 3 — Question 16 (same transcript, photography competition).**\nNotes : **Closing date : ___ August**", reponses: ["30", "30th", "thirtieth", "the 30th", "the thirtieth", "30 th", "thirtieth of August", "the thirtieth of August"], explication: "*The closing date is the thirtieth of August* → **30** (ou 30th). Piège : *not the end of September, as the newspaper said by mistake* : l'ancienne information est corrigée." },
+        { type: "saisie", texte: "photo", question: "**Listening Part 3 — Question 17 (same transcript, photography competition).**\nNotes : **Prize for the winner : a new ___**", reponses: ["camera", "new camera"], explication: "*The winner will get a new camera* → **camera** (orthographe : C-A-M-E-R-A)." },
+        { type: "saisie", texte: "photo", question: "**Listening Part 3 — Question 18 (same transcript, photography competition).**\nNotes : **The best photos will be shown at the town ___**", reponses: ["library", "town library"], explication: "*The best twenty photos will be shown at the town library* → **library** (la bibliothèque, pas la librairie : *bookshop*)." },
+        { type: "saisie", texte: "photo", question: "**Listening Part 3 — Question 19 (same transcript, photography competition).**\nNotes : **Send photos by email to : Mrs ___**", reponses: ["Pellow", "Mrs Pellow", "Mrs. Pellow"], explication: "Le nom est **épelé** : P-E-L-L-O-W → **Pellow**. Les noms épelés doivent être recopiés lettre par lettre." },
+
+        // ── Listening Part 4 (questions 20 à 25)
+        { type: "qcm", texte: "amara", question: `**Listening Part 4 — Question 20 (transcript, interview).** Read the questions, then listen to (or read once) the interview with Amara.
+How did Amara feel at the beginning?`, choix: ["She was unsure because she had never had a dog.", "She was excited because it was her idea.", "She was worried about where they lived."], reponse: 2, explication: "*I was worried that our flat was too small* : elle s'inquiétait du **logement**. Piège : *we'd never had a dog* est vrai pour toute la famille, mais c'est la raison des doutes de son **père** (*My dad wasn't sure*) ; pour elle, Amara dit autre chose. Et l'idée venait de sa **mère**, pas d'elle." },
+        { type: "qcm", texte: "amara", question: "**Listening Part 4 — Question 21 (same interview, Amara).**\nWhat did Amara find hardest in the first few weeks?", choix: ["following the rules about how to treat Bramble", "getting up early to take Bramble out", "teaching Bramble new things"], reponse: 0, explication: "*The hard part was not being allowed to treat her like a pet* : respecter les **règles** (pas de canapé, pas de nourriture de la table). Le dressage est écarté (*learned really fast*), le lever matinal aussi (*wasn't too bad*)." },
+        { type: "qcm", texte: "amara", question: "**Listening Part 4 — Question 22 (same interview, Amara).**\nWhat surprised Amara on Bramble's first train journey?", choix: ["Bramble didn't want to get on the train.", "Bramble stayed very calm.", "Other passengers were afraid of Bramble."], reponse: 1, explication: "*I was sure she'd be scared, but she just lay down at my feet and went to sleep* : la chienne est restée **très calme**, contrairement à ce qu'Amara attendait. Rien ne dit qu'elle a refusé de monter, ni que des passagers avaient peur." },
+        { type: "qcm", texte: "amara", question: "**Listening Part 4 — Question 23 (same interview, Amara).**\nWhat does Amara say about her friend's opinion?", choix: ["She agreed with it completely.", "She thought it was rude.", "She understood it, but she didn't share it."], reponse: 2, explication: "*I understand why she said that, but I explained that Bramble would change someone's life* : elle **comprend** l'avis de son amie, **mais** elle pense autrement. Elle ne le trouve pas impoli." },
+        { type: "qcm", texte: "amara", question: "**Listening Part 4 — Question 24 (same interview, Amara).**\nHow does Amara feel now about Bramble leaving?", choix: ["glad, because Bramble is helping someone", "still too sad to talk about it", "angry that she can't visit Bramble"], reponse: 0, explication: "Elle a pleuré une journée, **mais** le message de Gareth (il va au travail seul pour la première fois depuis dix ans) *made everything worth it* : elle est **heureuse** de ce que Bramble apporte. La tristesse, c'était au moment du départ." },
+        { type: "qcm", texte: "amara", question: "**Listening Part 4 — Question 25 (same interview, Amara).**\nWhat is Amara planning to do?", choix: ["become a biology teacher", "study a subject that will help her work with dogs", "adopt Bramble when she is older"], reponse: 1, explication: "Elle veut **dresser des chiens guides** plus tard et va choisir la **biologie** pour étudier le comportement animal. C'est son **professeur** qui lui a donné ce conseil ; elle ne veut pas devenir professeure, et Bramble vit maintenant avec Gareth." },
+
+        // ── Speaking
+        { type: "redaction", question: `**Speaking — les 4 parties.** Entraîne-toi à voix haute avec un partenaire (ou un adulte qui joue l'examinateur), chronomètre-toi, puis écris tes idées principales.
+
+**Part 1 (2 minutes).** *What's your name? Where do you live? What do you like doing at the weekend? Tell us about your best friend.*
+
+**Part 2 (1 minute chacun, chaque candidat a sa propre photo).** Décris cette photo (imagine-la) : *dans un garage, quatre adolescents répètent avec leurs instruments ; une fille chante au micro, un garçon joue de la batterie au fond ; des affiches sont collées au mur et une lampe éclaire la scène.*
+
+**Part 3 (environ 4 minutes).** *Your school wants to be more environmentally friendly. Here are some ideas : recycling bins in every classroom, cycling to school, a school vegetable garden, turning off lights and computers, a second-hand uniform shop. Talk together about the different ideas and say which would be best.*
+
+**Part 4 (environ 3 minutes).** *Do you do anything to protect the environment at home? / Is it better to buy new things or second-hand things? Why? / Should schools teach students how to grow food?*`, corrige: `**Exemples de réponses**
+
+**Part 1** : *I live in Grenoble, a city surrounded by mountains. At the weekend, I like going skiing in winter and meeting my friends in town. My best friend is called Inès; we've known each other since primary school, and she always makes me laugh.*
+
+**Part 2 (environ 90 mots, une minute)** : *In this photo, I can see four teenagers in a garage. It looks like they're practising for a concert. In the foreground, a girl is singing into a microphone, and she looks very confident. In the background, a boy is playing the drums. There are some posters on the wall — maybe of their favourite bands. A lamp is lighting the scene, so it might be the evening. I think they're friends who play together every week. They look like they're having a lot of fun, although the neighbours might not agree!*
+
+**Part 3** :
+*A : Shall I start? I think recycling bins are a good idea, because they're cheap and everyone can use them.*
+*B : That's true, but lots of schools already have them. What about a vegetable garden? Students could learn a lot.*
+*A : I see what you mean, but it needs a lot of work in the summer, when there's no school.*
+*B : Good point. So how about turning off lights and computers? It saves energy every day.*
+*A : I agree, and it costs nothing. Shall we choose that one?*
+*B : Yes, I think that's the best idea.*
+
+**Part 4** : *Yes, I do. For example, I always take a bag when I go shopping, and I have shorter showers. / I think second-hand things are often better, because they're cheaper and you don't waste resources. Last year I bought a second-hand bike, and it's perfect.*
+
+**Liste de contrôle (1 point par élément réussi, sur 10)**
+1. Part 1 : je réponds en **deux phrases ou plus**, avec un détail.
+2. Part 2 : je parle **une minute** sans m'arrêter.
+3. Part 2 : j'utilise le **présent continu** (*is singing, is playing*).
+4. Part 2 : je situe (*In the foreground, In the background*) et je fais des **hypothèses** (*maybe, it might be*).
+5. Part 3 : je propose une idée **avec une raison**.
+6. Part 3 : je **demande l'avis** de mon partenaire et je **réagis** au sien.
+7. Part 3 : j'exprime un **désaccord poli** (*I see what you mean, but...*).
+8. Part 3 : je conduis vers une **décision** (*Shall we choose...?*).
+9. Part 4 : je donne un **avis + une raison + un exemple**.
+10. Je reformule quand un mot me manque (*It's a kind of...*), sans long silence.` },
+
+        // ── Bilan
+        { type: "redaction", question: "**Bilan.** Compte tes points (Reading sur 32, Writing sur 40, Listening sur 25, Speaking sur 10), calcule un pourcentage par épreuve, compare avec ton premier examen blanc, puis écris ton plan de révision pour les trois prochaines semaines.", corrige: `**Exemple de bilan**
+
+- **Reading** : 25/32 → 25 ÷ 32 × 100 ≈ **78 %**. Erreurs surtout en Part 2 (un critère oublié) et en Part 5 (prépositions).
+- **Writing** : 30/40 → **75 %**. L'histoire est bien construite, mais l'e-mail oublie à moitié la dernière note.
+- **Listening** : 17/25 → **68 %**. Erreurs en Part 2 (avis du garçon confondu avec celui de la fille) et en Part 4.
+- **Speaking** : 7/10 → **70 %**. La description de photo est trop courte (40 secondes).
+
+**Comparaison** : au premier examen blanc, 60 % en Listening ; je progresse, mais c'est encore l'épreuve la plus faible.
+
+**Plan de révision**
+1. **Semaine 1** : chapitres « Listening Parts 1 et 2 » et « Listening Part 4 » ; chaque jour, 15 minutes d'anglais authentique (podcast, série en VO) en notant qui pense quoi.
+2. **Semaine 2** : Reading Parts 2 et 5 (souligner **tous** les critères, apprendre les mots avec leur préposition) ; un e-mail de 100 mots en vérifiant les quatre notes.
+3. **Semaine 3** : Speaking Part 2 avec un chronomètre (une minute pleine), puis refaire les parties ratées de cet examen blanc.
 
 **Repère** : ces pourcentages sont **indicatifs** ; le vrai score est donné sur l'échelle Cambridge (140 à 159 = B1, 160 et plus = B2).` },
       ],

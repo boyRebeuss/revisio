@@ -1136,6 +1136,173 @@ Expressions toutes faites : *por favor, por eso, por fin, por ejemplo, por supue
         { type: "qcm", question: "Dans « *Trabajo los sábados para ahorrar dinero* », pourquoi emploie-t-on *para* ?", choix: ["parce qu'il exprime le but", "parce qu'il exprime la cause", "parce qu'il exprime le moyen", "parce qu'il indique un prix"], reponse: 0, explication: "*Para ahorrar dinero* = **pour** économiser de l'argent : c'est le **but** du travail." },
         { type: "redaction", question: "**Expression écrite** (70 à 90 mots) — Écris un message à ton correspondant pour lui présenter ton voyage de l'été prochain : ta destination, les endroits par où tu passeras, le but du voyage, ce que tu feras le matin ou l'après-midi, comment tu as réservé et comment tu donneras des nouvelles. Utilise au moins trois emplois de *para* et quatre emplois de *por*.", corrige: "Modèle :\n\n*¡Hola, Pablo! El verano que viene salgo para Galicia con mis padres. Viajaremos en coche y pasaremos por Burdeos y por el País Vasco. Vamos allí para hacer los últimos cien kilómetros del Camino de Santiago. Caminaremos por la mañana, porque por la tarde hace calor. Mi madre ya ha reservado los albergues por internet: cuestan unos quince euros por persona. Para mí, será una experiencia genial. Te mandaré fotos por WhatsApp. ¡Gracias por tus consejos! Un abrazo, Lucas.*\n\nPoints vérifiés :\n- **para** : destination (*salgo para Galicia*), but (*para hacer*), opinion (*para mí*) ;\n- **por** : passage (*por Burdeos, por el País Vasco*), moment (*por la mañana, por la tarde*), moyen (*por internet, por WhatsApp*), prix et répartition (*por persona*), cause (*gracias por*) ;\n- futur (*viajaremos, caminaremos, será, mandaré*) et pretérito perfecto (*ha reservado*)." }
       ]
+    },
+    {
+      id: "negacion-indefinidos",
+      titre: "La négation et les indéfinis : nada, nadie, nunca, ningún...",
+      theme: "Grammaire",
+      cours: `
+## La négation simple
+Pour dire « ne... pas », on met simplement **no devant le verbe**. Il n'y a pas de deuxième mot comme « pas ».
+- *No hablo alemán.* (je ne parle pas allemand) ; *Mis padres no trabajan el sábado.*
+- Les pronoms restent entre *no* et le verbe : *No **lo** sé. No **me** gusta. No **se** levanta temprano.*
+- Pour répondre : *—¿Vienes al cine? —**No, no** puedo.* Le premier *no* veut dire « non », le second « ne... pas ».
+
+## Les mots négatifs et leurs contraires
+| Mot affirmatif | Mot négatif |
+|---|---|
+| **algo** (quelque chose) | **nada** (rien) |
+| **alguien** (quelqu'un) | **nadie** (personne) |
+| **alguno, alguna, algunos, algunas** (un, quelque, certains) | **ninguno, ninguna** (aucun, aucune) |
+| **siempre** (toujours) | **nunca** / **jamás** (jamais) |
+| **también** (aussi) | **tampoco** (non plus) |
+| **o... o** (ou... ou) | **ni... ni** (ni... ni) |
+| **ya** (déjà) | **todavía no** / **aún no** (pas encore) |
+| **todavía** / **aún** (encore) | **ya no** (ne... plus) |
+
+## La règle de place : avant ou après le verbe ?
+- Si le mot négatif est **avant** le verbe, on **ne met pas** *no* : *Nadie viene. Nunca como carne. Tampoco lo sé. Ninguno de mis amigos habla ruso.*
+- Si le mot négatif est **après** le verbe, *no* est **obligatoire** devant le verbe : *No viene nadie. No como carne nunca. No lo sé tampoco. No tengo ningún problema.*
+- Cette « double négation » est normale en espagnol, comme « ne... personne » ou « ne... rien » en français.
+- On peut accumuler les mots négatifs : *No digo nada a nadie* (je ne dis rien à personne). *Nunca hago nada los domingos.*
+- Avec le pretérito perfecto, le mot négatif ne se glisse jamais entre *haber* et le participe : *Nunca he estado en México* ou *No he estado nunca en México*.
+
+## Algún, ningún : l'apocope
+- Devant un **nom masculin singulier**, *alguno* et *ninguno* perdent le **-o** : *algún día, ningún problema* (accent écrit sur le ú). Au féminin, rien ne change : *alguna idea, ninguna chica*.
+- Employés seuls (pronoms), ils gardent le -o : *—¿Tienes algún libro de Quino? —No, no tengo ninguno.*
+- Après une négation, on emploie **ningún / ninguna au singulier** : *No tengo ningún amigo aquí* (et non ✗ *ningunos amigos*). Au pluriel, on dit simplement *No tengo amigos aquí*.
+- *Algunos / algunas* au pluriel sont courants : *Algunos alumnos llevan uniforme.*
+
+## Nadie, alguien et la préposition a
+Quand *nadie* ou *alguien* est **complément d'objet** (une personne), on met **a** devant, comme devant tout COD de personne : *No veo **a** nadie. ¿Conoces **a** alguien en Lima?* Mais en sujet, pas de *a* : *Alguien llama a la puerta.*
+
+## Expressions utiles
+- *nada más* (rien d'autre, seulement), *de nada* (de rien), *nunca más* (plus jamais), *ni siquiera* (même pas) ;
+- *en ningún sitio / en ninguna parte* (nulle part), *¡Ni idea!* (aucune idée !), *¡Ni hablar!* (pas question !) ;
+- *—No me gusta el frío. —A mí tampoco.* (moi non plus).
+
+## Trois autres indéfinis : otro, cada, todo
+- **otro, otra** s'emploie **sans** *un / una* : *Quiero otro helado* (je veux une autre glace) ; *otra vez* (encore une fois).
+- **cada** est invariable et suivi du singulier : *cada día, cada alumno, cada semana*.
+- **todo** + article : *todo el día* (toute la journée), *toda la clase*, *todos los días* (tous les jours).
+
+>! **Exemple résolu** : mets à la forme négative « *Siempre hay alguien en casa y siempre hacemos algo juntos. Yo también salgo.* »
+- *siempre* → *nunca*, *alguien* → *nadie*, *algo* → *nada*, *también* → *tampoco*.
+- Résultat : *Nunca hay nadie en casa y nunca hacemos nada juntos. Yo tampoco salgo.*
+- Autre version avec les mots négatifs après le verbe : *No hay nunca nadie en casa y no hacemos nunca nada juntos.*
+
+>! **Erreurs fréquentes**
+- ✗ *Nadie no viene* → ✓ *Nadie viene* / *No viene nadie*.
+- ✗ *Veo nadie* → ✓ *No veo a nadie* (*no* obligatoire, et *a* devant la personne).
+- ✗ *No hay algo* → ✓ *No hay nada*.
+- ✗ *No tengo ninguno amigo* / *ningunos amigos* → ✓ *No tengo ningún amigo*.
+- ✗ *He nunca visto* → ✓ *Nunca he visto*.
+- ✗ *un otro libro* → ✓ *otro libro*.
+- ✗ *Todavía no juego* pour dire « je ne joue plus » → ✓ *Ya no juego* (*todavía no* = pas encore).
+
+> **À retenir** : no + verbe ; algo/nada, alguien/nadie, alguno/ninguno, siempre/nunca, también/tampoco, o/ni, ya no, todavía no ; mot négatif avant le verbe → pas de no (Nadie viene) ; après le verbe → no obligatoire (No viene nadie) ; algún, ningún devant un nom masculin singulier ; a devant nadie / alguien complément ; otro sans un.
+`,
+      exercices: [
+        { type: "saisie", question: "Donne le contraire : « Siempre desayuno en casa. » → « ... desayuno en casa. »", reponses: ["Nunca", "Jamás", "Nunca desayuno en casa", "Jamás desayuno en casa"], explication: "Le contraire de *siempre* est **nunca** (ou *jamás*). Placé avant le verbe, il n'a pas besoin de *no* : *Nunca desayuno en casa* (= *No desayuno nunca en casa*)." },
+        { type: "saisie", question: "Mets à la forme négative : « Quiero algo. » → « No quiero ... »", reponses: ["nada", "No quiero nada"], explication: "Le contraire de *algo* est **nada** : *No quiero nada*. Le mot négatif étant après le verbe, *no* est obligatoire devant." },
+        { type: "qcm", question: "« Je n'ai aucun ami ici. »", choix: ["No tengo ninguno amigo aquí.", "No tengo ningunos amigos aquí.", "No tengo ningún amigo aquí.", "Tengo ningún amigo aquí."], reponse: 2, explication: "Devant un nom masculin singulier, *ninguno* devient **ningún** ; après la négation, on reste au **singulier** ; et comme *ningún* est après le verbe, il faut **no** devant : *No tengo ningún amigo aquí*." },
+        { type: "vf", question: "« *Nadie no viene a la fiesta.* » est correct.", reponse: false, explication: "Quand le mot négatif est **avant** le verbe, on ne met pas *no* : **Nadie viene a la fiesta**. Autre version correcte : *No viene nadie a la fiesta*." },
+        { type: "saisie", question: "Traduis : « Je ne connais personne dans cette ville. »", reponses: ["No conozco a nadie en esta ciudad", "En esta ciudad no conozco a nadie", "No conozco a nadie en esa ciudad", "En esa ciudad no conozco a nadie"], explication: "*no* devant le verbe + *nadie* après ; *nadie* est complément d'objet (une personne), donc **a nadie** : *No conozco a nadie en esta ciudad*. *conocer* → *conozco* à la 1re personne." },
+        { type: "saisie", question: "Traduis : « Je ne bois ni café ni thé. »", reponses: ["No bebo ni café ni té", "No tomo ni café ni té", "No bebo café ni té", "No tomo café ni té"], explication: "« ni... ni » se dit **ni... ni**, avec *no* devant le verbe : *No bebo ni café ni té*. (On dit aussi *No bebo café ni té*.) Attention à l'accent de **té** (le thé), qui le distingue de *te* (pronom)." },
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["He nunca estado en México.", "No nunca he estado en México.", "Nunca no he estado en México.", "Nunca he estado en México."], reponse: 3, explication: "On ne sépare jamais *haber* du participe, et *nunca* placé avant le verbe s'emploie sans *no* : **Nunca he estado en México** (ou *No he estado nunca en México*)." },
+        { type: "saisie", question: "Complète avec la bonne forme de *alguno* : « ¿Conoces ... libro de Gabriel García Márquez? »", reponses: ["algún", "algún libro"], explication: "Devant un nom **masculin singulier** (*libro*), *alguno* perd son -o : **algún** libro (avec accent écrit). Au féminin : *alguna novela*." },
+        { type: "saisie", question: "Traduis : « Je ne joue plus au foot. »", reponses: ["Ya no juego al fútbol", "Ya no juego al futbol", "Ya no juego a fútbol", "Ya no juego fútbol", "Ya no juego futbol", "No juego más al fútbol", "No juego más al futbol"], explication: "« ne... plus » = **ya no** devant le verbe : *Ya no juego al fútbol*. Le contraire est *todavía juego* (je joue encore). On entend aussi *No juego más al fútbol*, surtout en Amérique latine, mais *ya no* est la forme à retenir. En Amérique latine, on écrit aussi *futbol* et on dit souvent *jugar fútbol* sans *al*." },
+        { type: "redaction", question: "Tu passes le week-end chez tes grands-parents dans un tout petit village. Écris à un ami un message de 8 à 10 phrases : plains-toi avec humour (il n'y a rien à faire, personne...) puis raconte un bon moment. Utilise au moins sept de ces mots : *nada, nadie, nunca, ningún / ninguna, tampoco, ni... ni, ya no, algo, alguien*.", corrige: "Modèle :\n\n*¡Hola, Marcos! Te escribo desde el pueblo de mis abuelos y me aburro muchísimo. Aquí no hay nada que hacer: no hay ningún cine ni ninguna tienda. Por la calle no veo a nadie, solo gatos. Mi móvil no funciona y el ordenador de mis abuelos tampoco. Mi abuelo nunca ve la tele y mi abuela ya no conduce, así que no podemos ir a la ciudad. No tengo ni wifi ni amigos aquí. Sin embargo, esta mañana he hecho algo genial: he montado a caballo con un vecino. ¡Por fin he conocido a alguien simpático! Un abrazo, Tom.*\n\nPoints vérifiés :\n- mots négatifs après le verbe avec *no* : *no hay nada, no hay ningún cine, no veo a nadie, no tengo ni... ni* ;\n- mot négatif avant le verbe sans *no* : *nunca ve* ;\n- *tampoco* (le portable ne marche pas, l'ordinateur non plus) ; *ya no conduce* (ne... plus) ;\n- *ningún cine* (masculin) / *ninguna tienda* (féminin) ;\n- *a* devant *nadie* et *alguien* compléments ;\n- contraste avec *sin embargo* et les affirmatifs *algo, alguien*." }
+      ]
+    },
+    {
+      id: "comprension-escrita",
+      titre: "Comprendre un texte écrit : entraînement autocorrigé",
+      theme: "Méthodologie",
+      cours: `
+## Ce qu'on te demande
+En compréhension de l'écrit, tu dois montrer que tu as compris un document (blog, article, lettre, récit), sans forcément comprendre chaque mot. Les consignes sont souvent en espagnol :
+| Consigne | Ce qu'il faut faire |
+|---|---|
+| *Lee el texto.* | Lis le texte. |
+| *Contesta en francés / en español.* | Réponds en français / en espagnol. |
+| *Verdadero o falso. Justifica con una frase del texto.* | Vrai ou faux ; recopie la phrase qui le prouve. |
+| *Elige la respuesta correcta.* | Choisis la bonne réponse. |
+| *Busca en el texto / Apunta / Copia...* | Cherche dans le texte / note / recopie... |
+| *Relaciona.* | Relie. |
+| *¿Quién? ¿Dónde? ¿Cuándo? ¿Cómo? ¿Por qué? ¿Cuántos?* | Qui ? Où ? Quand ? Comment ? Pourquoi ? Combien ? |
+
+## La méthode
+1. **Observe le document** : le titre, l'auteur, le type de texte (un blog à la 1re personne, un article avec des chiffres, une lettre).
+2. **Lis les questions avant le texte** : elles te disent quoi chercher, et elles suivent en général l'ordre du texte.
+3. **Repère** les noms propres, les chiffres, les dates, les mots transparents (*música, figuras, internet*).
+4. **Localise** la réponse : pour chaque question, retrouve la ou les phrases du texte qui en parlent, puis relis-les lentement.
+5. **Vérifie** : ta réponse doit venir du texte, pas de ce que tu imagines.
+
+## Les pièges qui inversent le sens
+- **La négation** : *no, nunca, nadie, nada, ningún, ni... ni, tampoco, ya no* (voir le chapitre sur la négation). *Nunca juega* = il ne joue jamais.
+- **Les connecteurs d'opposition** : *pero, en cambio, sin embargo, aunque*. Ce qui vient après contredit souvent ce qui précède.
+- **La personne du verbe** : *ayudé* (moi, j'ai aidé) ≠ *ayudó* (il / elle a aidé) ; *trabajamos* (nous).
+- **Le temps du verbe** : *vivía* (avant, habitude) ≠ *vive* (maintenant) ≠ *vivirá* (plus tard).
+- **Le vrai / faux** : une affirmation à moitié vraie est **fausse**. Justifie toujours avec une citation courte.
+
+## Lire les nombres
+| Écrit | Se lit |
+|---|---|
+| 150 | ciento cincuenta |
+| 900 | novecientos |
+| 1 200 | mil doscientos |
+| 2016 | dos mil dieciséis |
+| a las dos de la tarde | à 14 heures |
+
+>! **Exemple résolu** : « *Mi primo Diego vive en Quito. Le gusta mucho el fútbol, pero nunca juega en un equipo: prefiere ver los partidos en la tele.* »
+Affirmation : « Diego joue dans une équipe de foot. » → **Faux** : « *nunca juega en un equipo* ».
+Le piège : *le gusta mucho el fútbol* fait penser qu'il joue, mais *pero* annonce une opposition et *nunca* une négation.
+
+>! **Erreurs fréquentes**
+- Répondre avec ses connaissances ou son imagination au lieu de s'appuyer sur le texte.
+- Ne pas voir un *no* ou un *nunca*, et comprendre l'inverse.
+- Confondre les personnes (*ayudé* / *ayudó*) et attribuer une action au mauvais personnage.
+- Recopier tout un paragraphe pour justifier : une phrase courte et précise suffit.
+
+> **À retenir** : observe le document, lis les questions d'abord, repère noms propres, chiffres et mots transparents, localise la réponse ; attention à la négation, aux connecteurs d'opposition, à la personne et au temps des verbes ; vrai / faux : une phrase à moitié vraie est fausse, justifie avec le texte.
+`,
+      textes: {
+        fallas: `**Mi semana fallera** — el blog de Lucía, 14 años (texto de entrenamiento)
+
+¡Hola a todos! Me llamo Lucía, vivo en Valencia y hoy os cuento la semana más loca del año: las Fallas. Cada mes de marzo, del 15 al 19, la ciudad se llena de música, de petardos y de enormes monumentos de cartón y madera, las fallas, llenos de figuras llamadas *ninots*. Algunas fallas miden más de veinte metros y muchas se burlan de los políticos o de los famosos.
+
+Este año, mi barrio ha construido una falla sobre el cambio climático: un oso polar muy triste sobre un trozo de hielo. Mi hermano mayor, Jorge, trabaja con los artistas desde octubre. Yo no sé dibujar, pero ayudé a pintar las olas.
+
+Lo que más me gusta es la *mascletà*: a las dos de la tarde, en la plaza del Ayuntamiento, miles de petardos explotan durante unos minutos. ¡El suelo tiembla! Mi abuela, en cambio, prefiere la Ofrenda: los falleros y las falleras llevan flores a la Virgen y con ellas forman un manto gigante.
+
+La última noche, la del 19, se queman las fallas: es la *cremà*. Siempre lloro un poco cuando veo arder nuestro oso, pero sé que el año que viene habrá otro. Solo se salva del fuego un *ninot*, el *ninot indultat*, que elige el público con sus votos (y otro en las fallas infantiles). Las Fallas son Patrimonio Cultural Inmaterial de la Humanidad desde 2016.
+
+*Vocabulario* : los petardos = les pétards ; burlarse de = se moquer de ; el oso = l'ours ; un trozo de hielo = un morceau de glace ; las olas = les vagues ; temblar = trembler ; arder = brûler.`,
+        villarroble: `**Villarroble busca familias** — artículo (texto de entrenamiento: pueblo y cifras ficticios)
+
+Villarroble, un pueblo de la provincia de Soria, tenía 1 200 habitantes en 1960. Hoy solo viven allí 140 personas y la mitad tiene más de 65 años. Como muchos pueblos de la llamada *España vaciada*, Villarroble perdió a sus jóvenes: se fueron a Madrid, a Zaragoza o a Barcelona para estudiar y trabajar, y casi nunca volvieron.
+
+Hace dos años, la escuela estuvo a punto de cerrar: solo quedaban tres alumnos. Entonces la alcaldesa, Marisa Gómez, tuvo una idea. El ayuntamiento renovó cinco casas vacías y las ofreció en alquiler por 150 euros al mes a familias con niños. A cambio, las familias tienen que quedarse por lo menos cuatro años.
+
+Hoy la escuela tiene once alumnos. Una de las familias nuevas es la de Andrés y Paula, que llegaron de Valencia con sus dos hijas. «En la ciudad pagábamos 900 euros por un piso pequeño y no veíamos a nuestras hijas», explica Paula, que trabaja por internet como diseñadora. «Aquí la vida es más tranquila, aunque no hay ningún cine ni ningún hospital cerca: el más próximo está a cuarenta kilómetros.»
+
+Nada es fácil: en invierno hace mucho frío y la conexión a internet a veces falla. Pero la alcaldesa es optimista: «Un pueblo sin niños es un pueblo sin futuro. Ahora, por fin, se oyen otra vez risas en la plaza.»
+
+*Vocabulario* : vaciada = vidée ; estar a punto de = être sur le point de ; la alcaldesa = la maire ; el alquiler = la location, le loyer ; a cambio = en échange ; quedarse = rester ; las risas = les rires.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "fallas", question: "De quoi parle principalement Lucía dans son blog ?", choix: ["de ses vacances d'été à la plage", "d'un concours de dessin dans son collège", "d'une grande fête traditionnelle de sa ville", "d'un incendie qui a détruit son quartier"], reponse: 2, explication: "Lucía présente **les Fallas**, la fête de Valence (« *la semana más loca del año* »), du 15 au 19 mars. Le feu de la fin (*la cremà*) est volontaire : ce n'est pas un incendie accidentel." },
+        { type: "vf", texte: "fallas", question: "Lucía a dessiné la falla de son quartier.", reponse: false, explication: "Faux : « *Yo no sé dibujar, pero ayudé a pintar las olas* ». Elle a seulement aidé à peindre les vagues ; c'est son frère Jorge qui travaille avec les artistes. Attention à la négation *no sé* et à *pero*." },
+        { type: "qcm", texte: "fallas", question: "¿Qué prefiere la abuela de Lucía?", choix: ["la *mascletà*", "la Ofrenda de flores", "la *cremà*", "el oso polar del barrio"], reponse: 1, explication: "« *Mi abuela, en cambio, prefiere la Ofrenda* » : *en cambio* (en revanche) oppose son goût à celui de Lucía, qui préfère la *mascletà*." },
+        { type: "saisie", texte: "fallas", question: "Relève dans le paragraphe qui commence par « *Este año* » le mot espagnol qui signifie « quartier ».", reponses: ["barrio"], explication: "« *Este año, mi **barrio** ha construido una falla* » : *el barrio* = le quartier. Indice : chaque quartier de Valence construit sa propre falla." },
+        { type: "vf", texte: "fallas", question: "Le dernier soir, toutes les figures (*ninots*) sont brûlées, sans aucune exception.", reponse: false, explication: "Faux : « *Solo se salva del fuego un ninot, el ninot indultat, que elige el público con sus votos* ». Une figure choisie par le public (et une autre chez les fallas des enfants) échappe au feu : elle rejoint le musée des Fallas. *Solo* (seulement) signale l'exception." },
+        { type: "qcm", texte: "villarroble", question: "Pourquoi les jeunes ont-ils quitté Villarroble ?", choix: ["parce que l'école du village avait fermé", "pour étudier et travailler dans de grandes villes", "parce que les loyers étaient trop chers", "pour fuir le froid de l'hiver"], reponse: 1, explication: "« *se fueron a Madrid, a Zaragoza o a Barcelona para estudiar y trabajar* ». L'école n'a pas fermé (elle a « failli fermer » : *estuvo a punto de cerrar*), et les loyers chers concernent la ville de Valence, pas le village." },
+        { type: "saisie", texte: "villarroble", question: "Combien de personnes vivent aujourd'hui à Villarroble ? (en chiffres)", reponses: ["140", "140 personas", "140 habitantes", "140 personnes", "140 habitants"], explication: "« *Hoy solo viven allí 140 personas* » (ciento cuarenta). En 1960, il y en avait 1 200 : le village a perdu 1 060 habitants. Ne confonds pas *hoy* (aujourd'hui) et *en 1960*." },
+        { type: "vf", texte: "villarroble", question: "Les familles qui louent une maison rénovée doivent rester au moins quatre ans au village.", reponse: true, explication: "Vrai : « *A cambio, las familias tienen que quedarse por lo menos cuatro años* ». *Tener que* = devoir ; *por lo menos* = au moins." },
+        { type: "qcm", texte: "villarroble", question: "Según Paula, ¿qué inconveniente tiene la vida en el pueblo?", choix: ["El alquiler es muy caro.", "No ve a sus hijas.", "No puede trabajar.", "No hay ningún cine ni ningún hospital cerca."], reponse: 3, explication: "« *aunque no hay ningún cine ni ningún hospital cerca* » : *aunque* introduit l'inconvénient. Le loyer cher et le manque de temps avec ses filles, c'était **en ville** (*pagábamos, no veíamos* : imparfait, avant) ; elle travaille par internet." },
+        { type: "redaction", texte: "villarroble", question: "1. Explique en français l'idée de la maire : ce que propose la mairie, ce qu'elle demande en échange, et le résultat.\n2. Recopie deux phrases ou expressions négatives du texte et traduis-les.\n3. **Expression** (60 à 80 mots) : *¿Te gustaría vivir en Villarroble?* Réponds en espagnol avec deux avantages, deux inconvénients et ton avis.", corrige: "1. La mairie a **rénové cinq maisons vides** et les **loue 150 € par mois** à des **familles avec enfants**. En échange, les familles doivent **rester au moins quatre ans**. Résultat : l'école, qui n'avait plus que 3 élèves et allait fermer, en compte maintenant **11**, et l'on entend de nouveau des rires d'enfants sur la place.\n\n2. Au choix :\n- « *casi nunca volvieron* » : ils ne sont presque jamais revenus ;\n- « *no veíamos a nuestras hijas* » : nous ne voyions pas nos filles ;\n- « *no hay ningún cine ni ningún hospital cerca* » : il n'y a ni cinéma ni hôpital à proximité ;\n- « *Nada es fácil* » : rien n'est facile.\n\n3. Modèle :\n*A mí me gustaría vivir en Villarroble, pero solo unos años. Lo bueno es que la vida es tranquila y el alquiler es barato: 150 euros al mes no es nada. Además, en una escuela con once alumnos, los profesores tienen tiempo para todos. Lo malo es que no hay ningún cine y el hospital está a cuarenta kilómetros. Tampoco me gusta el frío. En conclusión, creo que es una buena idea para las familias, pero yo echaría de menos a mis amigos.*\n\nPoints vérifiés : informations exactes tirées du texte ; avantages et inconvénients introduits par *lo bueno es que / lo malo es que* ; négations (*no hay ningún, tampoco*) ; connecteurs (*además, pero, en conclusión*) ; conditionnel (*me gustaría, echaría de menos*)." }
+      ]
     }
   ]
 };

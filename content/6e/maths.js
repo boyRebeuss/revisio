@@ -1270,10 +1270,25 @@ Sur une horloge à aiguilles, la petite aiguille indique les heures, la grande l
 >! 2 h 15 min = 2 × 60 min + 15 min = 120 + 15 = **135 min**.
 >! 200 min : 200 = 3 × 60 + 20, donc 200 min = **3 h 20 min**.
 
-**Heures décimales** (comme sur une calculatrice) :
+## Heures décimales et heures-minutes
+Une calculatrice, un tableur ou une application de sport écrivent souvent les durées en **heures décimales** : 1,5 h ; 2,75 h… Il faut savoir passer d'une écriture à l'autre.
+
+**Des heures décimales vers les heures et minutes** : on garde le nombre entier d'heures, et on **multiplie la partie décimale par 60** pour obtenir les minutes.
 >! 1,5 h = 1 h + 0,5 h = 1 h + la moitié de 60 min = **1 h 30 min**.
 >! 0,25 h = un quart d'heure = **15 min** ; 0,1 h = 60 ÷ 10 = **6 min**.
+>! 3,7 h = 3 h + 0,7 × 60 min = 3 h + 42 min = **3 h 42 min**.
+
+**Des heures et minutes vers les heures décimales** : on **divise les minutes par 60** (ou on cherche la fraction d'heure).
 >! 2 h 12 min : 12 min = 12/60 h = 0,2 h, donc 2 h 12 min = **2,2 h**.
+>! 1 h 45 min : 45 min = trois quarts d'heure = 0,75 h, donc 1 h 45 min = **1,75 h**.
+
+| Heures décimales | 0,1 h | 0,2 h | 0,25 h | 0,5 h | 0,75 h |
+|---|---|---|---|---|---|
+| Minutes | 6 min | 12 min | 15 min | 30 min | 45 min |
+
+**Erreur fréquente** : lire 1,45 h comme « 1 h 45 min ». En réalité 0,45 h = 0,45 × 60 = 27 min, donc **1,45 h = 1 h 27 min**. Les chiffres après la virgule ne sont **pas** des minutes.
+
+Certaines durées ne tombent pas juste : 20 min = 1/3 h ≈ 0,33 h. Dans ce cas, garde plutôt l'écriture en heures et minutes.
 
 ## Calculer une durée entre deux horaires
 On avance « par étapes » jusqu'à une heure ronde.
@@ -1292,6 +1307,7 @@ Si tu poses l'addition, pense à convertir : 20 h 45 + 1 h 50 = 21 h 95 min = 21
 > - 1 j = 24 h ; 1 h = 60 min ; 1 min = 60 s ; 1 h = 3 600 s.
 > - Un quart d'heure = 15 min, une demi-heure = 30 min, trois quarts d'heure = 45 min.
 > - 0,5 h = 30 min ; 0,25 h = 15 min ; 0,1 h = 6 min.
+> - Heures décimales → minutes : partie décimale × 60 ; minutes → heures décimales : minutes ÷ 60.
 > - Pour une durée entre deux horaires, on avance par étapes jusqu'aux heures rondes.
 `,
       exercices: [
@@ -1361,6 +1377,57 @@ Durée de l'aller : 1 h 48 min + 8 min = **1 h 56 min**.
 
 3) 1 h 56 min + 2 h 07 min = 3 h 63 min.
 Or 63 min = 1 h 3 min, donc 3 h 63 min = **4 h 03 min**.`,
+        },
+        {
+          type: "saisie",
+          question: "Convertis 2,75 h en heures et minutes.",
+          reponses: ["2 h 45 min", "2 h 45", "2h45", "2h45min", "2 h 45 minutes", "2 heures 45 minutes", "2 heures 45", "2 heures et 45 minutes", "2 h et 45 min", "2 heures et 45", "2h45mn", "2 h 45 mn"],
+          explication: "On garde les 2 heures entières, puis 0,75 h = 0,75 × 60 min = 45 min (trois quarts d'heure). Donc 2,75 h = 2 h 45 min.",
+        },
+        {
+          type: "qcm",
+          question: "La calculatrice indique qu'un trajet dure 1,45 h. Combien de temps dure ce trajet ?",
+          choix: ["1 h 45 min", "2 h 25 min", "1 h 4,5 min", "1 h 27 min"],
+          reponse: 3,
+          explication: "0,45 h = 0,45 × 60 min = 27 min, donc 1,45 h = 1 h 27 min. Le piège est de lire les chiffres après la virgule comme des minutes : 1 h 45 min s'écrirait 1,75 h.",
+        },
+        {
+          type: "vf",
+          question: "0,4 h = 24 min",
+          reponse: true,
+          explication: "Vrai : 0,4 × 60 = 24. (Autre façon : 0,1 h = 6 min, donc 0,4 h = 4 × 6 = 24 min.)",
+        },
+        {
+          type: "saisie",
+          question: "Écris 3 h 18 min en heures décimales.",
+          reponses: ["3,3", "3,3 h"],
+          explication: "18 min = 18/60 h = 0,3 h (car 0,3 × 60 = 18). Donc 3 h 18 min = 3,3 h.",
+        },
+        {
+          type: "vf",
+          question: "2 h 20 min s'écrit 2,2 h en heures décimales.",
+          reponse: false,
+          explication: "Faux : 2,2 h = 2 h + 0,2 × 60 min = 2 h 12 min. Et 20 min, c'est un tiers d'heure : 2 h 20 min ≈ 2,33 h (ce nombre ne tombe pas juste).",
+        },
+        {
+          type: "saisie",
+          question: "La batterie d'un vélo électrique se recharge complètement en 4,2 h. Combien cela fait-il de minutes en tout ?",
+          reponses: ["252", "252 min"],
+          explication: "4,2 h = 4,2 × 60 min = 252 min (soit 4 h 12 min : 4 × 60 = 240 min, plus 0,2 × 60 = 12 min).",
+        },
+        {
+          type: "redaction",
+          question: "Jade, animatrice dans un centre de loisirs, a travaillé 2 h 45 min mardi et 1 h 30 min jeudi. Elle est payée 10 € de l'heure (données fictives).\n1) Écris chacune de ces deux durées en heures décimales.\n2) Calcule la durée totale en heures décimales, puis en heures et minutes.\n3) Combien Jade gagne-t-elle pour ces deux jours ?\n4) Son petit frère calcule 2,45 + 1,30 = 3,75 h. Explique son erreur.",
+          corrige: `1) Mardi : 45 min = 3/4 h = 0,75 h, donc 2 h 45 min = **2,75 h**.
+Jeudi : 30 min = 1/2 h = 0,5 h, donc 1 h 30 min = **1,5 h**.
+
+2) Durée totale : 2,75 + 1,5 = **4,25 h**.
+0,25 h = 0,25 × 60 min = 15 min, donc 4,25 h = **4 h 15 min**.
+(Vérification en heures et minutes : 2 h 45 min + 1 h 30 min = 3 h 75 min = 4 h 15 min.)
+
+3) Le salaire est proportionnel à la durée : 4,25 × 10 = **42,50 €**.
+
+4) Il a écrit les minutes après la virgule, comme si une heure comptait 100 minutes. Or 2,45 h = 2 h 27 min et 1,30 h = 1 h 18 min : ce ne sont pas les durées de Jade. Avant de calculer avec des heures décimales, il faut **convertir les minutes en fraction d'heure** (minutes ÷ 60).`,
         },
       ],
     },
@@ -2097,13 +2164,50 @@ Un **tableau à double entrée** croise deux informations : par exemple le sport
 - La population interrogée est-elle assez grande ? Une enquête sur 5 personnes ne permet pas de conclure pour tout un pays.
 - L'échelle d'un graphique peut exagérer une différence : regarde toujours les nombres.
 
+## Travailler sur des données réelles
+Dans beaucoup d'exercices, les données sont inventées pour l'occasion : on écrit alors « **données fictives** ». Mais on peut aussi travailler sur des **données réelles**, publiées par un organisme qui les a mesurées ou comptées (un institut de statistiques, une agence spatiale, un comité sportif…). On indique toujours :
+- la **source** : qui a produit les données ;
+- la **date** : à quel moment elles ont été relevées (une population, un record ou un classement changent avec le temps).
+
+>! **Exemple (données réelles ; source : Comité international olympique)** : aux Jeux olympiques de Paris 2024, la France a remporté **64 médailles**, dont 16 en or. Aux Jeux précédents, ceux de Tokyo (Jeux de 2020, disputés en 2021), elle en avait remporté **33**, dont 10 en or.
+>! Comparaison : 64 − 33 = 31 médailles de plus ; et 2 × 33 = 66, donc la France a presque **doublé** son nombre de médailles.
+
+Avec des données réelles, les nombres sont souvent grands ou « peu ronds » : pense aux **arrondis** et aux **ordres de grandeur** pour comparer.
+
 > **À retenir**
 > - Une enquête : question, recueil, tableau, représentation, interprétation.
 > - Effectif = nombre de fois qu'une catégorie apparaît ; effectif total = somme des effectifs.
 > - Filtrer = garder les données qui respectent un critère.
 > - Barres : comparer ; circulaire : parts d'un tout ; courbe : évolution.
 > - Toujours vérifier l'échelle et la source.
+> - Données réelles : on cite la source et la date.
 `,
+      textes: {
+        jo2024: `**Jeux olympiques de Paris 2024 : les cinq premiers pays du tableau des médailles**
+Données réelles. Source : Comité international olympique, résultats officiels (août 2024).
+
+| Rang | Pays | Or | Argent | Bronze |
+|---|---|---|---|---|
+| 1 | États-Unis | 40 | 44 | 42 |
+| 2 | Chine | 40 | 27 | 24 |
+| 3 | Japon | 20 | 12 | 13 |
+| 4 | Australie | 18 | 19 | 16 |
+| 5 | France | 16 | 26 | 22 |
+
+Les pays sont classés d'abord selon leur nombre de médailles d'or ; en cas d'égalité, selon leur nombre de médailles d'argent.`,
+        planetes: `**Diamètres de quelques astres du système solaire**
+Données réelles. Source : NASA, *Planetary Fact Sheet* (fiche de données sur les planètes).
+
+| Astre | Diamètre (km) |
+|---|---|
+| Mercure | 4 879 |
+| Vénus | 12 104 |
+| Terre | 12 756 |
+| Lune | 3 475 |
+| Mars | 6 792 |
+| Jupiter | 142 984 |
+| Saturne | 120 536 |`,
+      },
       exercices: [
         {
           type: "saisie",
@@ -2177,6 +2281,70 @@ Total : 14 + 9 + 6 + 17 + 14 = **60 livres**.
 3) Plus de 10 livres : **lundi, jeudi et vendredi**.
 
 4) **Non** : on n'a les données que d'**une seule semaine**. Le mercredi a été le jour le plus faible cette semaine-là, mais pour dire « toujours », il faudrait relever les emprunts pendant de nombreuses semaines.`,
+        },
+        {
+          type: "saisie",
+          texte: "jo2024",
+          question: "Combien de médailles la France a-t-elle remportées en tout aux Jeux de Paris 2024 ?",
+          reponses: ["64", "64 médailles"],
+          explication: "On additionne les trois sortes de médailles : 16 + 26 + 22 = 64 médailles.",
+        },
+        {
+          type: "qcm",
+          texte: "jo2024",
+          question: "Lequel de ces pays a remporté le plus de médailles d'argent ?",
+          choix: ["la Chine", "la France", "les États-Unis", "l'Australie"],
+          reponse: 2,
+          explication: "On lit la colonne « Argent » : États-Unis 44, Chine 27, France 26, Australie 19. Les États-Unis en ont le plus. Attention : la France, 5e du classement, a pourtant plus de médailles d'argent que le Japon et l'Australie.",
+        },
+        {
+          type: "vf",
+          texte: "jo2024",
+          question: "Le Japon est classé devant l'Australie, mais l'Australie a remporté plus de médailles en tout que le Japon.",
+          reponse: true,
+          explication: "Vrai : Japon 20 + 12 + 13 = 45 médailles ; Australie 18 + 19 + 16 = 53 médailles. Le Japon est pourtant devant, car le classement se fait d'abord sur les médailles d'or (20 contre 18).",
+        },
+        {
+          type: "saisie",
+          texte: "jo2024",
+          question: "Combien de ces cinq pays ont remporté plus de 20 médailles de bronze ?",
+          reponses: ["3", "3 pays"],
+          explication: "On filtre la colonne « Bronze » avec le critère « plus de 20 » : États-Unis (42), Chine (24) et France (22). Le Japon (13) et l'Australie (16) ne conviennent pas. Cela fait 3 pays.",
+        },
+        {
+          type: "saisie",
+          texte: "jo2024",
+          question: "Quel pourcentage des médailles remportées par la France sont des médailles d'or ?",
+          reponses: ["25 %", "25"],
+          explication: "La France a 16 médailles d'or sur 64 médailles en tout : 16/64 = 1/4 = 25/100 = 25 %. Un quart de ses médailles sont en or.",
+        },
+        {
+          type: "qcm",
+          texte: "planetes",
+          question: "Quel astre a un diamètre à peu près deux fois plus petit que celui de la Terre ?",
+          choix: ["Mars", "Vénus", "la Lune", "Mercure"],
+          reponse: 0,
+          explication: "La Terre mesure 12 756 km de diamètre ; sa moitié est environ 6 400 km. Mars (6 792 km) est le plus proche : 2 × 6 792 = 13 584 km, presque le diamètre de la Terre. Vénus a presque la même taille que la Terre ; la Lune et Mercure sont bien plus petites.",
+        },
+        {
+          type: "saisie",
+          texte: "planetes",
+          question: "Arrondis le diamètre de Jupiter au millier de kilomètres.",
+          reponses: ["143 000", "143 000 km"],
+          explication: "142 984 km : on regarde le chiffre des centaines, 9, qui est 5 ou plus. On augmente le chiffre des milliers : 142 984 ≈ 143 000 km.",
+        },
+        {
+          type: "redaction",
+          texte: "planetes",
+          question: "1) Range ces astres du plus petit au plus grand diamètre.\n2) Combien de fois environ le diamètre de Jupiter est-il plus grand que celui de la Terre ? Utilise des ordres de grandeur.\n3) Tom veut tracer un diagramme en barres de ces diamètres avec 1 cm pour 1 000 km. Est-ce une bonne idée ? Propose une meilleure échelle et donne la hauteur des barres de la Terre et de Jupiter.\n4) Pourquoi est-il important que la source des données soit indiquée ?",
+          corrige: `1) Lune (3 475 km) < Mercure (4 879 km) < Mars (6 792 km) < Vénus (12 104 km) < Terre (12 756 km) < Saturne (120 536 km) < Jupiter (142 984 km).
+
+2) Ordres de grandeur : Jupiter ≈ 140 000 km et Terre ≈ 13 000 km. 13 000 × 10 = 130 000 et 13 000 × 11 = 143 000 : le diamètre de Jupiter est **environ 11 fois** plus grand que celui de la Terre.
+
+3) Avec 1 cm pour 1 000 km, la barre de Jupiter mesurerait environ 143 cm : elle ne tiendrait pas sur une feuille. Ce n'est **pas une bonne idée**.
+Avec **1 cm pour 10 000 km**, la barre de Jupiter mesure environ **14,3 cm** et celle de la Terre environ **1,3 cm** (12 756 ÷ 10 000 ≈ 1,28). Le diagramme tient sur la feuille et montre bien que Jupiter et Saturne sont des géantes à côté des autres astres.
+
+4) La source permet de savoir **qui a mesuré** les données et si on peut leur faire **confiance** (ici la NASA, une agence spatiale). Sans source, on ne sait pas si les nombres sont réels, inventés ou recopiés avec des erreurs.`,
         },
       ],
     },
@@ -2347,11 +2515,30 @@ Sur un plan ou une carte, les longueurs sont **proportionnelles** aux longueurs 
 >! **Échelle 1/100** : 1 cm sur le plan représente 100 cm, soit 1 m, en réalité. Un mur de 4,5 cm sur le plan mesure 4,5 m en vrai.
 >! **Échelle 1/25 000** : 1 cm sur la carte représente 25 000 cm = 250 m en réalité. 6 cm sur la carte représentent 6 × 250 = 1 500 m = **1,5 km**.
 
+## L'échelle graphique
+Sur beaucoup de cartes et de plans (cartes de randonnée, plans de ville, atlas, applications de cartes), l'échelle n'est pas écrite avec une fraction : elle est **dessinée**. C'est un petit segment, avec la distance réelle qu'il représente écrite à côté. On l'appelle une **échelle graphique**.
+
+~~~
+0                1 km
+├────────────────┤
+~~~
+
+Pour l'utiliser, on **mesure le segment avec la règle**. Par exemple, sur une carte de randonnée à l'échelle 1/25 000, le segment qui représente 1 km mesure **4 cm**.
+
+>! **Exemple** : sur une carte, le segment de l'échelle graphique mesure 4 cm et représente 1 km. Sur la carte, le refuge est à 10 cm du parking.
+>! Les distances réelles sont proportionnelles aux distances sur la carte. On passe par 1 cm : 1 cm représente 1 km ÷ 4 = 1 000 m ÷ 4 = 250 m.
+>! 10 cm représentent donc 10 × 250 m = 2 500 m = **2,5 km**.
+
+>! **Retrouver l'échelle écrite en fraction** : 4 cm représentent 1 km = 100 000 cm, donc 1 cm représente 100 000 ÷ 4 = 25 000 cm. L'échelle est **1/25 000**. Attention : avant de diviser, il faut exprimer les deux longueurs **dans la même unité**.
+
+**Pourquoi une échelle dessinée ?** Si on agrandit ou réduit la carte (photocopie, zoom sur un écran), le segment de l'échelle graphique est agrandi ou réduit **en même temps** que la carte : il reste juste. Une échelle écrite comme 1/25 000, elle, devient fausse.
+
 > **À retenir**
 > - Proportionnel : on passe d'une grandeur à l'autre en multipliant toujours par le même nombre.
 > - « Prix au kilo », « par minute »… signalent souvent une proportionnalité.
 > - Méthodes : multiplier (2 fois plus…), additionner, passer par l'unité.
 > - Échelle 1/100 : 1 cm sur le plan = 100 cm en réalité.
+> - Échelle graphique : on mesure le segment dessiné, on cherche ce que représente 1 cm, puis on multiplie.
 `,
       exercices: [
         {
@@ -2424,6 +2611,52 @@ Sur un plan ou une carte, les longueurs sont **proportionnelles** aux longueurs 
 Autre méthode : 2,5 × 600 = 1 500 g.
 
 3) 900 g = 600 g + 300 g : cela correspond à 1 kg + 0,5 kg de fruits, soit **1,5 kg de fruits**.`,
+        },
+        {
+          type: "qcm",
+          question: "Sur le plan d'un collège, l'échelle graphique est un segment de 3 cm sous lequel est écrit « 30 m ». Que représente 1 cm sur ce plan ?",
+          choix: ["30 m", "3 m", "90 m", "10 m"],
+          reponse: 3,
+          explication: "3 cm représentent 30 m, donc 1 cm représente 3 fois moins : 30 ÷ 3 = 10 m. (90 m viendrait d'une multiplication au lieu d'une division.)",
+        },
+        {
+          type: "saisie",
+          question: "Sur un plan de ville, l'échelle graphique indique qu'un segment de 2 cm représente 500 m. Sur le plan, la gare est à 9 cm du stade. Quelle est la distance réelle, en mètres ?",
+          reponses: ["2 250", "2 250 m", "2 250 mètres"],
+          explication: "1 cm représente 500 ÷ 2 = 250 m. 9 cm représentent donc 9 × 250 = 2 250 m (soit 2,25 km).",
+        },
+        {
+          type: "qcm",
+          question: "Sur une carte, l'échelle graphique indique que 1 cm représente 2 km. Sur la carte, un trajet mesure 4,5 cm. Quelle est sa longueur réelle ?",
+          choix: ["4,5 km", "9 km", "2,25 km", "90 km"],
+          reponse: 1,
+          explication: "Chaque centimètre représente 2 km : 4,5 × 2 = 9 km. (2,25 km viendrait d'une division au lieu d'une multiplication.)",
+        },
+        {
+          type: "saisie",
+          question: "Sur une carte, le segment de l'échelle graphique mesure 5 cm et représente 1 km. Écris l'échelle de cette carte sous forme de fraction (comme 1/100).",
+          reponses: ["1/20 000", "1 sur 20 000"],
+          explication: "On écrit les deux longueurs dans la même unité : 1 km = 100 000 cm. 5 cm représentent 100 000 cm, donc 1 cm représente 100 000 ÷ 5 = 20 000 cm. L'échelle est 1/20 000.",
+        },
+        {
+          type: "vf",
+          question: "On photocopie une carte en l'agrandissant. L'échelle graphique dessinée sur la carte reste juste sur la photocopie.",
+          reponse: true,
+          explication: "Vrai : le segment de l'échelle graphique est agrandi exactement comme le reste de la carte, il représente toujours la même distance réelle. En revanche, une échelle écrite en fraction (par exemple 1/25 000) n'est plus juste sur la photocopie agrandie.",
+        },
+        {
+          type: "redaction",
+          question: "Sur le plan d'un parc, l'échelle graphique est un segment de 2 cm sous lequel est écrit « 40 m ».\n1) Que représente 1 cm sur ce plan ?\n2) Sur le plan, une allée mesure 7,5 cm. Quelle est sa longueur réelle ?\n3) Le bassin du parc mesure 50 m de long en réalité. Quelle est sa longueur sur le plan ?\n4) Écris l'échelle du plan sous forme de fraction.\n5) On photocopie le plan en doublant toutes ses longueurs. Combien mesure maintenant le segment de l'échelle graphique, et quelle distance représente-t-il ? L'échelle de la question 4 est-elle encore juste ?",
+          corrige: `1) 2 cm représentent 40 m, donc 1 cm représente 40 ÷ 2 = **20 m**.
+
+2) 7,5 cm représentent 7,5 × 20 = **150 m**.
+
+3) Chaque centimètre du plan représente 20 m. Pour 50 m, il faut 50 ÷ 20 = **2,5 cm** sur le plan.
+
+4) 1 cm représente 20 m = 2 000 cm. L'échelle est **1/2 000**.
+
+5) Sur la photocopie, le segment mesure 2 × 2 = **4 cm**, et il représente **toujours 40 m** : l'échelle graphique reste juste.
+En revanche, 1 cm représente maintenant 40 ÷ 4 = 10 m = 1 000 cm : l'échelle de la photocopie est 1/1 000. L'échelle **1/2 000 n'est plus juste** sur la photocopie. C'est l'avantage de l'échelle graphique.`,
         },
       ],
     },

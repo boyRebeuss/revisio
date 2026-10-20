@@ -548,56 +548,33 @@ Points vérifiés :
       theme: "Vocabulaire",
       cours: `
 ## La maison (the house)
-- *a house* (une maison), *a flat* (un appartement ; *an apartment* aux États-Unis)
-- les pièces : *a bedroom* (chambre), *a living room* (salon), *a kitchen* (cuisine), *a bathroom* (salle de bains), *the toilet*
-- *a garden* (jardin), *a door* (porte), *a window* (fenêtre), *a wall* (mur), *the stairs* (l'escalier)
+*a house* (maison), *a flat* (appartement ; *an apartment* aux États-Unis). Les pièces : *a bedroom* (chambre), *a living room* (salon), *a kitchen* (cuisine), *a bathroom* (salle de bains). Et aussi : *a garden* (jardin), *a door* (porte), *a window* (fenêtre), *a wall* (mur).
 
 ## Situer un objet : les prépositions de lieu
-| Préposition | Sens | Exemple |
-|---|---|---|
-| *in* | dans | *The ball is in the box.* |
-| *on* | sur (en contact) | *The book is on the table.* |
-| *under* | sous | *The cat is under the bed.* |
-| *above / over* | au-dessus de | *The lamp is above the desk.* |
-| *next to* | à côté de | *The chair is next to the window.* |
-| *between* | entre | *The sofa is between the two lamps.* |
-| *in front of* | devant | *The bike is in front of the house.* |
-| *behind* | derrière | *The garden is behind the house.* |
+*in* (dans), *on* (sur), *under* (sous), *above / over* (au-dessus de), *next to* (à côté de), *between* (entre), *in front of* (devant), *behind* (derrière).
 
->! *Where's my phone? — It's on your desk, next to your pencil case.*
+>! *Where's my phone? — It's on your desk, next to your pencil case. The cat is under the bed, between the two chairs.*
 
 ## La journée (daily routine)
-*to wake up* (se réveiller), *to get up* (se lever), *to have a shower* (se doucher), *to brush one's teeth* (se brosser les dents), *to have breakfast* (prendre le petit-déjeuner), *to go to school*, *to have lunch* (déjeuner), *to do one's homework* (faire ses devoirs), *to have dinner* (dîner), *to go to bed* (se coucher), *to sleep* (dormir).
+*to wake up* (se réveiller), *to get up* (se lever), *to have a shower* (se doucher), *to brush one's teeth* (se brosser les dents), *to go to school*, *to do one's homework* (faire ses devoirs), *to go to bed* (se coucher).
 
 ## Les repas (meals)
-- *breakfast* (petit-déjeuner), *lunch* (déjeuner), *dinner* (dîner)
-- *I'm hungry* (j'ai faim), *I'm thirsty* (j'ai soif) ; *I'd like some water, please.* (je voudrais)
-- *meat* (viande), *fish* (poisson), *bread* (pain), *cheese* (fromage), *eggs*, *milk* (lait), *water*, *sugar* (sucre), *a cake* (gâteau)
-- légumes (*vegetables*) : *a tomato, a cucumber* (concombre), *a carrot, a potato*
-- fruits (*fruit*) : *an apple, a pear* (poire), *an apricot* (abricot), *a pineapple* (ananas), *a banana, a strawberry* (fraise)
+- **have** + repas, sans article : *have breakfast* (petit-déjeuner), *have lunch* (déjeuner), *have dinner* (dîner).
+- *I'm hungry* (j'ai faim), *I'm thirsty* (j'ai soif) ; *meat, fish, bread, cheese, cake, sugar*.
+- *vegetables* (légumes) : *a tomato, a cucumber, a carrot* ; *fruit* : *an apple, a pear* (poire), *an apricot* (abricot), *a pineapple* (ananas).
 
-## Les loisirs et les sports
-- lieux : *the cinema, the swimming pool* (piscine), *the stadium, the gym* (salle de sport), *the skating rink* (patinoire), *the park, the library* (bibliothèque)
-- activités : *reading* (lire), *dancing, singing* (chanter), *drawing* (dessiner), *horse-riding* (équitation), *listening to music*
-- **play** + sport, **sans article** : *I play football / tennis / basketball.*
-- **play the** + instrument : *I play the piano / the guitar / the drums.*
-- **go** + activité en -ing : *I go swimming / go horse-riding.*
-- moments : *after school, at the weekend, on Wednesdays, every week*
+## Les loisirs, les sports et les jeux
+- lieux : *the cinema, the swimming pool* (piscine), *the stadium, the gym, the skating rink* (patinoire), *the library* (bibliothèque).
+- **play** + sport, **sans article** : *I play football.* — **play the** + instrument : *I play the piano / the guitar.* — **go** + -ing : *I go swimming.*
+- jeux : *a board game* (jeu de société), *cards, dice* (dés), *a player*, *It's your turn!* (c'est ton tour !), *to win* (gagner), *to lose* (perdre).
 
-## Les jeux (games)
-*a board game* (jeu de société), *cards* (cartes), *dice* (dés), *a player* (joueur), *It's your turn!* (c'est ton tour !), *to start* (commencer), *to win* (gagner), *to lose* (perdre).
+## Les animaux et les métiers
+- *a dog, a cat, a rabbit* (lapin), *a guinea pig* (cochon d'Inde), *a horse, a mouse / two mice* ; à la ferme : *a cow, a pig, a sheep / two sheep, a hen* (poule) ; sauvages : *a fox* (renard), *an owl* (hibou), *a snake, a spider* (araignée).
+- *a teacher, a doctor* (médecin), *a dentist, a vet* (vétérinaire), *a pilot, a driver, an engineer, a farmer* (agriculteur), *a police officer, an actor / an actress*.
 
-## Les animaux (animals)
-- domestiques : *a dog, a cat, a rabbit* (lapin), *a hamster, a guinea pig* (cochon d'Inde), *a horse* (cheval), *a mouse / two mice* (souris)
-- de la ferme : *a cow* (vache), *a pig* (cochon), *a sheep / two sheep* (mouton), *a hen* (poule), *a chicken*
-- sauvages : *a fox* (renard), *an owl* (hibou, chouette), *a snake* (serpent), *a lion, a tiger, a zebra* (zèbre), *a spider* (araignée)
+Attention : devant un métier, l'anglais met **a / an** : *She's a doctor.* (Elle est médecin.)
 
-## Les métiers (jobs)
-*a teacher, a doctor* (médecin), *a dentist, a vet* (vétérinaire ; le mot complet est *a veterinary surgeon* au Royaume-Uni, *a veterinarian* aux États-Unis), *a pilot, a driver* (conducteur), *an engineer* (ingénieur), *a farmer* (agriculteur), *a police officer / a policeman*, *an actor / an actress*, *a singer*.
-
-Attention : en anglais, on met **a / an** devant le métier : *She's a doctor.* (Elle est médecin.) *I want to be a vet.*
-
-> **À retenir** : prépositions de lieu *in, on, under, next to, between, in front of, behind*. *play football* (sport, sans article) mais *play the piano* (instrument). *have breakfast / lunch / dinner*. Devant un métier : *a / an* (*He's an engineer*).
+> **À retenir** : prépositions de lieu *in, on, under, next to, between, in front of, behind*. *have breakfast / lunch / dinner*. *play football* (sport, sans article) mais *play the piano* (instrument). Devant un métier : *a / an* (*He's an engineer*).
 `,
       exercices: [
         { type: "qcm", question: "Dans quelle pièce prépare-t-on les repas ?", choix: ["the kitchen", "the bathroom", "the bedroom", "the garden"], reponse: 0, explication: "La cuisine se dit **the kitchen**. *Bathroom* = salle de bains, *bedroom* = chambre, *garden* = jardin." },
@@ -826,47 +803,26 @@ Points vérifiés :
       cours: `
 > Ce chapitre couvre les **axes 1 (Personnes et personnages)** et **2 (Le quotidien : vivre, jouer, apprendre)** du programme de 6e.
 
-## Axe 1 : des personnages célèbres du monde anglophone
-### Paddington, l'ours de Londres
-**Paddington** est un ourson créé par l'écrivain britannique **Michael Bond** en **1958** (*A Bear Called Paddington*). Il arrive du **Pérou** (*darkest Peru*) et la famille **Brown** le trouve à la **gare de Paddington**, à Londres, avec une étiquette : *Please look after this bear. Thank you.* (Merci de prendre soin de cet ours.) Il porte un chapeau et un duffle-coat, et il adore les **sandwichs à la marmelade d'orange**.
+## Axe 1 : des personnages célèbres
+- **Paddington** : un ourson créé par le Britannique **Michael Bond** en **1958**. Venu du **Pérou** (*darkest Peru*), il est trouvé par la famille **Brown** à la **gare de Paddington**, à Londres, avec une étiquette : *Please look after this bear. Thank you.* Il adore les sandwichs à la marmelade d'orange.
+- **Diary of a Wimpy Kid** (*Journal d'un dégonflé*, **Jeff Kinney**, 2007) : Greg Heffley raconte sa vie de collégien dans son journal… en répétant que ce n'est pas un *diary* (journal intime) mais un *journal* !
+- **The Jungle Book** (**Rudyard Kipling**, 1894) : Mowgli, élevé par des loups en Inde ; l'ours **Baloo** lui apprend la loi de la jungle, la panthère **Bagheera** le protège, le tigre **Shere Khan** veut le tuer.
+- **Charlotte's Web** (**E. B. White**, 1952) : l'araignée **Charlotte** sauve le cochon **Wilbur** en écrivant des mots dans sa toile (*SOME PIG*).
+- Costumes : à **Halloween** (31 octobre), on se déguise (*dress up*) ; en Écosse, on porte le **kilt** en tartan pour les fêtes.
 
-### Des familles de fiction
-- **The Simpsons** : une famille américaine de dessin animé (série créée par **Matt Groening**, diffusée depuis **1989**), qui vit dans la ville imaginaire de Springfield : Homer, Marge et leurs enfants Bart, Lisa et Maggie.
-- **Diary of a Wimpy Kid** (*Journal d'un dégonflé*, de l'Américain **Jeff Kinney**, 2007) : Greg Heffley, un collégien, raconte sa vie au *middle school* dans son journal… même s'il répète que ce n'est pas un *diary* (journal intime) mais un *journal* !
+## Axe 2 : l'école au Royaume-Uni et aux États-Unis
+| | Royaume-Uni | États-Unis |
+|---|---|---|
+| la 6e | **Year 7**, 1re année de *secondary school* | **sixth grade**, souvent 1re année de *middle school* |
+| à l'école | un **uniforme** (*blazer, jumper, shirt, tie*) | le **bus scolaire jaune**, des **casiers** (*lockers*) |
+| le midi | un **packed lunch** (repas froid dans une *lunch box*) ou un *school dinner* | la cafétéria |
+| les vacances d'été | environ six semaines | environ **deux mois et demi** (juin à fin août), souvent un **summer camp** |
 
-### Des animaux qui donnent des leçons de vie
-- **The Jungle Book** (*Le Livre de la jungle*, **Rudyard Kipling**, 1894) : Mowgli, un petit garçon élevé par des loups en Inde. L'ours **Baloo** lui apprend la loi de la jungle, la panthère **Bagheera** le protège, le tigre **Shere Khan** veut le tuer.
-- **Charlotte's Web** (*Le Petit Monde de Charlotte*, **E. B. White**, 1952) : l'araignée **Charlotte** sauve le cochon **Wilbur** en écrivant des mots dans sa toile, comme *SOME PIG*. Une belle histoire d'amitié.
+Au Royaume-Uni, la journée va souvent de 8 h 45 à 15 h 15 - 15 h 30 ; beaucoup d'écoles sont divisées en **houses** qui gagnent des points, comme à Poudlard.
 
-### Masques et costumes
-- À **Halloween** (31 octobre), les enfants se déguisent (*dress up*) en sorcières, fantômes ou monstres.
-- En Écosse, le **kilt** en tissu écossais (*tartan*) est porté pour les mariages, les fêtes et les *Highland Games*.
-- À Londres, le **carnaval de Notting Hill** (fin août), créé dans les années 1960 par la communauté venue des Caraïbes, est célèbre pour ses costumes colorés.
-
-## Axe 2 : vivre, jouer, apprendre
-### L'école au Royaume-Uni
-- En Angleterre, la 6e correspond à **Year 7**, la première année de *secondary school* (11-12 ans).
-- La plupart des élèves portent un **uniforme** (*school uniform*) : *a blazer, a jumper, a shirt, a tie* (cravate).
-- La journée commence souvent vers 8 h 45 et finit vers 15 h 15 - 15 h 30. Il y a parfois une **assembly** (réunion de toute l'école) le matin.
-- Le midi, on apporte un **packed lunch** (repas froid dans une *lunch box*) ou on mange un *school dinner* à la cantine.
-- Beaucoup d'écoles sont divisées en **houses** (maisons) qui gagnent des points, comme à Poudlard.
-
-### L'école aux États-Unis
-- La 6e correspond à **sixth grade**, souvent la première année de **middle school**.
-- Beaucoup d'élèves prennent le célèbre **bus scolaire jaune** (*the yellow school bus*) et rangent leurs affaires dans des **casiers** (*lockers*).
-- Les grandes vacances (*summer vacation*) sont longues : environ **deux mois et demi**, souvent de juin à fin août. Beaucoup d'enfants partent en **summer camp** (colonie de vacances).
-
-### Les lieux de vie
-Au Royaume-Uni, beaucoup de familles vivent dans des *terraced houses* (maisons alignées et collées les unes aux autres) ou des *semi-detached houses* (maisons jumelées), avec un petit jardin derrière. Aux États-Unis, beaucoup vivent dans les *suburbs* (banlieues résidentielles), dans une maison avec un *yard* (jardin) et un *porch* (véranda).
-
-### Les sports
-| Pays | Sports populaires |
-|---|---|
-| Royaume-Uni | *football*, *rugby*, *cricket* (sport d'été avec une batte) |
-| États-Unis | *baseball*, *basketball*, *American football* (finale : le *Super Bowl*), *soccer* (= notre football) |
-| Irlande | *Gaelic football*, *hurling* (sports gaéliques traditionnels) |
-| Écosse | les *Highland Games* : lancer de tronc (*caber toss*), cornemuse, danses |
-| Canada | *ice hockey* |
+## Les maisons et les sports
+- Au Royaume-Uni : des *terraced houses* (maisons collées en rangée) et des *semi-detached houses* (maisons jumelées) ; aux États-Unis, des maisons avec un *yard* (jardin) dans les *suburbs* (banlieues).
+- Royaume-Uni : *football, rugby, cricket* (avec une batte) — États-Unis : *baseball* (avec une batte), *basketball*, *American football*, *soccer* (= notre football) — Irlande : *Gaelic football, hurling* — Canada : *ice hockey*.
 
 > **À retenir** : Paddington (Michael Bond, 1958) vient du Pérou ; Mowgli, Baloo et Bagheera viennent du *Jungle Book* de Kipling. 6e = **Year 7** en Angleterre, **sixth grade** aux États-Unis. Uniforme et *packed lunch* au Royaume-Uni ; bus jaune, *lockers* et longues vacances aux États-Unis. *Soccer* = football en anglais américain.
 `,
@@ -1038,40 +994,35 @@ Points vérifiés :
       cours: `
 ## Dire ce que l'on ressent devant une œuvre
 - *In this picture, I can see a boy and a dog.* (Sur cette image, je vois...)
-- *I like it / I love it / I don't like it / I hate it because it's...*
-- adjectifs : *beautiful, colourful* (coloré), *funny, sad, scary* (qui fait peur), *strange* (bizarre), *great, wonderful* (merveilleux), *boring* (ennuyeux)
+- *I like it / I love it / I don't like it because it's...* : *beautiful, colourful* (coloré), *funny, sad, scary* (qui fait peur), *strange* (bizarre), *wonderful, boring* (ennuyeux)
 - *It makes me happy / sad.* (Ça me rend heureux / triste.)
 
-## Regarder l'art autrement
-- **Banksy** est un artiste de rue (*street artist*) britannique **anonyme** : personne ne connaît officiellement son identité. Il peint au pochoir sur les murs, par exemple sa célèbre *Girl with Balloon* (une petite fille et un ballon rouge en forme de cœur).
-- L'Américain **Andy Warhol** (années 1960) est une figure du **pop art** : il a peint des boîtes de soupe et des portraits très colorés, répétés plusieurs fois.
-- Avec la **réalité augmentée** (*augmented reality*), une tablette ou un téléphone ajoute des images virtuelles sur ce que l'on voit : certains musées l'utilisent pour faire « bouger » des tableaux.
+Ne confonds pas *scary* (qui fait peur : *a scary film*) et *scared* (qui a peur : *I'm scared*).
 
-## Le pouvoir de la musique
-- La musique fait naître des émotions : *a happy song, a sad song, scary music* (une musique qui fait peur).
-- Les **Beatles**, groupe venu de **Liverpool**, ont été célèbres dans le monde entier dans les années 1960 (*Yellow Submarine*, *Hey Jude*).
-- Instruments : *play the piano / the guitar / the drums* (batterie) */ the violin / the bagpipes* (la cornemuse écossaise).
+## Des artistes et des musiciens
+- **Banksy** : un artiste de rue (*street artist*) britannique **anonyme**, qui peint au pochoir (*Girl with Balloon*).
+- **Andy Warhol** (États-Unis, années 1960) : le **pop art**, des boîtes de soupe et des portraits colorés répétés.
+- Les **Beatles**, groupe de **Liverpool**, célèbres dans le monde entier dans les années 1960 (*Yellow Submarine*, *Hey Jude*).
+- Instruments : *play the piano / the guitar / the drums* (batterie) */ the violin / the bagpipes* (cornemuse).
 
-## Les fêtes de fin d'année et leurs images
-| Fête | Date | Images et traditions |
+## Les fêtes de fin d'année
+| Fête | Date | Traditions |
 |---|---|---|
-| Thanksgiving (USA) | 4e jeudi de novembre | dinde (*turkey*), tarte à la citrouille (*pumpkin pie*), repas en famille |
-| Christmas Eve | 24 décembre | les enfants suspendent des **chaussettes** (*stockings*) pour Father Christmas / Santa Claus et ses rennes (*reindeer*) |
-| Christmas Day | 25 décembre | cadeaux (*presents*), *Christmas pudding*, *mince pies*, *crackers*, chants de Noël (*Christmas carols*) |
+| Thanksgiving (USA) | 4e jeudi de novembre | dinde (*turkey*), tarte à la citrouille, repas en famille |
+| Christmas Eve | 24 décembre | les enfants suspendent des chaussettes (*stockings*) pour Father Christmas / Santa Claus et ses rennes (*reindeer*) |
+| Christmas Day | 25 décembre | cadeaux (*presents*), *Christmas pudding*, *crackers*, chants (*Christmas carols*) |
 | Boxing Day (UK) | 26 décembre | jour férié : matchs de football, soldes |
-| New Year's Eve / Hogmanay (Écosse) | 31 décembre | à minuit, on chante *Auld Lang Syne*, un poème écossais de **Robert Burns** |
-| New Year's Day | 1er janvier | jour de l'An |
+| New Year's Eve / Hogmanay (Écosse) | 31 décembre | à minuit, on chante *Auld Lang Syne*, un poème de **Robert Burns** |
 
-- Un **Christmas cracker** est un tube de carton décoré que deux personnes tirent chacune d'un côté : il éclate avec un petit « pop ». Dedans : une **couronne en papier**, une **blague** et un **petit cadeau**.
-- Le premier **Christmas card** vendu dans le commerce a été imprimé à Londres en **1843**, à l'initiative de **Henry Cole**.
-- Chaque année depuis 1947, la ville d'**Oslo** (Norvège) offre le grand **sapin de Trafalgar Square**, à Londres, pour remercier les Britanniques de leur aide pendant la Seconde Guerre mondiale.
-- Une autre fête, au printemps : **St Patrick's Day** (17 mars), fête de l'Irlande : on s'habille en vert et on porte un trèfle.
+- Un **Christmas cracker** est un tube de carton que deux personnes tirent chacune d'un côté : il fait « pop » et libère une **couronne en papier**, une **blague** et un **petit cadeau**.
+- Depuis 1947, la ville d'**Oslo** (Norvège) offre chaque année le grand **sapin de Trafalgar Square**, à Londres, pour remercier les Britanniques de leur aide pendant la Seconde Guerre mondiale.
+- Au printemps, **St Patrick's Day** (17 mars) est la fête de l'Irlande : on s'habille en vert.
 
-## Supercalifragilisticexpialidocious : la musique des mots
-- Ce mot inventé de **34 lettres** vient de la chanson du film de Disney **Mary Poppins** (1964), avec l'actrice **Julie Andrews** ; le personnage vient des livres de **P. L. Travers** (1934). Dans le film, c'est le mot à dire « quand on ne sait pas quoi dire » ; il veut dire « super-génial ».
-- Pour travailler la musicalité de l'anglais, on aime les **virelangues** (*tongue twisters*) : *She sells seashells by the seashore.* — *Red lorry, yellow lorry.*
+## La musique des mots
+- *Supercalifragilisticexpialidocious*, mot inventé de **34 lettres**, vient d'une chanson du film **Mary Poppins** (Disney, 1964) : il veut dire « super-génial ».
+- Les **virelangues** (*tongue twisters*) : *She sells seashells by the seashore.*
 
-> **À retenir** : pour parler d'une œuvre : *In this picture, I can see... I like it because it's... It makes me happy.* Banksy (art de rue, anonyme), Warhol (pop art). Fêtes : Thanksgiving, Christmas Eve et Christmas Day, Boxing Day (26/12), Hogmanay (31/12 en Écosse), St Patrick's Day (17/03). *Mary Poppins* : *supercalifragilisticexpialidocious*.
+> **À retenir** : pour parler d'une œuvre : *In this picture, I can see... I like it because it's... It makes me happy.* Banksy (art de rue, anonyme), Warhol (pop art), les Beatles (Liverpool). Fêtes : Thanksgiving, Christmas Eve et Christmas Day, Boxing Day (26/12), Hogmanay (31/12 en Écosse), St Patrick's Day (17/03).
 `,
       exercices: [
         { type: "qcm", question: "*This painting makes me happy.* Que veut dire cette phrase ?", choix: ["Ce tableau me rend triste.", "Je fais ce tableau.", "Ce tableau me rend heureux.", "Ce tableau a été fait par moi."], reponse: 2, explication: "*It makes me happy* = **ça me rend heureux**. *Painting* = tableau (peinture)." },
@@ -1272,6 +1223,235 @@ Points vérifiés :
 - les informations essentielles sont toutes là : quoi (*Summer Fair*), quand (*Saturday 14th June, 10 am to 4 pm*), où (*playground / sports hall*), combien (*£2, free under 12, lunch £3*), quoi apporter (*old books and toys*) ;
 - les heures sont bien converties : *4 pm* = 16 h ;
 - on reformule simplement pour la personne (« pour toi », « pour moi ») au lieu de traduire chaque mot.` },
+      ],
+    },
+    {
+      id: "former-des-mots",
+      titre: "Former des mots : suffixes, préfixe un- et mots composés",
+      theme: "Vocabulaire",
+      cours: `
+## Un mot connu en donne d'autres
+Avec un mot que tu connais, tu peux en **comprendre** et en **fabriquer** d'autres :
+- on ajoute un **suffixe** à la fin : *cloud → cloudy* ;
+- on ajoute un **préfixe** au début : *happy → unhappy* ;
+- on colle deux mots : *snow + man → snowman*.
+
+## Nom → adjectif : -y et -ful
+| Nom | Adjectif |
+|---|---|
+| *cloud* (nuage) | *cloudy* (nuageux) |
+| *rain* (pluie) | *rainy* (pluvieux) |
+| *sport* | *sporty* (sportif) |
+| *sun* (soleil) | *sunny* (ensoleillé : le n est doublé) |
+| *fun* (amusement) | *funny* (drôle : le n est doublé) |
+| *colour* (couleur) | *colourful* (coloré) |
+| *wonder* (merveille) | *wonderful* (merveilleux) |
+| *beauty* (beauté) | *beautiful* (beau : le y devient i) |
+
+Le suffixe **-ful** veut dire « plein de » et s'écrit avec **un seul l**.
+
+## Verbe → personne : -er, -or, -ess
+- **-er** = celui qui fait l'action : *sing → singer* (chanteur), *play → player* (joueur), *teach → teacher*, *bake → baker* (boulanger), *write → writer* (écrivain), *drive → driver* (conducteur).
+- Si le verbe finit par un e, on ajoute seulement -r : *write → writer, bake → baker*. Si le verbe finit par **une** voyelle courte + **une** consonne, la consonne double : *swim → swimmer, run → runner*.
+- *act → actor* (acteur) ; **-ess** marque parfois le féminin : *actress* (actrice).
+
+## Nom → personne : -ian et -ist
+- *magic → magician* (magicien), *music → musician* (musicien). Attention à l'accent : *MU-sic* mais *mu-SI-cian*.
+- *art → artist*, *piano → pianist*, *guitar → guitarist*.
+
+## Adjectif → adverbe : -ly
+L'adverbe dit **comment** on fait quelque chose : *slow → slowly* (lentement), *sad → sadly* (tristement), *happy → happily* (joyeusement : le y devient i), *fortunate → fortunately* (heureusement).
+
+>! *The children are playing happily in the garden.* — *Fortunately, it's sunny today!*
+
+## Le préfixe un- : le contraire
+*happy → unhappy* (malheureux), *kind → unkind* (pas gentil), *lucky → unlucky* (malchanceux), *tidy → untidy* (en désordre), *fortunately → unfortunately* (malheureusement).
+
+## Les mots composés : le mot principal est à la fin
+En anglais, le mot **principal** (celui qui dit ce que c'est) est **le dernier** ; le premier mot le précise :
+- *bed + room → bedroom* : une pièce (*room*) pour le lit : la chambre ;
+- *snow + man → snowman* : un bonhomme de neige ; *police + man → policeman* ; *boy + friend → boyfriend* ;
+- *lunch box* (boîte à déjeuner), *school bag* (cartable), *birthday*, *football*.
+
+C'est l'ordre **inverse du français** : *an apple pie* = une tarte (*pie*) aux pommes (*apple*).
+
+>! Exemple résolu : que veut dire *a toothbrush* ? Le dernier mot est *brush* (une brosse) : c'est une brosse, et *tooth* (dent) précise à quoi elle sert : **une brosse à dents**.
+
+Au pluriel, seul le **dernier mot** change : *two bedrooms, three apple pies, two snowmen* (*man → men*).
+
+### Erreurs fréquentes
+- ✗ *suny, funy* → *sunny, funny* (n doublé) ; ✗ *colourfull* → *colourful* ; ✗ *beautyful* → *beautiful*.
+- ✗ *happyly* → *happily*.
+- ✗ *a pie apple* → *an apple pie* (le mot principal à la fin).
+- ✗ *two snowsmen* → *two snowmen*.
+
+> **À retenir** : **-y** et **-ful** forment des adjectifs (*cloudy, sunny, colourful*) ; **-er / -or** et **-ian / -ist** forment des noms de personnes (*singer, actor, musician, artist*) ; **-ly** forme des adverbes (*happily, fortunately*) ; **un-** donne le contraire (*unhappy*). Dans un mot composé, le mot principal est **à la fin** : *a bedroom, an apple pie*.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel adjectif est formé à partir du nom *cloud* (nuage) ?", choix: ["cloudful", "cloudy", "clouder", "cloudly"], reponse: 1, explication: "Avec **-y**, le nom devient un adjectif : *cloud → **cloudy*** (nuageux), comme *rain → rainy*. *Cloudful*, *clouder* et *cloudly* n'existent pas." },
+        { type: "saisie", question: "Forme l'adjectif à partir de *sun* (soleil) : *It's a ___ day!* (une journée ensoleillée ; écris seulement ce qui manque)", reponses: ["sunny"], explication: "*Sun* + **-y** → **sunny**. Après une voyelle courte, la consonne finale est doublée : *sun → sunny*, comme *fun → funny*." },
+        { type: "saisie", question: "Forme le nom de la personne à partir du verbe *write* (écrire) : celui qui écrit des livres est *a ___.* (écris seulement ce qui manque)", reponses: ["writer"], explication: "Verbe + **-er** = celui qui fait l'action. *Write* finit par un e : on ajoute seulement **-r** : *a writer* (un écrivain), comme *bake → baker*." },
+        { type: "qcm", question: "Comment appelle-t-on une personne qui fait de la musique (*music*) ?", choix: ["a musicer", "a musicist", "a musicful", "a musician"], reponse: 3, explication: "*Music → **musician***, comme *magic → magician*. Attention à la prononciation : l'accent passe sur la 2e syllabe (*mu-SI-cian*)." },
+        { type: "vf", question: "Dans le mot composé *bedroom*, le mot principal est *room* : une *bedroom* est une pièce.", reponse: true, explication: "Oui : dans un mot composé, le mot **principal est à la fin**. Une *bedroom* est une pièce (*room*) pour le lit (*bed*) : une chambre." },
+        { type: "qcm", question: "Que veut dire *an apple pie* ?", choix: ["une tarte aux pommes", "une pomme en forme de tarte", "un pommier", "une compote de pommes"], reponse: 0, explication: "Le mot principal est à la fin : *pie* (une tarte) ; *apple* précise de quoi elle est faite : **une tarte aux pommes**. L'ordre est l'inverse du français." },
+        { type: "saisie", question: "Forme l'adverbe à partir de *happy* : *The children are playing ___ in the garden.* (joyeusement ; écris seulement ce qui manque)", reponses: ["happily"], explication: "Adjectif + **-ly** = adverbe. Le y devient i : *happy → **happily***. Attention : *happyly* n'existe pas." },
+        { type: "saisie", question: "Forme le contraire de *lucky* (chanceux) avec un préfixe.", reponses: ["unlucky"], explication: "Le préfixe **un-** donne le contraire : *lucky → **unlucky*** (malchanceux), comme *happy → unhappy*." },
+        { type: "qcm", question: "Quel est le pluriel de *snowman* (bonhomme de neige) ?", choix: ["snowmans", "snowsman", "snowsmen", "snowmen"], reponse: 3, explication: "Au pluriel, seul le **dernier mot** change, et *man* a un pluriel irrégulier : **snowmen** (comme *policeman → policemen*)." },
+        { type: "redaction", question: "Écris 6 phrases sur une journée d'hiver avec ta famille. Utilise au moins deux adjectifs en *-y* ou *-ful*, un nom de personne en *-er* ou *-ian*, un adverbe en *-ly*, un mot avec *un-* et deux mots composés.", corrige: `Exemple de réponse :
+
+*It's a cold and cloudy day, but the garden is beautiful under the snow. My little brother and I make a big snowman. My dad is a baker, so he brings a wonderful apple pie for lunch. Unfortunately, my sister is ill and she stays in her bedroom. She is unhappy, so we play cards with her. In the evening, we listen to a famous Irish musician and we sing happily.*
+
+Points vérifiés :
+- adjectifs en **-y** et **-ful** : *cloudy, beautiful, wonderful* ;
+- noms de personnes : *a baker* (-er), *a musician* (-ian) ;
+- adverbes en **-ly** : *happily, unfortunately* ; préfixe **un-** : *unhappy, unfortunately* ;
+- mots composés avec le mot principal à la fin : *snowman, apple pie, bedroom*.` },
+      ],
+    },
+    {
+      id: "lexique-a1-plus",
+      titre: "Enrichir son vocabulaire (A1+) : de nouveaux mots pour chaque thème",
+      theme: "Vocabulaire",
+      cours: `
+>! En fin de 6e, le programme attend le niveau **A1+** : tu connais les mots de base de chaque thème (A1), et tu commences à en utiliser de plus précis. Ce chapitre rassemble ces mots « en plus ». Apprends-les par petits groupes, en faisant une phrase avec chacun.
+
+## Les personnes
+| Thème | Mots A1+ |
+|---|---|
+| la famille | *a baby, a birth* (naissance), *a wedding* (mariage), *to spend time with* (passer du temps avec), *to take care of* (s'occuper de), *to visit* |
+| l'apparence | *curly* (bouclés), *wavy* (ondulés), *straight* (raides), *bald* (chauve), *freckles* (taches de rousseur), *good-looking* (beau), *enormous, gigantic* |
+| le caractère | *outgoing* (sociable), *selfish* (égoïste), *clumsy* (maladroit), *fashionable* (à la mode) |
+| les vêtements | *boots* (bottes), *trainers* (baskets, au Royaume-Uni) = *sneakers* (aux États-Unis), *dungarees* (salopette) |
+| le corps | *cheeks* (joues), *lips* (lèvres), *tongue* (langue), *shoulder* (épaule), *stomach* (ventre), *wrist* (poignet), *knees* (genoux), *ankles* (chevilles), *toes* (orteils) |
+| les métiers | *a baker* (boulanger), *a butcher* (boucher), *a cook* (cuisinier), *a mechanic* (mécanicien), *a plumber* (plombier), *a writer* (écrivain), *a banker* (banquier) |
+| les émotions | *disappointed* (déçu), *tense* (tendu), *cross* (fâché) ; *luckily / fortunately* (heureusement), *sadly / unfortunately* (malheureusement) |
+| les nationalités | *European, Asian, Nigerian, Kenyan, New Zealander, Californian* |
+
+## La vie de tous les jours
+- à la maison : *to wash one's hands* (se laver les mains), *to help at home* (aider à la maison), *to walk the dog* (promener le chien), *to relax* (se détendre), *to chat on social media* (discuter sur les réseaux sociaux) ;
+- le logement : *a neighbour* (voisin), *the neighbourhood* (le quartier), *the house next door* (la maison d'à côté), *furniture* (les meubles), *comfortable, cosy* (douillet) ;
+- les repas : *dinner time, a lunch box, baked beans* (haricots à la sauce tomate, souvent servis au petit-déjeuner anglais), *apple pie*, *maple taffy* (tire d'érable, au Canada) ;
+- les loisirs : *a sports hall* (gymnase), *an aqua park* (parc aquatique), *indoor / outdoor* (en salle / en plein air), *water sports*, *collecting* (faire une collection), *acting* (faire du théâtre), *to have fun* (s'amuser), *to enjoy* (aimer, apprécier) ;
+- la fréquence : *once a week* (une fois par semaine), *twice a week* (deux fois), *two hours a week*, *during my free time* (pendant mon temps libre) ;
+- les jeux : *the rules* (les règles), *a pawn* (pion), *to cheat* (tricher), *fair play*.
+
+## Les paysages, les contes, les fêtes
+- paysages : *a tree, a flower, a field* (champ), *a meadow* (prairie), *a hill* (colline), *a valley* (vallée), *a cliff* (falaise), *a canyon, a rock, a bush* (buisson) ;
+- contes : *a sorcerer* (sorcier), *poison* ; *to meet* (rencontrer), *to help, to discover* (découvrir), *to frighten* (effrayer), *to fall in love* (tomber amoureux) ;
+- fêtes : *a tradition, a celebration* ; *Easter* (Pâques) et ses *Easter eggs* ; *a Bank Holiday* (jour férié au Royaume-Uni) ; *Independence Day* (4 juillet, fête nationale des États-Unis) ; *Diwali* (la fête des lumières, venue d'Inde) ;
+- les siècles : *the 21st century* = *the twenty-first century* (le XXIe siècle).
+
+## Préciser ce que l'on dit
+- *very* (très), *too* (trop) : *She has got very long hair. It's too hot!*
+- *maybe / perhaps* (peut-être) : *Maybe he's disappointed.*
+
+>! Exemple : enrichir une phrase A1 → A1+. *My brother is tall. He has got short hair.* → *My brother is very tall and good-looking. He has got short curly hair and freckles. He's outgoing, but a bit clumsy!*
+
+### Pièges
+- *pants* = un slip au Royaume-Uni, mais un pantalon aux États-Unis : au Royaume-Uni, dis *trousers* !
+- *a cook* = un cuisinier (la personne) ; *a cooker* = une cuisinière (l'appareil).
+- *furniture* (les meubles) ne prend jamais de -s : *a lot of furniture*.
+- le **b** de *plumber* et de *thumb* (pouce) ne se prononce pas.
+
+> **À retenir** : pour passer de A1 à A1+, précise tes phrases : cheveux *curly / straight*, caractère *outgoing / clumsy*, émotions *disappointed*, fréquence *once a week*, paysages *hill, cliff, valley*. Attention aux pièges : *pants* (slip en Grande-Bretagne), *a cook* (cuisinier) ≠ *a cooker* (appareil), *furniture* sans -s.
+`,
+      exercices: [
+        { type: "qcm", question: "Ta correspondante t'envoie une photo : elle a les cheveux bouclés. Comment le dit-elle ?", choix: ["I've got straight hair.", "I've got curly hair.", "I'm bald.", "I've got freckles."], reponse: 1, explication: "Cheveux bouclés = **curly hair**. *Straight* = raides, *bald* = chauve, *freckles* = taches de rousseur." },
+        { type: "saisie", question: "Traduis : « mon voisin »", reponses: ["my neighbour", "my neighbor"], explication: "Un voisin = **a neighbour** (orthographe britannique ; *neighbor* aux États-Unis). Le quartier = *the neighbourhood*." },
+        { type: "vf", question: "En anglais britannique, le mot *pants* veut dire « pantalon ».", reponse: false, explication: "Piège ! Au Royaume-Uni, *pants* désigne un **slip** (sous-vêtement) ; le pantalon se dit **trousers**. Aux États-Unis, en revanche, *pants* = pantalon." },
+        { type: "qcm", question: "Dans un restaurant, *the cook* est...", choix: ["la cuisinière (l'appareil)", "la recette", "la personne qui fait la cuisine", "un petit gâteau"], reponse: 2, explication: "*A cook* = **un cuisinier**, la personne. L'appareil se dit *a cooker* ; un petit gâteau, *a cookie* aux États-Unis." },
+        { type: "saisie", question: "Complète : *I play basketball ___ a week, every Wednesday.* (une fois ; écris seulement ce qui manque)", reponses: ["once"], explication: "Une fois par semaine = **once a week**. Deux fois = *twice a week* ; trois fois = *three times a week*." },
+        { type: "qcm", question: "Les célèbres *White Cliffs of Dover* sont...", choix: ["des collines vertes", "des prairies", "des vallées profondes", "des falaises blanches"], reponse: 3, explication: "*A cliff* = **une falaise** : *the White Cliffs of Dover* sont les falaises blanches de Douvres. *A hill* = colline, *a meadow* = prairie, *a valley* = vallée." },
+        { type: "saisie", question: "Complète avec un adverbe : *It's raining, but ___ we have got our umbrellas!* (heureusement ; écris seulement ce qui manque)", reponses: ["luckily", "fortunately"], explication: "*Heureusement* = **luckily** ou **fortunately**. Le contraire : *unfortunately* ou *sadly* (malheureusement)." },
+        { type: "qcm", question: "Ton équipe vient de perdre la finale. Tu dis : *I'm really ___.*", choix: ["outgoing", "fashionable", "disappointed", "clumsy"], reponse: 2, explication: "Après une défaite, on est déçu : **disappointed**. *Outgoing* = sociable, *fashionable* = à la mode, *clumsy* = maladroit." },
+        { type: "saisie", question: "Comment dit-on « le XXIe siècle » en anglais ? (écris le nombre en lettres)", reponses: ["the twenty-first century", "twenty-first century"], explication: "On utilise un **ordinal** : **the twenty-first century** (en abrégé : *the 21st century*)." },
+        { type: "redaction", question: "Enrichis ce portrait de niveau A1 pour en faire un portrait A1+ (6 à 8 phrases) : *My cousin is Jack. He is tall. He has got hair. He is nice. He plays football. He likes animals.* Ajoute au moins six mots de ce chapitre (apparence, caractère, vêtements, fréquence, métier, émotions…).", corrige: `Exemple de réponse :
+
+*My cousin is Jack. He is very tall and good-looking. He has got short curly hair and freckles. He is outgoing and friendly, but a bit clumsy: he often drops his glass at dinner time! He always wears trainers and a blue cap. He plays football twice a week in the sports hall. He loves animals: he walks the dog every day and he wants to be a vet. Sadly, he lives in Scotland, so I only see him once a year.*
+
+Points vérifiés :
+- apparence précise : *very tall, good-looking, curly hair, freckles* ;
+- caractère : *outgoing, clumsy* ; vêtements : *trainers* ;
+- fréquence : *twice a week, once a year* ; quotidien : *walks the dog* ;
+- émotion ou commentaire : *Sadly* ;
+- les phrases simples de départ sont gardées et précisées avec *very*, *but*, *so*.` },
+      ],
+    },
+    {
+      id: "lire-textes-axes",
+      titre: "Lire en anglais : un géant irlandais, un parc au Kenya, le journal de Greg",
+      theme: "Culture",
+      cours: `
+> Trois textes d'entraînement, liés à trois axes du programme : une **légende** (axe 4, l'imaginaire), un **blog** (axe 3, pays et paysages) et un **journal** de collégien (axe 1, personnages). Chaque type de texte se lit avec une méthode un peu différente.
+
+## Lire une légende
+- Repère **les personnages** (*a giant, a poet, a wife*) et **les lieux** (*Ireland, Scotland, the sea*).
+- Suis **les étapes** grâce aux mots de temps : *Long ago* (il y a longtemps), *One day* (un jour), *Then* (ensuite), *Suddenly* (soudain), *Later* (plus tard), *In the end* (à la fin).
+- Une légende se raconte au passé ou, comme ici, **au présent** : c'est plus vivant.
+- Mots utiles : *a salmon* (saumon), *knowledge* (le savoir), *a thumb* (pouce), *clever* (malin), *to fight* (combattre), *to build* (construire), *stones* (pierres), *to run away* (s'enfuir).
+
+## Lire un blog ou un texte informatif
+- Cherche les **informations précises** : chiffres, lieux, noms d'animaux.
+- Appuie-toi sur les **mots transparents** : *national park, capital, giraffes, protect, danger*.
+- Mots utiles : *the city centre* (le centre-ville), *skyscrapers* (gratte-ciel), *wild* (sauvage), *in danger* (menacé), *a horn* (corne), *a ranger* (garde du parc).
+
+## Lire un journal (diary)
+- Le narrateur dit **I** : c'est lui qui raconte, avec **ses** opinions. Il peut **exagérer** pour être drôle !
+- Repère les personnes et ce qu'il pense d'elles : *annoying* (agaçant), *childish* (puéril, qui fait bébé), *the worst* (le pire), *to get in trouble* (se faire gronder).
+
+>! Exemple résolu : *Why does Finn run home?* 1) Repère les mots-clés *runs home* dans le texte ; 2) lis la phrase d'avant : *But Benandonner is enormous!* ; 3) réponds avec tes mots : Finn a peur, car Benandonner est énorme, bien plus grand que lui.
+
+### Erreurs fréquentes
+- Répondre avec ce que tu **sais déjà** au lieu de ce que dit **le texte**.
+- Confondre **qui fait quoi** : regarde à qui renvoient *he, she, his, her*.
+- Pour un vrai / faux, ne pas **justifier** avec les mots du texte.
+
+> **À retenir** : légende = personnages, lieux et étapes (*One day, Then, Later, In the end*) ; texte informatif = informations précises et mots transparents ; journal = un narrateur qui dit *I* et donne son avis, parfois en exagérant. Toujours : chercher la phrase du texte qui prouve ta réponse.
+`,
+      textes: {
+        finn: `**Finn McCool, the Irish giant** (texte d'entraînement, d'après la légende irlandaise)
+
+*Long ago, in Ireland, there lives a young giant called Finn McCool. He works for an old poet, Finnegas. One day, Finnegas catches a magic fish: the Salmon of Knowledge. "Cook it for me, but don't eat it!" he says. Finn cooks the salmon, but he burns his thumb, so he puts it in his mouth. Suddenly, he knows everything!*
+
+*Later, Finn wants to fight Benandonner, a Scottish giant. So he builds a road of stones across the sea: the Giant's Causeway. But Benandonner is enormous! Finn runs home. His clever wife, Oonagh, dresses him as a baby and puts him in a cradle. When Benandonner sees the "baby", he is very scared: "If the baby is so big, his father is gigantic!" He runs back to Scotland and he breaks the road. In the end, only the two ends of the road stay: one in Northern Ireland and one in Scotland.*`,
+        nairobi: `**My city has got lions!** — by Wanjiru, 11 (texte d'entraînement : Wanjiru est un personnage inventé)
+
+*Jambo! That means "hello" in Swahili. My name is Wanjiru and I live in Nairobi, the capital city of Kenya. Nairobi is a big city with tall buildings, but next to it, there is a national park! Nairobi National Park is only about seven kilometres from the city centre. In the park, you can see lions, zebras, giraffes and buffaloes, and behind them, the skyscrapers of the city!*
+
+*My favourite animal is the black rhino. Black rhinos are in danger because some people kill them for their horns. In the park, rangers protect them day and night.*
+
+*Once a month, I go to the park with my family. We can't walk in the park: we must stay in the car, because the animals are wild. My dream is to be a ranger: I want to take care of the animals!*`,
+        greg: `**A page from Greg's journal** (texte d'entraînement inspiré de *Diary of a Wimpy Kid*, de Jeff Kinney)
+
+*Monday*
+
+*First of all, this is NOT a diary. It's a journal! My mom bought this book, and I only write in it because one day I'm going to be famous.*
+
+*My name is Greg Heffley and I'm in middle school. Middle school is the worst idea ever: some kids in my class are tiny, and some are giants with moustaches!*
+
+*I've got two brothers. Rodrick is in high school and he plays the drums in a band. He's really annoying. Manny is three and he's the baby of the family: he never gets in trouble! My best friend is Rowley. He's nice, but he's a bit childish.*
+
+*Today, Mom says I must play outside. I don't want to: I want to play video games!*`,
+      },
+      exercices: [
+        { type: "qcm", texte: "finn", question: "Lis la légende. Qui attrape le saumon de la connaissance (*the Salmon of Knowledge*) ?", choix: ["Finn McCool", "le vieux poète Finnegas", "Oonagh", "Benandonner"], reponse: 1, explication: "*One day, Finnegas catches a magic fish* : c'est **le vieux poète Finnegas** qui l'attrape. Finn, lui, le fait cuire (*Finn cooks the salmon*)." },
+        { type: "vf", texte: "finn", question: "Finn sait tout parce qu'il mange tout le saumon.", reponse: false, explication: "Faux : *he burns his thumb, so he puts it in his mouth. Suddenly, he knows everything!* Il se brûle le **pouce**, le met dans sa bouche, et c'est ainsi qu'il reçoit le savoir. Il ne mange pas le saumon." },
+        { type: "saisie", texte: "finn", question: "Comment s'appelle la route de pierres que Finn construit au-dessus de la mer ? (recopie le nom anglais du texte)", reponses: ["the Giant's Causeway", "Giant's Causeway"], explication: "*He builds a road of stones across the sea: **the Giant's Causeway*** (la Chaussée des Géants). Le site existe vraiment, en Irlande du Nord, mais ses colonnes sont d'origine volcanique." },
+        { type: "qcm", texte: "finn", question: "Pourquoi Benandonner s'enfuit-il en Écosse ?", choix: ["Finn est plus grand que lui.", "Oonagh le chasse avec un bâton.", "Il a peur de la mer.", "Il croit que le père du « bébé » est encore plus grand."], reponse: 3, explication: "*If the baby is so big, his father is gigantic!* : Benandonner pense que si le « bébé » est si grand, son père doit être **gigantesque**. Il a peur (*he is very scared*) et s'enfuit. C'était la ruse d'Oonagh (*his clever wife*)." },
+        { type: "qcm", texte: "nairobi", question: "Lis le blog de Wanjiru. Qu'est-ce qui est surprenant dans le parc national de Nairobi ?", choix: ["Il est tout près de la ville : on voit les gratte-ciel derrière les animaux.", "Il n'y a pas d'animaux sauvages.", "Il est au bord de la mer.", "On peut s'y promener à pied avec les lions."], reponse: 0, explication: "*Only about seven kilometres from the city centre... and behind them, the skyscrapers of the city!* : le parc est **tout près de la ville**, et on voit les **gratte-ciel** (*skyscrapers*) derrière les animaux." },
+        { type: "saisie", texte: "nairobi", question: "D'après le texte, que veut dire le mot swahili *Jambo* ? (réponds en anglais, avec le mot du texte)", reponses: ["hello"], explication: "*Jambo! That means \"hello\" in Swahili* : *Jambo* veut dire **hello** (bonjour). Le swahili est, avec l'anglais, une langue officielle du Kenya." },
+        { type: "vf", texte: "nairobi", question: "D'après Wanjiru, les visiteurs peuvent marcher dans le parc au milieu des animaux.", reponse: false, explication: "Faux : *We can't walk in the park: we must stay in the car, because the animals are wild.* Il faut **rester dans la voiture**, car les animaux sont sauvages." },
+        { type: "qcm", texte: "greg", question: "Lis la page du journal. Selon Greg, son livre est...", choix: ["un cahier de devoirs", "un journal intime (*a diary*)", "un *journal*, surtout pas un *diary*", "un livre écrit par sa mère"], reponse: 2, explication: "*This is NOT a diary. It's a journal!* Greg insiste : pour lui, c'est un **journal**, pas un *diary* (journal intime), un mot qu'il trouve trop enfantin. Sa mère a seulement acheté le livre (*My mom bought this book*)." },
+        { type: "saisie", texte: "greg", question: "Comment s'appelle le meilleur ami de Greg ?", reponses: ["Rowley", "His best friend is Rowley", "His best friend's name is Rowley", "It's Rowley", "It is Rowley", "Rowley is his best friend", "His name is Rowley", "His best friend is called Rowley", "Greg's best friend is Rowley", "He is Rowley", "He's Rowley", "He is called Rowley", "He's called Rowley", "Greg's best friend's name is Rowley"], explication: "*My best friend is Rowley* : le meilleur ami de Greg est **Rowley**. Rodrick et Manny sont ses frères." },
+        { type: "redaction", texte: "finn", question: "Raconte la légende de Finn McCool à un camarade anglais en 5 ou 6 phrases simples, **en anglais et avec tes mots** (sans recopier tout le texte). Utilise *One day, Then, Later* et *In the end*.", corrige: `Exemple de réponse :
+
+*Finn McCool is a young Irish giant. One day, he cooks the Salmon of Knowledge for an old poet. He burns his thumb and he puts it in his mouth: then he knows everything! Later, he builds a road across the sea to fight a Scottish giant, Benandonner. But Benandonner is enormous, so Finn's wife dresses Finn as a baby. In the end, Benandonner is scared and he runs back to Scotland.*
+
+Points vérifiés :
+- les personnages (Finn, le poète, Benandonner, la femme de Finn) et les lieux (Ireland, Scotland) ;
+- les étapes dans l'ordre, avec *One day, then, Later, In the end* ;
+- des phrases courtes au présent, avec le -s de la 3e personne : *he cooks, he burns, he builds, he runs* ;
+- des connecteurs *and, but, so* ; on reformule au lieu de recopier.` },
       ],
     },
   ],

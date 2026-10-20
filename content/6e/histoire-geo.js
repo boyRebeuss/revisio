@@ -237,6 +237,7 @@ Le mot **démocratie** vient du grec *dêmos* (le peuple) et *kratos* (le pouvoi
 - En **508-507 av. J.-C.**, l'Athénien **Clisthène** réorganise la cité : tous les citoyens peuvent désormais participer aux décisions, quelle que soit leur richesse. C'est la naissance de la démocratie.
 - Au **Ve siècle av. J.-C.**, Athènes devient la cité la plus puissante de Grèce, après avoir vaincu les **Perses** (bataille de **Marathon** en **490 av. J.-C.**, bataille navale de **Salamine** en **480 av. J.-C.**). Sa flotte domine la mer Égée.
 - **Périclès**, élu **stratège** de nombreuses années de suite, dirige la cité vers le milieu du Ve siècle. Il fait construire le **Parthénon** sur l'acropole (entre **447 et 432 av. J.-C.**), temple dédié à **Athéna**. Il crée une **indemnité** (le *misthos*) pour que les citoyens pauvres puissent participer à la vie politique sans perdre leur journée de travail.
+- En **431 av. J.-C.** éclate la **guerre du Péloponnèse** entre Athènes et Sparte. Aux funérailles des premiers soldats morts, Périclès prononce un célèbre éloge de la démocratie, rapporté par l'historien athénien **Thucydide**. Périclès meurt de la peste en 429 av. J.-C. ; Athènes est finalement vaincue par Sparte en **404 av. J.-C.**
 
 ## 2. Comment fonctionne la démocratie ?
 | Institution | Qui ? | Rôle |
@@ -265,6 +266,21 @@ Le mot **démocratie** vient du grec *dêmos* (le peuple) et *kratos* (le pouvoi
 > - Démocratie **directe** mais **limitée** : femmes, métèques et esclaves sont exclus.
 > - Vocabulaire : démocratie, citoyen, Ecclésia, Boulè, stratège, métèque, ostracisme, tirage au sort.
 `,
+      textes: {
+        pericles: `**Document : Périclès fait l'éloge de la démocratie athénienne**
+
+*En 431 av. J.-C., la guerre du Péloponnèse éclate entre Athènes et Sparte. L'hiver suivant, lors des funérailles des premiers soldats athéniens morts au combat, le stratège Périclès prononce un discours devant les citoyens.*
+
+« Notre constitution n'imite pas les lois des autres cités : nous sommes plutôt un modèle que des imitateurs. Elle s'appelle **démocratie**, parce que le pouvoir n'est pas entre les mains d'une minorité, mais du plus grand nombre. Devant la loi, tous sont égaux pour régler leurs affaires privées. Pour les charges publiques, chacun est choisi selon son mérite, et non selon sa richesse ; et la pauvreté n'empêche personne, s'il est capable de rendre service à la cité, d'y prendre part.
+
+Chez nous, un même homme s'occupe à la fois de ses affaires et de celles de la cité. Nous sommes les seuls à penser qu'un homme qui ne participe pas à la vie politique n'est pas un citoyen tranquille, mais un citoyen inutile. Nous décidons nous-mêmes des affaires de la cité, ou du moins nous en discutons. [...] En un mot, notre cité est l'école de la Grèce. »
+
+Plus loin, Périclès s'adresse aux veuves des soldats morts : « Votre plus grande gloire est que l'on parle de vous le moins possible parmi les hommes, en bien comme en mal. »
+
+*D'après Thucydide, Histoire de la guerre du Péloponnèse, livre II (passages 37, 40, 41 et 45), écrit à la fin du Ve siècle av. J.-C. ; texte traduit et simplifié. Thucydide, historien athénien, a assisté à la guerre ; il reconnaît lui-même qu'il a réécrit les discours de façon à rendre l'essentiel de ce qui avait été dit.*
+
+*Vocabulaire : la **constitution** = l'ensemble des règles qui organisent le pouvoir dans la cité ; les **charges publiques** = les fonctions au service de la cité (juge, membre de la Boulè, stratège…) ; le **mérite** = ce qu'une personne vaut par ses qualités et son travail ; les **funérailles** = la cérémonie pour enterrer les morts.*`,
+      },
       exercices: [
         { type: "qcm", question: "Que signifie le mot « démocratie » ?", choix: ["Le pouvoir du peuple", "Le pouvoir d'un seul homme", "Le pouvoir des dieux", "Le pouvoir des riches"], reponse: 0, explication: "*Dêmos* = le peuple, *kratos* = le pouvoir. Le pouvoir d'un seul est une monarchie (ou une tyrannie) ; le pouvoir d'un petit groupe de riches, une oligarchie (*oligoi* = peu nombreux)." },
         { type: "saisie", question: "Quel Athénien réorganise la cité en 508-507 av. J.-C. et fonde la démocratie ?", reponses: ["Clisthène"], explication: "Les réformes de **Clisthène** (508-507 av. J.-C.) permettent à tous les citoyens de participer, quelle que soit leur richesse." },
@@ -290,6 +306,22 @@ Le mot **démocratie** vient du grec *dêmos* (le peuple) et *kratos* (le pouvoi
 - Les **esclaves**, très nombreux, n'ont aucun droit.
 
 **Conclusion** : Athènes invente une démocratie **directe** où les citoyens décident eux-mêmes, ce qui est nouveau. Mais elle exclut la majorité des habitants : elle est très différente de notre démocratie actuelle.` },
+        { type: "qcm", texte: "pericles", question: "D'après le document, dans quelle circonstance Périclès prononce-t-il ce discours ?", choix: ["Lors de l'ouverture des Jeux olympiques, devant les Grecs de toutes les cités", "Au lendemain de la victoire navale de Salamine contre les Perses", "Aux funérailles des premiers soldats athéniens morts dans la guerre contre Sparte", "Devant les 500 membres de la Boulè, pour faire voter une loi"], reponse: 2, explication: "L'introduction du document l'indique : c'est un **discours funèbre**, prononcé pendant l'hiver qui suit le début de la **guerre du Péloponnèse** (431 av. J.-C.), pour honorer les premiers soldats morts. Salamine date de 480 av. J.-C., bien avant." },
+        { type: "saisie", texte: "pericles", question: "D'après le texte, quel nom porte le régime politique d'Athènes ?", reponses: ["démocratie", "la démocratie", "une démocratie", "démocratie athénienne", "la démocratie athénienne", "démocratie directe", "une démocratie directe", "la démocratie directe"], explication: "Périclès dit que la constitution « s'appelle **démocratie**, parce que le pouvoir n'est pas entre les mains d'une minorité, mais du plus grand nombre »." },
+        { type: "vf", texte: "pericles", question: "Selon Périclès, un citoyen pauvre ne peut pas servir la cité.", reponse: false, explication: "Périclès affirme le contraire : « la pauvreté n'empêche personne, s'il est capable de rendre service à la cité, d'y prendre part ». C'est pour cela qu'il a créé le **misthos**, une indemnité versée aux citoyens qui participent aux tribunaux et à d'autres charges publiques." },
+        { type: "qcm", texte: "pericles", question: "« Nous décidons nous-mêmes des affaires de la cité. » Dans quelle institution les citoyens athéniens votent-ils eux-mêmes les lois ?", choix: ["Le Sénat", "L'Ecclésia", "L'acropole", "Le tribunal des stratèges"], reponse: 1, explication: "À l'**Ecclésia**, réunie sur la Pnyx, les citoyens votent eux-mêmes les lois : c'est une démocratie **directe**. Le Sénat est romain ; l'acropole est la colline des temples ; les stratèges commandent l'armée." },
+        { type: "saisie", texte: "pericles", question: "Combien d'années séparent les réformes de Clisthène (508 av. J.-C.) et le début de la guerre du Péloponnèse (431 av. J.-C.) ? (réponds par un nombre)", reponses: ["77", "soixante-dix-sept"], explication: "Deux dates avant J.-C. : on **soustrait**. 508 − 431 = **77 ans**. La démocratie athénienne a donc moins d'un siècle quand Périclès prononce ce discours." },
+        { type: "vf", texte: "pericles", question: "D'après le document, Périclès souhaite que les femmes prennent la parole dans les débats de la cité.", reponse: false, explication: "Il dit aux veuves que leur « plus grande gloire est que l'on parle de [elles] le moins possible parmi les hommes ». Les **femmes** restent à l'écart de la vie politique : elles ne sont pas citoyennes." },
+        { type: "qcm", texte: "pericles", question: "Pourquoi un historien doit-il lire ce texte avec un regard critique ?", choix: ["Parce que c'est un éloge réécrit par Thucydide, qui ne dit rien des métèques ni des esclaves", "Parce que Thucydide n'a jamais vécu à Athènes et ne connaissait la guerre que par des rumeurs", "Parce que Périclès était en réalité un roi de Sparte qui voulait se moquer des Athéniens", "Parce que le texte a été écrit par un auteur romain, plus de mille ans après la guerre"], reponse: 0, explication: "Le discours veut **honorer les morts** et donner du courage aux Athéniens : il donne une image très belle de la cité. Thucydide, un Athénien qui a vécu la guerre, l'a **réécrit**. Et le texte ne dit rien des **métèques** ni des **esclaves**, exclus de la citoyenneté." },
+        { type: "redaction", texte: "pericles", question: "**Analyse de document (niveau contrôle)** : 1. Présente le document (nature, auteur, date, contexte). 2. Relève deux phrases qui montrent que, selon Périclès, le peuple a le pouvoir à Athènes. 3. Explique ces phrases avec tes connaissances (institutions, misthos). 4. Montre que cette démocratie est pourtant limitée, à l'aide du document et du cours.", corrige: `**1. Présentation** : c'est un **discours** de **Périclès**, stratège athénien, rapporté par l'historien athénien **Thucydide** dans son *Histoire de la guerre du Péloponnèse*. Il est prononcé pendant l'hiver 431-430 av. J.-C., aux **funérailles** des premiers soldats morts dans la guerre contre **Sparte**. C'est un **éloge** d'Athènes et de sa démocratie. Thucydide l'a réécrit : ce ne sont pas exactement les mots de Périclès.
+
+**2. Le pouvoir du peuple** : Périclès dit que la constitution « s'appelle démocratie, parce que le pouvoir n'est pas entre les mains d'une minorité, mais du plus grand nombre ». Il ajoute : « la pauvreté n'empêche personne [...] d'y prendre part » et « nous décidons nous-mêmes des affaires de la cité ».
+
+**3. Explication** : depuis les réformes de **Clisthène** (508-507 av. J.-C.), tous les citoyens peuvent voter les lois à l'**Ecclésia**, sur la Pnyx : c'est une démocratie **directe**. Les 500 membres de la **Boulè** et les juges sont **tirés au sort**, ce qui donne la même chance à tous. Périclès a créé le **misthos**, une indemnité qui permet aux citoyens pauvres de participer sans perdre leur journée de travail.
+
+**4. Une démocratie limitée** : le document montre que les **femmes** sont écartées de la vie publique (« que l'on parle de vous le moins possible »). Le discours ne parle pas non plus des **métèques** (étrangers installés à Athènes) ni des **esclaves**, qui n'ont aucun droit politique. Seuls les hommes libres, adultes, nés de parents athéniens sont citoyens : peut-être 40 000 personnes, une **minorité** des habitants.
+
+**Conclusion** : ce discours présente Athènes comme un modèle, « l'école de la Grèce ». Il montre une idée nouvelle, le pouvoir du peuple, mais le « peuple » athénien n'est qu'une partie de la population.` },
       ],
     },
     {
@@ -497,6 +529,7 @@ Au Ier siècle ap. J.-C., dans la province romaine de **Judée**, naît une nouv
 ## 3. Des persécutions au christianisme impérial
 - Les chrétiens **refusent** d'honorer les dieux romains et de rendre un **culte à l'empereur**. Pour les Romains, c'est une menace pour l'Empire.
 - Ils sont **persécutés** (arrêtés, condamnés à mort) à plusieurs reprises : sous **Néron** en **64**, après l'incendie de Rome ; à **Lyon** en **177** (sainte Blandine) ; sous **Dioclétien** au début du IVe siècle (la « grande persécution », à partir de 303). Ceux qui meurent pour leur foi sont des **martyrs**.
+- Vers **112**, **Pline le Jeune**, gouverneur de la province de Bithynie (au nord de la Turquie actuelle), demande par lettre à l'empereur **Trajan** comment juger les chrétiens. Trajan répond qu'il ne faut pas les rechercher, mais qu'il faut punir ceux qui sont dénoncés et refusent de prier les dieux romains.
 - En **313**, l'empereur **Constantin** accorde la **liberté de culte** aux chrétiens (**édit de Milan**). Il favorise l'Église et se fait baptiser avant de mourir en 337.
 - En **380**, l'empereur **Théodose** fait du christianisme la **religion officielle** de l'Empire ; en **392**, il **interdit les cultes païens** (polythéistes).
 
@@ -517,6 +550,25 @@ Au Ier siècle ap. J.-C., dans la province romaine de **Judée**, naît une nouv
 > - **313** : édit de Milan (Constantin), liberté de culte. **380** : religion officielle (Théodose).
 > - Vocabulaire : christianisme, Christ, apôtre, Évangile, Nouveau Testament, Église, évêque, martyr, persécution.
 `,
+      textes: {
+        pline: `**Document : un gouverneur romain face aux chrétiens (vers 112 ap. J.-C.)**
+
+*Pline le Jeune gouverne la province romaine de Bithynie (au nord de la Turquie actuelle). Il écrit à l'empereur Trajan pour lui demander comment juger les chrétiens qu'on lui dénonce.*
+
+**Lettre de Pline à Trajan**
+« Je n'ai jamais assisté à des procès de chrétiens. Voici comment j'ai agi envers ceux qu'on m'a dénoncés comme chrétiens. Je leur ai demandé s'ils étaient chrétiens. À ceux qui l'avouaient, j'ai posé la question une deuxième et une troisième fois, en les menaçant du supplice ; ceux qui ont persisté, je les ai fait exécuter. Ceux qui niaient être chrétiens, je les ai relâchés quand ils ont prié les dieux, offert de l'encens et du vin devant ta statue, et maudit le Christ. [...]
+Ils affirment que toute leur faute consistait à se réunir à jour fixe, avant le lever du soleil, à chanter un hymne au Christ comme à un dieu, et à s'engager par serment à ne commettre ni vol, ni brigandage, ni adultère. [...] Je n'ai rien trouvé d'autre qu'une superstition déraisonnable et sans mesure. [...]
+Beaucoup de personnes de tout âge, de toute condition, des deux sexes, sont concernées. Cette contagion n'a pas seulement gagné les villes, mais aussi les villages et les campagnes. Les temples, presque abandonnés, recommencent pourtant à être fréquentés. »
+
+*(Pline veut dire : beaucoup d'habitants, devenus chrétiens, ne venaient presque plus prier dans les temples des dieux romains ; depuis qu'il punit les chrétiens, les gens y reviennent.)*
+
+**Réponse de Trajan à Pline**
+« Tu as suivi la bonne méthode, mon cher Pline. [...] Il ne faut pas les rechercher. S'ils sont dénoncés et reconnus coupables, il faut les punir ; mais celui qui nie être chrétien et le prouve en priant nos dieux doit être pardonné. [...] Quant aux dénonciations anonymes, elles ne doivent être acceptées dans aucune accusation : c'est un très mauvais exemple, indigne de notre époque. »
+
+*D'après Pline le Jeune, Lettres, livre X, lettres 96 et 97, vers 112 ap. J.-C. ; texte traduit et simplifié.*
+
+*Vocabulaire : le **supplice** = une punition très cruelle, souvent la mort ; **persister** = continuer, ne pas changer d'avis ; **maudire** = souhaiter du mal, rejeter ; un **hymne** = un chant religieux ; le **brigandage** = le vol avec violence ; l'**adultère** = le fait de tromper son mari ou sa femme ; une **superstition** = pour les Romains, une croyance fausse et dangereuse ; **anonyme** = sans le nom de la personne.*`,
+      },
       exercices: [
         { type: "qcm", question: "De quelle religion le christianisme est-il issu ?", choix: ["Du judaïsme", "De la religion égyptienne", "De la religion grecque", "Du culte impérial"], reponse: 0, explication: "Jésus et ses premiers disciples sont **juifs**. Le christianisme garde la Bible hébraïque (l'Ancien Testament) et la croyance en un dieu unique." },
         { type: "saisie", question: "Dans quelle ville Jésus est-il crucifié vers l'an 30 ?", reponses: ["Jérusalem", "à Jérusalem"], explication: "Jésus est crucifié à **Jérusalem**, sur ordre du gouverneur romain Ponce Pilate." },
@@ -538,6 +590,22 @@ Au Ier siècle ap. J.-C., dans la province romaine de **Judée**, naît une nouv
 **4. Le christianisme impérial** : en **313**, **Constantin** accorde la liberté de culte (édit de Milan). En **380**, **Théodose** fait du christianisme la **religion officielle** ; en 392, il interdit les cultes païens.
 
 **Conclusion** : en moins de quatre siècles, la religion d'un petit groupe persécuté devient la religion de l'Empire romain.` },
+        { type: "saisie", texte: "pline", question: "D'après le document, à quel empereur romain Pline écrit-il ?", reponses: ["Trajan", "l'empereur Trajan"], explication: "Pline écrit à l'empereur **Trajan** (qui règne de 98 à 117), celui sous lequel l'Empire atteint sa plus grande étendue." },
+        { type: "qcm", texte: "pline", question: "Qui est Pline le Jeune, l'auteur de la première lettre ?", choix: ["Un évêque chrétien de Bithynie", "Un gouverneur romain chargé d'une province", "Un apôtre de Jésus, compagnon de Paul", "Un savant chinois venu par la route de la soie"], reponse: 1, explication: "**Pline le Jeune** est un haut fonctionnaire romain, **gouverneur** de la province de **Bithynie**. Il ne faut pas le confondre avec son oncle, le savant Pline l'Ancien. Ce n'est pas un chrétien : il juge les chrétiens." },
+        { type: "qcm", texte: "pline", question: "D'après la lettre, que doit faire un accusé pour prouver qu'il n'est pas chrétien ?", choix: ["Payer une forte amende au gouverneur de la province", "Quitter la Bithynie pour aller vivre dans une autre province", "Prier les dieux et faire une offrande devant la statue de l'empereur", "Lire à voix haute un passage des Évangiles devant le juge"], reponse: 2, explication: "Il doit **prier les dieux romains**, faire une offrande devant la **statue de l'empereur** et maudire le Christ. C'est le **culte impérial** : les chrétiens, qui croient en un dieu unique, refusent de le pratiquer, et c'est pour cela qu'ils sont condamnés." },
+        { type: "saisie", texte: "pline", question: "Quel mot Pline utilise-t-il pour désigner le christianisme, une croyance qu'il juge « déraisonnable et sans mesure » ?", reponses: ["superstition", "une superstition", "la superstition", "superstition déraisonnable", "une superstition déraisonnable", "superstition déraisonnable et sans mesure", "une superstition déraisonnable et sans mesure"], explication: "Pline parle d'une « **superstition** déraisonnable et sans mesure ». Pour un Romain, c'est une croyance étrangère et dangereuse, qui détourne des dieux de la cité." },
+        { type: "vf", texte: "pline", question: "D'après la lettre, le christianisme ne touche que quelques habitants des grandes villes.", reponse: false, explication: "Pline écrit que « beaucoup de personnes de tout âge, de toute condition, des deux sexes » sont concernées, et que la « contagion » a gagné « les villes, mais aussi les villages et les campagnes ». Le christianisme se **diffuse** largement dans l'Empire." },
+        { type: "qcm", texte: "pline", question: "D'après sa réponse, quelle règle Trajan fixe-t-il ?", choix: ["Ne pas rechercher les chrétiens, mais punir ceux qui sont dénoncés et refusent de renier leur foi", "Rechercher activement tous les chrétiens de la province et les exécuter sans procès", "Laisser les chrétiens libres de se réunir et de pratiquer leur religion", "Accepter toutes les dénonciations, même anonymes, pour aller plus vite"], reponse: 0, explication: "Trajan écrit : « Il ne faut pas les rechercher », mais ceux qui sont dénoncés et reconnus coupables doivent être punis. Il refuse les **dénonciations anonymes**. La liberté de culte ne sera accordée qu'en **313** (édit de Milan)." },
+        { type: "saisie", texte: "pline", question: "Combien d'années séparent cette lettre (vers 112) et l'édit de Milan (313) ? (réponds par un nombre)", reponses: ["201", "deux cent un"], explication: "Deux dates après J.-C. : on **soustrait**. 313 − 112 = **201 ans**. Il faut encore deux siècles pour que les chrétiens obtiennent la liberté de culte." },
+        { type: "redaction", texte: "pline", question: "**Analyse de document (niveau contrôle)** : 1. Présente le document (nature, auteurs, date, contexte). 2. Relève ce que Pline apprend sur les pratiques des chrétiens. 3. Explique pourquoi les chrétiens sont condamnés, à l'aide du document et du cours. 4. Que montre le document sur la diffusion du christianisme au début du IIe siècle ?", corrige: `**1. Présentation** : ce sont deux **lettres** écrites vers **112 ap. J.-C.** La première est de **Pline le Jeune**, **gouverneur** romain de la province de **Bithynie** (au nord de la Turquie actuelle) ; la seconde est la réponse de l'empereur **Trajan**. Pline, qui n'a jamais assisté à un procès de chrétiens, demande à l'empereur comment les juger. Ce sont des sources **romaines** : elles nous montrent les chrétiens vus par ceux qui les jugent.
+
+**2. Les pratiques des chrétiens** : ils se réunissent « à jour fixe, avant le lever du soleil », chantent « un hymne au Christ comme à un dieu » et s'engagent à ne commettre « ni vol, ni brigandage, ni adultère ». Pline reconnaît qu'il n'a rien trouvé de criminel, seulement une « superstition ».
+
+**3. Pourquoi sont-ils condamnés ?** Ce n'est pas pour des crimes, mais parce qu'ils **refusent** de prier les dieux romains et d'offrir de l'encens et du vin devant la **statue de l'empereur**. Ils refusent donc le **culte impérial**, ce que les Romains voient comme une menace pour l'Empire. Ceux qui persistent sont exécutés : ce sont des **martyrs**. Trajan fixe une règle : on ne recherche pas les chrétiens, mais on punit ceux qui sont dénoncés et refusent de renier leur foi ; il refuse les dénonciations anonymes.
+
+**4. Une religion qui se diffuse** : selon Pline, le christianisme touche des personnes « de tout âge, de toute condition, des deux sexes », dans les villes mais aussi dans « les villages et les campagnes ». Les temples des dieux romains étaient « presque abandonnés » : beaucoup d'habitants n'y venaient plus prier (Pline ajoute qu'ils recommencent à être fréquentés depuis qu'il punit les chrétiens). Moins d'un siècle après la mort de Jésus (vers 30), le christianisme s'est donc répandu dans une province d'Asie Mineure, grâce à la **paix romaine** et aux routes.
+
+**Conclusion** : ce document montre une persécution **limitée** (on ne recherche pas les chrétiens) mais réelle. Il faudra attendre l'**édit de Milan** (313) pour que les chrétiens obtiennent la liberté de culte.` },
       ],
     },
     {
@@ -858,10 +926,10 @@ Un **littoral** est l'espace de contact entre la terre et la mer. Environ **40 %
 
 ## 1. Un littoral industrialo-portuaire : Rotterdam
 - **Plus de 80 %** du commerce mondial de marchandises (en volume) voyage par la mer, sur d'immenses navires (estimation de l'ONU-CNUCED) : **porte-conteneurs**, pétroliers et vraquiers (navires qui transportent des marchandises en vrac, comme les céréales ou le charbon). C'est la **maritimisation** de l'économie.
-- Un **conteneur** est une grande boîte métallique standardisée, facile à transférer d'un navire à un camion ou un train.
-- **Rotterdam** (Pays-Bas), à l'embouchure du Rhin, est le **premier port d'Europe** : environ **440 millions de tonnes** de marchandises par an (autorité du port de Rotterdam). Pour accueillir les plus gros navires, le port s'est étendu vers la mer, sur des terres gagnées sur la mer du Nord (**Maasvlakte 2**, ouverte en 2013).
+- Un **conteneur** est une grande boîte métallique standardisée, facile à transférer d'un navire à un camion ou un train. On compte les conteneurs en **EVP** (« équivalent vingt pieds ») : un EVP correspond à un conteneur standard d'environ 6 mètres de long.
+- **Rotterdam** (Pays-Bas), à l'embouchure du Rhin, est le **premier port d'Europe** : environ **430 millions de tonnes** de marchandises par an (428 millions en 2025, selon l'autorité du port de Rotterdam). Pour accueillir les plus gros navires, le port s'est étendu vers la mer, sur des terres gagnées sur la mer du Nord (**Maasvlakte 2**, ouverte en 2013).
 - Autour des quais se trouve une **zone industrialo-portuaire** (**ZIP**) : raffineries de pétrole, usines chimiques, entrepôts. Les marchandises repartent vers l'intérieur de l'Europe par le Rhin, le rail, la route et les oléoducs : c'est l'**arrière-pays** (ou *hinterland*).
-- Dans le monde, les plus grands ports sont en **Asie** : **Shanghai** (Chine) est le premier port mondial pour les conteneurs. En France, les grands ports sont **Marseille-Fos** et **Le Havre**.
+- Dans le monde, les plus grands ports sont en **Asie** : **Shanghai** (Chine) est le premier port mondial pour les conteneurs (plus de 55 millions d'EVP en 2025, près de quatre fois plus que Rotterdam). En France, les grands ports sont **Marseille-Fos** et **Le Havre**.
 
 ## 2. Un littoral touristique : la côte méditerranéenne française
 - Le **tourisme balnéaire** (lié à la mer et aux plages) attire des millions de vacanciers chaque été. La France est l'un des pays les plus visités au monde.
@@ -882,9 +950,33 @@ Un **littoral** est l'espace de contact entre la terre et la mer. Environ **40 %
 > - Des espaces **fragiles** : érosion, pollutions, submersion. Protection : Conservatoire du littoral (1975), loi Littoral (1986).
 > - Vocabulaire : littoral, port, conteneur, ZIP, arrière-pays, maritimisation, tourisme balnéaire, station balnéaire, érosion.
 `,
+      textes: {
+        ports: `**Document : les trafics de quelques grands ports en 2025**
+
+*Tableau 1 – Les plus grands ports à conteneurs du monde, et le premier d'Europe*
+
+| Port | Pays | Conteneurs traités en 2025 (millions d'EVP) |
+|---|---|---|
+| Shanghai | Chine | 55,1 |
+| Singapour | Singapour | 44,7 |
+| Ningbo-Zhoushan | Chine | 43,9 |
+| Rotterdam (1er port d'Europe) | Pays-Bas | 14,2 |
+
+*Tableau 2 – Le trafic total de quelques ports européens (toutes marchandises)*
+
+| Port | Pays | Marchandises traitées en 2025 (millions de tonnes) |
+|---|---|---|
+| Rotterdam | Pays-Bas | 428 |
+| Anvers-Bruges | Belgique | 267 |
+| Hambourg | Allemagne | 115 |
+| HAROPA (Le Havre, Rouen, Paris) | France | 85 |
+| Marseille-Fos | France | 74 |
+
+*EVP : « équivalent vingt pieds », un conteneur standard d'environ 6 mètres de long. Sources : bilans annuels des autorités portuaires (port de Shanghai, autorité maritime de Singapour, port de Rotterdam, HAROPA Port, port de Marseille-Fos…) et presse maritime spécialisée, publiés début 2026 ; chiffres arrondis.*`,
+      },
       exercices: [
         { type: "saisie", question: "Comment appelle-t-on l'espace de contact entre la terre et la mer ?", reponses: ["littoral", "le littoral", "un littoral", "la côte", "côte", "les littoraux", "les côtes", "côtes"], explication: "Le **littoral** (ou la côte) : un espace très peuplé et très aménagé." },
-        { type: "qcm", question: "Quel est le premier port d'Europe ?", choix: ["Marseille", "Venise", "Rotterdam", "Le Havre"], reponse: 2, explication: "**Rotterdam** (Pays-Bas) traite environ 440 millions de tonnes par an. Marseille-Fos et Le Havre sont les grands ports français." },
+        { type: "qcm", question: "Quel est le premier port d'Europe ?", choix: ["Marseille", "Venise", "Rotterdam", "Le Havre"], reponse: 2, explication: "**Rotterdam** (Pays-Bas) traite environ 430 millions de tonnes par an (428 millions en 2025). Marseille-Fos et Le Havre sont les grands ports français." },
         { type: "saisie", question: "Comment appelle-t-on la grande boîte métallique standardisée qui sert à transporter les marchandises sur les navires ?", reponses: ["conteneur", "un conteneur", "container", "les conteneurs", "conteneurs", "des conteneurs", "containers"], explication: "Le **conteneur** passe facilement du navire au camion ou au train : il a révolutionné le commerce maritime." },
         { type: "vf", question: "Le tourisme sur les littoraux n'a que des avantages.", reponse: false, explication: "Il apporte des **emplois** et de l'argent, mais aussi la **bétonisation**, des embouteillages, la hausse des prix des logements et une forte pression sur l'eau et la nature." },
         { type: "qcm", question: "Que signifie le sigle ZIP ?", choix: ["Zone d'intérêt patrimonial", "Zone interdite à la pêche", "Zone internationale de plaisance", "Zone industrialo-portuaire"], reponse: 3, explication: "La **zone industrialo-portuaire** regroupe, autour des quais, raffineries, usines chimiques et entrepôts." },
@@ -895,7 +987,7 @@ Un **littoral** est l'espace de contact entre la terre et la mer. Environ **40 %
         { type: "redaction", question: "**Paragraphe argumenté (niveau contrôle)** : montre que les littoraux sont des espaces très aménagés pour des activités variées, mais aussi des espaces fragiles. Appuie-toi sur un exemple de littoral industrialo-portuaire et un exemple de littoral touristique.", corrige: `**Introduction** : les **littoraux** attirent les hommes et les activités : environ 40 % de l'humanité vit à moins de 100 km des côtes. Ils sont aménagés pour l'industrie, le commerce et le tourisme, mais ils sont fragiles.
 
 **1. Un littoral industrialo-portuaire : Rotterdam**
-- **Rotterdam** est le premier port d'Europe (environ 440 millions de tonnes par an). Les **porte-conteneurs** y apportent des marchandises du monde entier : c'est la **maritimisation**.
+- **Rotterdam** est le premier port d'Europe (environ 430 millions de tonnes par an). Les **porte-conteneurs** y apportent des marchandises du monde entier : c'est la **maritimisation**.
 - Le port s'est étendu sur la mer (**Maasvlakte 2**). Autour des quais, la **ZIP** regroupe raffineries, usines chimiques et entrepôts. Les marchandises repartent vers l'**arrière-pays** européen par le Rhin, le rail et la route.
 
 **2. Un littoral touristique : la côte méditerranéenne française**
@@ -907,6 +999,21 @@ Un **littoral** est l'espace de contact entre la terre et la mer. Environ **40 %
 - En France, le **Conservatoire du littoral** (1975) et la **loi Littoral** (1986) les protègent.
 
 **Conclusion** : habiter un littoral, c'est profiter de ses atouts tout en le protégeant : il faut concilier développement et préservation.` },
+        { type: "qcm", texte: "ports", question: "D'après le tableau 1, quel est le premier port à conteneurs du monde en 2025 ?", choix: ["Rotterdam", "Singapour", "Ningbo-Zhoushan", "Shanghai"], reponse: 3, explication: "**Shanghai** (Chine) a traité plus de 55 millions d'EVP en 2025 : c'est le premier port à conteneurs du monde depuis 2010. Rotterdam est seulement le premier port d'Europe." },
+        { type: "vf", texte: "ports", question: "D'après le tableau 1, les trois plus grands ports à conteneurs du monde se trouvent en Asie.", reponse: true, explication: "Shanghai et Ningbo-Zhoushan sont en **Chine**, Singapour en Asie du Sud-Est. L'Asie est devenue le cœur du commerce maritime mondial : c'est là que sont fabriquées une grande partie des marchandises transportées en conteneurs." },
+        { type: "saisie", texte: "ports", question: "D'après le tableau 1, combien de fois environ Shanghai traite-t-il plus de conteneurs que Rotterdam ? (arrondis à l'unité ; astuce : cherche combien de fois 14 « rentre » dans 55)", reponses: ["4", "environ 4", "quatre", "4 fois", "3,9", "3,88"], explication: "55,1 ÷ 14,2 ≈ 3,9, soit **environ 4 fois** plus. Le premier port d'Europe est loin derrière les grands ports asiatiques pour les conteneurs." },
+        { type: "saisie", texte: "ports", question: "D'après le tableau 2, combien de millions de tonnes Rotterdam traite-t-il de plus que Marseille-Fos ? (réponds par un nombre)", reponses: ["354", "354 millions", "354 millions de tonnes", "354 Mt", "trois cent cinquante-quatre"], explication: "428 − 74 = **354 millions de tonnes** de plus. Rotterdam traite presque six fois plus de marchandises que Marseille-Fos." },
+        { type: "qcm", texte: "ports", question: "Avec tes connaissances : pourquoi Rotterdam est-il le premier port d'Europe ?", choix: ["Parce que c'est le port d'Europe le plus proche de la Chine et des grands ports d'Asie", "Parce que c'est le seul port d'Europe capable d'accueillir des porte-conteneurs", "Parce qu'il est à l'embouchure du Rhin, relié à un vaste arrière-pays, et s'est agrandi sur la mer", "Parce que c'est le plus ancien port d'Europe, fondé par les Romains dans l'Antiquité"], reponse: 2, explication: "Rotterdam est à l'embouchure du **Rhin** : les marchandises repartent par le fleuve, le rail, la route et les oléoducs vers un **arrière-pays** (*hinterland*) très peuplé et riche (Pays-Bas, Allemagne…). Le port a gagné des terres sur la mer (**Maasvlakte 2**) pour accueillir les plus grands navires. Anvers, Hambourg ou Le Havre accueillent aussi des conteneurs." },
+        { type: "vf", texte: "ports", question: "D'après le tableau 2, le trafic total de HAROPA (Le Havre, Rouen, Paris) est plus important que celui de Hambourg.", reponse: false, explication: "HAROPA traite environ **85** millions de tonnes, Hambourg environ **115** millions. Les ports français sont des ports importants, mais plus petits que les grands ports du nord de l'Europe (Rotterdam, Anvers-Bruges, Hambourg)." },
+        { type: "redaction", texte: "ports", question: "**Analyse de document (niveau contrôle)** : 1. Présente le document. 2. Décris ce que montre le tableau 1, en citant deux chiffres. 3. Décris ce que montre le tableau 2 sur la place des ports français. 4. Explique, avec tes connaissances, pourquoi les grands ports sont des espaces très aménagés.", corrige: `**1. Présentation** : le document est formé de deux **tableaux statistiques** réalisés d'après les bilans des **autorités portuaires** publiés début 2026. Ils donnent les **trafics** de grands ports en **2025** : en conteneurs (en millions d'EVP) et en tonnes de marchandises.
+
+**2. Le tableau 1** : les trois premiers ports à conteneurs du monde sont en **Asie** : **Shanghai** (55,1 millions d'EVP), Singapour (44,7) et Ningbo-Zhoushan (43,9). Le premier port d'Europe, **Rotterdam**, n'en traite que 14,2 millions, environ quatre fois moins que Shanghai. L'Asie est le cœur du commerce maritime mondial.
+
+**3. Le tableau 2** : en Europe, **Rotterdam** domine nettement (428 millions de tonnes), devant Anvers-Bruges (267) et Hambourg (115) : ce sont les grands ports de la **mer du Nord**. Les ports français, **HAROPA** (85) et **Marseille-Fos** (74), sont importants mais beaucoup plus petits : Rotterdam traite environ cinq fois plus de marchandises que HAROPA.
+
+**4. Des espaces très aménagés** : plus de 80 % du commerce mondial (en volume) passe par la mer : c'est la **maritimisation**. Pour accueillir des **porte-conteneurs** géants, les ports creusent des bassins profonds et gagnent des terres sur la mer (**Maasvlakte 2** à Rotterdam). Autour des quais, la **zone industrialo-portuaire** (ZIP) regroupe raffineries, usines et entrepôts. Les marchandises repartent vers l'**arrière-pays** par les fleuves (le Rhin), le rail, la route et les oléoducs.
+
+**Conclusion** : les trafics portuaires montrent que le monde est relié par la mer. Les ports sont des **littoraux industrialo-portuaires** très aménagés, et les plus grands sont aujourd'hui en Asie.` },
       ],
     },
     {

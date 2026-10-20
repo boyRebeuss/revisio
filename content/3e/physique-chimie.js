@@ -1447,5 +1447,324 @@ Il y a autant d'atomes de chaque élément de chaque côté : l'équation est **
 > Méthode : tableau de comptage des atomes, calcul avec la conservation de la masse, puis réponses rédigées avec le vocabulaire du cours (combustion incomplète, monoxyde de carbone, effet de serre).` },
       ],
     },
+    {
+      id: "bilan-energie-terre",
+      titre: "Le rayonnement solaire et le bilan d'énergie de la Terre",
+      theme: "L'énergie, ses transferts et ses conversions",
+      cours: `
+## Le Soleil, source d'énergie de la Terre
+Au cœur du Soleil, la **fusion nucléaire** libère une énergie énorme. Le Soleil la rayonne dans toutes les directions : c'est le **rayonnement solaire**. Ce rayonnement **se propage dans le vide**, à la vitesse de la lumière, et atteint la Terre en environ 8 min 20 s. C'est un transfert d'énergie **par rayonnement** (voir le chapitre sur les sources d'énergie).
+
+Presque toute l'énergie qui chauffe la Terre, fait souffler les vents, évaporer l'eau et pousser les plantes vient de ce rayonnement.
+
+- Au sommet de l'atmosphère, une surface de 1 m² placée face au Soleil reçoit environ **1 360 W**.
+- En **moyenne** sur tout le globe (jour et nuit, pôles et équateur), chaque m² reçoit environ **340 W**, soit le quart de 1 360 W. Pourquoi le quart ? La Terre intercepte le rayonnement comme le ferait un **disque** de même rayon qu'elle, mais cette énergie se répartit sur toute la surface de la **sphère**, qui est **4 fois** plus grande que ce disque (la moitié est dans la nuit, et ailleurs les rayons arrivent de biais).
+
+## Rayonnements visibles et invisibles
+La lumière visible n'est qu'une partie des rayonnements. Du plus énergétique au moins énergétique :
+
+| Rayonnement | Visible ? | Exemples |
+|---|---|---|
+| **ultraviolet** (UV) | non | coups de soleil ; en grande partie arrêté par la couche d'ozone |
+| **visible** | oui | du violet au rouge (l'arc-en-ciel) |
+| **infrarouge** (IR) | non | la « chaleur » ressentie près d'un feu, les caméras thermiques, les télécommandes |
+
+Tout objet **émet** un rayonnement qui dépend de sa **température** : plus il est chaud, plus il rayonne d'énergie. Le Soleil (environ 5 500 °C en surface) émet surtout de la lumière **visible** et de l'infrarouge proche (juste au-delà du rouge) ; la Terre (environ 15 °C en moyenne) émet un rayonnement **infrarouge**, invisible pour nos yeux.
+
+## L'albédo : la part d'énergie réfléchie
+Une partie du rayonnement reçu est **réfléchie** (renvoyée) sans chauffer ; le reste est **absorbé** et chauffe la surface. L'**albédo** est la fraction d'énergie réfléchie :
+
+> **albédo = énergie réfléchie / énergie reçue** (nombre sans unité, entre 0 et 1)
+
+| Surface | Albédo (environ) |
+|---|---|
+| neige fraîche | 0,8 à 0,9 |
+| glace de mer (banquise) | 0,5 à 0,7 |
+| désert de sable | 0,3 à 0,4 |
+| forêt | 0,1 à 0,2 |
+| océan | environ 0,06 |
+| **Terre, en moyenne** | **0,3** |
+
+Une surface **claire** a un albédo élevé (elle réfléchit beaucoup) ; une surface **sombre** a un albédo faible (elle absorbe beaucoup et chauffe).
+
+>! **Exemple résolu** : un champ de neige (albédo 0,85) reçoit 200 W par m².
+>! - Puissance réfléchie : 0,85 × 200 = **170 W/m²**.
+>! - Puissance absorbée : 200 − 170 = **30 W/m²**.
+>! Un océan (albédo 0,06) qui reçoit autant absorbe 200 − 0,06 × 200 = **188 W/m²** : il chauffe bien plus.
+
+## Le bilan d'énergie de la Terre
+Pour **100 parts** d'énergie solaire arrivant au sommet de l'atmosphère (valeurs moyennes arrondies) :
+- environ **30** sont **réfléchies** vers l'espace (nuages, air, glaces, déserts) : c'est l'albédo de 0,3 ;
+- environ **23** sont **absorbées par l'atmosphère** ;
+- environ **47** sont **absorbées par la surface** (sols, océans).
+
+La Terre absorbe donc environ **70 parts**. Chauffées, la surface et l'atmosphère émettent un rayonnement **infrarouge**. Les **gaz à effet de serre** (vapeur d'eau, dioxyde de carbone, méthane...) absorbent une grande partie de l'infrarouge émis par la surface et en renvoient une partie vers elle : c'est l'**effet de serre** (voir le chapitre sur les combustions), qui maintient une température moyenne d'environ 15 °C.
+
+**À l'équilibre**, la Terre renvoie vers l'espace **autant d'énergie qu'elle en reçoit** : 30 parts réfléchies + 70 parts émises en infrarouge = 100 parts. Sa température moyenne reste alors **stable**.
+
+>! **Image de la baignoire** : le robinet est l'énergie reçue, la bonde l'énergie renvoyée vers l'espace. Si les deux débits sont égaux, le niveau (la température) ne bouge pas. Si on bouche un peu la bonde, le niveau monte jusqu'à un nouvel équilibre.
+
+## Quand le bilan est déséquilibré
+- Si les **gaz à effet de serre augmentent** (combustions des énergies fossiles), moins d'infrarouge s'échappe vers l'espace : la Terre reçoit **plus** d'énergie qu'elle n'en renvoie. Ce **surplus** la réchauffe. Aujourd'hui, ce surplus est de l'ordre de **1 W par m²** en moyenne ; il est stocké à environ 90 % dans les **océans**.
+- Si l'**albédo diminue** (fonte de la neige et de la banquise, qui laissent place à un sol ou un océan sombres), la Terre absorbe **plus** d'énergie : le réchauffement fait fondre les glaces, ce qui accentue le réchauffement. C'est une **boucle qui s'amplifie** (une rétroaction).
+
+## Pourquoi fait-il plus froid aux pôles ?
+À l'équateur, les rayons du Soleil arrivent presque **à la verticale** : l'énergie est concentrée sur une petite surface. Aux pôles, ils arrivent **rasants** : la même énergie s'étale sur une surface bien plus grande, chaque m² reçoit moins. De plus, la glace des pôles réfléchit beaucoup. Les vents et les courants marins transportent ensuite de l'énergie de l'équateur vers les pôles.
+
+>! **Erreurs fréquentes** :
+>! - Le rayonnement n'a **pas besoin de matière** : l'énergie du Soleil traverse le vide spatial.
+>! - L'albédo est un nombre **sans unité** entre 0 et 1 (0,3 et non « 30 W »).
+>! - L'effet de serre ne vient pas d'un « trou » dans l'atmosphère : il vient des gaz qui **absorbent l'infrarouge** émis par la Terre (le trou de la couche d'ozone concerne les UV, c'est un autre problème).
+
+> **À retenir** :
+> - Le Soleil transfère son énergie à la Terre par **rayonnement**, à travers le vide.
+> - UV et infrarouge sont invisibles ; la Terre émet surtout de l'**infrarouge**.
+> - Albédo = énergie réfléchie / énergie reçue ; Terre : environ 0,3 (30 % réfléchis, 70 % absorbés).
+> - À l'équilibre, la Terre renvoie autant d'énergie qu'elle en reçoit : sa température est stable.
+> - Plus de gaz à effet de serre ou un albédo plus faible : surplus d'énergie, réchauffement.
+`,
+      textes: {
+        bilan: `**Document : le bilan d'énergie moyen de la Terre** (valeurs moyennes arrondies, d'après les estimations des climatologues)
+
+Pour **100 parts** d'énergie solaire qui arrivent au sommet de l'atmosphère :
+
+| Ce que devient l'énergie solaire | Parts |
+|---|---|
+| réfléchie vers l'espace (nuages, air, surfaces claires) | 30 |
+| absorbée par l'atmosphère (gaz, nuages, poussières) | 23 |
+| absorbée par la surface (sols, océans) | 47 |
+
+En retour, la surface et l'atmosphère, chauffées, émettent un rayonnement **infrarouge**. Une partie s'échappe vers l'espace ; une autre partie est absorbée par les gaz à effet de serre, qui en renvoient une partie vers la surface.`,
+      },
+      exercices: [
+        { type: "qcm", question: "Quel rayonnement, invisible pour nos yeux, la Terre émet-elle surtout ?", choix: ["L'ultraviolet", "L'infrarouge", "La lumière visible", "Le rayonnement radio"], reponse: 1, explication: "La Terre, à environ 15 °C en moyenne, émet surtout un rayonnement **infrarouge**. C'est le Soleil, bien plus chaud, qui émet surtout de la lumière visible." },
+        { type: "vf", question: "Le rayonnement ultraviolet et le rayonnement infrarouge sont tous les deux invisibles pour l'œil humain.", reponse: true, explication: "Notre œil ne perçoit que la lumière **visible**, du violet au rouge. Les **ultraviolets** (au-delà du violet) et les **infrarouges** (au-delà du rouge) sont **invisibles**, mais ils transportent bien de l'énergie." },
+        { type: "saisie", texte: "bilan", question: "D'après le document, combien de parts sur 100 sont absorbées en tout par la Terre (atmosphère et surface) ?", reponses: ["70", "70 parts", "70 parts sur 100", "70 %", "70 sur 100"], explication: "Atmosphère + surface : 23 + 47 = **70 parts**. On retrouve le même résultat avec 100 − 30 (les parts réfléchies)." },
+        { type: "qcm", texte: "bilan", question: "D'après le document, que vaut l'albédo moyen de la Terre ?", choix: ["0,7", "30 W", "0,3", "0,47"], reponse: 2, explication: "L'albédo est la fraction réfléchie : 30 parts sur 100, soit 30 ÷ 100 = **0,3**. C'est un nombre **sans unité** ; 0,7 est la fraction absorbée." },
+        { type: "saisie", question: "Un champ de neige fraîche (albédo 0,85) reçoit 200 W par m² de rayonnement solaire. Quelle puissance réfléchit-il par m² ? (en W/m²)", reponses: ["170 W/m²", "170 W/m2", "170 W", "170 watts par mètre carré"], explication: "Puissance réfléchie = albédo × puissance reçue = 0,85 × 200 = **170 W/m²**. Il n'en absorbe que 200 − 170 = 30 W/m² : voilà pourquoi la neige fond lentement au soleil." },
+        { type: "vf", question: "À l'équilibre, la Terre renvoie vers l'espace, par réflexion et par rayonnement infrarouge, autant d'énergie qu'elle en reçoit du Soleil.", reponse: true, explication: "C'est l'**équilibre du bilan d'énergie** : 30 parts réfléchies + 70 parts émises en infrarouge = 100 parts reçues. La température moyenne reste alors stable." },
+        { type: "qcm", texte: "bilan", question: "La quantité de gaz à effet de serre dans l'atmosphère augmente. Que se passe-t-il ?", choix: ["La Terre réfléchit plus de lumière et se refroidit", "Moins d'infrarouge s'échappe vers l'espace : la Terre garde un surplus d'énergie et se réchauffe", "Le Soleil envoie plus d'énergie vers la Terre", "Rien : l'infrarouge traverse toujours l'atmosphère sans être absorbé"], reponse: 1, explication: "Les gaz à effet de serre **absorbent l'infrarouge** émis par la Terre. S'il y en a plus, une plus petite partie s'échappe vers l'espace : la Terre reçoit plus qu'elle ne renvoie, ce **surplus** la réchauffe. Le Soleil, lui, n'envoie pas plus d'énergie." },
+        { type: "qcm", question: "Dans l'Arctique, la banquise (albédo ≈ 0,6) fond et laisse place à l'océan (albédo ≈ 0,06). Quelle est la conséquence ?", choix: ["La région absorbe moins d'énergie et se refroidit", "L'albédo de la région augmente", "Rien ne change, car la glace et l'eau sont la même espèce chimique", "La région absorbe plus d'énergie solaire, ce qui accentue le réchauffement"], reponse: 3, explication: "L'océan, sombre, a un albédo bien plus **faible** que la glace : il **absorbe** beaucoup plus d'énergie. La région se réchauffe davantage, ce qui fait fondre encore plus de glace : c'est une **boucle qui s'amplifie**." },
+        { type: "saisie", question: "En moyenne sur tout le globe, chaque m² reçoit au sommet de l'atmosphère 340 W de rayonnement solaire. L'albédo de la Terre vaut 0,3. Quelle puissance par m² la Terre absorbe-t-elle ? (en W/m²)", reponses: ["238 W/m²", "238 W/m2", "238 W", "238 watts par mètre carré"], explication: "Puissance réfléchie : 0,3 × 340 = 102 W/m². Puissance absorbée : 340 − 102 = **238 W/m²** (ou directement 0,7 × 340 = 238 W/m²)." },
+        { type: "redaction", texte: "bilan", question: "**Type brevet.** Utilise le document et tes connaissances.\n1. Calcule la part d'énergie solaire absorbée par la Terre, puis son albédo moyen.\n2. Quel type de rayonnement la Terre émet-elle en retour ? Pourquoi ne le voit-on pas ?\n3. Avant l'ère industrielle, la température moyenne de la Terre est restée à peu près stable pendant des siècles. Explique-le avec la notion de bilan d'énergie.\n4. Les combustions des énergies fossiles augmentent la quantité de dioxyde de carbone dans l'atmosphère. Explique comment cela modifie le bilan et quelle en est la conséquence.\n5. Explique pourquoi la fonte des glaces accentue ce phénomène.", corrige: `1. **Part absorbée** : 23 + 47 = **70 parts sur 100** (ou 100 − 30). **Albédo** : 30 ÷ 100 = **0,3**.
+
+2. Chauffées, la surface et l'atmosphère émettent un rayonnement **infrarouge**. Il est **invisible** car notre œil ne perçoit que la lumière visible (du violet au rouge) ; on peut le « voir » avec une caméra thermique.
+
+3. Quand la température est stable, la Terre est **à l'équilibre** : elle renvoie vers l'espace **autant d'énergie qu'elle en reçoit** (30 parts réfléchies + 70 parts émises en infrarouge = 100 parts reçues). Rien ne s'accumule : la température moyenne ne change pas.
+
+4. Le dioxyde de carbone est un **gaz à effet de serre** : il **absorbe** une partie de l'infrarouge émis par la Terre et en renvoie une partie vers la surface. S'il y en a plus, **moins d'énergie s'échappe** vers l'espace : la Terre reçoit plus qu'elle ne renvoie. Ce **surplus d'énergie** provoque le **réchauffement climatique** (jusqu'à ce qu'un nouvel équilibre s'établisse, à une température plus élevée).
+
+5. La glace et la neige, claires, ont un **albédo élevé** : elles réfléchissent beaucoup. Quand elles fondent, elles laissent place à des surfaces **sombres** (océan, roches) d'albédo faible, qui **absorbent davantage** d'énergie solaire. Le réchauffement augmente, ce qui fait fondre encore plus de glace : c'est une **boucle qui s'amplifie**.
+
+> Méthode : citer les valeurs du document, faire le calcul, puis utiliser le vocabulaire du cours (rayonnement infrarouge, albédo, équilibre, surplus d'énergie, gaz à effet de serre).` },
+      ],
+    },
+    {
+      id: "signal-information",
+      titre: "Signaux et transmission de l'information",
+      theme: "Des signaux pour observer et communiquer",
+      cours: `
+## La chaîne de transmission
+Pour transmettre une **information** (un message, une image, une musique), on utilise un **signal** : une grandeur physique qui varie et qui se propage.
+
+~~~
+information
+   → ÉMETTEUR (codage)
+   → signal, dans un milieu de propagation
+   → RÉCEPTEUR (décodage)
+   → information
+~~~
+
+- L'**émetteur** transforme l'information en signal (on dit qu'il la **code**).
+- Le signal se **propage** dans un milieu (air, eau, fibre de verre, fil de cuivre, vide).
+- Le **récepteur** capte le signal et retrouve l'information (il la **décode**).
+
+| Situation | Émetteur | Signal | Milieu | Récepteur |
+|---|---|---|---|---|
+| conversation | cordes vocales | sonore | air | oreille |
+| téléphone portable | antenne du téléphone | onde radio | air | antenne relais |
+| Internet par fibre | laser | lumineux | fibre de verre | photodiode (capteur de lumière) |
+| télécommande | petite DEL | infrarouge | air | capteur du téléviseur |
+| phare | lampe | lumineux | air | œil du marin |
+
+## Les différents types de signaux
+| Signal | A-t-il besoin d'un milieu matériel ? | Vitesse (environ) |
+|---|---|---|
+| **sonore** (vibration de la matière) | **oui** : ne se propage pas dans le vide | 340 m/s dans l'air, 1 500 m/s dans l'eau |
+| **lumineux**, **infrarouge**, **ondes radio** (ondes électromagnétiques) | **non** : se propagent aussi dans le vide | 300 000 km/s dans le vide et dans l'air ; environ 200 000 km/s dans le verre d'une fibre |
+| **électrique** (tension qui varie dans un fil) | oui : un fil conducteur | très rapide |
+
+Les **ondes radio** sont de la même famille que la lumière, mais invisibles. Elles servent à la radio FM (en France, de 87,5 à 108 MHz), au Wi-Fi (2,4 GHz et 5 GHz), au Bluetooth, aux téléphones portables, au GPS. Rappel : 1 MHz = 1 000 000 Hz ; 1 GHz = 1 000 000 000 Hz.
+
+## Coder l'information
+- Un signal **analogique** varie de façon **continue**, comme la vibration de l'air d'un son ou la tension produite par un micro.
+- Un signal **numérique** ne prend que **deux valeurs**, notées **0** et **1** : par exemple lumière éteinte / allumée dans une fibre optique. Chaque 0 ou 1 est un **bit** ; 8 bits forment un **octet**. Avec un octet, on peut écrire 2⁸ = **256** combinaisons différentes (de 00000000 à 11111111).
+- Le **code Morse**, inventé au XIXe siècle, code chaque lettre par des signaux courts (·) et longs (—), sonores ou lumineux : S = · · · ; O = — — —. Le message de détresse **SOS** s'écrit · · · — — — · · ·.
+
+Le **débit** est le nombre de bits transmis par seconde (en bit/s ; 1 Mbit/s = 1 million de bits par seconde).
+
+>! **Exemple** : un fichier de 50 Mo (mégaoctets) contient 50 × 8 = 400 Mbit. Avec une connexion de 100 Mbit/s, il se télécharge en 400 ÷ 100 = **4 s**.
+
+## Durée de transmission : t = d / v
+Même à la vitesse de la lumière, un signal met du temps pour parcourir de grandes distances.
+
+>! **Exemple résolu (satellite)** : un satellite de télévision tourne à 36 000 km d'altitude. Un signal radio va du sol au satellite en t = d / v = 36 000 ÷ 300 000 = **0,12 s**. Pour un trajet sol → satellite → sol, il faut 2 × 0,12 = **0,24 s** : c'est le petit décalage parfois visible lors des duplex à la télévision.
+
+>! **Exemple (Mars)** : la distance Terre-Mars varie d'environ 56 à 400 millions de km. Pour 225 millions de km : t = 225 000 000 ÷ 300 000 = **750 s** = 12 min 30 s. On ne peut donc pas piloter un robot martien « en direct » : on lui envoie des instructions à l'avance.
+
+## Le signal s'affaiblit
+En se propageant, un signal s'**atténue** (il perd de l'énergie) et peut être perturbé. Il faut des **relais** ou des amplificateurs : antennes relais pour les téléphones, répéteurs le long des câbles sous-marins. Les murs, l'eau et le corps humain atténuent les ondes Wi-Fi.
+
+>! **Erreurs fréquentes** :
+>! - Une onde radio **n'est pas un son** : c'est le haut-parleur du poste qui transforme le signal reçu en son.
+>! - Le son ne traverse pas le vide, mais la lumière et les ondes radio, oui : c'est ainsi que l'on communique avec les satellites et les sondes spatiales.
+>! - Une durée de transmission se calcule avec des unités cohérentes : km et km/s donnent des secondes.
+
+> **À retenir** :
+> - Chaîne : émetteur (codage) → signal → milieu → récepteur (décodage).
+> - Signaux sonores : milieu matériel nécessaire. Lumière, infrarouge, ondes radio : aussi dans le vide, à 300 000 km/s.
+> - Analogique : variation continue ; numérique : 0 et 1 (bits) ; 1 octet = 8 bits = 256 combinaisons.
+> - Durée de transmission : t = d / v ; le signal s'atténue, d'où les relais.
+`,
+      exercices: [
+        { type: "qcm", question: "Lors d'un appel avec un téléphone portable, quel signal transporte la voix entre le téléphone et l'antenne relais ?", choix: ["Un signal sonore", "Une onde radio", "Un signal lumineux visible", "Un courant électrique dans l'air"], reponse: 1, explication: "Le téléphone transforme la voix en **onde radio**, invisible et inaudible, captée par l'antenne relais. Le son ne sert qu'au début (voix → micro) et à la fin (haut-parleur → oreille)." },
+        { type: "vf", question: "Les ondes radio peuvent se propager dans le vide.", reponse: true, explication: "Comme la lumière, les ondes radio sont des ondes électromagnétiques : elles **se propagent dans le vide**. C'est ainsi que l'on communique avec les satellites et les sondes spatiales." },
+        { type: "qcm", question: "Dans une fibre optique, l'information est transportée par :", choix: ["des impulsions lumineuses", "des ondes sonores", "un courant d'eau", "des ions"], reponse: 0, explication: "Un laser envoie des **impulsions lumineuses** (allumé / éteint, soit des 1 et des 0) guidées dans un fil de verre très fin." },
+        { type: "saisie", question: "Une télécommande de téléviseur émet un rayonnement invisible pour transmettre tes ordres. Lequel ?", reponses: ["infrarouge", "l'infrarouge", "un rayonnement infrarouge", "rayonnement infrarouge", "infrarouges", "les infrarouges", "IR", "ondes infrarouges", "une onde infrarouge", "rayons infrarouges", "lumière infrarouge"], explication: "C'est un rayonnement **infrarouge**, émis par une petite DEL et capté par le téléviseur. Tu peux le voir en regardant la télécommande à travers l'appareil photo d'un téléphone : la DEL clignote quand tu appuies." },
+        { type: "saisie", question: "En code Morse, la lettre S s'écrit · · · et la lettre O s'écrit — — —. Quel message célèbre correspond à · · · — — — · · · ?", reponses: ["SOS", "S.O.S."], explication: "· · · = S, — — — = O, · · · = S : c'est **SOS**, le signal de détresse international. Il peut être transmis par un son (sifflet) ou par la lumière (lampe)." },
+        { type: "saisie", question: "Combien de combinaisons différentes peut-on écrire avec un octet, c'est-à-dire 8 bits valant chacun 0 ou 1 ?", reponses: ["256", "256 combinaisons"], explication: "Chaque bit a 2 valeurs possibles : 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 = 2⁸ = **256** combinaisons, de 00000000 à 11111111." },
+        { type: "qcm", question: "En 1969, les astronautes d'Apollo 11 étaient sur la Lune, à environ 384 000 km de la Terre. Une question posée depuis la Terre par radio va jusqu'à eux, puis leur réponse revient. Combien de temps durent au minimum ces deux trajets (aller et retour) ? (c = 300 000 km/s)", choix: ["1,28 s", "0,78 s", "2,56 s", "1 280 s"], reponse: 2, explication: "Aller : t = d / v = 384 000 ÷ 300 000 = 1,28 s. Aller et retour : 2 × 1,28 = **2,56 s**. 1,28 s ne correspond qu'à l'aller ; 0,78 s vient d'une division à l'envers (300 000 ÷ 384 000)." },
+        { type: "saisie", question: "Un jour donné, Mars est à 90 millions de km de la Terre. Combien de secondes met un message radio pour aller de la Terre à Mars ? (c = 300 000 km/s)", reponses: ["300 s", "300 secondes", "5 min", "5 minutes"], explication: "t = d / v = 90 000 000 ÷ 300 000 = **300 s**, soit 5 min." },
+        { type: "vf", question: "Un signal numérique varie de façon continue, comme la vibration de l'air produite par un son.", reponse: false, explication: "C'est la définition d'un signal **analogique**. Un signal **numérique** ne prend que **deux valeurs**, notées 0 et 1 (les bits)." },
+        { type: "redaction", question: "**Type brevet.** Le robot Perseverance explore la planète Mars depuis 2021. Les ingénieurs lui envoient des instructions depuis la Terre.\nDonnées : la distance Terre-Mars varie d'environ 56 millions de km à 400 millions de km ; c = 300 000 km/s.\n1. Pourquoi ne peut-on pas communiquer avec le robot par un signal sonore ? Quel type de signal utilise-t-on ?\n2. Calcule la durée minimale et la durée maximale du trajet d'un message de la Terre vers Mars (en s, puis en min, arrondies à la minute).\n3. Le robot filme un rocher juste devant lui. Un ingénieur sur Terre peut-il l'éviter en pilotant le robot « en direct », comme une voiture télécommandée ? Justifie.\n4. Les images envoyées par le robot sont codées en numérique. Explique ce que cela signifie.", corrige: `1. Entre la Terre et Mars, il y a le **vide** spatial : le son, qui a besoin d'un **milieu matériel**, ne s'y propage pas. On utilise des **ondes radio**, qui se propagent dans le vide à la vitesse de la lumière.
+
+2. **Durée minimale** : t = d / v = 56 000 000 ÷ 300 000 ≈ **187 s**, soit environ **3 min**.
+**Durée maximale** : t = 400 000 000 ÷ 300 000 ≈ **1 333 s**, soit environ **22 min**.
+
+3. **Non**. L'image du rocher met au moins 3 min (jusqu'à 22 min) pour arriver sur Terre, puis l'ordre de freiner met encore autant de temps pour revenir : au moins **6 min** en tout. Le robot aurait percuté le rocher bien avant. On lui envoie donc des instructions à l'avance, et il est programmé pour éviter seul certains obstacles.
+
+4. L'image est transformée en une suite de **0 et de 1** (des **bits**) : chaque point de l'image (pixel) est décrit par des nombres écrits en binaire. Comme l'information ne comporte que deux valeurs (0 ou 1), le récepteur peut la retrouver même si le signal arrive affaibli ou un peu perturbé après le long voyage.
+
+> Méthode : convertir les distances en km pour utiliser c en km/s, appliquer t = d / v, puis répondre par une phrase qui utilise le résultat du calcul.` },
+      ],
+    },
+    {
+      id: "tache-complexe",
+      titre: "Méthode : réussir une tâche complexe",
+      theme: "Méthode pour le brevet",
+      cours: `
+## Qu'est-ce qu'une tâche complexe ?
+Dans les sujets de sciences du brevet, une question donne souvent **plusieurs documents** (texte, tableau, graphique, schéma) et pose un **problème concret** : « Tom pourra-t-il... ? », « Ce flacon contient-il... ? ». Aucune question intermédiaire ne te guide : c'est **toi** qui construis la démarche. On l'appelle **tâche complexe** ou **résolution de problème**.
+
+Les sujets précisent souvent que **toute piste de recherche, même non aboutie, sera prise en compte** : une démarche bien expliquée rapporte des points, même si le calcul final est faux.
+
+Attention : le sujet de sciences du brevet porte sur **tout le programme du cycle 4** (5e, 4e et 3e), pas seulement sur celui de 3e. Une tâche complexe peut donc mobiliser une notion vue en 5e ou en 4e (masse volumique, vitesse, circuits électriques...).
+
+## Les cinq étapes
+1. **S'approprier** : lire la question **deux fois** ; repérer ce que l'on cherche ; souligner dans les documents les **données utiles** (valeurs **avec leurs unités**). Certains documents contiennent des informations inutiles.
+2. **Analyser** : trouver le lien entre les données et la question. Quelle grandeur calculer ? Quelle formule du cours (v = d / t ; E = P × t, avec P la puissance ; P = m × g, avec P le poids ; ρ = m / V...) ? Dans quel ordre ?
+3. **Réaliser** : convertir les unités, écrire chaque formule, puis le calcul, puis le résultat **avec son unité**.
+4. **Valider** : le résultat est-il **vraisemblable** ? (un vélo à 300 km/h ou une masse d'élève de 5 000 kg signalent une erreur). Le comparer à une donnée du sujet.
+5. **Communiquer** : rédiger une **phrase de conclusion** qui répond **exactement** à la question posée.
+
+>! **Exemple résolu : Tom peut-il faire l'aller-retour au collège avec son scooter électrique sans le recharger ?** (données fictives)
+>! - Doc 1 : la batterie stocke **2 kWh** quand elle est pleine.
+>! - Doc 2 : le scooter consomme **50 Wh par km** ; il est rouge et sa masse est de 70 kg.
+>! - Doc 3 : le collège est à **15 km** de chez Tom.
+>! **S'approprier** : on cherche si l'énergie de la batterie suffit pour un aller-retour. La couleur et la masse ne servent pas.
+>! **Analyser** : il faut comparer l'énergie consommée sur le trajet à l'énergie stockée.
+>! **Réaliser** : distance aller-retour = 2 × 15 = 30 km. Énergie consommée = 30 × 50 = 1 500 Wh = **1,5 kWh**.
+>! **Valider** : 1,5 kWh est du même ordre de grandeur que la batterie (2 kWh) : c'est vraisemblable.
+>! **Communiquer** : 1,5 kWh < 2 kWh, donc **Tom peut faire l'aller-retour** ; il lui restera 0,5 kWh, soit 500 ÷ 50 = 10 km d'autonomie.
+
+## Conseils pour la rédaction
+- Annonce ce que tu calcules : « Je calcule d'abord la distance de réaction. »
+- Garde les valeurs exactes dans la calculatrice, n'arrondis qu'à la fin.
+- Si tu bloques, écris ce que tu ferais : « Il faudrait comparer l'énergie produite à l'énergie nécessaire. » Cela rapporte des points.
+- Termine **toujours** par une réponse claire à la question : oui / non, et pourquoi.
+
+>! **Erreurs fréquentes** :
+>! - Recopier les documents au lieu de les **utiliser**.
+>! - Oublier une conversion (min en h, km/h en m/s, Wh en kWh).
+>! - Donner un nombre sans unité, ou finir sans répondre à la question.
+
+> **À retenir** :
+> - Tâche complexe : plusieurs documents, un problème, une démarche à construire soi-même.
+> - S'approprier, analyser, réaliser, valider, communiquer.
+> - Données utiles avec unités ; formule, calcul, résultat avec unité ; vraisemblance ; phrase de conclusion.
+> - Une démarche expliquée, même inachevée, rapporte des points.
+`,
+      textes: {
+        solaire: `**Situation** : Inès part 7 jours en camping, sans électricité. Elle emporte un panneau solaire pliable pour recharger son téléphone et sa lampe frontale. *(Données fictives.)*
+
+**Doc 1 — Le panneau solaire** : puissance électrique fournie en plein soleil : **10 W**. Couleur : noir. Masse : 400 g.
+
+**Doc 2 — La météo prévue** :
+
+| Type de journée | Nombre de jours | Durée d'ensoleillement équivalente au plein soleil |
+|---|---|---|
+| ensoleillée | 4 | 5 h |
+| nuageuse | 3 | 1 h |
+
+**Doc 3 — Les besoins** : la batterie du téléphone stocke **15 Wh**, celle de la lampe **3 Wh**. Inès veut les recharger complètement **chaque jour**. Lors de la recharge, seulement **80 %** de l'énergie fournie par le panneau est stockée dans les batteries ; le reste est perdu sous forme thermique.`,
+        freinage: `**Situation** : une voiture roule à **72 km/h** sur une route de campagne. Le conducteur aperçoit soudain un chevreuil immobile sur la route, **50 m** devant lui. *(Valeurs typiques arrondies.)*
+
+**Doc 1 — La distance d'arrêt** : DA = DR + DF.
+- DR, distance de réaction : distance parcourue pendant le temps de réaction, à vitesse constante : DR = v × t.
+- DF, distance de freinage : distance parcourue pendant le freinage.
+
+**Doc 2 — Le temps de réaction** : environ **1 s** pour un conducteur attentif ; il peut atteindre **2 s** pour un conducteur qui regarde son téléphone.
+
+**Doc 3 — La distance de freinage à 72 km/h** :
+
+| Route | DF |
+|---|---|
+| sèche | 25 m |
+| mouillée | 40 m |`,
+      },
+      exercices: [
+        { type: "qcm", question: "Face à une tâche complexe, par quoi faut-il commencer ?", choix: ["Faire tout de suite tous les calculs possibles avec les nombres des documents", "Recopier les documents sur la copie", "Lire attentivement la question et repérer dans les documents les données utiles, avec leurs unités", "Écrire directement la conclusion"], reponse: 2, explication: "Il faut d'abord **s'approprier** le problème : savoir ce que l'on cherche, puis trier les données (certaines sont inutiles). Calculer au hasard fait perdre du temps et recopier les documents ne rapporte rien." },
+        { type: "vf", question: "Dans une tâche complexe, si tu n'arrives pas au résultat final, il vaut mieux ne rien écrire.", reponse: false, explication: "Les sujets précisent souvent que **toute piste de recherche, même non aboutie, sera prise en compte**. Explique ta démarche : « il faudrait calculer... puis comparer... ». Cela rapporte des points." },
+        { type: "qcm", question: "Un élève trouve qu'un cycliste roule à 270 km/h. Quelle étape de la démarche lui permet de repérer son erreur ?", choix: ["Valider : vérifier que le résultat est vraisemblable", "S'approprier : lire la question", "Communiquer : rédiger la conclusion", "Aucune : un calcul juste ne se discute pas"], reponse: 0, explication: "**Valider**, c'est se demander si le résultat est **vraisemblable**. Un cycliste roule à environ 15 à 40 km/h : 270 km/h signale une erreur (conversion oubliée, mauvaise formule...)." },
+        { type: "saisie", texte: "solaire", question: "Quelle énergie électrique, en Wh, le panneau fournit-il pendant une journée ensoleillée ?", reponses: ["50 Wh", "50 wattheures", "50 watts-heures", "50 W.h", "0,05 kWh"], explication: "E = P × t = 10 W × 5 h = **50 Wh**. La couleur et la masse du panneau ne servent pas : ce sont des données inutiles." },
+        { type: "saisie", texte: "solaire", question: "Exprime cette énergie de 50 Wh en joules.", reponses: ["180 000 J", "180000 J", "180 000 joules", "180000 joules", "1,8 × 10^5 J", "180 kJ"], explication: "1 Wh = 1 W × 3 600 s = 3 600 J. Donc 50 Wh = 50 × 3 600 = **180 000 J** (ou E = 10 W × 18 000 s)." },
+        { type: "qcm", texte: "solaire", question: "Quelle énergie est réellement stockée dans les batteries après une journée ensoleillée ?", choix: ["50 Wh", "10 Wh", "62,5 Wh", "40 Wh"], reponse: 3, explication: "Seuls 80 % sont stockés : 0,8 × 50 = **40 Wh**. Les 10 Wh restants sont perdus sous forme thermique." },
+        { type: "redaction", texte: "solaire", question: "**Tâche complexe.** Inès pourra-t-elle recharger complètement son téléphone et sa lampe chaque jour de son séjour ? Si non, propose-lui une solution. Explique ta démarche.", corrige: `**S'approprier** : on compare, pour chaque type de journée, l'énergie stockée grâce au panneau et l'énergie nécessaire chaque jour. La couleur et la masse du panneau sont inutiles.
+
+**Besoin quotidien** : 15 + 3 = **18 Wh**.
+
+**Journée ensoleillée** : énergie fournie E = P × t = 10 × 5 = 50 Wh ; énergie stockée = 0,8 × 50 = **40 Wh**.
+40 Wh > 18 Wh : **les deux batteries sont rechargées**.
+
+**Journée nuageuse** : E = 10 × 1 = 10 Wh ; énergie stockée = 0,8 × 10 = **8 Wh**.
+8 Wh < 18 Wh : **impossible** de tout recharger. Elle peut recharger la lampe (3 Wh) et seulement 5 Wh sur les 15 Wh du téléphone, soit un tiers de la batterie.
+
+**Valider** : 18 Wh pour une journée correspond bien à quelques heures de panneau de 10 W : les ordres de grandeur sont cohérents.
+
+**Conclusion** : Inès pourra tout recharger les **4 jours ensoleillés**, mais **pas les 3 jours nuageux**. Solutions : emporter une **batterie externe**, chargée avec le surplus des journées ensoleillées (40 − 18 = 22 Wh par jour), utiliser moins son téléphone les jours nuageux, ou prendre un panneau plus puissant (il faudrait 18 ÷ 0,8 = 22,5 Wh fournis en 1 h, soit au moins 22,5 W).` },
+        { type: "saisie", texte: "freinage", question: "Convertis la vitesse de la voiture en m/s.", reponses: ["20 m/s", "20 m.s-1", "20 mètres par seconde"], explication: "72 km/h = 72 ÷ 3,6 = **20 m/s**. Il faut des m/s pour calculer une distance en mètres avec un temps en secondes." },
+        { type: "qcm", texte: "freinage", question: "Le conducteur est attentif et la route est sèche. Quelle est sa distance d'arrêt ?", choix: ["25 m", "45 m", "20 m", "65 m"], reponse: 1, explication: "DR = v × t = 20 × 1 = 20 m ; DF = 25 m (route sèche). DA = 20 + 25 = **45 m**, inférieure à 50 m : la voiture s'arrête avant le chevreuil." },
+        { type: "redaction", texte: "freinage", question: "**Tâche complexe.** La voiture s'arrêtera-t-elle avant le chevreuil ? Étudie les quatre cas possibles (conducteur attentif ou sur son téléphone ; route sèche ou mouillée) et rédige une conclusion sur la sécurité routière.", corrige: `**S'approprier** : on calcule la distance d'arrêt DA = DR + DF dans chaque cas et on la compare aux **50 m** qui séparent la voiture du chevreuil.
+
+**Conversion** : v = 72 ÷ 3,6 = **20 m/s**.
+
+**Distances de réaction** (DR = v × t) :
+- conducteur attentif : 20 × 1 = **20 m** ;
+- conducteur sur son téléphone : 20 × 2 = **40 m**.
+
+**Distances d'arrêt** :
+
+| Cas | DR | DF | DA | Arrêt avant 50 m ? |
+|---|---|---|---|---|
+| attentif, route sèche | 20 m | 25 m | **45 m** | oui |
+| attentif, route mouillée | 20 m | 40 m | **60 m** | non |
+| téléphone, route sèche | 40 m | 25 m | **65 m** | non |
+| téléphone, route mouillée | 40 m | 40 m | **80 m** | non |
+
+**Valider** : des distances d'arrêt de 45 à 80 m sont vraisemblables : une voiture mesure environ 4 m, cela fait une dizaine à une vingtaine de longueurs de voiture.
+
+**Conclusion** : la voiture ne s'arrête avant le chevreuil que dans **un seul cas sur quatre** : conducteur attentif sur route sèche. Regarder son téléphone **double** la distance de réaction ; une route mouillée allonge la distance de freinage. Il faut rester attentif, ne jamais utiliser son téléphone en conduisant et **réduire sa vitesse** par temps de pluie.` },
+      ],
+    },
   ],
 };

@@ -1011,7 +1011,7 @@ Chaque choix (énergie, alimentation, transport) a des **avantages** et des **in
       theme: "Méthodes et préparation du brevet",
       cours: `
 ## L'épreuve de sciences du brevet
-L'épreuve écrite de sciences dure **1 heure** et est notée sur **20 points** : elle porte sur **deux disciplines** parmi physique-chimie, SVT et technologie (environ 30 minutes et **10 points** chacune). Les deux disciplines retenues sont annoncées par le ministère environ deux mois avant l'épreuve (fin avril) : renseigne-toi auprès de ton professeur pour ta session. Le sujet de SVT s'appuie sur des **documents** (textes, graphiques, tableaux, schémas, photos) et sur tes **connaissances** : à partir de la session 2027, les sujets sont construits sur le **programme de 3e** (les notions de 5e et de 4e restent utiles pour comprendre). La **maîtrise de la langue** compte pour **1 point sur 10** dans chaque discipline : orthographe, phrases correctes, vocabulaire scientifique précis et raisonnement bien organisé.
+L'épreuve écrite de sciences dure **1 heure** et est notée sur **20 points** : elle porte sur **deux disciplines** parmi physique-chimie, SVT et technologie (environ 30 minutes et **10 points** chacune). Les deux disciplines retenues sont annoncées par le ministère environ deux mois avant l'épreuve (fin avril) : renseigne-toi auprès de ton professeur pour ta session. Le sujet de SVT s'appuie sur des **documents** (textes, graphiques, tableaux, schémas, photos) et sur tes **connaissances**. Depuis l'arrêté du 17 juillet 2026, les sujets sont établis sur les **programmes de la classe de 3e** quand ils existent, et sinon sur ceux du **cycle 4** (5e, 4e et 3e). En SVT, le programme en vigueur pour la session 2027 est celui du cycle 4 : révise donc les notions des trois années, pas seulement celles de 3e. La **maîtrise de la langue** compte pour **1 point sur 10** dans chaque discipline : orthographe, phrases correctes, vocabulaire scientifique précis et raisonnement bien organisé.
 
 ## Comprendre la consigne
 | Verbe de la consigne | Ce qu'on attend |
@@ -1108,6 +1108,278 @@ Le **seul facteur qui change** est la présence d'**eau** : c'est le facteur tes
 2) **Une protection pour tous** : je vois dans le document 1 qu'entre 2010 et 2022 la part d'enfants vaccinés passe de **60 %** à **95 %**, tandis que le nombre de cas passe de **5 000** à **20**, soit **250 fois moins**. Le document 2 indique que le virus cesse de circuler quand au moins **95 %** de la population est protégée. Or une personne vaccinée ne tombe pas malade et ne transmet donc pas le virus. Donc, quand presque tout le monde est vacciné, le virus ne trouve plus assez de personnes à contaminer et disparaît : les nourrissons de moins de 12 mois et les personnes au système immunitaire affaibli, qui ne peuvent pas être vaccinés, ne le rencontrent plus. C'est la **protection collective** : se vacciner, c'est se protéger soi-même et protéger les autres.
 
 **Conseil de rédaction** : chaque argument relie un **fait chiffré** des documents (« je vois que ») à une **connaissance** (« or je sais que »), puis **conclut** (« donc »). Le vocabulaire précis (antigène, lymphocytes mémoire, anticorps) compte pour la maîtrise de la langue.` },
+      ],
+    },
+    {
+      id: "alimentation-effort",
+      titre: "Alimentation, effort physique et santé",
+      theme: "Le corps humain et la santé",
+      cours: `
+## Les muscles ont besoin d'énergie
+Pour se contracter, les cellules musculaires utilisent de l'**énergie**. Elles la produisent grâce à la **respiration cellulaire**, qui consomme des **nutriments** (surtout du **glucose**, mais aussi des acides gras) et du **dioxygène** (O₂), et rejette du **dioxyde de carbone** (CO₂) et de l'eau :
+
+~~~
+glucose + dioxygène → dioxyde de carbone + eau + énergie
+~~~
+
+Une partie de cette énergie sert au mouvement, le reste est libéré sous forme de **chaleur** : c'est pourquoi on a chaud et on transpire pendant un effort.
+
+Les nutriments viennent de la **digestion** des aliments ; le dioxygène vient de l'air, par les **poumons**. C'est le **sang**, mis en mouvement par le **cœur**, qui apporte nutriments et dioxygène aux muscles et qui emporte le CO₂ vers les poumons.
+
+## Ce qui change pendant un effort
+Pendant un effort, les muscles consomment beaucoup plus de dioxygène et de nutriments. L'organisme s'adapte :
+
+| Grandeur | Au repos (adolescent, valeurs moyennes) | Pendant un effort intense |
+|---|---|---|
+| **Fréquence cardiaque** (battements par minute) | environ 70 | jusqu'à 180 à 200 |
+| **Fréquence respiratoire** (mouvements par minute) | environ 15 | 40 ou plus |
+| Volume d'air par mouvement respiratoire | environ 0,5 L | 2 L ou plus |
+| Part du sang envoyée aux muscles | environ 20 % | environ 80 % |
+
+- Le cœur bat **plus vite** et **plus fort** : le **débit cardiaque** (volume de sang envoyé par minute) augmente.
+- On respire **plus vite** et **plus profondément** : le **débit ventilatoire** (volume d'air qui entre dans les poumons par minute) augmente.
+- Les vaisseaux sanguins des muscles **se dilatent** : les muscles reçoivent une plus grande part du sang.
+
+>! **Méthode : calculer un débit**. Débit cardiaque = fréquence cardiaque × volume de sang éjecté à chaque battement. Au repos : 70 battements par minute × 70 mL = 4 900 mL par minute, soit environ **4,9 L/min**. De même, débit ventilatoire = fréquence respiratoire × volume d'air par mouvement : 15 × 0,5 L = **7,5 L/min** au repos.
+
+## Le système nerveux commande ces adaptations
+Des **récepteurs** détectent l'effort (la teneur du sang en CO₂ augmente, les muscles travaillent). Des **centres nerveux** situés à la base de l'encéphale (dans le **bulbe rachidien**) envoient alors, par des **nerfs**, des messages qui accélèrent le cœur et les mouvements respiratoires. Une hormone, l'**adrénaline**, renforce cette accélération. Après l'effort, les fréquences reviennent peu à peu à leur valeur de repos : c'est la **récupération**.
+
+## Les limites de l'organisme
+- La fréquence cardiaque ne peut pas augmenter sans limite. On estime la **fréquence cardiaque maximale** par la formule approximative **220 − âge** : environ 205 battements par minute à 15 ans.
+- La consommation de dioxygène atteint aussi un **maximum** : au-delà, l'effort ne peut pas durer longtemps et la **fatigue** apparaît.
+- L'**entraînement** régulier rend le cœur plus efficace : il envoie plus de sang à chaque battement. La fréquence cardiaque de repos d'un sportif entraîné est souvent plus basse (parfois 50 battements par minute ou moins) et sa récupération est plus rapide.
+
+>! **Le dopage, un danger** : le **dopage** consiste à utiliser des substances interdites pour augmenter ses performances. Par exemple, l'**EPO** (une hormone) augmente le nombre de **globules rouges**, qui transportent le dioxygène : le muscle en reçoit davantage. Mais le sang devient plus épais, ce qui augmente le risque de caillots, d'accident cardiaque ou d'AVC. Le dopage est interdit et dangereux pour la santé.
+
+## Une alimentation adaptée à ses besoins
+Les aliments apportent de la **matière** (pour grandir et renouveler les cellules) et de l'**énergie**. L'énergie s'exprime en **kilocalories** (kcal) ou en **kilojoules** (kJ) : 1 kcal ≈ 4,18 kJ.
+
+| Nutriment | Énergie apportée par gramme | Exemples d'aliments riches |
+|---|---|---|
+| **Glucides** | environ 4 kcal | pain, pâtes, riz, pommes de terre, fruits |
+| **Lipides** | environ 9 kcal | huile, beurre, fromage, fritures |
+| **Protéines** | environ 4 kcal | viande, poisson, œufs, légumineuses, produits laitiers |
+
+L'eau, les sels minéraux (calcium, fer), les vitamines et les fibres n'apportent pas ou très peu d'énergie, mais ils sont **indispensables**.
+
+Un adolescent dépense environ **2 000 à 3 000 kcal par jour** (environ 8 400 à 12 500 kJ), selon son âge, son sexe et son activité physique. Une alimentation **équilibrée** est **variée** (au moins 5 portions de fruits et légumes par jour, des féculents, des produits laitiers, des protéines) et apporte autant d'énergie que l'on en dépense. Si les apports dépassent durablement les dépenses, l'organisme stocke l'excédent sous forme de **graisses** : risque de **surpoids**.
+
+>! **Exemple résolu : lire une étiquette**. Une barre de céréales de 25 g contient 16 g de glucides, 4 g de lipides et 2 g de protéines.
+>! - Glucides : 16 × 4 = 64 kcal ; lipides : 4 × 9 = 36 kcal ; protéines : 2 × 4 = 8 kcal.
+>! - Total : 64 + 36 + 8 = **108 kcal**. Les lipides représentent 4 g sur 22 g de nutriments, mais un tiers de l'énergie (36 sur 108).
+
+## Activité physique et santé
+L'Organisation mondiale de la santé (OMS) recommande aux jeunes de 5 à 17 ans **au moins 60 minutes par jour** d'activité physique d'intensité modérée à soutenue. L'activité physique régulière renforce le cœur, les muscles et les os, aide à garder un poids stable, améliore le sommeil et le moral. À l'inverse, la **sédentarité** (rester longtemps assis, devant les écrans) augmente le risque de surpoids, de diabète de type 2 et de maladies cardiovasculaires.
+
+Pour faire un effort sans risque : s'**échauffer**, boire de l'eau (**hydratation**), augmenter l'intensité progressivement, respecter des temps de **récupération** et de sommeil.
+
+>! **Attention à une erreur fréquente** : les muscles ne fabriquent pas leur énergie « à partir de rien », ni directement à partir de l'air. Ils la tirent des **nutriments**, grâce au **dioxygène**. Si le cœur et la respiration s'accélèrent pendant l'effort, c'est pour **approvisionner les muscles qui travaillent** en dioxygène et en nutriments, et pour évacuer le CO₂ qu'ils rejettent.
+
+> **À retenir** :
+> - Les muscles produisent leur énergie par la respiration cellulaire : nutriments + dioxygène → CO₂ + eau + énergie (et chaleur).
+> - Pendant un effort, les fréquences cardiaque et respiratoire, les débits cardiaque et ventilatoire augmentent, et les muscles reçoivent une plus grande part du sang.
+> - Ces adaptations sont commandées par le système nerveux (centres du bulbe rachidien) et renforcées par l'adrénaline ; elles ont des limites (fréquence cardiaque maximale ≈ 220 − âge).
+> - Glucides et protéines apportent environ 4 kcal par gramme, les lipides environ 9 kcal ; une alimentation équilibrée est variée et couvre les dépenses.
+> - Au moins 60 minutes d'activité physique par jour sont recommandées aux jeunes ; le dopage est interdit et dangereux.
+`,
+      textes: {
+        effort: `**Document : mesures réalisées sur Mehdi, 15 ans, au repos puis à la fin d'une course de 10 minutes** (données fictives, réalistes)
+
+| Mesure | Au repos | Fin de la course |
+|---|---|---|
+| Fréquence cardiaque (battements par minute) | 70 | 170 |
+| Fréquence respiratoire (mouvements par minute) | 15 | 40 |
+| Volume d'air par mouvement respiratoire (L) | 0,5 | 2 |
+| Dioxygène consommé (L par minute) | 0,3 | 2,5 |`,
+      },
+      exercices: [
+        { type: "qcm", question: "Que deviennent la fréquence cardiaque et la fréquence respiratoire pendant un effort physique ?", choix: ["Elles diminuent toutes les deux", "Seule la fréquence cardiaque augmente", "Elles augmentent toutes les deux", "Elles ne changent pas"], reponse: 2, explication: "Pendant un effort, le cœur bat **plus vite** et on respire **plus vite et plus profondément** : les muscles reçoivent ainsi davantage de dioxygène et de nutriments." },
+        { type: "saisie", question: "Quel gaz de l'air les muscles consomment-ils davantage pendant un effort ?", reponses: ["dioxygène", "le dioxygène", "O2", "O₂", "oxygène", "l'oxygène"], explication: "Les muscles consomment davantage de **dioxygène** (O₂) pour la respiration cellulaire, qui libère l'énergie nécessaire à leur contraction. Ils rejettent plus de dioxyde de carbone (CO₂)." },
+        { type: "vf", question: "Pendant un effort intense, les muscles reçoivent une plus grande part du sang envoyé par le cœur qu'au repos.", reponse: true, explication: "Les vaisseaux des muscles se dilatent : les muscles reçoivent environ **80 %** du sang pendant un effort intense, contre environ **20 %** au repos." },
+        { type: "saisie", question: "À l'aide de la formule approximative « 220 − âge », estime la fréquence cardiaque maximale d'une élève de 15 ans (en battements par minute).", reponses: ["205", "205 battements par minute", "205 bpm", "205 b/min"], explication: "220 − 15 = **205** battements par minute. C'est une estimation : la valeur réelle varie d'une personne à l'autre." },
+        { type: "saisie", question: "Une barre de céréales contient 16 g de glucides, 4 g de lipides et 2 g de protéines. Glucides et protéines apportent 4 kcal par gramme, les lipides 9 kcal par gramme. Quelle énergie apporte cette barre (en kcal) ?", reponses: ["108 kcal", "108 kilocalories"], explication: "Glucides : 16 × 4 = 64 kcal ; lipides : 4 × 9 = 36 kcal ; protéines : 2 × 4 = 8 kcal. Total : 64 + 36 + 8 = **108 kcal**." },
+        { type: "vf", question: "Un gramme de lipides apporte plus d'énergie qu'un gramme de glucides.", reponse: true, explication: "Un gramme de **lipides** apporte environ **9 kcal**, plus du double d'un gramme de glucides ou de protéines (environ 4 kcal)." },
+        { type: "qcm", question: "Pourquoi l'EPO, utilisée comme produit dopant, augmente-t-elle les performances d'endurance ?", choix: ["Elle remplace les nutriments, donc les muscles n'ont plus besoin de glucose", "Elle augmente le nombre de globules rouges, donc le transport du dioxygène vers les muscles", "Elle fait grossir les poumons, qui font entrer plus d'air à chaque mouvement", "Elle supprime la fatigue sans aucun risque pour la santé"], reponse: 1, explication: "L'EPO augmente le nombre de **globules rouges**, qui transportent le dioxygène : les muscles en reçoivent plus. Mais le sang s'épaissit, ce qui augmente le risque de caillots, d'accident cardiaque ou d'AVC : le dopage est **interdit et dangereux**." },
+        { type: "saisie", texte: "effort", question: "Calculer. D'après le document, quel est le débit ventilatoire de Mehdi à la fin de la course, en litres par minute ? (débit ventilatoire = fréquence respiratoire × volume d'air par mouvement)", reponses: ["80", "80 L/min", "80 litres par minute", "80 L par minute"], explication: "40 mouvements par minute × 2 L = **80 L/min**. Au repos, il était de 15 × 0,5 = 7,5 L/min : il a été multiplié par plus de 10." },
+        { type: "qcm", texte: "effort", question: "Quelle phrase décrit correctement le document ?", choix: ["Entre le repos et la fin de la course, la fréquence cardiaque passe de 170 à 70 battements par minute : le cœur ralentit pendant l'effort", "Seule la fréquence cardiaque change pendant la course : elle passe de 70 à 170 battements par minute", "La consommation de dioxygène reste à 0,3 L par minute pendant toute la course, car Mehdi respire le même air qu'au repos", "Entre le repos et la fin de la course, la fréquence cardiaque passe de 70 à 170 battements par minute et la consommation de dioxygène de 0,3 à 2,5 L par minute"], reponse: 3, explication: "**Décrire**, c'est donner les valeurs avec leurs unités. Toutes les grandeurs **augmentent** : fréquence cardiaque (70 → 170), fréquence respiratoire (15 → 40), volume d'air par mouvement (0,5 → 2 L) et consommation de dioxygène (0,3 → 2,5 L par minute, soit environ 8 fois plus)." },
+        { type: "redaction", texte: "effort", question: "Sujet type brevet. 1) À l'aide du document, montre que l'organisme de Mehdi s'adapte à l'effort. 2) Explique pourquoi ces adaptations sont nécessaires, en utilisant tes connaissances sur le fonctionnement des muscles. 3) Mehdi veut améliorer son endurance. Donne-lui deux conseils argumentés pour s'entraîner sans danger pour sa santé.", corrige: `1) **Les adaptations** : je vois dans le document qu'entre le repos et la fin de la course :
+- la **fréquence cardiaque** passe de **70 à 170** battements par minute : le cœur envoie plus de sang aux organes ;
+- la **fréquence respiratoire** passe de **15 à 40** mouvements par minute et le volume d'air par mouvement de **0,5 à 2 L** : le débit ventilatoire passe de 15 × 0,5 = **7,5 L/min** à 40 × 2 = **80 L/min**, soit plus de 10 fois plus ;
+- la **consommation de dioxygène** passe de **0,3 à 2,5 L par minute**, soit environ 8 fois plus.
+L'organisme s'adapte donc à l'effort : le cœur et la respiration s'accélèrent.
+
+2) **Pourquoi** : or je sais que les muscles produisent l'énergie nécessaire à leur contraction par la **respiration cellulaire**, qui consomme des **nutriments** (glucose) et du **dioxygène** et rejette du **dioxyde de carbone**. Pendant la course, les muscles travaillent plus : ils consomment beaucoup plus de dioxygène. Donc l'augmentation du débit ventilatoire fait entrer plus de dioxygène dans les poumons, et l'augmentation du débit cardiaque apporte plus vite le sang riche en dioxygène et en nutriments aux muscles, tout en évacuant le CO₂. Ces adaptations sont commandées par le **système nerveux** (centres du bulbe rachidien) et renforcées par l'adrénaline.
+
+3) **Conseils** (exemples) :
+- **S'entraîner régulièrement et progressivement**, en commençant par un échauffement : l'entraînement rend le cœur plus efficace (il envoie plus de sang à chaque battement), sans dépasser les limites de l'organisme (fréquence cardiaque maximale d'environ 220 − 15 = 205 battements par minute).
+- **Bien s'alimenter, boire de l'eau et dormir suffisamment** : les muscles ont besoin de nutriments et l'organisme récupère pendant le repos. Ne jamais utiliser de **produits dopants**, interdits et dangereux pour le cœur.` },
+      ],
+    },
+    {
+      id: "pollutions-sante-environnement",
+      titre: "Pollutions : effets sur les écosystèmes et sur la santé",
+      theme: "La planète Terre, l'environnement et l'action humaine",
+      cours: `
+## Qu'est-ce qu'une pollution ?
+Une **pollution** est l'introduction dans un milieu (air, eau, sol) de substances ou d'énergie (bruit, lumière, chaleur) qui **dégradent** ce milieu et peuvent nuire aux êtres vivants et à la santé humaine. Les sources principales sont les **transports**, le **chauffage**, l'**industrie**, l'**agriculture** et nos **déchets**.
+
+## La pollution de l'air
+| Polluant | Principales sources | Effets |
+|---|---|---|
+| **Particules fines** | trafic routier (moteurs, freins, pneus), chauffage au bois, industrie, agriculture | elles pénètrent profondément dans les poumons : maladies respiratoires et cardiovasculaires |
+| **Dioxyde d'azote** (NO₂) | moteurs, surtout diesel | irritation des bronches, crises d'asthme |
+| **Ozone** au niveau du sol | se forme l'été à partir des gaz d'échappement, sous l'effet du soleil | gêne respiratoire, baisse des rendements agricoles |
+
+Santé publique France estime (étude publiée en 2021) que les particules fines sont responsables de près de **40 000 décès par an** en France. L'ozone près du sol est un polluant ; à ne pas confondre avec la **couche d'ozone**, très haut dans l'atmosphère, qui nous protège des ultraviolets.
+
+>! **Les lichens, des indicateurs de la qualité de l'air**. Les lichens sont des êtres vivants formés d'un champignon associé à une algue. Beaucoup d'espèces sont très sensibles à la pollution de l'air : là où l'air est pollué, on en trouve peu d'espèces. Ce sont des **bio-indicateurs** : en les comptant, on peut estimer la qualité de l'air. De même, les petits animaux des rivières (larves d'insectes) renseignent sur la qualité de l'eau.
+
+## La pollution de l'eau et des sols
+- Les **nitrates** et les phosphates des engrais (et des eaux usées) ruissellent jusqu'aux rivières et à la mer. Ils provoquent une prolifération d'algues : c'est l'**eutrophisation**. Quand ces algues meurent, les bactéries qui les décomposent consomment le dioxygène de l'eau : les poissons meurent asphyxiés. Les **marées vertes** de Bretagne en sont un exemple.
+- Les **pesticides** tuent les organismes visés (insectes, « mauvaises herbes », champignons) mais aussi d'autres êtres vivants (insectes pollinisateurs). Certains restent très longtemps dans les sols. Exemple : le **chlordécone**, un insecticide utilisé dans les bananeraies des **Antilles** jusqu'en 1993, pollue encore les sols pour des siècles ; selon Santé publique France (étude publiée en 2026), plus de 8 adultes sur 10 en Guadeloupe et en Martinique en ont encore dans le sang.
+- Les **plastiques** se dégradent très lentement : ils se fragmentent en **microplastiques** que l'on retrouve dans tous les océans, avalés par les animaux marins.
+
+## La bioaccumulation : un polluant qui se concentre
+Certains polluants (mercure, certains pesticides comme l'ancien DDT, interdit en France dans les années 1970) ne sont **pas éliminés** par les êtres vivants : ils s'**accumulent** dans leur corps : c'est la **bioaccumulation**. Comme chaque animal mange de nombreuses proies, la concentration du polluant **augmente à chaque maillon** de la chaîne alimentaire (les scientifiques parlent alors de **bioamplification**). Les grands **prédateurs** (thon, espadon, requin, rapaces, et l'être humain) sont les plus contaminés.
+
+>! **Exemple résolu** (données fictives) : concentration en mercure : plancton 0,02 mg/kg ; petits poissons 0,1 mg/kg ; thon 1 mg/kg. Du plancton au thon, la concentration est multipliée par 1 ÷ 0,02 = **50**, alors que l'eau elle-même en contient très peu. C'est pourquoi on conseille aux femmes enceintes de limiter les gros poissons prédateurs (comme l'espadon ou le requin) : le mercure est toxique pour le système nerveux du fœtus.
+
+## Réduire les pollutions
+| Pollution | Exemples de solutions |
+|---|---|
+| Air | transports en commun, vélo, véhicules moins polluants, zones à faibles émissions dans les grandes villes, filtres dans les usines, chauffage au bois performant |
+| Eau | stations d'épuration des eaux usées, moins d'engrais et de pesticides (agroécologie), haies et bandes enherbées au bord des champs |
+| Déchets | réduire, réutiliser, **trier et recycler**, moins d'emballages plastiques |
+
+Chaque solution a un coût et des contraintes : il faut **argumenter** en comparant avantages et inconvénients.
+
+>! **Attention à une erreur fréquente** : une corrélation (deux choses qui varient en même temps) ne suffit pas à désigner la source d'une pollution. Si les lichens sont rares près d'une ville, cela montre que l'air y est plus pollué ; mais pour savoir **quel** polluant et **quelle** source sont responsables, il faut des mesures supplémentaires.
+
+> **À retenir** :
+> - Une pollution dégrade un milieu (air, eau, sol) et peut nuire aux êtres vivants et à la santé.
+> - Les particules fines et le dioxyde d'azote (transports, chauffage, industrie) provoquent des maladies respiratoires et cardiovasculaires.
+> - Les nitrates provoquent l'eutrophisation ; certains pesticides persistent très longtemps (chlordécone aux Antilles) ; les plastiques forment des microplastiques.
+> - Bioaccumulation : un polluant non éliminé se concentre à chaque maillon de la chaîne alimentaire ; les grands prédateurs sont les plus contaminés.
+> - Les bio-indicateurs (lichens, petits animaux des rivières) permettent d'estimer la qualité d'un milieu.
+`,
+      textes: {
+        lichens: `**Document : nombre d'espèces de lichens observées sur les arbres, selon la distance au centre d'une grande ville** (données fictives)
+
+| Distance au centre-ville | 0,5 km | 2 km | 5 km | 10 km |
+|---|---|---|---|---|
+| Nombre d'espèces de lichens | 2 | 6 | 14 | 22 |
+
+Les lichens sont des bio-indicateurs : beaucoup d'espèces disparaissent quand l'air est pollué.`,
+        mercure: `**Document : concentration en mercure dans une chaîne alimentaire marine** (données fictives, simplifiées)
+
+| Maillon | Plancton | Petits poissons (sardines) | Grand prédateur (thon) |
+|---|---|---|---|
+| Concentration en mercure (mg par kg) | 0,02 | 0,1 | 1 |
+
+Le mercure, rejeté notamment par certaines industries et par la combustion du charbon, n'est presque pas éliminé par les êtres vivants. Il est toxique pour le système nerveux, en particulier celui du fœtus et du jeune enfant.`,
+      },
+      exercices: [
+        { type: "qcm", question: "Quels polluants de l'air sont surtout émis par le trafic routier ?", choix: ["Le dioxygène et la vapeur d'eau", "Les particules fines et le dioxyde d'azote", "Les nitrates et les phosphates", "Les microplastiques et le mercure"], reponse: 1, explication: "Le trafic routier émet des **particules fines** (moteurs, freins, pneus) et du **dioxyde d'azote** (NO₂), surtout par les moteurs diesel. Nitrates et phosphates polluent surtout l'eau." },
+        { type: "vf", question: "Les particules fines peuvent pénétrer profondément dans les poumons et provoquer des maladies respiratoires et cardiovasculaires.", reponse: true, explication: "Très petites, elles pénètrent jusqu'au fond des poumons. Santé publique France estime qu'elles causent près de **40 000 décès par an** en France." },
+        { type: "saisie", question: "Comment appelle-t-on la prolifération d'algues dans une eau trop riche en nitrates et en phosphates, qui finit par priver l'eau de dioxygène ?", reponses: ["eutrophisation", "l'eutrophisation"], explication: "C'est l'**eutrophisation**. Les algues mortes sont décomposées par des bactéries qui consomment le dioxygène de l'eau : les poissons meurent asphyxiés." },
+        { type: "qcm", question: "Pourquoi les poissons meurent-ils dans une rivière touchée par l'eutrophisation ?", choix: ["Parce que l'eau devient trop salée", "Parce que les algues mangent les poissons", "Parce que la décomposition des algues mortes par les bactéries consomme le dioxygène de l'eau", "Parce que les nitrates rendent l'eau trop froide"], reponse: 2, explication: "Les engrais font proliférer les algues ; quand elles meurent, les **bactéries décomposeuses** consomment beaucoup de **dioxygène** : il n'en reste plus assez pour les poissons." },
+        { type: "qcm", texte: "lichens", question: "Que montre le document ?", choix: ["Plus on s'éloigne du centre-ville, plus le nombre d'espèces de lichens augmente : de 2 espèces à 0,5 km à 22 espèces à 10 km", "Le nombre d'espèces de lichens est à peu près le même partout, entre 2 et 22 espèces quelle que soit la distance", "Plus on s'éloigne du centre-ville, moins il y a d'espèces de lichens : de 22 espèces à 0,5 km à 2 espèces à 10 km", "Les lichens polluent l'air du centre-ville : c'est là qu'on en trouve le plus d'espèces"], reponse: 0, explication: "On décrit en chiffrant : le nombre d'espèces passe de **2** (à 0,5 km) à **22** (à 10 km). Comme les lichens sont sensibles à la pollution, on en déduit que l'air est plus pollué près du centre-ville." },
+        { type: "vf", texte: "lichens", question: "Ce document prouve à lui seul que la pollution du centre-ville est due aux voitures.", reponse: false, explication: "Le document montre que l'air est **plus pollué** près du centre (moins de lichens), mais il ne dit rien de la **source** : voitures, chauffage, industrie... Pour la connaître, il faudrait mesurer les polluants." },
+        { type: "saisie", texte: "mercure", question: "Calculer. D'après le document, par combien la concentration en mercure est-elle multipliée entre le plancton et le thon ?", reponses: ["50", "50 fois", "par 50", "multipliée par 50", "multiplié par 50", "×50", "x50", "50x", "par cinquante"], explication: "1 ÷ 0,02 = **50**. Le thon contient 50 fois plus de mercure par kilogramme que le plancton : c'est la **bioaccumulation**." },
+        { type: "qcm", texte: "mercure", question: "Pourquoi le thon, grand prédateur, est-il plus contaminé que la sardine ?", choix: ["Parce qu'il vit plus près des usines qui rejettent du mercure, alors que la sardine vit au large", "Parce qu'il fabrique lui-même du mercure dans son corps à partir de l'eau de mer", "Parce qu'il avale beaucoup plus d'eau de mer que la sardine, et c'est l'eau qui contient le plus de mercure", "Parce qu'il mange de très nombreuses proies contaminées et n'élimine presque pas le mercure, qui s'accumule dans son corps"], reponse: 3, explication: "Le mercure n'est presque pas éliminé : chaque prédateur accumule le mercure de **toutes les proies** qu'il a mangées. La concentration augmente donc à chaque maillon de la chaîne alimentaire." },
+        { type: "qcm", question: "Quel est le principal problème posé par les déchets plastiques dans les océans ?", choix: ["Ils se dissolvent rapidement et rendent l'eau trop salée", "Ils se fragmentent en microplastiques qui persistent très longtemps et sont avalés par les animaux", "Ils servent de nourriture au plancton", "Ils font baisser le niveau de la mer"], reponse: 1, explication: "Les plastiques se dégradent **très lentement** : ils se fragmentent en **microplastiques**, présents dans tous les océans et avalés par les animaux marins. La meilleure solution est d'en produire et d'en jeter moins." },
+        { type: "redaction", texte: "mercure", question: "Sujet type brevet. 1) Décris l'évolution de la concentration en mercure le long de la chaîne alimentaire, en chiffrant. 2) Explique ce phénomène. 3) Une femme enceinte mange souvent de l'espadon, un grand poisson prédateur. Explique pourquoi son médecin lui conseille d'en manger moins, et propose une mesure collective pour réduire cette pollution.", corrige: `1) **Description** : je vois dans le document que la concentration en mercure passe de **0,02 mg/kg** dans le plancton à **0,1 mg/kg** dans les petits poissons, puis à **1 mg/kg** dans le thon. Elle augmente à chaque maillon : elle est multipliée par 0,1 ÷ 0,02 = **5** entre le plancton et les petits poissons, et par 1 ÷ 0,02 = **50** entre le plancton et le thon.
+
+2) **Explication** : le document indique que le mercure n'est presque pas éliminé par les êtres vivants. Or je sais qu'un animal mange de très nombreuses proies au cours de sa vie : il accumule dans son corps le mercure de toutes ces proies. Donc la concentration augmente à chaque maillon de la **chaîne alimentaire** : c'est la **bioaccumulation**. Les **grands prédateurs**, en bout de chaîne, sont les plus contaminés.
+
+3) **Le conseil du médecin** : l'espadon est un grand prédateur, comme le thon : il contient beaucoup de mercure. Or le mercure est **toxique pour le système nerveux**, en particulier celui du **fœtus** (document). En mangeant moins d'espadon, et plutôt des petits poissons (sardines), la femme enceinte protège le développement du cerveau de son enfant.
+
+**Mesure collective** (exemple) : réduire les **rejets** de mercure à la source, par exemple en remplaçant les centrales à charbon par des énergies moins polluantes et en imposant des **filtres** aux industries. Moins de mercure dans l'eau, c'est moins de mercure dans toute la chaîne alimentaire.` },
+      ],
+    },
+    {
+      id: "sujet-brevet-genetique",
+      titre: "Sujet type brevet n° 2 : une maladie génétique dans une famille",
+      theme: "Méthodes et préparation du brevet",
+      cours: `
+## Ce que l'on attend dans un sujet de génétique
+Les sujets de génétique du brevet s'appuient sur des **documents** : un arbre généalogique (ou un tableau qui décrit une famille), un texte sur la maladie, parfois des séquences d'ADN. Il faut relier ces documents à tes connaissances : **gène, allèle, dominant, récessif, méiose, fécondation, mutation**.
+
+## Méthode en cinq étapes
+1. **Lire l'arbre ou le tableau** : carrés = hommes, ronds = femmes, symboles noircis = personnes atteintes ; un trait horizontal relie les parents, un trait vertical mène à leurs enfants.
+2. **Trouver si l'allèle de la maladie est dominant ou récessif** : si deux parents **non atteints** ont un enfant **atteint**, ils portent l'allèle de la maladie sans l'exprimer : il est **récessif**.
+3. **Écrire les allèles de chaque personne** (par exemple A = allèle normal, a = allèle de la maladie) : une personne atteinte d'une maladie récessive a deux allèles a ; ses deux parents non atteints ont A et a (porteurs sains).
+4. **Faire un tableau de croisement** : les gamètes de chaque parent (un seul allèle par gamète, grâce à la méiose), puis les cellules-œufs possibles (fécondation au hasard).
+5. **Calculer une probabilité** : nombre de cases favorables ÷ nombre total de cases.
+
+>! **Exemple résolu** : la phénylcétonurie est une maladie génétique due à un allèle récessif d (l'allèle normal D est dominant). Deux parents non atteints ont une fille atteinte.
+>! - La fille est atteinte : elle a les allèles **d et d**, un venant de chaque parent.
+>! - Les parents ne sont pas atteints mais ont chacun transmis d : ils ont **D et d**.
+>! - Chaque parent produit des gamètes D ou d (une chance sur deux). Tableau : DD, Dd, dD, dd. Une case sur quatre est atteinte : risque de **1/4 (25 %)** pour chaque enfant.
+
+## Comparer des séquences d'ADN
+On aligne les deux séquences lettre par lettre et on repère les **différences**. Une seule lettre changée suffit à créer un **nouvel allèle** : c'est une **mutation**. Elle s'est produite au hasard dans une cellule à l'origine d'un gamète d'un ancêtre, puis s'est transmise de génération en génération.
+
+>! **Attention aux erreurs fréquentes** :
+>! - Un risque de 1/4 ne signifie pas « un enfant sur quatre exactement ». Si le premier enfant est atteint, le deuxième a **encore 1 risque sur 4** : chaque fécondation est indépendante.
+>! - Un enfant non atteint de deux parents porteurs peut être porteur sain ou non : avec l'arbre seul, on ne peut souvent **pas savoir**.
+>! - Ne pas confondre **gène** (l'emplacement et l'information, par exemple le gène qui permet de fabriquer la mélanine) et **allèle** (une version de ce gène, normale ou mutée).
+
+> **À retenir** :
+> - Deux parents non atteints qui ont un enfant atteint : l'allèle de la maladie est récessif et les deux parents sont porteurs sains.
+> - Chaque gamète ne reçoit qu'un allèle de chaque gène (méiose) ; la fécondation réunit deux allèles au hasard.
+> - Pour deux parents porteurs sains d'une maladie récessive, le risque est de 1/4 à chaque naissance.
+> - Une différence de séquence entre deux allèles est le résultat d'une mutation.
+> - Rédige : « je vois que... (document) ; or je sais que... ; donc... ».
+`,
+      textes: {
+        albinisme: `**Sujet type brevet : l'albinisme dans une famille** (famille imaginaire ; séquences simplifiées, fictives)
+
+**Document 1 : la famille de Thomas**
+
+| Personne | Sexe | Parents | Atteinte d'albinisme ? |
+|---|---|---|---|
+| Bernard | homme | — | non |
+| Monique | femme | — | non |
+| Thomas | homme | Bernard et Monique | **oui** |
+| Claire | femme | Bernard et Monique | non |
+| Julien | homme | Bernard et Monique | non |
+
+**Document 2 : l'albinisme**
+Chez les personnes atteintes d'albinisme, la peau, les cheveux et les yeux contiennent très peu de **mélanine**, le pigment qui les colore et qui protège la peau des rayons ultraviolets (UV). Cette forme d'albinisme est due à un allèle d'un gène situé sur le chromosome 11 : ce gène permet de fabriquer une protéine nécessaire à la production de mélanine. Les personnes atteintes doivent se protéger strictement du soleil.
+
+**Document 3 : comparaison d'un fragment du gène (allèle normal A et allèle de l'albinisme a)**
+
+~~~
+allèle A : ATG CTC CTG GCT GTT TTG TAC
+allèle a : ATG CTC CTG GCT GTT TAG TAC
+~~~`,
+      },
+      exercices: [
+        { type: "qcm", texte: "albinisme", question: "D'après le document 1, que peut-on déduire du fait que Thomas est atteint alors que ses parents ne le sont pas ?", choix: ["L'allèle de l'albinisme est dominant", "L'albinisme n'est pas une maladie génétique", "L'allèle de l'albinisme est récessif : ses parents le portent sans l'exprimer", "Thomas a reçu l'allèle de l'albinisme d'un seul de ses parents"], reponse: 2, explication: "Thomas a forcément reçu l'allèle a de ses parents, qui ne sont pas atteints : chez eux, l'allèle a est **masqué** par l'allèle A. L'allèle a est donc **récessif**." },
+        { type: "saisie", texte: "albinisme", question: "Combien d'allèles a (allèle de l'albinisme) Thomas possède-t-il ?", reponses: ["2", "deux", "2 allèles", "deux allèles"], explication: "L'allèle a est récessif : il ne s'exprime que s'il est présent en **deux exemplaires**. Thomas, atteint, a donc les allèles **a et a**, l'un venant de son père, l'autre de sa mère." },
+        { type: "vf", texte: "albinisme", question: "Bernard et Monique possèdent tous les deux l'allèle a.", reponse: true, explication: "Chacun a transmis un allèle a à Thomas, mais ils ne sont pas atteints : ils ont les allèles **A et a**. Ce sont des **porteurs sains**." },
+        { type: "saisie", texte: "albinisme", question: "D'après le document 3, combien de nucléotides (lettres) diffèrent entre l'allèle A et l'allèle a ?", reponses: ["1", "un", "une", "une seule", "un seul", "1 nucléotide", "un nucléotide", "un seul nucléotide", "une lettre", "une seule lettre", "1 lettre", "1 seul"], explication: "En alignant les deux séquences, une seule lettre change : dans le 6e groupe, **TTG** devient **TAG** (un T remplacé par un A). Une seule lettre modifiée suffit à créer un nouvel allèle." },
+        { type: "qcm", texte: "albinisme", question: "Comment appelle-t-on l'événement qui a transformé l'allèle A en allèle a ?", choix: ["Une mutation", "Une fécondation", "Une mitose", "Une vaccination"], reponse: 0, explication: "Une modification de la séquence de l'ADN est une **mutation**. Elle s'est produite au hasard chez un ancêtre, dans une cellule à l'origine d'un gamète, puis s'est transmise." },
+        { type: "saisie", texte: "albinisme", question: "Bernard et Monique attendent un quatrième enfant. Quelle est la probabilité qu'il soit atteint d'albinisme ? (écris une fraction ou un pourcentage)", reponses: ["1/4", "25 %", "25%", "0,25", "1 chance sur 4", "une chance sur quatre", "une chance sur 4", "1 sur 4", "25 pour cent", "un quart", "1 risque sur 4", "un risque sur quatre", "un risque sur 4"], explication: "Chaque parent (A et a) produit des gamètes A ou a, avec une chance sur deux. Tableau de croisement : AA, Aa, aA, aa. Une case sur quatre (aa) correspond à un enfant atteint : **1/4, soit 25 %**." },
+        { type: "vf", texte: "albinisme", question: "Puisque Thomas est atteint, les trois enfants suivants de Bernard et Monique ne seront certainement pas atteints.", reponse: false, explication: "Chaque fécondation se fait **au hasard**, indépendamment des précédentes : à **chaque** naissance, le risque est de 1/4, même si un enfant est déjà atteint." },
+        { type: "qcm", texte: "albinisme", question: "Claire n'est pas atteinte. Que peut-on dire de ses allèles avec les seuls documents ?", choix: ["Elle a forcément les allèles a et a, comme son frère Thomas", "Elle a forcément les allèles A et A, puisqu'elle n'est pas atteinte", "Elle a forcément les allèles A et a, comme ses deux parents", "Elle a au moins un allèle A, mais on ne peut pas savoir si elle porte aussi l'allèle a"], reponse: 3, explication: "Claire n'est pas atteinte : elle a au moins un allèle **A**. Elle peut avoir A et A, ou A et a (porteuse saine) : les documents ne permettent **pas de trancher**." },
+        { type: "qcm", texte: "albinisme", question: "D'après le document 2 et tes connaissances, pourquoi les personnes atteintes d'albinisme doivent-elles se protéger strictement du soleil ?", choix: ["Parce que le soleil aggrave leur allèle muté et le transmet à leurs enfants", "Parce que, sans mélanine, les UV abîment plus facilement l'ADN des cellules de la peau, ce qui augmente le risque de cancer de la peau", "Parce que le soleil détruit leurs globules blancs", "Parce que le soleil fait disparaître leurs chromosomes"], reponse: 1, explication: "La mélanine protège la peau des **UV**, qui sont **mutagènes**. Sans elle, des mutations apparaissent plus facilement dans les cellules de la peau, qui peuvent se diviser sans contrôle : risque de **cancer**. Ces mutations ne touchent que la peau et ne sont pas transmises aux enfants." },
+        { type: "redaction", texte: "albinisme", question: "Sujet type brevet. 1) À l'aide du document 1, montre que l'allèle de l'albinisme est récessif, puis donne les allèles de Thomas, de Bernard et de Monique. 2) À l'aide du document 3, explique l'origine de l'allèle a. 3) Bernard et Monique se demandent s'ils risquent d'avoir un autre enfant atteint. Réponds-leur en expliquant le rôle de la méiose et de la fécondation, et en t'appuyant sur un tableau de croisement. Rédige des phrases complètes : la maîtrise de la langue est notée.", corrige: `1) **Un allèle récessif** : je vois dans le document 1 que Thomas est atteint d'albinisme alors que ses parents, Bernard et Monique, ne le sont pas. Or je sais qu'un enfant reçoit un allèle de chaque gène de son père et un de sa mère. Thomas a donc reçu l'allèle **a** de ses parents, qui le possèdent **sans être atteints** : chez eux, l'allèle a est masqué par l'allèle A. Donc l'allèle a est **récessif**.
+- **Thomas** est atteint : l'allèle étant récessif, il possède **deux allèles a** (a et a).
+- **Bernard** et **Monique** ne sont pas atteints mais ont chacun transmis un allèle a : ils possèdent **A et a**. Ce sont des **porteurs sains**.
+
+2) **Origine de l'allèle a** : je vois dans le document 3 que les deux allèles ne diffèrent que par **une seule lettre** : TTG devient TAG. Or une modification de la séquence de l'ADN est une **mutation**. Donc l'allèle a est apparu par mutation de l'allèle A, **au hasard**, chez un ancêtre de la famille, dans une cellule à l'origine d'un gamète ; il s'est ensuite transmis de génération en génération.
+
+3) **Le risque pour un autre enfant** : pendant la **méiose**, les deux chromosomes 11 de chaque parent se séparent : chaque gamète ne reçoit qu'**un seul allèle**. Bernard produit donc des spermatozoïdes A ou a, et Monique des ovules A ou a, avec une chance sur deux. La **fécondation** réunit au hasard un spermatozoïde et un ovule :
+
+| | ovule A | ovule a |
+|---|---|---|
+| spermatozoïde A | A et A : non atteint | A et a : non atteint (porteur sain) |
+| spermatozoïde a | a et A : non atteint (porteur sain) | a et a : **atteint** |
+
+Une case sur quatre correspond à un enfant atteint. **Réponse aux parents** : oui, à chaque nouvelle naissance, le risque d'avoir un enfant atteint d'albinisme est de **1/4, soit 25 %**, même s'ils ont déjà un enfant atteint, car chaque fécondation se fait au hasard. Il y a aussi 3 chances sur 4 que l'enfant ne soit pas atteint.` },
       ],
     },
   ],

@@ -1020,7 +1020,7 @@ Points vérifiés :
 ## Ce qu'on attend de toi en fin de 3e
 En fin de 3e, en anglais LV1, tu dois atteindre au moins le niveau **A2** du Cadre européen (CECRL) et viser le **B1** : comprendre l'essentiel d'un texte sur un sujet familier (article, récit, blog, lettre), repérer les **informations importantes**, comprendre l'**opinion** de l'auteur et les **sentiments** des personnages.
 
-Au brevet, l'anglais n'a pas d'épreuve écrite finale pour les élèves de collège (les épreuves écrites portent sur le français, les mathématiques, l'histoire-géographie-EMC et les sciences). En revanche, ta **moyenne annuelle de 3e** en anglais compte dans le **contrôle continu** (40 % de la note finale, les épreuves finales comptant pour 60 %). À l'oral du brevet (la soutenance d'un projet), tu peux aussi présenter une partie de ton exposé en anglais.
+Au brevet, l'anglais n'a pas d'épreuve écrite finale pour les élèves de collège (les épreuves écrites portent sur le français, les mathématiques, l'histoire-géographie-EMC et les sciences). En revanche, ta **moyenne annuelle de 3e** en anglais compte dans le **contrôle continu** (40 % de la note finale, les épreuves finales comptant pour 60 %). À l'oral du brevet (la **soutenance d'un projet** : un exposé suivi d'un entretien avec le jury : 15 minutes pour un candidat seul, soit 5 minutes d'exposé et 10 minutes d'entretien), tu peux présenter une partie de ton exposé ou de l'entretien en anglais, puisque cette langue est enseignée dans ton collège : cette partie ne dépasse pas 5 minutes, et le jury la valorise si ton niveau d'anglais est satisfaisant.
 
 ## La méthode en 5 étapes
 1. **Observe le document** : titre, source (journal, blog, roman), date, illustration. Formule une hypothèse sur le sujet.
@@ -1058,6 +1058,9 @@ Then, one morning, our neighbour, Mr Hughes, knocked on the door. He was seventy
 Mr Hughes taught me a few words of Welsh, the language my grandmother used to speak. In the evenings, he told me stories about the village, which hasn't changed much since the 1950s. When we left at the end of August, I was almost sad.
 
 Now I'm back in London, but I call Mr Hughes every Sunday. Next summer, I'm going to go back to the farm, and this time, it's my idea!`,
+        aisha: `**My exchange in Lyon** — Aisha, Leicester (texte d'entraînement)
+
+My name is Aisha and I live in Leicester, in the Midlands. My parents came to England from Gujarat, in India, in 1995. At home, we speak Gujarati and English, and I'm learning French at school. Last year, my class went on an exchange to Lyon. At first, I was really nervous because I had never stayed with a French family. But my host family was so kind! They taught me to cook a real quiche and I made them an Indian curry. Since then, I've been texting Chloé, my French partner, every week. Next autumn, she's going to visit Leicester for Diwali, the Hindu festival of lights. I can't wait to show her my city.`,
       },
       exercices: [
         { type: "qcm", question: "Que faut-il faire lorsqu'on rencontre un mot inconnu à la première lecture ?", choix: ["S'arrêter et chercher chaque mot dans le dictionnaire.", "Sauter le paragraphe entier.", "Abandonner l'exercice.", "Continuer la lecture et essayer de deviner le sens grâce au contexte."], reponse: 3, explication: "À la première lecture, on cherche le **sens général** ; le **contexte**, les mots transparents et la formation du mot permettent souvent de deviner." },
@@ -1065,7 +1068,7 @@ Now I'm back in London, but I call Mr Hughes every Sunday. Next summer, I'm goin
         { type: "saisie", question: "Que signifie *unforgettable* ? (décompose le mot)", reponses: ["inoubliable"], explication: "*un-* (contraire) + *forget* (oublier) + *-able* (qu'on peut) = **inoubliable**." },
         { type: "vf", question: "Lis : *Although the trip was expensive, Lily said it was worth every penny.* Lily regrette d'avoir fait ce voyage.", reponse: false, explication: "*It was worth every penny* = ça valait chaque centime. Malgré le prix (*although... expensive*), Lily est **contente** de son voyage." },
         { type: "qcm", question: "Lis : *She slammed the door and went upstairs without a word.* Comment se sent-elle ?", choix: ["heureuse", "fatiguée mais contente", "en colère", "reconnaissante"], reponse: 2, explication: "C'est une **inférence** : claquer la porte (*slammed the door*) et partir sans un mot montrent qu'elle est **en colère**." },
-        { type: "redaction", question: "Lis ce texte d'entraînement, puis réponds aux questions.\n\n*My name is Aisha and I live in Leicester, in the Midlands. My parents came to England from Gujarat, in India, in 1995. At home, we speak Gujarati and English, and I'm learning French at school. Last year, my class went on an exchange to Lyon. At first, I was really nervous because I had never stayed with a French family. But my host family was so kind! They taught me to cook a real quiche and I made them an Indian curry. Since then, I've been texting Chloé, my French partner, every week. Next autumn, she's going to visit Leicester for Diwali, the Hindu festival of lights. I can't wait to show her my city.*\n\n1. D'où viennent les parents d'Aisha et quand sont-ils arrivés en Angleterre ?\n2. Quelles langues Aisha parle-t-elle ou apprend-elle ?\n3. Pourquoi était-elle inquiète avant l'échange ? Cite le texte.\n4. Vrai ou faux : Aisha et Chloé ne sont plus en contact. Justifie.\n5. À quelle saison et pour quelle occasion Chloé va-t-elle venir à Leicester ?\n6. Relève une phrase au present perfect et explique pourquoi ce temps est employé.", corrige: `Corrigé :
+        { type: "redaction", texte: "aisha", question: "Lis le texte d'Aisha, puis réponds aux questions.\n\n1. D'où viennent les parents d'Aisha et quand sont-ils arrivés en Angleterre ?\n2. Quelles langues Aisha parle-t-elle ou apprend-elle ?\n3. Pourquoi était-elle inquiète avant l'échange ? Cite le texte.\n4. Vrai ou faux : Aisha et Chloé ne sont plus en contact. Justifie.\n5. À quelle saison et pour quelle occasion Chloé va-t-elle venir à Leicester ?\n6. Relève une phrase au present perfect et explique pourquoi ce temps est employé.", corrige: `Corrigé :
 
 1. Ses parents viennent du **Gujarat, en Inde** ; ils sont arrivés en Angleterre **en 1995**.
 2. Elle parle le **gujarati** et l'**anglais** à la maison, et elle **apprend le français** au collège.
@@ -1100,6 +1103,8 @@ Points vérifiés :
 - deux citations courtes entre guillemets (*"I was furious"*, *"almost sad"*), sans recopier de lignes entières ;
 - la cause du changement est expliquée (l'aide à Mr Hughes, les découvertes) ;
 - temps justes : prétérit pour le récit, présent pour la situation actuelle (*he wants*).` },
+        { type: "vf", texte: "aisha", question: "Dès son arrivée à Lyon, Aisha se sentait parfaitement à l'aise.", reponse: false, explication: "Faux : *\"At first, I was really nervous\"* (au début, j'étais vraiment inquiète), car elle n'avait jamais logé dans une famille française. Le connecteur *But* annonce ensuite le changement : *my host family was so kind!*" },
+        { type: "qcm", texte: "aisha", question: "*What did Aisha cook for her host family?*", choix: ["a real quiche", "a French cake", "an Indian curry", "a Gujarati soup"], reponse: 2, explication: "*I made them an Indian curry* : elle leur a préparé un **curry indien**. La quiche, c'est la famille d'accueil qui lui a appris à la faire (*They taught me to cook a real quiche*) : deux plats sont cités, il faut repérer **qui** cuisine pour **qui**." },
       ],
     },
     {
@@ -1280,6 +1285,226 @@ Points vérifiés :
 - présent pour décrire, *would love to* pour le souhait, *will* après *I hope* ;
 - passif : *It is often called* ;
 - la fiche contient des mots-clés, pas des phrases : on ne lit pas son texte.` },
+      ],
+    },
+    {
+      id: "comprendre-l-oral",
+      titre: "Comprendre l'oral : stratégies d'écoute (sur transcriptions)",
+      theme: "Méthodologie",
+      cours: `
+## Ce qu'on attend de toi en fin de 3e
+En compréhension de l'oral, tu dois atteindre au moins le niveau **A2** et viser le **B1** : comprendre l'essentiel d'un message clair sur un sujet familier (annonce, message vocal, interview, bulletin d'information, extrait de film ou de série), **identifier la situation** (qui parle, à qui, où, pourquoi), **repérer les informations précises** (noms, nombres, dates, lieux) et comprendre les **sentiments** et les **opinions**. En classe, un document est souvent écouté **deux ou trois fois**, puis tu réponds à des questions ou tu en rends compte en français.
+
+## Dans l'appli, il n'y a pas de son : comment t'entraîner ?
+Les documents de ce chapitre sont des **transcriptions** (le texte écrit de ce qu'on entend).
+- Le mieux : demande à quelqu'un de te les **lire à voix haute**, deux fois, sans que tu regardes le texte ; réponds ensuite.
+- Sinon : lis la transcription **une seule fois**, sans revenir en arrière, comme si c'était un enregistrement, puis cache-la (replie-la) et réponds.
+- Complète avec de vrais documents audio : podcasts pour apprenants (par exemple ceux de la BBC), vidéos et séries en anglais avec sous-titres **en anglais**.
+
+## Avant l'écoute : anticiper
+1. **Observe** le titre, l'image, la consigne : quel **type de document** (annonce de gare, message vocal, interview, météo) ? Qui parle probablement ?
+2. **Lis les questions** : elles te disent quoi chercher.
+3. **Prépare le vocabulaire probable** : pour une météo, *sunny, cloudy, showers* (averses), *degrees* ; pour une annonce de gare, *platform* (quai), *delayed* (en retard), *cancelled* (annulé).
+
+## Pendant l'écoute : une écoute, un objectif
+| Écoute | Objectif | Tu te demandes... |
+|---|---|---|
+| 1re | **global** | Combien de voix ? Qui ? Où (bruits de fond : gare, rue, studio) ? Ton joyeux, inquiet, en colère ? |
+| 2e | **repérage** | Noms, nombres, dates, lieux ; les **mots accentués** (prononcés plus fort et plus lentement : ce sont les mots importants) |
+| 3e | **fin** | Connecteurs (*but, so, because, actually*), opinions, sentiments, la conclusion |
+
+Prends des **notes rapides** : nombres en chiffres, abréviations, symboles (→ conséquence, + ajout, ≠ opposition), en anglais ou en français. Ne rédige jamais de phrases pendant l'écoute.
+
+## Les pièges de l'oral
+| Piège | Comment le déjouer |
+|---|---|
+| *thirteen* (13) ou *thirty* (30) ? | l'accent : *thir-TEEN* /θɜːˈtiːn/ sur la fin, *THIR-ty* /ˈθɜːti/ sur le début |
+| *can* ou *can't* ? | *can* est faible et court : *I can swim* /aɪ kən ˈswɪm/ ; *can't* est accentué et long : *I can't swim* /aɪ ˈkɑːnt swɪm/ (« kânnt » en anglais britannique, « kènnt » en américain) |
+| *won't* ou *want* ? | *won't* /wəʊnt/ « wôount » (une voyelle qui glisse vers « ou ») = *will not* ; *want* /wɒnt/ « wonnt » = vouloir |
+| les formes contractées | *he's* = *he is* ou *he has* ; *I'd* = *I would* ou *I had* : le verbe qui suit t'aide (*he's gone* = *he has gone*) |
+| l'heure et les prix | *quarter to five* = 4 h 45 ; *half past six* = 6 h 30 ; *two pounds fifty* = 2,50 £ |
+| les noms épelés | E se dit « i », I se dit « aï », A se dit « eï », G « dji », J « djeï » ; *double s* = ss |
+| les fausses pistes | plusieurs informations sont citées, la bonne vient souvent après *but, actually, in the end, not... but* |
+
+Les petits mots grammaticaux (*to, of, for, and, the, was*) sont prononcés très vite, presque avalés : ne t'inquiète pas si tu ne les entends pas, concentre-toi sur les **mots accentués**.
+
+## Repérer la situation et les sentiments
+- **Le registre** : *Good morning, ladies and gentlemen* ou *Passengers are reminded that...* (annonce officielle) ; *Hey guys!* ou *Hi, it's me* (familier).
+- **Les interjections** : *Wow!* (admiration), *Oh no!* (déception), *Yuck!* (dégoût), *Phew!* (soulagement), *Hmm...* (hésitation), *Oops!* (petite maladresse).
+- **Les mots d'opinion et de sentiment** : *I loved it, it was a nightmare, I can't stand..., I was so relieved, I'm fed up with...* (j'en ai assez de).
+- **L'intonation** : une voix qui monte et s'accélère montre l'enthousiasme ou la surprise ; une voix lente et basse, la tristesse ou la fatigue.
+
+## Rendre compte en français
+On te demande souvent de dire **ce que tu as compris**, en français : qui parle, de quoi, où, quand, pourquoi, et ce que la personne pense ou ressent. Ne traduis pas mot à mot : dis l'essentiel avec tes mots, du plus général au plus précis.
+
+>! Transcription (message vocal, texte d'entraînement) : *Hi Mum, it's Jake. The match has finished, we won three-one! But I've missed the bus, so I'll be home late, about half past seven. Can you keep some pizza for me? Thanks, see you later!*
+>!
+>! Compte rendu : Jake laisse un message à sa mère. Son équipe a gagné son match 3 à 1, mais il a raté le bus : il rentrera tard, vers 19 h 30. Il lui demande de lui garder de la pizza. Il a l'air content (victoire), malgré le bus raté.
+
+## Erreurs fréquentes
+- Vouloir **tout comprendre** et paniquer sur un mot inconnu : pendant que tu bloques, la suite passe.
+- Noter la **première information** entendue : c'est souvent le piège (*I wanted to go to London, but in the end we went to Bath*).
+- Confondre *-teen* et *-ty* (15 et 50).
+- Recopier des sons que tu n'as pas compris au lieu de reformuler ce que tu as compris.
+
+> **À retenir** : anticipe (type de document, questions, vocabulaire probable). Une écoute = un objectif : global, repérage, détail. Appuie-toi sur les **mots accentués**, les nombres, les connecteurs (*but, actually, in the end*) et l'intonation. Méfie-toi de *-teen / -ty*, *can / can't*, *won't / want*. Rends compte en français : qui, quoi, où, quand, pourquoi, sentiments.
+`,
+      textes: {
+        gare: `**Station announcement — transcript** (fais-le-toi lire à voix haute, ou lis-le une seule fois puis replie-le ; texte d'entraînement)
+
+*Good afternoon, ladies and gentlemen. This is an announcement for passengers travelling to Edinburgh. We are sorry to announce that the 14:15 service to Edinburgh is delayed by approximately twenty-five minutes because of a technical problem. This train will now leave from platform nine, not platform four as shown on the screens. Hot and cold drinks will be available on board. Passengers who need help are asked to go to the information desk. We apologise for any inconvenience.*`,
+        daniel: `**Teen Talk, a radio programme — transcript of the interview** (fais-le-toi lire à voix haute, ou lis-le une seule fois puis replie-le ; texte d'entraînement, personnages fictifs)
+
+*Host: Welcome back to Teen Talk! My guest today is Daniel. He's fourteen and he has learnt British Sign Language, or BSL. Daniel, why did you decide to learn it?*
+
+*Daniel: Well, two years ago, my little cousin Lily was born deaf. At first, I didn't know how to talk to her and I felt a bit useless. So I started an online course. Actually, my mum wanted to do it too, but she gave up after a month!*
+
+*Host: Was it difficult?*
+
+*Daniel: Learning the signs wasn't too hard: I've got a good memory. What was really hard was the grammar, because BSL doesn't follow the same word order as English. And you have to use your face too: your expressions are part of the language.*
+
+*Host: How often do you practise?*
+
+*Daniel: Every day, for about fifteen minutes, and I see Lily every Saturday. Now she's three and we have real conversations. It's amazing!*
+
+*Host: What would you say to our listeners?*
+
+*Daniel: Just try! You can learn to sign "hello" and "thank you" in five minutes, and it means a lot to deaf people.*`,
+      },
+      exercices: [
+        { type: "qcm", question: "Tu entends : *I can swim, but I can't dive.* À l'oral, qu'est-ce qui t'aide le plus à distinguer *can* de *can't* ?", choix: ["Le *t* final de *can't*, que les Anglais prononcent toujours très nettement.", "*Can* est faible et court /kən/, alors que *can't* est accentué et plus long /kɑːnt/.", "*Can't* se dit toujours sur une note plus basse et plus lentement que *can*.", "Il n'y a aucune différence de son : seul le contexte permet de savoir."], reponse: 1, explication: "Le *t* de *can't* s'entend souvent à peine. Le vrai indice, c'est l'**accent** : dans une phrase affirmative, *can* est réduit /kən/ (« keun ») et c'est le verbe qui suit qui est accentué (*I can SWIM*), alors que *can't* est accentué et long /kɑːnt/ (*I CAN'T dive*)." },
+        { type: "qcm", question: "Dans une annonce, tu entends un nombre qui commence par /θɜː/ et dont la **dernière syllabe** est accentuée et longue. De quel nombre s'agit-il ?", choix: ["30", "3", "33", "13"], reponse: 3, explication: "*Thirteen* /θɜːˈtiːn/ (13) est accentué sur **-teen** ; *thirty* /ˈθɜːti/ (30) est accentué sur le début. C'est le même principe pour 14/40, 15/50, etc." },
+        { type: "qcm", question: "Tu entends : *Phew! I thought I'd missed the last bus!* Quel sentiment exprime la personne ?", choix: ["la colère", "le soulagement", "la déception", "le dégoût"], reponse: 1, explication: "*Phew!* exprime le **soulagement** : elle pensait avoir raté le dernier bus, mais finalement non. La déception se dirait plutôt *Oh no!*, le dégoût *Yuck!*." },
+        { type: "qcm", texte: "gare", question: "Quel problème cette annonce signale-t-elle ?", choix: ["Le train pour Edinburgh est annulé à cause d'une grève.", "Le train pour Edinburgh a environ 25 minutes de retard et part d'un autre quai.", "Le train pour Edinburgh est parti en avance.", "Le bar du train est fermé pendant tout le trajet."], reponse: 1, explication: "*Delayed by approximately twenty-five minutes* = en retard d'environ 25 minutes, *because of a technical problem* (un problème technique, pas une grève), et le train *will now leave from platform nine, not platform four* : il change de quai. Les boissons sont au contraire disponibles (*available on board*)." },
+        { type: "saisie", texte: "gare", question: "D'après l'annonce, à quelle heure le train pour Edinburgh devrait-il maintenant partir ? (écris l'heure, par exemple 9:05)", reponses: ["14:40", "14h40", "14 h 40", "14.40", "2:40", "2.40", "2:40 pm", "2.40 pm", "2:40 p.m.", "2.40 p.m.", "at 14:40", "at 2:40", "at 2.40", "at 2:40 pm", "at 2.40 pm", "à 14h40", "à 14 h 40", "2h40", "2 h 40", "14 heures 40", "14h40 min", "twenty to three", "at twenty to three", "14 40"], explication: "Le train de **14:15** a environ **25 minutes** de retard : 14 h 15 + 25 min = **14 h 40**. L'annonce ne donne pas la nouvelle heure : il faut la calculer à partir des deux informations entendues." },
+        { type: "qcm", texte: "daniel", question: "*Why did Daniel decide to learn British Sign Language?*", choix: ["Because his school offered a free course.", "Because his mother asked him to do it with her.", "Because he wanted to become an interpreter.", "Because his little cousin was born deaf."], reponse: 3, explication: "*Two years ago, my little cousin Lily was born deaf. At first, I didn't know how to talk to her* : il voulait pouvoir **communiquer avec sa cousine**. Sa mère est citée, mais elle a voulu suivre le cours *aussi*, après lui." },
+        { type: "vf", texte: "daniel", question: "La mère de Daniel suit toujours le cours de langue des signes avec lui.", reponse: false, explication: "Faux : *my mum wanted to do it too, but she gave up after a month!* (elle a abandonné au bout d'un mois). Le connecteur *but* et le phrasal verb *give up* (abandonner) sont la clé." },
+        { type: "qcm", texte: "daniel", question: "*What did Daniel find really hard?*", choix: ["the grammar of BSL", "remembering the signs", "finding time to practise", "talking to his cousin"], reponse: 0, explication: "*Learning the signs wasn't too hard* (piège : les signes ne sont pas difficiles pour lui). *What was **really hard** was the grammar* : c'est **la grammaire**, car la BSL n'a pas le même ordre des mots que l'anglais. La structure *What was really hard was...* annonce l'information importante." },
+        { type: "saisie", texte: "daniel", question: "Combien de minutes Daniel s'entraîne-t-il chaque jour ? (en chiffres)", reponses: ["15", "15 minutes"], explication: "*Every day, for about **fifteen** minutes* → **15**. Attention : seul, *fifteen* (15) est accentué sur la fin, *fifty* (50) sur le début. Mais devant un nom, l'accent de *fifteen* remonte souvent au début (*FIF-teen MI-nutes*) : écoute alors la voyelle longue /iː/ et le **n** final de *-teen*, absents de *fifty* /ˈfɪfti/. Les *five minutes* de la fin concernent autre chose (apprendre à signer *hello* et *thank you*)." },
+        { type: "redaction", texte: "daniel", question: "Niveau fin de 3e : rends compte **en français**, en 5 à 7 phrases, de l'interview de Daniel : qui parle et dans quel cadre, ce qu'il a fait et pourquoi, les difficultés, son entraînement, son message final et ce qu'il ressent.", corrige: `Exemple de compte rendu :
+
+Il s'agit d'une émission de radio pour adolescents, *Teen Talk*, dans laquelle l'animateur interroge Daniel, un garçon de 14 ans. Il y a deux ans, sa petite cousine Lily est née sourde ; comme il ne savait pas comment communiquer avec elle et se sentait inutile, il a suivi un cours en ligne de langue des signes britannique (BSL). Sa mère a commencé avec lui, mais elle a abandonné au bout d'un mois. Pour Daniel, les signes ont été faciles à retenir ; le plus difficile a été la grammaire, car l'ordre des mots n'est pas le même qu'en anglais, et il faut aussi utiliser les expressions du visage. Il s'entraîne environ un quart d'heure par jour et voit Lily tous les samedis : aujourd'hui, elle a trois ans et ils ont de vraies conversations. Il est enthousiaste (*It's amazing!*) et encourage les auditeurs à essayer, car apprendre quelques signes compte beaucoup pour les personnes sourdes.
+
+Points vérifiés :
+- la situation est posée d'abord (émission de radio, interview, qui parle) ;
+- les informations essentielles sont dans l'ordre : cause, cours, difficultés, entraînement, résultat, message ;
+- les pièges sont évités : la mère a **abandonné**, les signes ne sont **pas** la difficulté, 15 minutes par jour ;
+- le sentiment est identifié et justifié (*It's amazing!*) ;
+- reformulation en français naturel, sans traduction mot à mot.` },
+      ],
+    },
+    {
+      id: "prononciation-phonologie",
+      titre: "Prononcer et reconnaître les sons : voyelles, -ed, accent, intonation",
+      theme: "Phonologie",
+      cours: `
+## Comment lire les sons dans ce chapitre ?
+L'appli n'a pas de son : chaque prononciation est donnée de deux façons.
+- Entre barres obliques, en **alphabet phonétique international** (API), comme dans ton dictionnaire : /θ/. Le signe **ˈ** se place **avant** la syllabe accentuée et **ː** signale une voyelle **longue**.
+- Entre guillemets, avec une **approximation en français** : « tink ». Ce n'est qu'une aide : écoute ensuite le mot dans un dictionnaire en ligne et répète-le à voix haute.
+
+Bien prononcer, c'est aussi **mieux comprendre** à l'oral : on reconnaît plus vite les mots qu'on sait dire.
+
+## Voyelles courtes et voyelles longues
+| Voyelle courte | Voyelle longue ou proche |
+|---|---|
+| /ɪ/ « i » bref et relâché : *ship, live, sit* | /iː/ « ii » long et tendu : *sheep, leave, seat* |
+| /ʊ/ « ou » bref : *full, book, good* | /uː/ « ouou » long : *fool, food, school* |
+| /æ/ entre « è » et « a » : *cat, hat, man* | /ʌ/ « a » bref (lui aussi court), bouche peu ouverte : *cut, hut, mum* |
+| /ɒ/ « o » bref : *hot, dog, not* | /ɔː/ « ô » long, lèvres arrondies : *sport, door, walk* |
+| /ə/ (le **schwa**) : « e » très faible, comme dans « le » : *about, teacher, banana* | /ɜː/ « eu » long : *bird, work, learn* |
+
+Ces paires changent le sens (on les appelle des **paires minimales**) : *ship / sheep* (bateau / mouton), *live / leave* (vivre / partir), *full / fool* (plein / idiot), *walk / work* /wɔːk/ « wôk » / /wɜːk/ « weuk » (marcher / travailler).
+
+Le **schwa** /ə/ est le son le plus fréquent de l'anglais : presque toutes les syllabes **non accentuées** s'y réduisent : *banana* /bəˈnɑːnə/, *computer* /kəmˈpjuːtə/.
+
+## Les consonnes difficiles
+- **th** : la langue entre les dents. Sans voix /θ/ : *think, three, month* ; avec la voix /ð/ : *the, this, mother*. Ne dis pas « s », « z » ni « t » : *think* ≠ *sink* (couler), *three* ≠ *tree* (arbre).
+- **h** se prononce (un souffle) : *hair / air*, *heat / eat*, *hear / ear* (entendre / oreille). Mais il est muet dans *hour, honest*.
+- **-ing** /ɪŋ/ : un son nasal fait au fond de la bouche (l'arrière de la langue contre le palais), sans « g » distinct ni « ine » : *sing* /sɪŋ/, *reading* /ˈriːdɪŋ/.
+- **r** ne roule pas et ne racle pas. En anglais britannique, il ne se prononce pas en fin de mot ni devant une consonne : *car* /kɑː/, *park* /pɑːk/ ; les Américains le prononcent : /kɑːr/.
+
+## Les terminaisons -ed : trois prononciations
+| Son | Quand ? | Exemples |
+|---|---|---|
+| /ɪd/ « id » (une syllabe de plus) | après les sons /t/ et /d/ | *wanted, needed, decided, visited* |
+| /t/ « t » | après les sons sourds /p/, /k/, /f/, /s/, /ʃ/ (ch), /tʃ/ (tch), /θ/ | *stopped, looked, laughed, missed, washed, watched* |
+| /d/ « d » | après une voyelle ou les autres consonnes | *played, lived, called, opened, cleaned* |
+
+On ne dit **jamais** « é » : *looked* /lʊkt/ « loukt » (une syllabe), *played* /pleɪd/ « pleïd ». Seuls les verbes en *-t* ou *-d* gagnent une syllabe : *wan-ted*, *de-ci-ded*. C'est le **son** qui compte, pas la lettre : *laughed* finit par le son /f/, donc /lɑːft/ « lâft ».
+
+Rappel : le -s final (pluriel, 3e personne, génitif) suit une règle proche : /s/ après un son sourd (*books*), /ɪz/ après s, z, ch, sh, « dj » (*watches*), /z/ ailleurs (*dogs*).
+
+## L'accent de mot
+Dans chaque mot de plusieurs syllabes, **une syllabe est plus forte** ; les autres se réduisent souvent au schwa.
+- Dans une même famille, l'accent **se déplace** : *PHO-to-graph* /ˈfəʊtəɡrɑːf/, *pho-TO-gra-pher* /fəˈtɒɡrəfə/, *pho-to-GRA-phic* /ˌfəʊtəˈɡræfɪk/.
+- Avec les suffixes **-tion, -sion, -ic**, l'accent tombe sur la syllabe **juste avant** : *in-for-MA-tion*, *de-CI-sion*, *e-co-NO-mic*, *scien-TI-fic*.
+- Certains mots sont **nom** ou **verbe** selon l'accent : *a RE-cord* (un disque, un record) / *to re-CORD* (enregistrer) ; *a PRE-sent* (un cadeau) / *to pre-SENT* (présenter) ; *an IN-crease* (une hausse) / *to in-CREASE* (augmenter).
+- Les **noms composés** sont accentués sur le **premier** élément : *a BUS stop, a CLASS-room, a SMART-phone*.
+- Mots transparents qui piègent les francophones : *de-VE-lop* /dɪˈveləp/, *en-VI-ron-ment* /ɪnˈvaɪrənmənt/, *ho-TEL* /həʊˈtel/, *COM-for-ta-ble* /ˈkʌmftəbl/ (trois syllabes seulement : « KAMF-te-beul »), *VEG-ta-ble* /ˈvedʒtəbl/ (trois syllabes : « VÈDJ-te-beul »), *IN-tres-ting* /ˈɪntrəstɪŋ/ (trois syllabes : « IN-tres-ting »).
+
+>! Méthode pour lire une transcription du dictionnaire : *comfortable* /ˈkʌmftəbl/. Le signe ˈ est avant *k* : l'accent est sur la 1re syllabe. Le « or » ne se prononce pas : /kʌmf/. On compte trois syllabes (/kʌmf/ – /tə/ – /bl/). Résultat : « KAMF-te-beul », et non « con-for-table » comme en français.
+
+## L'accent de phrase et les formes faibles
+Dans une phrase, on accentue les **mots qui portent le sens** (noms, verbes, adjectifs, adverbes, mots négatifs) ; les **mots grammaticaux** se réduisent en **formes faibles**, avec un schwa :
+| Mot | Forme forte (isolé, insistance) | Forme faible (dans la phrase) |
+|---|---|---|
+| *to* | /tuː/ | /tə/ « te » |
+| *of* | /ɒv/ | /əv/ « ev » |
+| *and* | /ænd/ | /ən/ « eun » |
+| *can* | /kæn/ | /kən/ « keun » |
+| *was* | /wɒz/ | /wəz/ « weuz » |
+| *for* | /fɔː/ | /fə/ « fe » |
+
+>! *I'd LIKE a CUP of TEA.* /aɪd ˈlaɪk ə ˈkʌp əv ˈtiː/ : trois syllabes fortes, et *a, of* presque avalés (« aïd LAÏK e KAP ev TII »).
+>!
+>! *Can you swim? — Yes, I CAN.* : en fin de phrase, *can* reprend sa forme forte /kæn/.
+
+Pièges à l'oral : *won't* /wəʊnt/ « wôount » (= *will not*) ≠ *want* /wɒnt/ « wonnt » (vouloir) ; *can* /kən/ (faible) ≠ *can't* /kɑːnt/ (accentué, « kânnt » ; « kènnt » en américain).
+
+Les mots s'**enchaînent** : une consonne finale s'accroche à la voyelle suivante : *turn it off* « teu-ni-tof », *an apple* « e-nap-peul ».
+
+## L'intonation
+- La voix **descend** à la fin d'une affirmation et d'une question en Wh- : *Where do you live?* ↘
+- Elle **monte** à la fin d'une question fermée (*yes / no*) : *Do you like jazz?* ↗
+- Dans une **énumération**, elle monte sur chaque élément et descend sur le dernier : *apples* ↗, *pears* ↗ *and bananas* ↘.
+- Pour **corriger** ou **opposer**, on accentue fortement le mot important : *I said TUESDAY, not Thursday.*
+
+## Homophones et lettres muettes
+- **Homophones** (même son, sens différent) : *there / their / they're* /ðeə/ ; *to / too / two* /tuː/ ; *know / no* /nəʊ/ ; *write / right* /raɪt/ ; *hear / here* /hɪə/ ; *weather / whether* /ˈweðə/ ; *whole / hole* /həʊl/ ; *son / sun* /sʌn/.
+- **Lettres muettes** : *castle* /ˈkɑːsl/ (t), *climb* /klaɪm/ (b), *honest* /ˈɒnɪst/ (h), *knowledge* /ˈnɒlɪdʒ/ (k), *answer* /ˈɑːnsə/ (w), *foreign* /ˈfɒrən/ (g), *muscle* /ˈmʌsl/ (c), *receipt* /rɪˈsiːt/ (p).
+
+## Erreurs fréquentes des francophones
+| Erreur | Correction |
+|---|---|
+| « lou-ké » pour *looked* | /lʊkt/ « loukt » : une seule syllabe |
+| « zis is » pour *this is* | langue entre les dents : /ðɪs ɪz/ |
+| *ship* et *sheep* prononcés pareil | /ɪ/ bref et relâché ≠ /iː/ long et tendu |
+| *hotel* dit sans h, ou un h ajouté à *hour* | *hotel* /həʊˈtel/ a un h ; *hour* /ˈaʊə/ n'en a pas |
+| accent sur la dernière syllabe (*deve-LOP*) | une syllabe forte par mot, à apprendre avec le mot : *de-VE-lop* |
+| toutes les syllabes prononcées pareil | les mots grammaticaux se réduisent : *a cup of tea* = « e KAP ev TII » |
+
+> **À retenir** : voyelles courtes / longues (*ship / sheep, full / fool*) ; th = langue entre les dents ; h soufflé. **-ed** : /ɪd/ après t et d, /t/ après un son sourd, /d/ ailleurs, jamais « é ». Une syllabe forte par mot (*pho-TO-gra-pher*, *in-for-MA-tion*, *a RE-cord / to re-CORD*). Dans la phrase, les mots de sens sont accentués, les petits mots se réduisent (/tə/, /əv/, /kən/). La voix descend pour une affirmation ou une question en Wh-, monte pour une question fermée.
+`,
+      exercices: [
+        { type: "qcm", question: "Dans quel verbe la terminaison **-ed** ajoute-t-elle une syllabe, prononcée /ɪd/ (« id ») ?", choix: ["played", "looked", "stopped", "decided"], reponse: 3, explication: "*Decide* finit par le son /d/ : le -ed se prononce **/ɪd/** et ajoute une syllabe : *de-ci-ded* /dɪˈsaɪdɪd/. *Looked* et *stopped* finissent par /t/ (/lʊkt/, /stɒpt/), *played* par /d/ (/pleɪd/) : une seule syllabe." },
+        { type: "qcm", question: "Comment se prononce la terminaison **-ed** de *watched* ?", choix: ["/d/ « d »", "/ɪd/ « id »", "/t/ « t »", "« é »"], reponse: 2, explication: "*Watch* finit par le son sourd /tʃ/ (« tch ») : le -ed se prononce **/t/** : *watched* /wɒtʃt/ « wotcht », en une syllabe. On ne dit jamais « é »." },
+        { type: "qcm", question: "Quel mot contient le même son voyelle long /iː/ que *sheep* ?", choix: ["ship", "live", "leave", "sit"], reponse: 2, explication: "*Leave* /liːv/ contient le **/iː/** long, comme *sheep* /ʃiːp/. *Ship* /ʃɪp/, *live* /lɪv/ et *sit* /sɪt/ ont le /ɪ/ bref : *live / leave* forment une paire minimale (vivre / partir)." },
+        { type: "qcm", question: "Où est l'accent dans *photographer* (photographe) ?", choix: ["PHO-to-gra-pher", "pho-TO-gra-pher", "pho-to-GRA-pher", "pho-to-gra-PHER"], reponse: 1, explication: "*Photographer* /fəˈtɒɡrəfə/ est accentué sur la **2e syllabe** : *pho-TO-gra-pher*. Dans la même famille, l'accent se déplace : *PHO-to-graph*, *pho-to-GRA-phic*." },
+        { type: "vf", question: "*a record* (un disque, un record) et *to record* (enregistrer) sont accentués sur la même syllabe.", reponse: false, explication: "Faux : le nom est accentué sur la 1re syllabe, **a RE-cord** /ˈrekɔːd/, le verbe sur la 2e, **to re-CORD** /rɪˈkɔːd/. Même chose pour *a PRE-sent / to pre-SENT* et *an IN-crease / to in-CREASE*." },
+        { type: "qcm", question: "Dans la phrase *I can swim*, comment se prononce normalement *can* ?", choix: ["/kən/ « keun », faible et court", "/kɑːnt/ « kânnt », accentué", "/kæn/ « kènn », accentué", "il ne se prononce pas du tout"], reponse: 0, explication: "Dans une phrase affirmative, *can* prend sa **forme faible** /kən/ et c'est le verbe qui est accentué : *I can SWIM*. /kɑːnt/ serait *can't* ; la forme forte /kæn/ s'entend seule ou en fin de phrase (*Yes, I can*)." },
+        { type: "qcm", question: "Tu entends /wəʊnt/ (« wôount ») dans *I ___ be late.* Quel mot as-tu entendu ?", choix: ["want", "went", "won't", "will"], reponse: 2, explication: "/wəʊnt/, avec la diphtongue /əʊ/ (un « ô » qui glisse vers « ou »), c'est **won't** (*will not*) : *I won't be late* (je ne serai pas en retard). *Want* se dit /wɒnt/ « wonnt », *went* /went/ « wènnt » et *will*, seul, /wɪl/ « wil »." },
+        { type: "saisie", question: "Écris l'homophone de *write* qui signifie « juste, correct » ou « à droite ».", reponses: ["right"], explication: "*Write* et **right** se prononcent tous deux /raɪt/ « raït » : le **w** de *write* est muet. Autres homophones : *know / no*, *hear / here*, *weather / whether*." },
+        { type: "saisie", question: "Quelle lettre est muette dans *climb* (grimper) ?", reponses: ["b", "le b", "la lettre b"], explication: "*Climb* se prononce /klaɪm/ « claïm » : le **b** final, après un m, est muet (comme dans *comb*, *thumb*, *bomb*)." },
+        { type: "redaction", question: "Niveau fin de 3e : prépare à voix haute la phrase *I wanted to visit the castle, but it closed at five.* Indique : (1) les mots accentués de la phrase ; (2) les mots en forme faible et leur prononciation ; (3) la prononciation des deux terminaisons -ed ; (4) la lettre muette d'un des mots ; (5) l'intonation à la fin.", corrige: `Corrigé :
+
+1. **Mots accentués** (les mots de sens) : *WANted, VIsit, CAStle, CLOSED, FIVE*. Les syllabes accentuées des mots sont en majuscules : *WAN-ted*, *VI-sit*, *CAS-tle*.
+2. **Formes faibles** : *to* /tə/ « te », *the* /ðə/ (un « e » faible, la langue entre les dents pour le th), *but* /bət/ « beut », *at* /ət/ « eut ». On dit à peu près : « aï WONN-tid te VI-zit the KÂ-seul, beut it KLÔOUZD et FAÏV ».
+3. **Terminaisons -ed** : *wanted* /ˈwɒntɪd/ → **/ɪd/**, une syllabe de plus, car *want* finit par /t/ ; *closed* /kləʊzd/ → **/d/**, car *close* (fermer) finit par le son /z/, une consonne sonore : une seule syllabe.
+4. **Lettre muette** : le **t** de *castle* /ˈkɑːsl/ (« KÂ-seul »).
+5. **Intonation** : c'est une affirmation, la voix **descend** à la fin, sur *five* ↘.
+
+Méthode : on repère d'abord les mots qui portent le sens, puis on réduit les petits mots, on applique la règle du son final pour -ed, et on vérifie les mots douteux dans un dictionnaire (API + écoute).` },
       ],
     },
   ],

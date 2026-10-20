@@ -79,7 +79,8 @@ function compacte(s, espaces = false) {
   // Les tirets ne se suppriment que dans les mots (« asylum-seeker »), pas en maths
   const mots = !/[\d=+*/^()√]/.test(s);
   // En langue, les espaces entre les mots comptent (« auf stehe », « por que »)
-  const garder = espaces && mots;
+  // (un chiffre seul ne fait pas une écriture mathématique : « um 6 Uhr auf stehe »)
+  const garder = espaces && !/[=+*/^()√]/.test(s);
   return s
     // Contractions anglaises (« I've » = « I have ») ; « 's » reste ambigu (is/has)
     .replace(/\bwon't\b/g, "will not").replace(/\bcan't\b/g, "cannot").replace(/\bshan't\b/g, "shall not")
@@ -165,7 +166,7 @@ function reecrire(s) {
     // « 08 mai 1945 », « le 1er mai » → « 8 mai 1945 », « 1 mai »
     .replace(/^(?:le\s+)?0?(\d{1,2})(?:er)?\s+(?=\p{L})/u, "$1 ");
   // « 44 g de CO2 » : le complément (formule chimique) après l'unité ne compte pas
-  const t2 = t.replace(/^(-?\d[\d\s.]*\s*\p{L}{1,3})\s+(?:de|d'|of)\s+[\p{L}\d₀-₉]*\d[\p{L}\d₀-₉]*$/u, "$1");
+  const t2 = t.replace(/^(-?\d[\d\s.]*\s*\p{L}{1,3})\s+(?:(?:de|d'|of)\s+)?\p{L}[\p{L}\d₀-₉]*[\d₀-₉][\p{L}\d₀-₉]*(\s+(?:par|per)\s+\p{L}+)?$/u, "$1$2");
   if (t2 !== t) return reecrire(t2);
   // Unité après le nombre : kg.m-3, m s-1, cm3, « mètres par seconde »
   const m = t.match(/^(-?\d+(?:\s\d{3})*(?:\.\d+)?(?:\s*\/\s*\d+)?\s*)(\p{L}.*)$/u);
@@ -313,6 +314,12 @@ export function reponseJuste(saisie, attendues, langue = false, enonce = "") {
   }
   // Notation scientifique demandée : a × 10^n avec 1 ≤ a < 10
   if (puissanceExigee && /scientifique/i.test(enonce) && !/^-?[1-9](?:[.,]\d+)?\s*[×x*.]\s*10/.test(normaliser(saisie))) return false;
+  // Heure attendue « 8.40 » : « 8.4 » n'est pas la même heure
+  const heureAttendue = attendues.some((r) => /^\d{1,2}[.:]\d{2}$/.test(String(r).trim()));
+  if (heureAttendue && /heure|time|o'clock|\b[ap]\.?m\b|\bat\b|à quelle/i.test(enonce) && /^\d{1,2}[.,:]\d$/.test(String(saisie).trim())) return false;
+  // Même heure écrite autrement : 8.40 = 8:40 = 8h40 = 8 h 40
+  const hm = (x) => { const m = String(x).trim().toLowerCase().match(/^(\d{1,2})\s*[.:h]\s*(\d{2})(?:\s*min)?$/); return m ? +m[1] * 60 + +m[2] : null; };
+  if (heureAttendue && hm(saisie) != null && attendues.some((r) => hm(r) === hm(saisie))) return true;
   return attendues.some((r) => {
     const strict = fr && (aDesAccents(r) || aDesAccents(saisie));
     const b = reecrire(normaliser(r, strict, de));
