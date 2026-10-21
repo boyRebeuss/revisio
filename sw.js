@@ -1,10 +1,10 @@
 // Cache d'abord : l'appli reste dans la version installée jusqu'à ce que l'élève accepte
 // la mise à jour (bandeau « Nouvelle version »). VERSION est écrit par tools/version.sh.
-const VERSION = "9d794ecb";
+const VERSION = "f375c16b";
 const CACHE = "revisio-" + VERSION;
 const SOCLE = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
-  "js/app.js", "js/dom.js", "js/famille.js", "js/cle-famille.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js", "js/correcteur.js", "js/version.js",
+  "js/app.js", "js/dom.js", "js/invitation.js", "js/journal.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js", "js/correcteur.js", "js/version.js",
   "content/catalogue.js", "icons/icon.svg", "icons/icon-192.png",
 ];
 
@@ -45,6 +45,8 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
+  // Relais de l'IA, liens d'invitation et page d'administration : toujours en direct (site Cloudflare)
+  if (/^\/(api|i)\/|^\/admin/.test(url.pathname)) return;
   e.respondWith((async () => {
     const c = await caches.open(CACHE);
     const r = await c.match(e.request, { ignoreSearch: true });

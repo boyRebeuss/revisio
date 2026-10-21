@@ -1,12 +1,34 @@
-// Appels à l'API Gemini (clé gratuite Google AI Studio saisie dans Réglages).
-// La clé passe uniquement dans l'en-tête x-goog-api-key, jamais dans l'URL.
-import { reglages } from "./store.js";
+// Appels à l'API Gemini : avec la clé saisie dans Réglages (directement chez Google, en-tête x-goog-api-key,
+// jamais dans l'URL), sinon par le relais du site Cloudflare avec le laissez-passer de l'appareil (invitation.js).
+import { reglages, profilActif } from "./store.js";
+import { relais } from "./invitation.js";
 
 const API = "https://generativelanguage.googleapis.com/v1beta";
 const EPUISE = "revisio.gemini.epuise"; // { modele: "AAAA-MM-JJ" (jour Pacifique) }
 
 export function disponible() {
-  return !!reglages.cleGemini();
+  return !!reglages.cleGemini() || (relais && !!reglages.acces());
+}
+
+// Adresse et en-têtes d'une demande : clé personnelle d'abord, sinon relais (élève et usage notés pour les parents)
+function acces(chemin, usage) {
+  const cle = reglages.cleGemini();
+  if (cle) return { url: `${API}/${chemin}`, headers: { "x-goog-api-key": cle } };
+  const p = profilActif();
+  const headers = { "x-acces": reglages.acces()?.pass || "", "x-usage": usage };
+  if (p) headers["x-eleve"] = encodeURIComponent(`${p.prenom} (${p.niveau})`);
+  return { url: `/api/gemini/${chemin}`, headers };
+}
+
+const refus = () => reglages.cleGemini()
+  ? "Clé Gemini refusée. Vérifie-la dans les Réglages."
+  : "L'IA ne répond pas pour le moment. Réessaie plus tard ou préviens tes parents.";
+
+// Laissez-passer refusé par le relais (accès retiré par les parents) : il est oublié
+function accesRetire(r) {
+  if (reglages.cleGemini() || r.status !== 403) return false;
+  reglages.setAcces(null);
+  return true;
 }
 
 function jourPacifique() {
@@ -31,10 +53,12 @@ let modelesCache = null;
 
 // Flash-Lite d'abord (quota gratuit journalier le plus élevé), puis Flash,
 // du plus récent au plus ancien.
-async function modeles(cle) {
+async function modeles() {
   if (modelesCache) return modelesCache;
-  const r = await fetch(`${API}/models?pageSize=200`, { headers: { "x-goog-api-key": cle } });
-  if (!r.ok) throw new Error(r.status === 400 || r.status === 403 ? "Clé Gemini refusée. Vérifie-la dans les Réglages." : `Gemini indisponible (${r.status}).`);
+  const a = acces("models?pageSize=200", "modeles");
+  const r = await fetch(a.url, { headers: a.headers });
+  if (accesRetire(r)) throw new Error("L'accès à l'IA a été retiré sur cet appareil. Demande un nouveau code à tes parents.");
+  if (!r.ok) throw new Error(r.status === 400 || r.status === 403 ? refus() : `Gemini indisponible (${r.status}).`);
   const data = await r.json();
   const version = (n) => parseFloat((n.match(/gemini-(\d+(?:\.\d+)?)/) || [])[1] || 0);
   const noms = (data.models || [])
@@ -47,12 +71,11 @@ async function modeles(cle) {
   return modelesCache;
 }
 
-async function appeler({ systeme, texte, json, temperature = 0.7 }) {
-  const cle = reglages.cleGemini();
-  if (!cle) throw new Error("Ajoute une clé Gemini dans les Réglages pour utiliser l'IA.");
+async function appeler({ systeme, texte, json, temperature = 0.7, usage }) {
+  if (!disponible()) throw new Error("L'IA n'est pas activée sur cet appareil.");
   const jour = jourPacifique();
   const ep = epuises();
-  const liste = (await modeles(cle)).filter((m) => ep[m] !== jour);
+  const liste = (await modeles()).filter((m) => ep[m] !== jour);
   if (!liste.length) throw new Error("Le quota gratuit de l'IA est atteint pour aujourd'hui. Réessaie demain.");
 
   const corps = {
@@ -63,15 +86,17 @@ async function appeler({ systeme, texte, json, temperature = 0.7 }) {
   let derniere = "Réponse vide de l'IA.";
   for (const modele of liste) {
     let r;
+    const a = acces(`models/${modele}:generateContent`, usage);
     try {
-      r = await fetch(`${API}/models/${modele}:generateContent`, {
+      r = await fetch(a.url, {
         method: "POST",
-        headers: { "Content-Type": "application/json", "x-goog-api-key": cle },
+        headers: { "Content-Type": "application/json", ...a.headers },
         body: JSON.stringify(corps),
       });
     } catch {
       throw new Error("Pas de connexion Internet.");
     }
+    if (accesRetire(r)) throw new Error("L'accès à l'IA a été retiré sur cet appareil. Demande un nouveau code à tes parents.");
     if (r.status === 429) {
       const t = await r.text();
       if (/PerDay/i.test(t)) marquerEpuise(modele);
@@ -80,7 +105,7 @@ async function appeler({ systeme, texte, json, temperature = 0.7 }) {
     }
     if (r.status === 404) { derniere = "Modèle indisponible."; continue; }
     if (!r.ok) {
-      if (r.status === 400 || r.status === 403) throw new Error("Clé Gemini refusée. Vérifie-la dans les Réglages.");
+      if (r.status === 400 || r.status === 403) throw new Error(refus());
       derniere = `Erreur de l'IA (${r.status}).`;
       continue;
     }
@@ -111,6 +136,7 @@ export async function genererExercices({ niveau, matiere, chapitre, cours, nombr
     systeme: PROF(niveau, matiere),
     json: true,
     temperature: 0.9,
+    usage: "exercices",
     texte:
       `Crée ${nombre} NOUVEAUX exercices corrigés, variés et progressifs, sur le chapitre « ${chapitre} ».\n` +
       "Réponds uniquement par un tableau JSON. Chaque élément est l'un de ces objets :\n" +
@@ -131,6 +157,7 @@ export async function corrigerRedaction({ niveau, matiere, question, corrige, re
     systeme: PROF(niveau, matiere),
     json: true,
     temperature: 0.3,
+    usage: "correction",
     texte:
       "Corrige la réponse de l'élève à la question ci-dessous en la comparant au corrigé de référence. " +
       "Sois encourageant mais exigeant et précis. Réponds uniquement en JSON : " +
@@ -153,6 +180,7 @@ export async function expliquer({ niveau, matiere, chapitre, cours, question }) 
   return appeler({
     systeme: PROF(niveau, matiere),
     temperature: 0.5,
+    usage: "question",
     texte:
       `L'élève révise le chapitre « ${chapitre} » et pose cette question :\n<<<\n${question.slice(0, 2000)}\n>>>\n` +
       "Réponds de façon claire et concise (maximum 250 mots), avec un exemple si utile. " +

@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <!-- Administration de Revizz, pour les parents (aussi depuis l'iPhone) : tableau de bord, progression des élèves,
+       codes d'invitation, erreurs. Réservée au détenteur de la clé d'administration (secret Cloudflare ADMIN_KEY). -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#7048e8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Admin Revizz">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <title>Administration – Revizz</title>
+  <style>
+    :root { --accent: #7048e8; --vert: #2f9e44; --rouge: #e03131; --orange: #e8890c; --fond: #f2f2f7; --carte: #fff; --texte: #111; --doux: #6b6b73; --bord: #e3e3e8; }
+    @media (prefers-color-scheme: dark) { :root { --accent: #9775fa; --fond: #000; --carte: #1c1c1e; --texte: #f2f2f2; --doux: #9a9aa2; --bord: #2c2c30; } }
+    body { margin: 0; background: var(--fond); color: var(--texte); font: 17px -apple-system, system-ui, sans-serif; -webkit-text-size-adjust: 100%; }
+    main { max-width: 680px; margin: 0 auto; padding: calc(12px + env(safe-area-inset-top)) 16px calc(90px + env(safe-area-inset-bottom)); }
+    h1 { font-size: 26px; margin: 8px 4px 12px; display: flex; justify-content: space-between; align-items: center; }
+    h2 { font-size: 14px; text-transform: uppercase; color: var(--doux); margin: 22px 4px 8px; font-weight: 600; }
+    .carte { background: var(--carte); border-radius: 14px; padding: 14px; margin-bottom: 10px; }
+    input { font: inherit; color: var(--texte); background: var(--fond); border: 1px solid var(--bord); border-radius: 10px; padding: 11px; width: 100%; box-sizing: border-box; }
+    button { font: inherit; font-weight: 600; border: 0; border-radius: 10px; padding: 11px 14px; background: var(--accent); color: #fff; cursor: pointer; }
+    button.clair { background: var(--carte); color: var(--accent); } button.danger { background: none; color: var(--rouge); padding: 6px 8px; }
+    button.petit { padding: 6px 10px; font-size: 14px; }
+    .btns { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; } .btns button { flex: 1; }
+    .code { font: 600 26px ui-monospace, Menlo, monospace; letter-spacing: 1px; text-align: center; margin: 6px 0; user-select: all; }
+    .ligne { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-top: 1px solid var(--bord); }
+    .ligne:first-child { border-top: 0; padding-top: 0; } .ligne:last-child { padding-bottom: 0; } .ligne .corps { flex: 1; min-width: 0; }
+    .coupe { overflow-wrap: anywhere; }
+    .petit { font-size: 13px; color: var(--doux); } .err { color: var(--rouge); } .ok { color: var(--vert); } .att { color: var(--orange); }
+    .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; } .stats .carte { margin: 0; }
+    .gros { font-size: 28px; font-weight: 700; } .nb { font-weight: 700; min-width: 34px; text-align: right; }
+    .barres { display: flex; align-items: flex-end; gap: 4px; height: 90px; }
+    .barres div { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; }
+    .barres i { display: block; width: 100%; background: var(--accent); border-radius: 4px 4px 0 0; min-height: 2px; }
+    .barres span { font-size: 10px; color: var(--doux); margin-top: 3px; }
+    .jauge { height: 6px; background: var(--bord); border-radius: 3px; overflow: hidden; margin-top: 4px; } .jauge i { display: block; height: 100%; background: var(--vert); }
+    .eleve .stats { margin-top: 10px; } .eleve h3 { margin: 0 0 4px; font-size: 20px; } .eleve .avatar { font-size: 26px; margin-right: 6px; }
+    details { border-top: 1px solid var(--bord); padding: 8px 0; } details:last-child { padding-bottom: 0; }
+    summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 8px; } summary::-webkit-details-marker { display: none; }
+    summary::before { content: "›"; color: var(--doux); margin-right: 6px; display: inline-block; transition: transform .15s; } details[open] summary::before { transform: rotate(90deg); }
+    summary .titre { flex: 1; }
+    .chap { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; padding: 5px 0 5px 16px; }
+    nav { position: fixed; left: 0; right: 0; bottom: 0; display: flex; justify-content: center; background: color-mix(in srgb, var(--carte) 92%, transparent);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-top: 1px solid var(--bord); padding: 6px 4px calc(6px + env(safe-area-inset-bottom)); }
+    nav button { flex: 1; max-width: 120px; background: none; color: var(--doux); font-size: 11px; font-weight: 500; padding: 4px; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+    nav button b { font-size: 21px; font-weight: 400; } nav button.on { color: var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <div id="entree" hidden>
+    <h1>🎓 Administration Revizz</h1>
+    <div class="carte">
+      <input type="password" id="cle" placeholder="Clé d'administration" autocomplete="current-password">
+      <div class="btns"><button id="entrer">Entrer</button></div>
+      <div class="petit err" id="msgEntree"></div>
+    </div>
+  </div>
+  <div id="vue"></div>
+</main>
+<nav id="onglets" hidden>
+  <button data-onglet="tableau"><b>📊</b>Tableau</button>
+  <button data-onglet="eleves"><b>🧑‍🎓</b>Élèves</button>
+  <button data-onglet="codes"><b>🎟️</b>Codes</button>
+  <button data-onglet="erreurs"><b>⚠️</b>Erreurs</button>
+</nav>
+<script type="module">
+import { NIVEAUX } from "./content/catalogue.js";
+
+const SITE = location.origin, $ = (s) => document.querySelector(s), vue = $("#vue");
+// Lien d'installation « admin#cle=… » : la clé est gardée sur cet appareil, puis retirée de l'adresse
+const duLien = new URLSearchParams(location.hash.slice(1)).get("cle");
+if (duLien) { localStorage.setItem("revizz.admin", duLien); history.replaceState(null, "", location.pathname); }
+const cle = () => localStorage.getItem("revizz.admin") ?? "";
+
+async function appel(action, donnees = {}) {
+  const r = await fetch("/api/admin", { method: "POST", headers: { "Content-Type": "application/json", "x-admin": cle() }, body: JSON.stringify({ action, ...donnees }) });
+  const d = await r.json().catch(() => ({}));
+  if (r.status === 403) { localStorage.removeItem("revizz.admin"); afficher(); $("#msgEntree").textContent = "Clé d'administration incorrecte"; throw new Error("Clé d'administration incorrecte"); }
+  if (!r.ok) throw new Error(d.error || "Service indisponible, réessaie");
+  return d;
+}
+
+/** Élément HTML ; le texte (prénoms, noms des codes, messages) est toujours inséré comme texte, jamais comme HTML. */
+function h(tag, cls, ...enfants) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  for (const c of enfants.flat()) if (c != null && c !== false) e.append(c instanceof Node ? c : String(c));
+  return e;
+}
+const carte = (...c) => h("div", "carte", ...c), titre = (t) => h("h2", "", t), vide = (t) => h("div", "petit", t);
+const le = (d) => d ? new Date(d).toLocaleString("fr-FR", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "";
+const jourCourt = (j) => j ? new Date(j + "T12:00:00Z").toLocaleDateString("fr-FR", { day: "numeric", month: "short" }) : "";
+const nb = (n) => new Intl.NumberFormat("fr-FR").format(n ?? 0);
+const duree = (ms) => { const m = Math.round(ms / 60000); return m < 60 ? `${m} min` : `${Math.floor(m / 60)} h ${String(m % 60).padStart(2, "0")}`; };
+const ilYa = (t) => {
+  if (!t) return "jamais";
+  const j = Math.floor((Date.now() - t) / 86400_000);
+  return j <= 0 ? "aujourd'hui" : j === 1 ? "hier" : `il y a ${j} jours`;
+};
+const regions = new Intl.DisplayNames(["fr"], { type: "region" });
+const pays = (c) => /^[A-Z]{2}$/.test(c ?? "") && c !== "XX" ? `${String.fromCodePoint(...[...c].map((x) => 0x1F1A5 + x.charCodeAt(0)))} ${regions.of(c)}` : "";
+const liste = (items, faire, aucun = "Aucun") => carte(...(items.length ? items.map(faire) : [vide(aucun)]));
+const ligne = (corps, cote) => h("div", "ligne", h("div", "corps", ...[corps].flat()), cote);
+const pct = (a, b) => b ? Math.round((100 * a) / b) : 0;
+const jauge = (p) => { const j = h("div", "jauge", h("i", "")); j.firstChild.style.width = `${p}%`; return j; };
+const nomMatiere = (niv, id) => NIVEAUX[niv]?.matieres.find((m) => m.id === id) ?? { nom: id, icone: "📘" };
+
+// ---------- Tableau de bord ----------
+
+// Ordre de grandeur seulement (tarif Gemini Flash-Lite, en dollars par million de jetons) : le coût réel est sur Google AI Studio
+const PRIX_ENTREE = 0.10, PRIX_SORTIE = 0.40;
+
+async function tableau() {
+  const [d, g] = await Promise.all([appel("tableau"), appel("gemini").catch(() => null)]);
+  const auj = new Date().toISOString().slice(0, 10), jours = [];
+  for (let i = 13; i >= 0; i--) {
+    const j = new Date(Date.now() - i * 86400_000).toISOString().slice(0, 10);
+    jours.push({ j, n: d.jours.find((x) => x.jour === j)?.appareils ?? 0, ia: d.iaJours.find((x) => x.jour === j)?.appels ?? 0 });
+  }
+  const appels = d.ia.reduce((s, a) => s + a.appels, 0);
+  const entree = d.ia.reduce((s, a) => s + (a.jetons_entree ?? 0), 0), sortie = d.ia.reduce((s, a) => s + (a.jetons_sortie ?? 0), 0);
+  const cout = (entree * PRIX_ENTREE + sortie * PRIX_SORTIE) / 1e6;
+  const stat = (gros, texte, cls = "") => carte(h("div", `gros ${cls}`, gros), h("div", "petit", texte));
+  const barres = (cle) => {
+    const max = Math.max(1, ...jours.map((x) => x[cle]));
+    const b = h("div", "barres", jours.map((x) => h("div", "", h("i", ""), h("span", "", x.j === auj ? "auj." : x.j.slice(8)))));
+    b.querySelectorAll("i").forEach((el, i) => { el.style.height = `${(jours[i][cle] / max) * 100}%`; el.title = jours[i][cle]; });
+    return carte(b);
+  };
+  const USAGES = { exercices: "exercices créés", correction: "rédactions corrigées", question: "questions" };
+  vue.replaceChildren(
+    h("h1", "", "Tableau de bord", h("button", "clair petit", "↻")),
+    h("div", "stats",
+      stat(jours.at(-1).n, "appareils aujourd'hui"),
+      stat(d.appareils.filter((p) => p.dernier >= jours[7].j).length, "appareils sur 7 jours"),
+      stat(nb(appels), "demandes à l'IA (30 j)"),
+      stat(d.erreurs7, "erreurs sur 7 jours", d.erreurs7 ? "att" : "ok")),
+    titre("Appareils par jour (14 jours)"), barres("n"),
+    titre("Demandes à l'IA par jour (14 jours)"), barres("ia"),
+    titre("IA par élève (30 jours)"),
+    liste(d.ia, (a) => ligne([h("div", "", a.eleve || a.qui || "Inconnu"),
+        h("div", "petit", [a.qui && a.eleve ? `code « ${a.qui} »` : "", (a.usages ?? "").split(",").filter((u) => USAGES[u]).map((u) => USAGES[u]).join(", "),
+          `${nb((a.jetons_entree ?? 0) + (a.jetons_sortie ?? 0))} jetons`, a.echecs ? `${a.echecs} échec(s)` : ""].filter(Boolean).join(" · "))],
+      h("div", "nb", nb(a.appels))), "Aucune demande"),
+    h("div", "petit", appels ? `Coût estimé sur 30 jours : ${cout < 0.01 ? "moins d'un centime" : `environ ${cout.toLocaleString("fr-FR", { style: "currency", currency: "USD" })}`} (ordre de grandeur ; le coût réel est sur Google AI Studio, rubrique Facturation).` : ""),
+    titre("Clé Gemini"),
+    carte(g ? h("div", g.ok ? "ok" : "err", !g.cle ? "✗ Clé pas encore enregistrée chez Cloudflare" : g.ok ? `✓ La clé répond (${(g.ms / 1000).toFixed(1)} s)` : `✗ La clé ne répond pas (erreur ${g.statut})`) : vide("Vérification impossible")),
+    titre("Appareils"),
+    liste(d.appareils, (p) => ligne([h("div", "", p.nom), h("div", "petit", [p.plateforme, pays(p.geo)].filter(Boolean).join(" · "))],
+      h("div", "petit", `${p.jours} jour${p.jours > 1 ? "s" : ""}`, h("br"), `vu le ${jourCourt(p.dernier)}`)), "Aucune visite pour l'instant"),
+    h("div", "petit", "« Sans code » : appareil sans code d'invitation (pas d'IA, ou sa propre clé). Les noms viennent des codes d'invitation."));
+  vue.querySelector("h1 button").onclick = () => ouvrir("tableau");
+}
+
+// ---------- Élèves ----------
+
+async function eleves() {
+  const tous = await appel("eleves");
+  const semaine = Date.now() - 7 * 86400_000;
+  const fiche = (el) => {
+    const s7 = el.seances.filter((s) => s.debut >= semaine);
+    const temps7 = s7.reduce((t, s) => t + Math.max(0, s.fin - s.debut), 0), ex7 = s7.reduce((t, s) => t + (s.exercices || 0), 0);
+    const derniere = Math.max(0, ...el.seances.map((s) => s.fin), ...Object.values(el.progression).map((c) => c.d || 0));
+    // Chapitres regroupés par matière (clés « niveau/matière/chapitre »)
+    const matieres = new Map();
+    for (const [k, c] of Object.entries(el.progression)) {
+      const [niv, mat] = k.split("/");
+      const cle = `${niv}/${mat}`;
+      if (!matieres.has(cle)) matieres.set(cle, { niv, mat, chapitres: [], f: 0, r: 0, d: 0 });
+      const m = matieres.get(cle);
+      m.chapitres.push(c); m.f += c.f; m.r += c.r; m.d = Math.max(m.d, c.d || 0);
+    }
+    const blocs = [...matieres.values()].sort((a, b) => b.d - a.d).map((m) => {
+      const { nom, icone } = nomMatiere(m.niv, m.mat);
+      return h("details", "",
+        h("summary", "", h("span", "titre", `${icone} ${nom}${m.niv !== el.niveau ? ` (${m.niv})` : ""}`),
+          h("span", "petit", `${m.chapitres.length} chap. · ${m.f ? `${m.r}/${m.f} réussis` : "cours lus"}`)),
+        m.f ? jauge(pct(m.r, m.f)) : null,
+        m.chapitres.sort((a, b) => (b.d || 0) - (a.d || 0)).map((c) => h("div", "chap",
+          h("span", "", c.t || "Chapitre"),
+          h("span", "petit", `${c.f ? `${c.r}/${c.f} ✓` : "lu"} · ${ilYa(c.d)}`))));
+    });
+    const oublier = h("button", "danger petit", "Retirer de la liste");
+    oublier.onclick = async () => {
+      if (!confirm(`Retirer ${el.prenom} de la liste ? (la progression reste sur son appareil et réapparaîtra à sa prochaine utilisation)`)) return;
+      await appel("oublier-eleve", { appareil: el.appareil, eleve: el.eleve }).catch((e) => alert(e.message));
+      ouvrir("eleves");
+    };
+    return h("div", "carte eleve",
+      h("h3", "", h("span", "avatar", el.avatar), `${el.prenom} · ${NIVEAUX[el.niveau]?.long ?? el.niveau}`),
+      h("div", "petit", `Dernière activité : ${derniere ? le(derniere) : "aucune"} · appareil « ${el.qui || "?"} »`),
+      h("div", "stats",
+        carte(h("div", "gros", duree(temps7)), h("div", "petit", "de révision sur 7 jours")),
+        carte(h("div", "gros", nb(ex7)), h("div", "petit", "exercices sur 7 jours"))),
+      titre("Dernières séances"),
+      el.seances.length ? h("div", "", el.seances.slice(0, 8).map((s) => h("div", "chap",
+        h("span", "", le(s.debut)), h("span", "petit", `${duree(Math.max(0, s.fin - s.debut))}${s.exercices ? ` · ${s.exercices} exercice(s)` : ""}`)))) : vide("Aucune séance"),
+      titre("Progression par matière"),
+      blocs.length ? h("div", "", blocs) : vide("Pas encore de chapitre ouvert"),
+      h("div", "btns", oublier));
+  };
+  vue.replaceChildren(h("h1", "", "Élèves", h("button", "clair petit", "↻")),
+    ...(tous.length ? tous.map(fiche) : [carte(vide("Aucun élève pour l'instant. Les élèves apparaissent ici dès qu'ils utilisent Revizz sur un appareil activé avec un code d'invitation."))]),
+    h("p", "petit", "Mis à jour par l'appli au plus une minute après chaque exercice et à chaque fermeture. « Réussis » : exercices réussis la dernière fois qu'ils ont été faits. Une séance se termine après 30 minutes sans activité."));
+  vue.querySelector("h1 button").onclick = () => ouvrir("eleves");
+}
+
+// ---------- Codes d'invitation ----------
+
+async function codes() {
+  const resultat = h("div", "");
+  const nom = h("input", ""); nom.placeholder = "Pour qui ? (ex. : iPad de Léa)"; nom.autocomplete = "off";
+  const creer = h("button", "", "Créer un code");
+  creer.onclick = async () => {
+    const n = nom.value.trim();
+    if (!n) { nom.focus(); return; }
+    resultat.replaceChildren(vide("Création…"));
+    try {
+      const { code } = await appel("nouveau", { nom: n });
+      const lien = `${SITE}/i/${code.slice(4).replace("-", "")}`;
+      const texte = `Voici ton accès à l'IA de Revizz : ouvre ce lien sur ton appareil puis touche « Activer l'IA » : ${lien}\nIl ne fonctionne qu'une fois. Code : ${code}`;
+      const envoyer = h("button", "", "Envoyer…"), copier = h("button", "clair", "Copier le lien");
+      envoyer.onclick = () => navigator.share ? navigator.share({ text: texte }).catch(() => {}) : navigator.clipboard.writeText(texte).then(() => (envoyer.textContent = "Message copié ✓"));
+      copier.onclick = () => navigator.clipboard.writeText(lien).then(() => (copier.textContent = "Lien copié ✓"));
+      resultat.replaceChildren(h("div", "petit ok", `Code pour ${n} :`), h("div", "code", code), h("div", "petit coupe", lien), h("div", "btns", envoyer, copier));
+      nom.value = "";
+      remplir();
+    } catch (e) { resultat.replaceChildren(h("div", "petit err", e.message)); }
+  };
+  const retirer = (qui, c) => {
+    const b = h("button", "danger", "Retirer");
+    b.onclick = async () => {
+      if (!confirm(`Retirer l'accès « ${qui} » ? L'IA sera coupée aussitôt sur cet appareil.`)) return;
+      await appel("retirer", { cle: c }).catch((e) => alert(e.message));
+      remplir();
+    };
+    return b;
+  };
+  const listes = h("div", "", vide("Chargement…"));
+  const remplir = () => appel("codes").then(({ invitations, passes }) => listes.replaceChildren(
+    titre("Appareils qui ont l'IA"),
+    liste(passes, (p) => ligne([h("div", "", p.nom), h("div", "petit", `code ${p.code} utilisé le ${le(p.utilise)}`)], retirer(p.nom, p.repere)), "Aucun appareil"),
+    titre("Codes pas encore utilisés"),
+    liste(invitations, (i) => ligne([h("div", "", i.nom), h("div", "petit", `${i.cle.slice(7)} · créé le ${jourCourt(i.cree)}`)], retirer(i.nom, i.cle.slice(7))), "Aucun"),
+  )).catch((e) => listes.replaceChildren(vide(e.message)));
+  remplir();
+  const sortir = h("button", "clair", "Oublier la clé d'administration sur cet appareil");
+  sortir.onclick = () => { localStorage.removeItem("revizz.admin"); afficher(); };
+  vue.replaceChildren(h("h1", "", "Codes d'invitation"), carte(nom, h("div", "btns", creer), resultat), listes,
+    h("p", "petit", "Un code par appareil (un même appareil sert à tous les élèves qui ont un profil dessus). Chaque code ne sert qu'une fois et expire au bout de 30 jours s'il n'est pas utilisé. « Retirer » coupe aussitôt l'IA sur l'appareil."),
+    h("div", "btns", sortir));
+}
+
+// ---------- Erreurs ----------
+
+async function erreurs() {
+  const toutes = await appel("erreurs");
+  const groupes = new Map();
+  for (const e of toutes) {
+    const k = `${e.genre}|${e.message}`;
+    const g = groupes.get(k) ?? { ...e, n: 0, qui: new Set(), ecrans: new Set() };
+    g.n++; g.qui.add(e.qui || `sans code · ${(e.appareil ?? "").slice(0, 4)}`); g.ecrans.add(e.ecran);
+    groupes.set(k, g);
+  }
+  const GENRES = { "affichée": "Message affiché", plantage: "Plantage" };
+  vue.replaceChildren(h("h1", "", "Erreurs"),
+    liste([...groupes.values()].sort((a, b) => b.n - a.n), (g) => ligne([h("div", "coupe", g.message),
+      h("div", "petit", `${GENRES[g.genre] ?? g.genre} · écran ${[...g.ecrans].join(", ")} · ${[...g.qui].slice(0, 4).join(", ")} · dernière : ${le(g.le)}`)],
+      h("div", "nb", g.n)), "Aucune erreur 🎉"),
+    h("p", "petit", "Erreurs des 90 derniers jours (300 au plus). « Message affiché » : ce que l'élève a vu à l'écran (ex. : l'IA ne répond pas) ; « Plantage » : erreur du programme."));
+}
+
+// ---------- Navigation ----------
+
+const PAGES = { tableau, eleves, codes, erreurs };
+async function ouvrir(onglet) {
+  sessionStorage.setItem("revizz.onglet", onglet);
+  document.querySelectorAll("nav button").forEach((b) => b.classList.toggle("on", b.dataset.onglet === onglet));
+  vue.replaceChildren(vide("Chargement…"));
+  try { await PAGES[onglet](); } catch (e) { if (cle()) vue.replaceChildren(h("h1", "", "Erreur"), carte(h("div", "err", e.message))); }
+  scrollTo(0, 0);
+}
+document.querySelectorAll("nav button").forEach((b) => (b.onclick = () => ouvrir(b.dataset.onglet)));
+$("#entrer").onclick = () => { localStorage.setItem("revizz.admin", $("#cle").value.trim()); $("#cle").value = ""; afficher(); };
+
+function afficher() {
+  $("#entree").hidden = !!cle();
+  $("#onglets").hidden = !cle();
+  if (!cle()) { vue.replaceChildren(); return; }
+  $("#msgEntree").textContent = "";
+  const voulu = location.hash.slice(1);
+  ouvrir(PAGES[voulu] ? voulu : sessionStorage.getItem("revizz.onglet") || "tableau");
+}
+afficher();
+</script>
+</body>
+</html>

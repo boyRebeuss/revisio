@@ -1,0 +1,30 @@
+# Revizz sur Cloudflare Workers : le site (fichiers de ce dossier, sauf ceux de .assetsignore) + relais de l'IA,
+# codes d'invitation et journal (src/worker.js). Publication : tools/publier-cloudflare.sh
+name = "revizz"
+main = "src/worker.js"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+run_worker_first = ["/api/*", "/i/*"]
+
+# Limite de débit par adresse IP (protège la clé Gemini d'un usage abusif)
+[[ratelimits]]
+name = "LIMITER"
+namespace_id = "1002"
+
+  [ratelimits.simple]
+  limit = 300
+  period = 60
+
+# Codes d'invitation à usage unique (« invite:CODE ») et laissez-passer des appareils (« pass:… ») : voir src/worker.js
+[[kv_namespaces]]
+binding = "CODES"
+id = "8463ec3918334151b17e908905bdf7bd"
+
+# Journal (visites, erreurs, demandes à l'IA, progression des élèves invités) lu par la page /admin : voir tools/schema.sql
+[[d1_databases]]
+binding = "DB"
+database_name = "revizz-journal"
+database_id = "308eb3b0-c369-413b-a0b2-5ff6ffd8be48"

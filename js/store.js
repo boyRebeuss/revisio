@@ -83,6 +83,7 @@ export function marquerVu(profilId, cle, titre) {
 export function noterExercice(profilId, cle, titre, n, ok) {
   noterActivite(true);
   majChapitre(profilId, cle, (c) => ({ ...c, titre, ex: { ...c.ex, [n]: { ok, d: Date.now() } } }));
+  dispatchEvent(new Event("revisio-progression")); // envoyée aux parents si l'appareil est invité (journal.js)
 }
 
 export function resumeChapitre(prog, cle, total) {
@@ -151,4 +152,7 @@ export const parents = {
 export const reglages = {
   cleGemini: () => lire("gemini", ""),
   setCleGemini: (k) => (k ? ecrire("gemini", k) : localStorage.removeItem(P + "gemini")),
+  // Laissez-passer de l'IA obtenu avec un code d'invitation : { pass, nom }
+  acces: () => lire("acces", null),
+  setAcces: (a) => (a ? ecrire("acces", a) : localStorage.removeItem(P + "acces")),
 };

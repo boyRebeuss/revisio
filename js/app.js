@@ -4,7 +4,8 @@ import { bloc } from "./md.js";
 import * as S from "./store.js";
 import * as IA from "./gemini.js";
 import { carteExercice, exerciceValide } from "./exercices.js";
-import * as F from "./famille.js";
+import * as F from "./invitation.js";
+import * as J from "./journal.js";
 import { VERSION, CHIFFRES } from "./version.js";
 
 const app = document.getElementById("app");
@@ -55,13 +56,14 @@ function erreur(msg) {
   page(entete({ titre: "Oups", retour: "#/" }), h("main", {}, h("p", { class: "erreur" }, msg)));
 }
 
-// ---------- Code famille ----------
+// ---------- Code d'invitation ----------
 
-// Carte de déverrouillage de l'IA. apres() est appelé quand le code est bon.
+// Carte d'activation de l'IA (code reçu des parents, ou lien /i/… qui le préremplit). apres() est appelé quand c'est fait.
 function carteCode({ apres, refusable = false }) {
-  const champ = h("input", { class: "champ", type: "password", autocomplete: "off", autocapitalize: "off", spellcheck: "false", placeholder: "Code famille" });
+  const champ = h("input", { class: "champ", type: "text", autocomplete: "off", autocapitalize: "characters", spellcheck: "false", placeholder: "RVZ-XXXX-XXXX" });
+  champ.value = F.codeRecu();
   const msg = h("p", { class: "erreur" });
-  const btn = h("button", { class: "btn ia plein", type: "submit" }, "Déverrouiller");
+  const btn = h("button", { class: "btn ia plein", type: "submit" }, "Activer l'IA");
   return h("form", {
     class: "carte ia-code",
     onsubmit: async (ev) => {
@@ -70,16 +72,18 @@ function carteCode({ apres, refusable = false }) {
       btn.disabled = true;
       btn.textContent = "Vérification…";
       msg.textContent = "";
-      const ok = await F.deverrouiller(champ.value);
-      if (ok) { IA.oublierModeles(); apres(); return; }
+      const erreurCode = await F.activer(champ.value);
+      if (!erreurCode) { IA.oublierModeles(); apres(); return; }
       btn.disabled = false;
-      btn.textContent = "Déverrouiller";
-      msg.textContent = "Code incorrect. Demande-le à tes parents.";
+      btn.textContent = "Activer l'IA";
+      msg.textContent = erreurCode;
       champ.select();
     },
   },
-    h("h2", {}, "🔒 Activer l'IA"),
-    h("p", {}, "Tape le code famille une seule fois sur cet appareil : l'IA pourra ensuite créer des exercices, corriger tes rédactions et répondre à tes questions."),
+    h("h2", {}, "✨ Activer l'IA"),
+    h("p", {}, F.codeRecu()
+      ? "Tes parents t'ont envoyé un code : touche « Activer l'IA ». L'IA pourra ensuite créer des exercices, corriger tes rédactions et répondre à tes questions."
+      : "Tape le code d'invitation reçu de tes parents (il ne sert qu'une fois, sur cet appareil) : l'IA pourra ensuite créer des exercices, corriger tes rédactions et répondre à tes questions."),
     h("div", { class: "saisie" }, champ, btn),
     msg,
     refusable ? h("button", { class: "btn lien", type: "button", onclick: () => { F.continuerSansIA(); apres(); } }, "Plus tard (continuer sans l'IA)") : null
@@ -341,7 +345,7 @@ function zoneExercices({ p, c, cle, ctx, seulementRates, idM, suivant }) {
   const zoneIA = h("div", { class: "carte ia-zone" });
   const majIA = () => {
     zoneIA.replaceChildren();
-    if (!IA.disponible() && F.cleIntegree()) {
+    if (!IA.disponible() && F.relais) {
       zoneIA.append(carteCode({ apres: router }));
       return;
     }
@@ -383,7 +387,7 @@ function zoneExercices({ p, c, cle, ctx, seulementRates, idM, suivant }) {
 }
 
 function zoneQuestion({ ctx, c }) {
-  if (!IA.disponible() && F.cleIntegree()) return carteCode({ apres: router });
+  if (!IA.disponible() && F.relais) return carteCode({ apres: router });
   if (!IA.disponible()) {
     return h("div", { class: "carte" },
       h("p", {}, "✨ Pose une question sur ce chapitre et l'IA t'explique autrement."),
@@ -497,13 +501,22 @@ function vueReglages() {
       ),
       h("section", { class: "carte" },
         h("h2", {}, "✨ Intelligence artificielle (facultatif)"),
-        h("p", {}, "Avec une clé Gemini gratuite, l'appli peut créer de nouveaux exercices, corriger les rédactions et répondre aux questions. Sans clé, tous les cours et exercices corrigés restent disponibles."),
-        F.cleIntegree()
-          ? (S.reglages.cleGemini()
-              ? h("p", { class: "succes" }, "✅ L'IA est activée sur cet appareil.")
+        h("p", {}, "Avec l'IA, l'appli peut créer de nouveaux exercices, corriger les rédactions et répondre aux questions. Sans IA, tous les cours et exercices corrigés restent disponibles."),
+        F.relais && !S.reglages.cleGemini()
+          ? (S.reglages.acces()
+              ? h("div", {},
+                  h("p", { class: "succes" }, "✅ L'IA est activée sur cet appareil (code d'invitation des parents)."),
+                  h("button", {
+                    class: "btn lien",
+                    onclick: (ev) => {
+                      const b = ev.currentTarget;
+                      if (b.dataset.sur) { S.reglages.setAcces(null); IA.oublierModeles(); vueReglages(); }
+                      else { b.dataset.sur = "1"; b.textContent = "Confirmer : il faudra un nouveau code pour la réactiver"; }
+                    },
+                  }, "Désactiver l'IA sur cet appareil"))
               : carteCode({ apres: vueReglages }))
           : null,
-        F.cleIntegree() ? h("h3", {}, "Ou utiliser une autre clé (parents)") : null,
+        h("h3", {}, F.relais ? "Ou utiliser sa propre clé Gemini (parents)" : "Utiliser une clé Gemini (parents)"),
         h("ol", {},
           h("li", {}, "Va sur ", h("a", { href: "https://aistudio.google.com/apikey", target: "_blank", rel: "noopener noreferrer" }, "aistudio.google.com/apikey"), " avec un compte Google adulte."),
           h("li", {}, "Clique « Create API key », copie la clé."),
@@ -514,7 +527,7 @@ function vueReglages() {
         S.reglages.cleGemini()
           ? h("button", { class: "btn lien", onclick: () => { S.reglages.setCleGemini(""); IA.oublierModeles(); vueReglages(); } }, "Supprimer la clé de cet appareil")
           : null,
-        h("p", { class: "petit" }, "Confidentialité : seuls le chapitre étudié et les réponses ou questions écrites par l'élève sont envoyés à Google (jamais le prénom). Avec une clé gratuite, Google peut utiliser ces échanges pour améliorer ses services : ne pas y écrire d'informations personnelles.")
+        h("p", { class: "petit" }, "Confidentialité : seuls le chapitre étudié et les réponses ou questions écrites par l'élève sont envoyés à Google (jamais le prénom). Avec une clé gratuite, Google peut utiliser ces échanges pour améliorer ses services : ne pas y écrire d'informations personnelles. La clé utilisée avec le code d'invitation est une clé payante : Google ne s'en sert pas pour entraîner ses modèles.")
       ),
       h("section", { class: "carte" },
         h("h2", {}, "👨‍👩‍👧 Espace parents"),
@@ -566,7 +579,10 @@ function vueAPropos() {
         h("h2", {}, "🔐 Données et vie privée"),
         h("ul", {},
           h("li", {}, "Pas de compte, pas de publicité, pas de traceur."),
-          h("li", {}, "Les profils, la progression et l'historique des connexions restent uniquement sur cet appareil."),
+          F.relais && S.reglages.acces()
+            ? h("li", {}, "Cet appareil est invité par les parents : la progression et les séances de révision de chaque élève (chapitres, exercices réussis, durée) leur sont envoyées. Jamais les réponses écrites ni les questions posées à l'IA.")
+            : h("li", {}, "Les profils, la progression et l'historique des connexions restent uniquement sur cet appareil."),
+          F.relais ? h("li", {}, "Pour améliorer l'appli, le site note une visite par jour et les messages d'erreur affichés, sous un identifiant anonyme tiré au hasard.") : null,
           h("li", {}, "L'IA (Gemini, facultative) ne reçoit que le chapitre étudié et ce que l'élève écrit, jamais son prénom.")
         )
       ),
@@ -607,7 +623,7 @@ function formCodeParent({ changer = false } = {}) {
     },
   },
     h("h2", {}, changer ? "Changer le code parent" : "🔒 Créer le code parent"),
-    changer ? null : h("p", {}, "Ce code protège l'historique des connexions. Choisis-en un que les élèves ne connaissent pas (différent du code famille)."),
+    changer ? null : h("p", {}, "Ce code protège l'historique des connexions. Choisis-en un que les élèves ne connaissent pas."),
     c1, c2, msg, btn
   );
 }
@@ -758,6 +774,7 @@ function router() {
 
 window.addEventListener("hashchange", router);
 router();
+J.demarrer();
 
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState !== "visible") return;

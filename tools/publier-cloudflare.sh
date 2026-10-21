@@ -1,6 +1,7 @@
 #!/bin/zsh
 # Envoie la version enregistrée (dernier commit) sur Cloudflare : https://revizz.kaurio-app.workers.dev
-# À lancer depuis Web/, après version.sh et le commit. Connexion préalable : npx wrangler login
+# (site + relais de l'IA src/worker.js, réglages dans wrangler.toml). À lancer depuis Web/, après version.sh et le commit.
+# Connexion préalable : npx wrangler login
 set -e
 cd "${0:A:h}/.."
 if [[ -n "$(git status --porcelain)" ]]; then
@@ -9,7 +10,8 @@ if [[ -n "$(git status --porcelain)" ]]; then
 fi
 dossier=$(mktemp -d)
 trap 'rm -rf "$dossier"' EXIT
-mkdir "$dossier/site" && git archive HEAD | tar -x -C "$dossier/site"
-rm -f "$dossier/site/.gitignore" "$dossier/site/.nojekyll"
+git archive HEAD | tar -x -C "$dossier"
 cd "$dossier"
-npx --yes wrangler deploy --name revizz --assets site --compatibility-date 2026-10-01
+# Tables du journal (sans effet si elles existent déjà)
+npx --yes wrangler d1 execute revizz-journal --remote --file tools/schema.sql >/dev/null
+npx --yes wrangler deploy
