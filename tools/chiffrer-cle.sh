@@ -4,7 +4,7 @@
 set -u
 cd "${0:A:h}/.."
 demander() { # $1 = message
-  osascript -e "text returned of (display dialog \"$1\" default answer \"\" with hidden answer with title \"Révisio\" buttons {\"Annuler\", \"OK\"} default button \"OK\")" 2>/dev/null
+  osascript -e "text returned of (display dialog \"$1\" default answer \"\" with hidden answer with title \"Revizz\" buttons {\"Annuler\", \"OK\"} default button \"OK\")" 2>/dev/null
 }
 cle=$(demander "Colle la clé Gemini (Google AI Studio) :") || { print "Annulé."; exit 1; }
 cle=$(print -rn -- "$cle" | tr -d '[:space:]')

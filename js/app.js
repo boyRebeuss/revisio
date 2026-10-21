@@ -183,7 +183,7 @@ function vueAccueil() {
   const revoir = aRevoir(prog, p.niveau);
   page(
     entete({
-      titre: "Révisio",
+      titre: "Revizz",
       droite: h("div", { class: "droite" },
         h("a", { class: "chip", href: "#/profils", title: "Changer d'élève" }, `${p.avatar} ${p.prenom}`),
         h("a", { class: "icone-btn", href: "#/reglages", "aria-label": "Réglages" }, "⚙︎")
@@ -527,7 +527,7 @@ function vueReglages() {
         h("p", {}, "Android : dans Chrome, menu ⋮ → « Installer l'application »."),
         h("p", { class: "petit" }, "Les cours déjà ouverts restent disponibles hors connexion.")
       ),
-      h("a", { class: "carte lien-carte", href: "#/apropos" }, "ℹ️ À propos de Révisio", h("span", { class: "petit" }, ` — version du ${VERSION.date}`))
+      h("a", { class: "carte lien-carte", href: "#/apropos" }, "ℹ️ À propos de Revizz", h("span", { class: "petit" }, ` — version du ${VERSION.date}`))
     )
   );
 }
@@ -555,7 +555,7 @@ function vueAPropos() {
     entete({ titre: "À propos", retour: "#/reglages" }),
     h("main", {},
       h("section", { class: "carte" },
-        h("h2", {}, "🎓 Révisio"),
+        h("h2", {}, "🎓 Revizz"),
         h("p", {}, `Cours et exercices corrigés pour réviser la 6e, la 5e, la 3e et la 1re générale : ${nb} matières, environ ${CHIFFRES.chapitres} chapitres et ${CHIFFRES.exercices} exercices.`),
         h("p", {}, "Les contenus suivent les programmes officiels en vigueur à la rentrée 2026. Ils ont été rédigés et relus avec l'aide d'une IA : en cas de doute, la parole du professeur prime."),
         h("p", {}, `Version du ${VERSION.date} (${VERSION.empreinte})`),
@@ -706,7 +706,7 @@ let majDemandee = false;
 function proposerMaj(sw) {
   document.querySelector(".maj")?.remove();
   const bandeau = h("div", { class: "maj", role: "status" },
-    h("span", {}, "✨ Une nouvelle version de Révisio est disponible."),
+    h("span", {}, "✨ Une nouvelle version de Revizz est disponible."),
     h("span", { class: "maj-btns" },
       h("button", { class: "btn petit", onclick: () => bandeau.remove() }, "Plus tard"),
       h("button", {
