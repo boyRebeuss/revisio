@@ -1,6 +1,6 @@
 // Cache d'abord : l'appli reste dans la version installée jusqu'à ce que l'élève accepte
 // la mise à jour (bandeau « Nouvelle version »). VERSION est écrit par tools/version.sh.
-const VERSION = "c99bd94f";
+const VERSION = "6be652e2";
 const CACHE = "revisio-" + VERSION;
 const SOCLE = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",

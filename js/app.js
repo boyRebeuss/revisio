@@ -745,11 +745,20 @@ function tableauParents() {
     const matieres = new Map();
     for (const [k, c] of Object.entries(el.progression)) {
       const [niv, mat] = k.split("/");
-      const m = matieres.get(`${niv}/${mat}`) ?? { niv, mat, f: 0, r: 0, d: 0 };
+      const m = matieres.get(`${niv}/${mat}`) ?? { niv, mat, f: 0, r: 0, d: 0, chapitres: [] };
       m.f += c.f || 0; m.r += c.r || 0; m.d = Math.max(m.d, c.d || 0);
+      m.chapitres.push(c);
       matieres.set(`${niv}/${mat}`, m);
     }
-    const liste = [...matieres.values()].sort((a, b) => b.d - a.d).slice(0, 6);
+    const nomMat = (m) => {
+      const mat = trouverMatiere(m.niv, m.mat) ?? { nom: m.mat, icone: "📘" };
+      return `${mat.icone} ${mat.nom}${m.niv !== el.niveau ? ` (${NIVEAUX[m.niv]?.nom ?? m.niv})` : ""}`;
+    };
+    const resultat = (c) => (c.f ? `${c.r} / ${c.f} réussis` : "cours lu") + (c.d ? ` · ${quand(c.d).replace(/ à .*/, "")}` : "");
+    // Chapitres à revoir : des exercices ratés (la dernière fois qu'ils ont été faits), du plus récent au plus ancien
+    const aRevoir = [...matieres.values()].flatMap((m) => m.chapitres.filter((c) => c.f > c.r).map((c) => ({ ...c, m })))
+      .sort((a, b) => (b.d || 0) - (a.d || 0)).slice(0, 5);
+    const details = (titre, ...contenu) => h("details", { class: "detail-parents" }, h("summary", {}, titre), ...contenu);
     return h("div", { class: "fiche-enfant" },
       h("h3", {}, `${el.avatar || "🙂"} ${el.prenom}`, h("span", { class: "petit" }, ` · ${NIVEAUX[el.niveau]?.long ?? el.niveau}`)),
       h("div", { class: "chiffres" },
@@ -757,11 +766,25 @@ function tableauParents() {
         h("div", {}, h("strong", {}, String(ex7)), h("span", { class: "petit" }, `exercice${ex7 > 1 ? "s" : ""} cette semaine`))
       ),
       h("p", { class: "petit" }, derniere ? `Dernière révision : ${quand(derniere)}` : "Pas encore de révision."),
-      liste.length ? h("div", { class: "lignes" }, liste.map((m) => {
-        const mat = trouverMatiere(m.niv, m.mat) ?? { nom: m.mat, icone: "📘" };
-        return h("div", { class: "ligne" }, h("span", {}, `${mat.icone} ${mat.nom}`),
-          h("span", { class: "petit" }, m.f ? `${m.r} / ${m.f} exercices réussis` : "cours lus"));
-      })) : null
+      aRevoir.length ? h("div", { class: "a-revoir" },
+        h("div", {}, h("strong", {}, "🔁 À revoir")),
+        aRevoir.map((c) => h("div", { class: "ligne" },
+          h("span", {}, `${c.t || "Chapitre"}`, h("span", { class: "petit" }, ` · ${nomMat(c.m)}`)),
+          h("span", { class: "petit" }, `${c.f - c.r} raté${c.f - c.r > 1 ? "s" : ""} sur ${c.f}`)))
+      ) : null,
+      matieres.size ? h("div", { class: "lignes" }, [...matieres.values()].sort((a, b) => b.d - a.d).map((m) =>
+        details(
+          h("span", { class: "ligne" }, h("span", {}, nomMat(m)),
+            h("span", { class: "petit" }, `${m.chapitres.length} chap. · ${m.f ? `${m.r} / ${m.f} réussis` : "cours lus"}`)),
+          m.f ? h("div", { class: "jauge large" }, h("span", { style: { width: Math.round((100 * m.r) / m.f) + "%" } })) : null,
+          h("div", { class: "lignes" }, m.chapitres.sort((a, b) => (b.d || 0) - (a.d || 0)).map((c) =>
+            h("div", { class: "ligne" }, h("span", {}, c.t || "Chapitre"), h("span", { class: "petit" }, resultat(c)))))
+        ))) : null,
+      el.seances.length ? details(`🕒 Dernières séances (${Math.min(el.seances.length, 10)})`,
+        h("div", { class: "lignes" }, el.seances.slice(0, 10).map((s) => h("div", { class: "ligne" },
+          h("span", {}, quand(s.debut)),
+          h("span", { class: "petit" }, `${duree(Math.max(0, s.fin - s.debut))}${s.exercices ? ` · ${s.exercices} exercice${s.exercices > 1 ? "s" : ""}` : ""}`))))
+      ) : null
     );
   };
   const charger = () => F.appelParents(codeParents, { action: "appareils" }).then(({ appareils }) => remplacer(corps,

@@ -212,6 +212,16 @@ form.carte { display: grid; gap: 10px; }
 .chiffres strong { font-size: 1.3rem; }
 .ia-appareil { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; border-top: 1px solid var(--bord); padding-top: 12px; margin-top: 12px; }
 .souvenir { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+.detail-parents { border: 1px solid var(--bord); border-radius: 10px; padding: 8px 10px; }
+.detail-parents summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 6px; }
+.detail-parents summary > .ligne { flex: 1; }
+.detail-parents summary::-webkit-details-marker { display: none; }
+.detail-parents summary::after { content: "›"; color: var(--doux); font-size: 1.2rem; }
+.detail-parents[open] summary::after { transform: rotate(90deg); }
+.detail-parents[open] summary { margin-bottom: 8px; }
+.detail-parents > .lignes .ligne { border-top: 1px solid var(--bord); padding-top: 6px; }
+.detail-parents > .jauge { margin-bottom: 8px; }
+.a-revoir { background: color-mix(in srgb, var(--rouge) 8%, transparent); border-radius: 10px; padding: 10px; margin-bottom: 10px; display: grid; gap: 6px; }
 
 /* Chargement */
 .centre { display: grid; place-items: center; min-height: 60vh; }
