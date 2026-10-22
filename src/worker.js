@@ -1,6 +1,6 @@
 // Revizz sur Cloudflare : sert le site et relaie l'IA Gemini avec la clé des parents (secret GEMINI_KEY, jamais envoyée
-// au navigateur). L'IA est réservée aux appareils invités : un code d'invitation à usage unique (créé dans /admin) est
-// échangé contre un laissez-passer propre à l'appareil. Le journal (base D1, voir tools/schema.sql) alimente la page /admin.
+// au navigateur). L'IA est réservée aux appareils invités : un code d'invitation (créé dans /admin, réutilisable tant qu'il
+// n'est pas retiré) est échangé contre un laissez-passer propre à chaque appareil. Le journal (base D1, voir tools/schema.sql) alimente la page /admin.
 
 const INVITE = /^RVZ-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
 const PARENTS = /^PAR-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
@@ -27,16 +27,17 @@ async function invite(request, env) {
   return PASS.test(pass) && env.CODES ? await env.CODES.get(`pass:${pass}`, "json") : null;
 }
 
-/** Code d'invitation → laissez-passer de l'appareil ; le code est effacé (transmis à quelqu'un d'autre, il ne marche plus). */
+/** Code d'invitation → laissez-passer de l'appareil ; le code resservira jusqu'à ce qu'il soit retiré dans /admin. */
 async function activer(request, env) {
   const { code = "" } = await request.json().catch(() => ({}));
   // Accepte aussi le code tapé sans « RVZ- » ni tirets, en minuscules
   const c = canonique(code, "RVZ");
   const inv = INVITE.test(c) ? await env.CODES.get(`invite:${c}`, "json") : null;
-  if (!inv) return json({ error: "Code inconnu ou déjà utilisé. Demande un nouveau code à tes parents." }, 403);
-  await env.CODES.delete(`invite:${c}`);
+  if (!inv) return json({ error: "Code inconnu ou retiré. Demande un nouveau code à tes parents." }, 403);
+  // Réécrit sans date d'expiration (les codes créés avant le 22/10/2026 expiraient au bout de 30 jours)
+  await env.CODES.put(`invite:${c}`, JSON.stringify({ ...inv, appareils: (inv.appareils ?? 0) + 1 }));
   const pass = [...crypto.getRandomValues(new Uint8Array(16))].map((b) => b.toString(16).padStart(2, "0")).join("");
-  await env.CODES.put(`pass:${pass}`, JSON.stringify({ ...inv, code: c, utilise: maintenant() }));
+  await env.CODES.put(`pass:${pass}`, JSON.stringify({ nom: inv.nom, cree: inv.cree, code: c, utilise: maintenant() }));
   return json({ pass, nom: inv.nom });
 }
 
@@ -155,7 +156,7 @@ async function admin(request, env) {
   if (action === "nouveau") {
     if (!n) return json({ error: "Indique pour qui est le code" }, 400);
     const code = nouveauCode();
-    await env.CODES.put(`invite:${code}`, JSON.stringify({ nom: n, cree: maintenant().slice(0, 10) }), { expirationTtl: 30 * 86400 });
+    await env.CODES.put(`invite:${code}`, JSON.stringify({ nom: n, cree: maintenant().slice(0, 10) }));
     return json({ code });
   }
   if (action === "lien-parents") {
@@ -171,8 +172,10 @@ async function admin(request, env) {
   }
   if (action === "retirer") {
     const c = String(cle);
+    // Retirer un code d'invitation coupe aussi l'IA sur tous les appareils qui l'ont utilisé
     const tous = [...(await contenu(env, "invite:")), ...(await contenu(env, "pass:")), ...(await contenu(env, "parent:"))]
-      .filter((e) => e.cle === `invite:${c}` || e.cle === `parent:${c}` || (/^[0-9a-f]{8}$/.test(c) && e.cle.startsWith(`pass:${c}`)));
+      .filter((e) => e.cle === `invite:${c}` || e.cle === `parent:${c}` || (e.cle.startsWith("pass:") && e.code === c)
+        || (/^[0-9a-f]{8}$/.test(c) && e.cle.startsWith(`pass:${c}`)));
     await Promise.all(tous.map((e) => env.CODES.delete(e.cle)));
     return json({ retires: tous.length });
   }

@@ -83,7 +83,7 @@ function carteCode({ apres, refusable = false }) {
     h("h2", {}, "✨ Activer l'IA"),
     h("p", {}, F.codeRecu()
       ? "Tes parents t'ont envoyé un code : touche « Activer l'IA ». L'IA pourra ensuite créer des exercices, corriger tes rédactions et répondre à tes questions."
-      : "Tape le code d'invitation reçu de tes parents (il ne sert qu'une fois, sur cet appareil) : l'IA pourra ensuite créer des exercices, corriger tes rédactions et répondre à tes questions."),
+      : "Tape le code d'invitation reçu de tes parents (le même code peut servir sur plusieurs appareils) : l'IA pourra ensuite créer des exercices, corriger tes rédactions et répondre à tes questions."),
     h("div", { class: "saisie" }, champ, btn),
     msg,
     refusable ? h("button", { class: "btn lien", type: "button", onclick: () => { F.continuerSansIA(); apres(); } }, "Plus tard (continuer sans l'IA)") : null

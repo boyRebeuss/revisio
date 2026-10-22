@@ -1,4 +1,4 @@
-// IA avec la clé des parents, sur le site Cloudflare (relais src/worker.js) : un code d'invitation à usage unique
+// IA avec la clé des parents, sur le site Cloudflare (relais src/worker.js) : un code d'invitation (réutilisable tant que les parents ne l'ont pas retiré)
 // (créé dans la page /admin, envoyé en lien /i/…) est échangé contre un laissez-passer propre à cet appareil.
 import { reglages } from "./store.js";
 

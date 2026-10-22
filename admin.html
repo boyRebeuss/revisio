@@ -222,7 +222,7 @@ async function codes() {
     try {
       const { code } = await appel("nouveau", { nom: n });
       const lien = `${SITE}/i/${code.slice(4).replace("-", "")}`;
-      const texte = `Voici ton accès à l'IA de Revizz : ouvre ce lien sur ton appareil puis touche « Activer l'IA » : ${lien}\nIl ne fonctionne qu'une fois. Code : ${code}`;
+      const texte = `Voici ton accès à l'IA de Revizz : ouvre ce lien sur ton appareil puis touche « Activer l'IA » : ${lien}\nCode : ${code}`;
       const envoyer = h("button", "", "Envoyer…"), copier = h("button", "clair", "Copier le lien");
       envoyer.onclick = () => navigator.share ? navigator.share({ text: texte }).catch(() => {}) : navigator.clipboard.writeText(texte).then(() => (envoyer.textContent = "Message copié ✓"));
       copier.onclick = () => navigator.clipboard.writeText(lien).then(() => (copier.textContent = "Lien copié ✓"));
@@ -231,10 +231,11 @@ async function codes() {
       remplir();
     } catch (e) { resultat.replaceChildren(h("div", "petit err", e.message)); }
   };
-  const retirer = (qui, c) => {
+  const retirer = (qui, c, appareils = null) => {
     const b = h("button", "danger", "Retirer");
     b.onclick = async () => {
-      if (!confirm(`Retirer l'accès « ${qui} » ? L'IA sera coupée aussitôt sur cet appareil.`)) return;
+      const suite = appareils == null ? "L'IA sera coupée aussitôt sur cet appareil." : `Le code ne marchera plus${appareils ? ` et l'IA sera coupée aussitôt sur ${appareils > 1 ? `les ${appareils} appareils` : "l'appareil"} qui l'ont utilisé` : ""}.`;
+      if (!confirm(`Retirer « ${qui} » ? ${suite}`)) return;
       await appel("retirer", { cle: c }).catch((e) => alert(e.message));
       remplir();
     };
@@ -273,9 +274,12 @@ async function codes() {
   const remplir = () => appel("codes").then(({ invitations, passes, parents = [] }) => listes.replaceChildren(
     titre("Appareils qui ont l'IA"),
     liste(passes, (p) => ligne([h("div", "", p.nom), h("div", "petit", `code ${p.code} utilisé le ${le(p.utilise)}`)], retirer(p.nom, p.repere)), "Aucun appareil"),
-    titre("Codes pas encore utilisés"),
-    liste(invitations, (i) => ligne([h("div", "", i.nom), h("div", "petit", `${i.cle.slice(7)} · créé le ${jourCourt(i.cree)}`)], retirer(i.nom, i.cle.slice(7))), "Aucun"),
-    h("p", "petit", "Un code par appareil (un même appareil sert à tous les élèves qui ont un profil dessus). Chaque code ne sert qu'une fois et expire au bout de 30 jours s'il n'est pas utilisé. « Retirer » coupe aussitôt l'IA sur l'appareil."),
+    titre("Codes d'invitation"),
+    liste(invitations, (i) => {
+      const n = passes.filter((p) => p.code === i.cle.slice(7)).length;
+      return ligne([h("div", "", i.nom), h("div", "petit", `${i.cle.slice(7)} · créé le ${jourCourt(i.cree)} · ${n ? `${n} appareil${n > 1 ? "s" : ""}` : "pas encore utilisé"}`)], retirer(i.nom, i.cle.slice(7), n));
+    }, "Aucun"),
+    h("p", "petit", "Un code peut servir sur plusieurs appareils, tant que vous ne l'avez pas retiré (un même appareil sert à tous les élèves qui ont un profil dessus). « Retirer » un code le désactive et coupe aussitôt l'IA sur tous les appareils qui l'ont utilisé ; « Retirer » un appareil ne coupe que lui."),
     titre("Liens parents"),
     carte(nomP, h("div", "btns", creerP), resultatP),
     liste(parents, (p) => ligne([h("div", "", p.nom), h("div", "petit coupe", `${SITE}/p/${p.cle.slice(11).replace("-", "")} · créé le ${jourCourt(p.cree)}`)], retirerP(p.nom, p.cle.slice(7))), "Aucun lien parents"),
