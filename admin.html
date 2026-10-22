@@ -240,18 +240,51 @@ async function codes() {
     };
     return b;
   };
+  // Lien parents : ouvre l'Espace parents (historique des connexions) d'un appareil, sans code à créer sur l'appareil
+  const resultatP = h("div", "");
+  const nomP = h("input", ""); nomP.placeholder = "Pour qui ? (ex. : Papa, Maman)"; nomP.autocomplete = "off";
+  const creerP = h("button", "", "Créer un lien parents");
+  creerP.onclick = async () => {
+    const n = nomP.value.trim();
+    if (!n) { nomP.focus(); return; }
+    resultatP.replaceChildren(vide("Création…"));
+    try {
+      const { code } = await appel("lien-parents", { nom: n });
+      const lien = `${SITE}/p/${code.slice(4).replace("-", "")}`;
+      const texte = `Lien parents de Revizz : ouvre-le sur l'appareil de l'élève pour voir l'historique de ses connexions : ${lien}\nGarde-le pour toi (il resservira). Code : ${code}`;
+      const envoyer = h("button", "", "Envoyer…"), copier = h("button", "clair", "Copier le lien");
+      envoyer.onclick = () => navigator.share ? navigator.share({ text: texte }).catch(() => {}) : navigator.clipboard.writeText(texte).then(() => (envoyer.textContent = "Message copié ✓"));
+      copier.onclick = () => navigator.clipboard.writeText(lien).then(() => (copier.textContent = "Lien copié ✓"));
+      resultatP.replaceChildren(h("div", "petit ok", `Lien parents pour ${n} :`), h("div", "code", code), h("div", "petit coupe", lien), h("div", "btns", envoyer, copier));
+      nomP.value = "";
+      remplir();
+    } catch (e) { resultatP.replaceChildren(h("div", "petit err", e.message)); }
+  };
+  const retirerP = (qui, c) => {
+    const b = h("button", "danger", "Retirer");
+    b.onclick = async () => {
+      if (!confirm(`Retirer le lien parents « ${qui} » ? Il n'ouvrira plus l'Espace parents.`)) return;
+      await appel("retirer", { cle: c }).catch((e) => alert(e.message));
+      remplir();
+    };
+    return b;
+  };
   const listes = h("div", "", vide("Chargement…"));
-  const remplir = () => appel("codes").then(({ invitations, passes }) => listes.replaceChildren(
+  const remplir = () => appel("codes").then(({ invitations, passes, parents = [] }) => listes.replaceChildren(
     titre("Appareils qui ont l'IA"),
     liste(passes, (p) => ligne([h("div", "", p.nom), h("div", "petit", `code ${p.code} utilisé le ${le(p.utilise)}`)], retirer(p.nom, p.repere)), "Aucun appareil"),
     titre("Codes pas encore utilisés"),
     liste(invitations, (i) => ligne([h("div", "", i.nom), h("div", "petit", `${i.cle.slice(7)} · créé le ${jourCourt(i.cree)}`)], retirer(i.nom, i.cle.slice(7))), "Aucun"),
+    h("p", "petit", "Un code par appareil (un même appareil sert à tous les élèves qui ont un profil dessus). Chaque code ne sert qu'une fois et expire au bout de 30 jours s'il n'est pas utilisé. « Retirer » coupe aussitôt l'IA sur l'appareil."),
+    titre("Liens parents"),
+    carte(nomP, h("div", "btns", creerP), resultatP),
+    liste(parents, (p) => ligne([h("div", "", p.nom), h("div", "petit coupe", `${SITE}/p/${p.cle.slice(11).replace("-", "")} · créé le ${jourCourt(p.cree)}`)], retirerP(p.nom, p.cle.slice(7))), "Aucun lien parents"),
+    h("p", "petit", "Le lien parents ouvre l'Espace parents (historique des connexions) sur l'appareil où on l'ouvre, sans code à taper. Il resservira : gardez-le pour vous. « Retirer » le désactive."),
   )).catch((e) => listes.replaceChildren(vide(e.message)));
   remplir();
   const sortir = h("button", "clair", "Oublier la clé d'administration sur cet appareil");
   sortir.onclick = () => { localStorage.removeItem("revizz.admin"); afficher(); };
-  vue.replaceChildren(h("h1", "", "Codes d'invitation"), carte(nom, h("div", "btns", creer), resultat), listes,
-    h("p", "petit", "Un code par appareil (un même appareil sert à tous les élèves qui ont un profil dessus). Chaque code ne sert qu'une fois et expire au bout de 30 jours s'il n'est pas utilisé. « Retirer » coupe aussitôt l'IA sur l'appareil."),
+  vue.replaceChildren(h("h1", "", "Codes et liens parents"), carte(nom, h("div", "btns", creer), resultat), listes,
     h("div", "btns", sortir));
 }
 

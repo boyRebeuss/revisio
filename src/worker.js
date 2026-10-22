@@ -3,6 +3,7 @@
 // échangé contre un laissez-passer propre à l'appareil. Le journal (base D1, voir tools/schema.sql) alimente la page /admin.
 
 const INVITE = /^RVZ-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
+const PARENTS = /^PAR-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
 const PASS = /^[0-9a-f]{32}$/;
 const APPAREIL = /^[0-9a-f]{16}$/;
 
@@ -14,10 +15,10 @@ const coupe = (v, n) => String(v ?? "").slice(0, n);
 const depuis = (jours) => new Date(Date.now() - jours * 86400_000).toISOString();
 
 /** Code tiré au hasard : 31 caractères sans ambiguïté (ni 0/O, ni 1/I/L), tirage sans biais. */
-function nouveauCode() {
+function nouveauCode(prefixe = "RVZ") {
   const a = "ABCDEFGHJKMNPQRSTUVWXYZ23456789", out = [];
   while (out.length < 8) for (const b of crypto.getRandomValues(new Uint8Array(16))) if (b < 248 && out.length < 8) out.push(a[b % 31]);
-  return `RVZ-${out.slice(0, 4).join("")}-${out.slice(4).join("")}`;
+  return `${prefixe}-${out.slice(0, 4).join("")}-${out.slice(4).join("")}`;
 }
 
 /** Laissez-passer de l'appareil (en-tête x-acces), avec le nom donné au code ; null sinon. */
@@ -30,14 +31,28 @@ async function invite(request, env) {
 async function activer(request, env) {
   const { code = "" } = await request.json().catch(() => ({}));
   // Accepte aussi le code tapé sans « RVZ- » ni tirets, en minuscules
-  const brut = String(code).toUpperCase().replace(/[^A-Z0-9]/g, "").replace(/^RVZ(?=.{8}$)/, "");
-  const c = `RVZ-${brut.slice(0, 4)}-${brut.slice(4)}`;
+  const c = canonique(code, "RVZ");
   const inv = INVITE.test(c) ? await env.CODES.get(`invite:${c}`, "json") : null;
   if (!inv) return json({ error: "Code inconnu ou déjà utilisé. Demande un nouveau code à tes parents." }, 403);
   await env.CODES.delete(`invite:${c}`);
   const pass = [...crypto.getRandomValues(new Uint8Array(16))].map((b) => b.toString(16).padStart(2, "0")).join("");
   await env.CODES.put(`pass:${pass}`, JSON.stringify({ ...inv, code: c, utilise: maintenant() }));
   return json({ pass, nom: inv.nom });
+}
+
+/** Code tapé ou reçu par lien → forme canonique « PRE-XXXX-XXXX » (minuscules, tirets et préfixe facultatifs). */
+function canonique(code, prefixe) {
+  const brut = String(code).toUpperCase().replace(/[^A-Z0-9]/g, "").replace(new RegExp(`^${prefixe}(?=.{8}$)`), "");
+  return `${prefixe}-${brut.slice(0, 4)}-${brut.slice(4)}`;
+}
+
+/** Lien parents (créé dans /admin) : ouvre l'Espace parents d'un appareil. Le code resservira (il n'est pas effacé). */
+async function parents(request, env) {
+  const { code = "" } = await request.json().catch(() => ({}));
+  const c = canonique(code, "PAR");
+  const p = PARENTS.test(c) ? await env.CODES.get(`parent:${c}`, "json") : null;
+  if (!p) return json({ error: "Lien parents inconnu ou retiré." }, 403);
+  return json({ ok: true, nom: p.nom });
 }
 
 /**
@@ -143,15 +158,21 @@ async function admin(request, env) {
     await env.CODES.put(`invite:${code}`, JSON.stringify({ nom: n, cree: maintenant().slice(0, 10) }), { expirationTtl: 30 * 86400 });
     return json({ code });
   }
+  if (action === "lien-parents") {
+    if (!n) return json({ error: "Indique pour qui est le lien" }, 400);
+    const code = nouveauCode("PAR");
+    await env.CODES.put(`parent:${code}`, JSON.stringify({ nom: n, cree: maintenant().slice(0, 10) }));
+    return json({ code });
+  }
   // Les laissez-passer eux-mêmes ne quittent jamais le serveur : on les désigne par un repère (8 premiers caractères)
   if (action === "codes") {
     const passes = (await contenu(env, "pass:")).map(({ cle, ...p }) => ({ ...p, repere: cle.slice(5, 13) }));
-    return json({ invitations: await contenu(env, "invite:"), passes });
+    return json({ invitations: await contenu(env, "invite:"), passes, parents: await contenu(env, "parent:") });
   }
   if (action === "retirer") {
     const c = String(cle);
-    const tous = [...(await contenu(env, "invite:")), ...(await contenu(env, "pass:"))]
-      .filter((e) => e.cle === `invite:${c}` || (/^[0-9a-f]{8}$/.test(c) && e.cle.startsWith(`pass:${c}`)));
+    const tous = [...(await contenu(env, "invite:")), ...(await contenu(env, "pass:")), ...(await contenu(env, "parent:"))]
+      .filter((e) => e.cle === `invite:${c}` || e.cle === `parent:${c}` || (/^[0-9a-f]{8}$/.test(c) && e.cle.startsWith(`pass:${c}`)));
     await Promise.all(tous.map((e) => env.CODES.delete(e.cle)));
     return json({ retires: tous.length });
   }
@@ -213,6 +234,12 @@ export default {
       const vers = m ? `/?invitation=RVZ-${m[1].toUpperCase()}-${m[2].toUpperCase()}` : "/";
       return new Response(null, { status: 302, headers: { Location: vers, "Cache-Control": "no-store" } });
     }
+    // Lien parents « /p/ABCD2345 » → l'Espace parents du site, qui vérifie le code
+    if (url.pathname.startsWith("/p/")) {
+      const m = /^\/p\/([A-Za-z0-9]{4})-?([A-Za-z0-9]{4})$/.exec(url.pathname);
+      const vers = m ? `/?parents=PAR-${m[1].toUpperCase()}-${m[2].toUpperCase()}#/parents` : "/";
+      return new Response(null, { status: 302, headers: { Location: vers, "Cache-Control": "no-store" } });
+    }
     if (!url.pathname.startsWith("/api/")) return env.ASSETS.fetch(request);
     if (env.LIMITER) {
       const { success } = await env.LIMITER.limit({ key: request.headers.get("CF-Connecting-IP") ?? "inconnu" });
@@ -221,6 +248,7 @@ export default {
     if (!env.CODES || !env.DB) return json({ error: "service indisponible" }, 503);
     if (request.method === "POST" && url.pathname === "/api/activer") return activer(request, env);
     if (request.method === "POST" && url.pathname === "/api/journal") return journal(request, env);
+    if (request.method === "POST" && url.pathname === "/api/parents") return parents(request, env);
     if (request.method === "POST" && url.pathname === "/api/admin") return admin(request, env);
     if (url.pathname.startsWith("/api/gemini/")) return gemini(request, env, url, ctx);
     return json({ error: "demande invalide" }, 404);

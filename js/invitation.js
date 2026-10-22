@@ -18,6 +18,32 @@ if (lien) {
 
 export const codeRecu = () => sessionStorage.getItem(EN_ATTENTE) || "";
 
+// Lien parents « /p/… » (créé dans /admin) → « /?parents=PAR-…#/parents » : le code est mis de côté puis retiré de
+// l'adresse ; l'Espace parents le vérifie auprès du relais. Il n'est jamais enregistré sur l'appareil.
+const PARENTS_RECU = "revisio.lienParents";
+const lienParents = new URLSearchParams(location.search).get("parents");
+if (lienParents) {
+  sessionStorage.setItem(PARENTS_RECU, lienParents);
+  history.replaceState(null, "", location.pathname + location.hash);
+}
+export function codeParentsRecu() {
+  const c = sessionStorage.getItem(PARENTS_RECU) || "";
+  sessionStorage.removeItem(PARENTS_RECU);
+  return c;
+}
+
+// Renvoie "" si le code parents est valable, sinon le message d'erreur
+export async function verifierParents(code) {
+  let r;
+  try {
+    r = await fetch("/api/parents", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ code }) });
+  } catch {
+    return "Pas de connexion Internet.";
+  }
+  const d = await r.json().catch(() => ({}));
+  return r.ok && d.ok ? "" : d.error || "Service indisponible, réessaie plus tard.";
+}
+
 export function proposerCode() {
   if (!relais || reglages.cleGemini() || reglages.acces()) return false;
   return !!codeRecu() || localStorage.getItem(SANS_IA) !== "1";

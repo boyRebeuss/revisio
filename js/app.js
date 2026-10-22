@@ -533,7 +533,9 @@ function vueReglages() {
       ),
       h("section", { class: "carte" },
         h("h2", {}, "👨‍👩‍👧 Espace parents"),
-        h("p", {}, "Historique des connexions de chaque élève sur cet appareil, protégé par un code parent."),
+        h("p", {}, F.relais
+          ? "Historique des connexions de chaque élève sur cet appareil, réservé aux parents : il s'ouvre avec le lien parents."
+          : "Historique des connexions de chaque élève sur cet appareil, protégé par un code parent."),
         h("a", { class: "btn", href: "#/parents" }, "🔒 Voir l'historique des connexions")
       ),
       h("section", { class: "carte" },
@@ -602,7 +604,8 @@ function vueAPropos() {
 let parentOuvert = false;
 
 function vueParents() {
-  const contenu = !S.parents.aUnCode() ? formCodeParent() : parentOuvert ? historiqueConnexions() : formEntreeParent();
+  // Site Cloudflare : l'Espace parents s'ouvre avec le lien parents créé dans /admin (pas de code sur l'appareil)
+  const contenu = parentOuvert ? historiqueConnexions() : F.relais ? formLienParents() : !S.parents.aUnCode() ? formCodeParent() : formEntreeParent();
   page(entete({ titre: "Espace parents", retour: "#/reglages" }), h("main", {}, contenu));
 }
 
@@ -627,6 +630,35 @@ function formCodeParent({ changer = false } = {}) {
     h("h2", {}, changer ? "Changer le code parent" : "🔒 Créer le code parent"),
     changer ? null : h("p", {}, "Ce code protège l'historique des connexions. Choisis-en un que les élèves ne connaissent pas."),
     c1, c2, msg, btn
+  );
+}
+
+function formLienParents() {
+  const champ = h("input", { class: "champ", type: "password", autocomplete: "off", placeholder: "Code parents (PAR-…)" });
+  const msg = h("p", { class: "erreur" });
+  const btn = h("button", { class: "btn plein", type: "submit" }, "Ouvrir");
+  const ouvrir = async (code) => {
+    btn.disabled = true;
+    msg.textContent = "";
+    const err = await F.verifierParents(code);
+    if (!err) { parentOuvert = true; vueParents(); return; }
+    btn.disabled = false;
+    msg.textContent = err;
+    champ.select();
+  };
+  const recu = F.codeParentsRecu();
+  if (recu) { btn.disabled = true; msg.textContent = ""; setTimeout(() => ouvrir(recu)); }
+  return h("form", {
+    class: "carte",
+    onsubmit: (ev) => {
+      ev.preventDefault();
+      if (champ.value.trim() && !btn.disabled) ouvrir(champ.value);
+    },
+  },
+    h("h2", {}, "🔒 Réservé aux parents"),
+    h("p", {}, recu ? "Vérification du lien parents…" : "Ouvrez sur cet appareil le lien parents reçu (créé dans la page d'administration), ou tapez son code :"),
+    h("div", { class: "saisie" }, champ, btn),
+    msg
   );
 }
 
@@ -700,7 +732,7 @@ function historiqueConnexions() {
       h("h2", {}, "Réglages parents"),
       h("div", { class: "actions-parents" },
         h("button", { class: "btn", onclick: () => { parentOuvert = false; aller("#/reglages"); } }, "🔒 Verrouiller"),
-        h("button", { class: "btn", onclick: (ev) => ev.currentTarget.replaceWith(formCodeParent({ changer: true })) }, "Changer le code parent"),
+        F.relais ? null : h("button", { class: "btn", onclick: (ev) => ev.currentTarget.replaceWith(formCodeParent({ changer: true })) }, "Changer le code parent"),
         h("button", {
           class: "btn rouge",
           onclick: (ev) => {
