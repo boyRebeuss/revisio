@@ -607,7 +607,7 @@ let codeParents = ""; // code du lien parents vérifié (site Cloudflare), gard�
 function vueParents() {
   // Site Cloudflare : l'Espace parents s'ouvre avec le lien parents créé dans /admin (pas de code sur l'appareil)
   const contenu = parentOuvert ? historiqueConnexions() : F.relais ? formLienParents() : !S.parents.aUnCode() ? formCodeParent() : formEntreeParent();
-  page(entete({ titre: "Espace parents", retour: "#/reglages" }), h("main", {}, contenu));
+  page(entete({ titre: "Espace parents", retour: S.profils().length ? "#/reglages" : null }), h("main", {}, contenu));
 }
 
 function formCodeParent({ changer = false } = {}) {
@@ -638,16 +638,27 @@ function formLienParents() {
   const champ = h("input", { class: "champ", type: "password", autocomplete: "off", placeholder: "Code parents (PAR-…)" });
   const msg = h("p", { class: "erreur" });
   const btn = h("button", { class: "btn plein", type: "submit" }, "Ouvrir");
+  // « Se souvenir de moi » : proposé seulement sur un appareil sans profil d'élève (le téléphone d'un parent)
+  const telephoneParent = !S.profils().length;
+  const souvenir = h("input", { type: "checkbox", checked: true });
+  const memo = F.parentsMemorise();
   const ouvrir = async (code) => {
     btn.disabled = true;
     msg.textContent = "";
     const err = await F.verifierParents(code);
-    if (!err) { parentOuvert = true; codeParents = code; vueParents(); return; }
+    if (!err) {
+      parentOuvert = true;
+      codeParents = code;
+      if (telephoneParent && souvenir.checked) F.memoriserParents(code);
+      vueParents();
+      return;
+    }
+    if (code === memo) F.oublierParents(); // lien retiré depuis
     btn.disabled = false;
     msg.textContent = err;
     champ.select();
   };
-  const recu = F.codeParentsRecu();
+  const recu = F.codeParentsRecu() || memo;
   if (recu) { btn.disabled = true; msg.textContent = ""; setTimeout(() => ouvrir(recu)); }
   return h("form", {
     class: "carte",
@@ -657,8 +668,9 @@ function formLienParents() {
     },
   },
     h("h2", {}, "🔒 Réservé aux parents"),
-    h("p", {}, recu ? "Vérification du lien parents…" : "Ouvrez sur cet appareil le lien parents reçu (créé dans la page d'administration), ou tapez son code :"),
+    h("p", {}, recu ? "Ouverture de l'Espace parents…" : "Ouvrez le lien parents que vous avez reçu, ou tapez son code :"),
     h("div", { class: "saisie" }, champ, btn),
+    telephoneParent ? h("label", { class: "souvenir" }, souvenir, " Se souvenir de moi sur ce téléphone") : null,
     msg
   );
 }
@@ -704,33 +716,67 @@ function duree(ms) {
   return min < 60 ? `${min} min` : `${Math.floor(min / 60)} h ${String(min % 60).padStart(2, "0")}`;
 }
 
-// IA des appareils des enfants, reliés au lien parents : bloquer ou réactiver, même depuis un autre appareil
-function controleIA() {
-  const corps = h("div", {}, h("p", { class: "petit" }, "Chargement…"));
+// Tableau de bord des parents (site Cloudflare), depuis n'importe quel appareil : révisions de chaque enfant
+// (séances, exercices, matières) et IA de chaque appareil, à bloquer ou réactiver
+function tableauParents() {
+  const corps = h("div", {}, h("section", { class: "carte" }, h("p", { class: "petit" }, "Chargement…")));
+  const semaine = Date.now() - 7 * 86400_000;
+  const quand = (t) => {
+    const j = Math.floor((new Date().setHours(0, 0, 0, 0) - new Date(t).setHours(0, 0, 0, 0)) / 86400_000);
+    return (j <= 0 ? "aujourd'hui" : j === 1 ? "hier" : new Date(t).toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" })) + " à " + heure(t);
+  };
+  const ficheEleve = (el) => {
+    const s7 = el.seances.filter((s) => s.debut >= semaine);
+    const temps7 = s7.reduce((t, s) => t + Math.max(0, s.fin - s.debut), 0), ex7 = s7.reduce((t, s) => t + (s.exercices || 0), 0);
+    const derniere = Math.max(0, ...el.seances.map((s) => s.fin), ...Object.values(el.progression).map((c) => c.d || 0));
+    // Matières travaillées, de la plus récente à la plus ancienne (clés « niveau/matière/chapitre »)
+    const matieres = new Map();
+    for (const [k, c] of Object.entries(el.progression)) {
+      const [niv, mat] = k.split("/");
+      const m = matieres.get(`${niv}/${mat}`) ?? { niv, mat, f: 0, r: 0, d: 0 };
+      m.f += c.f || 0; m.r += c.r || 0; m.d = Math.max(m.d, c.d || 0);
+      matieres.set(`${niv}/${mat}`, m);
+    }
+    const liste = [...matieres.values()].sort((a, b) => b.d - a.d).slice(0, 6);
+    return h("div", { class: "fiche-enfant" },
+      h("h3", {}, `${el.avatar || "🙂"} ${el.prenom}`, h("span", { class: "petit" }, ` · ${NIVEAUX[el.niveau]?.long ?? el.niveau}`)),
+      h("div", { class: "chiffres" },
+        h("div", {}, h("strong", {}, temps7 ? duree(temps7) : "0 min"), h("span", { class: "petit" }, "de révision cette semaine")),
+        h("div", {}, h("strong", {}, String(ex7)), h("span", { class: "petit" }, `exercice${ex7 > 1 ? "s" : ""} cette semaine`))
+      ),
+      h("p", { class: "petit" }, derniere ? `Dernière révision : ${quand(derniere)}` : "Pas encore de révision."),
+      liste.length ? h("div", { class: "lignes" }, liste.map((m) => {
+        const mat = trouverMatiere(m.niv, m.mat) ?? { nom: m.mat, icone: "📘" };
+        return h("div", { class: "ligne" }, h("span", {}, `${mat.icone} ${mat.nom}`),
+          h("span", { class: "petit" }, m.f ? `${m.r} / ${m.f} exercices réussis` : "cours lus"));
+      })) : null
+    );
+  };
   const charger = () => F.appelParents(codeParents, { action: "appareils" }).then(({ appareils }) => remplacer(corps,
-    appareils.length ? null : h("p", { class: "vide" }, "Aucun appareil n'a encore activé l'IA avec le code relié à ce lien."),
+    appareils.length ? null : h("section", { class: "carte" }, h("p", { class: "vide" },
+      "Rien à afficher pour l'instant : ouvrez d'abord le lien « pour votre enfant » sur son appareil et touchez « Activer l'IA ».")),
     appareils.map((a) => {
-      const btn = h("button", { class: a.bloque ? "btn plein" : "btn rouge" }, a.bloque ? "Réactiver l'IA" : "Bloquer l'IA");
+      const btn = h("button", { class: a.bloque ? "btn plein" : "btn rouge" }, a.bloque ? "▶️ Réactiver l'IA" : "⏸️ Bloquer l'IA");
       btn.onclick = async () => {
         btn.disabled = true;
         try { await F.appelParents(codeParents, { action: "ia", repere: a.repere, bloque: !a.bloque }); charger(); }
         catch (e) { btn.disabled = false; btn.textContent = e.message; }
       };
-      const qui = a.eleves.length ? a.eleves.join(", ") : `code « ${a.code} »`;
-      return h("div", { class: "ligne appareil-ia" },
-        h("div", {},
-          h("div", {}, `${a.bloque ? "⏸️" : "✅"} ${qui}`),
-          h("div", { class: "petit" }, [a.plateforme, `IA activée le ${new Date(a.active).toLocaleDateString("fr-FR")}`,
-            a.dernier ? `vu le ${new Date(a.dernier + "T12:00:00").toLocaleDateString("fr-FR")}` : ""].filter(Boolean).join(" · "))
-        ),
-        btn
+      return h("section", { class: "carte" },
+        a.eleves.length ? a.eleves.map(ficheEleve) : h("h3", {}, `📱 Appareil « ${a.code} »`),
+        h("div", { class: "ia-appareil" },
+          h("div", {},
+            h("div", {}, a.bloque ? "IA en pause sur cet appareil" : "IA active sur cet appareil"),
+            h("div", { class: "petit" }, [a.plateforme, a.dernier ? `vu le ${new Date(a.dernier + "T12:00:00").toLocaleDateString("fr-FR")}` : ""].filter(Boolean).join(" · "))
+          ),
+          btn
+        )
       );
     })
-  )).catch((e) => remplacer(corps, h("p", { class: "erreur" }, e.message)));
+  )).catch((e) => remplacer(corps, h("section", { class: "carte" }, h("p", { class: "erreur" }, e.message))));
   charger();
-  return h("section", { class: "carte" },
-    h("h2", {}, "🤖 IA des appareils de vos enfants"),
-    h("p", { class: "petit" }, "Bloquer met l'IA en pause sur l'appareil, aussitôt et même s'il n'est pas devant vous ; les cours et exercices restent disponibles."),
+  return h("div", {},
+    h("p", { class: "petit intro-parents" }, "Mis à jour quelques minutes après chaque révision. « Bloquer l'IA » la met en pause aussitôt sur l'appareil, même s'il n'est pas devant vous ; les cours et les exercices restent disponibles."),
     corps
   );
 }
@@ -746,9 +792,9 @@ function historiqueConnexions() {
   // Appareil d'un parent (aucun profil d'élève) : pas d'historique à montrer
   const sansEleve = !S.profils().length;
   return h("div", {},
-    F.relais && codeParents ? controleIA() : null,
+    F.relais && codeParents ? tableauParents() : null,
     sansEleve ? null : h("section", { class: "carte" },
-      h("h2", {}, "🕒 Historique des connexions"),
+      h("h2", {}, "🕒 Connexions sur cet appareil"),
       h("p", { class: "petit" }, "Sur cet appareil uniquement. Une connexion se termine après 30 minutes sans activité."),
       hist.length ? null : h("p", { class: "vide" }, "Aucune connexion enregistrée pour l'instant."),
       [...parJour].map(([j, liste]) => h("div", { class: "jour" },
@@ -765,8 +811,11 @@ function historiqueConnexions() {
     ),
     h("section", { class: "carte" },
       h("h2", {}, "Réglages parents"),
+      F.parentsMemorise() ? h("p", { class: "petit" }, "Votre accès est gardé sur ce téléphone : il suffit d'ouvrir Revizz. Pour le retrouver facilement, ajoutez Revizz à l'écran d'accueil (iPhone : bouton Partager puis « Sur l'écran d'accueil » ; Android : menu ⋮ puis « Ajouter à l'écran d'accueil »).") : null,
       h("div", { class: "actions-parents" },
-        h("button", { class: "btn", onclick: () => { parentOuvert = false; codeParents = ""; aller(S.profilActif() ? "#/reglages" : "#/"); } }, "🔒 Verrouiller"),
+        F.parentsMemorise()
+          ? h("button", { class: "btn", onclick: () => { F.oublierParents(); parentOuvert = false; codeParents = ""; vueParents(); } }, "Ne plus se souvenir de moi ici")
+          : h("button", { class: "btn", onclick: () => { parentOuvert = false; codeParents = ""; aller(S.profilActif() ? "#/reglages" : "#/"); } }, "🔒 Verrouiller"),
         F.relais ? null : h("button", { class: "btn", onclick: (ev) => ev.currentTarget.replaceWith(formCodeParent({ changer: true })) }, "Changer le code parent"),
         sansEleve ? null : h("button", {
           class: "btn rouge",
@@ -825,6 +874,8 @@ function router() {
   const [r, a, b, c] = parts;
   if (r !== "parents") { parentOuvert = false; codeParents = ""; }
   // L'Espace parents s'ouvre aussi sur l'appareil d'un parent, sans profil d'élève
+  // Téléphone d'un parent qui a gardé son accès : l'appli s'ouvre sur l'Espace parents
+  if (!r && !S.profils().length && F.parentsMemorise()) return aller("#/parents");
   if (!S.profilActif() && r !== "profils" && r !== "apropos" && r !== "parents") return vueProfils();
   S.noterActivite();
   switch (r) {

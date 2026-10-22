@@ -213,6 +213,33 @@ async function eleves() {
 // ---------- Codes d'invitation ----------
 
 async function codes() {
+  // Nouvelle famille : un lien pour les enfants et un lien parents relié, avec le message prêt à envoyer
+  const resultatF = h("div", "");
+  const nomF = h("input", ""); nomF.placeholder = "Nom de la famille (ex. : Famille Diallo)"; nomF.autocomplete = "off";
+  const creerF = h("button", "", "Créer les liens de la famille");
+  creerF.onclick = async () => {
+    const n = nomF.value.trim();
+    if (!n) { nomF.focus(); return; }
+    resultatF.replaceChildren(vide("Création…"));
+    try {
+      const { enfant, parent } = await appel("famille", { nom: n });
+      const lienE = `${SITE}/i/${enfant.slice(4).replace("-", "")}`, lienP = `${SITE}/p/${parent.slice(4).replace("-", "")}`;
+      const texte = `Bonjour ! Voici Revizz, l'appli de révision du collège et du lycée.\n\n`
+        + `👧 POUR VOTRE ENFANT : ouvrez ce lien sur sa tablette, son téléphone ou son ordinateur, créez son profil, puis touchez « Activer l'IA » :\n${lienE}\n\n`
+        + `🔒 POUR VOUS SEULEMENT (ne le donnez pas à vos enfants) : ce lien vous montre ses révisions et vous permet de mettre l'IA en pause, depuis votre propre téléphone :\n${lienP}\n\n`
+        + `Gardez ce message : les deux liens resservent.`;
+      const envoyer = h("button", "", "Envoyer le message…"), copier = h("button", "clair", "Copier le message");
+      envoyer.onclick = () => navigator.share ? navigator.share({ text: texte }).catch(() => {}) : navigator.clipboard.writeText(texte).then(() => (envoyer.textContent = "Message copié ✓"));
+      copier.onclick = () => navigator.clipboard.writeText(texte).then(() => (copier.textContent = "Message copié ✓"));
+      resultatF.replaceChildren(
+        h("div", "petit ok", `Liens de ${n} :`),
+        h("div", "petit", "👧 Pour l'enfant (à ouvrir sur son appareil)"), h("div", "petit coupe", lienE),
+        h("div", "petit", "🔒 Pour les parents seulement"), h("div", "petit coupe", lienP),
+        h("div", "btns", envoyer, copier));
+      nomF.value = "";
+      remplir();
+    } catch (e) { resultatF.replaceChildren(h("div", "petit err", e.message)); }
+  };
   const resultat = h("div", "");
   const nom = h("input", ""); nom.placeholder = "Pour qui ? (ex. : iPad de Léa)"; nom.autocomplete = "off";
   const creer = h("button", "", "Créer un code");
@@ -298,7 +325,12 @@ async function codes() {
   remplir();
   const sortir = h("button", "clair", "Oublier la clé d'administration sur cet appareil");
   sortir.onclick = () => { localStorage.removeItem("revizz.admin"); afficher(); };
-  vue.replaceChildren(h("h1", "", "Codes et liens parents"), carte(nom, h("div", "btns", creer), resultat), listes,
+  vue.replaceChildren(h("h1", "", "Familles et codes"),
+    titre("Nouvelle famille"),
+    carte(nomF, h("div", "btns", creerF), resultatF),
+    h("p", "petit", "Crée en une fois le lien de l'enfant (activer l'IA) et le lien des parents (suivre ses révisions, mettre l'IA en pause), déjà reliés, avec un message prêt à envoyer. Un même lien d'enfant sert pour tous les appareils de la famille."),
+    titre("Code enfant seul"),
+    carte(nom, h("div", "btns", creer), resultat), listes,
     h("div", "btns", sortir));
 }
 

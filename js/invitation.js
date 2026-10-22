@@ -26,6 +26,12 @@ if (lienParents) {
   sessionStorage.setItem(PARENTS_RECU, lienParents);
   history.replaceState(null, "", location.pathname + location.hash);
 }
+// « Se souvenir de moi » : seulement sur le téléphone d'un parent (aucun profil d'élève sur l'appareil)
+const PARENTS_MEMO = "revisio.parentsMemo";
+export const parentsMemorise = () => localStorage.getItem(PARENTS_MEMO) || "";
+export const memoriserParents = (code) => localStorage.setItem(PARENTS_MEMO, code);
+export const oublierParents = () => localStorage.removeItem(PARENTS_MEMO);
+
 export function codeParentsRecu() {
   const c = sessionStorage.getItem(PARENTS_RECU) || "";
   sessionStorage.removeItem(PARENTS_RECU);

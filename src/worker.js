@@ -62,10 +62,11 @@ async function parents(request, env) {
   const relies = (await contenu(env, "pass:")).filter((x) => tous || p.invites.includes(x.code));
   if (action === "appareils") {
     // Prénoms des élèves de chaque appareil (journal), quand l'appareil est connu
+    // Élèves de chaque appareil (progression et séances, comme dans /admin), quand l'appareil est connu
     const ids = relies.map((x) => x.appareil).filter(Boolean);
     const dans = `(${ids.map(() => "?").join(",")})`;
-    const [eleves, visites] = ids.length ? await Promise.all([
-      env.DB.prepare(`SELECT appareil, prenom, avatar FROM eleves WHERE appareil IN ${dans}`).bind(...ids).all().then((r) => r.results),
+    const [lesEleves, visites] = ids.length ? await Promise.all([
+      eleves(env).then((l) => l.filter((e) => ids.includes(e.appareil))),
       env.DB.prepare(`SELECT appareil, plateforme, MAX(jour) AS dernier FROM visites WHERE appareil IN ${dans} GROUP BY appareil`).bind(...ids).all().then((r) => r.results),
     ]) : [[], []];
     return json({
@@ -74,7 +75,8 @@ async function parents(request, env) {
         repere: x.cle.slice(5, 13), code: x.nom, active: x.utilise, bloque: !!x.bloque,
         plateforme: visites.find((v) => v.appareil === x.appareil)?.plateforme ?? "",
         dernier: visites.find((v) => v.appareil === x.appareil)?.dernier ?? "",
-        eleves: eleves.filter((e) => e.appareil === x.appareil).map((e) => `${e.avatar ?? ""} ${e.prenom}`.trim()),
+        eleves: lesEleves.filter((e) => e.appareil === x.appareil)
+          .map(({ prenom, avatar, niveau, maj, progression, seances }) => ({ prenom, avatar, niveau, maj, progression, seances })),
       })),
     });
   }
@@ -190,6 +192,14 @@ async function admin(request, env) {
     const code = nouveauCode();
     await env.CODES.put(`invite:${code}`, JSON.stringify({ nom: n, cree: maintenant().slice(0, 10) }));
     return json({ code });
+  }
+  // Nouvelle famille : un code pour les enfants et un lien parents qui lui est relié, en une fois
+  if (action === "famille") {
+    if (!n) return json({ error: "Indique le nom de la famille" }, 400);
+    const enfant = nouveauCode(), parent = nouveauCode("PAR"), cree = maintenant().slice(0, 10);
+    await env.CODES.put(`invite:${enfant}`, JSON.stringify({ nom: n, cree }));
+    await env.CODES.put(`parent:${parent}`, JSON.stringify({ nom: n, cree, invites: [enfant] }));
+    return json({ enfant, parent });
   }
   if (action === "lien-parents") {
     if (!n) return json({ error: "Indique pour qui est le lien" }, 400);
