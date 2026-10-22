@@ -275,7 +275,9 @@ async function vueChapitre(idM, idC, onglet = "cours") {
   const cle = `${p.niveau}/${idM}/${c.id}`;
   // Accents significatifs en français et en espagnol (está ≠ esta), umlauts en allemand
   const langue = idM === "francais" || idM === "espagnol" ? "fr" : idM === "allemand" ? "de" : false;
-  const ctx = { niveau: NIVEAUX[p.niveau].long, matiere: m.nom, langue };
+  // Lettres difficiles à taper sur un clavier d'ordinateur : boutons sous les réponses courtes
+  const accents = { espagnol: "áéíóúüñ¿¡", allemand: "äöüß", francais: "àâçéèêëîïôùûœ" }[idM] || "";
+  const ctx = { niveau: NIVEAUX[p.niveau].long, matiere: m.nom, langue, accents };
   const suivant = data.chapitres[idx + 1];
 
   const onglets = [

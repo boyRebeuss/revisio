@@ -1770,6 +1770,14 @@ Une homothétie de rapport −1 est une symétrie centrale.
 ## Frises et pavages
 Une **frise** s'obtient en répétant un motif par **translation** dans une direction. Un **pavage** recouvre le plan sans trou ni chevauchement, souvent par translations et rotations d'un même motif.
 
+## Rosaces
+Une **rosace** s'obtient en faisant tourner un motif autour d'un **même centre O**, toujours du **même angle** et dans le même sens, jusqu'à revenir au point de départ (un tour complet = 360°).
+- Pour une rosace de **n motifs** régulièrement répartis, l'angle de la rotation vaut **360° ÷ n**.
+- Inversement, si l'angle vaut α, la rosace compte **360 ÷ α** motifs (α doit diviser 360).
+- Une rotation est une isométrie : tous les motifs sont **superposables** (mêmes longueurs, mêmes angles, même aire).
+
+>! **Exemple** : pour une rosace de 8 pétales, on fait tourner le pétale de 360 ÷ 8 = **45°** autour de O, sept fois de suite. Pour passer du 1er pétale au 3e, on tourne de 2 × 45° = 90°.
+
 > **À retenir**
 > - Translation : glissement ; rotation : on tourne autour d'un centre ; homothétie : agrandissement ou réduction.
 > - Symétries, translations, rotations conservent longueurs, angles et aires.
@@ -1850,6 +1858,41 @@ A′B′ = 1,5 × 3 = **4,5 cm** ; A′C′ = 1,5 × 4 = **6 cm** ; B′C′ = 1
 Aire de A′B′C′ :
 - directement : 4,5 × 6 ÷ 2 = **13,5 cm²** ;
 - avec le coefficient : les aires sont multipliées par k² = (−1,5)² = 2,25, et 6 × 2,25 = 13,5 cm².`,
+        },
+        {
+          type: "saisie",
+          question: "On veut construire une rosace de 8 motifs identiques, régulièrement répartis autour d'un point O, en faisant tourner un motif autour de O. De quel angle, en degrés, faut-il le faire tourner à chaque fois ?",
+          reponses: ["45", "45°"],
+          explication: "Les 8 motifs se partagent un tour complet : 360 ÷ 8 = **45°**.",
+        },
+        {
+          type: "qcm",
+          question: "Une rosace est construite en faisant tourner un motif de 40° autour d'un point O, toujours dans le même sens, jusqu'à revenir au motif de départ. Combien de motifs compte la rosace ?",
+          choix: ["8", "40", "9", "4,5"],
+          reponse: 2,
+          explication: "Les motifs se partagent un tour complet de 360° : 360 ÷ 40 = **9 motifs**, en comptant le motif de départ. 8 est le nombre de rotations à faire **après** le motif de départ (8 rotations + le motif de départ = 9 motifs) ; 4,5 vient de 180 ÷ 40, or un tour complet fait 360°, pas 180° ; 40 est l'angle, pas le nombre de motifs.",
+        },
+        {
+          type: "vf",
+          question: "Dans une rosace obtenue par rotations d'un même motif, les motifs n'ont pas tous la même aire : ils grandissent en s'éloignant du motif de départ.",
+          reponse: false,
+          explication: "Faux : une rotation est une isométrie, elle conserve les longueurs et les aires. Tous les motifs de la rosace sont superposables.",
+        },
+        {
+          type: "redaction",
+          question: "OAB est un triangle tel que OA = OB = 5 cm et l'angle AOB mesure 60°. On construit une rosace en faisant tourner ce triangle autour de O, toujours de 60° dans le même sens.\n1) Combien de triangles compte la rosace, en comptant le triangle de départ ?\n2) Par quelle rotation passe-t-on du 1er triangle au 3e ?\n3) Montre que le triangle OAB est équilatéral.\n4) La rosace forme un hexagone régulier. Calcule son périmètre.\n5) La hauteur du triangle OAB issue de O mesure environ 4,33 cm. Calcule l'aire de l'hexagone, arrondie au dixième de cm².",
+          corrige: `1) Un tour complet : 360 ÷ 60 = **6 triangles**.
+
+2) On tourne deux fois de 60° : c'est la rotation de centre O et d'angle **120°**, dans le même sens.
+
+3) Le triangle OAB est isocèle en O (OA = OB), donc ses angles en A et en B sont égaux. Leur somme vaut 180° − 60° = 120°, donc chacun mesure 60°. Les trois angles mesurent 60° : **OAB est équilatéral**, et AB = 5 cm.
+
+4) Le bord de l'hexagone est formé des 6 côtés comme [AB], chacun de 5 cm (les rotations conservent les longueurs) : périmètre = 6 × 5 = **30 cm**.
+
+5) L'hexagone est formé des 6 triangles superposables au triangle OAB (les rotations conservent les aires).
+Aire d'un triangle : base × hauteur ÷ 2 = 5 × 4,33 ÷ 2 ≈ 10,825 cm².
+Aire de l'hexagone : 6 × 10,825 ≈ **65,0 cm²** (64,95).
+(Pour aller plus loin : la hauteur se calcule avec le théorème de Pythagore dans le triangle OHA rectangle en H, H milieu de [AB] : OH² = 5² − 2,5² = 18,75, OH = √18,75 ≈ 4,33 cm.)`,
         },
       ],
     },
@@ -2149,6 +2192,8 @@ Plusieurs lutins peuvent agir en même temps. Un lutin peut **envoyer un message
 ## Tracer avec le lutin
 Pour un polygone régulier à n côtés, le lutin tourne de **360° ÷ n** à chaque sommet : 120° pour un triangle équilatéral, 90° pour un carré, 72° pour un pentagone, 60° pour un hexagone.
 
+**Rosace** : pour répéter un motif n fois autour du point de départ, on écrit « répéter n fois : motif, tourner de 360 ÷ n degrés ». Chaque tour de boucle applique au motif une **rotation** de centre le point de départ du lutin. Il faut que le bloc du motif ramène le lutin à son point de départ, dans la même direction.
+
 ## Simuler une expérience aléatoire
 Le bloc **« nombre aléatoire entre 1 et 6 »** (catégorie Opérateurs) donne un nombre entier choisi au hasard parmi 1, 2, 3, 4, 5 et 6, chacun ayant la même chance de sortir : il **simule le lancer d'un dé** équilibré. De même, « nombre aléatoire entre 1 et 2 » simule une pièce (1 pour pile, 2 pour face).
 
@@ -2287,6 +2332,30 @@ Somme des périmètres : 4 × 200 = **800 pas**.
 4) On remplace « dire rouges » par **« dire rouges / 500 »**.
 
 5) Il faut 4 nombres sur 10 : **« si nombre aléatoire entre 1 et 10 < 5 alors »** (les nombres 1, 2, 3 et 4).`,
+        },
+        {
+          type: "qcm",
+          question: "Ce script simule 200 lancers d'une pièce équilibrée (1 pour pile, 2 pour face) :\n~~~\nmettre piles à 0\nrépéter 200 fois\n  si nombre aléatoire entre 1 et 2 = 1 alors\n    ajouter 1 à piles\ndire piles\n~~~\nQuel affichage est le plus plausible ?",
+          choix: ["200", "0,5", "2", "96"],
+          reponse: 3,
+          explication: "La probabilité de pile vaut 1/2 : sur 200 lancers, on attend **environ 100** piles, et 96 est plausible à cause du hasard. 200 voudrait dire 200 piles sur 200 lancers ; 0,5 est une fréquence, or le lutin dit le nombre de piles, pas « piles / 200 ».",
+        },
+        {
+          type: "saisie",
+          question: "Le bloc « carré (côté) » trace un carré et ramène le lutin à son point de départ, dans la même direction. Pour tracer une rosace de 8 carrés, on écrit :\n~~~\nrépéter 8 fois\n  carré (50)\n  tourner ↻ de ? degrés\n~~~\nPar quel nombre faut-il remplacer « ? » pour que la rosace fasse exactement un tour complet ?",
+          reponses: ["45", "45°"],
+          explication: "Les 8 carrés doivent se répartir sur un tour complet : 360 ÷ 8 = **45**. Chaque tour de boucle fait tourner le carré de 45° autour du point de départ du lutin.",
+        },
+        {
+          type: "redaction",
+          question: "Pour simuler le lancer de **deux** pièces et compter les fois où l'on obtient deux piles, Hugo écrit :\n~~~\nquand drapeau vert cliqué\nmettre deuxpiles à 0\nrépéter 1000 fois\n  mettre p1 à nombre aléatoire entre 1 et 2\n  mettre p2 à nombre aléatoire entre 1 et 2\n  si p1 = 1 et p2 = 1 alors\n    ajouter 1 à deuxpiles\ndire deuxpiles / 1000\n~~~\nSa camarade Zoé propose plus court : « mettre nb à nombre aléatoire entre 0 et 2 », où nb représente directement le nombre de piles obtenues, et elle compte les fois où nb = 2.\n1) Quelle est la probabilité d'obtenir deux piles en lançant deux pièces équilibrées ? Justifie avec les issues.\n2) De quelle valeur la fréquence affichée par le script d'Hugo devrait-elle être proche ?\n3) Avec le script de Zoé, quelle est la probabilité que nb vaille 2 ? Son script simule-t-il bien les deux pièces ? Explique.",
+          corrige: `1) Les issues équiprobables sont : (pile ; pile), (pile ; face), (face ; pile), (face ; face). Une seule donne deux piles : **P = 1/4**.
+
+2) La fréquence affichée doit être proche de 1/4 = **0,25** (par exemple 0,243 ou 0,261, et Scratch l'écrit avec un point : 0.243).
+
+3) « nombre aléatoire entre 0 et 2 » donne 0, 1 ou 2 **avec la même chance** : P(nb = 2) = **1/3**.
+Or, avec deux vraies pièces, les trois résultats n'ont pas la même probabilité : 0 pile a une probabilité de 1/4, 2 piles aussi, mais 1 pile a une probabilité de **2/4 = 1/2** (deux issues : pile-face et face-pile).
+Le script de Zoé **ne simule pas** les deux pièces : il donnerait une fréquence proche de 0,33 au lieu de 0,25. Il faut tirer chaque pièce séparément, comme Hugo.`,
         },
       ],
     },
@@ -2794,6 +2863,376 @@ On peut l'écrire h(t) = (6/π) × t : c'est de la forme a × t, donc **h est un
 3) On résout 6t/π = 100 : t = 100π/6 ≈ 52,4. L'eau atteint 1 m au bout d'environ **52 minutes**.
 
 4) h est linéaire : sa représentation graphique est une **droite passant par l'origine** (on s'arrête à t ≈ 62,8 min, quand la cuve est pleine, à 120 cm).`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 20. Perspective cavalière et patrons
+    {
+      id: "perspective-patrons",
+      titre: "Représenter l'espace : perspective cavalière et patrons",
+      theme: "Espace et géométrie",
+      cours: `
+## Pourquoi représenter un solide ?
+Un solide (cube, pavé, prisme, cylindre, pyramide, cône) est en trois dimensions ; ta feuille n'en a que deux. On utilise deux outils :
+- la **perspective cavalière**, pour **dessiner** le solide tel qu'on le voit ;
+- le **patron**, pour le **fabriquer** : c'est une figure plane d'un seul morceau qui, une fois découpée et pliée, donne le solide sans trou ni chevauchement.
+
+## La perspective cavalière
+On regarde le solide de face, un peu de côté et d'en haut. Les règles :
+1. Les faces **frontales** (parallèles à la feuille, « face à toi ») sont dessinées **en vraie grandeur** (ou à l'échelle choisie) : un carré reste un carré, un angle droit reste droit.
+2. Les arêtes **fuyantes** (qui « s'enfoncent » derrière la feuille) sont dessinées **parallèles entre elles**, avec un angle fixe par rapport à l'horizontale (souvent 30° ou 45°), et leur longueur est **multipliée par un coefficient de réduction** (souvent 0,5).
+3. Des arêtes **parallèles** dans la réalité sont représentées par des segments **parallèles**.
+4. Le **milieu** d'une arête est représenté par le milieu du segment dessiné ; des points alignés restent alignés.
+5. Les arêtes **cachées** sont tracées en **pointillés**.
+
+>! **Exemple** : dessiner un cube de 4 cm d'arête (angle 45°, coefficient 0,5).
+>! - Face avant : un carré de 4 cm de côté, en vraie grandeur.
+>! - Quatre fuyantes partent des sommets de ce carré, inclinées à 45°, de longueur 4 × 0,5 = **2 cm**.
+>! - On relie leurs extrémités : la face arrière est un carré de 4 cm (frontale, elle aussi en vraie grandeur).
+>! - Les trois arêtes qui partent du sommet arrière caché sont en pointillés.
+
+Attention : sur le dessin, les faces du dessus et de côté du cube **ne sont pas des carrés** (ce sont des parallélogrammes), et certains angles droits n'apparaissent **pas** droits. On ne mesure donc jamais un angle ou une longueur fuyante directement sur le dessin.
+
+## Les patrons
+| Solide | Le patron contient |
+|---|---|
+| Cube | 6 carrés identiques |
+| Pavé droit | 6 rectangles, identiques deux à deux |
+| Prisme droit à base triangulaire | 2 triangles identiques (les bases) et 3 rectangles (les faces latérales) |
+| Cylindre de rayon r et de hauteur h | 2 disques de rayon r et 1 rectangle de dimensions h et 2πr |
+| Pyramide à base carrée | 1 carré et 4 triangles |
+| Cône de rayon r et de génératrice g | 1 disque de rayon r et 1 secteur de disque de rayon g |
+
+- **Cylindre** : la longueur du rectangle s'enroule autour du disque de base, elle est donc égale au **périmètre** de ce disque : **2 × π × r**.
+- **Cône** : une **génératrice** est un segment qui va du sommet à un point du cercle de base ; on note g sa longueur. L'arc du secteur s'enroule autour de la base : sa longueur vaut aussi 2πr.
+- **Pour aller plus loin (calcul non exigé au brevet)** : l'angle du secteur est proportionnel à la longueur de son arc (un disque entier de rayon g : 360° pour 2πg), donc **angle = 360° × 2πr ÷ 2πg = 360° × r ÷ g**.
+- **Aire totale** d'un solide à faces planes (pavé, prisme, pyramide) = somme des aires des faces = **aire de son patron**.
+
+>! **Exemple 1** : patron d'un cylindre de rayon 3 cm et de hauteur 10 cm : deux disques de rayon 3 cm et un rectangle de 10 cm sur 2 × π × 3 = 6π ≈ **18,8 cm**.
+>! **Exemple 2** (pour aller plus loin) : patron d'un cône de rayon 4 cm et de génératrice 10 cm : un disque de rayon 4 cm et un secteur de rayon 10 cm d'angle 360 × 4 ÷ 10 = **144°**.
+>! **Exemple 3** : aire du patron d'un pavé de 5 cm × 3 cm × 2 cm : 2 × (5 × 3 + 5 × 2 + 3 × 2) = 2 × 31 = **62 cm²**.
+
+**Patrons du cube** : il en existe 11 différents. Pour tester un assemblage de 6 carrés, imagine le pliage autour d'une face qui reste au sol, et vérifie que deux carrés ne viennent jamais se poser au même endroit. Un bloc de 4 carrés formant un grand carré 2 × 2 n'est jamais dans un patron de cube (au sommet d'un cube ne se rejoignent que 3 faces), et 6 carrés tous alignés non plus.
+
+## Erreurs fréquentes
+- Dessiner les fuyantes en vraie grandeur ou dans des directions différentes.
+- Oublier les pointillés pour les arêtes cachées.
+- Croire qu'un angle droit du solide apparaît toujours droit sur le dessin.
+- Prendre le diamètre au lieu du rayon pour la longueur 2πr du rectangle du cylindre.
+- Oublier une face dans un patron (un prisme triangulaire a **5** faces, une pyramide à base carrée aussi).
+
+> **À retenir**
+> - Perspective cavalière : faces frontales en vraie grandeur ; fuyantes parallèles entre elles, inclinées, réduites (souvent × 0,5) ; parallélisme et milieux conservés ; arêtes cachées en pointillés.
+> - Patron : une seule pièce qui se replie en solide, sans trou ni chevauchement.
+> - Cylindre : rectangle de dimensions h et 2πr. Cône : un disque et un secteur de disque (pour aller plus loin : angle = 360° × r ÷ g).
+> - Aire totale d'un solide à faces planes = somme des aires des faces.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "En perspective cavalière, quelles faces d'un pavé droit sont dessinées en vraie grandeur ?",
+          choix: ["Toutes les faces", "Seulement la face du dessus", "Aucune face", "Les faces frontales, parallèles à la feuille"],
+          reponse: 3,
+          explication: "Seules les faces **frontales** (face avant et face arrière) sont en vraie grandeur. Les autres faces sont déformées en parallélogrammes, car leurs arêtes fuyantes sont inclinées et réduites.",
+        },
+        {
+          type: "vf",
+          question: "En perspective cavalière, deux arêtes parallèles du solide sont représentées par deux segments parallèles.",
+          reponse: true,
+          explication: "Vrai : la perspective cavalière conserve le parallélisme (et les milieux). C'est pour cela que toutes les fuyantes sont tracées dans la même direction.",
+        },
+        {
+          type: "saisie",
+          question: "On dessine un cube de 6 cm d'arête en perspective cavalière, avec un coefficient de réduction de 0,5 pour les fuyantes. Quelle longueur faut-il tracer pour chaque arête fuyante, en cm ?",
+          reponses: ["3", "3 cm"],
+          explication: "Les fuyantes sont multipliées par le coefficient de réduction : 6 × 0,5 = **3 cm**. Les arêtes des faces frontales restent à 6 cm.",
+        },
+        {
+          type: "vf",
+          question: "Sur un dessin en perspective cavalière d'un cube, les six faces sont représentées par des carrés.",
+          reponse: false,
+          explication: "Faux : seules les deux faces frontales sont des carrés. Les faces du dessus, du dessous et des côtés sont dessinées en parallélogrammes (leurs angles droits n'apparaissent pas droits).",
+        },
+        {
+          type: "qcm",
+          question: "Le patron d'un cylindre de rayon 3 cm et de hauteur 10 cm comprend deux disques de rayon 3 cm et un rectangle. Quelles sont, environ, les dimensions de ce rectangle ?",
+          choix: ["10 cm sur 18,8 cm", "10 cm sur 9,4 cm", "3 cm sur 10 cm", "10 cm sur 28,3 cm"],
+          reponse: 0,
+          explication: "La longueur du rectangle est le périmètre du disque de base : 2 × π × 3 = 6π ≈ 18,8 cm ; sa largeur est la hauteur, 10 cm. 9,4 cm (3π) oublie le facteur 2 ; 28,3 cm (π × 3²) est l'aire du disque, pas son périmètre.",
+        },
+        {
+          type: "saisie",
+          question: "Combien de faces compte le patron d'un prisme droit à base triangulaire ?",
+          reponses: ["5", "5 faces"],
+          explication: "Deux bases triangulaires et trois faces latérales rectangulaires (une par côté du triangle) : 2 + 3 = **5 faces**.",
+        },
+        {
+          type: "vf",
+          question: "Cet assemblage de 6 carrés (X = un carré, point = case vide) est un patron de cube :\n~~~\n. X . .\nX X X X\n. X . .\n~~~",
+          reponse: true,
+          explication: "Vrai : c'est la « croix ». Les 4 carrés en ligne s'enroulent pour former les faces avant, dessus, arrière et dessous ; les deux carrés accrochés de part et d'autre du 2e viennent fermer les côtés gauche et droit.",
+        },
+        {
+          type: "vf",
+          question: "Cet assemblage de 6 carrés (X = un carré, point = case vide) est un patron de cube :\n~~~\nX X . .\nX X X X\n~~~",
+          reponse: false,
+          explication: "Faux : les 4 carrés en haut à gauche forment un bloc 2 × 2. Or, à un sommet du cube, seulement 3 faces se rejoignent : en pliant, deux carrés viendraient se superposer, et une face resterait ouverte. (Concrètement, les deux carrés du haut ferment le même côté du cube.)",
+        },
+        {
+          type: "saisie",
+          question: "Pour aller plus loin (calcul non exigé au brevet). Un cône a pour rayon de base 4 cm et pour génératrice 10 cm. Dans son patron, quel est l'angle du secteur de disque, en degrés ?",
+          reponses: ["144", "144°"],
+          explication: "L'angle est proportionnel à la longueur de l'arc, qui vaut le périmètre de la base : angle = 360° × r ÷ g = 360 × 4 ÷ 10 = **144°**.",
+        },
+        {
+          type: "redaction",
+          question: "Une boîte en carton a la forme d'un pavé droit ABCDEFGH : la face avant ABFE mesure AB = 30 cm de long et AE = 10 cm de haut, et la profondeur est AD = 20 cm.\n1) On dessine la boîte en perspective cavalière à l'échelle 1/5, avec la face ABFE frontale, des fuyantes inclinées à 45° et un coefficient de réduction de 0,5. Quelles longueurs faut-il tracer pour la face avant, puis pour chaque fuyante ?\n2) Sur ce dessin, l'angle entre [AB] et la fuyante [AD] mesure-t-il 90° ? Et dans la réalité ?\n3) Calcule l'aire de carton nécessaire pour fabriquer la boîte fermée (sans les languettes de collage).\n4) Calcule la longueur de la diagonale [AC] du fond de la boîte, puis celle de la grande diagonale [AG], arrondies au dixième de cm.\n5) Peut-on ranger dans cette boîte fermée une baguette rigide de 37 cm, posée à plat sur le fond ? Et en la plaçant en biais selon [AG] ?",
+          corrige: `1) À l'échelle 1/5, on divise les longueurs réelles par 5.
+- Face avant (frontale, en vraie grandeur à l'échelle) : un rectangle de 30 ÷ 5 = **6 cm** sur 10 ÷ 5 = **2 cm**.
+- Fuyantes : 20 ÷ 5 = 4 cm, puis × 0,5 : **2 cm**, inclinées à 45°.
+
+2) Sur le dessin, l'angle entre [AB] et la fuyante [AD] mesure **45°** (ou 135° selon le sens de lecture) : il n'est pas droit. Dans la réalité, la face ABCD est un rectangle, donc l'angle DAB est **droit**. La perspective cavalière ne conserve pas les angles hors des faces frontales.
+
+3) Le patron contient 6 rectangles, identiques deux à deux :
+2 × (30 × 20 + 30 × 10 + 20 × 10) = 2 × (600 + 300 + 200) = **2 200 cm²**.
+
+4) Le fond ABCD est un rectangle, donc le triangle ABC est rectangle en B, avec BC = AD = 20 cm. D'après le théorème de Pythagore :
+AC² = 30² + 20² = 900 + 400 = 1 300, donc AC = √1 300 ≈ **36,1 cm**.
+L'arête [CG] est verticale, perpendiculaire au fond : le triangle ACG est rectangle en C, avec CG = 10 cm. D'après le théorème de Pythagore :
+AG² = AC² + CG² = 1 300 + 100 = 1 400, donc AG = √1 400 ≈ **37,4 cm**.
+
+5) À plat sur le fond, la plus grande longueur disponible est la diagonale AC ≈ 36,1 cm < 37 cm : **impossible**.
+En biais selon [AG] : 37 cm < 37,4 cm : **c'est possible**.`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 21. Sujet complet type brevet (partie 2)
+    {
+      id: "sujet-complet-partie-2",
+      titre: "Sujet complet type brevet : partie 2 en 1 h 40",
+      theme: "Préparation au brevet",
+      cours: `
+## Comment utiliser ce chapitre
+Ce chapitre est un **sujet d'entraînement complet** pour la partie 2 du brevet : **5 exercices indépendants**, à traiter en **1 h 40**, **avec calculatrice**, en rédigeant tes réponses. Les situations et les données sont **fictives**.
+
+1. Prépare une copie double, ta calculatrice, ta règle et un **minuteur réglé sur 1 h 40**.
+2. Lis les 5 énoncés (ils s'affichent au-dessus des exercices) et traite-les **sur ta copie**, dans l'ordre que tu veux.
+3. Quand le temps est écoulé, arrête-toi. Ensuite seulement, fais les exercices de l'appli : les questions rapides vérifient tes premiers résultats, et les corrigés détaillés te permettent de **noter ta copie** toi-même.
+
+## Gérer son temps
+| Moment | Durée conseillée |
+|---|---|
+| Lecture de tout le sujet | 5 min |
+| Chaque exercice | environ 18 min (5 × 18 = 1 h 30) |
+| Relecture finale (unités, phrases réponses) | 5 min |
+
+- Commence par l'exercice qui te paraît le plus facile, pour prendre confiance.
+- Si tu bloques plus de 3 minutes sur une question, **passe à la suivante** : utilise le résultat donné dans l'énoncé, ou écris ta piste de recherche.
+- Garde 5 minutes à la fin : une unité oubliée ou une phrase de conclusion manquante coûte des points facilement évitables.
+
+## Se corriger
+Pour chaque question, compare ta copie au corrigé et demande-toi :
+- Ai-je trouvé le bon **résultat**, avec la bonne **unité** et le bon **arrondi** ?
+- Ai-je **justifié** (propriété, théorème, calcul posé) ?
+- Ai-je écrit une **phrase de conclusion** ?
+Note les chapitres où tu as perdu des points : ce sont ceux à retravailler en priorité.
+
+> **À retenir**
+> - Partie 2 : 1 h 40, 14 points, avec calculatrice ; la rédaction et le raisonnement comptent pour 2 points.
+> - Lecture 5 min, environ 18 min par exercice, relecture 5 min.
+> - Une question ratée ne bloque pas la suite ; une démarche, même inachevée, peut rapporter des points.
+`,
+      textes: {
+        bonbons: `**Exercice 1 : les sachets de bonbons** (situation fictive)
+
+Un confiseur dispose de **252 caramels** et de **180 chocolats**. Il veut les répartir dans des sachets, en utilisant tous les bonbons, de sorte que :
+- tous les sachets aient **la même composition** (même nombre de caramels, même nombre de chocolats) ;
+- le nombre de sachets soit **le plus grand possible**.
+
+1) Décompose 252 et 180 en produits de facteurs premiers.
+2) Peut-il faire 24 sachets ? Justifie.
+3) Combien de sachets peut-il faire au maximum ? Quelle est alors la composition de chaque sachet ?
+4) Léo prend un bonbon au hasard dans un de ces sachets. Quelle est la probabilité que ce soit un caramel ?`,
+        rampe: `**Exercice 2 : la rampe de skate** (situation fictive)
+
+Une rampe de skate est représentée par le triangle ABC, **rectangle en B** : [AB] est au sol, avec **AB = 4,8 m**, et [BC] est vertical, avec **BC = 1,4 m**. La piste est le segment [AC].
+Pour la solidité, on fixe un poteau vertical [DE], avec D sur [AB], E sur [AC] et **AD = 3 m**.
+
+1) Calcule la longueur AC de la piste.
+2) Calcule l'angle BAC, arrondi au degré.
+3) Le club décide que, pour les débutants, l'angle entre la piste et le sol doit être inférieur à 20°. Cette rampe convient-elle ?
+4) Calcule la hauteur DE du poteau, en cm.`,
+        tarifs: `**Exercice 3 : la piscine** (tarifs fictifs)
+
+La piscine municipale propose deux tarifs :
+- **Tarif A** : 6 € l'entrée ;
+- **Tarif B** : une carte annuelle à 30 €, puis 3,50 € l'entrée.
+
+On note x le nombre d'entrées dans l'année, f(x) le prix payé avec le tarif A et g(x) le prix payé avec le tarif B, en euros.
+
+1) Calcule le prix payé pour 10 entrées avec chaque tarif.
+2) Exprime f(x) et g(x) en fonction de x. Laquelle de ces deux fonctions est linéaire ?
+3) Résous l'équation 6x = 3,5x + 30. Que représente la solution ?
+4) Inès prévoit d'aller 15 fois à la piscine. Quel tarif lui conseilles-tu ? Quel pourcentage économise-t-elle par rapport à l'autre tarif (arrondi à l'unité) ?`,
+        electricite: `**Exercice 4 : la consommation d'électricité** (données fictives)
+
+Une famille a relevé sa consommation d'électricité, en kWh, pendant six mois. Elle a saisi les données dans un tableur :
+
+| | A | B | C | D | E | F | G | H |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Mois | janv. | févr. | mars | avril | mai | juin | Total |
+| 2 | Consommation (kWh) | 420 | 380 | 350 | 290 | 240 | 210 | |
+
+1) Quelle formule faut-il écrire dans la cellule H2 pour calculer la consommation totale ?
+2) Calcule la consommation moyenne par mois, puis la consommation médiane.
+3) Calcule le pourcentage d'évolution de la consommation entre janvier et juin.
+4) Le kWh coûte 0,25 € (prix fictif). Combien la famille a-t-elle payé pour ces six mois ?`,
+        programmes: `**Exercice 5 : deux programmes de calcul**
+
+**Programme A** :
+- choisir un nombre ;
+- lui ajouter 1 ;
+- élever le résultat au carré ;
+- soustraire le carré du nombre de départ.
+
+**Programme B** : il est écrit avec Scratch.
+~~~
+quand drapeau vert cliqué
+demander Choisis un nombre et attendre
+mettre résultat à 2 × réponse + 1
+dire résultat
+~~~
+
+1) Vérifie que, si l'on choisit 3, les deux programmes donnent 7.
+2) Quel résultat donne le programme A si l'on choisit −5 ?
+3) On appelle x le nombre choisi. Montre que les deux programmes donnent toujours le même résultat.
+4) Quel nombre faut-il choisir pour obtenir 25 ?
+5) Lucas affirme : « Avec un nombre entier au départ, le résultat est toujours un nombre impair. » A-t-il raison ?`,
+      },
+      exercices: [
+        {
+          type: "saisie",
+          texte: "bonbons",
+          question: "Question 3 : combien de sachets le confiseur peut-il faire au maximum ?",
+          reponses: ["36", "36 sachets"],
+          explication: "Le nombre de sachets doit diviser 252 et 180 : on cherche leur plus grand diviseur commun. 252 = 2² × 3² × 7 et 180 = 2² × 3² × 5, donc ce plus grand diviseur commun est 2² × 3² = **36**.",
+        },
+        {
+          type: "redaction",
+          texte: "bonbons",
+          question: "Corrige ta copie de l'exercice 1 (les sachets de bonbons) : rédige les réponses aux questions 1 à 4.",
+          corrige: `1) 252 = 2 × 126 = 2 × 2 × 63 = 2 × 2 × 3 × 21 = 2 × 2 × 3 × 3 × 7, donc **252 = 2² × 3² × 7**.
+180 = 2 × 90 = 2 × 2 × 45 = 2 × 2 × 3 × 15 = 2 × 2 × 3 × 3 × 5, donc **180 = 2² × 3² × 5**.
+
+2) 252 ÷ 24 = 10,5 : ce n'est pas un nombre entier, 24 ne divise pas 252. **Il ne peut pas faire 24 sachets** (on ne peut pas mettre 10,5 caramels par sachet).
+
+3) Le nombre de sachets doit être un diviseur commun de 252 et 180. Le plus grand est 2² × 3² = **36** (les facteurs premiers communs).
+Chaque sachet contient 252 ÷ 36 = **7 caramels** et 180 ÷ 36 = **5 chocolats**.
+
+4) Un sachet contient 7 + 5 = 12 bonbons, dont 7 caramels. Chaque bonbon a la même chance d'être pris :
+**P(caramel) = 7/12** (≈ 0,58).`,
+        },
+        {
+          type: "saisie",
+          texte: "rampe",
+          question: "Question 1 : calcule la longueur AC de la piste, en mètres.",
+          reponses: ["5", "5 m"],
+          explication: "Le triangle ABC est rectangle en B. D'après le théorème de Pythagore : AC² = 4,8² + 1,4² = 23,04 + 1,96 = 25, donc AC = **5 m**.",
+        },
+        {
+          type: "redaction",
+          texte: "rampe",
+          question: "Corrige ta copie de l'exercice 2 (la rampe de skate) : rédige les réponses aux questions 1 à 4.",
+          corrige: `1) Le triangle ABC est rectangle en B. D'après le théorème de Pythagore :
+AC² = AB² + BC² = 4,8² + 1,4² = 23,04 + 1,96 = 25, donc AC = √25 = **5 m**.
+**La piste mesure 5 m.**
+
+2) Dans le triangle ABC rectangle en B, [BC] est le côté opposé à l'angle BAC et [AB] le côté adjacent :
+tan(BAC) = BC ÷ AB = 1,4 ÷ 4,8, donc l'angle BAC ≈ **16°** (16,26…).
+(On peut aussi utiliser sin(BAC) = 1,4 ÷ 5 = 0,28, qui donne le même angle.)
+
+3) 16° < 20° : **la rampe convient aux débutants**.
+
+4) Le poteau [DE] et [BC] sont tous deux perpendiculaires au sol (AB) : ils sont donc **parallèles**.
+Les points A, D, B sont alignés, ainsi que A, E, C. D'après le théorème de Thalès :
+AD/AB = DE/BC, soit 3/4,8 = DE/1,4.
+DE = 1,4 × 3 ÷ 4,8 = 0,875 m.
+**Le poteau mesure 87,5 cm.**`,
+        },
+        {
+          type: "qcm",
+          texte: "tarifs",
+          question: "Question 1 : quels prix paie-t-on pour 10 entrées ?",
+          choix: ["Tarif A : 60 € ; tarif B : 35 €", "Tarif A : 60 € ; tarif B : 65 €", "Tarif A : 16 € ; tarif B : 65 €", "Tarif A : 60 € ; tarif B : 335 €"],
+          reponse: 1,
+          explication: "Tarif A : 6 × 10 = 60 €. Tarif B : 30 + 3,5 × 10 = 30 + 35 = 65 €. 16 € additionne 6 et 10 au lieu de multiplier ; 35 € oublie la carte annuelle ; 335 € vient de (30 + 3,5) × 10, qui compte la carte à chaque entrée.",
+        },
+        {
+          type: "redaction",
+          texte: "tarifs",
+          question: "Corrige ta copie de l'exercice 3 (la piscine) : rédige les réponses aux questions 1 à 4.",
+          corrige: `1) Tarif A : 6 × 10 = **60 €**. Tarif B : 30 + 3,50 × 10 = 30 + 35 = **65 €**.
+
+2) **f(x) = 6x** et **g(x) = 3,5x + 30**.
+f est de la forme ax : **f est linéaire** (le prix est proportionnel au nombre d'entrées). g est affine mais pas linéaire (à cause des 30 € de la carte).
+
+3) 6x = 3,5x + 30
+6x − 3,5x = 30
+2,5x = 30
+x = 30 ÷ 2,5 = **12**.
+Pour **12 entrées**, les deux tarifs coûtent le même prix : 6 × 12 = 72 € (et 30 + 3,5 × 12 = 72 €).
+
+4) Pour 15 entrées : tarif A : 6 × 15 = 90 € ; tarif B : 30 + 3,5 × 15 = 82,50 €.
+**Je lui conseille le tarif B.**
+Économie : 90 − 82,50 = 7,50 €, soit 7,50 ÷ 90 ≈ 0,083, environ **8 %** du prix avec le tarif A.`,
+        },
+        {
+          type: "saisie",
+          texte: "electricite",
+          question: "Question 2 : calcule la consommation moyenne par mois, en kWh.",
+          reponses: ["315", "315 kWh"],
+          explication: "Total : 420 + 380 + 350 + 290 + 240 + 210 = 1 890 kWh. Moyenne : 1 890 ÷ 6 = **315 kWh** par mois.",
+        },
+        {
+          type: "redaction",
+          texte: "electricite",
+          question: "Corrige ta copie de l'exercice 4 (la consommation d'électricité) : rédige les réponses aux questions 1 à 4.",
+          corrige: `1) **=SOMME(B2:G2)** (ou =B2+C2+D2+E2+F2+G2). La cellule affiche 1 890.
+
+2) Moyenne : 1 890 ÷ 6 = **315 kWh** par mois.
+Médiane : série rangée 210 ; 240 ; 290 ; 350 ; 380 ; 420. Il y a 6 valeurs (nombre pair) : la médiane est la moyenne des 3e et 4e valeurs, (290 + 350) ÷ 2 = **320 kWh**.
+
+3) Évolution : (210 − 420) ÷ 420 = −210 ÷ 420 = −0,5.
+**La consommation a baissé de 50 %** entre janvier et juin (elle a été divisée par 2).
+
+4) 1 890 × 0,25 = 472,5. **La famille a payé 472,50 €.**`,
+        },
+        {
+          type: "saisie",
+          texte: "programmes",
+          question: "Question 2 : quel résultat donne le programme A si l'on choisit −5 ?",
+          reponses: ["-9"],
+          explication: "−5 + 1 = −4 ; (−4)² = 16 ; le carré du nombre de départ est (−5)² = 25 ; 16 − 25 = **−9**. (Le programme B donne bien 2 × (−5) + 1 = −9 aussi.)",
+        },
+        {
+          type: "redaction",
+          texte: "programmes",
+          question: "Corrige ta copie de l'exercice 5 (deux programmes de calcul) : rédige les réponses aux questions 1 à 5.",
+          corrige: `1) Programme A : 3 + 1 = 4 ; 4² = 16 ; 16 − 3² = 16 − 9 = **7**.
+Programme B : 2 × 3 + 1 = **7**. Les deux programmes donnent bien 7.
+
+2) −5 + 1 = −4 ; (−4)² = 16 ; 16 − (−5)² = 16 − 25 = **−9**.
+
+3) Programme A : (x + 1)² − x² = x² + 2x + 1 − x² = **2x + 1** (identité remarquable (a + b)² = a² + 2ab + b²).
+Programme B : **2x + 1**.
+Les deux expressions sont égales pour tout nombre x : **les deux programmes donnent toujours le même résultat**.
+
+4) On résout 2x + 1 = 25 : 2x = 24, donc **x = 12**.
+(Vérification : 13² − 12² = 169 − 144 = 25.)
+
+5) Si x est un entier, 2x est un nombre pair, et 2x + 1 est le nombre qui suit un nombre pair : il est **impair**. **Lucas a raison.**`,
         },
       ],
     },

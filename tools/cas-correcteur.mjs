@@ -246,4 +246,20 @@ export default [
   ["8.4", ["8.40"], false, false, "What time does the bus leave?"],
   ["8.40", ["8.40"], false, true, "What time does the bus leave?"],
   ["8:40", ["8.40"], false, true, "What time does the bus leave?"],
+  // nombres en lettres qui ne se composent pas : l'ordre des mots compte
+  ["fifteen nine", ["nine fifteen"], false, false],
+  ["nine fifteen", ["nine fifteen"], false, true],
+  ["deux trois", ["5"], "fr", false],
+  ["dix-sept", ["17"], "fr", true],
+  ["quatre-vingt-dix-neuf", ["99"], "fr", true],
+  ["one hundred and five", ["105"], false, true],
+  // « do not you » n'est pas une question tag
+  ["do not you", ["don't you"], false, false],
+  ["is not it?", ["isn't it?"], false, false],
+  ["I do not like it", ["I don't like it"], false, true],
+  // nombre seul : comparé à l'unité de la première réponse seulement
+  ["450", ["0,45 A", "450 mA"], false, false],
+  ["450 mA", ["0,45 A", "450 mA"], false, true],
+  ["0,07", ["7 cm", "0,07 m"], false, false],
+  ["7", ["7 cm", "0,07 m"], false, true],
 ];

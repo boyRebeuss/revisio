@@ -712,6 +712,8 @@ La notation utilise les **mêmes quatre critères** que l'e-mail (Content, Commu
 | conclure | *All in all, / To sum up, / So, what about you?* |
 
 > **À retenir** : un **titre**, une **ouverture qui interpelle**, **toutes les questions** traitées avec des exemples, **ton avis**, une **conclusion**. Écris pour un lecteur de ton âge : un texte vivant vaut mieux qu'une liste de réponses.
+
+Pour voir comment chaque critère est noté sur une copie faible puis améliorée : chapitre « Writing Part 2 : comprendre la note, critère par critère ».
 `,
       exercices: [
         { type: "qcm", question: "In Writing Part 2, how do you choose your task?", choix: ["You must write both the article and the story.", "The examiner chooses for you.", "You write the story only if you finish the e-mail early.", "You choose to write either the article or the story."], reponse: 3, explication: "En Part 2, tu **choisis un seul sujet** : l'article **ou** l'histoire. Choisis celui pour lequel tu as le plus d'idées et de vocabulaire." },
@@ -739,10 +741,11 @@ Write **about 100 words**.`, corrige: `**Model answer (106 words)**
 
 *Who do you admire most?*
 
-**Pourquoi ce texte réussit**
-- **Titre**, question d'ouverture, question finale au lecteur.
-- **Les trois questions** : qui (*my grandmother*), ce qu'elle a fait (études, infirmière), la leçon (*never give up*).
-- **Langue B1** : prétérit, *when*, *so*, *even when*, *it's never too late to...*` },
+**Critères (sur 20)**
+- **Content (5)** : **les trois questions** sont traitées et développées : qui (*my grandmother, Lucie*), ce qu'elle a fait (travail le jour, études le soir, infirmière pendant trente-cinq ans), la leçon (*never give up*, *never too late*).
+- **Communicative Achievement (5)** : titre qui intrigue, question d'ouverture qui implique le lecteur, question finale (*Who do you admire most?*) ; un exemple de vie concret et touchant plutôt qu'une liste de qualités.
+- **Organisation (5)** : un paragraphe par question, dans l'ordre de l'annonce ; *When, but, So, At the age of thirty, also*.
+- **Language (5)** : prétérit (*wanted, worked, became*), *didn't have enough money*, *even when*, *it's never too late to...*, *follow your dreams* ; aucune faute.` },
         { type: "redaction", question: `**Writing Part 2 (article).** You see this announcement on a school website.
 
 **Can you live without the internet?**
@@ -761,10 +764,11 @@ Write **about 100 words**.`, corrige: `**Model answer (101 words)**
 
 *So could I do it? Maybe... but only for one week!*
 
-**Points forts**
-- **Conditionnel 2** (*If I had..., I would miss*) pour une situation imaginaire, exactement ce que demande la question.
-- Connecteurs **However, because, so** ; aveu (*I must admit*) ; ton vivant et humoristique.
-- Les trois questions sont traitées dans l'ordre, chacune dans un paragraphe.` },
+**Critères (sur 20)**
+- **Content (5)** : les trois questions sont traitées dans l'ordre : le temps en ligne (trois heures, avec quoi), ce qui manquerait (les discussions de groupe, et pourquoi), ce qui serait mieux (le sommeil, la lecture).
+- **Communicative Achievement (5)** : titre vivant (*No way!*), question d'ouverture, aveu (*I must admit*), fin humoristique (*Maybe... but only for one week!*) : on a envie de lire jusqu'au bout.
+- **Organisation (5)** : un paragraphe par question ; connecteurs **However, because, so**.
+- **Language (5)** : **conditionnel 2** (*If I had..., I would miss*) pour une situation imaginaire, exactement ce que demande la question ; *I might read*, *I would feel left out*, relative (*the books that are waiting on my shelf*).` },
       ],
     },
 
@@ -811,6 +815,8 @@ Si tu choisis l'histoire, on te donne **la première phrase** : ton récit doit 
 - Oublier la **fin** parce qu'on n'a plus de place : prévois-la dès le brouillon.
 
 > **À retenir** : commence **par la phrase imposée**, raconte au **prétérit** (avec du prétérit continu et du *past perfect*), varie les connecteurs de temps, ajoute des sentiments et un peu de dialogue, et termine vraiment l'histoire.
+
+Pour voir comment chaque critère est noté sur une copie faible puis améliorée : chapitre « Writing Part 2 : comprendre la note, critère par critère ».
 `,
       exercices: [
         { type: "vf", question: "Dans l'histoire de la Part 2, tu peux changer un peu la première phrase imposée si cela t'arrange.", reponse: false, explication: "Faux : l'histoire doit commencer **exactement** par la phrase donnée, avec le même personnage et le même temps." },
@@ -833,10 +839,11 @@ Write your story in **about 100 words**.`, corrige: `**Model answer (102 words)*
 
 *When the storm finally stopped, he showed us the way home. We never forgot his kindness.*
 
-**Points forts**
-- La phrase imposée est reprise **mot pour mot** ; même narrateur (*I*).
-- **Temps du récit** : prétérit continu (*were coming*), *past perfect* (*had planned*), prétérit.
-- Connecteurs : *within minutes, Slowly, After an hour, When... finally* ; dialogue ; sentiments ; une **vraie fin**.` },
+**Critères (sur 20)**
+- **Content (5)** : la phrase imposée est reprise **mot pour mot**, avec le même narrateur (*I*) ; l'histoire suit logiquement (tempête → demi-tour → refuge → retour) et a une **vraie fin**.
+- **Communicative Achievement (5)** : du suspense (*we could hardly see the path*), une réplique (*“We have to go back,” I said*), des sentiments (*Tom looked terrified*), une fin qui donne une leçon (*We never forgot his kindness*).
+- **Organisation (5)** : quatre paragraphes dans l'ordre chronologique ; connecteurs de temps variés : *within minutes, Slowly, After an hour, When... finally*.
+- **Language (5)** : **temps du récit** : prétérit continu (*were coming*), *past perfect* (*had planned*), prétérit ; *so that*, *hardly* ; vocabulaire précis (*hut, shepherd, blankets*).` },
         { type: "redaction", question: `**Writing Part 2 (story).** Your story must begin with this sentence:
 **The message on my phone said: “Meet me at the station at 6 o'clock. Don't be late!”**
 Write your story in **about 100 words**.`, corrige: `**Model answer (98 words)**
@@ -849,7 +856,11 @@ Write your story in **about 100 words**.`, corrige: `**Model answer (98 words)**
 
 *It was the best surprise ever.*
 
-**Points forts** : la phrase est reprise exactement ; relative (*who lives in London*) ; *past perfect* (*hadn't seen, had decided, had told*) ; suspense (*Suddenly*), dialogue, chute.` },
+**Critères (sur 20)**
+- **Content (5)** : la phrase est reprise **exactement**, guillemets compris ; l'histoire explique le message (qui l'a envoyé, pourquoi) et se termine.
+- **Communicative Achievement (5)** : suspense (*I couldn't see Lisa. Suddenly, someone covered my eyes*), dialogue (*“Guess who?”*), **chute** (personne ne l'avait prévenu).
+- **Organisation (5)** : quatre paragraphes ; *all the way, at five to six, Suddenly, there she was*.
+- **Language (5)** : relative (*who lives in London*), *past perfect* (*hadn't seen, had decided, had told*), *turned round*, *the best surprise ever*.` },
       ],
     },
 
@@ -998,6 +1009,8 @@ Tu ne connais pas toujours le mot exact : **décris autrement** (*It's a kind of
 Réponds en trois temps : **avis** + **raison** + **exemple**. *Do you prefer doing sport alone or with friends?* → *I prefer doing sport with friends, because it's more fun. For example, every Wednesday I play volleyball with my classmates.*
 
 > **À retenir** : développe tes réponses (jamais seulement *Yes* ou *No*), décris la photo **pendant une minute** avec le présent continu et des hypothèses, **interagis** en Part 3 (propose, demande l'avis, réagis), et justifie toujours ton opinion en Part 4.
+
+Pour t'entraîner davantage aux Parts 2 et 3 (photos, images, petits mots qui piègent) : chapitre « Speaking Parts 2 et 3 : décrire une photo, discuter à partir d'images ».
 `,
       exercices: [
         { type: "qcm", question: "In Speaking Part 2, what do you have to do?", choix: ["discuss some drawings with your partner", "ask the examiner questions", "answer questions about your name and your family", "talk about a photograph on your own for about a minute"], reponse: 3, explication: "Part 2 = **description d'une photo, seul, environ une minute**. La discussion à partir de dessins, c'est la Part 3 ; les questions personnelles, la Part 1." },
@@ -1785,7 +1798,7 @@ Dans l'appli, l'appariement de la Part 2 et les phrases de la Part 4 sont prése
 | **Listening** (35 à 59) | **environ 30 minutes** | fais-toi lire chaque transcription **deux fois** sans la regarder ; sinon, lis-la **une seule fois** |
 | **Speaking** (60) | **10 à 12 minutes** à deux | à voix haute, avec un partenaire ou un adulte, chronométré |
 
-Le Speaking peut avoir lieu un autre jour que les épreuves écrites. Tu peux donc faire cet examen blanc **en deux séances** : Reading et Writing d'abord, puis Listening et Speaking.
+Selon le centre d'examen, le Speaking peut avoir lieu le même jour ou un autre jour que les épreuves écrites (le British Council le précise : vérifie ta convocation). Tu peux donc faire cet examen blanc **en deux séances** : Reading et Writing d'abord, puis Listening et Speaking.
 
 - Si une question te bloque, **réponds quand même** : une erreur ne fait pas perdre de points.
 - En Reading Part 6 et en Listening Part 3, l'**orthographe** compte.
@@ -2132,6 +2145,207 @@ How did Amara feel at the beginning?`, choix: ["She was unsure because she had n
 3. **Semaine 3** : Speaking Part 2 avec un chronomètre (une minute pleine), puis refaire les parties ratées de cet examen blanc.
 
 **Repère** : ces pourcentages sont **indicatifs** ; le vrai score est donné sur l'échelle Cambridge (140 à 159 = B1, 160 et plus = B2).` },
+      ],
+    },
+    // ───────────────────────────── 20. Writing Part 2 : la grille critère par critère
+    {
+      id: "writing-criteres",
+      titre: "Writing Part 2 : comprendre la note, critère par critère",
+      theme: "Writing",
+      cours: `
+## Pourquoi travailler la grille ?
+Chaque texte du Writing est noté sur **20** : **quatre critères**, chacun de 0 à 5. Ce sont les mêmes pour l'e-mail, l'article et l'histoire, mais ils ne se gagnent pas de la même façon selon le type de texte. Si tu sais **ce que l'examinateur cherche** dans chaque critère, tu sais aussi **où tu perds des points** et comment te corriger.
+
+## Les quatre critères appliqués à l'article et à l'histoire
+| Critère | Dans un article | Dans une histoire |
+|---|---|---|
+| **Content** (le contenu) | **Toutes les questions** de l'annonce sont traitées, chacune avec un développement (raison, exemple). | L'histoire commence **par la phrase imposée**, elle suit logiquement et elle a une **vraie fin**. |
+| **Communicative Achievement** (l'effet sur le lecteur) | Un **titre**, une **question au lecteur**, un **avis** personnel, un ton vivant pour un lecteur de ton âge. | Le lecteur a **envie de connaître la suite** : décor, suspense, sentiments, un peu de dialogue. |
+| **Organisation** | Un **paragraphe par idée**, des connecteurs d'argumentation (*What's more, However, In my opinion*). | Un **ordre chronologique** clair, des connecteurs de temps (*At first, Suddenly, In the end*), des paragraphes. |
+| **Language** (la langue) | Vocabulaire d'opinion, comparatifs, conditionnel, relatives ; peu de fautes. | **Temps du récit** (prétérit, prétérit continu, *past perfect*), adjectifs de sentiment, verbes précis ; peu de fautes. |
+
+La grille de notation (5, 3, 1 pour chaque critère) est résumée dans le chapitre « Examen blanc écrit ». Les notes données ci-dessous sont des **estimations** pour t'entraîner : seul un examinateur Cambridge attribue la note officielle.
+
+## Une copie d'article faible, annotée
+>! **Sujet** : *Articles wanted! — My favourite free-time activity. What do you enjoy doing in your free time? Why do you like it? Would you recommend it to other teenagers?*
+>! **Copie (70 mots)**
+>! *My free-time activity*
+>! *I like many things. I like football, I like video games and I like music. Football is my favourite. I play football with my friends every wednesday. It is good. I like football because it is good for the health and I have many friends in the club. My team is very good, we win many match. I play since five years. Football is the best sport.*
+
+| Critère | Note estimée | Pourquoi |
+|---|---|---|
+| Content | 3 | Les deux premières questions sont traitées, mais la troisième (**le recommanderais-tu ?**) est oubliée. 70 mots : trop peu pour développer. |
+| Communicative Achievement | 2 | Une **liste de faits**, sans accroche ni question au lecteur ; *It is good* ne donne pas envie de lire. |
+| Organisation | 2 | Un seul bloc, des phrases surtout juxtaposées ; seulement *and* et *because*. |
+| Language | 2 | Répétitions (*like* cinq fois, *good* trois fois) ; fautes : *wednesday* → **Wednesday**, *many match* → **many matches**, *I play since five years* → **I've been playing for five years**. |
+
+Total estimé : **9 sur 20**.
+
+>! **La même copie, améliorée (104 mots)**
+>! **Why football is more than a game**
+>! *Do you have a hobby that makes you forget everything else? For me, it's football.*
+>! *I've been playing for five years in my town's club, and we train every Wednesday after school. What I love most is the team spirit: when we win, we celebrate together, and when we lose, nobody blames anyone. It's also great for your health, because you run for an hour without even noticing!*
+>! *Would I recommend it? Absolutely, even if you're not very good at first. Our club accepts everyone, and you'll make friends quickly.*
+>! *So why not give it a try?*
+
+| Critère | Note estimée | Ce qui a changé |
+|---|---|---|
+| Content | 5 | Les **trois questions** sont traitées, chacune avec une raison (*team spirit*, santé, club ouvert à tous). |
+| Communicative Achievement | 5 | Titre accrocheur, question d'ouverture, question finale ; le lecteur se sent concerné (*you'll make friends*). |
+| Organisation | 5 | Un paragraphe par question ; *and, when, because, even if, So*. |
+| Language | 4 à 5 | *I've been playing for*, *What I love most is...*, *without even noticing*, *even if* ; il n'y a plus de répétitions. |
+
+## Une copie d'histoire faible, annotée
+>! **Sujet** : *Your story must begin with this sentence:* **Mia heard a noise coming from the garden.**
+>! **Copie (58 mots)**
+>! *Mia heard a noise coming from the garden. She go to the window. She see a dog. The dog was very small and very dirty. Mia go in the garden and she give food to the dog. The dog eat the food. Then Mia call her mother. Then her mother come. Then they keep the dog. The end.*
+
+| Critère | Note estimée | Pourquoi |
+|---|---|---|
+| Content | 3 | La phrase imposée est respectée et l'histoire a une fin, mais tout est très mince (58 mots). |
+| Communicative Achievement | 2 | Aucun suspense, aucun sentiment ; *The end* ne remplace pas une vraie chute. |
+| Organisation | 2 | Un seul paragraphe ; *Then... Then... Then...* |
+| Language | 1 | Le récit passe au **présent** sans raison : *go, see, give, eat, call, come, keep* → **went, saw, gave, ate, called, came, kept**. Vocabulaire pauvre (*very small, very dirty*). |
+
+Total estimé : **8 sur 20**. Tu la réécriras dans les exercices.
+
+## Ma liste de relecture (deux minutes à la fin)
+1. **Content** : ai-je répondu à **chaque** question (article) ou commencé par la phrase **exacte** et écrit une fin (histoire) ?
+2. **Communicative Achievement** : un titre et une question au lecteur (article) ? du suspense, des sentiments, une réplique (histoire) ?
+3. **Organisation** : des paragraphes ? des connecteurs **variés** (pas trois *then*) ?
+4. **Language** : les **temps** (prétérit dans une histoire), les pluriels, les majuscules des jours et des mois, une ou deux phrases complexes ; environ **100 mots**.
+
+> **À retenir** : **Content** = tout ce qui est demandé ; **Communicative Achievement** = l'effet sur le lecteur ; **Organisation** = paragraphes et connecteurs ; **Language** = variété et justesse. Une copie de 70 mots, en liste, avec des fautes de temps, peut gagner **une dizaine de points** en suivant cette liste : c'est ce qui arrive aux deux copies de ce chapitre (9 → 19 ou 20 pour l'article, 8 → 19 ou 20 pour l'histoire réécrite en exercice).
+`,
+      exercices: [
+        { type: "qcm", question: "A student writes a good article but forgets to answer one of the three questions in the announcement. Which criterion is most affected?", choix: ["Organisation", "Language", "Content", "Communicative Achievement"], reponse: 2, explication: "**Content** vérifie que **tout ce qui est demandé** est traité. Une question oubliée fait baisser ce critère, même si le texte est bien écrit et bien organisé." },
+        { type: "qcm", question: "A story is written in one long paragraph and every sentence starts with *Then*. Which criterion is most affected?", choix: ["Organisation", "Content", "Communicative Achievement", "Language"], reponse: 0, explication: "Les paragraphes et la variété des connecteurs, c'est l'**Organisation**. Remplace les *Then* par *At first, After a while, Suddenly, In the end*, et fais des paragraphes." },
+        { type: "vf", question: "Un article qui répond à toutes les questions, mais sous forme de liste sèche, sans titre ni question au lecteur, peut perdre des points en *Communicative Achievement*.", reponse: true, explication: "Vrai : *Content* peut être bon (tout est dit), mais *Communicative Achievement* juge l'**effet sur le lecteur**. Un article doit intéresser : titre, accroche, avis, ton vivant." },
+        { type: "saisie", question: "Corrige le verbe de la copie de Mia (le récit est au prétérit) : *She ___ to the window.* (go)", reponses: ["went"], explication: "*Go* est irrégulier : *go, **went**, gone*. Dans une histoire, le récit reste au **prétérit**, comme la phrase imposée (*Mia heard...*)." },
+        { type: "saisie", question: "Corrige la faute de la copie d'article : *My team is very good, we win many ___.* (match)", reponses: ["matches"], explication: "Après *many*, le nom est au **pluriel** : *match* → **matches** (on ajoute **-es** après *-ch*, comme *watches, beaches*)." },
+        { type: "qcm", question: "Which sentence would most improve the **Language** mark of the football article?", choix: ["I like football very much and it is good.", "I've been playing football for five years, and what I love most is the team spirit.", "Football is good. Football is fun. Football is the best.", "I play football since five years with my friends."], reponse: 1, explication: "Present perfect continu avec *for* (*I've been playing for five years*) et tournure d'insistance (*what I love most is...*) : langue **variée et juste**. *since five years* est une faute (*since* + point de départ : *since 2021*) ; les autres phrases sont répétitives et pauvres." },
+        { type: "vf", question: "Un texte de 150 mots obtient automatiquement une meilleure note qu'un texte de 100 mots.", reponse: false, explication: "Faux : la longueur ne rapporte rien en elle-même. On demande **environ 100 mots** ; un texte trop court développe trop peu (*Content*), un texte trop long risque plus de fautes et de hors-sujet. Ce sont les quatre critères qui comptent." },
+        { type: "qcm", question: "An examiner writes this comment: *The writer uses the past continuous, the past perfect and adjectives such as “relieved” and “terrified” correctly.* Which criterion is this comment about?", choix: ["Content", "Organisation", "Communicative Achievement", "Language"], reponse: 3, explication: "Les temps et le vocabulaire, c'est la **Language** (variété et justesse). *Content* porte sur ce qui est dit, *Organisation* sur les paragraphes et les connecteurs, *Communicative Achievement* sur l'effet sur le lecteur." },
+        { type: "redaction", question: `Réécris l'histoire de Mia (copie du cours) pour qu'elle gagne des points dans **les quatre critères**. Garde la phrase imposée : **Mia heard a noise coming from the garden.** Écris **environ 100 mots**, puis indique en français ce que tu as amélioré pour chaque critère.`, corrige: `**Model answer (102 words)**
+
+*Mia heard a noise coming from the garden. It was almost midnight, and her parents were already sleeping. Nervously, she opened the curtains, but it was too dark to see anything.*
+
+*“Who's there?” she whispered. Nobody answered, but the noise came again: a soft, sad crying.*
+
+*Mia picked up her torch and went outside. Under the apple tree, there was a tiny puppy. It was wet and shaking with cold. Someone had left it there in a cardboard box.*
+
+*She carried it inside and gave it some milk. The next morning, her parents agreed to keep it. She named the puppy Midnight.*
+
+**Critères (note estimée sur 20 : 19 ou 20)**
+- **Content (5)** : la phrase imposée est reprise **mot pour mot** ; l'histoire suit logiquement (bruit → recherche → chiot → décision) et a une **vraie fin** (le nom du chiot rappelle l'heure du début).
+- **Communicative Achievement (5)** : du **suspense** (la nuit, le noir, *Nobody answered*), un **dialogue** (*“Who's there?”*), des sentiments (*Nervously*) ; le lecteur veut savoir d'où vient le bruit.
+- **Organisation (5)** : quatre paragraphes dans l'ordre chronologique ; des repères variés (*It was almost midnight, Nervously, Under the apple tree, The next morning*) au lieu de *Then... Then...*
+- **Language (4 à 5)** : **prétérit** partout (*opened, went, carried*), prétérit continu (*her parents were already sleeping*), **past perfect** (*Someone had left it*), vocabulaire précis (*whispered, torch, tiny, shaking with cold*).` },
+        { type: "redaction", question: `À toi d'être examinateur. Lis cette copie, donne une note estimée sur 5 pour **chaque critère**, justifie, puis corrige les **cinq** fautes de langue.
+
+**Sujet** : *Articles wanted! — The best place in your town. What is the best place in your town for teenagers? What can you do there? How could it be even better?*
+
+**Copie (97 mots)**
+*The best place in my town*
+*Hello readers! In my town, the best place for teenagers is the skate park near of the river.*
+*There you can skate, of course, but also meet friends and listen to music. Me and my friends goes there every saturday afternoon. It's really fun and it's free, so everybody can come.*
+*In my opinion, the skate park is great, but it isn't enough big. There aren't any toilets and there isn't a place to buy drinks. If they would build a small café, it would be perfect.*
+*Come and see it!*`, corrige: `**Notes estimées (total : environ 16 sur 20)**
+- **Content : 5.** Les **trois questions** sont traitées : le lieu (le skatepark), ce qu'on y fait (skate, amis, musique), comment l'améliorer (toilettes, boissons, un café). Longueur correcte.
+- **Communicative Achievement : 4.** Titre, adresse au lecteur (*Hello readers!*), avis personnel et fin qui interpelle (*Come and see it!*). Il manque une vraie accroche (une question : *Where do you go when you want to relax with friends?*) et le titre est un peu plat.
+- **Organisation : 4.** Paragraphes clairs, un par question ; connecteurs *but, so, In my opinion*. On pourrait varier davantage (*What's more, However*).
+- **Language : 3.** Des structures B1 (*There aren't any..., If... it would...*), mais cinq fautes.
+
+**Les cinq fautes corrigées**
+1. *near of the river* → **near the river** (*near* s'emploie sans *of*).
+2. *Me and my friends goes* → **My friends and I go** (sujet : *I*, pas *me* ; sujet pluriel : *go*).
+3. *saturday* → **Saturday** (majuscule aux jours en anglais).
+4. *it isn't enough big* → **it isn't big enough** (*enough* se place **après** l'adjectif).
+5. *If they would build* → **If they built** (pas de *would* après *if* : *If* + prétérit, *would* dans l'autre partie).` },
+      ],
+    },
+
+    // ───────────────────────────── 21. Speaking Parts 2 et 3 : photos et images
+    {
+      id: "speaking-photos",
+      titre: "Speaking Parts 2 et 3 : décrire une photo, discuter à partir d'images",
+      theme: "Speaking",
+      cours: `
+## Ce qui se passe à l'examen
+- **Part 2** : l'examinateur donne à chaque candidat **sa propre photo en couleur**, qui montre une scène de la vie quotidienne. Tu la décris **seul pendant environ une minute** ; ton partenaire écoute, puis c'est son tour avec une autre photo, sur un **autre thème**.
+- **Part 3** : l'examinateur décrit une **situation** et vous montre une feuille de **dessins** (une idée par dessin). Vous discutez **ensemble** des idées (2 à 3 minutes), puis vous essayez de choisir la meilleure (environ 4 minutes en tout pour cette partie). Cambridge le précise : vous n'êtes **pas obligés** de parler de tous les dessins ni de vous mettre d'accord ; ne décidez surtout pas dès le début, sinon vous n'aurez plus rien à dire.
+
+Dans l'appli, il n'y a pas d'images : les photos et les dessins sont **décrits avec des mots**. Pour t'entraîner vraiment, prends de **vraies photos** : celles de ton téléphone, d'un magazine, d'un site d'actualité. Choisis une photo avec des **gens qui font quelque chose**, mets un chronomètre sur **une minute** et parle sans t'arrêter.
+
+## Part 2 : la méthode en cinq étapes
+| Étape | Question à te poser | Phrases utiles |
+|---|---|---|
+| 1. Le lieu | Où est-ce ? | *This photo shows... / It looks like a market. / It was probably taken in...* |
+| 2. Les personnes | Qui vois-je ? | *There's a woman with long hair... / a man with a beard / a young boy who is...* |
+| 3. Les actions | Que font-ils ? (**présent continu**) | *She's choosing... / He's holding... / They're laughing.* |
+| 4. Les détails | Où sont les choses ? | *In the foreground / In the background / On the left / On the right / In the middle / next to / behind / in front of* |
+| 5. Les hypothèses | Que peut-on deviner ? | *It might be... / They could be... / It must be summer, because... / She looks tired.* |
+
+## Les petits mots qui piègent
+| Pour... | Correct | Erreur fréquente |
+|---|---|---|
+| un vêtement | *She's **wearing** a red jacket.* | *She's carrying a red jacket* (= elle la porte à la main) |
+| situer | ***In** the background, **on** the left* | *at the background* |
+| l'apparence + adjectif | *He **looks** happy.* | *He looks like happy* |
+| l'apparence + nom | *She **looks like** a teacher.* | *She looks a teacher* |
+| une hypothèse | *They **might be** brothers.* | *They might are brothers* (après un modal : base verbale) |
+
+## Quand un mot te manque
+Ne t'arrête pas : **décris autrement**. *It's a kind of..., It's something you use to..., It's the place where...* Exemple : tu ne connais pas *stall* (un étal de marché) → *a kind of table where people sell fruit*. L'examinateur valorise cette stratégie.
+
+## Quand tu as encore du temps
+Si tu as tout décrit avant la minute, ajoute : **la météo et la saison** (*It looks sunny, so it might be summer*), **les sentiments** (*Everybody looks relaxed*), **ce qui s'est passé avant ou va se passer** (*Maybe they've just finished school*).
+
+## Part 3 : travailler sans les dessins
+Fais-toi lire la situation et la liste des idées, puis imagine chaque dessin. Pour chaque idée, dis **un avantage ou un inconvénient**, puis **compare** et **choisis** :
+>! *A group of friends want to celebrate the end of the school year. Ideas : a picnic, a film at the cinema, a party at someone's house, a day at the beach, a meal in a restaurant.*
+>! *A : Let's start with the picnic. It's cheap, but what if it rains?*
+>! *B : Good point. The beach would be more fun, but it's a long way from here, isn't it?*
+>! *A : That's true. So what do you think about a party? It's the easiest to organise.*
+>! *B : I agree. Shall we choose the party, then?*
+
+> **À retenir** : Part 2 = **lieu, personnes, actions (présent continu), détails situés, hypothèses**, pendant une minute, en contournant les mots qui manquent. Part 3 = **chaque idée** avec un argument, une **comparaison**, puis une **décision** à deux. Entraîne-toi avec de **vraies photos** et un chronomètre.
+`,
+      exercices: [
+        { type: "saisie", question: "Complète pour décrire une photo : *She's ___ a red jacket and a blue scarf.* (porter un vêtement)", reponses: ["wearing"], explication: "Pour un vêtement qu'on a sur soi : **wear** → *She's wearing*. *Carry* veut dire porter à la main ou dans les bras." },
+        { type: "qcm", question: "Choose the correct sentence to describe a photo.", choix: ["At the background, there are some mountains.", "In the background, there are some mountains.", "On the background, there is some mountains.", "In background there are some mountains."], reponse: 1, explication: "On dit **In the background** (à l'arrière-plan), **in the foreground** (au premier plan), avec *the*. Et *there are* avec un pluriel (*some mountains*)." },
+        { type: "qcm", question: "Which sentence is correct?", choix: ["They might are brothers.", "They might to be brothers.", "They might being brothers.", "They might be brothers."], reponse: 3, explication: "Après un modal (**might, may, could, must**), le verbe est à la **base verbale**, sans *to* : *They might be brothers*." },
+        { type: "saisie", question: "Complète : *The man in the photo looks ___ a doctor, because he's wearing a white coat.* (un mot)", reponses: ["like"], explication: "**Look like** + nom = ressembler à : *He looks like a doctor*. Avec un adjectif, pas de *like* : *He looks tired*." },
+        { type: "qcm", question: "In your photo there is a *stall* at a market, but you don't remember the word. What is the best thing to say?", choix: ["There is a... I don't know. Sorry.", "There's a kind of table where people sell fruit and vegetables.", "There is a stand, euh, un étal.", "There is a thing."], reponse: 1, explication: "On **contourne** le mot : *a kind of table where people sell...* L'examinateur comprend et la description continue. S'arrêter, dire le mot en français ou rester vague (*a thing*) fait perdre des points." },
+        { type: "vf", question: "En Part 2, si tu as tout décrit avant la fin de la minute, tu peux ajouter des hypothèses sur la saison, les sentiments des personnes ou ce qu'elles viennent de faire.", reponse: true, explication: "Vrai : les **hypothèses** (*It might be summer, They look tired, Maybe they've just finished school*) font parler plus longtemps et montrent une langue variée (modaux, *look* + adjectif, present perfect)." },
+        { type: "saisie", question: "Complète : *On the right, there ___ two dogs next to the bench.* (un mot)", reponses: ["are"], explication: "*There are* + pluriel (*two dogs*) ; *there is* + singulier (*a dog*)." },
+        { type: "qcm", question: `**Speaking Part 3.** *Your class wants to do something together at the weekend. Ideas : a bike ride, bowling, a museum visit, a cooking class, a football match.* Your partner says: *I think bowling is the best idea.* What is the best answer?`, choix: ["Yes. Bowling.", "No, the museum.", "Maybe, but it can be quite expensive for a big group. What about a bike ride? It's free and everyone can come.", "I like bowling and I like football and I like cooking."], reponse: 2, explication: "Une bonne réponse en Part 3 **réagit** (*Maybe, but...*), donne un **argument** (le prix) et **propose** autre chose avec une raison. Les réponses d'un ou deux mots n'aident pas la discussion ; la liste de goûts ne répond pas au partenaire." },
+        { type: "redaction", question: `**Speaking Part 2.** Imagine cette photo et décris-la pendant **une minute** (écris environ 100 mots, puis dis-le à voix haute avec un chronomètre).
+*Photo : un marché en plein air, sur une place de ville, un matin ensoleillé. Au premier plan, une femme avec un panier plein de légumes choisit des pommes. Derrière l'étal, un homme barbu pèse des tomates. À droite, un petit garçon mange une glace. À l'arrière-plan, de vieux immeubles avec des fleurs aux balcons.*`, corrige: `**Exemple de description (101 mots)**
+
+*In this photo, I can see an outdoor market in a town square. It's probably a Saturday morning, because there are lots of people and it looks sunny. In the foreground, a woman is choosing some apples from a stall. She's holding a basket, which is already full of vegetables. Behind the stall, a man with a beard is weighing some tomatoes. On the right, I can see a young boy who is eating an ice cream, so maybe it's quite warm. In the background, there are some old buildings with colourful flowers on the balconies. Everybody looks relaxed and cheerful.*
+
+**Ce qui est réussi (critères du Speaking)**
+- **Grammaire et vocabulaire** : présent continu (*is choosing, is weighing, is eating*), relatives (*which is already full, who is eating*), vocabulaire précis (*stall, weighing, balconies*).
+- **Organisation du discours** : un ordre clair (lieu → premier plan → derrière → à droite → arrière-plan → impression générale) ; *because, so, maybe*.
+- **Hypothèses** (elles comptent dans les deux critères : modaux et adverbes variés, et la minute est remplie sans pause) : *It's probably a Saturday morning*, *maybe it's quite warm* ; impression finale (*Everybody looks relaxed*).` },
+        { type: "redaction", question: `**Speaking Parts 3 et 4.** Fais-toi lire la situation (ou lis-la une fois), imagine les dessins, puis écris une discussion d'environ 8 répliques entre toi (A) et un partenaire (B), et tes réponses aux questions de la Part 4.
+
+**Part 3.** *A group of students wants to spend a day helping people in their town. Here are some ideas : cleaning the river banks, painting a wall at the primary school, reading to elderly people in a care home, collecting food for a food bank, planting trees in the park. Talk together about the different ideas and say which would be the most useful.*
+
+**Part 4.** *Have you ever helped in your town or your school? / Is it better to help people or to help the environment? Why?*`, corrige: `**Exemple de discussion (Part 3)**
+
+*A : Shall we start with cleaning the river banks? It's useful, because rubbish in the river is dangerous for fish.*
+*B : That's true, but it might not be very safe for students. What do you think about reading to elderly people?*
+*A : I like that idea. Lots of old people feel lonely, and it doesn't cost anything. But would it help many people?*
+*B : Good point. Collecting food could help more families, couldn't it?*
+*A : I agree, and everyone can bring something. Planting trees is nice too, but it's only useful in the long term.*
+*B : So shall we choose the food collection?*
+*A : Yes, I think that's the most useful idea.*
+
+**Exemple de réponses (Part 4)** : *Yes, I have. Last year, our class collected old books for a library in our town, and I helped to sort them. / I think we need to do both, but helping people comes first for me, because you can see the results immediately. For example, a food collection helps a family the same day.*
+
+**Ce qui est attendu** : chaque idée reçoit un **argument** (*because, but*) ; on **demande l'avis** (*What do you think about...?*), on **réagit** (*Good point, That's true*), on **compare** (*could help more families, the most useful*) et on **décide ensemble** (*So shall we choose...?*). En Part 4 : avis + raison + exemple.` },
       ],
     },
   ],

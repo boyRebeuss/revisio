@@ -178,6 +178,9 @@ th { background: color-mix(in srgb, var(--c) 10%, transparent); }
 .choix.mauvais { background: color-mix(in srgb, var(--rouge) 15%, transparent); border-color: var(--rouge); }
 .saisie { display: flex; gap: 8px; }
 .saisie .champ { flex: 1; }
+.accents { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.accent { min-width: 38px; height: 38px; padding: 0 8px; border: 1px solid var(--bord, #d0d5dd); border-radius: 8px; background: var(--carte, #fff); color: inherit; font-size: 1.1rem; cursor: pointer; }
+.accent:active { transform: scale(0.95); }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
 .question-auto { font-weight: 600; }
 .corrige h4, .retour h4 { margin: 14px 0 4px; }

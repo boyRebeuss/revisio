@@ -1208,5 +1208,640 @@ Le **15 novembre 2022**, selon l'ONU, l'humanité a atteint **8 milliards** d'ha
 **4. Titre** : par exemple « De la fondation de Rome au christianisme impérial ». On peut aussi colorier des **périodes** sous forme de bandes : la République (509-27 av. J.-C.), l'Empire (à partir de 27 av. J.-C.).` },
       ],
     },
+    {
+      id: "se-reperer-temps",
+      titre: "Se repérer dans le temps : mesurer et découper le temps",
+      theme: "Histoire – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre correspond au **thème introductif** du nouveau programme de 6e (applicable à la rentrée 2027) : « Se repérer dans le temps ». Il complète le chapitre « Méthode ». Comment les humains mesurent-ils le temps ? Et comment les historiens le découpent-ils en grandes **périodes** ?
+
+## 1. Les unités de temps
+| Unité | Durée |
+|---|---|
+| 1 minute | 60 secondes |
+| 1 heure | 60 minutes |
+| 1 jour | 24 heures (une rotation de la Terre sur elle-même) |
+| 1 semaine | 7 jours |
+| 1 mois | 28 à 31 jours |
+| 1 année | 365 jours, ou 366 les années bissextiles (un tour de la Terre autour du Soleil) |
+| 1 siècle | 100 ans |
+| 1 millénaire | 1 000 ans |
+
+- Le jour et l'année viennent de la **nature** (mouvements de la Terre). La semaine, l'heure, la minute ou le siècle sont des **inventions humaines** : ce sont des **conventions** (des règles sur lesquelles on se met d'accord).
+
+## 2. Les instruments de mesure du temps
+| Instrument | Comment il fonctionne | Quand ? |
+|---|---|---|
+| **horloge solaire** (cadran solaire) | l'ombre d'une tige tourne avec le Soleil | dès l'Antiquité (Égypte) |
+| **clepsydre** | horloge à eau : un récipient se vide goutte à goutte | Égypte, vers 1400 av. J.-C. pour la plus ancienne connue |
+| **horloge mécanique** | des poids et des roues dentées font tourner les aiguilles | Europe, fin du XIIIe siècle |
+| **sablier** | le sable s'écoule d'une ampoule de verre à l'autre | Europe, Moyen Âge (XIVe siècle) |
+| **horloge à quartz** | un petit cristal de quartz vibre très régulièrement | XXe siècle (1927) |
+| **horloge atomique** | on compte les vibrations d'atomes (le césium) | XXe siècle (1955) |
+
+- Au fil des siècles, les instruments deviennent **de plus en plus précis** (le sablier, lui, sert surtout à mesurer une courte durée, par exemple sur les bateaux). Le cadran solaire ne marche pas la nuit ni par temps couvert ; une horloge atomique ne se trompe que d'une seconde en des millions d'années. Depuis **1967**, la **seconde** officielle est définie grâce aux atomes de césium.
+
+## 3. Compter les années : le calendrier
+- En France, on utilise le calendrier **chrétien** : on compte les années à partir de la naissance de Jésus (« J.-C. »). Ce calcul a été fait au VIe siècle par un moine, **Denys le Petit**. Il s'est sans doute trompé de quelques années : les historiens pensent que Jésus est né quelques années **avant** l'an 1 !
+- Il n'y a **pas d'an 0** : l'an 1 av. J.-C. est suivi directement de l'an 1 ap. J.-C. On écrit aussi « avant notre ère » et « de notre ère ».
+- D'autres calendriers existent : le calendrier **musulman** commence en **622** (l'Hégire, départ de Mahomet de La Mecque vers Médine) ; le calendrier **juif** et le calendrier **chinois** ont aussi leur propre point de départ.
+- Les **siècles** s'écrivent en **chiffres romains** : I = 1, V = 5, X = 10, L = 50, C = 100. Exemple : nous vivons au **XXIe siècle** (de 2001 à 2100).
+
+## 4. Les grandes périodes de l'histoire
+Les historiens découpent le temps en **périodes**. Ce découpage est une **convention**, née en Europe : les dates qui séparent les périodes sont des **choix**, et ils sont **discutés** (c'est pourquoi on donne parfois deux dates).
+
+| Période | De… | … à |
+|---|---|---|
+| **Préhistoire** | apparition des premiers humains | invention de l'écriture (IVe millénaire av. J.-C., vers 3300 av. J.-C.) |
+| **Antiquité** | invention de l'écriture | **395** (partage de l'Empire romain) ou **476** (fin de l'Empire romain d'Occident) |
+| **Moyen Âge** | 395 ou 476 | **1453** (prise de Constantinople par les Turcs ottomans) ou **1492** (Christophe Colomb atteint l'Amérique) |
+| **Temps modernes** | 1453 ou 1492 | **1789** (Révolution française) ou **1815** (fin de l'Empire de Napoléon) |
+| **Époque contemporaine** | 1789 ou 1815 | aujourd'hui |
+
+- En 6e, tu étudies surtout la **fin de la Préhistoire** et l'**Antiquité**. Le Moyen Âge est au programme de 5e.
+
+>! **Exemple résolu** : combien de siècles dure l'Antiquité si on la fait aller de 3300 av. J.-C. à 476 ? Une date avant J.-C. et une après : on **additionne**. 3 300 + 476 = **3 776 ans**, soit près de **38 siècles**. C'est la plus longue période après la Préhistoire, qui dure, elle, plusieurs millions d'années.
+
+>! **Erreur fréquente** : le changement de période n'est pas une rupture brutale. En 476, les habitants de l'Europe ne se sont pas réveillés « au Moyen Âge » ! Les historiens choisissent une date symbolique pour marquer un changement **lent**.
+
+> **À retenir** :
+> - Unités : seconde, minute, heure, jour, semaine, mois, année, **siècle** (100 ans), **millénaire** (1 000 ans).
+> - Instruments : horloge solaire, clepsydre, sablier, horloge mécanique, horloge à quartz, horloge atomique ; au fil des siècles, la mesure devient de plus en plus précise.
+> - Pas d'an 0 ; les siècles s'écrivent en chiffres romains (XXIe siècle).
+> - Cinq grandes périodes : **Préhistoire**, **Antiquité** (fin en 395/476), **Moyen Âge** (fin en 1453/1492), **Temps modernes** (fin en 1789/1815), **époque contemporaine**.
+> - Ce découpage est une **convention** des historiens, discutée.
+> - Vocabulaire : convention, calendrier, clepsydre, siècle, millénaire, période.
+`,
+      exercices: [
+        { type: "saisie", question: "Combien d'années y a-t-il dans un millénaire ? (réponds par un nombre)", reponses: ["1000", "1 000", "mille"], explication: "Un **millénaire** = **1 000 ans** = 10 siècles." },
+        { type: "qcm", question: "Qu'est-ce qu'une clepsydre ?", choix: ["Une horloge solaire qui utilise l'ombre d'une tige", "Une horloge à eau qui mesure le temps grâce à l'écoulement de l'eau", "Une horloge qui compte les vibrations des atomes", "Un calendrier égyptien"], reponse: 1, explication: "La **clepsydre** est une **horloge à eau** : on mesure le temps à la quantité d'eau écoulée. La plus ancienne connue vient d'Égypte (vers 1400 av. J.-C.). L'horloge à ombre est le cadran solaire ; celle qui compte les vibrations d'atomes est l'horloge atomique." },
+        { type: "vf", question: "Il existe une année 0 entre l'an 1 av. J.-C. et l'an 1 ap. J.-C.", reponse: false, explication: "Il n'y a **pas d'an 0** : l'an 1 av. J.-C. est suivi directement de l'an 1 ap. J.-C." },
+        { type: "qcm", question: "Quel instrument de mesure du temps est le plus précis ?", choix: ["Le sablier", "Le cadran solaire", "La clepsydre", "L'horloge atomique"], reponse: 3, explication: "L'**horloge atomique** (1955) compte les vibrations d'atomes de césium : elle ne se trompe que d'une seconde en des millions d'années. Depuis 1967, la seconde officielle est définie grâce à elle." },
+        { type: "saisie", question: "Comment s'appelle la période de l'histoire qui va de l'invention de l'écriture jusqu'à 476 ?", reponses: ["Antiquité", "l'Antiquité"], explication: "L'**Antiquité** commence avec l'écriture (vers 3300 av. J.-C.) et se termine en 476 (fin de l'Empire romain d'Occident), ou en 395 selon certains historiens." },
+        { type: "qcm", question: "Quelle période commence en 1789 (ou en 1815) et dure jusqu'à aujourd'hui ?", choix: ["L'époque contemporaine", "Les Temps modernes", "Le Moyen Âge", "L'Antiquité"], reponse: 0, explication: "L'**époque contemporaine** commence avec la Révolution française (1789) ou la fin de l'Empire de Napoléon (1815). Les Temps modernes vont de 1453/1492 à 1789/1815." },
+        { type: "saisie", question: "Écris le siècle dans lequel nous vivons, en chiffres romains (par exemple : XIXe).", reponses: ["XXIe", "XXI", "XXIe siècle", "le XXIe siècle", "XXI siècle"], explication: "Les années 2001 à 2100 forment le **XXIe siècle** : 20 centaines + 1 = 21, qui s'écrit **XXI** (X + X + I)." },
+        { type: "vf", question: "Les dates qui séparent les grandes périodes de l'histoire sont des choix des historiens, et ces choix sont discutés.", reponse: true, explication: "C'est une **convention** : par exemple, la fin de l'Antiquité est placée en 395 ou en 476, et la fin du Moyen Âge en 1453 ou en 1492. Ce découpage, né en Europe, ne convient d'ailleurs pas à toutes les régions du monde." },
+        { type: "qcm", question: "Combien d'années dure l'Antiquité si on la fait aller de 3300 av. J.-C. à 476 ap. J.-C. ?", choix: ["2 824 ans", "3 776 ans", "3 300 ans", "4 776 ans"], reponse: 1, explication: "Une date avant J.-C. et une date après : on **additionne**. 3 300 + 476 = **3 776 ans**, soit près de 38 siècles. (2 824 serait le résultat d'une soustraction, ce qui est faux ici.)" },
+        { type: "redaction", question: "**Paragraphe argumenté** : explique comment les humains ont appris à mesurer le temps de plus en plus précisément, puis comment les historiens découpent l'histoire en grandes périodes. Montre que ce découpage est une convention.", corrige: `**Introduction** : pour se repérer dans le temps, les humains ont inventé des instruments de mesure et des façons de compter les années ; les historiens, eux, découpent l'histoire en grandes **périodes**.
+
+**1. Mesurer le temps de plus en plus précisément** : dans l'Antiquité, les Égyptiens utilisent l'**horloge solaire** (l'ombre d'une tige) et la **clepsydre** (horloge à eau). Au Moyen Âge apparaissent le **sablier** et l'**horloge mécanique**. Au XXe siècle, l'**horloge à quartz** puis l'**horloge atomique** (1955) mesurent le temps avec une précision extrême.
+
+**2. Découper l'histoire** : on distingue cinq périodes : la **Préhistoire** (jusqu'à l'invention de l'écriture, vers 3300 av. J.-C.), l'**Antiquité** (jusqu'en 476), le **Moyen Âge** (jusqu'en 1453 ou 1492), les **Temps modernes** (jusqu'en 1789 ou 1815) et l'**époque contemporaine**.
+
+**3. Une convention** : ces dates sont des **choix** des historiens. On hésite parfois entre deux dates (395 ou 476 pour la fin de l'Antiquité). Les changements ont été lents : personne ne s'est réveillé « au Moyen Âge » en 476. Notre calendrier lui-même est une convention : il compte les années à partir de la naissance de Jésus, alors que le calendrier musulman commence en 622.
+
+**Conclusion** : mesurer et découper le temps sont des **inventions humaines**, qui nous aident à classer et à comprendre le passé.` },
+      ],
+    },
+    {
+      id: "rois-conquerants-batisseurs",
+      titre: "Des rois conquérants et bâtisseurs : Ramsès II et Nabuchodonosor II",
+      theme: "Histoire – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre prépare le thème 2 du nouveau programme de 6e (rentrée 2027) : « Des sociétés, des États, des dieux ». Il complète le chapitre « Premiers États, premières écritures ». Au IIe et au Ier millénaire av. J.-C., de puissants rois dirigent de grands **royaumes** et des **empires** (un empire est un vaste État qui domine de nombreux peuples conquis). Comment montrent-ils leur pouvoir ?
+
+## 1. Ramsès II, un pharaon guerrier et bâtisseur
+- **Ramsès II** règne sur l'**Égypte** pendant **66 ans**, de **1279 à 1213 av. J.-C.** (dates approximatives). C'est l'un des pharaons les plus célèbres.
+- **Un chef de guerre** : il combat les **Hittites** (un peuple de l'actuelle Turquie) à la bataille de **Qadesh** (vers **1274 av. J.-C.**, en Syrie actuelle). La bataille n'a pas de vrai vainqueur, mais Ramsès la fait représenter partout comme une grande victoire : c'est de la **propagande**. Plus tard, il signe un **traité de paix** avec les Hittites (vers 1259 av. J.-C.), l'un des plus anciens connus.
+- **Un bâtisseur** : il fait construire des temples immenses : les deux temples d'**Abou Simbel**, creusés dans la falaise, au sud de l'Égypte, en Nubie ; le **Ramesseum**, son temple funéraire près de **Thèbes** ; il agrandit les temples de **Karnak** et de **Louxor**. Il fonde une nouvelle capitale dans le delta du Nil, **Pi-Ramsès**.
+- **Un roi lié aux dieux** : le pharaon est considéré comme le **fils de Rê**. Il est le chef des prêtres et doit faire respecter l'**ordre du monde** (la *Maât*). À sa mort, il est **momifié** et enterré dans un tombeau creusé dans la roche (un **hypogée**) de la **vallée des Rois**, la grande **nécropole** royale près de Thèbes.
+
+## 2. Les lieux du pouvoir en Égypte
+- **Memphis**, près du Caire actuel, est la capitale de l'Égypte unifiée dès le début de son histoire.
+- **Thèbes** (aujourd'hui Louxor), plus au sud, est la grande ville religieuse du dieu **Amon**, avec le temple de Karnak.
+- **Abou Simbel**, à l'extrême sud, montre la puissance du pharaon aux peuples de **Nubie** qu'il domine : quatre statues géantes de Ramsès assis gardent l'entrée du grand temple.
+- Dans les années **1960**, la construction du barrage d'**Assouan** allait noyer les temples d'Abou Simbel sous un lac artificiel. Grâce à une grande campagne internationale de l'**UNESCO**, ils ont été découpés en blocs et **remontés** plus haut, de 1964 à 1968.
+
+## 3. Nabuchodonosor II, roi de Babylone
+- En **Mésopotamie**, au Ier millénaire av. J.-C., de grands empires se succèdent : l'empire **néo-assyrien** (capitale **Ninive**), puis l'empire **néo-babylonien** (capitale **Babylone**, sur l'Euphrate).
+- **Nabuchodonosor II** règne sur Babylone de **605 à 562 av. J.-C.** **Un conquérant** : il domine tout le Croissant fertile ; il prend **Jérusalem**, détruit le Temple en **587 av. J.-C.** et déporte une partie des habitants du royaume de **Juda** à Babylone (l'**exil**, voir le chapitre sur le monothéisme juif).
+- **Un bâtisseur** : il fait de Babylone l'une des plus grandes villes du monde : doubles **remparts**, palais, **porte d'Ishtar** décorée de briques bleues émaillées et de lions, de taureaux et de dragons (elle a été reconstituée dans un musée de Berlin), grand temple du dieu **Marduk** et immense **ziggourat** (que l'on a rapprochée de la tour de Babel de la Bible). Les fameux « **jardins suspendus** » de Babylone sont décrits par des auteurs grecs, mais les archéologues n'en ont pas trouvé de trace sûre.
+- Contrairement au pharaon, le roi de Babylone n'est pas un dieu : il est le **serviteur** des dieux, choisi par eux pour gouverner.
+
+## 4. Le rôle des temples
+- Un **temple** est la **maison d'un dieu**. Seuls les **prêtres** peuvent entrer dans le sanctuaire où se trouve la statue du dieu ; ils la lavent, l'habillent et la nourrissent chaque jour.
+- Les temples sont aussi très **riches** : ils possèdent des terres, des troupeaux, des ateliers, des réserves de grain. Les **scribes** y tiennent les comptes. Construire un temple, c'est pour le roi montrer sa **piété** (son respect des dieux) et sa **puissance**.
+
+| | Ramsès II | Nabuchodonosor II |
+|---|---|---|
+| Royaume | Égypte | empire néo-babylonien (Mésopotamie) |
+| Règne | 1279-1213 av. J.-C. | 605-562 av. J.-C. |
+| Conquêtes | Qadesh contre les Hittites, Nubie | Croissant fertile, Jérusalem (587 av. J.-C.) |
+| Constructions | Abou Simbel, Ramesseum, Pi-Ramsès | remparts et porte d'Ishtar de Babylone, temple de Marduk |
+| Lien avec les dieux | fils de Rê (considéré comme divin) | serviteur des dieux |
+
+>! **Méthode – critiquer une source officielle** : sur les murs de ses temples, Ramsès II se montre seul sur son char, écrasant les Hittites à Qadesh. Mais les textes hittites racontent une autre histoire, et la bataille s'est terminée sans vainqueur. Un document fait par un roi sert à le **glorifier** : il faut le comparer à d'autres sources.
+
+> **À retenir** :
+> - Les rois de l'Orient ancien sont des **conquérants** et des **bâtisseurs** qui montrent leur puissance par la guerre et les monuments.
+> - **Ramsès II** (Égypte, 1279-1213 av. J.-C.) : bataille de **Qadesh**, temples d'**Abou Simbel**, **Ramesseum**, tombeau dans la **vallée des Rois**.
+> - **Nabuchodonosor II** (Babylone, 605-562 av. J.-C.) : prise de **Jérusalem** (587 av. J.-C.), remparts et **porte d'Ishtar**.
+> - Repères égyptiens : le **Nil**, **Memphis**, **Thèbes**, **Abou Simbel**.
+> - Les **temples**, maisons des dieux, sont aussi des centres de richesse.
+> - Vocabulaire : empire, royaume, propagande, nécropole, hypogée, temple, prêtre.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel pharaon a fait construire les temples d'Abou Simbel ?", choix: ["Khéops", "Ramsès II", "Nabuchodonosor II", "Hammurabi"], reponse: 1, explication: "**Ramsès II** (1279-1213 av. J.-C.) a fait creuser les deux temples d'**Abou Simbel**. Khéops a fait construire une pyramide, bien plus tôt ; Nabuchodonosor II et Hammurabi sont des rois de Babylone." },
+        { type: "saisie", question: "Sur quel fleuve se trouve Babylone, la capitale de Nabuchodonosor II ?", reponses: ["l'Euphrate", "Euphrate", "le fleuve Euphrate"], explication: "Babylone est construite sur l'**Euphrate**, en Mésopotamie (Irak actuel)." },
+        { type: "vf", question: "Comme le pharaon, le roi de Babylone était considéré comme un dieu.", reponse: false, explication: "Le roi de Babylone est le **serviteur** des dieux, choisi par eux. Le pharaon, lui, est considéré comme le **fils de Rê**." },
+        { type: "qcm", question: "Comment s'appelle la grande nécropole royale, près de Thèbes, où sont creusés les tombeaux des pharaons comme Ramsès II ?", choix: ["La vallée des Rois", "Le plateau de Gizeh", "La porte d'Ishtar", "Le Croissant fertile"], reponse: 0, explication: "Les pharaons de cette époque sont enterrés dans des tombeaux creusés dans la roche (des **hypogées**) de la **vallée des Rois**. Les pyramides de Gizeh sont bien plus anciennes ; la porte d'Ishtar est à Babylone." },
+        { type: "saisie", question: "Quelle ville, aujourd'hui appelée Louxor, était la grande ville religieuse du dieu Amon en Égypte ?", reponses: ["Thèbes"], explication: "**Thèbes** (Louxor) abrite le temple d'Amon à **Karnak**. Le Ramesseum et la vallée des Rois sont tout près." },
+        { type: "qcm", question: "Pourquoi les temples d'Abou Simbel ont-ils été découpés et déplacés dans les années 1960 ?", choix: ["Parce qu'ils avaient été détruits par une guerre", "Pour les exposer dans un musée de Paris", "Parce qu'un séisme les avait abîmés", "Pour les sauver des eaux du lac créé par le barrage d'Assouan"], reponse: 3, explication: "Le barrage d'**Assouan** allait créer un immense lac qui aurait noyé les temples. L'UNESCO a organisé leur sauvetage : ils ont été découpés et remontés plus haut, de 1964 à 1968." },
+        { type: "vf", question: "Les murs des temples de Ramsès II racontent la bataille de Qadesh de façon objective.", reponse: false, explication: "C'est de la **propagande** : Ramsès II se montre en grand vainqueur, alors que la bataille contre les Hittites s'est terminée sans vrai vainqueur. Il faut comparer avec d'autres sources, comme les textes hittites." },
+        { type: "saisie", question: "Combien d'années séparent la fin du règne de Ramsès II (1213 av. J.-C.) et la destruction du Temple de Jérusalem par Nabuchodonosor II (587 av. J.-C.) ? (réponds par un nombre)", reponses: ["626", "six cent vingt-six"], explication: "Deux dates avant J.-C. : on **soustrait**. 1 213 − 587 = **626 ans**." },
+        { type: "qcm", question: "En plus d'être la maison d'un dieu, quel autre rôle joue un temple en Égypte ou en Mésopotamie ?", choix: ["C'est l'endroit où votent les citoyens", "C'est un centre économique riche, avec des terres, des réserves et des scribes", "C'est une forteresse où vivent les soldats", "C'est un marché où tout le monde peut entrer"], reponse: 1, explication: "Les temples possèdent des **terres**, des troupeaux, des ateliers et des réserves ; les **scribes** y tiennent les comptes. Seuls les prêtres entrent dans le sanctuaire. Les citoyens qui votent, c'est à Athènes !" },
+        { type: "redaction", question: "**Paragraphe argumenté** : à partir de l'exemple de Ramsès II ou de Nabuchodonosor II, montre qu'un roi de l'Orient ancien est à la fois un conquérant, un bâtisseur et un homme lié aux dieux.", corrige: `**Exemple avec Ramsès II** (une réponse avec Nabuchodonosor II est aussi possible).
+
+**Introduction** : **Ramsès II** règne sur l'**Égypte** de **1279 à 1213 av. J.-C.** C'est un des pharaons les plus puissants.
+
+**Un conquérant** : il mène des guerres contre les **Hittites**, notamment à **Qadesh** (vers 1274 av. J.-C.), et domine la **Nubie**, au sud. Même si la bataille de Qadesh n'a pas eu de vrai vainqueur, il la fait représenter comme une grande victoire : c'est de la **propagande**. Il signe ensuite un traité de paix avec les Hittites.
+
+**Un bâtisseur** : il fait construire les temples d'**Abou Simbel**, gardés par quatre statues géantes de lui-même, le **Ramesseum** près de **Thèbes**, et une nouvelle capitale, **Pi-Ramsès**. Ces monuments montrent sa puissance à tous.
+
+**Un homme lié aux dieux** : il est considéré comme le **fils de Rê** et le chef des prêtres. Il doit faire respecter l'ordre du monde. À sa mort, il est momifié et enterré dans un **hypogée** de la **vallée des Rois**.
+
+*(Avec Nabuchodonosor II : roi de Babylone de 605 à 562 av. J.-C. ; il conquiert le Croissant fertile et prend Jérusalem en 587 av. J.-C. ; il construit les remparts, la porte d'Ishtar et le temple de Marduk ; il n'est pas un dieu mais le serviteur des dieux.)*
+
+**Conclusion** : par la guerre, les monuments et la religion, le roi montre qu'il est le maître de son royaume.` },
+      ],
+    },
+    {
+      id: "alexandre-le-grand",
+      titre: "La puissance d'Athènes et les conquêtes d'Alexandre le Grand",
+      theme: "Histoire – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre prépare le thème 3 du nouveau programme de 6e (rentrée 2027) : « Le monde grec : des cités-États aux conquêtes d'Alexandre le Grand ». Il complète les chapitres sur les cités grecques et sur la démocratie athénienne. Au Ve siècle av. J.-C., Athènes domine une grande partie du monde grec. Un siècle plus tard, un roi venu du nord de la Grèce, **Alexandre**, conquiert un empire immense, de la Grèce jusqu'à l'Indus.
+
+## 1. Athènes, une cité impérialiste au Ve siècle av. J.-C.
+- Après les victoires contre les **Perses** (Marathon en 490, Salamine en 480 av. J.-C.), de nombreuses cités grecques de la **mer Égée** s'allient à Athènes : c'est la **ligue de Délos** (478-477 av. J.-C.). Chaque cité verse de l'argent (un **tribut**) ou des navires pour la défense commune.
+- Peu à peu, Athènes transforme ses alliés en **sujets** : elle installe le trésor de la ligue à Athènes (454 av. J.-C.), punit les cités qui veulent la quitter et utilise une partie de l'argent pour embellir la ville (le **Parthénon**). On parle d'**impérialisme** : une cité en domine d'autres pour en tirer profit.
+- Cette domination inquiète **Sparte** : c'est l'une des causes de la **guerre du Péloponnèse** (431-404 av. J.-C.), qu'Athènes perd.
+- Comme toutes les cités grecques, Athènes est une **société esclavagiste** : des dizaines de milliers d'esclaves travaillent dans les maisons, les ateliers, les champs et les mines d'argent du Laurion.
+
+## 2. La Macédoine et Alexandre le Grand
+- La **Macédoine**, au nord de la Grèce, est un **royaume**. Son roi **Philippe II** bat Athènes et Thèbes à **Chéronée** en **338 av. J.-C.** : les cités grecques passent sous sa domination.
+- Son fils **Alexandre**, né en **356 av. J.-C.**, a eu pour professeur le philosophe **Aristote**. Il devient roi en **336 av. J.-C.**, à 20 ans, après l'assassinat de son père.
+
+## 3. Les conquêtes d'Alexandre (334-323 av. J.-C.)
+- En **334 av. J.-C.**, Alexandre part à la conquête de l'**Empire perse** avec une armée de Macédoniens et de Grecs.
+- Il bat le roi perse **Darius III** à **Issos** (333 av. J.-C.) et à **Gaugamèles** (331 av. J.-C.). Entre-temps, il est accueilli en **Égypte** comme un pharaon et y fonde **Alexandrie** (331 av. J.-C.).
+- Il poursuit jusqu'en **Asie centrale** et au fleuve **Indus** (Pakistan actuel), en **326 av. J.-C.** Épuisés, ses soldats refusent d'aller plus loin : il fait demi-tour.
+- Il meurt à **Babylone** en **323 av. J.-C.**, à **32 ans**, sans avoir organisé sa succession. Son empire s'étend alors de la Grèce à l'Indus et de l'Égypte à l'Asie centrale.
+
+## 4. L'héritage d'Alexandre : le monde hellénistique
+- Après sa mort, ses généraux se partagent l'empire en plusieurs **royaumes** (par exemple, celui des **Ptolémées** en Égypte, jusqu'à **Cléopâtre**).
+- Alexandre a fondé de nombreuses villes, dont plusieurs portent son nom. La **langue grecque** et la culture grecque (théâtres, gymnases, temples, sciences) se diffusent dans tout l'Orient : on appelle cette époque l'**époque hellénistique**.
+- **Alexandrie** d'Égypte devient la plus grande ville du monde grec, avec son **phare**, l'une des Sept Merveilles du monde, et sa célèbre **bibliothèque**.
+
+>! **Mythe ou histoire ?** Les récits les plus complets sur Alexandre (Plutarque, Arrien) ont été écrits plus de **400 ans** après sa mort. Ils mêlent des faits et des **légendes** (on raconte qu'il a tranché d'un coup d'épée le « nœud gordien », que personne n'arrivait à défaire). L'historien doit les comparer avec l'archéologie et les monnaies de l'époque.
+
+> **À retenir** :
+> - Ve siècle av. J.-C. : Athènes domine la **ligue de Délos** : c'est l'**impérialisme** athénien. Le monde grec est **esclavagiste**.
+> - **336-323 av. J.-C.** : règne d'**Alexandre le Grand**, roi de **Macédoine**.
+> - Il conquiert l'**Empire perse** (Issos, Gaugamèles), l'**Égypte** (fondation d'**Alexandrie**) et va jusqu'à l'**Indus**. Il meurt à **Babylone** en 323 av. J.-C.
+> - Son empire est partagé en royaumes ; la culture grecque se diffuse en Orient (**époque hellénistique**).
+> - Vocabulaire : impérialisme, tribut, ligue de Délos, Macédoine, empire, hellénistique.
+`,
+      exercices: [
+        { type: "qcm", question: "De quel royaume Alexandre le Grand est-il le roi ?", choix: ["La Perse", "L'Égypte", "La Macédoine", "Sparte"], reponse: 2, explication: "Alexandre est roi de **Macédoine**, au nord de la Grèce, de 336 à 323 av. J.-C. La Perse est l'empire qu'il conquiert ; Sparte est une cité grecque, pas un royaume conquérant." },
+        { type: "saisie", question: "Quelle ville d'Égypte, fondée par Alexandre en 331 av. J.-C., porte son nom ?", reponses: ["Alexandrie"], explication: "**Alexandrie**, en Égypte, devient la plus grande ville du monde grec, avec son phare et sa bibliothèque." },
+        { type: "vf", question: "Alexandre le Grand a eu pour professeur le philosophe Aristote.", reponse: true, explication: "Son père Philippe II a confié son éducation à **Aristote**, l'un des plus grands philosophes grecs." },
+        { type: "qcm", question: "Jusqu'à quel fleuve, à l'est, l'armée d'Alexandre est-elle allée ?", choix: ["L'Indus", "Le Nil", "Le Danube", "Le Tibre"], reponse: 0, explication: "Alexandre atteint l'**Indus** (Pakistan actuel) en 326 av. J.-C. ; ses soldats refusent alors d'aller plus loin. Il était déjà passé par l'Égypte et le Nil." },
+        { type: "saisie", question: "Comment s'appelle l'alliance de cités grecques dominée par Athènes au Ve siècle av. J.-C. ?", reponses: ["ligue de Délos", "la ligue de Délos"], explication: "La **ligue de Délos** (478-477 av. J.-C.) devait défendre les Grecs contre les Perses. Athènes s'en sert pour dominer ses alliés : c'est l'**impérialisme** athénien." },
+        { type: "qcm", question: "Qu'appelle-t-on l'impérialisme athénien ?", choix: ["Le fait qu'Athènes soit dirigée par un empereur", "La domination d'Athènes sur d'autres cités dont elle tire profit", "L'alliance d'Athènes et de Sparte contre les Perses", "Le partage de l'empire d'Alexandre entre ses généraux"], reponse: 1, explication: "Athènes transforme ses alliés de la ligue de Délos en **sujets** : elle les oblige à payer un tribut et utilise cet argent, par exemple pour le Parthénon. Athènes n'a jamais eu d'empereur." },
+        { type: "saisie", question: "Combien d'années a duré le règne d'Alexandre le Grand (336-323 av. J.-C.) ? (réponds par un nombre)", reponses: ["13", "treize"], explication: "Deux dates avant J.-C. : on **soustrait**. 336 − 323 = **13 ans**. En si peu de temps, il a conquis un empire immense." },
+        { type: "vf", question: "Après la mort d'Alexandre, son empire reste uni sous l'autorité de son fils.", reponse: false, explication: "Alexandre meurt à 32 ans sans avoir organisé sa succession : ses **généraux** se partagent l'empire en plusieurs royaumes, comme celui des Ptolémées en Égypte." },
+        { type: "qcm", question: "Pourquoi l'historien doit-il être prudent avec les récits de Plutarque ou d'Arrien sur Alexandre ?", choix: ["Parce qu'ils sont écrits en latin", "Parce qu'ils ont été écrits par Alexandre lui-même", "Parce qu'ils ont été écrits plus de 400 ans après sa mort et mêlent faits et légendes", "Parce qu'ils ne parlent que de l'Égypte"], reponse: 2, explication: "Ces auteurs écrivent plus de **400 ans** après Alexandre. Leurs récits contiennent des **légendes** (le nœud gordien) : il faut les comparer avec l'archéologie et les monnaies." },
+        { type: "redaction", question: "**Paragraphe argumenté** : raconte les conquêtes d'Alexandre le Grand en citant au moins trois lieux, puis explique ce qu'elles ont changé pour le monde grec.", corrige: `**Introduction** : **Alexandre**, roi de **Macédoine** de **336 à 323 av. J.-C.**, conquiert en une dizaine d'années un empire immense.
+
+**Les conquêtes** : en **334 av. J.-C.**, il part à la conquête de l'**Empire perse**. Il bat le roi **Darius III** à **Issos** (333 av. J.-C.). Il entre en **Égypte**, où il est accueilli comme un pharaon et fonde **Alexandrie** (331 av. J.-C.). Il bat de nouveau Darius à **Gaugamèles** (331 av. J.-C.), puis va jusqu'en Asie centrale et jusqu'à l'**Indus** (326 av. J.-C.), où ses soldats refusent d'aller plus loin. Il meurt à **Babylone** en **323 av. J.-C.**, à 32 ans.
+
+**Ce qui change** : le monde grec s'agrandit énormément, de la Grèce à l'Indus. Après la mort d'Alexandre, l'empire est partagé entre ses généraux en plusieurs **royaumes** (les Ptolémées en Égypte), mais la **langue** et la **culture grecques** se diffusent dans tout l'Orient : théâtres, gymnases, sciences. Alexandrie, avec son phare et sa bibliothèque, devient la grande ville du monde grec. C'est l'**époque hellénistique**.
+
+**Conclusion** : en peu de temps, Alexandre a fait passer le monde grec de l'échelle des **cités** à celle d'un **empire**.` },
+      ],
+    },
+    {
+      id: "mondes-celtes",
+      titre: "Les mondes celtes et les Gaulois",
+      theme: "Histoire – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre prépare le thème 4 du nouveau programme de 6e (rentrée 2027) : « Les mondes celtes, des sociétés en relation avec les mondes méditerranéens ». Au Ier millénaire av. J.-C., pendant que les Grecs et les Romains développent leurs cités, une grande partie de l'Europe est habitée par des peuples **celtes**. Qui sont-ils, et quelles relations ont-ils avec les Grecs et les Romains ?
+
+## 1. Qui sont les Celtes ?
+- Les **Celtes** ne forment **pas** un pays ni un empire : c'est une **mosaïque** de nombreux **peuples indépendants**, qui parlent des langues proches et partagent des façons de vivre et des croyances. Ils vivent dans l'**Europe tempérée** (au nord des Alpes), des îles Britanniques et de l'Espagne jusqu'à l'Europe centrale (Allemagne du Sud, Bohême, Autriche, Suisse).
+- C'est l'**âge du fer** : les Celtes sont d'excellents **forgerons**. Les archéologues distinguent un premier âge du fer, puis un **second âge du fer**, appelé « culture de **La Tène** » (vers **450-50 av. J.-C.**), du nom d'un site découvert au bord du lac de Neuchâtel, en **Suisse**.
+- Les Celtes qui vivent dans les **Gaules** (la France, la Belgique et la Suisse actuelles, environ) sont appelés **Gaulois** par les Romains. Ils sont divisés en une soixantaine de peuples, comme les **Arvernes** (en Auvergne), les **Éduens** (en Bourgogne), les **Parisii** (autour de Paris), les **Rèmes** (Reims), les **Ambiens** (Amiens), les **Pictons** (Poitou). Beaucoup de noms de régions et de villes viennent de ces peuples !
+
+## 2. Comment vivent les Celtes ?
+On connaît surtout les Celtes grâce à l'**archéologie**, car ils ont laissé très peu de textes. Les textes grecs et romains qui parlent d'eux sont écrits par des étrangers, souvent des ennemis.
+- **Des agriculteurs** : la plupart vivent dans des **fermes** dispersées dans la campagne. Ils défrichent la forêt, cultivent le blé et l'orge avec des outils en fer (socs d'araire, faux) et élèvent des porcs, des bœufs, des moutons.
+- **Des artisans très habiles** : ils travaillent le **fer**, le bronze et l'or (bijoux, colliers rigides appelés **torques**), fabriquent des **tonneaux**, des roues de char, et frappent des **monnaies**.
+- **Des villes fortifiées** : à partir du IIe siècle av. J.-C., ils construisent des **oppida** (au singulier : un **oppidum**), de grandes villes entourées de remparts de bois, de terre et de pierres, souvent sur une hauteur. On y trouve des artisans, des marchés, des sanctuaires. Exemples : **Bibracte** (sur le mont Beuvray, en Bourgogne), capitale des Éduens, et **Manching** (en Bavière, en Allemagne).
+- **Des croyances** : les Celtes sont **polythéistes** (dieux comme **Taranis**, dieu du ciel et de l'orage, ou **Lug**, qui a donné son nom à Lyon, *Lugdunum*). Les **druides** sont des prêtres très respectés : ils dirigent les sacrifices, rendent la justice et enseignent. Les Celtes ont aussi des sanctuaires où ils déposent des armes et des offrandes.
+
+## 3. Des relations avec les mondes méditerranéens
+- **Le commerce** : vers **600 av. J.-C.**, des Grecs fondent **Massalia** (Marseille). Par le Rhône et la Saône, ils vendent du **vin**, de la vaisselle et des objets de luxe aux Celtes, qui fournissent des métaux, des esclaves, des produits agricoles.
+- Dans les **tombes « princières »** du VIe et du Ve siècle av. J.-C., les archéologues ont trouvé des objets venus de Grèce et d'Italie : à **Vix** (Côte-d'Or), une femme a été enterrée avec un immense vase grec en bronze de plus de 1,60 m de haut, le **cratère** de Vix ; à **Lavau** (Aube), un prince était entouré d'un chaudron et d'une cruche grecque décorée d'or. (Le programme donne le repère **650-550 av. J.-C.** pour l'époque des tombes « princières » ; les archéologues datent la tombe de Vix de la fin du VIe siècle et celle de Lavau du Ve siècle av. J.-C.)
+- Plus tard, les Celtes boivent beaucoup de vin italien : on retrouve des **millions de morceaux d'amphores** romaines sur leurs sites. Leurs monnaies d'or imitent celles de Philippe II de Macédoine.
+- **La guerre** : des guerriers celtes attaquent l'Italie et pillent Rome (vers **390 av. J.-C.** selon la tradition) ; d'autres s'installent jusqu'en Asie Mineure (les **Galates**). Puis Rome conquiert le **sud de la Gaule** (vers **120 av. J.-C.**), et **Jules César** le reste des Gaules (58-51 av. J.-C.). En **52 av. J.-C.**, l'Arverne **Vercingétorix**, choisi comme chef par les Gaulois à Bibracte, est vaincu à **Alésia**.
+- Après la conquête, les Gaules deviennent romaines peu à peu : c'est la **romanisation** (voir le chapitre « Conquêtes, paix romaine et romanisation »). Mais ce processus avait commencé bien avant César, par le commerce.
+
+>! **Erreur fréquente** : les Gaulois n'étaient pas des « sauvages » vivant dans la forêt, comme on l'a longtemps raconté. L'archéologie montre des sociétés organisées, avec des villes, des artisans, des routes, du commerce et de la monnaie. Et l'expression « nos ancêtres les Gaulois », très répétée au XIXe siècle, est une **simplification** : la population de la France a des origines très diverses.
+
+> **À retenir** :
+> - Les **Celtes** : une **mosaïque de peuples** indépendants de l'Europe tempérée, à l'**âge du fer** ; second âge du fer = **culture de La Tène** (450-50 av. J.-C.).
+> - Les Romains appellent **Gaulois** les Celtes des Gaules (Arvernes, Éduens, Parisii…).
+> - Fermes, artisans du fer, **oppida** (**Bibracte**, **Manching**), **druides** et dieux nombreux.
+> - Relations avec la Méditerranée : commerce (**Massalia**, 600 av. J.-C. ; tombes princières de **Vix** et **Lavau**), puis guerre et conquête romaine (**52 av. J.-C.** : César bat Vercingétorix à Alésia).
+> - Vocabulaire : Celtes, Gaulois, oppidum, druide, artisanat, commerce, romanisation.
+`,
+      textes: {
+        druides: `**Document : Jules César décrit les druides**
+
+« Les druides s'occupent des choses de la religion : ils font les sacrifices publics et privés et expliquent les croyances. Un grand nombre de jeunes gens viennent auprès d'eux pour s'instruire, et ils sont très respectés. Ce sont eux, en effet, qui tranchent presque tous les conflits, entre les peuples comme entre les particuliers : si un crime a été commis, si l'on se dispute un héritage ou les limites d'un champ, ce sont eux qui décident. Les druides ne vont pas à la guerre et ne paient pas d'impôts.
+
+On dit que leurs élèves apprennent par cœur un très grand nombre de vers ; certains restent vingt ans à étudier. Les druides pensent qu'il n'est pas permis de confier ces connaissances à l'écriture, alors que pour le reste, pour les comptes publics et privés, ils se servent de l'alphabet grec. Ils enseignent surtout que les âmes ne meurent pas, mais passent après la mort d'un corps dans un autre. »
+
+*D'après Jules César, La Guerre des Gaules, livre VI, chapitres 13 et 14, écrit au milieu du Ier siècle av. J.-C. ; texte traduit et simplifié. César est le général romain qui a conquis les Gaules.*
+
+*Vocabulaire : un **sacrifice** = une offrande faite aux dieux (souvent un animal tué) ; **trancher un conflit** = décider qui a raison dans une dispute ; un **héritage** = les biens que l'on reçoit à la mort d'un parent.*`,
+      },
+      exercices: [
+        { type: "vf", question: "Les Celtes formaient un seul grand royaume dirigé par un roi.", reponse: false, explication: "Les Celtes sont une **mosaïque de peuples indépendants**, qui partagent des langues proches et des façons de vivre, mais pas un État unique." },
+        { type: "saisie", question: "Comment appelle-t-on une ville gauloise fortifiée, souvent construite sur une hauteur ?", reponses: ["oppidum", "un oppidum", "oppida", "des oppida"], explication: "Un **oppidum** (pluriel : **oppida**) est une ville entourée de remparts, avec des artisans, des marchés et des sanctuaires. Exemples : Bibracte, Manching." },
+        { type: "qcm", question: "Quel nom les Romains donnent-ils aux Celtes qui vivent dans les Gaules ?", choix: ["Les Hellènes", "Les Galates", "Les métèques", "Les Gaulois"], reponse: 3, explication: "Les Romains appellent **Gaulois** les Celtes des Gaules. Les Galates sont des Celtes installés en Asie Mineure ; les Hellènes sont les Grecs ; les métèques sont les étrangers d'Athènes." },
+        { type: "qcm", question: "Que montre le grand vase grec en bronze trouvé dans la tombe de Vix, en Côte-d'Or ?", choix: ["Que les Grecs avaient conquis la Gaule", "Que les Celtes avaient des échanges commerciaux avec le monde méditerranéen", "Que les Celtes ne savaient pas travailler le métal", "Que Vix était une colonie romaine"], reponse: 1, explication: "Ce vase de luxe venu du monde grec montre que les Celtes **commerçaient** avec la Méditerranée, notamment par Massalia et la vallée du Rhône. Les Celtes, eux, étaient d'excellents forgerons." },
+        { type: "saisie", question: "Quel chef arverne est choisi par les Gaulois à Bibracte, puis vaincu par César à Alésia en 52 av. J.-C. ?", reponses: ["Vercingétorix"], explication: "**Vercingétorix**, chef des Arvernes, prend la tête des Gaulois révoltés en 52 av. J.-C., mais se rend à César après le siège d'**Alésia**." },
+        { type: "qcm", texte: "druides", question: "D'après le texte, quels sont les rôles des druides ?", choix: ["Ils sont prêtres, juges et enseignants", "Ils sont chefs de guerre et rois", "Ils sont marchands de vin", "Ils sont esclaves au service des riches"], reponse: 0, explication: "César dit qu'ils « s'occupent des choses de la religion » (**prêtres**), qu'ils « tranchent presque tous les conflits » (**juges**) et que les jeunes gens viennent « s'instruire » auprès d'eux (**enseignants**). Il précise qu'ils ne vont **pas** à la guerre." },
+        { type: "vf", texte: "druides", question: "D'après le texte, les Gaulois ne connaissaient pas l'écriture.", reponse: false, explication: "César écrit que, pour les comptes publics et privés, ils « se servent de l'alphabet grec ». Les druides refusent seulement d'**écrire leurs connaissances religieuses** : elles s'apprennent par cœur. C'est pourquoi on connaît mal leur religion." },
+        { type: "qcm", texte: "druides", question: "Pourquoi faut-il lire ce texte avec un regard critique ?", choix: ["Parce qu'il a été écrit par un druide qui exagère son importance", "Parce qu'il a été écrit au Moyen Âge, longtemps après les faits", "Parce que son auteur est le général romain qui a conquis les Gaules : il voit les Gaulois de l'extérieur", "Parce que c'est un texte de la Bible"], reponse: 2, explication: "**Jules César** est un **ennemi** des Gaulois et un étranger : il ne connaît pas tout de leur religion, et il écrit aussi pour se faire valoir à Rome. Il faut comparer son récit avec l'**archéologie**." },
+        { type: "saisie", question: "Combien d'années séparent la fondation de Massalia (600 av. J.-C.) et la bataille d'Alésia (52 av. J.-C.) ? (réponds par un nombre)", reponses: ["548", "cinq cent quarante-huit"], explication: "Deux dates avant J.-C. : on **soustrait**. 600 − 52 = **548 ans**. Les relations entre les Celtes et le monde méditerranéen sont donc très anciennes quand César conquiert les Gaules." },
+        { type: "redaction", question: "**Paragraphe argumenté** : présente les mondes celtes (où et comment vivent-ils ?), puis montre que les Gaules se sont intégrées peu à peu aux mondes méditerranéens, par le commerce puis par la guerre.", corrige: `**Introduction** : au Ier millénaire av. J.-C., une grande partie de l'Europe tempérée est habitée par les **Celtes**, une **mosaïque de peuples** indépendants. Ceux des Gaules sont appelés **Gaulois** par les Romains.
+
+**1. Les mondes celtes** : à l'**âge du fer**, les Celtes vivent surtout dans des **fermes** ; ce sont des agriculteurs et des **artisans** très habiles (fer, or, tonneaux, monnaies). À partir du IIe siècle av. J.-C., ils construisent des villes fortifiées, les **oppida**, comme **Bibracte** ou **Manching**. Ils sont polythéistes ; les **druides** sont à la fois prêtres, juges et enseignants.
+
+**2. Le commerce avec la Méditerranée** : dès **600 av. J.-C.**, les Grecs de **Massalia** (Marseille) vendent du vin et des objets de luxe aux Celtes. Les **tombes princières** de **Vix** et de **Lavau** contiennent de la vaisselle grecque. Plus tard, les Gaulois importent énormément de vin italien, comme le montrent les amphores retrouvées par les archéologues.
+
+**3. La guerre et la conquête** : Rome conquiert le sud de la Gaule vers 120 av. J.-C., puis **Jules César** conquiert le reste des Gaules de 58 à 51 av. J.-C. En **52 av. J.-C.**, il bat **Vercingétorix** à **Alésia**. Les Gaules deviennent romaines : c'est la **romanisation**.
+
+**Conclusion** : l'intégration des Gaules aux mondes méditerranéens est un **long processus**, commencé par le commerce bien avant la conquête romaine.` },
+      ],
+    },
+    {
+      id: "se-reperer-terre",
+      titre: "Je me repère à la surface de la Terre : planisphères, projections et grands repères",
+      theme: "Géographie – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre correspond au **thème introductif** de géographie du nouveau programme de 6e (rentrée 2027) : « Je me repère à la surface de la Terre ». Il sert aussi toute l'année pour **localiser** les lieux étudiés. Comment représenter la Terre, qui est une sphère, sur une feuille plate ? Et quels repères permettent de s'y retrouver ?
+
+## 1. Les grands repères : continents et océans
+- **Six continents** : l'**Afrique**, l'**Amérique** (Amérique du Nord et Amérique du Sud), l'**Asie**, l'**Europe**, l'**Océanie** (dont l'Australie) et l'**Antarctique** (autour du pôle Sud).
+- **Cinq océans** : l'océan **Pacifique** (le plus grand, entre l'Asie, l'Océanie et l'Amérique), l'océan **Atlantique** (entre l'Europe, l'Afrique et l'Amérique), l'océan **Indien** (entre l'Afrique, l'Asie et l'Australie), l'océan **Arctique** (autour du pôle Nord) et l'océan **Austral** (autour de l'Antarctique).
+- Les océans couvrent environ **71 %** de la surface de la Terre.
+
+## 2. Les lignes imaginaires : parallèles et méridiens
+- Les **parallèles** sont des cercles imaginaires parallèles à l'équateur. Ils servent à mesurer la **latitude** (de 0° à l'équateur jusqu'à 90° aux pôles, nord ou sud).
+- Les **méridiens** sont des demi-cercles qui vont d'un pôle à l'autre. Ils servent à mesurer la **longitude** (est ou ouest).
+
+| Ligne | Où ? | À savoir |
+|---|---|---|
+| **Équateur** (0°) | coupe la Terre en deux hémisphères, **Nord** et **Sud** | traverse l'Amazonie (Brésil), le bassin du Congo, l'Indonésie |
+| **Tropique du Cancer** (environ 23° N) | dans l'hémisphère Nord | traverse le Sahara, le Mexique, l'Inde |
+| **Tropique du Capricorne** (environ 23° S) | dans l'hémisphère Sud | traverse l'Australie, le Brésil, Madagascar |
+| **Cercle polaire arctique** (environ 66° N) | autour du pôle Nord | traverse la Scandinavie, la Russie, l'Alaska |
+| **Cercle polaire antarctique** (environ 66° S) | autour du pôle Sud | entoure presque tout le continent Antarctique |
+| **Méridien de Greenwich** (0°) | passe par Greenwich, près de Londres | choisi comme méridien de référence en 1884 ; il traverse aussi la France (Normandie, Sud-Ouest) |
+
+- Entre les deux tropiques se trouve la **zone intertropicale** (chaude toute l'année) ; entre les tropiques et les cercles polaires, les **zones tempérées** ; au-delà des cercles polaires, les **zones polaires**.
+- La **France métropolitaine** est en **Europe**, dans l'**hémisphère Nord**, dans la zone tempérée, entre l'océan Atlantique et la mer Méditerranée. Mais la France a aussi des territoires sur d'autres continents et océans : la **Guyane** (Amérique du Sud), la **Réunion** et **Mayotte** (océan Indien, hémisphère Sud), la Guadeloupe et la Martinique (Antilles), la Nouvelle-Calédonie et la Polynésie française (océan Pacifique).
+
+## 3. Toute carte déforme la Terre : les projections
+- La Terre est une **sphère** : on ne peut pas l'aplatir sans la **déformer** (essaie d'aplatir une peau d'orange sans la déchirer !). La méthode pour passer du globe à la carte s'appelle une **projection**. Chaque projection déforme quelque chose : les **formes**, les **surfaces** ou les **distances**.
+
+| Projection | Date | Ce qu'elle respecte | Ce qu'elle déforme |
+|---|---|---|---|
+| **Mercator** | 1569 | les **formes** des continents et les directions (utile aux marins) | les **surfaces** : les régions proches des pôles paraissent énormes |
+| **Peters** | 1973 | les **surfaces** (tailles réelles) | les **formes** : les continents de la zone intertropicale paraissent étirés en hauteur |
+| **Lambert** (conique) | 1772 | les formes, sur une région pas trop grande | le reste du monde : on l'utilise surtout pour les cartes de **France** |
+| **Equal Earth** (« Terre égale ») | 2018 | les **surfaces** | un peu les formes, mais beaucoup moins que Peters |
+
+>! **Exemple résolu – l'erreur de Mercator** : sur un planisphère de Mercator, le **Groenland** paraît aussi grand que l'**Afrique**. En réalité, l'Afrique mesure environ **30,4 millions de km²** et le Groenland environ **2,2 millions de km²**. 30,4 ÷ 2,2 ≈ **14** : l'Afrique est environ **14 fois** plus grande ! Sur la projection de Peters ou Equal Earth, on voit les vraies tailles.
+
+>! **Erreur fréquente** : aucune carte n'est « la vraie » carte du monde. Le choix d'une projection, et du centre de la carte (l'Europe, le Pacifique…), change notre regard sur le monde. Un géographe choisit la projection selon ce qu'il veut montrer.
+
+> **À retenir** :
+> - 6 continents : Afrique, Amérique, Asie, Europe, Océanie, Antarctique. 5 océans : Pacifique, Atlantique, Indien, Arctique, Austral.
+> - Lignes : **équateur**, **tropiques du Cancer** (nord) et **du Capricorne** (sud), **cercles polaires**, **méridien de Greenwich**.
+> - Toute représentation plane de la Terre implique une **déformation** : c'est une **projection**.
+> - Quatre projections : **Mercator** (formes justes, surfaces fausses), **Peters** (surfaces justes, formes étirées), **Lambert** (cartes de France), **Equal Earth** (surfaces justes, formes moins déformées).
+> - Vocabulaire : planisphère, hémisphère, parallèle, méridien, latitude, longitude, projection.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel océan sépare l'Europe et l'Afrique de l'Amérique ?", choix: ["L'océan Pacifique", "L'océan Atlantique", "L'océan Indien", "L'océan Arctique"], reponse: 1, explication: "L'**océan Atlantique** est entre l'Europe et l'Afrique, à l'est, et l'Amérique, à l'ouest. Le Pacifique est de l'autre côté de l'Amérique, entre l'Amérique et l'Asie." },
+        { type: "saisie", question: "Quelle ligne imaginaire partage la Terre en deux hémisphères, Nord et Sud ?", reponses: ["l'équateur", "équateur"], explication: "L'**équateur** (latitude 0°) sépare l'hémisphère Nord et l'hémisphère Sud. Il traverse notamment l'Amazonie, le bassin du Congo et l'Indonésie." },
+        { type: "qcm", question: "Quel tropique se trouve dans l'hémisphère Sud et traverse l'Australie ?", choix: ["Le tropique du Cancer", "Le cercle polaire arctique", "Le méridien de Greenwich", "Le tropique du Capricorne"], reponse: 3, explication: "Le **tropique du Capricorne** est dans l'hémisphère **Sud** (Australie, Brésil, Madagascar). Le tropique du **Cancer** est dans l'hémisphère Nord (Sahara, Mexique, Inde)." },
+        { type: "vf", question: "La Réunion, territoire français, se trouve dans l'hémisphère Sud, dans l'océan Indien.", reponse: true, explication: "La **Réunion** est une île de l'**océan Indien**, à l'est de Madagascar, dans l'**hémisphère Sud**. La France métropolitaine, elle, est dans l'hémisphère Nord." },
+        { type: "saisie", question: "Comment s'appelle le méridien de référence (0°), qui passe près de Londres ?", reponses: ["méridien de Greenwich", "le méridien de Greenwich", "Greenwich"], explication: "Le **méridien de Greenwich** a été choisi comme référence en 1884. Il traverse aussi la France, en Normandie et dans le Sud-Ouest." },
+        { type: "qcm", question: "Sur un planisphère de Mercator, le Groenland paraît aussi grand que l'Afrique. Pourquoi ?", choix: ["Parce que la projection de Mercator agrandit les régions proches des pôles", "Parce que le Groenland est vraiment aussi grand que l'Afrique", "Parce que la projection de Mercator respecte les surfaces", "Parce que la carte est fausse et doit être jetée"], reponse: 0, explication: "Mercator respecte les **formes** mais **agrandit** de plus en plus les surfaces quand on s'approche des pôles. L'Afrique est en réalité environ **14 fois** plus grande que le Groenland. La carte n'est pas « fausse » : elle a été faite pour la navigation." },
+        { type: "saisie", question: "L'Afrique mesure environ 30,4 millions de km² et le Groenland environ 2,2 millions de km². Combien de fois l'Afrique est-elle plus grande, environ ? (réponds par un nombre entier)", reponses: ["14", "quatorze", "environ 14"], explication: "30,4 ÷ 2,2 ≈ 13,8, soit environ **14 fois**. Une projection qui respecte les surfaces (Peters, Equal Earth) le montre bien." },
+        { type: "vf", question: "Il existe une projection qui représente la Terre à plat sans aucune déformation.", reponse: false, explication: "C'est impossible : une sphère ne peut pas être aplatie sans être **déformée** (comme une peau d'orange). Chaque projection fait un choix : respecter les formes, ou les surfaces, ou les distances." },
+        { type: "qcm", question: "Quelle projection est surtout utilisée pour les cartes de la France ?", choix: ["La projection de Peters", "La projection Equal Earth", "La projection de Lambert", "La projection de Mercator"], reponse: 2, explication: "La projection conique de **Lambert** déforme très peu une région de taille moyenne comme la France : c'est celle des cartes officielles françaises. Peters et Equal Earth servent pour des planisphères." },
+        { type: "redaction", question: "**Localiser et expliquer** : 1. Localise la France métropolitaine à la surface de la Terre en utilisant au moins quatre repères (continent, hémisphère, océan ou mer, ligne imaginaire, zone climatique). 2. Explique pourquoi un même pays peut paraître plus ou moins grand selon le planisphère utilisé.", corrige: `**1. Localiser la France métropolitaine** :
+- elle est en **Europe**, à l'ouest du continent ;
+- elle est dans l'**hémisphère Nord**, entre l'**équateur** et le **cercle polaire arctique**, dans la **zone tempérée** ;
+- elle est bordée par l'**océan Atlantique** à l'ouest (et la Manche au nord-ouest) et par la **mer Méditerranée** au sud-est ;
+- le **méridien de Greenwich** la traverse, de la Normandie au Sud-Ouest.
+La France a aussi des territoires sur d'autres continents et océans (Guyane en Amérique du Sud, la Réunion dans l'océan Indien…).
+
+**2. Pourquoi les tailles changent** : la Terre est une **sphère**, et on ne peut pas l'aplatir sans la **déformer**. Chaque **projection** fait un choix. Celle de **Mercator** respecte les formes mais **agrandit** les régions proches des pôles : le Groenland y paraît aussi grand que l'Afrique, alors que l'Afrique est environ 14 fois plus grande. Celles de **Peters** ou **Equal Earth** respectent les **surfaces** : on y voit les vraies tailles, mais les formes sont un peu déformées.
+
+**Conclusion** : avant d'utiliser un planisphère, il faut se demander quelle projection il utilise et ce qu'elle déforme.` },
+      ],
+    },
+    {
+      id: "dynamiques-demographiques",
+      titre: "Le peuplement de la Terre : natalité, mortalité et migrations",
+      theme: "Géographie – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre prépare le thème 1 de géographie du nouveau programme de 6e (rentrée 2027) : « Le peuplement de la Terre ». Il complète le chapitre « Le monde habité », qui présente les grands foyers de peuplement. Ici, on cherche à comprendre **pourquoi** une population augmente ou diminue, et **où** vont les migrants dans le monde.
+
+## 1. Les mots pour décrire une population
+| Notion | Définition | Exemple (France, 2025) |
+|---|---|---|
+| **taux de natalité** | nombre de naissances dans l'année pour 1 000 habitants | environ 9 pour 1 000 |
+| **taux de mortalité** | nombre de décès dans l'année pour 1 000 habitants | environ 9 pour 1 000 |
+| **solde naturel** | naissances − décès | 645 000 − 651 000 = **−6 000** |
+| **solde migratoire** | personnes qui arrivent − personnes qui partent | **+ 176 000** environ |
+| **croissance démographique** | solde naturel + solde migratoire | −6 000 + 176 000 = **+170 000** |
+| **espérance de vie à la naissance** | nombre moyen d'années que peut espérer vivre un nouveau-né | 85,9 ans (femmes), 80,3 ans (hommes) |
+
+*Source : INSEE, bilan démographique 2025 (chiffres provisoires, janvier 2026).*
+
+- En **2025**, pour la première fois depuis la Seconde Guerre mondiale, la France a compté **plus de décès que de naissances** : son solde naturel est **négatif**. Sa population augmente encore (69,1 millions d'habitants au 1er janvier 2026) grâce au **solde migratoire**.
+- Le **vieillissement** de la population, c'est l'augmentation de la part des personnes âgées : en France, plus d'un habitant sur cinq (22 %) a 65 ans ou plus.
+
+>! **Méthode – calculer un taux de natalité** : taux = naissances ÷ population × 1 000. Exemple fictif : un pays de 2 000 000 d'habitants compte 50 000 naissances dans l'année : 50 000 ÷ 2 000 000 × 1 000 = **25 naissances pour 1 000 habitants** (on écrit aussi 25 ‰, « pour mille »).
+
+## 2. Deux foyers de peuplement aux dynamiques opposées
+- **Un foyer à forte natalité : l'Afrique subsaharienne.** Exemple : le **Niger**, au Sahel, environ 27 millions d'habitants. Les femmes y ont en moyenne environ **6 enfants**, l'un des chiffres les plus élevés du monde ; le taux de natalité dépasse 40 pour 1 000. La population est très **jeune** : près de la moitié des habitants a moins de 15 ans. Grâce aux progrès de la médecine, la mortalité a baissé, mais l'espérance de vie reste d'un peu plus de 60 ans. La population pourrait **doubler** en une vingtaine d'années : il faut construire des écoles, créer des emplois, produire plus de nourriture.
+- **Un foyer marqué par un fort vieillissement : l'Asie de l'Est.** Exemple : le **Japon**, environ 124 millions d'habitants. Il y a peu de naissances (environ 690 000 en 2024) et beaucoup de décès (environ 1,6 million) : le solde naturel est très **négatif** et la population **diminue** depuis la fin des années 2000. L'espérance de vie est l'une des plus longues du monde (environ 87 ans pour les femmes, 81 ans pour les hommes) ; près de **3 habitants sur 10** ont 65 ans ou plus. Il faut s'occuper de nombreuses personnes âgées, et les entreprises manquent de travailleurs.
+
+## 3. Les grands flux migratoires
+- Un **migrant international** est une personne qui vit dans un autre pays que celui où elle est née. Selon l'ONU, il y en avait environ **304 millions** en 2024, soit moins de 4 % de l'humanité : la plupart des humains ne migrent pas !
+- On migre pour **travailler**, rejoindre sa **famille**, **étudier**, ou pour **fuir** une guerre, des persécutions ou une catastrophe (on parle alors de **réfugiés**).
+- **Les principaux flux** :
+  - de l'**Amérique latine** (Mexique, Amérique centrale) vers les **États-Unis**, premier pays d'accueil du monde ;
+  - de l'**Afrique** et du **Moyen-Orient** vers l'**Europe** ;
+  - de l'**Asie du Sud** (Inde, Pakistan, Bangladesh) vers les **pays du golfe Persique** (Arabie saoudite, Émirats arabes unis), qui ont besoin de travailleurs ;
+  - beaucoup de migrations se font aussi **entre pays du Sud**, souvent entre pays voisins (en Afrique de l'Ouest, par exemple).
+
+>! **Erreur fréquente** : on croit souvent que la plupart des migrants africains vont en Europe. En réalité, une grande partie des migrations africaines se font **à l'intérieur de l'Afrique**, vers des pays voisins.
+
+> **À retenir** :
+> - **Solde naturel** = naissances − décès ; **solde migratoire** = arrivées − départs ; **croissance démographique** = solde naturel + solde migratoire.
+> - **Taux de natalité** et **taux de mortalité** : pour 1 000 habitants. **Espérance de vie à la naissance** : durée de vie moyenne espérée.
+> - Afrique subsaharienne (Niger) : forte natalité, population jeune, forte croissance. Japon (Asie de l'Est) : faible natalité, **vieillissement**, population qui diminue.
+> - Environ 304 millions de migrants internationaux (2024) ; grands flux vers les États-Unis, l'Europe et les pays du Golfe.
+> - Vocabulaire : taux de natalité, taux de mortalité, solde naturel, solde migratoire, croissance démographique, espérance de vie, vieillissement, migrant, réfugié.
+`,
+      textes: {
+        demographie: `**Document : deux pays, deux dynamiques démographiques (chiffres arrondis, 2024)**
+
+| | Niger | Japon |
+|---|---|---|
+| Population | 27 millions | 124 millions |
+| Taux de natalité | environ 42 pour 1 000 | environ 5,7 pour 1 000 |
+| Taux de mortalité | environ 9 pour 1 000 | environ 13 pour 1 000 |
+| Nombre moyen d'enfants par femme | environ 6 | environ 1,2 |
+| Part des moins de 15 ans | près de 50 % | environ 11 % |
+| Part des 65 ans ou plus | environ 3 % | environ 29 % |
+
+*D'après l'ONU (World Population Prospects 2024) et l'Office de statistique du Japon ; chiffres arrondis, qui servent à comparer les deux pays.*`,
+      },
+      exercices: [
+        { type: "qcm", question: "Comment calcule-t-on le solde naturel d'un pays ?", choix: ["Arrivées − départs", "Naissances + décès", "Naissances − décès", "Population ÷ superficie"], reponse: 2, explication: "**Solde naturel = naissances − décès.** Arrivées − départs, c'est le **solde migratoire** ; population ÷ superficie, c'est la **densité**." },
+        { type: "saisie", question: "En France, en 2025, il y a eu environ 645 000 naissances et 651 000 décès. Calcule le solde naturel. (réponds par un nombre)", reponses: ["-6000", "- 6000", "-6 000", "- 6 000", "moins 6000", "moins 6 000", "−6000", "−6 000", "− 6 000", "-6000 habitants", "-6 000 habitants", "− 6 000 habitants", "moins 6 000 habitants", "moins 6000 habitants"], explication: "645 000 − 651 000 = **− 6 000**. Le solde naturel est **négatif** : c'est la première fois depuis la Seconde Guerre mondiale en France." },
+        { type: "vf", question: "En 2025, la population de la France a quand même augmenté, grâce au solde migratoire.", reponse: true, explication: "Croissance = solde naturel + solde migratoire = − 6 000 + 176 000 = **+ 170 000** habitants environ. Ce sont les arrivées de migrants qui expliquent la hausse." },
+        { type: "saisie", question: "Comment appelle-t-on le nombre moyen d'années que peut espérer vivre un nouveau-né ?", reponses: ["espérance de vie", "l'espérance de vie", "espérance de vie à la naissance", "l'espérance de vie à la naissance"], explication: "L'**espérance de vie à la naissance** : en France, environ 85,9 ans pour les femmes et 80,3 ans pour les hommes (2025)." },
+        { type: "saisie", question: "Exemple fictif : un pays de 5 000 000 d'habitants compte 100 000 naissances dans l'année. Quel est son taux de natalité, pour 1 000 habitants ? (réponds par un nombre)", reponses: ["20", "20 pour 1000", "20 pour 1 000", "20 ‰", "20‰", "20 pour 1 000 habitants", "20 pour 1000 habitants", "vingt"], explication: "100 000 ÷ 5 000 000 × 1 000 = **20 naissances pour 1 000 habitants** (20 ‰)." },
+        { type: "qcm", texte: "demographie", question: "D'après le document, quel pays connaît un fort vieillissement de sa population ?", choix: ["Le Japon", "Le Niger", "Les deux pays de la même façon", "Aucun des deux"], reponse: 0, explication: "Au **Japon**, environ **29 %** des habitants ont 65 ans ou plus, contre 3 % au Niger. La natalité y est très faible (1,2 enfant par femme) : la population **vieillit**." },
+        { type: "vf", texte: "demographie", question: "D'après le document, au Japon, le taux de mortalité est plus élevé que le taux de natalité : le solde naturel est négatif.", reponse: true, explication: "Environ 13 décès pour 1 000 habitants contre 5,7 naissances : il y a plus de décès que de naissances, le solde naturel est **négatif**. La population japonaise diminue." },
+        { type: "qcm", texte: "demographie", question: "D'après le document, pourquoi la population du Niger augmente-t-elle très vite ?", choix: ["Parce que beaucoup de migrants viennent s'y installer", "Parce que l'espérance de vie y est la plus longue du monde", "Parce que les personnes âgées y sont très nombreuses", "Parce que le taux de natalité est bien plus élevé que le taux de mortalité"], reponse: 3, explication: "Environ 42 naissances pour 1 000 habitants contre 9 décès : le **solde naturel** est très fort. La population est très **jeune** (près de la moitié a moins de 15 ans)." },
+        { type: "qcm", question: "Vers quelle région partent beaucoup de travailleurs d'Inde, du Pakistan et du Bangladesh ?", choix: ["Vers le Brésil", "Vers les pays du golfe Persique", "Vers l'Afrique de l'Ouest", "Vers la Chine"], reponse: 1, explication: "Les **pays du golfe Persique** (Arabie saoudite, Émirats arabes unis), riches grâce au pétrole, ont besoin de nombreux travailleurs (chantiers, services) et attirent des millions de migrants d'**Asie du Sud**. C'est l'un des grands flux migratoires du monde, avec ceux vers les États-Unis et vers l'Europe." },
+        { type: "redaction", texte: "demographie", question: "**Analyse de document (niveau contrôle)** : 1. Présente le document. 2. Compare les deux pays en citant au moins trois chiffres. 3. Lequel de ces deux pays connaît un fort vieillissement ? Lequel a une forte natalité ? Justifie. 4. Quels défis chaque pays doit-il relever ?", corrige: `**1. Présentation** : c'est un **tableau statistique** de données démographiques (2024), réalisé d'après l'**ONU** et l'Office de statistique du Japon. Il compare le **Niger** (Afrique subsaharienne, Sahel) et le **Japon** (Asie de l'Est).
+
+**2. Comparaison** : au Niger, le **taux de natalité** est d'environ **42 pour 1 000**, contre environ **5,7 pour 1 000** au Japon. Les femmes ont environ **6 enfants** au Niger, contre **1,2** au Japon. Près de **50 %** des Nigériens ont moins de 15 ans, alors qu'au Japon **29 %** des habitants ont 65 ans ou plus.
+
+**3. Deux dynamiques opposées** : le **Niger** a une **forte natalité** : son taux de natalité est bien plus élevé que son taux de mortalité (9 pour 1 000), donc son **solde naturel** est très positif et sa population, très jeune, augmente vite. Le **Japon** connaît un fort **vieillissement** : peu de naissances, beaucoup de personnes âgées ; le taux de mortalité (13 pour 1 000) dépasse le taux de natalité, le solde naturel est **négatif** et la population diminue.
+
+**4. Des défis** : le Niger doit construire des **écoles**, soigner, nourrir et trouver des **emplois** pour une population qui pourrait doubler en une vingtaine d'années. Le Japon doit s'occuper de très nombreuses **personnes âgées** (soins, retraites) et manque de **travailleurs**.` },
+      ],
+    },
+    {
+      id: "risques-climat",
+      titre: "Habiter un espace exposé aux risques dans le contexte du dérèglement climatique",
+      theme: "Géographie – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre prépare le thème 4 de géographie du nouveau programme de 6e (rentrée 2027). Des millions de personnes vivent dans des régions où la terre peut trembler, où passent des cyclones, ou près d'usines dangereuses. Qu'est-ce qu'un **risque** ? Pourquoi une même catastrophe fait-elle beaucoup plus de victimes dans certains pays ? Et comment le **dérèglement climatique** aggrave-t-il certains risques ?
+
+## 1. Aléa, vulnérabilité, risque
+- Un **aléa** est un phénomène qui **peut** se produire et causer des dégâts : un séisme, un cyclone, une inondation, une éruption volcanique, une explosion d'usine.
+- La **vulnérabilité** est la **fragilité** d'une société face à cet aléa : des maisons solides ou fragiles, des secours organisés ou non, une population informée ou non, riche ou pauvre.
+- Le **risque**, c'est la **rencontre** d'un aléa et d'une société vulnérable. Un séisme dans un désert vide n'est pas un risque pour les humains ; le même séisme sous une grande ville en est un très grave.
+- Quand le risque se réalise et fait de grands dégâts, c'est une **catastrophe**.
+
+>! **À retenir sous forme de formule** : **risque = aléa + vulnérabilité** (des personnes et des biens exposés).
+
+## 2. Risques « naturels » et risques « anthropiques »
+- Les **risques naturels** viennent d'un phénomène de la nature : **séismes** (tremblements de terre), éruptions volcaniques, **cyclones**, inondations, sécheresses. On met souvent « naturels » entre guillemets, car les dégâts dépendent beaucoup des **choix des humains** (où et comment on construit).
+- Les **risques anthropiques** (ou technologiques) sont créés par les **activités humaines** : explosion d'une usine chimique, accident nucléaire, rupture d'un barrage. Exemples de catastrophes anthropiques :
+  - **Tchernobyl** (Ukraine, alors en URSS), **26 avril 1986** : explosion d'un réacteur de centrale nucléaire ; une vaste région est contaminée et évacuée ;
+  - **AZF à Toulouse** (France), **21 septembre 2001** : explosion d'une usine d'engrais ; **31 morts** et des milliers de blessés.
+- **Où sont les grands risques naturels ?**
+  - Les **séismes** se produisent surtout à la limite des plaques qui forment la surface de la Terre : tout autour de l'océan Pacifique (la « **ceinture de feu** » : Japon, Indonésie, Chili, Californie), de l'Himalaya à la Méditerranée (Turquie, Italie), et aux **Antilles**.
+  - Les **cyclones** naissent au-dessus des mers chaudes de la **zone intertropicale**. On les appelle **ouragans** dans l'Atlantique (Antilles, Floride, golfe du Mexique) et **typhons** dans le nord-ouest du Pacifique (Philippines, Chine, Japon) ; dans l'océan Indien, on dit **cyclones** (golfe du Bengale, la Réunion).
+
+## 3. Une inégale vulnérabilité dans le monde
+| | Chili | Haïti |
+|---|---|---|
+| Date du séisme | 27 février 2010 | 12 janvier 2010 |
+| Magnitude (force du séisme) | 8,8 | 7,0 |
+| Nombre de morts | environ 500 | plus de 200 000 selon le gouvernement haïtien (bilan discuté : d'autres études donnent moins de 100 000) |
+| Le pays | l'un des pays les plus riches d'Amérique latine (membre de l'OCDE, le club des pays développés, depuis 2010), habitué aux séismes | pays en développement, l'un des plus pauvres du monde |
+
+- Le séisme du Chili a libéré environ **500 fois plus d'énergie** que celui d'Haïti, et pourtant il a fait **des centaines de fois moins de morts**. Pourquoi ? Le Chili applique des **normes parasismiques** (des règles de construction qui permettent aux bâtiments de résister), forme sa population et organise les secours. En Haïti, les maisons, souvent construites sans règles, se sont effondrées, et l'État n'avait pas les moyens de secourir.
+- Les sociétés des pays **développés** ont plus de moyens pour se protéger. Mais la richesse ne fait pas tout : le **Bangladesh**, pays pauvre très exposé aux cyclones, a construit des milliers d'**abris anticycloniques** et mis en place des alertes. Le cyclone Bhola (1970) y avait fait plusieurs centaines de milliers de morts ; le cyclone Sidr (2007), très puissant lui aussi, en a fait environ 3 500.
+
+## 4. Prévenir, gérer, atténuer
+- **Prévenir** (avant) : interdire de construire dans les zones dangereuses (en France, des **plans de prévention des risques**), construire selon des normes parasismiques, informer, faire des **exercices** (exercices d'alerte à l'école), installer des **systèmes d'alerte** (sirènes, messages sur les téléphones), construire des **digues** et des **abris**.
+- **Gérer** (pendant et après) : évacuer, porter secours, soigner, reconstruire.
+- **Atténuer** : réduire les **causes** du dérèglement climatique, en émettant moins de gaz à effet de serre.
+
+## 5. Le dérèglement climatique aggrave des risques
+- Le réchauffement de la planète est surtout dû aux **activités humaines** (gaz à effet de serre émis par le charbon, le pétrole et le gaz). Selon les scientifiques du **GIEC**, il **aggrave** certains risques : **canicules** et **sécheresses** plus fréquentes, **incendies** de forêt, pluies très fortes et **inondations**, **cyclones** plus intenses (pas forcément plus nombreux), montée du niveau de la mer et **submersions** des côtes.
+- Un risque « naturel » devient donc en partie lié aux choix humains : c'est pourquoi on parle de risques **aggravés** par un dérèglement climatique d'origine **anthropique**.
+
+> **À retenir** :
+> - **Aléa** = phénomène qui peut se produire ; **vulnérabilité** = fragilité d'une société ; **risque** = aléa + société vulnérable.
+> - Risques **naturels** (séismes, cyclones, inondations) et **anthropiques** (Tchernobyl en 1986, AZF à Toulouse en 2001).
+> - Grandes zones à risques : séismes autour du **Pacifique** (ceinture de feu), cyclones dans la **zone intertropicale** (**ouragans**, **typhons**, cyclones).
+> - La **vulnérabilité** est inégale : Chili (8,8, environ 500 morts) / Haïti (7,0, plus de 200 000 morts) en 2010.
+> - Prévention, gestion, atténuation. Le dérèglement climatique, d'origine humaine, **aggrave** certains risques.
+> - Vocabulaire : aléa, vulnérabilité, risque, catastrophe, prévention, norme parasismique, anthropique.
+`,
+      exercices: [
+        { type: "saisie", question: "Comment appelle-t-on la fragilité d'une société face à un aléa ?", reponses: ["vulnérabilité", "la vulnérabilité"], explication: "La **vulnérabilité** dépend de la solidité des constructions, de l'organisation des secours, de l'information et des moyens de la population." },
+        { type: "qcm", question: "Lequel de ces événements est une catastrophe anthropique (causée par les activités humaines) ?", choix: ["Le séisme d'Haïti en 2010", "L'explosion de la centrale nucléaire de Tchernobyl en 1986", "Le cyclone Sidr au Bangladesh en 2007", "Une éruption volcanique"], reponse: 1, explication: "**Tchernobyl** (1986) est un accident **nucléaire** : il est dû à une activité humaine. Les séismes, les cyclones et les éruptions sont des aléas naturels." },
+        { type: "vf", question: "Un séisme très fort dans un désert vide d'habitants représente un risque majeur pour les humains.", reponse: false, explication: "Le **risque** naît de la rencontre d'un **aléa** et d'une société **vulnérable**. Sans habitants ni constructions, il n'y a presque pas de risque pour les humains." },
+        { type: "qcm", question: "Comment appelle-t-on un cyclone qui frappe les Antilles, la Floride ou le golfe du Mexique ?", choix: ["Un typhon", "Un tsunami", "Un séisme", "Un ouragan"], reponse: 3, explication: "Dans l'Atlantique, on dit **ouragan** ; dans le nord-ouest du Pacifique (Philippines, Japon), **typhon**. Un tsunami est une vague géante causée par un séisme sous la mer." },
+        { type: "qcm", question: "Où se trouve la « ceinture de feu », la région du monde où les séismes et les volcans sont les plus nombreux ?", choix: ["Tout autour de l'océan Pacifique", "Au centre de l'Afrique", "Au milieu de l'océan Indien", "Dans le nord de l'Europe"], reponse: 0, explication: "La **ceinture de feu** fait le tour de l'océan **Pacifique** : Japon, Indonésie, Chili, Californie. Les plaques qui forment la surface de la Terre s'y rencontrent." },
+        { type: "saisie", question: "Comment appelle-t-on les règles de construction qui permettent aux bâtiments de résister aux tremblements de terre ? (normes …)", reponses: ["parasismiques", "normes parasismiques", "les normes parasismiques", "des normes parasismiques", "parasismique", "norme parasismique"], explication: "Les **normes parasismiques** expliquent en partie pourquoi le séisme du Chili (2010) a fait beaucoup moins de victimes que celui d'Haïti." },
+        { type: "qcm", question: "En 2010, le séisme du Chili (magnitude 8,8) a fait environ 500 morts, celui d'Haïti (magnitude 7,0) plus de 200 000. Quelle est la meilleure explication ?", choix: ["Le séisme d'Haïti était beaucoup plus puissant", "Les Chiliens ont eu de la chance", "Haïti est beaucoup plus vulnérable : constructions fragiles, peu de moyens de secours", "Il n'y a pas d'habitants au Chili"], reponse: 2, explication: "Le séisme du Chili était **plus puissant** (environ 500 fois plus d'énergie). La différence vient de la **vulnérabilité** : le Chili applique des normes parasismiques et organise les secours ; Haïti, pays très pauvre, n'en avait pas les moyens." },
+        { type: "vf", question: "Selon les scientifiques, le dérèglement climatique rend les cyclones plus intenses.", reponse: true, explication: "Les mers plus chaudes donnent plus d'énergie aux cyclones : selon le **GIEC**, la part des cyclones très intenses augmente (ils ne sont pas forcément plus nombreux). Le réchauffement aggrave aussi les canicules, les sécheresses, les inondations et les submersions." },
+        { type: "saisie", question: "Combien d'années séparent la catastrophe de Tchernobyl (1986) et l'explosion de l'usine AZF à Toulouse (2001) ? (réponds par un nombre)", reponses: ["15", "quinze"], explication: "2 001 − 1 986 = **15 ans**." },
+        { type: "redaction", question: "**Paragraphe argumenté (niveau contrôle)** : explique ce qu'est un risque, puis montre, à l'aide d'un exemple, que les sociétés ne sont pas toutes égales face au risque. Termine en expliquant le lien entre dérèglement climatique et risques.", corrige: `**1. Qu'est-ce qu'un risque ?** Un **aléa** est un phénomène qui peut se produire (séisme, cyclone, inondation, explosion d'usine). La **vulnérabilité** est la fragilité d'une société face à cet aléa. Le **risque**, c'est la rencontre d'un aléa et d'une société vulnérable. Il peut être **naturel** (séisme, cyclone) ou **anthropique**, c'est-à-dire causé par les activités humaines (Tchernobyl en 1986, AZF à Toulouse en 2001).
+
+**2. Une inégale vulnérabilité** : en **2010**, deux séismes frappent le **Chili** (magnitude 8,8) et **Haïti** (magnitude 7,0). Le séisme chilien est bien plus puissant, mais il fait environ **500 morts**, contre **plus de 200 000** en Haïti. Le Chili, l'un des pays les plus riches d'Amérique latine et habitué aux séismes, applique des **normes parasismiques**, informe sa population et organise les secours. Haïti, l'un des pays les plus pauvres du monde, avait des constructions fragiles et peu de moyens. La prévention peut aussi sauver des vies dans un pays pauvre : au Bangladesh, des abris anticycloniques ont fait fortement baisser le nombre de morts.
+
+**3. Le dérèglement climatique** : le réchauffement de la planète, causé surtout par les gaz à effet de serre émis par les humains, **aggrave** des risques : canicules, sécheresses, incendies, inondations, cyclones plus intenses, submersions des côtes. Il faut donc **s'adapter** (prévention) et **atténuer** le réchauffement (émettre moins de gaz à effet de serre).
+
+**Conclusion** : un risque n'est jamais seulement « naturel » : il dépend aussi des choix et des moyens des sociétés.` },
+      ],
+    },
+    {
+      id: "littoraux-submersion",
+      titre: "Habiter un littoral menacé de submersion",
+      theme: "Géographie – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre prépare le thème 3 de géographie du nouveau programme de 6e (rentrée 2027) : « Habiter un espace soumis à des contraintes naturelles ». Le programme laisse le choix entre la **haute montagne** et les **littoraux menacés de submersion** : ce chapitre étudie les littoraux. Il complète les chapitres sur les contraintes naturelles et sur les littoraux. Comment vit-on sur une côte basse que la mer menace d'envahir ?
+
+## 1. Qu'est-ce qu'une contrainte naturelle ?
+- Une **contrainte naturelle** est un élément du milieu qui rend difficile l'installation ou les activités humaines : le froid, la sécheresse, l'altitude, la pente, ou le **risque d'être envahi par la mer**.
+- Les grands espaces à fortes contraintes : les **déserts chauds** (**Sahara** en Afrique, **Atacama** au Chili, **Gobi** en Asie) et les **déserts froids** (**Arctique**, **Antarctique**). Attention : le Gobi, au cœur de l'Asie, a des étés chauds mais des hivers glacials (jusqu'à −40 °C) ; c'est pourquoi beaucoup de géographes le classent plutôt parmi les déserts froids. Les grands espaces à fortes contraintes sont aussi les **forêts tropicales** (Amazonie, bassin du Congo, Indonésie), les **hautes montagnes** (Alpes, Andes, Atlas, Himalaya, Rocheuses), les **littoraux bas**.
+- Une contrainte n'empêche pas forcément d'habiter : les sociétés **s'adaptent**, avec leurs connaissances et leurs techniques.
+
+## 2. La submersion marine, une menace qui grandit
+- La **submersion marine** est l'**inondation** d'une côte par la mer, lors d'une tempête ou d'une forte marée.
+- Avec le **réchauffement climatique**, la glace des glaciers et des calottes polaires fond et l'eau des océans se dilate en se réchauffant : le **niveau de la mer monte**. Il a monté d'environ **20 cm** depuis le début du XXe siècle, et il pourrait monter encore d'environ **30 cm à 1 m** d'ici 2100, selon nos émissions de gaz à effet de serre (GIEC).
+- Les espaces les plus menacés sont les **côtes basses** et très peuplées : les **archipels** des océans Indien et Pacifique (Maldives, Kiribati, Tuvalu), le **delta du Gange** (Bangladesh), la **Floride** (États-Unis), les **Pays-Bas**.
+
+## 3. Étude de cas : les Pays-Bas, un pays gagné sur la mer
+- Environ **un quart** du territoire des Pays-Bas est situé **sous le niveau de la mer**. Depuis le Moyen Âge, les Néerlandais construisent des **digues** et assèchent des terres pour créer des **polders** (terres gagnées sur la mer, protégées par des digues, d'où l'on pompe l'eau, autrefois grâce à des moulins à vent).
+- En **1953**, une terrible tempête provoque une submersion : plus de **1 800 morts**. Le pays lance alors le **plan Delta** : des barrages et des digues géantes ferment les bras de mer. Le dernier grand ouvrage, une immense porte mobile qui protège le port de **Rotterdam**, est terminé en **1997**.
+- Aujourd'hui, les Néerlandais **rehaussent** les digues, élargissent les rivières pour laisser de la place à l'eau, renforcent les **dunes** en y apportant du sable et construisent même des **maisons flottantes**.
+
+## 4. Les Maldives et le Bangladesh : s'adapter avec moins de moyens
+- Les **Maldives** sont un archipel de l'**océan Indien** : la plupart des îles sont à **moins d'un mètre** au-dessus de la mer. Le pays construit des digues autour de la capitale, Malé, et une **île artificielle** plus haute (Hulhumalé), pour accueillir les habitants. Certains pourraient un jour devoir **partir** : on parle de futurs **migrants climatiques**.
+- Au **Bangladesh**, dans le **delta du Gange**, des dizaines de millions d'habitants vivent sur des terres très basses. On construit des maisons sur des **buttes** de terre, des abris contre les cyclones, et on cultive des variétés de riz qui supportent l'eau salée.
+
+## 5. S'adapter et atténuer
+- **S'adapter**, c'est se protéger des effets du changement climatique : digues, maisons surélevées, interdiction de construire trop près de la mer, et parfois **déplacer** des habitations vers l'intérieur des terres (on parle de **recul stratégique**).
+- **Atténuer**, c'est s'attaquer aux **causes** : réduire les émissions de gaz à effet de serre pour limiter la montée de la mer. L'adaptation et l'atténuation sont **complémentaires**.
+
+>! **Méthode – décrire un paysage de littoral menacé** : 1. repère les **plans** (premier plan, arrière-plan) ; 2. décris les éléments **naturels** (mer, plage, dunes) et les **aménagements humains** (digues, maisons, routes, champs) ; 3. cherche les **signes de la menace** (côte très basse, maisons au bord de l'eau) et les **signes d'adaptation** (digue, maisons sur pilotis, dune renforcée) ; 4. conclus : comment les habitants vivent-ils avec la contrainte ?
+
+> **À retenir** :
+> - **Contrainte naturelle** : élément du milieu qui rend difficile la vie humaine (déserts, forêts tropicales, hautes montagnes, littoraux bas).
+> - La **submersion marine** menace les côtes basses (Maldives, delta du Gange, Floride, Pays-Bas) ; la montée du niveau de la mer, due au **réchauffement climatique**, l'aggrave.
+> - Pays-Bas : **digues**, **polders**, **plan Delta** après la catastrophe de **1953**.
+> - **Adaptation** (se protéger des effets) et **atténuation** (réduire les causes) sont complémentaires.
+> - Vocabulaire : contrainte naturelle, submersion marine, digue, polder, adaptation, atténuation, migrant climatique.
+`,
+      exercices: [
+        { type: "saisie", question: "Comment appelle-t-on l'inondation d'une côte par la mer, lors d'une tempête ou d'une forte marée ?", reponses: ["submersion marine", "la submersion marine", "une submersion marine", "submersion", "la submersion", "une submersion"], explication: "La **submersion marine** menace les côtes basses ; la montée du niveau de la mer la rend plus fréquente." },
+        { type: "qcm", question: "Qu'est-ce qu'un polder ?", choix: ["Une terre gagnée sur la mer et protégée par des digues", "Une maison flottante", "Un bateau de pêche néerlandais", "Une montagne de sable au bord de la mer"], reponse: 0, explication: "Un **polder** est une terre gagnée sur la mer (ou sur un marais), protégée par des **digues**, d'où l'on pompe l'eau. Les Pays-Bas en ont créé depuis le Moyen Âge." },
+        { type: "vf", question: "Environ un quart du territoire des Pays-Bas est situé sous le niveau de la mer.", reponse: true, explication: "C'est pourquoi les Néerlandais construisent des **digues** depuis des siècles. Après la catastrophe de 1953, ils ont lancé le **plan Delta**." },
+        { type: "qcm", question: "Lequel de ces espaces n'est PAS un littoral menacé de submersion ?", choix: ["Les Maldives", "Le delta du Gange", "Le désert de Gobi", "La Floride"], reponse: 2, explication: "Le **désert de Gobi**, en Asie, est un désert très loin de la mer, au cœur du continent (et aux hivers glacials). Les Maldives, le delta du Gange (Bangladesh) et la Floride sont des côtes très basses, menacées par la mer." },
+        { type: "qcm", question: "Pourquoi le niveau de la mer monte-t-il ?", choix: ["Parce qu'il pleut davantage sur les océans", "Parce que les glaces fondent et que l'eau des océans se dilate en se réchauffant", "Parce que les continents s'enfoncent tous dans la mer", "Parce que les fleuves sont plus nombreux"], reponse: 1, explication: "Le **réchauffement climatique** fait fondre les glaciers et les calottes polaires, et l'eau des océans prend plus de place en se réchauffant (elle se **dilate**). Le niveau de la mer a monté d'environ 20 cm depuis le début du XXe siècle." },
+        { type: "saisie", question: "Comment appelle-t-on les mesures qui consistent à se protéger des effets du changement climatique (digues, maisons surélevées…) ?", reponses: ["adaptation", "l'adaptation", "s'adapter", "des mesures d'adaptation"], explication: "C'est l'**adaptation**. Réduire les émissions de gaz à effet de serre pour s'attaquer aux causes, c'est l'**atténuation**." },
+        { type: "vf", question: "Réduire les émissions de gaz à effet de serre est une mesure d'adaptation.", reponse: false, explication: "C'est une mesure d'**atténuation** : elle s'attaque aux **causes** du réchauffement. L'**adaptation**, c'est se protéger de ses **effets** (digues, maisons surélevées…). Les deux sont complémentaires." },
+        { type: "saisie", question: "Combien d'années séparent la tempête de 1953 aux Pays-Bas et l'achèvement du dernier grand ouvrage du plan Delta, en 1997 ? (réponds par un nombre)", reponses: ["44", "quarante-quatre"], explication: "1 997 − 1 953 = **44 ans**. Protéger un pays contre la mer demande des travaux très longs et très coûteux." },
+        { type: "qcm", question: "Que peuvent faire les habitants des Maldives si la mer continue de monter ?", choix: ["Rien : la mer va bientôt redescendre toute seule", "Construire des polders, car les Maldives sont des terres gagnées sur la mer", "Rien : les îles des Maldives sont assez hautes pour ne pas être menacées", "Construire des digues et des îles artificielles plus hautes, ou un jour partir"], reponse: 3, explication: "Les Maldives construisent des **digues** et une **île artificielle** plus haute (Hulhumalé). Si la mer monte beaucoup, certains habitants pourraient devoir **partir** : ce seraient des **migrants climatiques**." },
+        { type: "redaction", question: "**Paragraphe argumenté (niveau contrôle)** : explique pourquoi certains littoraux sont menacés de submersion, puis montre, à l'aide d'au moins un exemple précis, comment les sociétés s'adaptent. Distingue adaptation et atténuation.", corrige: `**Introduction** : la **submersion marine** est l'inondation d'une côte par la mer. C'est une **contrainte naturelle** forte pour les habitants des **côtes basses**.
+
+**1. Des littoraux de plus en plus menacés** : avec le **réchauffement climatique**, dû aux gaz à effet de serre émis par les humains, les glaces fondent et l'eau des océans se dilate : le **niveau de la mer monte** (environ 20 cm depuis le début du XXe siècle, peut-être 30 cm à 1 m de plus d'ici 2100). Les côtes basses et peuplées sont les plus menacées : les **Maldives**, le **delta du Gange**, la **Floride**, les **Pays-Bas**.
+
+**2. L'exemple des Pays-Bas** : environ un quart du pays est **sous le niveau de la mer**. Depuis le Moyen Âge, les Néerlandais construisent des **digues** et créent des **polders**. Après la tempête de **1953** (plus de 1 800 morts), ils lancent le **plan Delta** : barrages et digues géantes, jusqu'à la porte mobile qui protège Rotterdam (1997). Aujourd'hui, ils rehaussent les digues, renforcent les dunes et construisent des maisons flottantes. *(Autres exemples possibles : les Maldives, avec leurs digues et l'île artificielle de Hulhumalé ; le Bangladesh, avec ses maisons sur buttes et ses abris.)*
+
+**3. Adaptation et atténuation** : **s'adapter**, c'est se protéger des effets (digues, maisons surélevées, recul des habitations). **Atténuer**, c'est réduire les causes, en émettant moins de gaz à effet de serre. Les deux sont nécessaires.
+
+**Conclusion** : les sociétés peuvent habiter des littoraux menacés, mais cela demande de grands moyens, et les pays pauvres sont plus vulnérables.` },
+      ],
+    },
+    {
+      id: "cinq-metropoles-mondiales",
+      titre: "Les cinq premières métropoles mondiales",
+      theme: "Géographie – Nouveau programme de 6e (rentrée 2027)",
+      cours: `
+## Introduction
+Ce chapitre prépare le thème 2 de géographie du nouveau programme de 6e (rentrée 2027) : « Habiter une métropole ». Il complète le chapitre « Les métropoles et leurs habitants » (Paris et Mumbai). Le programme demande de **localiser et nommer** les **cinq premières métropoles mondiales** sur un planisphère, et de préciser pour trois d'entre elles les **fonctions** qui leur permettent de **rayonner** (d'avoir de l'influence) dans le monde entier. Lesquelles sont-elles, et pourquoi sont-elles si puissantes ?
+
+## 1. Une métropole mondiale, qu'est-ce que c'est ?
+- Une **métropole** est une grande ville qui concentre des **fonctions de commandement** (on dit aussi des **fonctions supérieures**) : elle prend des décisions qui comptent pour toute une région ou tout un pays.
+- Une **métropole mondiale** est une métropole dont l'**influence** s'étend au **monde entier**. On y trouve trois grands types de fonctions :
+  - des fonctions **économiques** : une **Bourse**, des banques, les sièges de grandes entreprises, un grand port ou un grand aéroport ;
+  - des fonctions **politiques** : un gouvernement, le siège d'organisations internationales ;
+  - des fonctions **culturelles** : de grands musées, des universités réputées, des médias, des spectacles, beaucoup de touristes.
+- Les métropoles mondiales sont reliées entre elles par des **flux** : avions, marchandises, argent, informations (Internet).
+
+## 2. Les cinq premières métropoles mondiales
+Selon le classement **Global Cities Index** du cabinet **Kearney** (publié en **octobre 2025**), qui mesure l'influence de 156 villes (affaires, habitants très diplômés, information, culture, rôle politique), les cinq premières sont :
+
+| Rang | Métropole | Pays | Continent | Quelques atouts |
+|---|---|---|---|---|
+| 1 | **New York** | États-Unis | Amérique du Nord | la Bourse de **Wall Street**, le siège de l'**ONU**, de grands musées, Broadway, de grands médias |
+| 2 | **Londres** | Royaume-Uni | Europe | la **City** (quartier de la finance), des universités célèbres, de grands médias (la BBC), un immense aéroport |
+| 3 | **Paris** | France | Europe | la capitale de la France, les sièges de l'**UNESCO** et de l'**OCDE**, le quartier d'affaires de **La Défense**, le **Louvre** (le musée le plus visité du monde), la mode |
+| 4 | **Tokyo** | Japon | Asie | la capitale du Japon, la Bourse de Tokyo, les sièges de grandes entreprises, la plus grande agglomération d'un pays développé (environ 33 millions d'habitants) |
+| 5 | **Singapour** | Singapour (une **cité-État** : un pays formé d'une seule ville) | Asie | l'un des premiers **ports** du monde, une grande place financière, un grand aéroport |
+
+- **Localiser** : deux métropoles en **Europe** (Londres, Paris), une en **Amérique du Nord** (New York, au bord de l'océan Atlantique), deux en **Asie** (Tokyo, au bord de l'océan Pacifique ; Singapour, en Asie du Sud-Est, tout près de l'équateur). Les cinq sont dans l'**hémisphère Nord**.
+- Ces métropoles sont dans des **pays développés** et riches. Mais des métropoles de pays **émergents** progressent vite : **Pékin** et **Shanghai** (Chine) sont dans les dix premières.
+
+## 3. Les plus peuplées ne sont pas les plus influentes
+- Selon l'**ONU** (rapport *World Urbanization Prospects*, novembre 2025), les agglomérations les plus peuplées sont **Jakarta** (Indonésie, près de 42 millions d'habitants), **Dhaka** (Bangladesh, près de 40 millions) et **Tokyo** (33 millions).
+- Jakarta et Dhaka sont des **mégapoles** (plus de 10 millions d'habitants), mais elles n'ont pas autant d'influence mondiale que New York ou Londres. Seule **Tokyo** est à la fois très peuplée et très influente.
+
+>! **Erreur fréquente** : ne confonds pas **taille** et **influence**. Une métropole mondiale se reconnaît à ses **fonctions de commandement** (Bourse, sièges, organisations internationales, culture), pas seulement à son nombre d'habitants. Paris (environ 11 millions d'habitants dans l'agglomération) est bien plus influente que Dhaka (près de 40 millions).
+
+>! **Méthode – utiliser un classement** : un classement dépend de ses **critères** et de sa **date**. New York, Londres, Paris et Tokyo sont en tête de presque tous les classements d'influence ; la cinquième place change selon les années et les classements (Singapour, Pékin, Hong Kong, Shanghai). Il faut donc toujours citer la **source** et l'**année** des chiffres.
+
+> **À retenir** :
+> - **Métropole mondiale** : métropole qui concentre des fonctions de commandement (économiques, politiques, culturelles) et dont l'influence s'étend au monde entier.
+> - Les cinq premières (Kearney, 2025) : **New York**, **Londres**, **Paris**, **Tokyo**, **Singapour**.
+> - Localisation : Amérique du Nord (New York), Europe (Londres, Paris), Asie (Tokyo, Singapour).
+> - Les plus peuplées (ONU, 2025 : Jakarta, Dhaka, Tokyo) ne sont pas forcément les plus influentes.
+> - Vocabulaire : métropole, métropole mondiale, fonctions de commandement, mégapole, cité-État, rayonner.
+`,
+      exercices: [
+        { type: "qcm", question: "Quelle métropole est classée première métropole mondiale (classement Kearney, 2025) ?", choix: ["Jakarta", "Paris", "New York", "Dhaka"], reponse: 2, explication: "**New York** est en tête : Bourse de Wall Street, siège de l'ONU, musées, médias. Paris est 3e. Jakarta et Dhaka sont les agglomérations les plus peuplées, mais pas les plus influentes." },
+        { type: "qcm", question: "Lesquelles de ces métropoles mondiales se trouvent en Europe ?", choix: ["Londres et Paris", "New York et Londres", "Tokyo et Singapour", "Paris et Tokyo"], reponse: 0, explication: "**Londres** (Royaume-Uni) et **Paris** (France) sont en Europe. New York est en Amérique du Nord ; Tokyo et Singapour sont en Asie." },
+        { type: "saisie", question: "Dans quel pays se trouve la métropole de Tokyo ?", reponses: ["Japon", "le Japon", "au Japon"], explication: "**Tokyo** est la capitale du **Japon**, en Asie, au bord de l'océan Pacifique. C'est la plus grande agglomération d'un pays développé (environ 33 millions d'habitants)." },
+        { type: "saisie", question: "Quelle métropole mondiale d'Asie du Sud-Est est aussi un pays (une cité-État) et l'un des premiers ports du monde ?", reponses: ["Singapour"], explication: "**Singapour** est une **cité-État** : un pays formé d'une seule ville. Son port, sa place financière et son aéroport en font une métropole mondiale." },
+        { type: "qcm", question: "La Bourse de Wall Street, à New York, est un exemple de fonction…", choix: ["culturelle", "politique", "économique", "agricole"], reponse: 2, explication: "Une **Bourse** est une fonction **économique** (finance). Le siège de l'ONU est une fonction **politique** ; les musées sont des fonctions **culturelles**." },
+        { type: "qcm", question: "Dans quelle métropole se trouve le siège de l'ONU (Organisation des Nations unies) ?", choix: ["Londres", "Paris", "Tokyo", "New York"], reponse: 3, explication: "Le siège de l'**ONU** est à **New York** : c'est une fonction **politique** de rayonnement mondial. Paris accueille, elle, les sièges de l'UNESCO et de l'OCDE." },
+        { type: "vf", question: "La ville la plus peuplée du monde est forcément la métropole la plus influente.", reponse: false, explication: "Selon l'ONU (2025), **Jakarta** est l'agglomération la plus peuplée (près de 42 millions d'habitants), mais elle n'est pas dans les cinq premières métropoles mondiales. L'influence dépend des **fonctions de commandement**, pas seulement de la taille." },
+        { type: "vf", question: "Les cinq premières métropoles mondiales se trouvent toutes dans l'hémisphère Nord.", reponse: true, explication: "New York, Londres, Paris et Tokyo sont nettement au nord de l'équateur ; **Singapour** en est très proche, mais juste au **nord**." },
+        { type: "saisie", question: "Selon l'ONU (2025), Jakarta compte près de 42 millions d'habitants et Tokyo 33 millions. Combien de millions d'habitants de plus compte Jakarta ? (réponds par un nombre)", reponses: ["9", "neuf", "9 millions", "9 millions d'habitants"], explication: "42 − 33 = **9 millions** d'habitants de plus. Pourtant, Tokyo est beaucoup plus influente que Jakarta dans le monde." },
+        { type: "redaction", question: "**Localiser et expliquer (niveau contrôle)** : 1. Nomme les cinq premières métropoles mondiales et indique pour chacune son continent. 2. Pour trois d'entre elles, explique quelles fonctions leur permettent de rayonner dans le monde entier.", corrige: `**1. Les cinq premières métropoles mondiales** (classement Kearney, 2025) : **New York** (Amérique du Nord), **Londres** et **Paris** (Europe), **Tokyo** et **Singapour** (Asie).
+
+**2. Des fonctions qui rayonnent dans le monde entier** :
+- **New York** : fonctions **économiques** (la Bourse de **Wall Street**, les sièges de grandes entreprises), **politiques** (le siège de l'**ONU**) et **culturelles** (grands musées, Broadway, médias).
+- **Londres** : la **City**, l'un des premiers quartiers de la finance du monde ; des universités célèbres ; de grands médias comme la BBC ; un immense aéroport qui la relie au monde.
+- **Paris** : la capitale de la France (fonction **politique**), les sièges de l'**UNESCO** et de l'**OCDE** ; le quartier d'affaires de **La Défense** (fonction **économique**) ; le **Louvre**, la mode et des millions de touristes (fonction **culturelle**).
+*(On peut aussi choisir Tokyo : capitale, Bourse, sièges de grandes entreprises ; ou Singapour : un des premiers ports du monde, place financière.)*
+
+**Conclusion** : ces métropoles ne sont pas les plus peuplées (Jakarta et Dhaka le sont davantage), mais elles concentrent les **fonctions de commandement** : ce sont elles qui ont le plus d'**influence** dans le monde.` },
+      ],
+    },
   ],
 };

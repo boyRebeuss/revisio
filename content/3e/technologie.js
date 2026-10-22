@@ -820,13 +820,15 @@ Sécurité : le **PVC** est **interdit** à la découpe laser (chauffé, il dég
 - Chaque matériau a une **empreinte carbone** (CO₂ émis pour le produire). Produire de l'aluminium à partir de minerai demande énormément d'électricité ; **recycler** l'aluminium économise environ **95 %** de cette énergie. Source : Institut international de l'aluminium, qui estime l'énergie nécessaire à environ 186 GJ par tonne pour l'aluminium produit à partir du minerai (2019), contre environ 8 GJ par tonne pour l'aluminium recyclé (1 GJ = 1 milliard de joules). Calcul : (186 − 8) ÷ 186 ≈ 0,96 ; on retient couramment « environ 95 % », car les valeurs varient selon les usines et les années.
 - Certains matériaux sont concentrés dans quelques pays, ce qui pose des questions de **disponibilité**, de dépendance et de conditions de travail.
 
-| Matériau | Principaux pays producteurs (part de la production minière mondiale en 2024, estimations) |
-|---|---|
-| **Cobalt** (batteries) | République démocratique du Congo, environ 76 % ; Indonésie, environ 10 % |
-| **Terres rares** (aimants des moteurs électriques et des éoliennes) | Chine, environ 69 % (270 000 t sur 390 000 t) ; la Chine assure aussi environ 90 % du raffinage |
-| **Lithium** (batteries) | Australie, environ 37 % ; Chili, environ 20 % ; Chine, environ 17 % |
+| Matériau | Principaux pays producteurs en 2024 (part de la production minière mondiale, USGS 2025) | Principaux pays producteurs en 2025 (estimations, USGS 2026) |
+|---|---|---|
+| **Cobalt** (batteries) | République démocratique du Congo, environ 76 % ; Indonésie, environ 10 % | République démocratique du Congo, environ 74 % (230 000 t sur 310 000 t) ; Indonésie, environ 14 % |
+| **Terres rares** (aimants des moteurs électriques et des éoliennes) | Chine, environ 69 % (270 000 t sur 390 000 t) | Chine, environ 69 % (270 000 t sur 390 000 t) |
+| **Lithium** (batteries) | Australie, environ 37 % ; Chili, environ 20 % ; Chine, environ 17 % | Australie, environ 32 % ; Chine, environ 21 % ; Chili, environ 19 % |
 
-Sources : Institut d'études géologiques des États-Unis (USGS), *Mineral Commodity Summaries 2025* ; pour le raffinage des terres rares, Agence internationale de l'énergie (2025). Ces chiffres changent chaque année.
+La Chine assure aussi environ 90 % du **raffinage** des terres rares (transformation du minerai en métaux utilisables).
+
+Sources : Institut d'études géologiques des États-Unis (USGS), *Mineral Commodity Summaries* 2025 et 2026 (chaque édition donne la production estimée de l'année précédente) ; pour le raffinage des terres rares, Agence internationale de l'énergie (2025). Ces chiffres changent chaque année : en 2025, la Chine est passée devant le Chili pour le lithium. Les chiffres d'une année sont même parfois corrigés dans l'édition suivante (l'édition 2026 estime par exemple la production mondiale de terres rares de 2024 à 380 000 t). Pour un exposé, cherche toujours l'édition la plus récente.
 
 - Bien concevoir, c'est limiter le nombre de matériaux différents, éviter les assemblages collés de matériaux différents (difficiles à recycler) et privilégier les matériaux recyclés ou recyclables.
 
@@ -845,6 +847,8 @@ Sources : Institut d'études géologiques des États-Unis (USGS), *Mineral Commo
         { type: "saisie", question: "D'après l'USGS (*Mineral Commodity Summaries 2025*), la République démocratique du Congo a extrait environ 220 000 t de cobalt en 2024, sur une production mondiale d'environ 290 000 t. Quelle part de la production mondiale cela représente-t-il, en % arrondi à l'unité ? (nombre)", reponses: ["76", "76 %"], explication: "220 000 ÷ 290 000 ≈ 0,759, soit environ **76 %** : plus des trois quarts du cobalt extrait dans le monde vient d'un seul pays. Une crise dans ce pays perturberait toute la fabrication des batteries." },
         { type: "qcm", question: "D'après l'Institut international de l'aluminium, produire 1 t d'aluminium à partir du minerai demande environ 186 GJ, et produire 1 t d'aluminium recyclé environ 8 GJ. Quelle économie d'énergie le recyclage permet-il ?", choix: ["Environ 5 %", "Environ 50 %", "Environ 23 %", "Environ 95 %"], reponse: 3, explication: "Économie : 186 − 8 = 178 GJ ; 178 ÷ 186 ≈ 0,96. Avec la valeur plus précise de 8,3 GJ, on trouve environ 95,5 % : on retient **environ 95 %**. Le recyclé ne demande qu'environ 4 à 5 % de l'énergie du primaire (8 ÷ 186 ≈ 0,04)." },
         { type: "vf", question: "D'après l'USGS, en 2024, l'Australie était le premier pays producteur de lithium extrait des mines, devant le Chili et la Chine.", reponse: true, explication: "Production estimée en 2024 : Australie environ 88 000 t, Chili environ 49 000 t, Chine environ 41 000 t (USGS, *Mineral Commodity Summaries 2025*). Ces trois pays fournissent à eux seuls environ les trois quarts du lithium extrait." },
+        { type: "saisie", question: "D'après l'USGS (*Mineral Commodity Summaries 2026*), la Chine a extrait environ 62 000 t de lithium en 2025, sur une production mondiale d'environ 290 000 t. Quelle part de la production mondiale cela représente-t-il, en % arrondi à l'unité ? (nombre)", reponses: ["21", "21 %"], explication: "62 000 ÷ 290 000 ≈ 0,214, soit environ **21 %**. En 2024, la part de la Chine était d'environ 17 % : elle est passée devant le Chili (environ 19 % en 2025)." },
+        { type: "qcm", question: "D'après le tableau du cours (USGS 2025 et 2026), qu'est-ce qui a changé entre 2024 et 2025 pour le lithium extrait des mines ?", choix: ["L'Australie a perdu sa première place", "Le Chili est devenu le premier producteur", "La Chine est passée devant le Chili", "La production mondiale a été divisée par deux"], reponse: 2, explication: "En 2025, l'Australie reste première (environ 32 %), la Chine passe à environ 21 % devant le Chili (environ 19 %). Ces classements changent d'une année à l'autre : il faut toujours citer l'**année** et la **source** des chiffres." },
       ],
     },
     {
@@ -1372,6 +1376,8 @@ Le facteur d'émission indique combien de kg CO₂e sont émis **par unité** : 
 | Transport par bateau | t·km | 0,01 kg CO₂e par t·km |
 | Transport par avion | t·km | 1 kg CO₂e par t·km |
 
+Ces valeurs arrondies donnent les bons **ordres de grandeur** pour s'entraîner. Les facteurs de la Base Empreinte sont plus détaillés (type exact d'aluminium, d'acier ou de plastique, pays, année, moyen de transport) et ils sont **mis à jour régulièrement** : pour un vrai bilan, on les relève dans la base en notant la **version** utilisée, afin que le calcul puisse être vérifié et refait.
+
 Pour le transport, la quantité s'exprime en **tonnes-kilomètres** (t·km) : **masse transportée (en t) × distance (en km)**. Attention : 1 t = 1 000 kg, donc 12 kg = 0,012 t.
 
 ## La méthode en cinq étapes
@@ -1505,6 +1511,183 @@ Pour un objet neuf acheté à un vendeur professionnel, la **garantie légale de
         { type: "saisie", question: "Une étagère en kit comporte 3 tablettes. Chaque tablette se fixe avec 4 vis (repère 5), et il faut 2 vis de plus (même repère) pour fixer l'étagère au mur. Quelle quantité faut-il indiquer pour le repère 5 dans la nomenclature ? (nombre)", reponses: ["14", "14 vis"], explication: "3 × 4 = 12 vis pour les tablettes, plus 2 pour le mur : 12 + 2 = **14 vis**. Une erreur de quantité dans la nomenclature bloque le montage." },
         { type: "vf", question: "En France, le mode d'emploi d'un produit vendu doit être rédigé en français.", reponse: true, explication: "La loi du 4 août 1994 relative à l'emploi de la langue française impose le français pour le mode d'emploi des produits vendus en France. D'autres langues peuvent s'y ajouter." },
         { type: "redaction", question: "**Sujet type brevet.** Fiche technique d'une lampe avant de vélo : batterie lithium-ion 3,7 V, 4 Ah, rechargeable par câble USB (fourni), durée de recharge 3 h ; voyant de charge rouge pendant la charge, vert quand la batterie est pleine ; un bouton : un appui court allume ou change de mode (fort, faible, clignotant), un appui de 2 s éteint ; indice IPX4 (protégée contre les projections d'eau, mais pas contre l'immersion) ; fixation par une sangle en caoutchouc. 1) Rédige la partie « Utilisation » de la notice : recharge, fixation et allumage, en étapes numérotées. 2) Rédige trois consignes de sécurité ou de bon usage et indique, pour chacune, la forme et la couleur du pictogramme qui l'accompagnerait. 3) Rédige un tableau de dépannage de trois lignes (problème, cause possible, solution). 4) Explique comment vérifier que ta notice est compréhensible.", corrige: "1) **Utilisation** :\n1. Brancher le câble USB (fourni) sur la lampe et sur un chargeur USB : le voyant devient **rouge**.\n2. Attendre environ 3 h, jusqu'à ce que le voyant devienne **vert**, puis débrancher le câble.\n3. Placer la lampe sur le guidon, faisceau vers l'avant.\n4. Passer la sangle en caoutchouc autour du guidon et l'accrocher au crochet de la lampe.\n5. Appuyer brièvement sur le bouton pour allumer (mode fort).\n6. Appuyer brièvement à nouveau pour passer au mode faible, puis au mode clignotant.\n7. Maintenir le bouton appuyé 2 secondes pour éteindre.\n\n2) **Consignes et pictogrammes** :\n- « Ne pas plonger la lampe dans l'eau » (indice IPX4 : projections seulement) : **rond rouge barré** (interdiction) ;\n- « Ne pas regarder directement le faisceau » : **triangle jaune** bordé de noir (avertissement, danger pour les yeux) ;\n- « Lire la notice avant la première utilisation » : **rond bleu** (obligation).\nOn peut aussi citer : ne pas jeter la lampe à la poubelle (poubelle barrée, batterie à rapporter en point de collecte) ; ne pas recharger une batterie abîmée ou gonflée.\n\n3) **Dépannage** :\n| Problème constaté | Cause possible | Solution |\n|---|---|---|\n| La lampe ne s'allume pas | batterie déchargée | recharger 3 h jusqu'au voyant vert |\n| Le voyant reste éteint pendant la recharge | câble ou chargeur défectueux, mal branché | rebrancher, essayer un autre câble ou chargeur |\n| La lampe glisse sur le guidon | sangle mal accrochée ou détendue | raccrocher la sangle en la tendant davantage |\n\n4) **Vérification** : donner la lampe et la notice à une personne qui ne connaît pas l'objet (un autre élève), sans l'aider ; observer si elle réussit chaque étape, noter où elle hésite ou se trompe et le temps mis ; corriger les étapes qui posent problème, puis refaire le test.\n\n> Attendus : étapes numérotées commençant par un verbe d'action, une action par étape ; pictogrammes correctement associés (forme et couleur) ; tableau de dépannage cohérent avec la fiche technique ; test de la notice par un utilisateur." },
+      ],
+    },
+    {
+      id: "sujet-brevet-complet-abri-velos",
+      titre: "Sujet complet type brevet : l'abri à vélos solaire et connecté",
+      theme: "Préparer le brevet : l'épreuve de sciences",
+      cours: `
+## S'entraîner sur un sujet complet
+Ce chapitre est un **sujet complet** de technologie, construit comme au brevet : un objet réel, plusieurs **documents**, une dizaine de questions qui couvrent tout le programme (chaînes d'énergie et d'information, calculs, programme, communication, développement durable). Les questions sont notées sur **9 points**, et **1 point** récompense la maîtrise de la langue : **10 points** en tout, à traiter en **30 minutes** environ.
+
+Les documents sont les mêmes pour toutes les questions : lis-les une fois en entier, puis reviens-y pour chaque question (« Relire le texte »). Le format de l'épreuve et les verbes des consignes sont expliqués dans le chapitre « Réussir la partie technologie de l'épreuve de sciences du brevet ».
+
+## Gérer ses 30 minutes
+| Moment | Durée conseillée | Ce que tu fais |
+|---|---|---|
+| Lecture du sujet | 3 min | repérer l'objet, les exigences, le rôle de chaque document |
+| Questions courtes (identifier, citer) | 5 min | réponses brèves, vocabulaire précis |
+| Calculs | 10 min | formule, valeurs, résultat avec unité, phrase de conclusion |
+| Programme, schéma bloc | 6 min | noms de variables exacts, ordre des fonctions |
+| Argumentation | 4 min | idée, données du document, nuance, conclusion |
+| Relecture | 2 min | unités, orthographe, numéros des questions |
+
+## Relier chaque question au bon document
+Avant de répondre, demande-toi : **quel document contient les données utiles ?** Souligne-les et note leur **unité**. Une même donnée sert souvent à plusieurs questions : la tension de la batterie sert à calculer l'énergie stockée, puis l'autonomie.
+
+## Méthode : faire le bilan d'énergie d'un objet autonome
+Beaucoup de sujets portent sur un objet alimenté par des panneaux photovoltaïques et une batterie. Méthode :
+1. **Besoin** : pour chaque appareil, énergie consommée par jour = puissance (W) × durée d'utilisation (h). Ne pas oublier les appareils qui fonctionnent **en permanence** (24 h sur 24).
+2. **Production** : énergie produite par les panneaux chaque jour (donnée du document), dans le cas le plus **défavorable** (l'hiver).
+3. **Stockage** : énergie de la batterie = tension (V) × capacité (Ah), puis la part **réellement utilisable** si le document la précise.
+4. **Comparer** et conclure : la production couvre-t-elle le besoin ? Sinon, combien de **jours entiers** la batterie peut-elle compenser le manque ?
+
+>! Exemple résolu : une borne d'information solaire possède un écran de 10 W allumé 12 h par jour et une carte électronique de 2 W qui fonctionne en permanence. Besoin : 10 × 12 + 2 × 24 = 120 + 48 = **168 Wh par jour**. Sa batterie de 12 V et 40 Ah stocke 12 × 40 = 480 Wh, dont 80 % utilisables : 0,8 × 480 = **384 Wh**. Par temps très couvert (production presque nulle), elle tient 384 ÷ 168 ≈ 2,3, soit **2 jours entiers** : on arrondit **à l'unité inférieure**, car le troisième jour ne serait pas terminé.
+
+## Erreurs fréquentes
+- Confondre **puissance** (W) et **énergie** (Wh) : une énergie = puissance × durée.
+- Oublier un appareil, surtout l'électronique qui consomme jour et nuit.
+- Arrondir un nombre de jours **au-dessus** : 2,3 jours ne font pas 3 jours de fonctionnement.
+- Répondre sans **comparer à l'exigence** : terminer par « l'exigence est respectée » ou « n'est pas respectée ».
+- Dans l'argumentation, ne donner que des avantages : il faut **nuancer**.
+
+> **À retenir** : sur un sujet complet, **lis tout** (3 min), relie chaque question à son **document**, garde du temps pour les calculs et la relecture. Bilan d'énergie : **besoin** (W × h, sans oublier le permanent) → **production** (cas le plus défavorable) → **stockage** (V × Ah, part utilisable) → comparaison, en arrondissant les jours **à l'unité inférieure**. Termine chaque réponse par une **conclusion** sur l'exigence.
+`,
+      textes: {
+        abri: `**Sujet : l'abri à vélos solaire et connecté** (données fictives)
+
+**Document 1 : présentation.** La commune installe devant le collège un abri fermé de **12 places** pour les vélos, dont les vélos à assistance électrique (VAE). Son toit est couvert de panneaux photovoltaïques. Un **régulateur de charge** envoie l'énergie produite vers une **batterie** lithium de **48 V et 100 Ah**. Pour ne pas abîmer la batterie, on n'utilise que **80 %** de son énergie. L'abri comprend :
+- 6 prises pour recharger les batteries des VAE ;
+- un éclairage à DEL de **20 W**, allumé par un **relais** commandé par la carte électronique quand le **détecteur de présence** repère quelqu'un et que le **capteur de luminosité** indique qu'il fait sombre (en moyenne **5 h par jour** en hiver) ;
+- un **lecteur de badges RFID** et une **gâche électrique** qui verrouille la porte ; à l'intérieur, un **bouton de sortie** ;
+- une **carte électronique** (microcontrôleur), un **écran** qui affiche le nombre de places libres et un **module radio** : l'ensemble consomme **5 W en permanence**.
+
+**Document 2 : extrait du cahier des charges.**
+| Exigence | Niveau attendu |
+|---|---|
+| Ex. 1 : recharger des VAE | au moins 4 batteries de VAE de 500 Wh par jour |
+| Ex. 2 : autonomie en hiver | fonctionner au moins **5 jours de suite** avec la production de décembre, sans réseau électrique, en partant d'une batterie pleine |
+| Ex. 3 : rapidité d'ouverture | porte déverrouillée moins de **2 s** après la lecture d'un badge autorisé |
+| Ex. 4 : suivi à distance | envoyer toutes les 15 minutes le nombre de places libres et la charge de la batterie à la mairie, située à **1,5 km** |
+
+**Document 3 : production moyenne des panneaux par jour.**
+| Mois | Décembre | Mars | Juin | Septembre |
+|---|---|---|---|---|
+| Énergie produite par jour | 1,5 kWh | 4,0 kWh | 7,5 kWh | 5,0 kWh |
+
+**Document 4 : comportement attendu à la porte.**
+| Situation | Action |
+|---|---|
+| badge autorisé et places_libres > 0 | déverrouiller la gâche 5 s ; retirer 1 à places_libres |
+| badge autorisé et places_libres = 0 | afficher « Complet » |
+| badge non autorisé | allumer le voyant rouge 2 s |
+| appui sur bouton_sortie | déverrouiller la gâche 5 s ; ajouter 1 à places_libres |
+
+Variables du programme : badge_autorise (booléen), places_libres (nombre entier), bouton_sortie (booléen).
+
+**Document 5 : deux structures possibles pour l'abri.**
+| Structure | Émissions de fabrication et de transport | Durée de vie prévue | Entretien |
+|---|---|---|---|
+| Acier galvanisé (usine à 800 km) | 1 900 kg CO₂e | 40 ans | presque aucun |
+| Bois local, douglas (scierie à 60 km) | 600 kg CO₂e | 25 ans | lasure tous les 5 ans ; pièces remplaçables |
+
+**Document 6 : liaisons sans fil (ordres de grandeur).**
+| Liaison | Portée | Débit | Consommation |
+|---|---|---|---|
+| NFC | quelques centimètres | faible | très faible |
+| Bluetooth | une dizaine de mètres | moyen | faible |
+| Wi-Fi | quelques dizaines de mètres | élevé | élevée |
+| LoRa | plusieurs kilomètres | très faible | très faible |`,
+      },
+      exercices: [
+        { type: "qcm", texte: "abri", question: "**Question 1 (0,5 pt).** Dans la chaîne d'énergie de l'éclairage, quelle fonction réalise la batterie ?", choix: ["Distribuer", "Alimenter", "Convertir", "Acquérir"], reponse: 1, explication: "La batterie **stocke** l'énergie produite par les panneaux et la fournit à l'éclairage : elle **alimente**. Le relais distribue, la lampe à DEL convertit l'énergie électrique en lumière ; « acquérir » est une fonction de la chaîne d'information." },
+        { type: "vf", texte: "abri", question: "**Question 2 (0,5 pt).** Le lecteur de badges RFID fait partie de la chaîne d'énergie de l'abri.", reponse: false, explication: "Le lecteur **lit une information** (le numéro du badge) et la transmet à la carte : il réalise la fonction **acquérir** de la chaîne d'**information**. La gâche électrique, elle, reçoit de l'énergie pour se déverrouiller." },
+        { type: "saisie", texte: "abri", question: "**Question 3 (0,5 pt).** Quelle énergie la batterie stocke-t-elle quand elle est pleine, en Wh ? (nombre)", reponses: ["4800", "4 800", "4800 Wh", "4 800 Wh"], explication: "E = tension × capacité = 48 × 100 = **4 800 Wh** (4,8 kWh). Seuls 80 % sont utilisables : 0,8 × 4 800 = 3 840 Wh." },
+        { type: "saisie", texte: "abri", question: "**Question 4 (1 pt).** En hiver, quelle énergie l'abri consomme-t-il chaque jour, en Wh, pour recharger 4 batteries de VAE, pour l'éclairage et pour l'électronique (carte, écran, module radio) ? (nombre)", reponses: ["2220", "2 220", "2220 Wh", "2 220 Wh"], explication: "Recharges : 4 × 500 = 2 000 Wh. Éclairage : 20 × 5 = 100 Wh. Électronique, **en permanence** : 5 × 24 = 120 Wh. Total : 2 000 + 100 + 120 = **2 220 Wh** par jour. L'oubli le plus fréquent est l'électronique, qui fonctionne jour et nuit." },
+        { type: "saisie", texte: "abri", question: "**Question 5 (1 pt).** En décembre, les panneaux produisent 1,5 kWh par jour et l'abri consomme 2 220 Wh par jour. La batterie, pleine au départ, compense le manque avec ses 80 % utilisables. Pendant combien de jours entiers l'abri peut-il fonctionner sans le réseau électrique ? (nombre)", reponses: ["5", "5 jours", "cinq", "cinq jours"], explication: "Manque par jour : 2 220 − 1 500 = 720 Wh. Énergie utilisable : 0,8 × 4 800 = 3 840 Wh. Durée : 3 840 ÷ 720 ≈ 5,3, soit **5 jours entiers** (on arrondit à l'unité inférieure). L'exigence 2 (au moins 5 jours) est **respectée**, mais de justesse : il reste peu de marge." },
+        { type: "qcm", texte: "abri", question: "**Question 6 (0,5 pt).** D'après les documents 2 et 6, quelle liaison choisir pour envoyer les données à la mairie (exigence 4) ?", choix: ["NFC", "Bluetooth", "Wi-Fi", "LoRa"], reponse: 3, explication: "La mairie est à **1,5 km** : seule la liaison **LoRa** a une portée de plusieurs kilomètres. Son débit est très faible, mais il suffit pour envoyer deux nombres toutes les 15 minutes, et elle consomme très peu, ce qui compte pour un abri alimenté par le soleil. NFC, Bluetooth et Wi-Fi ont une portée trop courte." },
+        { type: "saisie", texte: "abri", question: "**Question 7 (0,5 pt).** Pour vérifier l'exigence 3, on mesure trois fois au chronomètre le temps entre la lecture du badge et le déverrouillage : 1,2 s ; 1,6 s ; 1,4 s. Quelle est la durée moyenne, en secondes ? (nombre)", reponses: ["1,4", "1,4 s", "1,4 seconde", "1,4 secondes"], explication: "(1,2 + 1,6 + 1,4) ÷ 3 = 4,2 ÷ 3 = **1,4 s**. La moyenne et même chaque essai sont inférieurs à 2 s : l'exigence 3 est **respectée**." },
+        { type: "redaction", texte: "abri", question: "**Question 8 (1,5 pt).** 1) Représente la chaîne d'énergie de l'**éclairage** par un schéma bloc, en indiquant le constituant de chaque fonction et la forme d'énergie sur chaque flèche. 2) Cite les constituants de la chaîne d'information qui commandent l'éclairage, en précisant leur fonction (acquérir, traiter, communiquer). 3) Pour chaque capteur de l'éclairage, indique s'il fournit une information logique ou analogique.", corrige: "1) **Chaîne d'énergie de l'éclairage** :\n~~~\nlumière du soleil --> [panneaux photovoltaïques] --énergie électrique-->\n[ALIMENTER : régulateur de charge et batterie 48 V] --énergie électrique-->\n[DISTRIBUER : relais] --énergie électrique-->\n[CONVERTIR : lampe à DEL] --énergie lumineuse--> éclairage de l'abri\n~~~\nIl n'y a pas de fonction « transmettre » : la lampe ne produit pas de mouvement à transmettre. (Accepté aussi : les panneaux dans le bloc ALIMENTER, avec la batterie.)\n\n2) **Chaîne d'information** :\n- **acquérir** : le détecteur de présence et le capteur de luminosité ;\n- **traiter** : la carte électronique (microcontrôleur), qui décide d'allumer s'il y a quelqu'un **et** qu'il fait sombre ;\n- **communiquer** : la sortie de la carte qui envoie l'ordre au **relais** (vers la fonction distribuer de la chaîne d'énergie).\n\n3) Le **détecteur de présence** donne une information **logique** (quelqu'un ou personne : 2 états). Le **capteur de luminosité** donne une information **analogique** (une valeur qui varie de façon continue, que la carte compare à un seuil).\n\n> Barème indicatif : schéma bloc dans le bon ordre avec les formes d'énergie (0,75 pt) ; chaîne d'information juste (0,5 pt) ; logique / analogique (0,25 pt). Erreur à éviter : placer un capteur dans la chaîne d'énergie." },
+        { type: "redaction", texte: "abri", question: "**Question 9 (1,5 pt).** Le début du programme de la porte est donné :\n~~~\nrépéter indéfiniment\n    si un badge est lu alors\n        si badge_autorise = vrai ET places_libres > 0 alors\n            déverrouiller la gâche pendant 5 s\n~~~\nComplète le programme pour qu'il respecte **tout** le document 4, en utilisant exactement les noms des variables (badge_autorise, places_libres, bouton_sortie).", corrige: "**Programme complet** :\n~~~\nrépéter indéfiniment\n    si un badge est lu alors\n        si badge_autorise = vrai ET places_libres > 0 alors\n            déverrouiller la gâche pendant 5 s\n            places_libres ← places_libres − 1\n        sinon\n            si badge_autorise = vrai alors\n                afficher « Complet »\n            sinon\n                allumer le voyant rouge pendant 2 s\n    si bouton_sortie = vrai alors\n        déverrouiller la gâche pendant 5 s\n        places_libres ← places_libres + 1\n~~~\n(En blocs : « ajouter −1 à places_libres » et « ajouter 1 à places_libres ».)\n\n**Points vérifiés** :\n- les **quatre situations** du document 4 sont traitées ;\n- dans le « sinon », on distingue le badge autorisé quand l'abri est **complet** (places_libres = 0) du badge **non autorisé** ;\n- le compteur **diminue** à l'entrée et **augmente** à la sortie ;\n- le test du bouton de sortie est **en dehors** du test du badge (on peut sortir sans badge) ;\n- les noms des variables sont **exactement** ceux du document.\n\nPour aller plus loin : un programme encore plus sûr n'ajoute 1 que si places_libres < 12 (l'abri a 12 places), pour que le compteur reste juste si quelqu'un sort sans être entré par la porte.\n\n> Barème indicatif : mise à jour de places_libres (0,5 pt) ; cas « Complet » et badge refusé (0,5 pt) ; bouton de sortie (0,5 pt)." },
+        { type: "redaction", texte: "abri", question: "**Question 10 (1,5 pt).** La commune hésite entre les deux structures du document 5. 1) Calcule, pour chacune, les émissions par année d'utilisation. 2) Rédige un argumentaire de 5 à 7 lignes pour conseiller la commune, en t'appuyant sur les documents et en donnant au moins un inconvénient de la solution choisie.", corrige: "1) **Émissions par année d'utilisation** :\n- acier : 1 900 ÷ 40 = **47,5 kg CO₂e par an** ;\n- bois local : 600 ÷ 25 = **24 kg CO₂e par an**.\n\n2) **Argumentaire** : Je conseille à la commune de choisir la structure en **bois local**. D'après le document 5, elle émet environ deux fois moins de gaz à effet de serre par année d'utilisation que la structure en acier (24 kg CO₂e contre 47,5 kg CO₂e), même si elle dure moins longtemps. Le bois vient d'une scierie située à 60 km : le transport est court et cela fait travailler une entreprise de la région. Ses pièces sont remplaçables, ce qui prolonge sa durée de vie. Cependant, le bois demande un **entretien** régulier (une lasure tous les 5 ans), qui a un coût et ajoute un peu d'émissions, alors que l'acier galvanisé n'en demande presque pas. Malgré cet inconvénient, le bois local est le choix le plus favorable au climat.\n\n> Barème indicatif : calculs justes avec unité (0,5 pt) ; choix appuyé sur les données des documents (0,5 pt) ; nuance (inconvénient) et conclusion (0,5 pt). Le **point de langue** de la discipline (1 pt) récompense dans tout le sujet des phrases correctes, l'orthographe et un vocabulaire technique précis : il complète les 9 points des questions." },
+      ],
+    },
+    {
+      id: "plaque-essai-prototype",
+      titre: "Prototyper un circuit sur une plaque d'essai",
+      theme: "Création, conception, réalisation, innovations : des objets à concevoir et à réaliser",
+      cours: `
+## À quoi sert une plaque d'essai ?
+Avant de souder des composants ou de fabriquer une carte électronique, on **teste** le circuit sur une **plaque d'essai** (on dit aussi « plaque de prototypage » ou, en anglais, *breadboard*). On enfonce les pattes des composants et des fils dans ses trous, **sans soudure** : on peut modifier le montage, changer un composant, corriger une erreur en quelques secondes. C'est l'outil du **prototypage** électronique, souvent avec une carte programmable (micro:bit, Arduino...).
+
+## Comment les trous sont-ils reliés ?
+Sous les trous, des **lamelles métalliques** relient certains trous entre eux :
+- dans la partie centrale, les trous sont repérés par une **lettre** (a à j) et un **numéro de rangée** (1, 2, 3...) ; dans une même rangée, les **5 trous a, b, c, d, e** sont reliés entre eux, et les **5 trous f, g, h, i, j** aussi ;
+- une **rainure centrale** sépare ces deux groupes : ils ne sont **pas** reliés d'un côté à l'autre de la rainure ;
+- sur les bords, les **rails d'alimentation** (une ligne marquée **+**, souvent rouge, et une ligne marquée **−**, souvent bleue) relient tous leurs trous sur la longueur. Sur certaines plaques longues, les rails sont **coupés au milieu** : on vérifie au multimètre (test de continuité) ou on ajoute un fil pour les relier.
+
+>! Règle d'or : deux pattes placées dans le **même groupe de 5 trous** sont **reliées** (au même point du circuit). Pour qu'un composant fonctionne, ses deux pattes doivent donc être dans **deux rangées différentes**.
+
+## Les composants de base
+| Composant | Rôle | À savoir |
+|---|---|---|
+| **DEL** (diode électroluminescente) | éclairer, signaler | **polarisée** : la patte **longue** est l'**anode** (côté +), la patte courte la **cathode** (côté −, du côté du méplat) ; elle ne s'allume que dans le bon sens |
+| **Résistance** | limiter l'intensité du courant | non polarisée ; sa valeur (en ohms, Ω) se lit avec le code de couleurs ou se mesure à l'ohmmètre |
+| **Bouton-poussoir** | donner un ordre (information logique) | celui à 4 pattes se place **à cheval sur la rainure centrale** : ses pattes se trouvent ainsi dans des groupes de trous différents, et l'appui relie vraiment deux points du circuit |
+| **Fils de liaison** | relier les rangées, les rails et la carte | convention : rouge pour le +, noir ou bleu pour le − (la masse, notée **GND**) |
+| **Carte programmable** | traiter (microcontrôleur) | broches d'entrée et de sortie numérotées, broche **GND** (0 V) et broche d'alimentation (3,3 V sur la micro:bit, 5 V sur beaucoup de cartes Arduino) |
+
+## Calculer la résistance de protection d'une DEL
+Branchée sans résistance, une DEL laisse passer trop de courant et **grille**. On place une résistance **en série** avec elle. Une DEL rouge a besoin d'environ **2 V** à ses bornes (environ 3 V pour une bleue ou une blanche) et d'un courant d'environ **10 à 20 mA**.
+
+La résistance reçoit le reste de la tension. D'après la loi d'Ohm (U = R × I) :
+
+**R = (tension d'alimentation − tension de la DEL) ÷ intensité voulue** (R en Ω, U en V, I en A ; 20 mA = 0,020 A).
+
+>! Exemple résolu : carte en 5 V, DEL rouge (2 V), courant voulu 20 mA. R = (5 − 2) ÷ 0,020 = 3 ÷ 0,020 = **150 Ω**. Les résistances n'existent qu'en **valeurs normalisées** (par exemple 100, 120, 150, 180, 220, 270, 330 Ω) : si le calcul ne tombe pas sur une valeur existante, on prend la valeur **immédiatement supérieure**, pour que le courant ne dépasse pas la valeur voulue. Ici, 150 Ω existe. Avec une résistance plus grande, par exemple 220 Ω, le courant vaut 3 ÷ 220 ≈ 0,014 A, soit environ 14 mA : la DEL éclaire un peu moins, sans risque.
+
+## La méthode de câblage
+1. **Dessiner le schéma** du circuit et repérer les broches de la carte à utiliser.
+2. **Carte débranchée**, relier la broche **GND** au rail **−** (et, si besoin, l'alimentation au rail **+**).
+3. **Placer les composants** : chaque patte dans une rangée bien choisie ; DEL dans le bon sens.
+4. **Relier** par des fils courts, avec les bonnes couleurs.
+5. **Vérifier avant de brancher** : comparer le montage au schéma, tester au multimètre qu'il n'y a **pas de continuité** entre les rails + et − (sinon, c'est un **court-circuit**).
+6. **Tester** avec un programme simple (faire clignoter la DEL), puis le programme complet.
+7. Si tout fonctionne, on peut passer à un montage **soudé** ou à une carte électronique fabriquée pour l'objet.
+
+>! Exemple : DEL commandée par la broche 13 d'une carte en 5 V.
+>! - un fil va de la broche 13 au trou a10 ;
+>! - la résistance de 220 Ω relie le trou c10 au trou c14 ;
+>! - la DEL a son anode (patte longue) en e14 et sa cathode (patte courte) en e15 ;
+>! - un fil relie le trou a15 au rail − ;
+>! - un fil relie le rail − à la broche GND de la carte.
+>! Le courant suit le chemin : broche 13 → rangée 10 → résistance → rangée 14 → DEL → rangée 15 → rail − → GND.
+
+## Erreurs fréquentes et diagnostic
+| Ce qu'on constate | Cause probable |
+|---|---|
+| La DEL ne s'allume pas, le programme est juste | DEL à l'envers, ou masse (GND) non reliée : le circuit n'est pas fermé |
+| La DEL ne s'allume pas, ses deux pattes sont dans la même rangée | elle est **court-circuitée** : le courant passe par la lamelle, pas par la DEL |
+| La DEL a éclairé très fort puis s'est éteinte définitivement | pas de résistance de protection : elle a grillé |
+| La carte s'éteint ou chauffe dès qu'on la branche | **court-circuit** entre + et − : débrancher tout de suite |
+| Le montage marche « par moments » | patte mal enfoncée, fil abîmé |
+
+**Sécurité** : la plaque d'essai sert uniquement en **très basse tension** (piles, port USB, cartes en 3,3 V ou 5 V), jamais sur le secteur 230 V. On **débranche** la carte avant de modifier le montage.
+
+> **À retenir** : la plaque d'essai permet de **prototyper sans soudure**. Dans une rangée, les **5 trous** d'un même côté de la rainure sont **reliés** ; les **rails** + et − relient leurs trous sur la longueur. Un composant doit avoir ses pattes dans **des rangées différentes**. DEL : **patte longue = anode (+)**, toujours avec une **résistance en série** : **R = (U alimentation − U DEL) ÷ I**, puis valeur normalisée **immédiatement supérieure**. Relier la **masse (GND)**, vérifier l'absence de court-circuit **avant** de brancher, puis tester.
+`,
+      exercices: [
+        { type: "qcm", question: "Sur une plaque d'essai, quels trous sont reliés entre eux par une lamelle métallique ?", choix: ["Tous les trous de la plaque", "Les 5 trous a, b, c, d, e d'une même rangée numérotée", "Les trous a10 et f10, de part et d'autre de la rainure centrale", "Aucun : il faut toujours ajouter des fils"], reponse: 1, explication: "Dans une même rangée, les **5 trous** situés du même côté de la rainure (a à e, ou f à j) sont reliés. La rainure centrale **sépare** les deux groupes : a10 et f10 ne sont pas reliés." },
+        { type: "vf", question: "On place une DEL avec ses deux pattes dans les trous b7 et d7. Elle s'allumera normalement si le reste du circuit est correct.", reponse: false, explication: "b7 et d7 sont dans le **même groupe de 5 trous** : ils sont reliés par la lamelle. La DEL est **court-circuitée** : le courant passe par la lamelle et pas par elle. Il faut placer ses pattes dans **deux rangées différentes** (par exemple d7 et d8)." },
+        { type: "qcm", question: "Comment reconnaît-on l'anode d'une DEL, la patte à relier du côté + ?", choix: ["C'est la patte la plus courte", "C'est la patte du côté du méplat", "C'est la patte la plus longue", "Les deux pattes sont identiques"], reponse: 2, explication: "L'**anode** est la patte **longue** (côté +). La patte courte, du côté du **méplat** du boîtier, est la **cathode** (côté −). Une DEL branchée à l'envers ne s'allume pas." },
+        { type: "saisie", question: "Une DEL rouge (2 V) est alimentée par une carte en 5 V. On veut un courant de 15 mA (0,015 A). Quelle résistance faut-il, en ohms ? (nombre)", reponses: ["200", "200 Ω", "200 ohms", "200 ohm"], explication: "R = (5 − 2) ÷ 0,015 = 3 ÷ 0,015 = **200 Ω**. Penser à convertir les mA en A (15 mA = 0,015 A)." },
+        { type: "qcm", question: "Une carte programmable fournit 3,3 V sur ses sorties. Pour une DEL rouge (2 V) et un courant de 10 mA, le calcul donne R = 1,3 ÷ 0,010 = 130 Ω. Le magasin propose 100 Ω, 120 Ω, 150 Ω et 180 Ω. Laquelle choisir ?", choix: ["100 Ω", "120 Ω", "180 Ω", "150 Ω"], reponse: 3, explication: "On prend la valeur normalisée **immédiatement supérieure** au calcul : **150 Ω**. Le courant vaut alors 1,3 ÷ 150 ≈ 8,7 mA, sans dépasser les 10 mA voulus. Avec 100 ou 120 Ω, le courant dépasserait 10 mA ; 180 Ω marcherait aussi, mais la DEL éclairerait moins sans raison." },
+        { type: "saisie", question: "Une DEL rouge (2 V) est branchée en série avec une résistance de 220 Ω sur une carte en 5 V. Quelle est l'intensité du courant, en mA arrondie à l'unité ? (nombre)", reponses: ["14", "14 mA", "13,6", "13,6 mA"], explication: "La résistance reçoit 5 − 2 = 3 V. I = U ÷ R = 3 ÷ 220 ≈ 0,0136 A, soit environ **14 mA**." },
+        { type: "vf", question: "Un bouton-poussoir à 4 pattes se place généralement à cheval sur la rainure centrale de la plaque d'essai.", reponse: true, explication: "Ainsi, ses pattes se trouvent dans des groupes de trous **différents** et le bouton relie vraiment deux points du circuit quand on appuie. Placé autrement, il peut être court-circuité en permanence." },
+        { type: "qcm", question: "Un élève a câblé une DEL et sa résistance sur la broche 13 de sa carte. Le programme de clignotement est juste, la DEL est dans le bon sens, mais elle ne s'allume pas. Il a relié la cathode au rail −, mais aucun fil ne relie le rail − à la carte. Quelle est la cause ?", choix: ["La masse (GND) n'est pas reliée : le circuit n'est pas fermé", "La résistance est trop faible", "La DEL est court-circuitée", "La carte a besoin d'une batterie plus puissante"], reponse: 0, explication: "Le courant part de la broche 13 et doit **revenir** à la carte par la broche **GND**. Sans fil entre le rail − et GND, le circuit est **ouvert** : aucun courant ne passe." },
+        { type: "saisie", question: "Avant de brancher la carte, on vérifie au multimètre, en position continuité, s'il y a un bip entre le rail + et le rail −. Comment appelle-t-on le défaut qui ferait biper le multimètre ? (un nom composé)", reponses: ["court-circuit", "un court-circuit", "courts-circuits"], explication: "Un bip signifie que le + et le − sont reliés directement : c'est un **court-circuit**. Le courant passerait sans traverser les composants, très fort : la carte ou le port USB pourrait chauffer et être endommagé." },
+        { type: "redaction", question: "**Sujet type brevet.** On prototype une veilleuse sur une plaque d'essai, avec une carte programmable en 5 V : un bouton-poussoir (broche 2) allume ou éteint une DEL blanche (3 V, courant voulu 20 mA) commandée par la broche 9. Résistances disponibles : 68 Ω, 82 Ω, 100 Ω, 120 Ω. 1) Calcule la résistance de protection de la DEL et choisis une valeur disponible. Justifie. 2) Décris le câblage de la DEL et de sa résistance sur la plaque d'essai (trous utilisés, fils, rails). 3) Liste trois vérifications à faire avant de brancher la carte. 4) La DEL ne s'allume pas au premier essai. Propose une démarche de diagnostic en trois étapes.", corrige: "1) **Résistance** : R = (5 − 3) ÷ 0,020 = 2 ÷ 0,020 = **100 Ω**. La valeur **100 Ω** existe : on la choisit (courant = 2 ÷ 100 = 0,020 A = 20 mA). Si le calcul avait donné 90 Ω, on aurait pris la valeur immédiatement supérieure, 100 Ω ; 68 Ω et 82 Ω donneraient un courant trop fort.\n\n2) **Câblage** (un exemple parmi d'autres) :\n- carte débranchée, un fil noir relie la broche GND au rail − ;\n- un fil relie la broche 9 au trou a20 ;\n- la résistance de 100 Ω relie c20 à c24 ;\n- la DEL : anode (patte longue) en e24, cathode (patte courte) en e25 ;\n- un fil relie a25 au rail −.\nChaque composant a ses pattes dans **deux rangées différentes** ; la résistance est **en série** avec la DEL.\n\n3) **Vérifications avant de brancher** :\n- comparer le montage au schéma, fil par fil ;\n- vérifier le **sens de la DEL** (patte longue côté résistance, patte courte côté rail −) ;\n- tester au multimètre qu'il n'y a **pas de continuité** entre les rails + et − (pas de court-circuit) ;\n- vérifier que le bouton est à cheval sur la rainure et que toutes les pattes sont bien enfoncées.\n\n4) **Diagnostic** (du plus simple au plus compliqué) :\n1. Vérifier le **sens de la DEL** et le fil entre le rail − et **GND** (circuit fermé ?).\n2. Téléverser un programme de test très simple (allumer la broche 9 en permanence) : si la DEL s'allume, l'erreur est dans le programme (lecture du bouton, numéro de broche).\n3. Carte branchée, mesurer au voltmètre la tension entre la broche 9 et GND (environ 5 V attendus quand la sortie est activée), puis aux bornes de la DEL ; carte débranchée, tester la continuité des fils. Remplacer la DEL si elle est grillée.\n\n> Barème indicatif : calcul et choix justifiés (1 pt), câblage cohérent (1 pt), vérifications de sécurité (1 pt), diagnostic ordonné (1 pt)." },
       ],
     },
   ],

@@ -324,7 +324,7 @@ L'**énergie** permet de faire bouger, chauffer, éclairer, fonctionner un appar
 | **lumineuse** | la lumière | la lumière du Soleil |
 | **nucléaire** | le noyau des atomes | l'uranium d'une centrale nucléaire |
 
-Certaines énergies peuvent être **stockées** (de pesanteur, cinétique, chimique, thermique, nucléaire). D'autres sont plutôt des **transferts** d'un objet à un autre : l'énergie **électrique** (transportée par le courant) et l'énergie **lumineuse** (transportée par la lumière).
+Les énergies de pesanteur, cinétique, chimique, thermique et nucléaire peuvent être **stockées** dans un **réservoir** (eau d'un barrage, pile, aliments, essence...). L'énergie **électrique** et l'énergie **lumineuse**, elles, ne se stockent pas telles quelles : elles sont **transférées** d'un objet à un autre (par le courant, par la lumière).
 
 ## Les conversions d'énergie
 L'énergie ne se crée pas : elle **se convertit** d'une forme en une autre grâce à un **convertisseur**.
@@ -332,10 +332,7 @@ L'énergie ne se crée pas : elle **se convertit** d'une forme en une autre grâ
 >! **Bien le dire** : « Au cours de la chute d'un objet, son énergie de pesanteur est convertie en énergie cinétique. » « Dans une voiture à essence, de l'énergie chimique est convertie en énergie cinétique. » « La Terre reçoit de l'énergie du Soleil par la lumière qu'il émet. »
 
 ## La chaîne énergétique
-On représente une conversion par une **chaîne énergétique** : un **réservoir** d'énergie, un **convertisseur**, et des flèches qui indiquent la forme d'énergie transférée.
-
->! **Exemple : la lampe de poche**
->! pile (réservoir d'énergie chimique) → énergie électrique → lampe (convertisseur) → énergie lumineuse + énergie thermique (la lampe chauffe un peu)
+On représente une conversion par une **chaîne énergétique** : un **réservoir** d'énergie, un **convertisseur**, et des flèches qui indiquent la forme d'énergie transférée (exemple dessiné plus bas : la lampe de poche).
 
 | Appareil ou dispositif | Énergie reçue | Énergie produite |
 |---|---|---|
@@ -348,7 +345,7 @@ On représente une conversion par une **chaîne énergétique** : un **réservoi
 | muscles | chimique (aliments) | cinétique + thermique |
 
 ## Construire une chaîne énergétique
-Une chaîne énergétique se lit de haut en bas (ou de gauche à droite). Chaque **objet** (réservoir, convertisseur) est écrit dans un **cadre** (ici, les crochets [ ] dessinent le cadre ; sur ton cahier, trace un rectangle ou un ovale, selon la convention de ton professeur : les manuels ne dessinent pas tous les cadres de la même forme) ; chaque **flèche** porte le **nom de la forme d'énergie** transférée.
+Une chaîne énergétique se lit de haut en bas (ou de gauche à droite). Chaque **objet** (réservoir, convertisseur) est écrit dans un **cadre** : ici des crochets [ ] ; sur ton cahier, un rectangle ou un ovale, selon la convention de ton professeur. Chaque **flèche** porte le **nom de la forme d'énergie** transférée.
 
 ~~~
 [ pile ]   (réservoir)
@@ -405,6 +402,9 @@ Soleil
    │ énergie ... (1)
    ▼
 [ panneau solaire ]
+   │
+   ├─▶ énergie thermique
+   │   (perdue : il chauffe)
    │
    │ énergie électrique
    ▼
@@ -469,6 +469,8 @@ Les muscles et la dynamo perdent aussi un peu d'énergie sous forme **thermique*
 **2)** Il y a **trois convertisseurs** : les muscles (chimique → cinétique), la dynamo (cinétique → électrique), la DEL (électrique → lumineuse).
 
 **3)** Elle n'a besoin **ni de pile ni de prise** : c'est la personne qui fournit l'énergie en tournant la manivelle. Elle fonctionne donc même quand il n'y a plus d'électricité et sans pile à remplacer.` },
+        { type: "vf", texte: "voiture", question: "Dans cette chaîne, le panneau solaire convertit toute l'énergie lumineuse qu'il reçoit en énergie électrique.", reponse: false, explication: "Non : le panneau solaire, comme tout convertisseur, **perd** une partie de l'énergie reçue sous forme d'énergie **thermique** (il chauffe au soleil). La chaîne le montre par la flèche « énergie thermique (perdue) » qui part du panneau. Seule une partie de l'énergie lumineuse devient de l'énergie électrique." },
+        { type: "saisie", texte: "voiture", question: "Dans cette chaîne, le panneau solaire et le moteur perdent tous les deux de l'énergie. Sous quelle forme ? Énergie...", reponses: ["thermique", "énergie thermique", "l'énergie thermique", "chaleur", "la chaleur", "de la chaleur", "sous forme de chaleur", "sous forme thermique"], explication: "Les deux convertisseurs perdent de l'énergie **thermique** : ils chauffent. Cette énergie ne disparaît pas, mais elle n'est pas utile pour faire avancer la voiture." },
       ],
     },
     {
@@ -566,14 +568,16 @@ Pour représenter un circuit, on utilise des **symboles normalisés**, compris d
 Dans le schéma ci-dessous, la pile est à gauche : le **grand trait** est la borne +, le **petit trait** la borne −.
 
 ~~~
-   +----------------+
-   |                |
- =====  borne +    (X)  lampe
-  ===   borne −     |
-   |                |
-   +-----/  --------+
-      interrupteur ouvert
+      ┌──────(X)──────┐
+      │     lampe     │
+ + ───┴───            │
+ −   ━┰━              │
+      │               │
+      └─────•───•─────┘
+     interrupteur fermé
 ~~~
+
+Ici, l'interrupteur est fermé : la boucle est complète, la lampe brille.
 
 Voici les symboles dessinés sur un fil (dans ces dessins, les traits « ─ » et « │ » sont des fils, sauf les deux traits de la pile) :
 
@@ -581,7 +585,7 @@ Voici les symboles dessinés sur un fil (dans ces dessins, les traits « ─ » 
 pile
          │
       ───┴───   borne +
-        ━━━     borne −
+        ━┰━     borne −
          │
 (grand trait fin = borne +,
  petit trait épais = borne −)
@@ -656,7 +660,7 @@ Schéma 1
       ┌──────(X)──────┐
       │               │
  + ───┴───            │
- −   ━━━              │
+ −   ━┰━              │
       │               │
       └─────•/  •─────┘
 
@@ -664,7 +668,7 @@ Schéma 2
       ┌─────┬──(X)────┐
       │     │         │
  + ───┴───  │         │
- −   ━━━    │         │
+ −   ━┰━    │         │
       │     │         │
       └─────┴─────────┘
 
@@ -672,7 +676,7 @@ Schéma 3
       ┌──(X)────(M)───┐
       │               │
  + ───┴───            │
- −   ━━━              │
+ −   ━┰━              │
       │               │
       └───────────────┘
 ~~~`,
@@ -705,7 +709,7 @@ Pour que la lampe brille, il faut une **boucle fermée** qui part d'une borne de
       ┌──(X)────(M)───┐
       │               │
  + ───┴───            │
- −   ━━━              │
+ −   ━┰━              │
       │               │
       └─────•/  •─────┘
 ~~~
@@ -816,6 +820,7 @@ escargot  truite  grenouille  chat  humain
         { type: "qcm", texte: "arbre", question: "D'après l'arbre, la grenouille est-elle plus proche parente de la truite ou de l'humain ?", choix: ["De la truite, car elles vivent toutes les deux dans l'eau", "Des deux de la même façon", "De l'humain, car leur ancêtre commun est plus récent", "D'aucun des deux"], reponse: 2, explication: "La grenouille et l'humain partagent un ancêtre commun qui avait déjà **4 membres** ; cet ancêtre est plus **récent** que celui qu'ils partagent avec la truite. La grenouille est donc plus proche parente de l'humain. Le milieu de vie (l'eau) n'est pas un critère de parenté." },
         { type: "vf", texte: "arbre", question: "D'après cet arbre, l'humain descend du chat.", reponse: false, explication: "Un arbre de parenté ne montre jamais qu'une espèce actuelle descend d'une autre espèce actuelle. L'humain et le chat descendent tous les deux d'un **ancêtre commun**, aujourd'hui disparu, qui avait des poils et des mamelles." },
         { type: "saisie", texte: "arbre", question: "Quel attribut, apparu chez l'ancêtre commun n° 2, possèdent à la fois la grenouille, le chat et l'humain ?", reponses: ["4 membres", "quatre membres", "des membres", "membres", "4 pattes", "quatre pattes", "tétrapode", "tétrapodes"], explication: "Ils ont **4 membres** : ce sont des **tétrapodes**. La truite et l'escargot, en dehors de ce groupe, n'en ont pas." },
+        { type: "qcm", texte: "arbre", question: "On veut ajouter le lézard dans l'arbre. Il a des vertèbres et 4 membres, mais ni poils ni mamelles. Où faut-il brancher sa branche ? (Le « groupe [2] », ce sont tous les descendants de l'ancêtre commun n° 2.)", choix: ["Dans le groupe [3], avec le chat et l'humain", "Avec l'escargot, en dehors du groupe [1]", "Dans le groupe [2], mais en dehors du groupe [3]", "À côté de la truite, en dehors du groupe [2]"], reponse: 2, explication: "Le lézard a des **vertèbres** [1] et **4 membres** [2] : il entre dans le groupe [2], avec la grenouille, le chat et l'humain. Il n'a ni poils ni mamelles : il reste **en dehors** du groupe [3]. On le place d'après ce qu'il **possède** : il ne partage simplement pas l'attribut [3]." },
       ],
     },
     {
@@ -994,6 +999,15 @@ Une classe place un mélange de lait et de yaourt à 42 °C et mesure le pH tout
         { type: "saisie", texte: "etiquette", question: "Un bol contient 40 g de ces céréales. Combien de grammes de sucres apporte-t-il ?", reponses: ["10", "10 g", "10 grammes"], explication: "100 g de céréales contiennent 25 g de sucres. 40 g, c'est 0,4 fois 100 g : 25 × 0,4 = **10 g** de sucres, soit l'équivalent de 2 morceaux de sucre." },
         { type: "qcm", texte: "yaourt", question: "D'après le tableau, comment évolue le mélange au cours de la fabrication du yaourt ?", choix: ["Il devient de moins en moins acide", "Il devient de plus en plus acide", "Son acidité ne change pas", "Il devient acide puis redevient neutre"], reponse: 1, explication: "Le pH **diminue** de 6,7 à 4,5 : le mélange devient de plus en plus **acide**. Ce sont les bactéries lactiques qui transforment le sucre du lait en **acide lactique**." },
         { type: "qcm", texte: "yaourt", question: "D'après le tableau, pendant quelle heure le pH baisse-t-il le plus ?", choix: ["Entre 0 h et 1 h", "Entre 5 h et 6 h", "Entre 2 h et 3 h", "Entre 4 h et 5 h"], reponse: 2, explication: "Entre 2 h et 3 h, le pH passe de 6,0 à 5,2 : il baisse de **0,8**, plus que pendant les autres heures (0,2 ; 0,5 ; 0,4 ; 0,2 ; 0,1). C'est le moment où les bactéries, devenues nombreuses, produisent le plus d'acide." },
+        { type: "qcm", texte: "etiquette", question: "D'après le tableau nutritionnel, quel constituant est le plus abondant dans 100 g de ces céréales ?", choix: ["Les lipides (graisses)", "Les protéines", "Les fibres", "Les glucides"], reponse: 3, explication: "Pour 100 g, il y a **70 g de glucides** (dont 25 g de sucres), contre 8 g de lipides, 9 g de protéines et 7 g de fibres. Les céréales sont faites de blé : un **féculent**, riche en glucides, qui apporte de l'énergie." },
+        { type: "saisie", texte: "etiquette", question: "Un bol contient 40 g de ces céréales. Combien de grammes de lipides (graisses) apporte-t-il ?", reponses: ["3,2", "3,2 g", "3,2 grammes"], explication: "100 g de céréales contiennent 8 g de lipides. 40 g, c'est 0,4 fois 100 g : 8 × 0,4 = **3,2 g** de lipides." },
+        { type: "redaction", texte: "etiquette", question: "Sacha dit : « Ces céréales contiennent du blé complet, donc je peux en manger autant que je veux. » À l'aide de l'étiquette, réponds-lui : 1) ce qui est intéressant dans ces céréales ; 2) ce qui pose problème ; 3) un conseil pour son petit-déjeuner.", corrige: `**1) Ce qui est intéressant** : le premier ingrédient est le **blé complet** (60 %), un féculent qui apporte de l'**énergie** (70 g de glucides pour 100 g) et des **fibres** (7 g pour 100 g).
+
+**2) Ce qui pose problème** : le **sucre** est le **deuxième ingrédient** (22 %) : les ingrédients étant rangés du plus abondant au moins abondant, il y en a beaucoup. Le tableau indique **25 g de sucres pour 100 g**, soit un quart de leur poids. Or les produits sucrés sont **à limiter**. Il y a aussi de l'huile (8 g de lipides pour 100 g) et un peu de sel.
+
+**3) Conseil** : en manger une **portion raisonnable** (un bol d'environ 40 g apporte déjà 10 g de sucres), avec un produit laitier (du lait, pour le calcium) et un fruit. On peut aussi choisir des céréales moins sucrées, ou du pain.
+
+> Conclusion : « contient du blé complet » ne veut pas dire « à volonté » : il faut lire toute l'étiquette, et les apports doivent correspondre aux besoins.` },
       ],
     },
     {
@@ -1073,22 +1087,27 @@ Ces changements sont commandés par des **hormones**, des substances fabriquées
 |---|---|---|
 | poussée de croissance, poils (aisselles, pubis), transpiration, boutons possibles | développement des seins, hanches qui s'élargissent, **premières règles** | voix qui mue (devient grave), barbe, épaules qui s'élargissent, **premières éjaculations** |
 
-Il y a aussi des changements de **comportement** et d'émotions : besoin d'autonomie, humeur qui change, intérêt nouveau pour les autres. C'est normal.
+Le **comportement** et les émotions changent aussi (besoin d'autonomie, humeur qui varie) : c'est normal.
 
 ## Les appareils reproducteurs
-| Appareil reproducteur | Organes et rôles |
-|---|---|
-| **féminin** | 2 **ovaires** : produisent les **ovules** (cellules reproductrices) ; 2 **trompes** : conduisent l'ovule vers l'utérus, c'est là que peut avoir lieu la fécondation ; **utérus** : accueille et protège le futur bébé ; **vagin** : relie l'utérus à l'extérieur |
-| **masculin** | 2 **testicules** : produisent les **spermatozoïdes** (cellules reproductrices) ; **spermiductes** : conduisent les spermatozoïdes ; glandes (prostate, vésicules séminales) : fabriquent le liquide qui forme le **sperme** avec les spermatozoïdes ; **pénis** : permet de déposer le sperme dans le vagin |
+**Appareil féminin** :
+- 2 **ovaires** : produisent les **ovules** (cellules reproductrices) ;
+- 2 **trompes** : conduisent l'ovule vers l'utérus ; c'est là que peut avoir lieu la fécondation ;
+- l'**utérus** : accueille et protège le futur bébé ; le **vagin** le relie à l'extérieur.
+
+**Appareil masculin** :
+- 2 **testicules** : produisent les **spermatozoïdes** (cellules reproductrices) ;
+- les **spermiductes** : conduisent les spermatozoïdes ; des glandes y ajoutent un liquide : le tout forme le **sperme** ;
+- le **pénis** : permet de déposer le sperme dans le vagin.
 
 À partir de la puberté, les **ovaires** libèrent en général **un ovule environ tous les 28 jours**. Si l'ovule n'est pas fécondé, la paroi de l'utérus, qui s'était épaissie, est éliminée avec un peu de sang : ce sont les **règles**. Les testicules, eux, produisent des spermatozoïdes **en continu**, des millions par jour.
 
 ## De la fécondation à la naissance
 1. Lors d'un rapport sexuel, des millions de spermatozoïdes sont déposés dans le vagin et remontent vers les trompes.
 2. **Fécondation** : un seul spermatozoïde s'unit à l'ovule dans une trompe. Il se forme une **cellule-œuf**. La fécondation a lieu à l'intérieur du corps de la femme : c'est une **fécondation interne**.
-3. La cellule-œuf se divise et devient un **embryon**, qui s'installe dans la paroi de l'utérus. À partir du 3e mois de grossesse (après environ 8 semaines de développement), on parle de **fœtus**.
-4. Le bébé se développe dans l'utérus pendant environ **9 mois** : l'être humain est **vivipare** (le petit se développe dans le ventre de sa mère, et non dans un œuf pondu).
-5. **Les échanges placentaires** : le **placenta**, relié au fœtus par le **cordon ombilical**, permet les échanges avec le sang de la mère. La mère apporte au fœtus le **dioxygène** et les **nutriments** ; le fœtus rejette vers la mère le **dioxyde de carbone** et les **déchets**. Attention : l'alcool, le tabac et certains médicaments passent aussi par le placenta et peuvent nuire au bébé.
+3. La cellule-œuf se divise et devient un **embryon**, qui s'installe dans la paroi de l'utérus. À partir du 3e mois de grossesse, on parle de **fœtus**.
+4. Le bébé se développe dans l'utérus pendant environ **9 mois** : l'être humain est **vivipare** (le petit se développe dans le ventre de sa mère, pas dans un œuf pondu).
+5. Le **placenta**, relié au fœtus par le **cordon ombilical**, assure les **échanges** avec le sang de la mère : elle apporte le **dioxygène** et les **nutriments** ; le fœtus rejette le **dioxyde de carbone** et les **déchets**. Attention : l'alcool, le tabac et certains médicaments passent aussi par le placenta et peuvent nuire au bébé.
 
 ## Reproduction et sexualité
 La **reproduction** est la fonction biologique qui permet d'avoir des enfants. La **sexualité** humaine est bien plus large : elle a une dimension **biologique**, mais aussi **psycho-émotionnelle** (sentiments, émotions, respect de soi et de l'autre), **sociale** et **juridique** (la loi protège les enfants ; personne n'a le droit de toucher ton corps sans ton accord). Si quelqu'un te met mal à l'aise, parles-en à un adulte de confiance ; tu peux aussi appeler le **119** (Allô Enfance en danger), gratuit, 24 h sur 24.
@@ -1140,17 +1159,12 @@ Un **objet technique** est fabriqué par l'être humain pour répondre à un **b
 | tenir stable sur le bureau | socle lourd |
 
 ## Choisir les matériaux
-On choisit un matériau selon ses **propriétés** (ce sont celles que tu as étudiées en sciences) :
-- **conducteur électrique** (cuivre) pour les fils, **isolant** (plastique) pour leur gaine ;
-- **isolant thermique** (laine de verre, polystyrène) pour isoler une maison ;
-- **léger et solide** (aluminium) pour un cadre de vélo ;
-- **transparent** (verre) pour une fenêtre ;
-- **imperméable** pour une veste de pluie.
+On choisit un matériau selon ses **propriétés** : **conducteur électrique** (cuivre) pour un fil et **isolant** (plastique) pour sa gaine ; **isolant thermique** (laine de verre) pour une maison ; **léger et solide** (aluminium) pour un cadre de vélo ; **transparent** (verre) pour une fenêtre.
 
 Une **contrainte** est une condition que l'objet doit respecter : poids, prix, autonomie, imperméabilité, sécurité, respect de l'environnement...
 
 ## L'évolution des objets
-Les besoins des humains changent peu (se déplacer, s'éclairer...), mais les **objets évoluent** grâce aux inventions et aux progrès techniques : pour s'éclairer, on est passé de la bougie à la lampe à huile, puis à la lampe à incandescence, et aujourd'hui à la DEL, qui consomme beaucoup moins d'énergie.
+Les besoins changent peu, mais les **objets évoluent** avec les progrès techniques : pour s'éclairer, on est passé de la bougie à la lampe à huile, puis à l'ampoule à filament, et aujourd'hui à la DEL, qui consomme beaucoup moins d'énergie.
 
 ## Le cycle de vie d'un objet
 Un objet a un **cycle de vie** :
@@ -1160,7 +1174,7 @@ Un objet a un **cycle de vie** :
 4. **utilisation** (qui consomme parfois de l'énergie) ;
 5. **fin de vie** : réparation, réutilisation, **recyclage** ou mise en décharge.
 
-Chaque étape consomme de l'énergie et des ressources. Pour protéger l'environnement, on peut choisir des matériaux recyclables, fabriquer des objets **réparables** et qui durent longtemps.
+Chaque étape consomme de l'énergie et des ressources : mieux vaut des objets **réparables**, qui durent, en matériaux recyclables.
 
 ## Les objets programmables
 Certains objets contiennent un **programme** : un robot, un éclairage automatique, une alarme.
@@ -1185,7 +1199,7 @@ répéter indéfiniment
       avancer de 10 pas
 ~~~
 
-En langage naturel : « Le robot avance sans arrêt ; dès qu'il détecte un obstacle, il tourne à droite, puis il repart. »
+En langage naturel : « Le robot avance ; dès qu'il détecte un obstacle, il tourne à droite, puis il repart. »
 
 > **À retenir** :
 > - Un objet technique répond à un besoin ; il réalise des fonctions techniques grâce à des solutions technologiques.

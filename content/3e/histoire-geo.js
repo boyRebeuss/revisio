@@ -762,6 +762,7 @@ La France compte environ **69 millions d'habitants** (Insee, estimation au 1er j
 
 - Selon l'Insee, **93 %** de la population vit dans l'une des **699 aires d'attraction des villes** (zonage de 2020).
 - L'aire de **Paris** compte environ **13 millions d'habitants**, près d'un habitant sur cinq. Treize autres aires dépassent 700 000 habitants (Insee, 2020) : Lyon, Marseille-Aix-en-Provence, Lille, Toulouse, Bordeaux, Nantes, Strasbourg, Montpellier, Rennes, Grenoble, et trois aires transfrontalières dont le centre est à l'étranger (Genève-Annemasse, Luxembourg, Sarrebruck).
+- **Attention au vocabulaire** : les sujets de brevet (dont le sujet de référence de 2027) parlent encore souvent d'« **aires urbaines** ». C'est le même type d'espace que l'« **aire d'attraction d'une ville** », nom donné par l'Insee depuis 2020 : tu peux employer les deux expressions.
 - Le **réseau urbain** français est dominé par Paris : c'est une **macrocéphalie** (une capitale beaucoup plus grande que les autres villes).
 
 ## 2. Des villes qui s'étalent : la périurbanisation
@@ -1301,6 +1302,12 @@ Seule, la France pèse moins face aux géants. Avec l'UE, elle fait partie de l'
 Au brevet, l'exercice 1 commence par des **questions sur des repères chronologiques ou spatiaux**, et l'exercice 2 peut te demander de localiser et nommer des lieux sur un fond de carte. Les repères à connaître sont ceux des ressources d'accompagnement officielles (Eduscol), auxquelles renvoie la note de service sur l'épreuve. Les repères sont aussi indispensables pour réussir le développement construit : une bonne copie est **datée** et **localisée**.
 
 ## 1. Les repères chronologiques de 3e
+>! **Les repères essentiels, à connaître par cœur** (ceux que les ressources officielles et les sujets reprennent le plus souvent) :
+>! - **Thème 1** : 1914-1918, Première Guerre mondiale ; 1917, révolution russe ; 1933-1945, Hitler au pouvoir ; 1936, Front populaire ; 1939-1945, Seconde Guerre mondiale.
+>! - **Thème 2** : 1945, création de l'ONU ; 1947-1991, guerre froide ; 1957, traités de Rome ; 1962, indépendance de l'Algérie ; 1989, chute du mur de Berlin.
+>! - **Thème 3** : 1944-1945, Libération, gouvernement provisoire du général de Gaulle (GPRF), programme du Conseil national de la Résistance (Sécurité sociale) et droit de vote des femmes ; 1958, naissance de la Ve République ; 1962, élection du président au suffrage universel direct (réforme adoptée par référendum ; première élection ainsi en 1965) ; 1975, loi Veil ; 1981, première alternance (élection de François Mitterrand).
+>! Le tableau ci-dessous ajoute les autres dates utiles du programme.
+
 | Date | Événement |
 |---|---|
 | 1914-1918 | Première Guerre mondiale |
@@ -1312,6 +1319,7 @@ Au brevet, l'exercice 1 commence par des **questions sur des repères chronologi
 | 1924-1953 | Staline au pouvoir en URSS |
 | 1929 | krach de Wall Street, début de la crise économique |
 | 30 janvier 1933 | Hitler chancelier (1933-1945 : Hitler au pouvoir) |
+| 1935 | lois de Nuremberg (persécution des Juifs en Allemagne) |
 | 1936 | Front populaire |
 | 1939-1945 | Seconde Guerre mondiale |
 | 18 juin 1940 | appel du général de Gaulle |
@@ -1324,6 +1332,7 @@ Au brevet, l'exercice 1 commence par des **questions sur des repères chronologi
 | 1945 | création de l'ONU et de la Sécurité sociale |
 | 1946 | IVe République |
 | 1947 | indépendance de l'Inde ; début de la guerre froide (1947-1991) |
+| 1948 | création de l'État d'Israël |
 | 1948-1949 | blocus de Berlin |
 | 1954-1962 | guerre d'Algérie |
 | 1957 | traités de Rome |
@@ -1336,6 +1345,8 @@ Au brevet, l'exercice 1 commence par des **questions sur des repères chronologi
 | 9 novembre 1989 | chute du mur de Berlin |
 | 1991 | fin de l'URSS |
 | 1992 | traité de Maastricht |
+| 1993 | accords d'Oslo entre Israël et l'OLP |
+| 1994 | génocide des Tutsi au Rwanda |
 | 2001 | attentats du 11 septembre |
 | 2002 | l'euro en pièces et billets |
 
@@ -1343,7 +1354,7 @@ Au brevet, l'exercice 1 commence par des **questions sur des repères chronologi
 
 ## 2. Les repères spatiaux
 **En France** :
-- Les grandes aires urbaines : **Paris**, **Lyon**, **Marseille-Aix-en-Provence**, **Lille**, **Toulouse**, **Bordeaux**, **Nantes**, **Strasbourg**, **Nice**…
+- Une **dizaine d'aires urbaines parmi les plus peuplées** (c'est le repère demandé) : **Paris**, **Lyon**, **Marseille-Aix-en-Provence**, **Lille**, **Toulouse**, **Bordeaux**, **Nantes**, **Strasbourg**, **Montpellier**, **Rennes**, puis Grenoble, Nice… Sache aussi situer l'aire urbaine la plus proche de chez toi. Les sujets de brevet disent encore souvent « **aires urbaines** » : c'est le même type d'espace que les « **aires d'attraction des villes** » du zonage de l'Insee de 2020 ; tu peux employer les deux expressions.
 - Les grands fleuves : la **Seine**, la **Loire**, la **Garonne**, le **Rhône** et le **Rhin**.
 - Les massifs : **Alpes**, **Pyrénées**, **Massif central**, **Jura**, **Vosges**.
 - Les grands ports : **Marseille-Fos**, **Le Havre**, **Dunkerque** ; les grands aéroports : Roissy-Charles-de-Gaulle, Orly.
@@ -1355,7 +1366,11 @@ Au brevet, l'exercice 1 commence par des **questions sur des repères chronologi
 - Les villes des institutions : Bruxelles, Strasbourg, Luxembourg, Francfort.
 - La dorsale européenne, la Northern Range.
 
-**Dans le monde (histoire)** : Verdun, Sarajevo, Berlin, Stalingrad, Auschwitz-Birkenau, Hiroshima, Pearl Harbor, Cuba, l'Inde, l'Algérie, Bandung, le Rwanda, New York.
+**Dans le monde (histoire)** : Verdun, Sarajevo, Berlin, Stalingrad, Auschwitz-Birkenau, Hiroshima, Pearl Harbor, Cuba, l'Inde, l'Algérie, Bandung, le Rwanda, New York ; au Proche et au Moyen-Orient : Israël et les Territoires palestiniens (Cisjordanie, bande de Gaza), Jérusalem, la Syrie, l'Irak, le golfe Persique.
+
+>! **Méthode – retrouver un repère spatial sans hésiter** : pars toujours des grands traits du fond de carte. Les **fleuves** : la Seine se jette dans la Manche, la Loire et la Garonne dans l'Atlantique, le Rhône dans la Méditerranée, le Rhin dans la mer du Nord (il sert de frontière avec l'Allemagne près de Strasbourg). Les **massifs** : les Pyrénées au sud-ouest (Espagne), les Alpes au sud-est (Italie, Suisse), le Jura au nord des Alpes (Suisse), les Vosges au nord-est (en Alsace, à l'ouest du Rhin), le Massif central au centre-sud. Les villes se placent ensuite par rapport à ces repères : Lyon sur le Rhône, Bordeaux et Toulouse sur la Garonne, Nantes sur la Loire, Strasbourg sur le Rhin, Lille près de la Belgique, Rennes en Bretagne, Montpellier près de la Méditerranée, à l'ouest du Rhône.
+
+>! **Erreurs fréquentes** : placer Bordeaux sur la Loire (c'est la Garonne) ; inverser les Alpes et les Pyrénées ; oublier Mayotte parmi les DROM ; écrire les noms de villes en biais au lieu de l'horizontale.
 
 > **À retenir** :
 > - Apprends les dates par périodes et par thèmes, et entraîne-toi à les classer dans l'ordre.
@@ -1378,6 +1393,30 @@ Au brevet, l'exercice 1 commence par des **questions sur des repères chronologi
 **Méthode** : pour un repère, donne la **date**, l'**événement** et son **importance** (ce qu'il commence ou termine).` },
         { type: "saisie", question: "Pendant quelle période Staline dirige-t-il l'URSS ? (écris les deux années séparées par un tiret)", reponses: ["1924-1953", "de 1924 à 1953", "1924 à 1953"], explication: "Repère : 1924-1953. Staline succède à Lénine, mort en 1924 ; il élimine ses rivaux et s'impose seul à la fin des années 1920, puis dirige l'URSS jusqu'à sa mort en 1953." },
         { type: "qcm", question: "Combien de temps le mur de Berlin a-t-il existé ?", choix: ["Environ 10 ans", "Environ 28 ans", "Environ 45 ans", "Environ 70 ans"], reponse: 1, explication: "Construit le 13 août 1961, il tombe le 9 novembre 1989 : 1989 − 1961 = 28 ans. La guerre froide, elle, dure de 1947 à 1991, soit environ 45 ans." },
+        { type: "qcm", question: "**Repère essentiel** : à quoi correspond la période 1933-1945 ?", choix: ["Hitler au pouvoir en Allemagne", "Staline au pouvoir en URSS", "La guerre froide", "Le régime de Vichy"], reponse: 0, explication: "Hitler devient chancelier le 30 janvier 1933 et meurt en avril 1945, quelques jours avant la capitulation allemande (8 mai 1945). Staline dirige l'URSS de 1924 à 1953 ; la guerre froide dure de 1947 à 1991 ; le régime de Vichy, de 1940 à 1944." },
+        { type: "qcm", question: "Classe dans l'ordre chronologique : loi Veil, Front populaire, chute du mur de Berlin, indépendance de l'Algérie.", choix: ["Front populaire, loi Veil, indépendance de l'Algérie, chute du mur", "Indépendance de l'Algérie, Front populaire, loi Veil, chute du mur", "Front populaire, indépendance de l'Algérie, loi Veil, chute du mur", "Front populaire, indépendance de l'Algérie, chute du mur, loi Veil"], reponse: 2, explication: "1936 (Front populaire), 1962 (indépendance de l'Algérie), 1975 (loi Veil), 1989 (chute du mur de Berlin)." },
+        { type: "saisie", question: "**Repère spatial** : quelle est la troisième aire urbaine de France par sa population, au bord de la Méditerranée ?", reponses: ["Marseille-Aix-en-Provence", "Marseille", "Aix-Marseille", "Marseille-Aix", "Marseille Aix-en-Provence", "Aix-Marseille-Provence"], explication: "Après Paris (environ 13 millions d'habitants) et Lyon, vient l'aire de Marseille-Aix-en-Provence, au sud-est, au bord de la Méditerranée, à l'est de l'embouchure du Rhône." },
+        { type: "qcm", question: "**Repère spatial** : sur quel fleuve se trouve Strasbourg ?", choix: ["La Seine", "La Loire", "Le Rhin", "Le Rhône"], reponse: 2, explication: "Strasbourg est au nord-est, sur le Rhin, qui forme à cet endroit la frontière avec l'Allemagne. Le Rhône passe à Lyon, la Loire à Nantes, la Seine à Paris." },
+        { type: "qcm", question: "**Repère spatial** : quel massif s'étend au nord des Alpes, le long de la frontière avec la Suisse ?", choix: ["Les Vosges", "Le Massif central", "Les Pyrénées", "Le Jura"], reponse: 3, explication: "Le Jura longe la frontière suisse, au nord des Alpes. Les Vosges sont plus au nord, en Alsace et en Lorraine ; les Pyrénées au sud-ouest, à la frontière espagnole ; le Massif central au centre-sud du pays." },
+        { type: "vf", question: "**Repère spatial** : la Guyane est un DROM situé en Amérique du Sud, au bord de l'océan Atlantique.", reponse: true, explication: "La Guyane est le seul DROM situé sur un continent : en Amérique du Sud, au bord de l'océan Atlantique, entre le Suriname à l'ouest et le Brésil au sud et à l'est." },
+        { type: "saisie", question: "**Repère chronologique** : en quelle année l'État d'Israël est-il créé ?", reponses: ["1948", "en 1948", "14 mai 1948", "le 14 mai 1948", "mai 1948"], explication: "David Ben Gourion proclame l'État d'Israël le 14 mai 1948, après le plan de partage de la Palestine voté par l'ONU (29 novembre 1947). Les États arabes voisins l'attaquent aussitôt : c'est la première guerre israélo-arabe." },
+        { type: "redaction", question: "**Repères géographiques (brevet)** : sur un fond de carte de France, on te demande de localiser et nommer les aires urbaines de Lyon, Bordeaux, Strasbourg et Rennes, la Seine et le Rhône, les Vosges et le Jura, ainsi que les cinq DROM (en cartouches). Explique où tu places chaque élément et comment tu le représentes.", corrige: `**Les aires urbaines** (figuré : **point**, nom écrit à côté, à l'horizontale) :
+- **Lyon** : dans le centre-est, au confluent du Rhône et de la Saône.
+- **Bordeaux** : au sud-ouest, sur la Garonne, près de l'océan Atlantique (estuaire de la Gironde).
+- **Strasbourg** : au nord-est, sur le Rhin, à la frontière allemande.
+- **Rennes** : à l'ouest, en Bretagne, à l'intérieur des terres.
+
+**Les fleuves** (figuré : **ligne** bleue, nom écrit le long du tracé) :
+- la **Seine** traverse Paris et se jette dans la **Manche** au Havre ;
+- le **Rhône** vient de Suisse (lac Léman), passe à Lyon puis descend vers le sud et se jette dans la **Méditerranée** (delta de Camargue).
+
+**Les massifs** (nom écrit dans le cadre prévu) :
+- les **Vosges** : au nord-est, à l'ouest du Rhin et de Strasbourg ;
+- le **Jura** : à l'est, le long de la frontière suisse, au nord des Alpes.
+
+**Les DROM** (dans les cartouches, souvent placés autour de la carte de la France métropolitaine) : la **Guadeloupe** et la **Martinique** (Antilles, mer des Caraïbes), la **Guyane** (Amérique du Sud), **La Réunion** et **Mayotte** (océan Indien).
+
+**Méthode** : oriente-toi (le nord en haut), repère d'abord les littoraux, les frontières et les fleuves, puis place les villes par rapport à eux ; vérifie à la fin que chaque élément demandé est sur la carte.` },
       ],
     },
     {
@@ -1419,7 +1458,7 @@ Un **croquis** est une représentation simplifiée d'un espace ; il comporte un 
 
 >! **Méthode – réaliser un croquis en cinq étapes** : 1. lis le titre et la consigne ; 2. classe les informations en deux ou trois parties qui répondent au titre ; 3. choisis un figuré adapté pour chaque élément (surface, point, ligne) ; 4. colorie d'abord les surfaces, puis place les points et les lignes ; 5. écris la nomenclature à l'horizontale et vérifie que chaque élément de la légende est sur le croquis.
 
->! **Localiser et nommer des repères sur un fond de carte** : place chaque ville au bon point et écris son nom à côté, à l'horizontale ; écris le nom des fleuves le long de leur tracé et repasse-les en bleu ; écris le nom des massifs dans les cadres prévus. Repères utiles : **Lille** au nord, près de la Belgique ; **Nantes** à l'ouest, sur la Loire, près de l'Atlantique ; **Bordeaux** au sud-ouest, sur la Garonne ; **Toulouse** au sud-ouest, sur la Garonne, au nord des Pyrénées ; **Marseille** au sud-est, sur la Méditerranée ; **Lyon** dans le centre-est, au confluent du Rhône et de la Saône ; **Strasbourg** au nord-est, sur le Rhin.
+>! **Localiser et nommer des repères sur un fond de carte** : place chaque ville au bon point et écris son nom à côté, à l'horizontale ; écris le nom des fleuves le long de leur tracé et repasse-les en bleu ; écris le nom des massifs dans les cadres prévus. Repères utiles : **Lille** au nord, près de la Belgique ; **Nantes** à l'ouest, sur la Loire, près de l'Atlantique ; **Bordeaux** au sud-ouest, sur la Garonne ; **Toulouse** au sud-ouest, sur la Garonne, au nord des Pyrénées ; **Marseille** au sud-est, sur la Méditerranée ; **Lyon** dans le centre-est, au confluent du Rhône et de la Saône ; **Strasbourg** au nord-est, sur le Rhin. Le sujet dit souvent « **aires urbaines** » : c'est le même type d'espace que les « aires d'attraction des villes » de l'Insee (zonage de 2020).
 
 ## 5. La frise chronologique
 Elle place des **dates** (points) et des **périodes** (barres) sur un axe gradué régulièrement : choisis une échelle (par exemple 1 cm pour 5 ans) et respecte-la. Fais les calculs de tête ou à la main : la calculatrice est interdite.
@@ -1515,6 +1554,112 @@ Elle place des **dates** (points) et des **périodes** (barres) sur un axe gradu
         { type: "redaction", question: "**Question d'analyse (brevet)** : « Montre que la politique du régime de Vichy s'oppose aux valeurs républicaines défendues par la Résistance. » Une réponse rédigée d'au moins quatre phrases est attendue.", corrige: `Le régime de Vichy, né du vote des **pleins pouvoirs** au maréchal Pétain le **10 juillet 1940**, supprime la République : il n'y a plus d'élections ni de Parlement, et la **liberté** d'expression disparaît avec la censure. La devise républicaine « Liberté, égalité, fraternité » est remplacée par « **Travail, famille, patrie** ». Vichy rejette aussi l'**égalité** : dès le **3 octobre 1940**, le **statut des Juifs** les exclut de nombreux métiers, puis la police française participe à leur arrestation, comme lors de la **rafle du Vél' d'Hiv** en juillet 1942. Au contraire, la **Résistance** et la **France libre** du général de Gaulle se battent pour libérer le pays et rétablir la République et ses valeurs : le programme du **Conseil national de la Résistance** (1944) prévoit le retour de la démocratie et de nouveaux droits sociaux.
 
 **Méthode** : « au moins quatre phrases » signifie un vrai paragraphe rédigé, avec des connecteurs (au contraire, aussi, dès), des dates et des exemples précis ; chaque phrase apporte une idée nouvelle.` },
+        { type: "vf", question: "Dans un sujet de brevet, l'expression « aire urbaine » désigne le même type d'espace que l'« aire d'attraction d'une ville » de l'Insee.", reponse: true, explication: "Depuis 2020, l'Insee parle d'« aires d'attraction des villes » (un pôle et sa couronne), mais les sujets, dont le sujet de référence de 2027, emploient encore souvent « aires urbaines ». Les deux expressions sont acceptées : l'important est de bien localiser et nommer." },
+      ],
+    },
+    {
+      id: "proche-moyen-orient",
+      titre: "Étude de cas : le Proche et le Moyen-Orient, un foyer de conflits depuis 1989",
+      theme: "Histoire – Le monde depuis 1945",
+      cours: `
+## Introduction
+Pour comprendre les conflits du monde après 1989, le programme te demande d'étudier un **cas**. Le Proche et le Moyen-Orient en sont l'exemple le plus étudié. Le **Proche-Orient** désigne les pays de la Méditerranée orientale : **Israël** et les **Territoires palestiniens**, le **Liban**, la **Syrie**, la **Jordanie**, et souvent l'Égypte. Le **Moyen-Orient**, plus vaste, s'étend jusqu'au **golfe Persique** (Irak, Iran, Arabie saoudite…). Depuis la fin de la guerre froide, cette région est l'un des principaux foyers de conflits de la planète.
+
+>! **Définitions** :
+>! - **Territoires occupés** : territoires contrôlés militairement par Israël depuis 1967 (Cisjordanie, Jérusalem-Est, bande de Gaza, plateau du Golan). En 2005, Israël a retiré ses soldats et ses colons de Gaza, mais en contrôle toujours l'accès (frontières, espace aérien, côte).
+>! - **Colonie** (ici) : village ou ville construits par des Israéliens dans les territoires occupés ; l'ONU les juge contraires au droit international, ce que conteste le gouvernement israélien.
+>! - **Intifada** (« soulèvement » en arabe) : révolte des Palestiniens contre l'occupation israélienne (1987, 2000).
+>! - **OLP** (Organisation de libération de la Palestine, 1964) : mouvement nationaliste palestinien dirigé par **Yasser Arafat**. Le **Hamas** (1987) est un mouvement **islamiste** armé (qui veut organiser la société et l'État selon sa lecture de l'islam) et qui refuse l'existence d'Israël.
+>! - **Réfugié** : personne qui a dû fuir son pays à cause d'une guerre ou de persécutions.
+
+## 1. Une région aux enjeux multiples
+- **Le pétrole et le gaz** : les pays du golfe Persique (Arabie saoudite, Iran, Irak, Koweït, Émirats arabes unis, Qatar) possèdent près de la **moitié des réserves connues de pétrole** du monde (Energy Institute, 2024).
+- **Des passages maritimes stratégiques** : le **canal de Suez** (entre la Méditerranée et la mer Rouge), le **détroit d'Ormuz** (sortie du golfe Persique, par où passait environ un cinquième du pétrole consommé dans le monde en 2024, selon l'agence américaine de l'énergie), le détroit de Bab el-Mandeb.
+- **L'eau**, rare dans cette région aride : le Jourdain, le Tigre et l'Euphrate sont disputés.
+- **Des lieux saints** : **Jérusalem** est sacrée pour les trois religions monothéistes, qui croient en un seul Dieu (le mur des Lamentations pour les juifs, l'esplanade des Mosquées avec la mosquée al-Aqsa et le Dôme du Rocher pour les musulmans, le Saint-Sépulcre pour les chrétiens). Israël en a fait sa capitale, mais la plupart des États, dont la France, ne le reconnaissent pas ; les Palestiniens veulent faire de **Jérusalem-Est** la capitale de leur État.
+- **Une mosaïque de peuples et de religions** : Arabes, Juifs, Turcs, Iraniens (Perses), **Kurdes** (un peuple sans État, partagé entre la Turquie, l'Iran, l'Irak et la Syrie) ; rivalité entre musulmans **sunnites** (Arabie saoudite) et **chiites** (Iran), les deux grandes branches de l'islam.
+- **Les grandes puissances** y interviennent : les États-Unis, alliés d'Israël et de l'Arabie saoudite ; la Russie, alliée du régime syrien de Bachar el-Assad jusqu'à sa chute en 2024.
+
+## 2. Aux origines : le conflit israélo-arabe (1948-1989)
+- Après la Shoah, l'ONU vote le **29 novembre 1947** un **plan de partage** de la Palestine, alors sous contrôle britannique : un État juif, un État arabe, Jérusalem sous contrôle international. Les dirigeants juifs l'acceptent ; les dirigeants arabes le refusent.
+- Le **14 mai 1948**, **David Ben Gourion** proclame l'**État d'Israël**. Les États arabes voisins l'attaquent ; Israël gagne la guerre (1948-1949). Environ **700 000 Palestiniens** (selon l'ONU) fuient ou sont chassés : ils appellent cet exode la **Nakba** (« la catastrophe »). L'État arabe prévu ne voit pas le jour.
+- **Guerre des Six Jours** (**juin 1967**) : Israël occupe la **Cisjordanie**, **Jérusalem-Est**, la **bande de Gaza**, le **plateau du Golan** (syrien) et le **Sinaï** (égyptien). La résolution 242 de l'ONU demande le retrait des territoires occupés.
+- Après la guerre du Kippour (1973), l'Égypte signe la paix avec Israël (**1979**) et récupère le Sinaï.
+- En **décembre 1987**, les Palestiniens des territoires occupés se soulèvent : c'est la **première intifada**.
+
+## 3. Après 1989 : l'espoir, puis l'échec de la paix israélo-palestinienne
+- La fin de la guerre froide crée un contexte favorable : les États-Unis réunissent Israéliens et Arabes à la conférence de **Madrid** (1991).
+- Le **13 septembre 1993**, à Washington, les **accords d'Oslo** sont signés devant le président américain Bill Clinton. Israël et l'OLP se **reconnaissent mutuellement** ; la poignée de main entre le Premier ministre israélien **Yitzhak Rabin** et **Yasser Arafat** devient un symbole. Une **Autorité palestinienne** (1994) gouverne une partie de Gaza et de la Cisjordanie. Rabin, Arafat et Shimon Peres reçoivent le prix Nobel de la paix en 1994.
+- Mais la paix échoue : les attentats-suicides du **Hamas** et d'autres groupes islamistes frappent Israël ; le **4 novembre 1995**, Rabin est **assassiné** par un extrémiste israélien opposé aux accords. Les négociations de Camp David échouent en 2000 et la **seconde intifada** éclate (septembre 2000).
+- Israël construit à partir de 2002 une **barrière de séparation** (un mur par endroits) et poursuit la **colonisation** : plus de **700 000 colons** vivent en Cisjordanie et à Jérusalem-Est (selon l'ONU, 2022). En 2005, Israël se retire de Gaza ; le **Hamas**, vainqueur des élections palestiniennes de 2006, y prend le pouvoir par la force en **2007** ; Israël et l'Égypte imposent un blocus, et plusieurs guerres opposent Israël au Hamas.
+- Le **7 octobre 2023**, le Hamas attaque Israël : environ **1 200 morts**, en majorité des civils, et environ **250 otages** emmenés à Gaza. Israël riposte par une guerre à **Gaza** : des dizaines de milliers de morts palestiniens (plus de 72 000 en février 2026, selon le ministère de la Santé de Gaza, dirigé par le Hamas, chiffre repris par l'ONU), la plupart des habitants déplacés et une grave crise humanitaire. Le **10 octobre 2025**, un **cessez-le-feu** entre en vigueur et les otages encore vivants sont libérés. À la date d'octobre 2026, il reste fragile : des violences continuent et le territoire reste en grande partie détruit.
+- En **septembre 2025**, la **France reconnaît l'État de Palestine**, comme plus des trois quarts des États membres de l'ONU. Avec l'ONU, elle défend la **solution à deux États** : un État palestinien vivant en paix à côté d'Israël.
+
+## 4. Le golfe Persique, l'Irak et la Syrie : guerres et terrorisme
+- **1990-1991** : l'Irak de **Saddam Hussein** envahit le **Koweït** (août 1990) ; une coalition dirigée par les États-Unis, avec l'accord de l'ONU, le libère (**guerre du Golfe**, début 1991).
+- **2003** : les États-Unis envahissent l'Irak et renversent Saddam Hussein, sans l'accord de l'ONU. Le pays sombre dans les violences, notamment entre sunnites et chiites.
+- **2011** : pendant les **printemps arabes**, les Syriens manifestent contre la dictature de **Bachar el-Assad**, qui les réprime : c'est le début d'une **guerre civile**. Le régime est soutenu par l'Iran et, à partir de 2015, par la Russie. Bilan : plusieurs centaines de milliers de morts et plus de la moitié des Syriens chassés de chez eux ; des millions de **réfugiés** partent en Turquie, au Liban, en Jordanie et en Europe. Assad est renversé en **décembre 2024**.
+- L'**État islamique** (EI) profite du chaos : en **juin 2014**, il proclame un « califat » sur une partie de l'Irak et de la Syrie (Mossoul, Raqqa). Il y fait régner la terreur (massacres, réduction en esclavage de femmes yézidies, une minorité religieuse de langue kurde) et organise des **attentats** en Europe, comme à Paris le **13 novembre 2015**. Une coalition internationale, dont la France, et les combattants kurdes le chassent de Mossoul et de Raqqa en 2017, puis de son dernier territoire en 2019.
+- L'**Iran** s'oppose à Israël, aux États-Unis et à l'Arabie saoudite. Israël et les États-Unis l'accusent de vouloir fabriquer l'arme nucléaire, ce que l'Iran dément. En juin 2025, ils bombardent des sites nucléaires iraniens ; à partir du **28 février 2026**, ils mènent une guerre contre l'Iran, qui riposte notamment en bloquant le **détroit d'Ormuz** : le prix du pétrole s'envole dans le monde entier. À la date d'octobre 2026, malgré plusieurs trêves, ce conflit n'est pas réglé.
+
+>! **Méthode – présenter un conflit en cinq questions** (utile pour un développement construit) : **Où ?** (localiser, à plusieurs échelles) ; **Qui ?** (les acteurs : États, groupes armés, populations, grandes puissances, ONU) ; **Pourquoi ?** (les enjeux : territoires, ressources, religion, identité, puissance) ; **Comment ?** (les formes de violence : guerre entre États, guerre civile, terrorisme, occupation) ; **Quelle issue ?** (tentatives de paix, conséquences pour les civils).
+
+>! **Exemple résolu** – « Pourquoi Jérusalem est-elle un enjeu du conflit israélo-palestinien ? » Réponse rédigée : « Jérusalem est une ville sainte pour les juifs, les chrétiens et les musulmans. Israël, qui contrôle toute la ville depuis 1967, en a fait sa capitale, alors que les Palestiniens veulent faire de Jérusalem-Est la capitale de leur futur État. La ville est donc à la fois un enjeu religieux et un enjeu politique. »
+
+>! **Erreurs fréquentes** :
+>! - Confondre **Arabes** et **musulmans** : les Iraniens et les Turcs sont musulmans mais pas arabes, et il existe des Arabes chrétiens.
+>! - Confondre l'**OLP**, qui a reconnu Israël en 1993, et le **Hamas**, qui refuse son existence.
+>! - Confondre **Israéliens** et **juifs** : environ un cinquième des citoyens d'Israël sont arabes.
+>! - Croire que ces conflits sont seulement religieux : ils portent aussi sur des **territoires**, des **ressources** et la **puissance**.
+
+> **À retenir** :
+> - 1948 : création de l'État d'Israël. 1967 : guerre des Six Jours et occupation de la Cisjordanie, de Gaza et de Jérusalem-Est.
+> - 13 septembre 1993 : accords d'Oslo (reconnaissance mutuelle Israël-OLP) ; 1995 : assassinat de Rabin ; 2000 : seconde intifada.
+> - 1991 : guerre du Golfe ; 2003 : guerre en Irak ; 2011 : début de la guerre civile en Syrie ; 2014-2019 : « califat » de l'État islamique.
+> - 7 octobre 2023 : attaque du Hamas contre Israël, puis guerre à Gaza ; cessez-le-feu fragile depuis octobre 2025.
+> - Enjeux : pétrole, passages maritimes (Suez, Ormuz), eau, lieux saints (Jérusalem), rivalités de puissances.
+> - Vocabulaire : Proche-Orient, Moyen-Orient, territoires occupés, colonie, intifada, OLP, Hamas, réfugié, terrorisme, solution à deux États.
+`,
+      textes: {
+        oslo: `**Les accords d'Oslo (1993)** — extraits traduits de l'anglais pour l'exercice
+
+Lettre de Yasser Arafat, président de l'OLP, au Premier ministre israélien Yitzhak Rabin, 9 septembre 1993 :
+« L'OLP reconnaît le droit de l'État d'Israël à exister dans la paix et la sécurité. L'OLP accepte les résolutions 242 et 338 du Conseil de sécurité des Nations unies. [...] L'OLP renonce à l'usage du terrorisme et des autres actes de violence. »
+
+Lettre de Yitzhak Rabin à Yasser Arafat, 9 septembre 1993 :
+« [...] À la lumière des engagements de l'OLP figurant dans votre lettre, le gouvernement d'Israël a décidé de reconnaître l'OLP comme le représentant du peuple palestinien et d'engager des négociations avec l'OLP dans le cadre du processus de paix au Proche-Orient. »
+
+Discours de Yitzhak Rabin lors de la signature des accords, à Washington, 13 septembre 1993 :
+« Nous vous disons aujourd'hui d'une voix forte et claire : assez de sang et de larmes. Assez ! »`,
+      },
+      exercices: [
+        { type: "saisie", question: "En quelle année l'État d'Israël est-il proclamé par David Ben Gourion ?", reponses: ["1948", "en 1948", "14 mai 1948", "le 14 mai 1948", "mai 1948", "en mai 1948"], explication: "Le 14 mai 1948. Les États arabes voisins attaquent aussitôt le nouvel État, qui gagne la guerre ; environ 700 000 Palestiniens fuient ou sont chassés (la Nakba)." },
+        { type: "qcm", question: "Lors de la guerre des Six Jours (juin 1967), quels territoires palestiniens Israël occupe-t-il ?", choix: ["Le Liban et la Jordanie", "La Cisjordanie, Jérusalem-Est et la bande de Gaza", "Le Koweït et l'Irak", "Uniquement le Sinaï"], reponse: 1, explication: "En 1967, Israël occupe la Cisjordanie, Jérusalem-Est et la bande de Gaza, ainsi que le plateau du Golan (syrien) et le Sinaï (égyptien, rendu après la paix de 1979). Le Koweït, lui, est envahi par l'Irak en 1990." },
+        { type: "qcm", question: "Pourquoi Jérusalem est-elle un enjeu majeur du conflit israélo-palestinien ?", choix: ["Parce que c'est le principal port pétrolier de la région", "Parce que c'est la capitale de l'Égypte", "Parce que c'est une ville sainte pour les juifs, les chrétiens et les musulmans, revendiquée comme capitale par Israël et par les Palestiniens", "Parce que l'ONU y a installé son siège"], reponse: 2, explication: "Jérusalem abrite le mur des Lamentations, l'esplanade des Mosquées et le Saint-Sépulcre. Israël en a fait sa capitale ; les Palestiniens veulent que Jérusalem-Est soit la capitale de leur État. C'est un enjeu à la fois religieux et politique." },
+        { type: "saisie", question: "Quel détroit, à la sortie du golfe Persique, voit passer environ un cinquième du pétrole consommé dans le monde ?", reponses: ["Ormuz", "détroit d'Ormuz", "le détroit d'Ormuz"], explication: "Le détroit d'Ormuz, entre l'Iran et la péninsule Arabique, est un passage vital pour les pétroliers : c'est un enjeu stratégique mondial. Le canal de Suez, lui, relie la Méditerranée à la mer Rouge." },
+        { type: "vf", question: "Les Kurdes disposent de leur propre État indépendant au Moyen-Orient.", reponse: false, explication: "Les Kurdes sont un peuple sans État, partagé entre la Turquie, l'Iran, l'Irak et la Syrie. Les combattants kurdes ont joué un grand rôle dans la lutte contre l'État islamique." },
+        { type: "qcm", question: "Dans quels pays l'État islamique proclame-t-il un « califat » en 2014 ?", choix: ["En Irak et en Syrie", "En Égypte et en Libye", "En Iran et en Afghanistan", "En Israël et au Liban"], reponse: 0, explication: "En juin 2014, l'État islamique s'empare de Mossoul (Irak) et proclame un « califat » sur une partie de l'Irak et de la Syrie, avec Raqqa comme capitale. Une coalition internationale, dont la France, et les Kurdes le chassent de son dernier territoire en 2019." },
+        { type: "qcm", texte: "oslo", question: "**Repères** : dans quel contexte international ces accords sont-ils signés ?", choix: ["En pleine guerre froide, juste après la crise de Cuba", "Juste après la fin de la guerre froide, quand les États-Unis sont la seule superpuissance", "Pendant la Seconde Guerre mondiale", "Après les attentats du 11 septembre 2001"], reponse: 1, explication: "En 1993, le mur de Berlin est tombé (1989) et l'URSS a disparu (1991). Les États-Unis, seule superpuissance, parrainent les négociations : la signature a lieu à Washington, devant le président Bill Clinton." },
+        { type: "saisie", texte: "oslo", question: "**Prélever** : d'après la lettre de Rabin, quelle organisation Israël reconnaît-il comme représentant du peuple palestinien ? (donne son sigle)", reponses: ["OLP", "l'OLP", "Organisation de libération de la Palestine", "l'Organisation de libération de la Palestine"], explication: "Israël reconnaît l'OLP (Organisation de libération de la Palestine), dirigée par Yasser Arafat, et accepte de négocier avec elle. En échange, l'OLP reconnaît le droit d'Israël à exister et renonce au terrorisme : c'est une reconnaissance mutuelle." },
+        { type: "redaction", texte: "oslo", question: "**Exercice 1 en trois temps (brevet)** : **1. Repères** : donne la date de la création de l'État d'Israël et celle de la signature de ces accords. **2. Prélever** : relève un engagement de l'OLP et un engagement d'Israël. **3. Analyser** : en t'appuyant sur le document et sur tes connaissances, explique pourquoi ces accords font naître un espoir de paix, puis pourquoi cette paix n'a pas été atteinte ; indique un intérêt et une limite du document. Une réponse rédigée d'au moins quatre phrases est attendue.", corrige: `**1. Repères** : l'État d'Israël est proclamé le **14 mai 1948** ; les accords d'Oslo sont signés à Washington le **13 septembre 1993**.
+
+**2. Prélever** : l'OLP « reconnaît le droit de l'État d'Israël à exister dans la paix et la sécurité » et « renonce à l'usage du terrorisme ». De son côté, Israël décide de « reconnaître l'OLP comme le représentant du peuple palestinien » et d'« engager des négociations » avec elle.
+
+**3. Analyser** : depuis 1948, Israéliens et Palestiniens s'affrontent ; depuis la guerre des Six Jours (1967), Israël occupe la Cisjordanie, Jérusalem-Est et Gaza, et les Palestiniens se sont soulevés lors de la première intifada (1987). Ces accords font naître un grand espoir, car les deux ennemis se **reconnaissent mutuellement** pour la première fois, dans le contexte favorable de la fin de la guerre froide ; Rabin résume cet espoir par « assez de sang et de larmes ». Une **Autorité palestinienne** est créée en 1994. Mais la paix échoue : le **Hamas**, qui refuse l'existence d'Israël, commet des attentats ; Rabin est **assassiné** en **1995** par un extrémiste israélien ; la colonisation de la Cisjordanie continue et la **seconde intifada** éclate en **2000**. Le conflit dure encore, comme le montrent l'attaque du Hamas du **7 octobre 2023** et la guerre à Gaza qui a suivi. Ce document est intéressant car il montre les engagements précis pris par les deux camps ; mais il présente seulement les textes officiels d'un moment d'espoir et ne dit rien des oppositions, dans les deux camps, ni de ce qui s'est passé ensuite.
+
+**Méthode** : en « Prélever », cite le document entre guillemets ; en « Analyser », relie-le au contexte (dates, acteurs) et termine par l'intérêt et la limite.` },
+        { type: "redaction", question: "**Développement construit (brevet)** : dans un texte d'au moins trente lignes, montre que le Proche et le Moyen-Orient sont un foyer de conflits depuis 1989, en présentant les enjeux, les acteurs et les tentatives de paix.", corrige: `**Introduction** : le Proche-Orient (Israël, Territoires palestiniens, Liban, Syrie, Jordanie) et le Moyen-Orient, qui s'étend jusqu'au golfe Persique, sont l'une des régions les plus conflictuelles du monde. La fin de la guerre froide, entre 1989 et 1991, fait espérer la paix, mais les guerres continuent. Pourquoi cette région reste-t-elle un foyer de conflits depuis 1989 ?
+
+**1. Une région aux enjeux multiples**
+La région possède près de la **moitié des réserves connues de pétrole**, surtout autour du **golfe Persique**, et contrôle des passages maritimes vitaux comme le **canal de Suez** et le **détroit d'Ormuz**. L'eau y est rare et disputée. **Jérusalem** est une ville sainte pour les juifs, les chrétiens et les musulmans, revendiquée comme capitale par Israël et par les Palestiniens. La région rassemble aussi de nombreux peuples (Arabes, Juifs, Turcs, Iraniens, Kurdes sans État) et oppose sunnites et chiites. Enfin, les grandes puissances y interviennent : les États-Unis soutiennent Israël et l'Arabie saoudite, la Russie a soutenu le régime syrien.
+
+**2. Le conflit israélo-palestinien : de l'espoir à la guerre**
+Depuis la création d'**Israël** en **1948** et l'occupation de la Cisjordanie, de Jérusalem-Est et de Gaza en **1967**, Israéliens et Palestiniens s'affrontent. Après la première **intifada** (1987), la fin de la guerre froide permet les **accords d'Oslo**, signés à Washington le **13 septembre 1993** : Israël et l'**OLP** de Yasser Arafat se reconnaissent mutuellement et une **Autorité palestinienne** est créée. Mais la paix échoue : le **Hamas** islamiste multiplie les attentats, le Premier ministre israélien **Yitzhak Rabin** est assassiné en **1995** par un extrémiste israélien, la **seconde intifada** éclate en **2000** et la colonisation de la Cisjordanie se poursuit. Le **7 octobre 2023**, le Hamas attaque Israël (environ 1 200 morts et 250 otages) ; la guerre qui suit à **Gaza** fait des dizaines de milliers de morts palestiniens et provoque une grave crise humanitaire, jusqu'au cessez-le-feu, encore fragile, d'octobre 2025.
+
+**3. Guerres, guerre civile et terrorisme autour du golfe Persique**
+En **1990**, l'Irak de Saddam Hussein envahit le Koweït : une coalition dirigée par les États-Unis, avec l'accord de l'ONU, le libère en **1991**. En **2003**, les États-Unis renversent Saddam Hussein sans l'accord de l'ONU, et l'Irak sombre dans la violence. En **Syrie**, la répression des manifestations de **2011** par Bachar el-Assad déclenche une **guerre civile** qui fait plusieurs centaines de milliers de morts et des millions de **réfugiés**. L'**État islamique** profite du chaos pour proclamer un « califat » en **2014** et frappe aussi l'Europe, comme à Paris le **13 novembre 2015** ; une coalition internationale, dont la France, le chasse de ses territoires en 2019.
+
+**Conclusion** : depuis 1989, le Proche et le Moyen-Orient restent un foyer de conflits, parce que s'y croisent des enjeux territoriaux, économiques, religieux et de puissance. Les tentatives de paix, comme les accords d'Oslo, ont échoué jusqu'ici, et les **civils** sont les premières victimes. L'ONU et la France défendent toujours une **solution à deux États** pour le conflit israélo-palestinien.` },
       ],
     },
   ],

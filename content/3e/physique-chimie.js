@@ -1307,13 +1307,14 @@ Deux liquides sont **miscibles** s'ils forment un mélange homogène (eau et ét
 Quand on dissout du sel dans l'eau : le sel est le **soluté**, l'eau le **solvant**, le mélange obtenu une **solution**.
 - La **masse se conserve** : 200 g d'eau + 10 g de sel donnent **210 g** de solution.
 - La **solubilité** est la masse **maximale** de soluté que l'on peut dissoudre dans un litre de solvant, à une température donnée. Pour le sel dans l'eau, à 20 °C : environ **360 g/L**. Au-delà, le sel ne se dissout plus et se dépose au fond : la solution est **saturée**.
-- La solubilité dépend du soluté et de la température. Celle des **gaz** dans l'eau **diminue quand la température augmente** : une boisson gazeuse tiède perd plus vite son gaz (du dioxyde de carbone dissous).
+- La solubilité dépend du soluté et de la température. Celle de la plupart des **solides** augmente avec la température (on dissout plus de sucre dans de l'eau chaude). Celle des **gaz** dans l'eau **diminue quand la température augmente** : une boisson gazeuse tiède perd plus vite son gaz (du dioxyde de carbone dissous).
 
 ## La composition de l'air
 L'air est un **mélange** de gaz. En volume : environ **78 % de diazote** (N₂), **21 % de dioxygène** (O₂) et **1 % d'autres gaz** (argon, dioxyde de carbone : environ 0,04 %, vapeur d'eau en quantité variable).
 
 >! **Erreurs fréquentes** :
 >! - « Le sucre disparaît dans l'eau » : non, il est **dissous**, il est toujours là (l'eau a un goût sucré et la masse se conserve).
+>! - « Le sucre fond dans le café » : en physique, c'est une **dissolution** (le sucre se disperse dans un solvant). La **fusion** est le passage d'un corps de l'état solide à l'état liquide, sous l'effet de la chaleur.
 >! - Condensation et liquéfaction : le passage du gaz au liquide s'appelle **liquéfaction**.
 >! - La vapeur d'eau est **invisible** : le « nuage » au-dessus d'une casserole est fait de fines gouttelettes d'eau **liquide**.
 
@@ -1346,6 +1347,9 @@ L'air est un **mélange** de gaz. En volume : environ **78 % de diazote** (N₂)
 5. **Non** : lors d'un changement d'état, la masse se conserve. Le liquide qui disparaît se retrouve sous forme de vapeur (qui s'échappe dans l'air si le récipient est ouvert).
 
 > Méthode : décrire le graphique ou le tableau (« augmente », « reste constante »), utiliser le vocabulaire (palier, corps pur, vaporisation), puis comparer aux données pour identifier.` },
+        { type: "saisie", question: "À 20 °C, la solubilité du sel dans l'eau est d'environ 360 g/L. Dans 100 mL d'eau à 20 °C, on verse 50 g de sel et on agite longtemps. Quelle masse de sel reste non dissoute au fond ? (en g)", reponses: ["14 g", "14 grammes"], explication: "100 mL = 0,1 L. Masse maximale dissoute : 360 × 0,1 = 36 g. Il reste 50 − 36 = **14 g** de sel au fond : la solution est **saturée**." },
+        { type: "qcm", question: "Une maman dit : « Le sucre fond dans le café. » Quel est le mot exact en physique-chimie ?", choix: ["Une fusion", "Une vaporisation", "Une solidification", "Une dissolution"], reponse: 3, explication: "Le sucre (le **soluté**) se disperse dans le café (le **solvant**) : c'est une **dissolution**. La fusion est le passage de l'état solide à l'état liquide sous l'effet de la chaleur (la glace qui fond)." },
+        { type: "vf", question: "Une bouteille de boisson gazeuse ouverte garde mieux son gaz au réfrigérateur qu'à température ambiante.", reponse: true, explication: "La solubilité des **gaz** dans l'eau **diminue quand la température augmente**. Au froid, le dioxyde de carbone reste mieux dissous : la boisson reste gazeuse plus longtemps." },
       ],
     },
     {
@@ -1468,6 +1472,7 @@ La lumière visible n'est qu'une partie des rayonnements. Du plus énergétique 
 | **ultraviolet** (UV) | non | coups de soleil ; en grande partie arrêté par la couche d'ozone |
 | **visible** | oui | du violet au rouge (l'arc-en-ciel) |
 | **infrarouge** (IR) | non | la « chaleur » ressentie près d'un feu, les caméras thermiques, les télécommandes |
+| **ondes radio** | non | radio, téléphones portables, Wi-Fi (voir le chapitre « Signaux et transmission de l'information ») |
 
 Tout objet **émet** un rayonnement qui dépend de sa **température** : plus il est chaud, plus il rayonne d'énergie. Le Soleil (environ 5 500 °C en surface) émet surtout de la lumière **visible** et de l'infrarouge proche (juste au-delà du rouge) ; la Terre (environ 15 °C en moyenne) émet un rayonnement **infrarouge**, invisible pour nos yeux.
 
@@ -1598,7 +1603,7 @@ Les **ondes radio** sont de la même famille que la lumière, mais invisibles. E
 
 ## Coder l'information
 - Un signal **analogique** varie de façon **continue**, comme la vibration de l'air d'un son ou la tension produite par un micro.
-- Un signal **numérique** ne prend que **deux valeurs**, notées **0** et **1** : par exemple lumière éteinte / allumée dans une fibre optique. Chaque 0 ou 1 est un **bit** ; 8 bits forment un **octet**. Avec un octet, on peut écrire 2⁸ = **256** combinaisons différentes (de 00000000 à 11111111).
+- Un signal **numérique** ne prend que **deux valeurs**, notées **0** et **1** : par exemple lumière éteinte / allumée dans une fibre optique. Chaque 0 ou 1 est un **bit** ; 8 bits forment un **octet**. Avec un octet, on peut écrire 2⁸ = **256** combinaisons différentes (de 00000000 à 11111111). (En réalité, le signal physique, une tension ou une intensité lumineuse, varie un peu ; le récepteur le lit comme un 0 ou un 1 selon qu'il est au-dessous ou au-dessus d'un seuil. C'est ce qui rend le numérique peu sensible aux perturbations.)
 - Le **code Morse**, inventé au XIXe siècle, code chaque lettre par des signaux courts (·) et longs (—), sonores ou lumineux : S = · · · ; O = — — —. Le message de détresse **SOS** s'écrit · · · — — — · · ·.
 
 Le **débit** est le nombre de bits transmis par seconde (en bit/s ; 1 Mbit/s = 1 million de bits par seconde).
@@ -1659,6 +1664,8 @@ Dans les sujets de sciences du brevet, une question donne souvent **plusieurs do
 Les sujets précisent souvent que **toute piste de recherche, même non aboutie, sera prise en compte** : une démarche bien expliquée rapporte des points, même si le calcul final est faux.
 
 Attention : le sujet de sciences du brevet porte sur **tout le programme du cycle 4** (5e, 4e et 3e), pas seulement sur celui de 3e. Une tâche complexe peut donc mobiliser une notion vue en 5e ou en 4e (masse volumique, vitesse, circuits électriques...).
+
+Une tâche complexe peut aussi être **entièrement en chimie** : identifier une espèce chimique en croisant plusieurs indices (masse volumique, température de changement d'état, tests d'ions), ou exploiter une **dilution** (en ajoutant de l'eau, la masse de soluté ne change pas : elle se répartit dans un plus grand volume).
 
 ## Les cinq étapes
 1. **S'approprier** : lire la question **deux fois** ; repérer ce que l'on cherche ; souligner dans les documents les **données utiles** (valeurs **avec leurs unités**). Certains documents contiennent des informations inutiles.
@@ -1721,6 +1728,29 @@ Attention : le sujet de sciences du brevet porte sur **tout le programme du cycl
 |---|---|
 | sèche | 25 m |
 | mouillée | 40 m |`,
+        flacon: `**Situation** : au laboratoire, Malo trouve un flacon sans étiquette contenant un liquide incolore. Son professeur lui indique qu'il s'agit forcément de l'un des quatre liquides du doc 4. *(Mesures fictives.)*
+
+**Doc 1 — Pesée** : masse de l'éprouvette graduée vide : **82,4 g** ; masse de l'éprouvette contenant **50,0 mL** du liquide : **121,7 g**.
+
+**Doc 2 — Chauffage au bain-marie** (loin de toute flamme, car le liquide est peut-être inflammable) : la température du liquide monte, puis reste constante à **56 °C** pendant que le liquide bout.
+
+**Doc 3 — Test au nitrate d'argent** : aucun précipité ne se forme.
+
+**Doc 4 — Données à 20 °C** :
+
+| Liquide | Masse volumique | Ébullition |
+|---|---|---|
+| eau | 1,00 g/mL | 100 °C |
+| eau salée | environ 1,1 g/mL | pas de palier net (mélange) |
+| éthanol | 0,79 g/mL | 78 °C |
+| acétone | 0,78 g/mL | 56 °C |`,
+        sirop: `**Situation** : Hugo adore l'eau à la menthe. Il en boit **4 verres de 250 mL** par jour. *(Données fictives, proches des produits du commerce.)*
+
+**Doc 1 — Étiquette du sirop** : « Sirop de menthe. Teneur en sucres : **650 g par litre de sirop**. Dilution conseillée : **1 volume de sirop pour 7 volumes d'eau**. »
+
+**Doc 2 — Recommandation de l'Organisation mondiale de la santé (2015)** : les **sucres libres** (sucres ajoutés aux aliments et aux boissons, ainsi que ceux du miel, des sirops et des jus de fruits) devraient fournir moins de 10 % de l'énergie apportée par l'alimentation, soit environ **50 g par jour** pour un adulte ; idéalement moins de 5 %, soit environ **25 g par jour**.
+
+**Doc 3 — La dilution** : quand on ajoute de l'eau à un sirop, la masse de sucre dissous ne change pas ; elle se répartit dans un plus grand volume.`,
       },
       exercices: [
         { type: "qcm", question: "Face à une tâche complexe, par quoi faut-il commencer ?", choix: ["Faire tout de suite tous les calculs possibles avec les nombres des documents", "Recopier les documents sur la copie", "Lire attentivement la question et repérer dans les documents les données utiles, avec leurs unités", "Écrire directement la conclusion"], reponse: 2, explication: "Il faut d'abord **s'approprier** le problème : savoir ce que l'on cherche, puis trier les données (certaines sont inutiles). Calculer au hasard fait perdre du temps et recopier les documents ne rapporte rien." },
@@ -1764,6 +1794,420 @@ Attention : le sujet de sciences du brevet porte sur **tout le programme du cycl
 **Valider** : des distances d'arrêt de 45 à 80 m sont vraisemblables : une voiture mesure environ 4 m, cela fait une dizaine à une vingtaine de longueurs de voiture.
 
 **Conclusion** : la voiture ne s'arrête avant le chevreuil que dans **un seul cas sur quatre** : conducteur attentif sur route sèche. Regarder son téléphone **double** la distance de réaction ; une route mouillée allonge la distance de freinage. Il faut rester attentif, ne jamais utiliser son téléphone en conduisant et **réduire sa vitesse** par temps de pluie.` },
+        { type: "saisie", texte: "flacon", question: "Quelle est la masse des 50,0 mL de liquide ? (en g)", reponses: ["39,3 g", "39,3 grammes"], explication: "On retire la masse de l'éprouvette vide (la **tare**) : 121,7 − 82,4 = **39,3 g**." },
+        { type: "qcm", texte: "flacon", question: "Quelle est la masse volumique du liquide (arrondie au centième) ?", choix: ["2,43 g/mL", "0,79 g/mL", "1,27 g/mL", "0,39 g/mL"], reponse: 1, explication: "ρ = m / V = 39,3 ÷ 50,0 ≈ **0,79 g/mL**. 2,43 g/mL vient de l'oubli de la masse de l'éprouvette (121,7 ÷ 50,0) ; 1,27 g/mL d'une division à l'envers (50,0 ÷ 39,3)." },
+        { type: "redaction", texte: "flacon", question: "**Tâche complexe (chimie).** Quel liquide contient le flacon ? Explique ta démarche en utilisant tous les documents utiles, et dis à quoi sert chacun.", corrige: `**S'approprier** : on cherche lequel des quatre liquides du doc 4 est dans le flacon. On dispose de trois indices : la masse volumique (doc 1), la température d'ébullition (doc 2) et un test d'ions (doc 3).
+
+**Masse volumique (doc 1)** : m = 121,7 − 82,4 = 39,3 g ; ρ = m / V = 39,3 ÷ 50,0 ≈ **0,79 g/mL** (0,786 g/mL).
+Ce n'est ni l'eau (1,00 g/mL) ni l'eau salée (environ 1,1 g/mL). Mais l'éthanol (0,79 g/mL) et l'acétone (0,78 g/mL) ont des masses volumiques **trop proches** : l'écart (0,01 g/mL) est du même ordre que la précision de la mesure. La masse volumique ne suffit pas à conclure.
+
+**Changement d'état (doc 2)** : la température reste constante pendant l'ébullition : il y a un **palier**, le liquide est un **corps pur**. Le palier est à **56 °C** : c'est la température d'ébullition de l'**acétone** (l'éthanol bout à 78 °C).
+
+**Test (doc 3)** : pas de précipité avec le nitrate d'argent, donc **pas d'ions chlorure** : cela confirme que ce n'est pas de l'eau salée.
+
+**Valider** : les trois indices sont compatibles avec l'acétone (0,786 g/mL est proche de 0,78 g/mL ; palier à 56 °C ; pas d'ions chlorure).
+
+**Conclusion** : le flacon contient de l'**acétone**. Il faut l'étiqueter et le manipuler loin des flammes.
+
+> Méthode : quand un indice ne permet pas de trancher (deux masses volumiques trop proches), on en cherche un autre dans les documents.` },
+        { type: "saisie", texte: "sirop", question: "Avec la dilution conseillée (1 volume de sirop pour 7 volumes d'eau), quel volume de sirop y a-t-il dans un verre de 250 mL ? (valeur exacte, en mL)", reponses: ["31,25 mL", "31,25 cm³", "31,25 cm3", "31,25 millilitres"], explication: "Le verre contient 1 + 7 = **8 volumes** égaux. Volume de sirop : 250 ÷ 8 = **31,25 mL**." },
+        { type: "qcm", texte: "sirop", question: "Quelle masse de sucre y a-t-il dans un verre de 250 mL d'eau à la menthe ?", choix: ["162,5 g", "81,25 g", "5,2 g", "20,3 g"], reponse: 3, explication: "Le verre contient 31,25 mL = 0,03125 L de sirop. Masse de sucre : 650 × 0,03125 ≈ **20,3 g**. 162,5 g serait la masse de sucre dans 250 mL de sirop pur (650 × 0,25)." },
+        { type: "vf", texte: "sirop", question: "Quand on ajoute de l'eau au sirop, la masse de sucre dissous diminue.", reponse: false, explication: "Lors d'une dilution, la **masse de soluté ne change pas** : le sucre se répartit dans un plus grand volume. C'est la quantité de sucre **par litre** qui diminue (le goût est moins sucré)." },
+        { type: "redaction", texte: "sirop", question: "**Tâche complexe (chimie).** Hugo respecte-t-il la recommandation de l'OMS ? Propose-lui une solution pour descendre à 25 g de sucre par jour, sans réduire le nombre de verres. Explique ta démarche.", corrige: `**S'approprier** : on calcule la masse de sucre bue chaque jour et on la compare aux 50 g (et 25 g) recommandés. La masse de sucre se conserve lors de la dilution (doc 3).
+
+**Un verre** : 1 volume de sirop pour 7 volumes d'eau, soit 8 volumes en tout. Volume de sirop : 250 ÷ 8 = 31,25 mL = 0,03125 L. Masse de sucre : 650 × 0,03125 ≈ **20,3 g**.
+
+**Une journée** : 4 × 20,3 ≈ **81 g** de sucre (81,25 g).
+
+**Comparaison** : 81 g > 50 g : Hugo **ne respecte pas** la recommandation ; il boit plus de trois fois la quantité idéale de 25 g.
+
+**Solution** : pour 25 g par jour en 4 verres, chaque verre doit contenir au plus 25 ÷ 4 = 6,25 g de sucre, soit 6,25 ÷ 650 ≈ 0,0096 L ≈ **9,6 mL de sirop** par verre. 250 ÷ 9,6 ≈ 26 : il faut environ **1 volume de sirop pour 25 volumes d'eau** (26 volumes en tout), c'est-à-dire diluer environ 3 fois plus. Il peut aussi remplacer une partie des verres par de l'eau pure.
+
+**Valider** : un verre de 250 mL avec un peu moins de 10 mL de sirop, cela fait environ deux cuillères à café : c'est vraisemblable.
+
+**Conclusion** : avec la dilution conseillée, Hugo boit environ 81 g de sucre par jour, bien plus que les 50 g recommandés ; en diluant environ 1 volume de sirop pour 25 volumes d'eau, il descendrait à 25 g.
+
+> Méthode : la masse de soluté se conserve lors d'une dilution ; on raisonne sur un verre, puis sur la journée.` },
+      ],
+    },
+    {
+      id: "dilatation-eau",
+      titre: "La dilatation et l'eau : glace, océans et niveau de la mer",
+      theme: "Organisation et transformations de la matière",
+      cours: `
+## Qu'est-ce que la dilatation ?
+Quand on **chauffe** un solide, un liquide ou un gaz, son **volume augmente** en général : c'est la **dilatation**. Quand on le refroidit, son volume diminue : c'est la **contraction**.
+
+- **Modèle particulaire** : en chauffant, les particules s'agitent davantage et s'**écartent** un peu les unes des autres. Elles ne grossissent pas et leur nombre ne change pas.
+- La **masse se conserve** ; comme le volume augmente, la **masse volumique diminue** (ρ = m / V).
+
+| Matière | Dilatation | Exemples |
+|---|---|---|
+| **gaz** | très forte | un ballon gonflé se tend au soleil ; l'air chaud, moins dense que l'air froid, monte (montgolfière, air chaud au-dessus d'un radiateur) |
+| **liquide** | moyenne | le liquide coloré monte dans le tube d'un thermomètre quand il fait plus chaud |
+| **solide** | très faible, mais avec des forces énormes | rails, ponts, lignes électriques qui s'allongent l'été |
+
+>! **Exemple résolu (rail)** : un rail en acier de 30 m s'allonge d'environ 0,36 mm pour chaque degré gagné (valeur arrondie).
+>! - De l'hiver (−10 °C) à l'été (40 °C), sa température augmente de 40 − (−10) = 50 °C.
+>! - Allongement : 50 × 0,36 = **18 mm**, presque 2 cm.
+>! C'est pourquoi on laissait un petit espace entre deux rails, et pourquoi les ponts ont des **joints de dilatation** : sans eux, les structures se déformeraient.
+
+## L'eau, un liquide pas comme les autres
+**1. En gelant, l'eau se dilate.** La glace a une masse volumique d'environ **0,92 g/cm³**, plus faible que celle de l'eau liquide (1,00 g/cm³). 1 000 g d'eau liquide occupent 1 000 cm³ ; une fois gelés, ils occupent 1 000 ÷ 0,92 ≈ 1 087 cm³ : le volume augmente d'environ **9 %** (la masse, elle, ne change pas). Conséquences :
+- une bouteille pleine éclate au congélateur, une canalisation peut éclater en hiver ;
+- l'eau qui gèle dans les fissures fait éclater les roches (c'est la **gélifraction**) ;
+- la glace **flotte** : un iceberg a environ 90 % de son volume sous l'eau.
+
+**2. L'eau liquide est la plus dense vers 4 °C.** Entre 0 °C et 4 °C, l'eau se **contracte** quand on la chauffe (au lieu de se dilater) ; au-dessus de 4 °C, elle se dilate comme les autres liquides. En hiver, l'eau à 4 °C, la plus dense, reste **au fond** des lacs ; la glace se forme en **surface** et isole l'eau située dessous : les poissons survivent dans l'eau du fond.
+
+## La dilatation des océans et la montée du niveau de la mer
+Les océans stockent environ 90 % du surplus d'énergie dû au renforcement de l'effet de serre (voir le chapitre sur le bilan d'énergie de la Terre). En se réchauffant, l'eau de mer **se dilate** : son volume augmente et son niveau **monte**. C'est la **dilatation thermique des océans**.
+
+>! **Exemple (ordre de grandeur, valeur simplifiée)** : l'eau de mer se dilate d'environ **0,02 % par degré**. Une couche d'eau de 1 000 m d'épaisseur qui se réchauffe de 1 °C s'épaissit de 1 000 × 0,02 ÷ 100 = **0,2 m = 20 cm**. Petit pourcentage, mais énorme épaisseur d'eau !
+
+La fonte des glaces agit différemment selon l'endroit où se trouve la glace :
+- la **banquise** (glace de mer, qui **flotte**) ne fait **pas** monter le niveau en fondant : en flottant, elle occupait déjà sous la surface le volume de l'eau qu'elle donne en fondant (un glaçon qui fond dans un verre ne fait pas déborder le verre) ;
+- les **glaciers** de montagne et les **calottes** du Groenland et de l'Antarctique sont **posés sur les continents** : leur eau de fonte arrive dans l'océan et fait **monter** le niveau. Si toute la glace du Groenland fondait, le niveau des mers monterait d'environ 7 m.
+
+| Données du GIEC (rapport de 2021) | Valeur |
+|---|---|
+| hausse du niveau moyen des mers entre 1901 et 2018 | environ **20 cm** |
+| vitesse de la hausse de 1901 à 1971 | environ 1,3 mm par an |
+| vitesse de la hausse de 2006 à 2018 | environ 3,7 mm par an |
+| part due à la dilatation thermique (1971-2018) | environ **la moitié** ; le reste vient surtout de la fonte des glaciers et des calottes |
+
+Conséquences : inondations des côtes basses, érosion du littoral, eau salée dans les nappes d'eau douce.
+
+>! **Erreurs fréquentes** :
+>! - Lors d'une dilatation, la **masse ne change pas** : c'est le volume qui augmente.
+>! - Les particules ne grossissent pas : elles s'**écartent**.
+>! - La fonte de la **banquise** ne fait pas monter le niveau des mers (mais elle diminue l'albédo et accentue le réchauffement) ; la fonte des glaces **posées sur les continents**, si.
+
+> **À retenir** :
+> - Chauffé, un corps se dilate en général : le volume augmente, la masse se conserve, la masse volumique diminue.
+> - Modèle particulaire : les particules s'agitent et s'écartent.
+> - L'eau se dilate en gelant (environ + 9 %) : la glace flotte. L'eau liquide est la plus dense vers 4 °C.
+> - Le niveau des mers monte (environ 20 cm de 1901 à 2018) : dilatation thermique des océans et fonte des glaces continentales.
+`,
+      exercices: [
+        { type: "qcm", question: "On chauffe l'air enfermé dans un ballon fermé. Que se passe-t-il ?", choix: ["Sa masse augmente", "Ses particules deviennent plus grosses", "Son volume augmente et sa masse ne change pas", "Sa masse volumique augmente"], reponse: 2, explication: "L'air se **dilate** : son **volume augmente**, mais aucune particule n'entre ni ne sort, donc sa **masse ne change pas**. Comme ρ = m / V, sa masse volumique **diminue**. Les particules ne grossissent pas : elles s'écartent." },
+        { type: "vf", question: "Quand un liquide se dilate, ses particules deviennent plus grosses.", reponse: false, explication: "Les particules gardent la même taille : en s'agitant davantage, elles s'**écartent** les unes des autres. C'est l'espace entre elles qui augmente." },
+        { type: "qcm", question: "Pourquoi une montgolfière dont on chauffe l'air s'élève-t-elle ?", choix: ["L'air chaud est plus dense que l'air froid", "L'air chaud, dilaté, a une masse volumique plus faible que l'air froid qui l'entoure", "La flamme pousse le ballon vers le haut", "L'air chaud n'a plus de masse"], reponse: 1, explication: "Chauffé, l'air se **dilate** : sa **masse volumique diminue**. Moins dense que l'air froid extérieur, l'air chaud monte, comme l'huile au-dessus de l'eau. L'air chaud a toujours une masse." },
+        { type: "saisie", question: "Un rail en acier de 30 m s'allonge de 0,36 mm pour chaque degré gagné. De combien s'allonge-t-il quand sa température passe de 5 °C à 35 °C ? (en mm)", reponses: ["10,8 mm", "10,8 millimètres"], explication: "La température augmente de 35 − 5 = 30 °C. Allongement : 30 × 0,36 = **10,8 mm**, soit environ 1 cm." },
+        { type: "vf", question: "La glace flotte sur l'eau liquide car sa masse volumique est plus faible que celle de l'eau liquide.", reponse: true, explication: "Glace : environ **0,92 g/cm³** ; eau liquide : 1,00 g/cm³. En gelant, l'eau se **dilate** : la glace, moins dense, flotte." },
+        { type: "saisie", question: "On fait geler 500 g d'eau. Quel volume de glace obtient-on ? (masse volumique de la glace : 0,92 g/cm³ ; arrondis à l'unité, en cm³)", reponses: ["543 cm³", "543 cm3", "543 mL"], explication: "La masse se conserve : 500 g de glace. V = m / ρ = 500 ÷ 0,92 ≈ **543 cm³**, alors que l'eau liquide occupait 500 cm³ : le volume a augmenté d'environ 9 %." },
+        { type: "qcm", question: "En plein hiver, un lac est recouvert de glace. Quelle est environ la température de l'eau au fond du lac ?", choix: ["−4 °C", "0 °C", "20 °C", "4 °C"], reponse: 3, explication: "L'eau liquide est **la plus dense vers 4 °C** : cette eau descend et reste au fond. La glace (0 °C), moins dense, reste en surface et isole l'eau située dessous. C'est ce qui permet aux poissons de survivre." },
+        { type: "qcm", question: "Un verre est rempli d'eau à ras bord, avec un glaçon qui flotte. Que se passe-t-il quand le glaçon fond ?", choix: ["Le niveau ne change pas : le verre ne déborde pas", "Le verre déborde", "Le niveau baisse nettement", "L'eau du verre gèle"], reponse: 0, explication: "Le glaçon qui flotte occupe déjà, sous la surface, le volume de l'eau qu'il donne en fondant : le **niveau ne change pas**. C'est pour cela que la fonte de la **banquise** (glace qui flotte) ne fait pas monter le niveau des mers, contrairement à celle des glaciers posés sur les continents." },
+        { type: "saisie", question: "L'eau de mer se dilate d'environ 0,02 % par degré. Une couche d'eau de 700 m d'épaisseur se réchauffe de 0,5 °C. De combien de centimètres son épaisseur augmente-t-elle ?", reponses: ["7 cm", "7 centimètres"], explication: "Pour 1 °C : 700 × 0,02 ÷ 100 = 0,14 m. Pour 0,5 °C : 0,14 × 0,5 = 0,07 m = **7 cm**. Une petite dilatation d'une énorme épaisseur d'eau fait monter le niveau de la mer." },
+        { type: "redaction", question: "**Type brevet.** Document (GIEC, 2021) : entre 1901 et 2018, le niveau moyen des mers a monté d'environ 20 cm. Sa vitesse de montée est passée d'environ 1,3 mm par an (1901-1971) à environ 3,7 mm par an (2006-2018). Entre 1971 et 2018, environ la moitié de la hausse est due à la dilatation thermique des océans.\n1. Calcule la vitesse moyenne de montée du niveau entre 1901 et 2018, en mm par an (arrondie au dixième). Compare-la à celle de 2006-2018.\n2. Explique, avec le modèle particulaire, pourquoi le volume de l'eau de mer augmente quand elle se réchauffe. Sa masse change-t-elle ?\n3. Un camarade affirme : « La fonte de la banquise arctique est la principale cause de la montée des mers. » Discute cette affirmation.\n4. Quelles glaces font monter le niveau des mers en fondant ? Cite une conséquence de cette montée pour les populations.", corrige: `1. Durée : 2018 − 1901 = 117 ans. Hausse : 20 cm = 200 mm. Vitesse moyenne : 200 ÷ 117 ≈ **1,7 mm par an**.
+De 2006 à 2018, la vitesse (3,7 mm par an) est plus de **deux fois** plus grande : la montée des mers **s'accélère**.
+
+2. En se réchauffant, les particules d'eau s'**agitent davantage** et s'**écartent** un peu les unes des autres : le **volume augmente**, c'est la **dilatation**. La **masse ne change pas** (les particules sont les mêmes, aussi nombreuses) ; c'est la masse volumique qui diminue.
+
+3. L'affirmation est **fausse**. La banquise est de la glace qui **flotte** : comme un glaçon dans un verre, elle occupe déjà sous la surface le volume de l'eau qu'elle donne en fondant. Sa fonte ne fait donc **pas** monter le niveau. D'après le document, environ la moitié de la hausse vient de la **dilatation thermique** des océans. (La fonte de la banquise a tout de même un effet : l'océan, plus sombre, absorbe plus d'énergie solaire, ce qui accentue le réchauffement.)
+
+4. Ce sont les glaces **posées sur les continents** : glaciers de montagne, calottes du **Groenland** et de l'**Antarctique**. Conséquences : inondation des côtes basses et des îles, érosion du littoral, déplacement de populations, eau salée qui pénètre dans les nappes d'eau douce.
+
+> Méthode : utiliser les valeurs du document (avec unités), puis le vocabulaire du cours (dilatation, particules qui s'écartent, masse conservée, glace flottante ou continentale).` },
+      ],
+    },
+    {
+      id: "echelles-temps",
+      titre: "Les échelles de temps : de l'histoire de l'Univers aux âges géologiques",
+      theme: "Organisation et transformations de la matière",
+      cours: `
+## Des durées gigantesques
+Pour parler de l'histoire de l'Univers et de la Terre, on utilise de très grandes durées :
+- **1 million d'années** (on écrit souvent 1 Ma) = 1 000 000 ans = **10⁶ ans** ;
+- **1 milliard d'années** (1 Ga) = 1 000 000 000 ans = **10⁹ ans** = **1 000 millions d'années**.
+
+Ne confonds pas million et milliard : il y a un facteur **1 000** entre les deux.
+
+## Quelques repères (valeurs arrondies, connaissances actuelles)
+| Événement | Il y a environ | En notation scientifique |
+|---|---|---|
+| Big Bang : début de l'expansion de l'Univers | 13,8 milliards d'années | 1,38 × 10¹⁰ ans |
+| Formation du Soleil et de la Terre | 4,6 milliards d'années | 4,6 × 10⁹ ans |
+| Plus anciennes traces de vie connues (micro-organismes) | au moins 3,5 milliards d'années | 3,5 × 10⁹ ans |
+| Le dioxygène s'accumule dans l'atmosphère (produit par des micro-organismes qui font la photosynthèse) | 2,4 milliards d'années | 2,4 × 10⁹ ans |
+| Premiers animaux | 600 millions d'années | 6 × 10⁸ ans |
+| Disparition des grands dinosaures (les oiseaux sont leurs descendants) | 66 millions d'années | 6,6 × 10⁷ ans |
+| Apparition de notre espèce, *Homo sapiens* | 300 000 ans | 3 × 10⁵ ans |
+| Invention de l'écriture | 5 000 ans | 5 × 10³ ans |
+
+## Les âges géologiques
+Les géologues découpent l'histoire de la Terre en grandes périodes, les **ères**, séparées par de grandes **crises** de la biodiversité (des extinctions massives) :
+
+| Période | De ... à ... | Repères |
+|---|---|---|
+| **Précambrien** (un très long ensemble, avant les ères) | de 4,6 milliards d'années à 540 millions d'années | formation des océans, vie microscopique, apparition du dioxygène dans l'air |
+| **Paléozoïque** (ère primaire) | de 540 à 252 millions d'années | diversification des animaux, poissons, conquête des terres, grandes forêts dont les restes ont formé le **charbon** |
+| **Mésozoïque** (ère secondaire) | de 252 à 66 millions d'années | dinosaures, premiers mammifères |
+| **Cénozoïque** (ères tertiaire et quaternaire) | de 66 millions d'années à aujourd'hui | diversification des mammifères, puis apparition des humains |
+
+Le Précambrien représente à lui seul près de **90 %** de l'histoire de la Terre : (4 600 − 540) ÷ 4 600 ≈ 0,88.
+
+Lien avec l'énergie : le **charbon**, le **pétrole** et le **gaz naturel** proviennent de restes d'êtres vivants transformés pendant des **millions d'années**. On les consomme en quelques siècles : ce sont des sources **non renouvelables**.
+
+## Comment connaît-on ces âges ? (pour aller plus loin)
+Certains atomes sont **radioactifs** : leur noyau se transforme spontanément en un autre noyau, à un rythme connu et constant. En mesurant dans une roche la quantité d'atomes radioactifs qui restent et celle des atomes formés, on calcule son âge, comme on lit le temps écoulé sur un **sablier**. Les plus vieilles météorites ont environ 4,57 milliards d'années : c'est l'âge du système solaire.
+
+## Voir loin, c'est voir dans le passé
+La galaxie d'Andromède est à environ **2,5 millions d'années-lumière** : la lumière que nous en recevons est partie il y a 2,5 millions d'années, bien avant l'apparition d'*Homo sapiens*. Les galaxies les plus lointaines observées apparaissent telles qu'elles étaient il y a plus de 13 milliards d'années, peu après le Big Bang.
+
+## Représenter les durées à l'échelle
+>! **Méthode : la frise à l'échelle.** On choisit une échelle, par exemple **1 cm pour 100 millions d'années**. Longueur = durée ÷ durée représentée par 1 cm.
+>! - Formation de la Terre : 4 600 ÷ 100 = **46 cm** avant aujourd'hui.
+>! - Disparition des dinosaures : 66 ÷ 100 = **0,66 cm**, moins de 7 mm avant la fin de la frise.
+>! - *Homo sapiens* : 0,3 million d'années ÷ 100 = 0,003 cm = **0,03 mm** : invisible à l'œil nu !
+
+>! **Exemple résolu : le « calendrier cosmique ».** On ramène les 13,8 milliards d'années de l'Univers à **une année de 365 jours** : le Big Bang a lieu le 1er janvier à 0 h, et aujourd'hui correspond au 31 décembre à minuit.
+>! - Un jour du calendrier représente 13 800 millions ÷ 365 ≈ **37,8 millions d'années**.
+>! - Formation du Soleil et de la Terre (4 600 millions d'années) : 4 600 ÷ 37,8 ≈ 122 jours avant la fin, soit **début septembre**.
+>! - Disparition des dinosaures (66 millions d'années) : 66 ÷ 37,8 ≈ 1,7 jour avant la fin, soit **le 30 décembre**.
+>! - *Homo sapiens* (0,3 million d'années) : 0,3 ÷ 37,8 ≈ 0,008 jour ≈ **11 minutes** avant minuit, le 31 décembre vers 23 h 49.
+
+>! **Erreurs fréquentes** :
+>! - Confondre million et milliard (facteur 1 000).
+>! - Croire que les premiers humains ont vu des dinosaures : plus de 60 millions d'années les séparent.
+>! - Oublier qu'une frise doit être **à l'échelle** : des durées égales doivent avoir des longueurs égales.
+
+> **À retenir** :
+> - 1 million d'années = 10⁶ ans ; 1 milliard d'années = 10⁹ ans = 1 000 millions d'années.
+> - Big Bang : 13,8 milliards d'années ; Soleil et Terre : 4,6 milliards d'années ; vie : au moins 3,5 milliards d'années ; dinosaures disparus il y a 66 millions d'années ; *Homo sapiens* : 300 000 ans.
+> - Ères : Paléozoïque, Mésozoïque, Cénozoïque, après le très long Précambrien.
+> - À l'échelle de l'Univers, l'histoire humaine est extrêmement courte.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel est l'âge approximatif de la Terre ?", choix: ["4,6 millions d'années", "13,8 milliards d'années", "4,6 milliards d'années", "6 000 ans"], reponse: 2, explication: "Le Soleil et la Terre se sont formés il y a environ **4,6 milliards d'années**. 13,8 milliards d'années est l'âge de l'Univers ; 4,6 millions d'années est mille fois trop petit." },
+        { type: "saisie", question: "Combien y a-t-il de millions d'années dans 1 milliard d'années ?", reponses: ["1000", "1 000", "1000 millions", "1 000 millions", "1 000 millions d'années", "mille"], explication: "1 milliard = 1 000 000 000 = 1 000 × 1 000 000 : 1 milliard d'années = **1 000 millions d'années**." },
+        { type: "vf", question: "Les premiers *Homo sapiens* ont chassé les dinosaures.", reponse: false, explication: "Les grands dinosaures ont disparu il y a **66 millions d'années** ; *Homo sapiens* est apparu il y a environ **300 000 ans**. Plus de 60 millions d'années les séparent." },
+        { type: "qcm", question: "Quel ordre va du plus ancien au plus récent ?", choix: ["Premiers animaux, formation de la Terre, premières traces de vie, disparition des dinosaures", "Formation de la Terre, premières traces de vie, premiers animaux, disparition des dinosaures", "Premières traces de vie, formation de la Terre, disparition des dinosaures, premiers animaux", "Formation de la Terre, premiers animaux, premières traces de vie, disparition des dinosaures"], reponse: 1, explication: "Formation de la Terre (**4,6 milliards d'années**), premières traces de vie (au moins **3,5 milliards d'années**), premiers animaux (**600 millions d'années**), disparition des dinosaures (**66 millions d'années**)." },
+        { type: "saisie", question: "Sur une frise, 1 cm représente 100 millions d'années. À quelle distance (en cm) de « aujourd'hui » faut-il placer la formation de la Terre, il y a 4,6 milliards d'années ?", reponses: ["46 cm", "46 centimètres"], explication: "4,6 milliards d'années = 4 600 millions d'années. Longueur : 4 600 ÷ 100 = **46 cm**." },
+        { type: "qcm", question: "Dans le « calendrier cosmique » (l'histoire de l'Univers ramenée à une année, du 1er janvier au 31 décembre à minuit ; un jour vaut environ 37,8 millions d'années), à quelle date disparaissent les dinosaures (il y a 66 millions d'années) ?", choix: ["Le 1er septembre", "Le 15 mars", "Le 31 décembre à 23 h 59", "Le 30 décembre"], reponse: 3, explication: "66 ÷ 37,8 ≈ 1,7 jour avant la fin de l'année : c'est le **30 décembre**. La dernière minute de l'année (de 23 h 59 à minuit) ne représente que les 26 000 dernières années environ (37,8 millions ÷ 1 440) : c'est bien plus récent que les dinosaures." },
+        { type: "vf", question: "Le Précambrien, qui va de la formation de la Terre à 540 millions d'années, représente plus de 85 % de l'histoire de la Terre.", reponse: true, explication: "Durée du Précambrien : 4 600 − 540 = 4 060 millions d'années. Part : 4 060 ÷ 4 600 ≈ 0,88, soit environ **88 %**." },
+        { type: "saisie", question: "La galaxie d'Andromède est à environ 2,5 millions d'années-lumière. Il y a combien d'années la lumière que nous en recevons aujourd'hui est-elle partie ?", reponses: ["2,5 millions d'années", "il y a 2,5 millions d'années", "2,5 millions", "2 500 000 ans", "2500000 ans", "2,5 × 10^6 ans"], explication: "La lumière parcourt 1 année-lumière en 1 an : pour 2,5 millions d'années-lumière, il lui faut **2,5 millions d'années**. Nous voyons Andromède telle qu'elle était bien avant l'apparition d'*Homo sapiens*." },
+        { type: "qcm", question: "Pourquoi le charbon est-il une source d'énergie non renouvelable ?", choix: ["Parce qu'il s'est formé en des millions d'années, alors qu'on le consomme en quelques siècles", "Parce qu'il est noir", "Parce qu'il ne contient pas de carbone", "Parce qu'il vient du Soleil"], reponse: 0, explication: "Le charbon provient de restes de végétaux (en grande partie des forêts du Paléozoïque) transformés pendant des **millions d'années**. On le consomme bien plus vite qu'il ne se forme : ses réserves **s'épuisent**." },
+        { type: "redaction", question: "**Type brevet.** On ramène l'âge de l'Univers (13,8 milliards d'années) à une année de 365 jours : le Big Bang a lieu le 1er janvier à 0 h, et aujourd'hui correspond au 31 décembre à minuit.\n1. Calcule la durée réelle représentée par un jour de ce calendrier (en millions d'années, arrondie au dixième).\n2. Le Soleil et la Terre se forment il y a 4,6 milliards d'années. Combien de jours avant la fin de l'année cela se place-t-il ? Dans quel mois ?\n3. *Homo sapiens* apparaît il y a 300 000 ans. Combien de minutes avant minuit, le 31 décembre ? (1 jour = 1 440 minutes)\n4. Une seconde de ce calendrier représente environ 440 ans. Combien de secondes avant minuit l'écriture est-elle inventée (il y a 5 000 ans) ?\n5. Que montre ce calendrier sur la place de l'histoire humaine ?", corrige: `1. 13,8 milliards d'années = 13 800 millions d'années. Un jour : 13 800 ÷ 365 ≈ **37,8 millions d'années**.
+
+2. 4 600 ÷ 37,8 ≈ **122 jours** avant la fin de l'année. 365 − 122 = 243 jours se sont écoulés depuis le 1er janvier : on est **début septembre**.
+
+3. 300 000 ans = 0,3 million d'années. En jours : 0,3 ÷ 37,8 ≈ 0,0079 jour. En minutes : 0,0079 × 1 440 ≈ **11 minutes** avant minuit (vers 23 h 49 le 31 décembre).
+
+4. 5 000 ÷ 440 ≈ **11 secondes** avant minuit.
+
+5. Toute l'histoire de notre espèce tient dans les **11 dernières minutes** de l'année, et l'histoire écrite dans les **11 dernières secondes** : à l'échelle de l'Univers et de la Terre, l'histoire humaine est **extrêmement courte**.
+
+> Méthode : convertir les durées dans la même unité (millions d'années), utiliser la proportionnalité, puis interpréter le résultat par une phrase.` },
+      ],
+    },
+    {
+      id: "lois-circuits",
+      titre: "Lois des tensions et des intensités dans les circuits",
+      theme: "L'énergie, ses transferts et ses conversions",
+      cours: `
+## Rappels : deux grandeurs, deux appareils
+| Grandeur | Symbole | Unité | Appareil | Branchement |
+|---|---|---|---|---|
+| Tension | U | volt (V) | voltmètre (multimètre, bornes V et COM) | **en dérivation**, aux bornes du dipôle |
+| Intensité du courant | I | ampère (A) | ampèremètre (multimètre, bornes A ou mA et COM) | **en série**, dans la boucle |
+
+La tension aux bornes d'un **fil de connexion** ou d'un **interrupteur fermé** est pratiquement **nulle**.
+
+## Le circuit en série (une seule boucle)
+- **Loi d'unicité de l'intensité** : l'intensité est **la même** en tout point du circuit.
+- **Loi d'additivité des tensions** : la tension aux bornes du générateur est égale à la **somme** des tensions aux bornes des autres dipôles :
+
+> **En série : U = U₁ + U₂ + ...** (U : tension aux bornes du générateur)
+
+- Si un dipôle est retiré ou grillé, le circuit est **ouvert** : plus aucun dipôle ne fonctionne.
+- Si l'interrupteur est **ouvert**, le courant ne passe plus : la tension aux bornes des lampes est nulle, et toute la tension du générateur se retrouve **aux bornes de l'interrupteur ouvert**.
+
+>! **Exemple résolu** : une pile de 4,5 V alimente une lampe et un moteur branchés en série. Le voltmètre indique 2,8 V aux bornes de la lampe.
+>! Additivité des tensions : 4,5 = 2,8 + U(moteur), donc U(moteur) = 4,5 − 2,8 = **1,7 V**.
+
+Des dipôles **identiques** en série se partagent la tension à parts égales : trois lampes identiques sur 9 V ont chacune 9 ÷ 3 = 3 V. Des dipôles **différents** ne se la partagent pas forcément à parts égales.
+
+## Le circuit en dérivation (plusieurs boucles)
+- **Loi d'unicité des tensions** : des dipôles branchés en dérivation ont **la même tension** à leurs bornes.
+- **Loi d'additivité des intensités** : l'intensité dans la **branche principale** (celle du générateur) est égale à la **somme** des intensités dans les **branches dérivées** :
+
+> **En dérivation : I = I₁ + I₂ + ...** (I : intensité dans la branche principale)
+
+- Chaque branche fonctionne **indépendamment** : si une lampe grille, les autres restent allumées.
+
+>! **Exemple résolu** : deux lampes sont branchées en dérivation sur un générateur de 6 V. L'ampèremètre indique 0,25 A dans la branche de la lampe 1 et 0,10 A dans celle de la lampe 2.
+>! - Tension aux bornes de chaque lampe : **6 V** (unicité des tensions).
+>! - Intensité dans la branche principale : 0,25 + 0,10 = **0,35 A** (additivité des intensités).
+
+## Avec la loi d'Ohm
+>! **Exemple résolu** : deux résistances R₁ = 100 Ω et R₂ = 200 Ω sont en série ; l'intensité vaut I = 20 mA = 0,020 A.
+>! - U₁ = R₁ × I = 100 × 0,020 = 2 V ; U₂ = R₂ × I = 200 × 0,020 = 4 V.
+>! - Additivité des tensions : la tension du générateur vaut 2 + 4 = **6 V**.
+
+## Dans la maison : tout est en dérivation
+Les prises et les lampes d'une maison sont branchées **en dérivation** : chaque appareil reçoit la tension du secteur (**230 V**) et fonctionne indépendamment des autres. Mais les intensités **s'additionnent** dans les fils principaux : trop d'appareils allumés en même temps font dépasser l'intensité maximale, et le **disjoncteur** coupe le courant (voir le chapitre sur la puissance électrique).
+
+>! **Erreurs fréquentes** :
+>! - Confondre les lois : en **série**, les **tensions** s'additionnent et l'intensité est la même ; en **dérivation**, les **intensités** s'additionnent et la tension est la même.
+>! - Croire que deux lampes en dérivation sur 6 V reçoivent chacune 3 V : elles reçoivent **6 V** chacune.
+>! - Brancher un voltmètre en série ou un ampèremètre en dérivation.
+
+> **À retenir** :
+> - Série : I la même partout ; U = U₁ + U₂ (additivité des tensions).
+> - Dérivation : U la même pour chaque branche ; I = I₁ + I₂ (additivité des intensités).
+> - Voltmètre en dérivation, ampèremètre en série, courant qui sort par la borne COM.
+> - Installation domestique : en dérivation, 230 V pour chaque appareil.
+`,
+      exercices: [
+        { type: "vf", question: "Dans un circuit en série, la tension aux bornes du générateur est égale à la somme des tensions aux bornes des autres dipôles.", reponse: true, explication: "C'est la **loi d'additivité des tensions** en série : U = U₁ + U₂ + ..." },
+        { type: "saisie", question: "Une pile de 4,5 V alimente une lampe et un moteur branchés en série. La tension aux bornes de la lampe vaut 2,7 V. Quelle est la tension aux bornes du moteur ? (en V)", reponses: ["1,8 V", "1,8 volt", "1,8 volts"], explication: "Additivité des tensions en série : 4,5 = 2,7 + U(moteur), donc U(moteur) = 4,5 − 2,7 = **1,8 V**." },
+        { type: "saisie", question: "Trois lampes identiques sont branchées en série sur un générateur de 9 V. Quelle est la tension aux bornes de chaque lampe ? (en V)", reponses: ["3 V", "3 volts"], explication: "Les tensions s'additionnent en série et les trois lampes, identiques, ont la même tension : 9 ÷ 3 = **3 V** chacune." },
+        { type: "saisie", question: "Deux lampes sont branchées en dérivation. L'intensité vaut 0,30 A dans la première branche et 0,15 A dans la seconde. Quelle est l'intensité dans la branche principale ? (en A)", reponses: ["0,45 A", "0,45 ampère"], explication: "Additivité des intensités en dérivation : I = 0,30 + 0,15 = **0,45 A**." },
+        { type: "qcm", question: "Un circuit en série comporte une pile de 4,5 V, une lampe et un interrupteur **ouvert**. Quelle tension mesure-t-on aux bornes de l'interrupteur ?", choix: ["0 V", "4,5 V", "2,25 V", "9 V"], reponse: 1, explication: "Le courant ne passe pas : la tension aux bornes de la lampe est **nulle**. D'après l'additivité des tensions, 4,5 = 0 + U(interrupteur) : toute la tension de la pile, **4,5 V**, se retrouve aux bornes de l'interrupteur ouvert." },
+        { type: "qcm", question: "Dans une vieille guirlande, toutes les lampes sont branchées en série. Une lampe grille. Que se passe-t-il ?", choix: ["Seule la lampe grillée s'éteint", "Les autres lampes brillent plus fort", "Toutes les lampes s'éteignent", "Les lampes voisines seulement s'éteignent"], reponse: 2, explication: "En **série**, il n'y a qu'une seule boucle : la lampe grillée **ouvre** le circuit, le courant ne passe plus nulle part. **Toutes les lampes s'éteignent**. En dérivation, les autres resteraient allumées." },
+        { type: "vf", question: "Une lampe et un moteur branchés en dérivation sur une pile de 4,5 V ont des tensions différentes à leurs bornes.", reponse: false, explication: "**Loi d'unicité des tensions** : des dipôles en dérivation ont **la même tension** à leurs bornes, ici 4,5 V, même s'ils sont différents." },
+        { type: "saisie", question: "Dans un circuit en dérivation à deux branches, l'intensité dans la branche principale vaut 0,8 A et celle dans la première branche dérivée vaut 0,5 A. Quelle est l'intensité dans la seconde branche ? (en A)", reponses: ["0,3 A", "0,30 A", "0,3 ampère"], explication: "I = I₁ + I₂, donc I₂ = I − I₁ = 0,8 − 0,5 = **0,3 A**." },
+        { type: "qcm", question: "Deux résistances de 100 Ω et 200 Ω sont branchées en série ; l'intensité vaut 20 mA. Quelle est la tension aux bornes du générateur ?", choix: ["6 000 V", "2 V", "6 V", "300 V"], reponse: 2, explication: "I = 20 mA = 0,020 A. Loi d'Ohm : U₁ = 100 × 0,020 = 2 V et U₂ = 200 × 0,020 = 4 V. Additivité des tensions : 2 + 4 = **6 V**. 6 000 V vient de l'oubli de la conversion des mA en A." },
+        { type: "redaction", question: "**Type brevet.** Un générateur de 12 V alimente deux branches en dérivation :\n- branche 1 : une lampe L1 seule ;\n- branche 2 : une lampe L2 et une résistance R, en série.\nMesures : intensité dans la branche principale 0,9 A ; intensité dans la branche 1 : 0,5 A ; tension aux bornes de L2 : 7,5 V.\n1. Calcule l'intensité dans la branche 2. Nomme la loi utilisée.\n2. Quelle est la tension aux bornes de L1 ? Justifie.\n3. Calcule la tension aux bornes de la résistance R. Nomme la loi utilisée.\n4. Calcule la valeur de R avec la loi d'Ohm.\n5. Comment brancher le multimètre pour mesurer la tension aux bornes de R ?\n6. La lampe L2 grille. La lampe L1 reste-t-elle allumée ? Justifie.", corrige: `1. **Loi d'additivité des intensités** (dérivation) : I = I₁ + I₂, donc I₂ = 0,9 − 0,5 = **0,4 A**.
+
+2. L1 est branchée en dérivation sur le générateur : **loi d'unicité des tensions**, U(L1) = **12 V**.
+
+3. La branche 2 est aussi en dérivation sur le générateur : la tension à ses bornes vaut 12 V. Dans cette branche, L2 et R sont en série : **loi d'additivité des tensions**, 12 = 7,5 + U(R), donc U(R) = 12 − 7,5 = **4,5 V**.
+
+4. R est traversée par I₂ = 0,4 A (même intensité partout dans la branche 2, en série). Loi d'Ohm : R = U / I = 4,5 ÷ 0,4 = **11,25 Ω**.
+
+5. Le multimètre, en position **voltmètre** (V continu), se branche **en dérivation** aux bornes de R, avec les bornes **V** et **COM** (la borne COM du côté de la borne − du générateur).
+
+6. **Oui** : L1 est dans une autre branche, qui reste fermée. En dérivation, chaque branche fonctionne **indépendamment** ; seule la branche 2 est ouverte.
+
+> Méthode : repérer d'abord ce qui est en série et ce qui est en dérivation, puis nommer chaque loi avant de l'appliquer.` },
+      ],
+    },
+    {
+      id: "methode-graphiques",
+      titre: "Méthode : lire, tracer et exploiter un graphique",
+      theme: "Méthode pour le brevet",
+      cours: `
+## Le vocabulaire
+Tracer « **B en fonction de A** », c'est placer la grandeur **A en abscisse** (axe horizontal) et la grandeur **B en ordonnée** (axe vertical). Exemple : « U en fonction de I » : I sur l'axe horizontal, U sur l'axe vertical. Le temps est presque toujours en abscisse.
+
+## Lire un graphique
+1. **Identifier** : titre, grandeurs sur chaque axe, **unités**, **échelle** (que vaut une graduation ? 1 ? 0,5 ? 0,2 ?).
+2. **Lire une valeur** : partir de la valeur sur l'axe horizontal, monter verticalement jusqu'à la courbe, puis aller horizontalement jusqu'à l'axe vertical. Donner le résultat **avec son unité** ; une lecture graphique est approchée (« environ »).
+3. **Décrire l'allure** : la grandeur augmente (courbe croissante), diminue (décroissante), reste constante (**palier**), passe par un maximum...
+
+>! **Exemple : allure du graphique « masse m en fonction du volume V » pour des morceaux d'aluminium**
+>! ~~~
+>! m (g)
+>!  108 |                               x
+>!      |
+>!      |
+>!   81 |                       x
+>!      |
+>!      |
+>!   54 |               x
+>!      |
+>!      |
+>!   27 |       x
+>!      |
+>!      |
+>!    0 +-------+-------+-------+-------+-- V (cm³)
+>!      0      10      20      30      40
+>! ~~~
+>! Les points sont alignés avec l'origine : m est **proportionnelle** à V.
+
+## Reconnaître les situations types
+| Allure | Ce que l'on conclut | Exemples |
+|---|---|---|
+| **droite passant par l'origine** | les deux grandeurs sont **proportionnelles** | m = ρ × V ; P = m × g ; U = R × I ; d = v × t (mouvement uniforme) |
+| droite **ne passant pas** par l'origine | elles **ne sont pas** proportionnelles (mais varient régulièrement) | longueur d'un ressort en fonction de la masse accrochée |
+| **palier** (segment horizontal) | la grandeur reste **constante** | température d'un corps pur pendant un changement d'état |
+| courbe qui monte de plus en plus vite | pas proportionnelles : quand l'une double, l'autre fait plus que doubler | énergie cinétique ou distance de freinage en fonction de la vitesse |
+
+## Calculer le coefficient de proportionnalité
+Pour une droite passant par l'origine, on choisit un point de la droite **loin de l'origine** et facile à lire, puis on calcule **ordonnée ÷ abscisse**. Ce coefficient a souvent un **sens physique** et une **unité** : ρ (g/cm³), g (N/kg), R (Ω), v (m/s).
+
+>! **Exemple résolu** : la droite « m en fonction de V » passe par le point V = 40 cm³, m = 108 g.
+>! Coefficient : 108 ÷ 40 = **2,7 g/cm³** : c'est la masse volumique, celle de l'**aluminium**.
+
+## Tracer un graphique
+- Tracer les axes à la règle ; écrire au bout de chaque axe le **nom de la grandeur** et son **unité**.
+- Choisir une **échelle régulière** (par exemple 1 cm pour 0,5 V) qui utilise bien la place disponible.
+- Placer chaque point avec une **petite croix**.
+- Ne pas relier les points de mesure par une ligne brisée : si les points sont presque alignés, tracer à la règle la **droite moyenne**, qui passe au plus près de tous les points (autant au-dessus qu'en dessous) ; sinon, tracer une **courbe régulière**.
+- Un point très éloigné des autres est sans doute une **erreur de mesure** : on ne l'utilise pas pour tracer la droite.
+
+## Interpoler et extrapoler
+- **Interpoler** : lire une valeur **entre** deux mesures. C'est fiable si la courbe est régulière.
+- **Extrapoler** : prolonger la courbe **au-delà** des mesures. C'est risqué : rien ne garantit que l'allure continue (un ressort trop chargé se déforme définitivement).
+
+>! **Erreurs fréquentes** :
+>! - Inverser les axes (« U en fonction de I » : I en abscisse).
+>! - Oublier les unités ou mal lire une graduation (une graduation peut valoir 0,2 et non 1).
+>! - Choisir une échelle irrégulière (0, 1, 2, 5, 10...) : le graphique est alors faux.
+>! - Conclure à la proportionnalité devant une droite qui **ne passe pas** par l'origine.
+
+> **À retenir** :
+> - « B en fonction de A » : A en abscisse, B en ordonnée ; axes avec grandeurs et unités, échelle régulière.
+> - Droite passant par l'origine = proportionnalité ; coefficient = ordonnée ÷ abscisse, avec son unité.
+> - Palier = grandeur constante ; droite qui ne passe pas par l'origine = pas de proportionnalité.
+> - Mesures : croix + droite moyenne, pas de ligne brisée.
+`,
+      textes: {
+        poids: `**Document : mesures d'un robot d'exploration** *(mesures simulées)*
+
+Sur un astre du système solaire, un robot accroche des objets de masse connue à un dynamomètre et mesure leur poids :
+
+| Masse m (kg) | 0 | 0,5 | 1 | 2 | 4 |
+|---|---|---|---|---|---|
+| Poids P (N) | 0 | 1,85 | 3,7 | 7,4 | 14,8 |
+
+Le graphique du poids P en fonction de la masse m est une **droite passant par l'origine**.
+
+Données : intensité de la pesanteur g : Terre 9,8 N/kg ; Lune 1,6 N/kg ; Mars 3,7 N/kg ; Jupiter environ 25 N/kg.`,
+        ressort: `**Document : un ressort** *(mesures arrondies)*
+
+On accroche des masses à un ressort et on mesure sa **longueur** L :
+
+| Masse accrochée (g) | 0 | 100 | 200 | 300 | 400 |
+|---|---|---|---|---|---|
+| Longueur L (cm) | 8,0 | 10,0 | 12,0 | 14,0 | 16,0 |
+
+Le graphique de L en fonction de la masse est une droite qui coupe l'axe vertical à 8,0 cm.`,
+        refroidissement: `**Document : refroidissement d'un liquide inconnu**
+
+On place un tube contenant un liquide dans un mélange d'eau, de glace et de sel, et on relève sa température :
+
+| t (min) | 0 | 2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 |
+|---|---|---|---|---|---|---|---|---|---|
+| T (°C) | 20,0 | 14,0 | 9,5 | 6,5 | 6,5 | 6,5 | 6,5 | 3,0 | 0,0 |
+
+À partir de 6 min, des cristaux apparaissent dans le tube ; à 12 min, tout le liquide est devenu solide.
+
+Données (températures de solidification) : eau 0 °C ; cyclohexane 6,5 °C ; acide éthanoïque 16,6 °C.`,
+      },
+      exercices: [
+        { type: "qcm", question: "On te demande de tracer « la tension U en fonction de l'intensité I ». Où places-tu l'intensité I ?", choix: ["Sur l'axe vertical (en ordonnée)", "Sur l'axe horizontal (en abscisse)", "Sur les deux axes", "Dans le titre seulement"], reponse: 1, explication: "« B en fonction de A » : A en **abscisse** (axe horizontal). Ici, I est en abscisse et U en ordonnée." },
+        { type: "vf", question: "Si un graphique est une droite, les deux grandeurs sont toujours proportionnelles.", reponse: false, explication: "Il faut une droite qui **passe par l'origine**. Une droite qui ne passe pas par l'origine (comme la longueur d'un ressort en fonction de la masse accrochée) ne traduit **pas** une proportionnalité." },
+        { type: "saisie", texte: "poids", question: "Calcule le coefficient de proportionnalité entre le poids P et la masse m. Donne sa valeur avec son unité.", reponses: ["3,7 N/kg", "3,7 newtons par kilogramme", "3,7 N.kg-1"], explication: "Avec le point m = 4 kg, P = 14,8 N : P ÷ m = 14,8 ÷ 4 = **3,7 N/kg**. C'est l'intensité de la pesanteur g de l'astre (P = m × g)." },
+        { type: "qcm", texte: "poids", question: "Sur quel astre se trouve le robot ?", choix: ["La Terre", "La Lune", "Jupiter", "Mars"], reponse: 3, explication: "Le coefficient P ÷ m vaut **3,7 N/kg** : c'est l'intensité de la pesanteur sur **Mars**." },
+        { type: "qcm", texte: "ressort", question: "La longueur L du ressort est-elle proportionnelle à la masse accrochée ?", choix: ["Oui, car le graphique est une droite", "Oui, car L augmente quand la masse augmente", "Non, car la droite ne passe pas par l'origine : à vide, le ressort mesure déjà 8,0 cm", "On ne peut pas savoir sans calculatrice"], reponse: 2, explication: "Si L était proportionnelle à la masse, on aurait L = 0 pour une masse nulle. Or le ressort mesure **8,0 cm à vide** : la droite **ne passe pas par l'origine**. En revanche, l'**allongement** (L − 8,0 cm) est proportionnel à la masse : 2 cm par 100 g." },
+        { type: "saisie", texte: "ressort", question: "Quelle serait la longueur du ressort avec une masse de 250 g accrochée ? (en cm)", reponses: ["13 cm", "13,0 cm", "13 centimètres"], explication: "L'allongement est de 2 cm par 100 g, donc 5 cm pour 250 g. L = 8,0 + 5,0 = **13,0 cm** (c'est une **interpolation** : 250 g est entre deux mesures)." },
+        { type: "qcm", texte: "refroidissement", question: "Quel est le liquide étudié ?", choix: ["Le cyclohexane", "L'eau", "L'acide éthanoïque", "Un mélange, car la température varie"], reponse: 0, explication: "Le graphique présente un **palier** à **6,5 °C** pendant la solidification : c'est un corps pur dont la température de solidification est 6,5 °C, le **cyclohexane**." },
+        { type: "vf", texte: "refroidissement", question: "Entre 6 min et 12 min, le liquide se solidifie et sa température reste constante.", reponse: true, explication: "C'est le **palier** : pendant le changement d'état d'un corps pur, la température **reste constante** (6,5 °C), même si le tube continue de céder de l'énergie au mélange réfrigérant." },
+        { type: "qcm", question: "Voici des distances de freinage typiques d'une voiture sur route sèche (valeurs arrondies) : 12 m à 50 km/h ; 48 m à 100 km/h. Que peut-on dire ?", choix: ["La distance de freinage est proportionnelle à la vitesse", "Quand la vitesse double, la distance de freinage est multipliée par 4 : elle n'est pas proportionnelle à la vitesse", "Quand la vitesse double, la distance de freinage double", "La distance de freinage ne dépend pas de la vitesse"], reponse: 1, explication: "48 ÷ 12 = **4** : quand la vitesse double, la distance de freinage est **multipliée par 4**. Il n'y a pas proportionnalité (sinon elle doublerait) : le graphique est une courbe qui monte de plus en plus vite, comme l'énergie cinétique, qui dépend du carré de la vitesse." },
+        { type: "redaction", question: "**Type brevet.** Pour identifier un liquide incolore, Yanis mesure la masse m de différents volumes V de ce liquide :\n\n| V (mL) | 0 | 10 | 20 | 30 | 40 | 50 |\n|---|---|---|---|---|---|---|\n| m (g) | 0 | 7,9 | 15,8 | 26,5 | 31,6 | 39,5 |\n\nDonnées (masses volumiques) : huile 0,92 g/mL ; eau 1,00 g/mL ; éthanol 0,79 g/mL ; glycérine 1,26 g/mL.\n1. Explique comment tracer le graphique de m en fonction de V (axes, unités, échelle, points).\n2. Un point semble faux. Lequel ? Comment le traiter ?\n3. Les autres points sont alignés avec l'origine. Que peut-on en conclure ?\n4. Calcule le coefficient de proportionnalité et identifie le liquide.\n5. Quelle masse auraient 25 mL de ce liquide ?", corrige: `1. **V en abscisse** (axe horizontal), en mL, par exemple 1 cm pour 5 mL ; **m en ordonnée**, en g, par exemple 1 cm pour 5 g. On écrit au bout de chaque axe la grandeur et son unité, on place chaque mesure par une **croix**, puis on trace à la règle la **droite moyenne**.
+
+2. Le point **V = 30 mL, m = 26,5 g** est éloigné de la droite : d'après les autres mesures, on attendrait environ 0,79 × 30 ≈ 23,7 g. C'est sans doute une **erreur de mesure** : on ne l'utilise pas pour tracer la droite (on peut refaire la mesure).
+
+3. Les points sont alignés sur une **droite passant par l'origine** : la masse est **proportionnelle** au volume.
+
+4. Avec le point V = 50 mL, m = 39,5 g : coefficient = 39,5 ÷ 50 = **0,79 g/mL**. C'est la **masse volumique** du liquide : il s'agit de l'**éthanol**.
+
+5. m = ρ × V = 0,79 × 25 ≈ **19,8 g**. On peut aussi lire cette valeur sur la droite moyenne : c'est une **interpolation** (25 mL est entre deux mesures).
+
+> Méthode : un graphique bien tracé permet de repérer une mesure aberrante, de reconnaître une proportionnalité et d'en calculer le coefficient, qui a ici un sens physique.` },
       ],
     },
   ],

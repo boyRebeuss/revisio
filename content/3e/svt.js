@@ -39,11 +39,13 @@ Comme les chromosomes vont par paires, chaque individu possède **deux allèles*
 - Un allèle **dominant** s'exprime même s'il n'est présent qu'en un seul exemplaire.
 - Un allèle **récessif** ne s'exprime que s'il est présent en **deux exemplaires**.
 
->! **Exemple résolu : les groupes sanguins**. Les allèles A et B sont dominants sur O ; A et B s'expriment tous les deux ensemble.
+>! **Exemple résolu : les groupes sanguins**. Les allèles A et B sont dominants sur O ; A et B s'expriment tous les deux ensemble : on dit qu'ils sont **codominants**.
 >! - Allèles A et O → groupe **A** ; allèles A et A → groupe A.
 >! - Allèles B et O → groupe **B**.
 >! - Allèles A et B → groupe **AB**.
 >! - Allèles O et O → groupe **O** (l'allèle récessif s'exprime car il est en deux exemplaires).
+
+Deux allèles sont **codominants** quand, présents ensemble, ils s'expriment **tous les deux**, sans que l'un masque l'autre. C'est le cas des allèles A et B : une personne qui possède A et B porte à la fois la molécule A et la molécule B à la surface de ses globules rouges ; elle est du groupe **AB** (ce n'est ni le groupe A, ni le groupe B, ni un mélange « à moitié »).
 
 ## La molécule d'ADN
 L'ADN a la forme d'une **double hélice** (comme une échelle torsadée). Il est formé d'un enchaînement de quatre « lettres », les **nucléotides**, notés **A, T, C et G**. C'est l'**ordre** de ces lettres (la **séquence**) qui constitue l'information génétique, comme l'ordre des lettres d'un mot donne son sens. L'ADN est universel : on retrouve la même molécule, avec les mêmes quatre lettres, chez tous les êtres vivants.
@@ -54,7 +56,7 @@ L'ADN a la forme d'une **double hélice** (comme une échelle torsadée). Il est
 > - L'information génétique est dans le noyau, portée par les chromosomes, formés d'ADN.
 > - L'humain a 46 chromosomes (23 paires) ; XX chez la femme, XY chez l'homme. Le caryotype les classe par paires.
 > - Un gène = une portion d'ADN qui code un caractère ; ses différentes versions sont les allèles.
-> - Chaque individu a deux allèles de chaque gène, l'un du père, l'autre de la mère ; un allèle dominant s'exprime même seul, un allèle récessif seulement en double.
+> - Chaque individu a deux allèles de chaque gène, l'un du père, l'autre de la mère ; un allèle dominant s'exprime même seul, un allèle récessif seulement en double ; deux allèles codominants (comme A et B) s'expriment tous les deux.
 > - Un caractère dépend de l'information génétique et souvent aussi de l'environnement.
 `,
       exercices: [
@@ -71,6 +73,9 @@ L'ADN a la forme d'une **double hélice** (comme une échelle torsadée). Il est
 **Ce qui change** : la couleur de la peau est différente. Pourtant leurs gènes sont identiques. La différence vient donc de l'**environnement** : l'exposition au soleil fait foncer la peau (bronzage).
 
 **Conclusion** : les caractères d'un individu dépendent de son **information génétique** (portée par l'ADN des chromosomes, dans le noyau des cellules), mais certains dépendent **aussi de l'environnement** (soleil, alimentation, activité physique...).` },
+        { type: "saisie", question: "Les allèles A et B du groupe sanguin s'expriment tous les deux chez une personne qui les possède ensemble. Comment qualifie-t-on deux allèles qui se comportent ainsi ?", reponses: ["codominants", "codominant", "allèles codominants", "des allèles codominants", "ils sont codominants"], explication: "Ils sont **codominants** : présents ensemble, ils s'expriment **tous les deux**, sans que l'un masque l'autre. Une personne qui possède A et B est du groupe **AB**." },
+        { type: "qcm", question: "Une personne est du groupe sanguin AB. Quels allèles possède-t-elle ?", choix: ["A et O", "B et O", "A et B", "On ne peut pas le savoir"], reponse: 2, explication: "Pour être du groupe AB, il faut que les deux molécules A et B soient fabriquées : la personne possède l'allèle **A** et l'allèle **B**, qui sont **codominants**. Avec A et O, elle serait du groupe A ; avec B et O, du groupe B." },
+        { type: "vf", question: "Un parent du groupe AB peut avoir un enfant du groupe O.", reponse: false, explication: "Un parent AB possède les allèles A et B : il transmet **toujours** A ou B à son enfant, jamais O. Pour être du groupe O, un enfant doit recevoir un allèle O de **chacun** de ses parents : c'est impossible avec un parent AB." },
       ],
     },
     {
@@ -481,7 +486,7 @@ L'organisme réagit comme lors d'un premier contact : il produit des anticorps e
 - Grâce à la vaccination dans le monde entier, la **variole** a été déclarée **éradiquée** en **1980**.
 
 ## Se protéger et protéger les autres
-Quand une grande partie de la population est vaccinée, le microbe circule très peu : même les personnes qui ne peuvent pas être vaccinées (nourrissons, personnes malades) sont protégées. C'est la **protection collective**. En France, plusieurs vaccinations sont obligatoires pour les jeunes enfants (notamment contre la diphtérie, le tétanos, la poliomyélite et la rougeole).
+Quand une grande partie de la population est vaccinée, le microbe circule très peu : même les personnes qui ne peuvent pas être vaccinées (nourrissons, personnes malades) sont protégées. C'est la **protection collective**. En France, plusieurs vaccinations sont **obligatoires** pour les jeunes enfants, par exemple contre la diphtérie, le tétanos, la poliomyélite, la coqueluche, l'hépatite B et la rougeole. Depuis le **1er janvier 2025**, s'y ajoutent les vaccins contre les **méningocoques** ACWY et B, des bactéries qui provoquent des **méningites** (infections graves des enveloppes du cerveau). Le but de ces obligations : **vacciner plus d'enfants** pour renforcer la protection collective. D'autres vaccins sont seulement **recommandés**, comme celui contre le papillomavirus, proposé au collège.
 
 ## La sérothérapie : une protection immédiate mais courte
 En cas d'urgence (morsure de serpent venimeux, risque de tétanos chez une personne non vaccinée), on injecte directement des **anticorps** déjà fabriqués : c'est la **sérothérapie**. L'effet est **immédiat**, mais il ne dure que quelques semaines, car il n'y a **pas de mémoire**.
@@ -527,6 +532,8 @@ La réponse au rappel est donc **plus rapide** et **plus forte**.
 2) **Explication** : lors de la 1re injection, les lymphocytes B spécifiques de l'antigène du tétanos ont été activés pour la première fois, ce qui prend du temps. Ils ont produit des anticorps, et il est resté des **lymphocytes mémoire**. Au rappel, ces lymphocytes mémoire, plus nombreux, reconnaissent tout de suite l'antigène et produisent rapidement beaucoup d'anticorps.
 
 3) **Pour un camarade** : après la 1re injection, la quantité d'anticorps diminue et la protection n'est pas assez forte. Le **rappel** renforce la mémoire immunitaire : la protection devient plus forte et plus durable. Sans rappel, on risque de ne plus être protégé contre une maladie grave comme le tétanos.` },
+        { type: "vf", question: "En France, depuis le 1er janvier 2025, la vaccination des nourrissons contre les méningocoques ACWY et B est obligatoire.", reponse: true, explication: "Depuis le **1er janvier 2025**, ces vaccins s'ajoutent aux vaccinations obligatoires des jeunes enfants. Les méningocoques sont des **bactéries** qui peuvent provoquer des **méningites**, des infections graves. Le vaccin ACWY remplace l'ancien vaccin obligatoire contre le méningocoque C." },
+        { type: "qcm", question: "Pourquoi rendre obligatoires certaines vaccinations des jeunes enfants, alors que chacun pourrait choisir pour lui-même ?", choix: ["Parce que les vaccins obligatoires guérissent les enfants déjà malades bien plus vite que les antibiotiques", "Parce qu'un vaccin obligatoire protège aussi contre toutes les autres maladies, même celles qu'il ne vise pas", "Parce que beaucoup de personnes vaccinées empêchent le microbe de circuler : cela protège aussi les autres", "Parce qu'un vaccin obligatoire rend tous les rappels inutiles pour le reste de la vie de l'enfant vacciné"], reponse: 2, explication: "Quand une grande partie de la population est vaccinée, le microbe **circule très peu** : c'est la **protection collective**, qui protège aussi les nourrissons trop jeunes et les personnes malades. Un vaccin **prévient** (il ne guérit pas), il est **spécifique** d'un microbe, et beaucoup nécessitent des **rappels**." },
       ],
     },
     {
@@ -1011,7 +1018,7 @@ Chaque choix (énergie, alimentation, transport) a des **avantages** et des **in
       theme: "Méthodes et préparation du brevet",
       cours: `
 ## L'épreuve de sciences du brevet
-L'épreuve écrite de sciences dure **1 heure** et est notée sur **20 points** : elle porte sur **deux disciplines** parmi physique-chimie, SVT et technologie (environ 30 minutes et **10 points** chacune). Les deux disciplines retenues sont annoncées par le ministère environ deux mois avant l'épreuve (fin avril) : renseigne-toi auprès de ton professeur pour ta session. Le sujet de SVT s'appuie sur des **documents** (textes, graphiques, tableaux, schémas, photos) et sur tes **connaissances**. Depuis l'arrêté du 17 juillet 2026, les sujets sont établis sur les **programmes de la classe de 3e** quand ils existent, et sinon sur ceux du **cycle 4** (5e, 4e et 3e). En SVT, le programme en vigueur pour la session 2027 est celui du cycle 4 : révise donc les notions des trois années, pas seulement celles de 3e. La **maîtrise de la langue** compte pour **1 point sur 10** dans chaque discipline : orthographe, phrases correctes, vocabulaire scientifique précis et raisonnement bien organisé.
+L'épreuve écrite de sciences dure **1 heure** et est notée sur **20 points** : elle porte sur **deux disciplines** parmi physique-chimie, SVT et technologie (environ 30 minutes et **10 points** chacune). Les deux disciplines retenues sont annoncées par le ministère environ deux mois avant l'épreuve (fin avril) : renseigne-toi auprès de ton professeur pour ta session. Le sujet de SVT s'appuie sur des **documents** (textes, graphiques, tableaux, schémas, photos) et sur tes **connaissances**. Depuis l'arrêté du 17 juillet 2026, les sujets sont établis sur les **programmes de la classe de 3e** quand ils existent, et sinon sur ceux du **cycle 4** (5e, 4e et 3e). En SVT, le programme en vigueur pour la session 2027 est celui du cycle 4 : révise donc les notions des trois années, pas seulement celles de 3e. Un **nouveau programme** de SVT du cycle 4 est en préparation (projet du Conseil supérieur des programmes, soumis à la consultation des professeurs en mai-juin 2026) ; tant qu'il n'est pas publié officiellement et entré en vigueur, il ne concerne pas ton brevet. La **maîtrise de la langue** compte pour **1 point sur 10** dans chaque discipline : orthographe, phrases correctes, vocabulaire scientifique précis et raisonnement bien organisé.
 
 ## Comprendre la consigne
 | Verbe de la consigne | Ce qu'on attend |
@@ -1136,14 +1143,14 @@ Pendant un effort, les muscles consomment beaucoup plus de dioxygène et de nutr
 | Volume d'air par mouvement respiratoire | environ 0,5 L | 2 L ou plus |
 | Part du sang envoyée aux muscles | environ 20 % | environ 80 % |
 
-- Le cœur bat **plus vite** et **plus fort** : le **débit cardiaque** (volume de sang envoyé par minute) augmente.
+- Le cœur bat **plus vite** et **plus fort** : le **débit cardiaque** augmente. Le débit cardiaque, c'est le **volume de sang** que le cœur envoie dans les vaisseaux **en une minute** (en litres par minute).
 - On respire **plus vite** et **plus profondément** : le **débit ventilatoire** (volume d'air qui entre dans les poumons par minute) augmente.
 - Les vaisseaux sanguins des muscles **se dilatent** : les muscles reçoivent une plus grande part du sang.
 
 >! **Méthode : calculer un débit**. Débit cardiaque = fréquence cardiaque × volume de sang éjecté à chaque battement. Au repos : 70 battements par minute × 70 mL = 4 900 mL par minute, soit environ **4,9 L/min**. De même, débit ventilatoire = fréquence respiratoire × volume d'air par mouvement : 15 × 0,5 L = **7,5 L/min** au repos.
 
 ## Le système nerveux commande ces adaptations
-Des **récepteurs** détectent l'effort (la teneur du sang en CO₂ augmente, les muscles travaillent). Des **centres nerveux** situés à la base de l'encéphale (dans le **bulbe rachidien**) envoient alors, par des **nerfs**, des messages qui accélèrent le cœur et les mouvements respiratoires. Une hormone, l'**adrénaline**, renforce cette accélération. Après l'effort, les fréquences reviennent peu à peu à leur valeur de repos : c'est la **récupération**.
+Des **récepteurs** détectent l'effort (la teneur du sang en CO₂ augmente, les muscles travaillent). Des **centres nerveux** situés à la base de l'encéphale (dans le **bulbe rachidien**, la partie de l'encéphale qui prolonge la moelle épinière, juste au-dessus d'elle, à la base du crâne) envoient alors, par des **nerfs**, des messages qui accélèrent le cœur et les mouvements respiratoires. Une hormone, l'**adrénaline**, renforce cette accélération. Après l'effort, les fréquences reviennent peu à peu à leur valeur de repos : c'est la **récupération**.
 
 ## Les limites de l'organisme
 - La fréquence cardiaque ne peut pas augmenter sans limite. On estime la **fréquence cardiaque maximale** par la formule approximative **220 − âge** : environ 205 battements par minute à 15 ans.
@@ -1380,6 +1387,94 @@ allèle a : ATG CTC CTG GCT GTT TAG TAC
 | spermatozoïde a | a et A : non atteint (porteur sain) | a et a : **atteint** |
 
 Une case sur quatre correspond à un enfant atteint. **Réponse aux parents** : oui, à chaque nouvelle naissance, le risque d'avoir un enfant atteint d'albinisme est de **1/4, soit 25 %**, même s'ils ont déjà un enfant atteint, car chaque fécondation se fait au hasard. Il y a aussi 3 chances sur 4 que l'enfant ne soit pas atteint.` },
+      ],
+    },
+    {
+      id: "sujet-brevet-riviere",
+      titre: "Sujet type brevet n° 3 : une rivière en mauvaise santé (croiser deux documents)",
+      theme: "Méthodes et préparation du brevet",
+      cours: `
+## Pourquoi croiser des documents ?
+Dans un sujet de brevet, chaque document apporte **une partie** de la réponse. Un document montre souvent **ce qui change** (une mesure, un polluant), un autre **ce que cela provoque** (des êtres vivants qui disparaissent, une maladie). La consigne « à l'aide des documents 1 et 2 » ou « mets en relation » te demande de **relier** les deux : c'est là que se gagnent beaucoup de points.
+
+## Méthode en quatre étapes
+1. **Lire chaque document séparément** : titre, grandeurs, **unités**, lieux ou dates. Note en une phrase ce que montre chacun.
+2. **Trouver le point commun** : les deux documents portent-ils sur les **mêmes lieux** (stations, villes), les **mêmes dates** ou les **mêmes individus** ? C'est ce point commun qui permet de les comparer ligne à ligne.
+3. **Mettre en relation**, en chiffrant : « là où (document 1)..., on observe que (document 2)... ».
+4. **Expliquer avec tes connaissances**, puis **conclure** : « je vois que... ; or je sais que... ; donc... ».
+
+>! **Exemple résolu** (données fictives). Document A : concentration moyenne en dioxyde d'azote (NO₂) dans l'air : centre-ville 40 µg/m³, périphérie 25 µg/m³, campagne 10 µg/m³. Document B : nombre d'espèces de lichens sur les arbres : centre-ville 3, périphérie 9, campagne 20.
+>! - Point commun : les **trois mêmes lieux**.
+>! - Mise en relation : là où le NO₂ est le plus concentré (centre-ville, 40 µg/m³), on trouve le moins d'espèces de lichens (3) ; là où il l'est le moins (campagne, 10 µg/m³), on en trouve le plus (20).
+>! - Explication : or je sais que beaucoup de lichens sont sensibles à la pollution de l'air (ce sont des **bio-indicateurs**). Donc la pollution au NO₂ est **probablement** une cause de la disparition des lichens en ville.
+>! - Prudence : c'est une **corrélation**. D'autres polluants, absents des documents, peuvent aussi jouer un rôle.
+
+## Rappels utiles pour un sujet sur une rivière
+- Les poissons et les petits animaux de l'eau respirent le **dioxygène dissous** dans l'eau (il s'exprime en mg/L).
+- Des rejets riches en **nitrates**, en **phosphates** et en **matière organique** arrivent dans l'eau (eaux usées mal épurées, engrais, effluents d'élevage, c'est-à-dire le lisier et le fumier). Les nitrates et les phosphates font proliférer les algues : c'est l'**eutrophisation**. Les **bactéries** qui décomposent la matière organique et les algues mortes **consomment le dioxygène** de l'eau.
+- En aval d'un rejet, l'eau se **dilue** (arrivée d'autres cours d'eau) et se **réoxygène** au contact de l'air (courant, petites chutes) : la rivière peut retrouver peu à peu une bonne qualité, c'est l'**autoépuration**.
+- Certains petits animaux sont des **bio-indicateurs** : les larves de **plécoptères** et d'**éphémères** ont besoin d'une eau bien oxygénée ; les **vers tubifex** supportent une eau très pauvre en dioxygène.
+
+>! **Attention aux erreurs fréquentes** :
+>! - Décrire les deux documents l'un après l'autre sans jamais les **relier** : la mise en relation est justement ce qui est demandé.
+>! - Oublier les **unités** ou les **lieux** (« le dioxygène baisse » ne suffit pas : où ? de combien ?).
+>! - Conclure trop vite à une cause : deux documents qui varient ensemble montrent une **corrélation** ; il faut une explication scientifique (tes connaissances) ou une expérience pour parler de cause.
+
+> **À retenir** :
+> - Croiser deux documents, c'est les relier grâce à leur point commun (mêmes lieux, mêmes dates, mêmes individus).
+> - Rédige : « là où (document 1)..., on observe que (document 2)... ; or je sais que... ; donc... ».
+> - Chiffre toujours, avec les unités et les lieux.
+> - Dans une rivière polluée par des rejets organiques, la décomposition par les bactéries consomme le dioxygène : les espèces exigeantes disparaissent, les espèces tolérantes prolifèrent.
+> - Une corrélation ne suffit pas : appuie-toi sur tes connaissances pour expliquer.
+`,
+      textes: {
+        riviere: `**Sujet type brevet : la rivière de Saint-Aubin** (rivière imaginaire ; données fictives, simplifiées)
+
+Une station d'épuration ancienne rejette ses eaux dans la rivière. Des élèves ont fait des mesures à quatre stations : A, 1 km **en amont** du rejet ; B, 0,5 km **en aval** ; C, 3 km en aval ; D, 10 km en aval.
+
+**Document 1 : mesures dans l'eau de la rivière (au printemps, eau à 12 °C environ)**
+
+| Station | A | B | C | D |
+|---|---|---|---|---|
+| Nitrates (mg/L) | 10 | 45 | 30 | 15 |
+| Dioxygène dissous (mg/L) | 10 | 4 | 6 | 9 |
+
+**Document 2 : petits animaux trouvés au fond de l'eau (bio-indicateurs)**
+
+| Animal | A | B | C | D |
+|---|---|---|---|---|
+| Larves de plécoptères | présentes | absentes | absentes | présentes |
+| Larves d'éphémères | présentes | absentes | présentes | présentes |
+| Aselles | présentes | présentes | présentes | présentes |
+| Vers tubifex | rares | très nombreux | nombreux | rares |
+| **Nombre total d'espèces** | **18** | **5** | **9** | **16** |
+
+Exigences : les larves de **plécoptères** ont besoin d'une eau **très riche** en dioxygène ; les larves d'**éphémères**, d'une eau **bien oxygénée** ; les **aselles** (petits crustacés) sont **assez tolérantes** ; les **vers tubifex** supportent une eau **très pauvre** en dioxygène.
+
+**Document 3 : ce que rejette la station d'épuration**
+L'eau rejetée est mal épurée : elle contient des **nitrates**, des **phosphates** et de la **matière organique**. Ces substances font proliférer les algues. Des **bactéries** décomposent la matière organique et les algues mortes ; pour cela, elles consomment beaucoup de **dioxygène**. En été, l'eau plus chaude contient naturellement moins de dioxygène. Plus loin en aval, d'autres ruisseaux diluent l'eau de la rivière, et le courant la réoxygène au contact de l'air.`,
+      },
+      exercices: [
+        { type: "saisie", texte: "riviere", question: "Relever. D'après le document 1, quelle est la concentration en dioxygène dissous à la station B ? (avec l'unité)", reponses: ["4 mg/L", "4 mg par litre", "4 milligrammes par litre", "4 mg/l"], explication: "On lit la colonne **B**, ligne « dioxygène dissous » : **4 mg/L**. Relever, c'est recopier la bonne valeur avec son **unité**." },
+        { type: "qcm", texte: "riviere", question: "Quelle phrase décrit correctement l'évolution des nitrates dans le document 1 ?", choix: ["Les nitrates diminuent régulièrement de l'amont vers l'aval : de 45 mg/L à la station A à 10 mg/L à la station D", "Les nitrates restent à peu près constants, autour de 25 mg/L, à toutes les stations de la rivière", "Les nitrates passent de 10 mg/L en amont à 45 mg/L juste après le rejet, puis baissent : 30 mg/L en C, 15 mg/L en D", "Les nitrates augmentent régulièrement de l'amont vers l'aval : ils sont au plus haut à la station D, à 10 km du rejet"], reponse: 2, explication: "On décrit en **chiffrant** et en suivant les stations dans l'ordre : 10 mg/L en amont (A), un **pic** de **45 mg/L** juste après le rejet (B), puis une baisse progressive : 30 mg/L (C) et 15 mg/L (D)." },
+        { type: "saisie", texte: "riviere", question: "Calculer. D'après le document 1, par combien la concentration en nitrates est-elle multipliée entre la station A et la station B ?", reponses: ["4,5", "4,5 fois", "par 4,5", "multipliée par 4,5", "multiplié par 4,5", "×4,5", "x4,5", "4,5x", "4,5×", "elle est multipliée par 4,5"], explication: "45 ÷ 10 = **4,5**. Juste après le rejet, l'eau contient 4,5 fois plus de nitrates qu'en amont." },
+        { type: "vf", texte: "riviere", question: "D'après le document 2, les larves de plécoptères sont présentes aux quatre stations.", reponse: false, explication: "Les larves de plécoptères sont présentes en **A** et en **D**, mais **absentes en B et en C**. Comme elles ont besoin d'une eau très riche en dioxygène, leur absence est un indice d'une eau moins oxygénée." },
+        { type: "qcm", texte: "riviere", question: "En croisant les documents 1 et 2, à quelle station trouve-t-on à la fois le moins de dioxygène dissous et le moins d'espèces ?", choix: ["La station A, en amont du rejet", "La station C, à 3 km en aval", "La station D, à 10 km en aval", "La station B, à 0,5 km en aval"], reponse: 3, explication: "À la station **B**, le dioxygène dissous est le plus bas (**4 mg/L**, document 1) et on ne trouve que **5 espèces** (document 2), contre 18 en amont. Le **point commun** des deux documents, ce sont les stations : c'est lui qui permet de les relier." },
+        { type: "saisie", texte: "riviere", question: "Calculer. D'après le document 2, quel pourcentage des espèces présentes en A ne sont plus retrouvées en B ? (on considère que les 5 espèces de B vivent aussi en A ; arrondis à l'unité)", reponses: ["72", "72 %", "environ 72 %", "72 pour cent", "72,2", "72,2 %", "environ 72,2 %"], explication: "En A : 18 espèces ; en B : 5 espèces. Espèces disparues : 18 − 5 = 13. Pourcentage : 13 ÷ 18 × 100 ≈ 72,2, soit environ **72 %**." },
+        { type: "qcm", texte: "riviere", question: "Quelle phrase met correctement en relation les documents 1 et 2 ?", choix: ["Là où le dioxygène est le plus bas (B, 4 mg/L), les espèces exigeantes ont disparu et les tubifex, tolérants, abondent", "Là où il y a le plus de nitrates (B, 45 mg/L), on trouve le plus d'espèces, car les nitrates nourrissent les animaux", "Les tubifex sont rares en A parce que l'eau y contient trop de dioxygène, qui est toxique pour tous les animaux", "Le nombre d'espèces ne dépend pas de la qualité de l'eau : il est à peu près le même en amont et en aval du rejet"], reponse: 0, explication: "On relie les deux documents station par station : en **B**, le dioxygène est au plus bas (4 mg/L) ; les plécoptères et les éphémères, qui ont besoin d'une eau bien oxygénée, ont disparu, alors que les **tubifex**, qui supportent une eau pauvre en dioxygène, sont très nombreux. En B, il n'y a que **5 espèces**, le minimum." },
+        { type: "qcm", texte: "riviere", question: "D'après le document 3 et tes connaissances, pourquoi le dioxygène dissous baisse-t-il juste après le rejet ?", choix: ["Parce que les nitrates absorbent directement tout le dioxygène dissous dans l'eau, comme une éponge", "Parce que les bactéries qui décomposent la matière organique et les algues mortes consomment beaucoup de dioxygène", "Parce que les poissons, beaucoup plus nombreux près du rejet, y respirent tout le dioxygène de l'eau", "Parce que la station d'épuration pompe le dioxygène de la rivière pour faire fonctionner ses machines"], reponse: 1, explication: "Le rejet apporte de la **matière organique**, des nitrates et des phosphates qui font proliférer les algues. Les **bactéries décomposeuses** consomment beaucoup de **dioxygène** pour dégrader cette matière organique et les algues mortes (c'est ce qui se passe lors de l'**eutrophisation**). En été, l'eau plus chaude contient naturellement moins de dioxygène : la situation serait encore plus grave." },
+        { type: "qcm", texte: "riviere", question: "Quelle mesure permettrait de traiter le problème à sa source ?", choix: ["Ajouter des poissons d'élevage à la station B pour remplacer les espèces qui ont disparu", "Interdire la baignade à la station D, où l'eau est pourtant presque redevenue de bonne qualité", "Moderniser la station d'épuration pour que l'eau rejetée contienne moins de matière organique et de nitrates", "Retirer les vers tubifex de la station B pour que les larves de plécoptères puissent revenir"], reponse: 2, explication: "La cause est le **rejet** d'une eau mal épurée (document 3). Moderniser la station d'épuration réduit la pollution **à la source** : moins de matière organique et de nutriments, donc moins de bactéries qui consomment le dioxygène. Les tubifex sont une **conséquence** de la pollution, pas sa cause." },
+        { type: "redaction", texte: "riviere", question: "Sujet type brevet. 1) À l'aide du document 1, décris l'effet du rejet sur l'eau de la rivière, en chiffrant. 2) Mets en relation les documents 1 et 2 pour montrer que le rejet modifie les êtres vivants de la rivière. 3) À l'aide du document 3 et de tes connaissances, explique ces observations, puis explique pourquoi la station D retrouve presque l'état de la station A. 4) Propose deux mesures pour améliorer la qualité de la rivière. Rédige des phrases complètes : la maîtrise de la langue est notée.", corrige: `1) **L'effet du rejet** : je vois dans le document 1 qu'en amont du rejet (station A), l'eau contient **10 mg/L** de nitrates et **10 mg/L** de dioxygène dissous. Juste après le rejet (station B), les nitrates montent à **45 mg/L** (4,5 fois plus) et le dioxygène descend à **4 mg/L**. Plus loin, la situation s'améliore : 30 mg/L de nitrates et 6 mg/L de dioxygène en C, puis 15 mg/L et 9 mg/L en D.
+
+2) **Mise en relation** : là où le dioxygène est le plus bas (station B, 4 mg/L), le document 2 montre qu'il ne reste que **5 espèces** contre **18** en amont, soit environ 72 % d'espèces en moins (13 ÷ 18 × 100 ≈ 72). Les larves de **plécoptères** et d'**éphémères**, qui ont besoin d'une eau bien oxygénée, ont disparu, alors que les **vers tubifex**, qui supportent une eau très pauvre en dioxygène, sont très nombreux. Quand le dioxygène remonte (9 mg/L en D), le nombre d'espèces remonte aussi (16) et les plécoptères réapparaissent. Ces petits animaux sont des **bio-indicateurs** de la qualité de l'eau.
+
+3) **Explication** : je vois dans le document 3 que l'eau rejetée contient de la **matière organique**, des nitrates et des phosphates, qui font proliférer les algues. Or je sais que les **bactéries décomposeuses** consomment du dioxygène pour décomposer la matière organique et les algues mortes (la prolifération des algues due aux nitrates et aux phosphates est l'**eutrophisation**). Donc le dioxygène dissous baisse juste après le rejet, et les animaux qui ont besoin de beaucoup de dioxygène ne peuvent plus y vivre : seules les espèces tolérantes restent. En été, l'eau chaude contient moins de dioxygène, ce qui aggrave la situation.
+**La station D** : en aval, d'autres ruisseaux **diluent** la pollution (moins de nitrates) et le courant **réoxygène** l'eau au contact de l'air. Le dioxygène remonte (9 mg/L), et les espèces exigeantes peuvent revivre : la rivière s'épure peu à peu d'elle-même.
+
+4) **Deux mesures** (exemples) :
+- **moderniser la station d'épuration** pour rejeter une eau qui contient beaucoup moins de matière organique, de nitrates et de phosphates : c'est agir à la source de la pollution ;
+- **limiter les autres apports** de nitrates, par exemple en réduisant les engrais dans les champs voisins et en plantant des **haies** et des **bandes enherbées** au bord de la rivière, qui retiennent une partie des nitrates avant qu'ils n'atteignent l'eau.
+On pourra vérifier l'efficacité de ces mesures en refaisant les mesures de dioxygène et l'inventaire des bio-indicateurs les années suivantes.` },
       ],
     },
   ],

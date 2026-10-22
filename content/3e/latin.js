@@ -1800,7 +1800,7 @@ Au IIIe siècle, l'Empire traverse une crise (invasions, empereurs éphémères)
     {
       id: "rome-christianisme",
       titre: "Rome et le christianisme",
-      theme: "Culture : l'Empire romain",
+      theme: "Culture : vie familiale, sociale et intellectuelle",
       cours: `
 ## Une religion née dans l'Empire
 Jésus de Nazareth est un Juif de Galilée, une région voisine de la Judée, alors gouvernée par un prince juif, Hérode Antipas, sous le contrôle de Rome. Il prêche vers l'an 30 et meurt **crucifié** à Jérusalem, sous le gouvernement de **Ponce Pilate**, représentant de l'empereur **Tibère**. Ses disciples affirment qu'il est ressuscité et qu'il est le **Christ** (du grec *Christos*, « celui qui a reçu l'onction », traduction de l'hébreu *Messie*).
@@ -2026,7 +2026,7 @@ La **villa** est un domaine agricole avec une maison de maître (*villa urbana*)
     },
     {
       id: "religion-sanctuaires",
-      titre: "Cultes, pratiques religieuses et sanctuaires",
+      titre: "Polythéisme romain : cultes, pratiques religieuses et sanctuaires",
       theme: "Culture : vie familiale, sociale et intellectuelle",
       cours: `
 ## Une religion de rites
@@ -2888,6 +2888,336 @@ Analyse : *Iudaeos* : accusatif pluriel, COD de *expulit* (parfait de *expello*)
 - **Méfiance.** Certains Romains se moquent de leurs coutumes ; les Juifs sont parfois chassés de Rome (sous Tibère en 19, sous Claude).
 - **Répression.** Quand la Judée, province depuis 6 ap. J.-C., se révolte en **66**, Rome réagit durement : Titus prend Jérusalem et détruit le Temple en **70** ; l'arc de Titus et les monnaies *IVDAEA CAPTA* célèbrent la victoire. Après la révolte de Bar Kokhba (**132-135**), Hadrien fait de Jérusalem *Aelia Capitolina*, interdite aux Juifs.
 - **Conclusion.** Rome tolère les religions tant qu'elles ne menacent pas l'ordre et la fidélité à l'empereur. Le judaïsme reste autorisé même après les guerres, alors que le christianisme, religion nouvelle née du judaïsme et sans privilège, est persécuté jusqu'en 313.
+`,
+        },
+      ],
+    },
+    {
+      id: "subjonctif-parfait",
+      titre: "Le subjonctif parfait : défense, potentiel et interrogation indirecte",
+      theme: "Langue : la phrase complexe",
+      cours: `
+## Former le subjonctif parfait
+Le subjonctif parfait se forme sur le **radical du parfait** (4e temps primitif) + **-erim, -eris, -erit, -erimus, -eritis, -erint**.
+
+| Verbe | Parfait | Subjonctif parfait |
+|---|---|---|
+| amo (aimer) | amavi | amaverim, amaveris, amaverit, amaverimus, amaveritis, amaverint |
+| lego (lire) | legi | legerim, legeris, legerit… |
+| capio (prendre) | cepi | ceperim, ceperis, ceperit… |
+| sum (être) | fui | fuerim, fueris, fuerit, fuerimus, fueritis, fuerint |
+| possum (pouvoir) | potui | potuerim… |
+| eo (aller) | ii | ierim… |
+
+Au **passif** et pour les **déponents** : participe parfait + subjonctif présent de *sum* : *amatus sim* (que j'aie été aimé), *captus sit*, *locutus sim* (que j'aie parlé).
+
+>! **Piège : le futur antérieur.** Le futur antérieur (*amavero, amaveris, amaverit, amaverimus, amaveritis, amaverint*) ne se distingue du subjonctif parfait qu'à la **1re personne du singulier** (*amavero* / *amaverim*). Pour les autres formes, c'est la **construction** qui tranche : après *ne* de défense ou après un mot interrogatif dans une subordonnée, c'est un subjonctif.
+
+Les parfaits contractés existent aussi au subjonctif : *quaesieris* = *quaesiveris* (de *quaero, quaesivi*), *audierit* = *audiverit*.
+
+## Emploi 1 : la défense
+Pour interdire quelque chose à quelqu'un, le latin emploie ***ne* + subjonctif parfait** (2e personne), ou ***noli / nolite* + infinitif** (« ne veuille pas… »). On traduit par un **impératif négatif**.
+- *Ne timueris !* = *Noli timere !* « N'aie pas peur ! »
+- *Ne hoc feceritis !* = *Nolite hoc facere !* « Ne faites pas cela ! »
+
+Ici, le parfait n'a **aucune valeur de passé** : c'est un ordre pour maintenant.
+
+## Emploi 2 : le potentiel
+Dans une proposition indépendante, le subjonctif parfait peut exprimer une **possibilité** (le potentiel) : *Dixerit aliquis…* « Quelqu'un pourrait dire… ». Là encore, aucun passé : on traduit par un **conditionnel présent**.
+
+## Emploi 3 : l'antériorité dans une subordonnée
+Dans une subordonnée au subjonctif, quand le verbe principal est au **présent ou au futur** (système primaire), le subjonctif parfait marque que l'action de la subordonnée est **antérieure**. Voici la concordance des temps complète :
+
+| Verbe principal | Simultanéité | Antériorité |
+|---|---|---|
+| présent ou futur | subjonctif présent | **subjonctif parfait** |
+| temps du passé | subjonctif imparfait | subjonctif plus-que-parfait |
+
+## L'interrogation indirecte
+Une question rapportée après un verbe comme *nescio* (je ne sais pas), *rogo* (je demande), *quaero* (je cherche à savoir), *scio* (je sais), *video* (je vois) est une **interrogation indirecte**. Elle est introduite par un mot interrogatif (*quis, quid, ubi, cur, quomodo, quantus*…) ou par *num, -ne* (« si »), et son verbe est **toujours au subjonctif** en latin. En français, on le traduit par l'**indicatif**.
+
+| Latin | Français |
+|---|---|
+| *Nescio ubi sis.* | Je ne sais pas où tu es. |
+| *Nescio ubi fueris.* | Je ne sais pas où tu as été. |
+| *Nesciebam ubi esses.* | Je ne savais pas où tu étais. |
+| *Nesciebam ubi fuisses.* | Je ne savais pas où tu avais été. |
+
+>! **Exemple résolu** : Cicéron, *Première Catilinaire*, 1, texte authentique.
+>! *Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris ?*
+>! - Verbe principal : *arbitraris* (présent du déponent *arbitror*, penser), dont dépend l'infinitif *ignorare* (ignorer).
+>! - Quatre interrogations indirectes, COD de *ignorare* : *egeris* (de *ago, egi*), *fueris* (*sum*), *convocaveris* (*convoco*), *ceperis* (*capio, cepi*) : subjonctifs parfaits, 2e personne du singulier. Le verbe principal est au présent et les actions de Catilina sont **passées** : antériorité en système primaire.
+>! - *quem nostrum* : « lequel d'entre nous » (*nostrum*, génitif partitif).
+>! **Traduction** : « Ce que tu as fait la nuit dernière, ce que tu as fait la nuit précédente, où tu as été, quels hommes tu as réunis, quelle décision tu as prise, qui d'entre nous, penses-tu, l'ignore ? »
+
+>! **Erreurs fréquentes** : traduire *Ne timueris* par un passé (« tu n'as pas eu peur ») ; traduire le subjonctif d'une interrogation indirecte par un subjonctif français (« je ne sais pas où tu sois ») ; confondre *amaverint* (subjonctif parfait ou futur antérieur) avec *amaverunt* (indicatif parfait).
+
+> **À retenir** : subjonctif parfait = radical du parfait + -erim, -eris, -erit, -erimus, -eritis, -erint (passif : *amatus sim*). Trois emplois : **défense** (*ne* + subj. parfait = impératif négatif), **potentiel** (*dixerit aliquis*, « on pourrait dire »), **antériorité** après un verbe principal au présent, notamment dans l'**interrogation indirecte** (toujours au subjonctif en latin, à l'indicatif en français).
+`,
+      textes: {
+        leuconoe: `**Ne cherche pas à savoir l'avenir** (Horace, *Odes*, I, 11, vers 1-2, texte authentique)
+
+Le poète Horace s'adresse à une jeune femme, Leuconoé, qui voudrait connaître l'avenir. Cette ode se termine par la célèbre formule *carpe diem*, « cueille le jour ».
+
+*Tu ne quaesieris (scire nefas) quem mihi, quem tibi*
+*finem di dederint, Leuconoe…*
+
+Lexique : *quaero, is, ere, quaesivi* : chercher à savoir ; *quaesieris* = *quaesiveris* ; *scire nefas (est)* : (il est) interdit par les dieux de savoir ; *quem… finem* : quel terme, quelle fin (*finis, is*, m.) ; *di* = *dei*, nominatif pluriel de *deus* ; *do, das, dare, dedi* : donner, fixer ; *Leuconoe* : vocatif, « Leuconoé ».`,
+        nuit: `**Catilina démasqué** (Cicéron, *Première Catilinaire*, 1, texte authentique)
+
+Le 8 novembre 63 av. J.-C., devant le sénat, le consul Cicéron s'adresse à Catilina, qui prépare un coup d'État et qui est présent dans la salle.
+
+*Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris ?*
+
+Lexique : *proximus, a, um* : le plus proche (ici : la nuit dernière) ; *superior, oris* : précédent ; *nox, noctis*, f. : la nuit ; *ago, is, ere, egi* : faire ; *ubi* : où ; *quos* : quels hommes (accusatif masculin pluriel de *qui*) ; *convoco, as, are* : réunir ; *quid consilii* : quelle décision (*consilium, ii* : le projet, la décision ; génitif partitif) ; *capio, is, ere, cepi* : prendre ; *quem nostrum* : lequel d'entre nous ; *ignoro, as, are* : ignorer ; *arbitror, aris, ari* (déponent) : penser, croire.`,
+      },
+      exercices: [
+        {
+          type: "qcm",
+          question: "Laquelle de ces formes de *amo* est un **subjonctif parfait** ?",
+          choix: ["amavissem", "amarem", "amaverim", "amavero"],
+          reponse: 2,
+          explication: "*amaverim* = radical du parfait *amav-* + **-erim** : subjonctif parfait, 1re sg. *amavissem* est un subjonctif plus-que-parfait, *amarem* un subjonctif imparfait, *amavero* un futur antérieur (1re sg. en -ero).",
+        },
+        {
+          type: "saisie",
+          question: "Conjugue *sum* (parfait *fui*) au **subjonctif parfait**, 1re personne du singulier.",
+          reponses: ["fuerim"],
+          explication: "Radical du parfait *fu-* + *-erim* : ***fuerim*** (que j'aie été). Le futur antérieur serait *fuero*.",
+        },
+        {
+          type: "saisie",
+          question: "Conjugue *capio, is, ere, cepi, captum* (prendre) au **subjonctif parfait**, 3e personne du pluriel.",
+          reponses: ["ceperint"],
+          explication: "Radical du parfait *cep-* (et non *cap-*) + *-erint* : ***ceperint***. Attention : la même forme est aussi le futur antérieur ; l'indicatif parfait serait *ceperunt*.",
+        },
+        {
+          type: "vf",
+          question: "Hors contexte, la forme **amaveris** peut être un subjonctif parfait ou un futur antérieur.",
+          reponse: true,
+          explication: "Vrai : subjonctif parfait (*amaverim, amaveris…*) et futur antérieur (*amavero, amaveris…*) ne diffèrent qu'à la 1re personne du singulier. C'est la construction qui tranche : *Ne amaveris* (défense) ou *Nescio quem amaveris* (interrogation indirecte) → subjonctif.",
+        },
+        {
+          type: "qcm",
+          question: "Que signifie **Ne timueris !** (*timeo, es, ere, timui* : craindre, avoir peur) ?",
+          choix: ["Tu n'as pas eu peur.", "N'aie pas peur !", "Tu n'auras pas peur.", "Pour que tu n'aies pas peur."],
+          reponse: 1,
+          explication: "*ne* + **subjonctif parfait** à la 2e personne exprime la **défense** : c'est un impératif négatif, sans valeur de passé : « **N'aie pas peur !** ». On dirait aussi *Noli timere !*",
+        },
+        {
+          type: "qcm",
+          question: "Comment traduire **Dixerit aliquis** en tête d'une objection ?",
+          choix: ["Quelqu'un avait dit", "Que quelqu'un dise !", "Quelqu'un pourrait dire", "Quelqu'un a dit"],
+          reponse: 2,
+          explication: "Dans une proposition indépendante, le subjonctif parfait peut exprimer le **potentiel** : « **quelqu'un pourrait dire** », traduit par un conditionnel présent. L'orateur annonce ainsi une objection pour mieux la réfuter.",
+        },
+        {
+          type: "saisie",
+          question: "Traduis : **Nescio ubi fueris.** (*nescio* : je ne sais pas ; *ubi* : où)",
+          reponses: ["je ne sais pas où tu as été", "je ne sais pas où tu étais", "je ne sais où tu as été", "je ne sais où tu étais", "j'ignore où tu as été", "j'ignore où tu étais"],
+          explication: "*ubi fueris* est une **interrogation indirecte** : subjonctif parfait de *sum*, antériorité par rapport au présent *nescio*. En français, on emploie l'indicatif : « **Je ne sais pas où tu as été.** » Attention : *ubi* interroge sur le lieu où l'on **est** ; « où tu es allé » (mouvement) se dirait *quo ieris* (*quo* : vers où ; *eo, ii* : aller).",
+        },
+        {
+          type: "qcm",
+          question: "Complète selon la concordance des temps : *Rogavi quid ___.* « J'ai demandé ce qu'il avait fait. » (*facio, is, ere, feci*)",
+          choix: ["fecerit", "faciat", "faceret", "fecisset"],
+          reponse: 3,
+          explication: "Le verbe principal *rogavi* est un **passé** et l'action de la subordonnée est **antérieure** : subjonctif **plus-que-parfait** *fecisset*. Avec un verbe principal au présent (*Rogo quid fecerit*, « je demande ce qu'il a fait »), on aurait le subjonctif parfait.",
+        },
+        {
+          type: "qcm",
+          texte: "leuconoe",
+          question: "Dans le texte d'Horace, quelles sont les valeurs des deux subjonctifs parfaits **quaesieris** et **dederint** ?",
+          choix: ["*quaesieris* : potentiel ; *dederint* : interrogation indirecte", "*quaesieris* : défense ; *dederint* : interrogation indirecte", "*quaesieris* : défense ; *dederint* : potentiel", "*quaesieris* : futur antérieur ; *dederint* : futur antérieur"],
+          reponse: 1,
+          explication: "*Tu ne quaesieris* : *ne* + subjonctif parfait de 2e personne = **défense** (« ne cherche pas à savoir »). *quem… finem di dederint* dépend de *quaesieris* : c'est une **interrogation indirecte** introduite par *quem*, au subjonctif parfait (antériorité : les dieux ont déjà fixé le terme). Traduction : « Ne cherche pas à savoir (le savoir est interdit) quel terme les dieux ont fixé pour moi, pour toi, Leuconoé. »",
+        },
+        {
+          type: "redaction",
+          texte: "nuit",
+          question: "**Entraînement à l'évaluation.** 1) Relève les quatre verbes au subjonctif parfait du texte de Cicéron, donne leur verbe de départ et explique pourquoi ils sont au subjonctif parfait. 2) Traduis la phrase. 3) Récris en latin le début *Quid proxima nocte egeris… ignoro* en mettant le verbe principal au passé : *Quid proxima nocte ___ ignorabam* (« j'ignorais ce que tu avais fait »). 4) Quel effet produit cette série de questions sur Catilina et sur les sénateurs ?",
+          corrige: `
+**1) Les subjonctifs parfaits.**
+- *egeris* : de *ago, egi* (faire) ;
+- *fueris* : de *sum, fui* (être) ;
+- *convocaveris* : de *convoco, convocavi* (réunir) ;
+- *ceperis* : de *capio, cepi* (prendre).
+Tous sont à la 2e personne du singulier (Cicéron parle à Catilina). Ce sont des **interrogations indirectes** introduites par *quid, ubi, quos, quid*, COD de *ignorare* : leur verbe est donc au **subjonctif**. Le verbe principal *arbitraris* est au **présent** et les actions de Catilina sont **antérieures** : d'où le subjonctif **parfait** (concordance des temps).
+
+**2) Traduction.** « Ce que tu as fait la nuit dernière, ce que tu as fait la nuit précédente, où tu as été, quels hommes tu as réunis, quelle décision tu as prise, qui d'entre nous, penses-tu, l'ignore ? »
+
+**3) Au passé.** *Quid proxima nocte **egisses** ignorabam.* Avec un verbe principal au passé, l'antériorité s'exprime par le subjonctif **plus-que-parfait** (*egisses*, de l'infinitif parfait *egisse*).
+
+**4) Effet.** L'accumulation de questions courtes (*quid… quid… ubi… quos… quid…*) montre que Cicéron **sait tout** des projets de Catilina, nuit par nuit : le conspirateur se sent surveillé et démasqué. La question finale (*quem nostrum ignorare arbitraris ?*) est une **question rhétorique** : elle n'attend pas de réponse, car la réponse évidente est « personne ». Elle prend les sénateurs à témoin et les rassemble contre Catilina.
+`,
+        },
+      ],
+    },
+    {
+      id: "argumentation-eloquence",
+      titre: "Les pratiques de l'argumentation : la rhétorique et l'éloquence de Cicéron",
+      theme: "Culture : vie familiale, sociale et intellectuelle",
+      cours: `
+## La rhétorique, art de persuader
+À Rome, savoir parler en public est indispensable pour faire carrière : au **forum** (les procès), au **sénat** et devant le **peuple** (les décisions politiques). La **rhétorique** (du grec *rhêtorikê*, en latin *ars dicendi*, « l'art de parler ») est l'art de **persuader** par la parole. Elle vient de Grèce : les jeunes Romains l'apprennent auprès d'un maître, le *rhetor*, après l'école du *grammaticus*, en s'exerçant sur des sujets fictifs (donner un conseil à un personnage célèbre, plaider une affaire imaginaire).
+
+L'orateur (*orator*, de *oro* : parler, prier) idéal est défini par une formule attribuée à **Caton l'Ancien**, que reprend le maître de rhétorique **Quintilien** (Ier siècle ap. J.-C., *Institution oratoire*, XII, 1, 1) : *vir bonus dicendi peritus*, « un homme de bien habile à parler ». Pour les Romains, l'éloquence doit être au service de la vertu et de l'État.
+
+## Les trois genres de discours
+| Genre | Lieu, public | Temps | But | Exemple |
+|---|---|---|---|---|
+| **judiciaire** | tribunal, juges | passé | accuser ou défendre : juste / injuste | les *Verrines*, le *Pour Archias* |
+| **délibératif** | sénat, assemblée du peuple | futur | conseiller ou déconseiller : utile / nuisible | les *Catilinaires*, les *Philippiques* contre Antoine |
+| **épidictique** (ou démonstratif) | cérémonie | présent | louer ou blâmer : beau / honteux | l'éloge funèbre (*laudatio funebris*) |
+
+## Les trois devoirs de l'orateur
+Selon Cicéron, « le meilleur orateur est celui qui, par sa parole, instruit, charme et émeut l'esprit de ses auditeurs » (*et docet et delectat et permovet*, *Du meilleur genre d'orateurs*, 3 ; dans l'*Orateur*, 69, il dit *probare, delectare, flectere*). L'orateur doit donc :
+- **instruire** (*docere*) : exposer les faits et les **preuves** ; c'est l'appel à la raison ;
+- **plaire** (*delectare*) : se rendre sympathique, charmer par le style ;
+- **émouvoir** (*movere*) : susciter l'indignation, la pitié, la colère ; c'est souvent ce qui emporte la décision.
+
+## Préparer et construire un discours
+Les cinq étapes du travail de l'orateur : l'**invention** (*inventio* : trouver les arguments), la **disposition** (*dispositio* : les mettre en ordre), l'**élocution** (*elocutio* : choisir les mots et les figures), la **mémoire** (*memoria* : apprendre le discours par cœur), l'**action** (*actio* : la voix, les gestes).
+
+Le plan d'un discours judiciaire :
+1. l'**exorde** (*exordium*) : gagner l'attention et la bienveillance des juges ;
+2. la **narration** (*narratio*) : raconter les faits, à l'avantage de sa cause ;
+3. la **confirmation** (*confirmatio*) : présenter ses arguments ;
+4. la **réfutation** (*refutatio*) : détruire ceux de l'adversaire ;
+5. la **péroraison** (*peroratio*) : résumer et émouvoir pour finir.
+
+## Les procédés de l'éloquence
+| Procédé | Définition | Exemple chez Cicéron |
+|---|---|---|
+| question rhétorique | question qui n'attend pas de réponse | *Quo usque tandem abutere, Catilina, patientia nostra ?* |
+| apostrophe | on s'adresse directement à quelqu'un (vocatif) | *Catilina* ; *iudices* (les juges) |
+| anaphore | répétition d'un mot en tête de groupes | *nihil… nihil… nihil…* |
+| exclamation | expression forte d'un sentiment | *O tempora, o mores !* |
+| asyndète | juxtaposition sans mot de liaison | *alunt, oblectant, ornant…* |
+| antithèse | opposition de deux idées | *delectant domi, non impediunt foris* |
+| gradation | termes de plus en plus forts | *Facinus est vincire civem Romanum, scelus verberare, prope parricidium necare* : « c'est un crime d'enchaîner un citoyen romain, un forfait de le frapper, presque un parricide de le tuer » (*Verrines*) |
+| prétérition | dire qu'on ne parlera pas d'une chose… en en parlant | « je ne parlerai pas de… » |
+
+>! **Exemple résolu** : un éloge des lettres (Cicéron, *Pour Archias*, 16, texte authentique). En 62 av. J.-C., Cicéron défend le poète grec Archias, dont on conteste la citoyenneté romaine. Au milieu de ce discours judiciaire, il fait l'éloge des études littéraires :
+>! *Haec studia adulescentiam alunt, senectutem oblectant, secundas res ornant, adversis perfugium ac solacium praebent.*
+>! « Ces études nourrissent la jeunesse, charment la vieillesse, embellissent la prospérité, offrent dans l'adversité un refuge et une consolation. »
+>! Procédés : **asyndète** (quatre verbes juxtaposés sans *et*), **parallélisme** (COD + verbe, quatre fois), **antithèses** (*adulescentiam / senectutem* ; *secundas res / adversis*). Toutes les étapes de la vie sont couvertes : les lettres servent toujours. C'est un passage **épidictique** (éloge) inséré dans un discours judiciaire, pour **plaire** (*delectare*) aux juges et les rendre favorables au poète.
+
+## L'héritage
+Les mots *orateur*, *éloquence* (*eloquentia*, de *eloqui*, s'exprimer), *exorde*, *péroraison*, *avocat* (*advocatus*, « celui qu'on appelle auprès de soi », de *ad* + *vocare*) viennent du latin. Les plaidoiries des avocats et les discours politiques d'aujourd'hui utilisent encore les procédés de Cicéron.
+
+>! **Erreurs fréquentes** : croire qu'une question rhétorique attend une réponse ; confondre anaphore (répétition) et antithèse (opposition) ; oublier que Cicéron cherche surtout à **émouvoir** : un discours n'est pas un exposé neutre, c'est une arme.
+
+> **À retenir** : rhétorique = art de persuader ; *vir bonus dicendi peritus*. Trois genres : judiciaire (passé, juste/injuste), délibératif (futur, utile/nuisible), épidictique (présent, éloge/blâme). Trois devoirs : *docere, delectare, movere*. Cinq étapes : invention, disposition, élocution, mémoire, action. Plan : exorde, narration, confirmation, réfutation, péroraison. Procédés : question rhétorique, apostrophe, anaphore, asyndète, antithèse, gradation.
+`,
+      textes: {
+        catilina: `**« Jusqu'à quand, Catilina… »** (Cicéron, *Première Catilinaire*, 1, texte authentique)
+
+Le 8 novembre 63 av. J.-C., Cicéron, consul, a réuni le sénat dans le temple de Jupiter Stator, gardé par des hommes armés. Catilina, qui prépare un coup d'État, ose venir à la séance. Cicéron l'attaque dès les premiers mots.
+
+*Quo usque tandem abutere, Catilina, patientia nostra ? Quam diu etiam furor iste tuus nos eludet ? Quem ad finem sese effrenata iactabit audacia ? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae, nihil timor populi, nihil concursus bonorum omnium, nihil hic munitissimus habendi senatus locus, nihil horum ora voltusque moverunt ?*
+
+Lexique : *quo usque* : jusqu'à quand ; *tandem* : enfin ; *abutere* = *abuteris*, futur de *abutor* (abuser de, + ablatif) ; *patientia, ae* : la patience ; *quam diu* : combien de temps ; *etiam* : encore ; *furor, oris* : la folie, la fureur ; *iste, ista, istud* : ce… (péjoratif) ; *eludo, is, ere* : se jouer de ; *quem ad finem* : jusqu'à quelle limite ; *sese* = *se* ; *effrenatus, a, um* : sans frein, déchaîné ; *se iactare* : s'agiter, se pavaner ; *audacia, ae* : l'audace ; *nihilne* : est-ce que rien… ne ; *nocturnus, a, um* : de nuit ; *praesidium, ii* : le poste de garde ; *Palatium, ii* : le Palatin (génitif *Palati*) ; *vigiliae, arum* : les patrouilles de nuit ; *concursus, us* : le rassemblement ; *boni, orum* : les gens honnêtes ; *munitissimus* : superlatif de *munitus*, protégé ; *habendi senatus* : pour réunir le sénat (adjectif verbal) ; *os, oris*, n. : le visage ; *voltus* = *vultus, us* : l'expression du visage ; *moveo, es, ere, movi* : émouvoir, ébranler.`,
+        archia: `**Éloge des lettres** (Cicéron, *Pour Archias*, 16, texte authentique)
+
+En 62 av. J.-C., Cicéron défend le poète grec Archias. Il explique aux juges pourquoi les études littéraires (*haec studia*) sont précieuses.
+
+*Haec studia adulescentiam alunt, senectutem oblectant, secundas res ornant, adversis perfugium ac solacium praebent, delectant domi, non impediunt foris, pernoctant nobiscum, peregrinantur, rusticantur.*
+
+Lexique : *studium, ii* : l'étude, la passion (ici, pour les lettres) ; *adulescentia, ae* : la jeunesse ; *alo, is, ere* : nourrir ; *senectus, utis*, f. : la vieillesse ; *oblecto, as, are* : charmer ; *secundae res* : la prospérité, le bonheur ; *orno, as, are* : embellir ; *adversis* (sous-entendu *rebus*) : dans le malheur ; *perfugium, ii* : le refuge ; *solacium, ii* : la consolation ; *praebeo, es, ere* : offrir ; *delecto, as, are* : charmer, faire plaisir ; *domi* : à la maison ; *impedio, is, ire* : gêner ; *foris* : au-dehors ; *pernocto, as, are* : passer la nuit ; *nobiscum* : avec nous ; *peregrinor, aris, ari* : voyager à l'étranger ; *rusticor, aris, ari* : séjourner à la campagne.`,
+      },
+      exercices: [
+        {
+          type: "qcm",
+          question: "Les *Verrines*, où Cicéron accuse un ancien gouverneur devant un tribunal, appartiennent à quel **genre** de discours ?",
+          choix: ["Délibératif", "Épidictique", "Judiciaire", "Poétique"],
+          reponse: 2,
+          explication: "Un discours prononcé devant des **juges**, pour accuser ou défendre à propos de faits **passés**, relève du genre **judiciaire**. Le délibératif conseille une décision future (sénat, peuple), l'épidictique loue ou blâme.",
+        },
+        {
+          type: "qcm",
+          question: "Parmi les trois devoirs de l'orateur, que signifie **movere** ?",
+          choix: ["Émouvoir l'auditoire", "Instruire, prouver", "Plaire, charmer", "Se déplacer sur la tribune"],
+          reponse: 0,
+          explication: "*docere* = instruire (les preuves), *delectare* = plaire, *movere* = **émouvoir** (indignation, pitié, colère). Pour Cicéron, c'est souvent l'émotion qui emporte la décision des juges.",
+        },
+        {
+          type: "saisie",
+          question: "Quel est le nom français de la **dernière partie** d'un discours, en latin *peroratio*, où l'orateur résume et cherche à émouvoir ?",
+          reponses: ["péroraison", "la péroraison"],
+          explication: "La **péroraison** (*peroratio*) clôt le discours, après l'exorde, la narration, la confirmation et la réfutation.",
+        },
+        {
+          type: "vf",
+          question: "Une **question rhétorique** attend une réponse de l'auditoire.",
+          reponse: false,
+          explication: "Faux : la question rhétorique n'attend **pas** de réponse ; la réponse est évidente et l'orateur s'en sert pour affirmer avec force. *Quo usque tandem abutere… ?* signifie en fait : « Tu as assez abusé de notre patience ! »",
+        },
+        {
+          type: "saisie",
+          question: "Quel mot français vient du latin ***advocatus***, « celui qu'on appelle auprès de soi » (de *ad* + *vocare*) ?",
+          reponses: ["avocat", "l'avocat", "un avocat"],
+          explication: "L'**avocat** est à l'origine celui que l'on « appelle auprès de soi » pour vous assister dans un procès. *vocare* (appeler) a aussi donné *vocation*, *convoquer*, *invoquer*.",
+        },
+        {
+          type: "qcm",
+          texte: "catilina",
+          question: "Comment s'appelle le procédé de la répétition de **nihil** en tête de chaque groupe ?",
+          choix: ["Une antithèse", "Une anaphore", "Une prétérition", "Un chiasme"],
+          reponse: 1,
+          explication: "La reprise du même mot en tête de groupes successifs est une **anaphore** : *nihil* revient six fois. Elle martèle l'idée que **rien** (gardes, patrouilles, peur du peuple, regards des sénateurs) n'arrête Catilina.",
+        },
+        {
+          type: "qcm",
+          texte: "catilina",
+          question: "Pourquoi Cicéron emploie-t-il le démonstratif **iste** dans *furor iste tuus* ?",
+          choix: ["Pour montrer que la folie est loin de lui", "Pour désigner une folie dont il a déjà parlé dans un autre discours", "Parce que *iste* est le pronom de la 1re personne", "Parce que *iste* désigne, souvent avec mépris, ce qui est à l'interlocuteur"],
+          reponse: 3,
+          explication: "*iste* est le démonstratif de la 2e personne (ce qui est près de toi) ; chez Cicéron, il est souvent **péjoratif**. Avec *tuus*, il insiste : « **ta folie, cette folie qui est la tienne** ». Le mépris fait partie de l'attaque.",
+        },
+        {
+          type: "qcm",
+          texte: "archia",
+          question: "Quel procédé domine dans la suite *alunt, oblectant, ornant, praebent, delectant… peregrinantur, rusticantur* ?",
+          choix: ["L'asyndète", "La question rhétorique", "L'apostrophe aux juges", "La prétérition"],
+          reponse: 0,
+          explication: "Les propositions sont **juxtaposées sans *et*** : c'est une **asyndète**. Le rythme rapide et l'accumulation donnent l'impression que les bienfaits des lettres sont sans fin. On y trouve aussi des **antithèses** (*adulescentiam / senectutem*, *domi / foris*).",
+        },
+        {
+          type: "redaction",
+          texte: "archia",
+          question: "1) Traduis le texte de Cicéron en t'aidant du lexique. 2) Relève deux antithèses. 3) Ce passage est tiré d'un discours **judiciaire** : pourquoi Cicéron y insère-t-il un **éloge**, et lequel des trois devoirs de l'orateur cherche-t-il surtout à remplir ?",
+          corrige: `
+**1) Traduction.** « Ces études nourrissent la jeunesse, charment la vieillesse, embellissent la prospérité, offrent dans le malheur un refuge et une consolation ; elles font plaisir à la maison, ne gênent pas au-dehors ; elles passent la nuit avec nous, voyagent avec nous, vont avec nous à la campagne. »
+Remarques : *haec studia* (neutre pluriel) est le sujet de tous les verbes ; *peregrinantur* et *rusticantur* sont des déponents (sens actif) ; *adversis* sous-entend *rebus* et s'oppose à *secundas res*.
+
+**2) Antithèses** (deux suffisent) :
+- *adulescentiam* / *senectutem* (la jeunesse / la vieillesse) ;
+- *secundas res* / *adversis* (la prospérité / le malheur) ;
+- *domi* / *foris* (à la maison / au-dehors).
+Ces oppositions montrent que les lettres servent **à tout âge, dans toutes les situations, en tout lieu**.
+
+**3) Pourquoi un éloge ?** Le procès porte sur la citoyenneté d'Archias. Mais Cicéron veut surtout rendre les juges **favorables** au poète : s'ils admirent les lettres, ils voudront garder à Rome un homme qui les sert si bien. Cette digression épidictique cherche d'abord à **plaire** (*delectare*) par la beauté du style (asyndète, rythme, antithèses), et aussi à **émouvoir** (*movere*) : Cicéron parle de sa propre expérience (*nobiscum*) et touche chaque juge, qui a lui aussi été jeune et connaîtra la vieillesse.
+`,
+        },
+        {
+          type: "redaction",
+          texte: "catilina",
+          question: "**Entraînement à l'évaluation (niveau brevet).** 1) Traduis les trois premières questions du texte (jusqu'à *audacia ?*). 2) Relève et nomme quatre procédés de l'éloquence dans l'ensemble du texte, en expliquant l'effet de chacun. 3) À quel genre appartient ce discours et lequel des trois devoirs de l'orateur domine ici ? Justifie. 4) Pourquoi ce début est-il surprenant pour un exorde ?",
+          corrige: `
+**1) Traduction.** « Jusqu'à quand enfin, Catilina, abuseras-tu de notre patience ? Combien de temps encore ta folie se jouera-t-elle de nous ? Jusqu'où ton audace sans frein se déchaînera-t-elle ? »
+(Suite : « Quoi ! ni la garde de nuit du Palatin, ni les patrouilles dans la ville, ni la peur du peuple, ni le rassemblement de tous les gens honnêtes, ni ce lieu si bien protégé choisi pour réunir le sénat, ni le visage et l'expression de ces hommes, rien ne t'a ébranlé ? »)
+
+**2) Procédés** (quatre au choix) :
+- **questions rhétoriques** (*Quo usque… ? Quam diu… ? Quem ad finem… ?*) : elles n'attendent pas de réponse ; elles affirment que la patience des Romains est à bout ;
+- **apostrophe** (*Catilina*, vocatif) : Cicéron s'adresse directement à Catilina, présent dans la salle, comme pour le montrer du doigt ;
+- **anaphore** de *nihil* (six fois) : elle martèle que rien n'arrête Catilina ;
+- **accumulation** et **gradation** : les protections de Rome sont énumérées jusqu'au plus proche, les visages des sénateurs présents (*horum ora voltusque*) ;
+- **démonstratifs** : *iste*, péjoratif (mépris) ; *hic… locus*, *horum* (« ce lieu-ci », « ces hommes-ci » : la scène est sous nos yeux).
+
+**3) Genre et devoir.** C'est un discours **délibératif** : prononcé devant le **sénat**, il vise une décision pour l'avenir (que Catilina quitte Rome, que les sénateurs s'unissent contre lui). Le devoir qui domine est ***movere*** : Cicéron ne prouve rien ici, il cherche à **indigner** les sénateurs et à intimider Catilina. Le résultat lui donne raison : Catilina quitte Rome la nuit suivante.
+
+**4) Un exorde surprenant.** D'habitude, l'exorde est calme : on salue l'auditoire et on cherche à gagner sa bienveillance. Ici, Cicéron attaque **dès le premier mot**, sans préambule (on parle d'exorde *ex abrupto*, « brusque ») : l'effet de choc est total, et la phrase est devenue l'une des plus célèbres de la langue latine.
 `,
         },
       ],

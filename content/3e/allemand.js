@@ -1314,13 +1314,13 @@ Souvent, *darauf, daran, davon…* annoncent une subordonnée (*dass…*) ou un 
 En fin de 3e, on te donne parfois un texte de 200 à 350 mots (blog, récit, article). Tu ne connaîtras pas tous les mots, et ce n'est pas grave : on te demande de comprendre **l'essentiel** et de trouver des **informations précises**, puis de **prouver** ce que tu dis avec le texte.
 
 ## Avant de lire
-1. **Observe** le titre, l'auteur, la forme : un blog à la 1re personne (*ich*), un récit à la 3e personne au prétérit (*sie fuhr, er sagte*), un article ?
-2. **Lis les questions d'abord** : elles te disent quoi chercher, et elles suivent en général l'ordre du texte.
+- **Étape 1 – Observe** le titre, l'auteur, la forme : un blog à la 1re personne (*ich*), un récit à la 3e personne au prétérit (*sie fuhr, er sagte*), un article ?
+- **Étape 2 – Lis les questions d'abord** : elles te disent quoi chercher, et elles suivent en général l'ordre du texte.
 
 ## Pendant la lecture
-3. **Première lecture rapide** : réponds aux questions W (*Wer? Wo? Wann? Was?*). Qui sont les personnages ? Où, quand se passe l'histoire ?
-4. **Paragraphe par paragraphe** : chaque paragraphe a souvent **une idée**. Note-la en français dans la marge, en quelques mots.
-5. **Un mot inconnu ? Ne bloque pas.** Aide-toi du contexte, des mots transparents (*das Experiment, nervös, die Information*), des mots composés (*die Stadt·bibliothek* = la bibliothèque de la ville) et des familles de mots (*fahren → die Fahrt, der Fahrer*).
+- **Étape 3 – Première lecture rapide** : réponds aux questions W (*Wer? Wo? Wann? Was?*). Qui sont les personnages ? Où, quand se passe l'histoire ?
+- **Étape 4 – Paragraphe par paragraphe** : chaque paragraphe a souvent **une idée**. Note-la en français dans la marge, en quelques mots.
+- **Étape 5 – Un mot inconnu ? Ne bloque pas.** Aide-toi du contexte, des mots transparents (*das Experiment, nervös, die Information*), des mots composés (*die Stadt·bibliothek* = la bibliothèque de la ville) et des familles de mots (*fahren → die Fahrt, der Fahrer*).
 
 Les mots qui structurent un récit t'aident à suivre l'histoire :
 
@@ -1332,13 +1332,13 @@ Les mots qui structurent un récit t'aident à suivre l'histoire :
 | später | plus tard | am Ende / schließlich | à la fin / finalement |
 
 ## Répondre aux questions
-6. **Explicite ou implicite ?** Certaines réponses sont écrites telles quelles dans le texte. D'autres sont à **déduire** : un sentiment, une intention, une plaisanterie (*Wie im letzten Jahrhundert!*).
-7. **Justifie** : cite **les quelques mots allemands précis** qui prouvent ta réponse, entre guillemets, puis explique-les en français. Ne recopie pas tout un paragraphe.
-8. **Méfie-toi des pièges** :
-- les négations : *nicht, kein, nie* (jamais), ***nicht mehr*** (ne… plus), ***noch nicht*** (pas encore) ;
-- le temps : est-ce passé (*war, hat gemacht*), présent ou futur (*werde, nächste Woche*) ?
-- qui parle : l'avis d'un personnage n'est pas forcément celui de l'auteur ;
-- les nombres et les dates.
+- **Étape 6 – Explicite ou implicite ?** Certaines réponses sont écrites telles quelles dans le texte. D'autres sont à **déduire** : un sentiment, une intention, une plaisanterie (*Wie im letzten Jahrhundert!*).
+- **Étape 7 – Justifie** : cite **les quelques mots allemands précis** qui prouvent ta réponse, entre guillemets, puis explique-les en français. Ne recopie pas tout un paragraphe.
+- **Étape 8 – Méfie-toi des pièges** :
+  - les négations : *nicht, kein, nie* (jamais), ***nicht mehr*** (ne… plus), ***noch nicht*** (pas encore) ;
+  - le temps : est-ce passé (*war, hat gemacht*), présent ou futur (*werde, nächste Woche*) ?
+  - qui parle : l'avis d'un personnage n'est pas forcément celui de l'auteur ;
+  - les nombres et les dates.
 
 >! **Exemple résolu** : « *Am Anfang fand Tom das Internat schrecklich. Er vermisste seine Eltern und konnte nachts nicht schlafen. Heute möchte er nicht mehr nach Hause.* »
 >! Question : Tom est-il toujours malheureux à l'internat ? Justifie.
@@ -1395,6 +1395,94 @@ Mots utiles : *die Menschenmenge* = la foule ; *sich aus den Augen verlieren* = 
         { type: "saisie", texte: "emma", question: "D'après le conseil de la mère d'accueil, où faut-il aller si l'on se perd ? (en français, ou avec le mot allemand du texte)", reponses: ["à la gare", "la gare", "gare", "à la gare centrale", "la gare centrale", "gare centrale", "à la gare principale", "la gare principale", "zum Bahnhof", "der Bahnhof", "Bahnhof", "zum Hauptbahnhof", "der Hauptbahnhof", "Hauptbahnhof", "aller à la gare", "aller à la gare et attendre", "à la gare et attendre", "aller à la gare et y attendre", "aller à la gare centrale", "il faut aller à la gare", "aller à la gare et attendre là-bas", "à la gare et attendre là-bas", "zum Bahnhof gehen", "zum Bahnhof gehen und dort warten"], explication: "*„Wenn ihr euch verliert, geht **zum Bahnhof** und wartet dort.“* = si vous vous perdez, allez à la gare et attendez là-bas. Emma suit ce conseil et retrouve Hanna sur le quai (*am Gleis*) de la gare centrale (*Hauptbahnhof*)." },
         { type: "qcm", texte: "emma", question: "À la fin, la mère de Hanna dit en souriant : « *Du kommst schon allein zurecht.* » Que veut-elle dire ?", choix: ["Qu'Emma doit rentrer seule en France.", "Qu'Emma ne doit plus sortir sans Hanna.", "Que Hanna ne veut plus être sa correspondante.", "Qu'Emma sait maintenant se débrouiller seule : c'est un compliment."], reponse: 3, explication: "*zurechtkommen* = se débrouiller ; *allein* = seule. Emma a demandé son chemin et a retrouvé la gare **en parlant allemand** : la mère la félicite, avec humour (*jetzt brauchst du keine Austauschpartnerin mehr* = tu n'as plus besoin de correspondante). Ce sens est **implicite** : il faut le déduire de l'histoire et du sourire (*lächelte*)." },
         { type: "redaction", texte: "emma", question: "**Niveau fin de 3e.** Tu es Hanna. Le soir, tu écris un message à ta meilleure amie Mia pour lui raconter la journée à Dresde (8 à 10 phrases, au parfait) : ce que vous avez visité, comment vous vous êtes perdues, ce que tu as ressenti, comment vous vous êtes retrouvées, et ce que tu penses d'Emma maintenant.", corrige: "**Modèle :**\n\n*Hallo Mia,\nheute war ein verrückter Tag! Emma und ich sind mit dem Zug nach Dresden gefahren. Zuerst haben wir die Frauenkirche besichtigt, und dann sind wir durch die Altstadt gelaufen. Am Nachmittag wollte ich noch ein Geschenk für Mama kaufen, weil sie morgen Geburtstag hat. Plötzlich war Emma weg! Ich habe sie überall gesucht, aber ich habe sie nicht gefunden. Ich hatte große Angst, denn sie kennt die Stadt nicht. Dann bin ich zum Bahnhof gegangen. Zum Glück ist sie bald auch dort angekommen: Eine nette Frau hat ihr den Weg gezeigt. Ich bin wirklich stolz auf Emma, sie hat ganz allein Deutsch gesprochen!\nBis morgen\nHanna*\n\nPoints à vérifier :\n- parfait avec **sein** pour les déplacements (*sind gefahren, sind gelaufen, bin gegangen, ist angekommen*), avec **haben** pour les autres (*haben besichtigt, habe gesucht, hat gezeigt*) ;\n- prétérit pour *war, hatte, wollte* ;\n- inversion après *Zuerst, Am Nachmittag, Plötzlich, Dann, Zum Glück* ; verbe à la fin après *weil* ;\n- l'histoire est racontée du point de vue de **Hanna** (*ich* = Hanna) et reste fidèle au texte." },
+      ],
+    },
+    {
+      id: "but-damit-subjonctif-modaux",
+      titre: "Pour que… et je pourrais… : damit, um … zu et könnte",
+      theme: "Outils de la langue",
+      cours: `
+## Exprimer le but : um … zu ou damit ?
+Tu connais déjà **um … zu** + infinitif (« pour » + verbe) : *Ich fahre mit dem Rad, **um** Energie **zu sparen**.* Mais *um … zu* ne marche que si **la même personne** fait les deux actions. Si ce sont **deux personnes différentes**, il faut **damit** (« pour que, afin que ») + une subordonnée, avec le **verbe conjugué à la fin**.
+
+| Situation | Construction | Exemple |
+|---|---|---|
+| même sujet | **um** … **zu** + infinitif | *Ich lerne viel, **um** das Brevet **zu bestehen**.* (moi… moi) |
+| sujets différents | **damit** + sujet + … + verbe à la fin | *Meine Mutter hilft mir, **damit** ich das Brevet **bestehe**.* (elle… moi) |
+
+- *damit* est une **conjonction de subordination**, comme *weil* ou *dass* : **virgule** devant, **verbe conjugué à la fin**, particule recollée (*…, damit du pünktlich **ankommst**.*).
+- Après *damit*, **pas de zu** et pas besoin de *sollen* ou *wollen* : le but est déjà dans *damit*. *Er soll mich verstehen* → *…, damit er mich **versteht**.*
+- Si la subordonnée est en tête : **verbe, virgule, verbe** : ***Damit** du mich **verstehst**, **spreche ich** langsam.*
+- Avec le même sujet, *damit* est possible (*Ich stehe früh auf, damit ich den Bus nicht verpasse*), mais *um … zu* est plus élégant (*…, um den Bus nicht zu verpassen*).
+
+>! **Méthode** : relie *Ich spreche langsam. Mein Partner soll mich verstehen.*
+>! 1. Qui agit ? *ich* (je parle) et *mein Partner* (il comprend) : **deux sujets** → **damit**.
+>! 2. *soll* disparaît (le but est dans *damit*) ; le verbe *versteht* va à la fin.
+>! 3. Résultat : *Ich spreche langsam, **damit** mein Partner mich **versteht**.*
+>! Avec un seul sujet (*Ich spreche langsam. Ich will keine Fehler machen.*), on aurait : *…, **um** keine Fehler **zu machen**.*
+
+>! **Les deux damit** : *damit* peut aussi être un adverbe « avec ça » (*da* + *mit*, voir le chapitre sur *da-* et *wo-*) : *Hier ist ein Stift, du kannst **damit** schreiben.* (verbe en 2e position). Le *damit* « pour que » est suivi d'un sujet et le verbe va **à la fin**.
+
+## Je pourrais, tu devrais : le subjonctif II des modaux
+Pour être **poli**, **proposer** quelque chose ou parler d'une **possibilité**, on emploie le subjonctif II (le conditionnel) des verbes de modalité. On le forme à partir du **prétérit**, en ajoutant un **Umlaut** quand l'infinitif en a un :
+
+| Infinitif | Prétérit (passé) | Subjonctif II | Sens |
+|---|---|---|---|
+| können | konnte | **könnte** | pourrait |
+| müssen | musste | **müsste** | devrait, faudrait (obligation) |
+| dürfen | durfte | **dürfte** | aurait le droit ; souvent « probablement » |
+| mögen | mochte | **möchte** | voudrait, aimerait |
+| sollen | sollte | **sollte** | devrait (conseil) |
+| wollen | wollte | **wollte** | voudrait (rare) |
+
+**Attention** : *sollte* et *wollte* ont **la même forme qu'au prétérit** (pas d'Umlaut possible) ; c'est le contexte qui dit si c'est « devait / voulait » ou « devrait / voudrait ». Pour dire « je voudrais », on emploie presque toujours ***möchte*** (*Ich **möchte** ein Eis.*). Exemples : *Wir **müssten** um 18 Uhr fertig sein.* (Il faudrait qu'on ait fini à 18 h.) – *Das **dürfte** stimmen.* (Ça doit être juste, probablement.)
+
+Terminaisons : ich könnte, du könnte**st**, er/sie könnte, wir könnte**n**, ihr könnte**t**, sie/Sie könnte**n**. L'**infinitif** va à la fin, comme avec tous les modaux.
+
+### À quoi ça sert ?
+- **Demander poliment** : ***Könntest** du mir bitte **helfen**?* (Pourrais-tu m'aider ?) – ***Könnten** Sie mir sagen, wo der Bahnhof ist?* (Pourriez-vous me dire… ?)
+- **Proposer** : *Wir **könnten** am Samstag ins Kino **gehen**.* (On pourrait aller au cinéma samedi.)
+- **Une possibilité** : *Das **könnte** schwierig **sein**.* (Ça pourrait être difficile.)
+- **Conseiller** : *Du **solltest** mehr schlafen.* (Tu devrais dormir plus.)
+- **Imaginer** : ***Wenn** ich fliegen **könnte**, **würde** ich um die Welt **reisen**.* (Si je pouvais voler, je ferais le tour du monde.) Comme *hätte* et *wäre* (chapitre « Mon avenir »), *könnte* s'emploie directement, sans *würde*.
+
+>! **Exemple résolu** : ton correspondant propose « *Gehen wir morgen schwimmen?* ». Fais une autre proposition, poliment.
+>! 1. Proposer = **wir könnten** + infinitif à la fin.
+>! 2. *Wir **könnten** morgen lieber ins Museum **gehen**.* (On pourrait plutôt aller au musée demain.)
+>! 3. Pour demander un service : ***Könntest** du mich um 10 Uhr **abholen**?*
+
+> **À retenir** : but avec **le même sujet** → *um … zu* + infinitif ; avec **deux sujets différents** → **damit** + verbe conjugué à la fin (sans *zu*, sans *sollen*). Subjonctif II des modaux = prétérit + Umlaut : **könnte** (pourrait), **müsste**, **dürfte** ; *sollte* et *wollte* sans Umlaut. *Könntest du…? / Könnten Sie…?* = demande polie ; *Wir könnten…* = proposition.
+
+### Erreurs fréquentes
+- *Ich helfe dir, um du die Übung verstehst* → *…, **damit** du die Übung **verstehst*** (deux sujets).
+- *…, damit du die Übung zu verstehen* → *…, damit du die Übung **verstehst*** (pas de *zu* après *damit*).
+- *…, damit er kann kommen* → *…, damit er kommen **kann*** (verbe conjugué tout à la fin).
+- *Konntest du mir helfen?* (passé : « as-tu pu m'aider ? ») → ***Könntest** du mir helfen?* (pourrais-tu ?) : l'Umlaut change le sens.
+- *Könntest du helfen mir?* → *Könntest du **mir helfen**?* (infinitif à la fin).
+`,
+      textes: {
+        jonas: `**Eine E-Mail an die Schulleiterin** (texte d'entraînement)
+
+*Liebe Frau Weber,*
+
+*nächsten Montag kommt unsere Partnerklasse aus Lyon. Könnten Sie uns bitte für den Nachmittag die Aula reservieren? Wir möchten ein kleines Konzert organisieren, damit sich die französischen und die deutschen Schüler besser kennenlernen. Unsere Eltern könnten Kuchen mitbringen, und die Musik-AG könnte ein paar Lieder spielen. Ich schicke Ihnen das Programm morgen, damit Sie alles planen können. Wir müssten nur bis 18 Uhr fertig sein, weil der Bus der Franzosen um 18.30 Uhr abfährt.*
+
+*Viele Grüße*
+*Jonas (Klasse 9b)*
+
+Mots utiles : *die Aula* = la grande salle des fêtes de l'école ; *sich kennenlernen* = faire connaissance ; *die Musik-AG* = l'atelier de musique.`,
+      },
+      exercices: [
+        { type: "qcm", question: "Que signifie « *Könntest du mir bitte helfen?* » ?", choix: ["As-tu pu m'aider ?", "Pourrais-tu m'aider, s'il te plaît ?", "Tu dois m'aider, s'il te plaît.", "Veux-tu que je t'aide ?"], reponse: 1, explication: "*könntest* (avec Umlaut) est le **subjonctif II** de *können* : « pourrais-tu ». C'est la façon polie de demander un service. *Konntest du…?* (sans Umlaut) serait le passé : « as-tu pu… ? »." },
+        { type: "saisie", question: "Complète pour demander poliment à un passant : « ___ Sie mir bitte sagen, wo der Bahnhof ist? » (Pourriez-vous…)", reponses: ["Könnten", "Könnten Sie"], explication: "Avec *Sie* (vouvoiement), le subjonctif II de *können* est ***Könnten*** (avec Umlaut). *Konnten* (sans Umlaut) voudrait dire « pouviez-vous / avez-vous pu »." },
+        { type: "qcm", question: "Complète : « Mein Vater fährt mich zum Bahnhof, ___ ich den Zug nicht verpasse. »", choix: ["um", "weil", "damit", "zu"], reponse: 2, explication: "Deux sujets différents (*mein Vater* conduit, *ich* ne rate pas le train) → **damit** + verbe à la fin : *…, damit ich den Zug nicht **verpasse**.* *um* demanderait *zu* + infinitif et le même sujet ; *weil* donnerait une cause illogique (« parce que je ne rate pas le train »)." },
+        { type: "qcm", question: "Dans quelle phrase *damit* veut-il dire « pour que » ?", choix: ["Das ist mein neuer Stift. Ich schreibe gern damit.", "Hast du einen Löffel? Ich esse die Suppe damit.", "Hier ist dein Schlüssel. Was machst du damit?", "Ich schreibe dir die Adresse auf, damit du den Weg findest."], reponse: 3, explication: "Dans *…, **damit** du den Weg **findest*** : virgule, sujet, verbe conjugué **à la fin** → c'est la conjonction « pour que ». Dans les autres phrases, *damit* = « avec ça » (*mit dem Stift, mit dem Löffel, mit dem Schlüssel*)." },
+        { type: "saisie", question: "Relie avec *damit* : « Die Lehrerin erklärt die Regel noch einmal. Die Schüler sollen sie verstehen. » (Écris la phrase entière.)", reponses: ["Die Lehrerin erklärt die Regel noch einmal, damit die Schüler sie verstehen.", "Damit die Schüler sie verstehen, erklärt die Lehrerin die Regel noch einmal.", "Die Lehrerin erklärt noch einmal die Regel, damit die Schüler sie verstehen.", "Damit die Schüler sie verstehen, erklärt die Lehrerin noch einmal die Regel.", "Die Lehrerin erklärt die Regel noch mal, damit die Schüler sie verstehen.", "Die Lehrerin erklärt die Regel nochmal, damit die Schüler sie verstehen.", "Damit die Schüler sie verstehen, erklärt die Lehrerin die Regel noch mal.", "Damit die Schüler sie verstehen, erklärt die Lehrerin die Regel nochmal.", "Die Lehrerin erklärt die Regel noch einmal, damit die Schüler die Regel verstehen."], explication: "Deux sujets (*die Lehrerin* / *die Schüler*) → **damit** ; *sollen* disparaît et le verbe *verstehen* va **à la fin** : *…, **damit** die Schüler sie **verstehen**.* N'oublie pas la virgule. En tête : *Damit die Schüler sie verstehen, **erklärt die Lehrerin**…*" },
+        { type: "saisie", question: "Complète avec le subjonctif II de *können* : « Wenn ich fliegen ___, würde ich um die Welt reisen. »", reponses: ["könnte"], explication: "Hypothèse (« si je pouvais voler ») → subjonctif II ***könnte***, verbe à la fin de la subordonnée avec *wenn*. *konnte* (sans Umlaut) est le passé réel : « je pouvais »." },
+        { type: "saisie", question: "Ton ami propose « *Gehen wir ins Kino?* ». Reformule la proposition avec *könnten*. (Écris la phrase entière, qui commence par *Wir*.)", reponses: ["Wir könnten ins Kino gehen.", "Wir könnten doch ins Kino gehen.", "Wir könnten zusammen ins Kino gehen.", "Wir könnten auch ins Kino gehen.", "Wir könnten mal ins Kino gehen."], explication: "Proposer = ***Wir könnten*** + infinitif à la fin : *Wir **könnten** ins Kino **gehen**.* (On pourrait aller au cinéma.)" },
+        { type: "qcm", texte: "jonas", question: "Pourquoi Jonas veut-il organiser un concert ?", choix: ["Pour que les élèves français et allemands fassent mieux connaissance.", "Pour gagner de l'argent pour le voyage à Lyon.", "Parce que la Musik-AG doit répéter.", "Parce que les parents l'ont demandé."], reponse: 0, explication: "« *…, **damit** sich die französischen und die deutschen Schüler besser **kennenlernen*** » : *damit* = pour que ; *sich kennenlernen* = faire connaissance. Le texte ne parle ni d'argent, ni d'une demande des parents (ils *könnten* apporter des gâteaux : c'est une simple proposition)." },
+        { type: "vf", texte: "jonas", question: "D'après le texte, les parents vont certainement apporter des gâteaux.", reponse: false, explication: "« *Unsere Eltern **könnten** Kuchen mitbringen* » = nos parents **pourraient** apporter des gâteaux : c'est une **proposition**, pas une certitude. Avec *werden* ou le présent (*Unsere Eltern bringen Kuchen mit*), ce serait sûr." },
+        { type: "redaction", question: "**Niveau fin de 3e.** Ta classe reçoit des correspondants allemands. Écris un message (6 à 8 phrases) à ton correspondant Leon pour préparer sa venue : fais au moins deux propositions d'activités (*Wir könnten…*), demande-lui poliment un service (*Könntest du…?*) et explique le but de deux préparatifs avec *damit* et *um … zu*.", corrige: "**Modèle :**\n\n*Hallo Leon,\nich freue mich sehr auf deinen Besuch! Am Samstag könnten wir zusammen ans Meer fahren, wenn das Wetter schön ist. Oder wir könnten mit meinen Freunden Fußball spielen. Meine Mutter kocht am Sonntag ein typisches Essen aus der Bretagne, damit du die französische Küche kennenlernst. Ich habe mein Zimmer aufgeräumt, um Platz für dein Bett zu haben. Könntest du mir bitte deine Ankunftszeit schreiben, damit wir dich am Bahnhof abholen können? Und könntest du deine Badesachen mitbringen?\nBis bald!\nLucas*\n\nPoints à vérifier :\n- propositions : *wir **könnten** … **fahren** / **spielen*** (infinitif à la fin) ;\n- demande polie : ***Könntest** du mir bitte … **schreiben**?* ;\n- **damit** avec deux sujets (*meine Mutter* / *du* ; *du* / *wir*) et verbe conjugué à la fin (*kennenlernst*, *abholen können*) ;\n- **um … zu** avec le même sujet (*ich* range / *ich* ai de la place) : *um Platz für dein Bett **zu haben*** ;\n- virgule devant *damit*, *um* et *wenn*." },
       ],
     },
   ],

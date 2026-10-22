@@ -10,6 +10,8 @@ export const NIVEAUX = {
       { id: "histoire-geo", nom: "Histoire-Géographie", icone: "🌍", couleur: "#c98a1b" },
       { id: "emc", nom: "EMC", icone: "⚖️", couleur: "#7a5cc7" },
       { id: "anglais", nom: "Anglais", icone: "🇬🇧", couleur: "#1f8a70" },
+      { id: "espagnol", nom: "Espagnol (bilangue)", icone: "🇪🇸", couleur: "#d9622b" },
+      { id: "allemand", nom: "Allemand (bilangue)", icone: "🇩🇪", couleur: "#b8860b" },
       { id: "sciences", nom: "Sciences et technologie", icone: "🔬", couleur: "#3f9b3f" },
     ],
   },

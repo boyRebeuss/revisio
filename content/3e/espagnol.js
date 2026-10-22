@@ -1290,6 +1290,24 @@ Hoy la escuela tiene once alumnos. Una de las familias nuevas es la de Andrés y
 Nada es fácil: en invierno hace mucho frío y la conexión a internet a veces falla. Pero la alcaldesa es optimista: «Un pueblo sin niños es un pueblo sin futuro. Ahora, por fin, se oyen otra vez risas en la plaza.»
 
 *Vocabulario* : vaciada = vidée ; estar a punto de = être sur le point de ; la alcaldesa = la maire ; el alquiler = la location, le loyer ; a cambio = en échange ; quedarse = rester ; las risas = les rires.`,
+        muertos: `**Nuestro Día de Muertos** — correo de Ximena, 15 años, Oaxaca (México) (texto de entrenamiento)
+
+Querida Chloé:
+
+¿Qué tal? En tu último correo me preguntaste qué es el Día de Muertos. Te lo explico, porque es mi fiesta favorita.
+
+Cada año, el 1 y el 2 de noviembre, en México recordamos a nuestros familiares muertos. Pero no es una fiesta triste: creemos que esos días las almas de los muertos vuelven a visitarnos, y las recibimos con alegría.
+
+Una semana antes, mi madre y yo preparamos la ofrenda en el salón: una mesa con fotos de mis abuelos, velas, calaveras de azúcar y flores de cempasúchil, que son de color naranja. También ponemos la comida que más les gustaba: mi abuelo Rafael adoraba el mole y el chocolate caliente. Y nunca falta el pan de muerto, un pan dulce que solo se come en esta época del año.
+
+La noche del 1 al 2, vamos al cementerio con mis tíos y mis primos. Limpiamos las tumbas, las decoramos con flores y velas y nos quedamos allí hasta muy tarde: comemos, cantamos y contamos anécdotas de los abuelos. Mi hermano pequeño, en cambio, siempre se duerme antes de medianoche.
+
+¿Y ustedes, en Francia, también tienen una fiesta así?
+
+Un abrazo,
+Ximena
+
+*Vocabulario* : las almas = les âmes ; la ofrenda = l'autel des offrandes ; las velas = les bougies ; las calaveras de azúcar = les têtes de mort en sucre ; el cempasúchil = la rose d'Inde (fleur orange) ; limpiar = nettoyer ; las tumbas = les tombes ; dormirse = s'endormir ; ustedes = vous (en Amérique latine, on ne dit pas *vosotros*).`,
       },
       exercices: [
         { type: "qcm", texte: "fallas", question: "De quoi parle principalement Lucía dans son blog ?", choix: ["de ses vacances d'été à la plage", "d'un concours de dessin dans son collège", "d'une grande fête traditionnelle de sa ville", "d'un incendie qui a détruit son quartier"], reponse: 2, explication: "Lucía présente **les Fallas**, la fête de Valence (« *la semana más loca del año* »), du 15 au 19 mars. Le feu de la fin (*la cremà*) est volontaire : ce n'est pas un incendie accidentel." },
@@ -1301,7 +1319,286 @@ Nada es fácil: en invierno hace mucho frío y la conexión a internet a veces f
         { type: "saisie", texte: "villarroble", question: "Combien de personnes vivent aujourd'hui à Villarroble ? (en chiffres)", reponses: ["140", "140 personas", "140 habitantes", "140 personnes", "140 habitants"], explication: "« *Hoy solo viven allí 140 personas* » (ciento cuarenta). En 1960, il y en avait 1 200 : le village a perdu 1 060 habitants. Ne confonds pas *hoy* (aujourd'hui) et *en 1960*." },
         { type: "vf", texte: "villarroble", question: "Les familles qui louent une maison rénovée doivent rester au moins quatre ans au village.", reponse: true, explication: "Vrai : « *A cambio, las familias tienen que quedarse por lo menos cuatro años* ». *Tener que* = devoir ; *por lo menos* = au moins." },
         { type: "qcm", texte: "villarroble", question: "Según Paula, ¿qué inconveniente tiene la vida en el pueblo?", choix: ["El alquiler es muy caro.", "No ve a sus hijas.", "No puede trabajar.", "No hay ningún cine ni ningún hospital cerca."], reponse: 3, explication: "« *aunque no hay ningún cine ni ningún hospital cerca* » : *aunque* introduit l'inconvénient. Le loyer cher et le manque de temps avec ses filles, c'était **en ville** (*pagábamos, no veíamos* : imparfait, avant) ; elle travaille par internet." },
-        { type: "redaction", texte: "villarroble", question: "1. Explique en français l'idée de la maire : ce que propose la mairie, ce qu'elle demande en échange, et le résultat.\n2. Recopie deux phrases ou expressions négatives du texte et traduis-les.\n3. **Expression** (60 à 80 mots) : *¿Te gustaría vivir en Villarroble?* Réponds en espagnol avec deux avantages, deux inconvénients et ton avis.", corrige: "1. La mairie a **rénové cinq maisons vides** et les **loue 150 € par mois** à des **familles avec enfants**. En échange, les familles doivent **rester au moins quatre ans**. Résultat : l'école, qui n'avait plus que 3 élèves et allait fermer, en compte maintenant **11**, et l'on entend de nouveau des rires d'enfants sur la place.\n\n2. Au choix :\n- « *casi nunca volvieron* » : ils ne sont presque jamais revenus ;\n- « *no veíamos a nuestras hijas* » : nous ne voyions pas nos filles ;\n- « *no hay ningún cine ni ningún hospital cerca* » : il n'y a ni cinéma ni hôpital à proximité ;\n- « *Nada es fácil* » : rien n'est facile.\n\n3. Modèle :\n*A mí me gustaría vivir en Villarroble, pero solo unos años. Lo bueno es que la vida es tranquila y el alquiler es barato: 150 euros al mes no es nada. Además, en una escuela con once alumnos, los profesores tienen tiempo para todos. Lo malo es que no hay ningún cine y el hospital está a cuarenta kilómetros. Tampoco me gusta el frío. En conclusión, creo que es una buena idea para las familias, pero yo echaría de menos a mis amigos.*\n\nPoints vérifiés : informations exactes tirées du texte ; avantages et inconvénients introduits par *lo bueno es que / lo malo es que* ; négations (*no hay ningún, tampoco*) ; connecteurs (*además, pero, en conclusión*) ; conditionnel (*me gustaría, echaría de menos*)." }
+        { type: "redaction", texte: "villarroble", question: "1. Explique en français l'idée de la maire : ce que propose la mairie, ce qu'elle demande en échange, et le résultat.\n2. Recopie deux phrases ou expressions négatives du texte et traduis-les.\n3. **Expression** (60 à 80 mots) : *¿Te gustaría vivir en Villarroble?* Réponds en espagnol avec deux avantages, deux inconvénients et ton avis.", corrige: "1. La mairie a **rénové cinq maisons vides** et les **loue 150 € par mois** à des **familles avec enfants**. En échange, les familles doivent **rester au moins quatre ans**. Résultat : l'école, qui n'avait plus que 3 élèves et allait fermer, en compte maintenant **11**, et l'on entend de nouveau des rires d'enfants sur la place.\n\n2. Au choix :\n- « *casi nunca volvieron* » : ils ne sont presque jamais revenus ;\n- « *no veíamos a nuestras hijas* » : nous ne voyions pas nos filles ;\n- « *no hay ningún cine ni ningún hospital cerca* » : il n'y a ni cinéma ni hôpital à proximité ;\n- « *Nada es fácil* » : rien n'est facile.\n\n3. Modèle :\n*A mí me gustaría vivir en Villarroble, pero solo unos años. Lo bueno es que la vida es tranquila y el alquiler es barato: 150 euros al mes no es nada. Además, en una escuela con once alumnos, los profesores tienen tiempo para todos. Lo malo es que no hay ningún cine y el hospital está a cuarenta kilómetros. Tampoco me gusta el frío. En conclusión, creo que es una buena idea para las familias, pero yo echaría de menos a mis amigos.*\n\nPoints vérifiés : informations exactes tirées du texte ; avantages et inconvénients introduits par *lo bueno es que / lo malo es que* ; négations (*no hay ningún, tampoco*) ; connecteurs (*además, pero, en conclusión*) ; conditionnel (*me gustaría, echaría de menos*)." },
+        { type: "qcm", texte: "muertos", question: "Pourquoi Ximena écrit-elle à Chloé ?", choix: ["pour lui expliquer une fête de son pays", "pour l'inviter à passer les vacances à Oaxaca", "pour lui annoncer la mort de son grand-père", "pour lui demander une recette de cuisine"], reponse: 0, explication: "« *me preguntaste qué es el Día de Muertos. Te lo explico* » : Chloé a posé une question, Ximena y répond. Le grand-père Rafael est cité parce qu'on l'honore pendant la fête, pas parce qu'il vient de mourir (*adoraba* : imparfait, souvenir)." },
+        { type: "vf", texte: "muertos", question: "Pour Ximena, le Día de Muertos est une fête triste.", reponse: false, explication: "Faux : « *Pero no es una fiesta triste* » ; on reçoit les âmes des morts « *con alegría* » (avec joie), et c'est même sa fête préférée (« *es mi fiesta favorita* »). Attention : le mot *triste* est bien dans le texte, mais après une **négation**." },
+        { type: "saisie", texte: "muertos", question: "Relève dans le texte le nom de la fleur orange qu'on met sur l'*ofrenda* (recopie-le avec son accent écrit).", reponses: ["cempasúchil", "flores de cempasúchil", "flor de cempasúchil", "las flores de cempasúchil"], explication: "« *flores de **cempasúchil**, que son de color naranja* ». C'est un mot d'origine nahuatl (la langue des Aztèques) ; en français, on appelle cette fleur la rose d'Inde. Recopie-le avec son accent écrit." },
+        { type: "qcm", texte: "muertos", question: "Que fait la famille de Ximena la nuit du 1er au 2 novembre ?", choix: ["Elle reste à la maison devant l'*ofrenda*.", "Elle va au cimetière, mais rentre avant minuit pour coucher le petit frère.", "Elle prépare le pan de muerto pour toute la semaine.", "Elle va au cimetière, nettoie et décore les tombes, et y reste tard."], reponse: 3, explication: "« *vamos al cementerio [...] Limpiamos las tumbas, las decoramos con flores y velas y nos quedamos allí hasta muy tarde* ». Le petit frère s'endort avant minuit (*se duerme*), mais la famille ne rentre pas pour autant : *en cambio* oppose seulement son attitude à celle des autres. L'*ofrenda* se prépare une semaine avant, à la maison." },
+        { type: "redaction", texte: "muertos", question: "1. Explique en français ce qu'est l'*ofrenda* et cite au moins cinq éléments qu'on y trouve.\n2. Relève deux phrases qui montrent que ce n'est pas une fête triste.\n3. **Expression** (60 à 80 mots) : réponds à la question de Ximena (*¿Y ustedes, en Francia, también tienen una fiesta así?*) en présentant la Toussaint en France, puis dis ce qui te plaît dans le Día de Muertos.", corrige: "1. L'*ofrenda* est une **table installée dans le salon** une semaine avant la fête pour accueillir les âmes des morts de la famille. On y trouve : des **photos** des grands-parents, des **bougies**, des **têtes de mort en sucre**, des **fleurs orange de cempasúchil**, les **plats préférés** des défunts (le mole et le chocolat chaud du grand-père Rafael) et le **pan de muerto**, un pain sucré.\n\n2. Au choix :\n- « *Pero no es una fiesta triste* » ;\n- « *las recibimos con alegría* » ;\n- « *comemos, cantamos y contamos anécdotas de los abuelos* » ;\n- « *es mi fiesta favorita* ».\n\n3. Modèle :\n*Querida Ximena: ¡Gracias por tu correo! En Francia tenemos el Día de Todos los Santos, el 1 de noviembre. Muchas familias van al cementerio y ponen flores, sobre todo crisantemos, en las tumbas. Pero es un día más serio y más triste que en México: no cantamos y no hacemos ofrendas. Lo que más me gusta del Día de Muertos es la alegría: recordar a los abuelos con fotos, música y su comida favorita. ¡Me encantaría verlo un día! Un abrazo, Chloé*\n\nPoints vérifiés : informations exactes tirées du texte ; comparaison (*más serio que*) ; négation (*no cantamos*) ; *lo que más me gusta* ; *me encantaría* (conditionnel) ; *ustedes* respecté dans la question, formule de lettre (*Querida... Un abrazo*)." }
+      ]
+    },
+    {
+      id: "relativos-interrogativos",
+      titre: "Relatifs et interrogatifs : que, donde, lo que, ¿qué?, ¿cuál?...",
+      theme: "Grammaire",
+      cours: `
+## Les pronoms relatifs : relier deux phrases
+Un relatif évite de répéter un nom : *Tengo una amiga. Mi amiga vive en Lima.* → *Tengo una amiga **que** vive en Lima.*
+
+### Que : à la fois « qui » et « que »
+En espagnol, **que** traduit « qui » (sujet) **et** « que » (complément), pour les personnes comme pour les choses :
+- *El chico **que** habla es mi primo.* (le garçon qui parle)
+- *La película **que** vimos era genial.* (le film que nous avons vu)
+- Sans préposition, on ne traduit pas « qui » relatif par *quien* : ✗ *el chico quien habla* (on ne rencontre *quien* sans préposition qu'entre virgules, dans un style soutenu : *mi tío, quien vive en Lima,...*).
+
+### Après une préposition (con, en, de, para...)
+| Pour... | On emploie | Exemple |
+|---|---|---|
+| une personne | **quien, quienes** ou **el que, la que, los que, las que** | *la chica **con quien** hablo* = *la chica **con la que** hablo* |
+| une chose | **el que, la que, los que, las que** (parfois *que* seul après *en*) | *el bolígrafo **con el que** escribo* ; *la casa **en la que** vivo* |
+
+- « dont » se dit le plus souvent **del que, de la que, de quien** : *el libro **del que** te hablé* (le livre dont je t'ai parlé).
+- Pour la possession, tu peux rencontrer **cuyo, cuya, cuyos, cuyas**, qui s'accorde avec ce qui est possédé : *una escritora **cuyas** novelas leo* (une écrivaine dont je lis les romans).
+
+### Donde : où (un lieu)
+- *La ciudad **donde** nací* = *la ciudad **en la que** nací*. Pas d'accent écrit : ce n'est pas une question.
+- Pour le temps, pas de *donde* : « le jour où tu es arrivé » = *el día **en que** llegaste* (ou *el día que llegaste*).
+
+### Lo que : ce que, ce qui
+- *No entiendo **lo que** dices.* (je ne comprends pas ce que tu dis)
+- ***Lo que** me molesta es el ruido.* (ce qui me gêne, c'est le bruit)
+- ***Lo que** más me gusta es...* (ce que je préfère, c'est...) : très utile pour donner son avis.
+
+### El que, la que, los que : celui qui, ceux qui
+- *Este móvil es más caro que **el que** tengo.* (que celui que j'ai)
+- ***Los que** llegan tarde no pueden entrar.* (ceux qui arrivent en retard)
+
+## Les interrogatifs : toujours un accent écrit
+| Espagnol | Français |
+|---|---|
+| ¿qué? | que ? quoi ? quel ? |
+| ¿quién? ¿quiénes? | qui ? |
+| ¿cuál? ¿cuáles? | lequel ? quel ? |
+| ¿dónde? ¿adónde? ¿de dónde? | où ? où (avec mouvement) ? d'où ? |
+| ¿cuándo? | quand ? |
+| ¿cómo? | comment ? |
+| ¿cuánto? ¿cuánta? ¿cuántos? ¿cuántas? | combien ? (s'accorde avec le nom) |
+| ¿por qué? ¿para qué? | pourquoi ? dans quel but ? |
+
+- L'accent reste dans les **questions indirectes**, après *no sé, me pregunto, dime, explícame...* : *No sé **dónde** vive. Dime **qué** quieres. Me pregunto **por qué** no viene.*
+- Il reste aussi dans les **exclamations** : *¡**Qué** bonito! ¡**Cuánta** gente! ¡**Cómo** llueve!*
+- Sans accent, le même mot est un relatif ou une conjonction : *Vivo **donde** vivía mi abuela* / *¿**Dónde** vives?* ; *Creo **que** viene* / *¿**Qué** dices?*
+
+### ¿Qué? ou ¿cuál?
+- **¿Qué?** devant un nom : *¿**Qué** libro lees?* ; et pour demander une définition : *¿**Qué** es el mole?*
+- **¿Cuál?** devant le verbe *ser*, pour une information précise ou un choix : *¿**Cuál** es tu número de teléfono? ¿**Cuál** es la capital de Chile? ¿**Cuál** prefieres, el rojo o el azul?*
+
+>! **Exemple résolu** : relie les deux phrases, puis pose la question correspondante.
+- *Esta es la playa. Pasé mis vacaciones en esta playa.* → *Esta es la playa **donde** (= en la que) pasé mis vacaciones.*
+- Question : *¿**Dónde** pasaste tus vacaciones?* (accent écrit : c'est une question).
+- Question indirecte : *Mi amigo me pregunta **dónde** pasé mis vacaciones* (l'accent reste).
+
+>! **Erreurs fréquentes**
+- ✗ *El chico quien habla* → ✓ *El chico que habla*.
+- ✗ *Esto es que pienso* → ✓ *Esto es **lo que** pienso* (ce que je pense).
+- ✗ *No sé que hacer* → ✓ *No sé **qué** hacer* (question indirecte : accent).
+- ✗ *¿Qué es tu dirección?* → ✓ *¿**Cuál** es tu dirección?*
+- ✗ *¿Cuantos años tienes?* → ✓ *¿**Cuántos** años tienes?*
+
+> **À retenir** : relatif **que** = qui et que ; après une préposition : **quien** (personne) ou **el que, la que** ; **donde** = où (lieu) ; **lo que** = ce que, ce qui ; interrogatifs et exclamatifs avec accent écrit, même dans une question indirecte (*No sé dónde vive*) ; **¿cuál es...?** pour demander une information précise.
+`,
+      exercices: [
+        { type: "vf", question: "« La fille qui habite à côté est colombienne » se traduit : « *La chica quien vive al lado es colombiana.* »", reponse: false, explication: "« qui » relatif sujet se dit **que** : *La chica que vive al lado es colombiana*. Dans une phrase comme celle-ci, on n'emploie *quien* qu'après une préposition (*con quien, para quien*)." },
+        { type: "qcm", question: "« Le livre que je lis est passionnant. »", choix: ["El libro quien leo es apasionante.", "El libro lo que leo es apasionante.", "El libro que leo es apasionante.", "El libro cual leo es apasionante."], reponse: 2, explication: "« que » relatif complément se dit **que** : *El libro que leo*. *Quien* ne s'emploie pas ici (pas de préposition, et il s'agit d'une chose) ; *lo que* veut dire « ce que », sans nom devant." },
+        { type: "saisie", question: "Complète : « No entiendo ... dices. » (je ne comprends pas **ce que** tu dis)", reponses: ["lo que"], explication: "« ce que » = **lo que** : *No entiendo lo que dices*. *Que* seul ne suffit pas : il faut *lo* devant, puisqu'il n'y a pas de nom à reprendre." },
+        { type: "qcm", question: "Complète la question : « *¿... es tu dirección?* » (Quelle est ton adresse ?)", choix: ["Cuál", "Qué", "Cuánto", "Quién"], reponse: 0, explication: "Pour demander une information précise avec *ser*, on emploie **¿Cuál es...?** : *¿Cuál es tu dirección? ¿Cuál es tu número?* *¿Qué es...?* demande une définition (*¿Qué es el mole?*)." },
+        { type: "vf", question: "La phrase « *No sé donde vive Pablo.* » est correctement écrite.", reponse: false, explication: "C'est une **question indirecte** (je ne sais pas où il habite) : l'interrogatif garde son accent écrit. Il faut écrire *No sé **dónde** vive Pablo*. Sans accent, *donde* est un relatif : *la ciudad donde vive Pablo*." },
+        { type: "saisie", question: "Complète avec l'interrogatif qui convient (attention à l'accent écrit) : « ¿... hermanos tienes? —Tengo dos. »", reponses: ["Cuántos"], explication: "« combien de » = **¿Cuántos?**, accordé avec *hermanos* (masculin pluriel), avec un accent écrit : *¿Cuántos hermanos tienes?* Au féminin : *¿Cuántas hermanas tienes?*" },
+        { type: "qcm", question: "« La ville où je suis né »", choix: ["La ciudad que nací", "La ciudad dónde nací", "La ciudad cuando nací", "La ciudad donde nací"], reponse: 3, explication: "« où » relatif (un lieu) = **donde**, sans accent : *la ciudad donde nací* (ou *la ciudad en la que nací*). *Dónde* avec accent est réservé aux questions ; *que* seul ne suffit pas pour un lieu." },
+        { type: "qcm", question: "« La fille avec qui je parle est ma voisine. »", choix: ["La chica que hablo es mi vecina.", "La chica con quien hablo es mi vecina.", "La chica con quién hablo es mi vecina.", "La chica quien hablo con es mi vecina."], reponse: 1, explication: "Après une préposition, pour une personne : **con quien** (ou *con la que*) : *La chica con quien hablo*. Pas d'accent : ce n'est pas une question. La préposition se place toujours devant le relatif, jamais à la fin." },
+        { type: "saisie", question: "Traduis : « Je ne sais pas quoi faire. » (attention aux accents écrits)", reponses: ["No sé qué hacer", "Yo no sé qué hacer"], explication: "**No sé qué hacer** : *qué* garde son accent dans cette question indirecte, et *sé* (je sais) prend un accent pour se distinguer du pronom *se*." },
+        { type: "redaction", question: "Tu présentes ta ville ou ton village à un correspondant mexicain (5 à 6 phrases). Emploie au moins une fois *que*, *donde* et *lo que*. Puis pose-lui quatre questions avec quatre interrogatifs différents.", corrige: "Modèle :\n\n*Vivo en Rennes, una ciudad que está en el oeste de Francia. Es la ciudad donde nací y donde viven mis abuelos. Tiene un mercado muy grande que se hace todos los sábados por la mañana. Lo que más me gusta es el centro histórico, con sus casas antiguas de madera. Lo que no me gusta es la lluvia: ¡aquí llueve mucho! Mi colegio está en un barrio tranquilo donde hay muchos parques.*\n\n*Y tú, ¿dónde vives exactamente? ¿Cómo vas al colegio? ¿Cuántos alumnos hay en tu clase? ¿Cuál es tu plato mexicano favorito? ¿Qué haces los fines de semana?*\n\nPoints vérifiés :\n- relatifs : *que* (sujet : *una ciudad que está*), *donde* (lieu : *la ciudad donde nací*), *lo que* (*lo que más me gusta*) ;\n- interrogatifs avec accent écrit : *dónde, cómo, cuántos, cuál, qué* ;\n- *¿cuál es...?* pour l'information précise ; *cuántos* accordé avec *alumnos* ;\n- points d'interrogation **¿ ?** au début et à la fin." }
+      ]
+    },
+    {
+      id: "acentuacion-pronunciacion",
+      titre: "Prononciation et accent écrit : où mettre la tilde ?",
+      theme: "Phonologie",
+      cours: `
+## Les sons de l'espagnol
+| Lettre | Se prononce | Exemples |
+|---|---|---|
+| **u** | « ou » | *luna, mucho* |
+| **e** | « é », jamais muet | *grande* (« grandé »), *noche* |
+| **j**, et **g** devant e, i | son raclé au fond de la gorge (la *jota*) | *joven, gente, girar* |
+| **gue, gui** | g dur, le u ne se prononce pas | *guerra, guitarra* |
+| **güe, güi** | le u se prononce (tréma) | *pingüino, bilingüe* |
+| **ll** et **y** | à peu près « y » (dans la plupart des pays) | *llamar, playa, yo* |
+| **ñ** | « gn » | *España, niño* |
+| **ch** | « tch » | *chico, mucho* |
+| **h** | ne se prononce jamais | *hablar, hoy* |
+| **b** et **v** | le même son | *bien, vino* |
+| **r** | roulé, un seul battement | *pero, caro* |
+| **rr**, et **r** en début de mot ou après n, l, s | fortement roulé | *perro, rojo, Enrique* |
+| **z**, et **c** devant e, i | en Espagne, comme le *th* anglais ; en Amérique latine (et dans une partie de l'Andalousie), « s » | *zapato, cine* |
+| **s** | toujours « ss », jamais « z » | *casa, rosa* |
+| **qu** | « k » | *queso, aquí* |
+
+Attention aux paires : *pero* (mais) / *perro* (chien) ; *caro* (cher) / *carro* (chariot ; voiture en Amérique latine).
+
+## L'accent tonique
+Dans chaque mot de plusieurs syllabes, une syllabe est prononcée plus fort : c'est l'**accent tonique**. Il peut changer le sens :
+- *papa* (pomme de terre, accent sur PA-) / *papá* (papa, accent sur -PÁ) ;
+- *hablo* (je parle) / *habló* (il a parlé) ;
+- *esta* (cette) / *está* (il est).
+
+## Les trois règles de l'accent écrit (la *tilde*)
+1. Le mot finit par une **voyelle, -n ou -s** → l'accent tonique tombe naturellement sur l'**avant-dernière** syllabe : *ca-sa, jo-ven, e-xa-men, ha-blan, li-bros*. Pas d'accent écrit.
+2. Le mot finit par une **autre consonne** (l, r, d, z, j...) → l'accent tonique tombe naturellement sur la **dernière** syllabe : *ha-blar, ciu-dad, es-pa-ñol, re-loj*. Pas d'accent écrit.
+3. **Sinon**, on écrit l'accent sur la voyelle tonique.
+
+Cas de la règle 3 :
+- dernière syllabe d'un mot terminé par voyelle, n ou s : *ca-fé, can-ción, in-glés, es-tán* ;
+- avant-dernière syllabe d'un mot terminé par une autre consonne : *ár-bol, fá-cil, lá-piz, Pé-rez* ;
+- **avant-avant-dernière** syllabe : **toujours** un accent écrit : *mú-si-ca, sá-ba-do, te-lé-fo-no, A-mé-ri-ca*.
+
+## Cas particuliers
+- Un **i** ou un **u** tonique à côté d'une autre voyelle prend un accent pour se détacher : *dí-a, pa-ís, tí-o, frí-o, Ra-úl*.
+- **Le pluriel** ajoute une syllabe : l'accent écrit peut apparaître ou disparaître. *joven → jóvenes, examen → exámenes* ; *canción → canciones, inglés → ingleses, alemán → alemanes*.
+- **L'enclise** (pronom collé au verbe) : *compra → cómpralo, dando → dándole, sienta → siéntate*.
+- Les mots d'**une syllabe** n'ont pas d'accent (*fue, fui, dio, vio, pie, ti*), sauf pour distinguer deux mots :
+
+| Sans accent | Avec accent |
+|---|---|
+| el (le) | él (il, lui) |
+| tu (ton, ta) | tú (tu, toi) |
+| mi (mon, ma) | mí (moi, après une préposition) |
+| te (te, pronom) | té (le thé) |
+| se (se, pronom) | sé (je sais) |
+| si (si) | sí (oui) |
+| de (de) | dé (« que je donne, qu'il donne » : subjonctif de *dar*, vu au lycée) |
+| mas (mais, rare) | más (plus) |
+
+- Les interrogatifs et exclamatifs prennent toujours un accent : *qué, quién, dónde, cómo, cuándo, cuánto, cuál* (voir le chapitre sur les relatifs et interrogatifs).
+
+>! **Exemple résolu** : faut-il un accent écrit à *lapiz* (crayon), *ordenador* et *musica* ?
+- *lapiz* se prononce LA-piz et finit par **z** : naturellement, l'accent tomberait sur la dernière syllabe. Il faut donc l'écrire : **lápiz**.
+- *ordenador* se prononce or-de-na-DOR et finit par **r** : l'accent tombe naturellement sur la dernière syllabe. Pas d'accent écrit.
+- *musica* se prononce MU-si-ca : avant-avant-dernière syllabe, donc toujours un accent : **música**.
+
+>! **Erreurs fréquentes**
+- ✗ *examén*, ✗ *jóven* → ✓ *examen, joven* (ils finissent par n : accent naturel sur l'avant-dernière) ; mais ✓ *exámenes, jóvenes* au pluriel.
+- ✗ *canciónes* → ✓ *canciones*.
+- ✗ *para tí* → ✓ *para ti*.
+- ✗ *Ayer Ana hablo con Pablo* → ✓ *Ayer Ana habló con Pablo* (*hablo* sans accent = je parle).
+- Prononcer à la française le *h* ou un *e* muet : *hombre* se dit « ombré ».
+
+> **À retenir** : u = « ou », e jamais muet, j = jota, h muet, b = v, rr roulé ; mot terminé par voyelle, n, s → accent naturel sur l'avant-dernière syllabe ; autre consonne → sur la dernière ; sinon accent écrit, et toujours sur l'avant-avant-dernière (*música*) ; accent qui distingue : él, tú, mí, té, sé, sí, más ; jamais sur *ti* ni sur *fue*.
+`,
+      exercices: [
+        { type: "qcm", question: "Dans quel mot l'accent tonique tombe-t-il sur la **dernière** syllabe ?", choix: ["joven", "casa", "ciudad", "examen"], reponse: 2, explication: "*ciudad* finit par **d** (une consonne autre que n ou s) : l'accent tombe naturellement sur la dernière syllabe, ciu-DAD. *joven, casa, examen* finissent par une voyelle ou par n : accent sur l'avant-dernière (JO-ven, CA-sa, e-XA-men)." },
+        { type: "saisie", question: "Le mot *musica* se prononce MU-si-ca. Écris-le avec son accent écrit.", reponses: ["música"], explication: "L'accent tonique tombe sur l'**avant-avant-dernière** syllabe : il faut toujours l'écrire. **música**, comme *sábado, teléfono, América*." },
+        { type: "qcm", question: "Quel mot est correctement écrit ?", choix: ["examén", "jóven", "canciónes", "inglés"], reponse: 3, explication: "*inglés* : accent tonique sur la dernière syllabe d'un mot terminé par **s** → accent écrit. *examen* et *joven* (terminés par n, accent naturel sur l'avant-dernière) n'en prennent pas ; *canciones* non plus (pluriel : l'accent tombe naturellement sur -CIO-)." },
+        { type: "saisie", question: "Écris le pluriel de *joven* (avec l'accent écrit s'il en faut un).", reponses: ["jóvenes"], explication: "*jóvenes* se prononce JO-ve-nes : l'accent tonique est maintenant sur l'avant-avant-dernière syllabe, donc il faut l'écrire. De même : *examen → exámenes*." },
+        { type: "saisie", question: "Complète avec *el* ou *él* : « ¿Este regalo es para tu hermano? —Sí, es para ... »", reponses: ["él"], explication: "Ici, c'est le pronom « lui » : **él**, avec accent. Sans accent, *el* est l'article « le » (*el regalo*)." },
+        { type: "qcm", question: "« Ce cadeau est pour toi. »", choix: ["Este regalo es para tí.", "Este regalo es para ti.", "Este regalo es para tu.", "Este regalo es para té."], reponse: 1, explication: "Après une préposition, « toi » se dit **ti**, sans accent (un mot d'une syllabe qui n'a pas de double à distinguer). Attention : *mí* (moi) en prend un, pour le distinguer de *mi* (mon). *Tu* = ton ; *té* = le thé." },
+        { type: "qcm", question: "« Hier, Pablo a parlé avec son professeur. »", choix: ["Ayer Pablo hablo con su profesor.", "Ayer Pablo hábló con su profesor.", "Ayer Pablo habló con su profesor.", "Ayer Pablo hablé con su profesor."], reponse: 2, explication: "Indefinido, 3e personne : **habló**, accent sur la dernière syllabe. *hablo* sans accent = je parle (présent) ; *hablé* = j'ai parlé ; un mot ne porte jamais deux accents écrits." },
+        { type: "qcm", question: "Dans quel mot la lettre *g* se prononce-t-elle comme la *jota* ?", choix: ["gato", "guitarra", "pingüino", "gente"], reponse: 3, explication: "Devant **e** et **i**, le *g* se prononce comme la *jota* : **gente**, *girar*. Devant a, o, u (*gato*) et dans *gue, gui* (*guitarra*), *güe, güi* (*pingüino*), il reste dur, comme dans « gâteau »." },
+        { type: "vf", question: "En Amérique latine, *cine* et *zapato* se prononcent avec le son « s ».", reponse: true, explication: "Vrai : c'est le *seseo*. En Amérique latine (et dans une partie de l'Andalousie), *z* et *c* devant e, i se prononcent « s ». Dans le reste de l'Espagne, ils se prononcent comme le *th* anglais. Les deux prononciations sont correctes." },
+        { type: "redaction", question: "Recopie ce texte en ajoutant les **8 accents écrits** qui manquent, puis explique la règle pour trois d'entre eux.\n\n*El sabado pasado, mi hermano y yo fuimos a un concierto de musica latina. ¿Donde? En el estadio de la ciudad. Habia mucha gente joven. Mi hermano me pregunto: «¿Te gusta?». Le conteste que si. ¡Fue fantastico!*", corrige: "Texte corrigé :\n\n*El **sábado** pasado, mi hermano y yo fuimos a un concierto de **música** latina. ¿**Dónde**? En el estadio de la ciudad. **Había** mucha gente joven. Mi hermano me **preguntó**: «¿Te gusta?». Le **contesté** que **sí**. ¡Fue **fantástico**!*\n\nLes règles :\n- *sábado, música, fantástico* : accent tonique sur l'avant-avant-dernière syllabe → toujours un accent écrit ;\n- *preguntó, contesté* : indefinido, accent tonique sur la dernière syllabe d'un mot terminé par une voyelle → accent écrit (*pregunto* sans accent = je demande) ;\n- *había* : le **i** tonique à côté d'une voyelle prend un accent (comme *día*) ;\n- *dónde* : interrogatif → toujours un accent ;\n- *sí* (oui) : accent pour le distinguer de *si* (si).\n\nSans accent écrit et c'est normal : *joven, ciudad, concierto, estadio, fuimos, fue* (mot d'une syllabe)." }
+      ]
+    },
+    {
+      id: "comprension-oral",
+      titre: "Comprendre l'oral : méthode et entraînement sur transcriptions",
+      theme: "Méthodologie",
+      cours: `
+## Ce qu'on te demande
+En compréhension de l'oral, tu écoutes un document court (annonce, message vocal, dialogue, interview, extrait de reportage) deux ou trois fois, puis tu dis ce que tu as compris, le plus souvent en français. On ne te demande pas de tout comprendre, mais de repérer **l'essentiel** et quelques **informations précises**.
+
+>! **Dans l'appli** : les documents de ce chapitre sont des **transcriptions** (le texte écrit de ce qu'on entend). Pour t'entraîner vraiment, demande à quelqu'un de te les lire à voix haute, à vitesse normale, sans les regarder ; ou lis-les toi-même une fois à voix haute, puis réponds en regardant le texte le moins possible.
+
+## La méthode en trois temps
+1. **Avant d'écouter** : lis la consigne et les questions ; devine la situation (une gare ? un message d'ami ? une émission de radio ?) et les mots que tu vas sans doute entendre.
+2. **Pendant l'écoute** : à la 1re écoute, l'essentiel (qui parle ? à qui ? où ? de quoi ? sur quel ton : joyeux, inquiet, en colère ?) ; à la 2e écoute, les détails (chiffres, heures, lieux, noms propres). Note des mots-clés, pas des phrases entières.
+3. **Après l'écoute** : relie tes notes, vérifie que ta réponse est logique, puis rédige.
+
+## Les indices propres à l'oral
+- **L'intonation** : la voix monte à la fin d'une question (*¿Vienes?*) ; une exclamation (*¡Qué rollo!* = quelle barbe !) exprime un sentiment.
+- **Les petits mots de la conversation** organisent la parole mais ne portent pas l'information :
+
+| Mot | Sens |
+|---|---|
+| *oye, mira* | dis donc, écoute |
+| *bueno, pues* | bon, eh bien |
+| *vale* (Espagne), *dale* (Argentine) | d'accord |
+| *o sea* | c'est-à-dire |
+| *¿sabes?, ¿no?, ¿eh?* | tu sais ?, n'est-ce pas ? |
+| *¡venga!* | allez ! |
+| *¡qué va!* | pas du tout ! |
+| *¿de verdad?* | vraiment ? |
+| *es que...* | c'est que... (annonce une excuse, une cause) |
+
+- **Les enchaînements** : les mots se collent les uns aux autres : *los otros* s'entend « losotros ». Ne cherche pas de blanc entre les mots.
+- **Les variantes régionales** : en Amérique latine, on dit *ustedes* (jamais *vosotros*) et *z*, *ce*, *ci* se prononcent « s » ; en Argentine, on dit *vos* au lieu de *tú* (*vos tenés* = *tú tienes*), et *ll*, *y* se prononcent comme le « j » français (*yo* ≈ « jo »), ou comme « ch » chez beaucoup de jeunes (*yo* ≈ « cho »).
+
+## Les nombres qui se ressemblent
+| On entend | Ne confonds pas avec |
+|---|---|
+| *dos* (2) | *doce* (12) |
+| *tres* (3) | *trece* (13) |
+| *sesenta* (60) | *setenta* (70) |
+| *quince* (15) | *cincuenta* (50) |
+| *quinientos* (500) | *cincuenta* (50) |
+| *setecientos* (700) | *setenta* (70) |
+
+Les heures : *a las doce y cuarto* (12 h 15), *a las diez y media* (10 h 30), *a las cinco menos cuarto* (4 h 45 ou 16 h 45), *de la tarde* (de l'après-midi).
+
+>! **Exemple résolu** : on entend « *Bueno, pues nada, que al final no puedo ir, ¿vale? Es que tengo que cuidar a mi hermano.* »
+- *Bueno, pues nada... ¿vale?* : des mots de conversation, sans information.
+- L'information : *no puedo ir* (la personne ne viendra pas) ; la cause, annoncée par *es que* : *tengo que cuidar a mi hermano*.
+- Réponse : « Elle ne pourra pas venir, car elle doit garder son frère. »
+
+>! **Erreurs fréquentes**
+- Vouloir tout comprendre et bloquer sur un mot : passe, et concentre-toi sur la suite.
+- Confondre *dos* et *doce*, *sesenta* et *setenta*.
+- Ne pas entendre le *no* en début de phrase : *No vamos al cine* = on ne va pas au cinéma.
+- Prendre *pues, bueno, vale* pour des informations importantes.
+
+> **À retenir** : avant l'écoute, lis les questions et devine la situation ; 1re écoute pour l'essentiel (qui, où, quoi, ton), 2e pour les détails (chiffres, heures, noms) ; note des mots-clés ; repère la négation et les connecteurs ; ne te laisse pas piéger par les petits mots de l'oral (*bueno, pues, vale, o sea*) ni par les nombres proches (*dos / doce, sesenta / setenta*).
+`,
+      textes: {
+        anuncio: `**Anuncio en la estación** (transcripción ; texto de entrenamiento, horarios ficticios)
+
+«Atención, por favor. El tren con destino a Sevilla, con salida prevista a las doce y cuarto, saldrá con un retraso de veinte minutos. Los señores viajeros pueden subir al tren por la vía catorce, y no por la vía cuatro, como estaba previsto. Les recordamos que está prohibido fumar en toda la estación. Disculpen las molestias.»
+
+*Vocabulario* : la salida = le départ ; el retraso = le retard ; la vía = la voie ; disculpen las molestias = veuillez nous excuser pour la gêne occasionnée.`,
+        mensaje: `**Mensaje de voz de Daniela** (transcripción ; texto de entrenamiento)
+
+«Oye, Hugo, soy Daniela. Bueno, te llamo por lo del sábado. Al final no vamos al cine, porque Marta está mala, la pobre... Pues nada, he pensado que podemos ir a la piscina municipal por la mañana y luego comer en mi casa. Mi madre hace tortilla, ¿vale? Quedamos a las diez y media delante de la piscina. Ah, y no te olvides de la toalla, ¿eh? Y si no puedes venir, mándame un mensaje antes del viernes. ¡Venga, un beso!»
+
+*Vocabulario* : por lo del sábado = au sujet de samedi ; quedar = se donner rendez-vous ; olvidarse de = oublier ; la toalla = la serviette (de bain).`,
+        radio: `**En la radio: «Jóvenes con ideas»** (transcripción ; texto de entrenamiento, personas ficticias)
+
+— **Locutora**: Buenas tardes. Hoy hablamos con Tomás, un chico de quince años de Rosario, en Argentina. Hola, Tomás.
+
+— **Tomás**: Hola, ¿qué tal?
+
+— **Locutora**: Tomás, tú has creado una aplicación, ¿no?
+
+— **Tomás**: Sí, bueno, con dos compañeros de clase. Se llama «Reciclá» y sirve para saber en qué contenedor hay que tirar cada cosa. Sacás una foto del objeto y la aplicación te dice si va al contenedor del plástico, del papel... o a ninguno.
+
+— **Locutora**: ¡Qué buena idea! ¿Y cuántas personas la usan?
+
+— **Tomás**: Empezamos en marzo y ahora tenemos unos tres mil usuarios, sobre todo en nuestra ciudad. No es mucho, pero estamos muy contentos.
+
+— **Locutora**: ¿Y cuál es el próximo paso?
+
+— **Tomás**: Queremos traducirla al portugués para los chicos de Brasil. Ah, y lo más difícil no fue programar: fue convencer a mi abuela de que separe la basura. (*risas*)
+
+*Vocabulario* : el contenedor = la poubelle de tri ; tirar = jeter ; sacás (Argentine, avec *vos*) = sacas (tu prends) ; el próximo paso = la prochaine étape ; la basura = les déchets.`,
+      },
+      exercices: [
+        { type: "qcm", question: "Tu entends : « *Mi abuela tiene sesenta y dos años.* » Quel âge a-t-elle ?", choix: ["72 ans", "62 ans", "52 ans", "26 ans"], reponse: 1, explication: "*sesenta* = 60, donc *sesenta y dos* = **62**. Ne confonds pas avec *setenta* (70) ni *cincuenta* (50). À l'oral, écoute bien le début du mot : **ses**-enta / **set**-enta." },
+        { type: "saisie", texte: "anuncio", question: "Sur quelle voie faut-il monter dans le train ? (en chiffres)", reponses: ["14", "vía 14", "voie 14", "catorce", "vía catorce", "voie quatorze", "voie n° 14"], explication: "« *pueden subir al tren por la vía **catorce**, y no por la vía cuatro, como estaba previsto* » : voie **14**. Le piège : *cuatro* (4) est cité, mais avec *no*, c'est la voie prévue au départ. Ne confonds pas *catorce* (14) et *cuatro* (4)." },
+        { type: "qcm", texte: "anuncio", question: "À quelle heure le train va-t-il partir ?", choix: ["12 h 15", "12 h 20", "12 h 35", "14 h 15"], reponse: 2, explication: "Départ prévu « *a las doce y cuarto* » (12 h 15) + « *un retraso de veinte minutos* » (20 minutes de retard) = **12 h 35**. Il fallait combiner deux informations." },
+        { type: "vf", texte: "mensaje", question: "Daniela propose à Hugo d'aller au cinéma samedi.", reponse: false, explication: "Faux : « *Al final no vamos al cine* » (finalement, on ne va pas au cinéma). Elle propose la **piscine** le matin, puis un repas chez elle. Le mot *cine* est bien prononcé, mais après **no**." },
+        { type: "qcm", texte: "mensaje", question: "Pourquoi le programme du samedi a-t-il changé ?", choix: ["La piscine est fermée.", "Hugo doit travailler.", "Marta est malade.", "Marta est méchante."], reponse: 2, explication: "« *porque Marta está mala, la pobre* » : *estar malo/a* = être **malade** (état). *Ser malo/a* voudrait dire « être méchant » : c'est ici *estar*, et *la pobre* (la pauvre) montre de la compassion." },
+        { type: "saisie", texte: "mensaje", question: "Qu'est-ce que Hugo ne doit pas oublier d'apporter ? (réponds en français)", reponses: ["une serviette", "serviette", "sa serviette", "une serviette de bain", "serviette de bain", "sa serviette de bain", "toalla", "une serviette de plage", "serviette de plage", "sa serviette de plage"], explication: "« *no te olvides de la **toalla*** » : sa **serviette** (de bain), logique pour aller à la piscine." },
+        { type: "qcm", texte: "mensaje", question: "Dans le message, que veut dire « *Mi madre hace tortilla, ¿vale?* » ?", choix: ["Ma mère fait une tortilla, d'accord ?", "Ma mère fait une tortilla, ça coûte combien ?", "Ma mère vend des tortillas.", "Ma mère fait une tortilla, tu viens ?"], reponse: 0, explication: "**¿vale?** = « d'accord ? » : un petit mot de la conversation, très fréquent en Espagne, qui demande l'accord de l'autre. Il n'a rien à voir ici avec le prix (*¿cuánto vale?* = combien ça coûte ?)." },
+        { type: "qcm", texte: "radio", question: "À quoi sert l'application créée par Tomás ?", choix: ["à savoir dans quelle poubelle jeter chaque objet", "à apprendre le portugais", "à vendre des objets d'occasion", "à prendre de belles photos"], reponse: 0, explication: "« *sirve para saber en qué contenedor hay que tirar cada cosa* » : elle dit dans quelle poubelle de tri jeter un objet, à partir d'une photo. La photo n'est qu'un moyen ; le portugais est un projet (traduire l'application)." },
+        { type: "saisie", texte: "radio", question: "Combien d'utilisateurs l'application a-t-elle environ ? (en chiffres, à la française : sans point ni virgule)", reponses: ["3000", "3 000", "tres mil", "trois mille"], explication: "« *ahora tenemos unos **tres mil** usuarios* » : environ **3 000**. *unos* devant un nombre = environ. Ne confonds pas *tres mil* (3 000) et *trescientos* (300). En Espagne, on écrit *3.000* avec un point ; en français, on écrit 3 000 (et 3,000 voudrait dire 3)." },
+        { type: "redaction", texte: "radio", question: "1. Présente Tomás et son application en français : qui il est, d'où il vient, avec qui il a créé l'application, à quoi elle sert, depuis quand elle existe, combien de personnes l'utilisent, et son projet.\n2. Qu'est-ce qui a été le plus difficile pour lui ? Pourquoi est-ce drôle ?\n3. **Expression** (50 à 70 mots) : laisse un message vocal en espagnol à Tomás pour le féliciter et pose-lui deux questions.", corrige: "1. Tomás est un garçon de **15 ans** qui vit à **Rosario, en Argentine**. Avec **deux camarades de classe**, il a créé une application, « Reciclá », qui sert à **savoir dans quelle poubelle de tri jeter chaque objet** : on prend une photo, et l'application indique la bonne poubelle (plastique, papier...) ou aucune. Elle existe **depuis mars** et compte **environ 3 000 utilisateurs**, surtout dans sa ville. Son projet : **la traduire en portugais** pour les jeunes du Brésil.\n\n2. Le plus difficile n'a pas été de programmer, mais de **convaincre sa grand-mère de trier ses déchets**. C'est drôle parce qu'on s'attendait à une difficulté technique, et que c'est finalement un problème de famille (on entend des rires).\n\n3. Modèle :\n*¡Hola, Tomás! Soy Léa, una chica francesa. Te escuché en la radio y me encantó tu idea: ¡felicidades a ti y a tus compañeros! En mi colegio también reciclamos, pero muchos alumnos no saben qué contenedor usar. ¿Cuándo va a estar la aplicación en francés? ¿Y cómo convenciste por fin a tu abuela? ¡Un abrazo desde Francia!*\n\nPoints vérifiés : informations exactes et complètes ; interrogatifs avec accent et **¿ ?** (*¿Cuándo...? ¿Cómo...?*) ; indefinido (*escuché, encantó, convenciste*) ; futur proche (*va a estar*) ; formules d'un message oral (*¡Hola! Soy... Un abrazo*)." }
       ]
     }
   ]

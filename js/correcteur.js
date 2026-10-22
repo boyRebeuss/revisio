@@ -132,6 +132,12 @@ function enChiffres(s) {
     lu++;
     if (m === "et" || m === "and") continue;
     const v = UNITES_L[m];
+    // Deux nombres qui ne se composent pas (« fifteen nine », « deux trois ») : ce n'est pas un nombre
+    const d = courant % 100;
+    if (v < 100 && d && !(v === 20 && d % 100 === 4)) {
+      const dizaine = d % 10 === 0 && d >= 10;
+      if (!dizaine || !(v < 10 || ((d === 60 || d === 80) && v < 20))) return s;
+    }
     if (v === 100) courant = (courant || 1) * 100;
     else if (v === 1000) { total += (courant || 1) * 1000; courant = 0; }
     else if (v === 20 && courant % 100 === 4) courant = courant - 4 + 80; // quatre-vingt
@@ -320,7 +326,19 @@ export function reponseJuste(saisie, attendues, langue = false, enonce = "") {
   // Même heure écrite autrement : 8.40 = 8:40 = 8h40 = 8 h 40
   const hm = (x) => { const m = String(x).trim().toLowerCase().match(/^(\d{1,2})\s*[.:h]\s*(\d{2})(?:\s*min)?$/); return m ? +m[1] * 60 + +m[2] : null; };
   if (heureAttendue && hm(saisie) != null && attendues.some((r) => hm(r) === hm(saisie))) return true;
+  // « do not you? », « is not it? » : la forme non contractée devant le sujet n'est pas de l'anglais
+  const nonInverse = /\b(?:do|does|did|is|are|was|were|have|has|had|can|could|will|would|should|must|shall)\s+not\s+(?:i|you|he|she|it|we|they|there)\b/;
+  if (nonInverse.test(normaliser(saisie)) && !attendues.some((r) => nonInverse.test(normaliser(r)))) return false;
+  // Nombre sans unité : il se compare seulement aux réponses dans l'unité de la première
+  // (« 0,45 A » et « 450 mA » attendues : « 450 » seul est refusé)
+  const premiere = normaliser(attendues[0] ?? "").match(/^-?\d[\d\s.,]*\s*([^\d\s].*)?$/);
+  const uniteRef = premiere?.[1]?.trim() || "";
+  const nu = ns && !ns.u && !ns.pct;
   return attendues.some((r) => {
+    if (nu && uniteRef) {
+      const nr = nombre(normaliser(r));
+      if (nr && nr.u && !unitesCompatibles(nr.u, uniteRef)) return false;
+    }
     const strict = fr && (aDesAccents(r) || aDesAccents(saisie));
     const b = reecrire(normaliser(r, strict, de));
     const a0 = normaliser(saisie, strict, de);

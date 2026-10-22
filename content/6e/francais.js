@@ -140,8 +140,7 @@ Dans un village de Grèce vivait une jeune fille nommée Mélissa, qui ne pensai
       titre: "La poésie : vers, rimes et images",
       theme: "Chanter et enchanter le monde : mots et merveilles",
       cours: `
-## Ce que dit le programme
-L'entrée « Chanter et enchanter le monde : mots et merveilles » te fait lire des poèmes de toutes les époques et de plusieurs pays, y compris des pays francophones. Tu apprends que la force d'un poème ne vient pas seulement de ses rimes, mais surtout de ses **images** et de sa **musique**.
+La force d'un poème ne vient pas seulement de ses rimes, mais surtout de ses **images** et de sa **musique**.
 
 ## Le vocabulaire du poème
 | Mot | Définition |
@@ -194,11 +193,10 @@ On repère la disposition des rimes en donnant une lettre à chaque son :
 - **Répétition** et **refrain** donnent du rythme, comme dans une chanson.
 
 ## Des poètes et des formes à connaître
-- **Robert Desnos** (1900-1945) a écrit pour les enfants les *Chantefables et Chantefleurs*, pleins d'humour et de fantaisie. Dans « La Fourmi », il imagine une fourmi « de dix-huit mètres / Avec un chapeau sur la tête » et répète en refrain « Ça n'existe pas, ça n'existe pas » avant de conclure : « Eh ! Pourquoi pas ? »
-- **Jacques Prévert** (1900-1977), *Paroles* (1946) : des poèmes simples, souvent en vers libres, qui jouent avec les mots.
-- **Aimé Césaire** (1913-2008), poète martiniquais : un grand poète de langue française.
-- Le **haïku**, poème japonais très court (trois vers en japonais de 5, 7 et 5 syllabes), saisit un instant de la nature. Le plus célèbre est de **Bashō** (XVIIe siècle) : une grenouille saute dans un vieil étang, et l'on entend le bruit de l'eau.
-- Le **calligramme** : poème dont les mots dessinent la forme de ce dont il parle (Guillaume Apollinaire, *Calligrammes*, 1918).
+- **Robert Desnos** (1900-1945), *Chantefables et Chantefleurs* : dans « La Fourmi », une fourmi « de dix-huit mètres / Avec un chapeau sur la tête », le refrain « Ça n'existe pas, ça n'existe pas » et la chute « Eh ! Pourquoi pas ? ».
+- **Jacques Prévert** (1900-1977), *Paroles* (1946), souvent en vers libres ; **Aimé Césaire** (1913-2008), grand poète martiniquais.
+- Le **haïku** : poème japonais très court (en japonais, trois vers de 5, 7 et 5 syllabes) qui saisit un instant de la nature (Bashō, XVIIe siècle : une grenouille saute dans un vieil étang).
+- Le **calligramme** : poème dont les mots dessinent ce dont il parle (Apollinaire, *Calligrammes*, 1918).
 
 > **À retenir**
 > Vers, strophe, rime, refrain : le vocabulaire de base du poème.
@@ -708,18 +706,16 @@ Le **groupe nominal** (GN) est organisé autour d'un **nom**, appelé **noyau**.
 | **complément du nom** | groupe nominal introduit par une **préposition** (de, à, en, sans...) | le château **de l'ogre**, une épée **en or**, un homme **sans peur** |
 
 >! **Exemple** : « un **immense** dragon **aux écailles d'argent** »
->! noyau : dragon ; « immense » : adjectif épithète ; « aux écailles d'argent » : complément du nom « dragon » (et dans ce complément, « d'argent » est lui-même complément du nom « écailles »).
+>! noyau : dragon ; « immense » : adjectif épithète ; « aux écailles d'argent » : complément du nom « dragon ».
 
 ## Épithète ou attribut ?
-- L'**épithète** est **dans** le groupe nominal, sans verbe : « une forêt **sombre** ».
-- L'**attribut** est relié au sujet par un **verbe d'état** : « la forêt **est** sombre ».
-Dans les deux cas, l'adjectif s'accorde avec le nom.
+L'**épithète** est dans le GN, sans verbe : « une forêt **sombre** ». L'**attribut** est relié au sujet par un **verbe d'état** : « la forêt **est** sombre ». Dans les deux cas, l'adjectif s'accorde.
 
 ## La chaîne d'accords dans le GN
 Dans le GN, le **déterminant** et l'**adjectif** prennent le **genre** (masculin ou féminin) et le **nombre** (singulier ou pluriel) du **nom noyau**.
 « un chevalier courageux » → « des chevaliers courageux » → « une chevalière courageuse » → « des chevalières courageuses ».
 
->! **Méthode** : repère le nom noyau, demande-toi s'il est masculin ou féminin, singulier ou pluriel, puis vérifie chaque mot qui en dépend. Attention au complément du nom : il ne commande pas l'accord. « Une boîte de bonbons **rouge** » : c'est la boîte qui est rouge ; « une boîte de bonbons **rouges** » : ce sont les bonbons.
+>! **Méthode** : repère le nom noyau, son genre et son nombre, puis vérifie chaque mot qui en dépend. Attention : « une boîte de bonbons **rouge** » (la boîte est rouge) ; « une boîte de bonbons **rouges** » (les bonbons sont rouges).
 
 ## Le pluriel des noms et des adjectifs
 | Règle | Exemples | Exceptions à connaître |
@@ -844,7 +840,7 @@ Dans la subordination, la proposition introduite par la conjonction est la **sub
       theme: "Grammaire et orthographe grammaticale",
       cours: `
 ## Radical et terminaison
-Un verbe conjugué se compose d'un **radical** (qui porte le sens) et d'une **terminaison**. La terminaison contient souvent une **marque de temps** et une **marque de personne** :
+Verbe conjugué = **radical** (le sens) + **terminaison**, qui contient souvent une **marque de temps** et une **marque de personne** :
 - « nous chant**-i-ons** » (imparfait) : radical *chant-*, marque de temps **-i-**, marque de personne **-ons** ;
 - « vous chante**-r-ez** » (futur) : marque de temps **-r-**, marque de personne **-ez**.
 
@@ -865,18 +861,18 @@ Marques de personne les plus fréquentes : je **-s** (ou -e, -ai), tu **-s**, il
 | vous | êtes | avez | chantez | finissez | faites | allez |
 | ils, elles | sont | ont | chantent | finissent | font | vont |
 
-| | dire | venir | pouvoir | voir | vouloir | prendre |
-|---|---|---|---|---|---|---|
-| je | dis | viens | peux | vois | veux | prends |
-| tu | dis | viens | peux | vois | veux | prends |
-| il | dit | vient | peut | voit | veut | prend |
-| nous | disons | venons | pouvons | voyons | voulons | prenons |
-| vous | dites | venez | pouvez | voyez | voulez | prenez |
-| ils | disent | viennent | peuvent | voient | veulent | prennent |
+| | dire | venir | pouvoir | vouloir | prendre |
+|---|---|---|---|---|---|
+| je | dis | viens | peux | veux | prends |
+| tu | dis | viens | peux | veux | prends |
+| il | dit | vient | peut | veut | prend |
+| nous | disons | venons | pouvons | voulons | prenons |
+| vous | dites | venez | pouvez | voulez | prenez |
+| ils | disent | viennent | peuvent | veulent | prennent |
 
 ## L'imparfait et le futur
-- **Imparfait** : radical de « nous » au présent + **-ais, -ais, -ait, -ions, -iez, -aient** (pour tous les verbes). Nous fais-ons → je faisais. Seule exception : être → j'**ét**ais.
-- **Futur** : en général l'infinitif + **-ai, -as, -a, -ons, -ez, -ont** : je chanterai, je finirai, je prendrai (le e de « prendre » disparaît). Radicaux irréguliers : je **ser**ai, j'**aur**ai, je **fer**ai, j'**ir**ai, je **viendr**ai, je **pourr**ai, je **verr**ai, je **voudr**ai.
+- **Imparfait** : radical de « nous » au présent + **-ais, -ais, -ait, -ions, -iez, -aient** (nous fais-ons → je faisais). Seule exception : j'**ét**ais.
+- **Futur** : infinitif + **-ai, -as, -a, -ons, -ez, -ont** (je chanterai ; je prendrai, sans le e). Radicaux irréguliers : je **ser**ai, j'**aur**ai, je **fer**ai, j'**ir**ai, je **viendr**ai, je **pourr**ai, je **verr**ai, je **voudr**ai.
 
 ## Le passé simple
 | | chanter | finir | prendre | vouloir | venir |
@@ -895,7 +891,7 @@ Marques de personne les plus fréquentes : je **-s** (ou -e, -ai), tu **-s**, il
 | **passé composé** | auxiliaire *être* ou *avoir* au **présent** + participe passé | j'ai pris, elle est venue |
 | **plus-que-parfait** | auxiliaire à l'**imparfait** + participe passé | j'avais pris, elle était venue |
 Participes passés à connaître : été, eu, chanté, fini, fait, allé, dit, venu, pu, vu, voulu, pris.
-On emploie **être** avec les verbes de mouvement ou de changement d'état (aller, venir, partir, arriver, entrer, sortir, tomber, rester, naître, mourir, devenir...) ; **avoir** avec la plupart des autres.
+Auxiliaire **être** avec les verbes de mouvement ou de changement d'état (aller, venir, partir, arriver, tomber, rester, naître, mourir...) ; **avoir** avec la plupart des autres.
 
 ## Les verbes du 1er groupe qui changent de radical
 | Verbes | Ce qui change | Exemples |
@@ -1141,6 +1137,8 @@ Des **homophones** se prononcent de la même façon mais s'écrivent différemme
 7. « approchés » : verbe conjugué avec être, accord avec le sujet « les enfants ».
 8. « goûté » : avec avoir, le COD « le toit » est placé après le verbe → pas d'accord.
 9. « est » : verbe être (on peut dire « était sortie ») ; « sortie », déjà correct, s'accorde avec « une vieille femme ».` },
+        { type: "saisie", question: "Complète avec « ces » ou « ses » : « Au milieu de la nuit, le Petit Poucet réveilla ... frères sans faire de bruit. »", reponses: ["ses", "ses frères"], explication: "Ce sont les frères **du Petit Poucet** (les siens) : c'est le déterminant **possessif** **ses**. Test : on peut dire « je réveillai **mes** frères ». « Ces frères-là » ne conviendrait pas : personne ne les montre du doigt." },
+        { type: "qcm", question: "Complète : « Regarde ... cailloux blancs qui brillent sous la lune ! »", choix: ["ses", "c'est", "ces", "s'est"], reponse: 2, explication: "On montre les cailloux : c'est le déterminant **démonstratif** **ces** (on peut dire « ces cailloux-**là** »). « Ses » voudrait dire « les siens » (« regarde ses cailloux » : ceux de quelqu'un d'autre) ; « c'est » (cela est) et « s'est » (verbe pronominal : il s'est levé) ne peuvent pas se placer devant un nom." },
       ],
     },
     {
@@ -1575,6 +1573,11 @@ Pièges : tou**jours** et a**lors** prennent un s ; **parmi** et **malgré** n'e
 9. « cueillir » : après c, on écrit -ueil pour garder le son [k] (comme accueil, orgueil).
 
 **Remarque** : « marchait », « voulait » et « amie » étaient déjà corrects. Pour réussir une dictée, relis-toi une fois pour les accords (orthographe grammaticale), puis une fois pour l'orthographe des mots (lettres muettes, accents, m devant b, mots invariables).` },
+        { type: "qcm", question: "Complète : « Le paysan laboure son ... avant les semailles. »", choix: ["chant", "champ", "chan", "champt"], reponse: 1, explication: "Il s'agit d'une terre cultivée : le **champ**, avec un **p** muet, comme dans « champêtre » (de la campagne). Le **chant** (avec un t, comme dans « chanter ») est ce qu'on chante. « Chan » et « champt » n'existent pas." },
+        { type: "saisie", question: "Écris le mot qui manque (homophone de « compte ») : « Chaque soir, la grand-mère nous lisait un ... de fées. »", reponses: ["conte", "un conte", "conte de fées", "un conte de fées"], explication: "C'est un récit merveilleux : le **conte**, de la famille de « conter » et « conteur ». Le **compte** vient de « compter » (un compte en banque, le compte est bon) ; le **comte** est un noble (féminin : la comtesse)." },
+        { type: "qcm", question: "Complète : « Le ... et la comtesse donnèrent un bal dans leur château. »", choix: ["conte", "compte", "comte", "comptes"], reponse: 2, explication: "C'est le mari de la comtesse, un noble : le **comte**. Le féminin « comtesse » t'aide à l'écrire sans p. « Conte » (une histoire) et « compte » (de compter) n'ont pas ce sens." },
+        { type: "saisie", question: "Écris le mot entier, en doublant ou non la consonne : « Le Cyclope poussa un cri a...reux. » (adjectif qui signifie « horrible »)", reponses: ["affreux"], explication: "Comme beaucoup de mots en **af-**, « **aff**reux » double le f (comme affamé, affaire, affronter). Les exceptions en af- sont rares : afin, l'Afrique." },
+        { type: "vf", question: "« Apercevoir » s'écrit avec deux p, comme « apporter » et « apprendre ».", reponse: false, explication: "« **Ap**ercevoir » ne prend qu'**un** p : c'est une exception à connaître, comme apaiser, un atelier, afin. La plupart des mots en ap-, af-, at- doublent la consonne (apporter, affreux, attraper), mais il faut mémoriser les exceptions." },
       ],
     },
     {
@@ -1778,6 +1781,277 @@ Des cailloux blancs, de la lumière,
 Et tous mes rêves mis en vers.
 
 **Ce qui est réussi ici** : des vers de 8 syllabes (octosyllabes) ; rimes croisées (percées / pensées, argent / vent ; pierre / lumière, univers / vers) ; une métaphore (les baskets sont « deux bateaux d'argent ») ; une comparaison (« lourd comme une pierre ») ; un clin d'œil aux cailloux du Petit Poucet, comme chez Rimbaud ; le dernier vers fait de la poésie le vrai trésor.` },
+      ],
+    },
+    {
+      id: "iliade-colere-achille",
+      titre: "L'Iliade d'Homère : la colère d'Achille",
+      theme: "Partir à l'aventure !",
+      cours: `
+## Situer l'œuvre
+- L'***Iliade*** est une **épopée** grecque attribuée à **Homère** (vers le VIIIe siècle av. J.-C.). Une épopée est un long poème qui raconte les exploits de héros, au milieu desquels interviennent les dieux.
+- On ne sait presque rien d'Homère. La tradition en fait un **aède** aveugle, c'est-à-dire un poète qui chantait ses vers en s'accompagnant d'une lyre. Ces poèmes ont d'abord été transmis **oralement**, avant d'être écrits.
+- Le titre vient d'**Ilion**, l'autre nom de **Troie** : l'*Iliade*, c'est « le poème d'Ilion ». Elle compte **24 chants** et environ 15 700 vers.
+- L'*Iliade* raconte la **guerre** de Troie ; l'*Odyssée*, que tu connais par le chapitre sur les monstres, raconte le long **retour** d'Ulysse après cette guerre.
+
+## Avant l'Iliade : les origines de la guerre (la légende)
+La déesse de la Discorde jette parmi les dieux une **pomme d'or** destinée « à la plus belle ». Le prince troyen **Pâris**, chargé de choisir, la donne à **Aphrodite**, qui lui a promis l'amour de la plus belle des femmes : **Hélène**. Mais Hélène est l'épouse de **Ménélas**, roi de Sparte. Quand Pâris l'emmène à Troie, les rois grecs s'unissent derrière **Agamemnon**, roi de Mycènes et frère de Ménélas, et assiègent Troie pendant **dix ans**. L'*Iliade* ne raconte pas ces événements : elle les suppose connus de ses auditeurs.
+
+## Ce que raconte l'Iliade
+Le poème ne raconte que quelques semaines de la **dixième année** de la guerre. Son sujet est annoncé dès le premier vers : la **colère d'Achille**.
+| Étape | Ce qui se passe |
+|---|---|
+| la querelle | Agamemnon prend à Achille sa captive, Briséis. Furieux, Achille se retire sous sa tente et refuse de combattre. |
+| les Grecs en danger | Sans Achille, les Grecs reculent ; les Troyens, menés par **Hector**, attaquent jusqu'à leurs navires. |
+| la mort de Patrocle | **Patrocle**, le meilleur ami d'Achille, part au combat revêtu des armes d'Achille ; il est tué par Hector. |
+| la vengeance | Fou de douleur, Achille revient au combat avec de nouvelles armes forgées par le dieu Héphaïstos. Il tue Hector et traîne son corps derrière son char. |
+| la fin | Le vieux roi **Priam** vient la nuit supplier Achille de lui rendre le corps de son fils. Achille, qui pense à son propre père, accepte. Le poème s'achève sur les funérailles d'Hector. |
+
+## Les personnages
+| Camp | Personnages |
+|---|---|
+| les **Grecs** (Homère dit les « Achéens ») | **Achille**, fils de la déesse Thétis, le plus grand guerrier ; **Agamemnon**, chef de l'armée ; **Ménélas** ; **Ulysse**, rusé et habile orateur ; **Patrocle** |
+| les **Troyens** | **Priam**, le roi ; **Hector**, son fils aîné, défenseur de la ville, époux d'**Andromaque** et père du petit **Astyanax** ; **Pâris** ; **Hélène** |
+| les **dieux** | Héra, Athéna et Poséidon aident les Grecs ; Aphrodite, Apollon et Arès aident les Troyens ; **Zeus** décide du sort des combats |
+
+## Le style épique
+- Les **épithètes homériques** : un nom est souvent accompagné de la même expression, qui revient comme un refrain : « Achille aux pieds rapides », « Hector au casque étincelant », « l'Aurore aux doigts de rose ». Elles aidaient l'aède à retenir ses vers et l'auditeur à reconnaître les personnages.
+- Les **comparaisons** : un guerrier se jette sur l'ennemi « comme un lion » sur un troupeau.
+- L'**exagération** et le merveilleux : des combats grandioses, des armes fabriquées par un dieu, des dieux qui descendent sur le champ de bataille.
+
+## Le héros épique : force, gloire et humanité
+Le héros de l'épopée cherche la **gloire** : il veut que l'on chante ses exploits après sa mort. Mais Homère montre aussi des **émotions** : Hector fait ses adieux à sa femme et à son fils ; Achille pleure son ami Patrocle ; Achille et Priam, les deux ennemis, pleurent ensemble à la fin du poème. La guerre est montrée dans sa grandeur, mais aussi dans ce qu'elle a de cruel.
+
+>! **Exemple résolu** : « Que montre la scène où Achille rend le corps d'Hector à Priam ? »
+>! Je réponds : elle montre qu'Achille, le guerrier le plus terrible, est aussi capable de pitié.
+>! J'explique : Priam vient seul chez l'ennemi qui a tué son fils ; Achille pense à son propre père, qu'il ne reverra pas, et rend le corps. La colère qui ouvrait le poème laisse place à la compassion.
+
+## Erreurs fréquentes
+- Le **cheval de Troie** n'est **pas** dans l'*Iliade* : la ruse d'Ulysse qui fait tomber Troie est évoquée dans l'*Odyssée* et racontée en détail plus tard par le poète latin Virgile, dans l'*Énéide*.
+- L'*Iliade* ne raconte pas non plus la **mort d'Achille**. Elle l'annonce seulement : Hector mourant lui prédit qu'il sera tué par Pâris et Apollon. L'histoire du talon est une légende plus tardive.
+- Ne confonds pas les deux camps : Hector et Pâris sont **troyens** ; Achille, Agamemnon et Ulysse sont **grecs**.
+
+## Des expressions venues de la guerre de Troie
+- le **talon d'Achille** : le point faible de quelqu'un (selon une légende plus tardive, Achille ne pouvait être blessé qu'au talon) ;
+- la **pomme de discorde** : un sujet de dispute ;
+- un **cheval de Troie** : un piège qui entre chez l'ennemi caché sous une apparence inoffensive (on le dit aussi d'un virus informatique) ;
+- **se retirer sous sa tente** : refuser de participer, par dépit, comme Achille.
+
+> **À retenir**
+> L'*Iliade*, épopée d'Homère (VIIIe siècle av. J.-C.), raconte quelques semaines de la guerre de Troie (Ilion).
+> Le sujet : la colère d'Achille, contre Agamemnon puis contre Hector, qui a tué Patrocle.
+> Grecs : Achille, Agamemnon, Ménélas, Ulysse. Troyens : Priam, Hector, Pâris. Les dieux prennent parti.
+> Style épique : épithètes homériques, comparaisons, exagération, merveilleux.
+> Le cheval de Troie et le talon d'Achille ne sont pas racontés dans l'*Iliade*.
+`,
+      textes: {
+        hector: `**Les adieux d'Hector et d'Andromaque** (texte d'entraînement, raconté d'après le chant VI de l'*Iliade*)
+
+Hector avait quitté un instant le combat pour rentrer dans Troie. Comme il allait repartir vers la plaine, sa femme Andromaque accourut à sa rencontre, près des portes de la ville. Une servante la suivait, portant dans ses bras leur petit garçon, Astyanax, beau comme une étoile.
+
+Andromaque prit la main d'Hector et lui dit en pleurant : « Malheureux, ton courage te perdra ! Tu n'as pas pitié de ton fils ni de moi, qui serai bientôt veuve. Achille a tué mon père et mes sept frères : tu es maintenant pour moi un père, une mère, un frère et un époux. Reste ici, sur les remparts ! »
+
+Hector lui répondit : « Tout cela, femme, me tourmente aussi. Mais j'aurais honte devant les Troyens si je restais loin des combats comme un lâche. J'ai appris à être brave et à me battre au premier rang. »
+
+Puis il tendit les bras vers son fils. Mais l'enfant se rejeta en criant contre la poitrine de sa nourrice : il avait peur du bronze étincelant et du panache de crins de cheval qui s'agitait au sommet du casque. Son père et sa mère se mirent à rire. Aussitôt, Hector ôta son casque et le posa à terre. Il embrassa son fils, le berça dans ses bras et pria Zeus : « Fais qu'on dise un jour, quand il reviendra du combat : il est bien plus vaillant que son père ! »
+
+Il remit l'enfant à sa mère, qui le reçut en souriant à travers ses larmes.
+
+*Mots difficiles* : **les remparts** : les murs qui protègent la ville ; **veuve** : femme dont le mari est mort ; **la nourrice** : ici, la servante qui s'occupe de l'enfant ; **le bronze** : métal dont est fait le casque ; **le panache** : bouquet de plumes ou de crins qui orne un casque ; **vaillant** : courageux.`,
+      },
+      exercices: [
+        { type: "qcm", question: "D'où vient le titre de l'*Iliade* ?", choix: ["du nom d'Ilion, l'autre nom de la ville de Troie", "du nom d'un dieu grec, Ilias", "du nom de la mère d'Achille", "d'un mot grec qui signifie « voyage »"], reponse: 0, explication: "**Ilion** est l'autre nom de **Troie** : l'*Iliade* est « le poème d'Ilion », celui de la guerre de Troie. Le poème du voyage, c'est l'*Odyssée* (d'Ulysse, *Odusseus* en grec). La mère d'Achille s'appelle Thétis." },
+        { type: "saisie", question: "Le tout premier vers de l'*Iliade* annonce le sujet du poème : la ... d'Achille. (un mot)", reponses: ["colère", "la colère"], explication: "Le poème commence en demandant à la déesse (la Muse) de chanter la **colère** d'Achille. C'est même le premier mot du texte grec (*mênin*). Cette colère vise d'abord Agamemnon, puis Hector, qui a tué Patrocle." },
+        { type: "qcm", question: "Pourquoi Achille refuse-t-il de combattre au début de l'*Iliade* ?", choix: ["Parce qu'il est blessé au talon.", "Parce que sa mère lui a interdit de quitter le camp.", "Parce que les dieux lui ont annoncé la défaite des Grecs.", "Parce qu'Agamemnon lui a pris sa captive, Briséis."], reponse: 3, explication: "Agamemnon, le chef des Grecs, lui enlève sa captive **Briséis** : blessé dans son honneur, Achille se retire sous sa tente. La blessure au talon est une légende plus tardive, qui n'est pas dans l'*Iliade*." },
+        { type: "qcm", question: "Qui tue Patrocle, l'ami d'Achille ?", choix: ["Pâris", "Ulysse", "Agamemnon", "Hector"], reponse: 3, explication: "Patrocle, revêtu des armes d'Achille, est tué par **Hector**, le héros troyen. C'est ce qui fait revenir Achille au combat : il veut venger son ami, et il tue Hector." },
+        { type: "vf", question: "L'*Iliade* raconte comment les Grecs prennent Troie grâce au cheval de bois imaginé par Ulysse.", reponse: false, explication: "L'*Iliade* s'arrête **avant** la chute de Troie, sur les funérailles d'Hector. La ruse du cheval de Troie est évoquée dans l'*Odyssée* et racontée en détail par Virgile, dans l'*Énéide*." },
+        { type: "qcm", question: "« Hector au casque étincelant », « Achille aux pieds rapides » : comment appelle-t-on ces expressions qui reviennent avec le nom d'un personnage ?", choix: ["des comparaisons", "des épithètes homériques", "des métaphores filées", "des refrains de chanson"], reponse: 1, explication: "Ce sont des **épithètes homériques** : la même expression accompagne le nom d'un personnage et revient tout au long du poème. Elles aidaient l'aède à réciter ses vers et l'auditeur à reconnaître les héros. Il n'y a ici ni outil de comparaison, ni image prolongée." },
+        { type: "qcm", texte: "hector", question: "Pourquoi le petit Astyanax se met-il à crier quand son père tend les bras vers lui ?", choix: ["Il a faim et réclame sa mère.", "Il a peur du casque de bronze et de son panache.", "Il est en colère contre son père, qui part.", "Il entend le bruit des combats."], reponse: 1, explication: "Le texte le dit : « il avait peur du bronze étincelant et du panache de crins de cheval qui s'agitait au sommet du casque ». Pour l'enfant, son père ressemble à un guerrier effrayant ; en ôtant son casque, Hector redevient un père." },
+        { type: "saisie", texte: "hector", question: "Quel objet Hector pose-t-il à terre avant d'embrasser son fils ? (un mot)", reponses: ["casque", "son casque", "le casque"], explication: "« Hector ôta son **casque** et le posa à terre. » Le geste est symbolique : le guerrier dépose ce qui fait peur pour montrer sa tendresse de père." },
+        { type: "qcm", texte: "hector", question: "Pourquoi Hector refuse-t-il de rester à l'abri des remparts, comme le lui demande Andromaque ?", choix: ["Parce qu'il n'aime plus Andromaque.", "Parce que Zeus lui a promis la victoire.", "Parce qu'il aurait honte devant les Troyens de rester loin des combats.", "Parce qu'Achille est déjà mort."], reponse: 2, explication: "Il le dit : « j'aurais honte devant les Troyens si je restais loin des combats comme un lâche ». Le héros épique place l'**honneur** et la gloire au-dessus de sa propre vie. Le texte montre pourtant qu'il est tourmenté et qu'il aime sa famille." },
+        { type: "redaction", texte: "hector", question: "**Question de lecture (type contrôle)** : « Quel portrait d'Hector ce passage donne-t-il ? » Réponds en un paragraphe d'une dizaine de lignes, avec la méthode « je réponds, je cite, j'explique » et au moins **deux citations**.", corrige: `**Proposition de réponse**
+**Je réponds** : ce passage montre Hector sous deux visages : c'est un **guerrier courageux**, attaché à son honneur, mais aussi un **époux et un père tendre**.
+
+**Je cite et j'explique** : d'abord, Hector refuse de rester à l'abri : « j'aurais honte devant les Troyens », dit-il, s'il restait « loin des combats comme un lâche » : comme tout héros épique, il veut se montrer brave, même au risque de mourir. Pourtant, il n'est pas insensible, puisqu'il avoue que la peur d'Andromaque le « tourmente aussi ». Ensuite, la scène avec son fils le rend très humain : quand l'enfant a peur, Hector « ôta son casque et le posa à terre », puis il « embrassa son fils ». Le casque, symbole du guerrier, est mis de côté pour laisser place au père. Enfin, sa prière à Zeus montre qu'il rêve d'un fils « plus vaillant que son père » : même dans la tendresse, il pense à la gloire.
+
+**Conclusion** : ainsi, Hector est à la fois un héros et un homme ; c'est ce qui rend ce passage si émouvant.
+
+**Critères de réussite** : les deux aspects du personnage sont nommés ; au moins deux citations exactes entre guillemets ; chaque citation est expliquée ; connecteurs (d'abord, ensuite, enfin, ainsi).` },
+      ],
+    },
+    {
+      id: "lire-une-image",
+      titre: "Lire une image : illustration, tableau, bande dessinée",
+      theme: "Lecture et compréhension",
+      cours: `
+## Pourquoi apprendre à lire une image ?
+En 6e, tu dois comprendre et interpréter des **textes**, mais aussi des **documents** et des **images** : illustrations de contes, tableaux, gravures, vignettes de bande dessinée, affiches, photographies. Une image se lit comme un texte : elle a été **construite** par quelqu'un, qui a fait des **choix** pour produire un effet sur celui qui la regarde.
+
+## Méthode : lire une image en quatre étapes
+1. **Identifier** : quelle sorte d'image (peinture, gravure, illustration, photographie, bande dessinée, affiche) ? Qui l'a faite, quand ? Quel est son titre ou sa **légende** (le court texte qui l'accompagne) ?
+2. **Décrire** de façon organisée : du **premier plan** (le plus proche de toi) à l'**arrière-plan** (le plus loin), ou de gauche à droite. Personnages, gestes, regards, objets, décor.
+3. **Analyser** les choix de l'artiste : cadrage, angle de vue, lumière, couleurs, composition (le chemin que suit ton regard).
+4. **Interpréter** : quelle impression l'image produit-elle ? Que veut-elle montrer ? Si elle illustre un texte, quel moment a-t-elle choisi, et qu'ajoute-t-elle au texte ?
+
+## Le vocabulaire de l'image
+| Mot | Ce que cela veut dire | Effet souvent produit |
+|---|---|---|
+| **premier plan / second plan / arrière-plan** | ce qui est le plus près, à distance moyenne, le plus loin | le plus important est souvent au premier plan |
+| **plan d'ensemble** | on voit tout le décor, les personnages sont petits | situer la scène |
+| **plan moyen** | on voit un personnage en entier | montrer une action |
+| **gros plan** | on voit un visage ou un objet de très près | montrer une émotion, un détail |
+| **plongée** | la scène est vue **d'en haut** | le personnage paraît petit, faible, écrasé |
+| **contre-plongée** | la scène est vue **d'en bas** | le personnage paraît grand, puissant, menaçant |
+| **couleurs chaudes** | rouge, orange, jaune | chaleur, vie, violence ou passion |
+| **couleurs froides** | bleu, vert, violet (le gris et le noir, couleurs neutres, assombrissent l'image) | calme, tristesse, froid, nuit, mystère |
+| **contraste** | une zone très claire à côté d'une zone très sombre | attirer le regard, créer une tension |
+
+## Une image qui illustre un texte
+L'illustrateur **Gustave Doré** (1832-1883) a illustré les *Contes* de Perrault en 1862 ; ses dessins ont été gravés sur bois. Une illustration n'est jamais une simple copie du texte : l'artiste **choisit un moment** (souvent le plus intense), **ce qu'il montre et ce qu'il cache**. Dans sa gravure la plus célèbre du *Petit Chaperon rouge*, Doré ne montre pas le loup qui dévore la fillette : il montre l'instant d'avant. La fillette est couchée dans le lit, à côté du loup déguisé en grand-mère, coiffé d'un bonnet de nuit ; elle le regarde, inquiète. C'est le moment où, chez Perrault, elle est « bien étonnée de voir comment sa mère-grand était faite en son déshabillé ». Le lecteur, qui connaît la suite, a peur pour elle.
+
+## Lire une bande dessinée
+Une bande dessinée raconte une histoire par une **suite d'images** : le lecteur relie les cases entre elles et imagine ce qui se passe de l'une à l'autre. Les plans, les angles de vue et les couleurs s'y analysent comme dans toute image.
+| Mot | Ce que cela veut dire |
+|---|---|
+| **planche** | une page entière de bande dessinée |
+| **bande** | une ligne de cases |
+| **case** (ou **vignette**) | une image encadrée |
+| **bulle** (ou **phylactère**) | elle contient les paroles d'un personnage ; sa pointe montre qui parle ; une bulle en forme de nuage contient une pensée |
+| **récitatif** | un encadré, souvent en haut de la case, où parle le **narrateur** (« Le lendemain... ») |
+| **onomatopée** | un mot qui imite un bruit : BOUM ! CRAC ! |
+
+>! **Exemple résolu** : « Une illustration montre un dragon vu d'en bas, qui remplit presque toute l'image ; un chevalier minuscule se tient en bas, à gauche. Quel effet produit-elle ? »
+>! - J'observe : le dragon est vu en **contre-plongée** et occupe l'essentiel de l'image ; le chevalier est petit et placé dans un coin.
+>! - J'interprète : le dragon paraît **immense et invincible**, le chevalier fragile. L'image fait sentir le **danger** et rend le courage du héros d'autant plus grand.
+
+## Erreurs fréquentes
+- Décrire au hasard, sans ordre : suis les plans ou va de gauche à droite.
+- Décrire sans interpréter : chaque remarque doit dire **quel effet** produit le choix de l'artiste.
+- Confondre **plongée** (vu d'en haut) et **contre-plongée** (vu d'en bas).
+- Oublier la **légende** et le texte qui accompagnent l'image : ils aident à la comprendre.
+
+> **À retenir**
+> Lire une image : identifier, décrire (du premier plan à l'arrière-plan), analyser, interpréter.
+> Plongée = vu d'en haut (le personnage paraît petit) ; contre-plongée = vu d'en bas (il paraît grand, menaçant).
+> Gros plan : une émotion, un détail ; plan d'ensemble : le décor.
+> Couleurs chaudes (rouge, orange, jaune), froides (bleu, vert, violet) ; le contraste attire le regard.
+> Une illustration choisit un moment du texte, ce qu'elle montre et ce qu'elle cache.
+> Bande dessinée : planche, bande, case (vignette), bulle (paroles), récitatif (narrateur), onomatopée (bruit).
+`,
+      textes: {
+        ogre: `**Description d'une illustration** (image d'entraînement, imaginée pour l'exercice : tu ne la verras pas, lis attentivement sa description)
+
+Il s'agit d'une illustration en couleurs, sur une pleine page d'un livre de contes. Sous l'image, une légende cite Perrault : « Il monta donc à tâtons à la chambre de ses filles ».
+
+La scène se passe la nuit, dans une chambre. Au **premier plan**, à droite, se dresse l'Ogre. Il est vu **d'en bas** : sa tête touche presque le haut de l'image et ses épaules en occupent toute la largeur. Dans sa main droite, il tient un grand couteau ; sa main gauche, immense, est posée sur la tête d'un enfant.
+
+Au **second plan**, à gauche, sept petits garçons sont couchés dans un grand lit. Ils portent des couronnes d'or. Six d'entre eux dorment ; seul le plus petit a les yeux grands ouverts et serre le drap contre son menton.
+
+À l'**arrière-plan**, une fenêtre étroite laisse passer un rayon de lune. Toute l'image est peinte en bleus sombres, en gris et en noir. Seules les couronnes d'or brillent dans la lumière de la lune. Sur le mur du fond, l'ombre de l'Ogre, gigantesque, s'étend jusqu'au plafond.`,
+      },
+      exercices: [
+        { type: "qcm", question: "Dans une image, comment appelle-t-on la partie la plus proche de celui qui regarde ?", choix: ["l'arrière-plan", "le second plan", "le premier plan", "le cadrage"], reponse: 2, explication: "Le **premier plan** est le plus proche de toi ; le second plan est à distance moyenne ; l'arrière-plan est le plus éloigné. Le cadrage, lui, désigne ce que l'artiste a choisi de mettre dans l'image." },
+        { type: "saisie", question: "Comment appelle-t-on l'angle de vue où l'on regarde la scène **d'en haut** ? (un mot)", reponses: ["plongée", "la plongée", "une plongée", "en plongée"], explication: "Vue d'en haut, la scène est en **plongée** : le personnage paraît petit, faible. Vue d'en bas, elle est en **contre-plongée** : il paraît grand, puissant." },
+        { type: "saisie", question: "Comment appelle-t-on le court texte placé sous une image, qui l'identifie ou la commente ? (un mot)", reponses: ["légende", "la légende", "une légende"], explication: "C'est la **légende** : elle donne souvent le titre, l'auteur, la date, ou une phrase du texte illustré. Lis-la toujours : elle aide à comprendre l'image." },
+        { type: "vf", question: "Le bleu, le vert et le violet sont des couleurs chaudes.", reponse: false, explication: "Ce sont des couleurs **froides** : elles évoquent le calme, la nuit, la tristesse ou le mystère. Les couleurs chaudes sont le rouge, l'orange et le jaune ; le gris et le noir sont des couleurs neutres." },
+        { type: "qcm", question: "Un artiste veut montrer la peur sur le visage d'un personnage. Quel cadrage choisit-il le plus probablement ?", choix: ["un gros plan", "un plan d'ensemble", "une vue de très loin", "un plan qui ne montre que le décor"], reponse: 0, explication: "Le **gros plan** montre un visage de très près : on voit les yeux, la bouche, l'émotion. Le plan d'ensemble montre surtout le décor ; les personnages y sont trop petits pour qu'on lise leurs sentiments." },
+        { type: "qcm", texte: "ogre", question: "L'Ogre est vu d'en bas et occupe toute la hauteur de l'image. Quel effet ce choix produit-il ?", choix: ["L'Ogre paraît petit et ridicule.", "L'Ogre paraît doux et protecteur.", "L'Ogre paraît lointain, presque invisible.", "L'Ogre paraît immense et menaçant."], reponse: 3, explication: "Vu d'en bas, c'est une **contre-plongée** : le personnage paraît **grand, puissant, menaçant**. Le spectateur se retrouve à la place des enfants, tout petits face à lui. Son ombre « gigantesque » sur le mur renforce encore cet effet." },
+        { type: "qcm", texte: "ogre", question: "Pourquoi l'illustrateur fait-il briller les couronnes d'or au milieu d'une image toute sombre ?", choix: ["pour que l'image soit plus gaie", "parce que l'or est une couleur froide", "pour attirer le regard sur l'objet de la ruse du Petit Poucet", "pour montrer que l'Ogre est très riche"], reponse: 2, explication: "Le **contraste** entre l'or brillant et les bleus sombres attire le regard sur les couronnes. Or ce sont elles qui vont tromper l'Ogre : en les mettant sur la tête de ses frères, le Petit Poucet leur sauve la vie. L'image met en valeur l'élément clé de l'histoire." },
+        { type: "qcm", texte: "ogre", question: "Seul le plus petit garçon a les yeux ouverts. Quelle phrase du conte l'illustrateur a-t-il suivie ?", choix: ["« les petits garçons, qui dormaient tous, excepté le Petit Poucet »", "« L'Ogre avait sept filles, qui n'étaient encore que des enfants »", "« Fort content de cette expédition, il alla se recoucher »", "« Il se jeta donc brusquement hors du lit »"], reponse: 0, explication: "Perrault écrit que les garçons « dormaient tous, **excepté** le Petit Poucet, qui eut bien peur ». L'illustrateur traduit cette peur par un détail visible : les yeux grands ouverts et le drap serré contre le menton. Le spectateur partage la peur du héros." },
+        { type: "vf", texte: "ogre", question: "Cette illustration montre l'Ogre en train de tuer ses filles.", reponse: false, explication: "L'image montre l'**instant d'avant** : l'Ogre tâte la tête d'un garçon, le couteau à la main. Comme Doré dans *Le Petit Chaperon rouge*, l'illustrateur choisit le moment de plus grande tension et laisse le pire hors de l'image : le lecteur, qui connaît la suite, a peur." },
+        { type: "redaction", texte: "ogre", question: "**Question type contrôle** : « Comment cette illustration fait-elle naître la peur ? » Réponds en un paragraphe d'une dizaine de lignes : appuie-toi sur au moins **trois** choix de l'illustrateur (angle de vue, couleurs, lumière, détails), et dis l'effet de chacun.", corrige: `**Proposition de réponse**
+Cette illustration fait naître la peur grâce à plusieurs choix de l'illustrateur.
+
+D'abord, l'Ogre est représenté **en contre-plongée**, au premier plan : sa tête touche presque le haut de l'image et ses épaules en occupent toute la largeur. Il paraît donc gigantesque et menaçant, d'autant plus que son **ombre** immense monte jusqu'au plafond.
+
+Ensuite, les **couleurs sombres**, bleus froids, gris et noir, installent l'atmosphère inquiétante de la nuit. Seules les couronnes d'or brillent : ce **contraste** attire le regard sur l'objet de la ruse et crée le suspense, car le lecteur se demande si la ruse va réussir.
+
+Enfin, un **détail** fait partager la peur du héros : le plus petit des garçons a « les yeux grands ouverts » et « serre le drap contre son menton ». L'illustrateur choisit en outre le moment juste avant le crime, le couteau à la main : ce qui n'est pas montré effraie encore plus.
+
+Ainsi, l'image ne se contente pas de répéter le texte de Perrault : elle rend la menace visible et place le spectateur à la hauteur des enfants.
+
+**Critères de réussite** : au moins trois choix précis de l'illustrateur, chacun nommé avec le bon mot (contre-plongée, couleurs froides, contraste, détail) ; l'effet de chacun est expliqué ; connecteurs (d'abord, ensuite, enfin, ainsi).` },
+        { type: "qcm", question: "Dans une bande dessinée, où sont écrites les paroles d'un personnage ?", choix: ["dans une bulle", "dans le récitatif", "dans la légende", "dans la marge de la planche"], reponse: 0, explication: "Les paroles sont dans une **bulle** (on dit aussi un phylactère) ; sa pointe montre qui parle. Le **récitatif**, lui, est l'encadré où parle le narrateur (« Le lendemain... »)." },
+        { type: "saisie", question: "Dans une bande dessinée, chaque image encadrée s'appelle une case ou une ... (un mot qui commence par v)", reponses: ["vignette", "une vignette", "la vignette"], explication: "Une image encadrée de BD est une **case** ou une **vignette**. Une ligne de cases forme une **bande**, et une page entière, une **planche**." },
+        { type: "qcm", question: "« BOUM ! », « CRAC ! », « Splash ! » dessinés en grosses lettres dans une case : comment appelle-t-on ces mots ?", choix: ["des récitatifs", "des onomatopées", "des bulles de pensée", "des légendes"], reponse: 1, explication: "Ce sont des **onomatopées** : des mots qui imitent un bruit. En BD, leur taille et leur forme font « entendre » le bruit au lecteur." },
+        { type: "vf", question: "Dans une bande dessinée, le récitatif contient les paroles d'un personnage.", reponse: false, explication: "Le **récitatif** est l'encadré (souvent en haut de la case) où parle le **narrateur** : « Pendant ce temps... », « Le lendemain... ». Les paroles des personnages sont dans les **bulles**." },
+      ],
+    },
+    {
+      id: "resumer-un-recit",
+      titre: "Résumer un récit",
+      theme: "Écriture",
+      cours: `
+## Qu'est-ce qu'un résumé ?
+Un **résumé** est un texte court qui redit l'**essentiel** d'un récit. Il doit être :
+- **fidèle** : il ne change rien à l'histoire, n'invente rien et ne donne **pas ton avis** ;
+- **bref** : il supprime les détails, les descriptions et les dialogues ;
+- **dans l'ordre** : il suit l'ordre des événements ;
+- **reformulé** : il est écrit avec **tes propres mots**, sans recopier les phrases du texte.
+
+On l'écrit le plus souvent au **présent**, à la **3e personne**, en phrases complètes reliées par des connecteurs.
+
+## Méthode en quatre étapes
+1. **Lire et comprendre** : qui ? où ? quand ? que se passe-t-il ? comment l'histoire finit-elle ?
+2. **Repérer les étapes** du schéma narratif : situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale. Une ou deux phrases par étape suffisent.
+3. **Trier** : garde les actions importantes ; supprime les descriptions, les détails (couleurs, objets secondaires), les répétitions et les paroles rapportées mot pour mot.
+4. **Reformuler et rédiger** : remplace une liste par un **mot générique** ; transforme un dialogue en une phrase (« Elle le remercie de sa bonté ») ; relie les phrases par des connecteurs (d'abord, alors, mais, enfin).
+
+>! **Le mot générique** : c'est un mot qui en regroupe plusieurs.
+>! « Il emporta du pain, du fromage, des pommes et une gourde de lait » → « Il emporte des **provisions** ».
+>! « Elle croisa un cerf, un sanglier, des lièvres et des renards » → « Elle croise des **animaux** de la forêt ».
+
+>! **Exemple résolu** : résumer l'extrait du *Petit Poucet* (chapitre « Lire et comprendre un récit »)
+>! Dans la maison de l'Ogre, le Petit Poucet et ses frères dorment dans la même chambre que les sept filles de l'Ogre, qui portent des couronnes d'or. Craignant que l'Ogre ne vienne les tuer dans la nuit, Poucet échange les bonnets de ses frères contre les couronnes. Dans le noir, l'Ogre, trompé par les couronnes, égorge ses propres filles.
+>! *Trois phrases au présent, dans l'ordre de l'histoire : le portrait des ogresses, les mots exacts de l'Ogre et les détails ont disparu.*
+
+## Erreurs fréquentes
+- Donner son avis (« cette histoire est géniale ») : un résumé n'est pas une critique.
+- Recopier des phrases entières du texte au lieu de reformuler.
+- Garder les dialogues ou les descriptions.
+- Raconter le début en détail et oublier la fin : la **fin** de l'histoire doit toujours figurer dans le résumé.
+- Inventer ou expliquer ce que le texte ne dit pas.
+
+> **À retenir**
+> Résumer = redire l'essentiel, fidèlement, en peu de mots, dans l'ordre de l'histoire.
+> Au présent, à la 3e personne, avec tes propres mots ; jamais ton avis.
+> Supprime descriptions, détails, dialogues ; remplace les listes par un mot générique.
+> Appuie-toi sur le schéma narratif : une ou deux phrases par étape, sans oublier la fin.
+`,
+      textes: {
+        source: `**La source gelée** (texte d'entraînement)
+
+Il était une fois, dans un village perché au sommet d'une montagne, une source qui donnait à tous une eau claire et fraîche. Les femmes y lavaient le linge, les enfants y jouaient, les bêtes venaient y boire chaque soir.
+
+Un hiver, un froid terrible s'abattit sur la montagne. Un matin, les villageois trouvèrent la source gelée, dure comme une pierre. Ils eurent beau frapper la glace à coups de hache, allumer de grands feux, rien n'y fit. Bientôt, il n'y eut plus une goutte d'eau dans le village.
+
+Le jeune berger Malo décida d'aller chercher la vieille Ysé, une guérisseuse qui vivait de l'autre côté de la forêt. Il enroula autour de son cou son écharpe rouge, prit un bâton, du pain, du fromage et deux pommes, et partit dans la neige.
+
+En chemin, il entendit un gémissement. Un renard, la patte prise dans un piège, le regardait avec des yeux suppliants. Malo pensa : « Je n'ai pas le temps... » Pourtant, il s'agenouilla, ouvrit le piège et banda la patte de l'animal avec son écharpe.
+
+Quand il arriva enfin chez Ysé, la vieille femme sourit en voyant, derrière lui, le renard à la patte bandée de rouge : l'animal l'avait suivi jusque-là.
+« Tu as un bon cœur, dit-elle. Ce renard est mon ami : c'est lui qui va te guider. »
+
+Le renard conduisit Malo jusqu'à une grotte cachée, où coulait une source chaude. Le berger remplit sa gourde et revint au village. Il versa l'eau tiède sur la glace, qui fondit aussitôt. Depuis ce jour, la source ne gèle plus jamais, et l'on raconte qu'un renard vient y boire chaque soir.`,
+      },
+      exercices: [
+        { type: "vf", question: "Dans un résumé, on termine en donnant son avis sur l'histoire.", reponse: false, explication: "Un résumé est **fidèle** et **objectif** : il redit l'essentiel de l'histoire, sans jugement. Donner son avis, c'est le travail d'une critique, pas d'un résumé." },
+        { type: "qcm", question: "À quel temps écrit-on le plus souvent un résumé ?", choix: ["au passé simple", "au futur", "au présent", "au conditionnel"], reponse: 2, explication: "On résume en général au **présent** : « Malo part chercher la guérisseuse ». Le récit d'origine peut être au passé simple et à l'imparfait, le résumé le reformule au présent." },
+        { type: "qcm", question: "Quelle phrase résume le mieux : « Il emporta du pain, du fromage, deux pommes et une gourde de lait » ?", choix: ["Il emporte des provisions.", "Il emporte du pain.", "Il emporte beaucoup de choses très bonnes.", "Il emporte du pain, du fromage et des pommes."], reponse: 0, explication: "« **Provisions** » est un **mot générique** : il regroupe le pain, le fromage, les pommes et le lait. « Du pain » est incomplet ; la troisième phrase ajoute un avis ; la dernière garde la liste au lieu de la réduire." },
+        { type: "saisie", question: "Comment appelle-t-on un mot qui en regroupe plusieurs, comme « fruits » pour « pomme, poire, prune » ? (le mot ...)", reponses: ["générique", "mot générique", "un mot générique", "terme générique", "un terme générique"], explication: "C'est un **mot générique** (ou terme générique). Il permet de remplacer une liste et donc de raccourcir un texte : c'est un outil essentiel du résumé." },
+        { type: "qcm", texte: "source", question: "Quel est l'**élément perturbateur** de ce récit ?", choix: ["La source du village gèle et il n'y a plus d'eau.", "Malo délivre un renard pris dans un piège.", "Ysé sourit en voyant le renard derrière Malo.", "Le renard vient boire à la source chaque soir."], reponse: 0, explication: "La situation initiale est heureuse : la source donne de l'eau à tous. Tout bascule quand elle **gèle** : c'est l'**élément perturbateur**, qui lance l'histoire. Le renard délivré est une péripétie ; le renard qui revient boire fait partie de la situation finale." },
+        { type: "qcm", texte: "source", question: "Lequel de ces éléments peux-tu **supprimer** dans le résumé sans trahir l'histoire ?", choix: ["Malo part chercher la guérisseuse Ysé.", "Malo soigne le renard malgré sa hâte.", "Le renard guide Malo jusqu'à une source chaude.", "Les femmes lavaient le linge à la source."], reponse: 3, explication: "Le linge lavé à la source est un **détail** de la situation initiale : on peut dire simplement que la source donnait de l'eau à tout le village. Les trois autres éléments sont indispensables, car chacun fait avancer l'histoire (et la bonté de Malo explique la fin)." },
+        { type: "vf", texte: "source", question: "Dans le résumé, il faut recopier exactement la phrase d'Ysé : « Tu as un bon cœur, dit-elle. Ce renard est mon ami : c'est lui qui va te guider. »", reponse: false, explication: "On ne garde pas les dialogues : on les **reformule** en une courte phrase, par exemple « Touchée par sa bonté, Ysé demande au renard de le guider » ou « Pour le récompenser de sa bonté, Ysé lui donne le renard pour guide »." },
+        { type: "qcm", texte: "source", question: "Quel est le meilleur résumé de ce récit ?", choix: ["Dans un village de montagne, une source gèle pendant un hiver terrible et les habitants n'ont plus d'eau. Malo trouve une source chaude, puis il soigne un renard et rentre au village.", "Dans un village de montagne, la source gèle pendant l'hiver. Le berger Malo part chercher une guérisseuse ; en chemin, il libère un renard. Touchée par sa bonté, la guérisseuse lui donne le renard pour guide, et Malo rapporte une eau chaude qui fait fondre la glace.", "Dans un village de montagne, la source gèle. Le berger Malo, très courageux, part dans la neige avec une jolie écharpe rouge. C'est une très belle histoire qui montre qu'il faut être gentil.", "Dans un village de montagne, la source gèle. Malo demande l'aide d'Ysé, une sorcière, qui fait fondre la glace par magie en prononçant une formule secrète devant tout le village."], reponse: 1, explication: "Ce résumé est **complet, dans l'ordre et fidèle**, sans avis. Les autres ont chacun un défaut : l'un change l'**ordre** des événements (le renard est soigné avant la découverte de la source) ; un autre garde un **détail** (l'écharpe), donne un **avis** et oublie la fin ; le dernier **invente** (Ysé n'est pas une sorcière et ne fait pas fondre la glace)." },
+        { type: "qcm", texte: "source", question: "Pour relier « Malo est pressé » et « il prend le temps de soigner le renard », quel connecteur convient ?", choix: ["donc", "car", "ensuite", "pourtant"], reponse: 3, explication: "Les deux idées s'opposent : Malo est pressé, et **pourtant** il s'arrête. Le texte le dit avec le même mot : « Pourtant, il s'agenouilla ». « Donc » marque une conséquence, « car » une cause, « ensuite » la suite dans le temps." },
+        { type: "redaction", texte: "source", question: "**Exercice type contrôle** : résume le récit « La source gelée » en **cinq à sept lignes** (environ 80 mots), au présent, avec tes propres mots.", corrige: `**Proposition de résumé**
+Dans un village de montagne, une source donne de l'eau à tous les habitants. Mais un hiver, elle gèle et le village n'a plus d'eau. Le jeune berger Malo part alors chercher Ysé, une vieille guérisseuse. En chemin, malgré sa hâte, il délivre un renard pris dans un piège. Touchée par sa bonté, Ysé lui donne le renard pour guide. L'animal le conduit à une source chaude, dont l'eau fait fondre la glace. Depuis, la source ne gèle plus.
+
+*(environ 80 mots)*
+
+**Ce qui est réussi ici** : toutes les étapes du schéma narratif sont présentes, dans l'ordre (situation initiale, élément perturbateur, péripéties, résolution, situation finale) ; la fin n'est pas oubliée ; les détails (écharpe rouge, pain, coups de hache) et le dialogue ont disparu ; le présent est employé partout ; les connecteurs (mais, alors, en chemin, depuis) relient les phrases ; aucun avis personnel.
+
+**Critères de réussite** : fidélité au texte, ordre respecté, fin présente, aucun dialogue ni détail inutile, phrases reformulées, présent, longueur respectée.` },
       ],
     },
   ],

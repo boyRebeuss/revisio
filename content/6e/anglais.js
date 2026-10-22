@@ -256,6 +256,8 @@ Méthode : on écoute le **dernier son** du mot avant le -s.
 - *book* finit par /k/ et *shop* par /p/ : ce sont des sons « soufflés » sans vibration de la gorge, le -s se dit **/s/** ;
 - *girl* finit par /l/ et *tree* par une voyelle : la gorge vibre, le -s se dit **/z/** ;
 - *box* finit par le son « ks » et *orange* par le son « dj » : on ne peut pas coller un s directement, on ajoute une syllabe **/ɪz/** : *bo-xes*, *o-ran-ges*.` },
+        { type: "saisie", question: "Combien de syllabes entend-on quand on dit *Wednesday* (mercredi) ? (réponds en chiffres)", reponses: ["2", "two"], explication: "On entend **2** syllabes : *WENZ-day* /ˈwenzdeɪ/ (« ouènnz-deï »). Le mot s'écrit en trois morceaux (*Wed-nes-day*), mais le premier **d** et le **e** du milieu sont muets." },
+        { type: "qcm", question: "Dans quel jour de la semaine une lettre **d** s'écrit-elle sans se prononcer ?", choix: ["Monday", "Friday", "Wednesday", "Tuesday"], reponse: 2, explication: "Dans **Wednesday** (« ouènnzdeï »), le premier **d** est muet. Dans *Monday*, *Tuesday* et *Friday*, le d se prononce. Le d de *-day* se prononce toujours, même dans *Wednesday* : seul le **premier** d est muet." },
       ],
     },
     {
@@ -387,7 +389,18 @@ Ensuite : *21st twenty-first, 22nd twenty-second, 23rd twenty-third, 31st thirty
 | 7 h 30 | *It's half past seven.* (7 heures et demie) |
 | 7 h 45 | *It's quarter to eight.* (8 heures moins le quart) |
 
-En anglais, on compte souvent sur 12 heures : *a.m.* le matin, *p.m.* l'après-midi et le soir (*3 p.m.* = 15 h). On peut aussi dire l'heure « comme sur une montre » : *seven fifteen, seven thirty*. Pour les autres minutes : *five past one* (1 h 05), *twenty to three* (2 h 40).
+En anglais, on compte souvent sur 12 heures : *a.m.* le matin, *p.m.* l'après-midi et le soir (*3 p.m.* = 15 h). Pour les autres minutes : *five past one* (1 h 05), *twenty to three* (2 h 40).
+
+### L'heure « comme sur une montre » (heure digitale)
+On peut aussi lire simplement les chiffres, l'heure puis les minutes. Au Royaume-Uni, on écrit souvent un **point** entre les deux : *7.15*.
+| Écrit | Dit « comme sur une montre » | Dit avec past / to |
+|---|---|---|
+| 7.00 | *seven o'clock* | *seven o'clock* |
+| 7.15 | *seven fifteen* | *quarter past seven* |
+| 7.30 | *seven thirty* | *half past seven* |
+| 7.45 | *seven forty-five* | *quarter to eight* (attention : l'heure suivante !) |
+
+>! Exemple résolu : sur un horaire, tu lis *8.15 p.m.* On dit *eight fifteen* ou *quarter past eight*. *p.m.* = l'après-midi ou le soir : 8 + 12 = 20, donc il est **20 h 15**.
 
 > **À retenir** : trait d'union entre dizaine et unité (*forty-seven*). Ordinaux : *first, second, third*, puis -th (*fourth, fifth, twelfth*). Majuscule aux jours et aux mois. *on* + jour, *in* + mois ou année, *at* + heure. *half past seven* = 7 h 30 ; *quarter to eight* = 7 h 45.
 `,
@@ -410,6 +423,10 @@ Points vérifiés :
 - dates avec **on** et des ordinaux : *on the twenty-first of November*, *on the twelfth of December* (attention à l'orthographe de *twelfth*) ;
 - majuscules aux mois : *November, July, March, December* ;
 - possessifs *his / her* bien choisis.` },
+        { type: "vf", question: "*Half past three* et *three thirty* désignent la même heure.", reponse: true, explication: "Oui : les deux veulent dire **3 h 30**. *Half past three* (la moitié après trois heures) se dit avec *past* ; *three thirty* se lit « comme sur une montre » : l'heure, puis les minutes." },
+        { type: "saisie", question: "Il est 9 h 15. Dis l'heure « comme sur une montre » (l'heure puis les minutes) : *It's ___.* (écris seulement ce qui manque)", reponses: ["nine fifteen", "It's nine fifteen", "It is nine fifteen"], explication: "Sur une montre, on lit l'heure puis les minutes : **nine fifteen**. Avec *past*, on dirait *quarter past nine* : c'est juste aussi, mais ce n'est pas ce que demande la consigne." },
+        { type: "qcm", question: "Ton amie te dit : *Let's meet at quarter to six.* Que lis-tu sur ta montre à l'heure du rendez-vous ?", choix: ["6.15", "6.45", "5.15", "5.45"], reponse: 3, explication: "*Quarter to six* = six heures moins le quart = **5.45** (*five forty-five*). Attention : avec *to*, on annonce l'heure **suivante** (*six*), mais la montre affiche encore 5. *6.15* serait *quarter past six*." },
+        { type: "qcm", question: "Sur l'horaire d'un train anglais, tu lis : *departure 4.45 p.m.* Le contrôleur annonce : *The train leaves at four forty-five.* À quelle heure part le train ?", choix: ["à 16 h 45", "à 4 h 45 du matin", "à 16 h 15", "à 17 h 45"], reponse: 0, explication: "*four forty-five* = 4 h 45 et *p.m.* = l'après-midi : 4 + 12 = 16, donc le train part à **16 h 45**. Le matin, on aurait écrit *a.m.*" },
       ],
     },
     {
@@ -1123,6 +1140,8 @@ Points vérifiés (barème indicatif sur 10) :
 - deux questions correctes : *What's your favourite film? Have you got a cat?* (2 points) ;
 - correction de la langue : *I'm eleven*, *she is*, *we've got*, majuscules (*French, I*) (2 points) ;
 - longueur respectée, phrases reliées par *and, but, because* (1 point).` },
+        { type: "qcm", question: "Ton correspondant anglais écrit : *My big sister is seventeen. She goes to college.* Que fait sa sœur ?", choix: ["Elle est au collège, en 3e.", "Elle travaille dans une usine.", "Elle fait des études pour les plus de 16 ans (une sorte de lycée, ou l'université).", "Elle est professeure dans un collège."], reponse: 2, explication: "*College* est un **faux ami** : ce n'est pas notre collège. Au Royaume-Uni, c'est une école pour les **plus de 16 ans** (ou une université) ; aux États-Unis, *college* veut surtout dire université. Notre collège se dit *secondary school* (Royaume-Uni) ou *middle school* (États-Unis)." },
+        { type: "qcm", question: "Comment dis-tu à ton correspondant anglais : « Je vais au collège à Lyon » ?", choix: ["I go to secondary school in Lyon.", "I go to college in Lyon.", "I go to university in Lyon.", "I go to the library in Lyon."], reponse: 0, explication: "Au Royaume-Uni, notre collège se dit **secondary school**. *I go to college* ferait croire que tu as plus de 16 ans ; *the library* = la bibliothèque (un autre faux ami : ce n'est pas une librairie)." },
       ],
     },
     {
@@ -1318,32 +1337,24 @@ Points vérifiés :
 ## Les personnes
 | Thème | Mots A1+ |
 |---|---|
-| la famille | *a baby, a birth* (naissance), *a wedding* (mariage), *to spend time with* (passer du temps avec), *to take care of* (s'occuper de), *to visit* |
-| l'apparence | *curly* (bouclés), *wavy* (ondulés), *straight* (raides), *bald* (chauve), *freckles* (taches de rousseur), *good-looking* (beau), *enormous, gigantic* |
+| l'apparence | *curly* (bouclés), *wavy* (ondulés), *straight* (raides), *bald* (chauve), *freckles* (taches de rousseur), *good-looking* (beau) |
 | le caractère | *outgoing* (sociable), *selfish* (égoïste), *clumsy* (maladroit), *fashionable* (à la mode) |
-| les vêtements | *boots* (bottes), *trainers* (baskets, au Royaume-Uni) = *sneakers* (aux États-Unis), *dungarees* (salopette) |
-| le corps | *cheeks* (joues), *lips* (lèvres), *tongue* (langue), *shoulder* (épaule), *stomach* (ventre), *wrist* (poignet), *knees* (genoux), *ankles* (chevilles), *toes* (orteils) |
-| les métiers | *a baker* (boulanger), *a butcher* (boucher), *a cook* (cuisinier), *a mechanic* (mécanicien), *a plumber* (plombier), *a writer* (écrivain), *a banker* (banquier) |
-| les émotions | *disappointed* (déçu), *tense* (tendu), *cross* (fâché) ; *luckily / fortunately* (heureusement), *sadly / unfortunately* (malheureusement) |
-| les nationalités | *European, Asian, Nigerian, Kenyan, New Zealander, Californian* |
+| les vêtements et le corps | *boots* (bottes), *trainers* (baskets) ; *cheeks* (joues), *shoulder* (épaule), *knees* (genoux), *toes* (orteils) |
+| les métiers | *a baker* (boulanger), *a butcher* (boucher), *a cook* (cuisinier), *a plumber* (plombier), *a writer* (écrivain) |
+| les émotions | *disappointed* (déçu), *cross* (fâché) ; *luckily / fortunately* (heureusement), *sadly / unfortunately* (malheureusement) |
 
 ## La vie de tous les jours
-- à la maison : *to wash one's hands* (se laver les mains), *to help at home* (aider à la maison), *to walk the dog* (promener le chien), *to relax* (se détendre), *to chat on social media* (discuter sur les réseaux sociaux) ;
-- le logement : *a neighbour* (voisin), *the neighbourhood* (le quartier), *the house next door* (la maison d'à côté), *furniture* (les meubles), *comfortable, cosy* (douillet) ;
-- les repas : *dinner time, a lunch box, baked beans* (haricots à la sauce tomate, souvent servis au petit-déjeuner anglais), *apple pie*, *maple taffy* (tire d'érable, au Canada) ;
-- les loisirs : *a sports hall* (gymnase), *an aqua park* (parc aquatique), *indoor / outdoor* (en salle / en plein air), *water sports*, *collecting* (faire une collection), *acting* (faire du théâtre), *to have fun* (s'amuser), *to enjoy* (aimer, apprécier) ;
-- la fréquence : *once a week* (une fois par semaine), *twice a week* (deux fois), *two hours a week*, *during my free time* (pendant mon temps libre) ;
-- les jeux : *the rules* (les règles), *a pawn* (pion), *to cheat* (tricher), *fair play*.
+- chez soi : *a neighbour* (voisin), *the neighbourhood* (le quartier), *furniture* (les meubles), *to walk the dog* (promener le chien), *to help at home* ;
+- loisirs : *a sports hall* (gymnase), *indoor / outdoor* (en salle / en plein air), *to have fun* (s'amuser) ;
+- fréquence : *once a week* (une fois par semaine), *twice a week* (deux fois), *three times a week* ;
+- jeux : *the rules* (les règles), *a pawn* (pion), *to cheat* (tricher).
 
-## Les paysages, les contes, les fêtes
-- paysages : *a tree, a flower, a field* (champ), *a meadow* (prairie), *a hill* (colline), *a valley* (vallée), *a cliff* (falaise), *a canyon, a rock, a bush* (buisson) ;
-- contes : *a sorcerer* (sorcier), *poison* ; *to meet* (rencontrer), *to help, to discover* (découvrir), *to frighten* (effrayer), *to fall in love* (tomber amoureux) ;
-- fêtes : *a tradition, a celebration* ; *Easter* (Pâques) et ses *Easter eggs* ; *a Bank Holiday* (jour férié au Royaume-Uni) ; *Independence Day* (4 juillet, fête nationale des États-Unis) ; *Diwali* (la fête des lumières, venue d'Inde) ;
-- les siècles : *the 21st century* = *the twenty-first century* (le XXIe siècle).
+## Paysages, fêtes, siècles
+- paysages : *a field* (champ), *a meadow* (prairie), *a hill* (colline), *a valley* (vallée), *a cliff* (falaise) ;
+- fêtes : *Easter* (Pâques), *a Bank Holiday* (jour férié au Royaume-Uni), *Independence Day* (4 juillet, États-Unis) ;
+- siècles, avec un ordinal : *the 21st century* = *the twenty-first century* (le XXIe siècle).
 
-## Préciser ce que l'on dit
-- *very* (très), *too* (trop) : *She has got very long hair. It's too hot!*
-- *maybe / perhaps* (peut-être) : *Maybe he's disappointed.*
+Pour préciser : *very* (très), *too* (trop), *maybe / perhaps* (peut-être).
 
 >! Exemple : enrichir une phrase A1 → A1+. *My brother is tall. He has got short hair.* → *My brother is very tall and good-looking. He has got short curly hair and freckles. He's outgoing, but a bit clumsy!*
 
@@ -1436,7 +1447,7 @@ Points vérifiés :
       exercices: [
         { type: "qcm", texte: "finn", question: "Lis la légende. Qui attrape le saumon de la connaissance (*the Salmon of Knowledge*) ?", choix: ["Finn McCool", "le vieux poète Finnegas", "Oonagh", "Benandonner"], reponse: 1, explication: "*One day, Finnegas catches a magic fish* : c'est **le vieux poète Finnegas** qui l'attrape. Finn, lui, le fait cuire (*Finn cooks the salmon*)." },
         { type: "vf", texte: "finn", question: "Finn sait tout parce qu'il mange tout le saumon.", reponse: false, explication: "Faux : *he burns his thumb, so he puts it in his mouth. Suddenly, he knows everything!* Il se brûle le **pouce**, le met dans sa bouche, et c'est ainsi qu'il reçoit le savoir. Il ne mange pas le saumon." },
-        { type: "saisie", texte: "finn", question: "Comment s'appelle la route de pierres que Finn construit au-dessus de la mer ? (recopie le nom anglais du texte)", reponses: ["the Giant's Causeway", "Giant's Causeway"], explication: "*He builds a road of stones across the sea: **the Giant's Causeway*** (la Chaussée des Géants). Le site existe vraiment, en Irlande du Nord, mais ses colonnes sont d'origine volcanique." },
+        { type: "saisie", texte: "finn", question: "Comment s'appelle la route de pierres que Finn construit au-dessus de la mer ? (recopie le nom anglais du texte, avec son apostrophe)", reponses: ["the Giant's Causeway", "Giant's Causeway"], explication: "*He builds a road of stones across the sea: **the Giant's Causeway*** (la Chaussée des Géants). Le site existe vraiment, en Irlande du Nord, mais ses colonnes sont d'origine volcanique." },
         { type: "qcm", texte: "finn", question: "Pourquoi Benandonner s'enfuit-il en Écosse ?", choix: ["Finn est plus grand que lui.", "Oonagh le chasse avec un bâton.", "Il a peur de la mer.", "Il croit que le père du « bébé » est encore plus grand."], reponse: 3, explication: "*If the baby is so big, his father is gigantic!* : Benandonner pense que si le « bébé » est si grand, son père doit être **gigantesque**. Il a peur (*he is very scared*) et s'enfuit. C'était la ruse d'Oonagh (*his clever wife*)." },
         { type: "qcm", texte: "nairobi", question: "Lis le blog de Wanjiru. Qu'est-ce qui est surprenant dans le parc national de Nairobi ?", choix: ["Il est tout près de la ville : on voit les gratte-ciel derrière les animaux.", "Il n'y a pas d'animaux sauvages.", "Il est au bord de la mer.", "On peut s'y promener à pied avec les lions."], reponse: 0, explication: "*Only about seven kilometres from the city centre... and behind them, the skyscrapers of the city!* : le parc est **tout près de la ville**, et on voit les **gratte-ciel** (*skyscrapers*) derrière les animaux." },
         { type: "saisie", texte: "nairobi", question: "D'après le texte, que veut dire le mot swahili *Jambo* ? (réponds en anglais, avec le mot du texte)", reponses: ["hello"], explication: "*Jambo! That means \"hello\" in Swahili* : *Jambo* veut dire **hello** (bonjour). Le swahili est, avec l'anglais, une langue officielle du Kenya." },

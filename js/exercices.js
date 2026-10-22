@@ -121,6 +121,7 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat, support, 
       };
       champ.addEventListener("keydown", (ev) => ev.key === "Enter" && valider());
       zone.append(h("div", { class: "saisie" }, champ, h("button", { class: "btn", onclick: valider }, "Valider")));
+      if (ctx?.accents) zone.append(clavierAccents(champ, ctx.accents));
     } else if (e.type === "redaction") {
       const texte = h("textarea", { class: "champ", rows: 6, placeholder: "Rédige ta réponse ici (au brouillon si tu préfères), puis compare au corrigé." });
       const actions = h("div", { class: "actions" });
@@ -173,4 +174,22 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat, support, 
   construire();
   carte.append(zone, retour);
   return carte;
+}
+
+// Boutons qui insèrent une lettre accentuée là où se trouve le curseur
+function clavierAccents(champ, lettres) {
+  return h("div", { class: "accents", "aria-label": "Lettres accentuées" },
+    [...lettres].map((l) => h("button", {
+      type: "button",
+      class: "accent",
+      // mousedown sans effet : le champ garde le curseur (et le clavier du téléphone reste ouvert)
+      onmousedown: (ev) => ev.preventDefault(),
+      onclick: () => {
+        if (champ.disabled) return;
+        const d = champ.selectionStart ?? champ.value.length, f = champ.selectionEnd ?? d;
+        champ.setRangeText(l, d, f, "end");
+        champ.focus();
+      },
+    }, l))
+  );
 }

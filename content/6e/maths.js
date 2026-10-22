@@ -850,6 +850,25 @@ Cela représente 9 élèves sur 28, soit la fraction **9/28** de la classe.
 
 Autres idées : les 3/5 d'un trajet de 25 km (15 km), les 3/5 d'une classe de 30 élèves (18 élèves).`,
         },
+        {
+          type: "vf",
+          question: "7/9 < 9/7",
+          reponse: true,
+          explication: "Vrai, et sans calcul : dans 7/9, le numérateur est plus petit que le dénominateur, donc 7/9 < 1 ; dans 9/7, il est plus grand, donc 9/7 > 1. On a donc 7/9 < 1 < 9/7. Comparer à 1 est souvent le plus rapide.",
+        },
+        {
+          type: "qcm",
+          question: "Quelle est la plus grande de ces fractions : 2/3 ; 3/4 ; 7/12 ; 5/6 ? (Indice : écris-les toutes en douzièmes.)",
+          choix: ["5/6", "3/4", "2/3", "7/12"],
+          reponse: 0,
+          explication: "12 est dans les tables de 3, de 4 et de 6 : 2/3 = 8/12 ; 3/4 = 9/12 ; 7/12 ; 5/6 = 10/12. La plus grande est 10/12, c'est-à-dire 5/6. Attention : 7/12 n'est pas la plus grande sous prétexte que 7 et 12 sont les plus grands nombres.",
+        },
+        {
+          type: "saisie",
+          question: "Écris 23/6 comme la somme d'un nombre entier et d'une fraction plus petite que 1.",
+          reponses: ["3 + 5/6", "5/6 + 3", "3 et 5/6"],
+          explication: "23 sixièmes = 18 sixièmes + 5 sixièmes. Or 18/6 = 3. Donc 23/6 = 3 + 5/6 : on a 3 < 23/6 < 4. (Pour trouver 3 et 5, on fait la division euclidienne : 23 = 6 × 3 + 5.)",
+        },
       ],
     },
 
@@ -1130,6 +1149,8 @@ Dans une formule, on **remplace les lettres par les nombres** : pour un rectangl
 ## Le périmètre d'un cercle
 Le périmètre d'un cercle (on dit aussi d'un disque) est **proportionnel à son diamètre** : en multipliant le diamètre par un nombre toujours le même, appelé **π** (« pi »), on obtient le périmètre. π n'est pas un nombre décimal ; on utilise souvent **π ≈ 3,14**.
 
+Un peu d'histoire : on cherche la valeur de π depuis l'Antiquité. Au IIIe siècle av. J.-C., le savant grec **Archimède** a montré que π est un peu plus petit que 22/7 ≈ 3,14 (voir le chapitre « Histoire des nombres et des calculs »).
+
 >! Cercle de diamètre 10 cm : P = π × 10 ≈ 3,14 × 10 = **31,4 cm**.
 >! Cercle de rayon 3 cm : le diamètre est 6 cm, donc P = π × 6 ≈ 3,14 × 6 = **18,84 cm**.
 
@@ -1265,6 +1286,8 @@ Sur une horloge à aiguilles, la petite aiguille indique les heures, la grande l
 - 1 h = 60 × 60 s = 3 600 s.
 
 **Attention** : les durées ne se comptent pas de 10 en 10 mais de **60 en 60**. 1 h 30 min n'est pas « 1,30 h » !
+
+**Pourquoi 60 et pas 100 ?** C'est un héritage des **Babyloniens**, qui comptaient en **base 60** il y a près de 4 000 ans. Les astronomes de l'Antiquité ont repris ce système pour mesurer le temps et les angles : d'où 1 h = 60 min, 1 min = 60 s, et 360° dans un tour complet (voir le chapitre « Histoire des nombres et des calculs »).
 
 ## Convertir des durées
 >! 2 h 15 min = 2 × 60 min + 15 min = 120 + 15 = **135 min**.
@@ -2658,6 +2681,34 @@ Autre méthode : 2,5 × 600 = 1 500 g.
 5) Sur la photocopie, le segment mesure 2 × 2 = **4 cm**, et il représente **toujours 40 m** : l'échelle graphique reste juste.
 En revanche, 1 cm représente maintenant 40 ÷ 4 = 10 m = 1 000 cm : l'échelle de la photocopie est 1/1 000. L'échelle **1/2 000 n'est plus juste** sur la photocopie. C'est l'avantage de l'échelle graphique.`,
         },
+        {
+          type: "saisie",
+          question: "Une carte est à l'échelle 1/25 000. Pour dessiner son échelle graphique, on veut tracer un segment qui représente 500 m. Quelle doit être la longueur de ce segment, en cm ?",
+          reponses: ["2 cm", "2 centimètres"],
+          explication: "On écrit tout dans la même unité : 500 m = 50 000 cm. À l'échelle 1/25 000, 1 cm sur la carte représente 25 000 cm. Il faut donc 50 000 ÷ 25 000 = 2 cm (c'est-à-dire 20 mm, mais la question demande la réponse en cm).",
+        },
+        {
+          type: "redaction",
+          question: "À toi de tracer une échelle graphique, sur ton cahier, avec ta règle.\n1) Une carte de randonnée est à l'échelle 1/25 000. Quelle longueur sur la carte représente 1 km ? Et 500 m ?\n2) Trace l'échelle graphique de cette carte : un segment qui représente 1 km, avec une graduation au milieu. Écris 0, 500 m et 1 km aux bons endroits.\n3) Trace un segment de 10 cm : c'est un chemin rectiligne mesuré sur cette carte. Reporte ton échelle graphique le long de ce segment (à la règle ou au compas). Quelle est la longueur réelle du chemin ?\n4) Tu dessines le plan de ta chambre à l'échelle 1/50. Quelle longueur de segment représente 1 m ? Trace l'échelle graphique de ton plan.",
+          corrige: `1) 1 km = 100 000 cm. À l'échelle 1/25 000, 1 cm représente 25 000 cm, donc 1 km est représenté par 100 000 ÷ 25 000 = **4 cm**.
+500 m, c'est la moitié de 1 km : **2 cm**.
+
+2) On trace un segment de 4 cm, avec une graduation à 2 cm :
+
+~~~
+0          500 m        1 km
+├───────────┼───────────┤
+    2 cm         2 cm
+~~~
+
+Vérifie avec ta règle que ton segment mesure bien 4 cm et que la graduation est au milieu.
+
+3) En reportant l'échelle, on trouve que 10 cm = 4 cm + 4 cm + 2 cm : le chemin mesure 1 km + 1 km + 500 m = **2,5 km**.
+Vérification par le calcul : 10 × 25 000 = 250 000 cm = 2 500 m = 2,5 km.
+
+4) 1 m = 100 cm. À l'échelle 1/50, 1 cm sur le plan représente 50 cm, donc 1 m est représenté par 100 ÷ 50 = **2 cm**.
+On trace un segment de 2 cm et on écrit « 0 » et « 1 m » à ses extrémités (ou un segment de 4 cm pour 2 m).`,
+        },
       ],
     },
 
@@ -2791,5 +2842,224 @@ Après les 4 virages à gauche (un tour complet), le robot est revenu à son poi
         },
       ],
     },
+    // ───────────────────────── 20. Histoire des nombres et des calculs (P3)
+    {
+      id: "histoire-des-nombres",
+      titre: "Histoire des nombres et des calculs : numérations, base 60, π, calendriers",
+      theme: "Nombres, calcul et résolution de problèmes",
+      cours: `
+## Pourquoi un peu d'histoire ?
+Les nombres que tu écris tous les jours ont une longue histoire. Des peuples différents ont inventé des façons très différentes de les écrire et de calculer. Les connaître aide à mieux comprendre **notre** façon de faire, et pourquoi certaines choses (60 minutes dans une heure, les années bissextiles) sont comme elles sont.
+
+## La numération égyptienne (il y a environ 5 000 ans)
+Les scribes égyptiens utilisaient un **symbole pour chaque puissance de 10** et **répétaient** les symboles autant de fois que nécessaire.
+
+| Symbole | Valeur |
+|---|---|
+| un bâton | 1 |
+| une anse | 10 |
+| une corde enroulée | 100 |
+| une fleur de lotus | 1 000 |
+| un doigt | 10 000 |
+| un têtard | 100 000 |
+| un homme à genoux, bras levés | 1 000 000 |
+
+>! **Exemple** : 2 fleurs de lotus, 3 cordes enroulées et 4 bâtons valent 2 000 + 300 + 4 = **2 304**.
+
+C'est une numération **additive** : on additionne les valeurs des symboles, dans n'importe quel ordre. Il n'y a **pas de zéro**, et il n'en faut pas : pour 2 304, on ne dessine simplement aucune anse.
+
+## La numération romaine
+Les Romains utilisaient sept lettres :
+
+| I | V | X | L | C | D | M |
+|---|---|---|---|---|---|---|
+| 1 | 5 | 10 | 50 | 100 | 500 | 1 000 |
+
+- On **additionne** en général : XVI = 10 + 5 + 1 = 16 ; MMXX = 2 020.
+- Mais un I, un X ou un C placé **juste avant** une lettre plus grande se **soustrait** : IV = 5 − 1 = 4 ; IX = 9 ; XL = 40 ; XC = 90 ; CD = 400 ; CM = 900.
+
+>! **Exemple** : MCMXCIV = 1 000 + 900 + 90 + 4 = **1 994**.
+
+Tu les rencontres encore : numéros des siècles (le XXIe siècle), des rois (Louis XIV), cadrans d'horloge. Mais pour **calculer**, c'est très peu pratique : essaie de poser XLVII × XXXVI…
+
+## Les Babyloniens et la base 60 (il y a près de 4 000 ans)
+En Mésopotamie (l'Irak actuel), les savants babyloniens écrivaient sur des tablettes d'argile avec deux signes en forme de clou : un **clou** pour 1 et un **chevron** pour 10. Avec eux, ils écrivaient les nombres de 1 à 59.
+
+Leur grande idée : une numération **de position**, comme la nôtre, mais en **base 60**. Un signe placé au deuxième rang compte pour des **soixantaines**.
+
+>! **Exemple** : un nombre écrit « 2 | 15 » (2 au rang des soixantaines, 15 au rang des unités) vaut 2 × 60 + 15 = **135**.
+>! C'est exactement comme une durée : 2 h 15 min = 2 × 60 + 15 = **135 min**.
+
+**Notre héritage** : les astronomes de l'Antiquité, puis ceux du monde arabe, ont repris la base 60 pour mesurer le temps et les angles. C'est pour cela que **1 h = 60 min** et **1 min = 60 s**. Le tour complet de **360°** (6 × 60) vient lui aussi, très probablement, des astronomes babyloniens.
+
+## Notre numération : dix chiffres et un zéro
+Nos dix chiffres (0, 1, 2… 9) viennent de **l'Inde**. Les savants indiens utilisaient déjà, au VIIe siècle au plus tard, une numération **de position en base 10 avec un zéro**. Les mathématiciens arabes l'ont adoptée (comme **al-Khwârizmî**, à Bagdad, au IXe siècle), puis elle a été diffusée en Europe, notamment par l'Italien **Fibonacci** dans un livre de 1202. C'est pour cela qu'on parle de « chiffres arabes ».
+
+Le **zéro** est indispensable dans une numération de position : il marque un rang vide. Sans lui, on ne distinguerait pas 27, 207 et 270.
+
+## Le nombre π à travers l'histoire
+Depuis l'Antiquité, on sait que le périmètre d'un cercle est proportionnel à son diamètre, et on cherche la valeur de ce coefficient, aujourd'hui appelé **π**.
+
+| Qui ? | Quand ? | Valeur utilisée | Écriture décimale |
+|---|---|---|---|
+| Babyloniens | vers 1800 av. J.-C. | 3 + 1/8 | 3,125 |
+| Égyptiens (papyrus Rhind) | vers 1650 av. J.-C. | 256/81 | ≈ 3,160 |
+| Archimède (Grec) | IIIe siècle av. J.-C. | 22/7 | ≈ 3,143 |
+| Aujourd'hui | — | π | 3,14159… |
+
+Archimède a encadré le cercle entre deux polygones à **96 côtés** et a montré que π est compris entre 3 + 10/71 et 3 + 1/7 (= 22/7). La lettre grecque π n'est utilisée pour ce nombre que depuis le XVIIIe siècle. Aujourd'hui, les ordinateurs ont calculé des milliers de milliards de décimales de π, et elles ne s'arrêtent jamais : π n'est pas un nombre décimal.
+
+## Les calendriers et les années bissextiles
+La Terre met **environ 365,2422 jours** pour revenir à la même saison. Un calendrier de 365 jours tout ronds se décale donc de presque un quart de jour par rapport aux saisons chaque année.
+
+- **Le calendrier julien** (Jules César, 45 av. J.-C.) : trois années de 365 jours, puis une année **bissextile** de 366 jours. En moyenne : (3 × 365 + 366) ÷ 4 = **365,25 jours**. C'est un peu trop long : 365,25 − 365,2422 = 0,0078 jour par an.
+- Au fil des siècles, ce petit écart s'est accumulé : en 1582, le calendrier était décalé de **10 jours** par rapport aux saisons : le printemps (l'équinoxe, quand le jour et la nuit ont la même durée) commençait vers le 11 mars au lieu du 21 mars, sa date en l'an 325, quand l'Église a fixé les règles de calcul de la date de Pâques. Le pape **Grégoire XIII** a alors supprimé 10 jours : le jeudi 4 octobre 1582 a été suivi du **vendredi 15 octobre 1582**.
+- **Le calendrier grégorien** (le nôtre) corrige la règle :
+
+>! Une année est **bissextile** si elle est divisible par 4…
+>! … **sauf** les années de fin de siècle (divisibles par 100), qui ne le sont pas…
+>! … **sauf** si elles sont divisibles par 400, qui le restent.
+>! Exemples : 2028 est bissextile ; 1900 et 2100 ne le sont pas ; 2000 l'était.
+
+Pour savoir si une année est divisible par 4, effectue la division : 2028 = 4 × 507 + 0, le reste est nul.
+
+Le mot « bissextile » vient du latin : les Romains ajoutaient ce jour en comptant **deux fois** (« bis ») le **sixième** (« sextus ») jour avant le début du mois de mars.
+
+## La multiplication par jalousies
+Cette technique, peut-être née en Inde, a été utilisée par des mathématiciens arabes au Moyen Âge, puis en Italie à la Renaissance (on l'appelait « per gelosia »). Son quadrillage traversé de diagonales rappelait les **jalousies** des fenêtres (des volets à lamelles), d'où son nom. Elle évite de garder des retenues en tête pendant les multiplications.
+
+>! **Exemple** : 47 × 36.
+>! **Étape 1** : on trace une grille de 2 colonnes (une par chiffre de 47) et 2 lignes (une par chiffre de 36), et on coupe chaque case par une diagonale.
+>! **Étape 2** : dans chaque case, on écrit le produit des deux chiffres : les **dizaines** en haut à gauche de la diagonale, les **unités** en bas à droite (4 × 3 = 12 s'écrit 1 et 2).
+
+~~~
+        4       7
+    +-------+-------+
+    | 1   / | 2   / |
+    |   /   |   /   |  3
+    | /   2 | /   1 |
+    +-------+-------+
+    | 2   / | 4   / |
+    |   /   |   /   |  6
+    | /   4 | /   2 |
+    +-------+-------+
+~~~
+
+>! **Étape 3** : on additionne les chiffres situés dans une même **bande en diagonale**, en commençant par la bande d'en bas à droite :
+>! - 1re bande : **2** (chiffre des unités) ;
+>! - 2e bande : 4 + 4 + 1 = **9** (dizaines) ;
+>! - 3e bande : 2 + 2 + 2 = **6** (centaines) ;
+>! - 4e bande : **1** (milliers).
+>! On lit le résultat : **47 × 36 = 1 692**.
+
+Si la somme d'une bande dépasse 9, on écrit le chiffre des unités et on **retient** le chiffre des dizaines dans la bande suivante. Pourquoi ça marche ? Chaque bande regroupe des chiffres de **même rang** : c'est la numération de position qui fait tout le travail.
+
+> **À retenir**
+> - Égyptiens et Romains : numérations **additives**, sans zéro, peu pratiques pour calculer.
+> - Babyloniens : numération **de position en base 60** ; héritage : 1 h = 60 min, 1 min = 60 s, 360° dans un tour.
+> - Notre numération vient de l'Inde, par les mathématiciens arabes : position, base 10 et **zéro**.
+> - π : 3,125 (Babyloniens), ≈ 3,16 (Égyptiens), 22/7 ≈ 3,14 (Archimède) ; π n'est pas décimal.
+> - Bissextile : divisible par 4, sauf les fins de siècle non divisibles par 400.
+> - Jalousies : produits des chiffres dans la grille, puis sommes en diagonale avec retenues.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quel nombre est écrit MMXXVI en chiffres romains ?",
+          choix: ["2 016", "2 524", "2 026", "1 026"],
+          reponse: 2,
+          explication: "MM = 1 000 + 1 000 = 2 000 ; XX = 10 + 10 = 20 ; VI = 5 + 1 = 6. Donc MMXXVI = 2 026. Le D vaut 500 et n'apparaît pas ici ; 2 016 s'écrirait MMXVI.",
+        },
+        {
+          type: "saisie",
+          question: "Un scribe égyptien a dessiné 3 fleurs de lotus, 2 cordes enroulées, 4 anses et 5 bâtons. Écris ce nombre en chiffres.",
+          reponses: ["3 245"],
+          explication: "Fleur de lotus = 1 000, corde enroulée = 100, anse = 10, bâton = 1. On additionne : 3 × 1 000 + 2 × 100 + 4 × 10 + 5 × 1 = 3 000 + 200 + 40 + 5 = 3 245.",
+        },
+        {
+          type: "vf",
+          question: "Pour écrire le nombre 207, un scribe égyptien avait besoin d'un symbole pour le zéro.",
+          reponse: false,
+          explication: "Faux : la numération égyptienne est additive. Pour 207, il dessine 2 cordes enroulées (200) et 7 bâtons (7), et il ne dessine simplement aucune anse. Le zéro n'est indispensable que dans une numération **de position** comme la nôtre, où il faut distinguer 27 et 207.",
+        },
+        {
+          type: "saisie",
+          question: "Un nombre babylonien (base 60) est écrit avec 2 au rang des soixantaines et 15 au rang des unités. Quelle est sa valeur dans notre numération ?",
+          reponses: ["135"],
+          explication: "Au rang des soixantaines, 2 vaut 2 × 60 = 120. On ajoute les 15 unités : 120 + 15 = 135. C'est le même calcul que pour convertir 2 h 15 min en minutes : 135 min.",
+        },
+        {
+          type: "qcm",
+          question: "Lequel de ces usages actuels est un héritage de la base 60 des Babyloniens ?",
+          choix: ["1 m = 100 cm", "1 h = 60 min et 1 min = 60 s", "1 kg = 1 000 g", "1 L = 1 000 mL"],
+          reponse: 1,
+          explication: "Les durées (et les angles : 360° dans un tour) se comptent de 60 en 60, comme chez les Babyloniens. Les unités de longueur, de masse et de contenance, elles, se comptent de 10 en 10 (système métrique, créé en France à la fin du XVIIIe siècle).",
+        },
+        {
+          type: "qcm",
+          question: "Laquelle de ces valeurs anciennes est la plus proche de π ≈ 3,1416 ?",
+          choix: ["22/7 ≈ 3,143 (Archimède)", "3,125 (Babyloniens)", "256/81 ≈ 3,160 (papyrus Rhind)", "3"],
+          reponse: 0,
+          explication: "On calcule les écarts avec 3,1416 : 3,143 − 3,1416 ≈ 0,001 ; 3,1416 − 3,125 ≈ 0,017 ; 3,160 − 3,1416 ≈ 0,019 ; 3,1416 − 3 ≈ 0,14. La valeur d'Archimède, 22/7, est de loin la plus précise : c'est pour cela qu'on l'utilise encore parfois.",
+        },
+        {
+          type: "saisie",
+          question: "Utilise la méthode par jalousies pour calculer 63 × 24.",
+          reponses: ["1 512"],
+          explication: "Dans la grille : 6 × 2 = 12 (1 et 2), 3 × 2 = 06 (0 et 6), 6 × 4 = 24 (2 et 4), 3 × 4 = 12 (1 et 2). Sommes en diagonale, depuis la bande d'en bas à droite : 2 ; puis 1 + 6 + 4 = 11 (on écrit 1, on retient 1) ; puis 0 + 2 + 2 + 1 = 5 ; puis 1. Résultat : 1 512. Ordre de grandeur : 60 × 25 = 1 500, c'est cohérent.",
+        },
+        {
+          type: "qcm",
+          question: "Laquelle de ces années est bissextile dans notre calendrier (grégorien) ?",
+          choix: ["1900", "2026", "2100", "2000"],
+          reponse: 3,
+          explication: "2000 est une fin de siècle, mais elle est divisible par 400 (2000 = 400 × 5) : elle est bissextile. 1900 et 2100 sont des fins de siècle non divisibles par 400 : elles ne sont pas bissextiles. 2026 n'est pas divisible par 4 (2026 = 4 × 506 + 2).",
+        },
+        {
+          type: "redaction",
+          question: "On veut calculer 74 × 58 par la méthode des jalousies.\n1) Dessine la grille (les chiffres de 74 en haut, ceux de 58 à droite) et remplis chaque case.\n2) Additionne les chiffres en diagonale et donne le résultat. Attention aux retenues.\n3) Vérifie ton résultat par un ordre de grandeur, puis par la multiplication posée habituelle.",
+          corrige: `1) Produits : 7 × 5 = 35 ; 4 × 5 = 20 ; 7 × 8 = 56 ; 4 × 8 = 32. Les dizaines vont en haut à gauche de la diagonale, les unités en bas à droite.
+
+~~~
+        7       4
+    +-------+-------+
+    | 3   / | 2   / |
+    |   /   |   /   |  5
+    | /   5 | /   0 |
+    +-------+-------+
+    | 5   / | 3   / |
+    |   /   |   /   |  8
+    | /   6 | /   2 |
+    +-------+-------+
+~~~
+
+2) Sommes en diagonale, depuis la bande d'en bas à droite :
+- 1re bande : **2** ;
+- 2e bande : 3 + 0 + 6 = **9** ;
+- 3e bande : 2 + 5 + 5 = 12 → on écrit **2** et on retient 1 ;
+- 4e bande : 3 + 1 (retenue) = **4**.
+
+**74 × 58 = 4 292.**
+
+3) Ordre de grandeur : 70 × 60 = 4 200, c'est cohérent.
+Multiplication posée : 74 × 8 = 592 et 74 × 50 = 3 700 ; 592 + 3 700 = **4 292**. Les deux méthodes donnent le même résultat.`,
+        },
+        {
+          type: "redaction",
+          question: "Le calendrier julien, mis en place par Jules César en 45 av. J.-C., compte trois années de 365 jours puis une année bissextile de 366 jours. Tu peux utiliser la calculatrice.\n1) Calcule la durée moyenne d'une année de ce calendrier.\n2) La Terre met en réalité environ 365,2422 jours pour revenir à la même saison. De quelle fraction de jour le calendrier julien est-il trop long chaque année ?\n3) Les règles de calcul de la date de Pâques ont été fixées en 325. Combien d'années se sont écoulées entre 325 et 1582 ? Quel décalage s'est accumulé, arrondi au jour ? Explique la décision prise en 1582.\n4) Dans le calendrier grégorien, combien y a-t-il d'années bissextiles sur une période de 400 ans ? Calcule la durée moyenne d'une année.",
+          corrige: `1) Sur 4 ans : 3 × 365 + 366 = 1 095 + 366 = 1 461 jours. En moyenne : 1 461 ÷ 4 = **365,25 jours**.
+
+2) 365,25 − 365,2422 = **0,0078 jour** de trop chaque année (environ 11 minutes).
+
+3) 1582 − 325 = **1 257 ans**. Décalage : 1 257 × 0,0078 ≈ 9,8, soit environ **10 jours**.
+Le calendrier était donc décalé d'environ 10 jours par rapport aux saisons : le printemps (l'équinoxe) commençait vers le 11 mars au lieu du 21 mars, sa date en 325. En 1582, le pape Grégoire XIII a supprimé ces 10 jours : le jeudi 4 octobre 1582 a été suivi du vendredi 15 octobre 1582. Il a aussi changé la règle des années bissextiles pour que le décalage ne recommence pas.
+
+4) Sur 400 ans, il y a 400 ÷ 4 = 100 années divisibles par 4. Parmi elles, 4 sont des fins de siècle, et 3 ne sont pas divisibles par 400 (par exemple 1700, 1800 et 1900) : elles ne sont pas bissextiles.
+Il reste 100 − 3 = **97 années bissextiles**.
+Durée totale : 400 × 365 + 97 = 146 000 + 97 = 146 097 jours. Durée moyenne : 146 097 ÷ 400 = **365,2425 jours**, très proche de 365,2422 : il ne reste qu'un écart de 0,0003 jour par an.`,
+        },
+      ],
+    },
+
   ],
 };

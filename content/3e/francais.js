@@ -573,7 +573,7 @@ Louis
 
 **Critères** : codes de la lettre, cohérence historique, émotions, temps verbaux, vocabulaire précis, orthographe.` },
         { type: "qcm", texte: "feu", question: "Qui désigne le « nous » de ce texte ?", choix: ["Les habitants d'un village bombardé", "Les officiers qui commandent depuis l'arrière", "Les soldats de l'escouade, dont fait partie le narrateur", "Les lecteurs du roman"], reponse: 2, explication: "Le narrateur voit sortir des ombres des abris, puis comprend : « C'est nous. » Il fait partie des soldats qu'il décrit : c'est ce qui donne au *Feu* sa force de **témoignage** (Barbusse a lui-même combattu dans les tranchées)." },
-        { type: "saisie", texte: "feu", question: "Quelle phrase très courte (trois mots) révèle que les « espèces d'ours » sont en réalité les soldats eux-mêmes ?", reponses: ["C'est nous"], explication: "« **C'est nous.** » Après une longue phrase de description, cette phrase brève crée un effet de surprise : le narrateur ne se reconnaît pas tout de suite, tant la guerre a transformé les hommes." },
+        { type: "saisie", texte: "feu", question: "Quelle phrase très courte (trois mots, en comptant « c' ») révèle que les « espèces d'ours » sont en réalité les soldats eux-mêmes ?", reponses: ["C'est nous"], explication: "« **C'est nous.** » Après une longue phrase de description, cette phrase brève crée un effet de surprise : le narrateur ne se reconnaît pas tout de suite, tant la guerre a transformé les hommes." },
         { type: "qcm", texte: "feu", question: "« des espèces d'ours qui pataugent et grognent » : quel est l'effet de cette image ?", choix: ["Elle montre que les soldats sont joyeux et en bonne santé", "Elle animalise les soldats : la guerre les déshumanise", "Elle décrit les animaux qui vivent près du front", "Elle glorifie la force des combattants"], reponse: 1, explication: "Les soldats, enveloppés de couvertures et couverts de boue, ressemblent à des bêtes : ils « pataugent » et « grognent » au lieu de marcher et de parler. Cette **animalisation** dénonce une guerre qui réduit les hommes à une vie de bêtes, sous la terre. Rien d'**épique** ici : aucune gloire." },
         { type: "qcm", texte: "feu", question: "Quel champ lexical domine dans le 3e paragraphe (« La terre ! Le désert commence à apparaître... ») ?", choix: ["la lumière et la chaleur", "la nourriture", "le feu", "l'eau et la boue"], reponse: 3, explication: "« plein d'eau », « mares », « boue », « vase », « flaques », « mouillé, suintant, lavé, naufragé » : le champ lexical de **l'eau et de la boue** transforme le champ de bataille en marécage, en « désert » où rien ne pousse (« champs de stérilité »). La comparaison avec une « toile grise [...] qui flotte sur la mer » renforce l'impression de naufrage." },
         { type: "saisie", texte: "feu", question: "« Tac ! Tac ! Pan ! » : comment appelle-t-on ces mots qui imitent un bruit ? (un mot)", reponses: ["onomatopée", "une onomatopée", "onomatopées", "des onomatopées", "ce sont des onomatopées"], explication: "Ce sont des **onomatopées**. Placées en tête du paragraphe, elles font entendre au lecteur le bruit des fusils et des canons, qui ne s'arrête jamais (« ça crépite ou ça roule »)." },
@@ -1993,6 +1993,335 @@ Avant de partir, je cachai sous une pierre, au pied du cerisier, une petite boî
 Je ne suis jamais retourné à Saint-Aubin. D'autres enfants grimpent sans doute dans le cerisier. Parfois, j'imagine que l'un d'eux découvrira ma boîte, et que, sans le savoir, il gardera un peu de mon enfance.
 
 **Ce qui fait la réussite** : alternance claire des deux regards (« J'avais dix ans » / « Aujourd'hui, je comprends »), système des temps maîtrisé, dialogue bien ponctué (deux-points, guillemets, tiret), détails sensoriels (gravier, pommes, robe bleue), modalisation (« Il me semble »), fin émouvante qui donne sens au souvenir.` }
+      ]
+    },
+    {
+      id: "brevet-dictee-entrainement",
+      titre: "Méthode brevet : s'entraîner seul à la dictée (auto-dictées de 600 signes)",
+      theme: "Préparer l'épreuve de français du brevet",
+      cours: `
+## La dictée du brevet en bref
+- Elle dure **20 minutes** et vaut **10 points** sur 100.
+- Le texte compte **environ 600 signes**. Un **signe**, c'est une lettre, un espace ou un signe de ponctuation : 600 signes font **environ 100 mots**, soit 6 à 8 lignes écrites à la main.
+- Le texte est **en lien avec le texte du sujet** : même auteur, même thème ou même époque. Le relire en pensée t'aide donc à prévoir le vocabulaire.
+- Le professeur lit d'abord le texte **en entier**, puis le dicte lentement, par groupes de mots, en indiquant la ponctuation ; il le relit enfin une dernière fois pour que tu te corriges. Les noms propres et les mots rares peuvent être écrits au tableau.
+
+## S'entraîner seul : quatre façons de faire
+1. **La dictée à deux** : un parent, un frère, une amie ouvre le corrigé de l'exercice et te dicte le texte. C'est la façon la plus proche de l'examen.
+2. **La dictée enregistrée** : lis le texte à voix haute, lentement, en enregistrant ta voix sur un téléphone. Attends au moins un jour (pour l'oublier un peu), puis écris-le en écoutant l'enregistrement, en faisant des pauses.
+3. **La dictée de mémoire** : lis une phrase, cache-la, écris-la de mémoire, puis compare. Recommence phrase par phrase.
+4. **La dictée à trous** : dans l'appli, des phrases où il faut écrire seulement le mot difficile (participe, verbe, homophone).
+
+>! **Les conditions de l'examen**
+>! Écris sur papier, une ligne sur deux, avec un minuteur : 20 minutes en tout, dont **au moins 5 minutes de relecture**. Ne regarde jamais le texte avant d'avoir fini de te relire.
+>! Relis-toi **trois fois**, en cherchant chaque fois une seule chose : 1. les verbes (sujet, terminaison) ; 2. les groupes nominaux (accords) ; 3. les homophones et les participes passés.
+
+## Corriger sa dictée : classer ses erreurs
+Souligne chaque erreur, puis range-la dans une **famille**. Compter les erreurs par famille te montre ce que tu dois revoir en priorité.
+| Famille d'erreurs | Exemple d'erreur | Règle à revoir |
+|---|---|---|
+| **accord sujet-verbe** | « les enfants *jouait* » | trouver le sujet (« c'est... qui »), même s'il est loin ou après le verbe |
+| **accords dans le groupe nominal** | « *leur* maisons *glacé* » | déterminant, nom et adjectifs s'accordent ensemble |
+| **participe passé** | « les pommes qu'il avait *cueilli* » | être : accord avec le sujet ; avoir : accord avec le COD placé avant |
+| **homophones grammaticaux** | « il *ces* levé », « *quelque* soit » | tests de remplacement (chapitre précédent) |
+| **terminaisons verbales** | « je *m'approchais* » pour un passé simple, « il faut *arrêté* » | -ai / -ais ; -é / -er (test de « prendre ») ; temps du récit |
+| **orthographe des mots** (lexicale) | « *apeine* », « *boîtte* » | mots d'usage : à apprendre par cœur, dictionnaire à la maison |
+
+>! **Exemple de correction**
+>! Phrase écrite : « Les lettres qu'il m'avait *envoyé*, je les ai toutes *gardé*. »
+>! 1. *envoyé* → **envoyées** : participe passé avec avoir, COD « qu' » (= les lettres, féminin pluriel) placé **avant** : famille « participe passé ».
+>! 2. *gardé* → **gardées** : COD « les » (= les lettres) placé avant : même famille.
+>! Bilan : deux erreurs de la même famille. Il faut revoir l'accord du participe passé avec avoir (chapitre « Les accords difficiles »).
+
+## Le carnet d'erreurs
+Pour chaque erreur : écris le mot juste, la règle en une ligne et **deux exemples inventés**. Refais la même dictée **trois jours plus tard** : si l'erreur a disparu, la règle est acquise.
+
+## Les pièges qui reviennent le plus souvent
+- le **participe passé** avec avoir quand le COD est placé avant (que, les, la, l') ;
+- le **sujet éloigné** ou **inversé** : « Dans la cour **jouaient** les enfants » ;
+- **leur** (devant un verbe, invariable) / **leurs** (devant un nom pluriel) ;
+- **quel(s) que / quelle(s) que** + être au subjonctif, accordé avec le sujet ;
+- le **passé simple** à la 1re personne du singulier (je rentr**ai**) et l'imparfait (je rentr**ais**) : écoute bien le récit, et fie-toi au sens ;
+- l'**infinitif** après une préposition ou un autre verbe : « sans **attendre** », « il faut **arrêter** ».
+
+> **À retenir**
+> Dictée du brevet : 20 minutes, 10 points, environ 600 signes (environ 100 mots), en lien avec le texte du sujet.
+> Entraîne-toi en conditions réelles (papier, minuteur, 5 minutes de relecture), puis corrige et **classe** tes erreurs par famille.
+> Tiens un carnet d'erreurs et refais la même dictée quelques jours plus tard.
+
+## Erreurs fréquentes
+- Se corriger en regardant le texte avant d'avoir relu : on ne s'entraîne plus à relire.
+- Compter ses fautes sans les classer : on ne sait pas quoi revoir.
+- Relire une seule fois « en gros » au lieu de trois relectures ciblées (verbes, groupes nominaux, homophones).
+`,
+      exercices: [
+        { type: "qcm", question: "La dictée du brevet compte environ 600 signes. Cela représente à peu près :", choix: ["une trentaine de mots", "une page et demie", "une centaine de mots", "trois cents mots"], reponse: 2, explication: "Un mot français compte en moyenne 5 lettres ; avec l'espace et la ponctuation, cela fait environ **6 signes par mot** : 600 ÷ 6 = **environ 100 mots**, soit 6 à 8 lignes écrites à la main." },
+        { type: "vf", question: "Dans le décompte des signes d'un texte, les espaces et les signes de ponctuation comptent aussi.", reponse: true, explication: "Un **signe** est un caractère : lettre, chiffre, espace ou signe de ponctuation. « Il pleut. » compte donc 9 signes (7 lettres, 1 espace, 1 point)." },
+        { type: "saisie", question: "**Dictée à trous** : écris le participe passé correctement accordé. « Les lettres que j'ai (recevoir) hier m'ont rassurée. »", reponses: ["reçues"], explication: "Avec **avoir**, le participe s'accorde avec le **COD placé avant** : « que », mis pour « les lettres » (féminin pluriel). On écrit donc **reçues**, avec une cédille pour garder le son [s] devant le u." },
+        { type: "saisie", question: "**Dictée à trous** : accorde le verbe au présent. « Au fond de la classe (dormir) deux élèves fatigués. »", reponses: ["dorment"], explication: "Le sujet est **inversé** : qui dort ? « deux élèves fatigués », placé après le verbe. Le verbe est donc au pluriel : **dorment**. C'est un piège classique de dictée : cherche toujours le sujet avec « c'est... qui »." },
+        { type: "qcm", question: "Quelle phrase est correctement orthographiée ?", choix: ["Je leurs ai rendu les cahiers qu'ils m'avaient prêtés.", "Je leur ai rendus les cahiers qu'ils m'avaient prêté.", "Je leur ai rendu les cahiers qu'ils m'avaient prêtés.", "Je leur ai rendu les cahiers qu'ils m'avaient prêté."], reponse: 2, explication: "« **leur** » est ici un pronom placé devant le verbe (= à eux) : il est **invariable**. « ai **rendu** » : le COD « les cahiers » est placé **après**, pas d'accord. « m'avaient **prêtés** » : le COD « qu' » (= les cahiers, masculin pluriel) est placé **avant**, accord." },
+        { type: "saisie", question: "**Dictée à trous** : écris le verbe à la forme qui convient. « Après avoir longtemps (marcher), ils s'arrêtèrent près d'une source. »", reponses: ["marché"], explication: "Après « avoir », il faut le **participe passé** (infinitif passé : avoir marché). Test : « après avoir longtemps **pris** » → **marché**, en -é. Avec avoir et sans COD, il reste invariable." },
+        { type: "saisie", question: "**Dictée à trous** : écris le verbe au passé simple, à la 1re personne du singulier. « Quand je (rentrer) à la maison, la nuit tombait déjà. »", reponses: ["rentrai"], explication: "Au passé simple, les verbes en -er font **-ai** à la 1re personne du singulier : je **rentrai**. L'imparfait serait « je rentrais » (-ais). Ici, l'action est ponctuelle (elle se produit une fois, sur le fond de la nuit qui tombait) : c'est le passé simple qui convient." },
+        { type: "redaction", question: "**Auto-dictée n° 1 (environ 600 signes, 20 minutes)** : Demande à quelqu'un d'ouvrir le corrigé et de te dicter le texte (ou enregistre-toi en le lisant, puis écris-le un autre jour en écoutant). Écris sur papier, une ligne sur deux, et garde 5 minutes pour te relire. Ensuite seulement, compare avec le corrigé et classe tes erreurs par famille.", corrige: `**Texte à dicter** (texte d'entraînement, environ 600 signes)
+« Ce matin-là, la neige était tombée toute la nuit et les rues semblaient endormies. Sur la place, les marchands avaient déjà dressé leurs étals. Les pommes rouges qu'ils avaient cueillies à l'automne brillaient sous une lumière pâle. Ma grand-mère m'avait confié un panier et quelques pièces. Je m'approchai d'une vieille femme qui vendait des œufs et du miel. Autour d'elle, des enfants emmitouflés riaient en se lançant des boules de neige. Elle me sourit, choisit les plus beaux fruits et me les tendit sans rien dire. Quand je rentrai, mes mains étaient gelées, mais j'étais fier d'avoir fait les courses tout seul. »
+
+**Les pièges, famille par famille**
+- **Participes passés** : « était **tombée** » (être, accord avec « la neige ») ; « avaient **dressé** leurs étals » (avoir, COD placé après) ; « qu'ils avaient **cueillies** » (avoir, COD « qu' » = les pommes, placé avant) ; « m'avait **confié** » (COD « un panier » après) ; « mains **gelées** » (adjectif).
+- **Accords dans le groupe nominal** : « **toute** la nuit », « **leurs** étals » (plusieurs étals), « **quelques** pièces », « enfants **emmitouflés** », « les plus **beaux** fruits ».
+- **Passé simple / imparfait** : « je m'**approchai** », « je **rentrai** » (passé simple, -ai) ; « elle **sourit**, **choisit**, **tendit** » (verbes en -ir et -re : -it).
+- **Mots invariables et homophones** : « **déjà** », « **sans** rien dire », « **Quand** je rentrai » (= lorsque), « **tout** seul » (adverbe : le narrateur est un garçon, « fier »).
+- **Orthographe des mots** : « étals », « œufs » (o et e liés), « emmitouflés » (deux m, un f), « grand-mère » (trait d'union).
+
+**Pour te noter** : compte tes erreurs. Moins de 3 : très bien ; de 3 à 6 : revois les familles où tu t'es trompé ; plus de 6 : refais cette dictée dans trois jours, après avoir revu les règles.` },
+        { type: "redaction", question: "**Auto-dictée n° 2 (environ 600 signes, 20 minutes, plus difficile)** : Même méthode : fais-toi dicter le texte du corrigé (ou enregistre-le), écris sur papier, relis-toi 5 minutes, puis corrige-toi et classe tes erreurs.", corrige: `**Texte à dicter** (texte d'entraînement, environ 600 signes)
+« Les lettres que mon frère m'avait envoyées pendant la guerre, je les ai toutes gardées. Elles sont rangées dans une boîte en fer que ma mère m'a donnée. Aucune ne s'est perdue, et je ne les ai jamais montrées à personne. Parfois, je les relis à voix basse. Quelles que soient mes occupations, je reviens vers elles. Leur papier a jauni, l'encre s'est effacée par endroits, mais chaque mot y garde sa force. Mon frère y parlait peu des combats ; il préférait décrire les arbres, les oiseaux, les nuages qui passaient au-dessus des tranchées. Je crois qu'il voulait nous protéger et se protéger lui-même. »
+
+**Les pièges, famille par famille**
+- **Participes passés avec avoir et COD placé avant** : « que mon frère m'avait **envoyées** » (que = les lettres) ; « je les ai toutes **gardées** » ; « que ma mère m'a **donnée** » (que = une boîte) ; « je ne les ai jamais **montrées** ». Sans COD placé avant : « a **jauni** » (invariable).
+- **Participes passés avec être** : « Elles sont **rangées** » (accord avec le sujet « Elles ») ; verbes pronominaux : « Aucune ne s'est **perdue** » (aucune = aucune lettre : féminin singulier) ; « l'encre s'est **effacée** ».
+- **Accords** : « je les ai **toutes** gardées » (pronom, féminin pluriel) ; « **Quelles que** soient mes occupations » (accord avec « occupations », féminin pluriel, en deux mots) ; « **Leur** papier » (un seul papier) ; « **chaque** mot » (toujours singulier) ; « les nuages qui **passaient** » (le sujet « qui » reprend « les nuages »).
+- **Homophones** : « s'**est** effacée » (on peut dire « elle **s'était** effacée » : ce n'est ni « ses » ni « c'est ») ; « **peu** des combats » (contraire de « beaucoup », à ne pas confondre avec « peut ») ; « **y** garde » (= garde dans ces lettres).
+- **Orthographe des mots** : « boîte » (accent circonflexe), « au-dessus » (trait d'union), « lui-même » (trait d'union et accent circonflexe), « tranchées ».
+
+**Pour te noter** : ce texte contient sept participes passés et adjectifs à accorder : vise zéro erreur sur cette famille.` },
+        { type: "redaction", question: "**Corriger et classer** : Voici la copie d'un élève, qui contient **huit erreurs**. Recopie la phrase corrigée, puis range chaque erreur dans sa famille (accord sujet-verbe, accord dans le groupe nominal, participe passé, homophone, terminaison verbale, orthographe du mot) en donnant la règle. « Les ouvrières que j'ai rencontré hier travaille depuis l'aube. Leur mains sont usé par le fil. Elles m'ont dit : “On a pas le droit de se reposer avant midi.” Quand à leurs enfants, ils les attendent à la sorti, sans rien mangé. »", corrige: `**Copie corrigée**
+« Les ouvrières que j'ai **rencontrées** hier **travaillent** depuis l'aube. **Leurs** mains sont **usées** par le fil. Elles m'ont dit : “On **n'a** pas le droit de se reposer avant midi.” **Quant** à leurs enfants, ils les attendent à la **sortie**, sans rien **manger**. »
+
+**Classement des huit erreurs**
+1. **rencontrées** : *participe passé* ; avoir, COD « que » (= les ouvrières, féminin pluriel) placé avant.
+2. **travaillent** : *accord sujet-verbe* ; le sujet est « Les ouvrières » (pluriel), séparé du verbe par la proposition relative « que j'ai rencontrées hier ».
+3. **Leurs** : *accord dans le groupe nominal* ; déterminant possessif devant un nom pluriel (plusieurs mains).
+4. **usées** : *participe passé* employé avec être : accord avec le sujet « Leurs mains » (féminin pluriel).
+5. **n'a** : *homophone* « on / on n' » ; remplace « on » par « il » : « il n'a pas » ; la négation a deux parties.
+6. **Quant** : *homophone* ; « quant à » signifie « en ce qui concerne » ; « quand » marque le temps (= lorsque).
+7. **sortie** : *orthographe du mot* ; les noms féminins terminés par le son [i] s'écrivent souvent -ie (la sortie, la vie, la pluie). Exceptions à apprendre : la nuit, la souris, la brebis, la perdrix.
+8. **manger** : *terminaison verbale* ; après la préposition « sans », on met l'infinitif (test : « sans rien **prendre** »).
+
+**Bilan** : deux erreurs de participe passé et deux d'homophones : ce sont les familles à revoir en priorité. Attention aussi à ne pas « corriger » un mot juste (« leurs enfants » était bien écrit) : cela compte aussi comme une faute.` },
+      ]
+    },
+    {
+      id: "brevet-sujet-blanc",
+      titre: "Sujet blanc complet et chronométré : Hugo, « Melancholia », et une photographie de Lewis Hine",
+      theme: "Préparer l'épreuve de français du brevet",
+      cours: `
+## Un brevet blanc complet, en conditions réelles
+Ce chapitre est un **sujet complet** de l'épreuve de français, construit comme celui du brevet 2027 : un **texte littéraire** (un extrait de poème de Victor Hugo) et une **image** (une photographie de Lewis Hine), puis les trois parties de l'épreuve. Les exercices suivent l'ordre du sujet ; chaque question indique son **barème**.
+
+| Partie | Exercices | Durée | Points |
+|---|---|---|---|
+| **Compréhension et interprétation** (texte et image) | 1 à 9 | 1 h 10 pour les deux parties | 32 |
+| **Grammaire et compétences linguistiques**, dont la réécriture | 10 à 13 | (avec la partie précédente) | 18 |
+| **Dictée** (à te faire dicter) | 14 | 20 min | 10 |
+| **Rédaction** : un sujet au choix | 15 **ou** 16 | 1 h 30 | 40 |
+
+## Comment faire ce sujet blanc
+1. Choisis un moment où tu as **3 heures** devant toi (ou fais la partie 1 un jour, la dictée et la rédaction un autre jour).
+2. Prépare des feuilles, un **minuteur** et, pour la rédaction seulement, un dictionnaire. Éteins ton téléphone.
+3. Lis toutes les questions de la partie 1 avant de répondre, puis réponds **sur papier**, au propre.
+4. **N'ouvre aucun corrigé avant la fin du temps** : c'est la seule façon de savoir où tu en es.
+5. Corrige-toi ensuite avec les corrigés, note-toi avec le barème et repère tes points faibles.
+
+## Gérer son temps dans la partie 1 (1 h 10, 50 points)
+La règle simple : **le temps suit les points**. 50 points en 70 minutes, dont environ 15 minutes pour lire le sujet et te relire : il reste 55 minutes pour répondre, soit un peu plus d'**une minute par point**.
+
+>! **Exemple : un plan de temps pour ce sujet**
+>! - Lecture du texte, de l'image et de toutes les questions : **10 min**.
+>! - Questions 1 à 9 (32 points) : **35 min**. Une question à 2 points ne doit pas te prendre plus de 2 ou 3 minutes ; une question développée à 6 points, environ 7 minutes.
+>! - Questions 10 à 13 (18 points, dont la réécriture sur 10) : **20 min**, dont 8 pour la réécriture (brouillon puis copie).
+>! - Relecture de toutes tes réponses : **5 min**.
+>! Total : 10 + 35 + 20 + 5 = **70 minutes**, soit 1 h 10.
+
+Si tu bloques sur une question, **passe à la suivante** et reviens-y à la fin : une question laissée vide en fin d'épreuve coûte plus cher qu'une question difficile mal finie.
+
+## Avant de lire : le contexte
+- **Victor Hugo** (1802-1885) publie *Les Contemplations* en 1856, alors qu'il vit en **exil** à Guernesey, opposant à Napoléon III. Dans le long poème « Melancholia », il dénonce les misères de son temps.
+- Au XIXe siècle, la **révolution industrielle** fait travailler dans les usines, notamment dans les **filatures** (où l'on fabrique le fil), des milliers d'enfants. En France, la première loi sur le travail des enfants (1841) interdit le travail dans les grandes fabriques **avant 8 ans** ; elle est peu appliquée.
+- **Lewis Hine** (1874-1940), photographe américain, photographie à partir de 1908 les enfants qui travaillent dans les usines et les mines des États-Unis, pour faire interdire ce travail.
+
+> **À retenir**
+> Sujet blanc : 3 heures, sur papier, avec un minuteur, sans ouvrir les corrigés avant la fin.
+> Partie 1 : un peu plus d'une minute par point pour répondre ; lis toutes les questions d'abord ; garde 5 minutes de relecture.
+> Après le sujet : note-toi avec le barème et classe tes erreurs (compréhension, analyse, grammaire, orthographe).
+
+## Erreurs fréquentes
+- Passer 30 minutes sur la première question développée, et bâcler la réécriture qui vaut 10 points.
+- Répondre sans citer le texte (ou citer sans analyser).
+- Regarder le corrigé dès la première difficulté : on s'entraîne alors à lire des corrigés, pas à passer le brevet.
+`,
+      textes: {
+        hugo: `**Victor Hugo, « Melancholia »** (extrait), *Les Contemplations*, livre III « Les luttes et les rêves », poème II (1856 ; texte de l'édition Nelson sur Wikisource). Les numéros de vers sont ceux de l'extrait.
+
+Où vont tous ces enfants dont pas un seul ne rit ?
+Ces doux êtres pensifs que la fièvre maigrit ?
+Ces filles de huit ans qu'on voit cheminer seules ?
+Ils s'en vont travailler quinze heures sous des meules ;
+Ils vont, de l'aube au soir, faire éternellement *(5)*
+Dans la même prison le même mouvement.
+Accroupis sous les dents d'une machine sombre,
+Monstre hideux qui mâche on ne sait quoi dans l'ombre,
+Innocents dans un bagne, anges dans un enfer,
+Ils travaillent. Tout est d'airain, tout est de fer. *(10)*
+Jamais on ne s'arrête et jamais on ne joue.
+Aussi quelle pâleur ! La cendre est sur leur joue.
+Il fait à peine jour, ils sont déjà bien las.
+Ils ne comprennent rien à leur destin, hélas !
+Ils semblent dire à Dieu : — Petits comme nous sommes, *(15)*
+Notre père, voyez ce que nous font les hommes ! —
+Ô servitude infâme imposée à l'enfant !
+Rachitisme ! travail dont le souffle étouffant
+Défait ce qu'a fait Dieu ; qui tue, œuvre insensée,
+La beauté sur les fronts, dans les cœurs la pensée, *(20)*
+Et qui ferait — c'est là son fruit le plus certain ! —
+D'Apollon un bossu, de Voltaire un crétin !
+Travail mauvais qui prend l'âge tendre en sa serre,
+Qui produit la richesse en créant la misère,
+Qui se sert d'un enfant ainsi que d'un outil ! *(25)*
+Progrès dont on demande : Où va-t-il ? Que veut-il ?
+Qui brise la jeunesse en fleur ! qui donne, en somme,
+Une âme à la machine et la retire à l'homme !
+Que ce travail, haï des mères, soit maudit !
+Maudit comme le vice où l'on s'abâtardit, *(30)*
+Maudit comme l'opprobre et comme le blasphème !
+Ô Dieu ! qu'il soit maudit au nom du travail même,
+Au nom du vrai travail, sain, fécond, généreux,
+Qui fait le peuple libre et qui rend l'homme heureux !
+
+*meules* : grosses roues de pierre qui écrasent le grain ; ici, les machines. *airain* : bronze, métal très dur. *las* : fatigués. *Rachitisme* : maladie des os de l'enfant, due au manque de soleil et de bonne nourriture, qui déforme le squelette. *Apollon* : dieu grec de la beauté et des arts. *Voltaire* : écrivain et philosophe du XVIIIe siècle, symbole de l'intelligence. *crétin* : au XIXe siècle, personne atteinte d'un grave retard de développement. *serre* : griffe d'un oiseau de proie. *s'abâtardit* : se dégrade, perd sa valeur. *opprobre* : honte, déshonneur public. *blasphème* : parole qui insulte Dieu. *fécond* : qui produit beaucoup, utile.`,
+        hine: `**Document iconographique : Lewis Hine, photographie prise le 30 novembre 1908 dans une filature de coton de Lancaster (Caroline du Sud, États-Unis)** (tirage en noir et blanc aux tons sépia, Washington, Bibliothèque du Congrès). La photographie n'étant pas reproduite dans l'appli, en voici une description précise ; si tu le peux, regarde-la aussi (elle est libre de droits et se trouve facilement en cherchant « Lewis Hine Sadie Pfeifer »).
+
+**Le photographe.** Lewis Hine (1874-1940), professeur et sociologue américain, travaille à partir de 1908 pour le Comité national contre le travail des enfants (*National Child Labor Committee*). Il parcourt les usines, les mines et les champs pour **prouver**, images à l'appui, que des milliers d'enfants y travaillent. Ses photographies ont nourri les campagnes qui ont abouti, en 1938, à une loi fédérale limitant fortement le travail des enfants aux États-Unis.
+
+**La légende écrite par Hine** (traduite de l'anglais) : « Sadie Pfeifer, 48 pouces de haut [environ 1,22 m], travaille depuis six mois. L'un des nombreux jeunes enfants au travail à la filature Lancaster Cotton Mills. 30 nov. 1908. »
+
+**Ce que l'on voit.**
+- Une longue **allée** d'atelier, vue en **perspective** : les lignes de la machine, du plancher et du mur se rejoignent au fond de l'image et y conduisent le regard.
+- **À gauche**, sur presque la moitié de l'image, une **immense machine à filer** : des centaines de bobines blanches alignées sur plusieurs rangées, qui semblent ne jamais finir. La machine monte bien plus haut que la tête de l'enfant.
+- **Au centre**, une **petite fille** se tient debout, de profil, tout contre la machine. Elle porte une longue robe de toile avec une poche, de grosses chaussures. Ses deux mains sont posées sur les fils ; elle baisse les yeux vers son travail.
+- **Au fond de l'allée**, une autre enfant, plus floue, se tient debout et regarde vers le photographe.
+- **À droite**, un mur percé de hautes fenêtres garnies de rideaux blancs laisse entrer une lumière claire, venue du dehors ; au plafond pendent des fils et une ampoule électrique.
+- Le plancher de bois, vide, file vers le fond : personne d'autre, aucun adulte.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "hugo", question: "**Question 1 (2 points)** : Quelle situation le poète décrit-il dans les vers 1 à 16 ?", choix: ["Des enfants qui jouent dehors au lever du jour", "Des enfants obligés de travailler du matin au soir dans des usines", "Des enfants enfermés dans un vrai bagne après avoir volé", "Des enfants qui partent à l'école à l'aube"], reponse: 1, explication: "Les enfants « s'en vont travailler quinze heures » (v. 4) « sous les dents d'une machine sombre » (v. 7) : ce sont des **enfants ouvriers**. Les mots « prison » (v. 6) et « bagne » (v. 9) ne sont pas à prendre au sens propre : ce sont des **métaphores** qui montrent que l'usine est pour eux une punition, alors qu'ils sont « innocents »." },
+        { type: "saisie", texte: "hugo", question: "**Question 2 (2 points)** : Quel âge ont les plus jeunes enfants nommés dans le texte ? (réponds par un nombre d'années)", reponses: ["huit ans", "8 ans", "8", "huit", "elles ont huit ans", "ils ont huit ans"], explication: "« Ces filles de **huit ans** qu'on voit cheminer seules » (v. 3). Ce détail précis rend la dénonciation concrète : c'est justement l'âge minimum fixé par la loi française de 1841 pour travailler dans les grandes fabriques. Le mot « seules » souligne qu'aucun adulte ne les protège." },
+        { type: "qcm", texte: "hugo", question: "**Question 3 (3 points)** : « Accroupis sous les dents d'une machine sombre, / Monstre hideux qui mâche on ne sait quoi dans l'ombre » (v. 7-8). Comment la machine est-elle présentée ?", choix: ["par une litote qui atténue son danger", "par une comparaison avec un outil", "par un euphémisme", "par une métaphore qui en fait un monstre dévorant"], reponse: 3, explication: "La machine est directement appelée « **Monstre hideux** », sans outil de comparaison : c'est une **métaphore**, prolongée par les « dents » et le verbe « mâche ». La machine devient un ogre qui dévore les enfants « accroupis » sous elle : le poème rejoint le conte terrifiant pour faire ressentir le danger." },
+        { type: "saisie", texte: "hugo", question: "**Question 4 (2 points)** : « Innocents dans un bagne, anges dans un enfer » (v. 9). Quelle figure de style oppose « innocents » à « bagne » et « anges » à « enfer » ? (un mot)", reponses: ["antithèse", "une antithèse", "antithèses", "des antithèses", "c'est une antithèse", "ce sont des antithèses"], explication: "Deux réalités contraires sont rapprochées : l'innocence et la punition (le bagne), la pureté des anges et l'enfer : ce sont des **antithèses**, construites en parallèle (nom + « dans un » + nom). Elles soulignent l'**injustice** : des enfants qui n'ont rien fait subissent le sort des criminels et des damnés." },
+        { type: "redaction", texte: "hugo", question: "**Question 5 (6 points, réponse développée)** : Comment le poète fait-il ressentir la souffrance des enfants dans les vers 1 à 16 ? Appuie-toi sur au moins trois procédés d'écriture précis.", corrige: `**Réponse attendue (environ 15 lignes)**
+Dans les vers 1 à 16, Hugo fait ressentir la souffrance des enfants de plusieurs manières.
+
+D'abord, il **interpelle le lecteur** par trois **questions** (v. 1-3) : « Où vont tous ces enfants dont pas un seul ne rit ? » Le lecteur est obligé de chercher la réponse et découvre, au vers 4, la vérité brutale : ils « s'en vont travailler quinze heures ». Le chiffre précis et l'expression « de l'aube au soir » montrent une journée épuisante.
+
+Ensuite, le poète insiste sur la **monotonie** et l'**enfermement** : « faire éternellement / Dans la même prison le même mouvement » (v. 5-6). La répétition de « même » et l'adverbe « éternellement » donnent l'impression d'un travail sans fin ; la métaphore de la « prison », puis du « bagne », fait de l'usine un lieu de punition. La **répétition** de « jamais », placé en tête des deux propositions (« Jamais on ne s'arrête et jamais on ne joue », v. 11), rappelle qu'ils sont privés de ce qui fait l'enfance : le jeu.
+
+De plus, le **champ lexical de la maladie et de la fatigue** montre les effets de ce travail sur leur corps : « la fièvre maigrit », « pâleur », « la cendre est sur leur joue », « déjà bien las ». La phrase très courte « Ils travaillent. » (v. 10) sonne comme un constat sec et terrible.
+
+Enfin, Hugo **donne la parole aux enfants** : « Petits comme nous sommes, / Notre père, voyez ce que nous font les hommes ! » Cette prière, adressée à Dieu, rend leur souffrance pathétique et désigne les coupables : « les hommes ».
+
+Ainsi, par les questions, les répétitions, le vocabulaire de la maladie et la prière finale, le poète fait partager au lecteur la souffrance et l'impuissance de ces enfants.
+
+**Barème indicatif** : 2 points par procédé bien analysé (nommé, cité et expliqué), au maximum 6.` },
+        { type: "qcm", texte: "hugo", question: "**Question 6 (2 points)** : À partir du vers 17 (« Ô servitude infâme imposée à l'enfant ! »), le poète ne décrit plus : il s'indigne. Quel registre domine alors ?", choix: ["le registre polémique : il attaque et condamne avec violence", "le registre comique : il se moque des enfants", "le registre fantastique : il fait douter de la réalité", "le registre didactique : il explique sans émotion"], reponse: 0, explication: "Les **exclamations**, les **apostrophes** (« Ô servitude infâme », « Ô Dieu ! »), le vocabulaire très péjoratif (« infâme », « mauvais », « maudit ») et la malédiction finale relèvent du registre **polémique** : le poète attaque et condamne. Il garde aussi une part **pathétique** (la pitié pour les enfants)." },
+        { type: "redaction", texte: "hugo", question: "**Question 7 (5 points)** : Dans les vers 23 à 28, que reproche Hugo à ce « travail mauvais » et à ce « Progrès » ? Analyse au moins deux procédés.", corrige: `**Réponse attendue (environ 10 lignes)**
+Hugo reproche à ce travail de **détruire l'enfance** et de **déshumaniser** l'homme au profit de la machine et de l'argent.
+
+D'abord, le travail est présenté comme un prédateur : il « prend l'âge tendre en sa serre » (v. 23). Cette **métaphore** fait de lui un oiseau de proie qui saisit les enfants dans ses griffes ; de même, il « brise la jeunesse en fleur » (v. 27) : l'enfance, comparée à une fleur, est cassée avant d'avoir pu s'épanouir.
+
+Ensuite, l'**antithèse** « Qui produit la richesse en créant la misère » (v. 24) dénonce l'injustice de ce système : la richesse des uns est faite de la misère des autres. La comparaison « Qui se sert d'un enfant ainsi que d'un outil » (v. 25) montre que l'enfant est traité comme une **chose**.
+
+Enfin, le vers 28 résume tout par une **antithèse** (donner / retirer, la machine / l'homme) : le travail « donne [...] **Une âme à la machine** et **la retire à l'homme** ». La machine devient vivante, l'homme devient une machine : le monde est à l'envers. Les deux **questions** sur le « Progrès » (« Où va-t-il ? Que veut-il ? », v. 26) mettent en doute un progrès qui oublie l'être humain. Hugo n'est pas contre le progrès en général : il condamne un progrès sans humanité.
+
+**Barème indicatif** : 1 point pour l'idée générale, 2 points par procédé bien analysé.` },
+        { type: "redaction", texte: "hugo", question: "**Question 8 (4 points)** : Hugo condamne-t-il tout travail ? Justifie ta réponse à l'aide des vers 29 à 34.", corrige: `**Réponse attendue (environ 6 lignes)**
+Non, Hugo ne condamne pas tout travail. Il maudit avec force le travail des enfants : la **répétition** de « maudit » (quatre fois en quatre vers, avec l'anaphore « Maudit comme... », v. 30-31) et le **subjonctif** de souhait (« Que ce travail [...] soit maudit », « qu'il soit maudit ») en font une véritable malédiction.
+
+Mais il le fait « **au nom du vrai travail** », qu'il oppose au « travail mauvais » : ce vrai travail est « sain, fécond, généreux » (trois adjectifs **mélioratifs**) et il « fait le peuple libre » et « rend l'homme heureux ». Pour Hugo, le travail doit libérer et épanouir l'homme, non l'écraser. Le poème se termine donc sur une note d'espoir, après la colère.
+
+**Barème indicatif** : 1 point pour la réponse nette, 3 points pour les citations analysées (opposition des deux travaux, adjectifs mélioratifs, malédiction).` },
+        { type: "redaction", texte: "hine", question: "**Question 9 (6 points)** : Observe la photographie de Lewis Hine (description ci-dessus). Comment l'image fait-elle ressentir la situation de l'enfant ? Quels points communs et quelles différences vois-tu avec le poème de Victor Hugo ?", corrige: `**Réponse attendue (environ 15 lignes)**
+**L'image.** Cette photographie de Lewis Hine, prise en 1908 dans une filature américaine, montre une petite fille au travail. La **composition** fait ressentir sa petitesse : l'immense machine occupe presque toute la moitié gauche de l'image et monte bien plus haut que sa tête, tandis que l'enfant, au centre, paraît minuscule. La **perspective** de l'allée, avec ses bobines alignées qui semblent ne jamais finir, donne une impression de travail sans limite et répétitif. L'enfant, de profil, les yeux baissés, les mains sur les fils, est absorbée par sa tâche : elle ne joue pas, elle ne regarde même pas l'objectif. Au fond, une autre enfant montre qu'elle n'est pas seule dans ce cas. La **lumière** des fenêtres, à droite, rappelle le monde du dehors dont elle est privée. Enfin, la légende donne sa taille (« 48 pouces », environ 1,22 m) : un détail chiffré qui fait de la photographie une **preuve**.
+
+**Points communs.** Les deux documents **dénoncent le travail des enfants** dans les usines textiles. Ils montrent la même opposition entre l'enfant, petit et fragile, et la **machine** énorme (chez Hugo, « une machine sombre, / Monstre hideux »). Les bobines alignées font écho à « la même prison le même mouvement ». Dans les deux cas, l'enfance (le jeu, l'école) est absente.
+
+**Différences.** Hugo exprime son **indignation** par des moyens propres à la poésie : questions, exclamations, métaphores, prière à Dieu, malédiction. Le lecteur est ému et pris à partie. La photographie, elle, semble **objective** : pas de commentaire, une légende neutre, un instant réel. Mais elle est aussi construite (cadrage, perspective, place de l'enfant au centre) pour émouvoir. Enfin, Hugo parle des enfants en général (« ces enfants ») ; Hine montre **une** enfant, avec un nom : Sadie Pfeifer. Le poème généralise, la photographie individualise.
+
+**Barème indicatif** : 3 points pour l'analyse de l'image (au moins deux procédés et leur effet), 3 points pour la comparaison (points communs et différences).` },
+        { type: "saisie", texte: "hugo", question: "**Question 10 (2 points)** : Vers 2 : « Ces doux êtres pensifs **que** la fièvre maigrit ». Quelle est la fonction du pronom relatif « que » ?", reponses: ["COD", "C.O.D.", "complément d'objet direct", "COD de maigrit", "COD du verbe maigrit", "complément d'objet direct de maigrit", "complément d'objet direct du verbe maigrit", "COD de maigrir", "COD du verbe maigrir", "complément d'objet direct du verbe maigrir", "c'est un COD", "c'est le COD", "le COD"], explication: "La fièvre maigrit **qui** ? « que », mis pour « ces doux êtres » : c'est le **complément d'objet direct** du verbe « maigrit ». Le sujet est « la fièvre ». Le verbe « maigrir » est employé ici, de façon rare, au sens de « rendre maigre » : la fièvre fait maigrir les enfants." },
+        { type: "saisie", texte: "hugo", question: "**Question 11 (3 points)** : Vers 29 : « Que ce travail, haï **des mères**, soit maudit ! » Quelle est la fonction du groupe « des mères » ?", reponses: ["complément d'agent", "complément d'agent de haï", "complément d'agent du participe haï", "c'est un complément d'agent", "complément d'agent du verbe haïr", "c'est le complément d'agent", "le complément d'agent"], explication: "« haï des mères » est une construction **passive** : à la voix active, on dirait « les mères haïssent ce travail ». « Des mères » désigne ceux qui font l'action : c'est le **complément d'agent**, introduit ici par « de » (et non « par »), comme souvent avec les verbes de sentiment." },
+        { type: "qcm", texte: "hugo", question: "**Question 12 (3 points)** : Dans le même vers, la forme verbale « soit maudit » est :", choix: ["au conditionnel présent, pour exprimer une hypothèse", "à l'indicatif présent, pour exprimer un fait réel", "au subjonctif présent, à la voix passive, pour exprimer un souhait", "à l'impératif présent, pour donner un ordre"], reponse: 2, explication: "« soit » est le **subjonctif présent** de l'auxiliaire être, suivi du participe « maudit » : c'est la **voix passive** (« que l'on maudisse ce travail »). Introduit par « Que », dans une phrase exclamative, le subjonctif exprime ici un **souhait** : le poète appelle la malédiction sur ce travail." },
+        { type: "redaction", texte: "hugo", question: "**Question 13 : réécriture (10 points)** : Réécris les vers 12 à 14 en remplaçant « ils » par « elle » (une seule fillette) et en mettant les verbes à l'**imparfait**. Fais toutes les modifications nécessaires et garde le retour à la ligne de chaque vers. « Aussi quelle pâleur ! La cendre est sur leur joue. / Il fait à peine jour, ils sont déjà bien las. / Ils ne comprennent rien à leur destin, hélas ! »", corrige: `**Réécriture**
+« Aussi quelle pâleur ! La cendre **était** sur **sa** joue.
+Il **faisait** à peine jour, **elle était** déjà bien **lasse**.
+**Elle** ne **comprenait** rien à **son** destin, hélas ! »
+
+**Les 9 modifications**
+1. **était** (imparfait de être, 3e personne du singulier ; le sujet est « La cendre »).
+2. **sa** joue : le possessif renvoie maintenant à une seule personne (leur → sa).
+3. **faisait** : imparfait du verbe faire.
+4. **elle** : le pronom demandé.
+5. **était** : imparfait, accordé avec « elle ».
+6. **lasse** : l'adjectif attribut s'accorde avec « elle » (féminin singulier : las → lasse).
+7. **Elle** : le pronom, avec la majuscule en début de vers.
+8. **comprenait** : imparfait, 3e personne du singulier.
+9. **son** destin (leur → son).
+
+**Les pièges**
+- « **Il** fait à peine jour » : ce « il » est un pronom **impersonnel** (il ne désigne pas les enfants) : il ne change pas.
+- « Aussi quelle pâleur ! » est une phrase **sans verbe** : elle ne change pas.
+- « hélas » et la ponctuation se recopient à l'identique (la rime « lasse / hélas » disparaît : ce n'est pas grave, la consigne l'impose).
+
+**Barème indicatif** : 1 point par modification juste (9 points), 1 point pour une copie sans erreur des mots inchangés et de la ponctuation.` },
+        { type: "redaction", question: "**Question 14 : dictée (10 points, 20 minutes)** : Demande à quelqu'un d'ouvrir le corrigé et de te dicter le texte (d'abord en entier, puis lentement, en indiquant la ponctuation, puis une dernière fois). Écris sur papier, une ligne sur deux, et garde 5 minutes pour te relire. Le mot « filature » (usine où l'on fabrique le fil) est donné.", corrige: `**Texte à dicter** (texte d'entraînement en lien avec le sujet, environ 600 signes)
+« Chaque matin, bien avant le lever du soleil, les enfants quittaient leurs maisons glacées pour gagner la filature. Les plus petits, qu'on avait réveillés trop tôt, se frottaient les yeux en marchant. Dans les ateliers, le vacarme des machines couvrait toutes les voix. Il fallait surveiller les fils qui se cassaient, les renouer sans attendre et ne jamais s'arrêter. Malgré leur fatigue, ils restaient debout jusqu'au soir. Certains n'avaient pas dix ans. Lorsqu'ils rentraient enfin chez eux, épuisés, ils n'avaient plus la force de jouer ni même de parler. Même la nuit, le bruit leur résonnait dans la tête. »
+
+**Les pièges**
+- **Participes et adjectifs** : « maisons **glacées** » ; « qu'on avait **réveillés** » (avoir, COD « qu' » = les plus petits, masculin pluriel, placé avant) ; « **épuisés** » (apposé à « ils »).
+- **Accords sujet-verbe** : « le vacarme des machines **couvrait** » (le sujet est « le vacarme », singulier, et non « les machines ») ; « les fils qui **se cassaient** » (« qui » reprend « les fils ») ; « le bruit leur **résonnait** ».
+- **leur / leurs** : « **leurs** maisons » (déterminant devant un nom pluriel) ; « **leur** fatigue » (une seule fatigue pour chacun) ; « le bruit **leur** résonnait » (pronom devant un verbe : invariable).
+- **Infinitifs** : « pour **gagner** », « Il fallait **surveiller** », « les **renouer** », « sans **attendre** », « ne jamais **s'arrêter** », « de **jouer** », « de **parler** » (test : « pour prendre »).
+- **Mots invariables** : « **trop** tôt », « **jusqu'au** soir », « **Lorsqu'ils** », « **Même** la nuit » (adverbe).
+- **Négations** : « Certains **n'**avaient pas », « ils **n'**avaient plus » (n' devant la voyelle).
+
+**Barème indicatif** : on part de 10 points et on retire environ un demi-point par erreur d'accord ou de conjugaison, un quart de point par erreur d'orthographe d'un mot ; la note ne descend pas sous zéro.` },
+        { type: "redaction", texte: "hine", question: "**Question 15 : rédaction, sujet d'imagination (40 points, 1 h 30, au moins 40 lignes ; dictionnaire autorisé)** : Une fillette qui travaille, comme celle de la photographie, dans une filature au début du XXe siècle raconte une de ses journées, de son réveil jusqu'au soir. Écris ce récit à la **première personne**, aux temps du passé. Tu feras ressentir ses sensations, sa fatigue et ses rêves, en décrivant précisément l'atelier et les machines, et tu emploieras au moins **deux procédés** étudiés dans le poème de Hugo (métaphore, antithèse, question, répétition...).", corrige: `**Liste des contraintes à respecter**
+- récit à la **1re personne** (la fillette) ;
+- **temps du passé** : passé simple pour les actions, imparfait pour les descriptions et les habitudes ;
+- toute une **journée**, du réveil au soir, en paragraphes (étapes de la journée) ;
+- **description** précise de l'atelier et des machines ;
+- **sensations, fatigue, rêves** ;
+- au moins **deux procédés** du poème ;
+- cohérence avec l'époque (début du XXe siècle : pas de téléphone, éclairage, longues journées) ; au moins 40 lignes.
+
+**Corrigé modèle (extraits rédigés)**
+
+Ce matin-là, comme tous les autres, ma mère me secoua doucement l'épaule bien avant le jour. Il faisait si froid dans la chambre que mon souffle formait un petit nuage. Je m'habillai sans un mot, j'avalai un morceau de pain et je suivis ma sœur aînée sur le chemin de la filature. Dans la nuit, les fenêtres de l'usine brillaient comme les yeux d'une bête qui nous attendait.
+
+À l'intérieur, le bruit me saisit, comme chaque matin. Les machines grondaient, cliquetaient, sifflaient ; ce vacarme entrait dans ma tête et n'en sortait plus. Devant moi s'étendaient les rangées de bobines blanches, si longues que je n'en voyais pas le bout. Mon travail était simple et terrible : surveiller les fils, et renouer aussitôt ceux qui cassaient. Pourquoi les fils se cassaient-ils toujours quand mes yeux se fermaient ? Le contremaître passait dans l'allée, et je redressais le dos.
+
+Les heures n'avançaient pas. Mes doigts devenaient rouges, puis insensibles. Autour de moi flottait une poussière de coton qui me piquait la gorge. La machine était un géant qui ne dormait jamais ; moi, j'étais une fourmi à ses pieds. Parfois, par la haute fenêtre, j'apercevais un morceau de ciel bleu, et j'imaginais la rivière, les prés, la balançoire de l'école où je n'allais plus. Dehors la lumière, dedans le bruit : entre les deux, il y avait une vitre, et toute ma vie.
+
+[...]
+
+Le soir, quand la sirène sonna enfin, je sortis dans la nuit, aussi noire que le matin : je n'avais pas vu le jour. Je ne sentais plus mes jambes. À la maison, je m'endormis avant même la soupe. Dans mon rêve, les bobines s'envolaient comme des oiseaux blancs, et je courais derrière elles, très loin de l'usine.
+
+**Ce qui fait la réussite** : la journée est construite (réveil, arrivée, travail, rêve, soir) ; les temps du passé sont maîtrisés ; les sensations sont nombreuses (froid, bruit, poussière, douleur) ; les procédés du poème sont repris : **comparaisons et métaphores** (« comme les yeux d'une bête », « un géant [...] moi, une fourmi »), **antithèse** (« Dehors la lumière, dedans le bruit »), **question** (« Pourquoi les fils se cassaient-ils... ? ») ; la fin, avec le rêve, donne une note d'espoir et d'émotion. Pour atteindre 40 lignes, développe chaque étape (la pause du midi, un dialogue avec une autre enfant, une machine qui s'arrête...).` },
+        { type: "redaction", texte: "hugo", question: "**Question 16 : rédaction, sujet de réflexion (40 points, 1 h 30, au moins 40 lignes ; dictionnaire autorisé)** : Selon toi, un poème ou une photographie peuvent-ils faire changer la société ? Tu répondras à cette question dans un développement argumenté et organisé, en t'appuyant sur le texte de Victor Hugo, la photographie de Lewis Hine, tes lectures et tes connaissances.", corrige: `**Analyse du sujet** : question **fermée** (oui ou non) → plan **dialectique** : 1. oui, ils peuvent y contribuer ; 2. mais ils ne suffisent pas seuls ; conclusion nuancée.
+
+**Corrigé modèle (rédigé)**
+
+En 1856, Victor Hugo maudissait dans un poème le travail des enfants dans les usines ; cinquante ans plus tard, de l'autre côté de l'Atlantique, Lewis Hine photographiait une fillette de 1,22 m devant une immense machine à filer. Tous deux voulaient changer le monde par une œuvre. Mais un poème ou une photographie peuvent-ils vraiment faire changer la société ? Nous verrons qu'ils peuvent éveiller les consciences, mais qu'ils ont besoin de l'action des hommes pour transformer les lois.
+
+**Tout d'abord**, une œuvre peut **émouvoir** et faire partager une souffrance que l'on ignorait. **En effet**, les lecteurs de Hugo, souvent bourgeois, ne voyaient pas les enfants des filatures. Grâce aux questions du poème (« Où vont tous ces enfants dont pas un seul ne rit ? ») et à la prière des enfants (« Notre père, voyez ce que nous font les hommes ! »), ils ne peuvent plus détourner les yeux. **De même**, dans *Guernica*, Picasso montre au monde entier la douleur des civils bombardés, et le tableau est devenu un symbole universel contre la guerre. **Ainsi**, l'art donne un visage et une voix aux victimes.
+
+**De plus**, la photographie apporte une **preuve**. Les images de Lewis Hine, avec leurs légendes précises (nom, taille, date), montraient que des milliers d'enfants travaillaient réellement aux États-Unis ; elles ont nourri les campagnes qui ont abouti, en 1938, à une loi fédérale limitant fortement le travail des enfants. **Par exemple** aussi, en 1972, la photographie de Kim Phúc, une petite fille vietnamienne qui fuit, brûlée, un bombardement au napalm, a bouleversé l'opinion publique sur la guerre du Viêt Nam.
+
+**Enfin**, une œuvre peut **inspirer** ceux qui agissent. Victor Hugo s'est battu toute sa vie contre la peine de mort, notamment dans *Le Dernier Jour d'un condamné* (1829) ; ce combat a été mené à son terme en France en 1981, avec l'abolition défendue par le ministre de la Justice Robert Badinter.
+
+**Cependant**, un poème ou une photographie ne suffisent pas. **Certes**, ils éveillent les consciences, **mais** ce sont les citoyens, les associations et les responsables politiques qui changent les lois. Il a fallu trente ans entre les premières photographies de Hine et la loi de 1938. En France, ce sont des lois successives (en 1874, puis en 1892, qui relèvent l'âge minimum du travail) et l'école obligatoire (lois de Jules Ferry, 1882) qui ont peu à peu éloigné les enfants des usines. **Par ailleurs**, le travail des enfants n'a pas disparu : selon l'Organisation internationale du travail et l'Unicef, environ 160 millions d'enfants travaillaient encore dans le monde en 2020. Enfin, nous voyons aujourd'hui tant d'images que nous risquons de ne plus être touchés : une photographie peut émouvoir un jour et être oubliée le lendemain.
+
+**En définitive**, un poème ou une photographie ne changent pas la société à eux seuls, mais ils jouent un rôle essentiel : ils montrent l'injustice, émeuvent et poussent à agir. Ils sont souvent la première étincelle d'un changement que les hommes doivent ensuite accomplir. Comme le dit Hugo à la fin du poème, c'est « le vrai travail » qui « fait le peuple libre » : celui des artistes qui dénoncent, et celui des citoyens qui agissent.
+
+**Points forts à imiter** : une amorce liée aux documents, la question reformulée et le plan annoncé ; un paragraphe par argument (argument, explication, exemple précis) ; des exemples variés (poésie, peinture, photographie, histoire) ; une partie qui nuance avec « Certes... mais » ; une conclusion nette avec une ouverture.` },
       ]
     },
   ]

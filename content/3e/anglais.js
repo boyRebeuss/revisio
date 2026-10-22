@@ -1020,7 +1020,7 @@ Points vérifiés :
 ## Ce qu'on attend de toi en fin de 3e
 En fin de 3e, en anglais LV1, tu dois atteindre au moins le niveau **A2** du Cadre européen (CECRL) et viser le **B1** : comprendre l'essentiel d'un texte sur un sujet familier (article, récit, blog, lettre), repérer les **informations importantes**, comprendre l'**opinion** de l'auteur et les **sentiments** des personnages.
 
-Au brevet, l'anglais n'a pas d'épreuve écrite finale pour les élèves de collège (les épreuves écrites portent sur le français, les mathématiques, l'histoire-géographie-EMC et les sciences). En revanche, ta **moyenne annuelle de 3e** en anglais compte dans le **contrôle continu** (40 % de la note finale, les épreuves finales comptant pour 60 %). À l'oral du brevet (la **soutenance d'un projet** : un exposé suivi d'un entretien avec le jury : 15 minutes pour un candidat seul, soit 5 minutes d'exposé et 10 minutes d'entretien), tu peux présenter une partie de ton exposé ou de l'entretien en anglais, puisque cette langue est enseignée dans ton collège : cette partie ne dépasse pas 5 minutes, et le jury la valorise si ton niveau d'anglais est satisfaisant.
+Au brevet, l'anglais n'a pas d'épreuve écrite finale pour les élèves de collège (les épreuves écrites portent sur le français, les mathématiques, l'histoire-géographie-EMC et les sciences). En revanche, ta **moyenne annuelle de 3e** en anglais compte dans le **contrôle continu** (40 % de la note finale, les épreuves finales comptant pour 60 %). À l'oral du brevet (la **soutenance d'un projet** : un exposé suivi d'un entretien avec le jury : 15 minutes pour un candidat seul, soit 5 minutes d'exposé et 10 minutes d'entretien), tu peux présenter une partie de ton exposé ou de l'entretien en anglais, puisque cette langue est enseignée dans ton collège : cette partie ne dépasse pas 5 minutes, et le jury la valorise si ton niveau d'anglais est satisfaisant. Les modalités précises de la session 2027 (durées, notation) sont fixées par le texte officiel de la session : fais-les confirmer par ton professeur principal.
 
 ## La méthode en 5 étapes
 1. **Observe le document** : titre, source (journal, blog, roman), date, illustration. Formule une hypothèse sur le sujet.
@@ -1061,6 +1061,17 @@ Now I'm back in London, but I call Mr Hughes every Sunday. Next summer, I'm goin
         aisha: `**My exchange in Lyon** — Aisha, Leicester (texte d'entraînement)
 
 My name is Aisha and I live in Leicester, in the Midlands. My parents came to England from Gujarat, in India, in 1995. At home, we speak Gujarati and English, and I'm learning French at school. Last year, my class went on an exchange to Lyon. At first, I was really nervous because I had never stayed with a French family. But my host family was so kind! They taught me to cook a real quiche and I made them an Indian curry. Since then, I've been texting Chloé, my French partner, every week. Next autumn, she's going to visit Leicester for Diwali, the Hindu festival of lights. I can't wait to show her my city.`,
+        windrush: `**"We came because we were invited"** — an article by Jordan, 15, for his school magazine in London (texte d'entraînement : personnages fictifs, contexte historique réel)
+
+On 22 June 1948, about a thousand passengers got off a ship called the *Empire Windrush* at Tilbury, near London. Many of them came from the Caribbean. One of them was my great-grandfather, Clifford. He was twenty-two and he had left Jamaica with one suitcase and a lot of hope. After the war, Britain needed workers to rebuild the country, and people from the Caribbean were British subjects.
+
+"We came because we were invited," he used to say. But life was not easy. The winters were freezing, he had never seen snow, and some landlords refused to rent rooms to Black people. He found a job as a bus conductor, and later he married my great-grandmother, a nurse who worked for the new National Health Service.
+
+Seventy years later, in 2018, a scandal shocked the country: some members of the Windrush generation, who had lived and worked in Britain for decades, were wrongly treated as illegal immigrants. Some lost their jobs, and some were even deported. The government apologised.
+
+Clifford died before the scandal, but I'm proud of him. Today, every 22 June, Windrush Day celebrates the contribution of Caribbean people to Britain. For me, it's a chance to remember that my family helped to build this country.
+
+*Aide* : *British subjects* = sujets britanniques (ils avaient le droit de venir vivre et travailler au Royaume-Uni) ; *landlords* = propriétaires qui louent des logements ; *bus conductor* = receveur (il vendait les billets dans le bus).`,
       },
       exercices: [
         { type: "qcm", question: "Que faut-il faire lorsqu'on rencontre un mot inconnu à la première lecture ?", choix: ["S'arrêter et chercher chaque mot dans le dictionnaire.", "Sauter le paragraphe entier.", "Abandonner l'exercice.", "Continuer la lecture et essayer de deviner le sens grâce au contexte."], reponse: 3, explication: "À la première lecture, on cherche le **sens général** ; le **contexte**, les mots transparents et la formation du mot permettent souvent de deviner." },
@@ -1105,6 +1116,24 @@ Points vérifiés :
 - temps justes : prétérit pour le récit, présent pour la situation actuelle (*he wants*).` },
         { type: "vf", texte: "aisha", question: "Dès son arrivée à Lyon, Aisha se sentait parfaitement à l'aise.", reponse: false, explication: "Faux : *\"At first, I was really nervous\"* (au début, j'étais vraiment inquiète), car elle n'avait jamais logé dans une famille française. Le connecteur *But* annonce ensuite le changement : *my host family was so kind!*" },
         { type: "qcm", texte: "aisha", question: "*What did Aisha cook for her host family?*", choix: ["a real quiche", "a French cake", "an Indian curry", "a Gujarati soup"], reponse: 2, explication: "*I made them an Indian curry* : elle leur a préparé un **curry indien**. La quiche, c'est la famille d'accueil qui lui a appris à la faire (*They taught me to cook a real quiche*) : deux plats sont cités, il faut repérer **qui** cuisine pour **qui**." },
+        { type: "qcm", texte: "windrush", question: "Quelle est l'idée principale de l'article de Jordan ?", choix: ["Jordan raconte ses propres vacances en Jamaïque, où il est allé voir la maison de son arrière-grand-père.", "Jordan explique pourquoi les bateaux ne transportent plus de passagers entre les Caraïbes et Londres.", "Jordan critique son arrière-grand-père, qui a quitté la Jamaïque et laissé toute sa famille derrière lui.", "À travers l'histoire de son arrière-grand-père, Jordan rend hommage à la génération Windrush et rappelle ses difficultés."], reponse: 3, explication: "L'article suit Clifford, arrivé en 1948 (le voyage, les difficultés, le travail), évoque le scandale de 2018, puis se termine par la fierté de Jordan (*I'm proud of him*) et le *Windrush Day*. Ce n'est ni un récit de vacances ni une critique." },
+        { type: "saisie", texte: "windrush", question: "Quel âge avait Clifford quand il est arrivé en Angleterre ? (en chiffres)", reponses: ["22", "22 ans", "22 years old"], explication: "*He was **twenty-two*** → **22** ans. Lecture ciblée (*scanning*) : le nombre est écrit en lettres, avec un trait d'union." },
+        { type: "qcm", texte: "windrush", question: "*Why did Britain need workers in 1948?*", choix: ["To rebuild the country after the war.", "To build ships for the Caribbean.", "To replace the workers who had gone to Jamaica.", "To open the first bus company in London."], reponse: 0, explication: "*After the war, Britain needed workers **to rebuild the country*** : le pays manquait de main-d'œuvre pour se reconstruire après la Seconde Guerre mondiale. *To rebuild* exprime le but (*to* + base verbale)." },
+        { type: "vf", texte: "windrush", question: "Dès son arrivée, Clifford a trouvé la vie en Angleterre facile et accueillante.", reponse: false, explication: "Faux : *\"But life was not easy\"*. Le connecteur *But* oppose l'invitation (*we were invited*) à la réalité : le froid (*The winters were freezing*), la neige qu'il n'avait jamais vue, et la discrimination (*some landlords refused to rent rooms to Black people*)." },
+        { type: "qcm", texte: "windrush", question: "*Some members of the Windrush generation were wrongly treated as illegal immigrants.* Que signifie cette phrase ?", choix: ["Certains membres de la génération Windrush sont entrés illégalement au Royaume-Uni.", "Certains membres de la génération Windrush ont été traités à tort comme des immigrés en situation irrégulière.", "Certains membres de la génération Windrush ont mal traité les nouveaux immigrés.", "Certains membres de la génération Windrush ont refusé de devenir britanniques."], reponse: 1, explication: "*Wrongly* = **à tort** (*wrong* + *-ly*) ; *were treated as* = ont été traités comme (passif). Ils vivaient légalement au Royaume-Uni depuis des décennies (*who had lived and worked in Britain for decades*) : c'est justement ce qui fait le scandale." },
+        { type: "saisie", texte: "windrush", question: "Relève dans le paragraphe sur le scandale de 2018 le mot anglais qui signifie « expulsés » (renvoyés hors du pays).", reponses: ["deported", "were deported", "were even deported"], explication: "*Some were even **deported*** : *deported* = expulsés, renvoyés hors du pays (mot transparent : « déportés », mais ici le sens est « expulsés »). *Even* (même) montre la gravité : c'est le pire de ce qui leur est arrivé." },
+        { type: "qcm", texte: "windrush", question: "Dans la dernière partie, quel sentiment Jordan exprime-t-il envers son arrière-grand-père ?", choix: ["de la colère", "de l'indifférence", "de la fierté", "de la honte"], reponse: 2, explication: "*I'm proud of him* : il est **fier** de lui. Il ajoute que sa famille a aidé à construire le pays (*my family helped to build this country*). La colère porterait plutôt sur le scandale, pas sur Clifford." },
+        { type: "redaction", texte: "windrush", question: "Niveau fin de 3e : (1) rends compte **en français**, en 5 ou 6 phrases, de l'article de Jordan ; (2) explique en une ou deux phrases ce que Clifford voulait dire par *\"We came because we were invited\"*, et pourquoi le scandale de 2018 rend cette phrase encore plus forte.", corrige: `Exemple de réponse :
+
+1. Jordan, un adolescent londonien de 15 ans, écrit pour le journal de son école un article sur son arrière-grand-père, Clifford. Celui-ci est arrivé de Jamaïque à 22 ans, le 22 juin 1948, à bord de l'*Empire Windrush*, avec environ un millier de passagers, dont beaucoup venaient des Caraïbes. Le Royaume-Uni avait besoin de travailleurs pour se reconstruire après la guerre. La vie a été difficile : le froid, et des propriétaires qui refusaient de louer à des personnes noires ; Clifford est devenu receveur de bus et a épousé une infirmière du tout nouveau service national de santé (NHS). En 2018, un scandale a révélé que des membres de la génération Windrush, installés depuis des décennies, avaient été traités à tort comme des immigrés en situation irrégulière : certains ont perdu leur emploi, d'autres ont été expulsés, et le gouvernement s'est excusé. Jordan est fier de son arrière-grand-père et voit dans le *Windrush Day*, chaque 22 juin, l'occasion de rappeler que sa famille a contribué à construire le pays.
+
+2. Clifford veut dire qu'il n'est pas venu « en intrus » : le Royaume-Uni manquait de main-d'œuvre et a fait appel aux habitants des Caraïbes, qui étaient alors sujets britanniques. Le scandale de 2018 rend la phrase plus forte, car ces mêmes personnes, invitées et installées légalement depuis des décennies, ont ensuite été traitées comme des clandestins.
+
+Points vérifiés :
+- qui, quoi, où, quand, pourquoi, et la conclusion (le sentiment de Jordan) ;
+- les informations exactes du texte : 22 juin 1948, Tilbury, 22 ans, le scandale de 2018 ;
+- reformulation en français, sans traduction mot à mot (*bus conductor* = receveur de bus, *landlords* = propriétaires) ;
+- la question 2 s'appuie sur l'opposition entre *invited* et *wrongly treated as illegal immigrants*.` },
       ],
     },
     {
@@ -1300,6 +1329,14 @@ Les documents de ce chapitre sont des **transcriptions** (le texte écrit de ce 
 - Le mieux : demande à quelqu'un de te les **lire à voix haute**, deux fois, sans que tu regardes le texte ; réponds ensuite.
 - Sinon : lis la transcription **une seule fois**, sans revenir en arrière, comme si c'était un enregistrement, puis cache-la (replie-la) et réponds.
 - Complète avec de vrais documents audio : podcasts pour apprenants (par exemple ceux de la BBC), vidéos et séries en anglais avec sous-titres **en anglais**.
+
+### Où trouver de vraies écoutes (gratuites) ?
+- **Audio-Lingua** : site gratuit créé par des professeurs de langues ; de courts enregistrements de locuteurs natifs, classés par **niveau du CECRL** : commence par **A2**, puis passe au **B1**.
+- **BBC Learning English** (site et appli) : des émissions courtes pour apprenants, par exemple *6 Minute English*, avec la transcription à lire **après** l'écoute.
+- **LearnEnglish Teens** du British Council : des vidéos et des écoutes pour adolescents, avec des exercices.
+- Ton manuel numérique et les documents audio de ton professeur : ce sont les plus proches de ce qu'on te demandera en classe.
+
+Méthode : écoute une première fois sans rien lire, note ce que tu as compris, réécoute, et seulement ensuite vérifie avec la transcription.
 
 ## Avant l'écoute : anticiper
 1. **Observe** le titre, l'image, la consigne : quel **type de document** (annonce de gare, message vocal, interview, météo) ? Qui parle probablement ?
@@ -1505,6 +1542,219 @@ Les mots s'**enchaînent** : une consonne finale s'accroche à la voyelle suivan
 5. **Intonation** : c'est une affirmation, la voix **descend** à la fin, sur *five* ↘.
 
 Méthode : on repère d'abord les mots qui portent le sens, puis on réduit les petits mots, on applique la règle du son final pour -ed, et on vérifie les mots douteux dans un dictionnaire (API + écoute).` },
+      ],
+    },
+    {
+      id: "quantifieurs",
+      titre: "Les quantifieurs : some, any, no, much, many, a few, a little, too, enough",
+      theme: "Grammaire",
+      cours: `
+## D'abord : dénombrable ou indénombrable ?
+Le choix du quantifieur dépend du nom qui suit.
+- Un nom **dénombrable** se compte : il a un singulier avec *a / an* et un pluriel : *a book, two books ; an apple, three apples*.
+- Un nom **indénombrable** ne se compte pas : jamais de *a / an*, jamais de -s, et le verbe reste au **singulier** : *water, money, bread, time, music, hair*.
+
+Pièges des francophones : ces noms sont **indénombrables** en anglais, même si le français les met souvent au pluriel :
+| Anglais (indénombrable) | Français | Pour compter |
+|---|---|---|
+| *advice* | des conseils | *a piece of advice* (un conseil) |
+| *information* | des informations | *a piece of information* |
+| *homework* | des devoirs | *an exercise, a task* |
+| *furniture* | des meubles | *a piece of furniture* |
+| *luggage* | des bagages | *a bag, a suitcase* |
+| *news* | des nouvelles, les infos | *a piece of news* |
+
+>! « Elle m'a donné de bons conseils. » → *She gave me some good **advice**.* (jamais *advices*)
+>!
+>! « Les informations sont fausses. » → *The information **is** wrong.*
+
+## Some, any, no : « du, de la, des, quelques »
+| Mot | Emploi | Exemple |
+|---|---|---|
+| **some** | phrase **affirmative** | *There is **some** milk in the fridge. I've got **some** friends in Dublin.* |
+| **any** | phrase **négative** et **question** | *I haven't got **any** money. Have you got **any** pets?* |
+| **no** | = *not any*, avec un verbe **affirmatif** | *I have **no** money.* = *I haven't got any money.* |
+
+Deux nuances :
+- On garde **some** dans une question quand on **propose** ou qu'on **demande** quelque chose (on attend un « oui ») : *Would you like **some** tea? Can I have **some** water, please?*
+- **Any** dans une phrase affirmative signifie « **n'importe quel** » : *Take **any** book you want.*
+
+Jamais de double négation : *I haven't got no money* ✗ → *I haven't got any money* ✓ ou *I've got no money* ✓.
+
+### Les composés
+| | personne | chose | lieu |
+|---|---|---|---|
+| **some-** (affirmatif) | *somebody / someone* (quelqu'un) | *something* (quelque chose) | *somewhere* (quelque part) |
+| **any-** (négation, question) | *anybody / anyone* | *anything* | *anywhere* |
+| **no-** (sens négatif) | *nobody / no one* (personne) | *nothing* (rien) | *nowhere* (nulle part) |
+| **every-** (totalité) | *everybody / everyone* (tout le monde) | *everything* (tout) | *everywhere* (partout) |
+
+>! « Je n'ai rien vu. » → *I **didn't** see **anything**.* ou *I saw **nothing**.* (jamais *I didn't see nothing*)
+>!
+>! « Personne n'est venu. » → ***Nobody** came.* (le verbe reste affirmatif)
+
+Attention : *everybody, nobody, everything* sont suivis d'un verbe au **singulier** : ***Everybody is** here. **Everything was** perfect.*
+
+## Beaucoup, combien, trop, peu
+| Sens | + dénombrable pluriel | + indénombrable |
+|---|---|---|
+| beaucoup (phrase affirmative) | *a lot of / lots of friends* | *a lot of / lots of time* |
+| beaucoup (négation, question) | *many* : *not many people* | *much* : *not much time* |
+| combien ? | ***How many** brothers?* | ***How much** money?* |
+| trop | *too many cars* | *too much noise* |
+| peu (pas assez) | *few* | *little* |
+| quelques / un peu | *a few* | *a little* |
+| plus de | *more* | *more* |
+| moins de | *fewer* (*less* à l'oral familier) | *less* |
+
+Dans une phrase affirmative, *much* et *many* sont possibles mais font soutenu (*Many people think that...*) ; à l'oral, on dit plutôt **a lot of**.
+
+## Few ou a few ? Little ou a little ?
+Le petit mot **a** change tout :
+- **a few / a little** = quelques / un peu : sens **positif** (« ça suffit ») : *I've got **a few** friends here: I'm happy.* *There's **a little** milk left: enough for a cup.*
+- **few / little** = peu : sens **négatif** (« pas assez ») : *I have **few** friends here: I feel lonely.* *There's **little** hope.*
+
+## Trop et assez : too, enough
+- **too + adjectif ou adverbe** = trop : *This jacket is **too** expensive.* (jamais *too much expensive*)
+- **too much / too many + nom** = trop de : *too much sugar, too many cars*.
+- **adjectif + enough** = assez (**après** l'adjectif) : *He isn't **old enough** to vote.*
+- **enough + nom** = assez de (**avant** le nom) : *We haven't got **enough** chairs.*
+
+Ne confonds pas **very** (très, c'est un simple constat) et **too** (trop, il y a un problème) : *The soup is very hot* (elle est très chaude) ; *The soup is too hot* (je ne peux pas la manger).
+
+## Tous, chaque, les deux
+- **every** + nom **singulier** (chaque, tous les) : *every day, every student* ; **all** + pluriel ou indénombrable : *all the students, all day*.
+- **each** = chacun (pris un par un) : *Each student has a laptop.*
+- **both** = les deux ; **neither** = aucun des deux ; **either** = l'un ou l'autre : *Both answers are correct. Neither answer is correct.*
+
+## Erreurs fréquentes
+| Erreur | Correction |
+|---|---|
+| *some advices, an information* | *some advice, some information* (indénombrables) |
+| *I haven't got no time.* | *I haven't got any time.* / *I've got no time.* |
+| *How much people?* | *How many people?* (*people* est dénombrable pluriel) |
+| *too much expensive* | *too expensive* |
+| *She isn't enough old.* | *She isn't old enough.* |
+| *Everybody are happy.* | *Everybody is happy.* |
+| *Nobody didn't come.* | *Nobody came.* |
+
+> **À retenir** : vérifie d'abord si le nom est **dénombrable** (*friends, cars*) ou **indénombrable** (*money, advice, information, homework*). **some** à l'affirmatif (et pour proposer), **any** en négation et question, **no** = *not any* (jamais de double négation). **many / how many / few / a few** + dénombrable ; **much / how much / little / a little** + indénombrable ; **a lot of** pour les deux. *A few / a little* = positif, *few / little* = négatif. **too + adjectif**, **too much / many + nom** ; **adjectif + enough**, **enough + nom**.
+`,
+      exercices: [
+        { type: "qcm", question: "*Sorry, I haven't got ___ money on me.*", choix: ["some", "no", "any", "many"], reponse: 2, explication: "Phrase **négative** → **any** : *I haven't got any money.* *No* ferait une double négation (*haven't got no* ✗) ; *many* ne va pas avec *money*, qui est indénombrable." },
+        { type: "qcm", question: "*How ___ sugar do you take in your tea?*", choix: ["much", "many", "few", "lot"], reponse: 0, explication: "*Sugar* est **indénombrable** → **How much**. *How many* s'emploie avec un pluriel (*How many lumps of sugar?*)." },
+        { type: "vf", question: "*I have few friends in my new town* signifie « J'ai quelques amis dans ma nouvelle ville et cela me suffit ».", reponse: false, explication: "Sans *a*, **few** = **peu** (sens négatif : pas assez). La phrase veut dire « J'ai peu d'amis dans ma nouvelle ville ». « J'ai quelques amis » se dirait *I have **a few** friends*." },
+        { type: "qcm", question: "*The film was ___ long: I fell asleep before the end.*", choix: ["too much", "too many", "enough", "too"], reponse: 3, explication: "Devant un **adjectif** (*long*), « trop » se dit **too** : *too long*. *Too much / too many* s'emploient devant un nom ; *enough* se placerait après l'adjectif et voudrait dire « assez »." },
+        { type: "saisie", question: "Corrige l'erreur : *She isn't enough old to drive.*", reponses: ["She isn't old enough to drive", "She is not old enough to drive", "She's not old enough to drive"], explication: "**Enough** se place **après** l'adjectif : *old enough*. (Devant un nom, il se place avant : *enough money*.)" },
+        { type: "saisie", question: "Traduis : « Personne n'est venu. »", reponses: ["Nobody came", "No one came", "No-one came", "Nobody has come", "No one has come", "Nobody's come", "No one's come"], explication: "« Personne » sujet = **Nobody** (ou *No one*), avec un verbe **affirmatif** : *Nobody came.* *Nobody didn't come* serait une double négation." },
+        { type: "qcm", question: "Tu proposes une boisson à ton correspondant : *Would you like ___ orange juice?*", choix: ["any", "some", "no", "many"], reponse: 1, explication: "Dans une **proposition** (on attend un « oui »), on garde **some** même dans une question : *Would you like some orange juice?* *Many* est impossible avec un indénombrable." },
+        { type: "saisie", question: "Corrige l'erreur : *I need some advices for my project.*", reponses: ["I need some advice for my project", "I need advice for my project", "I need a piece of advice for my project", "I need some pieces of advice for my project", "I need some advice about my project", "I need advice about my project", "I need some advice on my project", "I need advice on my project"], explication: "**Advice** est **indénombrable** : pas de -s. Pour compter : *a piece of advice* (un conseil)." },
+        { type: "qcm", question: "*There's ___ milk left: just enough for one cup of tea.*", choix: ["a few", "many", "a little", "few"], reponse: 2, explication: "*Milk* est indénombrable → *little / a little* ; *just enough* montre un sens **positif** (ça suffit) → **a little**. *A few* et *few* vont avec un pluriel dénombrable, *many* aussi." },
+        { type: "redaction", question: "Niveau fin de 3e : ta classe a fait une enquête sur les habitudes des élèves (sommeil, écrans, sport, alimentation). Écris un court article de 100 mots environ pour le journal de ton collège jumelé en Angleterre : présente les résultats (données fictives) et donne ton avis. Utilise au moins six quantifieurs différents (*some, any, no / nobody, a lot of, many / much, a few / a little, too much / too many, enough*).", corrige: `Exemple de réponse (données fictives) :
+
+*Are we living healthy lives? Our class asked 120 pupils about their habits.*
+
+*The results are worrying. A lot of pupils spend too much time on their phones: some of them use their screens for more than four hours a day! As a result, many students don't get enough sleep. Only a few pupils go to bed before ten. As for sport, most of us do some exercise, but nobody does an hour of sport every day.*
+
+*There is some good news, though: very few students skip breakfast, and they don't eat much junk food.*
+
+*In my opinion, we should spend a little less time online and a little more time outdoors.*
+
+Points vérifiés :
+- quantifieurs variés : *a lot of, too much, some, many, enough, a few, nobody, very few, much, a little* ;
+- accords justes : *too much time* (indénombrable), *many students* (dénombrable), *enough sleep* (*enough* avant le nom) ;
+- *nobody* + verbe affirmatif (*nobody does*) ; *the news* au singulier (*there is some good news*) ;
+- données annoncées comme fictives, connecteurs (*as a result, as for, though*) et avis final (*In my opinion, we should...*).` },
+      ],
+    },
+    {
+      id: "question-tags",
+      titre: "Les question tags et les reprises (isn't it?, so do I)",
+      theme: "Grammaire",
+      cours: `
+## Qu'est-ce qu'un question tag ?
+Un **question tag** est une petite question ajoutée à la fin d'une phrase pour demander une **confirmation** ou faire réagir l'autre, comme « n'est-ce pas ? », « hein ? », « non ? » en français :
+*It's cold today, **isn't it**?* = Il fait froid aujourd'hui, hein ?
+
+En français, « n'est-ce pas » ne change jamais. En anglais, le tag **change à chaque phrase** : il reprend l'auxiliaire et le sujet.
+
+## Les trois règles de formation
+1. **Auxiliaire de la phrase + pronom sujet** : on reprend *be, have, will, can, should...* ; s'il n'y a pas d'auxiliaire (présent simple, prétérit), on utilise **do / does / did**.
+2. **Phrase affirmative → tag négatif** ; **phrase négative → tag affirmatif**.
+3. Le sujet devient un **pronom** : *Tom → he*, *the film → it*, *your parents → they* ; *there is → there*.
+
+| Phrase | Tag | Règle |
+|---|---|---|
+| *You're French,* | ***aren't you**?* | *be* repris |
+| *She can swim,* | ***can't she**?* | modal repris |
+| *They have finished,* | ***haven't they**?* | *have* (present perfect) repris |
+| *He won't come,* | ***will he**?* | négatif → tag affirmatif |
+| *You like rap,* | ***don't you**?* | présent simple → *do* |
+| *Sam lives in Leeds,* | ***doesn't he**?* | 3e personne → *does* |
+| *Your parents went to Rome,* | ***didn't they**?* | prétérit → *did* |
+| *It isn't raining,* | ***is it**?* | négatif → tag affirmatif |
+| *There's a bus at six,* | ***isn't there**?* | *there* repris |
+
+>! Méthode : *Emma has been to Canada, ___?* → auxiliaire : *has* ; phrase affirmative → tag négatif : *hasn't* ; sujet *Emma* → *she*. Réponse : *Emma has been to Canada, **hasn't she**?*
+
+## Cas particuliers
+- **I am** → ***aren't I?*** : *I'm late, aren't I?* (jamais *amn't I*)
+- Phrase avec un mot **négatif** (*never, nobody, nothing, hardly*) : la phrase a un sens négatif → tag **affirmatif** : *She never eats meat, **does she**?* *Nothing happened, **did it**?* *Nobody called, **did they**?* (*nobody, somebody, everybody* sont repris par **they**).
+- **Impératif** : *Close the door, **will you**?* (demande) ; ***Let's** go, **shall we**?* (proposition)
+- **have got** : *You've got a dog, **haven't you**?* — **have** sans *got* : *You have a dog, **don't you**?*
+
+## L'intonation change le sens
+- La voix **descend** ↘ sur le tag : tu es **presque sûr**, tu attends un accord : *It's a lovely day, isn't it?* ↘ (c'est une façon d'engager la conversation).
+- La voix **monte** ↗ sur le tag : c'est une **vraie question**, tu n'es pas sûr : *You've got your ticket, haven't you?* ↗ (j'espère que oui...).
+
+## Répondre à un question tag
+On répond selon la **réalité**, avec une **réponse courte** (sujet + auxiliaire) :
+- *You're tired, aren't you? — **Yes, I am.** / **No, I'm not.***
+- *You aren't hungry, are you?* Si tu n'as pas faim : ***No, I'm not.*** Si tu as faim : ***Yes, I am!*** (c'est le « **Si !** » français : l'anglais n'a pas de mot pour « si », il dit *Yes* + réponse courte).
+
+## Les autres reprises de l'oral
+- **Moi aussi / moi non plus** : *I love horror films. — **So do I**.* / *I can't swim. — **Neither can I**.* (*so / neither* + auxiliaire + sujet)
+- **Les questions de réaction** (« Ah bon ? », « C'est vrai ? ») : on reprend l'auxiliaire, au **même** sens que la phrase : *I went to New York last summer. — **Did you**? Lucky you!* / *I can't swim. — **Can't you**? I'll teach you.*
+
+## Erreurs fréquentes
+| Erreur | Correction |
+|---|---|
+| *You like pizza, isn't it?* (le « n'est-ce pas » figé) | *You like pizza, **don't you**?* |
+| *Tom is nice, isn't Tom?* | *Tom is nice, **isn't he**?* (pronom) |
+| *She can swim, can she?* | *She can swim, **can't she**?* (affirmatif → tag négatif) |
+| *He never listens, doesn't he?* | *He never listens, **does he**?* (*never* = sens négatif) |
+| *You aren't hungry, are you? — Yes, I'm not.* | *No, I'm not.* (réponse selon la réalité) |
+
+> **À retenir** : tag = **auxiliaire de la phrase + pronom sujet** ; pas d'auxiliaire → **do / does / did**. Affirmatif → tag **négatif** ; négatif (y compris *never, nobody, nothing*) → tag **affirmatif**. *I am → aren't I?* ; *Let's → shall we?* ; impératif → *will you?* Voix qui descend = confirmation, voix qui monte = vraie question. Réponse courte selon la réalité : *Yes, I am / No, I'm not*.
+`,
+      exercices: [
+        { type: "qcm", question: "*It's a beautiful day, ___?*", choix: ["is it", "doesn't it", "isn't it", "isn't this"], reponse: 2, explication: "La phrase contient *is* (*It's* = *It is*) et elle est affirmative → tag négatif avec le même auxiliaire et le pronom *it* : **isn't it?** *Is it* serait affirmatif, *doesn't* ne reprend pas l'auxiliaire *be*." },
+        { type: "saisie", question: "Complète avec le question tag : *You like pizza, ___?*", reponses: ["don't you"], explication: "Présent simple sans auxiliaire → on utilise **do** ; phrase affirmative → tag négatif : *You like pizza, **don't you**?* (et non *isn't it*, le « n'est-ce pas » figé du français)." },
+        { type: "qcm", question: "*Your brother went to Scotland last year, ___?*", choix: ["didn't he", "wasn't he", "doesn't he", "hasn't he"], reponse: 0, explication: "*Went* est un **prétérit** sans auxiliaire → **did** ; phrase affirmative → tag négatif ; *your brother* → *he* : **didn't he?**" },
+        { type: "saisie", question: "Complète avec le question tag : *I'm late, ___?*", reponses: ["aren't I", "am I not"], explication: "Cas particulier : avec *I am*, le tag négatif est **aren't I?** (*amn't I* n'existe pas en anglais standard). *Am I not?* est correct aussi, mais très soutenu : à l'oral, on dit *aren't I?*" },
+        { type: "vf", question: "Dans *Nobody called, did they?*, le tag est affirmatif parce que *nobody* donne un sens négatif à la phrase.", reponse: true, explication: "Vrai : *nobody* rend la phrase négative, donc le tag est **affirmatif** (*did*). *Nobody, somebody, everybody* sont repris par **they**." },
+        { type: "qcm", question: "*Let's go to the beach this afternoon, ___?*", choix: ["will we", "don't we", "won't we", "shall we"], reponse: 3, explication: "Après **Let's** (proposition), le tag est toujours **shall we?** : *Let's go to the beach, shall we?* (Allons à la plage, d'accord ?)" },
+        { type: "saisie", question: "Complète avec le question tag : *There's a bus at six, ___?*", reponses: ["isn't there"], explication: "Avec *there is*, on reprend **there** comme sujet du tag : *There's a bus at six, **isn't there**?*" },
+        { type: "qcm", question: "Ton correspondant te demande : *You aren't hungry, are you?* Tu n'as **pas** faim. Que réponds-tu ?", choix: ["Yes, I am.", "Yes, I'm not.", "No, I am.", "No, I'm not."], reponse: 3, explication: "On répond selon la **réalité** : tu n'as pas faim → ***No, I'm not.*** *Yes, I am* voudrait dire que tu as faim (le « Si ! » français) ; *Yes, I'm not* et *No, I am* mélangent oui et non : ils sont incorrects." },
+        { type: "qcm", question: "Tu dis *You've got your passport, haven't you?* avec la voix qui **monte** ↗ sur le tag. Qu'exprimes-tu ?", choix: ["Tu es certain que ton ami a son passeport et tu fais juste la conversation.", "Tu poses une vraie question : tu n'es pas sûr qu'il ait son passeport.", "Tu reproches à ton ami d'avoir oublié son passeport.", "Tu annonces que tu as toi-même ton passeport."], reponse: 1, explication: "Voix qui **monte** sur le tag = **vraie question** : tu n'es pas sûr et tu attends une réponse. Si la voix descendait ↘, tu serais presque sûr et tu attendrais seulement un accord." },
+        { type: "redaction", question: "Niveau fin de 3e : un(e) élève anglais(e), Chloe, arrive pour un échange dans ton collège. Écris votre premier dialogue (8 à 10 répliques) : vous faites connaissance et vous vérifiez des informations. Utilise au moins cinq question tags différents (avec *be*, *do / does* ou *did*, un modal, *have* et un cas particulier), une réponse courte, *So do I* ou *Neither do I*, et une question de réaction (*Did you? Can't you?*).", corrige: `Exemple de réponse :
+
+*Me: Hi! You're Chloe, aren't you?*
+*Chloe: Yes, I am. And you're Hugo, my exchange partner!*
+*Me: That's right. You arrived yesterday, didn't you?*
+*Chloe: Yes, by Eurostar. You can speak English, can't you?*
+*Me: A little! You've got a brother, haven't you?*
+*Chloe: No, I haven't. I've got two sisters. I love football, by the way.*
+*Me: So do I! Let's go to a match on Sunday, shall we?*
+*Chloe: Great idea! I've never seen a French match.*
+*Me: Haven't you? Then it's time!*
+
+Points vérifiés :
+- question tags variés : *aren't you* (*be*), *didn't you* (prétérit → *did*), *can't you* (modal), *haven't you* (*have got*), *shall we* (cas particulier après *Let's*) ;
+- affirmatif → tag négatif, pronom sujet repris ;
+- réponses courtes : *Yes, I am*, *No, I haven't* ;
+- reprise *So do I* (moi aussi, j'aime le football) et question de réaction *Haven't you?* (Ah bon ? : même sens, négatif, que la phrase de Chloe) ;
+- dialogue naturel, registre familier adapté à deux adolescents.` },
       ],
     },
   ],
