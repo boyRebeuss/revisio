@@ -203,6 +203,7 @@ form.carte { display: grid; gap: 10px; }
 .lignes { display: grid; gap: 8px; margin-bottom: 12px; }
 .ligne { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
 .ligne > span:last-child { display: flex; gap: 6px; }
+.appareil-ia { padding: 10px 0; border-top: 1px solid var(--bord); }
 
 /* Chargement */
 .centre { display: grid; place-items: center; min-height: 60vh; }

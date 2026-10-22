@@ -32,6 +32,19 @@ export function codeParentsRecu() {
   return c;
 }
 
+// Espace parents : appareils reliés au lien parents (action "appareils") ou IA bloquée / réactivée (action "ia")
+export async function appelParents(code, donnees) {
+  let r;
+  try {
+    r = await fetch("/api/parents", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ code, ...donnees }) });
+  } catch {
+    throw new Error("Pas de connexion Internet.");
+  }
+  const d = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(d.error || "Service indisponible, réessaie plus tard.");
+  return d;
+}
+
 // Renvoie "" si le code parents est valable, sinon le message d'erreur
 export async function verifierParents(code) {
   let r;
@@ -58,7 +71,7 @@ export function continuerSansIA() {
 export async function activer(code) {
   let r;
   try {
-    r = await fetch("/api/activer", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ code }) });
+    r = await fetch("/api/activer", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ code, appareil: localStorage.getItem("revisio.appareil") || "" }) });
   } catch {
     return "Pas de connexion Internet.";
   }

@@ -534,7 +534,7 @@ function vueReglages() {
       h("section", { class: "carte" },
         h("h2", {}, "👨‍👩‍👧 Espace parents"),
         h("p", {}, F.relais
-          ? "Historique des connexions de chaque élève sur cet appareil, réservé aux parents : il s'ouvre avec le lien parents."
+          ? "Réservé aux parents, avec le lien parents : bloquer ou réactiver l'IA des appareils des enfants, et historique des connexions de cet appareil."
           : "Historique des connexions de chaque élève sur cet appareil, protégé par un code parent."),
         h("a", { class: "btn", href: "#/parents" }, "🔒 Voir l'historique des connexions")
       ),
@@ -602,6 +602,7 @@ function vueAPropos() {
 // ---------- Espace parents ----------
 
 let parentOuvert = false;
+let codeParents = ""; // code du lien parents vérifié (site Cloudflare), gardé en mémoire le temps de la visite
 
 function vueParents() {
   // Site Cloudflare : l'Espace parents s'ouvre avec le lien parents créé dans /admin (pas de code sur l'appareil)
@@ -641,7 +642,7 @@ function formLienParents() {
     btn.disabled = true;
     msg.textContent = "";
     const err = await F.verifierParents(code);
-    if (!err) { parentOuvert = true; vueParents(); return; }
+    if (!err) { parentOuvert = true; codeParents = code; vueParents(); return; }
     btn.disabled = false;
     msg.textContent = err;
     champ.select();
@@ -703,6 +704,37 @@ function duree(ms) {
   return min < 60 ? `${min} min` : `${Math.floor(min / 60)} h ${String(min % 60).padStart(2, "0")}`;
 }
 
+// IA des appareils des enfants, reliés au lien parents : bloquer ou réactiver, même depuis un autre appareil
+function controleIA() {
+  const corps = h("div", {}, h("p", { class: "petit" }, "Chargement…"));
+  const charger = () => F.appelParents(codeParents, { action: "appareils" }).then(({ appareils }) => remplacer(corps,
+    appareils.length ? null : h("p", { class: "vide" }, "Aucun appareil n'a encore activé l'IA avec le code relié à ce lien."),
+    appareils.map((a) => {
+      const btn = h("button", { class: a.bloque ? "btn plein" : "btn rouge" }, a.bloque ? "Réactiver l'IA" : "Bloquer l'IA");
+      btn.onclick = async () => {
+        btn.disabled = true;
+        try { await F.appelParents(codeParents, { action: "ia", repere: a.repere, bloque: !a.bloque }); charger(); }
+        catch (e) { btn.disabled = false; btn.textContent = e.message; }
+      };
+      const qui = a.eleves.length ? a.eleves.join(", ") : `code « ${a.code} »`;
+      return h("div", { class: "ligne appareil-ia" },
+        h("div", {},
+          h("div", {}, `${a.bloque ? "⏸️" : "✅"} ${qui}`),
+          h("div", { class: "petit" }, [a.plateforme, `IA activée le ${new Date(a.active).toLocaleDateString("fr-FR")}`,
+            a.dernier ? `vu le ${new Date(a.dernier + "T12:00:00").toLocaleDateString("fr-FR")}` : ""].filter(Boolean).join(" · "))
+        ),
+        btn
+      );
+    })
+  )).catch((e) => remplacer(corps, h("p", { class: "erreur" }, e.message)));
+  charger();
+  return h("section", { class: "carte" },
+    h("h2", {}, "🤖 IA des appareils de vos enfants"),
+    h("p", { class: "petit" }, "Bloquer met l'IA en pause sur l'appareil, aussitôt et même s'il n'est pas devant vous ; les cours et exercices restent disponibles."),
+    corps
+  );
+}
+
 function historiqueConnexions() {
   const hist = S.historique().slice().reverse();
   const parJour = new Map();
@@ -711,8 +743,11 @@ function historiqueConnexions() {
     if (!parJour.has(j)) parJour.set(j, []);
     parJour.get(j).push(e);
   }
+  // Appareil d'un parent (aucun profil d'élève) : pas d'historique à montrer
+  const sansEleve = !S.profils().length;
   return h("div", {},
-    h("section", { class: "carte" },
+    F.relais && codeParents ? controleIA() : null,
+    sansEleve ? null : h("section", { class: "carte" },
       h("h2", {}, "🕒 Historique des connexions"),
       h("p", { class: "petit" }, "Sur cet appareil uniquement. Une connexion se termine après 30 minutes sans activité."),
       hist.length ? null : h("p", { class: "vide" }, "Aucune connexion enregistrée pour l'instant."),
@@ -731,9 +766,9 @@ function historiqueConnexions() {
     h("section", { class: "carte" },
       h("h2", {}, "Réglages parents"),
       h("div", { class: "actions-parents" },
-        h("button", { class: "btn", onclick: () => { parentOuvert = false; aller("#/reglages"); } }, "🔒 Verrouiller"),
+        h("button", { class: "btn", onclick: () => { parentOuvert = false; codeParents = ""; aller(S.profilActif() ? "#/reglages" : "#/"); } }, "🔒 Verrouiller"),
         F.relais ? null : h("button", { class: "btn", onclick: (ev) => ev.currentTarget.replaceWith(formCodeParent({ changer: true })) }, "Changer le code parent"),
-        h("button", {
+        sansEleve ? null : h("button", {
           class: "btn rouge",
           onclick: (ev) => {
             const b = ev.currentTarget;
@@ -788,8 +823,9 @@ function vueModifierProfil(id) {
 function router() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
   const [r, a, b, c] = parts;
-  if (r !== "parents") parentOuvert = false;
-  if (!S.profilActif() && r !== "profils" && r !== "apropos") return vueProfils();
+  if (r !== "parents") { parentOuvert = false; codeParents = ""; }
+  // L'Espace parents s'ouvre aussi sur l'appareil d'un parent, sans profil d'élève
+  if (!S.profilActif() && r !== "profils" && r !== "apropos" && r !== "parents") return vueProfils();
   S.noterActivite();
   switch (r) {
     case undefined: return vueAccueil();

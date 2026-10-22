@@ -29,7 +29,7 @@ async function invite(request, env) {
 
 /** Code d'invitation → laissez-passer de l'appareil ; le code resservira jusqu'à ce qu'il soit retiré dans /admin. */
 async function activer(request, env) {
-  const { code = "" } = await request.json().catch(() => ({}));
+  const { code = "", appareil = "" } = await request.json().catch(() => ({}));
   // Accepte aussi le code tapé sans « RVZ- » ni tirets, en minuscules
   const c = canonique(code, "RVZ");
   const inv = INVITE.test(c) ? await env.CODES.get(`invite:${c}`, "json") : null;
@@ -37,7 +37,8 @@ async function activer(request, env) {
   // Réécrit sans date d'expiration (les codes créés avant le 22/10/2026 expiraient au bout de 30 jours)
   await env.CODES.put(`invite:${c}`, JSON.stringify({ ...inv, appareils: (inv.appareils ?? 0) + 1 }));
   const pass = [...crypto.getRandomValues(new Uint8Array(16))].map((b) => b.toString(16).padStart(2, "0")).join("");
-  await env.CODES.put(`pass:${pass}`, JSON.stringify({ nom: inv.nom, cree: inv.cree, code: c, utilise: maintenant() }));
+  await env.CODES.put(`pass:${pass}`, JSON.stringify({ nom: inv.nom, cree: inv.cree, code: c, utilise: maintenant(),
+    appareil: APPAREIL.test(appareil) ? appareil : "" }));
   return json({ pass, nom: inv.nom });
 }
 
@@ -47,12 +48,43 @@ function canonique(code, prefixe) {
   return `${prefixe}-${brut.slice(0, 4)}-${brut.slice(4)}`;
 }
 
-/** Lien parents (créé dans /admin) : ouvre l'Espace parents d'un appareil. Le code resservira (il n'est pas effacé). */
+/**
+ * Lien parents (créé dans /admin) : ouvre l'Espace parents, sur l'appareil de l'élève ou sur celui d'un parent.
+ * Il est relié à des codes d'invitation (`invites`, ou « tous ») : le parent voit les appareils qui ont activé l'IA
+ * avec ces codes et peut la bloquer ou la réactiver sur chacun. Le code resservira (il n'est pas effacé).
+ */
 async function parents(request, env) {
-  const { code = "" } = await request.json().catch(() => ({}));
+  const { code = "", action = "", repere = "", bloque = false } = await request.json().catch(() => ({}));
   const c = canonique(code, "PAR");
   const p = PARENTS.test(c) ? await env.CODES.get(`parent:${c}`, "json") : null;
   if (!p) return json({ error: "Lien parents inconnu ou retiré." }, 403);
+  const tous = !Array.isArray(p.invites); // lien créé avant le 22/10/2026 : tous les appareils
+  const relies = (await contenu(env, "pass:")).filter((x) => tous || p.invites.includes(x.code));
+  if (action === "appareils") {
+    // Prénoms des élèves de chaque appareil (journal), quand l'appareil est connu
+    const ids = relies.map((x) => x.appareil).filter(Boolean);
+    const dans = `(${ids.map(() => "?").join(",")})`;
+    const [eleves, visites] = ids.length ? await Promise.all([
+      env.DB.prepare(`SELECT appareil, prenom, avatar FROM eleves WHERE appareil IN ${dans}`).bind(...ids).all().then((r) => r.results),
+      env.DB.prepare(`SELECT appareil, plateforme, MAX(jour) AS dernier FROM visites WHERE appareil IN ${dans} GROUP BY appareil`).bind(...ids).all().then((r) => r.results),
+    ]) : [[], []];
+    return json({
+      nom: p.nom,
+      appareils: relies.map((x) => ({
+        repere: x.cle.slice(5, 13), code: x.nom, active: x.utilise, bloque: !!x.bloque,
+        plateforme: visites.find((v) => v.appareil === x.appareil)?.plateforme ?? "",
+        dernier: visites.find((v) => v.appareil === x.appareil)?.dernier ?? "",
+        eleves: eleves.filter((e) => e.appareil === x.appareil).map((e) => `${e.avatar ?? ""} ${e.prenom}`.trim()),
+      })),
+    });
+  }
+  if (action === "ia") {
+    const x = relies.find((x) => /^[0-9a-f]{8}$/.test(repere) && x.cle.startsWith(`pass:${repere}`));
+    if (!x) return json({ error: "Appareil introuvable." }, 404);
+    const { cle, ...valeur } = x;
+    await env.CODES.put(cle, JSON.stringify({ ...valeur, bloque: !!bloque, change: maintenant() }));
+    return json({ ok: true, bloque: !!bloque });
+  }
   return json({ ok: true, nom: p.nom });
 }
 
@@ -151,7 +183,7 @@ function egal(a, b) {
 async function admin(request, env) {
   if (!env.ADMIN_KEY) return json({ error: "Clé d'administration pas encore créée" }, 503);
   if (!egal(request.headers.get("x-admin") ?? "", env.ADMIN_KEY)) return json({ error: "Clé d'administration incorrecte" }, 403);
-  const { action, nom = "", cle = "", appareil = "", eleve = "" } = await request.json().catch(() => ({}));
+  const { action, nom = "", cle = "", appareil = "", eleve = "", invites = null } = await request.json().catch(() => ({}));
   const n = String(nom).trim().slice(0, 60);
   if (action === "nouveau") {
     if (!n) return json({ error: "Indique pour qui est le code" }, 400);
@@ -162,7 +194,9 @@ async function admin(request, env) {
   if (action === "lien-parents") {
     if (!n) return json({ error: "Indique pour qui est le lien" }, 400);
     const code = nouveauCode("PAR");
-    await env.CODES.put(`parent:${code}`, JSON.stringify({ nom: n, cree: maintenant().slice(0, 10) }));
+    // invites : codes d'invitation reliés (null = tous les appareils)
+    const relies = Array.isArray(invites) ? invites.map(String).filter((i) => INVITE.test(i)).slice(0, 20) : null;
+    await env.CODES.put(`parent:${code}`, JSON.stringify({ nom: n, cree: maintenant().slice(0, 10), ...(relies ? { invites: relies } : {}) }));
     return json({ code });
   }
   // Les laissez-passer eux-mêmes ne quittent jamais le serveur : on les désigne par un repère (8 premiers caractères)
@@ -206,6 +240,8 @@ async function gemini(request, env, url, ctx) {
   if (!env.GEMINI_KEY) return json({ error: { message: "L'IA n'est pas encore configurée." } }, 503);
   const inv = await invite(request, env);
   if (!inv) return json({ error: { code: 403, message: "Accès à l'IA retiré. Demande un nouveau code à tes parents." } }, 403);
+  // Bloquée par un parent (Espace parents) : le laissez-passer est gardé, l'IA reprendra quand elle sera réactivée
+  if (inv.bloque) return json({ error: { code: 423, message: "L'IA est en pause sur cet appareil : tes parents l'ont bloquée." } }, 423);
   const chemin = url.pathname.slice("/api/gemini/".length);
   const base = "https://generativelanguage.googleapis.com/v1beta/";
   if (request.method === "GET" && chemin === "models") {

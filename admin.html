@@ -20,7 +20,8 @@
     h1 { font-size: 26px; margin: 8px 4px 12px; display: flex; justify-content: space-between; align-items: center; }
     h2 { font-size: 14px; text-transform: uppercase; color: var(--doux); margin: 22px 4px 8px; font-weight: 600; }
     .carte { background: var(--carte); border-radius: 14px; padding: 14px; margin-bottom: 10px; }
-    input { font: inherit; color: var(--texte); background: var(--fond); border: 1px solid var(--bord); border-radius: 10px; padding: 11px; width: 100%; box-sizing: border-box; }
+    input, select { font: inherit; color: var(--texte); background: var(--fond); border: 1px solid var(--bord); border-radius: 10px; padding: 11px; width: 100%; box-sizing: border-box; }
+    select { margin-top: 8px; }
     button { font: inherit; font-weight: 600; border: 0; border-radius: 10px; padding: 11px 14px; background: var(--accent); color: #fff; cursor: pointer; }
     button.clair { background: var(--carte); color: var(--accent); } button.danger { background: none; color: var(--rouge); padding: 6px 8px; }
     button.petit { padding: 6px 10px; font-size: 14px; }
@@ -245,14 +246,16 @@ async function codes() {
   const resultatP = h("div", "");
   const nomP = h("input", ""); nomP.placeholder = "Pour qui ? (ex. : Papa, Maman)"; nomP.autocomplete = "off";
   const creerP = h("button", "", "Créer un lien parents");
+  // Codes d'invitation reliés au lien parents : le parent pourra bloquer l'IA des appareils activés avec eux
+  const relie = h("select", "");
   creerP.onclick = async () => {
     const n = nomP.value.trim();
     if (!n) { nomP.focus(); return; }
     resultatP.replaceChildren(vide("Création…"));
     try {
-      const { code } = await appel("lien-parents", { nom: n });
+      const { code } = await appel("lien-parents", { nom: n, invites: relie.value ? [relie.value] : null });
       const lien = `${SITE}/p/${code.slice(4).replace("-", "")}`;
-      const texte = `Lien parents de Revizz : ouvre-le sur l'appareil de l'élève pour voir l'historique de ses connexions : ${lien}\nGarde-le pour toi (il resservira). Code : ${code}`;
+      const texte = `Lien parents de Revizz : il permet de bloquer ou réactiver l'IA des appareils de tes enfants (depuis n'importe quel appareil) et, ouvert sur l'appareil d'un enfant, de voir l'historique de ses connexions : ${lien}\nGarde-le pour toi (il resservira). Code : ${code}`;
       const envoyer = h("button", "", "Envoyer…"), copier = h("button", "clair", "Copier le lien");
       envoyer.onclick = () => navigator.share ? navigator.share({ text: texte }).catch(() => {}) : navigator.clipboard.writeText(texte).then(() => (envoyer.textContent = "Message copié ✓"));
       copier.onclick = () => navigator.clipboard.writeText(lien).then(() => (copier.textContent = "Lien copié ✓"));
@@ -271,9 +274,15 @@ async function codes() {
     return b;
   };
   const listes = h("div", "", vide("Chargement…"));
-  const remplir = () => appel("codes").then(({ invitations, passes, parents = [] }) => listes.replaceChildren(
+  const remplir = () => appel("codes").then(({ invitations, passes, parents = [] }) => {
+    const choisi = relie.value;
+    relie.replaceChildren(h("option", "", "Relié à : tous les appareils"),
+      ...invitations.map((i) => { const o = h("option", "", `Relié au code « ${i.nom} » (${i.cle.slice(7)})`); o.value = i.cle.slice(7); return o; }));
+    relie.firstChild.value = "";
+    relie.value = choisi;
+    listes.replaceChildren(
     titre("Appareils qui ont l'IA"),
-    liste(passes, (p) => ligne([h("div", "", p.nom), h("div", "petit", `code ${p.code} utilisé le ${le(p.utilise)}`)], retirer(p.nom, p.repere)), "Aucun appareil"),
+    liste(passes, (p) => ligne([h("div", "", `${p.bloque ? "⏸️ " : ""}${p.nom}`), h("div", "petit", `code ${p.code} utilisé le ${le(p.utilise)}${p.bloque ? " · IA bloquée par un parent" : ""}`)], retirer(p.nom, p.repere)), "Aucun appareil"),
     titre("Codes d'invitation"),
     liste(invitations, (i) => {
       const n = passes.filter((p) => p.code === i.cle.slice(7)).length;
@@ -281,10 +290,11 @@ async function codes() {
     }, "Aucun"),
     h("p", "petit", "Un code peut servir sur plusieurs appareils, tant que vous ne l'avez pas retiré (un même appareil sert à tous les élèves qui ont un profil dessus). « Retirer » un code le désactive et coupe aussitôt l'IA sur tous les appareils qui l'ont utilisé ; « Retirer » un appareil ne coupe que lui."),
     titre("Liens parents"),
-    carte(nomP, h("div", "btns", creerP), resultatP),
-    liste(parents, (p) => ligne([h("div", "", p.nom), h("div", "petit coupe", `${SITE}/p/${p.cle.slice(11).replace("-", "")} · créé le ${jourCourt(p.cree)}`)], retirerP(p.nom, p.cle.slice(7))), "Aucun lien parents"),
-    h("p", "petit", "Le lien parents ouvre l'Espace parents (historique des connexions) sur l'appareil où on l'ouvre, sans code à taper. Il resservira : gardez-le pour vous. « Retirer » le désactive."),
-  )).catch((e) => listes.replaceChildren(vide(e.message)));
+    carte(nomP, relie, h("div", "btns", creerP), resultatP),
+    liste(parents, (p) => ligne([h("div", "", p.nom), h("div", "petit coupe", `${SITE}/p/${p.cle.slice(11).replace("-", "")} · ${p.invites ? `relié à ${p.invites.map((c) => invitations.find((i) => i.cle === `invite:${c}`)?.nom ?? c).join(", ")}` : "tous les appareils"} · créé le ${jourCourt(p.cree)}`)], retirerP(p.nom, p.cle.slice(7))), "Aucun lien parents"),
+    h("p", "petit", "Le lien parents ouvre l'Espace parents sans code à taper, sur n'importe quel appareil : le parent y bloque ou réactive l'IA des appareils activés avec le code relié. Ouvert sur l'appareil d'un enfant, il montre aussi l'historique de ses connexions. Il resservira : gardez-le pour vous. « Retirer » le désactive."),
+  );
+  }).catch((e) => listes.replaceChildren(vide(e.message)));
   remplir();
   const sortir = h("button", "clair", "Oublier la clé d'administration sur cet appareil");
   sortir.onclick = () => { localStorage.removeItem("revizz.admin"); afficher(); };

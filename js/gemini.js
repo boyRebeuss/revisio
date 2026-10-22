@@ -25,6 +25,9 @@ const refus = () => reglages.cleGemini()
   : "L'IA ne répond pas pour le moment. Réessaie plus tard ou préviens tes parents.";
 
 // Laissez-passer refusé par le relais (accès retiré par les parents) : il est oublié
+// IA mise en pause par un parent (Espace parents) : le laissez-passer est gardé
+const PAUSE = "L'IA est en pause sur cet appareil : tes parents l'ont bloquée.";
+
 function accesRetire(r) {
   if (reglages.cleGemini() || r.status !== 403) return false;
   reglages.setAcces(null);
@@ -58,6 +61,7 @@ async function modeles() {
   const a = acces("models?pageSize=200", "modeles");
   const r = await fetch(a.url, { headers: a.headers });
   if (accesRetire(r)) throw new Error("L'accès à l'IA a été retiré sur cet appareil. Demande un nouveau code à tes parents.");
+  if (r.status === 423) throw new Error(PAUSE);
   if (!r.ok) throw new Error(r.status === 400 || r.status === 403 ? refus() : `Gemini indisponible (${r.status}).`);
   const data = await r.json();
   const version = (n) => parseFloat((n.match(/gemini-(\d+(?:\.\d+)?)/) || [])[1] || 0);
@@ -97,6 +101,7 @@ async function appeler({ systeme, texte, json, temperature = 0.7, usage }) {
       throw new Error("Pas de connexion Internet.");
     }
     if (accesRetire(r)) throw new Error("L'accès à l'IA a été retiré sur cet appareil. Demande un nouveau code à tes parents.");
+    if (r.status === 423) throw new Error(PAUSE);
     if (r.status === 429) {
       const t = await r.text();
       if (/PerDay/i.test(t)) marquerEpuise(modele);
