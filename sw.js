@@ -1,10 +1,10 @@
 // Cache d'abord : l'appli reste dans la version installée jusqu'à ce que l'élève accepte
 // la mise à jour (bandeau « Nouvelle version »). VERSION est écrit par tools/version.sh.
-const VERSION = "931cdf3b";
+const VERSION = "c99bd94f";
 const CACHE = "revisio-" + VERSION;
 const SOCLE = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
-  "js/app.js", "js/dom.js", "js/invitation.js", "js/journal.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js", "js/correcteur.js", "js/version.js",
+  "js/demenagement.js", "js/app.js", "js/dom.js", "js/invitation.js", "js/journal.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js", "js/correcteur.js", "js/version.js",
   "content/catalogue.js", "icons/icon.svg", "icons/icon-192.png",
 ];
 
@@ -26,6 +26,9 @@ self.addEventListener("install", (e) => {
     await Promise.allSettled([...deja].map(async (u) => c.put(u, await telecharger(u))));
     // Passage depuis l'ancien fonctionnement (revisio-v6, sans bandeau) : installation directe
     if (await caches.has("revisio-v6")) await self.skipWaiting();
+    // Ancienne adresse GitHub Pages : installation directe, pour que le renvoi vers Cloudflare (js/demenagement.js)
+    // s'applique au prochain lancement sans attendre « Mettre à jour »
+    if (/(^|\.)github\.io$/.test(self.location.hostname)) await self.skipWaiting();
   })());
 });
 

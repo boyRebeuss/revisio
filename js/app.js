@@ -92,12 +92,24 @@ function carteCode({ apres, refusable = false }) {
 
 // ---------- Profils ----------
 
+// Arrivée depuis l'ancienne adresse GitHub Pages (js/demenagement.js) : message affiché le temps de la visite
+const DEMENAGE = "revisio.demenage";
+if (new URLSearchParams(location.search).has("demenage")) {
+  sessionStorage.setItem(DEMENAGE, "1");
+  history.replaceState(null, "", location.pathname + location.hash);
+}
+
 function vueProfils() {
   const liste = S.profils();
   const actif = S.profilActif();
   page(
     entete({ titre: "Qui révise ?", retour: actif ? "#/" : null }),
     h("main", {},
+      sessionStorage.getItem(DEMENAGE) && !liste.length ? h("section", { class: "carte" },
+        h("h2", {}, "📦 Revizz a une nouvelle adresse"),
+        h("p", {}, "Bienvenue sur revizz.kaurio-app.workers.dev ! Ta progression ne suit pas le changement d'adresse : recrée ton profil ci-dessous, tu retrouves tous les cours et exercices."),
+        h("p", { class: "petit" }, "Si Revizz était sur ton écran d'accueil, ajoute-le à nouveau depuis cette page (iPhone : Partager puis « Sur l'écran d'accueil » ; Android : menu ⋮ puis « Ajouter à l'écran d'accueil »), puis supprime l'ancienne icône.")
+      ) : null,
       liste.length ? h("div", { class: "profils" },
         liste.map((p) =>
           h("button", { class: "profil", onclick: () => { S.choisirProfil(p.id); aller("#/"); } },
