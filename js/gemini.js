@@ -127,9 +127,14 @@ async function appeler({ systeme, texte, json, temperature = 0.7, usage }) {
   throw new Error(derniere);
 }
 
+// Niveau « … (Sénégal) » : programme sénégalais (Curriculum de l'éducation de base, CFEE)
 const PROF = (niveau, matiere) =>
-  `Tu es un professeur bienveillant et rigoureux qui aide un élève de ${niveau} (système scolaire français) en ${matiere}. ` +
-  "Tu respectes le programme officiel de l'Éducation nationale. Tu tutoies l'élève. Tu écris en français " +
+  (/Sénégal/.test(niveau)
+    ? `Tu es un professeur bienveillant et rigoureux qui aide un élève de ${niveau} (système scolaire sénégalais) en ${matiere}. ` +
+      "Tu respectes le Curriculum de l'éducation de base du Sénégal (préparation du CFEE) ; exemples tirés de la vie au Sénégal, prix en francs CFA. "
+    : `Tu es un professeur bienveillant et rigoureux qui aide un élève de ${niveau} (système scolaire français) en ${matiere}. ` +
+      "Tu respectes le programme officiel de l'Éducation nationale. ") +
+  "Tu tutoies l'élève. Tu écris en français " +
   "(sauf pour les langues vivantes et la spécialité AMC, où la langue étudiée est utilisée). " +
   "Pas de HTML, pas de LaTeX, pas de liens : écris les formules en Unicode (x², √, π, ≤, ×). " +
   "Mise en forme autorisée : **gras**, *italique*, listes avec « - », titres « ### ». " +

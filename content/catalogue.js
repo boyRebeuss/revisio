@@ -67,6 +67,16 @@ export const NIVEAUX = {
       { id: "grec", nom: "Grec ancien (LCA)", icone: "🏛️", couleur: "#8a6d3b" },
     ],
   },
+  "cm2-sn": {
+    nom: "CM2 (SN)",
+    long: "CM2 (Sénégal)",
+    matieres: [
+      { id: "francais", nom: "Langue et communication", icone: "📖", couleur: "#e2574c" },
+      { id: "maths", nom: "Mathématiques", icone: "📐", couleur: "#3b7dd8" },
+      { id: "decouverte-monde", nom: "Découverte du monde", icone: "🌍", couleur: "#c98a1b" },
+      { id: "edd", nom: "Éducation au développement durable", icone: "🌱", couleur: "#3f9b3f" },
+    ],
+  },
 };
 
 export function matiere(niveau, id) {
