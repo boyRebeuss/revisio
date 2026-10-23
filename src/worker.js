@@ -6,6 +6,8 @@ const INVITE = /^RVZ-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
 const PARENTS = /^PAR-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
 const PASS = /^[0-9a-f]{32}$/;
 const APPAREIL = /^[0-9a-f]{16}$/;
+const EXERCICE = /^[a-z0-9-]{1,10}\/[a-z0-9-]{1,40}\/[a-z0-9-]{1,80}#\d{1,4}$/;
+const MOTIFS = ["question", "correction", "refusee", "pas-clair", "autre"];
 
 const json = (obj, status = 200) =>
   new Response(JSON.stringify(obj), { status, headers: { "Content-Type": "application/json", "Cache-Control": "no-store" } });
@@ -93,6 +95,7 @@ async function parents(request, env) {
 /**
  * Journal envoyé par le site (js/journal.js). Pour tous : une visite par jour et par appareil, erreurs affichées.
  * Pour les appareils invités seulement : progression et séances de chaque élève (jamais les réponses écrites).
+ * Pour tous : résultats par exercice (sans rien qui désigne l'élève) et erreurs d'exercices signalées par l'élève.
  */
 async function journal(request, env) {
   const e = await request.json().catch(() => null);
@@ -105,6 +108,18 @@ async function journal(request, env) {
   } else if (e.genre === "erreur") {
     await env.DB.prepare("INSERT INTO erreurs (le, qui, appareil, plateforme, version, genre, message, ecran, geo) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)")
       .bind(maintenant(), qui, appareil, plateforme, coupe(e.version, 20), coupe(e.type, 20), coupe(e.message, 400), coupe(e.ecran, 60), geo).run();
+  } else if (e.genre === "resultats") {
+    const jour = maintenant().slice(0, 10), borne = (v) => Math.min(50, Math.max(0, Math.trunc(v) || 0));
+    const lignes = Object.entries(e.resultats ?? {}).slice(0, 300).filter(([k, t]) => EXERCICE.test(k) && Array.isArray(t))
+      .map(([k, [essais, echecs, contestes]]) => env.DB.prepare(`INSERT INTO resultats (jour, exercice, essais, echecs, contestes) VALUES (?, ?, ?, ?, ?)
+        ON CONFLICT (jour, exercice) DO UPDATE SET essais = essais + excluded.essais, echecs = echecs + excluded.echecs, contestes = contestes + excluded.contestes`)
+        .bind(jour, k, borne(essais), borne(echecs), borne(contestes)));
+    if (lignes.length) await env.DB.batch(lignes);
+  } else if (e.genre === "signalement") {
+    if (!EXERCICE.test(e.exercice ?? "") || !MOTIFS.includes(e.motif)) return json({ error: "demande invalide" }, 400);
+    await env.DB.prepare(`INSERT INTO signalements (le, qui, appareil, version, geo, exercice, question, motif, commentaire, reponse)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`).bind(maintenant(), qui, appareil, coupe(e.version, 20), geo, e.exercice,
+      coupe(e.question, 300), e.motif, coupe(e.commentaire, 300), coupe(e.reponse, 200)).run();
   } else if (e.genre === "eleves") {
     if (!inv) return json({ error: "réservé aux appareils invités" }, 403);
     const eleves = Array.isArray(e.eleves) ? e.eleves.slice(0, 12) : [];
@@ -137,9 +152,11 @@ async function tableau(env) {
     env.DB.prepare("DELETE FROM appels_ia WHERE le < ?").bind(depuis(180)),
     env.DB.prepare("DELETE FROM visites WHERE jour < ?").bind(depuis(365).slice(0, 10)),
     env.DB.prepare("DELETE FROM seances WHERE debut < ?").bind(Date.now() - 365 * 86400_000),
+    env.DB.prepare("DELETE FROM resultats WHERE jour < ?").bind(depuis(365).slice(0, 10)),
+    env.DB.prepare("DELETE FROM signalements WHERE traite IS NOT NULL AND traite < ?").bind(depuis(180)),
   ]);
   const q = (sql, ...args) => env.DB.prepare(sql).bind(...args).all().then((r) => r.results);
-  const [jours, appareils, ia, iaJours, erreurs] = await Promise.all([
+  const [jours, appareils, ia, iaJours, erreurs, signales] = await Promise.all([
     q("SELECT jour, COUNT(*) AS appareils FROM visites WHERE jour >= ? GROUP BY jour ORDER BY jour", depuis(13).slice(0, 10)),
     q(`SELECT CASE WHEN qui <> '' THEN qui ELSE 'Sans code · ' || substr(appareil, 1, 4) END AS nom, MAX(jour) AS dernier,
        COUNT(*) AS jours, plateforme, geo FROM visites GROUP BY nom ORDER BY dernier DESC LIMIT 200`),
@@ -148,8 +165,9 @@ async function tableau(env) {
        GROUP BY qui, eleve ORDER BY appels DESC`, depuis(30)),
     q("SELECT substr(le, 1, 10) AS jour, COUNT(*) AS appels FROM appels_ia WHERE le >= ? GROUP BY jour ORDER BY jour", depuis(13)),
     q("SELECT COUNT(*) AS n FROM erreurs WHERE le >= ?", depuis(7)),
+    q("SELECT COUNT(*) AS n FROM signalements WHERE traite IS NULL"),
   ]);
-  return { jours, appareils, ia, iaJours, erreurs7: erreurs[0].n };
+  return { jours, appareils, ia, iaJours, erreurs7: erreurs[0].n, signalements: signales[0].n };
 }
 
 /** Élèves des appareils invités : progression et séances des 60 derniers jours. */
@@ -185,7 +203,7 @@ function egal(a, b) {
 async function admin(request, env) {
   if (!env.ADMIN_KEY) return json({ error: "Clé d'administration pas encore créée" }, 503);
   if (!egal(request.headers.get("x-admin") ?? "", env.ADMIN_KEY)) return json({ error: "Clé d'administration incorrecte" }, 403);
-  const { action, nom = "", cle = "", appareil = "", eleve = "", invites = null } = await request.json().catch(() => ({}));
+  const { action, nom = "", cle = "", appareil = "", eleve = "", invites = null, id = 0, traite = true } = await request.json().catch(() => ({}));
   const n = String(nom).trim().slice(0, 60);
   if (action === "nouveau") {
     if (!n) return json({ error: "Indique pour qui est le code" }, 400);
@@ -234,6 +252,21 @@ async function admin(request, env) {
     return json({ ok: true });
   }
   if (action === "erreurs") return json((await env.DB.prepare("SELECT * FROM erreurs ORDER BY id DESC LIMIT 300").all()).results);
+  if (action === "publications") return json((await env.DB.prepare("SELECT * FROM publications ORDER BY id DESC LIMIT 20").all()).results);
+  // Retours sur les exercices : signalements (à traiter, et traités depuis 30 jours) et résultats des 90 derniers jours
+  if (action === "exercices") {
+    const q = (sql, ...args) => env.DB.prepare(sql).bind(...args).all().then((r) => r.results);
+    const [signalements, resultats] = await Promise.all([
+      q("SELECT * FROM signalements WHERE traite IS NULL OR traite >= ? ORDER BY id DESC LIMIT 300", depuis(30)),
+      q(`SELECT exercice, SUM(essais) AS essais, SUM(echecs) AS echecs, SUM(contestes) AS contestes FROM resultats
+         WHERE jour >= ? GROUP BY exercice ORDER BY essais DESC LIMIT 5000`, depuis(90).slice(0, 10)),
+    ]);
+    return json({ signalements, resultats });
+  }
+  if (action === "traite") {
+    await env.DB.prepare("UPDATE signalements SET traite = ? WHERE id = ?").bind(traite ? maintenant() : null, Math.trunc(Number(id)) || 0).run();
+    return json({ ok: true });
+  }
   if (action === "gemini") {
     const t0 = Date.now();
     const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models?pageSize=5", { headers: { "x-goog-api-key": env.GEMINI_KEY ?? "" } }).catch(() => null);

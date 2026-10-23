@@ -165,6 +165,19 @@ th { background: color-mix(in srgb, var(--c) 10%, transparent); }
 .exo-etat { margin-left: auto; }
 .deja-ok .exo-etat { color: var(--vert); }
 .deja-ko .exo-etat { color: var(--rouge); }
+/* Signaler une erreur dans un exercice (drapeau discret en tête, lien après la correction) */
+.drapeau { margin-left: auto; background: none; border: 0; padding: 2px 4px; font-size: 0.95rem; cursor: pointer; opacity: 0.45; }
+.drapeau:hover, .drapeau:focus-visible { opacity: 1; }
+.exo-etat + .drapeau { margin-left: 0; }
+.fin-exo { display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: center; }
+.btn.lien.doux { color: var(--doux); font-size: 0.9rem; }
+.signalement { margin-top: 14px; padding: 12px 14px; background: var(--fond); border-radius: 10px; }
+.signalement h4 { margin: 0 0 10px; }
+.signalement .choix { background: var(--carte); }
+.signalement .champ { margin-top: 10px; min-height: 60px; background: var(--carte); }
+.joindre { display: block; margin-top: 8px; font-size: 0.9rem; }
+.joindre[hidden] { display: none; }
+.merci { margin: 0; font-weight: 600; color: var(--vert); }
 .exo-question { font-weight: 600; }
 .exo-question p { margin: 8px 0; }
 .choix-liste { display: grid; gap: 8px; }

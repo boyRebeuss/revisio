@@ -1,6 +1,8 @@
 // Journal lu par les parents dans la page /admin (site Cloudflare seulement).
 // Pour tous les appareils : une visite par jour et les erreurs affichées, sous un identifiant anonyme tiré au hasard.
 // Pour les appareils invités (code d'invitation) : progression et séances de révision de chaque élève.
+// Pour tous, sans rien qui désigne l'élève : réussites et échecs par exercice (premier essai), « Ma réponse était juste »,
+// et les signalements d'erreur envoyés par l'élève (avec sa réponse seulement s'il choisit de la joindre).
 // Jamais les réponses écrites par l'élève ni les questions posées à l'IA.
 import * as S from "./store.js";
 import { relais } from "./invitation.js";
@@ -63,6 +65,52 @@ function resume(prog) {
   return r;
 }
 
+// Résultats par exercice (« niveau/matière/chapitre#n ») : [essais, échecs, contestations], envoyés par lots
+const RESULTATS = "revisio.resultats";
+const lireResultats = () => { try { return JSON.parse(localStorage.getItem(RESULTATS) || "{}"); } catch { return {}; } };
+
+function compter(ref, i) {
+  if (!relais || !/^[a-z0-9-]+\/[a-z0-9-]+\/[a-z0-9-]+#\d+$/.test(ref ?? "")) return;
+  const r = lireResultats(), t = r[ref] ?? [0, 0, 0];
+  t[i] = Math.min(t[i] + 1, 50);
+  r[ref] = t;
+  localStorage.setItem(RESULTATS, JSON.stringify(r));
+  if (!attenteR) attenteR = setTimeout(envoyerResultats, 60_000);
+}
+export const noterResultat = (ref, ok) => { compter(ref, 0); if (!ok) compter(ref, 1); };
+export const noterContestation = (ref) => compter(ref, 2);
+
+let attenteR = null;
+function envoyerResultats() {
+  clearTimeout(attenteR);
+  attenteR = null;
+  const r = lireResultats();
+  if (!relais || !navigator.onLine || !Object.keys(r).length) return;
+  // Retiré tout de suite (un exercice fait pendant l'envoi repart dans le lot suivant) ; remis si l'envoi échoue
+  localStorage.removeItem(RESULTATS);
+  envoyer("resultats", { resultats: r }).then((x) => { if (!x.ok) throw 0; }).catch(() => {
+    const n = lireResultats();
+    for (const [k, t] of Object.entries(r)) n[k] = (n[k] ?? [0, 0, 0]).map((v, i) => Math.min(v + t[i], 50));
+    localStorage.setItem(RESULTATS, JSON.stringify(n));
+  });
+}
+
+/** Le signalement d'une erreur dans un exercice n'est possible que sur le site Cloudflare (relais). */
+export const signalementPossible = () => !!relais;
+
+/** Signalement envoyé par l'élève (10 au plus par jour depuis cet appareil). */
+export async function signalerExercice({ ref, question, motif, commentaire, reponse }) {
+  if (!navigator.onLine) throw new Error("Pas de connexion internet : réessaie plus tard.");
+  const jour = new Date().toISOString().slice(0, 10);
+  let n = {};
+  try { n = JSON.parse(localStorage.getItem("revisio.signalements") || "{}"); } catch {}
+  if (n.jour !== jour) n = { jour, n: 0 };
+  if (n.n >= 10) throw new Error("Tu as déjà envoyé beaucoup de signalements aujourd'hui : merci, réessaie demain.");
+  const r = await envoyer("signalement", { exercice: ref, question, motif, commentaire, reponse, ecran: ecran() }).catch(() => null);
+  if (!r?.ok) throw new Error("L'envoi n'a pas marché : réessaie dans un moment.");
+  localStorage.setItem("revisio.signalements", JSON.stringify({ jour, n: n.n + 1 }));
+}
+
 let attente = null;
 
 function envoyerEleves() {
@@ -86,12 +134,13 @@ export function demarrer() {
     envoyer("visite", {}).then((r) => r.ok && localStorage.setItem("revisio.visite", jour)).catch(() => {});
   }
   envoyerEleves();
+  envoyerResultats();
   // Après un exercice : envoi groupé une minute plus tard (ou dès que l'appli passe en arrière-plan)
   addEventListener("revisio-progression", () => {
     if (S.reglages.acces() && !attente) attente = setTimeout(envoyerEleves, 60_000);
   });
   document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "hidden") envoyerEleves();
+    if (document.visibilityState === "hidden") { envoyerEleves(); envoyerResultats(); }
   });
   addEventListener("error", (e) => signaler("plantage", `${e.message} (${(e.filename || "").split("/").pop()}:${e.lineno})`));
   addEventListener("unhandledrejection", (e) => signaler("plantage", e.reason?.message ?? String(e.reason)));

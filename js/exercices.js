@@ -3,6 +3,7 @@ import { h, remplacer } from "./dom.js";
 import { bloc, inline } from "./md.js";
 import * as IA from "./gemini.js";
 import { reponseJuste } from "./correcteur.js";
+import * as J from "./journal.js";
 
 export { normaliser, reponseJuste } from "./correcteur.js";
 
@@ -38,13 +39,22 @@ const LIBELLES = { qcm: "QCM", vf: "Vrai ou faux", saisie: "Réponse courte", re
 // ctx : { niveau, matiere } pour la correction par l'IA.
 // precedent : { ok } si l'exercice a déjà été fait.
 // support : texte commun à une série d'exercices (champ `texte`), ouvert ou replié.
-export function carteExercice(e, numero, { ctx, precedent, onResultat, support, supportOuvert = false }) {
+// ref : « niveau/matière/chapitre#n » pour les exercices du contenu (pas ceux de l'IA) : résultats et signalements.
+export function carteExercice(e, numero, { ctx, precedent, onResultat, support, supportOuvert = false, ref }) {
   const retour = h("div", { class: "retour", "aria-live": "polite" });
+  const signal = h("div", { class: "signal" });
+  const peutSignaler = ref && J.signalementPossible();
+  let derniereSaisie = "";
+  const ouvrirSignalement = () => {
+    if (!signal.firstChild) signal.append(formulaireSignalement(e, ref, () => derniereSaisie, () => signal.replaceChildren()));
+    signal.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  };
   const carte = h("article", { class: "exo" + (precedent ? (precedent.ok ? " deja-ok" : " deja-ko") : "") },
     h("div", { class: "exo-tete" },
       h("span", { class: "exo-num" }, `Exercice ${numero}`),
       h("span", { class: "exo-type" }, LIBELLES[e.type] || ""),
-      precedent ? h("span", { class: "exo-etat" }, precedent.ok ? "✓ réussi" : "✗ à revoir") : null
+      precedent ? h("span", { class: "exo-etat" }, precedent.ok ? "✓ réussi" : "✗ à revoir") : null,
+      peutSignaler ? h("button", { class: "drapeau", title: "Signaler une erreur dans cet exercice", "aria-label": "Signaler une erreur dans cet exercice", onclick: ouvrirSignalement }, "🚩") : null
     ),
     support ? h("details", { class: "support", open: supportOuvert },
       h("summary", {}, supportOuvert ? "📄 Le texte" : "📄 Relire le texte"),
@@ -53,17 +63,22 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat, support, 
     h("div", { class: "exo-question", html: bloc(e.question) })
   );
 
-  let fini = false;
+  let fini = false, premierEssai = true;
   const terminer = (ok, detail) => {
     if (fini) return;
     fini = true;
+    // Seul le premier essai de chaque affichage compte dans les statistiques (pas « Refaire » après avoir vu la réponse)
+    if (premierEssai && ref) J.noterResultat(ref, ok);
+    premierEssai = false;
     carte.classList.remove("deja-ok", "deja-ko");
     carte.classList.add(ok ? "ok" : "ko");
     remplacer(retour,
       h("div", { class: "verdict" }, ok ? "✅ Bravo !" : "❌ Pas tout à fait."),
       detail || null,
       e.explication ? h("div", { class: "explication", html: bloc(e.explication) }) : null,
-      h("button", { class: "btn lien", onclick: recommencer }, "↺ Refaire")
+      h("div", { class: "fin-exo" },
+        h("button", { class: "btn lien", onclick: recommencer }, "↺ Refaire"),
+        peutSignaler ? h("button", { class: "btn lien doux", onclick: ouvrirSignalement }, "🚩 Signaler une erreur") : null)
     );
     onResultat?.(ok);
   };
@@ -104,6 +119,7 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat, support, 
       const valider = () => {
         if (fini || !champ.value.trim()) return;
         champ.disabled = true;
+        derniereSaisie = champ.value.trim();
         const ok = reponseJuste(champ.value, e.reponses, ctx?.langue || false, e.question);
         terminer(ok, ok ? null : h("p", { class: "attendu" },
           "Réponse attendue : ", h("strong", {}, e.reponses[0]),
@@ -114,6 +130,7 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat, support, 
               carte.classList.replace("ko", "ok");
               retour.querySelector(".verdict").textContent = "✅ D'accord, ta réponse est comptée juste.";
               ev.currentTarget.remove();
+              if (ref) J.noterContestation(ref);
               onResultat?.(true);
             },
           }, "Ma réponse était juste")
@@ -172,8 +189,61 @@ export function carteExercice(e, numero, { ctx, precedent, onResultat, support, 
   }
 
   construire();
-  carte.append(zone, retour);
+  carte.append(zone, retour, signal);
   return carte;
+}
+
+const MOTIFS = [
+  ["question", "La question contient une erreur"],
+  ["correction", "La correction ou l'explication est fausse"],
+  ["refusee", "Ma réponse était juste mais elle a été refusée"],
+  ["pas-clair", "Ce n'est pas clair"],
+  ["autre", "Autre chose"],
+];
+
+// Petit formulaire « Signaler une erreur » : motif, quelques mots, et la réponse tapée si l'élève choisit de la joindre
+function formulaireSignalement(e, ref, saisie, fermer) {
+  let motif = "";
+  const message = h("p", { class: "petit" });
+  const mot = h("textarea", { class: "champ", rows: 2, maxlength: 300, placeholder: "Explique en quelques mots (facultatif). N'écris pas ton nom." });
+  const joindre = h("label", { class: "joindre", hidden: true }, h("input", { type: "checkbox", checked: true }), h("span", {}));
+  const motifs = MOTIFS.filter(([m]) => m !== "refusee" || e.type === "saisie").map(([m, lib]) =>
+    h("button", {
+      type: "button", class: "choix",
+      onclick: (ev) => {
+        motif = m;
+        motifs.forEach((b) => b.classList.toggle("bon", b === ev.currentTarget));
+        const s = saisie();
+        joindre.hidden = !(m === "refusee" && s);
+        joindre.querySelector("span").textContent = ` Joindre ma réponse : « ${s} »`;
+      },
+    }, lib));
+  const envoyer = h("button", {
+    class: "btn plein",
+    onclick: async () => {
+      if (!motif) { message.textContent = "Choisis d'abord ce qui ne va pas."; return; }
+      envoyer.disabled = true;
+      message.textContent = "Envoi…";
+      try {
+        await J.signalerExercice({
+          ref, motif, commentaire: mot.value.trim(),
+          question: e.question.replace(/\s+/g, " ").slice(0, 300),
+          reponse: !joindre.hidden && joindre.querySelector("input").checked ? saisie() : "",
+        });
+        boite.replaceChildren(h("p", { class: "merci" }, "Merci ! Ton signalement est transmis : l'exercice sera vérifié."));
+      } catch (err) {
+        envoyer.disabled = false;
+        message.textContent = err.message;
+      }
+    },
+  }, "Envoyer");
+  const boite = h("div", { class: "signalement" },
+    h("h4", {}, "🚩 Qu'est-ce qui ne va pas ?"),
+    h("div", { class: "choix-liste" }, motifs),
+    mot, joindre, message,
+    h("div", { class: "actions" }, envoyer, h("button", { class: "btn", onclick: fermer }, "Annuler"))
+  );
+  return boite;
 }
 
 // Boutons qui insèrent une lettre accentuée là où se trouve le curseur

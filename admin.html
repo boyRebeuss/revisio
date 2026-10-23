@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <!-- Administration de Revizz, pour les parents (aussi depuis l'iPhone) : tableau de bord, progression des élèves,
-       codes d'invitation, erreurs. Réservée au détenteur de la clé d'administration (secret Cloudflare ADMIN_KEY). -->
+       retours sur les exercices (signalements, questions les plus ratées), codes d'invitation, erreurs et vérifications. Réservée au détenteur de la clé d'administration (secret Cloudflare ADMIN_KEY). -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#7048e8">
@@ -43,6 +43,9 @@
     summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 8px; } summary::-webkit-details-marker { display: none; }
     summary::before { content: "›"; color: var(--doux); margin-right: 6px; display: inline-block; transition: transform .15s; } details[open] summary::before { transform: rotate(90deg); }
     summary .titre { flex: 1; }
+    .carte > details:first-child { border-top: 0; padding-top: 0; }
+    .question { font-size: 14px; background: var(--fond); border-radius: 8px; padding: 6px 9px; margin: 6px 0; overflow-wrap: anywhere; }
+    .fait { opacity: .55; } pre { font-size: 11px; white-space: pre-wrap; overflow-wrap: anywhere; margin: 6px 0 0; }
     .chap { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; padding: 5px 0 5px 16px; }
     nav { position: fixed; left: 0; right: 0; bottom: 0; display: flex; justify-content: center; background: color-mix(in srgb, var(--carte) 92%, transparent);
       backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-top: 1px solid var(--bord); padding: 6px 4px calc(6px + env(safe-area-inset-bottom)); }
@@ -65,6 +68,7 @@
 <nav id="onglets" hidden>
   <button data-onglet="tableau"><b>📊</b>Tableau</button>
   <button data-onglet="eleves"><b>🧑‍🎓</b>Élèves</button>
+  <button data-onglet="exercices"><b>🚩</b>Exercices</button>
   <button data-onglet="codes"><b>🎟️</b>Codes</button>
   <button data-onglet="erreurs"><b>⚠️</b>Erreurs</button>
 </nav>
@@ -140,6 +144,7 @@ async function tableau() {
       stat(d.appareils.filter((p) => p.dernier >= jours[7].j).length, "appareils sur 7 jours"),
       stat(nb(appels), "demandes à l'IA (30 j)"),
       stat(d.erreurs7, "erreurs sur 7 jours", d.erreurs7 ? "att" : "ok")),
+    d.signalements ? h("div", "btns", h("button", "clair", `🚩 ${d.signalements} erreur${d.signalements > 1 ? "s" : ""} d'exercice signalée${d.signalements > 1 ? "s" : ""} à vérifier ›`)) : "",
     titre("Appareils par jour (14 jours)"), barres("n"),
     titre("Demandes à l'IA par jour (14 jours)"), barres("ia"),
     titre("IA par élève (30 jours)"),
@@ -155,6 +160,7 @@ async function tableau() {
       h("div", "petit", `${p.jours} jour${p.jours > 1 ? "s" : ""}`, h("br"), `vu le ${jourCourt(p.dernier)}`)), "Aucune visite pour l'instant"),
     h("div", "petit", "« Sans code » : appareil sans code d'invitation (pas d'IA, ou sa propre clé). Les noms viennent des codes d'invitation."));
   vue.querySelector("h1 button").onclick = () => ouvrir("tableau");
+  vue.querySelector(".btns button")?.addEventListener("click", () => ouvrir("exercices"));
 }
 
 // ---------- Élèves ----------
@@ -208,6 +214,57 @@ async function eleves() {
     ...(tous.length ? tous.map(fiche) : [carte(vide("Aucun élève pour l'instant. Les élèves apparaissent ici dès qu'ils utilisent Revizz sur un appareil activé avec un code d'invitation."))]),
     h("p", "petit", "Mis à jour par l'appli au plus une minute après chaque exercice et à chaque fermeture. « Réussis » : exercices réussis la dernière fois qu'ils ont été faits. Une séance se termine après 30 minutes sans activité."));
   vue.querySelector("h1 button").onclick = () => ouvrir("eleves");
+}
+
+// ---------- Exercices : erreurs signalées par les élèves, questions les plus ratées ----------
+
+const MOTIFS = { question: "La question contient une erreur", correction: "La correction ou l'explication est fausse",
+  refusee: "Réponse juste refusée", "pas-clair": "Pas clair", autre: "Autre chose" };
+// Fichiers de contenu du site, pour retrouver le chapitre et la question d'un exercice « niveau/matière/chapitre#n »
+const contenus = {};
+const chargerContenu = (niv, mat) => (contenus[`${niv}/${mat}`] ??= import(`./content/${niv}/${mat}.js`).then((m) => m.default).catch(() => null));
+const court = (md, n = 180) => { const t = String(md ?? "").replace(/[*_`#>|]/g, "").replace(/\s+/g, " ").trim(); return t.length > n ? `${t.slice(0, n)}…` : t; };
+async function decrire(ref) {
+  const [chemin, n] = ref.split("#"), [niv, mat, chap] = chemin.split("/");
+  const c = (await chargerContenu(niv, mat))?.chapitres.find((x) => x.id === chap);
+  const { nom, icone } = nomMatiere(niv, mat);
+  return { ou: `${icone} ${nom} (${NIVEAUX[niv]?.nom ?? niv}) · ${c?.titre ?? chap} · exercice ${+n + 1}`, question: c?.exercices[+n]?.question };
+}
+
+async function exercices() {
+  const { signalements, resultats } = await appel("exercices");
+  const refs = [...new Set([...signalements.map((s) => s.exercice), ...resultats.map((r) => r.exercice)])];
+  const desc = Object.fromEntries(await Promise.all(refs.map(async (r) => [r, await decrire(r)])));
+  const fiche = (s) => {
+    const b = h("button", "clair petit", s.traite ? "Remettre à vérifier" : "Vérifié ✓");
+    b.onclick = async () => { b.disabled = true; await appel("traite", { id: s.id, traite: !s.traite }).catch((e) => alert(e.message)); ouvrir("exercices"); };
+    return h("div", `ligne${s.traite ? " fait" : ""}`, h("div", "corps",
+      h("div", "petit", desc[s.exercice].ou),
+      h("div", "", h("b", "", MOTIFS[s.motif] ?? s.motif), s.commentaire ? ` : « ${s.commentaire} »` : ""),
+      s.reponse ? h("div", "", `Réponse de l'élève : « ${s.reponse} »`) : null,
+      h("div", "question", court(s.question || desc[s.exercice].question, 300)),
+      h("div", "petit", [le(s.le), s.qui || `sans code · ${(s.appareil ?? "").slice(0, 4)}`, pays(s.geo), s.traite ? `vérifié le ${le(s.traite)}` : ""].filter(Boolean).join(" · ")),
+      h("div", "btns", b)));
+  };
+  const aFaire = signalements.filter((s) => !s.traite), faits = signalements.filter((s) => s.traite);
+  const essais = resultats.reduce((t, r) => t + r.essais, 0), echecs = resultats.reduce((t, r) => t + r.echecs, 0);
+  const rates = resultats.filter((r) => r.essais >= 5 && r.echecs).sort((a, b) => b.echecs / b.essais - a.echecs / a.essais || b.essais - a.essais).slice(0, 25);
+  const contestes = resultats.filter((r) => r.contestes).sort((a, b) => b.contestes - a.contestes).slice(0, 15);
+  const resultat = (r, cote) => ligne([h("div", "petit", desc[r.exercice].ou), h("div", "question", court(desc[r.exercice].question) || "(exercice introuvable)")], cote);
+  vue.replaceChildren(h("h1", "", "Exercices", h("button", "clair petit", "↻")),
+    titre(`Erreurs signalées par les élèves${aFaire.length ? ` (${aFaire.length})` : ""}`),
+    liste(aFaire, fiche, "Aucun signalement à vérifier 🎉"),
+    faits.length ? carte(h("details", "", h("summary", "", h("span", "titre", `Déjà vérifiés (30 derniers jours) : ${faits.length}`)), faits.map(fiche))) : "",
+    titre("Résultats (90 jours)"),
+    h("div", "stats",
+      carte(h("div", "gros", nb(essais)), h("div", "petit", `exercices faits (${nb(resultats.length)} différents)`)),
+      carte(h("div", "gros", `${pct(essais - echecs, essais)} %`), h("div", "petit", "réussis du premier coup"))),
+    titre("Les plus ratés (au moins 5 essais)"),
+    liste(rates, (r) => resultat(r, h("div", "nb err", `${pct(r.echecs, r.essais)} %`, h("div", "petit", `${r.echecs}/${r.essais}`))), "Pas encore assez d'essais"),
+    titre("« Ma réponse était juste » le plus souvent"),
+    liste(contestes, (r) => resultat(r, h("div", "nb att", nb(r.contestes))), "Aucune réponse contestée"),
+    h("p", "petit", "Les élèves signalent une erreur avec le drapeau 🚩 de chaque exercice (site Cloudflare). Les résultats viennent de tous les appareils, sans rien qui désigne l'élève : seul le premier essai compte (pas « Refaire »). Un exercice souvent raté peut être trop difficile ou mal corrigé ; « Ma réponse était juste » souvent touché : le correcteur refuse sans doute une bonne écriture. Les réponses tapées ne sont jamais enregistrées, sauf si l'élève choisit de la joindre à un signalement."));
+  vue.querySelector("h1 button").onclick = () => ouvrir("exercices");
 }
 
 // ---------- Codes d'invitation ----------
@@ -337,7 +394,7 @@ async function codes() {
 // ---------- Erreurs ----------
 
 async function erreurs() {
-  const toutes = await appel("erreurs");
+  const [toutes, publications] = await Promise.all([appel("erreurs"), appel("publications").catch(() => [])]);
   const groupes = new Map();
   for (const e of toutes) {
     const k = `${e.genre}|${e.message}`;
@@ -346,7 +403,15 @@ async function erreurs() {
     groupes.set(k, g);
   }
   const GENRES = { "affichée": "Message affiché", plantage: "Plantage" };
+  const publication = (p) => h("details", "", h("summary", "",
+      h("span", "titre", `${p.ok ? "✅" : "❌"} Publié le ${le(p.le)}`), h("span", "petit", p.git ?? "")),
+    h("div", `petit ${p.ok ? "ok" : "err"}`, p.resume ?? ""),
+    h("div", "petit", p.tests_le ? `Vérifications du ${le(p.tests_le)}` : "Vérifications non lancées avant cette publication"),
+    p.details ? h("pre", "", p.details) : null);
   vue.replaceChildren(h("h1", "", "Erreurs"),
+    titre("Vérifications avant chaque publication"),
+    publications.length ? carte(publications.map(publication)) : carte(vide("Aucune publication enregistrée")),
+    titre("Erreurs vues par les élèves"),
     liste([...groupes.values()].sort((a, b) => b.n - a.n), (g) => ligne([h("div", "coupe", g.message),
       h("div", "petit", `${GENRES[g.genre] ?? g.genre} · écran ${[...g.ecrans].join(", ")} · ${[...g.qui].slice(0, 4).join(", ")} · dernière : ${le(g.le)}`)],
       h("div", "nb", g.n)), "Aucune erreur 🎉"),
@@ -355,7 +420,7 @@ async function erreurs() {
 
 // ---------- Navigation ----------
 
-const PAGES = { tableau, eleves, codes, erreurs };
+const PAGES = { tableau, eleves, exercices, codes, erreurs };
 async function ouvrir(onglet) {
   sessionStorage.setItem("revizz.onglet", onglet);
   document.querySelectorAll("nav button").forEach((b) => b.classList.toggle("on", b.dataset.onglet === onglet));

@@ -347,6 +347,7 @@ function zoneExercices({ p, c, cle, ctx, seulementRates, idM, suivant }) {
         support: c.textes?.[c.exercices[i].texte],
         supportOuvert: !textesVus.has(c.exercices[i].texte) && !!textesVus.add(c.exercices[i].texte),
         precedent: ex[i],
+        ref: `${cle}#${i}`,
         onResultat: (ok) => { S.noterExercice(p.id, cle, c.titre, i, ok); majScore(); },
       })
     )
