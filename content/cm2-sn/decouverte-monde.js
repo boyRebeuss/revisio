@@ -671,7 +671,7 @@ Le paludisme ne s'attrape pas en mangeant des mangues ni en se mouillant sous la
         { type: "qcm", question: "Comment s'attrape le paludisme ?", choix: ["en mangeant des mangues", "en se mouillant sous la pluie", "en touchant un malade", "par la piqûre d'un moustique anophèle femelle"], reponse: 3, explication: "Seule la piqûre de l'anophèle femelle transmet le paludisme." },
         { type: "vf", question: "Dormir sous une moustiquaire imprégnée protège du paludisme.", reponse: true, explication: "Vrai : la moustiquaire empêche les moustiques de piquer et le produit les tue." },
         { type: "qcm", question: "Pourquoi faut-il vider les vieux pneus et les boîtes remplis d'eau ?", choix: ["parce que les moustiques pondent dans les eaux stagnantes", "pour avoir de l'eau potable", "pour arroser les plantes", "parce que l'eau sale attire les poules"], reponse: 0, explication: "Les moustiques pondent dans l'eau qui ne coule pas. Sans eau stagnante, moins de moustiques." },
-        { type: "saisie", question: "Comment s'appelle le moustique qui transmet le paludisme ?", reponses: ["anophèle", "l'anophèle", "anophèle femelle", "l'anophèle femelle"], explication: "C'est l'anophèle (la femelle)." },
+        { type: "saisie", question: "Comment s'appelle le moustique qui transmet le paludisme ?", reponses: ["anophèle", "l'anophèle", "anophèle femelle", "l'anophèle femelle", "le moustique anophèle"], explication: "C'est l'anophèle (la femelle)." },
         { type: "qcm", question: "Que fait un vaccin ?", choix: ["il guérit la maladie quand on l'a déjà", "il apprend au corps à se défendre avant d'attraper la maladie", "il remplace la moustiquaire", "il nettoie l'eau"], reponse: 1, explication: "Le vaccin prépare le corps à se défendre : on est protégé avant d'être malade." },
         { type: "vf", question: "On peut attraper la bilharziose en se baignant dans un marigot.", reponse: true, explication: "Vrai : dans les eaux douces stagnantes vivent des escargots qui portent le parasite." },
         { type: "qcm", question: "Quel geste protège le mieux contre la diarrhée et le choléra ?", choix: ["dormir sous une moustiquaire", "porter des chaussures", "boire de l'eau potable et se laver les mains au savon", "se vacciner contre la rougeole"], reponse: 2, explication: "Ces maladies viennent de l'eau et des mains sales : eau potable et savon." },
@@ -999,6 +999,293 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
         { type: "vf", question: "L'équateur partage la Terre en deux hémisphères : nord et sud.", reponse: true, explication: "Vrai : l'équateur est à égale distance des deux pôles." },
         { type: "qcm", question: "Quel océan sépare l'Afrique de l'Amérique ?", choix: ["l'océan Indien", "l'océan Austral", "l'océan Atlantique", "l'océan Pacifique"], reponse: 2, explication: "L'océan Atlantique, qui borde le Sénégal, sépare l'Afrique et l'Europe de l'Amérique." },
         { type: "redaction", question: "**Situation.** Contexte : pour un exposé, ton maître te donne une carte du Sénégal à l'échelle 1/2 000 000. Sur la carte, Dakar et Kaolack sont à 8 cm l'une de l'autre. Ton camarade ne sait pas lire une carte. Consigne : 1) Cite les quatre éléments qu'il doit d'abord regarder sur une carte et dis à quoi sert chacun. 2) Calcule la distance réelle à vol d'oiseau entre Dakar et Kaolack. 3) Dans quelle direction se trouve Kaolack par rapport à Dakar ?", corrige: "1) Il faut regarder :\n- le **titre** : il dit ce que montre la carte ;\n- la **légende** : elle explique les couleurs et les symboles ;\n- l'**orientation** (rose des vents ou flèche du nord) : elle indique le nord ;\n- l'**échelle** : elle permet de calculer les distances réelles.\n\n2) À l'échelle 1/2 000 000, 1 cm = 20 km. Donc 8 cm = 8 × 20 = **160 km** à vol d'oiseau.\n\n3) Kaolack se trouve à l'**est** de Dakar (un peu au sud-est)." },
+      ],
+    },
+    {
+      id: "fiche-histoire",
+      titre: "Fiche de révision : histoire",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Ma frise des dates clés
+| Date | Ce qui se passe |
+|---|---|
+| vers 1235 | **Kirina** : Soundiata Keïta fonde l'empire du Mali |
+| 1324 | pèlerinage de **Kankou Moussa** à La Mecque |
+| XVe s. | les **Portugais** arrivent sur la côte |
+| vers 1549 | **Danki** : le Cayor se libère du Djolof (XVIe s.) |
+| 1591 | **Tondibi** : fin de l'empire songhaï |
+| XVIe-XIXe s. | **traite atlantique** |
+| 1848 | la France **abolit l'esclavage** |
+| 1854 | **Faidherbe** mène la conquête |
+| 1857 | siège de **Médine** (El Hadj Omar) ; création des tirailleurs |
+| 1867 | Maba Diakhou Bâ tué à **Somb** |
+| 1885 | chemin de fer **Dakar – Saint-Louis** |
+| 1886 | Lat Dior tué à **Dékheulé** |
+| 1895 | création de l'**AOF** ; Bamba exilé au **Gabon** |
+| 1902 | **Dakar** capitale de l'AOF |
+| 1914 | **Blaise Diagne** élu député |
+| 1er déc. 1944 | massacre de **Thiaroye** |
+| 1959 | **Fédération du Mali** |
+| 4 avril 1960 | accords : **fête de l'Indépendance** |
+| 20 août 1960 | le Sénégal **indépendant seul** |
+| 1978 | **Gorée** au patrimoine de l'UNESCO |
+
+## Les personnages
+| Qui ? | Ce qu'il a fait |
+|---|---|
+| **Soundiata Keïta** | fonde l'empire du Mali (Kirina) |
+| **Kankou Moussa** | empereur du Mali, pèlerinage plein d'or |
+| **Sonni Ali Ber**, **l'Askia Mohammed** | agrandissent et organisent le Songhaï |
+| **Ndiadiane Ndiaye** | fonde le Djolof (selon la tradition) |
+| **Ndaté Yalla Mbodj** | linguère du Waalo, s'oppose aux Français |
+| **Faidherbe** | gouverneur, conquête du Sénégal |
+| **El Hadj Omar Tall** | Fouta Toro ; assiège Médine |
+| **Maba Diakhou Bâ** | Rip (Saloum) ; meurt à Somb |
+| **Lat Dior** | damel du **Cayor** ; refuse le chemin de fer |
+| **Alboury Ndiaye** | bourba du **Djolof** ; meurt en exil |
+| **Cheikh Ahmadou Bamba** | résistance **pacifique** ; exil au Gabon |
+| **Aline Sitoé Diatta** | Casamance ; résistance pacifique ; morte à Tombouctou |
+| **Blaise Diagne** | 1er Africain noir élu député (1914) |
+| **Senghor** | 1er président (1960-1980) ; paroles de l'hymne |
+
+## Les listes à savoir par cœur
+- **Empires** (ordre G – M – S) : Ghana (Koumbi Saleh), Mali (Niani), Songhaï (Gao).
+- **Tekrour** (vallée du fleuve) : roi War Diabi, musulman dès le XIe siècle, un des premiers royaumes musulmans.
+- **Titres des rois** : Bourba (Djolof), Brak (Waalo), Damel (Cayor), Teigne (Baol), Bour (Sine, Saloum), Almamy (Fouta), Mansa (Gabou).
+- **Commerce triangulaire** : Europe → Afrique (tissus, armes) → Amérique (captifs) → Europe (sucre, coton, café).
+- **Quatre communes** : Saint-Louis, Gorée, Rufisque, Dakar.
+- **Présidents** : Senghor, Abdou Diouf, Abdoulaye Wade, Macky Sall, Bassirou Diomaye Faye (depuis 2024).
+- **Symboles** : drapeau vert, or, rouge avec une étoile verte ; devise « Un Peuple – Un But – Une Foi » ; hymne « Le Lion rouge ».
+
+## Les mots à connaître
+- **comptoir** : lieu de commerce des Européens sur la côte (Gorée, Saint-Louis).
+- **traite** : commerce d'êtres humains réduits en esclavage.
+- **AOF** : Afrique-Occidentale française, colonies regroupées en 1895.
+- **tirailleurs sénégalais** : soldats africains de l'armée française.
+- **résistance armée** (batailles) / **résistance pacifique** (sans armes).
+- **griot** : garde et raconte l'histoire des familles.
+
+## Les pièges
+- L'ancien **Ghana** n'était pas à la place du Ghana actuel.
+- **Lat Dior** = Cayor ; **Alboury Ndiaye** = Djolof.
+- Fête de l'Indépendance le **4 avril**, mais indépendance seul le **20 août 1960**.
+- Bamba et Aline Sitoé Diatta : **sans armes**.
+`,
+      exercices: [
+        { type: "qcm", question: "Dans quel ordre les trois grands empires se sont-ils succédé ?", choix: ["Mali, Ghana, Songhaï", "Ghana, Mali, Songhaï", "Songhaï, Mali, Ghana", "Ghana, Songhaï, Mali"], reponse: 1, explication: "Ordre G – M – S : Ghana, puis Mali, puis Songhaï." },
+        { type: "saisie", question: "Quel était le titre du roi du Cayor ?", reponses: ["damel", "le damel"], explication: "Le roi du Cayor était le damel (Lat Dior, par exemple)." },
+        { type: "vf", question: "Cheikh Ahmadou Bamba a mené une résistance armée contre les Français.", reponse: false, explication: "Faux : sa résistance était pacifique, sans armes. Il a été exilé au Gabon en 1895." },
+        { type: "qcm", question: "Qu'emportaient les bateaux de l'Afrique vers l'Amérique, dans le commerce triangulaire ?", choix: ["du sucre et du café", "des tissus et des armes", "de l'or et du sel", "des captifs africains"], reponse: 3, explication: "D'Afrique vers l'Amérique : des captifs. Le sucre et le café allaient de l'Amérique vers l'Europe." },
+        { type: "saisie", question: "En quelle année Lat Dior est-il tué à Dékheulé ?", reponses: ["1886", "en 1886"], explication: "Lat Dior, damel du Cayor, est tué à Dékheulé en 1886, un an après l'ouverture du chemin de fer." },
+        { type: "qcm", question: "Quelle ville devient la capitale de l'AOF à partir de 1902 ?", choix: ["Dakar", "Saint-Louis", "Gorée", "Rufisque"], reponse: 0, explication: "La capitale de l'AOF est d'abord Saint-Louis, puis Dakar à partir de 1902." },
+        { type: "vf", question: "Le Sénégal fête son indépendance le 4 avril.", reponse: true, explication: "Vrai : le 4 avril 1960, des accords sont signés avec la France. Le Sénégal devient indépendant seul le 20 août 1960." },
+        { type: "qcm", question: "Qui a été le premier président du Sénégal ?", choix: ["Abdou Diouf", "Mamadou Dia", "Léopold Sédar Senghor", "Blaise Diagne"], reponse: 2, explication: "Léopold Sédar Senghor, de 1960 à 1980. Il a aussi écrit les paroles de l'hymne." },
+        { type: "saisie", question: "Quelle île, en face de Dakar, est un lieu de mémoire de la traite avec sa Maison des Esclaves ?", reponses: ["Gorée", "l'île de Gorée", "île de Gorée"], explication: "Gorée, inscrite au patrimoine mondial de l'UNESCO depuis 1978." },
+        { type: "qcm", question: "Quel événement a lieu à Thiaroye le 1er décembre 1944 ?", choix: ["la création de l'AOF", "des tirailleurs qui réclamaient leur argent sont tués", "l'élection de Blaise Diagne", "la fin de la traite"], reponse: 1, explication: "À Thiaroye, des tirailleurs sénégalais qui réclamaient leur argent sont tués par l'armée française." },
+      ],
+    },
+    {
+      id: "fiche-geographie",
+      titre: "Fiche de révision : géographie",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Ma carte mentale du Sénégal
+~~~
+          SÉNÉGAL
+  Afrique de l'Ouest, capitale Dakar
+            |
+ Voisins : Mauritanie (N), Mali (E),
+ Guinée et Guinée-Bissau (S),
+ Gambie (enclavée), océan (O)
+            |
+ Relief : plat ; collines à Kédougou
+            |
+ Fleuves : Sénégal, Gambie,
+ Casamance ; Saloum = bras de mer
+            |
+ Climat : hivernage + saison sèche
+            |
+ Végétation (du nord au sud) :
+ steppe -> savane -> forêt
+~~~
+
+## Les chiffres à retenir
+| Quoi ? | Chiffre |
+|---|---|
+| superficie | **196 722 km²** |
+| habitants (recensement 2023, ANSD) | **18 126 390** |
+| moins de 15 ans | **39 %** |
+| habitants en ville | environ **55 %** |
+| densité | **92 habitants par km²** |
+| croissance | environ **3 % par an** |
+| régions | **14** (dont Kaffrine, Kédougou, Sédhiou en 2008) |
+| départements | **46** |
+| États d'Afrique | **54** |
+
+## Les 14 régions par zone
+- **Ouest** (2) : Dakar, Thiès.
+- **Centre** (4) : Diourbel, Fatick, Kaolack, Kaffrine.
+- **Nord** (3) : Saint-Louis, Louga, Matam.
+- **Est** (2) : Tambacounda, Kédougou.
+- **Sud** (3) : Ziguinchor, Sédhiou, Kolda.
+
+## Eau, climat, végétation
+- **Lac de Guiers** : eau potable de Dakar. **Lac Rose** : sel.
+- Barrages : **Diama** (bloque l'eau salée), **Manantali** (au Mali, électricité).
+- Vents : **harmattan** (nord-est, chaud et sec), **mousson** (sud-ouest, pluies), **alizé maritime** (nord-ouest, frais).
+- Pluie : peu au nord (sahélien), plus au centre (soudanien), beaucoup au sud (Casamance).
+- **Mangrove** dans le Saloum et en Casamance. Arbre symbole : le **baobab**.
+
+## Les activités
+| Activité | Où ? |
+|---|---|
+| arachide | bassin arachidier (Kaolack, Kaffrine…) |
+| riz | vallée du fleuve, Casamance |
+| légumes | Niayes |
+| élevage | Ferlo |
+| pêche en pirogue | Kayar, Mbour, Joal, Saint-Louis |
+| phosphates / or | Taïba / Kédougou |
+| pétrole (depuis 2024) | en mer, Sangomar |
+
+Transports : port de Dakar, aéroport Blaise-Diagne (Diass), TER Dakar – Diamniadio.
+
+## Afrique et monde
+- Afrique : **Sahara** (plus grand désert chaud), **Nil** (plus long fleuve), **Kilimandjaro** (plus haut sommet).
+- **UA** (Addis-Abeba), **CEDEAO** (Abuja), **UEMOA** (franc CFA), **OMVS** (fleuve Sénégal).
+- **6 continents**, **5 océans** ; le Sénégal est dans l'**hémisphère nord**.
+- Une carte : **titre, légende, orientation, échelle**. À 1/1 000 000, 1 cm = 10 km.
+
+## Les mots à connaître
+- **culture vivrière** (pour se nourrir) / **culture de rente** (pour vendre).
+- **exode rural** : départ de la campagne vers la ville.
+- **estuaire** : là où un fleuve se jette dans la mer.
+- **enclavé** : presque entièrement entouré par un autre pays (la Gambie, dans le Sénégal, ne touche que l'océan à l'ouest).
+
+## Les pièges
+- La **Gambie** est un pays ; le **fleuve Gambie** est un fleuve.
+- La région de Dakar est la **plus peuplée**, mais la **plus petite**.
+- Alizé maritime et mousson viennent de l'océan, mais seule la **mousson** apporte les pluies.
+- **Continent** (l'Afrique) ≠ **pays** (le Sénégal).
+`,
+      exercices: [
+        { type: "saisie", question: "Combien de régions compte le Sénégal ?", reponses: ["14", "quatorze", "14 régions"], explication: "14 régions ; les plus récentes (2008) sont Kaffrine, Kédougou et Sédhiou." },
+        { type: "qcm", question: "Quel pays est presque entièrement entouré par le Sénégal ?", choix: ["la Guinée-Bissau", "la Mauritanie", "le Mali", "la Gambie"], reponse: 3, explication: "La Gambie est enclavée dans le Sénégal ; elle ne touche que l'océan à l'ouest." },
+        { type: "qcm", question: "Quel vent chaud et sec, plein de poussière, vient du Sahara ?", choix: ["l'harmattan", "la mousson", "l'alizé maritime", "le vent de mer"], reponse: 0, explication: "L'harmattan souffle du nord-est pendant la saison sèche. La mousson apporte les pluies." },
+        { type: "vf", question: "Il pleut plus au nord du Sénégal qu'en Casamance.", reponse: false, explication: "Faux : il pleut plus au sud. Le nord est sahélien, la Casamance est la zone la plus humide." },
+        { type: "saisie", question: "Comment appelle-t-on le départ des habitants de la campagne vers la ville ?", reponses: ["exode rural", "l'exode rural"], explication: "C'est l'exode rural. Il crée des problèmes en ville : logement, embouteillages, déchets." },
+        { type: "qcm", question: "Où cultive-t-on surtout les légumes (oignons, choux, tomates) ?", choix: ["dans le Ferlo", "dans les Niayes", "à Kédougou", "dans le bassin arachidier"], reponse: 1, explication: "Les Niayes, cuvettes humides entre Dakar et Saint-Louis. Le Ferlo est une zone d'élevage." },
+        { type: "vf", question: "Une culture de rente est une culture que l'on vend pour gagner de l'argent.", reponse: true, explication: "Vrai : l'arachide est une culture de rente ; le mil est une culture vivrière." },
+        { type: "qcm", question: "Quelle organisation regroupe les pays qui utilisent le franc CFA ?", choix: ["l'OMVS", "l'Union africaine", "l'UEMOA", "la CEDEAO"], reponse: 2, explication: "L'UEMOA : Union économique et monétaire ouest-africaine." },
+        { type: "saisie", question: "Sur une carte à l'échelle 1/1 000 000 (1 cm = 10 km), deux villes sont à 5 cm. Quelle est la distance réelle, en km ?", reponses: ["50", "50 km"], explication: "5 × 10 = 50 km." },
+        { type: "qcm", question: "Quel lac fournit une grande partie de l'eau potable de Dakar ?", choix: ["le lac Rose", "le lac de Guiers", "le lac de Manantali", "le lac Retba"], reponse: 1, explication: "Le lac de Guiers, près du fleuve Sénégal. Le lac Rose (lac Retba) est connu pour son sel." },
+      ],
+    },
+    {
+      id: "fiche-sciences",
+      titre: "Fiche de révision : sciences (IST)",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Le corps humain en schémas
+~~~
+DIGESTION
+bouche (dents, salive)
+  -> œsophage
+  -> estomac (bouillie)
+  -> intestin grêle
+     (nutriments -> sang)
+  -> gros intestin
+  -> anus (déchets)
+aides : foie (bile), pancréas
+~~~
+
+~~~
+RESPIRATION
+nez -> trachée -> bronches
+    -> 2 poumons
+inspiration : entre l'oxygène
+expiration : sort le gaz carbonique
+~~~
+
+~~~
+CIRCULATION
+cœur = pompe
+artères : partent du cœur
+veines : reviennent au cœur
+capillaires : relient les deux
+~~~
+
+## Le sang et les dents
+| Élément | Rôle |
+|---|---|
+| globules rouges | transportent l'oxygène |
+| globules blancs | défendent contre les microbes |
+| plaquettes | arrêtent le saignement |
+| incisives / canines / molaires | couper / déchirer / broyer |
+
+Enfant : **20** dents de lait ; adulte : **32** dents.
+
+## Aliments et santé
+- **Énergétiques** (riz, mil, huile) ; **bâtisseurs** (poisson, viande, œufs, niébé) ; **protecteurs** (fruits, légumes).
+- **Paludisme** : parasite **plasmodium**, transmis par l'**anophèle femelle**. Moustiquaire imprégnée, plus d'eaux stagnantes, centre de santé si fièvre.
+- **Diarrhée, choléra** : eau sale → eau potable, mains lavées au savon.
+- **Bilharziose** : baignade dans des eaux douces stagnantes.
+- **Vaccin** : protège **avant** la maladie (PEV, carnet de vaccination).
+
+## Plantes et animaux
+~~~
+PLANTE VERTE (photosynthèse)
+racines : prennent eau + sels
+feuilles + lumière + gaz carbonique
+  -> nourriture de la plante
+  -> rejette de l'oxygène
+~~~
+- Germination : **eau + air + température convenable**.
+- Fleur → fruit → graines ; **bouture** pour le manioc.
+- Vertébrés : **mammifères** (poils), **oiseaux** (plumes), **reptiles** (écailles sèches), **amphibiens** (peau nue), **poissons** (branchies).
+- **Vivipares** (mammifères) / **ovipares** (œufs).
+- Chaîne alimentaire : herbe → gazelle → lion (« est mangé par »). Elle commence par une **plante**.
+
+## Matière et énergie
+| Passage | Nom |
+|---|---|
+| solide → liquide | fusion |
+| liquide → solide | solidification |
+| liquide → gaz | évaporation |
+| gaz → liquide | condensation |
+
+- L'eau gèle à **0 °C**, bout à **100 °C**.
+- Cycle de l'eau : évaporation → nuages → pluie → ruissellement et infiltration.
+- Eau potable : décanter, filtrer, puis **désinfecter** (bouillir, eau de Javel).
+
+~~~
+CIRCUIT FERMÉ
+pile -> fil -> interrupteur fermé
+     -> ampoule -> fil -> pile
+=> l'ampoule brille
+~~~
+- **Conducteurs** : métaux. **Isolants** : plastique, caoutchouc, verre, bois sec.
+- Prises (environ 220-230 V) : **danger de mort**.
+- **Renouvelables** : soleil, vent, eau. **Non renouvelables** : pétrole, gaz, charbon.
+- **Machines simples** : levier (point d'appui, charge, effort), poulie (puits), plan incliné (rampe), roue.
+
+## Les pièges
+- La **chauve-souris** et le **dauphin** sont des mammifères.
+- Une eau **claire** n'est pas toujours **potable**.
+- Le paludisme ne vient ni des mangues ni de la pluie : seulement de la piqûre de l'anophèle.
+- Le foie aide à digérer, mais les aliments **ne passent pas** dedans.
+- Levier : pousse sur le bout de la barre **loin** du point d'appui (l'effort) : il faut moins de force.
+`,
+      exercices: [
+        { type: "qcm", question: "Où les nutriments passent-ils dans le sang ?", choix: ["dans l'intestin grêle", "dans l'estomac", "dans la bouche", "dans le foie"], reponse: 0, explication: "Dans l'intestin grêle : c'est l'absorption." },
+        { type: "saisie", question: "Quel moustique transmet le paludisme ?", reponses: ["anophèle", "l'anophèle", "anophèle femelle", "l'anophèle femelle", "le moustique anophèle"], explication: "La femelle de l'anophèle, en piquant une personne malade puis une personne saine." },
+        { type: "vf", question: "Les veines conduisent le sang du cœur vers les organes.", reponse: false, explication: "Faux : ce sont les artères qui partent du cœur ; les veines reviennent au cœur." },
+        { type: "qcm", question: "À quel groupe appartient la chauve-souris ?", choix: ["les oiseaux", "les reptiles", "les mammifères", "les insectes"], reponse: 2, explication: "Elle vole, mais elle a des poils et allaite ses petits : c'est un mammifère." },
+        { type: "saisie", question: "Comment s'appelle le passage de l'eau de l'état solide à l'état liquide ?", reponses: ["fusion", "la fusion"], explication: "La fusion : la glace fond. L'inverse est la solidification." },
+        { type: "qcm", question: "De quoi une graine a-t-elle besoin pour germer ?", choix: ["de lumière seulement", "d'eau, d'air et d'une température convenable", "d'engrais et de lumière", "d'eau seulement"], reponse: 1, explication: "Eau + air + température convenable. La lumière sert ensuite à la plante pour grandir." },
+        { type: "vf", question: "Le plastique est un isolant électrique.", reponse: true, explication: "Vrai : il ne laisse pas passer le courant. C'est pour cela qu'il entoure le cuivre des fils." },
+        { type: "qcm", question: "Quelle source d'énergie est non renouvelable ?", choix: ["le soleil", "le vent", "l'eau des fleuves", "le pétrole"], reponse: 3, explication: "Le pétrole s'épuise. Le soleil, le vent et l'eau sont renouvelables." },
+        { type: "qcm", question: "Quel aliment est un aliment bâtisseur ?", choix: ["le poisson", "le riz", "la mangue", "l'huile"], reponse: 0, explication: "Le poisson fait grandir (bâtisseur). Le riz et l'huile sont énergétiques, la mangue est protectrice." },
+        { type: "saisie", question: "Un levier a trois éléments : la charge, l'effort et le point… ?", reponses: ["d'appui", "point d'appui", "le point d'appui", "appui"], explication: "Le point d'appui. Plus on pousse loin de lui (là où on fait l'effort), moins il faut de force." },
       ],
     },
   ],

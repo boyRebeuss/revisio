@@ -2175,7 +2175,7 @@ Si dépenses > recettes, le budget est en **déficit** : déficit = dépenses �
 ## Le pourcentage dans le commerce
 - **Bénéfice de 20 % du prix d'achat** : sur un article acheté 15 000 F, le bénéfice est 15 000 × 20 ÷ 100 = 3 000 F ; PV = 15 000 + 3 000 = **18 000 F**.
 - **Remise** (ou rabais) **de 10 %** sur un article de 12 500 F : remise = 1 250 F ; prix payé = 12 500 − 1 250 = **11 250 F**.
-- Bénéfice en pourcentage : (bénéfice ÷ prix de référence) × 100. Dans l'exemple du riz : 75 000 ÷ 750 000 × 100 = **10 %** du prix de revient.
+- Bénéfice en pourcentage : (bénéfice ÷ prix de référence) × 100, le prix de référence étant le prix d'achat ou le prix de revient (l'énoncé le dit). Dans l'exemple du riz : 75 000 ÷ 750 000 × 100 = **10 %** du prix de revient.
 
 > **À retenir**
 > - Économies = recettes − dépenses.
@@ -2687,15 +2687,18 @@ Tout énoncé est juste s'il demande d'abord le prix de 3 objets à 1 500 F, pui
       titre: "S'entraîner à l'épreuve de mathématiques du CFEE",
       theme: "Résolution de problèmes",
       cours: `
+## Le CFEE depuis 2026
+Depuis 2026, le **concours d'entrée en 6e est supprimé** : le **CFEE est le seul examen** de la fin du CM2. Tu es **admis** si tu as **au moins 5 sur 10 de moyenne** sur l'ensemble des épreuves.
+
 ## Comment est faite l'épreuve
-L'épreuve de mathématiques du CFEE est notée sur **100 points**. Elle a deux parties.
+*D'après le guide du CFEE de 2018 (le barème peut changer).* L'épreuve de mathématiques est notée sur **100 points**. Elle a deux parties.
 
 | Partie | Points | Ce qu'on te demande |
 |---|---|---|
 | **Ressources** | 40 | des exercices courts sur ce que tu as appris |
 | **Compétence** | 60 | une **situation d'intégration** : un contexte et plusieurs consignes |
 
-Dans les ressources, la **numération** (nombres, opérations, fractions) compte pour 40 %, la **mesure** pour 30 %, la **géométrie** pour 20 % et la **résolution de problèmes** pour 10 %. Les **opérations doivent être posées**.
+Toujours d'après ce guide, dans les ressources, la **numération** (nombres, opérations, fractions) compte pour 40 %, la **mesure** pour 30 %, la **géométrie** pour 20 % et la **résolution de problèmes** pour 10 %. Les **opérations doivent être posées**.
 
 La situation d'intégration part d'une situation de la vie (la santé, l'environnement, le commerce, la culture des champs, l'école…). Elle peut mêler les mathématiques et d'autres matières : on te demande parfois aussi un conseil ou une explication.
 
@@ -2711,7 +2714,8 @@ La situation d'intégration part d'une situation de la vie (la santé, l'environ
 >! Les 3 sacs coûtent 43 500 F.
 
 > **À retenir**
-> - Ressources : 40 points ; compétence (situation d'intégration) : 60 points.
+> - Depuis 2026 : le CFEE est le seul examen (plus de concours d'entrée en 6e) ; admis avec au moins 5/10 de moyenne.
+> - D'après le guide de 2018 (le barème peut changer) : ressources 40 points ; compétence (situation d'intégration) 60 points.
 > - Toujours : opérations posées, phrase-réponse avec l'unité, vérification.
 > - Une consigne peut demander une explication ou un conseil : réponds par une phrase complète.
 `,
@@ -2763,7 +2767,7 @@ octobre    ■■■                   30 mm
         },
         {
           type: "vf",
-          question: "Au CFEE, dans les ressources, tu peux écrire seulement le résultat d'une opération, sans la poser.",
+          question: "Au CFEE, dans les ressources, tu peux écrire seulement le résultat d'une opération, sans la poser (d'après le guide du CFEE de 2018).",
           reponse: false,
           explication: "Faux : les opérations posées sont obligatoires. Elles montrent ta démarche et te permettent de vérifier.",
         },
@@ -2882,6 +2886,489 @@ Eau par jour : 42 × 10 = 420 litres. Pour 28 jours : 420 × 28 = **11 760 litre
 Nouveau nombre : 36 − 9 = **27 malades** en octobre.
 
 5) Exemples : dormir chaque nuit sous une moustiquaire imprégnée ; vider les récipients d'eau stagnante (boîtes, pneus) où les moustiques pondent ; aller vite au poste de santé en cas de fièvre. (Deux gestes justes suffisent.)`,
+        },
+      ],
+    },
+    {
+      id: "fiche-numeration",
+      titre: "Fiche de révision : numération (nombres, opérations, fractions, proportionnalité)",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Grands nombres
+- On lit par **classes de 3 chiffres** : milliards, millions, mille, unités. Classe vide : **000**.
+- Dans 5 438 207 : **chiffre** des centaines de mille = 4 ; **nombre** de centaines de mille = 54.
+- Comparer : d'abord le nombre de chiffres, puis chiffre par chiffre depuis la gauche.
+- « mille » est invariable ; deux millions, trois milliards.
+
+## Divisible par…
+| Par | Si… |
+|---|---|
+| 2 | dernier chiffre 0, 2, 4, 6, 8 |
+| 5 | dernier chiffre 0 ou 5 |
+| 10 | dernier chiffre 0 |
+| 4 | les 2 derniers chiffres forment un multiple de 4 |
+| 25 | finit par 00, 25, 50, 75 |
+| 3 / 9 | somme des chiffres divisible par 3 / par 9 |
+
+## Opérations posées
+- Aligne les chiffres depuis la droite ; décimaux : **virgule sous virgule** (+ et −).
+- Multiplication : décale d'un rang pour les dizaines, de deux pour les centaines.
+- **Dividende = diviseur × quotient + reste**, et reste < diviseur.
+- Preuves : a − b = c → c + b = a ; a ÷ b = q → b × q = a.
+
+## Décimaux
+| Opération | Règle |
+|---|---|
+| × décimaux | on compte les chiffres après la virgule des deux facteurs |
+| ÷ par un entier | virgule au quotient quand on abaisse les dixièmes |
+| ÷ par un décimal | × 10 ou × 100 des deux côtés : 12,6 ÷ 0,3 = 126 ÷ 3 |
+| × 10, × 100 | virgule de 1, 2 rangs vers la droite |
+| ÷ 10, ÷ 100 | virgule de 1, 2 rangs vers la gauche |
+
+## Fractions
+- Simplifier : diviser le haut et le bas par le même nombre : 12/18 = **2/3**.
+- Comparer : même dénominateur → le plus grand numérateur l'emporte (5/8 > 3/8) ; sinon, mettre au même dénominateur. Une fraction est < 1 si le haut est plus petit que le bas.
+- Addition et soustraction : **même dénominateur** d'abord : 1/2 + 1/3 = 3/6 + 2/6 = 5/6.
+- × : haut × haut, bas × bas. ÷ par un entier : on multiplie le bas.
+- **Fraction d'une grandeur** : ÷ dénominateur puis × numérateur (3/4 de 2 000 = 1 500).
+- **Grandeur dont on connaît une fraction** : ÷ numérateur puis × dénominateur (2/5 → 6 000 F, donc tout = 15 000 F).
+
+## Proportionnalité
+- **Règle de trois** : on passe par l'unité (÷ puis ×).
+- **Tableau de proportionnalité** : on passe d'une ligne à l'autre en multipliant toujours par le même nombre.
+- **a % de N** = N × a ÷ 100.
+- **Échelle 1/n** : réalité = carte × n (puis convertir : 100 000 cm = 1 km).
+
+> **Pièges fréquents**
+> - 2,47 < 2,5 (écris 2,50) : ne compare pas « 47 et 5 ».
+> - 4,05 ≠ 4,5.
+> - 1 250 mangues par cartons de 24 : 52 cartons pleins, mais **53 cartons** pour tout ranger.
+> - Ne jamais additionner les dénominateurs : 1/2 + 1/3 ≠ 2/5.
+`,
+      exercices: [
+        {
+          type: "saisie",
+          question: "Quel est le **nombre** de centaines de mille dans 7 254 836 ?",
+          reponses: ["72"],
+          explication: "On prend tout ce qui est à gauche du chiffre des centaines de mille, ce chiffre compris : 72. (Le **chiffre** des centaines de mille est 2.)",
+        },
+        {
+          type: "vf",
+          question: "4 572 est divisible par 9.",
+          reponse: true,
+          explication: "Vrai : 4 + 5 + 7 + 2 = 18, et 18 est divisible par 9.",
+        },
+        {
+          type: "qcm",
+          question: "Quel est le plus grand de ces nombres ?",
+          choix: ["3,48", "3,09", "3,505", "3,5"],
+          reponse: 2,
+          explication: "Avec trois chiffres après la virgule : 3,480 ; 3,090 ; 3,505 ; 3,500. Le plus grand est 3,505.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule : 4,25 × 100.",
+          reponses: ["425"],
+          explication: "× 100 : la virgule se déplace de deux rangs vers la droite. 4,25 × 100 = 425.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule : 2,4 × 0,3.",
+          reponses: ["0,72"],
+          explication: "24 × 3 = 72 ; il y a 1 + 1 = 2 chiffres après la virgule : 0,72.",
+        },
+        {
+          type: "qcm",
+          question: "Quelle est la fraction 24/36 simplifiée au maximum ?",
+          choix: ["12/18", "2/3", "4/6", "3/4"],
+          reponse: 1,
+          explication: "24/36 = 12/18 (÷ 2) = 4/6 (÷ 3) = 2/3 (÷ 2). On peut aussi diviser directement par 12. 12/18 et 4/6 sont égales à 2/3 mais pas simplifiées au maximum.",
+        },
+        {
+          type: "qcm",
+          question: "Combien font 2/3 + 1/4 ?",
+          choix: ["3/7", "11/12", "3/12", "2/12"],
+          reponse: 1,
+          explication: "Même dénominateur 12 : 2/3 = 8/12 et 1/4 = 3/12. 8/12 + 3/12 = 11/12. (3/7 est le piège : on n'additionne pas les dénominateurs.)",
+        },
+        {
+          type: "saisie",
+          question: "Calcule les 3/5 de 4 000 F (en F).",
+          reponses: ["2 400", "2 400 F", "2 400 F CFA", "2 400 francs", "2400 F"],
+          explication: "4 000 ÷ 5 = 800 (un cinquième) ; 800 × 3 = 2 400 F.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule 15 % de 6 000 F (en F).",
+          reponses: ["900", "900 F", "900 F CFA", "900 francs"],
+          explication: "6 000 × 15 ÷ 100 = 900 F.",
+        },
+        {
+          type: "vf",
+          question: "Sur une carte à l'échelle 1/100 000, 3 cm représentent 3 km en réalité.",
+          reponse: true,
+          explication: "Vrai : 3 × 100 000 = 300 000 cm = 3 000 m = 3 km.",
+        },
+      ],
+    },
+    {
+      id: "fiche-geometrie",
+      titre: "Fiche de révision : géométrie (figures, solides, symétrie)",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Quadrilatères
+| Figure | À reconnaître | Diagonales |
+|---|---|---|
+| Carré | 4 côtés égaux + 4 angles droits | égales, perpendiculaires, même milieu |
+| Rectangle | 4 angles droits | égales, même milieu |
+| Losange | 4 côtés égaux | perpendiculaires, même milieu |
+| Parallélogramme | côtés opposés parallèles et égaux | même milieu |
+| Trapèze | 2 côtés parallèles (les bases) | — |
+
+Un **carré** est à la fois un rectangle et un losange.
+
+## Triangles, cercle, polygones
+- Isocèle : 2 côtés égaux ; équilatéral : 3 côtés égaux ; rectangle : 1 angle droit.
+- **Diamètre = 2 × rayon** ; on trace le cercle au compas, écarté du rayon.
+- Pentagone 5 côtés, **hexagone 6**, **octogone 8**. Régulier : côtés et angles tous égaux.
+- Tangram : 7 pièces (5 triangles, 1 carré, 1 parallélogramme).
+- Angle droit 90° ; aigu < 90° ; obtus entre 90° et 180° ; plat 180°.
+
+## Solides
+| Solide | Faces | Arêtes | Sommets | Patron |
+|---|---|---|---|---|
+| Cube | 6 carrés | 12 | 8 | 6 carrés |
+| Pavé droit | 6 rectangles | 12 | 8 | 6 rectangles |
+| Prisme droit (base triangle) | 5 | 9 | 6 | 2 triangles + 3 rectangles |
+| Cylindre | 2 disques + surface courbe | — | — | 2 disques + 1 rectangle |
+
+« — » : le cylindre n'a **ni arête droite ni sommet** (ses bords sont des cercles).
+
+## Symétrie, translation, agrandissement
+| Figure | Axes de symétrie |
+|---|---|
+| Carré | 4 |
+| Rectangle (non carré) | 2 (par les milieux des côtés opposés) |
+| Losange (non carré) | 2 (ses diagonales) |
+| Triangle équilatéral / isocèle | 3 / 1 |
+| Cercle | une infinité |
+
+- **Symétrie** : pliage ; même distance de part et d'autre de l'axe, sur une perpendiculaire.
+- **Translation** : glissement (direction, sens, longueur) ; la figure ne tourne pas.
+- **Agrandir / réduire** : toutes les longueurs × ou ÷ par le même nombre ; les angles ne changent pas.
+
+> **Pièges fréquents**
+> - Les diagonales d'un rectangle ne sont **pas** ses axes de symétrie.
+> - Un losange n'a pas forcément d'angle droit.
+> - Le rayon est la **moitié** du diamètre.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Un quadrilatère a 4 côtés égaux mais aucun angle droit. C'est…",
+          choix: ["un rectangle", "un trapèze", "un carré", "un losange"],
+          reponse: 3,
+          explication: "4 côtés égaux : c'est un losange. Avec 4 angles droits en plus, ce serait un carré.",
+        },
+        {
+          type: "vf",
+          question: "Un carré est aussi un rectangle.",
+          reponse: true,
+          explication: "Vrai : un carré a 4 angles droits, comme un rectangle (et 4 côtés égaux, comme un losange).",
+        },
+        {
+          type: "saisie",
+          question: "Combien d'arêtes a un pavé droit ?",
+          reponses: ["12", "12 arêtes"],
+          explication: "Un pavé droit (comme un cube) a 6 faces, 12 arêtes et 8 sommets.",
+        },
+        {
+          type: "qcm",
+          question: "Combien d'axes de symétrie a un rectangle qui n'est pas un carré ?",
+          choix: ["0", "4", "2", "1"],
+          reponse: 2,
+          explication: "2 axes : les droites qui passent par les milieux des côtés opposés. Ses diagonales ne sont pas des axes.",
+        },
+        {
+          type: "saisie",
+          question: "Un cercle a un rayon de 3,5 cm. Quel est son diamètre, en cm ?",
+          reponses: ["7", "7 cm"],
+          explication: "Diamètre = 2 × rayon = 2 × 3,5 = 7 cm.",
+        },
+        {
+          type: "qcm",
+          question: "Le patron d'un cylindre est formé de…",
+          choix: ["2 disques et 1 rectangle", "6 rectangles", "1 disque et 2 triangles", "2 rectangles et 1 disque"],
+          reponse: 0,
+          explication: "Les deux bases sont des disques ; la surface courbe se déroule en un rectangle.",
+        },
+        {
+          type: "vf",
+          question: "Dans une translation, la figure tourne.",
+          reponse: false,
+          explication: "Faux : une translation fait seulement glisser la figure, sans la tourner ni la retourner.",
+        },
+        {
+          type: "saisie",
+          question: "On agrandit une figure × 3. Un segment de 4 cm devient un segment de combien de cm ?",
+          reponses: ["12", "12 cm"],
+          explication: "Toutes les longueurs sont multipliées par 3 : 4 × 3 = 12 cm.",
+        },
+        {
+          type: "qcm",
+          question: "Combien de faces a un prisme droit à base triangulaire ?",
+          choix: ["6", "9", "4", "5"],
+          reponse: 3,
+          explication: "2 bases triangulaires + 3 faces rectangulaires = 5 faces (9 arêtes, 6 sommets).",
+        },
+        {
+          type: "vf",
+          question: "Les diagonales d'un losange sont perpendiculaires.",
+          reponse: true,
+          explication: "Vrai : les diagonales d'un losange sont perpendiculaires et se coupent en leur milieu ; ce sont aussi ses axes de symétrie.",
+        },
+      ],
+    },
+    {
+      id: "fiche-mesure",
+      titre: "Fiche de révision : mesure (conversions, périmètres, aires, volumes, durées)",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Tableaux de conversion
+| Grandeur | Unités | D'une unité à la suivante |
+|---|---|---|
+| Longueur | km hm dam **m** dm cm mm | × 10 |
+| Capacité | hl dal **l** dl cl ml | × 10 |
+| Masse | kg hg dag **g** dg cg mg | × 10 |
+| Aire | km² hm² dam² **m²** dm² cm² mm² | × 100 (2 chiffres par colonne) |
+| Volume | **m³** dm³ cm³ mm³ | × 1 000 (3 chiffres par colonne) |
+
+- 1 t = 1 000 kg ; 1 q = 100 kg.
+- 1 ha = 10 000 m² ; 1 a = 100 m² ; 1 ca = 1 m².
+- **1 dm³ = 1 l** ; 1 m³ = 1 000 l ; 1 cm³ = 1 ml. **1 l d'eau pèse 1 kg.**
+
+## Périmètres
+| Figure | Périmètre |
+|---|---|
+| Carré | c × 4 |
+| Rectangle | (L + l) × 2 |
+| Cercle | D × 3,14 |
+
+Intervalles : ligne **ouverte** avec les 2 bouts → intervalles + 1 ; ligne **fermée** → autant que d'intervalles.
+
+## Aires
+| Figure | Aire |
+|---|---|
+| Carré | c × c |
+| Rectangle | L × l |
+| Triangle | (b × h) ÷ 2 |
+| Parallélogramme | b × h |
+| Losange | (D × d) ÷ 2 |
+| Trapèze | (B + b) × h ÷ 2 |
+| Disque | r × r × 3,14 |
+
+Trouver une dimension : l = A ÷ L ; hauteur du triangle = A × 2 ÷ b.
+
+## Volumes
+| Solide | Volume |
+|---|---|
+| Cube | a × a × a |
+| Pavé droit | L × l × h |
+| Cylindre | r × r × 3,14 × h |
+
+## Autres formules
+- Masse brute = masse nette + tare.
+- Masse = volume (dm³) × masse volumique (kg par dm³).
+- 1 h = 60 min ; 1 min = 60 s ; 1 jour = 24 h.
+- Distance = vitesse × durée ; vitesse = distance ÷ durée ; durée = distance ÷ vitesse.
+- Volume = débit × durée ; durée = volume ÷ débit.
+
+Le budget, les prix (achat, vente, bénéfice, perte), les intérêts, les partages et la moyenne font aussi partie de la **mesure** dans le programme : ils sont regroupés dans la fiche « Problèmes ».
+
+> **Pièges fréquents**
+> - 1 m² = 100 dm² (et non 10) ; 1 m³ = 1 000 dm³.
+> - Toujours les **mêmes unités** avant de calculer (m avec m).
+> - 2 h 30 min ≠ 2,30 h : 2 h 30 min = 2,5 h = 150 min.
+> - Côté + 2 m ne veut pas dire aire + 4 m² : recalcule la nouvelle aire.
+`,
+      exercices: [
+        {
+          type: "saisie",
+          question: "Convertis 3,6 km en m.",
+          reponses: ["3 600", "3 600 m"],
+          explication: "1 km = 1 000 m : 3,6 × 1 000 = 3 600 m.",
+        },
+        {
+          type: "qcm",
+          question: "2,5 m², c'est…",
+          choix: ["25 dm²", "2 500 dm²", "250 dm²", "0,25 dm²"],
+          reponse: 2,
+          explication: "1 m² = 100 dm² : 2,5 × 100 = 250 dm².",
+        },
+        {
+          type: "saisie",
+          question: "Une citerne contient 1,5 m³ d'eau. Combien de litres ?",
+          reponses: ["1 500", "1 500 l", "1 500 litres"],
+          explication: "1 m³ = 1 000 l : 1,5 × 1 000 = 1 500 litres.",
+        },
+        {
+          type: "saisie",
+          question: "Quel est le périmètre d'un cercle de 10 m de diamètre, en m ?",
+          reponses: ["31,4", "31,4 m"],
+          explication: "P = D × 3,14 = 10 × 3,14 = 31,4 m.",
+        },
+        {
+          type: "saisie",
+          question: "Quelle est l'aire d'un triangle de 8 cm de base et 5 cm de hauteur, en cm² ?",
+          reponses: ["20", "20 cm²"],
+          explication: "A = (8 × 5) ÷ 2 = 40 ÷ 2 = 20 cm².",
+        },
+        {
+          type: "qcm",
+          question: "Quelle est l'aire d'un disque de 2 m de rayon ?",
+          choix: ["6,28 m²", "12,56 m²", "4 m²", "25,12 m²"],
+          reponse: 1,
+          explication: "A = r × r × 3,14 = 2 × 2 × 3,14 = 12,56 m². (6,28 m² : on a calculé 2 × 3,14 au lieu de 2 × 2 × 3,14.)",
+        },
+        {
+          type: "saisie",
+          question: "Quel est le volume d'un pavé droit de 4 dm de long, 3 dm de large et 2 dm de haut, en dm³ ?",
+          reponses: ["24", "24 dm³"],
+          explication: "V = 4 × 3 × 2 = 24 dm³ (soit 24 litres).",
+        },
+        {
+          type: "vf",
+          question: "1 h 50 min + 40 min = 2 h 30 min.",
+          reponse: true,
+          explication: "Vrai : 50 min + 40 min = 90 min = 1 h 30 min ; 1 h + 1 h 30 min = 2 h 30 min.",
+        },
+        {
+          type: "saisie",
+          question: "Un car roule à 60 km/h pendant 2 h 30 min. Quelle distance parcourt-il, en km ?",
+          reponses: ["150", "150 km"],
+          explication: "2 h 30 min = 2,5 h. Distance = 60 × 2,5 = 150 km (ou : 120 km en 2 h + 30 km en une demi-heure).",
+        },
+        {
+          type: "qcm",
+          question: "Un sac de mil a une masse brute de 52 kg. Le sac vide pèse 2 kg. Quelle est la masse nette ?",
+          choix: ["54 kg", "26 kg", "50 kg", "104 kg"],
+          reponse: 2,
+          explication: "Masse nette = masse brute − tare = 52 − 2 = 50 kg.",
+        },
+      ],
+    },
+    {
+      id: "fiche-problemes",
+      titre: "Fiche de révision : problèmes (méthode, commerce, intérêts, partages, moyenne)",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Méthode en 3 lignes
+1. **Lire** deux fois, repérer la question finale, trier les données (utiles, inutiles, manquantes).
+2. **Chercher** les questions intermédiaires ; poser chaque opération.
+3. **Répondre** par une phrase avec l'unité, puis **vérifier** (ordre de grandeur, preuve).
+
+- Démarche **progressive** : des données vers la question.
+- Démarche **régressive** : on part du résultat et on remonte avec les opérations inverses (+ ↔ −, × ↔ ÷).
+- Facture : montant = quantité × prix unitaire ; total = somme des montants.
+- Tableau ou graphique : lis le titre, les axes et les unités avant de prendre une valeur.
+
+## Budget et commerce
+| À calculer | Formule |
+|---|---|
+| Économies | recettes − dépenses |
+| Prix de revient (PR) | prix d'achat + frais |
+| Bénéfice | prix de vente − PR |
+| Perte | PR − prix de vente |
+| a % d'un prix | prix × a ÷ 100 |
+| Prix après remise | prix − remise |
+| Bénéfice en % | bénéfice ÷ prix d'achat (ou prix de revient, selon l'énoncé) × 100 |
+
+## Intérêts
+| Durée | Intérêt I |
+|---|---|
+| n années | C × t × n ÷ 100 |
+| m mois | C × t × m ÷ 1 200 |
+| j jours | C × t × j ÷ 36 000 (année de 360 jours) |
+
+- **Valeur acquise = capital + intérêt.**
+- Taux t % : 100 F rapportent t F en un an.
+
+## Partages et moyenne
+- Parts égales : somme ÷ nombre de parts.
+- Somme et différence : **petite part = (somme − différence) ÷ 2** ; grande part = petite + différence.
+- Le double : 1 part + 2 parts = 3 parts.
+- Partage proportionnel (2, 3, 5) : 10 parts ; une part = total ÷ 10.
+- **Moyenne = somme des valeurs ÷ nombre de valeurs.**
+
+> **Pièges fréquents**
+> - Perte = PR − PV (pas l'inverse).
+> - Une remise **se soustrait** du prix.
+> - 2 ans 6 mois = 30 mois (formule des mois).
+> - Vérifie qu'un partage redonne bien le total.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "« Awa, 11 ans, achète 4 cahiers à 300 F. Combien paie-t-elle ? » Quelle donnée est inutile ?",
+          choix: ["l'âge d'Awa", "le nombre de cahiers", "le prix d'un cahier", "aucune"],
+          reponse: 0,
+          explication: "L'âge d'Awa ne sert pas pour calculer le prix : 4 × 300 = 1 200 F.",
+        },
+        {
+          type: "saisie",
+          question: "Un commerçant achète une marchandise 12 000 F, paie 1 500 F de transport et la revend 15 000 F. Quel est son bénéfice, en F ?",
+          reponses: ["1 500", "1 500 F", "1 500 F CFA", "1 500 francs", "1500 F"],
+          explication: "PR = 12 000 + 1 500 = 13 500 F. Bénéfice = 15 000 − 13 500 = 1 500 F.",
+        },
+        {
+          type: "vf",
+          question: "Perte = prix de vente − prix de revient.",
+          reponse: false,
+          explication: "Faux : quand on vend moins cher que le prix de revient, perte = prix de revient − prix de vente.",
+        },
+        {
+          type: "saisie",
+          question: "Un pagne coûte 8 500 F. On fait une remise de 20 %. Quel prix paie-t-on, en F ?",
+          reponses: ["6 800", "6 800 F", "6 800 F CFA", "6 800 francs", "6800 F"],
+          explication: "Remise : 8 500 × 20 ÷ 100 = 1 700 F. Prix payé : 8 500 − 1 700 = 6 800 F.",
+        },
+        {
+          type: "saisie",
+          question: "Quel intérêt rapportent 100 000 F placés à 6 % pendant 2 ans, en F ?",
+          reponses: ["12 000", "12 000 F", "12 000 F CFA", "12 000 francs", "12000 F"],
+          explication: "I = 100 000 × 6 × 2 ÷ 100 = 12 000 F.",
+        },
+        {
+          type: "qcm",
+          question: "Quel intérêt rapportent 60 000 F placés à 5 % pendant 6 mois ?",
+          choix: ["3 000 F", "18 000 F", "1 500 F", "300 F"],
+          reponse: 2,
+          explication: "I = 60 000 × 5 × 6 ÷ 1 200 = 1 500 F. (En un an : 3 000 F ; en 6 mois, la moitié.)",
+        },
+        {
+          type: "saisie",
+          question: "On place 50 000 F à 4 % pendant 1 an. Quelle est la valeur acquise, en F ?",
+          reponses: ["52 000", "52 000 F", "52 000 F CFA", "52 000 francs", "52000 F"],
+          explication: "Intérêt : 50 000 × 4 ÷ 100 = 2 000 F. Valeur acquise : 50 000 + 2 000 = 52 000 F.",
+        },
+        {
+          type: "saisie",
+          question: "Deux frères ont ensemble 30 000 F. L'aîné a 6 000 F de plus que le cadet. Combien a le cadet, en F ?",
+          reponses: ["12 000", "12 000 F", "12 000 F CFA", "12 000 francs", "12000 F"],
+          explication: "(30 000 − 6 000) ÷ 2 = 12 000 F pour le cadet ; l'aîné a 18 000 F. Vérification : 12 000 + 18 000 = 30 000.",
+        },
+        {
+          type: "saisie",
+          question: "Les notes de Moussa sur 10 sont 6 ; 7 ; 8,5 ; 6,5. Quelle est sa moyenne ? (Écris le nombre seul.)",
+          reponses: ["7"],
+          explication: "Somme : 6 + 7 + 8,5 + 6,5 = 28. Moyenne : 28 ÷ 4 = 7.",
+        },
+        {
+          type: "qcm",
+          question: "Je pense à un nombre. Je le multiplie par 3, puis j'enlève 5 : je trouve 22. Quel est ce nombre ?",
+          choix: ["9", "5,67", "21", "81"],
+          reponse: 0,
+          explication: "Démarche régressive : 22 + 5 = 27 ; 27 ÷ 3 = 9. Vérification : 9 × 3 − 5 = 22.",
         },
       ],
     },

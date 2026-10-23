@@ -262,4 +262,12 @@ export default [
   ["450 mA", ["0,45 A", "450 mA"], false, true],
   ["0,07", ["7 cm", "0,07 m"], false, false],
   ["7", ["7 cm", "0,07 m"], false, true],
+  // francs CFA (CM2 Sénégal) : « F », « F CFA », « francs », collé ou non
+  ["6800 F", ["6 800 F"], false, true],
+  ["6 800 francs CFA", ["6 800 F"], false, true],
+  ["900F", ["900 F"], false, true],
+  ["12 000F", ["12 000 F"], false, true],
+  ["6800", ["6 800 F"], false, true],
+  ["6900 F", ["6 800 F"], false, false],
+  ["6 800 €", ["6 800 F"], false, false],
 ];

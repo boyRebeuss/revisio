@@ -1001,7 +1001,7 @@ Au mois de juillet, les premiers (nuages) noirs arrivent. Un soir, un gros (orag
       theme: "Production d'écrits",
       cours: `
 ## La production d'écrits au CFEE
-Au CFEE, la partie « compétence » de Langue et communication est une **production d'écrits**. On te donne une **situation** :
+D'après le guide du CFEE de 2018 (l'organisation de l'épreuve peut changer), la partie « compétence » de Langue et communication est une **production d'écrits**. On te donne une **situation** :
 - un **contexte** : ce qui se passe (par exemple : ton oncle t'a envoyé un cadeau) ;
 - une **consigne** : ce que tu dois écrire (par exemple : écris-lui une lettre pour le remercier).
 La **lettre personnelle** est un sujet très fréquent. Lis bien la consigne : **à qui** écris-tu ? **pourquoi** ?
@@ -1477,6 +1477,389 @@ Les mots de temps peuvent changer aussi : *demain* → *le lendemain* ; *aujourd
 - Verbes introducteurs au passé (*demanda, répondit, dit*) : présent → **imparfait** (*avait, n'avait plus*) ; futur → **conditionnel présent** (*recevrait, reviendrait*).
 - *demain* → **le lendemain**.
 - Plus de deux-points, de guillemets ni de point d'interrogation.` },
+      ],
+    },
+    {
+      id: "fiche-grammaire",
+      titre: "Fiche de révision : grammaire",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Comment utiliser cette fiche
+Ce n'est pas un nouveau cours : c'est le **résumé** de toute la grammaire du CM2. Relis-la la veille d'une évaluation, puis fais le quiz express. Si une ligne te paraît floue, retourne au chapitre complet.
+
+## 1. Les types et les formes de phrases
+| Type | Sert à | Se termine par | Exemple |
+|---|---|---|---|
+| **déclaratif** | dire, raconter | . | Awa lit. |
+| **interrogatif** | poser une question | ? | Lis-tu ? |
+| **exclamatif** | montrer un sentiment | ! | Quel beau livre ! |
+| **impératif** | donner un ordre, un conseil | . ou ! | Lis ce livre. |
+
+- Phrase **verbale** (avec un verbe conjugué) : « Le car part. » ; phrase **non verbale** (sans verbe conjugué) : « Quelle chaleur ! »
+- Forme **négative** : on encadre le verbe → **ne... pas**, ne... jamais, ne... plus, ne... rien, ne... personne.
+- Piège : à l'écrit, n'oublie **jamais le ne** (« Je **ne** sais **pas** »).
+
+## 2. La nature des mots (ce qu'est le mot)
+| Nature | Repère rapide | Exemples |
+|---|---|---|
+| **nom** | on peut mettre *le, la, un* devant | case, Moussa, joie |
+| **déterminant** | devant le nom | le, une, mon, ce, des, trois |
+| **adjectif** | dit comment est le nom | grand, rouge, gentille |
+| **verbe** | se conjugue | manger, je mange |
+| **pronom** | remplace un nom | il, elle, nous, le, lui, qui |
+| **adverbe** | invariable, précise le verbe | vite, bien, très, souvent, lentement |
+| **préposition** | invariable, introduit un complément | à, de, dans, sur, pour, avec, sans |
+| **conjonction de coordination** | relie deux mots ou deux phrases | mais, ou, et, donc, or, ni, car |
+
+## 3. Les fonctions (le rôle du mot dans la phrase)
+| Fonction | Question à poser | Exemple |
+|---|---|---|
+| **sujet** | Qui est-ce qui ? / Qu'est-ce qui ? + verbe | **Les pêcheurs** partent. |
+| **COD** | verbe + qui ? quoi ? (sans préposition) | Modou pêche **un poisson**. |
+| **COI** | verbe + à qui ? à quoi ? de qui ? de quoi ? | Il parle **à son père**. |
+| **attribut du sujet** | après être, sembler, paraître, devenir, rester | Le ciel **est bleu**. |
+| **CC de lieu** | où ? | Ils jouent **dans la cour**. |
+| **CC de temps** | quand ? | **Le soir**, il pleut. |
+| **CC de manière** | comment ? | Il marche **lentement**. |
+
+- Les CC se **déplacent** et se **suppriment** ; le COD et le COI, non.
+- Écris toujours le sujet ou le complément **en entier** (« les pêcheurs de Kayar », pas « pêcheurs »).
+
+## 4. Le groupe nominal
+**Déterminant + nom** (+ expansions) :
+- un **adjectif** : une case **ronde** ;
+- un **complément du nom** (avec une préposition) : la case **de mon grand-père** ;
+- une **proposition relative** (qui, que, où) : la case **où je suis né**.
+
+## 5. Phrase simple, phrase complexe
+- **1 verbe conjugué = 1 proposition**. Phrase **simple** = 1 verbe conjugué ; phrase **complexe** = plusieurs.
+- Propositions **juxtaposées** (, ; :), **coordonnées** (mais, ou, et, donc, or, ni, car), **subordonnées** (qui, que, quand, parce que, si...).
+
+## 6. Discours direct, discours indirect
+| Direct | Indirect |
+|---|---|
+| Ali dit : « **Je** suis fatigué. » | Ali dit **qu'il** est fatigué. |
+| Awa me demande : « Viens-tu ? » | Awa me demande **si** je viens. |
+| Il a dit : « Je **partirai** **demain**. » | Il a dit qu'il **partirait** **le lendemain**. |
+
+- Au discours indirect : **plus de deux-points ni de guillemets** ; les pronoms changent (je → il ou elle).
+
+> **À retenir**
+> Nature = ce qu'est le mot (nom, verbe...). Fonction = son rôle dans la phrase (sujet, COD...).
+> Sujet : qui est-ce qui ? COD : verbe + quoi ? COI : verbe + à quoi / de quoi ? CC : où, quand, comment ?
+> Autant de verbes conjugués, autant de propositions.
+`,
+      exercices: [
+        { type: "qcm", question: "« Range tes cahiers avant de sortir. » Quel est le type de cette phrase ?", choix: ["déclaratif", "interrogatif", "exclamatif", "impératif"], reponse: 3, explication: "C'est un **ordre**, sans sujet exprimé : la phrase est de type **impératif**." },
+        { type: "saisie", question: "Écris cette phrase à la forme négative avec **ne... pas** : « Awa aime le poisson. »", reponses: ["Awa n'aime pas le poisson."], explication: "On encadre le verbe : Awa **n'**aime **pas** le poisson. Devant une voyelle, *ne* devient **n'**." },
+        { type: "qcm", question: "Quelle est la nature du mot **lentement** dans « Le vieux marche lentement » ?", choix: ["un adjectif", "un adverbe", "un nom", "une préposition"], reponse: 1, explication: "*Lentement* est invariable et précise le verbe *marche* : c'est un **adverbe** (beaucoup d'adverbes se terminent par *-ment*)." },
+        { type: "saisie", question: "Écris le sujet du verbe en entier : « Chaque matin, les pêcheurs de Kayar partent en mer. »", reponses: ["les pêcheurs de Kayar"], explication: "Qui est-ce qui part ? **Les pêcheurs de Kayar**. « Chaque matin » est un CC de temps." },
+        { type: "qcm", question: "Dans « Modou a pêché un gros poisson », quelle est la fonction de **un gros poisson** ?", choix: ["sujet", "complément d'objet indirect", "complément d'objet direct", "complément circonstanciel de lieu"], reponse: 2, explication: "Modou a pêché **quoi ?** un gros poisson, sans préposition : c'est le **COD**." },
+        { type: "vf", question: "Dans « Le ciel est bleu », le mot **bleu** est attribut du sujet.", reponse: true, explication: "Vrai : *bleu* vient après le verbe **être** et dit comment est *le ciel* : c'est un **attribut du sujet**." },
+        { type: "qcm", question: "Dans « Il parle à son maître », quelle est la fonction de **à son maître** ?", choix: ["complément d'objet indirect", "complément circonstanciel de lieu", "complément d'objet direct", "attribut du sujet"], reponse: 0, explication: "Il parle **à qui ?** à son maître : le complément est introduit par *à* et ne se déplace pas : c'est un **COI**." },
+        { type: "qcm", question: "Dans « la case de mon grand-père », que sont les mots **de mon grand-père** ?", choix: ["un adjectif", "une proposition relative", "un COD", "un complément du nom"], reponse: 3, explication: "Ils complètent le nom *case* et commencent par la préposition *de* : c'est un **complément du nom**." },
+        { type: "saisie", question: "Combien de propositions y a-t-il dans cette phrase ? « Il pleut, nous restons à la maison et nous jouons aux cartes. » (Écris un nombre.)", reponses: ["3", "trois"], explication: "Il y a **3 verbes conjugués** (pleut, restons, jouons), donc **3 propositions**." },
+        { type: "qcm", question: "Fatou dit : « Je suis contente. » Quelle phrase rapporte ces paroles au discours indirect ?", choix: ["Fatou dit : qu'elle est contente.", "Fatou dit qu'elle est contente.", "Fatou dit que je suis contente.", "Fatou dit si elle est contente."], reponse: 1, explication: "On écrit **que**, sans deux-points ni guillemets, et *je* devient **elle** : Fatou dit **qu'elle est contente**." },
+      ],
+    },
+    {
+      id: "fiche-conjugaison",
+      titre: "Fiche de révision : conjugaison",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Comment utiliser cette fiche
+Voici **toutes les terminaisons** à savoir par cœur pour le CM2. Lis les tableaux à voix haute, cache-les, puis récite-les.
+
+## 1. Les trois groupes
+- **1er groupe** : infinitif en **-er** (chanter), sauf *aller*.
+- **2e groupe** : infinitif en **-ir** avec **nous ...issons** (finir → nous finissons).
+- **3e groupe** : tous les autres (être, avoir, aller, faire, prendre, venir, partir...).
+
+## 2. Les terminaisons des temps simples
+(Les terminaisons s'ajoutent au radical : chant-, fin- ; au futur et au conditionnel, à l'infinitif : chanter-, finir-.)
+
+| Temps | je | tu | il, elle | nous | vous | ils, elles |
+|---|---|---|---|---|---|---|
+| **présent** 1er gr. | e | es | e | ons | ez | ent |
+| **présent** 2e gr. | is | is | it | issons | issez | issent |
+| **imparfait** (tous) | ais | ais | ait | ions | iez | aient |
+| **futur** (tous) | ai | as | a | ons | ez | ont |
+| **conditionnel** (tous) | ais | ais | ait | ions | iez | aient |
+| **passé simple** 1er gr. | ai | as | a | âmes | âtes | èrent |
+| **passé simple** 2e gr. | is | is | it | îmes | îtes | irent |
+
+- Futur et conditionnel se construisent sur le **même radical**, souvent l'infinitif : je chanter**ai** (futur), je chanter**ais** (conditionnel) ; verbes irréguliers : j'**ir**ai / j'**ir**ais, je **fer**ai / je **fer**ais.
+- Imparfait : radical de « nous » au présent : nous finiss-ons → je finiss**ais**.
+
+## 3. Le présent des verbes du 3e groupe à connaître
+| | aller | faire | dire | prendre | venir | pouvoir | vouloir | voir |
+|---|---|---|---|---|---|---|---|---|
+| je (j') | vais | fais | dis | prends | viens | peux | veux | vois |
+| tu | vas | fais | dis | prends | viens | peux | veux | vois |
+| il, elle, on | va | fait | dit | prend | vient | peut | veut | voit |
+| nous | allons | faisons | disons | prenons | venons | pouvons | voulons | voyons |
+| vous | allez | faites | dites | prenez | venez | pouvez | voulez | voyez |
+| ils, elles | vont | font | disent | prennent | viennent | peuvent | veulent | voient |
+
+- Pièges : vous **faites**, vous **dites** (pas « faisez », « disez ») ; je **peux**, je **veux** avec un **x** ; il **prend** avec un **d**.
+- Passé simple des verbes du 3e groupe : il **fit** (faire), il **dit** (dire), il **prit** (prendre), il **vint**, ils **vinrent** (venir), il **vit** (voir) ; mais aller → il **alla** (comme le 1er groupe).
+
+## 4. Être et avoir à tous les temps
+| Temps | être | avoir |
+|---|---|---|
+| présent | je suis, nous sommes, ils sont | j'ai, nous avons, ils ont |
+| imparfait | j'étais | j'avais |
+| futur | je serai | j'aurai |
+| conditionnel | je serais | j'aurais |
+| passé simple | il fut, ils furent | il eut, ils eurent |
+| passé composé | j'ai été | j'ai eu |
+| impératif | sois, soyons, soyez | aie, ayons, ayez |
+
+## 5. Les futurs irréguliers
+| aller | faire | venir | voir | pouvoir | vouloir |
+|---|---|---|---|---|---|
+| j'irai | je ferai | je viendrai | je verrai | je pourrai | je voudrai |
+
+## 6. Les temps composés
+- **Passé composé** = *avoir* ou *être* au **présent** + participe passé : j'**ai mangé**, elle **est partie**.
+- Pour aller plus loin : **plus-que-parfait** = *avoir* ou *être* à l'**imparfait** + participe passé : j'**avais mangé**.
+- Participes passés : chanter → chant**é** ; finir → fin**i** ; prendre → pr**is** ; faire → fai**t** ; venir → ven**u** ; voir → v**u**.
+
+## 7. L'impératif
+3 personnes, **sans sujet** : chante, chantons, chantez. Au 1er groupe : **pas de s** à « tu » (Mange ! Range !). Aller : va, allons, allez.
+
+## Les pièges les plus fréquents
+| Piège | Astuce |
+|---|---|
+| je chanter**ai** (futur) / je chanter**ais** (conditionnel) | remplace par « nous » : nous chanterons → futur ; nous chanterions → conditionnel |
+| il chant**a** (passé simple) / il chant**ait** (imparfait) | l'imparfait dure (décor, habitude) ; le passé simple = action courte |
+| mang**é** ou mang**er** ? | remplace par *vendu* / *vendre* : il a vendu → **é** ; il veut vendre → **er** |
+| nous man**ge**ons, nous commen**ç**ons | on garde le son du g et du c devant o et a |
+
+> **À retenir**
+> Imparfait et conditionnel : -ais, -ais, -ait, -ions, -iez, -aient. Futur : -ai, -as, -a, -ons, -ez, -ont.
+> Passé composé = avoir ou être au présent + participe passé.
+`,
+      exercices: [
+        { type: "saisie", question: "Conjugue **jouer** à l'imparfait : « Autrefois, nous ___ sous le baobab. »", reponses: ["jouions", "nous jouions"], explication: "Imparfait : radical *jou-* + **-ions** → nous **jouions**." },
+        { type: "saisie", question: "Conjugue **aller** au futur simple : « Demain, tu ___ au marché. »", reponses: ["iras", "tu iras"], explication: "*Aller* est irrégulier au futur : j'irai, tu **iras**, il ira." },
+        { type: "qcm", question: "Conjugue **bondir** au passé simple : « Soudain, le lion ___ sur sa proie. »", choix: ["bondissa", "bondi", "bondit", "bondait"], reponse: 2, explication: "*Bondir* est du 2e groupe : au passé simple, -is, -is, **-it** → le lion **bondit**." },
+        { type: "qcm", question: "« Si j'avais de l'argent, j'___ un vélo. » Quelle forme convient ?", choix: ["achèterais", "achèterai", "achetais", "achète"], reponse: 0, explication: "Après « si + imparfait », on emploie le **conditionnel présent** : j'**achèterais** (terminaison -ais)." },
+        { type: "saisie", question: "Conjugue **partir** au passé composé : « Hier, Awa ___ à Thiès. »", reponses: ["est partie", "Awa est partie"], explication: "*Partir* se conjugue avec **être** : le participe s'accorde avec le sujet féminin → Awa **est partie**." },
+        { type: "vf", question: "À l'impératif, on écrit « Mange ta soupe ! » sans **s** à la fin de *mange*.", reponse: true, explication: "Vrai : à l'impératif, les verbes du 1er groupe n'ont **pas de s** à la 2e personne du singulier." },
+        { type: "saisie", question: "Écris la terminaison qui manque (**é** ou **er**) : « Moussa veut mang___ du riz. »", reponses: ["er", "manger"], explication: "On peut dire « Moussa veut **vendre** » : c'est l'**infinitif** → mang**er**." },
+        { type: "qcm", question: "Quelle est la forme du verbe **être** au passé simple, avec *il* ?", choix: ["il était", "il fut", "il sera", "il serait"], reponse: 1, explication: "Passé simple : il **fut**. *Était* = imparfait, *sera* = futur, *serait* = conditionnel." },
+        { type: "saisie", question: "Conjugue **finir** au présent : « Nous ___ nos devoirs. »", reponses: ["finissons", "nous finissons"], explication: "2e groupe : nous fin**issons**, avec **-iss-**." },
+        { type: "qcm", question: "« Les enfants chantaient sous l'arbre. » À quel temps est le verbe ?", choix: ["au passé simple", "au conditionnel présent", "au futur simple", "à l'imparfait"], reponse: 3, explication: "Terminaison **-aient** sans infinitif devant (chant-aient) : c'est l'**imparfait**. Au conditionnel, on aurait *chanteraient*." },
+        { type: "saisie", question: "Conjugue **faire** au présent : « Vous ___ vos exercices. »", reponses: ["faites", "vous faites"], explication: "*Faire* est du 3e groupe : vous **faites** (comme vous *dites*), jamais « vous faisez »." },
+        { type: "qcm", question: "Conjugue **prendre** au présent : « Les élèves ___ le car à sept heures. »", choix: ["prendent", "prennent", "prenent", "prend"], reponse: 1, explication: "*Prendre* : je prends, nous prenons, ils **prennent** (avec deux **n**)." },
+        { type: "saisie", question: "Conjugue **pouvoir** au présent : « Je ___ t'aider. »", reponses: ["peux", "je peux"], explication: "*Pouvoir* : je **peux**, tu peux (avec un **x**), il peut (avec un **t**)." },
+        { type: "qcm", question: "Conjugue **venir** au passé simple : « Le soir, le griot ___ au village. »", choix: ["venit", "vena", "vint", "venait"], reponse: 2, explication: "Passé simple de *venir* : il **vint**, ils vinrent. *Venait* est l'imparfait." },
+      ],
+    },
+    {
+      id: "fiche-orthographe-vocabulaire",
+      titre: "Fiche de révision : orthographe et vocabulaire",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Comment utiliser cette fiche
+Les règles d'accord, les homophones et les mots de vocabulaire à connaître, en un seul endroit. Apprends les **astuces** : ce sont elles qui t'aident le jour de l'examen.
+
+## 1. Les accords
+| Accord | Règle | Exemple |
+|---|---|---|
+| **verbe et sujet** | le verbe prend la personne et le nombre du sujet | Les filles de ma voisine **chantent**. |
+| plusieurs sujets | pluriel | Awa et Binta **préparent** le repas. |
+| sujet **on** | comme *il* | On **mange**. |
+| **dans le groupe nominal** | déterminant, nom et adjectif ont le même genre et le même nombre | de **grandes** case**s** ronde**s** |
+| participe passé avec **être** | s'accorde avec le sujet | Les filles sont parti**es**. |
+| participe passé avec **avoir** | ne s'accorde **pas** avec le sujet | Les filles ont **mangé**. |
+
+## 2. Le pluriel des noms
+| Le nom se termine par | Pluriel | Exceptions à savoir |
+|---|---|---|
+| (cas général) | **+ s** | un arbre → des arbres |
+| -s, -x, -z | ne change pas | un repas, une noix, un nez |
+| -au, -eau, -eu | **+ x** | pneus, bleus |
+| -al | **-aux** (un cheval → des chevaux) | bals, festivals, carnavals, chacals |
+| -ou | **+ s** | 7 en -oux : bijoux, cailloux, choux, genoux, hiboux, joujoux, poux |
+| -ail | **+ s** | travaux, vitraux, coraux |
+
+## 3. Le féminin
+| Masculin | Féminin | Exemple |
+|---|---|---|
+| (cas général) | + e | grand → grande |
+| -er | -ère | fier → fière ; boulanger → boulangère |
+| -eux | -euse | courageux → courageuse |
+| -if | -ive | sportif → sportive |
+| -on, -en, -el | consonne doublée + e | bon → bonne, ancien → ancienne, cruel → cruelle |
+| -eur | -euse ou -trice | vendeur → vendeuse ; directeur → directrice |
+
+- Devant **m, b, p**, on écrit **m** et non n : ca**m**pagne, no**m**bre, e**m**mener.
+
+## 4. Les homophones et leur astuce
+| Homophones | Je remplace par... |
+|---|---|
+| a / à | **avait** → a ; sinon à |
+| est / et | **était** → est ; **et puis** → et |
+| son / sont | **étaient** → sont ; **mon** → son |
+| on / ont | **avaient** → ont ; **il** → on |
+| ou / où | **ou bien** → ou ; lieu ou temps → où |
+| ce / se | **cette** → ce ; **me** (je me lave) → se |
+| ces / ses | **mes** → ses ; **ces ...-là** → ces |
+| c'est / s'est | **cela est** → c'est ; **je me suis** → s'est |
+| la / l'a / là | **une** → la ; **l'avait** → l'a ; **ici** → là |
+| mais / mes | **pourtant** → mais ; **tes** → mes |
+| peu / peut / peux | **pouvait** → peut, peux ; **pas beaucoup** → peu |
+
+## 5. Le vocabulaire
+| Notion | Ce que c'est | Exemple |
+|---|---|---|
+| **famille de mots** | mots formés sur le même radical | terre, terrain, enterrer |
+| **préfixe** | avant le radical | **re**faire, **im**possible, **dé**faire |
+| **suffixe** | après le radical | jardin**ier**, lente**ment** |
+| **synonymes** | même sens | content = joyeux |
+| **contraires** | sens opposé | propre ≠ sale |
+| **sens propre / figuré** | sens concret / sens imagé | un cœur qui bat / avoir un cœur d'or |
+| **champ lexical** | mots d'un même thème | la mer : vague, pirogue, filet, pêcheur |
+| **niveaux de langue** | familier / courant / soutenu | bouffer / manger / se restaurer |
+
+- Dans le dictionnaire, les mots sont rangés par **ordre alphabétique** ; abréviations : *n.* nom, *v.* verbe, *adj.* adjectif.
+- Dans tes rédactions, écris en langage **courant** ou **soutenu**, jamais familier.
+
+> **À retenir**
+> Avec être, j'accorde avec le sujet ; avec avoir, je n'accorde pas avec le sujet.
+> Pour un homophone, je remplace : a → avait, est → était, sont → étaient, ont → avaient, ses → mes.
+`,
+      exercices: [
+        { type: "qcm", question: "Quel est le pluriel de **un cheval** ?", choix: ["des chevals", "des chevaux", "des chevaus", "des chevales"], reponse: 1, explication: "Les noms en **-al** font leur pluriel en **-aux** : des **chevaux** (sauf bal, festival, carnaval, chacal...)." },
+        { type: "saisie", question: "Écris le pluriel de **un caillou**.", reponses: ["des cailloux", "cailloux"], explication: "*Caillou* fait partie des **7 noms en -ou** qui prennent un **x** : bijoux, cailloux, choux, genoux, hiboux, joujoux, poux." },
+        { type: "saisie", question: "Complète par **son** ou **sont** : « Les enfants ___ contents de la fête. »", reponses: ["sont"], explication: "On peut dire « les enfants **étaient** contents » : c'est le verbe être → **sont**." },
+        { type: "qcm", question: "Quelle phrase est correctement écrite ?", choix: ["Moussa et parti a Dakar.", "Moussa est parti a Dakar.", "Moussa et parti à Dakar.", "Moussa est parti à Dakar."], reponse: 3, explication: "« Moussa **était** parti » → **est** ; « avait Dakar » ne veut rien dire → préposition **à**, avec un accent." },
+        { type: "saisie", question: "Écris le féminin de l'adjectif **courageux** : « une fille ___ ».", reponses: ["courageuse", "une fille courageuse"], explication: "Les adjectifs en **-eux** font leur féminin en **-euse** : courageuse." },
+        { type: "vf", question: "On écrit correctement : « Les filles ont mangées le riz. »", reponse: false, explication: "Faux : avec **avoir**, le participe passé ne s'accorde **pas** avec le sujet. On écrit : « Les filles ont **mangé** le riz. »" },
+        { type: "saisie", question: "Conjugue **chanter** au présent : « Les filles de ma voisine ___ très bien. »", reponses: ["chantent", "les filles de ma voisine chantent"], explication: "Qui est-ce qui chante ? **les filles** (pas *ma voisine*) : sujet pluriel → **chantent**." },
+        { type: "qcm", question: "Quel mot n'appartient **pas** à la famille de **terre** ?", choix: ["terrain", "enterrer", "terrible", "territoire"], reponse: 2, explication: "*Terrible* vient de *terreur* (avoir très peur), pas de *terre*. Terrain, enterrer, territoire ont le radical **terr-** de *terre*." },
+        { type: "qcm", question: "« Ma bagnole est en panne. » À quel niveau de langue appartient le mot **bagnole** ?", choix: ["soutenu", "courant", "familier", "on ne peut pas savoir"], reponse: 2, explication: "*Bagnole* est **familier** ; en langage courant, on dit *voiture*. À l'examen, évite le familier." },
+        { type: "saisie", question: "Écris le mot en entier avec **m** ou **n** : « une ca_pagne ».", reponses: ["campagne"], explication: "Devant **p**, on écrit **m** : ca**m**pagne (comme no**m**bre, ja**m**be)." },
+      ],
+    },
+    {
+      id: "fiche-lecture-ecriture",
+      titre: "Fiche de révision : compréhension de texte et production d'écrits",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Comment utiliser cette fiche
+La méthode pour le texte et les questions, les plans types des rédactions, et la liste à cocher avant de rendre ta copie.
+
+## 1. Comprendre un texte : la méthode
+1. Lis le **titre**, puis **tout le texte** une première fois.
+2. Lis **les questions** : tu sais ce que tu cherches.
+3. **Relis** et souligne au crayon la phrase utile.
+4. Réponds par une **phrase complète** qui reprend les mots de la question.
+
+| Sorte de question | Ce qu'on attend | Astuce |
+|---|---|---|
+| **repérage** (qui ? où ? quand ?) | la réponse est écrite dans le texte | cherche le mot de la question dans le texte |
+| **déduction** (pourquoi ? que ressent-il ?) | la réponse n'est pas écrite mot pour mot | appuie-toi sur un indice du texte |
+| **vocabulaire** | le sens d'un mot | relis la phrase entière, remplace par un synonyme |
+| **justifier, relever** | une preuve | recopie les mots du texte **entre guillemets** |
+| **ton avis** | ce que tu penses | « Je pense que... car... » |
+
+| Type de texte | Il sert à... |
+|---|---|
+| **narratif** | raconter une histoire (conte, récit) |
+| **descriptif** | montrer un lieu, une personne |
+| **documentaire** | informer, expliquer |
+| **injonctif** | dire quoi faire (recette, règlement) |
+| **poétique** | jouer avec les mots et les sons |
+
+## 2. La situation d'intégration (rédaction)
+On te donne un **contexte** (ce qui se passe) et une **consigne** (ce que tu dois écrire). Avant d'écrire, réponds à 5 questions : **Qui** écrit ? **À qui** ? **Pourquoi** ? **Quel type** de texte ? **Quelle longueur** et quel **temps** ?
+
+## 3. Les plans types
+### La lettre personnelle
+| Partie | Contenu |
+|---|---|
+| lieu et date | en haut à droite : Kaolack, le 12 mars 2027 |
+| formule d'appel | Cher oncle, / Chère Awa, |
+| paragraphe 1 | salutations et nouvelles |
+| paragraphe 2 | la raison de la lettre (ce que demande la consigne) |
+| paragraphe 3 | les détails, les exemples |
+| paragraphe 4 | conclusion : souhait, promesse, salutations à transmettre |
+| formule finale et signature | Je t'embrasse. — ton prénom |
+
+- **Tu** ou **vous** : choisis, et ne mélange pas.
+
+### Le récit
+| Partie | Contenu | Mots utiles |
+|---|---|---|
+| introduction | situation initiale : qui ? où ? quand ? | Un jour, Ce matin-là |
+| développement | élément déclencheur et péripéties | Soudain, Alors, Ensuite |
+| conclusion | dénouement, situation finale, ce que tu as ressenti | Finalement, Enfin |
+
+- Temps : **passé composé** et **imparfait**, ou **passé simple** et **imparfait**, sans changer en route.
+
+### La description et le portrait
+- Dis d'abord **ce que tu décris**, puis suis un **ordre** : de loin à près, de haut en bas, de gauche à droite.
+- Utilise des **adjectifs**, des **mots de lieu** (devant, au fond, à côté) et **plusieurs sens** (vue, ouïe, odorat, toucher, goût).
+- Portrait : l'**aspect physique**, puis le **caractère** (avec un exemple d'action). Termine par ton **impression**.
+- Temps : le **présent** (ou l'imparfait dans un récit au passé).
+
+### Le dialogue
+- Une phrase de présentation, puis **deux-points** et **guillemets ouvrants** : Awa demanda : « Où vas-tu ?
+- Un **tiret** et un retour à la ligne à chaque **changement de personnage** : — Au marché, répondit Moussa.
+- Le **guillemet fermant** ( » ) se met une seule fois, à la fin de la **dernière** réplique.
+- Varie les **verbes de parole** : demanda, répondit, s'écria, murmura, expliqua.
+
+## 4. Avant de rendre ta copie : la liste à cocher
+- J'ai respecté la **consigne** : le bon destinataire, le bon sujet, le bon type de texte, la longueur demandée.
+- Mon texte a un **début**, un **milieu** et une **fin**, en **paragraphes**.
+- Chaque phrase commence par une **majuscule** et finit par un **point**.
+- J'ai vérifié les **accords** : sujet et verbe, nom et adjectif, participe passé avec être.
+- Mes **temps** ne changent pas sans raison.
+- J'ai vérifié les **homophones** (a / à, et / est, son / sont, on / ont).
+- Lettre : lieu et date, formule d'appel, formule finale, signature ; je n'ai pas mélangé tu et vous.
+- Mon écriture est **lisible**, sans ratures.
+
+Pour la correction, on regarde en général : le respect de la consigne, l'ordre des idées, la correction de la langue et la présentation (critères habituels ; le barème exact peut changer).
+
+> **À retenir**
+> Questions : phrase complète + preuve du texte entre guillemets.
+> Rédaction : lis la consigne (qui, à qui, pourquoi), fais un plan, écris un brouillon, relis avec la liste.
+`,
+      exercices: [
+        { type: "qcm", question: "La question est : « Où Modou est-il allé pêcher ? » Quelle réponse est la mieux rédigée ?", choix: ["À Kayar.", "Modou est allé pêcher en mer, au large de Kayar.", "Kayar", "il est allé"], reponse: 1, explication: "On répond par une **phrase complète** qui reprend les mots de la question, avec une majuscule et un point." },
+        { type: "vf", question: "Quand une question demande de **relever** un passage, on recopie les mots du texte entre guillemets.", reponse: true, explication: "Vrai : *relever* veut dire recopier exactement les mots du texte, entre **guillemets**." },
+        { type: "qcm", question: "Un texte explique comment préparer le thiéboudienne, étape par étape. C'est un texte :", choix: ["narratif", "poétique", "descriptif", "injonctif"], reponse: 3, explication: "Il dit **ce qu'il faut faire** (comme une recette) : c'est un texte **injonctif**, souvent avec des verbes à l'impératif ou à l'infinitif." },
+        { type: "saisie", question: "Dans une lettre, comment s'appelle la partie « Cher oncle, » écrite à gauche au début ? (deux ou trois mots)", reponses: ["la formule d'appel", "formule d'appel"], explication: "C'est la **formule d'appel**, suivie d'une virgule. À la fin, on écrit la **formule finale** puis la signature." },
+        { type: "qcm", question: "Où écrit-on le lieu et la date dans une lettre personnelle ?", choix: ["en haut, à droite", "en bas, à gauche", "juste avant la signature", "on ne les écrit pas"], reponse: 0, explication: "Le lieu et la date se placent **en haut, à droite** : « Kaolack, le 12 mars 2027 »." },
+        { type: "qcm", question: "Dans un récit, quelle partie suit directement la situation initiale ?", choix: ["le dénouement", "la situation finale", "l'élément déclencheur", "la morale"], reponse: 2, explication: "Ordre du récit : situation initiale → **élément déclencheur** → péripéties → dénouement → situation finale." },
+        { type: "vf", question: "Dans un dialogue, on met un tiret à chaque fois qu'un nouveau personnage prend la parole.", reponse: true, explication: "Vrai : un **tiret** et un retour à la ligne marquent chaque **changement de personnage**." },
+        { type: "qcm", question: "Ta consigne : « Décris ton marché un jour d'affluence. » Quel conseil est **faux** ?", choix: ["Suivre un ordre, par exemple de l'entrée vers le fond.", "Utiliser plusieurs sens : les bruits, les odeurs, les couleurs.", "Employer surtout des mots familiers pour faire vivant.", "Utiliser des adjectifs et des mots de lieu."], reponse: 2, explication: "À l'examen, on écrit en langage **courant** ou **soutenu**, jamais familier. Les trois autres conseils sont justes." },
+        { type: "saisie", question: "Dans la situation d'intégration, on te donne un **contexte** et une... ? (un mot)", reponses: ["consigne", "une consigne"], explication: "Contexte = ce qui se passe ; **consigne** = ce que tu dois écrire. Lis la consigne deux fois." },
+        { type: "redaction", question: "**Situation d'intégration (type CFEE)**\n**Contexte** : Tu as écrit cette lettre très vite : « dakar le 3 mai 2027 / cher Pape / je vais bien. Les vacance arrive et je veux que tu vient chez nous. Venez avec tes frères. a bientôt »\n**Consigne** : Avec la liste à cocher de la fiche, trouve au moins cinq erreurs, puis récris la lettre correctement.", corrige: `**Erreurs repérées**
+- Majuscules oubliées : *Dakar*, *Cher*, *À bientôt*.
+- Virgules oubliées : après *Dakar* et après *Cher Pape*.
+- Accords : « Les **vacances arrivent** » (nom toujours au pluriel, verbe au pluriel).
+- Conjugaison : « que tu vient » est faux ; le plus simple est d'écrire « je t'**invite à venir** » (pour aller plus loin : « je veux que tu **viennes** », au subjonctif).
+- Mélange de *tu* et *vous* : « Venez » → « **Viens** avec tes frères ».
+- Il manque la formule finale et la signature.
+
+**Lettre corrigée**
+~~~
+                        Dakar, le 3 mai 2027
+Cher Pape,
+
+   Comment vas-tu ? Ici, tout le monde va bien.
+   Les vacances arrivent et je t'invite à venir
+   chez nous. Viens avec tes frères : nous irons
+   ensemble à la plage.
+
+   À bientôt, je t'embrasse.
+                        Ton ami,
+                        Ousmane
+~~~` },
       ],
     },
   ],

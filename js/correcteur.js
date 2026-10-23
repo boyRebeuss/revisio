@@ -191,9 +191,9 @@ function nombre(s) {
     .replace(/^(\d+(?:\.\d+)?)([⁰¹²³⁴⁵⁶⁷⁸⁹]+)$/, (m, b, e) => b + "^" + [...e].map((c) => "⁰¹²³⁴⁵⁶⁷⁸⁹".indexOf(c)).join(""))
     .replace(/^(\d+(?:\.\d+)?)\s*\^\s*(\d{1,2})$/, (m, b, e) => String(Math.pow(parseFloat(b), parseInt(e, 10))))
     .replace(/^\+/, "").replace(/(\d)(?:st|nd|rd|th|er|re|e|eme|ème|º|ª)(?=\s|$)/g, "$1").replace(/(\d)\s+(?=\d{3}(?!\d))/g, "$1").replace(/\s*pour\s*cents?\b|\s*pourcents?\b|\s*percent\b/g, " %");
-  // Unité permise : %, symbole, h/s/m/g/l/j, ou mot de 2 lettres ou plus
+  // Unité permise : %, symbole, h/s/m/g/l/j/f (franc CFA), ou mot de 2 lettres ou plus
   // (une lettre seule est une variable : « 6x » n'est pas le nombre 6)
-  const m = t.match(/^(-?\d+(?:\.\d+)?(?:e-?\d+)?)(?:\s*\/\s*(\d+(?:\.\d+)?))?\s*(%[\p{L}\s']*|[°€$£µω][\p{L}\/²³.\s]*|[hsmgljnvw]|\p{L}[\p{L}\/²³.'\s]+)?$/u);
+  const m = t.match(/^(-?\d+(?:\.\d+)?(?:e-?\d+)?)(?:\s*\/\s*(\d+(?:\.\d+)?))?\s*(%[\p{L}\s']*|[°€$£µω][\p{L}\/²³.\s]*|[hsmgljnvwf]|\p{L}[\p{L}\/²³.'\s]+)?$/u);
   if (!m) return null;
   if (/^(π|pi\b)/.test((m[3] || "").trim())) return null;
   const v = m[2] ? parseFloat(m[1]) / parseFloat(m[2]) : parseFloat(m[1]);
@@ -213,7 +213,7 @@ function nombre(s) {
 
 // Unités équivalentes (le pluriel et le point final sont ignorés)
 const SYNONYMES = [
-  ["€", "euro", "eur"], ["$", "dollar", "usd"], ["h", "heure", "hour", "hr"], ["min", "minute", "mn"],
+  ["€", "euro", "eur"], ["f", "franc", "fcfa", "f cfa", "franc cfa", "francs cfa", "cfa", "f.cfa"], ["$", "dollar", "usd"], ["h", "heure", "hour", "hr"], ["min", "minute", "mn"],
   ["°c", "°", "degre", "degre celsius", "degres celsius", "celsius"], ["s", "seconde", "second", "sec"], ["pt", "point"], ["an", "annee", "year", "ano"], ["°", "degre", "degree", "grado"],
   ["km", "kilometre", "kilometer"], ["m", "metre", "meter"], ["g", "gramme", "gram"], ["kg", "kilogramme", "kilo"],
   ["l", "litre", "liter"], ["j", "jour", "day"], ["j", "joule"], ["kj", "kilojoule"], ["n", "newton"], ["v", "volt"],

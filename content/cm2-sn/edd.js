@@ -877,7 +877,9 @@ Numéro des sapeurs-pompiers : **18**.
       theme: "Préparer le CFEE",
       cours: `
 ## 1. Comment est faite l'épreuve ?
-Au CFEE, l'**Éducation au développement durable** (EDD) est notée **sur 40 points**. Elle a deux parties :
+Depuis 2026, le **concours d'entrée en 6e est supprimé** : le **CFEE** est le **seul examen** de la fin du CM2. Tu es admis si tu as **au moins 5 sur 10 de moyenne** sur l'ensemble des épreuves.
+
+D'après le **guide du CFEE de 2018** (le barème peut changer), l'**Éducation au développement durable** (EDD) est notée **sur 40 points**. Elle a deux parties :
 - le **contrôle des ressources** : des questions sur ce que tu as appris en **Vivre ensemble** (droits, commune, institutions, symboles, paix…) et en **Vivre dans son milieu** (santé, eau, déchets, environnement, sécurité…) ;
 - le **contrôle de la compétence** : une **situation d'intégration** sur **Vivre dans son milieu**.
 
@@ -916,7 +918,8 @@ Les consignes les plus fréquentes :
 - Utiliser ses connaissances, mais **rester dans le sujet** du contexte.
 
 > **À retenir** :
-> - EDD au CFEE : /40 ; ressources (Vivre ensemble et Vivre dans son milieu) + situation d'intégration (Vivre dans son milieu).
+> - Depuis 2026 : plus de concours d'entrée en 6e ; le CFEE est le seul examen ; admis avec au moins 5/10 de moyenne.
+> - EDD au CFEE (guide de 2018, le barème peut changer) : /40 ; ressources (Vivre ensemble et Vivre dans son milieu) + situation d'intégration (Vivre dans son milieu).
 > - Situation d'intégration = contexte + consignes.
 > - Méthode : lire, souligner le problème et les indices, repérer le verbe de chaque consigne, répondre consigne par consigne.
 > - Des solutions précises et réalistes : qui fait quoi.
@@ -930,7 +933,7 @@ Les consignes les plus fréquentes :
         { type: "qcm", question: "La consigne dit : « Explique les causes de la maladie. » Que dois-tu écrire ?", choix: ["Des solutions pour guérir", "Pourquoi la maladie apparaît, avec les indices du contexte", "Le nom du médecin", "Un dessin"], reponse: 1, explication: "**Expliquer les causes**, c'est dire **pourquoi** le problème existe." },
         { type: "vf", question: "Au CFEE, la situation d'intégration d'EDD porte sur « Vivre dans son milieu ».", reponse: true, explication: "Les ressources portent sur **Vivre ensemble** et **Vivre dans son milieu** ; la compétence (situation d'intégration) sur **Vivre dans son milieu**." },
         { type: "qcm", question: "Quelle solution est précise (on sait qui fait quoi) ?", choix: ["Il faut que ça change.", "Il faut protéger l'environnement.", "Chaque classe arrose ses arbres à tour de rôle le mercredi.", "Tout le monde doit être gentil."], reponse: 2, explication: "On sait **qui** (chaque classe), **quoi** (arroser) et **quand** (le mercredi)." },
-        { type: "saisie", question: "Sur combien de points l'épreuve d'EDD est-elle notée au CFEE ?", reponses: ["40", "quarante", "40 points", "sur 40"], explication: "L'épreuve d'EDD est notée **sur 40**." },
+        { type: "saisie", question: "D'après le guide du CFEE de 2018, sur combien de points l'épreuve d'EDD est-elle notée au CFEE ?", reponses: ["40", "quarante", "40 points", "sur 40", "sur 40 points"], explication: "D'après le guide de 2018, l'épreuve d'EDD est notée **sur 40** (ce barème peut changer)." },
         { type: "redaction", question: "**Situation d'intégration**\n\n*Contexte* : chaque lundi, c'est le jour du marché hebdomadaire (loumo) dans ton village. Les vendeuses de beignets posent leurs plats à côté d'un tas d'ordures. Il n'y a ni toilettes ni point d'eau pour se laver les mains. Les mouches sont partout. Le mardi, plusieurs enfants ont la diarrhée.\n\n*Consigne 1* : nomme le problème de santé et explique ses causes.\n\n*Consigne 2* : propose trois actions que la commune, les vendeuses et les élèves peuvent mener.", corrige: `**Consigne 1** : le problème est la **diarrhée** causée par le **manque d'hygiène** au marché. Les mouches se posent sur les ordures puis sur les beignets non couverts : elles y déposent des microbes. Sans toilettes ni point d'eau, les gens ne peuvent pas se laver les mains au savon. Les enfants mangent ces beignets et tombent malades.
 **Consigne 2** :
 1. **La commune** installe des toilettes, un point d'eau et des poubelles au marché, et fait enlever les ordures après chaque loumo.
@@ -942,6 +945,176 @@ Les consignes les plus fréquentes :
 **Consigne 2** :
 - Conseils aux élèves : 1. marcher sur le bord de la route, face aux voitures ; 2. avant de traverser, s'arrêter, regarder à gauche, à droite, puis encore à gauche, et traverser tout droit sans courir quand aucun véhicule n'arrive ; 3. ne jamais jouer au ballon au bord de la route.
 - Action du directeur : demander à la commune de faire tracer un passage piéton et poser des panneaux « danger, école » (ou des ralentisseurs) devant l'école.` },
+      ],
+    },
+    {
+      id: "fiche-vivre-ensemble",
+      titre: "Fiche de révision : Vivre ensemble",
+      theme: "Fiches de révision CFEE",
+      cours: `
+Cette fiche résume **tout le thème Vivre ensemble**. Pour le détail, revois les chapitres du thème.
+
+## 1. Les symboles de la République
+| Symbole | Ce qu'il faut savoir |
+|---|---|
+| Drapeau | vert, or, rouge (bandes verticales) ; **étoile verte** à 5 branches sur la bande or |
+| Devise | « Un Peuple – Un But – Une Foi » |
+| Hymne | « Le Lion rouge », paroles de **Léopold Sédar Senghor** |
+| Armoiries | un **lion** et un **baobab** |
+| Fête nationale | **4 avril** (indépendance en **1960**) |
+
+## 2. Les institutions
+| Pouvoir | Qui ? | Rôle |
+|---|---|---|
+| Exécutif | Président + Gouvernement | diriger, appliquer les lois |
+| Législatif | Assemblée nationale (députés) | **voter** les lois |
+| Judiciaire | les juges | juger |
+
+- **Constitution** (2001) : la loi la plus importante.
+- **Président** : élu par le peuple pour **5 ans**, **2 mandats consécutifs** au plus ; il lui faut **plus de la moitié des voix**, sinon 2e tour.
+- **Premier ministre** : **nommé** par le Président. **Députés** : élus pour 5 ans.
+- **Conseil constitutionnel** : vérifie que les lois respectent la Constitution.
+
+## 3. Le territoire
+- **14 régions** → départements → arrondissements → communes.
+- Collectivités territoriales (élues) : le **département** et la **commune**.
+- **Maire** : élu directement par les électeurs. **Gouverneur**, **préfet**, **sous-préfet** : **nommés** par l'État.
+- La commune : état civil, propreté, marchés, éclairage.
+
+## 4. Droits et devoirs
+- **Enfant** = moins de **18 ans**. Textes : Convention relative aux droits de l'enfant (ONU, **1989**), Charte africaine des droits et du bien-être de l'enfant (**1990**).
+- Droits : nom, éducation, santé, alimentation, protection, loisirs, expression.
+- Devoirs : respecter les autres, bien travailler, aider, respecter les biens publics.
+- École **obligatoire de 6 à 16 ans** ; loi sur la **parité** (2010).
+- **Citoyen** : vote à **18 ans** ; vote **secret** (isoloir, urne) et **personnel**.
+- **Famille** restreinte (parents, enfants) ou élargie (grands-parents, oncles, cousins…) : respect, dialogue, partage.
+- **École** : le **règlement intérieur** fixe les règles (une faute → une sanction juste) ; le **gouvernement scolaire** est élu par les élèves.
+
+## 5. Les organisations
+| Organisation | Année | Siège |
+|---|---|---|
+| CEDEAO (libre circulation) | 1975 | Abuja |
+| UEMOA (franc CFA, 8 pays) | 1994 | Ouagadougou |
+| Union africaine | 2002 | Addis-Abeba |
+| ONU (paix mondiale) | 1945 | New York |
+
+Agences de l'ONU : **UNICEF** (enfants), **OMS** (santé), **FAO** (alimentation), **UNESCO** (éducation, culture).
+
+## 6. Mots à connaître
+- **Tolérance** : respecter ceux qui sont différents.
+- **Solidarité** : s'entraider. **Teranga** : hospitalité.
+- **Médiateur** : aide deux personnes en dispute à s'entendre.
+- **Discrimination** : traiter quelqu'un moins bien à cause de ce qu'il est.
+- **Stéréotype** : idée toute faite, souvent fausse.
+
+## Pièges fréquents
+- Les lois sont votées par les **députés**, pas par le Président.
+- Le maire est **élu** ; le gouverneur est **nommé**.
+- L'étoile est **verte**, pas jaune.
+- UEMOA = **monnaie** ; CEDEAO = **libre circulation**.
+- L'UA siège à **Addis-Abeba**, la CEDEAO à **Abuja** : aucune des deux à Dakar.
+`,
+      exercices: [
+        { type: "qcm", question: "Quelles sont les couleurs du drapeau du Sénégal, en partant du mât ?", choix: ["Rouge, or, vert", "Vert, rouge, or", "Vert, or, rouge", "Or, vert, rouge"], reponse: 2, explication: "**Vert, or, rouge**, avec l'étoile verte au centre." },
+        { type: "vf", question: "Le Premier ministre est élu par le peuple.", reponse: false, explication: "Il est **nommé** par le Président." },
+        { type: "saisie", question: "Comment appelle-t-on le pouvoir qui vote les lois ?", reponses: ["législatif", "le législatif", "pouvoir législatif", "le pouvoir législatif"], explication: "C'est le pouvoir **législatif** (les députés)." },
+        { type: "qcm", question: "Lequel de ces responsables est nommé par l'État ?", choix: ["Le maire", "Le gouverneur", "Un député", "Un conseiller municipal"], reponse: 1, explication: "Le **gouverneur** est nommé ; les autres sont élus." },
+        { type: "saisie", question: "Dans quelle ville se trouve le siège de la CEDEAO ?", reponses: ["Abuja"], explication: "Le siège de la CEDEAO est à **Abuja** (Nigeria)." },
+        { type: "qcm", question: "Pour être élu Président au premier tour, un candidat doit avoir…", choix: ["plus de la moitié des voix", "le quart des voix", "les voix des députés", "les voix de sa région"], reponse: 0, explication: "Il faut **plus de la moitié des voix**, sinon il y a un 2e tour." },
+        { type: "vf", question: "Une jeune fille de 17 ans est encore une enfant selon la Convention relative aux droits de l'enfant.", reponse: true, explication: "Un enfant a **moins de 18 ans**." },
+        { type: "qcm", question: "Quelle organisation est liée au franc CFA ?", choix: ["L'ONU", "L'UNICEF", "L'Union africaine", "L'UEMOA"], reponse: 3, explication: "L'**UEMOA** : 8 pays, une même monnaie." },
+        { type: "saisie", question: "Quel jour célèbre-t-on la fête de l'indépendance du Sénégal ?", reponses: ["4 avril", "le 4 avril", "quatre avril", "le quatre avril", "4 avril 1960", "le 4 avril 1960"], explication: "Le **4 avril**." },
+        { type: "qcm", question: "Bien accueillir l'étranger et partager avec lui, c'est…", choix: ["la parité", "la teranga", "la discrimination", "la médiation"], reponse: 1, explication: "La **teranga**, l'hospitalité sénégalaise." },
+      ],
+    },
+    {
+      id: "fiche-vivre-dans-son-milieu",
+      titre: "Fiche de révision : Vivre dans son milieu",
+      theme: "Fiches de révision CFEE",
+      cours: `
+Cette fiche résume **tout le thème Vivre dans son milieu**. Au CFEE, la **situation d'intégration** porte sur ce thème : revois aussi la méthode du chapitre « Réussir l'épreuve d'EDD au CFEE ».
+
+## 1. Hygiène et santé
+- Se laver le corps chaque jour, les **mains au savon** (avant de manger, après les toilettes), les dents après les repas.
+
+| Maladie | Comment on l'attrape | Comment l'éviter |
+|---|---|---|
+| Paludisme | piqûre de moustique | **moustiquaire imprégnée**, pas d'eaux stagnantes |
+| Diarrhée, choléra | eau, aliments ou mains sales | eau potable, lavage des mains, latrines |
+| Bilharziose | baignade dans les mares | ne pas s'y baigner |
+| Rougeole, polio | contagion | **vaccination** |
+
+Malade ? Va au **poste de santé**, jamais à la « pharmacie par terre ».
+
+## 2. Alimentation
+| Groupe | Rôle | Exemples |
+|---|---|---|
+| Énergétiques | la force | riz, mil, pain, huile |
+| Bâtisseurs | grandir | poisson, viande, œufs, lait, niébé |
+| Protecteurs | se protéger | fruits, légumes |
+
+**Repas équilibré** = un aliment de chaque groupe (ex. thiéboudieune). Pas assez à manger ou pas assez varié → **malnutrition**.
+
+## 3. Eau potable
+- **Potable** = qu'on peut boire sans danger. Une eau **claire** n'est **pas forcément** potable.
+- Filtrer, **faire bouillir** ou javelliser ; **couvrir** le canari ; protéger le puits (margelle, couvercle, loin des latrines).
+- Économiser : fermer les robinets, réparer les fuites.
+
+## 4. Déchets et assainissement
+- **Assainissement** = rendre le milieu sain : latrines, eaux usées évacuées, poubelles, **set setal**.
+- Le **plastique** reste des centaines d'années ; le brûler donne une fumée **toxique**.
+- **Compost** : avec les épluchures et restes de repas.
+- **Réduire** (panier au marché), **réutiliser** (bouteilles), **recycler** (sandales en plastique recyclé).
+- **Pollution** : salir l'air, l'eau ou le sol.
+
+## 5. Environnement
+- **Désertification** = dégradation des terres sèches.
+- Causes naturelles : sécheresse, vent, chaleur. Causes humaines : coupe des arbres, **feux de brousse**, **surpâturage**.
+- Conséquences : moins de récoltes, **exode rural**.
+- Solutions : **reboiser**, pare-feu, foyers améliorés, fixer les dunes, **Grande Muraille verte**.
+- Pêche : contre la **surpêche**, le **repos biologique**.
+- Énergies **renouvelables** : soleil, vent, eau des barrages, bois replanté. **Non renouvelables** : pétrole, gaz, charbon.
+- Économiser l'énergie : éteindre, ampoules **LED**, foyer amélioré.
+
+## 6. Sécurité
+- Piéton : trottoir, **passage piéton**, regarder **gauche, droite, gauche**, traverser sans courir.
+- Passager : **ceinture** ; vélo et moto : **casque**.
+
+| Panneau | Sens |
+|---|---|
+| Triangle à bord rouge | danger |
+| Rond à bord rouge | interdiction |
+| Rond bleu | obligation |
+| Octogone rouge | stop |
+
+- Maison : brûlures, intoxications, électrocution, chutes, noyade → produits dangereux **en hauteur**, puits couverts.
+- Inondation : caniveaux propres ; pendant, **couper l'électricité** et ne pas marcher dans l'eau.
+
+## 7. Numéros d'urgence
+| Service | Numéro |
+|---|---|
+| Sapeurs-pompiers | **18** |
+| Police | **17** |
+
+## Pièges fréquents
+- Eau **claire** ≠ eau **potable**.
+- Le **moustique** donne le paludisme, pas la mouche.
+- Le poisson et le niébé sont **bâtisseurs** ; la mangue est **protectrice**.
+- Le manque de pluie est une cause **naturelle** ; les feux de brousse, une cause **humaine**.
+- Le **bois** n'est renouvelable que si l'on **replante**.
+- Solutions : dis toujours **qui fait quoi**.
+`,
+      exercices: [
+        { type: "qcm", question: "À quel groupe appartient la mangue ?", choix: ["Aliments énergétiques", "Aliments bâtisseurs", "Aliments protecteurs", "Aucun groupe"], reponse: 2, explication: "Les fruits sont des **aliments protecteurs**." },
+        { type: "qcm", question: "Quelle association maladie – prévention est juste ?", choix: ["Rougeole – moustiquaire", "Paludisme – moustiquaire imprégnée", "Bilharziose – manger du mil", "Choléra – se baigner dans la mare"], reponse: 1, explication: "Le paludisme vient du moustique : on dort sous une **moustiquaire imprégnée**." },
+        { type: "saisie", question: "Quel numéro appelle-t-on pour joindre la police au Sénégal ?", reponses: ["17", "le 17"], explication: "La police : le **17** (les sapeurs-pompiers : le **18**)." },
+        { type: "saisie", question: "Comment appelle-t-on la dégradation des terres dans les régions sèches, quand le sable avance ?", reponses: ["désertification", "la désertification"], explication: "C'est la **désertification**." },
+        { type: "qcm", question: "Un panneau rond et bleu indique…", choix: ["une obligation", "un danger", "une interdiction", "un stop"], reponse: 0, explication: "Rond bleu = **obligation** ; rond à bord rouge = interdiction ; triangle = danger." },
+        { type: "vf", question: "Pendant une inondation, il faut couper l'électricité.", reponse: true, explication: "L'eau et le courant ensemble peuvent provoquer une **électrocution**." },
+        { type: "qcm", question: "Fabriquer des sandales avec du plastique usagé, c'est…", choix: ["réduire", "polluer", "brûler", "recycler"], reponse: 3, explication: "Transformer un déchet en nouvel objet, c'est **recycler**." },
+        { type: "saisie", question: "Comment appelle-t-on la période où l'on ne pêche pas certaines espèces pour qu'elles se reproduisent ? (deux mots)", reponses: ["repos biologique", "le repos biologique"], explication: "C'est le **repos biologique**." },
+        { type: "qcm", question: "Laquelle est une cause **naturelle** de la désertification ?", choix: ["Les feux de brousse", "La coupe du bois", "Le surpâturage", "Le manque de pluie"], reponse: 3, explication: "Le **manque de pluie** est naturel ; les autres causes viennent de l'homme." },
+        { type: "vf", question: "Le bois est une énergie renouvelable seulement si l'on replante des arbres.", reponse: true, explication: "Sans reboisement, couper du bois fait **disparaître les forêts**." },
       ],
     },
   ],
