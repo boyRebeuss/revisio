@@ -52,6 +52,13 @@ Pour arrondir 3 678 452 **au millier près**, on regarde le chiffre juste à dro
 
 Arrondi à la centaine de mille : 3 678 452 → **3 700 000** (le chiffre des dizaines de mille est 7, donc on monte).
 
+## Encadrer un nombre
+Encadrer un nombre, c'est le placer **entre deux nombres « ronds »** qui se suivent :
+- au million : 3 000 000 < 3 678 452 < 4 000 000 ;
+- à la centaine de mille : 3 600 000 < 3 678 452 < 3 700 000.
+
+L'arrondi est celui des deux nombres de l'encadrement qui est **le plus proche**.
+
 > **À retenir**
 > - On lit les grands nombres par classes de trois chiffres : unités, mille, millions, milliards.
 > - Une classe vide s'écrit 000.
@@ -142,6 +149,25 @@ Ordre décroissant : **Thiès (2 038 500) > Kaolack (1 210 450) > Saint-Louis (1
 - Saint-Louis : 1 085 900 → chiffre 8 ≥ 5 → **1 100 000** ;
 - Ziguinchor : 726 080 → chiffre 2 < 5 → **700 000**.`,
         },
+        {
+          type: "saisie",
+          question: "Arrondis **6 452 718** à la centaine de mille près.",
+          reponses: ["6 500 000"],
+          explication: "Le chiffre des centaines de mille est 4. On regarde le chiffre juste à droite, celui des dizaines de mille : 5. Il est égal à 5, donc on passe à la centaine de mille suivante : 6 500 000.",
+        },
+        {
+          type: "saisie",
+          question: "Arrondis **2 849 600** au million près.",
+          reponses: ["3 000 000"],
+          explication: "Le chiffre des millions est 2. Le chiffre à sa droite (centaines de mille) est 8 : 8 ≥ 5, on passe au million suivant. L'arrondi est 3 000 000.",
+        },
+        {
+          type: "qcm",
+          question: "Quel encadrement de **4 719 350** est juste ?",
+          choix: ["5 000 000 < 4 719 350 < 6 000 000", "4 000 000 < 4 719 350 < 4 500 000", "4 000 000 < 4 719 350 < 5 000 000", "4 800 000 < 4 719 350 < 4 900 000"],
+          reponse: 2,
+          explication: "4 719 350 a 4 millions : il est entre 4 000 000 et 5 000 000. Il est plus grand que 4 500 000 (7 > 5 au rang des centaines de mille) et plus petit que 4 800 000 : les autres encadrements sont faux.",
+        },
       ],
     },
 
@@ -155,7 +181,7 @@ Ordre décroissant : **Thiès (2 038 500) > Kaolack (1 210 450) > Saint-Louis (1
 On écrit les nombres **les uns sous les autres**, unités sous unités, dizaines sous dizaines… On calcule **de droite à gauche** et on n'oublie pas les **retenues**.
 
 ~~~
-     1 1 1 1
+    12 11
     45 678
   +  9 865
   +    732
@@ -306,6 +332,18 @@ La vente rapporte **1 185 250 F CFA**.
 Il reste **839 650 F CFA** à la coopérative.
 Preuve : 839 650 + 345 600 = 1 185 250.`,
         },
+        {
+          type: "saisie",
+          question: "Donne un **ordre de grandeur** de 2 968 + 5 104 + 1 897 en arrondissant chaque nombre au millier.",
+          reponses: ["10 000"],
+          explication: "2 968 ≈ 3 000 ; 5 104 ≈ 5 000 ; 1 897 ≈ 2 000. 3 000 + 5 000 + 2 000 = 10 000. (Le résultat exact est 9 969 : il est bien proche de 10 000.)",
+        },
+        {
+          type: "vf",
+          question: "Un élève a trouvé 3 987 × 52 = 20 732. Avec un ordre de grandeur, on voit que ce résultat est possible.",
+          reponse: false,
+          explication: "Faux : 3 987 ≈ 4 000 et 52 ≈ 50 ; 4 000 × 50 = 200 000. Le résultat doit être proche de 200 000, pas de 20 000 : il y a une erreur, il faut refaire l'opération. Le résultat exact est 207 324.",
+        },
       ],
     },
 
@@ -388,7 +426,7 @@ Avec un diviseur de trois chiffres : 45 678 ÷ 123. On commence par 456 (car 45 
         {
           type: "saisie",
           question: "Quel est le **reste** de la division de 487 par 6 ?",
-          reponses: ["1"],
+          reponses: ["1","reste 1","r 1","le reste est 1"],
           explication: "6 × 81 = 486 et 487 − 486 = 1. Le quotient est 81 et le reste est 1 (plus petit que 6).",
         },
         {
@@ -413,7 +451,7 @@ Avec un diviseur de trois chiffres : 45 678 ÷ 123. On commence par 456 (car 45 
         {
           type: "saisie",
           question: "Pose et calcule le quotient de 45 678 ÷ 123.",
-          reponses: ["371"],
+          reponses: ["371","371 reste 45","371 r 45"],
           explication: "456 ÷ 123 = 3 reste 87 ; 877 ÷ 123 = 7 reste 16 ; 168 ÷ 123 = 1 reste 45. Quotient 371, reste 45. Vérification : 123 × 371 + 45 = 45 633 + 45 = 45 678.",
         },
         {
@@ -459,6 +497,37 @@ Partage : 630 000 ÷ 300. On divise les deux nombres par 100 : 6 300 ÷ 3.
 ~~~
 Chaque personne paie **2 100 F CFA**. Vérification : 300 × 2 100 = 630 000.`,
         },
+        {
+          type: "saisie",
+          question: "Quel est le **reste** de la division de 593 par 7 ?",
+          reponses: ["5", "reste 5", "r 5", "le reste est 5"],
+          explication: "7 × 84 = 588 et 593 − 588 = 5. Le quotient est 84 et le reste est 5 (plus petit que 7).",
+        },
+        {
+          type: "saisie",
+          question: "Pose et calcule le quotient : 6 552 ÷ 8.",
+          reponses: ["819"],
+          explication: "65 ÷ 8 = 8 reste 1 ; on abaisse 5 : 15 ÷ 8 = 1 reste 7 ; on abaisse 2 : 72 ÷ 8 = 9 reste 0. Quotient : 819. Vérification : 8 × 819 = 6 552.",
+        },
+        {
+          type: "qcm",
+          question: "Que donne la division de **9 347 par 32** ?",
+          choix: ["quotient 291, reste 35", "quotient 292, reste 3", "quotient 29, reste 219", "quotient 293, reste 0"],
+          reponse: 1,
+          explication: "93 ÷ 32 = 2 reste 29 ; 294 ÷ 32 = 9 reste 6 ; 67 ÷ 32 = 2 reste 3. Quotient 292, reste 3. Vérification : 32 × 292 + 3 = 9 344 + 3 = 9 347. « Reste 35 » est impossible : le reste doit être plus petit que 32.",
+        },
+        {
+          type: "saisie",
+          question: "Pose et calcule le quotient de 58 920 ÷ 216.",
+          reponses: ["272", "272 reste 168", "272 r 168"],
+          explication: "589 ÷ 216 = 2 reste 157 ; on abaisse 2 : 1 572 ÷ 216 = 7 reste 60 ; on abaisse 0 : 600 ÷ 216 = 2 reste 168. Quotient 272, reste 168. Vérification : 216 × 272 + 168 = 58 752 + 168 = 58 920.",
+        },
+        {
+          type: "saisie",
+          question: "Un pêcheur de Mbour range 950 poissons dans des caisses de 36 poissons. Combien de caisses lui faut-il pour ranger **tous** les poissons ?",
+          reponses: ["27", "27 caisses"],
+          explication: "950 ÷ 36 = 26, reste 14 (36 × 26 = 936). 26 caisses sont pleines et il reste 14 poissons : il faut une caisse de plus, soit 27 caisses.",
+        },
       ],
     },
 
@@ -495,7 +564,7 @@ Dans **45,372**, la virgule sépare :
 >! **Piège** : 2,47 n'est pas plus grand que 2,5 « parce que 47 > 5 » !
 
 ## Intercaler un nombre
-Entre 3,4 et 3,5, il y a toujours d'autres décimaux : 3,45 ; 3,41 ; 3,499…
+Intercaler, c'est **placer un nombre entre deux autres**. Entre 3,4 et 3,5, il y a toujours d'autres décimaux : 3,45 ; 3,41 ; 3,499…
 
 ## Arrondir
 12,68 arrondi **à l'unité** : 13 (car 6 dixièmes ≥ 5). Arrondi **au dixième** : 12,7 (car 8 centièmes ≥ 5).
@@ -581,6 +650,25 @@ Ordre décroissant : **3,5 m > 3,45 m > 3,4 m > 3,05 m**.
 
 3) 1 m = 100 cm. Fatou : 3,5 m = **350 cm**. Awa : 3,05 m = **305 cm**.
 Attention : 3,5 m (350 cm) et 3,05 m (305 cm) ne sont pas égaux.`,
+        },
+        {
+          type: "qcm",
+          question: "Dans **208,639**, quel est le chiffre des **centièmes** ?",
+          choix: ["6", "3", "9", "8"],
+          reponse: 1,
+          explication: "Après la virgule : 6 est le chiffre des dixièmes, 3 celui des centièmes, 9 celui des millièmes. Réponse : 3. (8 est le chiffre des unités.)",
+        },
+        {
+          type: "saisie",
+          question: "Écris 4 506/1 000 sous forme d'un nombre décimal.",
+          reponses: ["4,506"],
+          explication: "4 506 millièmes = 4 000 millièmes + 506 millièmes = 4 unités et 506 millièmes = 4,506.",
+        },
+        {
+          type: "saisie",
+          question: "Arrondis 7,349 **au dixième**.",
+          reponses: ["7,3"],
+          explication: "Le chiffre des centièmes est 4, il est plus petit que 5 : on garde le dixième. 7,349 ≈ 7,3.",
         },
       ],
     },
@@ -759,7 +847,7 @@ On ne change pas une fraction si on **multiplie** (ou on **divise**) le numérat
 
 ## Simplifier une fraction
 Simplifier, c'est diviser le numérateur et le dénominateur par un même nombre, en utilisant les caractères de divisibilité.
-12/18 = 6/9 (÷ 2) = **2/3** (÷ 3). On ne peut plus simplifier 2/3 : elle est **irréductible**.
+12/18 = 6/9 (÷ 2) = **2/3** (÷ 3). On ne peut plus simplifier 2/3 : elle est **irréductible** (ce mot veut dire : on ne peut plus la réduire, plus la simplifier).
 
 ## Réduire au même dénominateur
 Pour comparer ou additionner 1/2 et 3/4, on cherche un dénominateur commun : 4.
@@ -857,6 +945,24 @@ Vérification : 4/12 + 3/12 + 2/12 + 3/12 = 12/12 = 1 (tout le champ).
 
 3) Le plus grand numérateur sur 12 est 4 : **l'arachide** occupe la plus grande partie (1/3 du champ). Le mil et le manioc occupent chacun 3/12 = 1/4 du champ : **oui, la même part**.`,
         },
+        {
+          type: "saisie",
+          question: "Simplifie le plus possible : 35/56.",
+          reponses: ["5/8"],
+          explication: "35 et 56 sont tous les deux dans la table de 7 : 35 = 7 × 5 et 56 = 7 × 8. 35/56 = 5/8 (÷ 7). 5/8 ne se simplifie plus.",
+        },
+        {
+          type: "saisie",
+          question: "Complète : 3/8 = …/40.",
+          reponses: ["15", "15/40"],
+          explication: "8 × 5 = 40 : on multiplie aussi le numérateur par 5. 3 × 5 = 15, donc 3/8 = 15/40.",
+        },
+        {
+          type: "vf",
+          question: "La fraction 9/12 est irréductible.",
+          reponse: false,
+          explication: "Faux : 9 et 12 sont tous les deux divisibles par 3. 9/12 = 3/4 (÷ 3). C'est 3/4 qui est irréductible.",
+        },
       ],
     },
 
@@ -910,7 +1016,7 @@ Si on a dépensé 1/3 + 1/4 d'une somme, il reste 1 − 7/12 = 12/12 − 7/12 = 
         {
           type: "saisie",
           question: "Calcule et simplifie : 5/6 − 1/3.",
-          reponses: ["1/2", "3/6", "0,5"],
+          reponses: ["1/2", "0,5"],
           explication: "1/3 = 2/6. 5/6 − 2/6 = 3/6 = 1/2 (on simplifie par 3).",
         },
         {
@@ -977,6 +1083,18 @@ Transport : 180 000 ÷ 6 = **30 000 F**.
 3) Première façon : 60 000 + 45 000 + 30 000 = 135 000 F ; 180 000 − 135 000 = **45 000 F**.
 Deuxième façon : le 1/4 de 180 000 F = 180 000 ÷ 4 = **45 000 F**.
 Les deux résultats sont égaux : le calcul est vérifié.`,
+        },
+        {
+          type: "saisie",
+          question: "Les 3/4 d'un troupeau font 54 moutons. Combien de moutons a le troupeau ?",
+          reponses: ["72", "72 moutons"],
+          explication: "3/4 → 54 moutons, donc 1/4 → 54 ÷ 3 = 18 moutons, et 4/4 → 18 × 4 = 72 moutons. Vérification : les 3/4 de 72 = 72 ÷ 4 × 3 = 54.",
+        },
+        {
+          type: "saisie",
+          question: "Aminata a dépensé les 5/8 de son argent, soit 10 000 F CFA. Combien avait-elle ?",
+          reponses: ["16 000", "16 000 F", "16 000 F CFA", "16 000 francs"],
+          explication: "5/8 → 10 000 F, donc 1/8 → 10 000 ÷ 5 = 2 000 F, et 8/8 → 2 000 × 8 = 16 000 F. Vérification : les 5/8 de 16 000 = 16 000 ÷ 8 × 5 = 10 000 F.",
         },
       ],
     },
@@ -1229,6 +1347,13 @@ C'est un puzzle chinois de **7 pièces** découpées dans un carré : **5 triang
 
 3) Le centre de la bande jaune est le point où se coupent ses **diagonales** (elles se coupent en leur milieu). On trace les deux diagonales du rectangle jaune au crayon léger : l'étoile est placée à leur point d'intersection.`,
         },
+        {
+          type: "qcm",
+          question: "Une figure fermée a **6 côtés** qui n'ont pas tous la même longueur. Comment s'appelle-t-elle ?",
+          choix: ["un octogone irrégulier", "un hexagone régulier", "un hexagone irrégulier", "un pentagone"],
+          reponse: 2,
+          explication: "6 côtés : c'est un hexagone. Ses côtés ne sont pas tous égaux : il est irrégulier. (Octogone : 8 côtés ; pentagone : 5 côtés.)",
+        },
       ],
     },
 
@@ -1387,6 +1512,11 @@ Exemple : un rectangle de 8 cm sur 6 cm réduit de moitié devient un rectangle 
 
 >! **Sur un quadrillage** : pour agrandir × 2, un segment de 3 carreaux devient un segment de 6 carreaux.
 
+>! **Tracer une translation sur un quadrillage**
+>! 1. Déplace **chaque sommet** du même nombre de carreaux, dans la même direction et le même sens (par exemple 6 carreaux vers la droite et 2 vers le haut).
+>! 2. Relie les nouveaux points **dans le même ordre**.
+>! 3. Vérifie : chaque côté a gardé sa longueur (même nombre de carreaux) et sa direction.
+
 > **À retenir**
 > - Symétrie : pliage ; même distance de part et d'autre de l'axe.
 > - Translation : glissement (direction, sens, longueur), la figure ne tourne pas.
@@ -1467,6 +1597,42 @@ Exemple : un rectangle de 8 cm sur 6 cm réduit de moitié devient un rectangle 
 3) Agrandissement × 2 : AB = 4 × 2 = **8 carreaux** ; AC = 3 × 2 = **6 carreaux**.
 **Oui**, l'angle en A reste droit : un agrandissement ne change pas les angles.`,
         },
+        {
+          type: "qcm",
+          question: "Sur un quadrillage, le point A est à **2 carreaux à droite et 1 carreau au-dessus** du coin en bas à gauche. On fait une translation de **4 carreaux vers la droite et 3 carreaux vers le haut**. Où arrive le point A ?",
+          choix: ["4 carreaux à droite et 3 au-dessus du coin", "6 carreaux à droite et 1 au-dessus du coin", "2 carreaux à droite et 4 au-dessus du coin", "6 carreaux à droite et 4 au-dessus du coin"],
+          reponse: 3,
+          explication: "Vers la droite : 2 + 4 = 6 carreaux. Vers le haut : 1 + 3 = 4 carreaux. A arrive à 6 carreaux à droite et 4 carreaux au-dessus du coin.",
+        },
+        {
+          type: "vf",
+          question: "Par une translation de 5 carreaux vers la droite, un segment horizontal de 3 carreaux devient un segment de 8 carreaux.",
+          reponse: false,
+          explication: "Faux : une translation fait glisser la figure sans changer les longueurs. Les deux bouts du segment avancent de 5 carreaux : le segment mesure toujours 3 carreaux.",
+        },
+        {
+          type: "redaction",
+          question: `**Tracé sur quadrillage**
+
+Sur ton cahier quadrillé, choisis un point O (le coin en bas à gauche). On repère un point en disant de combien de carreaux il est **à droite** de O, puis **au-dessus** de O.
+- A : 1 à droite, 1 au-dessus ;
+- B : 4 à droite, 1 au-dessus ;
+- C : 1 à droite, 5 au-dessus.
+
+*Consigne* :
+1) Trace le triangle ABC. Quelle est la nature de ce triangle ?
+2) Trace son image A'B'C' par la translation de **6 carreaux vers la droite et 2 carreaux vers le haut**. Donne la position de A', B' et C'.
+3) Compare les longueurs des côtés des deux triangles.`,
+          corrige: `1) AB est horizontal (3 carreaux) et AC est vertical (4 carreaux) : l'angle en A est droit. ABC est un **triangle rectangle en A**.
+
+2) On ajoute 6 carreaux vers la droite et 2 vers le haut à chaque sommet :
+- A' : 1 + 6 = **7 à droite**, 1 + 2 = **3 au-dessus** ;
+- B' : 4 + 6 = **10 à droite**, 1 + 2 = **3 au-dessus** ;
+- C' : 1 + 6 = **7 à droite**, 5 + 2 = **7 au-dessus**.
+On relie A', B' et C' dans le même ordre.
+
+3) A'B' = 10 − 7 = 3 carreaux = AB ; A'C' = 7 − 3 = 4 carreaux = AC. Les côtés ont **les mêmes longueurs** : le triangle a seulement glissé, il est identique (toujours rectangle en A').`,
+        },
       ],
     },
 
@@ -1493,17 +1659,19 @@ Le **périmètre** est la longueur du **tour** d'une figure.
 | Carré de côté c | P = c × 4 | c = P ÷ 4 |
 | Rectangle (L et l) | P = (L + l) × 2 | l = P ÷ 2 − L |
 | Cercle de diamètre D | P = D × 3,14 | D = P ÷ 3,14 |
+| Cercle de rayon r | P = 2 × r × 3,14 | r = P ÷ 3,14 ÷ 2 |
 
 Exemples :
 - un champ rectangulaire de 45 m sur 28 m : P = (45 + 28) × 2 = **146 m** ;
 - un cercle de 8 m de diamètre : P = 8 × 3,14 = **25,12 m** ;
+- un cercle de 4 m de **rayon** : le diamètre est 2 × 4 = 8 m, donc P = 2 × 4 × 3,14 = **25,12 m** (la longueur du cercle, c'est son périmètre) ;
 - un rectangle de périmètre 80 m et de longueur 25 m : demi-périmètre 40 m, largeur 40 − 25 = **15 m**.
 
 ## Les intervalles
 On plante des arbres le long d'une route de 120 m, **un arbre tous les 8 m**.
 - Nombre d'**intervalles** : 120 ÷ 8 = 15.
 - Sur une ligne **ouverte** avec un arbre **à chaque bout** : arbres = intervalles + 1 = **16 arbres**.
-- Sans arbre aux deux bouts : intervalles − 1 = 14 arbres.
+- **Sans arbre aux deux bouts** (par exemple entre deux maisons) : arbres = intervalles − 1 = **14 arbres**.
 - Sur une ligne **fermée** (le tour d'un champ, d'un rond-point) : arbres = intervalles.
 
 ~~~
@@ -1605,6 +1773,37 @@ Le grillage coûte **198 000 F CFA**.
 3) Le grillage va d'un côté du portail à l'autre : c'est une ligne **ouverte**.
 Intervalles : 132 ÷ 2 = 66. Poteaux : 66 + 1 = **67 poteaux**.`,
         },
+        {
+          type: "saisie",
+          question: "Calcule la longueur, en m, d'un cercle de **3 m de rayon** (prends 3,14).",
+          reponses: ["18,84", "18,84 mètres"],
+          explication: "Avec le rayon : P = 2 × r × 3,14 = 2 × 3 × 3,14 = 6 × 3,14 = 18,84 m. (Le diamètre est 6 m : 6 × 3,14 = 18,84 m.)",
+        },
+        {
+          type: "qcm",
+          question: "Une piste circulaire a **50 m de rayon**. Combien mesure un tour de piste ?",
+          choix: ["157 m", "314 m", "7 850 m", "100 m"],
+          reponse: 1,
+          explication: "P = 2 × 50 × 3,14 = 100 × 3,14 = 314 m. 157 m, c'est si on oublie de multiplier par 2 (on prend le rayon au lieu du diamètre) ; 7 850 est l'aire du disque en m².",
+        },
+        {
+          type: "saisie",
+          question: "Entre deux maisons distantes de 48 m, on plante un arbre tous les 6 m, **sans arbre contre les maisons** (pas d'arbre aux deux bouts). Combien d'arbres plante-t-on ?",
+          reponses: ["7", "7 arbres"],
+          explication: "Intervalles : 48 ÷ 6 = 8. Pas d'arbre aux deux bouts : 8 − 1 = 7 arbres.",
+        },
+        {
+          type: "saisie",
+          question: "Un rectangle a un périmètre de 130 m et une largeur de 27 m. Quelle est sa longueur, en mètres ?",
+          reponses: ["38", "38 mètres"],
+          explication: "Demi-périmètre : 130 ÷ 2 = 65 m (une longueur + une largeur). Longueur : 65 − 27 = 38 m. Vérification : (38 + 27) × 2 = 130 m.",
+        },
+        {
+          type: "saisie",
+          question: "Un champ rectangulaire de 52 m de long a un périmètre de 168 m. Quelle est sa largeur, en mètres ?",
+          reponses: ["32", "32 mètres"],
+          explication: "Demi-périmètre : 168 ÷ 2 = 84 m. Largeur : 84 − 52 = 32 m. Vérification : (52 + 32) × 2 = 168 m.",
+        },
       ],
     },
 
@@ -1641,7 +1840,15 @@ Exemple : un sac de riz de 50 kg net, avec un sac vide de 0,6 kg : masse brute =
 
 ## Le degré
 - Le mot « degré » sert pour deux mesures. Les **angles** se mesurent en **degrés** (°) avec un **rapporteur** : angle droit = **90°** ; angle plat = 180° ; angle **aigu** : moins de 90° ; angle **obtus** : entre 90° et 180°.
-- La **température** se mesure aussi en degrés Celsius (°C) avec un thermomètre : l'eau gèle à 0 °C et bout à 100 °C.
+- La **température** se mesure aussi en degrés Celsius (°C) avec un thermomètre : l'eau gèle à 0 °C et bout à 100 °C. La température normale du corps est d'environ **37 °C** ; on parle souvent de **fièvre** au-dessus de 38 °C.
+- **Écart de température** = température la plus haute − température la plus basse : 24 °C à 6 h et 38 °C à 14 h → la température a monté de 38 − 24 = **14 °C**.
+
+>! **Tracer un angle de 50° au rapporteur**
+>! 1. Trace une demi-droite qui part d'un point O (le sommet de l'angle).
+>! 2. Place le **centre du rapporteur sur O** et le trait du **0** sur la demi-droite.
+>! 3. Suis la graduation qui **part de ce 0** et fais un petit point devant **50**.
+>! 4. Retire le rapporteur et relie O à ce point avec la règle.
+>! Vérifie : un angle de 50° est aigu, il est plus petit qu'un angle droit. Attention, le rapporteur a deux rangées de nombres : si tu lis la mauvaise, tu traces 130° au lieu de 50°.
 
 > **À retenir**
 > - 1 l = 100 cl = 1 000 ml.
@@ -1653,7 +1860,7 @@ Exemple : un sac de riz de 50 kg net, avec un sac vide de 0,6 kg : masse brute =
         {
           type: "saisie",
           question: "Convertis 2,5 l en centilitres.",
-          reponses: ["250"],
+          reponses: ["250","250 cl"],
           explication: "1 l = 100 cl, donc 2,5 l = 2,5 × 100 = 250 cl.",
         },
         {
@@ -1731,6 +1938,55 @@ Masse brute : 7 200 + 60 = **7 260 kg = 7,26 t**.
 ~~~
 Il remplit **40 bouteilles**. Vérification : 40 × 75 = 3 000 cl.`,
         },
+        {
+          type: "saisie",
+          question: "Un sac contient 25 kg de sucre (masse nette). Le sac vide pèse 0,35 kg. Quelle est la masse brute, en kg ?",
+          reponses: ["25,35"],
+          explication: "Masse brute = masse nette + tare = 25 + 0,35 = 25,35 kg.",
+        },
+        {
+          type: "saisie",
+          question: "Un carton de savons a une masse brute de 12,4 kg. Le carton vide pèse 0,9 kg. Quelle est la masse nette des savons, en kg ?",
+          reponses: ["11,5"],
+          explication: "Masse nette = masse brute − tare = 12,4 − 0,9 = 11,5 kg.",
+        },
+        {
+          type: "saisie",
+          question: "Un jour de mai, à Matam, le thermomètre indique 26 °C à 7 h et 43 °C à 15 h. De combien de degrés la température a-t-elle monté ?",
+          reponses: ["17", "17 °C", "17 degrés"],
+          explication: "Écart = température la plus haute − température la plus basse = 43 − 26 = 17 °C.",
+        },
+        {
+          type: "vf",
+          question: "Un enfant dont le thermomètre indique 39 °C a de la fièvre.",
+          reponse: true,
+          explication: "Vrai : la température normale du corps est d'environ 37 °C ; on parle souvent de fièvre au-dessus de 38 °C, et 39 °C est bien au-dessus. Il faut l'emmener au poste de santé.",
+        },
+        {
+          type: "qcm",
+          question: "Pour tracer un angle au rapporteur, où places-tu le **centre** du rapporteur ?",
+          choix: ["au milieu de la demi-droite", "n'importe où sur la feuille", "au bout de la demi-droite, loin du sommet", "sur le sommet de l'angle"],
+          reponse: 3,
+          explication: "Le centre du rapporteur se place sur le sommet de l'angle, et le trait du 0 sur la demi-droite. Sinon, la mesure est fausse.",
+        },
+        {
+          type: "redaction",
+          question: `**Tracé au rapporteur**
+
+*Consigne* :
+1) Trace un angle de **50°**, puis un angle de **130°**. Écris les étapes de ton tracé.
+2) Dis si chaque angle est aigu, droit ou obtus.
+3) Si on place ces deux angles côte à côte (avec un côté commun), quel angle obtient-on ?`,
+          corrige: `1) Pour chaque angle :
+- je trace une demi-droite qui part du point O ;
+- je place le centre du rapporteur sur O et le trait du 0 sur la demi-droite ;
+- je suis la graduation qui part de ce 0 et je marque un point devant 50 (puis devant 130 pour le deuxième angle) ;
+- je relie O à ce point avec la règle.
+
+2) 50° < 90° : l'angle de 50° est **aigu**. 130° est entre 90° et 180° : l'angle de 130° est **obtus**.
+
+3) 50° + 130° = **180°** : on obtient un **angle plat** (les deux côtés extérieurs forment une ligne droite).`,
+        },
       ],
     },
 
@@ -1747,6 +2003,12 @@ Il remplit **40 bouteilles**. Vérification : 40 × 75 = 3 000 cl.`,
 Chaque unité vaut **100 fois** l'unité qui est à sa droite : 1 m² = 100 dm² ; 1 dm² = 100 cm². (Dans le tableau, on met **deux chiffres par colonne**.)
 
 **Mesures agraires** (pour les champs) : 1 **hectare** (ha) = 1 hm² = 10 000 m² ; 1 **are** (a) = 1 dam² = 100 m² ; 1 **centiare** (ca) = 1 m².
+
+| ha (hm²) | a (dam²) | ca (m²) |
+|---|---|---|
+| 1 | 32 | 40 |
+
+1 ha 32 a 40 ca = 13 240 m² ; et dans l'autre sens, 4 280 m² = 42 a 80 ca = 42,8 a.
 
 ## Les formules
 | Figure | Aire |
@@ -1769,7 +2031,7 @@ Exemples :
 - Triangle : hauteur = A × 2 ÷ base.
 
 ## Aires augmentées et diminuées
-Un carré de 10 m de côté a une aire de 100 m². Si on **augmente** son côté de 2 m, il devient un carré de 12 m : aire 144 m². L'aire est **augmentée** de 144 − 100 = **44 m²** (et non de 4 m² !).
+Un carré de 10 m de côté a une aire de 100 m². Si on **augmente** son côté de 2 m, il devient un carré de 12 m : aire 144 m². L'aire est **augmentée** de 144 − 100 = **44 m²** (et non de 4 m² !). De même, si on **diminue** le côté de 2 m, le carré de 8 m a une aire de 64 m² : l'aire est **diminuée** de 100 − 64 = **36 m²**.
 
 >! **Allée autour d'un jardin** : jardin de 30 m sur 20 m, allée de 1 m de large tout autour à l'extérieur. Grand rectangle : (30 + 2) × (20 + 2) = 32 × 22 = 704 m². Aire de l'allée : 704 − 600 = **104 m²**.
 
@@ -1859,6 +2121,44 @@ On plante des légumes sur **587,44 m²**.
 
 3) Avec l'allée, on obtient un grand rectangle de (30 + 2) m sur (20 + 2) m, car l'allée ajoute 1 m de chaque côté.
 32 × 22 = 704 m². Aire de l'allée : 704 − 600 = **104 m²**.`,
+        },
+        {
+          type: "saisie",
+          question: "Calcule l'aire, en m², d'un **parallélogramme** de base 12 m et de hauteur 7 m.",
+          reponses: ["84", "84 m²"],
+          explication: "Aire du parallélogramme = base × hauteur = 12 × 7 = 84 m². (On ne divise pas par 2 : c'est le triangle qu'on divise par 2.)",
+        },
+        {
+          type: "qcm",
+          question: "Un champ a la forme d'un parallélogramme de 45 m de base et 30 m de hauteur. Ses côtés obliques mesurent 36 m. Quelle est son aire ?",
+          choix: ["1 620 m²", "675 m²", "1 350 m²", "162 m²"],
+          reponse: 2,
+          explication: "A = base × hauteur = 45 × 30 = 1 350 m². On n'utilise pas le côté oblique (45 × 36 = 1 620 est faux) ; on ne divise pas par 2 (675 est faux).",
+        },
+        {
+          type: "saisie",
+          question: "Convertis 7 ares en m².",
+          reponses: ["700", "700 m²"],
+          explication: "1 a = 100 m², donc 7 a = 7 × 100 = 700 m².",
+        },
+        {
+          type: "qcm",
+          question: "Un terrain mesure **3 450 m²**. Cela fait…",
+          choix: ["3 ha 45 a", "34 a 50 ca", "345 a", "3 a 450 ca"],
+          reponse: 1,
+          explication: "1 a = 100 m² et 1 ca = 1 m². 3 450 m² = 3 400 m² + 50 m² = 34 a 50 ca (soit 34,5 a). 3 ha, ce serait 30 000 m².",
+        },
+        {
+          type: "saisie",
+          question: "Un champ mesure 2 ha 15 a. Combien cela fait-il de m² ?",
+          reponses: ["21 500", "21 500 m²"],
+          explication: "2 ha = 20 000 m² ; 15 a = 1 500 m². 20 000 + 1 500 = 21 500 m².",
+        },
+        {
+          type: "saisie",
+          question: "Un carré a 12 m de côté. On **diminue** son côté de 3 m. De combien son aire diminue-t-elle, en m² ?",
+          reponses: ["63", "63 m²"],
+          explication: "Ancienne aire : 12 × 12 = 144 m². Nouveau côté : 12 − 3 = 9 m ; nouvelle aire : 9 × 9 = 81 m². Diminution : 144 − 81 = 63 m² (et non 9 m² !).",
         },
       ],
     },
@@ -2009,6 +2309,7 @@ Le réservoir plein suffit pour **4 jours**. Vérification : 4 × 15 700 = 62 80
 ## Les unités de durée
 1 jour = 24 h ; 1 h = 60 min ; 1 min = 60 s. 1 an = 12 mois = 365 jours (366 les années bissextiles).
 2 h 15 min = 2 × 60 + 15 = **135 min**.
+Une demi-heure = 30 min, donc 2 h 30 min = **2,5 h** ; 45 min = 0,75 h.
 
 ## Opérations sur les durées
 On calcule à part les heures et les minutes, puis on **convertit** quand on dépasse 60.
@@ -2032,6 +2333,11 @@ Soustraction : 10 min est trop petit pour enlever 35 min ; on transforme 1 h en 
 - Multiplication : 3 × (1 h 25 min) = 3 h 75 min = **4 h 15 min**.
 - Division : (7 h 30 min) ÷ 3 = 450 min ÷ 3 = 150 min = **2 h 30 min**.
 - Heure d'arrivée = heure de départ + durée du trajet.
+
+## Durée entre deux horaires
+**Durée = heure d'arrivée − heure de départ.** Un car part à 9 h 40 et arrive à 13 h 15.
+- Méthode 1 (soustraction) : on ne peut pas enlever 40 min de 15 min ; on transforme 1 h en 60 min : 13 h 15 = 12 h 75. 12 h 75 − 9 h 40 = **3 h 35 min**.
+- Méthode 2 (on complète) : de 9 h 40 à 10 h : 20 min ; de 10 h à 13 h : 3 h ; de 13 h à 13 h 15 : 15 min. Total : 3 h + 20 min + 15 min = **3 h 35 min**.
 
 ## Le mouvement uniforme
 Un véhicule a un **mouvement uniforme** quand il roule toujours à la même vitesse.
@@ -2145,6 +2451,25 @@ Ils arrivent à **10 h 50**.
 
 3) Durée = volume ÷ débit = 1 800 ÷ 30 = **60 min**, soit **1 heure**.`,
         },
+        {
+          type: "saisie",
+          question: "Un car part de Dakar à 7 h 45 et arrive à Kaolack à 11 h 20. Combien de temps a duré le voyage ?",
+          reponses: ["3 h 35 min", "3 h 35", "3h35", "3 h 35 minutes", "3 heures 35 minutes", "3 heures 35", "3h35min", "215 min", "215 minutes"],
+          explication: "11 h 20 = 10 h 80. 10 h 80 − 7 h 45 = 3 h 35 min. Autre méthode : de 7 h 45 à 8 h : 15 min ; de 8 h à 11 h : 3 h ; de 11 h à 11 h 20 : 20 min ; total 3 h 35 min.",
+        },
+        {
+          type: "qcm",
+          question: "À l'école, la classe commence à 8 h et finit à 12 h 30. Il y a une récréation de 30 min. Combien de temps dure le travail en classe ?",
+          choix: ["4 h 30 min", "4 h", "3 h 30 min", "5 h"],
+          reponse: 1,
+          explication: "De 8 h à 12 h 30 : 4 h 30 min. On enlève la récréation : 4 h 30 min − 30 min = 4 h.",
+        },
+        {
+          type: "saisie",
+          question: "Une borne-fontaine remplit un fût de 200 litres en 8 minutes. Quel est son débit, en litres par minute ?",
+          reponses: ["25", "25 litres par minute", "25 l par minute", "25 l/min"],
+          explication: "Débit = volume ÷ durée = 200 ÷ 8 = 25 litres par minute. Vérification : 25 × 8 = 200 litres.",
+        },
       ],
     },
 
@@ -2160,11 +2485,11 @@ Le **budget** d'une famille compare :
 - les **dépenses** (nourriture, loyer, eau, électricité, transport, école…).
 
 Si recettes > dépenses, la famille fait des **économies** (épargne) : économies = recettes − dépenses.
-Si dépenses > recettes, le budget est en **déficit** : déficit = dépenses − recettes.
+Si dépenses > recettes, le budget est en **déficit** (il manque de l'argent) : déficit = dépenses − recettes.
 
 ## Les prix du commerçant
 - **Prix d'achat (PA)** : ce que le commerçant paie pour la marchandise.
-- **Frais** : transport, manutention, taxes, glace…
+- **Frais** : transport, manutention (ce qu'on paie aux porteurs qui chargent et déchargent la marchandise), taxes, glace…
 - **Prix de revient (PR)** = prix d'achat + frais.
 - **Prix de vente (PV)** : ce que paie le client.
 - **Bénéfice** = prix de vente − prix de revient (quand PV > PR).
@@ -2282,7 +2607,7 @@ Quand on place de l'argent à la banque ou à la caisse d'épargne :
 - le **taux** (t) est l'intérêt rapporté par **100 F en un an** : un taux de 5 % veut dire que 100 F rapportent 5 F par an ;
 - la **durée** de placement (en années, en mois ou en jours) ;
 - l'**intérêt** (I) est l'argent gagné ;
-- la **valeur acquise** = ce que tu retrouves à la fin : le capital + l'intérêt.
+- la **valeur acquise** (« acquise » veut dire obtenue) = ce que tu retrouves à la fin : le capital + l'intérêt.
 
 ## Calculer l'intérêt
 Idée simple : on calcule d'abord l'intérêt d'**un an**, puis on adapte à la durée (la moitié pour 6 mois…). Les formules ci-dessous font ce calcul d'un seul coup.
@@ -2395,6 +2720,25 @@ L'intérêt est de **45 000 F**.
 3) Valeur acquise : 360 000 + 45 000 = **405 000 F**.
 
 4) 405 000 < 420 000 : **non**, elle ne peut pas encore l'acheter. Il lui manque 420 000 − 405 000 = **15 000 F**.`,
+        },
+        {
+          type: "saisie",
+          question: "Un capital placé à 8 % rapporte 10 000 F d'intérêt en un an. Quel est ce capital ?",
+          reponses: ["125 000", "125 000 F", "125 000 F CFA", "125 000 francs"],
+          explication: "8 F d'intérêt pour 100 F placés. 10 000 ÷ 8 = 1 250 ; 1 250 × 100 = 125 000 F. Vérification : 125 000 × 8 ÷ 100 = 10 000 F.",
+        },
+        {
+          type: "qcm",
+          question: "200 000 F placés à 6 % ont rapporté 48 000 F. Pendant combien de temps ont-ils été placés ?",
+          choix: ["2 ans", "8 ans", "4 ans", "6 mois"],
+          reponse: 2,
+          explication: "En un an : 200 000 × 6 ÷ 100 = 12 000 F. 48 000 ÷ 12 000 = 4 ans.",
+        },
+        {
+          type: "saisie",
+          question: "Quelle est la **valeur acquise** par 80 000 F placés à 5 % pendant 9 mois ?",
+          reponses: ["83 000", "83 000 F", "83 000 F CFA", "83 000 francs"],
+          explication: "I = 80 000 × 5 × 9 ÷ 1 200 = 3 600 000 ÷ 1 200 = 3 000 F. Valeur acquise = 80 000 + 3 000 = 83 000 F.",
         },
       ],
     },
@@ -2524,6 +2868,19 @@ Vérification : 100 000 + 125 000 + 175 000 = 400 000 F.
 
 3) Moyenne : 80 ÷ 3 = 26,66… ≈ **26,7 jours** par femme.`,
         },
+        {
+          type: "saisie",
+          question: "Aïssatou a le **triple** de l'argent de son frère. Ensemble, ils ont 48 000 F. Combien a Aïssatou ?",
+          reponses: ["36 000", "36 000 F", "36 000 F CFA", "36 000 francs"],
+          explication: "Le frère : 1 part ; Aïssatou : 3 parts ; en tout 4 parts. 1 part = 48 000 ÷ 4 = 12 000 F. Aïssatou : 3 × 12 000 = 36 000 F. Vérification : 12 000 + 36 000 = 48 000.",
+        },
+        {
+          type: "qcm",
+          question: "Un père partage 45 000 F entre ses deux fils : l'aîné reçoit le double du cadet. Combien reçoit le cadet ?",
+          choix: ["15 000 F", "22 500 F", "30 000 F", "11 250 F"],
+          reponse: 0,
+          explication: "Cadet : 1 part ; aîné : 2 parts ; 3 parts en tout. 45 000 ÷ 3 = 15 000 F pour le cadet (et 30 000 F pour l'aîné). 22 500 F serait un partage égal.",
+        },
       ],
     },
 
@@ -2567,6 +2924,12 @@ Une **facture** donne, pour chaque article : la quantité, le **prix unitaire** 
 - Pour trouver l'erreur dans une solution, refais chaque calcul et vérifie que chaque opération répond bien à la question.
 - On peut aussi **inventer un énoncé** à partir d'une solution : 3 × 1 500 = 4 500 ; 10 000 − 4 500 = 5 500 → « J'achète 3 poulets à 1 500 F et je paie avec 10 000 F. Combien me rend-on ? »
 
+## 7. Lire un tableau ou un graphique
+- Lis d'abord le **titre**, puis le nom des **lignes et des colonnes** (ou des axes) et les **unités**.
+- Dans un tableau, une valeur se trouve au **croisement** d'une ligne et d'une colonne.
+- Dans un diagramme en barres, lis la **légende** (ce que vaut un carreau ou un trait) puis compte jusqu'au bout de la barre.
+- Puis calcule ce qu'on te demande : total, différence, moyenne…
+
 > **À retenir**
 > - Données utiles, inutiles, manquantes.
 > - Questions intermédiaires avant la question finale.
@@ -2574,6 +2937,13 @@ Une **facture** donne, pour chaque article : la quantité, le **prix unitaire** 
 > - Montant = quantité × prix unitaire.
 > - Toujours : opérations posées, vérification et phrase-réponse.
 `,
+      textes: {
+        cantine: `**Repas servis à la cantine d'une école de Tambacounda** (nombres fictifs)
+
+| Jour | Lundi | Mardi | Mercredi | Jeudi | Vendredi |
+|---|---|---|---|---|---|
+| Nombre de repas | 185 | 210 | 160 | 205 | 190 |`,
+      },
       exercices: [
         {
           type: "qcm",
@@ -2678,6 +3048,40 @@ Solution :
 
 Tout énoncé est juste s'il demande d'abord le prix de 3 objets à 1 500 F, puis ce qui reste sur 10 000 F.`,
         },
+        {
+          type: "saisie",
+          question: "Fatou pense à un nombre. Elle le multiplie par 4, puis ajoute 12. Elle trouve 60. Quel est son nombre ?",
+          reponses: ["12"],
+          explication: "Démarche régressive : on remonte avec les opérations inverses. 60 − 12 = 48 ; 48 ÷ 4 = 12. Vérification : 12 × 4 + 12 = 60.",
+        },
+        {
+          type: "saisie",
+          question: "Moussa dépense la moitié de son argent, puis encore 500 F. Il lui reste 2 000 F. Combien avait-il au départ ?",
+          reponses: ["5 000", "5 000 F", "5 000 F CFA", "5 000 francs"],
+          explication: "On remonte : avant la dépense de 500 F, il avait 2 000 + 500 = 2 500 F ; c'était la moitié de son argent, donc il avait 2 500 × 2 = 5 000 F. Vérification : 5 000 ÷ 2 = 2 500 ; 2 500 − 500 = 2 000 F.",
+        },
+        {
+          type: "qcm",
+          texte: "cantine",
+          question: "D'après le tableau, quel jour a-t-on servi le **moins** de repas ?",
+          choix: ["lundi", "mardi", "vendredi", "mercredi"],
+          reponse: 3,
+          explication: "On cherche le plus petit nombre de la ligne « Nombre de repas » : 160, dans la colonne mercredi.",
+        },
+        {
+          type: "saisie",
+          texte: "cantine",
+          question: "D'après le tableau, combien de repas a-t-on servis pendant toute la semaine ?",
+          reponses: ["950", "950 repas"],
+          explication: "185 + 210 + 160 + 205 + 190 = 950 repas.",
+        },
+        {
+          type: "saisie",
+          texte: "cantine",
+          question: "D'après le tableau, combien de repas a-t-on servis en moyenne par jour ?",
+          reponses: ["190", "190 repas"],
+          explication: "Moyenne = total ÷ nombre de jours = 950 ÷ 5 = 190 repas par jour.",
+        },
       ],
     },
 
@@ -2720,16 +3124,16 @@ La situation d'intégration part d'une situation de la vie (la santé, l'environ
 > - Une consigne peut demander une explication ou un conseil : réponds par une phrase complète.
 `,
       textes: {
-        pluie: `**Hauteur de pluie à Kolda pendant l'hivernage** (nombres fictifs)
+        pluie: `**Hauteur de pluie à Kolda pendant l'hivernage (la saison des pluies)** (nombres fictifs)
 
 Chaque ■ représente 10 mm de pluie.
 
 ~~~
-juin       ■■                    20 mm
-juillet    ■■■■■■■■■             90 mm
-août       ■■■■■■■■■■■■■■■■■■   180 mm
-septembre  ■■■■■■■■■■■■■■       140 mm
-octobre    ■■■                   30 mm
+juin       ■ ■                                 20 mm
+juillet    ■ ■ ■ ■ ■ ■ ■ ■ ■                   90 mm
+août       ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 180 mm
+septembre  ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■         140 mm
+octobre    ■ ■ ■                               30 mm
 ~~~`,
       },
       exercices: [
@@ -2860,7 +3264,7 @@ Eau par jour : 42 × 10 = 420 litres. Pour 28 jours : 420 × 28 = **11 760 litre
           type: "redaction",
           question: `**Situation d'intégration** (mathématiques et santé)
 
-*Contexte* : avant l'hivernage, le poste de santé d'un village de 1 248 habitants distribue des moustiquaires imprégnées : une moustiquaire pour 2 personnes. Les moustiquaires arrivent en ballots de 50. L'infirmier a noté le nombre de malades du paludisme reçus l'année passée (nombres fictifs) : juillet 48, août 60, septembre 72, octobre 36.
+*Contexte* : avant l'hivernage (la saison des pluies), le poste de santé d'un village de 1 248 habitants distribue des moustiquaires imprégnées : une moustiquaire pour 2 personnes. Les moustiquaires arrivent en ballots de 50. L'infirmier a noté le nombre de malades du paludisme reçus l'année passée (nombres fictifs) : juillet 48, août 60, septembre 72, octobre 36.
 
 *Consigne* :
 1) Combien de moustiquaires faut-il distribuer ?
@@ -2894,11 +3298,30 @@ Nouveau nombre : 36 − 9 = **27 malades** en octobre.
       titre: "Fiche de révision : numération (nombres, opérations, fractions, proportionnalité)",
       theme: "Fiches de révision CFEE",
       cours: `
+## Programme de révision sur 7 jours
+Les fiches servent au **dernier rappel**, juste avant le CFEE : on apprend d'abord avec les chapitres, puis on relit les fiches. Chaque jour : une fiche de deux matières différentes, et leurs quiz express.
+
+| Jour | À réviser |
+|---|---|
+| J1 | Maths : numération + Langue : grammaire |
+| J2 | Maths : mesure + Langue : conjugaison |
+| J3 | Maths : géométrie + Langue : orthographe et vocabulaire |
+| J4 | Maths : problèmes + Langue : lecture et écriture |
+| J5 | Découverte du monde : histoire + EDD : vivre ensemble |
+| J6 | Découverte du monde : géographie + EDD : vivre dans son milieu |
+| J7 | Découverte du monde : sciences + relire tous les « Pièges fréquents » + une épreuve complète : « S'entraîner à l'épreuve de mathématiques du CFEE », « Entraînement au CFEE : épreuve blanche de Langue et communication » ou « Réussir l'épreuve d'EDD au CFEE » |
+
 ## Grands nombres
 - On lit par **classes de 3 chiffres** : milliards, millions, mille, unités. Classe vide : **000**.
 - Dans 5 438 207 : **chiffre** des centaines de mille = 4 ; **nombre** de centaines de mille = 54.
 - Comparer : d'abord le nombre de chiffres, puis chiffre par chiffre depuis la gauche.
 - « mille » est invariable ; deux millions, trois milliards.
+
+## Arrondir, encadrer, ordre de grandeur
+- **Arrondir** au millier : regarde le chiffre des centaines. 0 à 4 → on garde le millier ; 5 à 9 → millier suivant. 3 678 452 ≈ 3 678 000.
+- **Encadrer** : 3 000 000 < 3 678 452 < 4 000 000 (au million).
+- Décimaux : 12,68 ≈ 13 (à l'unité) ; 12,68 ≈ 12,7 (au dixième).
+- **Ordre de grandeur** : on arrondit avant de calculer, pour vérifier son résultat : 498 × 21 ≈ 500 × 20 = 10 000.
 
 ## Divisible par…
 | Par | Si… |
@@ -3009,6 +3432,81 @@ Nouveau nombre : 36 − 9 = **27 malades** en octobre.
           reponse: true,
           explication: "Vrai : 3 × 100 000 = 300 000 cm = 3 000 m = 3 km.",
         },
+        {
+          type: "saisie",
+          question: "Arrondis 8 362 540 au million près.",
+          reponses: ["8 000 000"],
+          explication: "Le chiffre des millions est 8 ; celui des centaines de mille est 3, plus petit que 5 : on garde 8 millions. 8 362 540 ≈ 8 000 000.",
+        },
+        {
+          type: "qcm",
+          question: "Quel est l'**ordre de grandeur** de 512 × 198 ?",
+          choix: ["1 000", "10 000", "100 000", "1 000 000"],
+          reponse: 2,
+          explication: "512 ≈ 500 et 198 ≈ 200 : 500 × 200 = 100 000. (Le résultat exact est 101 376.)",
+        },
+        {
+          type: "redaction",
+          question: `**Problème comme au CFEE**
+
+*Contexte* : la coopérative scolaire d'une école de Fatick a récolté 1 875 kg de sel. Elle le met dans des sacs de 25 kg et vend chaque sac 1 250 F CFA. Elle garde les 2/5 de l'argent de la vente pour acheter des livres.
+
+*Consigne* : pose les opérations.
+1) Donne d'abord un ordre de grandeur du nombre de sacs, puis calcule le nombre exact de sacs.
+2) Calcule l'argent de la vente.
+3) Calcule la somme réservée aux livres, puis la somme qui reste.`,
+          corrige: `1) Ordre de grandeur : 1 875 ≈ 2 000 ; 2 000 ÷ 25 = 80. Il y aura **environ 80 sacs**.
+Calcul exact :
+~~~
+  1 8 7 5 | 25
+− 1 7 5   |----
+    1 2 5 | 75
+  − 1 2 5 |
+        0 |
+~~~
+La coopérative remplit **75 sacs**. Vérification : 25 × 75 = 1 875.
+
+2) Vente :
+~~~
+      1 250
+    ×    75
+    -------
+      6 250     ← 1 250 × 5
+   + 87 500     ← 1 250 × 70
+   --------
+     93 750
+~~~
+La vente rapporte **93 750 F CFA**.
+
+3) Un cinquième : 93 750 ÷ 5 = 18 750 F. Deux cinquièmes : 18 750 × 2 = 37 500 F.
+La coopérative réserve **37 500 F** pour les livres.
+Reste : 93 750 − 37 500 = **56 250 F**. Il reste 56 250 F à la coopérative.
+Vérification : 37 500 + 56 250 = 93 750.`,
+        },
+        {
+          type: "redaction",
+          question: `**Problème comme au CFEE**
+
+*Contexte* (nombres fictifs) : la classe de CM2 d'une école de Kaolack (36 élèves et 2 maîtres) visite Kaffrine en car. Sur une carte au 1/1 000 000, la distance entre Kaolack et Kaffrine est de 6 cm (on suppose que la route est droite). Un billet aller coûte 2 500 F CFA ; les élèves ont une réduction de 20 %, les maîtres paient le prix entier. Le car consomme 15 litres de gazole pour 100 km.
+
+*Consigne* : pose les opérations.
+1) Calcule la distance réelle en km.
+2) Calcule le prix d'un billet d'élève, puis le prix de tous les billets aller.
+3) Combien de litres de gazole le car consomme-t-il pour l'aller ?`,
+          corrige: `1) 6 × 1 000 000 = 6 000 000 cm. 100 000 cm = 1 km, donc 6 000 000 cm = **60 km**.
+La distance réelle est de 60 km.
+
+2) Réduction : 2 500 × 20 ÷ 100 = 500 F. Billet d'élève : 2 500 − 500 = **2 000 F**.
+~~~
+   36 × 2 000 = 72 000 F   (élèves)
+    2 × 2 500 =  5 000 F   (maîtres)
+   72 000 + 5 000 = 77 000 F
+~~~
+Les billets aller coûtent **77 000 F CFA**.
+
+3) Règle de trois : 100 km → 15 l ; 10 km → 15 ÷ 10 = 1,5 l ; 60 km → 1,5 × 6 = **9 l**.
+Le car consomme 9 litres de gazole pour l'aller.`,
+        },
       ],
     },
     {
@@ -3030,6 +3528,7 @@ Un **carré** est à la fois un rectangle et un losange.
 ## Triangles, cercle, polygones
 - Isocèle : 2 côtés égaux ; équilatéral : 3 côtés égaux ; rectangle : 1 angle droit.
 - **Diamètre = 2 × rayon** ; on trace le cercle au compas, écarté du rayon.
+- Longueur du cercle (son périmètre) : **D × 3,14 = 2 × r × 3,14**.
 - Pentagone 5 côtés, **hexagone 6**, **octogone 8**. Régulier : côtés et angles tous égaux.
 - Tangram : 7 pièces (5 triangles, 1 carré, 1 parallélogramme).
 - Angle droit 90° ; aigu < 90° ; obtus entre 90° et 180° ; plat 180°.
@@ -3054,13 +3553,14 @@ Un **carré** est à la fois un rectangle et un losange.
 | Cercle | une infinité |
 
 - **Symétrie** : pliage ; même distance de part et d'autre de l'axe, sur une perpendiculaire.
-- **Translation** : glissement (direction, sens, longueur) ; la figure ne tourne pas.
+- **Translation** : glissement (direction, sens, longueur) ; la figure ne tourne pas. Sur un quadrillage, on déplace **chaque sommet** du même nombre de carreaux, puis on relie.
 - **Agrandir / réduire** : toutes les longueurs × ou ÷ par le même nombre ; les angles ne changent pas.
 
 > **Pièges fréquents**
 > - Les diagonales d'un rectangle ne sont **pas** ses axes de symétrie.
 > - Un losange n'a pas forcément d'angle droit.
 > - Le rayon est la **moitié** du diamètre.
+> - Longueur du cercle avec le rayon : n'oublie pas le **× 2** (2 × r × 3,14).
 `,
       exercices: [
         {
@@ -3127,6 +3627,56 @@ Un **carré** est à la fois un rectangle et un losange.
           reponse: true,
           explication: "Vrai : les diagonales d'un losange sont perpendiculaires et se coupent en leur milieu ; ce sont aussi ses axes de symétrie.",
         },
+        {
+          type: "saisie",
+          question: "Quelle est la longueur d'un cercle de 1,5 cm de rayon, en cm ? (prends 3,14)",
+          reponses: ["9,42", "9,42 cm"],
+          explication: "Longueur = 2 × r × 3,14 = 2 × 1,5 × 3,14 = 3 × 3,14 = 9,42 cm.",
+        },
+        {
+          type: "redaction",
+          question: `**Problème comme au CFEE**
+
+*Contexte* : pour la kermesse de l'école, Ousmane dessine sur son cahier le plan d'un stand. Le stand est un carré ABCD de 6 cm de côté. Au centre O du carré (le point où se coupent ses diagonales), il trace un cercle de 2 cm de rayon pour la table ronde.
+
+*Consigne* :
+1) Quels instruments utilise-t-il ? Écris les étapes de la construction.
+2) Combien d'axes de symétrie a la figure (le carré avec son cercle) ?
+3) Pour une affiche, il agrandit le dessin × 3. Donne le côté du carré, le rayon et le diamètre du cercle agrandis, puis la longueur du cercle agrandi (prends 3,14).`,
+          corrige: `1) Instruments : la **règle**, l'**équerre** et le **compas**.
+- Je trace [AB] de 6 cm ; en A et en B, je trace avec l'équerre deux côtés perpendiculaires de 6 cm ; je relie D et C.
+- Je trace les deux diagonales [AC] et [BD] au crayon léger : elles se coupent en O.
+- J'écarte le compas de 2 cm, je pique en O et je trace le cercle.
+
+2) Le carré a **4 axes de symétrie** (2 diagonales et 2 droites par les milieux des côtés opposés). Ils passent tous par O, donc ce sont aussi des axes du cercle : la figure a **4 axes**.
+
+3) Agrandissement × 3 :
+- côté : 6 × 3 = **18 cm** ;
+- rayon : 2 × 3 = **6 cm** ; diamètre : 6 × 2 = **12 cm** ;
+- longueur du cercle : 2 × 6 × 3,14 = 12 × 3,14 = **37,68 cm**.
+Les angles du carré restent des angles droits.`,
+        },
+        {
+          type: "redaction",
+          question: `**Problème comme au CFEE**
+
+*Contexte* : pour faire des poubelles pour la cour, le maître montre aux élèves un fût cylindrique de 30 cm de rayon et 90 cm de hauteur. Il veut fabriquer un modèle en carton.
+
+*Consigne* :
+1) Comment s'appelle ce solide ? Décris ses bases et sa surface latérale.
+2) Décris son patron.
+3) Calcule les dimensions du rectangle du patron (prends 3,14).`,
+          corrige: `1) C'est un **cylindre**. Il a deux **bases** : deux disques égaux et parallèles de 30 cm de rayon. Sa **surface latérale** est courbe.
+
+2) Le patron est formé de **2 disques** de 30 cm de rayon et d'**1 rectangle** (la surface latérale déroulée).
+
+3) La longueur du rectangle est égale au tour du disque :
+~~~
+   2 × 30 = 60
+   60 × 3,14 = 188,4
+~~~
+Le rectangle mesure **188,4 cm** de long et **90 cm** de large (la hauteur du fût).`,
+        },
       ],
     },
     {
@@ -3152,7 +3702,7 @@ Un **carré** est à la fois un rectangle et un losange.
 |---|---|
 | Carré | c × 4 |
 | Rectangle | (L + l) × 2 |
-| Cercle | D × 3,14 |
+| Cercle | D × 3,14 = 2 × r × 3,14 |
 
 Intervalles : ligne **ouverte** avec les 2 bouts → intervalles + 1 ; ligne **fermée** → autant que d'intervalles.
 
@@ -3180,6 +3730,7 @@ Trouver une dimension : l = A ÷ L ; hauteur du triangle = A × 2 ÷ b.
 - Masse brute = masse nette + tare.
 - Masse = volume (dm³) × masse volumique (kg par dm³).
 - 1 h = 60 min ; 1 min = 60 s ; 1 jour = 24 h.
+- **Durée = heure d'arrivée − heure de départ** : de 9 h 40 à 13 h 15 → 12 h 75 − 9 h 40 = 3 h 35 min.
 - Distance = vitesse × durée ; vitesse = distance ÷ durée ; durée = distance ÷ vitesse.
 - Volume = débit × durée ; durée = volume ÷ débit.
 
@@ -3190,6 +3741,7 @@ Le budget, les prix (achat, vente, bénéfice, perte), les intérêts, les parta
 > - Toujours les **mêmes unités** avant de calculer (m avec m).
 > - 2 h 30 min ≠ 2,30 h : 2 h 30 min = 2,5 h = 150 min.
 > - Côté + 2 m ne veut pas dire aire + 4 m² : recalcule la nouvelle aire.
+> - Longueur du cercle avec le rayon : 2 × r × 3,14 (n'oublie pas le × 2).
 `,
       exercices: [
         {
@@ -3255,6 +3807,75 @@ Le budget, les prix (achat, vente, bénéfice, perte), les intérêts, les parta
           reponse: 2,
           explication: "Masse nette = masse brute − tare = 52 − 2 = 50 kg.",
         },
+        {
+          type: "saisie",
+          question: "Quelle est la longueur d'un cercle de 6 m de rayon, en m ? (prends 3,14)",
+          reponses: ["37,68", "37,68 m"],
+          explication: "Longueur = 2 × r × 3,14 = 2 × 6 × 3,14 = 12 × 3,14 = 37,68 m.",
+        },
+        {
+          type: "saisie",
+          question: "Une émission de radio commence à 9 h 50 et finit à 12 h 15. Combien de temps dure-t-elle ?",
+          reponses: ["2 h 25 min", "2 h 25", "2h25", "2 h 25 minutes", "2 heures 25 minutes", "2 heures 25", "2h25min", "145 min", "145 minutes"],
+          explication: "12 h 15 = 11 h 75. 11 h 75 − 9 h 50 = 2 h 25 min. Autre méthode : de 9 h 50 à 10 h : 10 min ; de 10 h à 12 h : 2 h ; de 12 h à 12 h 15 : 15 min ; total 2 h 25 min.",
+        },
+        {
+          type: "saisie",
+          question: "Un rectangle mesure 8 m sur 5 m. On augmente sa longueur **et** sa largeur de 2 m. De combien son aire augmente-t-elle, en m² ?",
+          reponses: ["30", "30 m²"],
+          explication: "Ancienne aire : 8 × 5 = 40 m². Nouveau rectangle : 10 m sur 7 m, aire 70 m². Augmentation : 70 − 40 = 30 m².",
+        },
+        {
+          type: "saisie",
+          question: "Un robinet a un débit de 18 litres par minute. Combien de minutes faut-il pour remplir un fût de 216 litres ?",
+          reponses: ["12", "12 min", "12 minutes"],
+          explication: "Durée = volume ÷ débit = 216 ÷ 18 = 12 minutes. Vérification : 18 × 12 = 216 litres.",
+        },
+        {
+          type: "redaction",
+          question: `**Problème comme au CFEE**
+
+*Contexte* : le jardin scolaire d'une école de Thiès est un rectangle de 25 m sur 16 m. On l'arrose avec une pompe qui a un débit de 40 litres par minute. Ce matin, la pompe a fonctionné de 7 h 50 à 8 h 35. L'année prochaine, on allongera le jardin de 5 m (la largeur ne changera pas).
+
+*Consigne* : pose les opérations.
+1) Calcule le périmètre du jardin, puis son aire en m² et en ares.
+2) Calcule la durée de l'arrosage, puis la quantité d'eau utilisée en litres et en m³.
+3) Calcule la nouvelle aire du jardin et de combien elle augmente.`,
+          corrige: `1) Périmètre : (25 + 16) × 2 = 41 × 2 = **82 m**.
+Aire : 25 × 16 = **400 m²**. 1 a = 100 m², donc 400 m² = **4 ares**.
+
+2) Durée : de 7 h 50 à 8 h : 10 min ; de 8 h à 8 h 35 : 35 min. 10 + 35 = **45 min**.
+Eau : volume = débit × durée = 40 × 45 = **1 800 litres**.
+1 m³ = 1 000 l, donc 1 800 l = **1,8 m³**.
+
+3) Nouvelle longueur : 25 + 5 = 30 m. Nouvelle aire : 30 × 16 = **480 m²**.
+Augmentation : 480 − 400 = **80 m²**. L'aire du jardin augmentera de 80 m².`,
+        },
+        {
+          type: "redaction",
+          question: `**Problème comme au CFEE**
+
+*Contexte* (nombres fictifs) : un car part de Tambacounda à 6 h 40 et arrive à Kédougou à 11 h 10. Il a parcouru 225 km sans s'arrêter, toujours à la même vitesse. Une roue du car a 0,5 m de rayon.
+
+*Consigne* : pose les opérations.
+1) Calcule la durée du trajet.
+2) Calcule la vitesse du car en km/h.
+3) Calcule la longueur d'un tour de roue (prends 3,14). Combien de tours la roue fait-elle sur 314 m ?`,
+          corrige: `1) 11 h 10 = 10 h 70.
+~~~
+     10 h 70 min
+   −  6 h 40 min
+   -------------
+      4 h 30 min
+~~~
+Le trajet dure **4 h 30 min**.
+
+2) 4 h 30 min = 4,5 h. Vitesse = distance ÷ durée = 225 ÷ 4,5 = 2 250 ÷ 45 = **50 km/h**.
+Vérification : 50 × 4,5 = 225 km.
+
+3) Un tour de roue : 2 × 0,5 × 3,14 = 1 × 3,14 = **3,14 m**.
+Sur 314 m : 314 ÷ 3,14 = 31 400 ÷ 314 = **100 tours**.`,
+        },
       ],
     },
     {
@@ -3306,6 +3927,18 @@ Le budget, les prix (achat, vente, bénéfice, perte), les intérêts, les parta
 > - 2 ans 6 mois = 30 mois (formule des mois).
 > - Vérifie qu'un partage redonne bien le total.
 `,
+      textes: {
+        recolte: `**Récolte d'arachide de la coopérative d'un village de Nioro** (nombres fictifs)
+
+Chaque ■ représente 100 kg d'arachide.
+
+~~~
+2022   ■ ■ ■ ■ ■ ■ ■ ■              800 kg
+2023   ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■      1 100 kg
+2024   ■ ■ ■ ■ ■ ■                  600 kg
+2025   ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■  1 300 kg
+~~~`,
+      },
       exercices: [
         {
           type: "qcm",
@@ -3369,6 +4002,96 @@ Le budget, les prix (achat, vente, bénéfice, perte), les intérêts, les parta
           choix: ["9", "5,67", "21", "81"],
           reponse: 0,
           explication: "Démarche régressive : 22 + 5 = 27 ; 27 ÷ 3 = 9. Vérification : 9 × 3 − 5 = 22.",
+        },
+        {
+          type: "qcm",
+          texte: "recolte",
+          question: "D'après le diagramme, quelle année la récolte a-t-elle été la plus grande ?",
+          choix: ["2022", "2023", "2025", "2024"],
+          reponse: 2,
+          explication: "La plus longue barre est celle de 2025 : 13 carrés de 100 kg, soit 1 300 kg.",
+        },
+        {
+          type: "saisie",
+          texte: "recolte",
+          question: "D'après le diagramme, de combien de kg la récolte a-t-elle augmenté de 2024 à 2025 ?",
+          reponses: ["700", "700 kg"],
+          explication: "2024 : 600 kg ; 2025 : 1 300 kg. 1 300 − 600 = 700 kg de plus.",
+        },
+        {
+          type: "saisie",
+          texte: "recolte",
+          question: "D'après le diagramme, quelle est la récolte moyenne par an, en kg ?",
+          reponses: ["950", "950 kg"],
+          explication: "Total : 800 + 1 100 + 600 + 1 300 = 3 800 kg. Moyenne : 3 800 ÷ 4 = 950 kg par an.",
+        },
+        {
+          type: "redaction",
+          texte: "recolte",
+          question: `**Problème comme au CFEE**
+
+*Contexte* : la coopérative vend toute la récolte de 2025 (lis-la sur le diagramme) à 300 F CFA le kilogramme. Elle paie 40 000 F de frais (sacs et transport). Le reste de l'argent est partagé entre trois familles, proportionnellement à leurs jours de travail : 14 jours, 21 jours et 35 jours.
+
+*Consigne* : pose les opérations.
+1) Calcule l'argent de la vente.
+2) Calcule la somme à partager.
+3) Calcule la part de chaque famille.`,
+          corrige: `1) Récolte de 2025 : 1 300 kg.
+~~~
+     1 300
+   ×   300
+   -------
+   390 000
+~~~
+La vente rapporte **390 000 F CFA**.
+
+2) 390 000 − 40 000 = **350 000 F** à partager.
+
+3) Nombre total de jours : 14 + 21 + 35 = 70 jours. Pour un jour : 350 000 ÷ 70 = 5 000 F.
+~~~
+   14 × 5 000 =  70 000 F
+   21 × 5 000 = 105 000 F
+   35 × 5 000 = 175 000 F
+~~~
+Les familles reçoivent **70 000 F**, **105 000 F** et **175 000 F**.
+Vérification : 70 000 + 105 000 + 175 000 = 350 000 F.`,
+        },
+        {
+          type: "redaction",
+          question: `**Problème comme au CFEE**
+
+*Contexte* : voici le budget d'un mois d'une famille de Ziguinchor (nombres fictifs).
+
+| Recettes | Montant | Dépenses | Montant |
+|---|---|---|---|
+| Salaire | 165 000 F | Nourriture | 90 000 F |
+| Vente de légumes | 20 000 F | Loyer | 35 000 F |
+| | | Eau et électricité | 18 500 F |
+| | | Transport | 15 000 F |
+| | | École | 12 500 F |
+
+*Consigne* : pose les opérations.
+1) Calcule le total des recettes et le total des dépenses.
+2) La famille fait-elle des économies ou est-elle en déficit ? De combien par mois ?
+3) Chaque mois est pareil. Au bout de 12 mois, elle place toutes ses économies à 5 % pendant 6 mois. Calcule l'intérêt et la valeur acquise.`,
+          corrige: `1) Recettes : 165 000 + 20 000 = **185 000 F**.
+Dépenses :
+~~~
+     90 000
+   + 35 000
+   + 18 500
+   + 15 000
+   + 12 500
+   --------
+    171 000
+~~~
+Les dépenses font **171 000 F**.
+
+2) Recettes > dépenses : la famille fait des **économies**. 185 000 − 171 000 = **14 000 F** par mois.
+
+3) En 12 mois : 14 000 × 12 = **168 000 F**.
+Intérêt : I = 168 000 × 5 × 6 ÷ 1 200 = 5 040 000 ÷ 1 200 = **4 200 F**.
+Valeur acquise : 168 000 + 4 200 = **172 200 F**.`,
         },
       ],
     },

@@ -326,6 +326,10 @@ export function reponseJuste(saisie, attendues, langue = false, enonce = "") {
   // Même heure écrite autrement : 8.40 = 8:40 = 8h40 = 8 h 40
   const hm = (x) => { const m = String(x).trim().toLowerCase().match(/^(\d{1,2})\s*[.:h]\s*(\d{2})(?:\s*min)?$/); return m ? +m[1] * 60 + +m[2] : null; };
   if (heureAttendue && hm(saisie) != null && attendues.some((r) => hm(r) === hm(saisie))) return true;
+  // Durée en heures et minutes écrite autrement : 3 h 35 min = 3h35 = 3 h 35 mn = 3 heures 35 minutes
+  // (les deux écritures doivent avoir des heures ET des minutes : « 215 min » ne vaut pas « 3 h 35 min »)
+  const hmin = (x) => { const m = normaliser(x).match(/^(\d{1,3})\s*(?:h|heures?)\s*(?:et\s+)?(\d{1,2})\s*(?:min|mn|minutes?)?$/); return m ? +m[1] * 60 + +m[2] : null; };
+  if (hmin(saisie) != null && attendues.some((r) => hmin(r) === hmin(saisie))) return true;
   // « do not you? », « is not it? » : la forme non contractée devant le sujet n'est pas de l'anglais
   const nonInverse = /\b(?:do|does|did|is|are|was|were|have|has|had|can|could|will|would|should|must|shall)\s+not\s+(?:i|you|he|she|it|we|they|there)\b/;
   if (nonInverse.test(normaliser(saisie)) && !attendues.some((r) => nonInverse.test(normaliser(r)))) return false;

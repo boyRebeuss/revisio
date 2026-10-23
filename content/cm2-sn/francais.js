@@ -68,8 +68,8 @@ Le soir, quand la pirogue revient, les femmes attendent sur la plage avec leurs 
       exercices: [
         { type: "qcm", texte: "modou", question: "Où habite Modou ?", choix: ["à Kayar, un village de pêcheurs", "à Dakar, dans un grand immeuble", "dans un village de cultivateurs, loin de la mer", "à Saint-Louis, près du fleuve"], reponse: 0, explication: "La première phrase le dit : « Modou habite à **Kayar**, un grand village de pêcheurs au bord de l'océan. » La réponse est écrite dans le texte." },
         { type: "vf", texte: "modou", question: "Modou accompagne son père un jour d'école.", reponse: false, explication: "C'est faux. Le texte dit : « Un samedi, **pendant les vacances** ». Modou n'a donc pas école ce jour-là." },
-        { type: "saisie", texte: "modou", question: "Comment s'appelle le père de Modou ?", reponses: ["Pape Ndiaye", "Pape"], explication: "Le père s'appelle **Pape Ndiaye** : « Son père, Pape Ndiaye, part chaque matin en mer ». Un prénom et un nom propre prennent une majuscule." },
-        { type: "saisie", texte: "modou", question: "Trouve dans le texte le mot qui désigne le bateau des pêcheurs.", reponses: ["pirogue"], explication: "C'est la **pirogue** : un long bateau en bois, souvent peint de couleurs vives, utilisé par les pêcheurs du Sénégal." },
+        { type: "saisie", texte: "modou", question: "Comment s'appelle le père de Modou ?", reponses: ["Pape Ndiaye", "Pape", "Ndiaye", "Il s'appelle Pape Ndiaye.", "Son père s'appelle Pape Ndiaye.", "Le père de Modou s'appelle Pape Ndiaye."], explication: "Le père s'appelle **Pape Ndiaye** : « Son père, Pape Ndiaye, part chaque matin en mer ». Un prénom et un nom propre prennent une majuscule." },
+        { type: "saisie", texte: "modou", question: "Trouve dans le texte le mot qui désigne le bateau des pêcheurs.", reponses: ["pirogue", "C'est la pirogue.", "C'est une pirogue.", "Le bateau s'appelle la pirogue."], explication: "C'est la **pirogue** : un long bateau en bois, souvent peint de couleurs vives, utilisé par les pêcheurs du Sénégal." },
         { type: "qcm", texte: "modou", question: "Quel poisson Modou et son père attrapent-ils ?", choix: ["des capitaines", "des thiofs", "des carpes", "des sardinelles"], reponse: 3, explication: "Le texte dit : « le filet est lourd de **sardinelles** qui brillent comme de l'argent ». Les autres poissons existent au Sénégal, mais ils ne sont pas dans le texte." },
         { type: "qcm", texte: "modou", question: "« Modou attend, **les yeux grands ouverts**. » Cela montre que Modou est :", choix: ["très attentif et curieux", "fatigué et endormi", "en colère contre son père", "malade à cause des vagues"], reponse: 0, explication: "Quand on garde les yeux grands ouverts, on regarde tout avec attention. Modou découvre la pêche : il est **curieux** et **attentif**. Cette réponse n'est pas écrite mot pour mot : on la trouve grâce à un indice." },
         { type: "vf", texte: "modou", question: "Modou se plaint parce qu'il a mal aux bras.", reponse: false, explication: "C'est faux : « Modou a mal aux bras, **mais il ne se plaint pas** ». Le mot *mais* montre une opposition : il a mal, pourtant il ne dit rien. Il est courageux." },
@@ -130,7 +130,7 @@ Un texte est fait de **paragraphes** (des blocs de phrases séparés par un reto
         baobab: `**Le baobab, arbre géant du Sénégal** (texte d'entraînement)
 
 **Un arbre symbole**
-Le baobab pousse dans les savanes d'Afrique. Au Sénégal, on le voit presque partout, surtout dans les régions de Thiès, de Kaolack et de Fatick. Il figure sur les armoiries du Sénégal, à côté du lion.
+Le baobab pousse dans les savanes d'Afrique. Au Sénégal, on le voit presque partout, surtout dans les régions de Thiès, de Kaolack et de Fatick. Il figure sur les armoiries (le blason) du Sénégal, à côté du lion.
 
 **Un tronc énorme**
 Son tronc est très large : plusieurs personnes doivent se tenir la main pour en faire le tour. Ce tronc garde beaucoup d'eau, ce qui aide l'arbre à vivre pendant la saison sèche. Pendant cette saison, le baobab perd ses feuilles. Certains baobabs vivent plusieurs centaines d'années.
@@ -148,14 +148,14 @@ Ingrédients : de la poudre de pain de singe, de l'eau fraîche, du sucre.
       },
       exercices: [
         { type: "qcm", texte: "baobab", question: "Quel est le type du texte « Le baobab, arbre géant du Sénégal » ?", choix: ["un conte", "une lettre", "un poème", "un texte documentaire"], reponse: 3, explication: "Il donne des **informations vraies** sur un arbre, au présent, avec un titre et des intertitres. Il n'y a pas de personnage ni d'histoire : c'est un texte **documentaire**." },
-        { type: "saisie", texte: "baobab", question: "Comment appelle-t-on le fruit du baobab ?", reponses: ["pain de singe", "le pain de singe"], explication: "Dans la partie « Un arbre utile » : « Le fruit s'appelle le **pain de singe**. » L'intertitre t'aide à trouver vite la bonne partie." },
+        { type: "saisie", texte: "baobab", question: "Comment appelle-t-on le fruit du baobab ?", reponses: ["pain de singe", "le pain de singe", "C'est le pain de singe.", "Le fruit s'appelle le pain de singe.", "Le fruit du baobab s'appelle le pain de singe."], explication: "Dans la partie « Un arbre utile » : « Le fruit s'appelle le **pain de singe**. » L'intertitre t'aide à trouver vite la bonne partie." },
         { type: "vf", texte: "baobab", question: "Le baobab garde ses feuilles toute l'année.", reponse: false, explication: "C'est faux : « Pendant cette saison, le baobab **perd ses feuilles**. » Il s'agit de la saison sèche." },
         { type: "qcm", texte: "baobab", question: "D'après le texte, qu'est-ce qui aide le baobab à vivre pendant la saison sèche ?", choix: ["Ses grandes feuilles vertes.", "Son tronc qui garde beaucoup d'eau.", "L'eau que les hommes lui donnent.", "Ses fruits très sucrés."], reponse: 1, explication: "Le texte dit : « Ce tronc garde beaucoup d'eau, ce qui aide l'arbre à vivre pendant la saison sèche. »" },
-        { type: "saisie", texte: "baobab", question: "Avec quelle partie du baobab prépare-t-on le *lalo* ?", reponses: ["les feuilles", "feuilles", "avec les feuilles", "les feuilles séchées"], explication: "« Les **feuilles**, séchées et réduites en poudre, donnent le *lalo*, que l'on met dans le couscous. »" },
+        { type: "saisie", texte: "baobab", question: "Avec quelle partie du baobab prépare-t-on le *lalo* ?", reponses: ["les feuilles", "feuilles", "avec les feuilles", "les feuilles séchées", "les feuilles du baobab", "avec les feuilles séchées", "On prépare le lalo avec les feuilles."], explication: "« Les **feuilles**, séchées et réduites en poudre, donnent le *lalo*, que l'on met dans le couscous. »" },
         { type: "qcm", texte: "baobab", question: "Quelle est l'idée principale de la dernière partie, « Un arbre utile » ?", choix: ["Toutes les parties du baobab servent aux hommes.", "Le baobab vit très longtemps.", "Le baobab pousse surtout à Thiès.", "Le jus de bouye est sucré."], reponse: 0, explication: "La première phrase de la partie annonce l'idée : « **Toutes les parties du baobab servent.** » Les phrases suivantes donnent des exemples (feuilles, fruit, écorce)." },
         { type: "qcm", texte: "recette", question: "Le texte « Préparer le jus de bouye » est un texte :", choix: ["narratif, car il raconte une histoire", "poétique, car il joue avec les sons", "injonctif, car il dit ce qu'il faut faire", "documentaire, car il décrit un arbre"], reponse: 2, explication: "C'est une **recette** : les verbes sont à l'impératif (verse, ajoute, passe, mets) et les étapes sont numérotées dans l'ordre. C'est un texte **injonctif**." },
         { type: "vf", texte: "recette", question: "Dans la recette, on ajoute le sucre avant de passer le mélange dans la passoire.", reponse: false, explication: "C'est faux. L'ordre est : 1. verser la poudre, 2. ajouter l'eau, 3. passer dans la passoire, 4. **ensuite** ajouter le sucre. Dans un texte injonctif, l'ordre des étapes est très important." },
-        { type: "saisie", texte: "recette", question: "Dans la phrase « Verse la poudre dans un grand bol », à quel mode est le verbe « verse » ?", reponses: ["impératif", "à l'impératif", "l'impératif"], explication: "« Verse » est à l'**impératif** : il donne un ordre ou un conseil, et il n'a pas de sujet écrit. C'est typique d'un texte injonctif." },
+        { type: "saisie", texte: "recette", question: "Dans la phrase « Verse la poudre dans un grand bol », à quel mode est le verbe « verse » ?", reponses: ["impératif", "à l'impératif", "l'impératif", "il est à l'impératif", "Le verbe est à l'impératif."], explication: "« Verse » est à l'**impératif** : il donne un ordre ou un conseil, et il n'a pas de sujet écrit. C'est typique d'un texte injonctif." },
         { type: "redaction", texte: "baobab", question: "**Résumer** : écris le résumé du texte sur le baobab en trois phrases, une phrase par partie.", corrige: `**Exemple de résumé**
 1. Le baobab est un grand arbre d'Afrique, très répandu au Sénégal, dont il est un symbole.
 2. Son énorme tronc garde l'eau, ce qui l'aide à vivre pendant la saison sèche, et il peut vivre plusieurs siècles.
@@ -175,7 +175,7 @@ Ingrédients : de la poudre de pain de singe, de l'eau fraîche, du sucre.
       theme: "Lecture et compréhension",
       cours: `
 ## Le conte, une tradition vivante
-Au Sénégal, les contes se racontent souvent **le soir**, en famille ou au clair de lune. Le conteur parle, le public répond, rit, chante. Les contes mettent souvent en scène des **animaux qui parlent** : **Leuk-le-Lièvre**, rusé et malin, et **Bouki l'Hyène**, gourmande, paresseuse et souvent naïve. Le roi de la brousse est **Gaïndé le Lion**.
+Au Sénégal, les contes se racontent souvent **le soir**, en famille ou au clair de lune. Le conteur parle, le public répond, rit, chante. Les contes mettent souvent en scène des **animaux qui parlent** : **Leuk-le-Lièvre**, rusé et malin, et **Bouki l'Hyène**, gourmande, paresseuse et souvent naïve. Le roi de la brousse est **Gaïndé le Lion**. Selon les conteurs, Bouki est un personnage masculin (*il*) ou féminin (*elle*) ; dans le conte de ce chapitre, c'est une hyène femelle : on dit donc *elle*.
 
 Des écrivains sénégalais ont mis ces contes par écrit : **Birago Diop** dans *Les Contes d'Amadou Koumba* (1947), **Léopold Sédar Senghor** et **Abdoulaye Sadji** dans *La Belle Histoire de Leuk-le-Lièvre* (1953), un livre écrit pour les écoliers.
 
@@ -194,7 +194,7 @@ Beaucoup de contes et de fables donnent une **leçon** : c'est la **morale**. El
 ## Les temps du conte
 Le conte est souvent écrit au **passé** :
 - l'**imparfait** pour décrire le décor et les habitudes : « Les mares **étaient** sèches. »
-- le **passé simple** pour les actions qui se suivent : « Leuk **eut** une idée. Il **prépara** une statue. »
+- le **passé simple** pour les actions qui se suivent : « Leuk **eut** une idée. Il **sculpta** une statue. »
 
 >! **Méthode : trouver la morale**
 >! 1. Qui est puni ? Qui est récompensé ?
@@ -224,7 +224,7 @@ Au lever du jour, tous les animaux trouvèrent Bouki prisonnière de la statue. 
       },
       exercices: [
         { type: "qcm", texte: "puits", question: "Quelle est la situation au début du conte (la situation initiale) ?", choix: ["Il n'a pas plu et les animaux ont soif.", "Les animaux ont trop de nourriture.", "Le lion est malade.", "Le lièvre a perdu son chemin."], reponse: 0, explication: "« La pluie n'était pas venue. Les mares étaient sèches et les animaux de la brousse avaient soif. » La situation de départ est la sécheresse. Le vrai problème qui lance l'histoire du piège (l'élément déclencheur) arrive plus tard." },
-        { type: "saisie", texte: "puits", question: "Quel animal est le roi qui réunit tous les animaux ?", reponses: ["le lion", "lion", "Gaïndé", "Gaïndé le Lion"], explication: "C'est **Gaïndé le Lion**. Dans les contes du Sénégal, le lion (*gaïndé* en wolof) est le roi de la brousse." },
+        { type: "saisie", texte: "puits", question: "Quel animal est le roi qui réunit tous les animaux ?", reponses: ["le lion", "lion", "Gaïndé", "Gaïndé le Lion", "C'est le lion.", "Le roi est le lion.", "C'est Gaïndé le Lion.", "Le roi est Gaïndé le Lion."], explication: "C'est **Gaïndé le Lion**. Dans les contes du Sénégal, le lion (*gaïndé* en wolof) est le roi de la brousse." },
         { type: "vf", texte: "puits", question: "Bouki l'Hyène a aidé à creuser le puits.", reponse: false, explication: "C'est faux : elle dit « J'ai mal au dos, je ne peux pas creuser ». C'est une **excuse** : elle ne veut pas travailler." },
         { type: "qcm", texte: "puits", question: "Quel est l'élément déclencheur, le problème qui lance l'histoire du piège ?", choix: ["Quelqu'un boit en cachette la nuit et salit l'eau.", "Les animaux creusent pendant sept jours.", "Leuk sculpte une statue.", "Bouki baisse la tête de honte."], reponse: 0, explication: "Le mot **Mais** annonce le problème : « Mais chaque nuit, quelqu'un venait boire en cachette et salissait l'eau ». C'est ce problème qui pousse Leuk à agir." },
         { type: "qcm", texte: "puits", question: "Que veut dire « boire **en cachette** » ?", choix: ["boire très vite", "boire dans une cache en bois", "boire sans être vu", "boire avec les autres"], reponse: 2, explication: "Faire quelque chose **en cachette**, c'est le faire en se cachant, pour que personne ne le voie. Le mot vient de *cacher*." },
@@ -468,12 +468,14 @@ Un **groupe nominal** (GN) est un groupe de mots organisé autour d'un **nom**, 
 Le GN minimal = **déterminant + nom** : *un* **arbre**, *la* **case**, *mes* **amis**.
 
 ## Les expansions du nom
-On peut **enrichir** le nom avec des **expansions**. Elles donnent des précisions.
+On peut **enrichir** le nom avec des **expansions** : ce sont des mots que l'on ajoute autour du nom pour le préciser (dire comment il est, à qui il est, où il se trouve...).
 | Expansion | Exemple | Comment la reconnaître |
 |---|---|---|
 | **adjectif qualificatif épithète** | une case **ronde** ; un **grand** baobab | adjectif placé juste avant ou après le nom |
 | **complément du nom** | le marché **de Kaolack** ; un sac **en plastique** | introduit par une préposition (de, en, à...) |
 | **proposition relative** | le garçon **qui court** ; le livre **que je lis** ; le village **où je suis né** | commence par **qui, que, où** (pronoms relatifs) |
+
+*Épithète* se dit de l'adjectif **placé à côté du nom** : l'adjectif épithète touche le nom (une case **ronde**). Quand l'adjectif est séparé du nom par le verbe *être*, il n'est plus épithète mais **attribut du sujet** (la case **est ronde**).
 
 >! **Exemple résolu** : « la vieille pirogue bleue de mon oncle qui dort sur la plage »
 >! Nom noyau : **pirogue** — déterminant : la
@@ -502,7 +504,7 @@ Le déterminant et les adjectifs s'accordent en **genre** (masculin, féminin) e
 > Déterminant et adjectifs s'accordent avec le nom noyau.
 `,
       exercices: [
-        { type: "saisie", question: "Quel est le **nom noyau** du groupe nominal « le grand marché de Kaolack » ?", reponses: ["marché"], explication: "Le mot principal est **marché** : *le* est son déterminant, *grand* un adjectif épithète, *de Kaolack* un complément du nom." },
+        { type: "saisie", question: "Quel est le **nom noyau** du groupe nominal « le grand marché de Kaolack » ?", reponses: ["marché", "le nom noyau est marché", "C'est marché."], explication: "Le mot principal est **marché** : *le* est son déterminant, *grand* un adjectif épithète, *de Kaolack* un complément du nom." },
         { type: "qcm", question: "Dans « un sac **de riz** », quelle est la fonction de « de riz » ?", choix: ["adjectif épithète", "proposition relative", "complément du nom", "sujet"], reponse: 2, explication: "« de riz » complète le nom *sac* et commence par la préposition **de** : c'est un **complément du nom**." },
         { type: "qcm", question: "Quel groupe nominal contient une **proposition relative** ?", choix: ["la case ronde", "la case de mon grand-père", "la petite case", "la case où je dors"], reponse: 3, explication: "« **où je dors** » commence par le pronom relatif *où* et contient un verbe conjugué (*dors*) : c'est une proposition relative." },
         { type: "vf", question: "Dans « des sacs de riz », le mot « riz » doit être au pluriel.", reponse: false, explication: "C'est faux. Le complément du nom ne s'accorde pas avec le nom noyau : des sacs **de riz** (le riz en général). Seuls le déterminant et les adjectifs s'accordent avec *sacs*." },
@@ -583,7 +585,7 @@ Verbes irréguliers (le radical change, les terminaisons restent les mêmes) :
         { type: "qcm", question: "Quelle phrase est au **futur simple** ?", choix: ["Les paysans sèment le mil.", "Les paysans semaient le mil.", "Les paysans sèmeront le mil.", "Les paysans ont semé le mil."], reponse: 2, explication: "« sèmeront » a la terminaison du futur **-ont** : c'est le futur simple. *Sèment* est au présent, *semaient* à l'imparfait, *ont semé* au passé composé." },
         { type: "saisie", question: "Conjugue le verbe **venir** au futur simple : « L'année prochaine, nous ___ te voir à Ziguinchor. »", reponses: ["viendrons", "nous viendrons"], explication: "Venir au futur : je **viendr**ai, nous **viendrons**. Le radical devient *viendr-*." },
         { type: "redaction", question: "Tu prépares la Tabaski avec ta famille. Écris **cinq phrases au futur simple** pour dire ce que chacun fera. Utilise au moins les verbes **aller, faire, être, avoir** et un verbe du 1er groupe.", corrige: `**Exemple de réponse**
-1. Mon père **ira** acheter le mouton au foirail.
+1. Mon père **ira** acheter le mouton au marché aux moutons.
 2. Ma mère et mes tantes **feront** cuire la viande avec des oignons.
 3. Nous **aurons** de nouveaux habits pour la fête.
 4. Moi, je **serai** chargé d'aller saluer les voisins.
@@ -950,7 +952,7 @@ On forme les mots avec des **préfixes** (avant le radical) et des **suffixes** 
 
 ## Synonymes et contraires
 - Des **synonymes** ont un sens **proche** : content / joyeux ; maison / demeure ; commencer / débuter.
-- Des **contraires** (antonymes) ont un sens **opposé** : chaud / froid ; arriver / partir ; propre / sale.
+- Des **contraires** ont un sens **opposé** (on dit aussi des *antonymes* : ce mot savant veut simplement dire « contraires ») : chaud / froid ; arriver / partir ; propre / sale.
 
 ## Sens propre et sens figuré
 - **Sens propre** : le sens habituel, concret. « Le lion a une **crinière**. »
@@ -1064,6 +1066,7 @@ Les critères habituels de l'approche par compétences sont les suivants (le bar
         { type: "saisie", question: "Quelle **ponctuation** met-on à la fin de la formule d'appel « Cher Moussa » ? (écris le signe)", reponses: [",", "virgule", "une virgule"], explication: "On met une **virgule** : « Cher Moussa, ». Puis on va à la ligne pour commencer la lettre." },
         { type: "qcm", question: "Quelle phrase convient le mieux pour **terminer** une lettre à son oncle ?", choix: ["Salue pour moi tante Khady et mes cousins. Ton neveu qui t'aime,", "Bon, j'arrête là.", "Réponds vite sinon je me fâche !", "Voilà, c'est tout."], reponse: 0, explication: "La conclusion transmet des **salutations** et se termine par une **formule finale** affectueuse. Les autres phrases sont familières ou impolies." },
         { type: "redaction", question: "**Situation d'intégration (type CFEE)**\n**Contexte** : Ton oncle Ibrahima, qui habite à Dakar, t'a envoyé un sac et des cahiers pour la rentrée.\n**Consigne** : Écris-lui une lettre d'une quinzaine de lignes pour le remercier, lui donner de tes nouvelles et lui dire comment tu vas utiliser son cadeau.", corrige: `**Exemple de lettre**
+*Corrigé modèle, plus long que ce qu'on attend de toi : le jour de l'examen, la longueur demandée dans la consigne suffit.*
 
 Kaolack, le 10 octobre 2026
 
@@ -1085,6 +1088,7 @@ Mamadou
 - consigne respectée : remercier, donner des nouvelles, dire comment on utilise le cadeau ;
 - **tu** du début à la fin ; phrases correctes et ponctuées ; mots de liaison (car, grâce à, déjà).` },
         { type: "redaction", question: "**Situation d'intégration (type CFEE)**\n**Contexte** : Ton école a organisé une journée de reboisement : les élèves ont planté des arbres dans la cour et autour du village. Ton amie Coumba, qui a déménagé à Kédougou, n'a pas pu y participer.\n**Consigne** : Écris-lui une lettre pour lui raconter cette journée et lui donner ton avis.", corrige: `**Exemple de lettre**
+*Corrigé modèle, plus long que ce qu'on attend de toi : le jour de l'examen, la longueur demandée dans la consigne suffit.*
 
 Fatick, le 12 octobre 2026
 
@@ -1159,6 +1163,7 @@ Choisis un système et **garde-le** :
         { type: "qcm", question: "Quelle phrase de conclusion convient le mieux à un récit de fête ?", choix: ["Il était une fois une fête.", "Soudain, la musique commença.", "D'abord, nous avons mangé.", "Ce jour-là restera longtemps dans ma mémoire, car toute la famille était réunie."], reponse: 3, explication: "Une conclusion dit **comment l'histoire finit** et **ce qu'on a ressenti**. Les autres phrases servent au début ou au milieu du récit." },
         { type: "qcm", question: "Quelle phrase rend le récit plus **vivant** ?", choix: ["Il y avait des gens au marché.", "Le marché était grand.", "Je suis allé au marché.", "Au marché, les vendeuses criaient leurs prix et l'odeur du poisson grillé chatouillait mon nez."], reponse: 3, explication: "Elle ajoute des **détails** de ce qu'on **entend** (les cris) et de ce qu'on **sent** (l'odeur). Le lecteur s'imagine mieux la scène." },
         { type: "redaction", question: "**Situation d'intégration (type CFEE)**\n**Contexte** : Pendant la fête de la Tabaski, il s'est passé quelque chose qui t'a marqué.\n**Consigne** : Raconte cette journée en une quinzaine de lignes, au passé composé et à l'imparfait. Dis ce que tu as ressenti.", corrige: `**Exemple de récit**
+*Corrigé modèle, plus long que ce qu'on attend de toi : le jour de l'examen, la longueur demandée dans la consigne suffit.*
 L'an dernier, j'ai passé la Tabaski chez mes grands-parents, à Mbacké. Il faisait chaud et la maison était pleine de cousins venus de Dakar et de Kaolack.
 
 Le matin, nous avons mis nos habits neufs. Mon grand-boubou blanc brillait au soleil et j'étais très fier. Après la prière, mon grand-père a sacrifié le mouton dans la cour. Ensuite, les femmes ont préparé la viande avec des oignons et de la moutarde. L'odeur des grillades remplissait toute la maison.
@@ -1172,6 +1177,7 @@ Le soir, nous sommes allés saluer les voisins et demander pardon, comme le veut
 - imparfait pour le décor (*faisait, brillait, courait*) et passé composé pour les actions (*avons mis, a sacrifié, ai attrapé*) ;
 - mots de liaison variés ; paragraphes ; orthographe et ponctuation.` },
         { type: "redaction", question: "**Inventer la suite d'une histoire**\n« Ce soir-là, Ndèye rentrait seule du puits avec son seau sur la tête. Le soleil se couchait. Tout à coup, elle entendit un bruit dans les buissons... »\nÉcris la suite (10 à 12 lignes) au **passé simple** et à l'**imparfait**, avec une fin heureuse.", corrige: `**Exemple de suite**
+*Corrigé modèle, plus long que ce qu'on attend de toi : le jour de l'examen, la longueur demandée dans la consigne suffit.*
 Ndèye s'arrêta, le cœur battant. Les feuilles bougeaient et un petit cri sortait du buisson. Elle posa doucement son seau et s'approcha. Dans les branches, elle découvrit un chevreau tout tremblant : sa patte était prise dans une vieille corde.
 « N'aie pas peur, je vais t'aider », murmura-t-elle.
 Elle défit le nœud avec patience. Le chevreau bêla et se frotta contre ses jambes. Ndèye reconnut alors une tache noire sur son front : c'était le chevreau de la voisine, perdu depuis le matin !
@@ -1196,7 +1202,7 @@ Choisis un **ordre** et garde-le :
 - **du plus loin au plus près** (ou l'inverse) ;
 - **de gauche à droite**, ou **de haut en bas** ;
 - **de l'extérieur à l'intérieur** (pour une maison, une école).
-Utilise des **mots de lieu** (organisateurs spatiaux) : *au loin, au fond, devant, derrière, à gauche, à droite, au milieu, au-dessus, en dessous, à côté de, près de, tout autour*.
+Utilise des **mots de lieu**, qui disent **où** se trouve chaque chose (certains livres les appellent des *organisateurs spatiaux*) : *au loin, au fond, devant, derrière, à gauche, à droite, au milieu, au-dessus, en dessous, à côté de, près de, tout autour*.
 
 ### Utiliser ses cinq sens
 | Sens | Exemples |
@@ -1234,10 +1240,11 @@ Le **portrait** est la description d'une **personne** (ou d'un animal).
         { type: "qcm", question: "« **L'odeur du poisson grillé** » fait appel à quel sens ?", choix: ["la vue", "l'ouïe", "l'odorat", "le toucher"], reponse: 2, explication: "Une odeur se **sent** avec le nez : c'est l'**odorat**." },
         { type: "qcm", question: "Quelle phrase est la plus précise ?", choix: ["Il y a un arbre dans la cour.", "Dans la cour, il y a un arbre grand.", "Au milieu de la cour se dresse un vieux fromager aux racines énormes.", "Un arbre est là."], reponse: 2, explication: "Elle situe l'arbre (*au milieu de la cour*), utilise un verbe précis (*se dresse*), nomme l'arbre (*fromager*) et l'enrichit (*vieux*, *aux racines énormes*)." },
         { type: "vf", question: "Un portrait moral décrit les vêtements et la coiffure de la personne.", reponse: false, explication: "C'est faux : les vêtements et la coiffure appartiennent au portrait **physique**. Le portrait **moral** décrit le **caractère** (gentil, courageux, patient...)." },
-        { type: "saisie", question: "Trouve un adjectif plus précis que « grand » pour décrire un baobab très, très gros.", reponses: ["immense", "énorme", "gigantesque", "géant", "colossal"], explication: "Des adjectifs plus forts que *grand* : **immense, énorme, gigantesque, géant**. Ils rendent la description plus vivante." },
+        { type: "saisie", question: "Trouve un adjectif plus précis que « grand » pour décrire un baobab très, très gros.", reponses: ["immense", "énorme", "gigantesque", "géant", "colossal", "imposant", "monumental", "massif"], explication: "Des adjectifs plus forts que *grand* : **immense, énorme, gigantesque, géant**. Ils rendent la description plus vivante." },
         { type: "qcm", question: "« Ma tante est patiente : ... » Quel exemple prouve le mieux cette qualité ?", choix: ["elle porte un beau boubou vert.", "elle est grande et mince.", "elle habite à Rufisque.", "elle m'explique mes leçons plusieurs fois sans jamais se fâcher."], reponse: 3, explication: "Être **patient**, c'est savoir attendre et répéter sans s'énerver. L'exemple montre la qualité en action. Les autres phrases parlent du physique ou du lieu." },
         { type: "saisie", question: "Dans une description d'une cour, complète avec un mot de lieu qui veut dire « tout au bout, le plus loin » : « Au ___ de la cour, on aperçoit la case de mon grand-père. »", reponses: ["fond"], explication: "« **Au fond** de la cour » : le point le plus éloigné, tout au bout." },
         { type: "redaction", question: "**Situation d'intégration (type CFEE)**\n**Contexte** : Un correspondant étranger veut savoir à quoi ressemble ton village ou ton quartier pendant l'hivernage.\n**Consigne** : Décris-le en une douzaine de lignes, au présent. Utilise des mots de lieu et au moins trois sens.", corrige: `**Exemple de description**
+*Corrigé modèle, plus long que ce qu'on attend de toi : le jour de l'examen, la longueur demandée dans la consigne suffit.*
 Mon village, Keur Massamba, se trouve à quelques kilomètres de Kaffrine. Pendant l'hivernage, il change complètement.
 
 Au loin, les champs de mil et d'arachide forment un grand tapis vert qui s'étend jusqu'à l'horizon. Plus près, les mares sont pleines d'eau et les grenouilles y chantent toute la nuit. Au milieu du village se dresse un vieux baobab couvert de feuilles. Sous son ombre, les anciens discutent assis sur des nattes.
@@ -1251,6 +1258,7 @@ Le soir, le ciel se couvre de gros nuages noirs et le tonnerre gronde. J'aime mo
 - trois sens au moins : la vue (vert, rouge), l'ouïe (grenouilles, tonnerre), l'odorat (terre mouillée, fumée), le toucher (boue collante) ;
 - des verbes précis (*s'étend, se dresse, gronde*) ; le présent ; une phrase finale avec un sentiment.` },
         { type: "redaction", question: "**Portrait**\nFais le portrait d'une personne de ta famille que tu aimes beaucoup (grand-mère, grand-père, oncle, grande sœur...). Écris une douzaine de lignes : portrait physique, portrait moral avec un exemple, et ce que tu ressens.", corrige: `**Exemple de portrait**
+*Corrigé modèle, plus long que ce qu'on attend de toi : le jour de l'examen, la longueur demandée dans la consigne suffit.*
 Ma grand-mère s'appelle Mame Diarra. C'est une vieille femme petite et un peu courbée, mais elle marche encore très vite.
 
 Son visage est rond et ridé comme une pomme séchée. Ses yeux noirs pétillent de malice quand elle sourit. Elle couvre toujours ses cheveux blancs d'un foulard coloré, assorti à son grand boubou. À ses poignets, des bracelets en argent tintent à chaque geste.
@@ -1298,6 +1306,7 @@ Pour savoir **qui parle** et **comment**, on utilise des **verbes de parole**. N
 - pour d'autres sentiments : **se plaindre, se moquer, supplier, ordonner, conseiller**.
 
 ## L'incise
+Une **incise** est un petit groupe de mots glissé dans la réplique, ou ajouté à la fin, pour dire **qui parle** et **comment** : *dit Awa*, *répondit-il*.
 Quand le verbe de parole est placé **au milieu** ou **à la fin** de la réplique, le sujet est **inversé** et le groupe est entre virgules : c'est l'**incise**.
 - « Je suis fatigué, **soupira Modou**. »
 - « Viens ici, **ordonna la mère**, et assieds-toi. »
@@ -1320,7 +1329,7 @@ Dans un dialogue avec un adulte, un vendeur, le maître, on emploie les formules
       exercices: [
         { type: "qcm", question: "Dans un dialogue, que signifie le **tiret** ( — ) au début d'une ligne ?", choix: ["qu'un autre personnage prend la parole", "que le dialogue est terminé", "que le personnage pose une question", "qu'il faut lire plus vite"], reponse: 0, explication: "Le tiret indique un **changement de personnage** : quelqu'un d'autre parle. On va aussi à la ligne." },
         { type: "qcm", question: "Quel signe de ponctuation annonce que quelqu'un va parler ?", choix: ["le point", "la virgule", "les deux-points", "le point d'exclamation"], reponse: 2, explication: "Les **deux-points** ( : ) annoncent les paroles : Awa demanda : « Où est le sucre ? »" },
-        { type: "saisie", question: "Complète avec un verbe de parole qui veut dire « parler tout bas » : « Ne fais pas de bruit, le bébé dort, ___ maman. » (au passé simple)", reponses: ["murmura", "chuchota"], explication: "Pour parler tout bas : **murmura** ou **chuchota** (passé simple, 3e personne : -a). Le sujet *maman* est inversé : c'est une incise." },
+        { type: "saisie", question: "Complète avec un verbe de parole qui veut dire « parler tout bas » : « Ne fais pas de bruit, le bébé dort, ___ maman. » (au passé simple)", reponses: ["murmura", "chuchota", "souffla"], explication: "Pour parler tout bas : **murmura** ou **chuchota** (passé simple, 3e personne : -a). Le sujet *maman* est inversé : c'est une incise." },
         { type: "vf", question: "Dans « Je suis fatigué, soupira Modou », le sujet « Modou » est placé après le verbe.", reponse: true, explication: "C'est vrai : dans une **incise** (le verbe de parole au milieu ou à la fin de la réplique), le sujet est **inversé** : *soupira Modou*." },
         { type: "qcm", question: "Quelle incise est correctement écrite ?", choix: ["« Où vas-tu ? il demanda. »", "« Où vas-tu ? demanda-t-il. »", "« Où vas-tu ? demanda il. »", "« Où vas-tu ? demanda-il. »"], reponse: 1, explication: "Dans l'incise, le sujet est inversé. *Demanda* finit par une voyelle et il est suivi de *il* : on ajoute **-t-** → **demanda-t-il**." },
         { type: "qcm", question: "Quel verbe de parole convient le mieux ? « Au secours ! Le feu ! ___ la vendeuse. »", choix: ["murmura", "répondit", "expliqua", "s'écria"], reponse: 3, explication: "La vendeuse a peur et appelle à l'aide : elle parle très fort. **S'écria** (ou *cria*, *hurla*) convient." },
@@ -1373,7 +1382,7 @@ Une **proposition** est un groupe de mots organisé autour d'un **verbe conjugu�
 ## Trois façons de relier les propositions
 | Les propositions sont... | Elles sont reliées par... | Exemple |
 |---|---|---|
-| **juxtaposées** | une virgule, un point-virgule ou deux-points | Il pleut, nous restons à la maison. |
+| **juxtaposées** (posées l'une à côté de l'autre, sans mot de liaison) | une virgule, un point-virgule ou deux-points | Il pleut, nous restons à la maison. |
 | **coordonnées** | une conjonction de coordination (mais, ou, et, donc, or, ni, car) | Il pleut, **donc** nous restons à la maison. |
 | **subordonnées** | un mot subordonnant (qui, que, où, quand, parce que, si, lorsque...) | Nous restons à la maison **parce qu'**il pleut. |
 
@@ -1484,6 +1493,19 @@ Les mots de temps peuvent changer aussi : *demain* → *le lendemain* ; *aujourd
       titre: "Fiche de révision : grammaire",
       theme: "Fiches de révision CFEE",
       cours: `
+## Programme de révision sur 7 jours
+Les fiches servent au **dernier rappel**, juste avant le CFEE : on apprend d'abord avec les chapitres, puis on relit les fiches. Chaque jour : une fiche de deux matières différentes, et leurs quiz express.
+
+| Jour | À réviser |
+|---|---|
+| J1 | Maths : numération + Langue : grammaire |
+| J2 | Maths : mesure + Langue : conjugaison |
+| J3 | Maths : géométrie + Langue : orthographe et vocabulaire |
+| J4 | Maths : problèmes + Langue : lecture et écriture |
+| J5 | Découverte du monde : histoire + EDD : vivre ensemble |
+| J6 | Découverte du monde : géographie + EDD : vivre dans son milieu |
+| J7 | Découverte du monde : sciences + relire tous les « Pièges fréquents » + une épreuve complète : « S'entraîner à l'épreuve de mathématiques du CFEE », « Entraînement au CFEE : épreuve blanche de Langue et communication » ou « Réussir l'épreuve d'EDD au CFEE » |
+
 ## Comment utiliser cette fiche
 Ce n'est pas un nouveau cours : c'est le **résumé** de toute la grammaire du CM2. Relis-la la veille d'une évaluation, puis fais le quiz express. Si une ligne te paraît floue, retourne au chapitre complet.
 
@@ -1526,14 +1548,14 @@ Ce n'est pas un nouveau cours : c'est le **résumé** de toute la grammaire du C
 - Écris toujours le sujet ou le complément **en entier** (« les pêcheurs de Kayar », pas « pêcheurs »).
 
 ## 4. Le groupe nominal
-**Déterminant + nom** (+ expansions) :
-- un **adjectif** : une case **ronde** ;
+**Déterminant + nom** (+ des **expansions**, les mots ajoutés pour préciser le nom) :
+- un **adjectif épithète** (placé à côté du nom) : une case **ronde** ;
 - un **complément du nom** (avec une préposition) : la case **de mon grand-père** ;
 - une **proposition relative** (qui, que, où) : la case **où je suis né**.
 
 ## 5. Phrase simple, phrase complexe
 - **1 verbe conjugué = 1 proposition**. Phrase **simple** = 1 verbe conjugué ; phrase **complexe** = plusieurs.
-- Propositions **juxtaposées** (, ; :), **coordonnées** (mais, ou, et, donc, or, ni, car), **subordonnées** (qui, que, quand, parce que, si...).
+- Propositions **juxtaposées** (posées côte à côte, séparées par , ; ou :), **coordonnées** (mais, ou, et, donc, or, ni, car), **subordonnées** (qui, que, quand, parce que, si...).
 
 ## 6. Discours direct, discours indirect
 | Direct | Indirect |
@@ -1544,11 +1566,30 @@ Ce n'est pas un nouveau cours : c'est le **résumé** de toute la grammaire du C
 
 - Au discours indirect : **plus de deux-points ni de guillemets** ; les pronoms changent (je → il ou elle).
 
+## 7. Les pronoms personnels compléments
+Un pronom complément **remplace un complément** pour éviter de le répéter. Il se place **devant le verbe** (au passé composé, devant l'auxiliaire : « Je **l'**ai vu »).
+
+| Pronom | Il remplace | Exemple |
+|---|---|---|
+| **le, la, l', les** | un COD (verbe + qui ? quoi ?) | Je vois **Awa**. → Je **la** vois. Il range **ses cahiers**. → Il **les** range. |
+| **lui, leur** | un COI avec *à* (à qui ?) | Je parle **à mon oncle**. → Je **lui** parle. Je parle **à mes oncles**. → Je **leur** parle. |
+| **me, te, nous, vous** | un COD ou un COI | Le maître **nous** appelle. Il **te** prête un livre. |
+| **en** | un complément avec *de*, ou une quantité | Je mange **des mangues**. → J'**en** mange. |
+| **y** | un lieu, ou un complément avec *à* | Je vais **à Thiès**. → J'**y** vais. |
+
+- Piège : **leur** devant un verbe est un pronom : il ne prend **jamais de s** (« Je **leur** donne de l'eau »). Devant un nom, c'est un déterminant : **leur** champ, **leurs** champs.
+- À l'impératif affirmatif, le pronom se place **après** le verbe, avec un trait d'union : « Prends-**le** ! », « Donne-**lui** de l'eau. »
+
 > **À retenir**
 > Nature = ce qu'est le mot (nom, verbe...). Fonction = son rôle dans la phrase (sujet, COD...).
 > Sujet : qui est-ce qui ? COD : verbe + quoi ? COI : verbe + à quoi / de quoi ? CC : où, quand, comment ?
 > Autant de verbes conjugués, autant de propositions.
 `,
+      textes: {
+        fichegram: `**Au marché** (texte d'entraînement)
+
+Ce matin, Awa accompagne sa grand-mère au marché de Thiès. Les vendeuses installent leurs étals sous les grands parasols. « Combien coûtent ces mangues ? » demande la grand-mère. La vendeuse lui répond qu'elles coûtent cinq cents francs le tas. Quelle belle journée ! Awa porte le panier et sourit.`,
+      },
       exercices: [
         { type: "qcm", question: "« Range tes cahiers avant de sortir. » Quel est le type de cette phrase ?", choix: ["déclaratif", "interrogatif", "exclamatif", "impératif"], reponse: 3, explication: "C'est un **ordre**, sans sujet exprimé : la phrase est de type **impératif**." },
         { type: "saisie", question: "Écris cette phrase à la forme négative avec **ne... pas** : « Awa aime le poisson. »", reponses: ["Awa n'aime pas le poisson."], explication: "On encadre le verbe : Awa **n'**aime **pas** le poisson. Devant une voyelle, *ne* devient **n'**." },
@@ -1560,6 +1601,16 @@ Ce n'est pas un nouveau cours : c'est le **résumé** de toute la grammaire du C
         { type: "qcm", question: "Dans « la case de mon grand-père », que sont les mots **de mon grand-père** ?", choix: ["un adjectif", "une proposition relative", "un COD", "un complément du nom"], reponse: 3, explication: "Ils complètent le nom *case* et commencent par la préposition *de* : c'est un **complément du nom**." },
         { type: "saisie", question: "Combien de propositions y a-t-il dans cette phrase ? « Il pleut, nous restons à la maison et nous jouons aux cartes. » (Écris un nombre.)", reponses: ["3", "trois"], explication: "Il y a **3 verbes conjugués** (pleut, restons, jouons), donc **3 propositions**." },
         { type: "qcm", question: "Fatou dit : « Je suis contente. » Quelle phrase rapporte ces paroles au discours indirect ?", choix: ["Fatou dit : qu'elle est contente.", "Fatou dit qu'elle est contente.", "Fatou dit que je suis contente.", "Fatou dit si elle est contente."], reponse: 1, explication: "On écrit **que**, sans deux-points ni guillemets, et *je* devient **elle** : Fatou dit **qu'elle est contente**." },
+        { type: "saisie", question: "Remplace le groupe en gras par un pronom et écris la nouvelle phrase : « Je donne de l'eau **à mes moutons**. »", reponses: ["Je leur donne de l'eau."], explication: "« à mes moutons » répond à **à qui ?** : c'est un COI au pluriel → **leur**, placé devant le verbe et **sans s** : « Je **leur** donne de l'eau. »" },
+        { type: "qcm", question: "« Modou range **ses cahiers**. » Quelle phrase remplace correctement le COD par un pronom ?", choix: ["Modou leur range.", "Modou range les.", "Modou lui range.", "Modou les range."], reponse: 3, explication: "*Ses cahiers* est un COD au pluriel → **les**, placé **devant** le verbe : « Modou **les** range. » *Lui* et *leur* remplacent un COI (à qui ?)." },
+        { type: "saisie", texte: "fichegram", question: "Dans le texte, écris le **COD** du verbe « installent », en entier.", reponses: ["leurs étals"], explication: "Les vendeuses installent **quoi ?** → **leurs étals** (COD, sans préposition). *Leurs* prend un s car il est devant un nom pluriel. *Sous les grands parasols* est un CC de lieu." },
+        { type: "qcm", texte: "fichegram", question: "Dans le texte, « Quelle belle journée ! » est une phrase :", choix: ["déclarative et verbale", "interrogative et verbale", "exclamative et non verbale", "impérative et non verbale"], reponse: 2, explication: "Elle exprime un **sentiment** et finit par un point d'exclamation : elle est **exclamative**. Elle n'a **aucun verbe conjugué** : elle est **non verbale**." },
+        { type: "redaction", texte: "fichegram", question: "**Exercice comme au CFEE (connaissances de la langue)** — Relis le texte « Au marché », puis :\n1) Dans « Les vendeuses installent leurs étals sous les grands parasols », donne la **fonction** de : *Les vendeuses*, *leurs étals*, *sous les grands parasols*.\n2) Récris « Awa porte le panier » en remplaçant le COD par un pronom, puis écris cette nouvelle phrase à la **forme négative**.\n3) Récris au **discours direct** : « La vendeuse lui répond qu'elles coûtent cinq cents francs le tas. »", corrige: `**Corrigé**
+1) *Les vendeuses* : **sujet** (qui est-ce qui installe ?) ; *leurs étals* : **COD** (installent quoi ?) ; *sous les grands parasols* : **complément circonstanciel de lieu** (où ?).
+2) « Awa **le** porte. » Forme négative : « Awa **ne le** porte **pas**. » (le pronom reste collé au verbe, entre *ne* et le verbe)
+3) La vendeuse lui répond : « **Elles coûtent** cinq cents francs le tas. » (ou : « Ces mangues coûtent cinq cents francs le tas. »)
+
+**Ce qui est vérifié** : le sujet et les compléments écrits en entier ; le pronom devant le verbe ; les deux mots de la négation ; deux-points et guillemets au discours direct, sans *que*.` },
       ],
     },
     {
@@ -1636,10 +1687,30 @@ Voici **toutes les terminaisons** à savoir par cœur pour le CM2. Lis les table
 | mang**é** ou mang**er** ? | remplace par *vendu* / *vendre* : il a vendu → **é** ; il veut vendre → **er** |
 | nous man**ge**ons, nous commen**ç**ons | on garde le son du g et du c devant o et a |
 
+## 8. Cinq autres verbes du 3e groupe très utiles
+| | savoir | devoir | mettre | lire | écrire |
+|---|---|---|---|---|---|
+| je (j') | sais | dois | mets | lis | écris |
+| il, elle | sait | doit | met | lit | écrit |
+| nous | savons | devons | mettons | lisons | écrivons |
+| ils, elles | savent | doivent | mettent | lisent | écrivent |
+| imparfait | je savais | je devais | je mettais | je lisais | j'écrivais |
+| futur | je saurai | je devrai | je mettrai | je lirai | j'écrirai |
+| passé composé | j'ai su | j'ai dû | j'ai mis | j'ai lu | j'ai écrit |
+| passé simple | il sut | il dut | il mit | il lut | il écrivit |
+
+- Pièges : il **met** (un seul t), mais nous **mettons** ; nous **écrivons**, ils **écrivent** (avec un **v**) ; ils **doivent** ; futur de savoir : je **saurai** (pas « je savrai »).
+- Participes passés : *mis* et *écrit* gardent une lettre muette qu'on entend au féminin (une lettre **écrite**, la table est **mise**).
+
 > **À retenir**
 > Imparfait et conditionnel : -ais, -ais, -ait, -ions, -iez, -aient. Futur : -ai, -as, -a, -ons, -ez, -ont.
 > Passé composé = avoir ou être au présent + participe passé.
 `,
+      textes: {
+        ficheconj: `**Le soir chez Moussa** (texte d'entraînement)
+
+Chaque soir, Moussa **lit** un conte à sa petite sœur. Elle **met** sa tête sur son épaule et **écoute**. Puis Moussa **écrit** les mots difficiles sur son ardoise : il **doit** préparer le CFEE. Sa sœur **sait** déjà lire quelques mots.`,
+      },
       exercices: [
         { type: "saisie", question: "Conjugue **jouer** à l'imparfait : « Autrefois, nous ___ sous le baobab. »", reponses: ["jouions", "nous jouions"], explication: "Imparfait : radical *jou-* + **-ions** → nous **jouions**." },
         { type: "saisie", question: "Conjugue **aller** au futur simple : « Demain, tu ___ au marché. »", reponses: ["iras", "tu iras"], explication: "*Aller* est irrégulier au futur : j'irai, tu **iras**, il ira." },
@@ -1655,6 +1726,18 @@ Voici **toutes les terminaisons** à savoir par cœur pour le CM2. Lis les table
         { type: "qcm", question: "Conjugue **prendre** au présent : « Les élèves ___ le car à sept heures. »", choix: ["prendent", "prennent", "prenent", "prend"], reponse: 1, explication: "*Prendre* : je prends, nous prenons, ils **prennent** (avec deux **n**)." },
         { type: "saisie", question: "Conjugue **pouvoir** au présent : « Je ___ t'aider. »", reponses: ["peux", "je peux"], explication: "*Pouvoir* : je **peux**, tu peux (avec un **x**), il peut (avec un **t**)." },
         { type: "qcm", question: "Conjugue **venir** au passé simple : « Le soir, le griot ___ au village. »", choix: ["venit", "vena", "vint", "venait"], reponse: 2, explication: "Passé simple de *venir* : il **vint**, ils vinrent. *Venait* est l'imparfait." },
+        { type: "saisie", question: "Conjugue **écrire** au présent : « Vous ___ une lettre à votre oncle. »", reponses: ["écrivez", "vous écrivez"], explication: "*Écrire* : j'écris, nous écri**v**ons, vous **écrivez**, ils écrivent. Au pluriel, un **v** apparaît." },
+        { type: "saisie", question: "Conjugue **devoir** au présent : « Les élèves ___ apprendre leur leçon. »", reponses: ["doivent", "les élèves doivent"], explication: "*Devoir* : je dois, nous devons, ils **doivent**." },
+        { type: "qcm", question: "Conjugue **mettre** au présent : « Awa ___ son pagne neuf pour la fête. »", choix: ["mets", "mettre", "mette", "met"], reponse: 3, explication: "*Mettre* : je mets, tu mets, elle **met** (un seul t, sans s). *Mets* va avec *je* ou *tu*." },
+        { type: "saisie", question: "Conjugue **savoir** au futur simple : « Demain, tu ___ ta leçon par cœur. »", reponses: ["sauras", "tu sauras"], explication: "*Savoir* a un futur irrégulier : je **saur**ai, tu **sauras**, il saura." },
+        { type: "redaction", texte: "ficheconj", question: "**Exercice comme au CFEE (conjugaison)** — Relis le texte « Le soir chez Moussa », puis :\n1) Donne l'**infinitif** et le **groupe** de chaque verbe en gras.\n2) Récris tout le texte au **futur simple**, en commençant par « Demain soir, Moussa... ».\n3) Récris la première phrase au **passé composé**, en commençant par « Hier soir, ... ».", corrige: `**Corrigé**
+1) *lit* : lire (3e groupe) ; *met* : mettre (3e) ; *écoute* : écouter (1er) ; *écrit* : écrire (3e) ; *doit* : devoir (3e) ; *sait* : savoir (3e).
+
+2) Demain soir, Moussa **lira** un conte à sa petite sœur. Elle **mettra** sa tête sur son épaule et **écoutera**. Puis Moussa **écrira** les mots difficiles sur son ardoise : il **devra** préparer le CFEE. Sa sœur **saura** déjà lire quelques mots.
+
+3) Hier soir, Moussa **a lu** un conte à sa petite sœur.
+
+**Ce qui est vérifié** : les terminaisons du futur (-ai, -as, -a, -ons, -ez, -ont) ; les radicaux irréguliers *saur-* et *devr-* ; le *e* de *écouter* gardé (écout**e**ra) ; l'auxiliaire *avoir* et le participe *lu*. *Lire*, qui reste à l'infinitif après *saura*, ne change pas.` },
       ],
     },
     {
@@ -1711,6 +1794,10 @@ Les règles d'accord, les homophones et les mots de vocabulaire à connaître, e
 | la / l'a / là | **une** → la ; **l'avait** → l'a ; **ici** → là |
 | mais / mes | **pourtant** → mais ; **tes** → mes |
 | peu / peut / peux | **pouvait** → peut, peux ; **pas beaucoup** → peu |
+| quel, quelle / qu'elle | **qu'il** → qu'elle (je pense **qu'elle** viendra) ; devant un nom → quel, quelle (**quelle** chaleur !) |
+| leur / leurs | devant un **verbe** → leur, jamais de s (je **leur** parle) ; devant un **nom pluriel** → leurs (**leurs** cahiers) |
+| ça / sa | **cela** → ça (**ça** brille) ; **ma** → sa (**sa** case) |
+| ni / n'y | **y** à la forme affirmative → n'y (il **n'y** va pas → il **y** va) ; **et pas** → ni (il n'a **ni** riz **ni** mil) |
 
 ## 5. Le vocabulaire
 | Notion | Ce que c'est | Exemple |
@@ -1727,10 +1814,25 @@ Les règles d'accord, les homophones et les mots de vocabulaire à connaître, e
 - Dans le dictionnaire, les mots sont rangés par **ordre alphabétique** ; abréviations : *n.* nom, *v.* verbe, *adj.* adjectif.
 - Dans tes rédactions, écris en langage **courant** ou **soutenu**, jamais familier.
 
+## 6. La dictée : écrire, puis se relire
+1. **Écoute** tout le texte la première fois, sans écrire : tu comprends de quoi il parle.
+2. **Écris** phrase par phrase, lisiblement ; écris la ponctuation que le maître dicte.
+3. **Relis trois fois**, en cherchant une seule chose à chaque fois :
+   - 1re relecture : le **sens** et les **mots oubliés** ;
+   - 2e relecture : les **accords** (le verbe et son sujet, avec « qui est-ce qui ? » ; le déterminant, le nom et l'adjectif ; le participe passé avec être) ;
+   - 3e relecture : les **homophones** (remplace !), les **accents**, les **majuscules** et les **points**.
+
+**Mots invariables** à savoir écrire par cœur (ils ne changent jamais) : toujours, jamais, souvent, beaucoup, aujourd'hui, hier, demain, maintenant, bientôt, longtemps, après, avant, depuis, pendant, parce que, chez, sans, très, trop, assez, déjà, ensuite.
+
 > **À retenir**
 > Avec être, j'accorde avec le sujet ; avec avoir, je n'accorde pas avec le sujet.
 > Pour un homophone, je remplace : a → avait, est → était, sont → étaient, ont → avaient, ses → mes.
 `,
+      textes: {
+        ficheortho: `**Au puits** (texte d'entraînement, avec 6 erreurs à trouver)
+
+Aujourd'hui, les enfant du quartier sont allé au puits. Il fesait très chaud. Leurs mères leurs avaient demandé de rapporter de l'eau. Fatou a posé ça calebasse sur sa tête. Qu'elle chaleur ! Il n'y avait ni vent ni ombre sur le chemin.`,
+      },
       exercices: [
         { type: "qcm", question: "Quel est le pluriel de **un cheval** ?", choix: ["des chevals", "des chevaux", "des chevaus", "des chevales"], reponse: 1, explication: "Les noms en **-al** font leur pluriel en **-aux** : des **chevaux** (sauf bal, festival, carnaval, chacal...)." },
         { type: "saisie", question: "Écris le pluriel de **un caillou**.", reponses: ["des cailloux", "cailloux"], explication: "*Caillou* fait partie des **7 noms en -ou** qui prennent un **x** : bijoux, cailloux, choux, genoux, hiboux, joujoux, poux." },
@@ -1742,6 +1844,24 @@ Les règles d'accord, les homophones et les mots de vocabulaire à connaître, e
         { type: "qcm", question: "Quel mot n'appartient **pas** à la famille de **terre** ?", choix: ["terrain", "enterrer", "terrible", "territoire"], reponse: 2, explication: "*Terrible* vient de *terreur* (avoir très peur), pas de *terre*. Terrain, enterrer, territoire ont le radical **terr-** de *terre*." },
         { type: "qcm", question: "« Ma bagnole est en panne. » À quel niveau de langue appartient le mot **bagnole** ?", choix: ["soutenu", "courant", "familier", "on ne peut pas savoir"], reponse: 2, explication: "*Bagnole* est **familier** ; en langage courant, on dit *voiture*. À l'examen, évite le familier." },
         { type: "saisie", question: "Écris le mot en entier avec **m** ou **n** : « une ca_pagne ».", reponses: ["campagne"], explication: "Devant **p**, on écrit **m** : ca**m**pagne (comme no**m**bre, ja**m**be)." },
+        { type: "saisie", question: "Complète par **quelle** ou **qu'elle** : « Awa dit ___ viendra demain. »", reponses: ["qu'elle"], explication: "On peut dire « Awa dit **qu'il** viendra » : c'est **qu'elle** (que + elle)." },
+        { type: "qcm", question: "Quelle phrase est bien écrite ?", choix: ["Le maître leurs rend leurs cahiers.", "Le maître leur rend leur cahiers.", "Le maître leur rend leurs cahiers.", "Le maître leurs rend leur cahiers."], reponse: 2, explication: "Devant le verbe *rend*, **leur** est un pronom : jamais de s. Devant le nom pluriel *cahiers*, **leurs** est un déterminant : il prend un s." },
+        { type: "saisie", question: "Complète par **ça** ou **sa** : « Fatou a perdu ___ sandale. »", reponses: ["sa"], explication: "On peut dire « Fatou a perdu **ma** sandale » : c'est le déterminant **sa**. *Ça* veut dire *cela*." },
+        { type: "saisie", question: "Complète par **ni** ou **n'y** : « Il ___ a plus d'eau dans le canari. »", reponses: ["n'y"], explication: "À la forme affirmative, on dit « Il **y** a de l'eau » : c'est donc **n'y** (ne + y)." },
+        { type: "redaction", texte: "ficheortho", question: "**Exercice comme au CFEE (orthographe)** — Le texte « Au puits » contient **6 erreurs** d'orthographe.\n1) Recopie le texte en corrigeant les 6 erreurs.\n2) Pour chaque erreur, écris l'astuce ou la règle qui t'a aidé.\n3) Explique pourquoi on écrit **n'y** et **ni** dans la dernière phrase.", corrige: `**Texte corrigé**
+Aujourd'hui, les **enfants** du quartier sont **allés** au puits. Il **faisait** très chaud. Leurs mères **leur** avaient demandé de rapporter de l'eau. Fatou a posé **sa** calebasse sur sa tête. **Quelle** chaleur ! Il n'y avait ni vent ni ombre sur le chemin.
+
+**Les règles**
+1. *enfants* : après *les*, le nom est au pluriel (+ s).
+2. *allés* : avec **être**, le participe passé s'accorde avec le sujet *les enfants* (masculin pluriel).
+3. *faisait* : imparfait de *faire*, radical **fais-** (comme *nous faisons*).
+4. *leur* : devant le verbe *avaient demandé*, c'est un pronom : jamais de s.
+5. *sa* : on peut dire « **ma** calebasse » → sa.
+6. *Quelle* : devant le nom *chaleur* (féminin), on écrit **quelle** ; on ne peut pas dire « qu'il chaleur ».
+
+3) *n'y* : à la forme affirmative, on dirait « Il **y** avait du vent » → n'y. *ni* : il veut dire « et pas » (pas de vent **et pas** d'ombre).
+
+**Méthode** : trois relectures, une pour le sens, une pour les accords, une pour les homophones et les accents.` },
       ],
     },
     {
@@ -1773,6 +1893,10 @@ La méthode pour le texte et les questions, les plans types des rédactions, et 
 | **documentaire** | informer, expliquer |
 | **injonctif** | dire quoi faire (recette, règlement) |
 | **poétique** | jouer avec les mots et les sons |
+| **lettre** | communiquer avec une personne absente |
+
+- Un **poème** est écrit en **vers** (les lignes), regroupés en **strophes** (les paragraphes du poème) ; les **rimes** sont les sons répétés à la fin des vers.
+- Dans un texte long, demande-toi à chaque pronom (*il, elle, ils*) **qui il désigne**.
 
 ## 2. La situation d'intégration (rédaction)
 On te donne un **contexte** (ce qui se passe) et une **consigne** (ce que tu dois écrire). Avant d'écrire, réponds à 5 questions : **Qui** écrit ? **À qui** ? **Pourquoi** ? **Quel type** de texte ? **Quelle longueur** et quel **temps** ?
@@ -1831,7 +1955,7 @@ Pour la correction, on regarde en général : le respect de la consigne, l'ordre
       exercices: [
         { type: "qcm", question: "La question est : « Où Modou est-il allé pêcher ? » Quelle réponse est la mieux rédigée ?", choix: ["À Kayar.", "Modou est allé pêcher en mer, au large de Kayar.", "Kayar", "il est allé"], reponse: 1, explication: "On répond par une **phrase complète** qui reprend les mots de la question, avec une majuscule et un point." },
         { type: "vf", question: "Quand une question demande de **relever** un passage, on recopie les mots du texte entre guillemets.", reponse: true, explication: "Vrai : *relever* veut dire recopier exactement les mots du texte, entre **guillemets**." },
-        { type: "qcm", question: "Un texte explique comment préparer le thiéboudienne, étape par étape. C'est un texte :", choix: ["narratif", "poétique", "descriptif", "injonctif"], reponse: 3, explication: "Il dit **ce qu'il faut faire** (comme une recette) : c'est un texte **injonctif**, souvent avec des verbes à l'impératif ou à l'infinitif." },
+        { type: "qcm", question: "Un texte explique comment préparer le thiéboudiène, étape par étape. C'est un texte :", choix: ["narratif", "poétique", "descriptif", "injonctif"], reponse: 3, explication: "Il dit **ce qu'il faut faire** (comme une recette) : c'est un texte **injonctif**, souvent avec des verbes à l'impératif ou à l'infinitif." },
         { type: "saisie", question: "Dans une lettre, comment s'appelle la partie « Cher oncle, » écrite à gauche au début ? (deux ou trois mots)", reponses: ["la formule d'appel", "formule d'appel"], explication: "C'est la **formule d'appel**, suivie d'une virgule. À la fin, on écrit la **formule finale** puis la signature." },
         { type: "qcm", question: "Où écrit-on le lieu et la date dans une lettre personnelle ?", choix: ["en haut, à droite", "en bas, à gauche", "juste avant la signature", "on ne les écrit pas"], reponse: 0, explication: "Le lieu et la date se placent **en haut, à droite** : « Kaolack, le 12 mars 2027 »." },
         { type: "qcm", question: "Dans un récit, quelle partie suit directement la situation initiale ?", choix: ["le dénouement", "la situation finale", "l'élément déclencheur", "la morale"], reponse: 2, explication: "Ordre du récit : situation initiale → **élément déclencheur** → péripéties → dénouement → situation finale." },
@@ -1860,6 +1984,501 @@ Cher Pape,
                         Ton ami,
                         Ousmane
 ~~~` },
+        { type: "redaction", question: "**Situation d'intégration complète (type CFEE)**\n**Contexte** : Pendant les vacances, ta tante Ndèye t'a accueilli(e) deux semaines chez elle, à Saint-Louis. Elle t'a fait visiter la ville et, à ton départ, elle t'a offert un livre de contes.\n**Consigne** : Écris-lui une lettre complète d'une quinzaine de lignes pour la remercier : lieu et date, formule d'appel, trois ou quatre paragraphes, formule finale et signature. Relis-toi avec la liste à cocher.", corrige: `**Lettre modèle**
+~~~
+                   Kolda, le 20 octobre 2026
+Chère tante Ndèye,
+
+   Comment vas-tu ? J'espère que tonton Abdou
+   et mes cousins sont en bonne santé. Ici,
+   tout le monde va bien et te salue.
+
+   Je t'écris pour te remercier des deux belles
+   semaines passées chez toi. Je n'oublierai pas
+   le pont Faidherbe, les pirogues de Guet Ndar
+   et nos promenades au bord du fleuve.
+
+   Merci aussi pour le livre de contes : je le
+   lis chaque soir à mon petit frère, qui
+   l'adore.
+
+   Je te promets de bien travailler pour
+   réussir le CFEE. Salue toute la famille
+   pour moi. Je t'embrasse très fort.
+
+                   Ton neveu qui t'aime,
+                   Ibrahima
+~~~
+
+**Ce qui est vérifié**
+- **pertinence** : la lettre remercie pour le séjour **et** pour le livre ;
+- **cohérence** : salutations et nouvelles → remerciements → détails → conclusion ;
+- **langue** : accords (*les deux belles semaines passées*), *tu* d'un bout à l'autre ;
+- **présentation** : lieu et date, formule d'appel avec virgule, paragraphes, formule finale, signature.
+Si tu vouvoies ta tante, garde le *vous* partout : « Comment allez-vous ? ... Je vous embrasse. »` },
+      ],
+    },
+    {
+      id: "comprendre-descriptif",
+      titre: "Lire et comprendre un texte descriptif",
+      theme: "Lecture et compréhension",
+      cours: `
+## Qu'est-ce qu'un texte descriptif ?
+Un texte **descriptif** montre à quoi ressemble un **lieu**, une **personne**, un **animal** ou un **objet**. Il ne raconte pas une histoire : il fait **voir**, **entendre**, **sentir** au lecteur, comme une photo avec des mots.
+
+## Ce qu'il faut repérer
+| Je cherche... | Les indices dans le texte | Exemple |
+|---|---|---|
+| **ce qui est décrit** | le titre, la première phrase | « le louma de Keur Ndiaye » |
+| **l'ordre de la description** | les mots de lieu, qui disent **où** se trouve chaque chose | de loin, à l'entrée, au milieu, plus loin, à gauche, à droite |
+| **les cinq sens** | ce qu'on voit, entend, sent, touche, goûte | une poussière rouge (vue), un bourdonnement (ouïe) |
+| **les mots précis** | les adjectifs, les compléments du nom | des tissus **multicolores**, des tas **de tomates** |
+| **les comparaisons** | le mot **comme** | un bruit **comme** celui d'une ruche |
+| **l'impression** | les mots qui disent ce qu'on ressent | calme, joyeux, bruyant, triste |
+
+Le texte descriptif est souvent au **présent** (ce qui existe maintenant) ou à l'**imparfait** (dans un récit au passé).
+
+>! **Exemple résolu**
+>! Phrase : « Au milieu de la cour, un vieux manguier étend ses branches **comme** un grand parapluie vert. »
+>! - Où ? **au milieu de la cour** (mot de lieu).
+>! - Quels mots précis ? *vieux* (adjectif), *ses branches*.
+>! - Une comparaison : le manguier est comparé à **un grand parapluie vert** : il fait beaucoup d'ombre.
+
+## Bien répondre
+- Pour **relever** un mot, recopie-le exactement, entre guillemets.
+- Pour une question sur un **sens**, demande-toi : est-ce que je le vois, l'entends, le sens, le touche, le goûte ?
+- Réponds par une **phrase complète**.
+
+## Erreurs fréquentes
+- Confondre un mot de **lieu** (au fond, à gauche) et un mot de **temps** (ensuite, le soir).
+- Croire que *comme* est toujours une comparaison : dans « Comme il pleut, je reste », *comme* veut dire *parce que*.
+
+> **À retenir**
+> Un texte descriptif fait voir un lieu, une personne ou un objet.
+> Je repère : l'ordre (mots de lieu), les cinq sens, les adjectifs, les comparaisons avec « comme ».
+`,
+      textes: {
+        louma: `**Le louma de Keur Ndiaye** (texte d'entraînement)
+
+Chaque mercredi, le petit village de Keur Ndiaye se réveille plus tôt que d'habitude : c'est le jour du louma, le marché de la semaine. Dès l'aube, les charrettes arrivent de tous les villages voisins.
+
+De loin, on aperçoit d'abord un nuage de poussière rouge au-dessus des toits. En s'approchant, on entend un bourdonnement qui grandit, comme celui d'une ruche géante. À l'entrée du marché, les marchands de bétail surveillent leurs moutons et leurs chèvres, attachés à des piquets.
+
+Au milieu de la place, sous de vieux tamariniers, les vendeuses ont étalé leurs marchandises sur des nattes : des tas de tomates bien rouges, des oignons, des piments, des sacs de mil et d'arachide. Plus loin, à gauche, les tissus multicolores flottent au vent comme des drapeaux. À droite, l'odeur du poisson séché se mêle à celle des beignets qui cuisent dans l'huile chaude.
+
+Vers midi, le soleil brûle les épaules. Les clients discutent les prix en riant, les enfants courent entre les étals. Le soir, quand les charrettes repartent, la place redevient calme et silencieuse, jusqu'au mercredi suivant.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "louma", question: "Quel est le type de ce texte ?", choix: ["un conte", "une recette", "un texte descriptif", "une lettre"], reponse: 2, explication: "Il **montre** un lieu (le marché) avec des mots de lieu, des couleurs, des bruits, des odeurs. Il n'y a pas de personnage principal qui vit une aventure : c'est un texte **descriptif**." },
+        { type: "saisie", texte: "louma", question: "Quel jour de la semaine a lieu le louma de Keur Ndiaye ?", reponses: ["mercredi", "le mercredi", "chaque mercredi", "Le louma a lieu le mercredi.", "Il a lieu le mercredi.", "Le louma a lieu chaque mercredi.", "Il a lieu chaque mercredi."], explication: "La première phrase le dit : « **Chaque mercredi**, le petit village de Keur Ndiaye se réveille plus tôt que d'habitude : c'est le jour du louma »." },
+        { type: "qcm", texte: "louma", question: "D'après le texte, qu'est-ce qu'un **louma** ?", choix: ["le marché de la semaine", "une fête religieuse", "un village voisin", "une sorte de charrette"], reponse: 0, explication: "Le texte l'explique juste après le mot : « le louma, **le marché de la semaine** ». Quand un mot est difficile, la suite de la phrase donne souvent son sens." },
+        { type: "qcm", texte: "louma", question: "Dans quel ordre le marché est-il décrit dans les paragraphes 2 et 3 ?", choix: ["de bas en haut, des nattes jusqu'au sommet des arbres", "de l'intérieur d'une boutique vers la rue du village", "dans le désordre, sans aucun mot pour dire où", "de loin, puis de plus en plus près, en entrant dans le marché"], reponse: 3, explication: "Les mots de lieu donnent l'ordre : « **De loin** », « **À l'entrée** du marché », « **Au milieu** de la place », « Plus loin, **à gauche** », « **À droite** ». Le lecteur avance dans le marché comme un visiteur." },
+        { type: "vf", texte: "louma", question: "Dans le texte, le bruit du marché est comparé à celui d'une ruche.", reponse: true, explication: "C'est vrai : « un bourdonnement qui grandit, **comme** celui d'une ruche géante ». Le mot *comme* annonce une **comparaison** : des milliers de voix font un bruit semblable à celui des abeilles." },
+        { type: "saisie", texte: "louma", question: "Relève le groupe de mots de lieu qui commence le 3e paragraphe.", reponses: ["Au milieu de la place", "au milieu", "C'est au milieu de la place."], explication: "Le 3e paragraphe commence par « **Au milieu de la place** » : ce mot de lieu situe les vendeuses et leurs nattes." },
+        { type: "qcm", texte: "louma", question: "« Vers midi, le soleil **brûle les épaules**. » Quel sens est sollicité ici ?", choix: ["l'ouïe", "le toucher", "l'odorat", "le goût"], reponse: 1, explication: "La chaleur du soleil se **sent sur la peau** : c'est le **toucher**. Dans le même texte, la poussière rouge parle à la vue, le bourdonnement à l'ouïe, l'odeur du poisson séché à l'odorat." },
+        { type: "saisie", texte: "louma", question: "Trouve dans le texte l'adjectif qui veut dire « de plusieurs couleurs ».", reponses: ["multicolores", "multicolore"], explication: "« les tissus **multicolores** » : *multi-* veut dire « plusieurs ». Cet adjectif s'accorde avec *tissus* (masculin pluriel)." },
+        { type: "qcm", texte: "louma", question: "À la fin du texte, comment est la place ?", choix: ["bruyante et pleine de clients jusqu'à la nuit", "couverte de poussière rouge et de charrettes", "fermée pour toujours, sans aucun marchand", "calme et silencieuse, jusqu'au mercredi suivant"], reponse: 3, explication: "« Le soir, quand les charrettes repartent, la place redevient **calme et silencieuse**, jusqu'au mercredi suivant. » La fin s'oppose au bruit de midi : le marché revient chaque semaine." },
+        { type: "redaction", texte: "louma", question: "1) Relève dans le 3e paragraphe **deux mots de lieu** et **une comparaison**.\n2) Décris en 4 ou 5 lignes un autre coin de ce marché (par exemple le coin des marchands de bétail). Utilise au moins un mot de lieu, deux sens différents et une comparaison avec « comme ».", corrige: `**1) Corrigé**
+- Mots de lieu : « Au milieu de la place », « sous de vieux tamariniers », « Plus loin, à gauche », « À droite » (deux suffisent).
+- Comparaison : « les tissus multicolores flottent au vent **comme des drapeaux** ».
+
+**2) Exemple de description**
+À l'entrée du marché, les moutons bêlent sans arrêt, comme un chœur qui ne sait pas chanter. Leur laine blanche est couverte de poussière rouge. Près des piquets, une forte odeur de foin et d'animal monte du sol. Les vendeurs, assis sur de petits bancs, surveillent leurs bêtes d'un œil attentif.
+
+**Ce qui est vérifié** : un mot de lieu (*À l'entrée du marché*, *Près des piquets*) ; deux sens au moins (l'ouïe : bêlent ; la vue : blanche, rouge ; l'odorat : odeur de foin) ; une comparaison avec *comme* ; des phrases au présent, comme le texte.` },
+      ],
+    },
+    {
+      id: "comprendre-lettre",
+      titre: "Lire et comprendre une lettre",
+      theme: "Lecture et compréhension",
+      cours: `
+## Lire une lettre : les questions à se poser
+Une **lettre** est un texte écrit à une **personne absente**. Au CFEE, on peut te donner une lettre à lire, puis te demander d'y répondre. Avant les questions, repère :
+
+| Question | Où chercher ? |
+|---|---|
+| **Qui écrit ?** (l'expéditeur) | la **signature**, en bas |
+| **À qui ?** (le destinataire) | la **formule d'appel** : « Chère Aïssatou, » |
+| **D'où et quand ?** | le **lieu et la date**, en haut à droite |
+| **Pourquoi ?** (la raison de la lettre) | souvent le 1er ou le 2e paragraphe |
+| **Tu ou vous ?** | les verbes et les pronoms : *vas-tu*, *je t'embrasse* → tutoiement |
+| **Que ressent celui qui écrit ?** | les mots de sentiment : *me manquent*, *je suis désolée*, *j'aurais aimé* |
+
+>! **Exemple résolu**
+>! « Kaffrine, le 3 mai 2027. Cher Pape, ... Je t'écris pour t'inviter à mon baptême ... Ton cousin, Lamine. »
+>! - Qui écrit ? **Lamine** (la signature). À qui ? **Pape** (la formule d'appel).
+>! - D'où ? de **Kaffrine**. Pourquoi ? pour **inviter** Pape (« Je t'écris pour... »).
+
+## Les mots de liaison qui aident à comprendre
+- **mais, pourtant** : une opposition (« sévère **mais** juste ») ;
+- **car, parce que** : une cause ;
+- **donc, alors** : une conséquence.
+
+## Erreurs fréquentes
+- Confondre celui qui **écrit** et celui qui **reçoit** la lettre.
+- Confondre le lieu où l'on **écrit** et le lieu dont on **parle**.
+
+> **À retenir**
+> Signature = qui écrit ; formule d'appel = à qui ; en haut à droite = d'où et quand.
+> Je cherche la raison de la lettre et les sentiments de celui qui écrit.
+`,
+      textes: {
+        coumba: `**Une lettre de Kédougou** (texte d'entraînement)
+
+Kédougou, le 2 novembre 2026
+
+Chère Aïssatou,
+
+Comment vas-tu ? Et ta famille ? Ici, nous allons tous bien. Merci pour ta longue lettre sur la journée de reboisement : comme j'aurais aimé planter des arbres avec vous ! Je suis désolée de ne pas t'avoir répondu plus tôt : depuis notre arrivée, je n'ai pas eu une minute à moi.
+
+Kédougou ne ressemble pas du tout à Fatick ! Ici, il y a des collines couvertes de forêts, et le fleuve Gambie coule entre les rochers. Le matin, il fait frais, et j'entends les singes crier dans les arbres derrière l'école.
+
+Ma nouvelle école est grande. Ma maîtresse, Mme Kéita, est sévère mais juste. J'ai déjà une amie, Mariama, qui m'apprend quelques mots de sa langue, le pular. Pourtant, tu me manques beaucoup, et nos jeux sous le neem aussi.
+
+Dimanche, papa nous a emmenés voir la cascade de Dindéfélo : l'eau tombe de très haut, dans un bruit de tonnerre. Et toi, as-tu bien arrosé ton petit manguier ?
+
+Écris-moi vite. Je t'embrasse très fort.
+
+Ton amie,
+Coumba`,
+      },
+      exercices: [
+        { type: "saisie", texte: "coumba", question: "Qui a écrit cette lettre ?", reponses: ["Coumba", "C'est Coumba.", "Coumba a écrit cette lettre.", "Coumba a écrit la lettre.", "Cette lettre a été écrite par Coumba.", "La lettre a été écrite par Coumba."], explication: "Celui qui écrit signe **en bas** de la lettre : « Ton amie, **Coumba** »." },
+        { type: "qcm", texte: "coumba", question: "À qui la lettre est-elle adressée ?", choix: ["à Mme Kéita", "à Mariama", "à Aïssatou", "au papa de Coumba"], reponse: 2, explication: "La **formule d'appel** donne le destinataire : « Chère **Aïssatou**, ». Mme Kéita et Mariama sont des personnes dont Coumba parle." },
+        { type: "saisie", texte: "coumba", question: "Dans quelle ville Coumba écrit-elle sa lettre ?", reponses: ["Kédougou", "à Kédougou", "de Kédougou", "Elle écrit à Kédougou.", "Elle écrit sa lettre à Kédougou.", "Coumba écrit sa lettre à Kédougou.", "Elle écrit de Kédougou."], explication: "Le lieu est écrit en haut, à droite, avant la date : « **Kédougou**, le 2 novembre 2026 ». Fatick est la ville où Coumba habitait avant." },
+        { type: "qcm", texte: "coumba", question: "Pourquoi Coumba écrit-elle cette lettre ?", choix: ["pour inviter Aïssatou à une fête de baptême", "pour répondre à Aïssatou et lui donner de ses nouvelles", "pour demander à son amie de lui envoyer des livres", "pour se plaindre de sa nouvelle maîtresse, Mme Kéita"], reponse: 1, explication: "Elle la remercie pour sa lettre (« Merci pour ta longue lettre ») et raconte sa nouvelle vie : la ville, l'école, sa nouvelle amie, la cascade. C'est une **lettre de réponse et de nouvelles**." },
+        { type: "vf", texte: "coumba", question: "Coumba n'a encore aucune amie dans sa nouvelle école.", reponse: false, explication: "C'est faux : « J'ai **déjà une amie**, Mariama, qui m'apprend quelques mots de sa langue, le pular. »" },
+        { type: "qcm", texte: "coumba", question: "« Ma maîtresse est sévère **mais** juste. » Le mot « mais » exprime :", choix: ["une cause", "un lieu", "un moment", "une opposition"], reponse: 3, explication: "*Mais* oppose deux idées : la maîtresse est **sévère** (exigeante), **pourtant** elle est **juste** (elle traite tout le monde de la même façon)." },
+        { type: "qcm", texte: "coumba", question: "Que ressent Coumba quand elle pense à Fatick ?", choix: ["de la colère, car son amie ne lui écrit jamais", "de la tristesse, car son amie et leurs jeux lui manquent", "de la peur, car elle n'y connaissait personne", "rien du tout, car elle a déjà tout oublié"], reponse: 1, explication: "« Pourtant, **tu me manques beaucoup**, et nos jeux sous le neem aussi. » Même si elle se plaît à Kédougou, Coumba regrette son amie." },
+        { type: "saisie", texte: "coumba", question: "Recopie la formule d'appel de cette lettre.", reponses: ["Chère Aïssatou,", "Chère Aïssatou"], explication: "La formule d'appel est « **Chère Aïssatou,** », suivie d'une virgule. *Chère* prend un **e** car Aïssatou est une fille." },
+        { type: "vf", texte: "coumba", question: "Dans cette lettre, Coumba vouvoie son amie.", reponse: false, explication: "C'est faux : elle la **tutoie** du début à la fin : « Comment **vas-tu** ? », « **tu** me manques », « Je **t'**embrasse ». Entre amies, on se tutoie." },
+        { type: "redaction", texte: "coumba", question: "Réponds par des phrases complètes.\n1) Cite deux choses que Coumba découvre à Kédougou.\n2) Quelle question Coumba pose-t-elle à Aïssatou à la fin de la lettre ? Pourquoi pose-t-elle cette question ?\n3) Ton avis : Coumba est-elle heureuse à Kédougou ? Justifie avec le texte.", corrige: `**Exemple de réponses**
+1) À Kédougou, Coumba découvre des **collines couvertes de forêts** et le **fleuve Gambie** qui coule entre les rochers. Elle entend aussi les **singes** crier derrière l'école (et elle a vu la **cascade de Dindéfélo**).
+2) Elle demande : « **As-tu bien arrosé ton petit manguier ?** » Elle pose cette question parce qu'Aïssatou a planté un manguier pendant la journée de reboisement et qu'elle l'a raconté dans sa lettre.
+3) Je pense que Coumba est plutôt heureuse à Kédougou, car elle décrit avec plaisir les collines et la cascade, et elle a déjà une nouvelle amie, Mariama. Mais elle est aussi un peu triste, car elle écrit à son amie : « tu me manques beaucoup ».
+
+**Ce qui est vérifié** : des phrases complètes qui reprennent les mots de la question ; des réponses tirées du texte ; pour l'avis, une raison avec *car* et une preuve entre guillemets.` },
+      ],
+    },
+    {
+      id: "comprendre-poeme",
+      titre: "Lire et comprendre un poème",
+      theme: "Lecture et compréhension",
+      cours: `
+## Qu'est-ce qu'un poème ?
+Un **poème** est un texte qui **joue avec les mots, les sons et les images**. Il se reconnaît d'abord à sa forme :
+| Mot | Ce que c'est |
+|---|---|
+| **vers** | une ligne du poème (elle commence souvent par une majuscule) |
+| **strophe** | un groupe de vers, séparé des autres par une ligne blanche (comme un paragraphe) |
+| **rime** | le même son à la fin de deux vers : *noirs* / *soir* ; *toits* / *bois* |
+
+Au Sénégal, **Léopold Sédar Senghor**, premier président de la République, était aussi un grand poète. Beaucoup de poèmes parlent de la nature, des saisons, de la famille, du pays.
+
+## Les images du poème
+- La **comparaison** rapproche deux choses avec un mot comme **comme** : « Les nuages roulent **comme** des tambours. »
+- Le poète peut aussi faire agir une chose **comme une personne** : « La pluie **chante** sur les toits. » (la pluie ne chante pas vraiment : on entend son bruit, joyeux comme un chant)
+- La **répétition** d'un mot ou d'un son donne du rythme.
+
+## Lire un poème : la méthode
+1. Lis-le **à voix haute**, lentement, en respectant la ponctuation.
+2. Cherche le **thème** : de quoi parle le poème ? (le titre aide souvent)
+3. Repère la **forme** : combien de strophes, de vers, quelles rimes ?
+4. Cherche les **images** (comparaisons) et les **sentiments** du poète (joie, tristesse, admiration...).
+
+>! **Exemple résolu**
+>! « Le soleil, comme une orange mûre, / Se couche derrière la dune. »
+>! - 2 vers. Comparaison : le soleil est comparé à **une orange mûre** (même couleur, même forme ronde).
+>! - Sentiment : l'admiration devant un beau coucher de soleil.
+
+## Erreurs fréquentes
+- Compter les **phrases** au lieu des **vers** : un vers = une ligne, même si la phrase continue.
+- Croire qu'un poème doit toujours rimer : certains poèmes n'ont pas de rimes.
+
+> **À retenir**
+> Vers = ligne ; strophe = groupe de vers ; rime = même son à la fin des vers.
+> Je cherche le thème, la forme, les images (comme...) et les sentiments.
+`,
+      textes: {
+        pluie: `**Le retour de la pluie** (poème d'entraînement)
+
+Là-haut, de gros nuages noirs
+Roulent comme des tambours, le soir.
+Le vent souffle sur la savane
+Et fait danser l'herbe et les lianes.
+
+Soudain, la pluie frappe les toits,
+Elle chante sur la tôle et le bois.
+Les enfants courent sous l'averse,
+Et les calebasses se renversent.
+
+Demain, mon père ira aux champs
+Semer le mil en chantant.
+Ô pluie, sois la bienvenue :
+Avec toi, la vie est revenue !`,
+      },
+      exercices: [
+        { type: "qcm", texte: "pluie", question: "Combien de **strophes** ce poème contient-il ?", choix: ["deux", "douze", "trois", "quatre"], reponse: 2, explication: "Les groupes de vers sont séparés par une ligne blanche : il y a **trois strophes**. *Douze*, c'est le nombre de **vers** (3 strophes de 4 vers)." },
+        { type: "saisie", texte: "pluie", question: "Combien de **vers** y a-t-il dans chaque strophe ? (écris un nombre)", reponses: ["4", "quatre", "Il y a quatre vers.", "Il y a 4 vers.", "Chaque strophe a quatre vers.", "Chaque strophe a 4 vers."], explication: "Chaque strophe a **4 vers** (4 lignes). Un poème de 4 vers par strophe est très courant." },
+        { type: "saisie", texte: "pluie", question: "Quel mot rime avec « noirs » dans la première strophe ?", reponses: ["soir", "le soir", "Le mot soir."], explication: "*Noirs* et **soir** se terminent par le même son [oir] : ils **riment**. De même : *savane* / *lianes*." },
+        { type: "qcm", texte: "pluie", question: "Quel est le **thème** de ce poème ?", choix: ["la pêche en mer avec les pirogues", "la vie en ville pendant la saison sèche", "la fête de la Tabaski en famille", "l'arrivée de la pluie, au début de l'hivernage"], reponse: 3, explication: "Le titre (« Le retour de la pluie ») et les mots *nuages, pluie, averse, semer le mil* montrent que le poème parle de l'**arrivée de la pluie**, quand l'hivernage commence." },
+        { type: "qcm", texte: "pluie", question: "« Là-haut, de gros nuages noirs / Roulent **comme des tambours**, le soir. » À quoi les nuages sont-ils comparés ?", choix: ["à des tambours", "à des chevaux", "à des enfants", "à des calebasses"], reponse: 0, explication: "Le mot **comme** annonce une **comparaison** : le bruit des nuages d'orage (le tonnerre) ressemble au roulement des **tambours**." },
+        { type: "vf", texte: "pluie", question: "Dans la 2e strophe, la pluie est présentée comme une personne qui chante.", reponse: true, explication: "C'est vrai : « Elle **chante** sur la tôle et le bois ». La pluie ne chante pas vraiment, mais le poète la fait agir comme une personne : le bruit des gouttes devient un chant joyeux." },
+        { type: "qcm", texte: "pluie", question: "Quel vers rime avec « Elle chante sur la tôle et le bois » ?", choix: ["Les enfants courent sous l'averse,", "Soudain, la pluie frappe les toits,", "Semer le mil en chantant.", "Le vent souffle sur la savane"], reponse: 1, explication: "*Bois* et **toits** finissent par le même son [oi] : ils riment. Dans ce poème, les vers riment **deux par deux** (le 1er avec le 2e, le 3e avec le 4e)." },
+        { type: "saisie", texte: "pluie", question: "« Ô pluie, **sois** la bienvenue » : à quel mode est le verbe « sois » ?", reponses: ["impératif", "à l'impératif", "l'impératif", "Il est à l'impératif.", "Le verbe est à l'impératif."], explication: "*Sois* est le verbe **être** à l'**impératif** (sois, soyons, soyez). Le poète **parle à la pluie** comme à une invitée qu'on accueille." },
+        { type: "qcm", texte: "pluie", question: "Quel sentiment la dernière strophe exprime-t-elle ?", choix: ["la peur de l'orage", "la tristesse", "la joie et l'espoir", "la colère"], reponse: 2, explication: "Le père ira semer « **en chantant** » et le poète dit « sois **la bienvenue** », « **la vie est revenue** » : la pluie apporte la **joie** et l'**espoir** d'une bonne récolte." },
+        { type: "redaction", texte: "pluie", question: "1) Relève **trois mots** du champ lexical de la pluie ou de l'orage.\n2) Explique avec tes mots pourquoi le poète écrit : « Avec toi, la vie est revenue ! »\n3) Écris une 4e strophe de **4 vers** sur l'hivernage (essaie de faire rimer les vers deux par deux).", corrige: `**Exemple de réponses**
+1) Champ lexical de la pluie : **nuages**, **pluie**, **averse** (on peut aussi citer *tambours*, qui fait penser au tonnerre).
+2) Le poète écrit cela parce que, sans pluie, la terre est sèche : rien ne pousse et les animaux ont soif. Quand la pluie revient, les paysans peuvent **semer** le mil, l'herbe repousse et tout le village est joyeux. La pluie rend la **vie** à la nature et aux hommes.
+3) Exemple de strophe :
+~~~
+Les mares brillent sous la lune,
+Les grenouilles chantent une à une.
+La brousse a quitté son habit gris
+Pour une robe verte, toute fleurie.
+~~~
+(Une strophe plus simple convient aussi : « Les mares sont pleines d'eau, / Le mil devient grand et beau, / Les enfants rient sur le chemin, / Il y aura du mil demain. »)
+
+**Ce qui est vérifié** : des mots tirés du poème ; une explication avec tes mots et une raison (*parce que*) ; une strophe de 4 vers sur le thème, avec des rimes si possible.` },
+      ],
+    },
+    {
+      id: "comprendre-recit-long",
+      titre: "Lire un récit plus long : suivre l'histoire et les personnages",
+      theme: "Lecture et compréhension",
+      cours: `
+## Un texte plus long : ne pas se perdre
+Au CFEE, le texte peut faire une page entière. Pour ne pas te perdre :
+1. Lis le **titre**, puis tout le texte une première fois.
+2. Après chaque **paragraphe**, dis-toi en une phrase ce qui s'est passé.
+3. Note les **personnages** au brouillon : qui est qui ? (Ndiaga = le héros ; Mbaye = le réparateur...)
+4. Lis les questions, puis **relis** la partie utile.
+
+## Qui désigne qui ? (les reprises)
+Pour ne pas répéter le même nom, l'auteur le remplace par :
+- un **pronom** : *Ndiaga* → **il** ; *Ndiaga et Mbaye* → **ils** ;
+- un autre **groupe nominal** : *Mbaye* → **le vieil homme**, **le réparateur** ; *le vélo* → **ce tas de ferraille**.
+Quand une question demande « Qui désigne le mot *il* ? », cherche le **nom** juste avant, qui va avec le sens de la phrase.
+
+## Les questions de réflexion (déduction)
+La réponse n'est pas toujours écrite. Il faut la **déduire** d'indices :
+- « Ses mains étaient noires, **mais il souriait**. » → Ndiaga est **heureux** de travailler, même si c'est salissant.
+- Pour les **qualités** d'un personnage, cherche ce qu'il **fait** : il travaille pendant les vacances → il est **courageux**, **persévérant** (il continue sans abandonner).
+
+## L'ordre des événements
+Les mots de temps aident : *un jour, pendant les vacances, à la rentrée, désormais, quelques mois plus tard*. Le texte peut aussi expliquer **pourquoi** une chose arrive (*car, parce que, donc, en échange*).
+
+>! **Exemple résolu**
+>! Le boutiquier éclata de rire et dit : « Prends-le si tu veux, mais il ne roulera jamais ! »
+>! Question : Que pense le boutiquier du vélo ? → **Il pense que le vélo est trop abîmé pour rouler de nouveau.** (Indice : il *éclate de rire* et dit *il ne roulera jamais*.)
+
+> **À retenir**
+> Un paragraphe = une étape de l'histoire ; je résume chaque paragraphe en une phrase.
+> Un pronom ou un autre nom peut remplacer un personnage : je cherche qui il désigne.
+> Pour une question de réflexion, je m'appuie sur un indice du texte.
+`,
+      textes: {
+        ndiaga: `**Le vélo de Ndiaga** (texte d'entraînement)
+
+Ndiaga habitait à Diourbel avec sa mère et ses deux petites sœurs. Son père travaillait à Dakar et ne rentrait qu'aux fêtes. Chaque matin, Ndiaga marchait cinq kilomètres pour aller à l'école. Il partait avant le lever du soleil et arrivait souvent fatigué.
+
+Un jour, devant la boutique de Serigne, il vit un vieux vélo rouillé, sans chaîne, avec un pneu crevé.
+« Il est à vendre ? » demanda-t-il.
+Le boutiquier éclata de rire :
+« Ce tas de ferraille ? Prends-le si tu veux, mais il ne roulera jamais ! »
+
+Ndiaga le ramena à la maison. Pendant les vacances, il travailla chez Mbaye, le réparateur du quartier. Il balayait l'atelier, rangeait les outils et, en échange, le vieil homme lui apprenait à réparer. Ensemble, ils changèrent la chaîne, collèrent des rustines sur la chambre à air et graissèrent les roues. Ndiaga passa des heures à frotter la rouille, puis il peignit le vélo en bleu. Ses mains étaient noires de cambouis, mais il souriait.
+
+À la rentrée, un vélo bleu, brillant comme un neuf, s'arrêta devant l'école. Les élèves l'entourèrent.
+« C'est le tas de ferraille de Serigne ? » s'étonna son camarade Pape.
+Ndiaga hocha la tête, fier.
+
+Désormais, il arrivait à l'heure et reposé. Le soir, il emmenait même ses petites sœurs à la fontaine, sur son porte-bagages. Quelques mois plus tard, Serigne lui-même vint frapper à sa porte : son propre vélo était en panne. Ndiaga le répara en une heure et refusa d'être payé.
+« Mbaye m'a appris sans me faire payer, expliqua-t-il. Je fais pareil. »
+
+*Mots difficiles* : une **rustine** est une petite pièce de caoutchouc que l'on colle sur une chambre à air percée ; le **porte-bagages** est le support placé au-dessus de la roue arrière du vélo, pour porter un sac ou un passager.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "ndiaga", question: "Où habite Ndiaga ?", choix: ["à Dakar", "à Touba", "à Kaolack", "à Diourbel"], reponse: 3, explication: "La première phrase le dit : « Ndiaga habitait à **Diourbel** ». C'est son **père** qui travaille à Dakar." },
+        { type: "qcm", texte: "ndiaga", question: "Au début de l'histoire, pourquoi Ndiaga arrive-t-il souvent fatigué à l'école ?", choix: ["Il joue trop tard le soir.", "Il marche cinq kilomètres chaque matin.", "Il travaille à la boutique de Serigne.", "Il est malade."], reponse: 1, explication: "« Chaque matin, Ndiaga **marchait cinq kilomètres** pour aller à l'école. Il partait avant le lever du soleil et arrivait souvent fatigué. » C'est le problème du début de l'histoire." },
+        { type: "vf", texte: "ndiaga", question: "Le boutiquier pense que le vieux vélo pourra rouler de nouveau.", reponse: false, explication: "C'est faux : il **éclate de rire**, l'appelle « ce **tas de ferraille** » et dit : « il ne roulera **jamais** ! »" },
+        { type: "saisie", texte: "ndiaga", question: "Qui apprend à Ndiaga à réparer le vélo ?", reponses: ["Mbaye", "Mbaye, le réparateur du quartier", "le réparateur", "le réparateur du quartier", "C'est Mbaye.", "C'est Mbaye, le réparateur du quartier.", "Mbaye lui apprend à réparer le vélo."], explication: "C'est **Mbaye, le réparateur du quartier** : « le vieil homme lui apprenait à réparer ». *Le vieil homme* est une **reprise** de *Mbaye*." },
+        { type: "qcm", texte: "ndiaga", question: "Remets les événements dans l'ordre : (A) Ndiaga répare le vélo de Serigne. (B) Ndiaga trouve un vieux vélo devant la boutique. (C) Ndiaga arrive à l'école sur un vélo bleu. (D) Ndiaga travaille chez Mbaye pendant les vacances.", choix: ["B, C, D, A", "D, B, C, A", "B, D, C, A", "B, D, A, C"], reponse: 2, explication: "Les mots de temps donnent l'ordre : « **Un jour** » (il trouve le vélo), « **Pendant les vacances** » (il travaille chez Mbaye), « **À la rentrée** » (le vélo bleu), « **Quelques mois plus tard** » (il répare le vélo de Serigne)." },
+        { type: "saisie", texte: "ndiaga", question: "« Ensemble, **ils** changèrent la chaîne. » Qui le pronom « ils » désigne-t-il ? (écris les deux noms)", reponses: ["Ndiaga et Mbaye", "Mbaye et Ndiaga", "Ndiaga et le réparateur", "le réparateur et Ndiaga", "Ndiaga et le vieil homme", "C'est Ndiaga et Mbaye.", "Ce sont Ndiaga et Mbaye."], explication: "*Ils* reprend les deux personnages qui travaillent **ensemble** dans l'atelier : **Ndiaga et Mbaye** (le vieil homme)." },
+        { type: "qcm", texte: "ndiaga", question: "« Ses mains étaient noires de **cambouis**. » D'après le texte, le cambouis est sans doute :", choix: ["de la graisse noire et sale", "de la peinture bleue", "de la boue du chemin", "du charbon de bois"], reponse: 0, explication: "Ndiaga vient de **graisser** les roues et de réparer la chaîne : le **cambouis** est la graisse noire et sale qui reste sur les pièces d'un vélo ou d'un moteur. Le contexte aide à trouver le sens." },
+        { type: "qcm", texte: "ndiaga", question: "« Ses mains étaient noires de cambouis, **mais il souriait**. » Que montre cette phrase ?", choix: ["Ndiaga n'aime pas réparer et voudrait arrêter.", "Ndiaga a peur que Mbaye le gronde.", "Ndiaga est heureux de travailler, même si c'est salissant.", "Ndiaga veut vite aller se laver les mains."], reponse: 2, explication: "Le mot **mais** oppose deux idées : le travail est sale, **pourtant** Ndiaga sourit. On en déduit qu'il est **heureux** et fier de ce qu'il fait." },
+        { type: "qcm", texte: "ndiaga", question: "Quelle leçon peut-on tirer de cette histoire ?", choix: ["Il ne faut jamais garder de vieux objets cassés à la maison.", "Le travail et la patience mènent à la réussite ; on peut transmettre ce qu'on a reçu.", "Les boutiquiers se moquent toujours des enfants qui n'ont pas d'argent.", "Il vaut mieux habiter tout près de l'école pour ne pas être fatigué."], reponse: 1, explication: "Ndiaga réussit grâce à son **travail** et à sa **patience** (des heures à frotter la rouille). À la fin, il aide Serigne **gratuitement**, comme Mbaye l'a aidé : il **transmet** ce qu'il a reçu." },
+        { type: "redaction", texte: "ndiaga", question: "Réponds par des phrases complètes.\n1) Pourquoi Ndiaga refuse-t-il d'être payé par Serigne ?\n2) Donne **deux qualités** de Ndiaga, avec une preuve du texte pour chacune.\n3) Ton avis : aurais-tu fait comme lui à la fin ? Pourquoi ?", corrige: `**Exemple de réponses**
+1) Ndiaga refuse d'être payé parce que Mbaye lui a appris à réparer **sans lui faire payer** (Ndiaga avait seulement aidé à l'atelier) : il veut faire pareil et rendre service à son tour (« Je fais pareil »).
+2) Ndiaga est **courageux et persévérant** : il marche cinq kilomètres chaque matin et passe « des heures à frotter la rouille ». Il est aussi **généreux** : il emmène ses sœurs à la fontaine et répare le vélo de Serigne gratuitement, alors que celui-ci s'était moqué de lui.
+3) Oui, j'aurais fait comme lui, car Serigne lui avait donné le vélo, et rendre service rend les gens plus solidaires. (On peut répondre non : « J'aurais demandé un petit prix, car le travail mérite d'être payé. » L'important est de donner une raison.)
+
+**Ce qui est vérifié** : des phrases complètes ; des preuves tirées du texte (entre guillemets ou avec tes mots) ; un avis avec *car* ou *parce que*.` },
+      ],
+    },
+    {
+      id: "ponctuation",
+      titre: "La ponctuation : la virgule, le point-virgule et les autres signes",
+      theme: "Grammaire",
+      cours: `
+## À quoi sert la ponctuation ?
+La ponctuation aide le lecteur à **comprendre** et à **respirer**. Une phrase mal ponctuée peut changer de sens : « Awa, mange ! » (on parle à Awa) n'est pas « Awa mange. » (on dit ce qu'elle fait).
+
+## Les signes qui terminent la phrase
+| Signe | Sert à... | Exemple |
+|---|---|---|
+| **point** ( . ) | terminer une phrase déclarative ou impérative | Le car part à midi. |
+| **point d'interrogation** ( ? ) | poser une question | Où vas-tu ? |
+| **point d'exclamation** ( ! ) | montrer un sentiment, un ordre fort | Quelle chaleur ! |
+| **points de suspension** ( ... ) | laisser la phrase inachevée | Soudain, un bruit... |
+
+Après ces signes, la phrase suivante commence par une **majuscule**.
+
+## La virgule ( , ) : une petite pause
+On met une virgule :
+1. entre les éléments d'une **énumération** : « J'ai acheté des tomates**,** des oignons et du piment. » (pas de virgule devant le dernier *et*) ;
+2. après un **complément placé en tête** de phrase (souvent) : « Pendant l'hivernage**,** les paysans sèment le mil. » ;
+3. pour **appeler quelqu'un** : « Awa**,** viens manger ! » ;
+4. entre deux **propositions juxtaposées** ou devant *mais*, *car*, *donc* : « Il pleut**,** nous restons à la maison. » ;
+5. autour de l'**incise** du dialogue : « Je suis prêt**,** dit Modou**,** on peut partir. »
+
+>! **La règle d'or**
+>! On ne met **jamais** de virgule entre le **sujet** et son **verbe** : « Les enfants du village jouent. » (et non « Les enfants du village, jouent. »)
+
+## Le point-virgule ( ; ) : une pause moyenne
+Il sépare deux **propositions** qui ont un lien de sens, sans finir la phrase. Il est plus fort que la virgule, moins fort que le point. **Pas de majuscule** après un point-virgule.
+« Le soleil se couche **;** les pêcheurs rentrent au port. »
+
+## Les deux-points ( : )
+Ils annoncent :
+- une **explication** : « Modou ne sort pas : il est malade. »
+- une **énumération** : « Il faut trois ingrédients : du riz, du poisson et des légumes. »
+- des **paroles** : Awa demanda : « Tu viens ? »
+
+## Les guillemets et le tiret
+Les **guillemets** ( « » ) encadrent les paroles d'un dialogue ; le **tiret** ( — ) marque un changement de personnage (voir le chapitre « Écrire un dialogue »).
+
+> **À retenir**
+> Point, ?, !, ... → majuscule ensuite.
+> Virgule : énumération, complément en tête, appel, propositions juxtaposées, incise. Jamais entre le sujet et le verbe.
+> Point-virgule : deux propositions liées, sans majuscule après. Deux-points : explication, énumération, paroles.
+`,
+      exercices: [
+        { type: "qcm", question: "Quelle phrase est bien ponctuée ?", choix: ["Au marché j'ai acheté, des tomates des oignons, et du piment.", "Au marché, j'ai, acheté des tomates des oignons et du piment.", "Au marché, j'ai acheté des tomates, des oignons et du piment.", "Au, marché j'ai acheté des tomates des oignons et, du piment."], reponse: 2, explication: "Une virgule après le complément en tête (*Au marché*), une virgule entre les éléments de l'énumération, et **pas de virgule devant le dernier *et***." },
+        { type: "vf", question: "On écrit correctement : « Les enfants du village, jouent sous le baobab. »", reponse: false, explication: "C'est faux : on ne met **jamais** de virgule entre le sujet (*Les enfants du village*) et son verbe (*jouent*)." },
+        { type: "qcm", question: "À quoi sert le **point-virgule** ?", choix: ["à poser une question à quelqu'un", "à séparer deux propositions liées par le sens", "à annoncer les paroles d'un personnage", "à appeler la personne à qui l'on parle"], reponse: 1, explication: "Le point-virgule sépare deux **propositions** qui vont ensemble : « Le soleil se couche ; les pêcheurs rentrent. » C'est une pause plus forte que la virgule, moins forte que le point." },
+        { type: "vf", question: "Après un point-virgule, on met une majuscule.", reponse: false, explication: "C'est faux : la phrase **continue** après un point-virgule, donc pas de majuscule (sauf pour un nom propre) : « Il pleut ; nous restons à la maison. »" },
+        { type: "qcm", question: "Quelle phrase est bien ponctuée ?", choix: ["Awa viens, manger !", "Awa, viens manger !", "Awa viens manger, !", "Awa ! viens, manger"], reponse: 1, explication: "On **appelle** Awa : son nom est séparé du reste par une virgule : « **Awa,** viens manger ! » Sans virgule, on ne comprend pas qu'on lui parle." },
+        { type: "qcm", question: "Où faut-il mettre la virgule ? « Pendant l'hivernage les paysans sèment le mil. »", choix: ["après « l'hivernage »", "après « paysans »", "après « sèment »", "il n'en faut aucune, jamais"], reponse: 0, explication: "Le complément de temps *Pendant l'hivernage* est placé **en tête** : on le sépare du reste par une virgule : « Pendant l'hivernage**,** les paysans sèment le mil. » Après *paysans*, la virgule séparerait le sujet de son verbe." },
+        { type: "saisie", question: "Combien de virgules faut-il dans cette phrase ? « Moussa Awa Fatou et Pape sont mes amis. » (écris un nombre)", reponses: ["2", "deux", "Il en faut deux.", "Il faut deux virgules."], explication: "« Moussa**,** Awa**,** Fatou et Pape sont mes amis. » : une virgule entre chaque prénom de l'énumération, mais **pas devant *et*** : **2 virgules**." },
+        { type: "qcm", question: "Quel signe convient ? « Modou ne vient pas à l'école ___ il est malade. »", choix: ["des guillemets", "un point d'interrogation", "un tiret", "les deux-points"], reponse: 3, explication: "La deuxième partie **explique** la première (pourquoi Modou ne vient pas) : on met les **deux-points** : « Modou ne vient pas à l'école : il est malade. » (Un point-virgule ou *car* seraient aussi possibles, mais ils ne sont pas proposés.)" },
+        { type: "qcm", question: "« Le soleil se couche ___ les pêcheurs rentrent au port. » Quel signe peut-on mettre sans changer les mots ?", choix: ["un point-virgule", "un point d'interrogation", "des guillemets", "un tiret de dialogue"], reponse: 0, explication: "Deux propositions liées par le sens : le **point-virgule** convient (« Le soleil se couche ; les pêcheurs rentrent au port. »). Une virgule ou un point seraient aussi possibles." },
+        { type: "redaction", question: "Recopie ce texte en ajoutant la **ponctuation** et les **majuscules** qui manquent (il y a plusieurs bonnes solutions) :\n« ce matin-là modou se leva tôt il prit son seau sa corde et sa calebasse puis il partit au puits sur le chemin il rencontra son ami pape il allait lui aussi chercher de l'eau »", corrige: `**Corrigé (une solution possible)**
+Ce matin-là, Modou se leva tôt. Il prit son seau, sa corde et sa calebasse, puis il partit au puits. Sur le chemin, il rencontra son ami Pape : il allait lui aussi chercher de l'eau.
+
+**Explications**
+- Majuscules : au début de chaque phrase et aux noms propres (*Modou*, *Pape*).
+- Virgules : après les compléments en tête (*Ce matin-là*, *Sur le chemin*) ; dans l'énumération *son seau, sa corde et sa calebasse* (pas devant *et*) ; devant *puis*.
+- Deux-points : la fin explique la rencontre (on peut aussi mettre un point : « ... son ami Pape. Il allait lui aussi... »).
+- On pouvait mettre un point-virgule à la place du premier point : « Ce matin-là, Modou se leva tôt ; il prit son seau... »` },
+      ],
+    },
+    {
+      id: "epreuve-blanche-cfee",
+      titre: "Entraînement au CFEE : épreuve blanche de Langue et communication",
+      theme: "Préparer le CFEE",
+      cours: `
+## Comment se passe l'épreuve ?
+D'après le guide du CFEE de 2018 (**le barème peut changer** : la réforme de 2026, décret du 21 mai 2026, a modifié le CFEE), l'épreuve de Langue et communication a **deux parties** :
+| Partie | Ce qu'on te demande | Points (guide de 2018) |
+|---|---|---|
+| **Ressources** (connaissances) | des questions de **compréhension** sur un texte et des exercices de **connaissances de la langue** (grammaire, conjugaison, orthographe, vocabulaire) | 40 points : compréhension 10, langue 30 |
+| **Compétence** | une **production d'écrits** à partir d'une situation (contexte + consigne), par exemple une lettre | 60 points |
+
+## Comment utiliser cette épreuve blanche
+- Fais-la **en une seule fois**, comme le jour de l'examen, **sans regarder les cours**.
+- Les exercices 1 à 4 portent sur le **texte** ; les exercices 5 à 9 sur la **langue** ; le 10 est la **production d'écrits**.
+- Compte tes points avec le barème ci-dessous (c'est un **barème indicatif** proposé par Révisio, pour t'entraîner).
+
+| Exercices | Partie | Barème indicatif |
+|---|---|---|
+| 1 à 4 | compréhension du texte | 2,5 points chacun → 10 |
+| 5 à 9 | connaissances de la langue | 6 points chacun → 30 |
+| 10 | production d'écrits | 60 points |
+
+## Les conseils du jour de l'examen
+1. **Lis le texte deux fois** avant les questions.
+2. Réponds par des **phrases complètes**, avec une majuscule et un point.
+3. Pour la rédaction : souligne dans la consigne **qui écrit, à qui, pourquoi** ; fais un **brouillon** ; recopie proprement.
+4. Garde du temps pour **relire** (accords, homophones, ponctuation).
+
+> **À retenir**
+> Ressources : compréhension + connaissances de la langue. Compétence : production d'écrits.
+> La production d'écrits compte le plus de points : ne la bâcle pas.
+`,
+      textes: {
+        biblio: `**La bibliothèque de l'école** (texte d'entraînement)
+
+À l'école de Ndoffane, il n'y avait pas de bibliothèque. Les élèves n'avaient que leurs manuels, souvent déchirés, qu'ils se prêtaient à tour de rôle.
+
+Un matin, le directeur, M. Sarr, réunit les élèves du CM2 sous le préau.
+« Et si nous créions nous-mêmes une bibliothèque ? » proposa-t-il.
+Les enfants applaudirent. Chacun apporta ce qu'il pouvait : un livre de contes, un vieux dictionnaire, des magazines. Les parents d'élèves fabriquèrent des étagères en bois, et un ancien élève, devenu instituteur à Kaolack, envoya un carton de romans.
+
+Bientôt, la petite salle du fond se remplit de livres. Rokhaya, la meilleure lectrice de la classe, fut chargée de noter les prêts dans un grand cahier. Chaque vendredi, les petits du CP venaient écouter les grands lire des histoires à voix haute.
+
+À la fin de l'année, lors de la fête de l'école, M. Sarr déclara :
+« Un livre ouvert, c'est une fenêtre sur le monde. »
+Depuis ce jour, chaque nouvel élève offre un livre en arrivant à l'école.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "biblio", question: "**Compréhension (2,5 points)** — Quel problème y avait-il au début à l'école de Ndoffane ?", choix: ["Il n'y avait pas de maître.", "Il n'y avait pas de bibliothèque.", "L'école était trop loin du village.", "Les élèves ne savaient pas lire."], reponse: 1, explication: "La première phrase le dit : « À l'école de Ndoffane, il n'y avait **pas de bibliothèque**. » Les élèves n'avaient que leurs manuels." },
+        { type: "saisie", texte: "biblio", question: "**Compréhension (2,5 points)** — Qui a eu l'idée de créer la bibliothèque ?", reponses: ["M. Sarr", "Monsieur Sarr", "le directeur", "le directeur, M. Sarr", "le directeur M. Sarr", "C'est le directeur.", "C'est M. Sarr.", "C'est le directeur, M. Sarr.", "Le directeur a eu l'idée.", "C'est le directeur qui a eu l'idée."], explication: "C'est **le directeur, M. Sarr** : « Et si nous créions nous-mêmes une bibliothèque ? » **proposa-t-il**." },
+        { type: "vf", texte: "biblio", question: "**Compréhension (2,5 points)** — Les parents d'élèves ont acheté les étagères au marché.", reponse: false, explication: "C'est faux : « Les parents d'élèves **fabriquèrent** des étagères en bois. » Ils les ont faites eux-mêmes." },
+        { type: "qcm", texte: "biblio", question: "**Compréhension (2,5 points)** — Que veut dire M. Sarr par « Un livre ouvert, c'est une fenêtre sur le monde » ?", choix: ["Il faut lire près d'une fenêtre.", "Il faut ouvrir les fenêtres de la classe.", "Lire permet de découvrir le monde et d'apprendre.", "Les livres coûtent très cher."], reponse: 2, explication: "C'est une **image** (un sens figuré) : par une fenêtre, on voit dehors ; dans un livre, on **découvre** d'autres pays, d'autres gens, d'autres idées." },
+        { type: "saisie", texte: "biblio", question: "**Langue — grammaire (6 points)** — Dans « Les parents d'élèves fabriquèrent des étagères en bois », écris le **COD** en entier.", reponses: ["des étagères en bois", "des étagères"], explication: "Ils fabriquèrent **quoi ?** → **des étagères en bois** (COD). *En bois* est un complément du nom *étagères* : il fait partie du COD. « des étagères » (le nom noyau et son déterminant) est accepté aussi, mais le COD **en entier**, c'est « des étagères en bois »." },
+        { type: "saisie", texte: "biblio", question: "**Langue — conjugaison (6 points)** — Écris cette phrase au **futur simple** : « Chacun apporte un livre. »", reponses: ["Chacun apportera un livre."], explication: "*Apporter* (1er groupe) au futur : infinitif + **-a** → chacun **apportera**. *Chacun* se conjugue comme *il*." },
+        { type: "saisie", texte: "biblio", question: "**Langue — orthographe (6 points)** — Écris au pluriel : « un vieux dictionnaire ».", reponses: ["des vieux dictionnaires", "de vieux dictionnaires", "les vieux dictionnaires", "Des vieux dictionnaires."], explication: "*Vieux* finit par **x** : il ne change pas au pluriel ; *dictionnaire* prend un **s** : **de vieux dictionnaires** (ou *des vieux dictionnaires*, plus courant)." },
+        { type: "qcm", texte: "biblio", question: "**Langue — orthographe (6 points)** — Quelle phrase est bien écrite ?", choix: ["Rokhaya à noté les prêts a la fin du cahier.", "Rokhaya a noté les prêts a la fin du cahier.", "Rokhaya à noté les prêts à la fin du cahier.", "Rokhaya a noté les prêts à la fin du cahier."], reponse: 3, explication: "« Rokhaya **avait** noté » → **a** (verbe avoir) ; « avait la fin du cahier » ne veut rien dire → **à** (préposition, avec un accent)." },
+        { type: "qcm", texte: "biblio", question: "**Langue — vocabulaire (6 points)** — Quel mot appartient à la même famille que « lecture » ?", choix: ["lettre", "électrique", "lectrice", "lente"], reponse: 2, explication: "**Lectrice** (celle qui lit), *lecture*, *lecteur* viennent de *lire*. Dans le texte : « Rokhaya, la meilleure **lectrice** de la classe ». *Lettre*, *électrique* et *lente* ont un autre sens." },
+        { type: "redaction", question: "**Production d'écrits (60 points)**\n**Contexte** : Ton école, comme celle de Ndoffane, veut créer une bibliothèque, mais elle manque de livres. Ton oncle Moustapha, qui habite à Dakar, travaille dans une librairie.\n**Consigne** : Écris-lui une lettre d'une quinzaine de lignes pour lui présenter le projet et lui demander de vous aider. N'oublie aucune partie de la lettre.", corrige: `**Lettre modèle**
+*Corrigé modèle, plus long que ce qu'on attend de toi : le jour de l'examen, la longueur demandée dans la consigne suffit.*
+~~~
+                   Sokone, le 15 janvier 2027
+Cher oncle Moustapha,
+
+   Comment vas-tu ? J'espère que tante Awa et
+   mes cousins vont bien. Ici, tout le monde est
+   en bonne santé et te salue.
+
+   Je t'écris pour te parler d'un projet de mon
+   école. Notre maître veut créer une
+   bibliothèque, mais nous n'avons presque pas
+   de livres. Chaque élève a apporté ce qu'il
+   avait, et les parents vont fabriquer les
+   étagères.
+
+   Comme tu travailles dans une librairie,
+   pourrais-tu nous envoyer quelques livres de
+   contes ou des dictionnaires, même anciens ?
+   Nous en prendrons grand soin.
+
+   Je te remercie d'avance. Salue toute la
+   famille pour moi.
+
+                   Ton neveu qui t'aime,
+                   Alioune
+~~~
+
+**Grille de correction indicative (60 points)**
+| Critère | Ce qu'on regarde | Points |
+|---|---|---|
+| **pertinence** | la lettre présente le projet **et** demande de l'aide à l'oncle | 20 |
+| **cohérence** | salutations → projet → demande → remerciements, en paragraphes | 15 |
+| **correction de la langue** | accords, conjugaison, homophones, ponctuation | 15 |
+| **présentation** | lieu et date, formule d'appel, formule finale, signature, écriture lisible | 10 |
+Cette grille est proposée par Révisio pour t'entraîner : le barème officiel peut être différent.` },
       ],
     },
   ],

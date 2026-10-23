@@ -196,7 +196,7 @@ Les Français voulaient construire un chemin de fer entre Dakar et Saint-Louis. 
         { type: "qcm", question: "Quel gouverneur a mené la conquête du Sénégal à partir de 1854 ?", choix: ["Louis Faidherbe", "Blaise Diagne", "Alboury Ndiaye", "Léopold Sédar Senghor"], reponse: 0, explication: "Louis Faidherbe dirigeait la colonie à partir de 1854. Blaise Diagne et Senghor sont des hommes politiques sénégalais du XXe siècle." },
         { type: "qcm", question: "Quel résistant était bourba du Djolof ?", choix: ["Lat Dior", "Maba Diakhou Bâ", "El Hadj Omar Tall", "Alboury Ndiaye"], reponse: 3, explication: "Alboury Ndiaye était le bourba (roi) du Djolof. Lat Dior était damel du Cayor." },
         { type: "vf", question: "Cheikh Ahmadou Bamba a mené une résistance pacifique, sans armes.", reponse: true, explication: "Vrai : il a refusé de se soumettre sans faire la guerre. Les Français l'ont exilé au Gabon en 1895." },
-        { type: "qcm", question: "Aline Sitoé Diatta a résisté en Casamance. Que refusait-elle ?", choix: ["la construction d'un port", "que les Français prennent le riz et les jeunes hommes", "l'arrivée des Portugais", "l'indépendance"], reponse: 1, explication: "Pendant la Seconde Guerre mondiale, elle refusait les réquisitions de riz et le recrutement des jeunes. Arrêtée en 1943, elle est morte à Tombouctou en 1944." },
+        { type: "qcm", question: "Aline Sitoé Diatta a résisté en Casamance. Que refusait-elle ?", choix: ["la construction d'un port", "que les Français prennent le riz et les jeunes hommes", "l'arrivée des Portugais", "l'indépendance"], reponse: 1, explication: "Pendant la Seconde Guerre mondiale, elle refusait qu'on lui prenne de force le riz (les « réquisitions ») et qu'on recrute les jeunes. Arrêtée en 1943, elle est morte à Tombouctou en 1944." },
         { type: "vf", question: "El Hadj Omar Tall a assiégé le fort de Médine en 1857.", reponse: true, explication: "Vrai : le chef toucouleur a assiégé ce fort français sur le fleuve Sénégal en 1857." },
         { type: "qcm", question: "Pourquoi les Français ont-ils fini par gagner ?", choix: ["parce que les résistants n'avaient pas de chefs", "parce que les royaumes étaient alliés entre eux", "parce qu'ils avaient des armes modernes et profitaient des divisions entre royaumes", "parce que les Sénégalais voulaient être colonisés"], reponse: 2, explication: "Fusils, canons et forts, et des royaumes divisés : ce sont les raisons de la victoire française." },
         { type: "redaction", question: "Choisis deux résistants : l'un qui a combattu avec les armes, l'autre qui a résisté sans armes. Présente-les en quelques phrases (nom, région, ce qu'ils ont fait).", corrige: "**Résistance armée : Lat Dior Ngoné Latyr Diop.** Il était damel du Cayor. Il a refusé le chemin de fer Dakar – Saint-Louis, qui devait traverser son royaume. Il a combattu les Français et il est mort à Dékheulé en octobre 1886.\n\n**Résistance pacifique : Aline Sitoé Diatta.** Elle vivait à Kabrousse, en Casamance. Pendant la Seconde Guerre mondiale, elle a demandé aux habitants de ne pas donner leur riz et leurs jeunes hommes aux Français. Elle a été arrêtée en 1943 et elle est morte en déportation à Tombouctou en 1944.\n\n(On peut aussi choisir El Hadj Omar, Alboury Ndiaye ou Maba pour la résistance armée, Cheikh Ahmadou Bamba pour la résistance pacifique.)" },
@@ -221,7 +221,8 @@ En **1895**, la France regroupe ses colonies d'Afrique de l'Ouest dans l'**AOF**
 - En **1959**, le Sénégal et le Soudan français forment la **Fédération du Mali**.
 - Le **4 avril 1960**, des accords avec la France sont signés : c'est la date de la **fête de l'Indépendance** au Sénégal.
 - Le **20 juin 1960**, la Fédération du Mali devient indépendante.
-- Le **20 août 1960**, le Sénégal quitte la Fédération et devient un État indépendant. **Senghor** devient le premier président de la République.
+- Le **20 août 1960**, le Sénégal quitte la Fédération et devient un État indépendant.
+- Le **5 septembre 1960**, **Senghor** est élu premier président de la République. **Mamadou Dia** est le **président du Conseil** : il dirige le gouvernement (ce n'est pas le président de la République).
 
 ## Le Sénégal indépendant
 
@@ -242,13 +243,13 @@ En **1895**, la France regroupe ses colonies d'Afrique de l'Ouest dans l'**AOF**
 > - AOF créée en 1895, capitale Dakar à partir de 1902.
 > - Tirailleurs sénégalais ; massacre de Thiaroye le 1er décembre 1944.
 > - Fête de l'Indépendance : 4 avril ; Fédération du Mali indépendante le 20 juin 1960 ; Sénégal indépendant seul le 20 août 1960.
-> - Premier président : Léopold Sédar Senghor.
+> - Premier président : Léopold Sédar Senghor, élu le 5 septembre 1960 ; Mamadou Dia, président du Conseil, dirige le gouvernement.
 `,
       exercices: [
         { type: "qcm", question: "Quelle ville devient la capitale de l'AOF à partir de 1902 ?", choix: ["Saint-Louis", "Bamako", "Dakar", "Thiès"], reponse: 2, explication: "La capitale de l'AOF passe de Saint-Louis à Dakar en 1902." },
         { type: "saisie", question: "En quelle année l'AOF a-t-elle été créée ?", reponses: ["1895"], explication: "L'Afrique-Occidentale française a été créée en 1895." },
         { type: "vf", question: "Les tirailleurs sénégalais étaient des soldats africains de l'armée française.", reponse: true, explication: "Vrai : créés en 1857, ils ont combattu pendant les deux guerres mondiales." },
-        { type: "qcm", question: "Que s'est-il passé à Thiaroye le 1er décembre 1944 ?", choix: ["la signature de l'indépendance", "des tirailleurs qui réclamaient leur argent ont été tués par l'armée française", "l'ouverture du chemin de fer", "la création de l'AOF"], reponse: 1, explication: "À Thiaroye, des tirailleurs revenus de la guerre réclamaient leur solde ; l'armée française a tiré sur eux." },
+        { type: "qcm", question: "Que s'est-il passé à Thiaroye le 1er décembre 1944 ?", choix: ["la signature de l'indépendance", "des tirailleurs qui réclamaient leur argent ont été tués par l'armée française", "l'ouverture du chemin de fer", "la création de l'AOF"], reponse: 1, explication: "À Thiaroye, des tirailleurs revenus de la guerre réclamaient leur solde (l'argent qui leur était dû) ; l'armée française a tiré sur eux." },
         { type: "saisie", question: "Qui fut, en 1914, le premier Africain noir élu député à Paris ?", reponses: ["Blaise Diagne", "Diagne"], explication: "Blaise Diagne, élu en 1914 par les habitants des quatre communes." },
         { type: "qcm", question: "Quels pays formaient la Fédération du Mali ?", choix: ["le Sénégal et la Mauritanie", "le Sénégal et la Gambie", "le Sénégal et la Guinée", "le Sénégal et le Soudan français"], reponse: 3, explication: "La Fédération du Mali réunissait le Sénégal et le Soudan français (le Mali actuel)." },
         { type: "qcm", question: "À quelle date le Sénégal fête-t-il son indépendance chaque année ?", choix: ["le 4 avril", "le 20 août", "le 1er décembre", "le 20 juin"], reponse: 0, explication: "La fête de l'Indépendance est le 4 avril (accords signés avec la France le 4 avril 1960)." },
@@ -275,7 +276,7 @@ Le Sénégal est en **Afrique de l'Ouest**, au bord de l'**océan Atlantique**. 
 | sud | **Guinée-Bissau** | Bissau |
 | à l'intérieur | **Gambie** | Banjul |
 
-La **Gambie** est un petit pays presque entièrement entouré par le Sénégal (on dit qu'elle est **enclavée** dans le Sénégal) ; elle ne touche que l'océan à l'ouest.
+La **Gambie** est un petit pays presque entièrement **entouré par le Sénégal** ; elle touche l'océan à l'ouest. Attention : un pays **enclavé** est un pays **sans accès à la mer**, comme le Mali. La Gambie, elle, n'est pas enclavée, puisqu'elle a une côte.
 
 ## Un relief plat
 - Le Sénégal est un pays **plat** : surtout des **plaines** et des **plateaux bas**.
@@ -294,13 +295,13 @@ La **Gambie** est un petit pays presque entièrement entouré par le Sénégal (
 
 > **À retenir** :
 > - Sénégal : Afrique de l'Ouest, 196 722 km², capitale Dakar.
-> - Voisins : Mauritanie, Mali, Guinée, Guinée-Bissau ; la Gambie est enclavée.
+> - Voisins : Mauritanie, Mali, Guinée, Guinée-Bissau ; la Gambie est presque entièrement entourée par le Sénégal.
 > - Relief plat ; collines seulement au sud-est (Kédougou).
 > - Fleuves : Sénégal, Gambie, Casamance ; le Saloum est un bras de mer.
 `,
       exercices: [
         { type: "qcm", question: "Quel pays est le voisin du Sénégal au nord ?", choix: ["le Mali", "la Guinée", "la Mauritanie", "la Gambie"], reponse: 2, explication: "La Mauritanie est au nord, de l'autre côté du fleuve Sénégal. Le Mali est à l'est, la Guinée au sud." },
-        { type: "saisie", question: "Quel petit pays est presque entièrement entouré par le Sénégal ?", reponses: ["Gambie", "la Gambie"], explication: "La Gambie est enclavée dans le Sénégal ; elle ne touche que l'océan, à l'ouest." },
+        { type: "saisie", question: "Quel petit pays est presque entièrement entouré par le Sénégal ?", reponses: ["Gambie", "la Gambie"], explication: "La Gambie est presque entièrement entourée par le Sénégal ; elle touche l'océan à l'ouest." },
         { type: "vf", question: "Le Sénégal est un pays de hautes montagnes.", reponse: false, explication: "Faux : le Sénégal est plat. Il n'y a que quelques collines au sud-est, vers Kédougou." },
         { type: "qcm", question: "Dans quel pays le fleuve Sénégal prend-il sa source ?", choix: ["en Guinée", "en Mauritanie", "au Sénégal", "en Gambie"], reponse: 0, explication: "Il prend sa source dans le massif du Fouta-Djalon, en Guinée." },
         { type: "saisie", question: "Près de quelle ville le fleuve Sénégal se jette-t-il dans l'océan ?", reponses: ["Saint-Louis", "Saint Louis", "Ndar"], explication: "Le fleuve Sénégal se jette dans l'océan Atlantique près de Saint-Louis." },
@@ -332,7 +333,7 @@ Trois vents sont à connaître. Attention : l'alizé maritime et la mousson vien
 
 ## Il pleut plus au sud qu'au nord
 - **Au nord** (vers Podor, Matam) : climat **sahélien** (le Sahel est la zone sèche au sud du Sahara), peu de pluie (souvent moins de 500 mm par an).
-- **Au centre** (vers Kaolack, Tambacounda) : climat **soudanien** (plus de pluie que le Sahel, entre 500 et 1 000 mm par an environ).
+- **Au centre et à l'est** (vers Kaolack, Tambacounda) : climat **soudanien** (plus de pluie que le Sahel, entre 500 et 1 000 mm par an environ).
 - **Au sud** (Casamance, vers Ziguinchor) : climat plus humide, souvent **plus de 1 000 mm** de pluie par an.
 - **Sur la côte** (Dakar, Saint-Louis) : l'alizé maritime rend le climat plus **doux**.
 
@@ -384,7 +385,9 @@ Le dernier **recensement** (on compte tous les habitants) a eu lieu en **2023**.
 - La population augmente vite : environ **3 % par an**.
 
 ## Une population variée
-Le Sénégal compte plusieurs groupes : **Wolofs** (le groupe le plus nombreux), **Pulaar** (Peuls et Toucouleurs), **Sérères**, **Diolas**, **Mandingues**, **Soninkés**, et d'autres. La langue officielle est le **français** ; il y a aussi des **langues nationales** (wolof, pulaar, sérère, diola, mandingue, soninké…). Tous vivent ensemble dans la paix : c'est la **cohésion nationale**.
+Le Sénégal compte plusieurs groupes : **Wolofs** (le groupe le plus nombreux), **Pulaar** (Peuls et Toucouleurs), **Sérères**, **Diolas**, **Mandingues**, **Soninkés**, et d'autres. La langue officielle est le **français**. La Constitution reconnaît aussi des **langues nationales** : le **diola**, le **malinké** (mandingue), le **pulaar**, le **sérère**, le **soninké**, le **wolof**, et les autres langues qui sont **codifiées** (on a fixé leur façon de s'écrire). Le **wolof** est la langue la plus parlée.
+
+Les Sénégalais sont en grande majorité **musulmans** ; il y a aussi des **chrétiens**. Chacun respecte la religion de l'autre : on se rend visite pendant les **fêtes** (Korité, Tabaski, Noël, Pâques…). La **parenté à plaisanterie** (le « cousinage » entre groupes ou entre noms de famille : par exemple entre Sérères et Diolas, entre Sérères et Peuls, ou entre les Ndiaye et les Diop) permet de se taquiner sans se fâcher. Tous vivent ensemble dans la paix : c'est la **cohésion nationale**.
 
 ## Les 14 régions
 Le Sénégal est découpé en **14 régions**. Chaque région porte le nom de sa ville principale (son **chef-lieu**).
@@ -457,19 +460,19 @@ Les touristes viennent pour les plages (Saly, Cap Skirring), Gorée, Saint-Louis
 - La **route** transporte le plus de personnes et de marchandises.
 - Le **port autonome de Dakar** est un grand port d'Afrique de l'Ouest.
 - L'**aéroport international Blaise-Diagne** (AIBD), à Diass, est le principal aéroport.
-- Le **TER** (train express régional) relie Dakar à Diamniadio.
+- Le **TER** (train express régional) relie Dakar à Diamniadio et, depuis **septembre 2026**, à l'**aéroport Blaise-Diagne** (AIBD).
 
 > **À retenir** :
 > - Agriculture : arachide (bassin arachidier), mil, riz (vallée du fleuve), légumes (Niayes).
 > - Pêche en pirogue ; élevage dans le Ferlo.
 > - Phosphates, or, sel ; pétrole depuis 2024 ; tourisme.
-> - Port de Dakar, aéroport Blaise-Diagne, TER.
+> - Port de Dakar, aéroport Blaise-Diagne, TER (Dakar – Diamniadio – AIBD).
 `,
       exercices: [
         { type: "qcm", question: "Où cultive-t-on surtout l'arachide ?", choix: ["dans les Niayes", "dans la vallée du fleuve", "dans le bassin arachidier (Kaolack, Kaffrine…)", "dans le Ferlo"], reponse: 2, explication: "L'arachide est la culture du bassin arachidier, au centre : Kaolack, Kaffrine, Fatick, Diourbel." },
         { type: "vf", question: "Le mil est une culture vivrière : il sert d'abord à nourrir la famille.", reponse: true, explication: "Vrai : le mil, le sorgho, le maïs sont des cultures vivrières. L'arachide est une culture de rente." },
         { type: "qcm", question: "Quelle zone est connue pour la culture des légumes (oignons, choux, tomates) ?", choix: ["les Niayes", "le Ferlo", "le Sénégal oriental", "le Saloum"], reponse: 0, explication: "Les Niayes, entre Dakar et Saint-Louis : leurs cuvettes humides conviennent aux légumes." },
-        { type: "saisie", question: "Dans quelle zone du nord pratique-t-on surtout l'élevage ?", reponses: ["Ferlo", "le Ferlo"], explication: "Le Ferlo est la grande zone d'élevage, au nord du pays." },
+        { type: "saisie", question: "Dans quelle zone du nord pratique-t-on surtout l'élevage ?", reponses: ["Ferlo", "le Ferlo", "dans le Ferlo"], explication: "Le Ferlo est la grande zone d'élevage, au nord du pays." },
         { type: "qcm", question: "Quelle ressource minière sert à fabriquer des engrais ?", choix: ["l'or", "le sel", "le pétrole", "les phosphates"], reponse: 3, explication: "Les phosphates (Taïba, région de Thiès) servent à fabriquer des engrais." },
         { type: "qcm", question: "Où cultive-t-on surtout le riz ?", choix: ["dans le Ferlo", "dans la vallée du fleuve Sénégal et en Casamance", "dans les Niayes", "au lac Rose"], reponse: 1, explication: "Le riz a besoin de beaucoup d'eau : vallée du fleuve (irriguée) et Casamance (pluvieuse)." },
         { type: "vf", question: "Le Sénégal produit du pétrole depuis 2024.", reponse: true, explication: "Vrai : le pétrole est extrait en mer, au champ de Sangomar, depuis 2024." },
@@ -648,7 +651,7 @@ Le **paludisme** est une maladie grave, très fréquente pendant l'**hivernage**
 
 ## Les maladies liées à l'eau sale
 - La **diarrhée** et le **choléra** viennent de l'eau ou des aliments salis par des microbes.
-- La **bilharziose** s'attrape en se baignant dans des **eaux douces stagnantes** (marigots) où vivent de petits escargots.
+- La **bilharziose** est une maladie due à un petit **ver parasite**. Elle s'attrape en se baignant dans des **eaux douces stagnantes** (marigots) où vivent de petits escargots.
 - Pour se protéger : boire de l'**eau potable**, se **laver les mains au savon** (avant de manger, après les toilettes), laver les fruits, utiliser les **latrines**.
 
 ## La vaccination
@@ -671,11 +674,11 @@ Le paludisme ne s'attrape pas en mangeant des mangues ni en se mouillant sous la
         { type: "qcm", question: "Comment s'attrape le paludisme ?", choix: ["en mangeant des mangues", "en se mouillant sous la pluie", "en touchant un malade", "par la piqûre d'un moustique anophèle femelle"], reponse: 3, explication: "Seule la piqûre de l'anophèle femelle transmet le paludisme." },
         { type: "vf", question: "Dormir sous une moustiquaire imprégnée protège du paludisme.", reponse: true, explication: "Vrai : la moustiquaire empêche les moustiques de piquer et le produit les tue." },
         { type: "qcm", question: "Pourquoi faut-il vider les vieux pneus et les boîtes remplis d'eau ?", choix: ["parce que les moustiques pondent dans les eaux stagnantes", "pour avoir de l'eau potable", "pour arroser les plantes", "parce que l'eau sale attire les poules"], reponse: 0, explication: "Les moustiques pondent dans l'eau qui ne coule pas. Sans eau stagnante, moins de moustiques." },
-        { type: "saisie", question: "Comment s'appelle le moustique qui transmet le paludisme ?", reponses: ["anophèle", "l'anophèle", "anophèle femelle", "l'anophèle femelle", "le moustique anophèle"], explication: "C'est l'anophèle (la femelle)." },
+        { type: "saisie", question: "Comment s'appelle le moustique qui transmet le paludisme ?", reponses: ["anophèle", "l'anophèle", "anophèle femelle", "l'anophèle femelle", "le moustique anophèle", "le moustique anophèle femelle"], explication: "C'est l'anophèle (la femelle)." },
         { type: "qcm", question: "Que fait un vaccin ?", choix: ["il guérit la maladie quand on l'a déjà", "il apprend au corps à se défendre avant d'attraper la maladie", "il remplace la moustiquaire", "il nettoie l'eau"], reponse: 1, explication: "Le vaccin prépare le corps à se défendre : on est protégé avant d'être malade." },
         { type: "vf", question: "On peut attraper la bilharziose en se baignant dans un marigot.", reponse: true, explication: "Vrai : dans les eaux douces stagnantes vivent des escargots qui portent le parasite." },
         { type: "qcm", question: "Quel geste protège le mieux contre la diarrhée et le choléra ?", choix: ["dormir sous une moustiquaire", "porter des chaussures", "boire de l'eau potable et se laver les mains au savon", "se vacciner contre la rougeole"], reponse: 2, explication: "Ces maladies viennent de l'eau et des mains sales : eau potable et savon." },
-        { type: "saisie", question: "Que signifie le sigle PEV ? (Programme ... de vaccination)", reponses: ["élargi", "Programme élargi de vaccination"], explication: "PEV = Programme élargi de vaccination." },
+        { type: "saisie", question: "Que signifie le sigle PEV ? (Programme ... de vaccination)", reponses: ["élargi", "Programme élargi", "Programme élargi de vaccination"], explication: "PEV = Programme élargi de vaccination." },
         { type: "redaction", question: "**Situation d'intégration.** Contexte : c'est l'hivernage dans ton quartier. Il y a des flaques d'eau, de vieux pneus et des boîtes vides partout. Plusieurs enfants ont de la fièvre et des frissons. Le chef de quartier te demande de l'aider à informer les habitants. Consigne : 1) Dis de quelle maladie les enfants souffrent peut-être et comment elle s'attrape. 2) Que doivent faire les parents des enfants malades ? 3) Rédige trois conseils pour protéger le quartier.", corrige: "1) Les enfants ont peut-être le **paludisme** (fièvre, frissons). Il est transmis par la **piqûre du moustique anophèle femelle**, qui pond dans les **eaux stagnantes**.\n\n2) Les parents doivent emmener **vite** les enfants au **centre de santé** pour faire un test et recevoir le bon médicament. Il ne faut pas attendre.\n\n3) Conseils :\n- **vider et ramasser** les vieux pneus, les boîtes et combler les flaques ;\n- **dormir sous une moustiquaire imprégnée**, surtout les enfants et les femmes enceintes ;\n- **désherber** et nettoyer les alentours des maisons, couvrir les récipients d'eau." },
       ],
     },
@@ -890,7 +893,7 @@ Le **bois** est renouvelable seulement si l'on **replante** autant d'arbres qu'o
         { type: "qcm", question: "Pourquoi l'ampoule ne s'allume-t-elle pas quand l'interrupteur est ouvert ?", choix: ["parce que la pile est neuve", "parce que le circuit est ouvert : le courant ne peut pas faire le tour", "parce que l'ampoule est trop petite", "parce qu'il fait jour"], reponse: 1, explication: "Un interrupteur ouvert coupe le circuit : le courant ne passe plus." },
         { type: "qcm", question: "Lequel de ces matériaux est un conducteur électrique ?", choix: ["le plastique", "le caoutchouc", "le cuivre", "le bois sec"], reponse: 2, explication: "Le cuivre, comme tous les métaux, est conducteur. Les autres sont des isolants." },
         { type: "vf", question: "On peut toucher une prise électrique avec les mains mouillées sans danger.", reponse: false, explication: "Faux : c'est très dangereux. L'eau et le corps conduisent le courant ; on risque l'électrocution." },
-        { type: "saisie", question: "Comment appelle-t-on un matériau qui ne laisse pas passer le courant ?", reponses: ["isolant", "un isolant"], explication: "Un isolant (plastique, caoutchouc, verre, bois sec)." },
+        { type: "saisie", question: "Comment appelle-t-on un matériau qui ne laisse pas passer le courant ?", reponses: ["isolant", "un isolant", "isolants", "les isolants"], explication: "Un isolant (plastique, caoutchouc, verre, bois sec)." },
         { type: "qcm", question: "Laquelle de ces énergies est renouvelable ?", choix: ["l'énergie solaire", "le pétrole", "le gaz", "le charbon"], reponse: 0, explication: "Le soleil ne s'épuise pas : son énergie est renouvelable. Pétrole, gaz et charbon s'épuisent." },
         { type: "vf", question: "Les fils électriques sont entourés de plastique pour nous protéger.", reponse: true, explication: "Vrai : le plastique est isolant ; il empêche le courant de passer dans notre corps." },
         { type: "qcm", question: "Quel geste permet d'économiser le bois de chauffe ?", choix: ["faire un grand feu", "laisser le feu allumé toute la nuit", "couper plus d'arbres", "utiliser un foyer amélioré"], reponse: 3, explication: "Le foyer amélioré brûle moins de bois pour cuire le repas." },
@@ -904,7 +907,7 @@ Le **bois** est renouvelable seulement si l'on **replante** autant d'arbres qu'o
       theme: "Initiation scientifique et technologique",
       cours: `
 ## À quoi sert une machine simple ?
-Une **machine simple** est un outil qui nous aide à **soulever ou déplacer une charge avec moins d'effort**. Les principales : le **levier**, la **poulie**, le **plan incliné**, la **roue**.
+Une **machine simple** est un outil qui nous aide à **soulever ou déplacer une charge avec moins d'effort**, ou **plus facilement**. Les principales : le **levier**, la **poulie**, le **plan incliné**, la **roue**.
 
 ## Le levier
 Un levier est une barre rigide qui tourne autour d'un **point d'appui**. Il y a trois éléments :
@@ -919,7 +922,9 @@ Exemples : la barre à mine pour soulever une pierre, la balançoire, les ciseau
 >! **Exemple** : pour soulever une grosse pierre avec un bâton, place une petite pierre (le point d'appui) **près** de la grosse pierre, et appuie à l'**autre bout** du bâton. C'est beaucoup plus facile.
 
 ## La poulie
-Une **poulie** est une roue avec une gorge où passe une corde. Au **puits**, la poulie permet de **tirer vers le bas** pour faire monter le seau : c'est plus facile et plus confortable que de tirer vers le haut.
+Une **poulie** est une roue avec une gorge où passe une corde. Au **puits**, la poulie permet de **tirer vers le bas** pour faire monter le seau.
+
+Attention : une poulie **fixe** (accrochée au-dessus du puits) **ne diminue pas l'effort** : le seau pèse toujours autant. Elle **change le sens de la force** : on tire vers le bas au lieu de tirer vers le haut. C'est plus **confortable** (on peut s'aider du poids de son corps) et la corde ne frotte plus sur la margelle.
 
 ## Le plan incliné
 Un **plan incliné** est une pente. Pour monter un fût lourd dans une charrette, on le fait **rouler sur une planche inclinée** : le chemin est plus long, mais l'effort est plus petit. Les rampes pour les fauteuils roulants sont des plans inclinés.
@@ -927,16 +932,20 @@ Un **plan incliné** est une pente. Pour monter un fût lourd dans une charrette
 ## La roue
 La **roue** diminue le frottement : il est plus facile de tirer une charrette que de traîner un sac par terre.
 
+## La brouette : deux machines en une
+La **brouette** est un **levier** : le **point d'appui** est la roue, la **charge** est dans la caisse, l'**effort** se fait aux poignées, loin du point d'appui. Et sa **roue** diminue le frottement quand on la pousse. C'est pour cela qu'on la cite avec les leviers et avec les roues.
+
 > **À retenir** :
 > - Une machine simple permet de faire moins d'effort.
 > - Levier : point d'appui, charge, effort ; plus on appuie loin du point d'appui, moins il faut de force.
-> - Poulie (puits), plan incliné (planche, rampe), roue (charrette, brouette).
+> - Poulie fixe (puits) : elle change le sens de la force, elle ne diminue pas l'effort. Plan incliné (planche, rampe), roue (charrette).
+> - La brouette est à la fois un levier et une roue.
 `,
       exercices: [
-        { type: "qcm", question: "À quoi sert une machine simple ?", choix: ["à produire de l'électricité", "à faire moins d'effort pour soulever ou déplacer une charge", "à aller plus vite en voiture", "à remplacer le soleil"], reponse: 1, explication: "Levier, poulie, plan incliné et roue diminuent l'effort nécessaire." },
+        { type: "qcm", question: "À quoi sert une machine simple ?", choix: ["à produire de l'électricité", "à faire moins d'effort pour soulever ou déplacer une charge", "à aller plus vite en voiture", "à remplacer le soleil"], reponse: 1, explication: "Le levier, le plan incliné et la roue diminuent l'effort nécessaire. La poulie fixe, elle, rend le travail plus facile en changeant le sens de la force (on tire vers le bas)." },
         { type: "saisie", question: "Autour de quel point un levier tourne-t-il ?", reponses: ["point d'appui", "le point d'appui", "appui"], explication: "Un levier tourne autour de son point d'appui." },
-        { type: "qcm", question: "Pour soulever une pierre avec un levier en faisant le moins d'effort, où faut-il appuyer ?", choix: ["tout près du point d'appui", "sur la pierre", "loin du point d'appui", "au milieu exactement, toujours"], reponse: 2, explication: "Plus on appuie loin du point d'appui, moins il faut de force." },
-        { type: "qcm", question: "Quelle machine simple utilise-t-on au puits pour remonter le seau ?", choix: ["la poulie", "le plan incliné", "la balançoire", "les ciseaux"], reponse: 0, explication: "La poulie permet de tirer la corde vers le bas pour faire monter le seau." },
+        { type: "qcm", question: "Pour soulever une pierre avec un levier en faisant le moins d'effort, où faut-il appuyer ?", choix: ["tout près du point d'appui", "sur la pierre", "loin du point d'appui", "au milieu exactement, toujours"], reponse: 2, explication: "Plus on appuie loin du point d'appui (là où l'on fait l'effort), moins il faut de force." },
+        { type: "qcm", question: "Quelle machine simple utilise-t-on au puits pour remonter le seau ?", choix: ["la poulie", "le plan incliné", "la balançoire", "les ciseaux"], reponse: 0, explication: "La poulie permet de tirer la corde vers le bas pour faire monter le seau : elle change le sens de la force." },
         { type: "vf", question: "La rampe d'accès pour fauteuils roulants est un plan incliné.", reponse: true, explication: "Vrai : c'est une pente qui permet de monter avec moins d'effort." },
         { type: "vf", question: "Avec un plan incliné, le chemin est plus court et l'effort plus grand.", reponse: false, explication: "Faux : c'est l'inverse. Le chemin est plus long, mais l'effort est plus petit." },
         { type: "qcm", question: "Lequel de ces objets est un levier ?", choix: ["un seau", "une bouteille", "une corde", "un décapsuleur"], reponse: 3, explication: "Le décapsuleur s'appuie sur le bord de la capsule (point d'appui) : c'est un levier." },
@@ -979,6 +988,8 @@ Une carte a toujours :
 >! **Utiliser l'échelle** : à l'échelle **1/1 000 000**, 1 cm sur la carte = 1 000 000 cm en vrai = **10 km**.
 >! Deux villes à **7 cm** sur la carte sont donc à 7 × 10 = **70 km** en vrai.
 >! À l'échelle **1/2 000 000**, 1 cm = **20 km**.
+>! **Calcul inverse** : pour savoir combien de centimètres tracer, on **divise** la distance réelle. À 1/1 000 000 (1 cm = 10 km), 45 km → 45 ÷ 10 = **4,5 cm**.
+>! **Astuce** : pour trouver combien de km vaut 1 cm, enlève 5 zéros au nombre de l'échelle : 1/5 000 000 → 50 km.
 
 ## Erreur fréquente
 Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays** (le Sénégal est un pays du continent africain).
@@ -999,6 +1010,9 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
         { type: "vf", question: "L'équateur partage la Terre en deux hémisphères : nord et sud.", reponse: true, explication: "Vrai : l'équateur est à égale distance des deux pôles." },
         { type: "qcm", question: "Quel océan sépare l'Afrique de l'Amérique ?", choix: ["l'océan Indien", "l'océan Austral", "l'océan Atlantique", "l'océan Pacifique"], reponse: 2, explication: "L'océan Atlantique, qui borde le Sénégal, sépare l'Afrique et l'Europe de l'Amérique." },
         { type: "redaction", question: "**Situation.** Contexte : pour un exposé, ton maître te donne une carte du Sénégal à l'échelle 1/2 000 000. Sur la carte, Dakar et Kaolack sont à 8 cm l'une de l'autre. Ton camarade ne sait pas lire une carte. Consigne : 1) Cite les quatre éléments qu'il doit d'abord regarder sur une carte et dis à quoi sert chacun. 2) Calcule la distance réelle à vol d'oiseau entre Dakar et Kaolack. 3) Dans quelle direction se trouve Kaolack par rapport à Dakar ?", corrige: "1) Il faut regarder :\n- le **titre** : il dit ce que montre la carte ;\n- la **légende** : elle explique les couleurs et les symboles ;\n- l'**orientation** (rose des vents ou flèche du nord) : elle indique le nord ;\n- l'**échelle** : elle permet de calculer les distances réelles.\n\n2) À l'échelle 1/2 000 000, 1 cm = 20 km. Donc 8 cm = 8 × 20 = **160 km** à vol d'oiseau.\n\n3) Kaolack se trouve à l'**est** de Dakar (un peu au sud-est)." },
+        { type: "saisie", question: "Sur une carte à l'échelle 1/2 000 000 (1 cm = 20 km), deux villes sont à 4,5 cm l'une de l'autre. Quelle est la distance réelle, en km ?", reponses: ["90", "90 km"], explication: "1 cm = 20 km, donc 4,5 cm = 4,5 × 20 = 90 km." },
+        { type: "saisie", question: "Sur une carte à l'échelle 1/1 000 000 (1 cm = 10 km), combien de centimètres faut-il tracer pour représenter 85 km ?", reponses: ["8,5", "8,5 cm"], explication: "Calcul inverse : on divise par 10. 85 ÷ 10 = 8,5 cm." },
+        { type: "qcm", question: "Sur une carte à l'échelle 1/5 000 000, que représente 1 cm ?", choix: ["5 km", "500 km", "50 km", "5 000 km"], reponse: 2, explication: "1 cm sur la carte = 5 000 000 cm en vrai = 50 000 m = 50 km." },
       ],
     },
     {
@@ -1006,13 +1020,26 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
       titre: "Fiche de révision : histoire",
       theme: "Fiches de révision CFEE",
       cours: `
+## Programme de révision sur 7 jours
+Les fiches servent au **dernier rappel**, juste avant le CFEE : on apprend d'abord avec les chapitres, puis on relit les fiches. Chaque jour : une fiche de deux matières différentes, et leurs quiz express.
+
+| Jour | À réviser |
+|---|---|
+| J1 | Maths : numération + Langue : grammaire |
+| J2 | Maths : mesure + Langue : conjugaison |
+| J3 | Maths : géométrie + Langue : orthographe et vocabulaire |
+| J4 | Maths : problèmes + Langue : lecture et écriture |
+| J5 | Découverte du monde : histoire + EDD : vivre ensemble |
+| J6 | Découverte du monde : géographie + EDD : vivre dans son milieu |
+| J7 | Découverte du monde : sciences + relire tous les « Pièges fréquents » + une épreuve complète : « S'entraîner à l'épreuve de mathématiques du CFEE », « Entraînement au CFEE : épreuve blanche de Langue et communication » ou « Réussir l'épreuve d'EDD au CFEE » |
+
 ## Ma frise des dates clés
 | Date | Ce qui se passe |
 |---|---|
 | vers 1235 | **Kirina** : Soundiata Keïta fonde l'empire du Mali |
 | 1324 | pèlerinage de **Kankou Moussa** à La Mecque |
 | XVe s. | les **Portugais** arrivent sur la côte |
-| vers 1549 | **Danki** : le Cayor se libère du Djolof (XVIe s.) |
+| vers 1549 | **Danki** : le Cayor se libère du Djolof |
 | 1591 | **Tondibi** : fin de l'empire songhaï |
 | XVIe-XIXe s. | **traite atlantique** |
 | 1848 | la France **abolit l'esclavage** |
@@ -1028,6 +1055,7 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
 | 1959 | **Fédération du Mali** |
 | 4 avril 1960 | accords : **fête de l'Indépendance** |
 | 20 août 1960 | le Sénégal **indépendant seul** |
+| 5 sept. 1960 | **Senghor** élu président de la République |
 | 1978 | **Gorée** au patrimoine de l'UNESCO |
 
 ## Les personnages
@@ -1046,7 +1074,8 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
 | **Cheikh Ahmadou Bamba** | résistance **pacifique** ; exil au Gabon |
 | **Aline Sitoé Diatta** | Casamance ; résistance pacifique ; morte à Tombouctou |
 | **Blaise Diagne** | 1er Africain noir élu député (1914) |
-| **Senghor** | 1er président (1960-1980) ; paroles de l'hymne |
+| **Senghor** | 1er président, élu le 5 septembre 1960 (1960-1980) ; paroles de l'hymne |
+| **Mamadou Dia** | président du Conseil en 1960 : il dirige le gouvernement |
 
 ## Les listes à savoir par cœur
 - **Empires** (ordre G – M – S) : Ghana (Koumbi Saleh), Mali (Niani), Songhaï (Gao).
@@ -1070,6 +1099,8 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
 - **Lat Dior** = Cayor ; **Alboury Ndiaye** = Djolof.
 - Fête de l'Indépendance le **4 avril**, mais indépendance seul le **20 août 1960**.
 - Bamba et Aline Sitoé Diatta : **sans armes**.
+- Premier **président de la République** : Senghor. **Mamadou Dia** était **président du Conseil** (chef du gouvernement), pas président de la République.
+- **Saint-Louis** a été la capitale de l'AOF avant Dakar (jusqu'en 1902).
 `,
       exercices: [
         { type: "qcm", question: "Dans quel ordre les trois grands empires se sont-ils succédé ?", choix: ["Mali, Ghana, Songhaï", "Ghana, Mali, Songhaï", "Songhaï, Mali, Ghana", "Ghana, Songhaï, Mali"], reponse: 1, explication: "Ordre G – M – S : Ghana, puis Mali, puis Songhaï." },
@@ -1079,9 +1110,13 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
         { type: "saisie", question: "En quelle année Lat Dior est-il tué à Dékheulé ?", reponses: ["1886", "en 1886"], explication: "Lat Dior, damel du Cayor, est tué à Dékheulé en 1886, un an après l'ouverture du chemin de fer." },
         { type: "qcm", question: "Quelle ville devient la capitale de l'AOF à partir de 1902 ?", choix: ["Dakar", "Saint-Louis", "Gorée", "Rufisque"], reponse: 0, explication: "La capitale de l'AOF est d'abord Saint-Louis, puis Dakar à partir de 1902." },
         { type: "vf", question: "Le Sénégal fête son indépendance le 4 avril.", reponse: true, explication: "Vrai : le 4 avril 1960, des accords sont signés avec la France. Le Sénégal devient indépendant seul le 20 août 1960." },
-        { type: "qcm", question: "Qui a été le premier président du Sénégal ?", choix: ["Abdou Diouf", "Mamadou Dia", "Léopold Sédar Senghor", "Blaise Diagne"], reponse: 2, explication: "Léopold Sédar Senghor, de 1960 à 1980. Il a aussi écrit les paroles de l'hymne." },
+        { type: "qcm", question: "Qui a été le premier président du Sénégal ?", choix: ["Abdou Diouf", "Mamadou Dia", "Léopold Sédar Senghor", "Blaise Diagne"], reponse: 2, explication: "Léopold Sédar Senghor, élu le 5 septembre 1960, président jusqu'en 1980. Il a aussi écrit les paroles de l'hymne. Mamadou Dia était président du Conseil : il dirigeait le gouvernement, mais il n'était pas président de la République. Abdou Diouf est le 2e président ; Blaise Diagne était député en 1914." },
         { type: "saisie", question: "Quelle île, en face de Dakar, est un lieu de mémoire de la traite avec sa Maison des Esclaves ?", reponses: ["Gorée", "l'île de Gorée", "île de Gorée"], explication: "Gorée, inscrite au patrimoine mondial de l'UNESCO depuis 1978." },
         { type: "qcm", question: "Quel événement a lieu à Thiaroye le 1er décembre 1944 ?", choix: ["la création de l'AOF", "des tirailleurs qui réclamaient leur argent sont tués", "l'élection de Blaise Diagne", "la fin de la traite"], reponse: 1, explication: "À Thiaroye, des tirailleurs sénégalais qui réclamaient leur argent sont tués par l'armée française." },
+        { type: "saisie", question: "En 1960, à côté du président Senghor, qui était président du Conseil, c'est-à-dire chef du gouvernement ? (nom)", reponses: ["Mamadou Dia", "Dia"], explication: "Mamadou Dia était président du Conseil : il dirigeait le gouvernement. Le président de la République était Léopold Sédar Senghor, élu le 5 septembre 1960." },
+        { type: "qcm", question: "Quelle ville a été la capitale de l'AOF avant Dakar ?", choix: ["Gorée", "Rufisque", "Saint-Louis", "Thiès"], reponse: 2, explication: "Saint-Louis a été la capitale de l'AOF jusqu'en 1902 ; ensuite, c'est Dakar." },
+        { type: "redaction", question: "**Situation d'intégration (sujet type CFEE).** Support : le 4 avril, toute l'école défile. Ton petit frère te demande : « Pourquoi on fête l'indépendance le 4 avril, alors que la maîtresse a parlé du 20 août ? Et qui commandait le pays en 1960 ? » Consignes : 1) Explique-lui ce qui s'est passé le 4 avril 1960 et le 20 août 1960. 2) Dis qui était Léopold Sédar Senghor et qui était Mamadou Dia en 1960. 3) Cite deux symboles de la République que l'on voit ou que l'on entend pendant le défilé.", corrige: "1) Le **4 avril 1960**, des **accords** sont signés avec la France : c'est la date choisie pour la **fête de l'Indépendance**. À ce moment-là, le Sénégal forme avec le Soudan français la **Fédération du Mali**, qui devient indépendante le 20 juin 1960. Le **20 août 1960**, le Sénégal **quitte la Fédération** et devient un État indépendant **seul**.\n\n2) **Léopold Sédar Senghor** est élu **premier président de la République** le 5 septembre 1960 (il le reste jusqu'en 1980). **Mamadou Dia** est **président du Conseil** : il dirige le **gouvernement**.\n\n3) Le **drapeau** vert, or, rouge avec une étoile verte ; l'**hymne national** « Le Lion rouge » (on peut aussi citer la devise « Un Peuple – Un But – Une Foi »)." },
+        { type: "redaction", question: "**Situation d'intégration (sujet type CFEE).** Support : affiche d'une exposition à l'école, « Ils ont dit non » : Lat Dior (Cayor, tué à Dékheulé en 1886) ; Cheikh Ahmadou Bamba (exilé au Gabon en 1895) ; Aline Sitoé Diatta (Kabrousse, arrêtée en 1943). Consignes : 1) Classe ces trois personnes : résistance armée ou résistance pacifique ? 2) Choisis-en une et écris une courte présentation (région, ce qu'elle a refusé, ce qui lui est arrivé). 3) Explique en une ou deux phrases pourquoi les Français ont fini par gagner.", corrige: "1) **Résistance armée** : Lat Dior. **Résistance pacifique** (sans armes) : Cheikh Ahmadou Bamba et Aline Sitoé Diatta.\n\n2) Exemple : **Lat Dior** était **damel du Cayor**. Il a refusé le **chemin de fer Dakar – Saint-Louis**, qui devait traverser son royaume et servir aux soldats français et à l'arachide. Il a combattu et il a été **tué à Dékheulé en 1886**. (Autres réponses possibles : Bamba, qui refusait de se soumettre sans faire la guerre et fut exilé au Gabon en 1895 ; Aline Sitoé Diatta, en Casamance, qui refusait que les Français prennent le riz et les jeunes hommes, arrêtée en 1943 et morte à Tombouctou en 1944.)\n\n3) Les Français avaient des **armes modernes** (fusils, canons) et des forts, et ils ont profité des **divisions** entre les royaumes." },
       ],
     },
     {
@@ -1096,7 +1131,8 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
             |
  Voisins : Mauritanie (N), Mali (E),
  Guinée et Guinée-Bissau (S),
- Gambie (enclavée), océan (O)
+ Gambie (entourée par le Sénégal),
+ océan (O)
             |
  Relief : plat ; collines à Kédougou
             |
@@ -1129,12 +1165,27 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
 - **Est** (2) : Tambacounda, Kédougou.
 - **Sud** (3) : Ziguinchor, Sédhiou, Kolda.
 
+## Population
+- Groupes : **Wolofs** (les plus nombreux), Pulaar (Peuls, Toucouleurs), Sérères, Diolas, Mandingues, Soninkés…
+- Langue officielle : **français**. Langues nationales (Constitution) : **diola, malinké, pulaar, sérère, soninké, wolof**, et les autres langues codifiées.
+- Religions : musulmans en grande majorité, chrétiens. Fêtes : Korité, Tabaski, Noël, Pâques… ; **fête de l'Indépendance le 4 avril**.
+- **Cohésion nationale** : respect mutuel, parenté à plaisanterie (cousinage).
+
+## Parcs et sites à connaître
+| Site | Où ? | Pourquoi il est célèbre |
+|---|---|---|
+| parc du **Niokolo-Koba** | sud-est (Tambacounda, Kédougou), sur le fleuve Gambie | grands animaux (lions, hippopotames, chimpanzés, antilopes) ; patrimoine mondial de l'UNESCO (1981) |
+| parc des oiseaux du **Djoudj** | nord, près de Saint-Louis, sur le fleuve Sénégal | des millions d'**oiseaux migrateurs** (pélicans, flamants) ; UNESCO (1981) |
+| **delta du Saloum** | centre-ouest (Fatick) | îles, bolongs (bras de mer) et **mangrove** ; UNESCO (2011) |
+| île de **Gorée** | en face de Dakar | Maison des Esclaves, mémoire de la traite ; UNESCO (1978) |
+| île de **Saint-Louis** | embouchure du fleuve Sénégal | ancienne capitale de l'AOF (jusqu'en 1902) |
+
 ## Eau, climat, végétation
 - **Lac de Guiers** : eau potable de Dakar. **Lac Rose** : sel.
 - Barrages : **Diama** (bloque l'eau salée), **Manantali** (au Mali, électricité).
 - Vents : **harmattan** (nord-est, chaud et sec), **mousson** (sud-ouest, pluies), **alizé maritime** (nord-ouest, frais).
-- Pluie : peu au nord (sahélien), plus au centre (soudanien), beaucoup au sud (Casamance).
-- **Mangrove** dans le Saloum et en Casamance. Arbre symbole : le **baobab**.
+- Pluie : peu au nord (climat **sahélien** : sec, comme le Sahel au sud du Sahara), plus au centre et à l'est (climat **soudanien** : plus de pluie), beaucoup au sud (Casamance).
+- **Mangrove** (forêt de palétuviers, des arbres qui ont les pieds dans l'eau salée) dans le Saloum et en Casamance. Arbre symbole : le **baobab**.
 
 ## Les activités
 | Activité | Où ? |
@@ -1147,7 +1198,7 @@ Ne confonds pas **continent** (grande étendue de terre : l'Afrique) et **pays**
 | phosphates / or | Taïba / Kédougou |
 | pétrole (depuis 2024) | en mer, Sangomar |
 
-Transports : port de Dakar, aéroport Blaise-Diagne (Diass), TER Dakar – Diamniadio.
+Transports : port de Dakar, aéroport Blaise-Diagne (Diass), TER Dakar – Diamniadio – aéroport (AIBD).
 
 ## Afrique et monde
 - Afrique : **Sahara** (plus grand désert chaud), **Nil** (plus long fleuve), **Kilimandjaro** (plus haut sommet).
@@ -1159,17 +1210,19 @@ Transports : port de Dakar, aéroport Blaise-Diagne (Diass), TER Dakar – Diamn
 - **culture vivrière** (pour se nourrir) / **culture de rente** (pour vendre).
 - **exode rural** : départ de la campagne vers la ville.
 - **estuaire** : là où un fleuve se jette dans la mer.
-- **enclavé** : presque entièrement entouré par un autre pays (la Gambie, dans le Sénégal, ne touche que l'océan à l'ouest).
+- **pays enclavé** : pays sans accès à la mer (le Mali). La Gambie n'est pas enclavée : elle est entourée par le Sénégal mais touche l'océan à l'ouest.
 
 ## Les pièges
 - La **Gambie** est un pays ; le **fleuve Gambie** est un fleuve.
 - La région de Dakar est la **plus peuplée**, mais la **plus petite**.
 - Alizé maritime et mousson viennent de l'océan, mais seule la **mousson** apporte les pluies.
 - **Continent** (l'Afrique) ≠ **pays** (le Sénégal).
+- La Gambie est **entourée par le Sénégal**, mais elle n'est pas **enclavée** (elle touche l'océan) ; le Mali, lui, est enclavé.
+- Le **Djoudj** (oiseaux) est au **nord** ; le **Niokolo-Koba** (grands animaux) est au **sud-est**.
 `,
       exercices: [
         { type: "saisie", question: "Combien de régions compte le Sénégal ?", reponses: ["14", "quatorze", "14 régions"], explication: "14 régions ; les plus récentes (2008) sont Kaffrine, Kédougou et Sédhiou." },
-        { type: "qcm", question: "Quel pays est presque entièrement entouré par le Sénégal ?", choix: ["la Guinée-Bissau", "la Mauritanie", "le Mali", "la Gambie"], reponse: 3, explication: "La Gambie est enclavée dans le Sénégal ; elle ne touche que l'océan à l'ouest." },
+        { type: "qcm", question: "Quel pays est presque entièrement entouré par le Sénégal ?", choix: ["la Guinée-Bissau", "la Mauritanie", "le Mali", "la Gambie"], reponse: 3, explication: "La Gambie est presque entièrement entourée par le Sénégal ; elle touche l'océan à l'ouest." },
         { type: "qcm", question: "Quel vent chaud et sec, plein de poussière, vient du Sahara ?", choix: ["l'harmattan", "la mousson", "l'alizé maritime", "le vent de mer"], reponse: 0, explication: "L'harmattan souffle du nord-est pendant la saison sèche. La mousson apporte les pluies." },
         { type: "vf", question: "Il pleut plus au nord du Sénégal qu'en Casamance.", reponse: false, explication: "Faux : il pleut plus au sud. Le nord est sahélien, la Casamance est la zone la plus humide." },
         { type: "saisie", question: "Comment appelle-t-on le départ des habitants de la campagne vers la ville ?", reponses: ["exode rural", "l'exode rural"], explication: "C'est l'exode rural. Il crée des problèmes en ville : logement, embouteillages, déchets." },
@@ -1178,6 +1231,12 @@ Transports : port de Dakar, aéroport Blaise-Diagne (Diass), TER Dakar – Diamn
         { type: "qcm", question: "Quelle organisation regroupe les pays qui utilisent le franc CFA ?", choix: ["l'OMVS", "l'Union africaine", "l'UEMOA", "la CEDEAO"], reponse: 2, explication: "L'UEMOA : Union économique et monétaire ouest-africaine." },
         { type: "saisie", question: "Sur une carte à l'échelle 1/1 000 000 (1 cm = 10 km), deux villes sont à 5 cm. Quelle est la distance réelle, en km ?", reponses: ["50", "50 km"], explication: "5 × 10 = 50 km." },
         { type: "qcm", question: "Quel lac fournit une grande partie de l'eau potable de Dakar ?", choix: ["le lac Rose", "le lac de Guiers", "le lac de Manantali", "le lac Retba"], reponse: 1, explication: "Le lac de Guiers, près du fleuve Sénégal. Le lac Rose (lac Retba) est connu pour son sel." },
+        { type: "qcm", question: "Quel parc national, près de Saint-Louis, est célèbre pour ses millions d'oiseaux migrateurs ?", choix: ["le Niokolo-Koba", "le Djoudj", "le delta du Saloum", "le lac Rose"], reponse: 1, explication: "Le parc des oiseaux du Djoudj, au nord, sur le fleuve Sénégal. Le Niokolo-Koba, au sud-est, est célèbre pour ses grands animaux." },
+        { type: "vf", question: "La Gambie est un pays enclavé, sans accès à la mer.", reponse: false, explication: "Faux : la Gambie est presque entièrement entourée par le Sénégal, mais elle touche l'océan à l'ouest. Un pays enclavé n'a pas de côte, comme le Mali." },
+        { type: "qcm", question: "Laquelle de ces langues est une langue nationale du Sénégal citée par la Constitution ?", choix: ["l'anglais", "l'espagnol", "le portugais", "le pulaar"], reponse: 3, explication: "Le pulaar, comme le diola, le malinké, le sérère, le soninké et le wolof. La langue officielle est le français." },
+        { type: "saisie", question: "Sur une carte à l'échelle 1/2 000 000 (1 cm = 20 km), deux villes sont à 6,5 cm l'une de l'autre. Quelle est la distance réelle, en km ?", reponses: ["130", "130 km"], explication: "6,5 × 20 = 130 km." },
+        { type: "redaction", question: "**Situation d'intégration (sujet type CFEE).** Support : une famille de touristes veut visiter le parc des oiseaux du Djoudj et le parc du Niokolo-Koba. Sur leur carte d'exercice à l'échelle 1/1 000 000 (1 cm = 10 km), le Djoudj est à 6 cm de Saint-Louis. Consignes : 1) Dans quelle partie du Sénégal se trouve chaque parc, et qu'y voit-on ? 2) Calcule la distance réelle entre Saint-Louis et le Djoudj sur cette carte. 3) Donne deux règles que les visiteurs doivent respecter dans un parc, et dis pourquoi on protège ces parcs.", corrige: "1) Le **Djoudj** est au **nord**, près de Saint-Louis, sur le fleuve Sénégal : on y voit des millions d'**oiseaux migrateurs** (pélicans, flamants). Le **Niokolo-Koba** est au **sud-est** (régions de Tambacounda et de Kédougou), sur le fleuve Gambie : on y voit de **grands animaux** (lions, hippopotames, chimpanzés, antilopes). Les deux sont inscrits au patrimoine mondial de l'UNESCO.\n\n2) 1 cm = 10 km, donc 6 cm = 6 × 10 = **60 km**.\n\n3) Règles : ne pas **chasser** ni nourrir les animaux ; ne pas **faire de feu** ni jeter de déchets ; rester sur les pistes avec le guide. On protège ces parcs pour **sauver les animaux et les plantes** qui y vivent, et parce qu'ils attirent des touristes, ce qui fait vivre les habitants." },
+        { type: "redaction", question: "**Situation d'intégration.** Support : un nouvel élève arrive d'un autre pays dans ta classe. Il demande : « Quelles langues parlez-vous ici ? Est-ce que tout le monde fête les mêmes fêtes ? » Consignes : 1) Présente-lui la langue officielle et trois langues nationales du Sénégal. 2) Cite deux fêtes religieuses et la fête nationale. 3) Explique en une ou deux phrases ce qu'est la cohésion nationale, avec un exemple.", corrige: "1) La langue officielle est le **français** (à l'école, dans l'administration). La Constitution reconnaît aussi des **langues nationales** : le **wolof** (la plus parlée), le **pulaar**, le **sérère**, le **diola**, le **malinké** (mandingue), le **soninké**, et les autres langues codifiées.\n\n2) Fêtes religieuses : la **Korité** et la **Tabaski** (fêtes musulmanes), **Noël** et **Pâques** (fêtes chrétiennes). La fête nationale est la **fête de l'Indépendance, le 4 avril**.\n\n3) La **cohésion nationale**, c'est vivre ensemble **en paix** malgré nos différences de groupe, de langue ou de religion. Exemple : pendant les fêtes, les voisins musulmans et chrétiens se rendent visite et partagent le repas ; la **parenté à plaisanterie** permet aussi de se taquiner sans se fâcher." },
       ],
     },
     {
@@ -1211,7 +1270,8 @@ CIRCULATION
 cœur = pompe
 artères : partent du cœur
 veines : reviennent au cœur
-capillaires : relient les deux
+capillaires : vaisseaux très fins,
+  comme des cheveux, qui relient les deux
 ~~~
 
 ## Le sang et les dents
@@ -1226,14 +1286,15 @@ Enfant : **20** dents de lait ; adulte : **32** dents.
 
 ## Aliments et santé
 - **Énergétiques** (riz, mil, huile) ; **bâtisseurs** (poisson, viande, œufs, niébé) ; **protecteurs** (fruits, légumes).
-- **Paludisme** : parasite **plasmodium**, transmis par l'**anophèle femelle**. Moustiquaire imprégnée, plus d'eaux stagnantes, centre de santé si fièvre.
+- **Paludisme** : parasite **plasmodium** (un être vivant minuscule qui vit dans le sang), transmis par l'**anophèle femelle**. Moustiquaire imprégnée, plus d'eaux stagnantes, centre de santé si fièvre.
 - **Diarrhée, choléra** : eau sale → eau potable, mains lavées au savon.
-- **Bilharziose** : baignade dans des eaux douces stagnantes.
+- **Bilharziose** : maladie due à un petit ver parasite ; on l'attrape en se baignant dans des eaux douces stagnantes (marigots).
 - **Vaccin** : protège **avant** la maladie (PEV, carnet de vaccination).
 
 ## Plantes et animaux
 ~~~
-PLANTE VERTE (photosynthèse)
+PLANTE VERTE (photosynthèse =
+fabriquer sa nourriture avec la lumière)
 racines : prennent eau + sels
 feuilles + lumière + gaz carbonique
   -> nourriture de la plante
@@ -1266,7 +1327,7 @@ pile -> fil -> interrupteur fermé
 - **Conducteurs** : métaux. **Isolants** : plastique, caoutchouc, verre, bois sec.
 - Prises (environ 220-230 V) : **danger de mort**.
 - **Renouvelables** : soleil, vent, eau. **Non renouvelables** : pétrole, gaz, charbon.
-- **Machines simples** : levier (point d'appui, charge, effort), poulie (puits), plan incliné (rampe), roue.
+- **Machines simples** : levier (point d'appui, charge, effort), poulie fixe (puits : change le sens de la force), plan incliné (rampe), roue ; la brouette = levier + roue.
 
 ## Les pièges
 - La **chauve-souris** et le **dauphin** sont des mammifères.
@@ -1277,7 +1338,7 @@ pile -> fil -> interrupteur fermé
 `,
       exercices: [
         { type: "qcm", question: "Où les nutriments passent-ils dans le sang ?", choix: ["dans l'intestin grêle", "dans l'estomac", "dans la bouche", "dans le foie"], reponse: 0, explication: "Dans l'intestin grêle : c'est l'absorption." },
-        { type: "saisie", question: "Quel moustique transmet le paludisme ?", reponses: ["anophèle", "l'anophèle", "anophèle femelle", "l'anophèle femelle", "le moustique anophèle"], explication: "La femelle de l'anophèle, en piquant une personne malade puis une personne saine." },
+        { type: "saisie", question: "Quel moustique transmet le paludisme ?", reponses: ["anophèle", "l'anophèle", "anophèle femelle", "l'anophèle femelle", "le moustique anophèle", "le moustique anophèle femelle"], explication: "La femelle de l'anophèle, en piquant une personne malade puis une personne saine." },
         { type: "vf", question: "Les veines conduisent le sang du cœur vers les organes.", reponse: false, explication: "Faux : ce sont les artères qui partent du cœur ; les veines reviennent au cœur." },
         { type: "qcm", question: "À quel groupe appartient la chauve-souris ?", choix: ["les oiseaux", "les reptiles", "les mammifères", "les insectes"], reponse: 2, explication: "Elle vole, mais elle a des poils et allaite ses petits : c'est un mammifère." },
         { type: "saisie", question: "Comment s'appelle le passage de l'eau de l'état solide à l'état liquide ?", reponses: ["fusion", "la fusion"], explication: "La fusion : la glace fond. L'inverse est la solidification." },
@@ -1286,6 +1347,200 @@ pile -> fil -> interrupteur fermé
         { type: "qcm", question: "Quelle source d'énergie est non renouvelable ?", choix: ["le soleil", "le vent", "l'eau des fleuves", "le pétrole"], reponse: 3, explication: "Le pétrole s'épuise. Le soleil, le vent et l'eau sont renouvelables." },
         { type: "qcm", question: "Quel aliment est un aliment bâtisseur ?", choix: ["le poisson", "le riz", "la mangue", "l'huile"], reponse: 0, explication: "Le poisson fait grandir (bâtisseur). Le riz et l'huile sont énergétiques, la mangue est protectrice." },
         { type: "saisie", question: "Un levier a trois éléments : la charge, l'effort et le point… ?", reponses: ["d'appui", "point d'appui", "le point d'appui", "appui"], explication: "Le point d'appui. Plus on pousse loin de lui (là où on fait l'effort), moins il faut de force." },
+        { type: "qcm", question: "Que fait la poulie fixe accrochée au-dessus du puits ?", choix: ["elle rend le seau plus léger", "elle filtre l'eau", "elle change le sens de la force : on tire vers le bas", "elle fait monter le seau toute seule"], reponse: 2, explication: "La poulie fixe ne diminue pas l'effort : le seau pèse autant. Elle change le sens de la force : on tire vers le bas, c'est plus confortable." },
+        { type: "redaction", question: "**Situation d'intégration (sujet type CFEE).** Support : à la cantine de l'école, voici le menu. Lundi : riz blanc avec un peu d'huile. Mardi : pain et thé très sucré. Mercredi : thiéboudienne (riz, poisson, légumes) et une orange. L'eau vient du puits et n'est pas traitée ; des mouches se posent sur les plats. Plusieurs élèves ont eu la diarrhée. Consignes : 1) Quel repas est équilibré ? Explique avec les trois groupes d'aliments. 2) Propose un repas équilibré pour remplacer celui du lundi. 3) Donne trois règles d'hygiène pour que les élèves ne tombent plus malades.", corrige: "1) Le repas du **mercredi** est équilibré : le riz est **énergétique**, le poisson est **bâtisseur**, les légumes et l'orange sont **protecteurs**. Les repas du lundi et du mardi n'ont presque que des aliments énergétiques (riz, huile, pain, sucre).\n\n2) Exemple pour le lundi : du **riz** avec de la **sauce de niébé** ou du **poisson** (bâtisseur), des **légumes** (carotte, chou) et une **mangue** au dessert, avec de l'eau potable.\n\n3) Règles d'hygiène :\n- rendre l'eau **potable** : décanter, filtrer, puis **désinfecter** (faire bouillir ou ajouter la bonne dose d'eau de Javel) ;\n- **couvrir les plats** contre les mouches ;\n- se **laver les mains au savon** avant de manger et après les toilettes." },
+        { type: "redaction", question: "**Situation d'intégration (sujet type CFEE).** Support : au puits du village, les femmes tirent le seau en se penchant ; la corde frotte et s'use sur la margelle. Le soir, la salle de classe n'a pas de lumière. Le comité du village veut installer une poulie au-dessus du puits et un panneau solaire avec une lampe à l'école. Consignes : 1) Explique ce que la poulie va changer pour les femmes. 2) Explique pourquoi le panneau solaire est un bon choix. 3) Le premier soir, la lampe ne s'allume pas : donne deux causes possibles.", corrige: "1) La **poulie fixe** change le **sens de la force** : les femmes tireront la corde **vers le bas** au lieu de se pencher et de tirer vers le haut. C'est plus **confortable** (elles peuvent s'aider du poids de leur corps) et la corde ne frotte plus sur la margelle. Le seau ne devient pas plus léger.\n\n2) L'énergie du **soleil** est **renouvelable** (elle ne s'épuise pas), le soleil brille presque toute l'année au Sénégal, elle est gratuite une fois le panneau installé et elle ne fait pas de fumée.\n\n3) Causes possibles : le **circuit est ouvert** (interrupteur ouvert, fil coupé ou mal branché) ; l'**ampoule est grillée** ; la batterie est vide." },
+      ],
+    },
+    {
+      id: "squelette-muscles-sens",
+      titre: "Le squelette, les muscles et les sens",
+      theme: "Initiation scientifique et technologique",
+      cours: `
+## Le squelette
+Le **squelette** est l'ensemble des **os** du corps. Un adulte en a environ **206**. Le squelette **soutient** le corps, il **protège** des organes fragiles et, avec les muscles, il permet de **bouger**.
+
+| Partie du squelette | Rôle |
+|---|---|
+| **crâne** | protège le **cerveau** |
+| **cage thoracique** (côtes et sternum) | protège le **cœur** et les **poumons** |
+| **colonne vertébrale** (les vertèbres) | tient le corps droit ; protège la **moelle épinière** (le gros nerf du dos) |
+| os des bras et des jambes | permettent de porter, de marcher, de courir |
+
+## Les articulations
+Une **articulation** est l'endroit où **deux os se rejoignent** et peuvent **bouger** l'un par rapport à l'autre : le **genou**, le **coude**, l'**épaule**, la **hanche**, le **poignet**, la **cheville**. Les os du crâne, eux, sont soudés : ils ne bougent pas.
+
+## Les muscles
+Les **muscles** sont attachés aux os par des **tendons**. Un muscle **se contracte** (il devient plus court et plus dur) et **tire** sur l'os ; puis il **se relâche**. Un muscle tire, il ne pousse jamais.
+
+>! **Exemple du bras** : pour **plier** le coude, le **biceps** (devant le bras) se contracte. Pour **tendre** le bras, c'est le **triceps** (derrière le bras) qui se contracte. Pose ta main sur ton biceps et plie le bras : tu le sens durcir.
+
+Le **cœur** est aussi un muscle : il ne s'arrête jamais.
+
+## Prendre soin de ses os et de ses muscles
+- **Manger** des aliments qui rendent les os solides : lait, lait caillé, poisson.
+- Faire du **sport** et bien dormir.
+- Avoir une bonne **posture** : s'asseoir le **dos droit** ; porter le cartable **sur les deux épaules** ; pour soulever une charge, **plier les genoux** et garder le dos droit.
+
+## Les accidents et les premiers secours
+- **Fracture** : un os est cassé. **Entorse** : une articulation est tordue (souvent la cheville). **Luxation** : un os est sorti de son articulation.
+- Ce qu'il faut faire : **ne pas bouger** le membre blessé, ne pas tirer dessus ; le **maintenir** immobile (avec une écharpe ou une planchette) ; **prévenir vite un adulte** et aller au **centre de santé**. En cas d'accident grave, on appelle les sapeurs-pompiers : le **18**.
+
+## Les cinq sens
+| Sens | Organe | Il nous fait connaître… |
+|---|---|---|
+| la **vue** | les **yeux** | les formes, les couleurs, les distances |
+| l'**ouïe** | les **oreilles** | les sons |
+| l'**odorat** | le **nez** | les odeurs |
+| le **goût** | la **langue** | le sucré, le salé, l'acide, l'amer |
+| le **toucher** | la **peau** | le chaud, le froid, le doux, le piquant, la douleur |
+
+Les organes des sens envoient des messages au **cerveau** par les **nerfs** : c'est le cerveau qui comprend ce que l'on voit, entend ou sent.
+
+>! **Protéger ses sens** : ne jamais regarder le **soleil** en face ; lire avec une **bonne lumière** ; ne rien enfoncer dans les **oreilles** ; éviter les bruits très forts (haut-parleurs collés à l'oreille) ; se moucher et garder le nez propre.
+
+## Erreurs fréquentes
+- Un muscle **tire** sur l'os, il ne le pousse pas.
+- Ce n'est pas l'œil qui « comprend » ce qu'on voit, c'est le **cerveau**.
+
+> **À retenir** :
+> - Le squelette (environ 206 os) soutient, protège et permet de bouger : crâne → cerveau ; cage thoracique → cœur et poumons ; colonne vertébrale → moelle épinière.
+> - Articulation = deux os qui se rejoignent et bougent. Les muscles, attachés aux os par les tendons, se contractent et tirent.
+> - Cinq sens : vue (yeux), ouïe (oreilles), odorat (nez), goût (langue), toucher (peau) ; le cerveau comprend les messages.
+> - Fracture : ne pas bouger le membre, prévenir un adulte, centre de santé.
+`,
+      exercices: [
+        { type: "qcm", question: "Quelle partie du squelette protège le cerveau ?", choix: ["les côtes", "le crâne", "la colonne vertébrale", "les os des jambes"], reponse: 1, explication: "Le crâne protège le cerveau. Les côtes protègent le cœur et les poumons ; la colonne vertébrale protège la moelle épinière." },
+        { type: "vf", question: "Le squelette d'un adulte compte environ 206 os.", reponse: true, explication: "Vrai : environ 206 os, du crâne jusqu'aux orteils." },
+        { type: "saisie", question: "Comment appelle-t-on l'endroit où deux os se rejoignent et peuvent bouger (le genou, le coude) ?", reponses: ["articulation", "une articulation", "articulations", "les articulations", "l'articulation"], explication: "C'est une articulation : genou, coude, épaule, hanche, poignet, cheville." },
+        { type: "qcm", question: "Que protège la cage thoracique ?", choix: ["le cerveau", "l'estomac seulement", "le cœur et les poumons", "les yeux"], reponse: 2, explication: "Les côtes et le sternum forment une cage qui protège le cœur et les poumons." },
+        { type: "qcm", question: "Pour plier le bras, quel muscle se contracte ?", choix: ["le biceps", "le triceps", "le cœur", "le tendon"], reponse: 0, explication: "Le biceps, devant le bras, se contracte et tire sur l'os de l'avant-bras. Le triceps sert à tendre le bras ; le tendon attache le muscle à l'os." },
+        { type: "vf", question: "Un muscle qui se contracte pousse l'os.", reponse: false, explication: "Faux : un muscle qui se contracte devient plus court et tire sur l'os. Il ne pousse jamais." },
+        { type: "saisie", question: "Quel organe des sens nous permet de sentir les odeurs ?", reponses: ["nez", "le nez"], explication: "Le nez, organe de l'odorat. Les yeux voient, les oreilles entendent, la langue goûte, la peau touche." },
+        { type: "qcm", question: "Quel geste protège les yeux ?", choix: ["regarder le soleil en face quelques secondes", "lire dans le noir, la tête près du livre", "se frotter les yeux avec des mains sales", "lire avec une bonne lumière"], reponse: 3, explication: "Une bonne lumière évite de fatiguer les yeux. Le soleil regardé en face peut brûler l'œil, lire dans le noir fatigue les yeux, et les mains sales apportent des microbes." },
+        { type: "qcm", question: "Ton camarade tombe dans la cour : sa jambe est très douloureuse et déformée. Que faut-il faire ?", choix: ["lui tirer la jambe pour la remettre droite", "ne pas bouger sa jambe et prévenir vite un adulte", "le faire marcher pour voir", "lui masser fort la jambe"], reponse: 1, explication: "C'est peut-être une fracture : on ne bouge pas le membre blessé, on prévient un adulte et on va au centre de santé." },
+        { type: "redaction", question: "**Situation d'intégration.** Contexte : Awa porte chaque jour un cartable très lourd sur une seule épaule. En classe, elle écrit toute courbée, et le soir elle révise près d'une petite lampe qui éclaire mal. Elle a mal au dos et ses yeux piquent. Consigne : 1) Explique pourquoi Awa a mal au dos et pourquoi ses yeux piquent. 2) Donne-lui trois conseils. 3) Cite deux aliments qui aident à avoir des os solides.", corrige: "1) Le cartable lourd sur **une seule épaule** et la position **courbée** tordent la **colonne vertébrale** et fatiguent les **muscles du dos** : c'est pour cela qu'Awa a mal au dos. Lire avec une **lumière trop faible** oblige ses **yeux** à faire un gros effort : ils se fatiguent et piquent.\n\n2) Conseils :\n- porter le cartable **sur les deux épaules** et ne pas le remplir de choses inutiles ;\n- s'asseoir le **dos droit**, les pieds posés par terre ;\n- réviser avec une **bonne lumière** et reposer ses yeux de temps en temps.\n\n3) Aliments pour des os solides : le **lait** (ou le lait caillé) et le **poisson**." },
+      ],
+    },
+    {
+      id: "air-combustion",
+      titre: "L'air et la combustion",
+      theme: "Initiation scientifique et technologique",
+      cours: `
+## L'air existe
+L'air est **invisible** et il n'a pas d'odeur, mais il existe : c'est une **matière**.
+- Une bouteille « vide » est en réalité **pleine d'air** : plonge-la dans une bassine d'eau, des **bulles** sortent.
+- Le **vent**, c'est de l'air qui se déplace.
+- L'air **occupe de la place** et on peut le **comprimer** (le serrer) : c'est ce que fait la pompe à vélo.
+- L'air a une **masse** : un ballon gonflé est un tout petit peu plus lourd qu'un ballon dégonflé.
+
+## De quoi l'air est-il fait ?
+L'air est un **mélange de gaz** :
+- environ **4/5** d'**azote** ;
+- environ **1/5** d'**oxygène** : c'est le gaz dont nous avons besoin pour **respirer**, et dont le **feu** a besoin pour brûler ;
+- un peu de **gaz carbonique** et de **vapeur d'eau**.
+
+## La combustion : le feu
+Une **combustion**, c'est quand quelque chose **brûle**. Pour faire du feu, il faut **trois choses** à la fois (le « triangle du feu ») :
+1. un **combustible** : ce qui brûle (bois, charbon, papier, gaz butane, essence) ;
+2. l'**oxygène de l'air** ;
+3. de la **chaleur** pour allumer (une flamme, une étincelle).
+
+Si l'une des trois manque, le feu **s'éteint**. Une combustion donne de la **chaleur**, de la **lumière**, de la **fumée** et du gaz carbonique.
+
+>! **Expérience** : pose un verre retourné sur une bougie allumée. Après quelques secondes, la flamme s'éteint : elle a utilisé l'**oxygène** de l'air enfermé sous le verre.
+
+## Éteindre un feu
+- **Enlever le combustible** (fermer le robinet du gaz, retirer le bois).
+- **Étouffer** le feu pour le priver d'air : le couvrir de **sable**, d'une couverture mouillée, mettre un **couvercle** sur la poêle.
+- **Refroidir** avec de l'eau. Attention : **jamais d'eau** sur de l'**huile** qui brûle ni sur un appareil électrique.
+
+## Prévenir les accidents
+- **Gaz butane** : fermer le robinet de la bouteille après la cuisine ; vérifier le tuyau. Si ça **sent le gaz** : ne pas allumer d'allumette ni d'interrupteur, **ouvrir** portes et fenêtres, **fermer** la bouteille, sortir et prévenir un adulte.
+- Ne jamais dormir avec un **réchaud à charbon** allumé dans une pièce fermée : la combustion y produit un gaz **invisible et toxique** qui peut tuer.
+- Ne pas jouer avec les allumettes ; ne pas jeter de mégot dans la brousse (**feux de brousse**).
+- Appeler les **sapeurs-pompiers : le 18**.
+
+## Garder l'air pur
+La fumée des voitures, les **ordures et les plastiques brûlés**, la poussière **polluent** l'air et abîment les poumons. On peut planter des arbres, ne pas brûler les plastiques, aérer la cuisine.
+
+> **À retenir** :
+> - L'air est une matière invisible : il occupe de la place, se comprime, a une masse. Environ 4/5 d'azote et 1/5 d'oxygène.
+> - Feu = combustible + oxygène de l'air + chaleur. Sans l'un des trois, le feu s'éteint.
+> - Éteindre : enlever le combustible, étouffer, refroidir (jamais d'eau sur l'huile).
+> - Odeur de gaz : pas de flamme, aérer, fermer la bouteille, prévenir. Pompiers : 18.
+`,
+      exercices: [
+        { type: "vf", question: "Une bouteille « vide » est en réalité pleine d'air.", reponse: true, explication: "Vrai : si on la plonge dans l'eau, des bulles d'air en sortent." },
+        { type: "qcm", question: "Quel gaz de l'air permet au feu de brûler ?", choix: ["l'azote", "l'oxygène", "la vapeur d'eau", "le gaz carbonique"], reponse: 1, explication: "C'est l'oxygène, qui forme environ 1/5 de l'air. C'est aussi le gaz que nous respirons." },
+        { type: "qcm", question: "Quelles sont les trois choses nécessaires pour faire du feu ?", choix: ["de l'eau, de l'air et du sable", "du bois, de l'eau et du vent", "un combustible, l'oxygène de l'air et de la chaleur", "du sable, de la chaleur et de l'eau"], reponse: 2, explication: "C'est le triangle du feu : combustible, oxygène, chaleur. L'eau et le sable servent au contraire à éteindre." },
+        { type: "saisie", question: "Comment appelle-t-on ce qui brûle dans un feu (bois, charbon, gaz butane) ?", reponses: ["combustible", "un combustible", "combustibles", "les combustibles", "le combustible"], explication: "C'est le combustible." },
+        { type: "qcm", question: "Une bougie allumée sous un verre retourné s'éteint. Pourquoi ?", choix: ["elle a utilisé l'oxygène de l'air enfermé sous le verre", "le verre est trop froid", "il n'y a plus de cire", "la lumière ne passe pas à travers le verre"], reponse: 0, explication: "Sans oxygène, la combustion s'arrête : le feu s'éteint." },
+        { type: "qcm", question: "L'huile de la poêle prend feu. Que faut-il faire ?", choix: ["jeter de l'eau dessus", "souffler très fort dessus", "secouer la poêle", "couper le gaz et couvrir la poêle avec un couvercle"], reponse: 3, explication: "Le couvercle étouffe le feu (plus d'oxygène) et couper le gaz enlève la chaleur. L'eau sur l'huile qui brûle fait jaillir les flammes : c'est très dangereux." },
+        { type: "vf", question: "Quand on sent une odeur de gaz, il faut allumer la lumière pour mieux voir la fuite.", reponse: false, explication: "Faux : une étincelle peut enflammer le gaz. Il faut ouvrir les fenêtres, fermer la bouteille, sortir et prévenir un adulte." },
+        { type: "saisie", question: "Quel numéro appelle-t-on pour joindre les sapeurs-pompiers au Sénégal ?", reponses: ["18", "le 18", "au 18"], explication: "Le 18 : les sapeurs-pompiers." },
+        { type: "qcm", question: "Quel gaz forme la plus grande partie de l'air (environ 4/5) ?", choix: ["l'oxygène", "le gaz carbonique", "l'azote", "le butane"], reponse: 2, explication: "L'azote forme environ 4/5 de l'air, l'oxygène environ 1/5." },
+        { type: "redaction", question: "**Situation d'intégration.** Contexte : pendant la saison sèche, la maman de Bineta cuisine au gaz butane dans une petite cuisine sans fenêtre ouverte. Un jour, Bineta sent une forte odeur de gaz. Au même moment, au bord du village, des jeunes brûlent des herbes sèches et des sachets plastiques. Consigne : 1) Écris dans l'ordre ce que Bineta doit faire en sentant l'odeur de gaz. 2) Explique, avec le triangle du feu, pourquoi il ne faut surtout pas allumer d'allumette. 3) Donne deux conseils aux jeunes qui brûlent les herbes et les plastiques.", corrige: "1) Bineta ne doit **pas allumer** de flamme ni d'interrupteur. Elle **ouvre** la porte et les fenêtres, **ferme le robinet** de la bouteille de gaz, **sort** de la cuisine et **prévient un adulte**. S'il y a un danger, on appelle les pompiers au **18**.\n\n2) Pour qu'il y ait du feu, il faut un **combustible**, de l'**oxygène** et de la **chaleur**. Dans la cuisine, il y a déjà le combustible (le gaz butane) et l'oxygène de l'air. Une allumette apporterait la **chaleur** : le gaz s'enflammerait d'un coup, et il pourrait y avoir une **explosion** ou un incendie.\n\n3) Conseils : ne pas allumer de feu dans les **herbes sèches** de la saison sèche, car il peut devenir un **feu de brousse** et brûler champs, arbres et maisons ; ne pas **brûler les plastiques**, car leur fumée **pollue l'air** et abîme les poumons : il faut les ramasser et les jeter à la poubelle." },
+      ],
+    },
+    {
+      id: "terre-soleil-lune",
+      titre: "La Terre, le Soleil et la Lune : le jour, la nuit, l'année",
+      theme: "Géographie",
+      cours: `
+## Trois astres à connaître
+- Le **Soleil** est une **étoile** : une énorme boule de gaz très chaude qui produit sa **propre lumière** et sa chaleur.
+- La **Terre** est une **planète** : elle tourne autour du Soleil. Elle ne produit pas de lumière.
+- La **Lune** est le **satellite** de la Terre : elle tourne autour de la Terre. Elle ne produit pas de lumière : elle **renvoie la lumière du Soleil**, comme un miroir.
+
+## Le jour et la nuit
+La Terre **tourne sur elle-même**, de l'ouest vers l'est, en **24 heures** : c'est **un jour**.
+- La moitié de la Terre tournée vers le Soleil est **éclairée** : il y fait **jour**.
+- L'autre moitié est dans l'ombre : il y fait **nuit**.
+
+Comme la Terre tourne vers l'est, le Soleil **semble** se lever à l'**est** et se coucher à l'**ouest**. En réalité, ce n'est pas le Soleil qui tourne autour de la Terre : c'est la Terre qui tourne sur elle-même.
+
+>! **Expérience** : dans une pièce sombre, une lampe torche joue le Soleil. Fais tourner lentement un ballon (la Terre) devant la lampe. Une moitié du ballon est toujours éclairée (le jour), l'autre est dans l'ombre (la nuit). Colle un petit papier sur le ballon pour jouer Dakar : il passe du jour à la nuit.
+
+Quand il est midi à Dakar, il fait nuit de l'autre côté de la Terre (par exemple au Japon).
+
+## L'année
+La Terre tourne aussi **autour du Soleil**. Un tour complet dure environ **365 jours et un quart** : c'est **une année**. Comme on ne peut pas compter un quart de jour, on ajoute un jour tous les 4 ans, le **29 février** : cette année-là compte **366 jours**, on l'appelle une année **bissextile**.
+
+## La Lune et les mois
+La Lune tourne autour de la Terre. **D'une nouvelle lune à la suivante**, il s'écoule environ **29 jours et demi** : c'est à peu près **un mois**. Selon sa place, on voit une partie plus ou moins grande de sa face éclairée : ce sont les **phases de la Lune**.
+
+~~~
+nouvelle lune (on ne la voit pas)
+ -> croissant -> premier quartier
+ -> pleine lune (toute ronde)
+ -> dernier quartier -> croissant
+ -> nouvelle lune
+~~~
+
+Le **calendrier musulman** est un calendrier **lunaire** : chaque mois commence quand on aperçoit le **croissant** de lune. Une année lunaire est plus courte (environ 354 jours) que l'année du calendrier ordinaire : c'est pourquoi la **Korité** et la **Tabaski** arrivent environ **11 jours plus tôt** chaque année.
+
+## Erreurs fréquentes
+- La Lune ne brille pas toute seule : elle est éclairée par le Soleil.
+- Le Soleil ne « se cache » pas la nuit : c'est notre côté de la Terre qui est tourné vers l'ombre.
+
+> **À retenir** :
+> - Soleil = étoile (produit sa lumière) ; Terre = planète ; Lune = satellite de la Terre (renvoie la lumière du Soleil).
+> - La Terre tourne sur elle-même en 24 heures : le jour et la nuit. Le Soleil semble se lever à l'est.
+> - La Terre tourne autour du Soleil en environ 365 jours et un quart : une année (366 jours tous les 4 ans).
+> - La Lune tourne autour de la Terre ; d'une nouvelle lune à la suivante : environ 29 jours et demi. Les phases (nouvelle lune, croissant, quartiers, pleine lune).
+`,
+      exercices: [
+        { type: "qcm", question: "Qu'est-ce que le Soleil ?", choix: ["une planète", "une étoile", "un satellite", "une lune"], reponse: 1, explication: "Le Soleil est une étoile : il produit sa propre lumière et sa chaleur. La Terre est une planète ; la Lune est un satellite." },
+        { type: "vf", question: "La Lune produit sa propre lumière.", reponse: false, explication: "Faux : la Lune renvoie la lumière du Soleil, comme un miroir." },
+        { type: "saisie", question: "En combien d'heures la Terre fait-elle un tour complet sur elle-même ?", reponses: ["24", "24 heures", "24 h", "vingt-quatre"], explication: "En 24 heures : c'est un jour. Pendant ce tour, chaque endroit passe du jour à la nuit." },
+        { type: "qcm", question: "Pourquoi y a-t-il le jour et la nuit ?", choix: ["parce que le Soleil s'éteint le soir", "parce que la Lune cache le Soleil chaque soir", "parce que la Terre tourne sur elle-même : une moitié est éclairée, l'autre est dans l'ombre", "parce que les nuages cachent le Soleil"], reponse: 2, explication: "La Terre tourne sur elle-même en 24 heures. La moitié tournée vers le Soleil a le jour, l'autre la nuit." },
+        { type: "saisie", question: "Combien de jours compte une année bissextile ?", reponses: ["366", "366 jours"], explication: "366 jours : on ajoute le 29 février tous les 4 ans." },
+        { type: "qcm", question: "Combien de temps environ s'écoule-t-il d'une nouvelle lune à la suivante ?", choix: ["un jour", "environ 29 jours et demi", "une semaine", "une année"], reponse: 1, explication: "Environ 29 jours et demi, à peu près un mois. Pendant ce temps, on voit toutes les phases de la Lune." },
+        { type: "vf", question: "La Terre tourne autour du Soleil en environ 365 jours.", reponse: true, explication: "Vrai : environ 365 jours et un quart, c'est une année." },
+        { type: "qcm", question: "Quand il est midi à Dakar, quelle phrase est juste ?", choix: ["il est midi partout sur la Terre", "il fait nuit à Dakar", "le Soleil vient de se coucher à Dakar", "de l'autre côté de la Terre, il fait nuit"], reponse: 3, explication: "À midi, Dakar est tourné vers le Soleil. Le côté opposé de la Terre est dans l'ombre : il y fait nuit." },
+        { type: "qcm", question: "Comment s'appelle la phase où la Lune est toute ronde et entièrement éclairée ?", choix: ["la pleine lune", "la nouvelle lune", "le premier quartier", "le croissant"], reponse: 0, explication: "C'est la pleine lune. À la nouvelle lune, au contraire, on ne la voit pas." },
+        { type: "redaction", question: "**Situation d'intégration.** Contexte : ton petit frère affirme : « Le soir, le Soleil va se cacher derrière la mer, et la nuit la Lune s'allume comme une lampe. » Il demande aussi : « Pourquoi la Tabaski n'est pas à la même date que l'année dernière ? » Consigne : 1) Explique-lui d'où viennent le jour et la nuit. 2) Corrige ce qu'il dit sur la Lune. 3) Réponds à sa question sur la Tabaski. 4) Propose-lui une petite expérience pour comprendre le jour et la nuit.", corrige: "1) Le Soleil ne va pas se cacher : c'est la **Terre qui tourne sur elle-même** en **24 heures**. Le soir, notre côté de la Terre tourne et passe dans l'**ombre** : c'est la **nuit**. Le Soleil semble se coucher à l'ouest, au-dessus de la mer, mais c'est la Terre qui bouge.\n\n2) La Lune ne **s'allume pas** : elle ne produit pas de lumière. Elle est **éclairée par le Soleil** et elle renvoie sa lumière vers nous, comme un miroir.\n\n3) La Tabaski suit le **calendrier musulman**, qui est **lunaire** : les mois commencent avec le **croissant** de lune. L'année lunaire (environ 354 jours) est plus courte que l'année ordinaire (365 jours) : la fête arrive donc environ **11 jours plus tôt** chaque année.\n\n4) Expérience : dans une pièce sombre, on éclaire un **ballon** avec une **lampe torche** (le Soleil) et on fait tourner le ballon (la Terre). Un papier collé sur le ballon (Dakar) passe de la partie éclairée (le jour) à la partie sombre (la nuit)." },
       ],
     },
   ],

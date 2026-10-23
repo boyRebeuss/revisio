@@ -270,4 +270,10 @@ export default [
   ["6800", ["6 800 F"], false, true],
   ["6900 F", ["6 800 F"], false, false],
   ["6 800 €", ["6 800 F"], false, false],
+  // durées en heures et minutes : h / heures, min / mn / minutes, collé ou non
+  ["3 h 35 mn", ["3 h 35 min"], false, true],
+  ["3h35", ["3 h 35 min"], false, true],
+  ["3 heures 35 minutes", ["3 h 35 min"], false, true],
+  ["215 min", ["3 h 35 min"], false, false],
+  ["3 h 36", ["3 h 35 min"], false, false],
 ];
