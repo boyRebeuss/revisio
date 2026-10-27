@@ -11,7 +11,10 @@ mkdir -p "$tests"
 quand=$(date +%Y-%m-%d_%Hh%M)
 rapport="$tests/$quand.txt"
 tmp=$(mktemp -d)
-CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+# Chrome sans fenêtre ni icône dans le Dock (chrome-headless-shell, installé dans ~/.cache/chrome-test par
+# « npx @puppeteer/browsers install chrome-headless-shell@stable ») ; à défaut, le Chrome habituel
+CHROME=$(print -l ~/.cache/chrome-test/chrome-headless-shell/*/*/chrome-headless-shell(N.x) | tail -1)
+[[ -n $CHROME ]] || CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 typeset -a bilan
 ko=0
 
@@ -55,7 +58,7 @@ if [[ -x "$CHROME" ]]; then
   # profil:adresse (5e par défaut, ?s 6e, ?v 3e, ?u 1re, ?w CM2 Sénégal)
   for p in "t:#/" "s:#/" "v:#/" "u:#/" "w:#/" "t:#/c/svt/terre-systeme-solaire/exercices"; do
     q=${p%%:*} h=${p#*:}
-    "$CHROME" --headless=new --disable-gpu --user-data-dir="$tmp/chrome" --virtual-time-budget=6000 --timeout=8000 \
+    "$CHROME" --headless --disable-gpu --user-data-dir="$tmp/chrome" --virtual-time-budget=6000 --timeout=8000 \
       --dump-dom "http://127.0.0.1:$port/_test.html?$q$h" > "$tmp/page.html" 2>/dev/null
     ecrans=$((ecrans + 1))
     # Attendu : des matières (accueil) ou des exercices, et aucun message d'erreur affiché
