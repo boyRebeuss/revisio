@@ -1915,6 +1915,18 @@ On te donne un **contexte** (ce qui se passe) et une **consigne** (ce que tu doi
 
 - **Tu** ou **vous** : choisis, et ne mélange pas.
 
+### La lettre de demande (au directeur, au maire)
+| Partie | Contenu |
+|---|---|
+| en haut à gauche | l'expéditeur : ton nom, ta classe, ton école |
+| en haut à droite | lieu et date |
+| destinataire et objet | à Monsieur le Maire de la commune de... / Objet : demande de... |
+| formule d'appel | Monsieur le Directeur, / Madame la Directrice, |
+| 3 paragraphes courts | je me présente et j'explique → je demande (J'ai l'honneur de..., Pourriez-vous...) → je remercie |
+| formule de politesse et signature | Je vous prie d'agréer, Monsieur le Maire, l'expression de mes salutations respectueuses. — prénom et nom |
+
+- **Toujours vous**, jamais « Cher » ni « Je t'embrasse ».
+
 ### Le récit
 | Partie | Contenu | Mots utiles |
 |---|---|---|
@@ -2016,6 +2028,7 @@ Chère tante Ndèye,
 - **langue** : accords (*les deux belles semaines passées*), *tu* d'un bout à l'autre ;
 - **présentation** : lieu et date, formule d'appel avec virgule, paragraphes, formule finale, signature.
 Si tu vouvoies ta tante, garde le *vous* partout : « Comment allez-vous ? ... Je vous embrasse. »` },
+        { type: "qcm", question: "Tu écris au maire pour demander des poubelles pour ton école. Quelle lettre est bien commencée ?", choix: ["Cher Maire, comment vas-tu ? Ici tout va bien.", "Monsieur le Maire, je suis élève au CM2 de l'école de Ndiosmone.", "Salut Monsieur le Maire, je t'écris pour les poubelles.", "Mon cher ami, j'espère que ta famille va bien."], reponse: 1, explication: "Une **lettre de demande** commence par le **titre** du destinataire (« Monsieur le Maire, »), puis on **se présente** et on **vouvoie**. Pas de « Cher », pas de « Salut », pas de tutoiement : ce n'est pas une lettre personnelle." },
       ],
     },
     {
@@ -2479,6 +2492,324 @@ Cher oncle Moustapha,
 | **correction de la langue** | accords, conjugaison, homophones, ponctuation | 15 |
 | **présentation** | lieu et date, formule d'appel, formule finale, signature, écriture lisible | 10 |
 Cette grille est proposée par Révisio pour t'entraîner : le barème officiel peut être différent.` },
+      ],
+    },
+    {
+      id: "epreuve-blanche-cfee-2",
+      titre: "Entraînement au CFEE : deuxième épreuve blanche de Langue et communication",
+      theme: "Préparer le CFEE",
+      cours: `
+## Une deuxième épreuve pour t'entraîner
+Cette épreuve a **la même forme** que la première épreuve blanche, mais avec un **texte documentaire** (un texte qui informe) et une **autre production d'écrits** : cette fois, un **récit**.
+
+D'après le guide du CFEE de 2018 (**le barème peut changer** : la réforme de 2026, décret du 21 mai 2026, a modifié le CFEE), l'épreuve de Langue et communication a **deux parties** :
+| Partie | Ce qu'on te demande | Points (guide de 2018) |
+|---|---|---|
+| **Ressources** (connaissances) | des questions de **compréhension** sur un texte et des exercices de **connaissances de la langue** (grammaire, conjugaison, orthographe, vocabulaire) | 40 points : compréhension 10, langue 30 |
+| **Compétence** | une **production d'écrits** à partir d'une situation (contexte + consigne) | 60 points |
+
+## Comment utiliser cette épreuve blanche
+- Fais-la **en une seule fois**, **sans regarder les cours**, puis compte tes points.
+- Les exercices 1 à 4 portent sur le **texte** ; les exercices 5 à 9 sur la **langue** ; le 10 est la **production d'écrits**.
+
+| Exercices | Partie | Barème indicatif (proposé par Révisio) |
+|---|---|---|
+| 1 à 4 | compréhension du texte | 2,5 points chacun → 10 |
+| 5 à 9 | connaissances de la langue | 6 points chacun → 30 |
+| 10 | production d'écrits | 60 points |
+
+## Lire un texte documentaire
+- Un texte **documentaire** **informe** : il explique ce qu'est une chose, à quoi elle sert, ce qui la menace.
+- Repère le **sujet** (souvent dans le titre) et l'**idée de chaque paragraphe** : un paragraphe = une idée.
+- Les mots **pourtant**, **heureusement**, **enfin** annoncent un changement d'idée.
+
+>! **Exemple**
+>! « Pourtant, la mangrove est en danger. » → *Pourtant* annonce une **opposition** : après les qualités de la mangrove, le texte parle de ce qui la menace.
+
+> **À retenir**
+> Même méthode qu'à la première épreuve : lis deux fois, réponds par des phrases complètes, garde du temps pour la rédaction et pour te relire.
+> Pour un récit : un début (qui ? où ? quand ?), un milieu (ce qui se passe, une difficulté), une fin (ce que tu as ressenti), et des temps qui ne changent pas en route.
+`,
+      textes: {
+        mangrove: `**La mangrove, une forêt les pieds dans l'eau** (texte d'entraînement)
+
+Au Sénégal, dans le delta du Saloum et en Casamance, une forêt étonnante pousse au bord de l'eau salée : c'est la mangrove. Ses arbres, les palétuviers, ont de longues racines qui sortent de la vase comme des pattes. À marée haute, l'eau recouvre ces racines ; à marée basse, on les voit de nouveau.
+
+La mangrove est très utile. Entre ses racines, les jeunes poissons et les crevettes trouvent un abri pour grandir loin des gros poissons qui veulent les manger. Les huîtres s'accrochent aux racines : les femmes des villages les récoltent, puis les font sécher ou les vendent au marché. Beaucoup d'oiseaux y construisent leurs nids. Enfin, les palétuviers retiennent la terre et protègent la côte contre les vagues.
+
+Pourtant, la mangrove est en danger. Certaines personnes coupent les palétuviers pour en faire du bois de chauffe. Les années de sécheresse et le sel abîment aussi les arbres.
+
+Heureusement, de nombreux villages agissent. Pendant l'hivernage, les habitants et les élèves replantent de jeunes palétuviers dans la vase. Ces plantations aident la forêt à repousser. Protéger la mangrove, c'est protéger la vie de toute la côte.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "mangrove", question: "**Compréhension (2,5 points)** — Quel est le but de ce texte ?", choix: ["raconter les aventures d'un pêcheur du delta du Saloum", "informer sur la mangrove et sa protection", "expliquer comment cuisiner les huîtres séchées", "décrire la fête de l'hivernage dans un village"], reponse: 1, explication: "C'est un texte **documentaire** : il **informe** sur la mangrove (où elle pousse, à quoi elle sert, ce qui la menace, comment la protéger). Il ne raconte pas d'histoire et ne donne pas de recette." },
+        { type: "saisie", texte: "mangrove", question: "**Compréhension (2,5 points)** — Comment s'appellent les arbres de la mangrove ?", reponses: ["les palétuviers", "palétuviers", "Ce sont les palétuviers.", "Ils s'appellent les palétuviers.", "Les arbres de la mangrove s'appellent les palétuviers.", "Les arbres s'appellent les palétuviers.", "Ce sont des palétuviers.", "palétuvier", "le palétuvier", "un palétuvier", "des palétuviers", "C'est le palétuvier.", "Ce sont les palétuviers"], explication: "Le texte le dit au premier paragraphe : « Ses arbres, **les palétuviers**, ont de longues racines... »" },
+        { type: "vf", texte: "mangrove", question: "**Compréhension (2,5 points)** — D'après le texte, ce sont les hommes des villages qui récoltent les huîtres.", reponse: false, explication: "C'est faux : « les **femmes** des villages les récoltent, puis les font sécher ou les vendent au marché »." },
+        { type: "qcm", texte: "mangrove", question: "**Compréhension (2,5 points)** — Pourquoi la mangrove protège-t-elle la côte ?", choix: ["Parce que les oiseaux font fuir les pêcheurs.", "Parce que l'eau salée empêche la sécheresse.", "Parce que les huîtres bouchent les trous de la plage.", "Parce que les racines des palétuviers retiennent la terre."], reponse: 3, explication: "« Les palétuviers **retiennent la terre** et protègent la côte contre les vagues. » Sans leurs racines, la mer emporterait la terre du rivage." },
+        { type: "saisie", texte: "mangrove", question: "**Langue — grammaire (6 points)** — Dans « Pendant l'hivernage, les habitants et les élèves replantent de jeunes palétuviers », écris le **sujet** du verbe *replantent* en entier.", reponses: ["les habitants et les élèves"], explication: "**Qui est-ce qui** replante ? → **les habitants et les élèves**. Le sujet a ici **deux noms** reliés par *et* : c'est pourquoi le verbe est au **pluriel** (*replantent*). « les habitants » seul ne suffit pas : il faut le sujet en entier." },
+        { type: "saisie", texte: "mangrove", question: "**Langue — conjugaison (6 points)** — Écris cette phrase au **passé composé** : « Les habitants replantent de jeunes palétuviers. »", reponses: ["Les habitants ont replanté de jeunes palétuviers.", "Les habitants ont replanté des jeunes palétuviers."], explication: "*Replanter* se conjugue avec l'auxiliaire **avoir** : *ils* **ont** + participe passé en **-é** → les habitants **ont replanté**. Pas d'accord du participe passé avec *avoir* ici." },
+        { type: "qcm", texte: "mangrove", question: "**Langue — orthographe (6 points)** — Quelle phrase est bien écrite ?", choix: ["Les palétuviers son grands et leur racines sont longues.", "Les palétuviers sont grand et leurs racines sont longue.", "Les palétuviers sont grands et leurs racines sont longues.", "Les palétuviers sont grands est leurs racines son longues."], reponse: 2, explication: "**sont** (verbe être : on peut dire *étaient*) ; **grands** s'accorde avec *palétuviers* (masculin pluriel) ; **leurs racines** (plusieurs racines → *leurs* avec un s) ; **et** relie les deux parties (on ne peut pas dire *était*) ; **longues** s'accorde avec *racines* (féminin pluriel)." },
+        { type: "qcm", texte: "mangrove", question: "**Langue — vocabulaire (6 points)** — « Les jeunes poissons trouvent **un abri** entre les racines. » Quel mot peut remplacer *un abri* sans changer le sens ?", choix: ["un repas", "un refuge", "un danger", "un filet"], reponse: 1, explication: "Un **abri** est un endroit où l'on est **protégé** : c'est un **refuge**. Les petits poissons s'y cachent des gros poissons." },
+        { type: "saisie", texte: "mangrove", question: "**Langue — grammaire (6 points)** — Dans « La mangrove est très utile », quelle est la **nature** (la classe) du mot *utile* ?", reponses: ["adjectif", "un adjectif", "adjectif qualificatif", "un adjectif qualificatif", "C'est un adjectif.", "C'est un adjectif qualificatif."], explication: "*Utile* dit **comment est** la mangrove : c'est un **adjectif qualificatif**. Attention : la **nature** n'est pas la **fonction**. Sa fonction ici est **attribut du sujet** (il est relié au sujet par le verbe *être*)." },
+        { type: "redaction", question: "**Production d'écrits (60 points)**\n**Contexte** : Samedi dernier, ta classe est allée replanter des palétuviers dans la mangrove, près de Toubacouta, avec les habitants du village.\n**Consigne** : Raconte cette journée dans un récit d'une quinzaine de lignes, à la 1re personne, au passé composé et à l'imparfait. Dis ce que vous avez fait, une difficulté ou une surprise, et ce que tu as ressenti.", corrige: `**Récit modèle**
+*Corrigé modèle, plus long que ce qu'on attend de toi : le jour de l'examen, la longueur demandée dans la consigne suffit.*
+
+**Une matinée dans la vase**
+
+Samedi dernier, ma classe de CM2 est allée replanter la mangrove près de Toubacouta. C'était l'hivernage : le ciel était gris et l'air sentait la pluie.
+
+D'abord, notre maître, M. Faye, nous a montré comment enfoncer les jeunes palétuviers dans la vase, bien droits. Ensuite, nous avons enlevé nos sandales et nous sommes entrés dans l'eau jusqu'aux genoux. La boue était froide et collante. Chacun plantait ses palétuviers un par un, à côté des femmes du village.
+
+Soudain, mon ami Lamine a glissé et il est tombé assis dans la vase ! Tout le monde a éclaté de rire, et lui aussi. Je l'ai aidé à se relever, puis nous avons continué ensemble.
+
+À midi, nous avons compté plus de trois cents palétuviers plantés. J'étais fatigué et tout sale, mais très fier. Quand ces petits arbres seront grands, les poissons et les huîtres y trouveront un abri. J'ai hâte de revenir les voir l'année prochaine.
+
+**Grille de correction indicative (60 points)**
+| Critère | Ce qu'on regarde | Points |
+|---|---|---|
+| **pertinence** | le récit raconte la journée de plantation, une difficulté ou une surprise, et un sentiment | 20 |
+| **cohérence** | début (qui ? où ? quand ?), milieu, fin ; mots de liaison (d'abord, ensuite, soudain, à midi) | 15 |
+| **correction de la langue** | passé composé et imparfait sans mélange ; accords (*nous sommes entrés*, *la boue était froide*) ; homophones | 15 |
+| **présentation** | un titre, des paragraphes, une écriture lisible | 10 |
+Cette grille est proposée par Révisio pour t'entraîner : le barème officiel peut être différent. Une fille écrira : « J'étais **fatiguée** et toute sale, mais très **fière**. »` },
+      ],
+    },
+    {
+      id: "comprendre-vrai-faux-on-ne-sait-pas",
+      titre: "Comprendre un texte : vrai, faux ou on ne sait pas ?",
+      theme: "Lecture et compréhension",
+      cours: `
+## Un exercice fréquent
+On te donne des phrases sur un texte. Pour chacune, tu dois dire si elle est **vraie**, **fausse**, ou si **on ne sait pas**. Cet exercice vérifie que tu lis **ce qui est écrit**, et rien d'autre.
+
+| Réponse | Quand la choisir ? |
+|---|---|
+| **Vrai** | le texte le **dit**, ou un **indice** du texte le **prouve** sûrement |
+| **Faux** | le texte dit **le contraire** |
+| **On ne sait pas** | le texte **ne dit rien** sur ce point : on ne peut ni le prouver ni le contredire |
+
+## Comprendre ce qui n'est pas écrit mot pour mot (l'inférence)
+Parfois, le texte ne dit pas la chose directement, mais il donne un **indice** sûr. Tu dois alors **déduire** : on appelle cela une **inférence**.
+- « Awa mit son plus beau pagne et ses boucles d'oreilles en or. » → On peut déduire qu'Awa veut **être élégante**. Le texte ne le dit pas mot pour mot, mais les indices le prouvent.
+- « Moussa claqua la porte sans dire au revoir. » → On peut déduire qu'il est **en colère** ou **vexé**.
+
+>! **Exemple résolu**
+>! Texte : « Le matin, Ibou prit son seau et alla au puits. Il revint les bras fatigués. »
+>! - « Ibou est allé chercher de l'eau. » → **Vrai** : un seau, un puits, des bras fatigués : les indices le prouvent.
+>! - « Ibou est allé au puits le soir. » → **Faux** : le texte dit « le matin ».
+>! - « Ibou a dix ans. » → **On ne sait pas** : le texte ne donne pas son âge.
+
+## Les pièges
+- Ce qui est **probable** n'est pas forcément **prouvé**. Si aucun mot du texte ne le montre, réponds « on ne sait pas ».
+- Ne réponds pas avec **ce que tu sais par toi-même** ou ce qui se passe chez toi : réponds avec **le texte**.
+- « Faux » veut dire que le texte dit **le contraire**. Si le texte ne dit **rien**, ce n'est pas « faux », c'est « on ne sait pas ».
+- Pour **justifier**, recopie entre guillemets la phrase du texte qui prouve ta réponse.
+
+> **À retenir**
+> Vrai : le texte le dit ou le prouve. Faux : le texte dit le contraire. On ne sait pas : le texte n'en parle pas.
+> Cherche toujours la phrase du texte qui permet de décider.
+`,
+      textes: {
+        marche: `**Le jour du marché** (texte d'entraînement)
+
+Ce mercredi-là, Fatou se leva avant le chant du coq. Sa grand-mère, Mame Diarra, l'attendait déjà dans la cour, à côté de deux grandes bassines remplies de gombos et de piments.
+« Vite, ma fille ! La charrette de Lamine ne nous attendra pas. »
+Fatou avala sa bouillie de mil en trois cuillerées, puis elle aida sa grand-mère à charger les bassines sur la charrette.
+
+Sur la piste, la charrette sautait sur chaque caillou. Mame Diarra tenait les bassines pour qu'elles ne se renversent pas. Fatou, elle, regardait le soleil se lever derrière les baobabs.
+
+Au marché, elles s'installèrent à l'ombre d'un grand manguier. À midi, il ne restait plus un seul gombo. Mame Diarra compta ses pièces en souriant et acheta à Fatou un cahier neuf et deux stylos.
+« Tu les as bien mérités, dit-elle. Sans toi, je n'aurais jamais tout porté. »
+
+Sur le chemin du retour, Fatou s'endormit, la tête sur l'épaule de sa grand-mère.`,
+      },
+      exercices: [
+        { type: "qcm", texte: "marche", question: "« Fatou s'est levée très tôt ce mercredi-là. »", choix: ["Vrai", "Faux", "On ne sait pas"], reponse: 0, explication: "**Vrai** : « Fatou se leva **avant le chant du coq** », c'est-à-dire avant le lever du jour." },
+        { type: "qcm", texte: "marche", question: "« Mame Diarra va vendre des tomates au marché. »", choix: ["Vrai", "Faux", "On ne sait pas"], reponse: 1, explication: "**Faux** : les bassines sont « remplies de **gombos** et de **piments** ». Le texte dit autre chose que des tomates." },
+        { type: "qcm", texte: "marche", question: "« Lamine est le grand frère de Fatou. »", choix: ["Vrai", "Faux", "On ne sait pas"], reponse: 2, explication: "**On ne sait pas** : le texte dit seulement que la charrette est celle de Lamine. Il ne dit pas qui il est (un frère, un voisin, un charretier ?)." },
+        { type: "qcm", texte: "marche", question: "« Fatou a mangé très vite ce matin-là. »", choix: ["Vrai", "Faux", "On ne sait pas"], reponse: 0, explication: "**Vrai**, par **déduction** : « Fatou avala sa bouillie de mil **en trois cuillerées** ». Elle se dépêche, car la charrette n'attendra pas." },
+        { type: "qcm", texte: "marche", question: "« Le marché a lieu tous les mercredis. »", choix: ["Vrai", "Faux", "On ne sait pas"], reponse: 2, explication: "**On ne sait pas** : le texte parle de « **ce** mercredi-là » seulement. Il ne dit pas si le marché revient chaque semaine. C'est peut-être probable, mais ce n'est pas prouvé." },
+        { type: "qcm", texte: "marche", question: "« Mame Diarra a cultivé elle-même les gombos. »", choix: ["Vrai", "Faux", "On ne sait pas"], reponse: 2, explication: "**On ne sait pas** : le texte ne dit pas d'où viennent les gombos. Elle les a peut-être cultivés, peut-être achetés : aucune phrase ne permet de décider." },
+        { type: "qcm", texte: "marche", question: "« Mame Diarra a vendu tous ses gombos. »", choix: ["Vrai", "Faux", "On ne sait pas"], reponse: 0, explication: "**Vrai** : « À midi, **il ne restait plus un seul gombo**. » Le mot *vendu* n'est pas écrit, mais on le déduit sûrement : elle compte ensuite ses pièces." },
+        { type: "qcm", texte: "marche", question: "« Fatou et sa grand-mère sont allées au marché à pied. »", choix: ["Vrai", "Faux", "On ne sait pas"], reponse: 1, explication: "**Faux** : elles chargent les bassines **sur la charrette**, et Mame Diarra les tient pendant que « la charrette sautait sur chaque caillou » : elles voyagent en charrette." },
+        { type: "vf", question: "Une phrase te semble **probable**, mais aucun mot du texte ne la prouve. Tu dois répondre « vrai ».", reponse: false, explication: "C'est faux : si le texte ne prouve rien, la bonne réponse est **« on ne sait pas »**. On répond avec le texte, pas avec ce qui paraît probable." },
+        { type: "saisie", texte: "marche", question: "« Fatou était fatiguée à la fin de la journée. » C'est vrai. Recopie le **verbe** du dernier paragraphe qui le prouve (au passé simple).", reponses: ["s'endormit", "elle s'endormit", "Fatou s'endormit"], explication: "« Sur le chemin du retour, Fatou **s'endormit** » : elle s'endort dans la charrette, c'est l'indice qu'elle est fatiguée après sa longue journée." },
+        { type: "redaction", texte: "marche", question: "**Justifier ses réponses**\nPour chaque phrase, réponds **vrai**, **faux** ou **on ne sait pas**, puis justifie : recopie la phrase du texte entre guillemets, ou explique pourquoi le texte ne permet pas de décider.\n1. « Mame Diarra est contente de sa journée. »\n2. « Elles se sont installées en plein soleil. »\n3. « Fatou a perdu ses anciens stylos. »", corrige: `1. **Vrai** : « Mame Diarra compta ses pièces **en souriant** ». Elle sourit et offre un cadeau à Fatou : elle est contente.
+2. **Faux** : « elles s'installèrent **à l'ombre** d'un grand manguier ». Le texte dit le contraire.
+3. **On ne sait pas** : le texte dit que la grand-mère achète deux stylos, mais il ne dit pas **pourquoi** ni ce que sont devenus les anciens. On ne peut ni le prouver ni le contredire.
+
+**Méthode** : pour chaque phrase, cherche d'abord dans le texte la partie qui en parle. Si tu la trouves, compare : même sens → vrai ; sens contraire → faux. Si tu ne trouves rien → on ne sait pas.` },
+      ],
+    },
+    {
+      id: "lettre-de-demande",
+      titre: "Écrire une lettre de demande (au directeur, au maire)",
+      theme: "Production d'écrits",
+      cours: `
+## Lettre personnelle ou lettre de demande ?
+La **lettre personnelle** s'écrit à quelqu'un de **proche** (un oncle, une amie). La **lettre de demande** (une **lettre administrative**) s'écrit à une **autorité** ou à une personne qu'on ne connaît pas bien : le **directeur** de l'école, le **maire**, le **chef de village**, l'**infirmier-chef de poste**. On écrit pour **demander** quelque chose ou pour **signaler** un problème.
+
+| | Lettre personnelle | Lettre de demande |
+|---|---|---|
+| destinataire | un proche | une autorité |
+| tu ou vous ? | souvent **tu** | **toujours vous** |
+| formule d'appel | Cher oncle, | **Monsieur le Maire,** / **Madame la Directrice,** |
+| objet | non | **oui** : « Objet : demande de... » |
+| ton | familier ou courant | **courant ou soutenu**, très **poli** |
+| longueur | des nouvelles, des détails | **court et clair** : on va droit au but |
+
+## La présentation
+~~~
+Awa Diop           Ndiosmone, le 5 février 2027
+Élève au CM2
+École élémentaire de Ndiosmone
+
+                    à
+
+            Monsieur le Directeur
+            de l'école élémentaire
+            de Ndiosmone
+
+Objet : demande d'autorisation
+
+Monsieur le Directeur,
+
+   (1. Je me présente et j'explique
+   la situation.)
+   (2. Je fais ma demande, poliment.)
+   (3. Je remercie.)
+
+   Je vous prie d'agréer, Monsieur le
+   Directeur, l'expression de mes
+   salutations respectueuses.
+
+                          Awa Diop
+~~~
+| Partie | Où ? |
+|---|---|
+| **l'expéditeur** (ton nom, ta classe, ton école) | en haut, à gauche |
+| **lieu et date** | en haut, à droite |
+| **le destinataire** (« à Monsieur le Maire de la commune de... ») | au milieu ou à droite, sous la date |
+| **l'objet** (la raison en quelques mots) | à gauche, avant la formule d'appel |
+| **la formule d'appel** | « Monsieur le Directeur, » : on reprend son **titre**, jamais « Cher » |
+| **le corps** | 3 paragraphes courts |
+| **la formule de politesse** | « Je vous prie d'agréer, Monsieur le Maire, l'expression de mes salutations respectueuses. » |
+| **la signature** | en bas, à droite : prénom et nom |
+
+## Le corps de la lettre en 3 paragraphes
+1. **Se présenter et exposer** : « Je suis élève au CM2 de l'école de... Depuis le début de l'hivernage, la cour de l'école est inondée. »
+2. **Demander** : « J'ai l'honneur de vous demander... » / « Nous vous serions reconnaissants de bien vouloir... » / « Pourriez-vous... ? »
+3. **Remercier** : « Dans l'attente d'une réponse favorable, je vous remercie d'avance. »
+
+## Les mots de la politesse
+- Le **conditionnel** adoucit une demande : « Pouvez-vous ? » → « **Pourriez**-vous ? » ; « Je veux » → « Je **voudrais** ».
+- « J'ai l'honneur de... » est une formule très employée dans les lettres officielles.
+- Si tu écris **au nom de la classe**, emploie **nous** : « Nous, élèves du CM2, avons l'honneur de... »
+
+>! **Erreurs fréquentes**
+>! - Tutoyer le directeur ou le maire, ou mélanger tu et vous.
+>! - Écrire « Cher Maire, » ou « Salut, » : on écrit « Monsieur le Maire, ».
+>! - Oublier l'**objet**, ou y écrire une longue phrase : quelques mots suffisent (« Objet : demande de poubelles »).
+>! - Raconter sa vie : la lettre de demande est **courte** et va droit au but.
+>! - Terminer par « Je t'embrasse » ou « À bientôt » : on finit par une **formule de politesse**.
+
+> **À retenir**
+> Expéditeur en haut à gauche, lieu et date à droite, destinataire, objet, « Monsieur le Maire, », 3 paragraphes (exposer, demander, remercier), formule de politesse, signature.
+> Toujours **vous**, des mots polis et le conditionnel pour demander.
+`,
+      exercices: [
+        { type: "qcm", question: "Tu écris au maire de ta commune. Quelle formule d'appel choisis-tu ?", choix: ["Cher Maire,", "Salut Monsieur le Maire,", "Monsieur le Maire,", "Mon cher ami,"], reponse: 2, explication: "Dans une lettre de demande, on reprend le **titre** de la personne : **Monsieur le Maire,** (avec une virgule). « Cher » et « Salut » sont réservés aux proches." },
+        { type: "vf", question: "Si le directeur de ton école est très gentil, tu peux le tutoyer dans ta lettre de demande.", reponse: false, explication: "C'est faux : dans une lettre de demande, on **vouvoie toujours** le destinataire, même s'il est gentil : *vous*, *votre*, *je vous remercie*." },
+        { type: "saisie", question: "Comment s'appelle la ligne qui dit en quelques mots la raison de la lettre (« ... : demande d'autorisation ») ? (un mot)", reponses: ["l'objet", "objet", "C'est l'objet."], explication: "C'est l'**objet** : « Objet : demande d'autorisation ». Il se place à gauche, avant la formule d'appel. Le lecteur sait tout de suite pourquoi tu écris." },
+        { type: "qcm", question: "Quelle formule finale convient à une lettre adressée au directeur ?", choix: ["Je t'embrasse très fort, à bientôt !", "Ton élève qui pense beaucoup à toi et à ta famille.", "Je vous prie d'agréer, Monsieur le Directeur, l'expression de mes salutations respectueuses.", "Gros bisous."], reponse: 2, explication: "On termine par une **formule de politesse** avec *vous* et le **titre** du destinataire. Les autres formules sont pour une lettre personnelle (et elles tutoient)." },
+        { type: "qcm", question: "Quelle phrase est la plus **polie** et la plus **claire** pour faire une demande ?", choix: ["Je veux un terrain de football, c'est urgent.", "Donnez-nous un terrain, nous n'en avons pas.", "Il faudrait peut-être un terrain, enfin je ne sais pas trop.", "Nous avons l'honneur de vous demander un terrain de football."], reponse: 3, explication: "« Nous avons **l'honneur de vous demander**... » est poli et dit clairement ce qu'on veut. « Je veux » et l'impératif « Donnez » sont trop brusques ; la phrase avec « peut-être » n'est pas claire." },
+        { type: "qcm", question: "Où écris-tu ton nom, ta classe et ton école (l'expéditeur) ?", choix: ["en haut, à gauche", "au milieu, après l'objet", "à la place de la formule d'appel", "nulle part : la signature suffit"], reponse: 0, explication: "L'**expéditeur** se place **en haut à gauche** ; le lieu et la date **en haut à droite**. On signe aussi en bas." },
+        { type: "saisie", question: "Rends cette question plus polie en mettant le verbe au **conditionnel** : « Pouvez-vous nous prêter la salle ? »", reponses: ["Pourriez-vous nous prêter la salle ?"], explication: "*Pouvoir* au conditionnel présent avec *vous* : **pourriez** (radical *pourr-* du futur + terminaison de l'imparfait *-iez*). « **Pourriez**-vous nous prêter la salle ? » : la demande est plus douce." },
+        { type: "qcm", question: "Dans quel ordre écris-tu les trois paragraphes d'une lettre de demande ?", choix: ["je remercie → je demande → je me présente", "je me présente et j'explique la situation → je demande → je remercie", "je demande → je raconte mes vacances → je me présente", "je remercie → je raconte ma journée → je demande"], reponse: 1, explication: "D'abord **qui tu es** et **la situation**, ensuite **ta demande**, enfin **les remerciements**. On ne raconte pas ses vacances : la lettre va droit au but." },
+        { type: "redaction", question: "**Situation d'intégration (type CFEE)**\n**Contexte** : Ta classe de CM2 veut organiser une journée de nettoyage (un *set setal*) de la cour et des alentours de l'école, le samedi 13 mars. Il faut l'accord du directeur, M. Ndour.\n**Consigne** : Au nom de ta classe, écris-lui une lettre de demande d'une dizaine de lignes : expéditeur, lieu et date, destinataire, objet, formule d'appel, trois paragraphes, formule de politesse et signature.", corrige: `**Lettre modèle**
+~~~
+Les élèves du CM2    Diakhao, le 1er mars 2027
+École élémentaire
+de Diakhao
+
+                    à
+
+            Monsieur le Directeur
+            de l'école élémentaire
+            de Diakhao
+
+Objet : demande d'autorisation pour
+un set setal
+
+Monsieur le Directeur,
+
+   Nous, élèves du CM2, avons remarqué
+   que la cour et les alentours de
+   l'école sont pleins de sachets en
+   plastique et de papiers.
+
+   Nous avons l'honneur de vous demander
+   l'autorisation d'organiser une journée
+   de nettoyage le samedi 13 mars, de
+   8 heures à 11 heures. Pourriez-vous
+   aussi nous prêter des râteaux et des
+   brouettes ?
+
+   Nous vous remercions d'avance.
+   Dans l'attente d'une réponse
+   favorable, nous vous prions d'agréer,
+   Monsieur le Directeur, l'expression
+   de nos salutations respectueuses.
+
+                 Pour la classe de CM2,
+                 Khady Sène, déléguée
+~~~
+**Ce qui est vérifié**
+- **pertinence** : la lettre demande l'autorisation, avec la **date** et le **but** ;
+- **cohérence** : exposer → demander → remercier ;
+- **langue** : *nous* et *vous* d'un bout à l'autre, conditionnel de politesse (*pourriez-vous*) ;
+- **présentation** : toutes les parties de la lettre de demande, à leur place.` },
+        { type: "redaction", question: "**Situation d'intégration (type CFEE)**\n**Contexte** : Chaque hivernage, la route qui mène à ton école est inondée : les élèves arrivent en retard, les pieds mouillés, et les plus petits ne peuvent pas passer.\n**Consigne** : Avant le prochain hivernage, écris au maire de ta commune une lettre d'une dizaine de lignes pour lui signaler le problème et lui demander de l'aide. N'oublie aucune partie de la lettre de demande.", corrige: `**Lettre modèle**
+~~~
+Moussa Faye        Kaffrine, le 15 juin 2027
+Élève au CM2
+École élémentaire n° 2
+de Kaffrine
+
+                    à
+
+            Monsieur le Maire
+            de la commune de Kaffrine
+
+Objet : route de l'école inondée
+
+Monsieur le Maire,
+
+   Je suis élève au CM2 de l'école
+   élémentaire n° 2. Chaque hivernage,
+   la route qui mène à notre école est
+   couverte d'eau. Beaucoup d'élèves
+   arrivent en retard, et les plus petits
+   ne peuvent pas passer.
+
+   J'ai l'honneur de vous demander de
+   faire réparer cette route avant le
+   prochain hivernage, ou de faire
+   creuser un canal pour que l'eau
+   s'écoule.
+
+   Je vous remercie d'avance et je vous
+   prie d'agréer, Monsieur le Maire,
+   l'expression de mes salutations
+   respectueuses.
+
+                          Moussa Faye
+~~~
+**Ce qui est vérifié**
+- **pertinence** : le problème est **expliqué** (ce qui se passe, ses conséquences) **et** une aide précise est **demandée** ;
+- **cohérence** : exposer → demander → remercier, en 3 paragraphes courts ;
+- **langue** : vouvoiement, formules polies, accords (*les plus petits ne peuvent pas passer*) ;
+- **présentation** : expéditeur, lieu et date, destinataire, objet, « Monsieur le Maire, », formule de politesse, signature.` },
       ],
     },
   ],

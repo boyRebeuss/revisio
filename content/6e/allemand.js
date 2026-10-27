@@ -1292,5 +1292,270 @@ On retient les lieux comme des blocs : ***im** Wohnzimmer, **im** Bad, **im** Ke
         { type: "redaction", question: "Décris ton logement (vrai ou imaginaire) en 6 à 8 phrases en allemand : maison ou appartement, la ville, les pièces, ce que vous faites dans deux pièces, ta chambre (avec *es gibt*, *links*, *rechts*) et ton endroit préféré.", corrige: "**Modèle :**\n\n*Ich wohne mit meinen Eltern in einem Haus in Rennes. Das Haus hat vier Zimmer. Es gibt auch eine Küche, ein Bad und einen Keller. In der Küche kocht mein Vater. Im Wohnzimmer spielen wir Karten. Mein Zimmer ist klein, aber schön. Links steht mein Bett, rechts ist das Fenster. In meinem Zimmer gibt es auch einen Tisch und einen Schrank. Mein Lieblingsort ist mein Zimmer!*\n\nPoints à vérifier :\n- *in einem Haus / in einer Wohnung* ;\n- *das Zimmer, das Wohnzimmer, die Küche, das Bad* : article juste et majuscule ;\n- verbe en 2e position après le lieu : *In der Küche **kocht** mein Vater* ;\n- *es gibt* + ***einen*** au masculin (*einen Tisch, einen Keller*)." },
       ],
     },
+    {
+      id: "berufe-und-charakter",
+      titre: "Was ist er von Beruf ? Les métiers et le caractère",
+      theme: "Personnes et personnages",
+      cours: `
+## Demander et dire le métier
+- *Was ist dein Vater **von Beruf**?* (Quel est le métier de ton père ?) – *Er ist **Ingenieur**.*
+- *Was macht deine Mutter beruflich?* – *Sie ist **Sozialarbeiterin**.*
+- Attention : **pas d'article** devant le métier après *sein* : *Er ist Lehrer.* (comme en français : « Il est professeur »). En anglais, on dit *He is **a** teacher* : en allemand, pas de *ein* !
+
+## Les métiers : masculin et féminin en -in
+| Masculin | Féminin | Français |
+|---|---|---|
+| der Ingenieur | die Ingenieurin | l'ingénieur / l'ingénieure |
+| der Sozialarbeiter | die Sozialarbeiterin | l'assistant social / l'assistante sociale |
+| der Automechaniker | die Automechanikerin | le mécanicien / la mécanicienne (auto ; nom officiel du métier aujourd'hui : *Kfz-Mechatroniker*) |
+| der Lehrer | die Lehrerin | le professeur / la professeure |
+| der Arzt | die Ärztin | le médecin |
+| der Verkäufer | die Verkäuferin | le vendeur / la vendeuse |
+| der Koch | die Köchin | le cuisinier / la cuisinière |
+
+- *Ingenieur* se prononce presque comme en français : « in-gé-nieur », avec le son « j ».
+- *Sozialarbeiter* est un mot composé : *sozial* + *der Arbeiter* (le travailleur). *Automechaniker* : *das Auto* + *der Mechaniker*. Le genre est celui du **dernier** mot.
+
+## Où travaille-t-on ? arbeiten bei / arbeiten in
+- **arbeiten bei** + une entreprise ou une personne : *Mein Vater arbeitet **bei** Airbus.* – *Meine Tante arbeitet **bei der** Post.* (la poste) – *Er arbeitet **bei einer** Bank.*
+- **arbeiten in** + un lieu : *Sie arbeitet **in einem** Krankenhaus* (un hôpital) – ***in einer** Schule* – ***in einer** Werkstatt* (un garage, un atelier).
+- Rappel : *du arbeit**est**, er arbeit**et*** (un **e** en plus, car le radical finit par **t**).
+
+## Le caractère : des mots transparents
+| Allemand | Français | Le contraire |
+|---|---|---|
+| offen | ouvert | schüchtern (timide) |
+| spontan | spontané | – |
+| tolerant | tolérant | intolerant |
+| egoistisch | égoïste | hilfsbereit (serviable) |
+| nett | gentil | böse (méchant) |
+
+- *spontan* : **sp** au début se prononce « chp » : « chpon-tâne ». *egoistisch* : « é-go-is-tich », et **tolerant** se prononce « to-lé-rante » (le **t** final s'entend).
+- L'adjectif après *sein* ne change jamais : *Er ist offen. Sie ist offen. Wir sind offen.*
+- Pour nuancer : *Mein Bruder ist **sehr** spontan, aber **ein bisschen** egoistisch.* – *Meine Freundin ist **nicht** egoistisch.*
+
+>! **Exemple** : *Das ist meine Tante Ayla. Sie ist Automechanikerin und arbeitet in einer Werkstatt in Köln. Sie ist offen und sehr tolerant. Sie ist nicht egoistisch: Sie hilft immer!*
+
+> **À retenir** : *Was ist er von Beruf? – Er ist Ingenieur.* (pas d'article !) Féminin : **-in** (*die Ingenieurin, die Sozialarbeiterin, die Automechanikerin*). *arbeiten **bei** + entreprise* (*bei Airbus, bei der Post*) ; *arbeiten **in** + lieu*. Caractère : *offen, spontan, tolerant, egoistisch*.
+
+### Erreurs fréquentes
+- *Er ist ein Lehrer* → *Er ist Lehrer* (pas d'article devant le métier).
+- *Sie ist Ingenieur* (pour une femme) → *Sie ist **Ingenieurin***.
+- *Er arbeit bei Airbus* → *Er **arbeitet** bei Airbus*.
+- Prononcer *spontan* « sse-pon-tan » → « **chp**on-tâne ».
+`,
+      textes: {
+        jobs: `**Unsere Eltern und ihre Berufe**
+
+*Mia: Meine Mutter ist Ingenieurin. Sie arbeitet bei Airbus in Hamburg. Mein Vater ist Koch in einem Restaurant. Er ist sehr offen und spontan: Er kocht immer neue Rezepte!*
+
+*Leon: Mein Vater ist Automechaniker. Er arbeitet in einer Werkstatt. Meine Mutter ist Sozialarbeiterin, sie hilft Familien und Jugendlichen* (les jeunes). *Sie ist nett und tolerant. Und ich? Ich bin ein bisschen egoistisch, sagt meine Schwester…*
+
+(texte d'entraînement)`,
+      },
+      exercices: [
+        { type: "qcm", question: "Que veut dire *Was ist deine Mutter von Beruf?*", choix: ["Où travaille ta mère ?", "Quel est le métier de ta mère ?", "Comment est ta mère ?", "Quel âge a ta mère ?"], reponse: 1, explication: "*von Beruf* = de métier : *Was ist deine Mutter **von Beruf**?* = Quel est le métier de ta mère ? « Où travaille-t-elle ? » se dirait *Wo arbeitet sie?*" },
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Er ist ein Ingenieur.", "Er ist Ingenieurin.", "Er ist Ingenieur.", "Er ist der Ingenieur."], reponse: 2, explication: "***Er ist Ingenieur.*** Pas d'article devant le métier après *sein* (contrairement à l'anglais *He is an engineer*). *Ingenieurin* est le féminin : pour une femme." },
+        { type: "saisie", question: "Écris le féminin de *der Sozialarbeiter* (avec l'article).", reponses: ["die Sozialarbeiterin"], explication: "Masculin + **-in** et article ***die*** : ***die Sozialarbeiterin*** (l'assistante sociale)." },
+        { type: "vf", question: "*Mein Onkel arbeitet bei Siemens* veut dire « Mon oncle travaille chez Siemens ».", reponse: true, explication: "**arbeiten bei** + une entreprise = travailler chez… : *bei Siemens, bei Airbus, bei der Post*." },
+        { type: "qcm", question: "Complète : *Meine Tante ist Automechanikerin. Sie arbeitet ___ einer Werkstatt.*", choix: ["bei", "in", "von", "aus"], reponse: 1, explication: "*die Werkstatt* (le garage, l'atelier) est un **lieu** : ***in** einer Werkstatt*. On emploie *bei* devant le nom d'une entreprise : *bei Opel*." },
+        { type: "qcm", question: "Une personne qui ne pense qu'à elle est…", choix: ["tolerant", "offen", "spontan", "egoistisch"], reponse: 3, explication: "***egoistisch*** = égoïste. *tolerant* = tolérant, *offen* = ouvert, *spontan* = spontané." },
+        { type: "saisie", question: "Traduis en allemand : « Ma sœur est très ouverte. »", reponses: ["Meine Schwester ist sehr offen."], explication: "***Meine Schwester ist sehr offen.*** *meine* devant un nom féminin ; après *sein*, l'adjectif ne change pas (*offen*, sans terminaison)." },
+        { type: "qcm", texte: "jobs", question: "Où travaille la mère de Mia ?", choix: ["dans un restaurant", "dans un garage", "chez Airbus", "dans une école"], reponse: 2, explication: "*Meine Mutter ist Ingenieurin. Sie arbeitet **bei Airbus** in Hamburg.* C'est le père de Mia qui travaille dans un restaurant." },
+        { type: "vf", texte: "jobs", question: "D'après sa sœur, Leon est un peu égoïste.", reponse: true, explication: "*Ich bin **ein bisschen egoistisch**, sagt meine Schwester* : « je suis un peu égoïste, dit ma sœur »." },
+        { type: "saisie", texte: "jobs", question: "Quel est le métier du père de Leon ? Recopie le mot allemand du texte.", reponses: ["Automechaniker"], explication: "*Mein Vater ist **Automechaniker**.* Il travaille *in einer Werkstatt* (dans un garage)." },
+        { type: "redaction", question: "Présente en 6 phrases deux adultes de ta famille ou de ton entourage (vrais ou imaginaires) : leur métier, où ils travaillent (*bei* ou *in*) et leur caractère (au moins deux adjectifs du chapitre).", corrige: "**Modèle :**\n\n*Das ist mein Onkel Karim. Er ist Ingenieur und arbeitet bei Airbus in Toulouse. Er ist offen und sehr spontan. Das ist meine Mutter. Sie ist Sozialarbeiterin, sie arbeitet in einer Schule. Sie ist nett und tolerant, aber nie egoistisch!*\n\nPoints à vérifier :\n- **pas d'article** devant le métier : *Er ist Ingenieur* ;\n- féminin en **-in** pour une femme : *Sozialarbeiterin* ;\n- ***bei*** + entreprise, ***in*** + lieu ;\n- *er arbeit**et*** ; l'adjectif après *ist* sans terminaison." },
+      ],
+    },
+    {
+      id: "das-gefaellt-mir",
+      titre: "Das gefällt mir ! Komm bitte ! Dire ce qui plaît, comprendre les ordres",
+      theme: "Communiquer",
+      cours: `
+## Das gefällt mir : ça me plaît
+Pour dire que quelque chose te **plaît**, on emploie le verbe **gefallen**. Attention, la construction est à l'envers par rapport au français « j'aime » : c'est la **chose** qui est le sujet, comme dans « ça **me** plaît ».
+- *Das Buch **gefällt mir**.* (Le livre me plaît.)
+- *Der Film **gefällt mir** nicht.* (Le film ne me plaît pas.)
+- Avec un pluriel : *Die Schuhe **gefallen mir**.* (Les chaussures me plaisent.)
+
+| Question | Réponse |
+|---|---|
+| Gefällt **dir** das Spiel? (Le jeu te plaît ?) | Ja, es gefällt **mir** sehr gut! / Nein, es gefällt mir nicht. |
+| Wie gefällt dir Berlin? (Comment trouves-tu Berlin ?) | Berlin gefällt mir super! |
+
+- *mir* = à moi, me ; *dir* = à toi, te. Retiens-les en bloc : ***Das gefällt mir!*** – ***Gefällt es dir?***
+- Comparaison : *Ich mag Pizza* (j'aime la pizza, en général) – *Ich spiele **gern** Fußball* (j'aime jouer…) – *Dein Pulli **gefällt mir*** (ton pull me plaît, je le trouve joli).
+
+## Reconnaître l'impératif : les ordres et les consignes
+L'impératif sert à donner un **ordre**, une **consigne**, un **conseil**. Tu l'entends tout le temps en classe et dans les jeux. Pour le reconnaître :
+- le **verbe est en tête** de la phrase ;
+- il n'y a **pas de sujet** (sauf *Sie*) ;
+- il y a souvent un **point d'exclamation** et *bitte* (s'il te plaît).
+
+| À qui ? | Exemple | Français |
+|---|---|---|
+| à un copain (*du*) | Komm bitte! – Hör zu! | Viens, s'il te plaît ! – Écoute ! |
+| à plusieurs copains (*ihr*) | Kommt bitte! – Hört zu! | Venez ! – Écoutez ! |
+| poliment (*Sie*) | Kommen Sie bitte! | Venez, s'il vous plaît ! |
+
+- Avec *du*, on prend le verbe **sans la terminaison -st** et sans *du* : *du kommst → **Komm!*** ; *du machst → **Mach!*** Si le radical finit déjà par **s** (*les-en*, *ess-en*), il ne reste que le **t** à enlever : *du liest → **Lies!***
+- Les verbes en **e → i** gardent le **i** : *du nimmst → **Nimm** dein Buch!* (Prends ton livre !) – *du liest → **Lies** den Text!* (Lis le texte !) – *du gibst → **Gib** mir den Ball!* (Donne-moi le ballon !) – *du isst → **Iss**!*
+- Les verbes en **a → ä** perdent l'umlaut : *du fährst → **Fahr** langsam!* (Roule lentement !)
+- Les verbes séparables : la particule va à la **fin** : *zumachen → **Mach** das Fenster **zu**!* (Ferme la fenêtre !) – *zuhören → **Hör zu**!*
+- *sein* : ***Sei** leise!* (Sois silencieux !) – ***Seid** ruhig!* (Soyez calmes !)
+
+>! **Phrase ou ordre ?** *Du nimmst dein Buch.* = tu prends ton livre (sujet *du*, verbe en 2e position : on **raconte**). ***Nimm** dein Buch!* = prends ton livre ! (verbe en tête, pas de sujet : on **ordonne**).
+
+> **À retenir** : *Das gefällt mir. / Die Schuhe gefallen mir. / Gefällt dir das?* Impératif : **verbe en tête, sans sujet** : *Komm! Nimm dein Buch! Lies! Hör zu! Sei leise!* – *Kommt!* (à plusieurs) – *Kommen Sie bitte!* (poli).
+
+### Erreurs fréquentes
+- *Ich gefalle das Buch* (cela voudrait dire « je plais… » !) → *Das Buch gefällt **mir***.
+- *Die Schuhe gefällt mir* → *Die Schuhe **gefallen** mir* (pluriel).
+- *Nehm dein Buch!* → ***Nimm** dein Buch!* (le **i** reste).
+- Confondre *Komm!* (viens !) et *Kommst du?* (tu viens ?) : la question a un sujet, *du*.
+`,
+      exercices: [
+        { type: "qcm", question: "Que veut dire *Das Spiel gefällt mir* ?", choix: ["Je joue au jeu.", "Le jeu me plaît.", "Je plais au jeu.", "Le jeu est fini."], reponse: 1, explication: "*gefallen* = plaire : *Das Spiel gefällt **mir*** = le jeu **me** plaît. C'est la chose (*das Spiel*) qui est le sujet." },
+        { type: "qcm", question: "Complète : *Die Bilder ___ mir sehr.*", choix: ["gefällt", "gefallen", "gefalle", "gefällst"], reponse: 1, explication: "Le sujet est *die Bilder* (pluriel) : *Die Bilder **gefallen** mir.* Au singulier : *Das Bild **gefällt** mir.*" },
+        { type: "saisie", question: "Traduis en allemand : « Ça me plaît ! » (3 mots)", reponses: ["Das gefällt mir!", "Es gefällt mir!"], explication: "***Das gefällt mir!*** (ou *Es gefällt mir!*). À la question *Gefällt es dir?*, tu peux répondre *Ja, es gefällt mir sehr gut!*" },
+        { type: "vf", question: "*Gefällt dir Hamburg?* veut dire « Hambourg te plaît ? ».", reponse: true, explication: "*dir* = à toi, te : ***Gefällt dir** Hamburg?* = Hambourg te plaît ? Réponse : *Ja, Hamburg gefällt mir!*" },
+        { type: "qcm", question: "Laquelle de ces phrases est un **ordre** (impératif) ?", choix: ["Du kommst morgen.", "Kommst du morgen?", "Komm morgen!", "Er kommt morgen."], reponse: 2, explication: "***Komm morgen!*** : verbe en tête, **pas de sujet**, point d'exclamation : c'est un ordre (Viens demain !). *Kommst du morgen?* est une question (avec le sujet *du*)." },
+        { type: "qcm", question: "Ton professeur dit : *Nimm dein Heft!* Que dois-tu faire ?", choix: ["Prendre ton cahier.", "Ranger ton cahier.", "Ouvrir ton livre.", "Écrire ton nom."], reponse: 0, explication: "*Nimm* vient de *nehmen* (prendre ; *du nimmst*) : ***Nimm** dein Heft!* = Prends ton cahier !" },
+        { type: "qcm", question: "Ta mère te dit : *Mach bitte das Fenster zu!* Que veut-elle ?", choix: ["Que tu ouvres la fenêtre.", "Que tu fermes la fenêtre.", "Que tu regardes par la fenêtre.", "Que tu nettoies la fenêtre."], reponse: 1, explication: "*zumachen* = fermer (séparable) : ***Mach** das Fenster **zu**!* = Ferme la fenêtre ! Ouvrir se dit *aufmachen* : *Mach das Fenster auf!*" },
+        { type: "vf", question: "*Hört zu!* s'adresse à plusieurs personnes que l'on tutoie.", reponse: true, explication: "*ihr hört* → ***Hört zu!*** (Écoutez !) : on s'adresse à plusieurs copains. À un seul : *Hör zu!* Poliment : *Hören Sie zu!*" },
+        { type: "saisie", question: "Ton copain dit *Du liest den Text.* Transforme en ordre : « Lis le texte ! »", reponses: ["Lies den Text!"], explication: "*du liest* → on enlève *du* et la terminaison : normalement **-st** (*du kommst → Komm!*), mais ici le **s** appartient au radical (*le**s**en*), donc il ne reste que le **t** à enlever : ***Lies den Text!*** Le **i** reste, comme dans *Nimm!* et *Gib!*" },
+        { type: "redaction", question: "Écris en allemand 3 consignes que tu pourrais donner à ton correspondant pendant un jeu (avec *bitte* pour au moins une), puis 3 phrases pour dire ce qui te plaît ou ne te plaît pas dans ta ville ou ton collège (avec *gefällt mir* / *gefallen mir*).", corrige: "**Modèle :**\n\n*Komm bitte! Nimm den Würfel! Warte, ich bin dran!*\n\n*Meine Schule gefällt mir. Die Kantine gefällt mir nicht. Die Bäume im Park gefallen mir sehr!*\n\nPoints à vérifier :\n- impératif : **verbe en tête, sans *du*** (*Komm! Nimm!* et non *Nehm!*) ;\n- *gefällt* avec un singulier, *gefallen* avec un pluriel ;\n- *mir* (à moi) après le verbe ; la négation *nicht* à la fin." },
+      ],
+    },
+    {
+      id: "frohe-ostern",
+      titre: "Frohe Ostern ! Pâques et le lièvre de Pâques",
+      theme: "Le quotidien : vivre, jouer, apprendre",
+      cours: `
+## Ostern, la fête de Pâques
+**Ostern** (Pâques) est une grande fête au printemps, en mars ou en avril (en 2027 : le dimanche **28 mars**). En Allemagne, le **vendredi saint** (*der Karfreitag*) et le **lundi de Pâques** (*der Ostermontag*) sont fériés, et les élèves ont des vacances de Pâques, ***die Osterferien*** (souvent une à deux semaines : les dates changent selon les Länder).
+- On se souhaite : ***Frohe Ostern!*** (Joyeuses Pâques !)
+- *Ostern* s'emploie souvent sans article : ***an** Ostern* ou ***zu** Ostern* (à Pâques).
+
+## Der Osterhase : le lièvre de Pâques
+En France, ce sont les **cloches** qui reviennent de Rome et apportent les œufs. En Allemagne, c'est le **lièvre de Pâques**, ***der Osterhase*** ! Cette tradition est née dans les pays de langue allemande, puis elle est partie dans le monde entier (on la retrouve aux États-Unis avec l'*Easter Bunny*).
+- La nuit, le *Osterhase* **cache** (*versteckt*) des œufs et des chocolats dans le jardin.
+- Le matin de Pâques, les enfants **cherchent** les œufs : ***Wir suchen Ostereier!***
+- Quand on trouve : ***Ich habe ein Ei gefunden!*** (J'ai trouvé un œuf ! – retiens la phrase telle quelle.)
+
+## Le vocabulaire de Pâques
+| Allemand | Français |
+|---|---|
+| der Osterhase | le lièvre de Pâques |
+| das Ei / die Eier | l'œuf / les œufs |
+| das Osterei / die Ostereier | l'œuf de Pâques |
+| das Nest | le nid |
+| der Korb | le panier |
+| der Frühling | le printemps |
+| die Blume | la fleur |
+| verstecken / suchen / finden | cacher / chercher / trouver |
+| bemalen / färben | peindre (décorer) / teindre |
+
+- *das Osterei* = *Ostern* + *das Ei* : genre du **dernier** mot. *der Osterhase* = *Ostern* + *der Hase*.
+- Pense à l'anglais : *das Nest / nest*, *die Blume / bloom*, *finden / find*.
+
+## Une tradition : peindre des œufs
+Avant Pâques, on vide ou on fait cuire des œufs, puis on les **décore**. On les accroche à des branches dans un vase : c'est le ***Osterstrauß*** (le bouquet de Pâques). Dans certains jardins, on décore même un arbre entier : le *Ostereierbaum*.
+
+>! **La consigne, à l'impératif** : *Nimm ein Ei! Mal es bunt an!* (Peins-le de toutes les couleurs !) *Häng es an den Zweig!* (Accroche-le à la branche !) *Bunt* = coloré, multicolore.
+
+> **À retenir** : *Frohe Ostern!* – *an / zu Ostern* – ***der Osterhase*** cache les œufs (*versteckt die Eier*), les enfants les cherchent (*suchen*) et les trouvent (*finden*). *das Osterei, die Ostereier, das Nest, der Korb, bunt*. *die Osterferien* = les vacances de Pâques.
+
+### Erreurs fréquentes
+- *Frohe Oster* → ***Frohe Ostern!*** (avec **-n**).
+- *der Osterei* → ***das** Osterei* (comme *das Ei*).
+- Croire que *der Osterhase* est un lapin domestique : c'est un **lièvre** (*der Hase*) ; le lapin se dit *das Kaninchen*.
+`,
+      textes: {
+        ostern: `**Ostern bei Oma**
+
+*Zu Ostern fahren wir immer zu Oma aufs Land* (à la campagne). *Am Samstag bemalen wir Eier: rot, gelb, grün und blau. Wir hängen sie an einen Osterstrauß. Am Sonntag stehen wir früh auf. In der Nacht war der Osterhase da! Mein Bruder Ben und ich nehmen einen Korb und suchen im Garten. Ben findet sechs Eier unter den Blumen, ich finde vier Eier und einen Schokoladenhasen im Baum. Dann frühstücken wir alle zusammen. Frohe Ostern!*
+
+(texte d'entraînement)`,
+      },
+      exercices: [
+        { type: "qcm", question: "En Allemagne, qui apporte les œufs de Pâques ?", choix: ["les cloches", "le Père Noël", "le lièvre de Pâques", "saint Nicolas"], reponse: 2, explication: "En Allemagne, c'est ***der Osterhase*** (le lièvre de Pâques). En France, ce sont les cloches ; *der Nikolaus* passe le 6 décembre." },
+        { type: "saisie", question: "Comment souhaite-t-on « Joyeuses Pâques ! » en allemand ? (2 mots)", reponses: ["Frohe Ostern!"], explication: "***Frohe Ostern!*** Attention au **-n** final de *Ostern*. Pour Noël : *Frohe Weihnachten!*" },
+        { type: "qcm", question: "Quel est l'article de *Osterei* ?", choix: ["der", "die", "das", "den"], reponse: 2, explication: "***das** Osterei* : mot composé (*Ostern* + *das Ei*), le genre est celui du **dernier** mot. Pluriel : *die Ostereier*." },
+        { type: "qcm", question: "Que veut dire *Der Osterhase versteckt die Eier* ?", choix: ["Le lièvre de Pâques mange les œufs.", "Le lièvre de Pâques cache les œufs.", "Le lièvre de Pâques cherche les œufs.", "Le lièvre de Pâques peint les œufs."], reponse: 1, explication: "***verstecken*** = cacher. Chercher = *suchen*, trouver = *finden*, peindre = *bemalen*." },
+        { type: "vf", question: "Le lundi de Pâques (*der Ostermontag*) est un jour férié en Allemagne.", reponse: true, explication: "Oui : *der Karfreitag* (vendredi saint) et *der Ostermontag* sont fériés. Les élèves ont aussi des vacances : *die Osterferien*." },
+        { type: "saisie", question: "Traduis en allemand : « Nous cherchons des œufs de Pâques. »", reponses: ["Wir suchen Ostereier."], explication: "***Wir suchen Ostereier.*** *suchen* = chercher ; *wir* + terminaison **-en** ; pluriel *die Ostereier*, sans article pour dire « des »." },
+        { type: "qcm", texte: "ostern", question: "Que fait la famille le samedi ?", choix: ["Elle cherche les œufs dans le jardin.", "Elle peint des œufs.", "Elle prend le petit-déjeuner chez Oma.", "Elle achète du chocolat."], reponse: 1, explication: "*Am Samstag **bemalen** wir Eier* : le samedi, ils peignent des œufs. La chasse aux œufs a lieu le dimanche (*Am Sonntag…*)." },
+        { type: "vf", texte: "ostern", question: "Ben trouve plus d'œufs que le narrateur.", reponse: true, explication: "*Ben findet **sechs** Eier*, le narrateur *vier Eier und einen Schokoladenhasen* : 6 œufs contre 4." },
+        { type: "saisie", texte: "ostern", question: "Où le narrateur trouve-t-il le lièvre en chocolat ? Recopie les deux mots allemands du texte.", reponses: ["im Baum"], explication: "*ich finde vier Eier und einen Schokoladenhasen **im Baum*** (dans l'arbre)." },
+        { type: "redaction", question: "Raconte en 6 phrases en allemand un dimanche de Pâques (vrai ou imaginaire) : où tu es, avec qui, ce que vous faites avant (peindre des œufs), la chasse aux œufs et ce que tu trouves. Termine par un souhait.", corrige: "**Modèle :**\n\n*Zu Ostern bin ich bei meinen Großeltern in Lyon. Am Samstag bemalen meine Cousine und ich Eier. Am Sonntag stehen wir um sieben Uhr auf. Wir nehmen einen Korb und suchen im Garten. Ich finde fünf Eier unter einem Baum. Frohe Ostern!*\n\nPoints à vérifier :\n- *zu Ostern* / *am Samstag, am Sonntag* ;\n- verbe en **2e position** après le complément de temps : *Am Sonntag **stehen** wir… auf* ;\n- *das Ei / die Eier*, *der Korb* → *einen Korb* après *nehmen* ;\n- *Frohe Ostern!* avec **-n**." },
+      ],
+    },
+    {
+      id: "haensel-und-gretel",
+      titre: "Hänsel und Gretel : des enfants dans un conte",
+      theme: "Imaginaire, contes et légendes",
+      cours: `
+## Un conte des frères Grimm
+***Hänsel und Gretel*** est l'un des contes les plus connus des **frères Grimm** (Jacob et Wilhelm), publié en 1812 dans leur recueil *Kinder- und Hausmärchen* (Contes de l'enfance et du foyer). Ses héros sont **deux enfants**, un frère et une sœur, qui se débrouillent seuls face au danger.
+
+## L'histoire
+Un pauvre bûcheron (*der Holzfäller*) vit avec ses deux enfants et sa femme près d'une grande forêt. La famille n'a plus rien à manger, et la femme veut **abandonner** les enfants dans la forêt.
+1. La première fois, Hänsel sème des **petits cailloux blancs** (*die Kieselsteine*) : la nuit, ils brillent sous la lune, et les enfants retrouvent le chemin de la maison.
+2. La deuxième fois, Hänsel n'a que du **pain** : il sème des **miettes** (*die Brotkrumen*)… mais les oiseaux les mangent ! Les enfants sont **perdus** dans la forêt.
+3. Ils trouvent une **maison en pain, avec un toit en gâteau et des fenêtres en sucre**. Ils ont faim et commencent à la manger. Une voix demande : *„Knusper, knusper, Knäuschen, wer knuspert an meinem Häuschen?“* (« Qui grignote ma petite maison ? »)
+4. C'est une **sorcière** (*die Hexe*) qui mange les enfants ! Elle enferme Hänsel pour l'engraisser et fait travailler Gretel.
+5. La sorcière voit mal : Hänsel lui tend un **petit os** au lieu de son doigt, pour qu'elle le croie trop maigre.
+6. Un jour, la sorcière veut faire cuire les enfants. Gretel est maligne : elle **pousse la sorcière dans le four** (*der Ofen*) et libère son frère.
+7. Les enfants rentrent chez leur père avec les **perles et les pierres précieuses** de la sorcière. Ils vivent heureux.
+
+## Les mots du conte
+| Allemand | Français |
+|---|---|
+| der Wald | la forêt |
+| der Weg | le chemin |
+| das Brot | le pain |
+| der Vogel / die Vögel | l'oiseau / les oiseaux |
+| das Häuschen | la petite maison (*-chen* = petit, neutre) |
+| die Hexe | la sorcière |
+| der Ofen | le four |
+| Angst haben | avoir peur |
+| Hunger haben | avoir faim |
+| klug | malin, intelligent |
+
+- ***-chen*** rend un nom **petit** et toujours **neutre** : *das Haus → **das Häuschen*** (avec umlaut). Comme ***das Mädchen*** (la jeune fille) !
+
+## Raconter le conte au présent
+*Es war einmal ein armer Holzfäller.* Puis : *Hänsel und Gretel **gehen** in den Wald. **Plötzlich sehen** sie ein Häuschen. **Dann kommt** die Hexe.* Après *plötzlich, dann, eines Tages*, le verbe reste en **2e position**.
+
+>! **Et en musique ?** En 1893, le compositeur allemand **Engelbert Humperdinck** a fait de ce conte un **opéra**, *Hänsel und Gretel*. En Allemagne, on le joue très souvent à Noël.
+
+> **À retenir** : conte des **frères Grimm** (1812) : deux enfants perdus dans la forêt (*im Wald*), une maison de pain et de sucre, une sorcière (*die Hexe*) ; c'est **Gretel**, maligne (*klug*), qui sauve son frère. *-chen* = petit, neutre : *das Häuschen*. *Knusper, knusper, Knäuschen…*
+
+### Erreurs fréquentes
+- Croire que c'est Hänsel qui pousse la sorcière dans le four : c'est **Gretel** !
+- *der Häuschen* → ***das** Häuschen* (tous les mots en *-chen* sont neutres).
+- *Plötzlich sie sehen ein Haus* → *Plötzlich **sehen sie** ein Haus.*
+`,
+      textes: {
+        wald: `**Im Wald**
+
+*Hänsel und Gretel sind allein im Wald. Es ist dunkel und kalt. Gretel weint* (pleure)*: „Ich habe Angst, Hänsel! Wo ist der Weg?“ Hänsel sucht die Brotkrumen, aber die Vögel haben alles gegessen* (ont tout mangé). *Die Kinder gehen drei Tage durch den Wald. Sie haben großen Hunger. Plötzlich sehen sie einen weißen Vogel. Er fliegt vor ihnen her* (vole devant eux)*, und dann sehen sie ein Häuschen. Das Dach ist aus Kuchen, und die Fenster sind aus Zucker!*
+
+(texte d'entraînement, d'après le conte des frères Grimm)`,
+      },
+      exercices: [
+        { type: "qcm", question: "Qui a recueilli et publié le conte *Hänsel und Gretel* ?", choix: ["Wilhelm Busch", "les frères Grimm", "Engelbert Humperdinck", "Hans Christian Andersen"], reponse: 1, explication: "Ce sont les **frères Grimm** (1812). Humperdinck en a fait un opéra en 1893 ; Wilhelm Busch a inventé *Max und Moritz* ; Andersen est un conteur danois." },
+        { type: "qcm", question: "Pourquoi les enfants se perdent-ils la deuxième fois ?", choix: ["Il fait trop sombre pour voir les cailloux.", "Les oiseaux ont mangé les miettes de pain.", "La sorcière a effacé le chemin.", "Le père a pris un autre chemin."], reponse: 1, explication: "La deuxième fois, Hänsel sème des **miettes de pain** (*Brotkrumen*), et **les oiseaux les mangent**. La première fois, les cailloux blancs brillaient sous la lune." },
+        { type: "vf", question: "C'est Hänsel qui pousse la sorcière dans le four.", reponse: false, explication: "C'est **Gretel** ! Hänsel est enfermé ; sa sœur, maligne (*klug*), pousse la sorcière dans le four (*der Ofen*) et le libère." },
+        { type: "qcm", question: "Quel est l'article de *Häuschen* (la petite maison) ?", choix: ["der", "die", "das", "dem"], reponse: 2, explication: "***das** Häuschen* : tous les noms en **-chen** (= petit) sont **neutres**, comme *das Mädchen*. Ici, en plus, *Haus* prend un umlaut : *Häus-chen*." },
+        { type: "saisie", question: "Traduis en allemand : « J'ai peur. » (3 mots)", reponses: ["Ich habe Angst."], explication: "***Ich habe Angst.*** En allemand, on « a peur » avec *haben*, comme en français : *Ich habe Angst / Hunger / Durst*." },
+        { type: "qcm", texte: "wald", question: "Comment est la forêt au début du texte ?", choix: ["claire et chaude", "sombre et froide", "pleine d'animaux", "petite et jolie"], reponse: 1, explication: "*Es ist **dunkel** und **kalt*** : il fait sombre et froid." },
+        { type: "vf", texte: "wald", question: "Les enfants marchent trois jours dans la forêt.", reponse: true, explication: "*Die Kinder gehen **drei Tage** durch den Wald* : ils marchent trois jours." },
+        { type: "saisie", texte: "wald", question: "Qu'est-ce qui guide les enfants jusqu'à la petite maison ? Réponds en allemand, avec l'article indéfini (trois mots du texte).", reponses: ["einen weißen Vogel", "ein weißer Vogel"], explication: "*Plötzlich sehen sie **einen weißen Vogel**. Er fliegt vor ihnen her…* : un oiseau blanc les guide jusqu'à la maison." },
+        { type: "qcm", texte: "wald", question: "De quoi sont faites les fenêtres de la maison ?", choix: ["de gâteau", "de pain", "de sucre", "de chocolat"], reponse: 2, explication: "*Das Dach ist aus Kuchen, und die Fenster sind **aus Zucker*** : le toit est en gâteau, les fenêtres en sucre." },
+        { type: "redaction", question: "Raconte en allemand, au présent, la fin du conte en 5 à 6 phrases : la sorcière, le four, Gretel qui sauve Hänsel, le retour chez le père. Utilise au moins deux mots pour enchaîner (*eines Tages, plötzlich, dann, am Ende*).", corrige: "**Modèle :**\n\n*Die Hexe will die Kinder essen. Eines Tages macht sie den Ofen heiß. Aber Gretel ist klug. Plötzlich stößt sie die Hexe in den Ofen! Dann holt sie Hänsel aus dem Stall. Am Ende gehen die Kinder nach Hause, und der Vater ist sehr froh.*\n\nPoints à vérifier :\n- verbe en **2e position** après *eines Tages, plötzlich, dann, am Ende* : *Dann **holt** sie…* ;\n- *die Hexe*, *der Ofen* → *in den Ofen* (on y va : accusatif, retiens le bloc) ;\n- *will* + infinitif **à la fin** : *Die Hexe will die Kinder **essen*** ;\n- *klug* sans terminaison après *ist*." },
+      ],
+    },
   ],
 };

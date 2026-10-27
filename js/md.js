@@ -71,8 +71,9 @@ export function bloc(src) {
       ).join("") + "</ul>");
     } else if (/^\d+[.)]\s+/.test(t)) {
       const items = [];
+      const premier = parseInt(t, 10); // « 2) … » après un texte : la liste reprend à 2, pas à 1
       while (debut(/^\s*\d+[.)]\s+/)) items.push(lignes[i++].trim().replace(/^\d+[.)]\s+/, ""));
-      out.push("<ol>" + items.map((x) => `<li>${inline(x)}</li>`).join("") + "</ol>");
+      out.push((premier > 1 ? `<ol start="${premier}">` : "<ol>") + items.map((x) => `<li>${inline(x)}</li>`).join("") + "</ol>");
     } else if (/^\|.*\|$/.test(t)) {
       const rows = [];
       while (debut(/^\s*\|.*\|\s*$/)) rows.push(lignes[i++].trim());

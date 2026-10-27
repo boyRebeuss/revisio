@@ -2398,11 +2398,13 @@ Pour qu'aucun homme ne redevienne roi, les Romains partagent le pouvoir entre tr
 | **édile** | s'occupe de la ville : rues, marchés, jeux |
 | **préteur** | rend la justice |
 | **consul** (2 par an) | commande l'armée et dirige la République ; il est précédé de **licteurs** qui portent les **faisceaux** (des verges liées autour d'une hache), symbole de son pouvoir |
-| **censeur** (2, tous les cinq ans) | recense les citoyens et leur fortune, surveille les mœurs, dresse la liste des sénateurs |
+| **censeur** (2, élus en général tous les cinq ans, pour dix-huit mois) | recense les citoyens et leur fortune, surveille les mœurs, dresse la liste des sénateurs |
+
+>! **Attention aux dates** : ce tableau montre la République à son époque classique (IIIe et IIe siècles av. J.-C.). Les charges ne sont pas toutes nées en 509 : les deux consuls existent dès le début, mais la **censure** n'est créée qu'en **443 av. J.-C.** (selon Tite-Live) et la **préture** en **367 av. J.-C.** Le système s'est construit peu à peu.
 
 En cas de danger très grave, un consul peut nommer un **dictateur**, qui a tous les pouvoirs, mais pour **six mois au plus**. À Rome, ce n'est pas un tyran : c'est une magistrature de secours, limitée dans le temps.
 
-**2. Le Sénat** (*senatus*), qui se réunit à la Curie, compte environ **300 membres**, d'anciens magistrats, nommés à vie. Il ne vote pas les lois, mais ses avis (les **sénatus-consultes**) sont presque toujours suivis : il décide en fait de la guerre, de la paix, des finances et de la politique étrangère.
+**2. Le Sénat** (*senatus*), qui se réunit à la Curie, compte environ **300 membres** (aux IIIe et IIe siècles av. J.-C.), surtout d'anciens magistrats. Ce sont les **censeurs** qui les inscrivent sur la liste du Sénat. On y reste en principe **toute sa vie**, mais pas quoi qu'il arrive : à chaque recensement, les censeurs peuvent **rayer** un sénateur jugé indigne (mauvaise conduite, fortune perdue...). Il ne vote pas les lois, mais ses avis (les **sénatus-consultes**) sont presque toujours suivis : il décide en fait de la guerre, de la paix, des finances et de la politique étrangère.
 
 **3. Le peuple** (*populus*) se réunit en assemblées, les **comices** (*comitia*) : il élit les magistrats, vote les lois, décide de la guerre. Mais seuls les **citoyens hommes adultes** votent : ni les femmes, ni les esclaves, ni les étrangers. De plus, on ne vote pas un par un : on vote **par groupes**, et les groupes des plus riches votent en premier et pèsent plus lourd. La République romaine n'est donc **pas une démocratie** au sens moderne.
 
@@ -2423,7 +2425,7 @@ En cas de danger très grave, un consul peut nommer un **dictateur**, qui a tous
 ## Des héros modèles
 Les Romains racontaient ces histoires à leurs enfants pour leur apprendre les **valeurs des ancêtres** (le *mos maiorum*) : le courage (*virtus*), le respect des dieux et de la famille (*pietas*), la parole donnée (*fides*), et surtout le **dévouement à la res publica**, plus important que l'intérêt personnel. Comme pour la fondation de Rome, ces récits ont été écrits des siècles plus tard : ils mêlent des souvenirs historiques et beaucoup de légende.
 
-> **À retenir** : en **509 av. J.-C.**, les Romains chassent Tarquin le Superbe et fondent la **République** (*res publica*). Épisodes célèbres : Horatius Coclès, Mucius Scaevola, Clélie face à Porsenna ; Cincinnatus (458) ; les Gaulois et les oies du Capitole (vers 390). **Patriciens** (vieilles familles nobles) et **plébéiens** (la majorité) : la plèbe obtient les **tribuns** (*veto*), les **Douze Tables** (vers 450), l'accès au consulat (367). Institutions : **magistrats** élus pour un an et à plusieurs (questeur, édile, préteur, **deux consuls**, censeurs ; dictateur six mois au plus), **Sénat** (anciens magistrats, avis très suivis), **comices** (le peuple élit et vote les lois). Patrons et clients.
+> **À retenir** : en **509 av. J.-C.**, les Romains chassent Tarquin le Superbe et fondent la **République** (*res publica*). Épisodes célèbres : Horatius Coclès, Mucius Scaevola, Clélie face à Porsenna ; Cincinnatus (458) ; les Gaulois et les oies du Capitole (vers 390). **Patriciens** (vieilles familles nobles) et **plébéiens** (la majorité) : la plèbe obtient les **tribuns** (*veto*), les **Douze Tables** (vers 450), l'accès au consulat (367). Institutions : **magistrats** élus pour un an et à plusieurs (questeur, édile, préteur, **deux consuls**, censeurs ; dictateur six mois au plus), **Sénat** (anciens magistrats inscrits par les censeurs, en principe à vie ; avis très suivis), **comices** (le peuple élit et vote les lois). Patrons et clients.
 
 ## Erreurs fréquentes
 - Croire que la République romaine est une démocratie : les femmes, les esclaves et les étrangers ne votent pas, et le vote des riches pèse plus lourd.
@@ -2523,6 +2525,649 @@ Lexique : trans Tiberim = au-delà du Tibre (trans + accusatif) ; legatus, i, m.
 **Une démocratie ?** Non, pas au sens moderne : seuls les citoyens hommes votent (ni femmes, ni esclaves, ni étrangers) ; le vote se fait par groupes, où les riches pèsent plus lourd ; et les clients votent souvent comme leur patron. Le pouvoir reste en fait aux mains d'un petit nombre de grandes familles.
 
 >! Critères : 509 et le refus de la royauté ; annualité et collégialité ; rôle des trois forces (magistrats, Sénat, comices) ; nuance finale sur la démocratie.
+`,
+        },
+        {
+          type: "vf",
+          question: "Un sénateur romain gardait sa place au Sénat toute sa vie, quoi qu'il fasse.",
+          reponse: false,
+          explication: "Faux : on restait sénateur **en principe** à vie, mais à chaque recensement les **censeurs** pouvaient rayer de la liste un sénateur jugé indigne (mauvaise conduite, fortune perdue...).",
+        },
+        {
+          type: "saisie",
+          question: "Selon Tite-Live, en quelle année av. J.-C. la censure (la charge de censeur) est-elle créée ?",
+          reponses: ["443", "443 av. J.-C.", "en 443 av. J.-C.", "443 avant J.-C.", "en 443 avant J.-C."],
+          explication: "En **443 av. J.-C.**, soit plus de soixante ans après la naissance de la République (509). Les institutions romaines se sont mises en place peu à peu.",
+        },
+        {
+          type: "qcm",
+          question: "Quel magistrat dresse la liste des sénateurs et peut en rayer un ?",
+          choix: ["Le questeur", "Le censeur", "L'édile", "Le tribun de la plèbe"],
+          reponse: 1,
+          explication: "Le **censeur** recense les citoyens, surveille les mœurs et dresse la liste du Sénat : il peut en exclure un sénateur indigne. Le questeur gère le trésor, l'édile la ville, le tribun défend la plèbe avec son *veto*.",
+        },
+      ],
+    },
+    {
+      id: "grandes-figures-republique",
+      titre: "Les grandes figures politiques de la République",
+      theme: "De la légende à l'histoire",
+      cours: `
+## Des hommes qui ont marqué la République
+La République romaine dure près de cinq siècles, de **509** à **27 av. J.-C.** Les Romains, puis les historiens, ont gardé le souvenir de quelques grands personnages : certains ont servi la *res publica*, d'autres l'ont mise en danger en cherchant trop de pouvoir. Pour les premiers siècles (Brutus, Cincinnatus, Camille, que tu as déjà rencontrés), la légende se mêle à l'histoire ; à partir du IIIe siècle av. J.-C., les faits sont mieux connus.
+
+## Les héros de la conquête (IIIe et IIe siècles av. J.-C.)
+- **Scipion l'Africain** : pendant la deuxième guerre punique, il porte la guerre en Afrique et bat **Hannibal** à **Zama** en **202 av. J.-C.** Son surnom, *Africanus*, rappelle cette victoire.
+- **Caton l'Ancien** (234-149 av. J.-C.) : issu d'une famille de paysans, il devient consul, puis **censeur** en **184 av. J.-C.** Très sévère, il défend les vieilles valeurs (le *mos maiorum*), la vie simple, et se méfie du luxe venu de Grèce. Selon la tradition, il terminait ses discours au Sénat par une phrase restée célèbre sous la forme ***Carthago delenda est***, « Carthage doit être détruite ».
+
+## Les réformateurs : les Gracques
+**Tiberius** et **Caius Gracchus** (les **Gracques**) sont deux frères, petits-fils de Scipion l'Africain par leur mère **Cornélie**. Devenus **tribuns de la plèbe** (Tiberius en **133 av. J.-C.**, Caius en 123 et 122), ils veulent donner des terres publiques aux citoyens pauvres. Une partie des sénateurs, qui occupent ces terres, s'y oppose violemment : Tiberius est tué en 133, Caius meurt en 121. C'est le début d'un siècle de **guerres civiles** (des Romains contre des Romains).
+
+>! **Anecdote** (racontée par l'écrivain Valère Maxime) : une dame riche montre ses bijoux à Cornélie et lui demande de montrer les siens. Cornélie attend le retour de ses fils de l'école, les montre et dit : ***Haec ornamenta mea sunt.*** (haec = ces ...-ci ; ornamentum, i, n. = l'ornement, le bijou ; meus, a, um = mon) → mot à mot « Ces bijoux-ci sont les miens », c'est-à-dire « Voici mes bijoux. » (C'est la forme habituelle de la citation ; Valère Maxime écrit exactement *haec ornamenta sunt mea*.) *Ornamenta* est un nominatif neutre pluriel, comme *templa* ; *mea* s'accorde avec lui.
+
+## Les généraux tout-puissants (Ier siècle av. J.-C.)
+| Personnage | Ce qu'il fait |
+|---|---|
+| **Marius** | général venu du peuple, il réorganise l'armée ; il est **consul sept fois**, ce qui est contraire à la tradition |
+| **Sylla** | rival de Marius, il marche sur Rome avec son armée et se fait nommer **dictateur** (82-79 av. J.-C.) sans limite de six mois ; il fait tuer ses ennemis (les **proscriptions**) |
+| **Pompée** | grand général (contre les pirates, en Orient), d'abord allié puis ennemi de César |
+| **Cicéron** | le plus grand **orateur** de Rome ; consul en **63 av. J.-C.**, il dénonce le complot de **Catilina**, qui voulait prendre le pouvoir par la force ; il est tué en 43 av. J.-C. |
+| **Jules César** | conquiert la Gaule (58-51), franchit le **Rubicon** en 49 avec son armée (début de la guerre civile contre Pompée), devient **dictateur à vie** et est assassiné le **15 mars 44 av. J.-C.** (les **ides de mars**) par des sénateurs, dont **Brutus** et **Cassius** |
+| **Octave** | fils adoptif de César, il bat Antoine et Cléopâtre à **Actium** (31 av. J.-C.) ; en **27 av. J.-C.**, il reçoit le nom d'**Auguste** : c'est la fin de la République et le début de l'Empire |
+
+## Des mots restés célèbres
+- Cicéron contre Catilina, devant le Sénat (*Catilinaires*, I, 1-2) : ***Quo usque tandem abutere, Catilina, patientia nostra ?*** « Jusqu'à quand enfin, Catilina, abuseras-tu de notre patience ? » ; ***O tempora, o mores !*** « Ô temps, ô mœurs ! » (Quelle époque ! Quelles mœurs !)
+- César au Rubicon, selon l'historien Suétone : *Iacta alea est*, que l'on cite souvent sous la forme ***Alea iacta est***, « Le sort en est jeté » (alea = le dé).
+- César après une victoire éclair en Orient (47 av. J.-C.) : ***Veni, vidi, vici***, « Je suis venu, j'ai vu, j'ai vaincu ». Ces trois verbes sont au **parfait**, un temps du passé que tu découvriras dans le chapitre sur le parfait.
+
+>! **Méthode : présenter un personnage historique**
+>! 1. **Qui ?** Nom, époque (siècle, dates), fonction (consul, tribun, dictateur...).
+>! 2. **Qu'a-t-il fait ?** Deux ou trois actions importantes, avec les dates.
+>! 3. **Quel bilan ?** A-t-il servi la *res publica* ou l'a-t-il mise en danger ? Pourquoi les Romains s'en souvenaient-ils ?
+>! **Exemple résolu** : Jules César, général et homme politique du Ier siècle av. J.-C. Il conquiert la Gaule (Alésia, 52), puis franchit le Rubicon en 49 et l'emporte sur Pompée dans la guerre civile. Devenu dictateur à vie, il concentre tous les pouvoirs : pour des sénateurs attachés à la République, il ressemble à un roi, et ils l'assassinent aux ides de mars 44.
+
+> **À retenir** : Scipion l'Africain bat Hannibal (Zama, 202) ; Caton l'Ancien, censeur sévère (184), défenseur du *mos maiorum* ; les **Gracques**, tribuns réformateurs tués (133 et 121) ; Marius (sept fois consul) et Sylla (dictateur) ; **Cicéron**, orateur et consul (63), contre Catilina ; **César** : Rubicon (49), dictateur à vie, assassiné aux ides de mars **44 av. J.-C.** ; **Octave-Auguste** (27 av. J.-C.) : fin de la République.
+
+## Erreurs fréquentes
+- Croire que César était empereur : il était **dictateur à vie** ; le premier empereur est **Auguste**, son fils adoptif.
+- Confondre les deux **Brutus** : Lucius Junius Brutus chasse le roi Tarquin en 509 ; Marcus Junius Brutus participe à l'assassinat de César en 44, presque cinq siècles plus tard.
+- Croire que la République meurt d'un coup : elle s'affaiblit pendant un siècle de guerres civiles (des Gracques à Actium).
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quel général romain bat Hannibal à Zama en 202 av. J.-C. ?",
+          choix: ["Jules César", "Marius", "Scipion l'Africain", "Cicéron"],
+          reponse: 2,
+          explication: "Scipion, qui reçoit le surnom d'*Africanus* (l'Africain) pour cette victoire en Afrique. César, Marius et Cicéron vivent au siècle suivant.",
+        },
+        {
+          type: "saisie",
+          question: "Traduis la réponse de Cornélie : *Haec ornamenta mea sunt.* (haec = ces ...-ci ; ornamentum = le bijou ; meus = mon)",
+          reponses: ["voici mes bijoux", "ce sont mes bijoux", "ces bijoux sont les miens", "voilà mes bijoux", "voici mes ornements", "ce sont mes ornements", "ce sont là mes bijoux", "ces bijoux-ci sont les miens"],
+          explication: "*Ornamenta* : nominatif neutre pluriel (comme *templa*) ; *mea* s'accorde avec lui ; *sunt* = ils sont. *Haec* s'accorde aussi avec *ornamenta*. Mot à mot : « ces bijoux-ci sont les miens », c'est-à-dire « voici mes bijoux » : pour Cornélie, ses fils valent mieux que tous les bijoux.",
+        },
+        {
+          type: "vf",
+          question: "Jules César a été le premier empereur romain.",
+          reponse: false,
+          explication: "Faux : César est devenu **dictateur à vie**, puis il a été assassiné en 44 av. J.-C. Le premier empereur est son fils adoptif **Octave**, qui reçoit le nom d'**Auguste** en 27 av. J.-C.",
+        },
+        {
+          type: "qcm",
+          question: "Que voulaient faire les Gracques, tribuns de la plèbe ?",
+          choix: ["Rétablir la royauté à Rome", "Donner des terres publiques aux citoyens pauvres", "Supprimer le Sénat", "Détruire Carthage"],
+          reponse: 1,
+          explication: "Tiberius (133) puis Caius Gracchus voulaient partager des terres publiques entre les citoyens pauvres. Beaucoup de sénateurs, qui occupaient ces terres, s'y sont opposés : les deux frères ont été tués.",
+        },
+        {
+          type: "saisie",
+          question: "À quelle date (jour, mois, année) Jules César est-il assassiné ?",
+          reponses: ["15 mars 44 av. J.-C.", "15 mars 44 avant J.-C.", "le 15 mars 44 av. J.-C.", "15 mars 44", "les ides de mars 44 av. J.-C.", "les ides de mars 44", "aux ides de mars 44 av. J.-C."],
+          explication: "Le **15 mars 44 av. J.-C.**, jour des **ides de mars** dans le calendrier romain. Des sénateurs, dont Brutus et Cassius, le poignardent : ils l'accusent de vouloir devenir roi.",
+        },
+        {
+          type: "qcm",
+          question: "Qui prononce devant le Sénat la phrase *O tempora, o mores !* contre Catilina ?",
+          choix: ["Cicéron", "Caton l'Ancien", "Sylla", "Pompée"],
+          reponse: 0,
+          explication: "Cicéron, consul en 63 av. J.-C., dans le premier discours contre Catilina (*Catilinaires*, I, 2) : « Ô temps, ô mœurs ! » Il dénonce le complot de Catilina pour prendre le pouvoir.",
+        },
+        {
+          type: "vf",
+          question: "Le Brutus qui participe à l'assassinat de César est le même homme que celui qui a chassé le roi Tarquin.",
+          reponse: false,
+          explication: "Faux : Lucius Junius Brutus chasse Tarquin en 509 av. J.-C. ; Marcus Junius Brutus participe au meurtre de César en 44 av. J.-C., presque cinq siècles plus tard. Les conjurés aimaient cependant rappeler ce nom de « libérateur ».",
+        },
+        {
+          type: "qcm",
+          question: "Pourquoi Sylla et César inquiètent-ils les défenseurs de la République ?",
+          choix: ["Parce qu'ils refusent d'être consuls", "Parce qu'ils sont plébéiens", "Parce qu'ils gardent le pouvoir de dictateur bien au-delà de six mois", "Parce qu'ils perdent toutes leurs batailles"],
+          reponse: 2,
+          explication: "La dictature devait durer six mois au plus. Sylla la garde plusieurs années (82-79 av. J.-C.) et César devient même **dictateur à vie** : un seul homme concentre tous les pouvoirs, comme un roi.",
+        },
+        {
+          type: "saisie",
+          question: "Avec quelle formule latine César aurait-il annoncé une victoire éclair, en trois verbes ? (écris-la en latin)",
+          reponses: ["veni, vidi, vici", "veni vidi vici"],
+          explication: "*Veni, vidi, vici* : « Je suis venu, j'ai vu, j'ai vaincu » (47 av. J.-C.). Trois verbes au **parfait**, 1re personne du singulier, qui commencent tous par v- et finissent par -i.",
+        },
+        {
+          type: "redaction",
+          question: "Présente en une dizaine de lignes deux grandes figures de la République romaine : un homme qui a servi la *res publica* et un homme qui l'a mise en danger. Justifie ton choix.",
+          corrige: `
+**Un serviteur de la res publica : Cicéron.** Avocat et orateur du Ier siècle av. J.-C., Cicéron gravit le *cursus honorum* jusqu'au consulat, en 63 av. J.-C. Cette année-là, il découvre le complot de Catilina, qui voulait prendre le pouvoir par la force, et le dénonce devant le Sénat (« Ô temps, ô mœurs ! »). Il défend toute sa vie les institutions de la République, ce qui lui coûte la vie : il est tué en 43 av. J.-C. (On pouvait aussi choisir Cincinnatus, Scipion ou Caton.)
+
+**Un homme qui l'a mise en danger : Jules César.** Grand général, il conquiert la Gaule (58-51 av. J.-C.). En 49, il franchit le Rubicon avec son armée, ce qui est interdit : c'est le début d'une guerre civile contre Pompée. Vainqueur, il se fait nommer dictateur à vie, alors que la dictature devait durer six mois au plus. Des sénateurs, dont Brutus, l'assassinent aux ides de mars 44 av. J.-C. (On pouvait aussi choisir Sylla.)
+
+**Bilan** : les Romains admiraient ceux qui faisaient passer la *res publica* avant leur intérêt personnel et redoutaient ceux qui voulaient garder le pouvoir pour eux seuls, comme un roi.
+
+>! Critères : deux personnages bien situés (époque, fonction) ; deux ou trois faits datés pour chacun ; justification liée aux valeurs de la République (pouvoir partagé et limité dans le temps).
+`,
+        },
+      ],
+    },
+    {
+      id: "maitres-esclaves",
+      titre: "Maîtres et esclaves",
+      theme: "Vie privée et vie publique",
+      cours: `
+## Une société esclavagiste
+À Rome, comme dans tout le monde antique, l'esclavage est partout. Sous la fin de la République et au début de l'Empire, les historiens estiment qu'une part importante de la population de l'Italie est esclave (les chiffres exacts sont discutés). Un esclave (*servus*, au féminin *serva* ou *ancilla*) n'est pas une personne aux yeux de la loi : il **appartient** à son maître (*dominus*) ou à sa maîtresse (*domina*), comme un objet ou un animal. Il ne peut ni posséder légalement, ni se marier légalement, ni porter les trois noms du citoyen.
+
+## Comment devient-on esclave ?
+- **Prisonnier de guerre** : c'est la source principale. Après chaque conquête, des milliers de vaincus sont vendus.
+- **Enfant d'une esclave** : il naît esclave (on l'appelle *verna*, l'esclave né dans la maison).
+- **Enfant abandonné**, recueilli puis vendu ; victime de **pirates** ou de brigands.
+- Au début de la République, un citoyen pouvait devenir esclave pour **dettes** ; cette pratique est abolie pour les citoyens à la fin du IVe siècle av. J.-C.
+
+Les esclaves sont vendus au **marché**, exposés sur une estrade, avec un écriteau autour du cou qui indique leur origine, leurs qualités et leurs défauts.
+
+## Des vies très différentes
+- La ***familia rustica*** travaille dans les grands domaines agricoles : vie très dure, souvent enchaînés, surveillés par un régisseur (lui-même esclave, le *vilicus*). Le travail dans les **mines** est le pire de tous.
+- La ***familia urbana*** sert dans la *domus* en ville : cuisiniers, porteurs de litière, coiffeuses, nourrices, le *paedagogus* qui accompagne les enfants ; certains esclaves instruits, souvent grecs, sont **secrétaires**, **médecins** ou **précepteurs**.
+- Certains deviennent **gladiateurs**.
+
+Le sort d'un esclave dépend donc beaucoup de son travail et de son maître. Le maître a tous les droits sur lui : il peut le frapper, le vendre, le punir très durement. Le sévère **Caton l'Ancien** conseillait même, dans son traité sur l'agriculture, de vendre les esclaves **vieux ou malades** comme du matériel usé. En décembre, pendant la fête des **Saturnales**, l'ordre est renversé pour quelques jours : les esclaves peuvent parler librement, et des maîtres les servent parfois à table.
+
+## Les révoltes : Spartacus
+La plus célèbre révolte est celle de **Spartacus**, un gladiateur venu de Thrace. En **73 av. J.-C.**, il s'enfuit d'une école de gladiateurs de **Capoue** avec quelques dizaines de compagnons. Des dizaines de milliers d'esclaves le rejoignent et battent plusieurs armées romaines. En **71 av. J.-C.**, le général **Crassus** écrase les révoltés ; Spartacus meurt au combat, et environ **6 000** prisonniers sont crucifiés le long de la **via Appia**, pour effrayer les autres esclaves.
+
+## L'affranchissement
+Un maître peut **affranchir** (libérer) son esclave, pour le récompenser ou par testament, à sa mort. L'esclave peut aussi racheter sa liberté avec l'argent qu'il a économisé (son pécule). L'**affranchi** (*libertus*, *liberta*) porte un **bonnet** (le *pileus*), symbole de la liberté. Affranchi par un citoyen, il devient citoyen à son tour et prend le prénom et le nom de son ancien maître (tu te souviens de Tiron, devenu Marcus Tullius Tiro). Mais il reste lié à lui : son ancien maître devient son **patron**, et l'affranchi lui doit respect et services. Ses enfants, eux, sont des citoyens comme les autres : le père du poète **Horace** était un affranchi.
+
+## Un philosophe contre le mépris : Sénèque
+Au Ier siècle ap. J.-C., le philosophe **Sénèque** écrit à son ami Lucilius (*Lettres à Lucilius*, 47, 1) :
+
+***« Servi sunt. » Immo homines. « Servi sunt. » Immo contubernales. « Servi sunt. » Immo humiles amici.***
+(immo = bien plus, au contraire ; homo, hominis, m. = l'être humain ; contubernalis, is, m. = le compagnon qui partage le même toit ; humilis = humble, modeste)
+→ « "Ce sont des esclaves." Non, ce sont des hommes. "Ce sont des esclaves." Non, des compagnons qui vivent sous notre toit. "Ce sont des esclaves." Non, d'humbles amis. »
+
+Sénèque demande de **bien traiter** les esclaves, mais il ne demande pas la fin de l'esclavage : personne, dans l'Antiquité romaine, ne la réclame vraiment.
+
+## Des mots latins
+| Latin | Sens | Mot français |
+|---|---|---|
+| servus, i, m. / serva, ae, f. | l'esclave | servir, servile, serviteur |
+| ancilla, ae, f. | la servante | ancillaire |
+| dominus, i, m. / domina, ae, f. | le maître / la maîtresse | dominer, domination, dame (de *domina*) |
+| liber, libera, liberum | libre | libérer, liberté |
+| libertus, i, m. | l'affranchi | |
+| captivus, i, m. | le prisonnier | captif, captivité |
+
+>! **Exemple résolu** : traduis *Dominus bonus servum liberat.* (liberare, 1re conj. = libérer)
+>! *Dominus* : nominatif, sujet ; *bonus* s'accorde avec lui ; *servum* : accusatif, COD ; *liberat* : 3e pers. du sing. du présent.
+>! → « Le bon maître libère l'esclave. »
+
+> **À retenir** : l'esclave (*servus*) appartient à son maître (*dominus*) comme un objet. On devient esclave surtout comme **prisonnier de guerre**, ou par la naissance. *Familia rustica* (champs, vie dure) et *familia urbana* (maison). Révolte de **Spartacus** (73-71 av. J.-C.), écrasée par Crassus. L'**affranchi** (*libertus*) devient citoyen mais reste lié à son ancien maître, son patron. Sénèque : *Servi sunt. Immo homines.*
+
+## Erreurs fréquentes
+- Croire que les esclaves romains étaient choisis selon leur couleur de peau : à Rome, n'importe qui pouvait devenir esclave (Gaulois, Grecs, Thraces, Syriens...), surtout après une défaite.
+- Croire que tous les esclaves avaient la même vie : un secrétaire instruit et un esclave des mines vivaient très différemment.
+- Croire que Sénèque ou Spartacus voulaient abolir l'esclavage : Sénèque demande seulement l'humanité ; Spartacus cherchait d'abord à libérer ses compagnons et à fuir.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quelle est la principale façon de devenir esclave dans le monde romain ?",
+          choix: ["Être né en Afrique", "Être fait prisonnier pendant une guerre", "Refuser de payer ses impôts", "Ne pas savoir lire"],
+          reponse: 1,
+          explication: "La guerre : après chaque conquête, les vaincus sont vendus comme esclaves. On peut aussi naître esclave (enfant d'une esclave) ou être enlevé par des pirates. L'origine géographique ou la couleur de peau ne comptent pas.",
+        },
+        {
+          type: "saisie",
+          question: "Comment appelle-t-on en latin le maître d'un esclave ? (au nominatif)",
+          reponses: ["dominus"],
+          explication: "*Dominus, i, m.* (au féminin *domina*, la maîtresse). Mots français : dominer, domination.",
+        },
+        {
+          type: "vf",
+          question: "Tous les esclaves romains menaient la même vie, très dure, dans les champs.",
+          reponse: false,
+          explication: "Faux : la *familia rustica* (champs, mines) a une vie très dure ; la *familia urbana* sert dans la maison en ville, et certains esclaves instruits sont secrétaires, médecins ou précepteurs. Mais tous restent la propriété de leur maître.",
+        },
+        {
+          type: "saisie",
+          question: "Traduis : *Dominus bonus servum liberat.* (liberare = libérer)",
+          reponses: ["le bon maître libère l'esclave", "le bon maître libère son esclave", "un bon maître libère l'esclave", "un bon maître libère son esclave", "le bon maître libère un esclave", "le maître bon libère l'esclave", "le bon maître affranchit l'esclave", "le bon maître affranchit son esclave"],
+          explication: "*Dominus* (nominatif, sujet) *bonus* (accordé avec *dominus*) *servum* (accusatif, COD) *liberat* (il libère). « Le bon maître libère l'esclave. »",
+        },
+        {
+          type: "qcm",
+          question: "Qui est Spartacus ?",
+          choix: ["Un consul qui a aboli l'esclavage", "Un philosophe ami de Sénèque", "Un gladiateur qui a mené une grande révolte d'esclaves", "Un affranchi devenu sénateur"],
+          reponse: 2,
+          explication: "Spartacus, gladiateur thrace, s'enfuit de Capoue en 73 av. J.-C. et entraîne des dizaines de milliers d'esclaves. Crassus écrase la révolte en 71 av. J.-C.",
+        },
+        {
+          type: "saisie",
+          question: "Quel objet, porté sur la tête, est le symbole de l'affranchi ?",
+          reponses: ["le bonnet", "un bonnet", "bonnet", "le pileus", "pileus", "un pileus", "le bonnet pileus", "le pileus, un bonnet"],
+          explication: "Le **bonnet** (*pileus*). Bien plus tard, pendant la Révolution française, le bonnet phrygien est devenu un symbole de liberté en s'inspirant de lui.",
+        },
+        {
+          type: "vf",
+          question: "Un esclave affranchi par un citoyen romain devient lui-même citoyen, mais il reste lié à son ancien maître.",
+          reponse: true,
+          explication: "Vrai : il prend le prénom et le nom de son ancien maître, qui devient son **patron** ; l'affranchi lui doit respect et services. Ses enfants sont des citoyens comme les autres.",
+        },
+        {
+          type: "qcm",
+          question: "Dans la phrase de Sénèque *« Servi sunt. » Immo homines.*, que veut montrer le philosophe ?",
+          choix: ["Que les esclaves doivent travailler davantage", "Que les esclaves sont d'abord des êtres humains et doivent être bien traités", "Que les esclaves doivent tous être libérés tout de suite", "Que les esclaves sont plus heureux que leurs maîtres"],
+          reponse: 1,
+          explication: "« Ce sont des esclaves. — Non, ce sont des hommes. » Sénèque rappelle l'humanité des esclaves et demande de bien les traiter, mais il ne réclame pas la fin de l'esclavage.",
+        },
+        {
+          type: "saisie",
+          question: "Traduis : *Ancillae dominam amant.* (ancilla = la servante ; domina = la maîtresse)",
+          reponses: ["les servantes aiment la maîtresse", "les servantes aiment leur maîtresse", "des servantes aiment la maîtresse", "les servantes aiment la maîtresse de maison", "les servantes aiment leur maîtresse de maison"],
+          explication: "*Ancillae* : nominatif pluriel (1re déclinaison), sujet ; *dominam* : accusatif singulier, COD ; *amant* : ils / elles aiment. « Les servantes aiment leur maîtresse. »",
+        },
+        {
+          type: "redaction",
+          question: "Tu es un esclave de la *familia urbana* d'une riche *domus* de Rome, au Ier siècle av. J.-C. En une dizaine de lignes, raconte d'où tu viens, ton travail, tes relations avec ton maître et ton espoir. Utilise au moins quatre mots latins du cours.",
+          corrige: `
+**Exemple de récit** : Je m'appelle Philon. Je suis né en Grèce, libre ; mais quand les légions ont pris ma ville, j'ai été fait prisonnier et vendu au marché de Rome, exposé sur une estrade, un écriteau autour du cou. Comme je sais lire et écrire le grec, mon *dominus*, un riche sénateur, m'a acheté cher : je suis son secrétaire. Je fais partie de la *familia urbana* de sa *domus* : je ne travaille pas dans les champs, comme les malheureux de la *familia rustica*, mais je n'ai aucun droit. Mon maître peut me vendre ou me faire fouetter s'il le veut. Il me traite plutôt bien, et je mets de côté chaque pièce de mon pécule. Pendant les Saturnales, en décembre, j'ai même dîné à sa table ! Mon espoir : être affranchi. Je porterai alors le bonnet (*pileus*) de l'affranchi, je deviendrai *libertus* et citoyen, et je prendrai le nom de mon maître, qui deviendra mon patron. Mes enfants, eux, seront libres.
+
+>! Critères : origine plausible (guerre, naissance...) ; travail de la *familia urbana* ; absence de droits face au *dominus* ; affranchissement (pécule, *pileus*, patron) ; au moins quatre mots latins bien employés.
+`,
+        },
+      ],
+    },
+    {
+      id: "theatre-romain",
+      titre: "Le théâtre à Rome",
+      theme: "Vie privée et vie publique",
+      cours: `
+## Un spectacle venu de Grèce
+Les Romains découvrent le théâtre grâce aux Grecs. En **240 av. J.-C.**, un ancien esclave grec, **Livius Andronicus**, fait jouer à Rome la première pièce en latin, adaptée d'une pièce grecque. Le théâtre fait partie des **jeux publics** (*ludi*), organisés lors des fêtes religieuses par les magistrats (les édiles) : l'entrée est **gratuite**.
+
+## Le bâtiment
+Pendant longtemps, on joue sur des scènes **en bois**, démontées après les jeux. Le premier théâtre **en pierre** de Rome est construit par **Pompée** en **55 av. J.-C.** Ensuite, on en bâtit dans tout l'Empire ; en France, celui d'**Orange** (construit à l'époque d'Auguste) a gardé son immense mur de scène.
+
+| Partie | Description |
+|---|---|
+| **cavea** | les gradins, en demi-cercle ; les meilleures places sont en bas |
+| **orchestra** | le demi-cercle au pied des gradins, réservé aux sièges des sénateurs |
+| **scaena** | la scène, plateau surélevé où jouent les acteurs (mot français : scène) |
+| **frons scaenae** | le mur de scène, décoré de colonnes et de statues, avec trois portes |
+| **velum** | une grande toile tendue au-dessus des gradins pour protéger du soleil |
+
+## Les acteurs et les masques
+Les acteurs sont **tous des hommes** : ils jouent aussi les rôles de femmes. Ce sont souvent des **esclaves** ou des **affranchis**, peu respectés, même si certains deviennent des vedettes. Ils portent des **masques** qui montrent tout de suite le type du personnage (vieillard, jeune homme, esclave...). Le masque se dit ***persona*** : c'est l'origine de nos mots « **personne** » et « **personnage** ».
+
+## La comédie : Plaute et Térence
+Le genre préféré du public est la **comédie**. Ses deux grands auteurs sont :
+- **Plaute** (vers 254-184 av. J.-C.) : une vingtaine de comédies conservées, pleines de jeux de mots, de quiproquos, de bagarres et de chansons ;
+- **Térence** (IIe siècle av. J.-C.), ancien esclave venu d'Afrique : six comédies, plus fines et plus calmes.
+
+Les comédies racontent presque toujours la même histoire : un **jeune homme** (*adulescens*) amoureux veut épouser une jeune fille, mais son **vieux père** (*senex*), avare ou sévère, s'y oppose ; un **esclave rusé** (*servus callidus*) invente des tours pour aider son jeune maître et ridiculiser le vieillard. On y rencontre aussi le **soldat fanfaron** (*miles gloriosus*), qui se vante de ses exploits imaginaires, et le **parasite**, qui flatte les riches pour être invité à dîner. À la fin, tout s'arrange, et un acteur lance au public : ***Plaudite !***, « Applaudissez ! » (impératif pluriel de *plaudere*).
+
+>! **Exemple** : dans l'*Aulularia* (*La Marmite*) de Plaute, le vieil avare **Euclion** a trouvé une marmite pleine d'or et passe son temps à la cacher, persuadé que tout le monde veut la lui voler. **Molière** s'en est inspiré pour **L'Avare** (1668), avec son personnage d'Harpagon. Il a aussi repris l'*Amphitryon* de Plaute.
+
+## Et la tragédie ?
+Les Romains ont aussi écrit des **tragédies**, inspirées des mythes grecs. Les seules qui nous restent en entier sont celles du philosophe **Sénèque** (Ier siècle ap. J.-C.) : *Médée*, *Phèdre*... Racine s'en est souvenu pour sa *Phèdre*.
+
+## Deux phrases célèbres
+- Plaute, *Asinaria* (*La Comédie des ânes*), v. 495 : ***Lupus est homo homini.*** (lupus, i, m. = le loup ; homo, hominis, m. = l'homme ; homini = pour l'homme, datif) → « L'homme est un loup pour l'homme. » (Chez Plaute, la suite du vers précise : quand il ne le connaît pas.)
+- Térence, *L'Homme qui se punit lui-même*, v. 77 : ***Homo sum : humani nihil a me alienum puto.*** → « Je suis un homme : je considère que rien de ce qui est humain ne m'est étranger. »
+
+> **À retenir** : première pièce en latin en **240 av. J.-C.** ; spectacles gratuits pendant les **ludi** ; premier théâtre en pierre à Rome : **Pompée**, 55 av. J.-C. ; *cavea*, *orchestra*, *scaena*, *frons scaenae*. Acteurs masculins et masqués (*persona* → personne). Comédie : **Plaute** et **Térence** ; personnages types : *adulescens*, *senex*, *servus callidus*, *miles gloriosus*. Molière s'inspire de Plaute (*L'Avare*). Tragédies de **Sénèque**.
+
+## Erreurs fréquentes
+- Croire que des actrices jouaient les rôles de femmes : dans la comédie et la tragédie, tous les acteurs sont des hommes.
+- Confondre le **théâtre** (en demi-cercle, pour les pièces), l'**amphithéâtre** (en ovale fermé, pour les gladiateurs, comme le Colisée) et le **cirque** (piste allongée, pour les courses de chars).
+- Croire que l'*orchestra* romaine accueille des musiciens : elle reçoit les sièges des sénateurs.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Quel bâtiment romain est destiné aux pièces de théâtre ?",
+          choix: ["L'amphithéâtre, comme le Colisée", "Le cirque, comme le Circus Maximus", "La basilique", "Le théâtre, en demi-cercle"],
+          reponse: 3,
+          explication: "Le théâtre, avec ses gradins en demi-cercle face à la scène. L'amphithéâtre (ovale) accueille les gladiateurs, le cirque les courses de chars, la basilique les tribunaux et les affaires.",
+        },
+        {
+          type: "saisie",
+          question: "Quel mot latin désigne le masque de l'acteur, et a donné le mot français « personne » ?",
+          reponses: ["persona"],
+          explication: "*Persona*, le masque de théâtre, puis le rôle, le personnage : d'où « personne » et « personnage ».",
+        },
+        {
+          type: "vf",
+          question: "Dans le théâtre romain, les rôles de femmes étaient joués par des hommes.",
+          reponse: true,
+          explication: "Vrai : tous les acteurs de comédie et de tragédie sont des hommes, souvent des esclaves ou des affranchis, et le masque permet de jouer un personnage féminin.",
+        },
+        {
+          type: "qcm",
+          question: "Quel personnage type de la comédie romaine invente des ruses pour aider son jeune maître amoureux ?",
+          choix: ["Le *senex*, le vieillard", "Le *servus callidus*, l'esclave rusé", "Le *miles gloriosus*, le soldat fanfaron", "Le parasite"],
+          reponse: 1,
+          explication: "Le *servus callidus* (*callidus* = rusé, habile). Le *senex* est le vieux père qu'il trompe ; le *miles gloriosus* se vante de faux exploits ; le parasite flatte pour être invité.",
+        },
+        {
+          type: "saisie",
+          question: "Quel auteur français du XVIIe siècle a écrit *L'Avare* en s'inspirant de *La Marmite* de Plaute ?",
+          reponses: ["Molière", "Jean-Baptiste Poquelin", "Jean-Baptiste Poquelin dit Molière"],
+          explication: "**Molière**, en 1668 : son Harpagon ressemble à Euclion, le vieil avare de Plaute qui cache sa marmite pleine d'or.",
+        },
+        {
+          type: "saisie",
+          question: "Traduis la formule de Plaute : *Lupus est homo homini.* (lupus = le loup ; homo = l'homme ; homini = pour l'homme)",
+          reponses: ["l'homme est un loup pour l'homme", "un homme est un loup pour un homme", "l'homme est un loup pour un homme", "un homme est un loup pour l'homme"],
+          explication: "*Homo* est au nominatif : c'est le sujet ; *lupus* est attribut (avec *est*) ; *homini* est au datif : « pour l'homme ». Attention : le sujet n'est pas *lupus*, même s'il vient en premier, car l'ordre des mots latins est libre.",
+        },
+        {
+          type: "qcm",
+          question: "Que signifie *Plaudite !*, que lance un acteur à la fin d'une comédie ?",
+          choix: ["Taisez-vous !", "Applaudissez !", "Partez !", "Riez !"],
+          reponse: 1,
+          explication: "*Plaudite* est l'impératif pluriel de *plaudere*, applaudir (d'où « applaudir », « plausible »). La pièce est finie : c'est le moment d'applaudir.",
+        },
+        {
+          type: "vf",
+          question: "Le premier théâtre en pierre de Rome a été construit dès la fondation de la ville, au VIIIe siècle av. J.-C.",
+          reponse: false,
+          explication: "Faux : le premier théâtre en pierre de Rome date de **55 av. J.-C.** (théâtre de Pompée). Avant, on jouait sur des scènes en bois démontées après les jeux. La première pièce en latin date de 240 av. J.-C.",
+        },
+        {
+          type: "qcm",
+          question: "Dans le théâtre romain, à quoi sert l'*orchestra* ?",
+          choix: ["À accueillir les musiciens de l'orchestre", "À cacher les acteurs qui changent de costume", "À protéger les spectateurs du soleil", "À accueillir les sièges des sénateurs"],
+          reponse: 3,
+          explication: "L'*orchestra* romaine, au pied des gradins, reçoit les sièges des sénateurs. Les acteurs jouent sur la *scaena* ; c'est le *velum* qui protège du soleil.",
+        },
+        {
+          type: "redaction",
+          question: "Imagine une courte scène de comédie à la manière de Plaute (8 à 12 répliques) entre un vieil avare (*senex*) et son esclave rusé (*servus callidus*), qui veut l'empêcher de découvrir un secret de son fils. Termine par la formule finale des comédies romaines.",
+          corrige: `
+**Exemple de scène** (Rome, devant la maison du vieillard Chrémès)
+
+CHRÉMÈS. — Tranion ! Où est mon fils ? Et où sont passées les trente pièces d'or que je gardais dans mon coffre ?
+TRANION, *à part*. — Aïe, aïe, aïe... Le vieux a compté son or. Vite, une ruse ! (*Haut*) Maître, une catastrophe ! Un fantôme habite votre coffre !
+CHRÉMÈS. — Un fantôme ? Tu te moques de moi, coquin !
+TRANION. — Je l'ai vu de mes yeux : il mange l'or la nuit. Votre fils, courageux comme Hercule, est parti chez le prêtre pour le chasser.
+CHRÉMÈS. — Et qui paie le prêtre ?
+TRANION. — Eh bien... le fantôme a déjà payé, avec vos trente pièces.
+CHRÉMÈS. — Malheur ! Je suis ruiné ! Je cours au forum chercher mon fils !
+TRANION, *seul*. — Cours, cours, vieux grigou ! Pendant ce temps, ton fils épouse la jolie Philénie avec ton or. Et si on me fouette demain, au moins j'aurai bien ri aujourd'hui.
+TRANION, *au public*. — Spectateurs, la pièce est finie : *Plaudite !*
+
+>! Critères : personnages types reconnaissables (vieillard avare, esclave rusé, jeune homme amoureux évoqué) ; une ruse et un quiproquo comiques ; répliques vivantes, apartés ; formule finale *Plaudite !*
+`,
+        },
+      ],
+    },
+    {
+      id: "legendes-fondation",
+      titre: "D'autres légendes de fondation : Carthage, Marseille, Athènes",
+      theme: "Le monde méditerranéen antique",
+      cours: `
+## Pourquoi raconter la fondation d'une ville ?
+Tu connais la fondation de Rome par Romulus. Les autres peuples de la Méditerranée racontaient eux aussi comment leur ville était née. Ces **légendes de fondation** expliquent le nom de la ville, ses coutumes, ses dieux protecteurs, et donnent aux habitants une origine **glorieuse**.
+
+## Carthage et la ruse de Didon
+**Didon** (appelée aussi **Élissa**) est une princesse de **Tyr**, en **Phénicie** (l'actuel Liban). Son frère, le roi Pygmalion, tue son mari Sychée pour s'emparer de ses richesses. Didon s'enfuit par la mer avec des compagnons fidèles et arrive sur la côte de l'Afrique du Nord (l'actuelle **Tunisie**). Le roi du pays accepte de lui vendre seulement **autant de terre que peut en couvrir une peau de bœuf**. Rusée, Didon découpe la peau en lanières très fines et entoure toute une colline ! Cette colline s'appelle **Byrsa** (en grec, *byrsa* = le cuir). Date traditionnelle de la fondation : **814 av. J.-C.** Le nom de la ville, *Qart Hadasht* en phénicien, signifie « **Ville nouvelle** » ; les Romains l'appellent ***Carthago***.
+
+Le poète **Virgile** relie cette légende à celle de Rome : dans l'*Énéide*, Énée fait escale à Carthage et Didon tombe amoureuse de lui. Mais les dieux ordonnent à Énée de repartir vers l'Italie. Désespérée, Didon se donne la mort et maudit les descendants d'Énée : la légende explique ainsi la **haine entre Rome et Carthage**, qui conduira aux guerres puniques.
+
+>! **Lecture** : Virgile, *Énéide*, I, 12-13 : ***Urbs antiqua fuit (Tyrii tenuere coloni), Karthago...***
+>! (urbs = la ville ; antiquus, a, um = ancien ; fuit = il y eut, elle était (parfait de *esse*) ; Tyrii = les Tyriens, gens de Tyr ; tenuere = occupèrent ; colonus, i, m. = le colon)
+>! → « Il y avait une ville ancienne (des colons tyriens l'occupèrent), Carthage... »
+
+## Marseille et le choix de Gyptis
+Vers **600 av. J.-C.**, des marins grecs venus de **Phocée** (une ville grecque d'Asie Mineure, l'actuelle Turquie) arrivent sur la côte de la Gaule, conduits par **Protis**. Selon la légende, rapportée par l'historien latin Justin, ils débarquent le jour où **Nannos**, roi des Ségobriges, un peuple de la région, marie sa fille **Gyptis**. La coutume veut que la jeune fille choisisse elle-même son époux pendant le banquet, en lui tendant une **coupe**. Gyptis tend la coupe à Protis, l'étranger ! Le roi donne alors au couple un terrain pour fonder une ville : ***Massalia***, en latin *Massilia*, notre **Marseille**.
+
+## Athènes : le concours des dieux
+À Athènes, on racontait que deux dieux se disputaient la ville : **Poséidon**, dieu de la mer, et **Athéna**, déesse de la sagesse. Ils offrent chacun un cadeau aux habitants. D'un coup de trident sur le rocher de l'Acropole, Poséidon fait jaillir une source d'**eau salée** ; Athéna fait pousser le premier **olivier**. On juge le cadeau d'Athéna plus utile (bois, olives, huile) : elle devient la protectrice de la ville, qui porte son nom.
+
+## Les points communs des légendes de fondation
+| | Rome | Carthage | Marseille | Athènes |
+|---|---|---|---|---|
+| fondateur | Romulus (descendant d'Énée, un Troyen exilé) | Didon, princesse exilée | Protis, marin venu de Phocée | (la déesse Athéna, protectrice) |
+| intervention divine | Mars, père des jumeaux ; la louve | les dieux font partir Énée | — | concours de deux dieux |
+| épisode marquant | meurtre de Rémus | ruse de la peau de bœuf | choix de Gyptis | l'olivier contre la source |
+
+On y retrouve souvent : un **héros venu d'ailleurs**, exilé ou voyageur ; un **signe divin** ou l'aide des dieux ; une **ruse** ou un exploit ; parfois un **mariage** avec une princesse du pays (Protis et Gyptis ; Énée, lui, épouse Lavinia, fille du roi Latinus, dans le Latium). Ces récits ne sont pas de l'histoire, mais ils gardent parfois un souvenir réel : Carthage a bien été fondée par des Phéniciens de Tyr, et Marseille par des Grecs de Phocée.
+
+> **À retenir** : **Carthage**, fondée par **Didon**, princesse de Tyr (814 av. J.-C., date traditionnelle) : ruse de la **peau de bœuf** (colline de Byrsa) ; chez Virgile, Didon aime Énée et maudit ses descendants. **Marseille** (*Massalia*), fondée vers **600 av. J.-C.** par les Grecs de **Phocée** : Protis et Gyptis. **Athènes** : concours entre Athéna (l'olivier) et Poséidon (la source). Points communs : héros venu d'ailleurs, aide des dieux, ruse, mariage.
+
+## Erreurs fréquentes
+- Croire que Carthage a été fondée par les Romains : elle est **phénicienne**, plus ancienne que Rome selon les dates traditionnelles (814 contre 753 av. J.-C.).
+- Croire que Marseille est une ville romaine à l'origine : c'est une **colonie grecque**, devenue romaine bien plus tard.
+- Prendre ces légendes pour des faits historiques : ce sont des récits, écrits souvent bien après les événements.
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "D'où vient Didon, la fondatrice légendaire de Carthage ?",
+          choix: ["De Troie", "De Phocée, en Asie Mineure", "De Tyr, en Phénicie", "D'Athènes"],
+          reponse: 2,
+          explication: "Didon est une princesse de **Tyr**, en Phénicie (l'actuel Liban). Énée vient de Troie, Protis de Phocée.",
+        },
+        {
+          type: "saisie",
+          question: "Avec quelle peau d'animal Didon a-t-elle obtenu, par la ruse, la colline de Byrsa ?",
+          reponses: ["une peau de bœuf", "la peau de bœuf", "peau de bœuf", "peau de boeuf", "bœuf", "boeuf", "une peau de boeuf", "la peau d'un bœuf", "la peau d'un boeuf", "une peau de taureau", "taureau"],
+          explication: "Une **peau de bœuf**, découpée en fines lanières pour entourer toute une colline : Byrsa, « le cuir » en grec. (Virgile parle d'une peau de taureau.)",
+        },
+        {
+          type: "vf",
+          question: "Selon les dates traditionnelles, Carthage a été fondée avant Rome.",
+          reponse: true,
+          explication: "Vrai : 814 av. J.-C. pour Carthage, 753 av. J.-C. pour Rome. Ce sont des dates légendaires, mais l'archéologie confirme que Carthage est une très ancienne colonie phénicienne.",
+        },
+        {
+          type: "qcm",
+          question: "Selon la légende, comment Gyptis choisit-elle le Grec Protis pour époux ?",
+          choix: ["Elle lui tend une coupe pendant le banquet", "Elle lui offre une branche d'olivier", "Elle le choisit après une course de chars", "Son père le désigne par tirage au sort"],
+          reponse: 0,
+          explication: "Selon la coutume de son peuple, la fiancée choisit elle-même son époux pendant le banquet en lui tendant une coupe : Gyptis la tend à Protis, l'étranger venu de Phocée. Le roi Nannos leur donne un terrain pour fonder Marseille.",
+        },
+        {
+          type: "saisie",
+          question: "Quelle ville a été fondée vers 600 av. J.-C. par des Grecs venus de Phocée ? (son nom français)",
+          reponses: ["Marseille"],
+          explication: "**Marseille**, *Massalia* en grec, *Massilia* en latin : une colonie grecque, qui devient romaine bien plus tard.",
+        },
+        {
+          type: "qcm",
+          question: "Quel cadeau d'Athéna a convaincu les Athéniens de la choisir comme protectrice ?",
+          choix: ["Un cheval", "Une source d'eau salée", "Un olivier", "Une chouette d'or"],
+          reponse: 2,
+          explication: "Le premier **olivier**, jugé plus utile (bois, olives, huile) que la source d'eau salée que Poséidon avait fait jaillir sur l'Acropole.",
+        },
+        {
+          type: "saisie",
+          question: "Traduis le début de la phrase de Virgile : *Urbs antiqua fuit.* (urbs = la ville ; antiquus = ancien ; fuit = il y eut, elle était)",
+          reponses: ["il y avait une ville ancienne", "il y eut une ville ancienne", "il y avait une ville antique", "il y eut une ville antique", "il était une ville ancienne", "il était une ville antique", "une ville ancienne existait", "c'était une ville ancienne", "il y avait une cité ancienne", "il y avait une cité antique", "il y avait une antique cité", "il y avait une antique ville", "il était une antique cité", "il y avait une ancienne ville", "il y eut une ancienne ville", "une ancienne ville existait", "une ville ancienne a existé"],
+          explication: "*Urbs* : nominatif, sujet ; *antiqua* s'accorde avec *urbs* (féminin) ; *fuit* : parfait de *esse*, 3e pers. du sing. Avec un sujet seul, *esse* signifie « exister » : « Il y avait une ville ancienne », c'est Carthage.",
+        },
+        {
+          type: "vf",
+          question: "Dans l'*Énéide*, la légende de Didon et d'Énée sert à expliquer la haine entre Rome et Carthage.",
+          reponse: true,
+          explication: "Vrai : abandonnée par Énée, qui obéit aux dieux et part fonder la lignée des Romains, Didon se tue en maudissant ses descendants. Virgile donne ainsi une origine légendaire aux guerres puniques.",
+        },
+        {
+          type: "redaction",
+          question: "Compare en une dizaine de lignes la légende de la fondation de Rome et celle d'une autre ville (Carthage ou Marseille) : présente les deux récits, puis montre leurs points communs et leurs différences.",
+          corrige: `
+**Deux récits** : Rome aurait été fondée en 753 av. J.-C. par **Romulus**, fils du dieu Mars et descendant du Troyen Énée ; abandonné avec son jumeau Rémus, allaité par une louve, il trace l'enceinte de la ville sur le Palatin et tue son frère. **Carthage** aurait été fondée en 814 av. J.-C. par **Didon**, une princesse de Tyr qui fuit son frère, le roi Pygmalion, meurtrier de son mari ; arrivée en Afrique, elle obtient par la ruse de la peau de bœuf la colline de Byrsa.
+
+**Points communs** : dans les deux cas, la ville naît d'un **exil** (Énée a fui Troie, Didon a fui Tyr), d'un crime dans la famille royale (Amulius chasse son frère Numitor ; Pygmalion tue Sychée), et la fondation donne à la cité une **origine noble**, royale ou divine.
+
+**Différences** : Rome est fondée par un homme, fils d'un dieu, dans la violence (le meurtre de Rémus) ; Carthage par une femme qui réussit grâce à son **intelligence** (la ruse). Enfin, Virgile relie les deux légendes : la malédiction de Didon contre les descendants d'Énée annonce les guerres entre Rome et Carthage.
+
+>! Critères : deux récits exacts et datés (dates traditionnelles) ; au moins deux points communs (exil, crime familial, origine noble, aide des dieux) ; au moins une différence ; lien éventuel par Virgile.
+`,
+        },
+      ],
+    },
+    {
+      id: "perfectum-initiation",
+      titre: "Initiation au parfait (perfectum)",
+      theme: "Langue latine",
+      cours: `
+## Un nouveau temps du passé
+Tu connais deux temps : le **présent** (*amat*, il aime) et l'**imparfait** (*amabat*, il aimait). Ces deux temps sont formés sur le **radical du présent** : les grammairiens les appellent l'**infectum** (l'action « non achevée »). Retiens surtout l'idée : un verbe latin a **deux radicaux**, un pour le présent et l'imparfait, un autre pour le parfait.
+
+Le latin a aussi des temps formés sur un **autre radical**, le **radical du parfait** : c'est le **perfectum** (l'action « achevée »). Le plus courant est le **parfait** : *amavit*, « il a aimé » ou « il aima ».
+
+>! Ce chapitre est une **initiation** : le but est de **reconnaître** un parfait et de le **traduire**. Tu l'étudieras plus en détail en 4e.
+
+## Où trouver le radical du parfait ? Dans le dictionnaire !
+Un verbe latin est donné dans le dictionnaire avec plusieurs formes. Exemple : **amo, as, are, avi, atum** (aimer).
+- *amo* : j'aime (1re pers. du sing. du présent) ; *as* : tu aimes ; *are* : l'infinitif *amare* ;
+- ***avi*** = *amavi* : **j'ai aimé**, la 1re personne du singulier du **parfait**.
+
+Pour trouver le radical du parfait, tu enlèves le **-i** final de cette forme : *amav-i* → radical ***amav-***.
+
+| Verbe (dictionnaire) | Sens | Parfait (je) | Radical du parfait |
+|---|---|---|---|
+| amo, as, are, **avi**, atum | aimer | amavi | amav- |
+| moneo, es, ere, **monui**, monitum | avertir | monui | monu- |
+| habeo, es, ere, **habui**, habitum | avoir | habui | habu- |
+| dico, is, ere, **dixi**, dictum | dire | dixi | dix- |
+| venio, is, ire, **veni**, ventum | venir | veni | ven- |
+| video, es, ere, **vidi**, visum | voir | vidi | vid- |
+| vinco, is, ere, **vici**, victum | vaincre | vici | vic- |
+| do, das, dare, **dedi**, datum | donner | dedi | ded- |
+| sum, es, esse, **fui** | être | fui | fu- |
+
+Le radical du parfait est souvent **différent** du radical du présent (*vinc-* → *vic-* ; *d-* → *ded-* ; *s-* → *fu-*) : c'est pourquoi il faut l'apprendre avec le verbe.
+
+## Les désinences du parfait
+Elles sont **les mêmes pour tous les verbes**, et s'ajoutent au radical du parfait :
+
+| Personne | Désinence | amare | esse |
+|---|---|---|---|
+| je | **-i** | amav**i** | fu**i** |
+| tu | **-isti** | amav**isti** | fu**isti** |
+| il, elle | **-it** | amav**it** | fu**it** |
+| nous | **-imus** | amav**imus** | fu**imus** |
+| vous | **-istis** | amav**istis** | fu**istis** |
+| ils, elles | **-erunt** | amav**erunt** | fu**erunt** |
+
+Attention : la 3e personne du pluriel est en **-erunt** (*amaverunt*, ils ont aimé), à ne pas confondre avec *erant* (ils étaient, imparfait de *esse*).
+
+## Comment traduire ?
+Le parfait exprime une action **passée et achevée**. On le traduit par le **passé composé** (« il a vaincu ») ou par le **passé simple** (« il vainquit »), surtout dans un récit.
+
+L'imparfait, lui, exprime une action qui **dure** ou se **répète** dans le passé ; le parfait, une action **ponctuelle**, terminée :
+- *Cincinnatus in agro laborabat* (imparfait) : « Cincinnatus **travaillait** dans son champ » (l'action dure : c'est le décor) ;
+- *legati venerunt* (parfait) : « les envoyés **arrivèrent** » (l'événement soudain).
+- *Romani fortes fuerunt* (parfait de *esse*) : « les Romains **ont été** (ou **furent**) courageux » ; à l'imparfait, *Romani fortes erant* : « les Romains **étaient** courageux ».
+
+>! **Exemple résolu** : *Veni, vidi, vici* (César, 47 av. J.-C.).
+>! 1. Je repère la désinence **-i** : 1re personne du singulier du **parfait**.
+>! 2. Je retrouve le verbe grâce au dictionnaire : *veni* ← *venio* (venir) ; *vidi* ← *video* (voir) ; *vici* ← *vinco* (vaincre).
+>! 3. Je traduis au passé composé : « **Je suis venu, j'ai vu, j'ai vaincu.** »
+
+>! **Autre exemple** : *Caesar Gallos vicit.* (Galli, orum, m. pl. = les Gaulois) → *vicit* : désinence **-it**, 3e pers. du sing. du parfait de *vinco* → « César a vaincu les Gaulois » ou « César vainquit les Gaulois ».
+
+> **À retenir** : le **parfait** se forme sur le **radical du parfait**, donné par la 4e forme du dictionnaire (*amo, as, are, **avi**, atum* → *amav-*). Désinences : **-i, -isti, -it, -imus, -istis, -erunt**. *Sum* → *fui, fuisti, fuit, fuimus, fuistis, fuerunt*. On traduit par le **passé composé** ou le **passé simple** : action passée **achevée** (l'imparfait = action qui dure).
+
+## Erreurs fréquentes
+- Chercher le parfait sur le radical du présent : *vincit* (il vainc, présent) ≠ ***vicit*** (il a vaincu, parfait).
+- Confondre *fuerunt* (ils ont été, parfait) et *erant* (ils étaient, imparfait).
+- Traduire un parfait par un imparfait : *amavit* = « il a aimé », pas « il aimait » (*amabat*).
+`,
+      exercices: [
+        {
+          type: "qcm",
+          question: "Dans le dictionnaire, *video, es, ere, vidi, visum*, quelle forme est la 1re personne du singulier du parfait ?",
+          choix: ["video", "videre", "vidi", "visum"],
+          reponse: 2,
+          explication: "*Vidi* (j'ai vu), la 4e forme. *Video* = je vois (présent) ; *videre* = voir (infinitif) ; *visum* est la dernière forme du dictionnaire, que tu étudieras plus tard.",
+        },
+        {
+          type: "saisie",
+          question: "Quelle est la désinence de la 3e personne du pluriel (ils, elles) au parfait ?",
+          reponses: ["-erunt", "erunt"],
+          explication: "**-erunt** : *amaverunt* (ils ont aimé), *fuerunt* (ils ont été). Les désinences du parfait sont -i, -isti, -it, -imus, -istis, -erunt.",
+        },
+        {
+          type: "vf",
+          question: "*Amabat* et *amavit* se traduisent tous les deux par « il aimait ».",
+          reponse: false,
+          explication: "Faux : *amabat* (suffixe -ba-) est un **imparfait** : « il aimait » ; *amavit* (radical *amav-* + -it) est un **parfait** : « il a aimé » ou « il aima ».",
+        },
+        {
+          type: "saisie",
+          question: "Traduis la célèbre phrase de César : *Veni, vidi, vici.* (venio = venir ; video = voir ; vinco = vaincre)",
+          reponses: ["je suis venu, j'ai vu, j'ai vaincu", "je suis venu j'ai vu j'ai vaincu", "je vins, je vis, je vainquis", "je vins je vis je vainquis", "je vins, je vis et je vainquis", "je suis venu, j'ai vu et j'ai vaincu", "je suis venu, je l'ai vu, je l'ai vaincu"],
+          explication: "Trois parfaits à la 1re personne du singulier (désinence -i) : *veni* (venio), *vidi* (video), *vici* (vinco). « Je suis venu, j'ai vu, j'ai vaincu » (passé composé) ou « Je vins, je vis, je vainquis » (passé simple).",
+        },
+        {
+          type: "qcm",
+          question: "Quelle forme est un parfait ?",
+          choix: ["laudabant", "laudant", "laudaverunt", "laudabatis"],
+          reponse: 2,
+          explication: "*Laudaverunt* : radical du parfait *laudav-* + désinence **-erunt** : « ils ont loué ». *Laudabant* et *laudabatis* sont des imparfaits (-ba-) ; *laudant* un présent.",
+        },
+        {
+          type: "saisie",
+          question: "Conjugue *esse* au parfait, à la 3e personne du singulier (il a été).",
+          reponses: ["fuit"],
+          explication: "*Fuit* : radical *fu-* (de *fui*) + désinence **-it**. Le radical du parfait de *esse* n'a rien à voir avec celui du présent (*est*).",
+        },
+        {
+          type: "saisie",
+          question: "Traduis : *Caesar Gallos vicit.* (Galli = les Gaulois ; vinco, is, ere, vici, victum = vaincre)",
+          reponses: ["César a vaincu les Gaulois", "César vainquit les Gaulois"],
+          explication: "*Caesar* : nominatif, sujet ; *Gallos* : accusatif pluriel, COD ; *vicit* : parfait de *vinco*, 3e pers. du sing. (radical *vic-* + -it). « César a vaincu les Gaulois. » Ne confonds pas avec le présent *vincit*, « il vainc ».",
+        },
+        {
+          type: "qcm",
+          question: "Dans *Cincinnatus in agro laborabat ; legati venerunt.*, pourquoi le premier verbe est-il à l'imparfait et le second au parfait ?",
+          choix: ["Parce que le premier verbe est au pluriel", "L'imparfait décrit une action qui dure (le décor), le parfait un événement soudain et achevé", "Parce que *laborare* n'a pas de parfait", "Il n'y a aucune différence de sens entre les deux temps"],
+          reponse: 1,
+          explication: "« Cincinnatus **travaillait** dans son champ (action qui dure) ; les envoyés **arrivèrent** (événement ponctuel). » C'est la même différence qu'en français entre imparfait et passé simple. (*Laborare* a bien un parfait : *laboravi*.)",
+        },
+        {
+          type: "saisie",
+          question: "Trouve le radical du parfait de *do, das, dare, dedi, datum* (donner).",
+          reponses: ["ded-", "ded"],
+          explication: "On enlève le -i de *dedi* : radical **ded-**. D'où *dedit*, « il a donné », *dederunt*, « ils ont donné ». Le radical du parfait est très différent de celui du présent (*d-*, *da-*) : il faut l'apprendre.",
+        },
+        {
+          type: "redaction",
+          question: "Traduis ce court récit, puis indique pour chaque verbe s'il est au présent, à l'imparfait ou au parfait : *Romulus et Remus in silva habitabant. Lupa pueros curabat. Postea Romulus Romam condidit et rex fuit.* (silva, ae, f. = la forêt ; lupa, ae, f. = la louve ; curare = soigner ; postea = ensuite ; condo, is, ere, condidi, conditum = fonder ; rex = le roi)",
+          corrige: `
+**Traduction** : « Romulus et Rémus habitaient dans la forêt. La louve soignait les enfants. Ensuite, Romulus fonda Rome et fut roi. » (ou : « ... a fondé Rome et a été roi. »)
+
+**Analyse des verbes** :
+- *habitabant* : **imparfait** (suffixe -ba-, désinence -nt), 3e pers. du pluriel de *habitare* : action qui dure (le décor de l'histoire) ;
+- *curabat* : **imparfait**, 3e pers. du singulier de *curare* : action qui se répète ;
+- *condidit* : **parfait** (radical *condid-* + -it), 3e pers. du singulier de *condo* : événement achevé, la fondation ;
+- *fuit* : **parfait** de *esse* (radical *fu-* + -it), 3e pers. du singulier.
+
+**Remarques** : *in silva* = in + ablatif (lieu où l'on est) ; *pueros* = accusatif pluriel, COD ; *Romam* = accusatif, COD ; *rex* = attribut du sujet avec *fuit*, au nominatif.
+
+>! Critères : imparfaits traduits par l'imparfait, parfaits par le passé simple ou le passé composé ; temps bien identifiés grâce au suffixe -ba- et aux désinences du parfait.
 `,
         },
       ],

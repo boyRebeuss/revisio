@@ -208,7 +208,7 @@ Les Français voulaient construire un chemin de fer entre Dakar et Saint-Louis. 
       theme: "Histoire",
       cours: `
 ## L'Afrique-Occidentale française (AOF)
-En **1895**, la France regroupe ses colonies d'Afrique de l'Ouest dans l'**AOF**, dirigée par un **gouverneur général**. La capitale est d'abord **Saint-Louis**, puis **Dakar à partir de 1902**. Au milieu du XXe siècle, l'AOF comptait huit colonies : Sénégal, Mauritanie, Soudan français (Mali actuel), Guinée, Côte d'Ivoire, Haute-Volta (Burkina Faso actuel), Niger, Dahomey (Bénin actuel).
+En **1895**, la France regroupe ses colonies d'Afrique de l'Ouest dans l'**AOF**, dirigée par un **gouverneur général**. La capitale est d'abord **Saint-Louis**, puis **Dakar à partir de 1902**. Attention : Saint-Louis reste encore la **capitale de la colonie du Sénégal**. C'est seulement en **1958** que la capitale du Sénégal passe de Saint-Louis à **Dakar** (le transfert est décidé en 1957, quand **Mamadou Dia** dirige le gouvernement du Sénégal). Dakar reste la capitale à l'indépendance, en 1960, et l'est toujours aujourd'hui. Au milieu du XXe siècle, l'AOF comptait huit colonies : Sénégal, Mauritanie, Soudan français (Mali actuel), Guinée, Côte d'Ivoire, Haute-Volta (Burkina Faso actuel), Niger, Dahomey (Bénin actuel).
 
 ## La vie au temps de la colonie
 - Les habitants doivent payer l'**impôt** et faire le **travail forcé** (routes, chemins de fer).
@@ -256,6 +256,7 @@ En **1895**, la France regroupe ses colonies d'Afrique de l'Ouest dans l'**AOF**
         { type: "saisie", question: "Qui fut le premier président de la République du Sénégal ? (prénoms et nom, ou nom)", reponses: ["Léopold Sédar Senghor", "Senghor", "Léopold Senghor"], explication: "Léopold Sédar Senghor, président de 1960 à 1980." },
         { type: "vf", question: "La devise du Sénégal est « Un Peuple – Un But – Une Foi ».", reponse: true, explication: "Vrai. Le drapeau est vert, or, rouge avec une étoile verte ; l'hymne est « Le Lion rouge »." },
         { type: "redaction", question: "Raconte en quelques phrases, dans l'ordre, comment le Sénégal est devenu indépendant (1959-1960).", corrige: "En **1959**, le Sénégal et le Soudan français s'unissent dans la **Fédération du Mali**.\n\nLe **4 avril 1960**, des accords sont signés avec la France : c'est aujourd'hui la date de la fête de l'Indépendance. Le **20 juin 1960**, la Fédération du Mali devient indépendante.\n\nMais les deux pays ne s'entendent pas. Le **20 août 1960**, le Sénégal quitte la Fédération et devient un État indépendant. **Léopold Sédar Senghor** est élu premier président de la République." },
+        { type: "qcm", question: "En 1902, Dakar devient la capitale de l'AOF. Jusqu'à quand Saint-Louis reste-t-elle la capitale de la colonie du **Sénégal** ?", choix: ["jusqu'en 1902", "jusqu'en 1885", "jusqu'en 1958", "jusqu'en 1980"], reponse: 2, explication: "Après 1902, Saint-Louis reste la capitale du Sénégal. Le transfert à Dakar est décidé en 1957 et devient effectif en **1958**, deux ans avant l'indépendance." },
       ],
     },
     {
@@ -387,7 +388,7 @@ Le dernier **recensement** (on compte tous les habitants) a eu lieu en **2023**.
 ## Une population variée
 Le Sénégal compte plusieurs groupes : **Wolofs** (le groupe le plus nombreux), **Pulaar** (Peuls et Toucouleurs), **Sérères**, **Diolas**, **Mandingues**, **Soninkés**, et d'autres. La langue officielle est le **français**. La Constitution reconnaît aussi des **langues nationales** : le **diola**, le **malinké** (mandingue), le **pulaar**, le **sérère**, le **soninké**, le **wolof**, et les autres langues qui sont **codifiées** (on a fixé leur façon de s'écrire). Le **wolof** est la langue la plus parlée.
 
-Les Sénégalais sont en grande majorité **musulmans** ; il y a aussi des **chrétiens**. Chacun respecte la religion de l'autre : on se rend visite pendant les **fêtes** (Korité, Tabaski, Noël, Pâques…). La **parenté à plaisanterie** (le « cousinage » entre groupes ou entre noms de famille : par exemple entre Sérères et Diolas, entre Sérères et Peuls, ou entre les Ndiaye et les Diop) permet de se taquiner sans se fâcher. Tous vivent ensemble dans la paix : c'est la **cohésion nationale**.
+Les Sénégalais sont en grande majorité **musulmans** ; il y a aussi des **chrétiens**, et une petite minorité suit les **religions traditionnelles** africaines. Chacun respecte la religion de l'autre : on se rend visite pendant les **fêtes** (Korité, Tabaski, Noël, Pâques…). La **parenté à plaisanterie** (le « cousinage » entre groupes ou entre noms de famille : par exemple entre Sérères et Diolas, entre Sérères et Peuls, ou entre les Ndiaye et les Diop) permet de se taquiner sans se fâcher. Tous vivent ensemble dans la paix : c'est la **cohésion nationale**.
 
 ## Les 14 régions
 Le Sénégal est découpé en **14 régions**. Chaque région porte le nom de sa ville principale (son **chef-lieu**).
@@ -424,6 +425,7 @@ Les régions les plus récentes sont **Kaffrine, Kédougou et Sédhiou** (créé
         { type: "vf", question: "Le groupe le plus nombreux au Sénégal est celui des Wolofs.", reponse: true, explication: "Vrai. Viennent ensuite notamment les Pulaar (Peuls, Toucouleurs) et les Sérères." },
         { type: "saisie", question: "Quelle est la langue officielle du Sénégal ?", reponses: ["français", "le français"], explication: "La langue officielle est le français ; le wolof, le pulaar, le sérère, le diola… sont des langues nationales." },
         { type: "redaction", question: "Cite les 3 régions de la Casamance et 3 régions du nord du Sénégal. Puis explique en une ou deux phrases ce qu'est l'exode rural et un problème qu'il pose.", corrige: "- Régions de la Casamance (sud) : **Ziguinchor, Sédhiou, Kolda**.\n- Régions du nord : **Saint-Louis, Louga, Matam**.\n\nL'**exode rural**, c'est le départ des habitants de la campagne vers les villes, surtout vers Dakar, pour chercher du travail. En ville, cela crée des problèmes : **manque de logements**, quartiers sans eau ni assainissement, embouteillages, déchets. Et la campagne perd ses jeunes." },
+        { type: "qcm", question: "Quelle phrase décrit le mieux les religions au Sénégal ?", choix: ["Tous les Sénégalais ont la même religion.", "Une grande majorité de musulmans, des chrétiens, et une petite minorité qui suit les religions traditionnelles ; chacun respecte les autres.", "Il n'y a que des chrétiens.", "Les religions traditionnelles sont suivies par la majorité."], reponse: 1, explication: "La majorité des Sénégalais est musulmane ; il y a aussi des chrétiens et une petite minorité fidèle aux religions traditionnelles. Le respect mutuel fait la cohésion nationale." },
       ],
     },
     {
@@ -1100,7 +1102,7 @@ Les fiches servent au **dernier rappel**, juste avant le CFEE : on apprend d'abo
 - Fête de l'Indépendance le **4 avril**, mais indépendance seul le **20 août 1960**.
 - Bamba et Aline Sitoé Diatta : **sans armes**.
 - Premier **président de la République** : Senghor. **Mamadou Dia** était **président du Conseil** (chef du gouvernement), pas président de la République.
-- **Saint-Louis** a été la capitale de l'AOF avant Dakar (jusqu'en 1902).
+- **Saint-Louis** a été la capitale de l'AOF avant Dakar (jusqu'en 1902), et la capitale du **Sénégal** jusqu'en **1958** (ensuite : Dakar).
 `,
       exercices: [
         { type: "qcm", question: "Dans quel ordre les trois grands empires se sont-ils succédé ?", choix: ["Mali, Ghana, Songhaï", "Ghana, Mali, Songhaï", "Songhaï, Mali, Ghana", "Ghana, Songhaï, Mali"], reponse: 1, explication: "Ordre G – M – S : Ghana, puis Mali, puis Songhaï." },
@@ -1117,6 +1119,8 @@ Les fiches servent au **dernier rappel**, juste avant le CFEE : on apprend d'abo
         { type: "qcm", question: "Quelle ville a été la capitale de l'AOF avant Dakar ?", choix: ["Gorée", "Rufisque", "Saint-Louis", "Thiès"], reponse: 2, explication: "Saint-Louis a été la capitale de l'AOF jusqu'en 1902 ; ensuite, c'est Dakar." },
         { type: "redaction", question: "**Situation d'intégration (sujet type CFEE).** Support : le 4 avril, toute l'école défile. Ton petit frère te demande : « Pourquoi on fête l'indépendance le 4 avril, alors que la maîtresse a parlé du 20 août ? Et qui commandait le pays en 1960 ? » Consignes : 1) Explique-lui ce qui s'est passé le 4 avril 1960 et le 20 août 1960. 2) Dis qui était Léopold Sédar Senghor et qui était Mamadou Dia en 1960. 3) Cite deux symboles de la République que l'on voit ou que l'on entend pendant le défilé.", corrige: "1) Le **4 avril 1960**, des **accords** sont signés avec la France : c'est la date choisie pour la **fête de l'Indépendance**. À ce moment-là, le Sénégal forme avec le Soudan français la **Fédération du Mali**, qui devient indépendante le 20 juin 1960. Le **20 août 1960**, le Sénégal **quitte la Fédération** et devient un État indépendant **seul**.\n\n2) **Léopold Sédar Senghor** est élu **premier président de la République** le 5 septembre 1960 (il le reste jusqu'en 1980). **Mamadou Dia** est **président du Conseil** : il dirige le **gouvernement**.\n\n3) Le **drapeau** vert, or, rouge avec une étoile verte ; l'**hymne national** « Le Lion rouge » (on peut aussi citer la devise « Un Peuple – Un But – Une Foi »)." },
         { type: "redaction", question: "**Situation d'intégration (sujet type CFEE).** Support : affiche d'une exposition à l'école, « Ils ont dit non » : Lat Dior (Cayor, tué à Dékheulé en 1886) ; Cheikh Ahmadou Bamba (exilé au Gabon en 1895) ; Aline Sitoé Diatta (Kabrousse, arrêtée en 1943). Consignes : 1) Classe ces trois personnes : résistance armée ou résistance pacifique ? 2) Choisis-en une et écris une courte présentation (région, ce qu'elle a refusé, ce qui lui est arrivé). 3) Explique en une ou deux phrases pourquoi les Français ont fini par gagner.", corrige: "1) **Résistance armée** : Lat Dior. **Résistance pacifique** (sans armes) : Cheikh Ahmadou Bamba et Aline Sitoé Diatta.\n\n2) Exemple : **Lat Dior** était **damel du Cayor**. Il a refusé le **chemin de fer Dakar – Saint-Louis**, qui devait traverser son royaume et servir aux soldats français et à l'arachide. Il a combattu et il a été **tué à Dékheulé en 1886**. (Autres réponses possibles : Bamba, qui refusait de se soumettre sans faire la guerre et fut exilé au Gabon en 1895 ; Aline Sitoé Diatta, en Casamance, qui refusait que les Français prennent le riz et les jeunes hommes, arrêtée en 1943 et morte à Tombouctou en 1944.)\n\n3) Les Français avaient des **armes modernes** (fusils, canons) et des forts, et ils ont profité des **divisions** entre les royaumes." },
+        { type: "vf", question: "Saint-Louis a été la capitale de l'AOF jusqu'en 1902, puis la capitale du Sénégal jusqu'en 1958.", reponse: true, explication: "Vrai. Dakar devient capitale de l'AOF en 1902, et capitale du Sénégal en 1958 (transfert décidé en 1957). Elle le reste à l'indépendance en 1960, et encore aujourd'hui. Saint-Louis est donc une **ancienne capitale** deux fois." },
+        { type: "saisie", question: "Quelle ville est devenue la capitale du Sénégal en 1958, à la place de Saint-Louis ?", reponses: ["Dakar", "c'est Dakar"], explication: "C'est **Dakar**, déjà capitale de l'AOF depuis 1902." },
       ],
     },
     {
@@ -1178,7 +1182,7 @@ Les fiches servent au **dernier rappel**, juste avant le CFEE : on apprend d'abo
 | parc des oiseaux du **Djoudj** | nord, près de Saint-Louis, sur le fleuve Sénégal | des millions d'**oiseaux migrateurs** (pélicans, flamants) ; UNESCO (1981) |
 | **delta du Saloum** | centre-ouest (Fatick) | îles, bolongs (bras de mer) et **mangrove** ; UNESCO (2011) |
 | île de **Gorée** | en face de Dakar | Maison des Esclaves, mémoire de la traite ; UNESCO (1978) |
-| île de **Saint-Louis** | embouchure du fleuve Sénégal | ancienne capitale de l'AOF (jusqu'en 1902) |
+| île de **Saint-Louis** | embouchure du fleuve Sénégal | ancienne capitale de l'AOF (jusqu'en 1902) et du Sénégal (jusqu'en 1958) |
 
 ## Eau, climat, végétation
 - **Lac de Guiers** : eau potable de Dakar. **Lac Rose** : sel.
@@ -1541,6 +1545,51 @@ Le **calendrier musulman** est un calendrier **lunaire** : chaque mois commence 
         { type: "qcm", question: "Quand il est midi à Dakar, quelle phrase est juste ?", choix: ["il est midi partout sur la Terre", "il fait nuit à Dakar", "le Soleil vient de se coucher à Dakar", "de l'autre côté de la Terre, il fait nuit"], reponse: 3, explication: "À midi, Dakar est tourné vers le Soleil. Le côté opposé de la Terre est dans l'ombre : il y fait nuit." },
         { type: "qcm", question: "Comment s'appelle la phase où la Lune est toute ronde et entièrement éclairée ?", choix: ["la pleine lune", "la nouvelle lune", "le premier quartier", "le croissant"], reponse: 0, explication: "C'est la pleine lune. À la nouvelle lune, au contraire, on ne la voit pas." },
         { type: "redaction", question: "**Situation d'intégration.** Contexte : ton petit frère affirme : « Le soir, le Soleil va se cacher derrière la mer, et la nuit la Lune s'allume comme une lampe. » Il demande aussi : « Pourquoi la Tabaski n'est pas à la même date que l'année dernière ? » Consigne : 1) Explique-lui d'où viennent le jour et la nuit. 2) Corrige ce qu'il dit sur la Lune. 3) Réponds à sa question sur la Tabaski. 4) Propose-lui une petite expérience pour comprendre le jour et la nuit.", corrige: "1) Le Soleil ne va pas se cacher : c'est la **Terre qui tourne sur elle-même** en **24 heures**. Le soir, notre côté de la Terre tourne et passe dans l'**ombre** : c'est la **nuit**. Le Soleil semble se coucher à l'ouest, au-dessus de la mer, mais c'est la Terre qui bouge.\n\n2) La Lune ne **s'allume pas** : elle ne produit pas de lumière. Elle est **éclairée par le Soleil** et elle renvoie sa lumière vers nous, comme un miroir.\n\n3) La Tabaski suit le **calendrier musulman**, qui est **lunaire** : les mois commencent avec le **croissant** de lune. L'année lunaire (environ 354 jours) est plus courte que l'année ordinaire (365 jours) : la fête arrive donc environ **11 jours plus tôt** chaque année.\n\n4) Expérience : dans une pièce sombre, on éclaire un **ballon** avec une **lampe torche** (le Soleil) et on fait tourner le ballon (la Terre). Un papier collé sur le ballon (Dakar) passe de la partie éclairée (le jour) à la partie sombre (la nuit)." },
+      ],
+    },
+    {
+      id: "aimants-magnetisme",
+      titre: "Les aimants et la boussole",
+      theme: "Initiation scientifique et technologique",
+      cours: `
+## Qu'est-ce qu'un aimant ?
+Un **aimant** est un objet qui **attire** certains métaux : le **fer**, l'**acier** (fait surtout de fer), le nickel. On en trouve sur les portes de réfrigérateur, dans les haut-parleurs, les jouets, les fermetures de sacs.
+
+Un aimant **n'attire pas** : le bois, le plastique, le papier, le verre, le tissu… ni l'**aluminium** (canette de boisson) ni le **cuivre** (fil électrique), même si ce sont des métaux.
+
+>! **Exemple** : Fatou promène un aimant au-dessus d'un tas d'objets. Il attire le clou, l'épingle, le trombone (en fer ou en acier). Il n'attire pas la gomme, le crayon en bois, le morceau de canette en aluminium.
+
+## Les pôles de l'aimant
+Un aimant a deux **pôles** : le **pôle nord** et le **pôle sud**. C'est aux pôles que l'attraction est la plus forte.
+- Deux pôles **différents** (nord et sud) **s'attirent**.
+- Deux pôles **pareils** (nord et nord, ou sud et sud) **se repoussent**.
+
+L'aimant agit **à distance**, même à travers une feuille de papier, du carton ou l'eau d'un verre.
+
+## La boussole
+L'aiguille d'une **boussole** est un petit aimant qui tourne librement. Elle montre toujours le **nord** (car la Terre se comporte elle-même comme un énorme aimant). Elle sert à **s'orienter** : les marins, les pêcheurs en pirogue, les voyageurs dans le désert l'utilisent.
+
+Attention : un aimant ou un objet en fer placé tout près de la boussole fait dévier l'aiguille ; pour s'orienter, on s'en éloigne.
+
+## Erreurs fréquentes
+- « Un aimant attire tous les métaux » : faux, il n'attire ni l'aluminium ni le cuivre.
+- « Deux aimants s'attirent toujours » : faux, deux pôles pareils se repoussent.
+
+> **À retenir** :
+> - Un aimant attire le fer et l'acier (pas le bois, le plastique, l'aluminium, le cuivre).
+> - Deux pôles : nord et sud. Pôles différents : ils s'attirent ; pôles pareils : ils se repoussent.
+> - L'aiguille de la boussole est un aimant : elle indique le nord et sert à s'orienter.
+`,
+      exercices: [
+        { type: "qcm", question: "Lequel de ces objets un aimant attire-t-il ?", choix: ["un crayon en bois", "un clou en fer", "une règle en plastique", "une feuille de papier"], reponse: 1, explication: "L'aimant attire le **fer** (et l'acier). Il n'attire pas le bois, le plastique ni le papier." },
+        { type: "vf", question: "Un aimant attire tous les métaux.", reponse: false, explication: "Faux : il attire le fer et l'acier, mais pas l'aluminium (canette) ni le cuivre (fil électrique)." },
+        { type: "saisie", question: "Comment appelle-t-on les deux extrémités d'un aimant, où il attire le plus fort ?", reponses: ["pôles", "les pôles", "pôle", "des pôles", "les deux pôles", "pôle nord et pôle sud", "le pôle nord et le pôle sud", "pôle nord et sud", "le pôle nord et le sud"], explication: "Ce sont les **pôles** : le pôle nord et le pôle sud." },
+        { type: "qcm", question: "On approche le pôle nord d'un aimant du pôle nord d'un autre aimant. Que se passe-t-il ?", choix: ["ils s'attirent", "ils se repoussent", "rien du tout", "ils fondent"], reponse: 1, explication: "Deux pôles **pareils** se repoussent. Un pôle nord et un pôle sud, eux, s'attirent." },
+        { type: "vf", question: "Un aimant peut attirer un trombone à travers une feuille de carton.", reponse: true, explication: "Vrai : l'aimant agit **à distance**, même à travers le papier, le carton ou l'eau." },
+        { type: "qcm", question: "À quoi sert une boussole ?", choix: ["à peser les objets", "à mesurer la température", "à s'orienter, car son aiguille indique le nord", "à produire de l'électricité"], reponse: 2, explication: "L'aiguille de la boussole est un petit aimant qui indique le **nord** : on peut ainsi trouver les autres directions." },
+        { type: "saisie", question: "Quel point cardinal l'aiguille d'une boussole indique-t-elle ?", reponses: ["nord", "le nord", "N", "vers le nord", "au nord"], explication: "Elle indique le **nord**. Le sud est à l'opposé, l'est à droite quand on regarde le nord, l'ouest à gauche." },
+        { type: "qcm", question: "Pourquoi l'aiguille de la boussole de Moussa ne montre-t-elle plus le nord quand il la pose sur une grosse marmite en fonte (fer) ?", choix: ["parce qu'il fait nuit", "parce que le fer tout proche fait dévier l'aiguille", "parce que la boussole est mouillée", "parce que la marmite est chaude"], reponse: 1, explication: "L'aiguille est un aimant : le fer tout proche l'attire et la fait dévier. Pour s'orienter, on s'éloigne des objets en fer et des aimants." },
+        { type: "redaction", question: "**Situation d'intégration.** Contexte : la maman d'Awa a renversé une boîte d'épingles et d'aiguilles dans le sable de la cour. Elle a peur que les enfants se piquent. Awa a un aimant de jouet. Consigne : 1) Explique comment Awa peut ramasser vite les épingles et pourquoi cela marche. 2) Dis si l'aimant ramassera aussi les petits cailloux et les bouts de plastique, et pourquoi.", corrige: "1) Awa promène son **aimant** juste au-dessus du sable, partout où la boîte s'est renversée. Les épingles et les aiguilles sont en **acier** (fait de fer) : l'aimant les **attire** et elles restent collées dessus. Elle les détache ensuite au-dessus de la boîte.\n\n2) Non : l'aimant n'attire pas les **cailloux** ni le **plastique**, car ils ne contiennent pas de fer. Seuls le fer et l'acier sont attirés. Ainsi, l'aimant **trie** : il ne ramasse que les objets dangereux en métal." },
       ],
     },
   ],
