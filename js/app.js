@@ -37,7 +37,7 @@ function rediriger(hash) {
 
 function entete({ titre, retour, couleur, droite }) {
   return h("header", { class: "barre", style: couleur ? { "--c": couleur } : null },
-    retour ? h("a", { class: "retour-btn", href: retour, "aria-label": "Retour" }, "‹") : h("span", { class: "logo" }, "🎓"),
+    retour ? h("a", { class: "retour-btn", href: retour, "aria-label": "Retour" }, "‹") : h("span", { class: "logo", "aria-hidden": "true" }, "R"),
     h("h1", {}, titre),
     droite || null
   );

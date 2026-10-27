@@ -1,11 +1,12 @@
 // Cache d'abord : l'appli reste dans la version installée jusqu'à ce que l'élève accepte
 // la mise à jour (bandeau « Nouvelle version »). VERSION est écrit par tools/version.sh.
-const VERSION = "1a9d030f";
+const VERSION = "43475177";
 const CACHE = "revisio-" + VERSION;
 const SOCLE = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
   "js/demenagement.js", "js/app.js", "js/dom.js", "js/invitation.js", "js/journal.js", "js/md.js", "js/store.js", "js/gemini.js", "js/exercices.js", "js/correcteur.js", "js/version.js",
   "content/catalogue.js", "icons/icon.svg", "icons/icon-192.png",
+  "fonts/kalam-700.woff2", "fonts/atkinson-400.woff2", "fonts/atkinson-700.woff2",
 ];
 
 const telecharger = (url) => fetch(url, { cache: "no-cache" }).then((r) => {
