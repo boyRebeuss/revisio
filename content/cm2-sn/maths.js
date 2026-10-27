@@ -1354,6 +1354,71 @@ C'est un puzzle chinois de **7 pièces** découpées dans un carré : **5 triang
           reponse: 2,
           explication: "6 côtés : c'est un hexagone. Ses côtés ne sont pas tous égaux : il est irrégulier. (Octogone : 8 côtés ; pentagone : 5 côtés.)",
         },
+        {
+          type: "qcm",
+          question: "Tu construis au compas un **losange** de 4 cm de côté à partir de sa diagonale [AC]. Comment règles-tu le compas pour tracer les arcs centrés en A et en C ?",
+          choix: ["à 4 cm pour les arcs de A et à 6 cm pour ceux de C", "à la moitié de [AC]", "à la longueur de [AC]", "à 4 cm pour tous les arcs"],
+          reponse: 3,
+          explication: "Les 4 côtés d'un losange sont égaux : tous les arcs se tracent avec le **même écartement**, la longueur du côté (4 cm). Les points d'intersection des arcs sont les deux autres sommets.",
+        },
+        {
+          type: "redaction",
+          question: `**Construire un losange au compas**
+
+*Consigne* : construis un losange ABCD dont la diagonale [AC] mesure **6 cm** et dont les côtés mesurent **4 cm**.
+1) Écris les étapes de la construction et les instruments utilisés.
+2) Comment vérifies-tu ta figure ?`,
+          corrige: `1) Instruments : la **règle** et le **compas**.
+- Je trace le segment [AC] de 6 cm.
+- J'écarte le compas de **4 cm**. Pointe en A, je trace un arc au-dessus de [AC] et un arc au-dessous.
+- Sans changer l'écartement, pointe en C, je trace deux arcs qui coupent les premiers.
+- Les arcs se coupent en deux points : je les nomme B (au-dessus) et D (au-dessous).
+- Je trace [AB], [BC], [CD] et [DA] à la règle.
+
+2) Vérifications :
+- je mesure les 4 côtés : ils mesurent tous 4 cm ;
+- je trace la diagonale [BD] : avec l'équerre, je vérifie qu'elle est **perpendiculaire** à [AC], et elle coupe [AC] en son milieu (à 3 cm de A).
+(La diagonale [BD] mesure environ 5,3 cm.)`,
+        },
+        {
+          type: "redaction",
+          question: `**Construire un trapèze**
+
+*Consigne* : construis un trapèze ABCD qui a un angle droit en A, dont les bases [AB] et [DC] mesurent **7 cm** et **4 cm**, et dont la hauteur [AD] mesure **3 cm**.
+1) Écris les étapes et les instruments utilisés.
+2) Pourquoi la figure obtenue est-elle bien un trapèze ?`,
+          corrige: `1) Instruments : la **règle**, l'**équerre** (et le compas pour reporter les longueurs si tu veux).
+- Je trace la grande base [AB] de 7 cm.
+- En A, avec l'équerre, je trace une perpendiculaire à [AB] et je place D à 3 cm de A.
+- En D, avec l'équerre, je trace une perpendiculaire à [AD] : elle est **parallèle** à [AB].
+- Sur cette droite, du même côté que B, je place C à 4 cm de D.
+- Je relie B et C.
+
+2) Les côtés [AB] et [DC] sont **parallèles** (tous les deux perpendiculaires à [AD]) : le quadrilatère a deux côtés parallèles, c'est un trapèze. Ses bases mesurent 7 cm et 4 cm. Comme il a un angle droit, on l'appelle **trapèze rectangle**.`,
+        },
+        {
+          type: "saisie",
+          question: "On trace dans un carré de 8 cm de côté le plus grand cercle possible : il touche les 4 côtés (on dit qu'il est **inscrit** dans le carré). Quel est son rayon, en cm ?",
+          reponses: ["4", "4 cm"],
+          explication: "Le diamètre du cercle est égal au côté du carré : 8 cm. Rayon = 8 ÷ 2 = **4 cm**. Son centre est le point où se coupent les diagonales du carré.",
+        },
+        {
+          type: "redaction",
+          question: `**Construire un cercle inscrit dans un carré**
+
+*Contexte* : pour décorer la classe, Fatou dessine un carré de 6 cm de côté et, à l'intérieur, un cercle qui touche les 4 côtés du carré.
+
+*Consigne* :
+1) Écris les étapes de la construction et les instruments utilisés.
+2) Calcule la longueur du cercle (prends 3,14).`,
+          corrige: `1) Instruments : la **règle**, l'**équerre** et le **compas**.
+- Je construis le carré ABCD de 6 cm de côté (règle et équerre) et je vérifie les 4 côtés et les 4 angles droits.
+- Je trace les deux diagonales [AC] et [BD] au crayon léger : elles se coupent en O, le **centre** du carré.
+- Le rayon est la moitié du côté : 6 ÷ 2 = **3 cm**. J'écarte le compas de 3 cm, je pique en O et je trace le cercle.
+- Vérification : le cercle touche chaque côté en son milieu (à 3 cm des sommets).
+
+2) Diamètre = 6 cm. Longueur du cercle = D × 3,14 = 6 × 3,14 = **18,84 cm**.`,
+        },
       ],
     },
 
@@ -1850,6 +1915,13 @@ Exemple : un sac de riz de 50 kg net, avec un sac vide de 0,6 kg : masse brute =
 >! 4. Retire le rapporteur et relie O à ce point avec la règle.
 >! Vérifie : un angle de 50° est aigu, il est plus petit qu'un angle droit. Attention, le rapporteur a deux rangées de nombres : si tu lis la mauvaise, tu traces 130° au lieu de 50°.
 
+>! **Mesurer un angle tracé (et vérifier sa mesure)**
+>! 1. Place le **centre du rapporteur sur le sommet** de l'angle.
+>! 2. Place le trait du **0** sur un des deux côtés (prolonge les côtés à la règle s'ils sont trop courts).
+>! 3. Suis la graduation qui part de ce 0 et lis le nombre sous l'autre côté.
+>! Vérifie : regarde d'abord si l'angle est aigu ou obtus. S'il est aigu, sa mesure est plus petite que 90° ; si tu lis 135° pour un angle aigu, tu as lu la mauvaise rangée (la bonne mesure est 180 − 135 = 45°).
+>! Autres vérifications : la diagonale d'un carré partage l'angle droit en deux angles égaux (90 ÷ 2 = 45°) ; les 3 angles d'un triangle équilatéral sont égaux et, ensemble, font un angle plat (3 × 60° = 180°).
+
 > **À retenir**
 > - 1 l = 100 cl = 1 000 ml.
 > - 1 t = 1 000 kg ; 1 q = 100 kg ; 1 kg = 1 000 g.
@@ -1986,6 +2058,46 @@ Il remplit **40 bouteilles**. Vérification : 40 × 75 = 3 000 cl.`,
 2) 50° < 90° : l'angle de 50° est **aigu**. 130° est entre 90° et 180° : l'angle de 130° est **obtus**.
 
 3) 50° + 130° = **180°** : on obtient un **angle plat** (les deux côtés extérieurs forment une ligne droite).`,
+        },
+        {
+          type: "saisie",
+          question: "Sur ton cahier, trace un carré ABCD de 5 cm de côté et sa diagonale [AC]. Mesure au rapporteur l'angle BAC (sommet A, entre [AB] et [AC]). Combien mesure-t-il, en degrés ?",
+          reponses: ["45", "45°", "45 degrés"],
+          explication: "Tu dois lire **45°**. Vérification : l'angle BAD est un angle droit (90°) et la diagonale [AC] le partage en deux angles égaux : 90 ÷ 2 = 45°. Si tu lis 135°, tu as suivi la mauvaise rangée du rapporteur.",
+        },
+        {
+          type: "vf",
+          question: "Dans un carré ABCD, Moussa mesure l'angle BAC (entre le côté [AB] et la diagonale [AC]) et lit **135°**. Sa mesure est juste.",
+          reponse: false,
+          explication: "Faux : l'angle BAC est **aigu** (plus petit que l'angle droit du carré), il mesure donc moins de 90°. Moussa a lu la mauvaise rangée de nombres : 180 − 135 = 45°. La bonne mesure est 45°.",
+        },
+        {
+          type: "saisie",
+          question: "Construis au compas un triangle équilatéral ABC de 6 cm de côté (trace [AB], puis deux arcs de rayon 6 cm, centrés en A et en B, qui se coupent en C). Mesure l'angle de sommet A. Combien mesure-t-il, en degrés ?",
+          reponses: ["60", "60°", "60 degrés"],
+          explication: "Tu dois lire **60°**. Vérification : mesure aussi les angles de sommets B et C : ils sont égaux, et 60 + 60 + 60 = 180°, un angle plat. Si un angle te donne 120°, tu as lu la mauvaise rangée (180 − 120 = 60).",
+        },
+        {
+          type: "qcm",
+          question: "Awa mesure un angle **plus petit qu'un angle droit**. Sur le rapporteur, elle voit deux nombres sous le côté de l'angle : 70 et 110. Quelle est la mesure de l'angle ?",
+          choix: ["110°", "180°", "70°", "40°"],
+          reponse: 2,
+          explication: "L'angle est aigu (plus petit qu'un angle droit) : il mesure moins de 90°, donc **70°**. 110° serait un angle obtus. Les deux nombres font toujours 180 ensemble : 70 + 110 = 180.",
+        },
+        {
+          type: "redaction",
+          question: `**Mesurer et vérifier**
+
+*Consigne* (sur ton cahier, avec la règle, l'équerre et le rapporteur) :
+1) Trace un angle droit xOy avec l'équerre.
+2) À l'intérieur de cet angle, trace au rapporteur la demi-droite [Oz] telle que l'angle xOz mesure **30°**.
+3) Mesure l'angle zOy. Écris sa mesure, puis explique comment tu vérifies, par un calcul, que ta mesure est juste.`,
+          corrige: `1) Je trace la demi-droite [Ox], je place l'équerre avec l'angle droit en O, un côté sur [Ox], et je trace [Oy] le long de l'autre côté.
+
+2) Je place le centre du rapporteur sur O et le 0 sur [Ox] ; je suis la graduation qui part de ce 0 et je marque un point devant 30 ; je relie O à ce point : c'est [Oz].
+
+3) Je place le centre du rapporteur sur O et le 0 sur [Oz], et je lis sous [Oy] : l'angle zOy mesure **60°**.
+Vérification par le calcul : les angles xOz et zOy forment ensemble l'angle droit xOy, donc zOy = 90° − 30° = **60°**. Ma mesure est juste. (Si je lis 120°, c'est la mauvaise rangée : zOy est aigu.)`,
         },
       ],
     },
@@ -2296,6 +2408,54 @@ V = **62,8 m³** = 62,8 × 1 000 = **62 800 litres**.
           0 | 4
 ~~~
 Le réservoir plein suffit pour **4 jours**. Vérification : 4 × 15 700 = 62 800.`,
+        },
+        {
+          type: "saisie",
+          question: "Une boîte a la forme d'un cube de **2 dm** d'arête. Combien de **litres** d'eau peut-elle contenir ?",
+          reponses: ["8", "8 l", "8 litres"],
+          explication: "V = 2 × 2 × 2 = 8 dm³. Comme 1 dm³ = 1 litre, la boîte contient **8 litres**.",
+        },
+        {
+          type: "saisie",
+          question: "Une fosse a la forme d'un pavé droit de 60 m³. Sa longueur est 5 m et sa largeur 4 m. Quelle est sa profondeur (hauteur), en m ?",
+          reponses: ["3", "3 m"],
+          explication: "V = L × l × h, donc h = V ÷ (L × l) = 60 ÷ (5 × 4) = 60 ÷ 20 = **3 m**. Vérification : 5 × 4 × 3 = 60 m³.",
+        },
+        {
+          type: "saisie",
+          question: "Une citerne cylindrique a un rayon de 0,5 m et une hauteur de 3 m. Combien de **litres** contient-elle quand elle est pleine (prends 3,14) ?",
+          reponses: ["2 355", "2 355 l", "2 355 litres"],
+          explication: "V = r × r × 3,14 × h = 0,5 × 0,5 × 3,14 × 3 = 0,25 × 3,14 × 3 = 2,355 m³. 1 m³ = 1 000 l, donc **2 355 litres**.",
+        },
+        {
+          type: "qcm",
+          question: "Un fût contient 46 kg d'huile. Un litre d'huile pèse 0,92 kg. Combien de litres d'huile contient-il ?",
+          choix: ["42,32 l", "50 l", "45,08 l", "5 l"],
+          reponse: 1,
+          explication: "Volume = masse ÷ masse volumique = 46 ÷ 0,92 = **50 litres**. Vérification : 50 × 0,92 = 46 kg. (46 × 0,92 = 42,32 : c'est l'opération inverse, fausse ici.)",
+        },
+        {
+          type: "vf",
+          question: "Si on double l'arête d'un cube (de 3 cm à 6 cm), son volume est multiplié par 2.",
+          reponse: false,
+          explication: "Faux : 3 × 3 × 3 = 27 cm³ et 6 × 6 × 6 = 216 cm³. 216 ÷ 27 = 8 : le volume est multiplié par **8** (2 × 2 × 2), pas par 2.",
+        },
+        {
+          type: "redaction",
+          question: `**Situation d'intégration**
+
+*Contexte* : pour construire une classe à Kaffrine, on transporte du sable avec un camion dont la benne est un pavé droit de 4 m de long, 2 m de large et 0,5 m de haut. Un dm³ de ce sable pèse 1,6 kg (nombres fictifs). Le chantier a besoin de 20 tonnes de sable.
+
+*Consigne* : pose les opérations.
+1) Calcule le volume de la benne en m³, puis en dm³.
+2) Calcule la masse de sable d'une benne pleine, en kg puis en tonnes.
+3) Combien de voyages faut-il au moins pour apporter les 20 tonnes ?`,
+          corrige: `1) V = L × l × h = 4 × 2 × 0,5 = **4 m³** = 4 × 1 000 = **4 000 dm³**.
+
+2) Masse = volume × masse de 1 dm³ = 4 000 × 1,6 = **6 400 kg** = **6,4 t**.
+
+3) 20 ÷ 6,4 = 3,125 : 3 voyages ne suffisent pas (3 × 6,4 = 19,2 t, il manque 0,8 t).
+Il faut au moins **4 voyages** (au 4e voyage, la benne n'est pas pleine).`,
         },
       ],
     },
@@ -2739,6 +2899,52 @@ L'intérêt est de **45 000 F**.
           question: "Quelle est la **valeur acquise** par 80 000 F placés à 5 % pendant 9 mois ?",
           reponses: ["83 000", "83 000 F", "83 000 F CFA", "83 000 francs"],
           explication: "I = 80 000 × 5 × 9 ÷ 1 200 = 3 600 000 ÷ 1 200 = 3 000 F. Valeur acquise = 80 000 + 3 000 = 83 000 F.",
+        },
+        {
+          type: "saisie",
+          question: "Calcule l'intérêt rapporté par 120 000 F placés à 6 % pendant **60 jours**.",
+          reponses: ["1 200", "1 200 F", "1 200 F CFA", "1 200 francs"],
+          explication: "I = C × t × j ÷ 36 000 = 120 000 × 6 × 60 ÷ 36 000 = 43 200 000 ÷ 36 000 = **1 200 F**. (En un an : 7 200 F ; 60 jours = 1/6 de 360 jours : 7 200 ÷ 6 = 1 200 F.)",
+        },
+        {
+          type: "saisie",
+          question: "Un capital de 240 000 F placé pendant **8 mois** a rapporté 8 000 F. Quel est le taux (en %) ?",
+          reponses: ["5", "5 %"],
+          explication: "En 8 mois : 8 000 F, donc en 1 mois : 1 000 F et en 12 mois : **12 000 F**. Pour 100 F : 12 000 × 100 ÷ 240 000 = 5. Le taux est **5 %**. Vérification : 240 000 × 5 × 8 ÷ 1 200 = 8 000 F.",
+        },
+        {
+          type: "qcm",
+          question: "150 000 F placés à 4 % ont rapporté 3 000 F. Pendant combien de temps ont-ils été placés ?",
+          choix: ["2 ans", "6 mois", "3 mois", "1 an"],
+          reponse: 1,
+          explication: "En un an : 150 000 × 4 ÷ 100 = 6 000 F. 3 000 F, c'est la moitié : la moitié d'un an, soit **6 mois**. Vérification : 150 000 × 4 × 6 ÷ 1 200 = 3 000 F.",
+        },
+        {
+          type: "qcm",
+          question: "Un capital placé à 6 % pendant 1 an est devenu **212 000 F** (capital + intérêt). Quel était le capital placé ?",
+          choix: ["199 280 F", "212 000 F", "200 000 F", "224 720 F"],
+          reponse: 2,
+          explication: "À 6 %, 100 F deviennent 106 F en un an. 212 000 ÷ 106 = 2 000 ; 2 000 × 100 = **200 000 F**. Vérification : 200 000 × 6 ÷ 100 = 12 000 F ; 200 000 + 12 000 = 212 000 F. (Enlever 6 % de 212 000 F donne 199 280 F : c'est faux, car les 6 % se calculent sur le capital, pas sur la valeur acquise.)",
+        },
+        {
+          type: "redaction",
+          question: `**Situation d'intégration**
+
+*Contexte* : un groupement de femmes de Kolda a économisé 300 000 F CFA. Deux propositions (taux fictifs) :
+- banque A : 4 % par an pendant 3 ans ;
+- banque B : 5 % par an pendant 2 ans et 6 mois.
+
+*Consigne* : pose les opérations.
+1) Calcule l'intérêt donné par chaque banque.
+2) Quelle banque rapporte le plus ? De combien ?
+3) Calcule la valeur acquise avec la meilleure proposition.`,
+          corrige: `1) Banque A : I = 300 000 × 4 × 3 ÷ 100 = 3 600 000 ÷ 100 = **36 000 F**.
+Banque B : 2 ans 6 mois = 30 mois. I = 300 000 × 5 × 30 ÷ 1 200 = 45 000 000 ÷ 1 200 = **37 500 F**.
+(Vérification B : en 1 an, 300 000 × 5 ÷ 100 = 15 000 F ; en 2 ans et demi : 15 000 × 2,5 = 37 500 F.)
+
+2) 37 500 > 36 000 : la **banque B** rapporte le plus, de 37 500 − 36 000 = **1 500 F**, et en moins de temps.
+
+3) Valeur acquise : 300 000 + 37 500 = **337 500 F**.`,
         },
       ],
     },
@@ -4092,6 +4298,139 @@ Les dépenses font **171 000 F**.
 3) En 12 mois : 14 000 × 12 = **168 000 F**.
 Intérêt : I = 168 000 × 5 × 6 ÷ 1 200 = 5 040 000 ÷ 1 200 = **4 200 F**.
 Valeur acquise : 168 000 + 4 200 = **172 200 F**.`,
+        },
+      ],
+    },
+
+    // ───────────────────────── 26. Fiche : situation d'intégration type
+    {
+      id: "fiche-situation-integration",
+      titre: "Fiche de révision : la situation d'intégration (sujet type)",
+      theme: "Fiches de révision CFEE",
+      cours: `
+## Ce que c'est
+La **situation d'intégration** est la partie « compétence » de l'épreuve (60 points sur 100 d'après le guide du CFEE de 2018 ; le barème peut changer). Elle comprend :
+- un **contexte** : une situation de la vie (école, santé, champ, marché, eau, voyage…) avec des nombres ;
+- des **consignes** (souvent 3) : chacune demande un calcul, parfois une explication ou un conseil.
+
+## La méthode en 5 étapes
+1. **Lis** le contexte deux fois ; souligne chaque nombre avec son unité.
+2. **Lis toutes les consignes** : le résultat de la consigne 1 sert souvent à la consigne 2.
+3. Pour chaque consigne : une phrase « Je cherche… », l'**opération posée**, une **phrase-réponse avec l'unité**.
+4. **Vérifie** : ordre de grandeur, opération inverse, unité.
+5. **Présente** : numérote 1), 2), 3) comme les consignes ; réponds par une phrase au conseil demandé.
+
+## Sujet type corrigé
+*Contexte* : le jardin de l'école de Fatick est un rectangle de 24 m sur 15 m (nombres fictifs). Les 3/4 du jardin sont plantés d'oignons. On arrose 5 litres d'eau par m² planté et par jour, avec un tuyau qui débite 15 litres par minute.
+
+*Consignes* : (1) calcule l'aire du jardin, puis l'aire plantée ; (2) combien de litres d'eau faut-il par jour ? combien de temps dure l'arrosage ? (3) donne un conseil pour économiser l'eau.
+
+>! **Consigne 1.** Je cherche l'aire du jardin : 24 × 15 = 360. Le jardin mesure **360 m²**.
+>! Aire plantée : 360 ÷ 4 = 90 ; 90 × 3 = 270. On a planté **270 m²**.
+>! **Consigne 2.** Eau par jour : 270 × 5 = 1 350. Il faut **1 350 litres** par jour.
+>! Durée : 1 350 ÷ 15 = 90. L'arrosage dure **90 minutes, soit 1 h 30 min**.
+>! Vérification : 15 × 90 = 1 350 ; 270 × 4 ÷ 3 = 360.
+>! **Consigne 3.** Conseil : arroser tôt le matin ou le soir (l'eau s'évapore moins), au pied des plantes, et couvrir le sol de paille.
+
+> **Pièges fréquents**
+> - Oublier l'unité dans la phrase-réponse (m², l, min, F).
+> - Ne pas réutiliser le résultat de la consigne précédente (ici, l'aire **plantée**, pas l'aire du jardin).
+> - Convertir les minutes : 90 min = 1 h 30 min (et non 1 h 90 ni 0,9 h).
+> - Répondre au conseil par un seul mot : écris une phrase.
+`,
+      textes: {
+        jardin: `**Le jardin de l'école** (nombres fictifs)
+
+Le jardin de l'école de Mbour est un rectangle de 30 m sur 16 m. Les 3/4 du jardin sont plantés d'oignons. On arrose 4 litres d'eau par m² planté et par jour, avec un tuyau qui débite 18 litres par minute. On récolte 2,5 kg d'oignons par m² planté et on les vend 250 F le kg.`,
+      },
+      exercices: [
+        {
+          type: "qcm",
+          question: "Dans une situation d'intégration, que dois-tu faire **avant** de commencer la consigne 1 ?",
+          choix: ["calculer tout de suite le premier nombre lu", "lire le contexte deux fois et toutes les consignes", "recopier le contexte en entier", "commencer par le conseil"],
+          reponse: 1,
+          explication: "On lit le contexte deux fois et **toutes les consignes** : le résultat d'une consigne sert souvent à la suivante. Recopier le contexte fait perdre du temps.",
+        },
+        {
+          type: "vf",
+          question: "Dans une situation d'intégration, il suffit d'écrire le résultat (par exemple « 1 350 ») sans phrase.",
+          reponse: false,
+          explication: "Faux : il faut l'opération posée et une **phrase-réponse avec l'unité** : « Il faut 1 350 litres d'eau par jour. »",
+        },
+        {
+          type: "saisie",
+          texte: "jardin",
+          question: "Quelle est l'aire **plantée** d'oignons, en m² ?",
+          reponses: ["360", "360 m²", "360 m2"],
+          explication: "Aire du jardin : 30 × 16 = 480 m². Les 3/4 : 480 ÷ 4 × 3 = **360 m²**.",
+        },
+        {
+          type: "saisie",
+          texte: "jardin",
+          question: "Combien de litres d'eau faut-il chaque jour pour arroser les oignons ?",
+          reponses: ["1 440", "1 440 l", "1 440 litres"],
+          explication: "4 litres par m² planté : 360 × 4 = **1 440 litres**. (480 × 4 = 1 920 serait faux : on n'arrose que la partie plantée.)",
+        },
+        {
+          type: "qcm",
+          texte: "jardin",
+          question: "Combien de temps dure l'arrosage de chaque jour ?",
+          choix: ["1 h 20 min", "1 h 80 min", "8 min", "1 h 08 min"],
+          reponse: 0,
+          explication: "1 440 ÷ 18 = 80 minutes = 60 min + 20 min = **1 h 20 min**. Attention : 80 min n'est pas « 1 h 80 » (une heure n'a que 60 minutes).",
+        },
+        {
+          type: "saisie",
+          texte: "jardin",
+          question: "Combien d'argent rapporte la vente de toute la récolte d'oignons, en F ?",
+          reponses: ["225 000", "225 000 F", "225 000 F CFA", "225 000 francs"],
+          explication: "Récolte : 360 × 2,5 = 900 kg. Vente : 900 × 250 = **225 000 F**. Astuce : 250 = 1 000 ÷ 4, donc 900 × 250 = 900 000 ÷ 4 = 225 000 F.",
+        },
+        {
+          type: "qcm",
+          question: "Une consigne dit : « Donne un conseil à la famille pour moins gaspiller l'eau. » Quelle réponse est la mieux rédigée ?",
+          choix: ["« Eau. »", "« 360 litres. »", "« Je conseille à la famille de réparer vite le robinet qui fuit et de bien le fermer après usage. »", "« Il faut. »"],
+          reponse: 2,
+          explication: "Un conseil se rédige en **phrase complète**, en lien avec le contexte. Un mot seul ou un nombre ne répondent pas à la consigne.",
+        },
+        {
+          type: "redaction",
+          question: `**Situation d'intégration (maths et sciences)**
+
+*Contexte* : chez Modou, à Thiès, un robinet fuit : il perd 0,5 litre d'eau par heure, jour et nuit. Le mètre cube d'eau coûte 500 F (prix fictif).
+
+*Consigne* : pose les opérations.
+1) Combien de litres d'eau sont perdus en un jour ? en 30 jours ?
+2) Combien coûte l'eau perdue en 30 jours ?
+3) Combien de bassines de 15 litres aurait-on pu remplir avec cette eau ? Donne un conseil à la famille.`,
+          corrige: `1) Un jour = 24 heures : 0,5 × 24 = **12 litres** par jour.
+En 30 jours : 12 × 30 = **360 litres**.
+
+2) 360 l = 360 dm³ = 0,36 m³. Coût : 0,36 × 500 = **180 F**.
+(Vérification : 1 m³ = 1 000 l coûte 500 F, donc 1 l coûte 0,5 F ; 360 × 0,5 = 180 F.)
+
+3) 360 ÷ 15 = **24 bassines**.
+Conseil : je conseille à la famille de faire réparer le robinet tout de suite et de bien fermer les robinets : l'eau est précieuse et la fuite coûte de l'argent.`,
+        },
+        {
+          type: "redaction",
+          question: `**Situation d'intégration (maths et géographie)**
+
+*Contexte* : sur une carte du Sénégal à l'échelle 1/2 000 000, la distance entre deux villes, mesurée à la règle, est de 13 cm (mesures fictives). Un car fait le trajet à la vitesse moyenne de 65 km/h. Il part à 7 h 30 min. Il consomme 8 litres de gazole pour 100 km ; le litre coûte 1 000 F (prix fictif).
+
+*Consigne* : pose les opérations.
+1) Calcule la distance réelle en km.
+2) Combien de temps dure le trajet ? À quelle heure le car arrive-t-il ?
+3) Combien de litres de gazole le car consomme-t-il ? Combien coûtent-ils ?`,
+          corrige: `1) Échelle 1/2 000 000 : 1 cm sur la carte = 2 000 000 cm en vrai = 20 km.
+13 × 20 = **260 km**.
+
+2) Durée = distance ÷ vitesse = 260 ÷ 65 = **4 h**.
+Arrivée : 7 h 30 min + 4 h = **11 h 30 min**.
+(Vérification : 65 × 4 = 260 km.)
+
+3) 8 litres pour 100 km : 260 ÷ 100 × 8 = 2,6 × 8 = **20,8 litres**.
+Coût : 20,8 × 1 000 = **20 800 F**.`,
         },
       ],
     },

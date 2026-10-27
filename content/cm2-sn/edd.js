@@ -1121,6 +1121,9 @@ Agences de l'ONU : **UNICEF** (enfants), **OMS** (santé), **FAO** (alimentation
 3. Le vote est **personnel** : personne ne vote à la place d'un autre.
 
 **Consigne 3** : en démocratie, on **accepte le résultat** du vote dans la paix, même quand son candidat a perdu. Les élèves félicitent les élus et les aident à bien faire leur travail pour toute l'école.` },
+        { type: "qcm", question: "Le dessin officiel du Sénégal, avec un **lion** et un **baobab**, s'appelle…", choix: ["la devise", "l'hymne", "le drapeau", "les armoiries"], reponse: 3, explication: "Ce sont les **armoiries**. Retiens : drapeau = couleurs, devise = phrase, hymne = chant, armoiries = dessin (lion, baobab)." },
+        { type: "vf", question: "Ibou vit avec ses parents, ses grands-parents, son oncle et ses cousins dans la même concession : c'est une famille restreinte.", reponse: false, explication: "Faux : avec les grands-parents, les oncles et les cousins, c'est une **famille élargie**. La famille restreinte, ce sont seulement les parents et les enfants." },
+        { type: "qcm", question: "**Question « relier »**. Relie chaque pouvoir à ceux qui l'exercent :\n\n- exécutif • législatif • judiciaire\n- les juges • le Président et le Gouvernement • les députés\n\nQuelle association est juste ?", choix: ["exécutif → les députés ; législatif → les juges ; judiciaire → le Président et le Gouvernement", "exécutif → le Président et le Gouvernement ; législatif → les députés ; judiciaire → les juges", "exécutif → les juges ; législatif → le Président et le Gouvernement ; judiciaire → les députés", "exécutif → le Président et le Gouvernement ; législatif → les juges ; judiciaire → les députés"], reponse: 1, explication: "Le **Président et le Gouvernement** dirigent et appliquent les lois (exécutif) ; les **députés** votent les lois (législatif) ; les **juges** jugent (judiciaire)." },
       ],
     },
     {
@@ -1171,7 +1174,7 @@ Malade ? Va au **poste de santé**, jamais à la « pharmacie par terre ».
 - Ressources à protéger : la **forêt** (bois, fruits comme le pain de singe, plantes qui soignent, abri des animaux) et la **mer** (poisson).
 - Pêche : contre la **surpêche**, le **repos biologique**.
 - **Changement climatique** : la Terre se réchauffe (gaz des voitures, des usines, des feux) → pluies irrégulières, sécheresses, inondations, avancée de la mer. Agir : planter des arbres et la mangrove, énergies renouvelables.
-- **Aires protégées** : parc du **Niokolo-Koba** (lions, hippopotames, chimpanzés), parc des oiseaux du **Djoudj**, **delta du Saloum** (mangrove).
+- **Aires protégées** : parc du **Niokolo-Koba** (lions, hippopotames, chimpanzés), parc des oiseaux du **Djoudj** (tous deux UNESCO, 1981), **delta du Saloum** (mangrove ; UNESCO, 2011).
 - **Population** : environ 18 millions d'habitants (recensement de 2023), beaucoup de jeunes, plus de la moitié en ville → il faut plus d'écoles, de postes de santé, d'eau et d'emplois.
 - Énergies **renouvelables** : soleil, vent, eau des barrages, bois replanté. **Non renouvelables** : pétrole, gaz, charbon.
 - Économiser l'énergie : éteindre, ampoules **LED**, foyer amélioré.
@@ -1240,6 +1243,9 @@ Malade ? Va au **poste de santé**, jamais à la « pharmacie par terre ».
 1. **Les habitants et les élèves** replantent des filaos le long de la côte et ne coupent plus les arbres.
 2. **La commune** interdit de construire trop près de la mer et de prendre le sable de la plage.
 3. **Chacun** consomme moins d'énergie qui pollue (éteindre les lampes, utiliser un foyer amélioré ou le solaire) pour rejeter moins de gaz qui réchauffent la Terre.` },
+        { type: "qcm", question: "Que peut-on faire des épluchures de légumes et des restes de repas ?", choix: ["les brûler dans la cour", "du compost, un engrais naturel pour le jardin", "les jeter dans le caniveau", "les donner à recycler en sandales"], reponse: 1, explication: "Ces déchets **pourrissent** : en tas, ils deviennent du **compost**, un engrais naturel. Les brûler pollue, les jeter dans le caniveau le bouche." },
+        { type: "vf", question: "L'eau du puits est bien claire : on peut donc la boire sans danger.", reponse: false, explication: "Faux : une eau **claire** n'est pas forcément **potable**. Elle peut contenir des microbes invisibles. On la fait bouillir, on la javellise ou on la filtre si elle n'est pas sûre." },
+        { type: "qcm", question: "**Question « relier »**. Relie chaque aire protégée à ce qu'on y protège surtout :\n\n- Djoudj • Niokolo-Koba • delta du Saloum\n- la mangrove • les oiseaux migrateurs • lions, hippopotames et chimpanzés\n\nQuelle association est juste ?", choix: ["Djoudj → la mangrove ; Niokolo-Koba → les oiseaux migrateurs ; delta du Saloum → lions, hippopotames et chimpanzés", "Djoudj → lions, hippopotames et chimpanzés ; Niokolo-Koba → la mangrove ; delta du Saloum → les oiseaux migrateurs", "Djoudj → les oiseaux migrateurs ; Niokolo-Koba → lions, hippopotames et chimpanzés ; delta du Saloum → la mangrove", "Djoudj → les oiseaux migrateurs ; Niokolo-Koba → la mangrove ; delta du Saloum → lions, hippopotames et chimpanzés"], reponse: 2, explication: "Le **Djoudj** (près de Saint-Louis) accueille les oiseaux migrateurs ; le **Niokolo-Koba** (sud-est) protège les animaux de la savane ; le **delta du Saloum** (Fatick) protège la mangrove (patrimoine mondial depuis 2011)." },
       ],
     },
     {
@@ -1331,7 +1337,7 @@ Une **aire protégée** est un espace où la nature est protégée par la loi : 
 | Parc national des oiseaux du **Djoudj** | delta du fleuve Sénégal, près de Saint-Louis | plus d'un million d'oiseaux (pélicans, flamants) dont beaucoup viennent d'Europe pour passer l'hiver |
 | **Delta du Saloum** | région de Fatick | la mangrove, les poissons, les oiseaux |
 
-Le Niokolo-Koba et le Djoudj sont inscrits au **patrimoine mondial** de l'UNESCO depuis 1981. Le Niokolo-Koba, menacé par le braconnage, a été placé sur la liste du patrimoine « en péril » en 2007 ; grâce aux efforts du Sénégal, il en est sorti en 2024. Les **écogardes** (gardes des parcs) les surveillent contre le **braconnage** (la chasse interdite).
+Le Niokolo-Koba et le Djoudj sont inscrits au **patrimoine mondial** de l'UNESCO depuis 1981. Le **delta du Saloum** y est inscrit depuis **2011**, comme **paysage culturel** : on y protège à la fois la nature (mangrove, îles, poissons, oiseaux) et les traces laissées par les hommes depuis très longtemps (de grands amas de coquillages et des tombes anciennes). Le Niokolo-Koba, menacé par le braconnage, a été placé sur la liste du patrimoine « en péril » en 2007 ; grâce aux efforts du Sénégal, il en est sorti en 2024. Les **écogardes** (gardes des parcs) les surveillent contre le **braconnage** (la chasse interdite).
 
 ## 3. L'éducation à la population
 D'après le **recensement de 2023** (RGPH-5, fait par l'ANSD, l'agence de la statistique), le Sénégal compte environ **18 millions d'habitants**.
@@ -1373,6 +1379,7 @@ Quand la population augmente vite, il faut **plus d'écoles**, de maîtres, de *
 1. **Les élèves et les habitants** replantent des palétuviers lors d'une journée de reboisement.
 2. **Les familles** utilisent des foyers améliorés ou le gaz pour avoir besoin de moins de bois.
 3. **La commune et les écogardes** interdisent de couper la mangrove et surveillent la zone (on accepte aussi : respecter le repos biologique, ne ramasser que les grosses huîtres).` },
+        { type: "qcm", question: "Depuis quelle année le delta du Saloum est-il inscrit au patrimoine mondial de l'UNESCO ?", choix: ["1960", "1981", "2011", "2024"], reponse: 2, explication: "Le delta du Saloum est inscrit en **2011**, comme paysage culturel (nature et traces anciennes des hommes). Le Niokolo-Koba et le Djoudj, eux, sont inscrits depuis **1981**." },
       ],
     },
   ],

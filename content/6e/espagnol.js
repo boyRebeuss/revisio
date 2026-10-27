@@ -1143,6 +1143,333 @@ On situe avec **estar** et un mot de position :
         { type: "saisie", question: "Complète avec *duele* ou *duelen* : « Me ... las piernas. »", reponses: ["duelen"], explication: "*las piernas* est au pluriel → **me duelen**, comme *me gustan*." },
         { type: "redaction", question: "Décris ta chambre en 5 phrases (ce qu'il y a avec *hay*, où sont les objets avec *estar* et des mots de position, les couleurs), puis dis en une phrase ce que tu portes aujourd'hui.", corrige: "Modèle :\n\n*Mi habitación es pequeña pero bonita. Hay una cama, un armario, una mesa y una silla. La cama está al lado de la ventana. Mi mochila está debajo de la mesa y mis libros están encima. Las paredes son azules y la puerta es blanca. Hoy llevo unos vaqueros, una camiseta verde y unas zapatillas negras.*\n\nVérifie :\n- **hay** + un / una / des noms sans article ; **estar** pour situer *la cama, mi mochila* ;\n- **del** (de + el) si besoin ;\n- **llevar** + vêtements, couleurs accordées (*una camiseta verde, unas zapatillas negras*)." }
       ]
+    },
+    {
+      id: "comparar-mucho-poco",
+      titre: "Comparer (más... que, menos... que) et dire la quantité (mucho, poco)",
+      theme: "Grammaire",
+      cours: `
+## Comparer deux personnes ou deux choses
+| Espagnol | Français | Exemple |
+|---|---|---|
+| **más** + adjectif + **que** | plus... que | *Pablo es **más** alto **que** Lucía.* |
+| **menos** + adjectif + **que** | moins... que | *El gato es **menos** grande **que** el perro.* |
+| **tan** + adjectif + **como** | aussi... que | *Lucía es **tan** simpática **como** Pablo.* |
+
+- L'adjectif s'accorde avec le **premier** nom : *Mi hermana es más alt**a** que yo.* — *Mis primos son más divertid**os** que tú.*
+- On peut aussi comparer des quantités : *Tengo **más** libros **que** mi hermano.* (J'ai plus de livres que mon frère.)
+- Quatre formes à part : **mejor** (meilleur, mieux), **peor** (pire), **mayor** (plus âgé), **menor** (plus jeune). *Mi hermano es **mayor que** yo.* (Mon frère est plus âgé que moi.) — *Este helado es **mejor que** el otro.*
+
+## Mucho, poco : dire la quantité
+Devant un **nom**, *mucho* et *poco* s'accordent comme des adjectifs :
+
+| | masculin | féminin |
+|---|---|---|
+| singulier | **mucho** tiempo, **poco** pan | **mucha** agua, **poca** leche |
+| pluriel | **muchos** amigos, **pocos** libros | **muchas** cosas, **pocas** fotos |
+
+- *Tengo **muchos** amigos y **muchas** amigas.* — *Hay **poca** gente en la calle.* (Il y a peu de monde.)
+- *el agua* est **féminin** (on dit *el* seulement pour la prononciation) : ***mucha** agua, **poca** agua, el agua fría*.
+- Pas de « de » comme en français : « beaucoup **d'**amis » = ***muchos** amigos* (✗ *mucho de amigos*).
+- Après un **verbe**, *mucho* et *poco* ne changent pas : *Estudio **mucho**.* — *Mi gato come **poco**.* — *Me gusta **mucho** el fútbol.*
+
+>! **Exemple** : *Madrid es más grande que Sevilla, pero en Sevilla hace más calor. En verano, en Sevilla hay muchos turistas y pocas nubes.*
+
+> **À retenir** : *más / menos* + adjectif + ***que*** ; *tan* + adjectif + ***como*** ; *mejor, peor, mayor, menor*. Devant un nom : *mucho, mucha, muchos, muchas* / *poco, poca, pocos, pocas* (accord, sans « de »). Après un verbe : *mucho, poco* invariables.
+
+### Erreurs fréquentes
+- ✗ *más alto como Lucía* → ✓ *más alto **que** Lucía* (*como* va seulement avec *tan*).
+- ✗ *mucho personas* → ✓ ***muchas** personas* (*personas* est féminin pluriel).
+- ✗ *mucho de chicos* → ✓ ***muchos** chicos*.
+- ✗ *más bueno que* → ✓ ***mejor** que*.
+`,
+      exercices: [
+        { type: "qcm", question: "« Ana es más alta que Pedro. » Que veut dire cette phrase ?", choix: ["Ana est aussi grande que Pedro.", "Ana est plus grande que Pedro.", "Ana est moins grande que Pedro.", "Ana est très grande."], reponse: 1, explication: "**más** + adjectif + **que** = plus... que. *Moins* = *menos*, *aussi* = *tan... como*." },
+        { type: "saisie", question: "Complète : « El perro es más rápido ... la tortuga. » (un mot)", reponses: ["que"], explication: "**más** rápido **que** : après *más* ou *menos*, on emploie toujours **que**." },
+        { type: "qcm", question: "Complète : « Tengo ... amigas en el colegio. »", choix: ["mucho", "mucha", "muchos", "muchas"], reponse: 3, explication: "*amigas* est **féminin pluriel** → ***muchas** amigas*. *Mucho* s'accorde avec le nom qui suit." },
+        { type: "saisie", question: "Accorde *poco* : « En el desierto hay (poco) agua. »", reponses: ["poca"], explication: "*el agua* est un nom **féminin** (on dit *el* devant un *a* accentué, mais le mot reste féminin) → ***poca** agua*, *el agua fría*." },
+        { type: "vf", question: "Dans « Mi hermano estudia mucho », *mucho* doit s'accorder avec *hermano*.", reponse: false, explication: "Ici, *mucho* suit le **verbe** *estudia* : il est invariable. Il s'accorde seulement devant un nom : *muchos deberes*." },
+        { type: "qcm", question: "« Mi abuela tiene 70 años y mi abuelo 75. » Quelle phrase est juste ?", choix: ["Mi abuelo es menor que mi abuela.", "Mi abuela es mayor que mi abuelo.", "Mi abuelo es mayor que mi abuela.", "Mi abuela es tan mayor como mi abuelo."], reponse: 2, explication: "75 ans > 70 ans : le grand-père est plus âgé, ***mayor que*** la grand-mère. *menor* = plus jeune." },
+        { type: "saisie", question: "Traduis : « Lucía est moins timide que Marta. »", reponses: ["Lucía es menos tímida que Marta"], explication: "***Lucía es menos tímida que Marta.*** *menos* + adjectif accordé au féminin (*tímida*, avec l'accent sur le *í*) + *que*." },
+        { type: "qcm", question: "Complète : « Este libro es ... que la película. » (meilleur)", choix: ["más bueno", "mejor", "mayor", "más mejor"], reponse: 1, explication: "« meilleur » = **mejor** : *Este libro es mejor que la película.* ✗ *más bueno*, ✗ *más mejor*. *mayor* = plus âgé." },
+        { type: "saisie", question: "Traduis : « J'ai beaucoup d'amis. »", reponses: ["Tengo muchos amigos", "Yo tengo muchos amigos"], explication: "***Tengo muchos amigos.*** Pas de « de » : *muchos* s'accorde avec *amigos* (masculin pluriel)." },
+        { type: "redaction", question: "Compare-toi en 5 phrases à une personne de ta famille ou à un ami : la taille, l'âge (*mayor / menor*), le caractère, et ce que vous avez (*más... que*, *mucho / poco* accordés).", corrige: "Modèle :\n\n*Mi hermano Hugo tiene catorce años: es mayor que yo. Es más alto que yo, pero yo soy más deportista. Él es menos hablador que yo. Hugo tiene muchos videojuegos y pocos libros. Yo leo mucho y tengo muchas novelas.*\n\nVérifie :\n- ***más / menos*** + adjectif + ***que*** (jamais *como*) ;\n- *mayor / menor* pour l'âge, *mejor / peor* pour bon / mauvais ;\n- *mucho / poco* **accordés** devant un nom (*muchas novelas, pocos libros*), invariables après un verbe (*leo mucho*)." },
+      ],
+    },
+    {
+      id: "que-estas-haciendo",
+      titre: "¿Qué estás haciendo? Estar + gérondif : l'action en cours",
+      theme: "Grammaire",
+      cours: `
+## Dire ce qu'on est en train de faire
+Pour une action **en cours**, au moment où l'on parle, l'espagnol emploie **estar + gérondif** : « être en train de ».
+- *¿Qué **estás haciendo**? — **Estoy comiendo**.* (Qu'est-ce que tu es en train de faire ? — Je suis en train de manger.)
+- *Mi padre **está cocinando** y mis hermanos **están jugando** en el jardín.*
+
+## Former le gérondif
+| Verbe | Terminaison | Gérondif |
+|---|---|---|
+| -ar : habl**ar** | **-ando** | habl**ando** |
+| -er : com**er** | **-iendo** | com**iendo** |
+| -ir : escrib**ir** | **-iendo** | escrib**iendo** |
+
+- Le gérondif ne change **jamais** : seul *estar* se conjugue (*estoy, estás, está, estamos, estáis, están*).
+- À retenir à part : *leer → **leyendo***, *dormir → **durmiendo***, *hacer → **haciendo*** (régulier), *ver → **viendo***.
+
+>! **Présent ou estar + gérondif ?** *Juego al fútbol los sábados.* (une habitude : présent simple) — *Ahora **estoy jugando** al fútbol.* (en ce moment précis). Les mots *ahora* (maintenant) et *en este momento* annoncent souvent *estar + gérondif*.
+
+>! **Exemple** : un message à 17 h : *¡Hola, abuela! Ahora estoy en casa. Estoy haciendo los deberes y mi hermana está leyendo un cómic. Papá está durmiendo en el sofá.*
+
+> **À retenir** : ***estar*** conjugué + gérondif en **-ando** (-ar) ou **-iendo** (-er, -ir) = être en train de. *leyendo, durmiendo*. *¿Qué estás haciendo?*
+
+### Erreurs fréquentes
+- ✗ *Soy comiendo* → ✓ ***Estoy** comiendo* (toujours *estar*).
+- ✗ *Estoy comando* → ✓ *Estoy com**iendo*** (verbe en -er).
+- ✗ *Está leiendo* → ✓ *Está **leyendo***.
+- ✗ *Estamos jugandos* → ✓ *Estamos **jugando*** (le gérondif est invariable).
+`,
+      exercices: [
+        { type: "qcm", question: "Que veut dire « Estoy bailando » ?", choix: ["Je danse tous les jours.", "Je suis en train de danser.", "J'ai dansé.", "Je vais danser."], reponse: 1, explication: "***estar* + gérondif** = être en train de : *Estoy bailando* = je suis en train de danser. « Je vais danser » = *Voy a bailar*." },
+        { type: "saisie", question: "Donne le gérondif de *cantar*.", reponses: ["cantando"], explication: "Verbe en **-ar** → **-ando** : ***cantando***." },
+        { type: "saisie", question: "Donne le gérondif de *escribir*.", reponses: ["escribiendo"], explication: "Verbe en **-ir** → **-iendo** : ***escribiendo***. Même terminaison pour les verbes en -er : *comiendo, bebiendo*." },
+        { type: "qcm", question: "Complète : « Mis padres ... viendo la tele. »", choix: ["son", "están", "estamos", "tienen"], reponse: 1, explication: "On emploie **estar**, conjugué avec le sujet *mis padres* (ellos) : ***están** viendo la tele*." },
+        { type: "vf", question: "Le gérondif de *leer* est *leiendo*.", reponse: false, explication: "On écrit ***leyendo*** (le *i* entre deux voyelles devient *y*). Même chose : *oír → oyendo*." },
+        { type: "saisie", question: "Traduis : « Mon frère est en train de dormir. »", reponses: ["Mi hermano está durmiendo"], explication: "***Mi hermano está durmiendo.*** *dormir* → **durmiendo** (le *o* devient *u*)." },
+        { type: "qcm", question: "Quelle phrase décrit une **habitude** (et non une action en cours) ?", choix: ["Ahora estoy comiendo.", "Los lunes como en el comedor.", "Estamos jugando en el patio.", "¿Qué estás haciendo?"], reponse: 1, explication: "*Los lunes como en el comedor* (le lundi, je mange à la cantine) : une habitude, donc le **présent simple**. Les trois autres décrivent ce qui se passe maintenant." },
+        { type: "saisie", question: "Réponds à la question « ¿Qué estás haciendo? » : tu es en train d'étudier. (2 mots)", reponses: ["Estoy estudiando"], explication: "***Estoy estudiando.*** *estudiar* (-ar) → *estudiando*." },
+        { type: "redaction", question: "Il est 18 h chez toi. Écris un message de 5 phrases à un ami espagnol pour dire ce que chaque personne de ta famille est en train de faire (*estar* + gérondif), et ce que toi, tu fais.", corrige: "Modèle :\n\n*¡Hola, Álvaro! Son las seis de la tarde. Mi madre está trabajando en el ordenador. Mi padre está cocinando una tortilla. Mi hermana pequeña está durmiendo. Y yo estoy escribiendo este mensaje y escuchando música. ¿Y tú, qué estás haciendo?*\n\nVérifie :\n- ***estar*** bien conjugué (*está, están, estoy*) ;\n- **-ando** pour les verbes en -ar, **-iendo** pour -er et -ir ;\n- formes à part : *durmiendo, leyendo* ;\n- le gérondif ne s'accorde pas." },
+      ],
+    },
+    {
+      id: "comida-profesiones",
+      titre: "Les aliments et les métiers",
+      theme: "Axe 2 : Le quotidien : vivre, jouer, apprendre",
+      cours: `
+## Los alimentos : les aliments
+| Espagnol | Français |
+|---|---|
+| el pan / la leche / el queso | le pain / le lait / le fromage |
+| el huevo / la carne / el pollo | l'œuf / la viande / le poulet |
+| el pescado / el arroz / la pasta | le poisson / le riz / les pâtes |
+| la fruta / la manzana / la naranja | le fruit / la pomme / l'orange |
+| el plátano / la fresa | la banane / la fraise |
+| las verduras / el tomate / la patata | les légumes / la tomate / la pomme de terre |
+| el agua / el zumo | l'eau / le jus de fruits |
+| el helado / el chocolate | la glace / le chocolat |
+
+- Deux mots pour « poisson » : ***el pescado*** = le poisson qu'on **mange** ; *el pez* = le poisson **vivant**, dans l'eau.
+- En Amérique latine, on dit souvent *el jugo* (le jus) et *la papa* (la pomme de terre).
+- Pas d'article partitif : « je mange **du** pain » = *como pan* ; « je bois **de l'**eau » = *bebo agua*.
+- Trois plats espagnols : la ***tortilla de patatas*** (omelette aux pommes de terre), la ***paella*** (riz cuit avec des légumes, du poulet ou des fruits de mer, de la région de Valence) et le ***gazpacho*** (soupe froide de tomates, d'Andalousie).
+
+## Las profesiones : les métiers
+| Masculin | Féminin | Français |
+|---|---|---|
+| el médico | la médica | le médecin |
+| el profesor | la profesora | le professeur |
+| el enfermero | la enfermera | l'infirmier / l'infirmière |
+| el cocinero | la cocinera | le cuisinier / la cuisinière |
+| el camarero | la camarera | le serveur / la serveuse |
+| el panadero | la panadera | le boulanger / la boulangère |
+| el veterinario | la veterinaria | le vétérinaire |
+| el bombero | la bombera | le pompier |
+| el / la policía | | le policier / la policière |
+| el / la periodista | | le / la journaliste |
+
+- Les métiers en **-ista** et *policía* ont **une seule forme** : seul l'article change (*el periodista / la periodista*).
+- **Pas d'article** devant le métier après *ser* : *Mi madre **es** enfermera.* (✗ *es una enfermera*)
+- Où ? ***trabajar en*** : *Trabaja **en un** hospital / **en un** restaurante / **en una** panadería.*
+- Rêver d'un métier : *Quiero **ser** veterinaria.* (Je veux être vétérinaire.)
+
+> **À retenir** : *el pan, la leche, el queso, el huevo, la carne, el pescado, el pollo, el arroz, la fruta, las verduras, el agua*. Pas d'article partitif : *como pan*. Métiers : masculin **-o** / féminin **-a** (*médico, médica*) ; **-ista** invariable. *Es médico* (sans article) ; *trabaja en un hospital* ; *quiero ser...*
+
+### Erreurs fréquentes
+- ✗ *Como el pan* (pour « du pain ») → ✓ *Como pan*.
+- ✗ *el pez con patatas* (dans l'assiette) → ✓ *el **pescado** con patatas*.
+- ✗ *Mi padre es un cocinero* → ✓ *Mi padre es cocinero*.
+- ✗ *la periodisto* → ✓ *la periodista*.
+`,
+      textes: {
+        mercado: `**El sábado en el mercado**
+
+Me llamo Nerea y vivo en Valencia. Mi madre es médica y trabaja en un hospital. Mi padre es panadero: se levanta a las cuatro de la mañana para hacer el pan. El sábado vamos juntos al mercado. Compramos fruta (naranjas y fresas), verduras, pollo y arroz. ¡El domingo mi padre cocina una paella para toda la familia! Yo no como mucha carne, pero me encanta la paella de mi padre. De mayor (plus tard), quiero ser veterinaria porque me encantan los animales.
+
+(texte d'entraînement)`,
+      },
+      exercices: [
+        { type: "qcm", question: "Que veut dire *el queso* ?", choix: ["le lait", "le fromage", "l'œuf", "la viande"], reponse: 1, explication: "***el queso*** = le fromage. Le lait = *la leche*, l'œuf = *el huevo*, la viande = *la carne*." },
+        { type: "saisie", question: "Traduis : « la pomme » (avec l'article)", reponses: ["la manzana"], explication: "***la manzana***. L'orange = *la naranja*, la banane = *el plátano*." },
+        { type: "qcm", question: "Au restaurant, tu veux manger du poisson. Tu dis :", choix: ["Quiero el pez.", "Quiero pescado.", "Quiero un pez.", "Quiero el pescador."], reponse: 1, explication: "Le poisson qu'on mange = ***el pescado*** ; *el pez* est le poisson vivant ; *el pescador* est le pêcheur. Pas d'article partitif : *quiero pescado*." },
+        { type: "saisie", question: "Écris le féminin de *el enfermero* (avec l'article).", reponses: ["la enfermera"], explication: "Masculin en **-o** → féminin en **-a** : ***la enfermera***." },
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Mi tía es una periodista.", "Mi tía es periodista.", "Mi tía es periodisto.", "Mi tía está periodista."], reponse: 1, explication: "***Mi tía es periodista.*** Pas d'article devant le métier ; *periodista* est le même au masculin et au féminin ; le métier se dit avec *ser*." },
+        { type: "saisie", question: "Traduis : « Mon père est cuisinier. »", reponses: ["Mi padre es cocinero"], explication: "***Mi padre es cocinero.*** Avec *ser*, sans article." },
+        { type: "qcm", texte: "mercado", question: "Quel est le métier du père de Nerea ?", choix: ["médecin", "cuisinier", "boulanger", "vétérinaire"], reponse: 2, explication: "*Mi padre es **panadero**: se levanta a las cuatro de la mañana para hacer el pan.* C'est sa mère qui est médecin ; Nerea veut être vétérinaire." },
+        { type: "vf", texte: "mercado", question: "Nerea mange beaucoup de viande.", reponse: false, explication: "*Yo **no como mucha carne*** : elle ne mange pas beaucoup de viande (mais elle adore la paella de son père)." },
+        { type: "saisie", texte: "mercado", question: "Quel plat le père de Nerea cuisine-t-il le dimanche ? Réponds avec le mot espagnol du texte.", reponses: ["paella", "una paella"], explication: "*¡El domingo mi padre cocina **una paella** para toda la familia!* La paella est un plat de riz de la région de Valence, où vit Nerea." },
+        { type: "redaction", question: "Présente en 5 à 6 phrases deux personnes de ton entourage : leur métier, où elles travaillent (*trabajar en*), ce qu'elles aiment manger ; puis dis quel métier tu veux faire et pourquoi.", corrige: "Modèle :\n\n*Mi madre es profesora y trabaja en un colegio. Le encantan las verduras y el pescado. Mi tío es bombero. Come mucha pasta y mucho pan. De mayor, quiero ser cocinero porque me encanta preparar tortillas.*\n\nVérifie :\n- *ser* + métier **sans article** ; féminin accordé (*profesora*) ;\n- *trabajar en un / una* + lieu ;\n- pas d'article partitif (*come pasta*), mais l'article après *gustar / encantar* (*le encantan las verduras*) ;\n- *mucho / mucha* accordé devant le nom." },
+      ],
+    },
+    {
+      id: "fiestas-calendario",
+      titre: "Les fêtes du calendrier : Navidad, los Reyes, el Día de Muertos, Semana Santa, Inti Raymi",
+      theme: "Axe 2 : Le quotidien : vivre, jouer, apprendre",
+      cours: `
+## Noël et le Nouvel An en Espagne
+- **La Nochebuena** (le 24 décembre au soir) : un grand dîner en famille. **La Navidad** (le 25 décembre). On se souhaite : ***¡Feliz Navidad!***
+- **La Nochevieja** (le 31 décembre) : à minuit, on mange **douze grains de raisin** (*las doce uvas*), un à chaque coup de l'horloge, pour avoir de la chance pendant les douze mois de l'année. À Madrid, on regarde l'horloge de la **Puerta del Sol**. Puis : ***¡Feliz Año Nuevo!***
+
+## Los Reyes Magos : les Rois mages
+En Espagne, ce sont surtout les **Rois mages** (Melchor, Gaspar et Baltasar) qui apportent les cadeaux, dans la nuit du **5 au 6 janvier**.
+- Le **5 janvier**, il y a un grand défilé dans les rues : ***la cabalgata de Reyes***. Les rois lancent des bonbons aux enfants.
+- Le **6 janvier** au matin, les enfants trouvent leurs cadeaux. On mange le ***roscón de Reyes***, une couronne briochée avec une petite figurine cachée (comme la galette des rois en France).
+
+## El Día de Muertos (Mexique)
+Le **1er et le 2 novembre**, les Mexicains fêtent leurs morts, dans la **joie** et non dans la tristesse : on pense que les défunts reviennent rendre visite à leur famille.
+- On prépare un **autel** (*el altar*, *la ofrenda*) avec des photos, des bougies (*las velas*), des fleurs orange (*el cempasúchil*), le *pan de muerto* et des **têtes de mort en sucre** (*las calaveras de azúcar*).
+- Cette fête est inscrite au patrimoine culturel immatériel de l'UNESCO.
+
+## La Semana Santa (Espagne)
+La **semaine sainte** est la semaine qui précède **Pâques** (en mars ou en avril). Dans beaucoup de villes, surtout en Andalousie (Séville, Málaga), il y a des **processions** (*las procesiones*) : des confréries portent dans les rues de grandes statues sur des estrades décorées (*los pasos*), au son des tambours.
+
+## El Inti Raymi (Pérou)
+***Inti Raymi*** signifie « fête du Soleil » en quechua, la langue des Incas. Elle a lieu le **24 juin** à **Cuzco**, l'ancienne capitale des Incas, au Pérou. Dans l'hémisphère sud, c'est le moment du **solstice d'hiver** : on remercie le Soleil (*Inti*) et on lui demande de revenir. Des centaines d'acteurs en costumes rejouent la cérémonie inca, notamment sur le site de Sacsayhuamán.
+
+>! **Pour parler d'une fête** : *En Navidad, comemos con la familia.* — *El seis de enero, los niños reciben regalos.* — *Me gusta mucho la cabalgata.* Les noms de fêtes prennent une majuscule ; les mois, non (*enero, junio*).
+
+> **À retenir** : *Nochebuena* (24/12), *Navidad* (25/12), *Nochevieja* (31/12, les douze raisins) ; *los Reyes Magos* (6/01, *cabalgata* et *roscón*) ; *el Día de Muertos* (Mexique, 1er-2 novembre, *ofrenda*, *calaveras*) ; *la Semana Santa* (avant Pâques, processions) ; *el Inti Raymi* (Pérou, Cuzco, 24 juin, fête du Soleil). *¡Feliz Navidad! ¡Feliz Año Nuevo!*
+
+### Erreurs fréquentes
+- Confondre *Nochebuena* (24 décembre) et *Nochevieja* (31 décembre).
+- Croire que le *Día de Muertos* est une fête triste : c'est une fête **joyeuse** et colorée.
+- ✗ *el seis de Enero* → ✓ *el seis de **enero*** (pas de majuscule au mois).
+`,
+      exercices: [
+        { type: "qcm", question: "Que fait-on en Espagne à minuit, le 31 décembre ?", choix: ["On mange douze grains de raisin.", "On ouvre les cadeaux.", "On allume des bougies sur un autel.", "On suit une procession."], reponse: 0, explication: "Pour la ***Nochevieja***, on mange **douze grains de raisin** (*las doce uvas*), un à chaque coup de minuit." },
+        { type: "qcm", question: "En Espagne, quel jour les enfants reçoivent-ils surtout leurs cadeaux des Rois mages ?", choix: ["le 24 décembre", "le 25 décembre", "le 1er janvier", "le 6 janvier"], reponse: 3, explication: "Les ***Reyes Magos*** passent dans la nuit du 5 au 6 janvier : les cadeaux sont là le **6 janvier** au matin, après la *cabalgata* du 5." },
+        { type: "saisie", question: "Comment souhaite-t-on « Joyeux Noël » en espagnol ?", reponses: ["¡Feliz Navidad!", "Feliz Navidad"], explication: "***¡Feliz Navidad!*** Pour le 1er janvier : *¡Feliz Año Nuevo!*" },
+        { type: "vf", question: "Le Día de Muertos est une fête triste, où l'on reste en silence.", reponse: false, explication: "C'est une fête **joyeuse** et colorée : on accueille les défunts avec une *ofrenda*, des fleurs orange, des *calaveras de azúcar* et le *pan de muerto*." },
+        { type: "qcm", question: "Dans quel pays et dans quelle ville a lieu l'Inti Raymi ?", choix: ["au Mexique, à Mexico", "au Pérou, à Cuzco", "en Espagne, à Séville", "en Argentine, à Buenos Aires"], reponse: 1, explication: "L'***Inti Raymi*** (fête du Soleil des Incas) a lieu le 24 juin à **Cuzco**, au **Pérou**." },
+        { type: "qcm", question: "Qu'est-ce que la *Semana Santa* ?", choix: ["la semaine des vacances d'été", "la semaine avant Pâques, avec des processions", "la semaine de Noël", "la fête nationale espagnole"], reponse: 1, explication: "La ***Semana Santa*** (semaine sainte) précède Pâques. En Andalousie surtout, des confréries portent les *pasos* dans les rues." },
+        { type: "saisie", question: "Comment s'appelle la soirée du 24 décembre en Espagne ? (en espagnol)", reponses: ["la Nochebuena", "Nochebuena"], explication: "***la Nochebuena*** (« la bonne nuit »). Le 31 décembre, c'est *la Nochevieja* (« la vieille nuit »)." },
+        { type: "vf", question: "*Inti* veut dire « soleil » en quechua, la langue des Incas.", reponse: true, explication: "*Inti* = le Soleil, dieu principal des Incas ; *Inti Raymi* = la fête du Soleil." },
+        { type: "saisie", question: "Comment s'appellent les têtes de mort en sucre du Día de Muertos ? (avec l'article, au pluriel)", reponses: ["las calaveras de azúcar", "las calaveras"], explication: "***las calaveras de azúcar*** : on écrit souvent dessus le prénom d'un défunt… ou d'un vivant, pour rire !" },
+        { type: "redaction", question: "Choisis une des fêtes du chapitre et présente-la en espagnol en 5 phrases : où (pays, ville), quand (date), ce qu'on fait, ce qu'on mange ou ce qu'on voit, et si elle te plaît (*me gusta... porque...*).", corrige: "Modèle (los Reyes) :\n\n*En España, el cinco de enero hay una cabalgata en las calles. Los Reyes Magos tiran caramelos a los niños. El seis de enero, los niños abren sus regalos. Comemos el roscón de Reyes con la familia. Me gusta mucho esta fiesta porque es muy alegre.*\n\nVérifie :\n- la date en espagnol (*el cinco de enero*, sans majuscule au mois) ;\n- les verbes au présent, accordés (*hay, tiran, abren, comemos*) ;\n- le vocabulaire de la fête (*cabalgata, roscón, regalos* ; ou *ofrenda, calaveras* ; ou *procesiones* ; ou *el Sol, Cuzco*) ;\n- *me gusta... porque...* pour donner ton avis." },
+      ],
+    },
+    {
+      id: "vale-cuidado-hay-que",
+      titre: "Réagir et prévenir : ¡Vale!, De acuerdo, ¡Cuidado!, ¡Espera!, No puedo, hay que",
+      theme: "Communiquer",
+      cours: `
+## Accepter, refuser
+| Espagnol | Français |
+|---|---|
+| ¡Vale! | D'accord ! OK ! (en Espagne, à l'oral) |
+| De acuerdo. | D'accord. (partout) |
+| ¡Claro! | Bien sûr ! |
+| ¡Genial! / ¡Qué bien! | Génial ! / Super ! |
+| No puedo. | Je ne peux pas. |
+| Lo siento. | Je suis désolé(e). |
+
+- *¿Vamos al parque? — **¡Vale!*** / ***Lo siento, no puedo**: tengo que estudiar.* (Je dois étudier.)
+- ***No puedo*** + infinitif : *No puedo ir.* (Je ne peux pas y aller.) — *No puedo salir hoy.* (*poder* : *puedo, puedes, puede...*)
+- ***tengo que*** + infinitif = je dois : *Tengo que hacer los deberes.*
+
+## Avertir, faire attendre
+| Espagnol | Français |
+|---|---|
+| ¡Cuidado! | Attention ! |
+| ¡Espera! / ¡Esperad! | Attends ! / Attendez ! |
+| ¡Un momento! | Un instant ! |
+| ¡Para! | Arrête ! |
+| ¡Rápido! / ¡Venga! | Vite ! / Allez ! |
+
+- *¡Cuidado! ¡El suelo está mojado!* (Attention, le sol est mouillé !)
+- *¡Espera! Voy contigo.* (Attends ! Je viens avec toi.)
+- N'oublie pas le **point d'exclamation à l'envers** au début : ***¡**Cuidado**!***
+
+## Hay que + infinitif : il faut
+***Hay que*** + infinitif dit ce qu'**il faut** faire, en général, pour tout le monde :
+- *En clase, **hay que** levantar la mano.* (En classe, il faut lever la main.)
+- *Para cruzar la calle, **hay que** mirar a la derecha y a la izquierda.*
+- *No **hay que** correr en los pasillos.* (Il ne faut pas courir dans les couloirs.)
+
+>! **Hay que ou tengo que ?** *Hay que estudiar* = il faut étudier (tout le monde, règle générale). ***Tengo que** estudiar* = **je** dois étudier (moi). *hay que* ne change jamais.
+
+> **À retenir** : accepter : *¡Vale! De acuerdo. ¡Claro!* ; refuser : *Lo siento, no puedo* (+ infinitif). Avertir : *¡Cuidado! ¡Espera! ¡Para!* ***Hay que*** + infinitif = il faut (règle générale) ; *tengo que* + infinitif = je dois.
+
+### Erreurs fréquentes
+- ✗ *No puedo de ir* → ✓ *No puedo **ir*** (infinitif directement).
+- ✗ *Hay de estudiar* → ✓ *Hay **que** estudiar*.
+- ✗ *Cuidado!* sans ¡ → ✓ ***¡**Cuidado!*
+- ✗ *Tengo estudiar* → ✓ *Tengo **que** estudiar*.
+`,
+      exercices: [
+        { type: "qcm", question: "Ton ami propose : « ¿Jugamos al fútbol? » Tu acceptes. Tu dis :", choix: ["¡Cuidado!", "¡Vale!", "Lo siento.", "¡Espera!"], reponse: 1, explication: "***¡Vale!*** = d'accord, OK (en Espagne). *¡Cuidado!* = attention ; *Lo siento* = je suis désolé ; *¡Espera!* = attends." },
+        { type: "qcm", question: "Un camarade va marcher sur ta trousse. Tu cries :", choix: ["¡Claro!", "¡De acuerdo!", "¡Cuidado!", "¡Genial!"], reponse: 2, explication: "***¡Cuidado!*** = Attention ! On l'entend aussi sur les panneaux : *¡Cuidado con el perro!* (Attention au chien !)" },
+        { type: "saisie", question: "Traduis : « Je ne peux pas. » (2 mots)", reponses: ["No puedo", "Yo no puedo"], explication: "***No puedo.*** *poder* change de voyelle : *puedo, puedes, puede*. Plus poli : *Lo siento, no puedo.*" },
+        { type: "vf", question: "*De acuerdo* veut dire « D'accord ».", reponse: true, explication: "***De acuerdo*** = d'accord ; on le comprend partout dans le monde hispanophone. *¡Vale!* s'emploie surtout en Espagne." },
+        { type: "saisie", question: "Traduis : « Attends ! » (tu parles à un seul copain)", reponses: ["¡Espera!", "Espera"], explication: "***¡Espera!*** (de *esperar*, attendre). À plusieurs : *¡Esperad!* N'oublie pas le ¡ au début à l'écrit." },
+        { type: "qcm", question: "Complète : « Para entrar en la piscina, ... ducharse. » (il faut)", choix: ["hay que", "tengo", "hay de", "hay"], reponse: 0, explication: "***hay que*** + infinitif = il faut (règle pour tout le monde) : *hay que ducharse*. ✗ *hay de*." },
+        { type: "saisie", question: "Traduis : « Il faut écouter le professeur. »", reponses: ["Hay que escuchar al profesor"], explication: "***Hay que escuchar al profesor.*** *hay que* + infinitif ; **al** (a + el) devant une personne : *escuchar **al** profesor*." },
+        { type: "qcm", question: "Quelle phrase veut dire « Je dois faire mes devoirs » ?", choix: ["Hay que hacer los deberes.", "Tengo que hacer los deberes.", "Puedo hacer los deberes.", "Tengo hacer los deberes."], reponse: 1, explication: "***Tengo que*** + infinitif = **je** dois. *Hay que* = il faut (en général) ; *puedo* = je peux ; ✗ *tengo hacer* (il manque *que*)." },
+        { type: "redaction", question: "Écris un petit dialogue de 6 répliques entre toi et un ami espagnol : il te propose une sortie, tu refuses poliment (*Lo siento, no puedo... tengo que...*), il en propose une autre, tu acceptes. Pendant la sortie, l'un de vous avertit l'autre d'un danger (*¡Cuidado!*).", corrige: "Modèle :\n\n— *¿Vamos al cine esta tarde?*\n— *Lo siento, no puedo: tengo que estudiar.*\n— *¿Y mañana? ¿Vamos a la playa?*\n— *¡Vale! De acuerdo.*\n— *(À la plage) ¡Cuidado! ¡Hay muchas medusas!*\n— *¡Espera! Salgo del agua.*\n\nVérifie :\n- *no puedo* + infinitif ; *tengo **que*** + infinitif ;\n- *¡Vale! / De acuerdo* pour accepter ;\n- les **¡** et **¿** au début des phrases ;\n- (*las medusas* = les méduses)." },
+      ],
+    },
+    {
+      id: "aqui-antes-luego",
+      titre: "Situer et enchaîner : aquí / allí, antes de / después de, entonces, luego ; a devant une personne",
+      theme: "Grammaire",
+      cours: `
+## Aquí, allí : ici, là-bas
+- ***aquí*** = ici, près de moi : *Aquí está mi colegio.* (Voici mon collège.)
+- ***allí*** = là-bas, loin : *Allí vive mi abuela.* (Là-bas vit ma grand-mère.)
+- Les deux portent un **accent** sur le *í*.
+
+## Antes de, después de : avant, après
+| Espagnol | Français | Exemple |
+|---|---|---|
+| antes de + nom | avant + nom | *antes de la cena* (avant le dîner) |
+| antes de + infinitif | avant de + infinitif | *antes de dormir* (avant de dormir) |
+| después de + nom | après + nom | *después de clase* (après les cours) |
+| después de + infinitif | après + infinitif | *después de comer* (après avoir mangé) |
+
+- Devant ***el***, *de* se contracte : *después **del** partido* (après le match).
+- Le verbe reste à l'**infinitif** : *Antes de salir, me lavo los dientes.* (✗ *antes de salgo*)
+
+## Enchaîner un récit : primero, luego, después, entonces, al final
+- ***primero*** (d'abord) → ***luego*** / ***después*** (ensuite, puis) → ***al final*** (à la fin).
+- ***entonces*** = alors (à ce moment-là, ou par conséquent) : *Llueve. **Entonces** llevo el paraguas.* — *Sale el sol. **Entonces** vamos a la playa.*
+- *Primero desayuno, luego me visto y después voy al colegio.*
+
+## A devant un COD de personne
+En espagnol, quand le complément d'objet direct est une **personne** (ou un animal qu'on aime), on met ***a*** devant :
+- *Veo **a** mi abuela.* (Je vois ma grand-mère.) — *Busco **a** Pablo.* — *Quiero mucho **a** mi perro.*
+- *a + el = **al*** : *Escucho **al** profesor.*
+- Mais **pas de *a*** devant une chose : *Veo **la** casa.* — *Busco **mi** mochila.* Ni après *tener* : *Tengo dos hermanos.*
+
+>! **Exemple de récit (conte)** : *Primero, Caperucita camina por el bosque. Luego ve **al** lobo. El lobo pregunta: «¿Adónde vas?». Entonces, Caperucita contesta: «Allí, a casa de mi abuela». Después de la conversación, el lobo corre a la casa.*
+
+> **À retenir** : *aquí* (ici) / *allí* (là-bas) ; *antes de / después de* + nom ou **infinitif** ; *primero, luego, después, entonces, al final*. ***a*** devant une **personne** COD : *veo a mi abuela, escucho al profesor* ; pas de *a* devant une chose ni après *tener*.
+
+### Erreurs fréquentes
+- ✗ *Veo mi madre* → ✓ *Veo **a** mi madre*.
+- ✗ *Tengo a dos hermanos* → ✓ *Tengo dos hermanos*.
+- ✗ *después de el partido* → ✓ *después **del** partido*.
+- ✗ *antes de como* → ✓ *antes de **comer*** (infinitif).
+- ✗ *aqui, alli* → ✓ *aquí, allí* (accents).
+`,
+      exercices: [
+        { type: "qcm", question: "Que veut dire « Allí está la playa » ?", choix: ["Ici, c'est la plage.", "Là-bas, il y a la plage.", "La plage est fermée.", "La plage est près d'ici."], reponse: 1, explication: "***allí*** = là-bas (loin). Ici = *aquí*." },
+        { type: "saisie", question: "Traduis : « ici » (un mot)", reponses: ["aquí"], explication: "***aquí***, avec un accent sur le *í*. Là-bas = *allí*." },
+        { type: "qcm", question: "Complète : « ... comer, me lavo las manos. » (avant de)", choix: ["Antes de", "Después de", "Entonces", "Luego"], reponse: 0, explication: "***Antes de*** + infinitif = avant de : *Antes de comer, me lavo las manos.* *Después de comer* = après avoir mangé." },
+        { type: "saisie", question: "Complète avec *de* + *el* contractés : « Después ... partido, cenamos. »", reponses: ["del"], explication: "**de + el = del** : *después **del** partido*." },
+        { type: "vf", question: "« Entonces » veut dire « alors ».", reponse: true, explication: "***entonces*** = alors : *Llueve. Entonces llevo el paraguas.* Ensuite = *luego* ou *después*." },
+        { type: "qcm", question: "Quelle phrase est correcte ?", choix: ["Veo mi abuela en el parque.", "Veo a mi abuela en el parque.", "Veo al mi abuela en el parque.", "Veo de mi abuela en el parque."], reponse: 1, explication: "*mi abuela* est une **personne** complément d'objet direct : on met ***a*** : *Veo **a** mi abuela.*" },
+        { type: "qcm", question: "Dans quelle phrase **ne faut-il pas** ajouter *a* ?", choix: ["Busco ... Pablo.", "Escucho ... mi madre.", "Busco ... mi mochila.", "Quiero mucho ... mi hermana."], reponse: 2, explication: "*mi mochila* est une **chose** : *Busco mi mochila.* Devant les personnes (*Pablo, mi madre, mi hermana*), on met *a*." },
+        { type: "saisie", question: "Traduis : « Je regarde le professeur. » (verbe *mirar*)", reponses: ["Miro al profesor"], explication: "***Miro al profesor.*** Personne COD → *a* ; *a + el* = **al**." },
+        { type: "redaction", question: "Raconte en 5 à 6 phrases ton samedi (vrai ou imaginaire) dans l'ordre, avec *primero, luego, después, entonces, al final*, au moins un *antes de* ou *después de* + infinitif, et une personne que tu vois ou que tu appelles (*a*).", corrige: "Modèle :\n\n*Primero desayuno con mi familia. Luego voy al mercado con mi padre. Después de comer, llamo a mi amiga Inés. Hace sol: entonces vamos al parque. Allí vemos a nuestros amigos. Al final, antes de dormir, leo un poco.*\n\nVérifie :\n- l'ordre du récit : *primero → luego / después → al final* ;\n- *antes de / después de* + **infinitif** (*comer, dormir*) ;\n- ***a*** devant une personne : *llamo a mi amiga, vemos a nuestros amigos* ;\n- les accents : *allí, aquí, después*." },
+      ],
     }
   ]
 };
