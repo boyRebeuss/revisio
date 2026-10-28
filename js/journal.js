@@ -142,7 +142,11 @@ export function demarrer() {
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "hidden") { envoyerEleves(); envoyerResultats(); }
   });
-  addEventListener("error", (e) => signaler("plantage", `${e.message} (${(e.filename || "").split("/").pop()}:${e.lineno})`));
+  addEventListener("error", (e) => {
+    // « Script error. » sans fichier : erreur d'un script étranger (extension, traduction de Safari…), sans détail ni intérêt
+    if (!e.filename && /^Script error\.?$/.test(e.message)) return;
+    signaler("plantage", `${e.message} (${(e.filename || "").split("/").pop()}:${e.lineno})`);
+  });
   addEventListener("unhandledrejection", (e) => signaler("plantage", e.reason?.message ?? String(e.reason)));
   // Tout message d'erreur affiché (zones « .erreur ») : exactement ce que l'élève a vu
   new MutationObserver((lots) => {
@@ -152,7 +156,7 @@ export function demarrer() {
         if (!el) continue;
         const errs = el.matches?.(".erreur") ? [el] : [...(el.querySelectorAll?.(".erreur") ?? [])];
         if (!errs.length && el.closest?.(".erreur")) errs.push(el.closest(".erreur"));
-        errs.forEach((x) => x.textContent.trim() && signaler("affichée", x.textContent));
+        errs.forEach((x) => x.textContent.trim() && !x.closest("[data-consigne]") && signaler("affichée", x.textContent));
       }
     }
   }).observe(document.body, { childList: true, subtree: true });

@@ -144,7 +144,8 @@ function formulaireProfil(existant, { depuisReglages = false } = {}) {
       }, a)
     )
   );
-  const msg = h("p", { class: "erreur" });
+  // Simple rappel de saisie (prénom, classe) : pas compté comme une erreur dans le journal
+  const msg = h("p", { class: "erreur", "data-consigne": true });
   const btn = h("button", { class: "btn plein", type: "submit" }, existant ? "Enregistrer" : "Créer le profil");
   return h("form", {
     class: "carte form",
